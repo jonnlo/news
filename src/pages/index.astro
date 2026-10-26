@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { categories, formatDate, type Edition } from '../content';
+const allEditions = Object.values(import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' })) as Edition[];
+const edition = allEditions.sort((a, b) => b.date.localeCompare(a.date))[0];
+const stories = edition.stories;
+const counts = Object.fromEntries(categories.map((category) => [category, stories.filter((story) => story.category === category).length]));
+---
+<Layout title="The Daily Brief" description="A small, human-curated window on technology, design, Hong Kong, ideas and books.">
+  <main class="wrap">
+    <header class="masthead">
+      <a class="wordmark" href={import.meta.env.BASE_URL}>THE DAILY BRIEF<span> / PERSONAL EDITION</span></a>
+      <a class="archive-link" href={`${import.meta.env.BASE_URL}archive/`}>Archive <span aria-hidden="true">↗</span></a>
+    </header>
+    <section class="intro">
+      <p class="eyebrow">A quieter read of the day</p>
+      <h1>Good stories,<br /><em>in one place.</em></h1>
+      <p class="dek">A daily selection across technology, design, Hong Kong, philosophy and literature. Collected automatically, chosen by clear rules, always linked to the original.</p>
+    </section>
+    <section class="edition-bar" aria-label="Edition date and story count">
+      <div><span class="edition-label">TODAY'S EDITION</span><span class="edition-date">{formatDate(edition.date)}</span></div>
+      <span class="edition-total">{stories.length} stories <span aria-hidden="true">·</span> {edition.timezone.replace('_', ' ')}</span>
+    </section>
+    <nav class="filters" aria-label="Filter stories by category">
+      <button class="filter active" data-filter="All" aria-pressed="true">All <span>{stories.length}</span></button>
+      {categories.map((category) => <button class="filter" data-filter={category} aria-pressed="false">{category} <span>{counts[category]}</span></button>)}
+    </nav>
+    <section class="story-grid" aria-label="Today's stories">
+      {stories.map((story, index) => <article class={`story ${index === 0 ? 'story-featured' : ''}`} data-category={story.category}>
+        {story.image && <a class="story-image" href={story.url} target="_blank" rel="noreferrer"><img src={story.image} alt="" loading="lazy" /></a>}
+        <div class="story-copy">
+          <div class="story-meta"><span class="category-label">{story.category}</span><span>{story.source}</span><span>{formatDate(story.publishedAt, { month: 'short', day: 'numeric' })}</span></div>
+          <h2><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a></h2>
+          {story.excerpt && <p>{story.excerpt}</p>}
+          <a class="read-link" href={story.url} target="_blank" rel="noreferrer">Read at {story.source} <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>)}
+    </section>
+    <p class="empty-state" hidden>No stories in this category today.</p>
+    <footer class="page-footer"><span>Collected without AI summaries or tracking.</span><span>Sources and selection rules are documented in the project README.</span></footer>
+  </main>
+  <script>
+    const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
+    const cards = [...document.querySelectorAll<HTMLElement>('.story')];
+    const empty = document.querySelector<HTMLElement>('.empty-state');
+    filters.forEach((button) => button.addEventListener('click', () => {
+      const selected = button.dataset.filter;
+      filters.forEach((filter) => {
+        const active = filter === button;
+        filter.classList.toggle('active', active);
+        filter.setAttribute('aria-pressed', String(active));
+      });
+      let visible = 0;
+      cards.forEach((card) => {
+        const show = selected === 'All' || card.dataset.category === selected;
+        card.hidden = !show;
+        if (show) visible++;
+      });
+      if (empty) empty.hidden = visible > 0;
+    }));
+  </script>
+</Layout>

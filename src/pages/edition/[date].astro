@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { formatDate, type Edition } from '../../content';
+export function getStaticPaths() {
+  const editions = Object.values(import.meta.glob('../../data/editions/*.json', { eager: true, import: 'default' })) as Edition[];
+  return editions.map((edition) => ({ params: { date: edition.date }, props: { edition } }));
+}
+const { edition } = Astro.props as { edition: Edition };
+---
+<Layout title={`Edition · ${formatDate(edition.date)}`} description={`The Daily Brief edition for ${formatDate(edition.date)}.`}>
+  <main class="wrap">
+    <header class="masthead"><a class="wordmark" href={import.meta.env.BASE_URL}>THE DAILY BRIEF<span> / PERSONAL EDITION</span></a><a class="archive-link" href={`${import.meta.env.BASE_URL}archive/`}>Archive <span aria-hidden="true">↗</span></a></header>
+    <section class="intro archive-intro"><p class="eyebrow">Edition · Asia/Hong_Kong</p><h1>{formatDate(edition.date)}<em>.</em></h1><p class="dek">{edition.stories.length} stories from the daily reading list.</p></section>
+    <section class="story-grid" aria-label="Stories from this edition">
+      {edition.stories.map((story) => <article class="story" data-category={story.category}>
+        {story.image && <a class="story-image" href={story.url} target="_blank" rel="noreferrer"><img src={story.image} alt="" loading="lazy" /></a>}
+        <div class="story-copy"><div class="story-meta"><span class="category-label">{story.category}</span><span>{story.source}</span><span>{formatDate(story.publishedAt, { month: 'short', day: 'numeric' })}</span></div><h2><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a></h2>{story.excerpt && <p>{story.excerpt}</p>}<a class="read-link" href={story.url} target="_blank" rel="noreferrer">Read at {story.source} <span aria-hidden="true">↗</span></a></div>
+      </article>)}
+    </section>
+    <footer class="page-footer"><span>Collected without AI summaries or tracking.</span><span><a href={`${import.meta.env.BASE_URL}archive/`}>All editions</a></span></footer>
+  </main>
+</Layout>

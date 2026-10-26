@@ -1,0 +1,48 @@
+name: Refresh daily edition
+
+on:
+  schedule:
+    # 06:00 Asia/Hong_Kong (UTC+8), daily.
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-edition
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: npm run collect
+      - name: Commit the new edition
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/editions/
+          if git diff --cached --quiet; then
+            echo "No edition changes to commit."
+          else
+            git commit -m "Refresh daily edition"
+            git push
+      - uses: withastro/action@v5
+        with:
+          node-version: 22
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+          fi

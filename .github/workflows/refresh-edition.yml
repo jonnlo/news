@@ -36,6 +36,7 @@ jobs:
           else
             git commit -m "Refresh daily edition"
             git push
+          fi
       - uses: withastro/action@v5
         with:
           node-version: 22
@@ -45,4 +46,3 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-          fi

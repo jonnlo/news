@@ -1,16 +1,43 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
 import { formatDate, type Edition } from '../../content';
-const files = Object.values(import.meta.glob('../../data/editions/*.json', { eager: true, import: 'default' })) as Edition[];
+
+const files = Object.values(
+  import.meta.glob('../../data/editions/*.json', { eager: true, import: 'default' }),
+) as Edition[];
 const editions = files.sort((a, b) => b.date.localeCompare(a.date));
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 ---
+
 <Layout title="Archive" description="Past editions of The Daily Brief.">
-  <main class="wrap">
-    <header class="masthead"><a class="wordmark" href={import.meta.env.BASE_URL}>THE DAILY BRIEF<span> / PERSONAL EDITION</span></a><a class="archive-link" href={import.meta.env.BASE_URL}>Today <span aria-hidden="true">↗</span></a></header>
-    <section class="intro archive-intro"><p class="eyebrow">A record of the read</p><h1>The <em>archive.</em></h1><p class="dek">Every daily edition stays here, with links back to the original publishers.</p></section>
-    <section class="archive-list" aria-label="Past editions">
-      {editions.map((edition) => <a class="archive-row" href={`${import.meta.env.BASE_URL}edition/${edition.date}/`}><span>{formatDate(edition.date)}</span><span>{edition.stories.length} stories</span><span aria-hidden="true">↗</span></a>)}
+  <SiteHeader active="archive" />
+  <main class="page-shell archive-page">
+    <section class="page-heading" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">Archive</h1>
+        <p class="page-subtitle">Earlier editions, with links to each original story.</p>
+      </div>
     </section>
-    <footer class="page-footer"><span>Asia/Hong_Kong edition dates</span><span><a href={import.meta.env.BASE_URL}>Back to today's stories</a></span></footer>
+
+    {editions.length > 0 ? (
+      <section class="archive-list" aria-label="Saved editions">
+        {editions.map((edition) => (
+          <a class="archive-row" href={`${base}edition/${edition.date}/`}>
+            <span class="archive-date">{formatDate(edition.date, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            <span class="archive-count">{edition.stories.length} {edition.stories.length === 1 ? 'story' : 'stories'}</span>
+          </a>
+        ))}
+      </section>
+    ) : (
+      <p class="empty-panel">The archive will appear here after the first edition is collected.</p>
+    )}
+
+    <footer class="page-footer">
+      <span>Dates use Hong Kong time.</span>
+      <a href={base}>Back to the latest edition</a>
+    </footer>
   </main>
 </Layout>

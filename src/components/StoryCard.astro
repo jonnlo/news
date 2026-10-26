@@ -1,0 +1,44 @@
+---
+import { Badge } from '@/components/starwind/badge';
+import { Card, CardContent } from '@/components/starwind/card';
+import { formatDate, type Story } from '@/content';
+
+interface Props {
+  story: Story;
+  priority?: boolean;
+}
+
+const { story, priority = false } = Astro.props;
+const hnStats = story.source === 'Hacker News'
+  ? story.excerpt.match(/^([\d,]+) points · ([\d,]+) comments/)
+  : null;
+const excerpt = hnStats ? null : story.excerpt.replace(/\s+$/, '');
+---
+
+<article class="story" data-category={story.category}>
+  <Card size="sm" class="story-card ring-0">
+    <CardContent class="story-content">
+      <div class="story-copy">
+        <div class="story-meta">
+          <Badge variant="outline" class="category-label">{story.category}</Badge>
+          <span class="story-source">{story.source}</span>
+          <time dateTime={story.publishedAt ?? undefined}>
+            {formatDate(story.publishedAt, { month: 'short', day: 'numeric' })}
+          </time>
+          {hnStats && (
+            <span class="story-stats" aria-label={`${hnStats[1]} points and ${hnStats[2]} comments on Hacker News`}>
+              <strong>{hnStats[1]} points</strong><span>{hnStats[2]} comments</span>
+            </span>
+          )}
+        </div>
+        <h2 class="story-title">
+          <a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>
+        </h2>
+        {excerpt && <p class="story-excerpt">{excerpt}</p>}
+      </div>
+      {story.image && (
+        <img class="story-image" src={story.image} alt="" loading={priority ? 'eager' : 'lazy'} />
+      )}
+    </CardContent>
+  </Card>
+</article>

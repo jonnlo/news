@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import tailwindcss from '@tailwindcss/vite';
 
 const repository = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'personal-news-digest';
 const isUserSite = repository.endsWith('.github.io');
@@ -8,4 +9,8 @@ export default defineConfig({
     ? `https://${process.env.GITHUB_REPOSITORY.split('/')[0]}.github.io`
     : 'http://localhost:4321',
   base: isUserSite ? '/' : `/${repository}`,
+  devToolbar: { enabled: false },
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });

@@ -1,6 +1,6 @@
 # Personal News Digest
 
-A small Astro + TypeScript site for a daily, no-AI-token personal reading list. RSS and the official Hacker News API are collected into a dated JSON file; that checked-in file is what the static site displays.
+A small Astro + TypeScript site with Starwind UI's Astro components for a daily, no-AI-token personal reading list. RSS and the official Hacker News API are collected into a dated JSON file; that checked-in file is what the static site displays.
 
 ## Included sources
 

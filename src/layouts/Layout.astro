@@ -1,4 +1,5 @@
 ---
+import "@/styles/starwind.css";
 import '../styles/global.css';
 const { title, description } = Astro.props;
 ---
@@ -8,7 +9,7 @@ const { title, description } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#f3f1ea" />
+    <meta name="theme-color" content="#000000" />
     <title>{title} · The Daily Brief</title>
   </head>
   <body><slot /></body>

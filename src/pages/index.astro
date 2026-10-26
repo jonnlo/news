@@ -1,62 +1,127 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import { Button } from '@/components/starwind/button';
+import StoryCard from '@/components/StoryCard.astro';
 import { categories, formatDate, type Edition } from '../content';
-const allEditions = Object.values(import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' })) as Edition[];
+
+const allEditions = Object.values(
+  import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' }),
+) as Edition[];
 const edition = allEditions.sort((a, b) => b.date.localeCompare(a.date))[0];
-const stories = edition.stories;
-const counts = Object.fromEntries(categories.map((category) => [category, stories.filter((story) => story.category === category).length]));
+const stories = edition?.stories ?? [];
+const counts = Object.fromEntries(
+  categories.map((category) => [category, stories.filter((story) => story.category === category).length]),
+);
+const editionDate = edition
+  ? formatDate(edition.date, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })
+  : 'No edition has been collected yet';
+const editionSummary = edition
+  ? `${editionDate}, with ${stories.length} stories across ${categories.length} topics.`
+  : editionDate;
 ---
-<Layout title="The Daily Brief" description="A small, human-curated window on technology, design, Hong Kong, ideas and books.">
-  <main class="wrap">
-    <header class="masthead">
-      <a class="wordmark" href={import.meta.env.BASE_URL}>THE DAILY BRIEF<span> / PERSONAL EDITION</span></a>
-      <a class="archive-link" href={`${import.meta.env.BASE_URL}archive/`}>Archive <span aria-hidden="true">↗</span></a>
-    </header>
-    <section class="intro">
-      <p class="eyebrow">A quieter read of the day</p>
-      <h1>Good stories,<br /><em>in one place.</em></h1>
-      <p class="dek">A daily selection across technology, design, Hong Kong, philosophy and literature. Collected automatically, chosen by clear rules, always linked to the original.</p>
+
+<Layout title="Latest edition" description="A personal daily reading list across technology, design, Hong Kong, philosophy and literature.">
+  <SiteHeader active="latest" />
+  <main class="page-shell reader">
+    <section class="page-heading" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">Latest edition</h1>
+        <p class="page-subtitle">{editionSummary}</p>
+      </div>
+      {edition && <p class="edition-timezone">Hong Kong time</p>}
     </section>
-    <section class="edition-bar" aria-label="Edition date and story count">
-      <div><span class="edition-label">TODAY'S EDITION</span><span class="edition-date">{formatDate(edition.date)}</span></div>
-      <span class="edition-total">{stories.length} stories <span aria-hidden="true">·</span> {edition.timezone.replace('_', ' ')}</span>
-    </section>
-    <nav class="filters" aria-label="Filter stories by category">
-      <button class="filter active" data-filter="All" aria-pressed="true">All <span>{stories.length}</span></button>
-      {categories.map((category) => <button class="filter" data-filter={category} aria-pressed="false">{category} <span>{counts[category]}</span></button>)}
-    </nav>
-    <section class="story-grid" aria-label="Today's stories">
-      {stories.map((story, index) => <article class={`story ${index === 0 ? 'story-featured' : ''}`} data-category={story.category}>
-        {story.image && <a class="story-image" href={story.url} target="_blank" rel="noreferrer"><img src={story.image} alt="" loading="lazy" /></a>}
-        <div class="story-copy">
-          <div class="story-meta"><span class="category-label">{story.category}</span><span>{story.source}</span><span>{formatDate(story.publishedAt, { month: 'short', day: 'numeric' })}</span></div>
-          <h2><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a></h2>
-          {story.excerpt && <p>{story.excerpt}</p>}
-          <a class="read-link" href={story.url} target="_blank" rel="noreferrer">Read at {story.source} <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>)}
-    </section>
-    <p class="empty-state" hidden>No stories in this category today.</p>
-    <footer class="page-footer"><span>Collected without AI summaries or tracking.</span><span>Sources and selection rules are documented in the project README.</span></footer>
+
+    {edition && stories.length > 0 ? (
+      <>
+        <nav class="filters" aria-label="Filter stories by topic">
+          <Button variant="ghost" class="filter active" data-filter="All" aria-pressed="true" aria-controls="story-list">
+            <span>All</span><span class="filter-count">{stories.length}</span>
+          </Button>
+          {categories.map((category) => (
+            <Button variant="ghost" class="filter" data-filter={category} aria-pressed="false" aria-controls="story-list">
+              <span>{category}</span><span class="filter-count">{counts[category]}</span>
+            </Button>
+          ))}
+        </nav>
+
+        <section class="stories-section" aria-labelledby="stories-title">
+          <div class="section-heading">
+            <h2 id="stories-title">Stories</h2>
+            <p id="result-count" aria-live="polite">{stories.length} {stories.length === 1 ? 'story' : 'stories'}</p>
+          </div>
+          <div class="story-list" id="story-list">
+            {stories.map((story, index) => <StoryCard story={story} priority={index < 6} />)}
+          </div>
+          <div class="show-all-row">
+            <Button id="show-all" type="button" variant="default" class="show-all" aria-controls="story-list" aria-expanded="false" hidden>
+              Show all stories
+            </Button>
+          </div>
+          <p class="empty-state" hidden>No stories in this topic for this edition.</p>
+        </section>
+      </>
+    ) : (
+      <section class="empty-panel" aria-live="polite">
+        <h2>No edition yet</h2>
+        <p>The reading list will appear here after the first collection run.</p>
+      </section>
+    )}
+
+    <footer class="page-footer">
+      <span>Every story opens at its original source.</span>
+      <span>Collected without AI summaries or tracking.</span>
+    </footer>
   </main>
+
   <script>
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
-    const cards = [...document.querySelectorAll<HTMLElement>('.story')];
+    const stories = [...document.querySelectorAll<HTMLElement>('.story')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
+    const resultCount = document.querySelector<HTMLElement>('#result-count');
+    const showAll = document.querySelector<HTMLButtonElement>('#show-all');
+    const initialStoryLimit = 6;
+    let selectedTopic = 'All';
+    let expanded = false;
+
+    function updateStories() {
+      let matching = 0;
+      let matchingIndex = 0;
+      stories.forEach((story) => {
+        const matches = selectedTopic === 'All' || story.dataset.category === selectedTopic;
+        const show = matches && (selectedTopic !== 'All' || expanded || matchingIndex < initialStoryLimit);
+        story.hidden = !show;
+        if (matches) {
+          matching += 1;
+          matchingIndex += 1;
+        }
+      });
+
+      if (resultCount) resultCount.textContent = `${matching} ${matching === 1 ? 'story' : 'stories'}`;
+      if (empty) empty.hidden = matching > 0;
+      if (showAll) {
+        const showControl = selectedTopic === 'All' && matching > initialStoryLimit;
+        showAll.hidden = !showControl;
+        showAll.setAttribute('aria-expanded', String(showControl && expanded));
+        showAll.textContent = expanded ? 'Show fewer stories' : `Show all ${matching} stories`;
+      }
+    }
+
     filters.forEach((button) => button.addEventListener('click', () => {
-      const selected = button.dataset.filter;
+      selectedTopic = button.dataset.filter ?? 'All';
       filters.forEach((filter) => {
         const active = filter === button;
         filter.classList.toggle('active', active);
         filter.setAttribute('aria-pressed', String(active));
       });
-      let visible = 0;
-      cards.forEach((card) => {
-        const show = selected === 'All' || card.dataset.category === selected;
-        card.hidden = !show;
-        if (show) visible++;
-      });
-      if (empty) empty.hidden = visible > 0;
+      updateStories();
     }));
+
+    showAll?.addEventListener('click', () => {
+      expanded = !expanded;
+      updateStories();
+    });
+
+    updateStories();
   </script>
 </Layout>

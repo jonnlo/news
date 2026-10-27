@@ -4,7 +4,7 @@ A small Astro + TypeScript site with Starwind UI's Astro components for a daily,
 
 ## Included sources
 
-Edit `scripts/feeds.json` to curate the sources. The starter list covers technology (Ars Technica and Hacker News), design (Smashing Magazine and A List Apart), Hong Kong (Hong Kong Free Press and RTHK), philosophy (Daily Nous and Aeon), and literature (Literary Hub and The Paris Review). The collector records feed failures in each edition so intermittent publisher issues are visible.
+Edit `scripts/feeds.json` to curate the sources. The list covers technology, design, Hong Kong, society, philosophy, literature, and arts. See `docs/source-audit.md` for the broader candidate list and feed checks. The collector records feed failures in each edition so intermittent publisher issues are visible.
 
 ## Local use
 
@@ -19,6 +19,8 @@ npm run dev
 The collector writes `src/data/editions/YYYY-MM-DD.json`, using `Asia/Hong_Kong` for the edition date. It keeps publisher URLs, removes common tracking parameters only for duplicate matching, ranks articles using recency, your source weights, and Hacker News points, and saves an original-page Open Graph image only when it can retrieve one. It does not fetch article text or call an AI service. A failed or inaccessible page gets no image.
 
 Build a static site with `npm run build`. `npm run collect -- --output=/tmp/digest-sample` writes to a temporary directory for a one-off sample without replacing a checked-in edition.
+
+Each collection also saves a timestamped snapshot of all parsed candidates in `data/candidates/`, before deduplication and selection. It includes feed excerpts, source configuration, Hacker News scores where available, the ranking version, score and position, deduplication result, selection status, and source errors. Repeated runs create separate snapshots. The scheduled workflow commits them to the repository, so they are public if the repository is public; they are not displayed by the site. When using `--output`, snapshots are written under that output directory instead. These files will support side-by-side ranking comparisons.
 
 ## Daily update and deployment
 

@@ -6,9 +6,11 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const feedList = JSON.parse(await readFile(resolve(root, 'scripts/feeds.json'), 'utf8'));
 const outputArg = process.argv.find((arg) => arg.startsWith('--output='))?.slice(9);
 const outputDir = outputArg ? resolve(outputArg) : resolve(root, 'src/data/editions');
+const candidateDir = outputArg ? resolve(outputDir, 'candidates') : resolve(root, 'data/candidates');
+const collectedAt = new Date();
 const today = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit',
-}).format(new Date());
+}).format(collectedAt);
 const headers = { 'user-agent': 'PersonalNewsDigest/1.0 (+https://github.com; personal RSS reader)' };
 const timeoutMs = 15_000;
 
@@ -66,6 +68,7 @@ async function collectFeed(feed) {
         return {
           title: item.title, url: item.url, publishedAt: item.time ? new Date(item.time * 1000).toISOString() : null,
           excerpt: `${item.score ?? 0} points · ${item.descendants ?? 0} comments on Hacker News`,
+          discussionUrl: `https://news.ycombinator.com/item?id=${item.id}`,
           source: feed.name, category: feed.category, sourceWeight: feed.weight, hnScore: item.score ?? 0,
         };
       } catch { return null; }
@@ -87,11 +90,11 @@ function normalizedUrl(value) {
 }
 
 function normalizeTitle(value) {
-  return value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  return value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 }
 
 function rank(story) {
-  const ageHours = story.publishedAt ? Math.max(0, (Date.now() - Date.parse(story.publishedAt)) / 3_600_000) : 168;
+  const ageHours = story.publishedAt ? Math.max(0, (collectedAt.getTime() - Date.parse(story.publishedAt)) / 3_600_000) : 168;
   const recency = Math.max(0, 60 - ageHours / 2);
   const engagement = story.hnScore ? Math.min(25, Math.log2(story.hnScore + 1) * 3) : 0;
   return Math.round(story.sourceWeight * 8 + recency + engagement);
@@ -108,12 +111,15 @@ for (let i = 0; i < settled.length; i++) {
 
 const seenUrls = new Set();
 const seenTitles = new Set();
-const stories = fetched.map((story) => ({ ...story, score: rank(story) }))
-  .sort((a, b) => b.score - a.score)
-  .filter((story) => {
+const decisions = new Map();
+const candidates = fetched.map((story) => ({ ...story, score: rank(story) }));
+const stories = [...candidates].sort((a, b) => b.score - a.score)
+  .filter((story, index) => {
     const url = normalizedUrl(story.url);
     const title = normalizeTitle(story.title);
-    if (seenUrls.has(url) || !title || seenTitles.has(title)) return false;
+    const reason = seenUrls.has(url) ? 'duplicate-url' : !title ? 'empty-title' : seenTitles.has(title) ? 'duplicate-title' : null;
+    decisions.set(story, { rank: index + 1, dedupe: reason ?? 'eligible' });
+    if (reason) return false;
     seenUrls.add(url);
     seenTitles.add(title);
     return true;
@@ -139,10 +145,25 @@ async function fetchOgImage(story) {
 
 // Give each curated section room in the edition; otherwise a busy source such as HN
 // would crowd out the slower-moving design, philosophy, and literature feeds.
-const categoryOrder = ['Technology', 'Design', 'Hong Kong', 'Philosophy', 'Literature'];
+const categoryOrder = ['Technology', 'Design', 'Hong Kong', 'Society', 'Philosophy', 'Literature', 'Arts'];
 const featured = categoryOrder.flatMap((category) =>
   stories.filter((story) => story.category === category).slice(0, 6),
 ).sort((a, b) => b.score - a.score);
+const selected = new Set(featured);
+const candidateSnapshot = {
+  version: 1,
+  rankingVersion: 'source-recency-hn-v1-unicode',
+  date: today,
+  collectedAt: collectedAt.toISOString(),
+  timezone: 'Asia/Hong_Kong',
+  sourcesChecked: feedList.length,
+  sources: feedList,
+  sourceErrors,
+  candidates: candidates.map((story) => ({ ...story, ...decisions.get(story), selected: selected.has(story) })),
+};
+await mkdir(candidateDir, { recursive: true });
+const candidateOutput = resolve(candidateDir, `${collectedAt.toISOString().replace(/[:.]/g, '-')}.json`);
+await writeFile(candidateOutput, `${JSON.stringify(candidateSnapshot, null, 2)}\n`);
 for (let i = 0; i < featured.length; i += 5) {
   await Promise.all(featured.slice(i, i + 5).map(fetchOgImage));
 }
@@ -151,8 +172,9 @@ const edition = {
   date: today,
   generatedAt: new Date().toISOString(),
   timezone: 'Asia/Hong_Kong',
-  stories: featured.map(({ title, url, source, category, publishedAt, excerpt, image, score }) => ({
-    title, url, source, category, publishedAt, excerpt, ...(image ? { image } : {}), score,
+  stories: featured.map(({ title, url, source, category, publishedAt, excerpt, image, score, discussionUrl }) => ({
+    title, url, source, category, publishedAt, excerpt,
+    ...(image ? { image } : {}), ...(discussionUrl ? { discussionUrl } : {}), score,
   })),
   sourcesChecked: feedList.length,
   sourceErrors,
@@ -161,5 +183,6 @@ await mkdir(outputDir, { recursive: true });
 const output = resolve(outputDir, `${today}.json`);
 await writeFile(output, `${JSON.stringify(edition, null, 2)}\n`);
 console.log(`Saved ${edition.stories.length} stories (${edition.date}, Asia/Hong_Kong) to ${output}`);
+console.log(`Saved ${candidates.length} candidates to ${candidateOutput}`);
 console.log(`Sources: ${feedList.length - sourceErrors.length}/${feedList.length} succeeded; ${sourceErrors.length} failed.`);
 if (sourceErrors.length) for (const error of sourceErrors) console.log(`- ${error}`);

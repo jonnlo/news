@@ -9,8 +9,39 @@ const { title, description } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#ededed" />
     <title>{title} · The Daily Brief</title>
+    <script is:inline>
+      try {
+        if (localStorage.getItem('daily-brief-theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch {}
+    </script>
   </head>
-  <body><slot /></body>
+  <body>
+    <slot />
+    <script>
+      const themeToggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+      const themeLabel = themeToggle?.querySelector<HTMLElement>('[data-theme-label]');
+      const themeColor = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
+
+      function syncThemeControl() {
+        const isDark = document.documentElement.classList.contains('dark');
+        themeToggle?.setAttribute('aria-pressed', String(isDark));
+        themeToggle?.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+        if (themeLabel) themeLabel.textContent = isDark ? 'Light' : 'Dark';
+        themeColor?.setAttribute('content', isDark ? '#10110f' : '#ededed');
+      }
+
+      syncThemeControl();
+      themeToggle?.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        try {
+          localStorage.setItem('daily-brief-theme', isDark ? 'dark' : 'light');
+        } catch {}
+        syncThemeControl();
+      });
+    </script>
+  </body>
 </html>

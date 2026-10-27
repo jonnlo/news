@@ -2,8 +2,10 @@ export const categories = [
   'Technology',
   'Design',
   'Hong Kong',
+  'Society',
   'Philosophy',
   'Literature',
+  'Arts',
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -11,6 +13,7 @@ export type Category = (typeof categories)[number];
 export interface Story {
   title: string;
   url: string;
+  discussionUrl?: string;
   source: string;
   category: Category;
   publishedAt: string | null;

@@ -17,11 +17,11 @@ const editionDate = edition
   ? formatDate(edition.date, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })
   : 'No edition has been collected yet';
 const editionSummary = edition
-  ? `${editionDate}, with ${stories.length} stories across ${categories.length} topics.`
+  ? `${editionDate}, with ${stories.length} stories across ${new Set(stories.map((story) => story.category)).size} topics.`
   : editionDate;
 ---
 
-<Layout title="Latest edition" description="A personal daily reading list across technology, design, Hong Kong, philosophy and literature.">
+<Layout title="Latest edition" description="A personal daily reading list across technology, design, Hong Kong, society, philosophy, literature and arts.">
   <SiteHeader active="latest" />
   <main class="page-shell reader">
     <section class="page-heading" aria-labelledby="page-title">
@@ -53,11 +53,6 @@ const editionSummary = edition
           <div class="story-list" id="story-list">
             {stories.map((story, index) => <StoryCard story={story} priority={index < 6} />)}
           </div>
-          <div class="show-all-row">
-            <Button id="show-all" type="button" variant="default" class="show-all" aria-controls="story-list" aria-expanded="false" hidden>
-              Show all stories
-            </Button>
-          </div>
           <p class="empty-state" hidden>No stories in this topic for this edition.</p>
         </section>
       </>
@@ -79,32 +74,18 @@ const editionSummary = edition
     const stories = [...document.querySelectorAll<HTMLElement>('.story')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
     const resultCount = document.querySelector<HTMLElement>('#result-count');
-    const showAll = document.querySelector<HTMLButtonElement>('#show-all');
-    const initialStoryLimit = 6;
     let selectedTopic = 'All';
-    let expanded = false;
 
     function updateStories() {
       let matching = 0;
-      let matchingIndex = 0;
       stories.forEach((story) => {
         const matches = selectedTopic === 'All' || story.dataset.category === selectedTopic;
-        const show = matches && (selectedTopic !== 'All' || expanded || matchingIndex < initialStoryLimit);
-        story.hidden = !show;
-        if (matches) {
-          matching += 1;
-          matchingIndex += 1;
-        }
+        story.hidden = !matches;
+        if (matches) matching += 1;
       });
 
       if (resultCount) resultCount.textContent = `${matching} ${matching === 1 ? 'story' : 'stories'}`;
       if (empty) empty.hidden = matching > 0;
-      if (showAll) {
-        const showControl = selectedTopic === 'All' && matching > initialStoryLimit;
-        showAll.hidden = !showControl;
-        showAll.setAttribute('aria-expanded', String(showControl && expanded));
-        showAll.textContent = expanded ? 'Show fewer stories' : `Show all ${matching} stories`;
-      }
     }
 
     filters.forEach((button) => button.addEventListener('click', () => {
@@ -116,11 +97,6 @@ const editionSummary = edition
       });
       updateStories();
     }));
-
-    showAll?.addEventListener('click', () => {
-      expanded = !expanded;
-      updateStories();
-    });
 
     updateStories();
   </script>

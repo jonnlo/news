@@ -24,14 +24,17 @@ Each collection also saves a timestamped snapshot of all parsed candidates in `d
 
 ## Daily update and deployment
 
-`.github/workflows/refresh-edition.yml` runs at 06:00 Hong Kong time (22:00 UTC), checks the sources, commits the JSON edition, builds the static site, and publishes it to GitHub Pages in the same workflow run. A workflow dispatch is available for a manual refresh and deployment.
+Two workflows keep collection and publishing separate:
+
+- **Refresh daily edition** runs at 06:00 Hong Kong time (22:00 UTC), collects sources, and commits the edition and candidate snapshot. It can also be started manually from Actions.
+- **Deploy site** builds and publishes the latest `main` after a push, after a successful daily refresh, or when started manually. The refresh completion trigger is needed because a commit made with GitHub Actions' default token does not start the push workflow. Deployments run one at a time and each checks out the latest `main`.
 
 To activate it:
 
 1. Create a **new, separate GitHub repository** for this folder and push the `main` branch. Do not place it inside an existing website repository.
 2. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
 3. Allow GitHub Actions to write repository contents so the refresh workflow can commit editions. Pages deployment permissions are declared in the workflow.
-4. Run **Refresh daily edition** once from the Actions tab and confirm the run finishes with a Pages deployment.
+4. Run **Refresh daily edition** once from the Actions tab. Confirm it succeeds and then check that **Deploy site** publishes the updated edition. To publish existing content without collecting again, run **Deploy site** instead.
 
 The Astro config reads `GITHUB_REPOSITORY` in GitHub Actions and sets the correct project-page base path automatically. For a local GitHub Actions-like build, set `GITHUB_REPOSITORY=owner/repository`.
 

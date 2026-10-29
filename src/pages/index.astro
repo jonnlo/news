@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import { Button } from '@/components/starwind/button';
 import StoryCard from '@/components/StoryCard.astro';
-import { categories, formatDate, type Edition } from '../content';
+import { categories, type Edition } from '../content';
 
 const allEditions = Object.values(
   import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' }),
@@ -14,44 +14,38 @@ const counts = Object.fromEntries(
   categories.map((category) => [category, stories.filter((story) => story.category === category).length]),
 );
 const editionDate = edition
-  ? formatDate(edition.date, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })
+  ? new Intl.DateTimeFormat('en-HK', {
+    weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Asia/Hong_Kong',
+  }).format(new Date(edition.date))
   : 'No edition has been collected yet';
-const editionSummary = edition
-  ? `${editionDate}, with ${stories.length} stories across ${new Set(stories.map((story) => story.category)).size} topics.`
-  : editionDate;
 ---
 
-<Layout title="Latest edition" description="A personal daily reading list across technology, design, Hong Kong, society, philosophy, literature and arts.">
+<Layout title={editionDate} description="A personal daily reading list across technology, design, Hong Kong, society, philosophy, literature and arts.">
   <SiteHeader active="latest" />
   <main class="page-shell reader">
     <section class="page-heading" aria-labelledby="page-title">
-      <div>
-        <h1 id="page-title">Latest edition</h1>
-        <p class="page-subtitle">{editionSummary}</p>
-      </div>
-      {edition && <p class="edition-timezone">Hong Kong time</p>}
+      <h1 id="page-title">{editionDate}</h1>
     </section>
 
     {edition && stories.length > 0 ? (
       <>
         <nav class="filters" aria-label="Filter stories by topic">
-          <Button variant="ghost" class="filter active" data-filter="All" aria-pressed="true" aria-controls="story-list">
-            <span>All</span><span class="filter-count">{stories.length}</span>
-          </Button>
           {categories.map((category) => (
-            <Button variant="ghost" class="filter" data-filter={category} aria-pressed="false" aria-controls="story-list">
+            <Button
+              variant="ghost"
+              class={category === 'Technology' ? 'filter active' : 'filter'}
+              data-filter={category}
+              aria-pressed={category === 'Technology' ? 'true' : 'false'}
+              aria-controls="story-list"
+            >
               <span>{category}</span><span class="filter-count">{counts[category]}</span>
             </Button>
           ))}
         </nav>
 
-        <section class="stories-section" aria-labelledby="stories-title">
-          <div class="section-heading">
-            <h2 id="stories-title">Stories</h2>
-            <p id="result-count" aria-live="polite">{stories.length} {stories.length === 1 ? 'story' : 'stories'}</p>
-          </div>
+        <section class="stories-section" aria-label="News stories">
           <div class="story-list" id="story-list">
-            {stories.map((story, index) => <StoryCard story={story} priority={index < 6} />)}
+            {stories.map((story) => <StoryCard story={story} />)}
           </div>
           <p class="empty-state" hidden>No stories in this topic for this edition.</p>
         </section>
@@ -73,23 +67,21 @@ const editionSummary = edition
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
     const stories = [...document.querySelectorAll<HTMLElement>('.story')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
-    const resultCount = document.querySelector<HTMLElement>('#result-count');
-    let selectedTopic = 'All';
+    let selectedTopic = 'Technology';
 
     function updateStories() {
       let matching = 0;
       stories.forEach((story) => {
-        const matches = selectedTopic === 'All' || story.dataset.category === selectedTopic;
+        const matches = story.dataset.category === selectedTopic;
         story.hidden = !matches;
         if (matches) matching += 1;
       });
 
-      if (resultCount) resultCount.textContent = `${matching} ${matching === 1 ? 'story' : 'stories'}`;
       if (empty) empty.hidden = matching > 0;
     }
 
     filters.forEach((button) => button.addEventListener('click', () => {
-      selectedTopic = button.dataset.filter ?? 'All';
+      selectedTopic = button.dataset.filter ?? 'Technology';
       filters.forEach((filter) => {
         const active = filter === button;
         filter.classList.toggle('active', active);

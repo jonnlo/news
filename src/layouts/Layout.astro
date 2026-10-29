@@ -23,14 +23,12 @@ const { title, description } = Astro.props;
     <slot />
     <script>
       const themeToggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
-      const themeLabel = themeToggle?.querySelector<HTMLElement>('[data-theme-label]');
       const themeColor = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
 
       function syncThemeControl() {
         const isDark = document.documentElement.classList.contains('dark');
         themeToggle?.setAttribute('aria-pressed', String(isDark));
         themeToggle?.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
-        if (themeLabel) themeLabel.textContent = isDark ? 'Light' : 'Dark';
         themeColor?.setAttribute('content', isDark ? '#10110f' : '#ededed');
       }
 

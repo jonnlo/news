@@ -32,7 +32,7 @@ const base = import.meta.env.BASE_URL.endsWith('/')
     </section>
 
     <section class="story-list" aria-label={`Stories from ${dateLabel}`}>
-      {edition.stories.map((story, index) => <StoryCard story={story} priority={index < 6} />)}
+      {edition.stories.map((story) => <StoryCard story={story} />)}
     </section>
 
     <footer class="page-footer">

@@ -1,52 +1,54 @@
 ---
-import { Badge } from '@/components/starwind/badge';
 import { Card, CardContent } from '@/components/starwind/card';
-import { formatDate, type Story } from '@/content';
+import { formatRelativeAge, type Story } from '@/content';
 
 interface Props {
   story: Story;
-  priority?: boolean;
 }
 
-const { story, priority = false } = Astro.props;
-const hnStats = story.source === 'Hacker News'
-  ? story.excerpt.match(/^([\d,]+) points · ([\d,]+) comments/)
-  : null;
-const excerpt = hnStats ? null : story.excerpt.replace(/\s+$/, '');
+const { story } = Astro.props;
+const excerpt = story.source === 'Hacker News' ? null : story.excerpt.replace(/\s+$/, '');
+const sourceUrl = story.source === 'Hacker News' ? story.discussionUrl ?? story.url : story.url;
 ---
 
 <article class="story" data-category={story.category}>
   <Card size="sm" class="story-card ring-0">
     <CardContent class="story-content">
       <div class="story-copy">
-        <div class="story-meta">
-          <Badge variant="outline" class="category-label">{story.category}</Badge>
-          <span class="story-source">{story.source}</span>
-          <time dateTime={story.publishedAt ?? undefined}>
-            {formatDate(story.publishedAt, { month: 'short', day: 'numeric' })}
-          </time>
-          {hnStats && (
-            <span class="story-stats" aria-label={`${hnStats[1]} points and ${hnStats[2]} comments on Hacker News`}>
-              <strong>{hnStats[1]} points</strong><span>{hnStats[2]} comments</span>
-            </span>
-          )}
-        </div>
         <h2 class="story-title">
           <a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>
         </h2>
         {excerpt && <p class="story-excerpt">{excerpt}</p>}
-        {story.discussionUrl && (
-          <a class="story-discussion" href={story.discussionUrl} target="_blank" rel="noreferrer">
-            <span>Discuss on HN</span>
-            <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4.5 11.5 11.25 4.75M5 4.75h6.25V11" />
-            </svg>
+        <div class="story-meta">
+          <time
+            class="story-age"
+            datetime={story.publishedAt ?? undefined}
+            data-relative-age
+          >
+            {formatRelativeAge(story.publishedAt)}
+          </time>
+          <span class="story-meta-separator" aria-hidden="true">·</span>
+          <a
+            class="story-source"
+            href={sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={story.source === 'Hacker News'
+              ? `Open Hacker News discussion for ${story.title}`
+              : `Open ${story.source} story: ${story.title}`}
+          >
+            {story.source}
           </a>
-        )}
+        </div>
       </div>
-      {story.image && (
-        <img class="story-image" src={story.image} alt="" loading={priority ? 'eager' : 'lazy'} />
-      )}
     </CardContent>
   </Card>
 </article>
+
+<script>
+  import { formatRelativeAge } from '@/content';
+
+  document.querySelectorAll<HTMLTimeElement>('[data-relative-age]').forEach((time) => {
+    time.textContent = formatRelativeAge(time.dateTime || null);
+  });
+</script>

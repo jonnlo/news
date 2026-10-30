@@ -16,6 +16,8 @@ const homepageOverrides: Record<string, string> = {
   'It’s Nice That': 'https://www.itsnicethat.com/',
   'AP via Flipboard': 'https://apnews.com/',
   'MUBI Notebook': 'https://mubi.com/notebook/',
+  'Reuters via Google News': 'https://www.reuters.com/',
+  'The Sociological Review': 'https://www.thesociologicalreview.org/',
 };
 const homepages = new Map(feeds.map((feed) => [feed.name, homepageOverrides[feed.name] ?? new URL(feed.url).origin]));
 
@@ -72,7 +74,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
         </nav>
 
         <section class="source-list" id="source-list" aria-label="Latest headlines by source">
-          {sourceGroups.map((group) => (
+          {sourceGroups.filter((group) => group.stories.length > 0).map((group) => (
             <section class="source-group" data-category={group.category} aria-label={`${group.name} headlines`}>
               <header class="source-heading">
                 <div class="source-name-line">
@@ -83,9 +85,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
                 </div>
               </header>
               <div class="story-list">
-                {group.stories.length > 0
-                  ? group.stories.map((story) => <StoryCard story={story} referenceDate={edition?.date} />)
-                  : <p class="source-empty">No headlines collected from this source.</p>}
+                {group.stories.map((story) => <StoryCard story={story} referenceDate={edition?.date} />)}
               </div>
             </section>
           ))}

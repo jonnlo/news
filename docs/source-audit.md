@@ -38,41 +38,47 @@ The following directory combines the previous source strategy with the existing 
 | MIT Technology Review | Technology | Reporting / analysis | English | News/analysis | Active |
 | The Verge | Technology | Reporting | English | News | Active |
 | WIRED | Technology | Reporting / analysis | English | News/analysis | Active |
-| Reuters | Technology / general | Wire reporting | English | News | Partial: Reuters Best |
+| Reuters | Technology / general | Wire reporting | English | News | Partial: Reuters Best and Google News site search |
 | AP | Technology / general | Wire reporting | English | News | Active via AP Flipboard |
 | Hacker News | Technology / discovery | Community discovery and discussion | English / mixed | News | Active API |
 | Smashing Magazine | Design | Specialist tutorials / analysis | English | Slow | Active |
 | A List Apart | Design | Essays / specialist analysis | English | Slow | Active |
 | Nielsen Norman Group | Design | UX research / advice | English | Slow | Active |
 | CSS-Tricks | Design | Specialist tutorials | English | Slow | Active |
+| Codrops | Design | Front-end design and development | English | Slow | Removed: HTTP 403 |
 | The Pudding | Design / society | Data storytelling / interactive work | English | Slow | Active |
 | The Creative Independent | Design / arts | Interviews / creative practice | English | Slow | Active |
 | Rest of World | Society / technology | Reporting | English | News/analysis | Active |
 | 404 Media | Society / technology | Reporting | English | News/analysis | Active |
 | The Conversation | Society | Expert commentary | English | News/analysis | Active |
 | Pew Research Center | Society | Research | English | Slow | Active |
-| Data & Society | Society | Research | English | Slow | Candidate |
+| Data & Society | Society | Research | English | Slow | Removed: no stories parsed |
+| Boston Review | Society | Ideas / politics / culture | English | Slow | Removed: HTTP 403 |
+| The Sociological Review | Society | Sociology journal | English | Slow | Removed: HTTP 403 |
+| Africa Is a Country | Society | Political / cultural analysis | English | Slow | Removed: no stories parsed |
 | Hong Kong Free Press | Hong Kong | Reporting | English | News | Active |
+| Zolima CityMag | Hong Kong | Urban culture / arts reporting | English | Slow | Removed: no stories parsed |
 | RTHK Local News | Hong Kong | Reporting | English | News | Active |
 | RTHK 中文本地新聞 | Hong Kong | Reporting | Chinese | News | Active |
 | 香港獨立媒體 | Hong Kong | Reporting / commentary | Chinese | News/analysis | Active |
-| 端傳媒 | Hong Kong | Reporting / analysis | Chinese | News/analysis | Active (general feed in Society) |
+| 端傳媒 | Hong Kong | Reporting / analysis | Chinese | News/analysis | Removed from active configuration (30 October) |
 | South China Morning Post | Hong Kong | Reporting / analysis | English | News/analysis | Active |
 | Hong Kong government press releases | Hong Kong | Government primary statements | English / Chinese | News | Active (English and Chinese) |
 | Daily Nous | Philosophy | Specialist reporting / commentary | English | News/analysis | Active |
 | Aeon | Philosophy | Essays | English | Slow | Active |
-| Psyche | Philosophy / psychology | Essays / practical ideas | English | Slow | Candidate |
+| Psyche | Philosophy / psychology | Essays / practical ideas | English | Slow | Active trial; terms review pending |
 | Tricycle | Philosophy / Buddhism | Specialist essays / reporting | English | Slow | Active |
 | Lion's Roar | Philosophy / Buddhism | Specialist essays | English | Slow | Active |
-| Buddhistdoor | Philosophy / Buddhism | Specialist reporting / essays | English / mixed | Slow | Candidate |
+| Buddhistdoor Global | Philosophy / Buddhism | Specialist reporting / essays | English / mixed | Slow | Removed: no stories parsed |
 | The Marginalian | Philosophy / culture | Essays | English | Slow | Active |
 | Literary Hub | Literature | Literary reporting / essays | English | News/analysis | Active |
 | The Paris Review | Literature | Literary interviews / essays | English | Slow | Active |
 | Poetry Foundation | Literature | Poetry | English | Slow | Active |
-| Asymptote | Literature | Literature in translation / essays | English / mixed | Slow | Candidate |
-| Los Angeles Review of Books | Literature | Reviews / essays | English | Slow | Candidate |
+| Asymptote | Literature | Literature in translation / essays | English / mixed | Slow | Removed: HTTP 403 |
+| Los Angeles Review of Books | Literature | Reviews / essays | English | Slow | Removed: HTTP 404 |
 | Publishers Weekly | Literature | Publishing industry reporting | English | News | Active |
 | Hyperallergic | Arts | Reporting / criticism | English | News/analysis | Active |
+| CreativeApplications.Net | Arts | Art, media and technology | English | Slow | Active trial; 1 story |
 | Bandcamp Daily | Arts / music | Music writing | English | Slow | Active |
 | MUBI Notebook | Arts / cinema | Film criticism | English | Slow | Active trial (intermittent) |
 | The Quietus | Arts / music | Music criticism | English | Slow | Active |
@@ -149,4 +155,4 @@ The Pudding (`https://pudding.cool/rss.xml`), The Creative Independent (`https:/
 
 Eighteen trial feeds were added: Kottke, Waxy, MetaFilter, Longreads, Sidebar, Dense Discovery, The Public Domain Review, JSTOR Daily, Noema, Undark, Quanta Magazine, It’s Nice That, Colossal, n+1, Mekong Review, The Offing, Words Without Borders, and London Review of Books. Curators are recorded as such in feed configuration; links sometimes lead to their own posts and sometimes to an outside publisher. Per-curator diversity limits apply within the existing score window, with the same fallback used for other diversity caps.
 
-Not yet added: Codrops returned 403; Boston Review was blocked/redirected; The Sociological Review's tested journal endpoint returned 403; Zolima CityMag's tested feed URL led to a web page rather than RSS; Africa Is a Country's tested feed lacked recognizable dates; Creative Applications Network's tested endpoint returned HTML and needs validation. The earlier Asymptote and Buddhistdoor limitations remain. Psyche remains on hold for the public deployment because its terms restrict feed use. Availability in GitHub Actions remains unverified. The proposed multi-topic tagging and discovery allocation remain future work; the current collector assigns each feed a primary category.
+On 30 October, twelve candidate feeds were added to the active configuration: Reuters via Google News, Data & Society, Boston Review, The Sociological Review, Psyche, Buddhistdoor Global, Asymptote, Los Angeles Review of Books, Codrops, Zolima CityMag, Africa Is a Country, and CreativeApplications.Net. The Creative Independent was already active; BFI is also active but remains a general feed rather than a Sight and Sound-only feed. The first collector run yielded 10 stories each from Reuters via Google News and Psyche, and one from CreativeApplications.Net. The other nine candidates returned no stories or errors and were removed from active configuration and the current edition. Psyche remains active pending a terms review for the public site. Availability in GitHub Actions remains unverified. The proposed multi-topic tagging and discovery allocation remain future work; the current collector assigns each feed a primary category.

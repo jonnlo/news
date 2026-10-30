@@ -6,7 +6,7 @@ import { categories } from '../../content';
 const orderedCategories = categories.filter((category) => reviewData.categories.includes(category));
 const snapshotDate = new Intl.DateTimeFormat('en-HK', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Hong_Kong' }).format(new Date(reviewData.collectedAt));
 ---
-<Layout title="Review stories" description="Review a mix of selected and excluded stories to improve your news ranking.">
+<Layout title="Review stories – One More Tab" description="Review a mix of selected and excluded stories to improve your news ranking.">
   <SiteHeader active="review" />
   <main class="page-shell review-page">
     <header class="review-heading">

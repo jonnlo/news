@@ -2,8 +2,8 @@ name: Refresh headlines
 
 on:
   schedule:
-    # Hourly. GitHub Actions may delay scheduled runs.
-    - cron: '0 * * * *'
+    # Run away from the top of the hour to reduce schedule delays or dropped runs.
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:

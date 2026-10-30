@@ -1,8 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
+import { Button } from '@/components/starwind/button';
 import StoryCard from '@/components/StoryCard.astro';
-import { formatDate, type Edition } from '../../content';
+import { categories, formatDate, type Edition } from '../../content';
 
 export function getStaticPaths() {
   const editions = Object.values(
@@ -15,13 +16,16 @@ const { edition } = Astro.props as { edition: Edition };
 const dateLabel = formatDate(edition.date, {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
 });
+const counts = Object.fromEntries(
+  categories.map((category) => [category, edition.stories.filter((story) => story.category === category).length]),
+);
 const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
 ---
 
 <Layout title={dateLabel} description={`The Daily Brief edition for ${dateLabel}.`}>
-  <SiteHeader />
+  <SiteHeader active="archive" />
   <main class="page-shell archive-page">
     <section class="page-heading" aria-labelledby="page-title">
       <div>
@@ -31,8 +35,25 @@ const base = import.meta.env.BASE_URL.endsWith('/')
       <a class="back-link" href={`${base}archive/`}>All editions</a>
     </section>
 
-    <section class="story-list" aria-label={`Stories from ${dateLabel}`}>
-      {edition.stories.map((story) => <StoryCard story={story} />)}
+    <nav class="filters" aria-label="Filter stories by topic">
+      {categories.map((category) => (
+        <Button
+          variant="ghost"
+          class={category === 'Technology' ? 'filter active' : 'filter'}
+          data-filter={category}
+          aria-pressed={category === 'Technology' ? 'true' : 'false'}
+          aria-controls="story-list"
+        >
+          <span>{category}</span><span class="filter-count">{counts[category]}</span>
+        </Button>
+      ))}
+    </nav>
+
+    <section class="stories-section" aria-label={`Stories from ${dateLabel}`}>
+      <div class="story-list" id="story-list">
+        {edition.stories.map((story) => <StoryCard story={story} />)}
+      </div>
+      <p class="empty-state" hidden>No stories in this topic for this edition.</p>
     </section>
 
     <footer class="page-footer">
@@ -40,4 +61,34 @@ const base = import.meta.env.BASE_URL.endsWith('/')
       <a href={`${base}archive/`}>Back to the archive</a>
     </footer>
   </main>
+
+  <script>
+    const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
+    const stories = [...document.querySelectorAll<HTMLElement>('.story')];
+    const empty = document.querySelector<HTMLElement>('.empty-state');
+    let selectedTopic = 'Technology';
+
+    function updateStories() {
+      let matching = 0;
+      stories.forEach((story) => {
+        const matches = story.dataset.category === selectedTopic;
+        story.hidden = !matches;
+        if (matches) matching += 1;
+      });
+
+      if (empty) empty.hidden = matching > 0;
+    }
+
+    filters.forEach((button) => button.addEventListener('click', () => {
+      selectedTopic = button.dataset.filter ?? 'Technology';
+      filters.forEach((filter) => {
+        const active = filter === button;
+        filter.classList.toggle('active', active);
+        filter.setAttribute('aria-pressed', String(active));
+      });
+      updateStories();
+    }));
+
+    updateStories();
+  </script>
 </Layout>

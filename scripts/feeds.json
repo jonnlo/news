@@ -1,22 +1,426 @@
 [
-  { "name": "Ars Technica", "category": "Technology", "url": "https://feeds.arstechnica.com/arstechnica/index", "kind": "rss", "weight": 4 },
-  { "name": "MIT Technology Review", "category": "Technology", "url": "https://www.technologyreview.com/feed/", "kind": "rss", "weight": 4 },
-  { "name": "The Verge", "category": "Technology", "url": "https://www.theverge.com/rss/index.xml", "kind": "rss", "weight": 3 },
-  { "name": "Smashing Magazine", "category": "Design", "url": "https://www.smashingmagazine.com/feed/", "kind": "rss", "weight": 4 },
-  { "name": "A List Apart", "category": "Design", "url": "https://alistapart.com/main/feed/", "kind": "rss", "weight": 3 },
-  { "name": "CSS-Tricks", "category": "Design", "url": "https://css-tricks.com/feed/", "kind": "rss", "weight": 3 },
-  { "name": "Hong Kong Free Press", "category": "Hong Kong", "url": "https://hongkongfp.com/feed/", "kind": "rss", "weight": 4 },
-  { "name": "RTHK Local News", "category": "Hong Kong", "url": "https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml", "kind": "rss", "weight": 3 },
-  { "name": "香港電台中文本地新聞", "category": "Hong Kong", "url": "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml", "kind": "rss", "weight": 3 },
-  { "name": "Rest of World", "category": "Society", "url": "https://restofworld.org/feed/latest/", "kind": "rss", "weight": 4 },
-  { "name": "404 Media", "category": "Society", "url": "https://www.404media.co/rss/", "kind": "rss", "weight": 4 },
-  { "name": "Daily Nous", "category": "Philosophy", "url": "https://dailynous.com/feed/", "kind": "rss", "weight": 4 },
-  { "name": "Aeon", "category": "Philosophy", "url": "https://aeon.co/feed.rss", "kind": "rss", "weight": 3 },
-  { "name": "Tricycle", "category": "Philosophy", "url": "https://tricycle.org/feed/", "kind": "rss", "weight": 3 },
-  { "name": "Literary Hub", "category": "Literature", "url": "https://lithub.com/feed/", "kind": "rss", "weight": 4 },
-  { "name": "The Paris Review", "category": "Literature", "url": "https://www.theparisreview.org/blog/feed/", "kind": "rss", "weight": 3 },
-  { "name": "Poetry Foundation", "category": "Literature", "url": "https://www.poetryfoundation.org/rss/poemoftheday", "kind": "rss", "weight": 3 },
-  { "name": "Hyperallergic", "category": "Arts", "url": "https://hyperallergic.com/feed/", "kind": "rss", "weight": 3 },
-  { "name": "Bandcamp Daily", "category": "Arts", "url": "https://daily.bandcamp.com/feed", "kind": "rss", "weight": 3 },
-  { "name": "Hacker News", "category": "Technology", "url": "https://hacker-news.firebaseio.com/v0/topstories.json", "kind": "hackernews", "weight": 5 }
+  {
+    "name": "Ars Technica",
+    "category": "Technology",
+    "url": "https://feeds.arstechnica.com/arstechnica/index",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "MIT Technology Review",
+    "category": "Technology",
+    "url": "https://www.technologyreview.com/feed/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "The Verge",
+    "category": "Technology",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "WIRED",
+    "category": "Technology",
+    "url": "https://www.wired.com/feed/rss",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "Smashing Magazine",
+    "category": "Design",
+    "url": "https://www.smashingmagazine.com/feed/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "A List Apart",
+    "category": "Design",
+    "url": "https://alistapart.com/main/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "CSS-Tricks",
+    "category": "Design",
+    "url": "https://css-tricks.com/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Nielsen Norman Group",
+    "category": "Design",
+    "url": "https://www.nngroup.com/feed/rss/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Hong Kong Free Press",
+    "category": "Hong Kong",
+    "url": "https://hongkongfp.com/feed/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "RTHK Local News",
+    "category": "Hong Kong",
+    "url": "https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "香港電台中文本地新聞",
+    "category": "Hong Kong",
+    "url": "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "South China Morning Post",
+    "category": "Hong Kong",
+    "url": "https://www.scmp.com/rss/2/feed",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "Rest of World",
+    "category": "Society",
+    "url": "https://restofworld.org/feed/latest/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "404 Media",
+    "category": "Society",
+    "url": "https://www.404media.co/rss/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "Daily Nous",
+    "category": "Philosophy",
+    "url": "https://dailynous.com/feed/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "Aeon",
+    "category": "Philosophy",
+    "url": "https://aeon.co/feed.rss",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Tricycle",
+    "category": "Philosophy",
+    "url": "https://tricycle.org/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Literary Hub",
+    "category": "Literature",
+    "url": "https://lithub.com/feed/",
+    "kind": "rss",
+    "weight": 4
+  },
+  {
+    "name": "The Paris Review",
+    "category": "Literature",
+    "url": "https://www.theparisreview.org/blog/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Poetry Foundation",
+    "category": "Literature",
+    "url": "https://www.poetryfoundation.org/rss/poemoftheday",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Hyperallergic",
+    "category": "Arts",
+    "url": "https://hyperallergic.com/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Bandcamp Daily",
+    "category": "Arts",
+    "url": "https://daily.bandcamp.com/feed",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Hacker News",
+    "category": "Technology",
+    "url": "https://news.ycombinator.com/best?h=48",
+    "kind": "hackernews",
+    "weight": 5
+  },
+  {
+    "name": "The Conversation",
+    "category": "Society",
+    "url": "https://theconversation.com/global/articles.atom",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Pew Research Center",
+    "category": "Society",
+    "url": "https://www.pewresearch.org/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "香港獨立媒體",
+    "category": "Hong Kong",
+    "url": "https://www.inmediahk.net/rss.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Lion’s Roar",
+    "category": "Philosophy",
+    "url": "https://www.lionsroar.com/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "The Marginalian",
+    "category": "Philosophy",
+    "url": "https://www.themarginalian.org/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "MUBI Notebook",
+    "category": "Arts",
+    "url": "https://mubi.com/notebook/posts.rss",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "The Quietus",
+    "category": "Arts",
+    "url": "https://thequietus.com/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "IndieWire",
+    "category": "Arts",
+    "url": "https://www.indiewire.com/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "端傳媒",
+    "category": "Society",
+    "url": "https://theinitium.com/rss/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "香港政府新聞公報",
+    "category": "Hong Kong",
+    "url": "https://www.info.gov.hk/gia/rss/general_zh.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Reuters Best",
+    "category": "Society",
+    "url": "https://reutersbest.com/feed/",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Publishers Weekly",
+    "category": "Literature",
+    "url": "https://www.publishersweekly.com/pw/feeds/recent/index.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "BFI",
+    "category": "Arts",
+    "url": "https://www.bfi.org.uk/rss-feed",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Hong Kong Government Press Releases",
+    "category": "Hong Kong",
+    "url": "https://www.info.gov.hk/gia/rss/general_en.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "The Pudding",
+    "category": "Design",
+    "url": "https://pudding.cool/rss.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "The Creative Independent",
+    "category": "Design",
+    "url": "https://thecreativeindependent.com/feed.xml",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "AP via Flipboard",
+    "category": "Society",
+    "url": "https://flipboard.com/@associatedpress/top-stories-u7govdf1z.rss",
+    "kind": "rss",
+    "weight": 3
+  },
+  {
+    "name": "Kottke",
+    "category": "Discover",
+    "url": "https://feeds.kottke.org/main",
+    "kind": "rss",
+    "weight": 3,
+    "role": "curator"
+  },
+  {
+    "name": "Waxy",
+    "category": "Discover",
+    "url": "https://waxy.org/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "curator"
+  },
+  {
+    "name": "MetaFilter",
+    "category": "Discover",
+    "url": "https://rss.metafilter.com/metafilter.rss",
+    "kind": "rss",
+    "weight": 3,
+    "role": "community"
+  },
+  {
+    "name": "Longreads",
+    "category": "Discover",
+    "url": "https://longreads.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "curator"
+  },
+  {
+    "name": "Sidebar",
+    "category": "Design",
+    "url": "https://sidebar.io/feed.xml",
+    "kind": "rss",
+    "weight": 3,
+    "role": "curator"
+  },
+  {
+    "name": "Dense Discovery",
+    "category": "Discover",
+    "url": "https://www.densediscovery.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "curator"
+  },
+  {
+    "name": "The Public Domain Review",
+    "category": "Arts",
+    "url": "https://publicdomainreview.org/rss.xml",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "JSTOR Daily",
+    "category": "Society",
+    "url": "https://daily.jstor.org/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "Noema",
+    "category": "Society",
+    "url": "https://www.noemamag.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "Undark",
+    "category": "Society",
+    "url": "https://undark.org/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "Quanta Magazine",
+    "category": "Discover",
+    "url": "https://www.quantamagazine.org/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "It’s Nice That",
+    "category": "Arts",
+    "url": "https://feeds2.feedburner.com/itsnicethat/SlXC",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "Colossal",
+    "category": "Arts",
+    "url": "https://www.thisiscolossal.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "n+1",
+    "category": "Society",
+    "url": "https://www.nplusonemag.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "Mekong Review",
+    "category": "Literature",
+    "url": "https://mekongreview.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "The Offing",
+    "category": "Literature",
+    "url": "https://theoffingmag.com/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "Words Without Borders",
+    "category": "Literature",
+    "url": "https://wordswithoutborders.org/feed/",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  },
+  {
+    "name": "London Review of Books",
+    "category": "Literature",
+    "url": "https://www.lrb.co.uk/feeds/rss",
+    "kind": "rss",
+    "weight": 3,
+    "role": "publisher"
+  }
 ]

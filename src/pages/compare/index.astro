@@ -1,0 +1,97 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import comparison from '../../data/relevance-comparison.json';
+import { categories } from '../../content';
+
+const orderedCategories = categories.filter((category) => comparison.categories.includes(category));
+const methods = Object.values(comparison.methods);
+const initialCategory = [...orderedCategories].sort((a, b) =>
+  Math.min(...methods.map((method) => method.categories[b]?.results?.length ?? 0)) -
+  Math.min(...methods.map((method) => method.categories[a]?.results?.length ?? 0))
+)[0];
+const snapshotDate = new Intl.DateTimeFormat('en-HK', {
+  day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit',
+  timeZone: 'Asia/Hong_Kong',
+}).format(new Date(comparison.snapshot.collectedAt));
+---
+
+<Layout title="Compare relevance" description="Compare how three methods find stories from the same candidate pool.">
+  <SiteHeader active="compare" />
+  <main class="page-shell compare-page">
+    <header class="compare-heading">
+      <h1>Compare relevance</h1>
+      <p>Three ways to match your interests against the same {comparison.snapshot.candidateCount} collected stories.</p>
+      <p class="compare-context">Snapshot: {snapshotDate} Hong Kong time · Up to {comparison.settings.topN} matching stories per method</p>
+    </header>
+    <nav class="filters" aria-label="Choose a topic to compare">
+      {orderedCategories.map((category) => (
+        <button type="button" class:list={['filter', { active: category === initialCategory }]} data-compare-filter={category} aria-pressed={category === initialCategory ? 'true' : 'false'}>{category}</button>
+      ))}
+    </nav>
+    <p class="compare-note">These lists show relevance matches only. The daily edition also uses freshness and diversity. MiniSearch and BM25S can match individual words within a phrase, so some results may be unrelated. Scores are not comparable across methods.</p>
+    {orderedCategories.map((category) => {
+      const terms = comparison.queries.filter((query) => !query.categories || query.categories.includes(category));
+      return (
+        <section class="compare-topic" data-compare-topic={category} hidden={category !== initialCategory} aria-label={`${category} relevance comparison`}>
+          <div class="compare-terms"><strong>Interest terms:</strong> {terms.length ? terms.map((query) => query.term).join(' · ') : 'None configured for this category yet.'}</div>
+          <div class="compare-columns">
+            {methods.map((method) => {
+              const group = method.categories[category];
+              return (
+                <section class="compare-method" aria-label={method.label}>
+                  <div class="compare-method-header"><h2>{method.label}</h2><p>{method.label === 'Current phrase matcher' ? 'Matches exact interest phrases.' : method.label === 'MiniSearch' ? 'Ranks matching words using a JavaScript search index.' : 'Ranks matching words using the Python BM25S library.'}</p></div>
+                  {group?.results?.length ? (
+                    <ol class="compare-results">
+                      {group.results.map((story) => (
+                        <li><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a><span>{story.source}</span></li>
+                      ))}
+                    </ol>
+                  ) : (
+                    <p class="compare-empty">{group?.status === 'no_queries' ? 'No interest terms are configured for this topic.' : 'No stories matched the configured terms.'}</p>
+                  )}
+                </section>
+              );
+            })}
+          </div>
+        </section>
+      );
+    })}
+    <footer class="page-footer"><span>Generated from a saved snapshot; no reading data is collected.</span><span>Open titles to read the original stories.</span></footer>
+  </main>
+  <script>
+    const filters = [...document.querySelectorAll<HTMLButtonElement>('[data-compare-filter]')];
+    const topics = [...document.querySelectorAll<HTMLElement>('[data-compare-topic]')];
+    filters.forEach((button) => button.addEventListener('click', () => {
+      const selected = button.dataset.compareFilter;
+      filters.forEach((filter) => {
+        const active = filter === button;
+        filter.classList.toggle('active', active);
+        filter.setAttribute('aria-pressed', String(active));
+      });
+      topics.forEach((topic) => { topic.hidden = topic.dataset.compareTopic !== selected; });
+    }));
+  </script>
+  <style>
+    .compare-heading { margin: 34px 0 24px; max-width: 720px; }
+    .compare-heading h1 { font-size: 26px; letter-spacing: -.025em; margin: 0 0 10px; }
+    .compare-heading p { color: var(--muted-copy); margin: 0 0 6px; line-height: 1.5; }
+    .compare-heading .compare-context { font-size: 12px; color: var(--faint-copy); }
+    .compare-note { font-size: 13px; color: var(--muted-copy); line-height: 1.5; margin: 18px 0; }
+    .compare-topic[hidden] { display: none; }
+    .compare-terms { font-size: 13px; color: var(--muted-copy); line-height: 1.6; margin-bottom: 18px; }
+    .compare-terms strong { color: var(--text); font-weight: 600; }
+    .compare-columns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+    .compare-method { background: var(--surface); border-radius: 8px; padding: 18px; min-width: 0; }
+    .compare-method-header h2 { font-size: 16px; margin: 0 0 6px; }
+    .compare-method-header p, .compare-empty { color: var(--muted-copy); font-size: 12px; line-height: 1.5; margin: 0; }
+    .compare-results { padding: 0; margin: 16px 0 0; list-style: none; counter-reset: result; }
+    .compare-results li { counter-increment: result; position: relative; padding: 12px 0 12px 26px; border-top: 1px solid var(--rule); font-size: 14px; line-height: 1.4; }
+    .compare-results li::before { content: counter(result); position: absolute; left: 0; color: var(--faint-copy); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .compare-results a { color: var(--text); text-decoration: none; }
+    .compare-results a:hover { text-decoration: underline; }
+    .compare-results span { display: block; color: var(--faint-copy); font-size: 12px; margin-top: 4px; }
+    .compare-empty { margin-top: 18px; }
+    @media (max-width: 800px) { .compare-columns { grid-template-columns: 1fr; } .compare-method { padding: 16px; } }
+  </style>
+</Layout>

@@ -8,7 +8,13 @@ interface Props {
 
 const { story } = Astro.props;
 const excerpt = story.source === 'Hacker News' ? null : story.excerpt.replace(/\s+$/, '');
-const sourceUrl = story.source === 'Hacker News' ? story.discussionUrl ?? story.url : story.url;
+let articleDomain: string | null = null;
+if (story.source === 'Hacker News') {
+  try {
+    const url = new URL(story.url);
+    if (url.protocol === 'https:' || url.protocol === 'http:') articleDomain = url.hostname.replace(/^www\./, '');
+  } catch { /* Older or malformed links may not identify a publisher. */ }
+}
 ---
 
 <article class="story" data-category={story.category}>
@@ -28,9 +34,20 @@ const sourceUrl = story.source === 'Hacker News' ? story.discussionUrl ?? story.
             {formatRelativeAge(story.publishedAt)}
           </time>
           <span class="story-meta-separator" aria-hidden="true">·</span>
+          {articleDomain && (
+            <>
+              <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>
+                {articleDomain}
+              </a>
+              <span class="story-meta-separator" aria-hidden="true">·</span>
+            </>
+          )}
+          {story.source === 'Hacker News' && !story.discussionUrl ? (
+            <span>Hacker News</span>
+          ) : (
           <a
             class="story-source"
-            href={sourceUrl}
+            href={story.source === 'Hacker News' ? story.discussionUrl : story.url}
             target="_blank"
             rel="noreferrer"
             aria-label={story.source === 'Hacker News'
@@ -39,6 +56,19 @@ const sourceUrl = story.source === 'Hacker News' ? story.discussionUrl ?? story.
           >
             {story.source}
           </a>
+          )}
+          {story.relatedSources?.map((related) => (
+            <>
+              <span class="story-meta-separator" aria-hidden="true">·</span>
+              <a class="story-source" href={related.url} target="_blank" rel="noreferrer" aria-label={`Open related coverage from ${related.source}: ${related.title}`}>{related.source}</a>
+            </>
+          ))}
+          {story.source !== 'Hacker News' && story.discussionUrl && (
+            <>
+              <span class="story-meta-separator" aria-hidden="true">·</span>
+              <a class="story-source" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>Hacker News</a>
+            </>
+          )}
         </div>
       </div>
     </CardContent>

@@ -1,0 +1,134 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import reviewData from '../../data/review-sample.json';
+import { categories } from '../../content';
+const orderedCategories = categories.filter((category) => reviewData.categories.includes(category));
+const snapshotDate = new Intl.DateTimeFormat('en-HK', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Hong_Kong' }).format(new Date(reviewData.collectedAt));
+---
+<Layout title="Review stories" description="Review a mix of selected and excluded stories to improve your news ranking.">
+  <SiteHeader active="review" />
+  <main class="page-shell review-page">
+    <header class="review-heading">
+      <h1>Review stories</h1>
+      <p>Would you want to read this? Your answers help us improve the selection.</p>
+      <p class="review-context">{snapshotDate} Hong Kong time · A mix of selected stories and highest-ranked exclusions</p>
+    </header>
+    <nav class="filters" aria-label="Choose a topic to review">
+      {orderedCategories.map((category, index) => <button type="button" class:list={['filter', {active: index === 0}]} data-review-category={category} aria-pressed={index === 0 ? 'true' : 'false'}>{category}</button>)}
+    </nav>
+    <div class="review-toolbar">
+      <p id="review-progress" aria-live="polite"></p>
+      <button type="button" class="review-export" id="review-export">Export ratings</button>
+    </div>
+    <article class="review-card" id="review-card">
+      <p class="review-source" id="review-source"></p>
+      <h2><a id="review-title" target="_blank" rel="noreferrer"></a></h2>
+      <p class="review-excerpt" id="review-excerpt"></p>
+      <p class="review-prompt">Would you read this?</p>
+      <div class="review-ratings" role="group" aria-label="Rate this story">
+        <button type="button" data-rating="interested" aria-pressed="false">Interested</button>
+        <button type="button" data-rating="maybe" aria-pressed="false">Maybe</button>
+        <button type="button" data-rating="not_interested" aria-pressed="false">Not interested</button>
+      </div>
+      <div class="review-pager">
+        <button type="button" id="review-previous">← Previous</button>
+        <button type="button" id="review-next">Skip / next →</button>
+      </div>
+    </article>
+    <p id="review-message" class="review-message" aria-live="polite">Ratings stay in this browser. Export them when you’re ready to share them.</p>
+    <noscript><p class="review-message">Turn on JavaScript to review stories.</p></noscript>
+  </main>
+  <script is:inline define:vars={{ reviewData, orderedCategories }}>
+    (() => {
+      const articles = reviewData.articles;
+      const key = `daily-brief-review:${reviewData.collectedAt}`;
+      const controls = [...document.querySelectorAll('[data-review-category]')];
+      const ratingButtons = [...document.querySelectorAll('[data-rating]')];
+      const progress = document.getElementById('review-progress');
+      const source = document.getElementById('review-source');
+      const title = document.getElementById('review-title');
+      const excerpt = document.getElementById('review-excerpt');
+      const message = document.getElementById('review-message');
+      const previous = document.getElementById('review-previous');
+      const next = document.getElementById('review-next');
+      const exportButton = document.getElementById('review-export');
+      const id = (item) => JSON.stringify([item.category, item.source, item.url]);
+      let ratings = {};
+      let storageAvailable = true;
+      try { ratings = JSON.parse(localStorage.getItem(key) || '{}'); if (!ratings || typeof ratings !== 'object' || Array.isArray(ratings)) ratings = {}; }
+      catch { ratings = {}; storageAvailable = false; }
+      let category = orderedCategories[0];
+      let index = 0;
+      const categoryItems = () => articles.filter((item) => item.category === category);
+      function render() {
+        const items = categoryItems();
+        const story = items[index];
+        if (!story) return;
+        const reviewed = items.filter((item) => ratings[id(item)]).length;
+        progress.textContent = `${category} · ${index + 1} of ${items.length} · ${reviewed} reviewed`;
+        source.textContent = story.source;
+        title.textContent = story.title;
+        title.href = story.url;
+        excerpt.textContent = story.excerpt;
+        excerpt.hidden = !story.excerpt;
+        ratingButtons.forEach((button) => button.setAttribute('aria-pressed', String(ratings[id(story)] === button.dataset.rating)));
+        previous.disabled = index === 0;
+        next.disabled = index >= items.length - 1;
+        controls.forEach((button) => {
+          const active = button.dataset.reviewCategory === category;
+          button.classList.toggle('active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+        if (!storageAvailable) message.textContent = 'Browser storage is unavailable. Export your ratings before leaving this page.';
+      }
+      controls.forEach((button) => button.addEventListener('click', () => { category = button.dataset.reviewCategory; index = 0; render(); }));
+      ratingButtons.forEach((button) => button.addEventListener('click', () => {
+        const item = categoryItems()[index];
+        if (!item) return;
+        ratings[id(item)] = button.dataset.rating;
+        try { localStorage.setItem(key, JSON.stringify(ratings)); } catch { storageAvailable = false; }
+        if (index < categoryItems().length - 1) index++;
+        else message.textContent = 'You reached the end of this topic. Choose another topic or export your ratings.';
+        render();
+      }));
+      previous.addEventListener('click', () => { if (index > 0) { index--; render(); } });
+      next.addEventListener('click', () => { if (index < categoryItems().length - 1) { index++; render(); } });
+      exportButton.addEventListener('click', () => {
+        const reviewed = articles.filter((item) => ratings[id(item)]).map((item) => ({ ...item, rating: ratings[id(item)] }));
+        if (!reviewed.length) { message.textContent = 'Rate at least one story before exporting.'; return; }
+        const data = { version: 1, snapshot: reviewData.snapshot, collectedAt: reviewData.collectedAt, rankingVersion: reviewData.rankingVersion, exportedAt: new Date().toISOString(), ratings: reviewed };
+        const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
+        const link = document.createElement('a'); link.href = url; link.download = `news-review-${reviewData.collectedAt.slice(0, 10)}.json`; link.click();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        message.textContent = `Exported ${reviewed.length} ${reviewed.length === 1 ? 'rating' : 'ratings'}. You can share the file when you’re ready.`;
+      });
+      render();
+    })();
+  </script>
+  <style>
+    .review-page { max-width: 800px; }
+    .review-heading { margin: 34px 0 24px; }
+    .review-heading h1 { font-size: 26px; letter-spacing: -.025em; margin: 0 0 10px; }
+    .review-heading p { color: var(--muted-copy); margin: 0 0 6px; line-height: 1.5; }
+    .review-heading .review-context { color: var(--faint-copy); font-size: 12px; }
+    .review-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 20px 0 12px; font-size: 13px; color: var(--muted-copy); }
+    .review-toolbar p { margin: 0; }
+    .review-export, .review-pager button { border: 0; background: transparent; color: var(--text); font: inherit; cursor: pointer; padding: 8px 0; }
+    .review-export { text-decoration: underline; text-underline-offset: 3px; }
+    .review-card { background: var(--surface); border-radius: 8px; padding: 24px; }
+    .review-source { font-size: 13px; color: var(--muted-copy); margin: 0 0 10px; }
+    .review-card h2 { font-size: 21px; line-height: 1.35; letter-spacing: -.015em; margin: 0; }
+    .review-card h2 a { color: var(--text); text-decoration: none; }
+    .review-card h2 a:hover { text-decoration: underline; }
+    .review-excerpt { color: var(--muted-copy); font-size: 14px; line-height: 1.5; margin: 12px 0 0; }
+    .review-prompt { margin: 28px 0 12px; font-size: 14px; font-weight: 600; }
+    .review-ratings { display: flex; flex-wrap: wrap; gap: 8px; }
+    .review-ratings button { border: 1px solid var(--rule); border-radius: 20px; color: var(--text); background: transparent; font: inherit; font-size: 13px; padding: 9px 14px; cursor: pointer; }
+    .review-ratings button:hover, .review-ratings button[aria-pressed="true"] { background: var(--text); color: var(--surface); }
+    .review-pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 24px; font-size: 13px; }
+    .review-pager button:disabled { opacity: .4; cursor: default; }
+    .review-message { color: var(--muted-copy); font-size: 12px; line-height: 1.5; margin: 16px 0; }
+    @media (max-width: 600px) { .review-card { padding: 18px; } .review-card h2 { font-size: 18px; } .review-ratings button { min-height: 44px; } }
+  </style>
+</Layout>

@@ -6,6 +6,7 @@ export const categories = [
   'Philosophy',
   'Literature',
   'Arts',
+  'Discover',
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -14,6 +15,7 @@ export interface Story {
   title: string;
   url: string;
   discussionUrl?: string;
+  relatedSources?: { source: string; url: string; title: string }[];
   source: string;
   category: Category;
   publishedAt: string | null;

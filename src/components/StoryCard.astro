@@ -16,31 +16,37 @@ if (isDiscovery) {
     if (url.protocol === 'https:' || url.protocol === 'http:') articleDomain = url.hostname.replace(/^www\./, '');
   } catch { /* A malformed link may not identify a publisher. */ }
 }
+const showArticleDomain = articleDomain && story.source !== 'Hacker News' && story.category !== 'Discover';
 ---
 
-<article class="story" data-category={story.category}>
-  <Card size="sm" class="story-card ring-0">
-    <CardContent class="story-content">
-      <div class="story-copy">
-        <h2 class="story-title"><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>{' '}
-          <time class="story-age" datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
-            {formatRelativeAge(story.publishedAt)}
-          </time>
-          {story.source === 'Hacker News' && story.discussionUrl && (
-            <span class="story-age"> · <a class="story-source" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>HN</a></span>
-          )}
-        </h2>
-        {articleDomain && story.source !== 'Hacker News' && <div class="story-meta">
-          {(
-            <>
-              <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>{articleDomain}</a>
-            </>
-          )}
-        </div>}
-      </div>
-    </CardContent>
-  </Card>
-</article>
+<li class="story" data-category={story.category}>
+  <article>
+    <Card size="sm" class="story-card ring-0">
+      <CardContent class="story-content">
+        <div class="story-copy">
+          <h2 class="story-title"><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>{' '}
+            <time class="story-age" datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
+              {formatRelativeAge(story.publishedAt)}
+            </time>
+            {story.source === 'Hacker News' && story.discussionUrl && (
+              <span class="story-age"> · <a class="story-source" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>HN</a></span>
+            )}
+            {story.source === 'Waxy' && story.sourceUrl && (
+              <span class="story-age"> · <a class="story-source" href={story.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Open Waxy post for ${story.title}`}>W</a></span>
+            )}
+          </h2>
+          {showArticleDomain && <div class="story-meta">
+            {(
+              <>
+                <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>{articleDomain}</a>
+              </>
+            )}
+          </div>}
+        </div>
+      </CardContent>
+    </Card>
+  </article>
+</li>
 
 <script>
   import { formatRelativeAge } from '@/content';

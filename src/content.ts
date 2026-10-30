@@ -10,6 +10,7 @@ export interface Story {
   title: string;
   url: string;
   discussionUrl?: string;
+  sourceUrl?: string;
   relatedSources?: { source: string; url: string; title: string }[];
   source: string;
   sourceRole?: 'curator' | 'community' | 'publisher';

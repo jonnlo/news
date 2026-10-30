@@ -13,6 +13,8 @@
   --text: #202020;
   --muted-copy: #5d5d5d;
   --faint-copy: #737373;
+  --theme-accent: #146f73;
+  --theme-accent-text: var(--theme-accent);
   --data-accent: #8f5c00;
 
   --background: var(--ground);
@@ -61,6 +63,7 @@
   --text: #f5f4ef;
   --muted-copy: #c0bfb7;
   --faint-copy: #9c9b93;
+  --theme-accent-text: #73c8c0;
   --data-accent: #f2b33d;
   --input: #45463f;
   --ring: #b4b0a8;
@@ -150,7 +153,9 @@
 
 .masthead {
   width: 100%;
-  height: 62px;
+  height: 78px;
+  padding-top: 16px;
+  box-sizing: border-box;
 }
 
 .masthead-inner {
@@ -170,9 +175,10 @@
 }
 
 .wordmark {
-  font-size: 21px;
-  font-weight: 600;
-  letter-spacing: -0.025em;
+  color: var(--theme-accent-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .site-nav {
@@ -260,7 +266,6 @@
   font-size: 24px;
   line-height: 1.25;
   font-weight: 600;
-  letter-spacing: -0.035em;
 }
 
 .page-subtitle {
@@ -303,8 +308,8 @@
 }
 
 .filter.active {
-  border-color: #52524f;
-  background: #52524f;
+  border-color: var(--theme-accent);
+  background: var(--theme-accent);
   color: #fff;
 }
 
@@ -393,11 +398,24 @@
 }
 
 .story-title {
+  position: relative;
   margin: 0;
+  padding-left: 16px;
   font-size: 16px;
   line-height: 1.35;
   font-weight: 400;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
+}
+
+.story-title::before {
+  content: '';
+  position: absolute;
+  top: 0.675em;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: var(--theme-accent-text);
+  transform: translateY(-50%);
 }
 
 .story-title a {
@@ -407,9 +425,17 @@
   transition: text-decoration-color 120ms ease, color 120ms ease;
 }
 
+.dark .story-title a {
+  color: #deded7;
+}
+
 .story-title a:hover {
   color: var(--text);
   text-decoration-color: var(--faint-copy);
+}
+
+.dark .story-title a:hover {
+  color: #deded7;
 }
 
 .story-title a:focus-visible,
@@ -521,7 +547,7 @@
 
 @media (max-width: 640px) {
   .masthead {
-    height: 58px;
+    height: 74px;
   }
 
   .masthead-inner,
@@ -687,8 +713,10 @@
 
 .source-group .story-list {
   align-self: start;
+  margin: 0;
+  list-style: none;
   gap: 0;
-  padding: 4px 16px;
+  padding: 8px 16px;
   border-radius: 8px;
   background: var(--surface);
 }
@@ -699,7 +727,7 @@
 }
 
 .source-group .story-content {
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
 .source-name-line {
@@ -711,9 +739,15 @@
 
 .source-heading h2 {
   margin: 0;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 700;
   line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--theme-accent-text);
+}
+
+.source-heading h2 a {
+  color: inherit;
 }
 
 .source-heading h2 a:hover {

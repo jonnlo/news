@@ -44,12 +44,15 @@ const sourceGroups: SourceCollection[] = edition?.sources?.length
 sourceGroups.forEach((group) => {
   group.category = sourceCategory.get(group.name) ?? group.category;
 });
-sourceGroups.forEach((group) => group.stories.sort((a, b) => {
-  const timeA = a.publishedAt ? Date.parse(a.publishedAt) : Number.NEGATIVE_INFINITY;
-  const timeB = b.publishedAt ? Date.parse(b.publishedAt) : Number.NEGATIVE_INFINITY;
-  return (Number.isNaN(timeB) ? Number.NEGATIVE_INFINITY : timeB) -
-    (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
-}));
+sourceGroups.forEach((group) => {
+  if (group.kind === 'hackernews' || group.name === 'Hacker News') return;
+  group.stories.sort((a, b) => {
+    const timeA = a.publishedAt ? Date.parse(a.publishedAt) : Number.NEGATIVE_INFINITY;
+    const timeB = b.publishedAt ? Date.parse(b.publishedAt) : Number.NEGATIVE_INFINITY;
+    return (Number.isNaN(timeB) ? Number.NEGATIVE_INFINITY : timeB) -
+      (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
+  });
+});
 sourceGroups.sort((a, b) =>
   categories.indexOf(a.category) - categories.indexOf(b.category) ||
   (sourceOrder.get(a.name) ?? Number.POSITIVE_INFINITY) - (sourceOrder.get(b.name) ?? Number.POSITIVE_INFINITY),
@@ -95,12 +98,11 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
                   <h2>{homepages.has(group.name)
                     ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name === '香港01' ? '香港01 · 熱門' : group.name}</a>
                     : group.name}</h2>
-                  {(group.kind === 'hackernews' || group.name === 'Hacker News') && <span class="source-time-label">Submission times</span>}
                 </div>
               </header>
-              <div class="story-list">
+              <ul class="story-list" role="list">
                 {group.stories.map((story) => <StoryCard story={story} referenceDate={edition?.date} />)}
-              </div>
+              </ul>
             </section>
           ))}
           <p class="empty-state" hidden>No headlines in this topic for this collection.</p>
@@ -130,6 +132,11 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
     const empty = document.querySelector<HTMLElement>('.empty-state');
     let selectedTopic = 'All';
 
+    function topicFromUrl() {
+      const requested = new URLSearchParams(window.location.search).get('category');
+      return filters.some((filter) => filter.dataset.filter === requested) ? requested! : 'All';
+    }
+
     function updateGroups() {
       let matching = 0;
       groups.forEach((group) => {
@@ -140,16 +147,31 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       if (empty) empty.hidden = matching > 0;
     }
 
-    filters.forEach((button) => button.addEventListener('click', () => {
+    function selectTopic(topic: string, updateUrl: boolean) {
+      const button = filters.find((filter) => filter.dataset.filter === topic)
+        ?? filters.find((filter) => filter.dataset.filter === 'All');
+      if (!button) return;
       selectedTopic = button.dataset.filter ?? 'All';
+
+      if (updateUrl && selectedTopic !== topicFromUrl()) {
+        const url = new URL(window.location.href);
+        if (selectedTopic === 'All') url.searchParams.delete('category');
+        else url.searchParams.set('category', selectedTopic);
+        window.history.pushState({}, '', url);
+      }
+
       filters.forEach((filter) => {
         const active = filter === button;
         filter.classList.toggle('active', active);
         filter.setAttribute('aria-pressed', String(active));
       });
       updateGroups();
-    }));
+    }
 
-    updateGroups();
+    filters.forEach((button) => button.addEventListener('click', () => {
+      selectTopic(button.dataset.filter ?? 'All', true);
+    }));
+    window.addEventListener('popstate', () => selectTopic(topicFromUrl(), false));
+    selectTopic(topicFromUrl(), false);
   </script>
 </Layout>

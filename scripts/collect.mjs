@@ -49,8 +49,19 @@ function parseRss(xml, source) {
     const rawDate = decodeEntities(tag(item, ['pubDate', 'published', 'updated', 'dc:date']));
     const publishedAt = rawDate && !Number.isNaN(Date.parse(rawDate)) ? new Date(rawDate).toISOString() : null;
     const excerpt = decodeEntities(tag(item, ['description', 'summary', 'content:encoded', 'content'])).slice(0, 300);
+    let sourceUrl;
+    if (source.name === 'Waxy') {
+      try {
+        const waxyUrl = new URL(decodeEntities(tag(item, ['comments'])));
+        if (waxyUrl.protocol === 'https:' && waxyUrl.hostname === 'waxy.org') {
+          waxyUrl.hash = '';
+          sourceUrl = waxyUrl.toString();
+        }
+      } catch { /* The feed may omit its Waxy post permalink. */ }
+    }
     return title && url ? {
       title, url, publishedAt, excerpt, source: source.name, category: source.category,
+      ...(sourceUrl ? { sourceUrl } : {}),
       ...(source.role ? { sourceRole: source.role } : {}),
       ...(source.role === 'curator' ? { discoveryChannel: `curator:${source.name}` } : {}),
       _feedIndex: index,
@@ -82,14 +93,14 @@ async function fetchJson(url) {
 }
 
 async function collectHackerNews(feed) {
-  // The official newstories endpoint is ordered by newest submission first.
+  // The official topstories endpoint preserves Hacker News front-page ranking.
   // Fetch extra IDs so deleted, text-only, and URL-less items do not starve the source.
-  const ids = await fetchJson('https://hacker-news.firebaseio.com/v0/newstories.json');
-  if (!Array.isArray(ids)) throw new Error('HN newstories endpoint returned an invalid response');
+  const ids = await fetchJson('https://hacker-news.firebaseio.com/v0/topstories.json');
+  if (!Array.isArray(ids)) throw new Error('HN topstories endpoint returned an invalid response');
   const results = await Promise.all(ids.slice(0, 50).map(async (id, index) => {
     try {
       const item = await fetchJson(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-      if (!item?.title || item.deleted || item.dead) return { ok: true, story: null };
+      if (item?.type !== 'story' || !item.title || item.deleted || item.dead) return { ok: true, story: null };
       const discussionUrl = `https://news.ycombinator.com/item?id=${item.id}`;
       return {
         ok: true,
@@ -155,7 +166,10 @@ async function collectSource(feed) {
   } else stories = feed.kind === 'hackernews'
     ? await collectHackerNews(feed)
     : parseRss(await fetchText(feed.url), feed);
-  const selected = sourceLocalDedupe(sortNewestFirst(stories)).slice(0, perSourceLimit)
+  const orderedStories = feed.kind === 'hackernews'
+    ? stories
+    : sortNewestFirst(stories);
+  const selected = sourceLocalDedupe(orderedStories).slice(0, perSourceLimit)
     .map(({ _feedIndex, ...story }) => story);
   return {
     name: feed.name,

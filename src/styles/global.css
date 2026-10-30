@@ -6,14 +6,15 @@
   color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --ground: #ededed;
+  --ground: #ebecea;
   --surface: #ffffff;
   --raised: #e4e4e4;
   --rule: #d2d2d2;
   --text: #202020;
   --muted-copy: #5d5d5d;
   --faint-copy: #737373;
-  --theme-accent: #146f73;
+  --wordmark-copy: #505050;
+  --theme-accent: #704b65;
   --theme-accent-text: var(--theme-accent);
   --data-accent: #8f5c00;
 
@@ -56,14 +57,15 @@
 
 .dark {
   color-scheme: dark;
-  --ground: #10110f;
+  --ground: #121411;
   --surface: #191a17;
   --raised: #252622;
   --rule: #34352f;
   --text: #f5f4ef;
   --muted-copy: #c0bfb7;
   --faint-copy: #9c9b93;
-  --theme-accent-text: #73c8c0;
+  --wordmark-copy: #aaa9a2;
+  --theme-accent-text: #c29eb2;
   --data-accent: #f2b33d;
   --input: #45463f;
   --ring: #b4b0a8;
@@ -175,10 +177,14 @@
 }
 
 .wordmark {
-  color: var(--theme-accent-text);
+  color: var(--wordmark-copy);
   font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+.wordmark-accent {
+  color: var(--theme-accent-text);
 }
 
 .site-nav {
@@ -395,6 +401,7 @@
 .story-source:hover {
   color: var(--text);
   text-decoration-color: var(--faint-copy);
+  text-decoration-style: dotted;
 }
 
 .story-title {
@@ -432,6 +439,7 @@
 .story-title a:hover {
   color: var(--text);
   text-decoration-color: var(--faint-copy);
+  text-decoration-style: dotted;
 }
 
 .dark .story-title a:hover {
@@ -509,6 +517,7 @@
 
 .archive-row:hover .archive-date {
   text-decoration: underline;
+  text-decoration-style: dotted;
   text-decoration-color: #8d8980;
   text-underline-offset: 3px;
 }
@@ -740,7 +749,7 @@
 .source-heading h2 {
   margin: 0;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.01em;
   color: var(--theme-accent-text);
@@ -752,6 +761,7 @@
 
 .source-heading h2 a:hover {
   text-decoration: underline;
+  text-decoration-style: dotted;
   text-underline-offset: 3px;
 }
 

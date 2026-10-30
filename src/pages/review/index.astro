@@ -116,11 +116,12 @@ const snapshotDate = new Intl.DateTimeFormat('en-HK', { day: 'numeric', month: '
     .review-toolbar p { margin: 0; }
     .review-export, .review-pager button { border: 0; background: transparent; color: var(--text); font: inherit; cursor: pointer; padding: 8px 0; }
     .review-export { text-decoration: underline; text-underline-offset: 3px; }
+    .review-export:hover { text-decoration-style: dotted; }
     .review-card { background: var(--surface); border-radius: 8px; padding: 24px; }
     .review-source { font-size: 13px; color: var(--muted-copy); margin: 0 0 10px; }
     .review-card h2 { font-size: 21px; line-height: 1.35; margin: 0; }
     .review-card h2 a { color: var(--text); text-decoration: none; }
-    .review-card h2 a:hover { text-decoration: underline; }
+    .review-card h2 a:hover { text-decoration: underline; text-decoration-style: dotted; }
     .review-excerpt { color: var(--muted-copy); font-size: 14px; line-height: 1.5; margin: 12px 0 0; }
     .review-prompt { margin: 28px 0 12px; font-size: 14px; font-weight: 600; }
     .review-ratings { display: flex; flex-wrap: wrap; gap: 8px; }

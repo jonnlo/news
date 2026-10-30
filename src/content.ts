@@ -1,15 +1,10 @@
-export const categories = [
-  'Technology',
-  'Design',
-  'Hong Kong',
-  'Society',
-  'Philosophy',
-  'Literature',
-  'Arts',
-  'Discover',
-] as const;
+import newsSettings from './data/news-settings.json';
 
-export type Category = (typeof categories)[number];
+export const categories = newsSettings.categories
+  .filter((category) => category.enabled)
+  .map((category) => category.name);
+
+export type Category = string;
 
 export interface Story {
   title: string;

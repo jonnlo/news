@@ -1,6 +1,6 @@
 # Source audit and candidate registry
 
-Prepared 28 October 2026 for the personal news digest. This is a planning registry; `scripts/feeds.json` remains the active collector configuration. A candidate is not a working feed until it has been fetched and parsed successfully by the actual collector. Publication preference is an editorial judgment, not a credibility score.
+Prepared 28 October 2026 for the personal news digest. This is a planning registry; `src/data/news-settings.json` is the active collector configuration, managed through Keystatic. A candidate is not a working feed until it has been fetched and parsed successfully by the actual collector. Publication preference is an editorial judgment, not a credibility score.
 
 ## Current baseline
 
@@ -135,7 +135,7 @@ Three candidate feeds were fetched directly using the collector's user agent and
 | Nielsen Norman Group | https://www.nngroup.com/feed/rss/ | HTTP 200, `application/rss+xml` | 20 | “UX Disciplines: Glossary” — 23 Oct 2026 |
 | South China Morning Post (Hong Kong) | https://www.scmp.com/rss/2/feed | HTTP 200, `text/xml`; redirected to trailing-slash URL | 50 | “China’s currency goes global” — 29 Oct 2026 |
 
-The WIRED endpoint is linked from the publisher's [RSS directory](https://www.wired.com/about/rss-feeds/); the SCMP section endpoint was selected from its [official RSS directory](https://www.scmp.com/feed-rss). The Nielsen Norman Group endpoint is the direct feed URL tested above; no publisher RSS directory was located during this check. WIRED and SCMP feed links are classified as reporting sources; NN/G is slower specialist UX research/advice. These additions are now in `scripts/feeds.json`. A direct check of `https://thepudding.cool/feed.xml` failed with a network fetch error, so The Pudding remains a candidate and was not added. No GitHub Actions check was performed.
+The WIRED endpoint is linked from the publisher's [RSS directory](https://www.wired.com/about/rss-feeds/); the SCMP section endpoint was selected from its [official RSS directory](https://www.scmp.com/feed-rss). The Nielsen Norman Group endpoint is the direct feed URL tested above; no publisher RSS directory was located during this check. WIRED and SCMP feed links are classified as reporting sources; NN/G is slower specialist UX research/advice. These additions are now in `src/data/news-settings.json`. A direct check of `https://thepudding.cool/feed.xml` failed with a network fetch error, so The Pudding remains a candidate and was not added. No GitHub Actions check was performed.
 
 ### Expanded-source trial — 30 October 2026
 

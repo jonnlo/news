@@ -4,7 +4,12 @@ import { fileURLToPath } from 'node:url';
 import { assertCollectionHasSuccess } from './collector-utils.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const feedList = JSON.parse(await readFile(resolve(root, 'scripts/feeds.json'), 'utf8'));
+const newsSettings = JSON.parse(await readFile(resolve(root, 'src/data/news-settings.json'), 'utf8'));
+const feedList = newsSettings.categories
+  .filter((category) => category.enabled)
+  .flatMap((category) => category.sources
+    .filter((source) => source.enabled)
+    .map((source) => ({ ...source, category: category.name })));
 const outputArg = process.argv.find((arg) => arg.startsWith('--output='))?.slice(9);
 const outputDir = outputArg ? resolve(outputArg) : resolve(root, 'src/data/editions');
 const collectedAt = new Date();
@@ -128,6 +133,23 @@ async function collectSource(feed) {
         url: `https://news.now.com/home/local/player?newsId=${encodeURIComponent(item.newsId)}`,
         publishedAt: item.publishDate && !Number.isNaN(date.getTime()) ? date.toISOString() : null,
         excerpt: '', source: feed.name, category: feed.category, _feedIndex: index,
+      }];
+    });
+  } else if (feed.kind === 'wordpress') {
+    const response = await fetchJson(feed.url);
+    if (!Array.isArray(response?.posts)) throw new Error('WordPress.com API returned an invalid response');
+    stories = response.posts.flatMap((item, index) => {
+      if (!item?.title || !item?.URL) return [];
+      const date = item.date ? new Date(item.date) : null;
+      return [{
+        title: decodeEntities(item.title),
+        url: item.URL,
+        publishedAt: date && !Number.isNaN(date.getTime()) ? date.toISOString() : null,
+        excerpt: decodeEntities(item.excerpt ?? '').slice(0, 300),
+        source: feed.name,
+        category: feed.category,
+        ...(feed.role ? { sourceRole: feed.role } : {}),
+        _feedIndex: index,
       }];
     });
   } else stories = feed.kind === 'hackernews'

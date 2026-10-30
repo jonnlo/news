@@ -4,7 +4,7 @@ import SiteHeader from '../components/SiteHeader.astro';
 import { Button } from '@/components/starwind/button';
 import StoryCard from '@/components/StoryCard.astro';
 import { categories, formatDate, formatHongKongTime, type Edition, type SourceCollection } from '../content';
-import feeds from '../../scripts/feeds.json';
+import newsSettings from '../data/news-settings.json';
 
 const homepageOverrides: Record<string, string> = {
   '香港01': 'https://www.hk01.com/',
@@ -18,8 +18,16 @@ const homepageOverrides: Record<string, string> = {
   'MUBI Notebook': 'https://mubi.com/notebook/',
   'Reuters via Google News': 'https://www.reuters.com/',
   'The Sociological Review': 'https://www.thesociologicalreview.org/',
+  'The Rumpus': 'https://therumpus.net/',
 };
-const homepages = new Map(feeds.map((feed) => [feed.name, homepageOverrides[feed.name] ?? new URL(feed.url).origin]));
+const activeSources = newsSettings.categories
+  .filter((category) => category.enabled && categories.includes(category.name))
+  .flatMap((category) => category.sources
+    .filter((source) => source.enabled)
+    .map((source) => ({ ...source, category: category.name })));
+const homepages = new Map(activeSources.map((source) => [source.name, homepageOverrides[source.name] ?? new URL(source.url).origin]));
+const sourceOrder = new Map(activeSources.map((source, index) => [source.name, index] as const));
+const sourceCategory = new Map(activeSources.map((source) => [source.name, source.category] as const));
 
 const allEditions = Object.values(
   import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' }),
@@ -33,17 +41,23 @@ const sourceGroups: SourceCollection[] = edition?.sources?.length
     const sourceStories = stories.filter((story) => story.source === source && story.category === category);
     return { name: source, category: (category ?? 'Discover') as SourceCollection['category'], stories: sourceStories };
   });
+sourceGroups.forEach((group) => {
+  group.category = sourceCategory.get(group.name) ?? group.category;
+});
 sourceGroups.forEach((group) => group.stories.sort((a, b) => {
   const timeA = a.publishedAt ? Date.parse(a.publishedAt) : Number.NEGATIVE_INFINITY;
   const timeB = b.publishedAt ? Date.parse(b.publishedAt) : Number.NEGATIVE_INFINITY;
   return (Number.isNaN(timeB) ? Number.NEGATIVE_INFINITY : timeB) -
     (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
 }));
-sourceGroups.sort((a, b) => categories.indexOf(a.category) - categories.indexOf(b.category));
+sourceGroups.sort((a, b) =>
+  categories.indexOf(a.category) - categories.indexOf(b.category) ||
+  (sourceOrder.get(a.name) ?? Number.POSITIVE_INFINITY) - (sourceOrder.get(b.name) ?? Number.POSITIVE_INFINITY),
+);
 const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
 ---
 
-<Layout title="Latest headlines" description="A source-led reading list of the latest headlines across technology, design, Hong Kong, society, philosophy, literature and arts.">
+<Layout title="Latest headlines" description="A source-led reading list of the latest headlines across technology, design, Hong Kong, society, philosophy, books, literature, and arts.">
   <SiteHeader active="latest" />
   <main class="page-shell latest-page">
     <section class="latest-heading" aria-label="Collection status">
@@ -74,7 +88,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
         </nav>
 
         <section class="source-list" id="source-list" aria-label="Latest headlines by source">
-          {sourceGroups.filter((group) => group.stories.length > 0).map((group) => (
+          {sourceGroups.filter((group) => sourceOrder.has(group.name) && group.stories.length > 0).map((group) => (
             <section class="source-group" data-category={group.category} aria-label={`${group.name} headlines`}>
               <header class="source-heading">
                 <div class="source-name-line">

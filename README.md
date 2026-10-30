@@ -4,7 +4,7 @@ A small Astro site for browsing the latest headlines from a curated set of sourc
 
 ## Sources and collection
 
-Edit `scripts/feeds.json` to curate the sources and their topics. RSS and the official Hacker News API supply headlines. Each source shows up to 10 of its most recent items; items with missing dates come after dated items. Duplicate URLs are removed within a source, while separate publications' coverage is retained. Feed availability, date quality and how many items a publisher exposes vary. Hacker News times are submission times, not necessarily article publication times.
+Manage categories and their source lists in Keystatic. Reorder categories and sources by dragging them; source lists are nested under each category. The settings are stored in `src/data/news-settings.json`; edit them from the local admin UI while the dev server is running. RSS, the official Hacker News API, Now News, and the WordPress.com public API supply headlines. Each source shows up to 10 of its most recent items; items with missing dates come after dated items. Duplicate URLs are removed within a source, while separate publications' coverage is retained. Feed availability, date quality and how many items a publisher exposes vary. Hacker News times are submission times, not necessarily article publication times.
 
 Hong Kong sources include 香港01's popular stories through a third-party RSSHub instance, 有線新聞 through its publisher feed, and Now 新聞 through its local-news API. HK01's selection is made upstream; the app orders the returned stories by date. The RSSHub instance may be unavailable or change independently of the publisher.
 
@@ -20,6 +20,8 @@ npm run collect
 npm run dev
 npm run build
 ```
+
+With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories and sources. Keystatic uses local storage here; changes are saved to the project files.
 
 `npm run collect -- --output=/tmp/digest-sample` writes a one-off collection to a separate directory instead of replacing a checked-in edition.
 

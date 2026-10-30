@@ -115,7 +115,22 @@ async function fetchText(url) {
 }
 
 async function collectSource(feed) {
-  const stories = feed.kind === 'hackernews'
+  let stories;
+  if (feed.kind === 'nownews') {
+    const response = await fetchJson(feed.url);
+    const items = Array.isArray(response) ? response : response?.newsList;
+    if (!Array.isArray(items)) throw new Error('Now News API returned an invalid response');
+    stories = items.flatMap((item, index) => {
+      if (!item?.newsId || !item?.title) return [];
+      const date = new Date(item.publishDate);
+      return [{
+        title: decodeEntities(item.title),
+        url: `https://news.now.com/home/local/player?newsId=${encodeURIComponent(item.newsId)}`,
+        publishedAt: item.publishDate && !Number.isNaN(date.getTime()) ? date.toISOString() : null,
+        excerpt: '', source: feed.name, category: feed.category, _feedIndex: index,
+      }];
+    });
+  } else stories = feed.kind === 'hackernews'
     ? await collectHackerNews(feed)
     : parseRss(await fetchText(feed.url), feed);
   const selected = sourceLocalDedupe(sortNewestFirst(stories)).slice(0, perSourceLimit)

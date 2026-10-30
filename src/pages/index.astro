@@ -7,6 +7,8 @@ import { categories, formatDate, formatHongKongTime, type Edition, type SourceCo
 import feeds from '../../scripts/feeds.json';
 
 const homepageOverrides: Record<string, string> = {
+  '香港01': 'https://www.hk01.com/',
+  'Now 新聞': 'https://news.now.com/home/local',
   'Ars Technica': 'https://arstechnica.com/',
   'Hacker News': 'https://news.ycombinator.com/',
   'Kottke': 'https://kottke.org/',
@@ -35,6 +37,7 @@ sourceGroups.forEach((group) => group.stories.sort((a, b) => {
   return (Number.isNaN(timeB) ? Number.NEGATIVE_INFINITY : timeB) -
     (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
 }));
+sourceGroups.sort((a, b) => categories.indexOf(a.category) - categories.indexOf(b.category));
 const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
 ---
 
@@ -62,7 +65,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
                 aria-pressed="false"
                 aria-controls="source-list"
               >
-                <span>{category}</span>
+                <span>{category === 'Technology' ? 'Tech' : category}</span>
               </Button>
             ))}
           </div>
@@ -74,7 +77,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
               <header class="source-heading">
                 <div class="source-name-line">
                   <h2>{homepages.has(group.name)
-                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name}</a>
+                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name === '香港01' ? '香港01 · 熱門' : group.name}</a>
                     : group.name}</h2>
                   {(group.kind === 'hackernews' || group.name === 'Hacker News') && <span class="source-time-label">Submission times</span>}
                 </div>

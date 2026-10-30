@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: [Refresh daily edition]
+    workflows: [Refresh headlines]
     types: [completed]
     branches: [main]
 

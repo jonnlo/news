@@ -1,19 +1,20 @@
 ---
 import { Card, CardContent } from '@/components/starwind/card';
-import { formatRelativeAge, type Story } from '@/content';
+import { formatPublicationTimestamp, formatRelativeAge, type Story } from '@/content';
 
 interface Props {
   story: Story;
+  referenceDate?: string;
 }
 
-const { story } = Astro.props;
-const excerpt = story.source === 'Hacker News' ? null : story.excerpt.replace(/\s+$/, '');
+const { story, referenceDate } = Astro.props;
+const isDiscovery = story.source === 'Hacker News' || story.sourceRole === 'curator' || story.sourceRole === 'community';
 let articleDomain: string | null = null;
-if (story.source === 'Hacker News') {
+if (isDiscovery) {
   try {
     const url = new URL(story.url);
     if (url.protocol === 'https:' || url.protocol === 'http:') articleDomain = url.hostname.replace(/^www\./, '');
-  } catch { /* Older or malformed links may not identify a publisher. */ }
+  } catch { /* A malformed link may not identify a publisher. */ }
 }
 ---
 
@@ -21,55 +22,21 @@ if (story.source === 'Hacker News') {
   <Card size="sm" class="story-card ring-0">
     <CardContent class="story-content">
       <div class="story-copy">
-        <h2 class="story-title">
-          <a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>
-        </h2>
-        {excerpt && <p class="story-excerpt">{excerpt}</p>}
-        <div class="story-meta">
-          <time
-            class="story-age"
-            datetime={story.publishedAt ?? undefined}
-            data-relative-age
-          >
+        <h2 class="story-title"><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>{' '}
+          <time class="story-age" datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
             {formatRelativeAge(story.publishedAt)}
           </time>
-          <span class="story-meta-separator" aria-hidden="true">·</span>
-          {articleDomain && (
+          {story.source === 'Hacker News' && story.discussionUrl && (
+            <span class="story-age"> · <a class="story-source" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>HN</a></span>
+          )}
+        </h2>
+        {articleDomain && story.source !== 'Hacker News' && <div class="story-meta">
+          {(
             <>
-              <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>
-                {articleDomain}
-              </a>
-              <span class="story-meta-separator" aria-hidden="true">·</span>
+              <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>{articleDomain}</a>
             </>
           )}
-          {story.source === 'Hacker News' && !story.discussionUrl ? (
-            <span>Hacker News</span>
-          ) : (
-          <a
-            class="story-source"
-            href={story.source === 'Hacker News' ? story.discussionUrl : story.url}
-            target="_blank"
-            rel="noreferrer"
-            aria-label={story.source === 'Hacker News'
-              ? `Open Hacker News discussion for ${story.title}`
-              : `Open ${story.source} story: ${story.title}`}
-          >
-            {story.source}
-          </a>
-          )}
-          {story.relatedSources?.map((related) => (
-            <>
-              <span class="story-meta-separator" aria-hidden="true">·</span>
-              <a class="story-source" href={related.url} target="_blank" rel="noreferrer" aria-label={`Open related coverage from ${related.source}: ${related.title}`}>{related.source}</a>
-            </>
-          ))}
-          {story.source !== 'Hacker News' && story.discussionUrl && (
-            <>
-              <span class="story-meta-separator" aria-hidden="true">·</span>
-              <a class="story-source" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>Hacker News</a>
-            </>
-          )}
-        </div>
+        </div>}
       </div>
     </CardContent>
   </Card>
@@ -78,7 +45,11 @@ if (story.source === 'Hacker News') {
 <script>
   import { formatRelativeAge } from '@/content';
 
-  document.querySelectorAll<HTMLTimeElement>('[data-relative-age]').forEach((time) => {
-    time.textContent = formatRelativeAge(time.dateTime || null);
-  });
+  function updateAges() {
+    document.querySelectorAll<HTMLTimeElement>('[data-relative-age]').forEach((time) => {
+      time.textContent = formatRelativeAge(time.getAttribute('datetime'));
+    });
+  }
+  updateAges();
+  setInterval(updateAges, 60_000);
 </script>

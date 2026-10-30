@@ -1,9 +1,9 @@
-name: Refresh daily edition
+name: Refresh headlines
 
 on:
   schedule:
-    # 06:00 Asia/Hong_Kong (UTC+8), daily.
-    - cron: '0 22 * * *'
+    # Hourly. GitHub Actions may delay scheduled runs.
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -24,15 +24,15 @@ jobs:
         with:
           node-version: 22.23.4
       - run: npm run collect
-      - name: Commit the new edition
+      - name: Commit the latest snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/editions/ data/candidates/
+          git add src/data/editions/
           if git diff --cached --quiet; then
             echo "No edition changes to commit."
           else
-            git commit -m "Refresh daily edition"
+            git commit -m "Refresh headlines"
             git pull --rebase origin main
             git push
           fi

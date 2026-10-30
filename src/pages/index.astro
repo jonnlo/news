@@ -3,93 +3,136 @@ import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import { Button } from '@/components/starwind/button';
 import StoryCard from '@/components/StoryCard.astro';
-import { categories, type Edition } from '../content';
+import { categories, formatDate, formatHongKongTime, type Edition, type SourceCollection } from '../content';
+import feeds from '../../scripts/feeds.json';
+
+const homepageOverrides: Record<string, string> = {
+  'Ars Technica': 'https://arstechnica.com/',
+  'Hacker News': 'https://news.ycombinator.com/',
+  'Kottke': 'https://kottke.org/',
+  'MetaFilter': 'https://www.metafilter.com/',
+  'It’s Nice That': 'https://www.itsnicethat.com/',
+  'AP via Flipboard': 'https://apnews.com/',
+  'MUBI Notebook': 'https://mubi.com/notebook/',
+};
+const homepages = new Map(feeds.map((feed) => [feed.name, homepageOverrides[feed.name] ?? new URL(feed.url).origin]));
 
 const allEditions = Object.values(
   import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' }),
 ) as Edition[];
 const edition = allEditions.sort((a, b) => b.date.localeCompare(a.date))[0];
 const stories = edition?.stories ?? [];
-const counts = Object.fromEntries(
-  categories.map((category) => [category, stories.filter((story) => story.category === category).length]),
-);
-const editionDate = edition
-  ? new Intl.DateTimeFormat('en-HK', {
-    weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Asia/Hong_Kong',
-  }).format(new Date(edition.date))
-  : 'No edition has been collected yet';
+const sourceGroups: SourceCollection[] = edition?.sources?.length
+  ? edition.sources
+  : [...new Set(stories.map((story) => `${story.source}\u0000${story.category}`))].map((key) => {
+    const [source, category] = key.split('\u0000');
+    const sourceStories = stories.filter((story) => story.source === source && story.category === category);
+    return { name: source, category: (category ?? 'Discover') as SourceCollection['category'], stories: sourceStories };
+  });
+sourceGroups.forEach((group) => group.stories.sort((a, b) => {
+  const timeA = a.publishedAt ? Date.parse(a.publishedAt) : Number.NEGATIVE_INFINITY;
+  const timeB = b.publishedAt ? Date.parse(b.publishedAt) : Number.NEGATIVE_INFINITY;
+  return (Number.isNaN(timeB) ? Number.NEGATIVE_INFINITY : timeB) -
+    (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
+}));
+const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
 ---
 
-<Layout title={editionDate} description="A personal daily reading list across technology, design, Hong Kong, society, philosophy, literature and arts.">
+<Layout title="Latest headlines" description="A source-led reading list of the latest headlines across technology, design, Hong Kong, society, philosophy, literature and arts.">
   <SiteHeader active="latest" />
-  <main class="page-shell reader">
-    <section class="page-heading" aria-labelledby="page-title">
-      <h1 id="page-title">{editionDate}</h1>
+  <main class="page-shell latest-page">
+    <section class="latest-heading" aria-label="Collection status">
+      <h1 class="edition-stamp">{edition && collectionTime
+        ? `${edition.collectionMode === 'source-led' ? 'Updated' : 'Curated'} ${formatDate(edition.generatedAt, { day: 'numeric', month: 'short' })}, ${collectionTime} HKT`
+        : 'Waiting for first collection'}</h1>
     </section>
 
-    {edition && stories.length > 0 ? (
+    {edition && sourceGroups.length > 0 ? (
       <>
-        <nav class="filters" aria-label="Filter stories by topic">
-          {categories.map((category) => (
-            <Button
-              variant="ghost"
-              class={category === 'Technology' ? 'filter active' : 'filter'}
-              data-filter={category}
-              aria-pressed={category === 'Technology' ? 'true' : 'false'}
-              aria-controls="story-list"
-            >
-              <span>{category}</span><span class="filter-count">{counts[category]}</span>
+        <nav class="topic-bar" aria-label="Filter headlines by topic">
+          <div class="filters">
+            <Button variant="ghost" class="filter active" data-filter="All" aria-pressed="true" aria-controls="source-list">
+              <span>All</span>
             </Button>
-          ))}
+            {categories.map((category) => (
+              <Button
+                variant="ghost"
+                class="filter"
+                data-filter={category}
+                aria-pressed="false"
+                aria-controls="source-list"
+              >
+                <span>{category}</span>
+              </Button>
+            ))}
+          </div>
         </nav>
 
-        <section class="stories-section" aria-label="News stories">
-          <div class="story-list" id="story-list">
-            {stories.map((story) => <StoryCard story={story} />)}
-          </div>
-          <p class="empty-state" hidden>No stories in this topic for this edition.</p>
+        <section class="source-list" id="source-list" aria-label="Latest headlines by source">
+          {sourceGroups.map((group) => (
+            <section class="source-group" data-category={group.category} aria-label={`${group.name} headlines`}>
+              <header class="source-heading">
+                <div class="source-name-line">
+                  <h2>{homepages.has(group.name)
+                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name}</a>
+                    : group.name}</h2>
+                  {(group.kind === 'hackernews' || group.name === 'Hacker News') && <span class="source-time-label">Submission times</span>}
+                </div>
+              </header>
+              <div class="story-list">
+                {group.stories.length > 0
+                  ? group.stories.map((story) => <StoryCard story={story} referenceDate={edition?.date} />)
+                  : <p class="source-empty">No headlines collected from this source.</p>}
+              </div>
+            </section>
+          ))}
+          <p class="empty-state" hidden>No headlines in this topic for this collection.</p>
         </section>
       </>
-    ) : (
+    ) : edition ? (
       <section class="empty-panel" aria-live="polite">
-        <h2>No edition yet</h2>
-        <p>The reading list will appear here after the first collection run.</p>
+        <h2>No headlines collected</h2>
+        <p>The latest collection checked {edition.sourcesChecked} sources but found no publishable stories.</p>
+      </section>
+    ) : (
+      <section class="empty-panel first-run" aria-live="polite">
+        <h2>Waiting for the first collection</h2>
+        <p>When the collector runs, headlines will appear here grouped by source and ordered by publication time.</p>
       </section>
     )}
 
     <footer class="page-footer">
-      <span>Every story opens at its original source.</span>
-      <span>Collected without AI summaries or tracking.</span>
+      <span>Headlines link to their original publishers.</span>
+      <span>{edition ? `${edition.sourcesChecked} sources checked` : 'No collection has run yet'}</span>
     </footer>
   </main>
 
   <script>
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
-    const stories = [...document.querySelectorAll<HTMLElement>('.story')];
+    const groups = [...document.querySelectorAll<HTMLElement>('.source-group')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
-    let selectedTopic = 'Technology';
+    let selectedTopic = 'All';
 
-    function updateStories() {
+    function updateGroups() {
       let matching = 0;
-      stories.forEach((story) => {
-        const matches = story.dataset.category === selectedTopic;
-        story.hidden = !matches;
+      groups.forEach((group) => {
+        const matches = selectedTopic === 'All' || group.dataset.category === selectedTopic;
+        group.hidden = !matches;
         if (matches) matching += 1;
       });
-
       if (empty) empty.hidden = matching > 0;
     }
 
     filters.forEach((button) => button.addEventListener('click', () => {
-      selectedTopic = button.dataset.filter ?? 'Technology';
+      selectedTopic = button.dataset.filter ?? 'All';
       filters.forEach((filter) => {
         const active = filter === button;
         filter.classList.toggle('active', active);
         filter.setAttribute('aria-pressed', String(active));
       });
-      updateStories();
+      updateGroups();
     }));
 
-    updateStories();
+    updateGroups();
   </script>
 </Layout>

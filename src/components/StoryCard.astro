@@ -5,9 +5,11 @@ import { formatPublicationTimestamp, formatRelativeAge, type Story } from '@/con
 interface Props {
   story: Story;
   referenceDate?: string;
+  page: number;
+  initiallyHidden?: boolean;
 }
 
-const { story, referenceDate } = Astro.props;
+const { story, referenceDate, page, initiallyHidden = false } = Astro.props;
 const isDiscovery = story.source === 'Hacker News' || story.sourceRole === 'curator' || story.sourceRole === 'community';
 let articleDomain: string | null = null;
 if (isDiscovery) {
@@ -19,7 +21,7 @@ if (isDiscovery) {
 const showArticleDomain = articleDomain && story.source !== 'Hacker News' && story.category !== 'Discover';
 ---
 
-<li class="story" data-category={story.category}>
+<li class="story" data-category={story.category} data-page={page} hidden={initiallyHidden}>
   <article>
     <Card size="sm" class="story-card ring-0">
       <CardContent class="story-content">

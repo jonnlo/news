@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { assertCollectionHasSuccess } from './collector-utils.mjs';
@@ -18,7 +18,31 @@ const today = new Intl.DateTimeFormat('en-CA', {
 }).format(collectedAt);
 const headers = { 'user-agent': 'PersonalNewsDigest/1.0 (+https://github.com; personal RSS reader)' };
 const timeoutMs = 15_000;
-const perSourceLimit = 10;
+const perSourceLimit = 20;
+const vergeFeeds = ['tech', 'ai-artificial-intelligence', 'policy', 'science', 'reviews', 'games']
+  .map((section) => `https://www.theverge.com/rss/${section}/index.xml`);
+
+async function previousVergeStories() {
+  try {
+    const editions = (await readdir(outputDir)).filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name) && name <= `${today}.json`).sort().reverse();
+    for (const name of editions) {
+      try {
+        const edition = JSON.parse(await readFile(resolve(outputDir, name), 'utf8'));
+        const stories = edition.sources?.find((source) => source.name === 'The Verge')?.stories;
+        if (Array.isArray(stories) && stories.length) return stories;
+      } catch { /* Try an earlier edition if this file cannot be read. */ }
+    }
+  } catch { /* There may not be an edition yet. */ }
+  return [];
+}
+const savedVergeStories = await previousVergeStories();
+// These publishers expose older, distinct RSS entries using WordPress pagination.
+const extraFeedPages = new Map([
+  ...['MIT Technology Review', 'Tricycle', 'Five Books', 'Daily Nous', 'The Millions',
+    'Literary Hub', 'The Offing', 'Words Without Borders', 'Colossal', 'Noema',
+    'JSTOR Daily', 'Lion’s Roar', 'Book Marks', 'Electric Literature'].map((name) => [name, 2]),
+  ['Quanta Magazine', 4],
+]);
 
 function decodeEntities(value = '') {
   return value
@@ -108,7 +132,30 @@ async function fetchText(url) {
 
 async function collectSource(feed) {
   let stories;
-  if (feed.kind === 'nownews') {
+  if (feed.name === '香港01') {
+    const urls = [feed.url, 'https://rsshub.runnable.run/hk01/latest', 'https://rsshub.runnable.run/hk01/zone/1'];
+    const responses = await Promise.allSettled(urls.map(async (url) => parseRss(await fetchText(url), feed)));
+    stories = responses.flatMap((response) => response.status === 'fulfilled' ? response.value : []);
+    if (!stories.length) throw new Error('香港01 feeds returned no recognizable stories');
+    stories = stories.map((story, index) => ({ ...story, _feedIndex: index }));
+  } else if (feed.name === 'The Verge') {
+    const responses = await Promise.allSettled([feed.url, ...vergeFeeds].map(async (url) => parseRss(await fetchText(url), feed)));
+    const fetched = responses.flatMap((response) => response.status === 'fulfilled' ? response.value : []);
+    if (!fetched.length && !savedVergeStories.length) throw new Error('The Verge feeds returned no recognizable stories');
+    if (!fetched.length) console.warn('The Verge feeds are unavailable; keeping stories from the previous edition.');
+    const seen = new Set();
+    stories = [...fetched, ...savedVergeStories].filter((story) => {
+      try {
+        const url = new URL(story.url);
+        url.hash = '';
+        url.search = '';
+        const key = `${url.hostname.replace(/^www\./, '')}${url.pathname.replace(/\/$/, '')}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      } catch { return false; }
+    }).map((story, index) => ({ ...story, _feedIndex: index }));
+  } else if (feed.kind === 'nownews') {
     const response = await fetchJson(feed.url);
     const items = Array.isArray(response) ? response : response?.newsList;
     if (!Array.isArray(items)) throw new Error('Now News API returned an invalid response');
@@ -141,6 +188,16 @@ async function collectSource(feed) {
     });
   } else {
     stories = parseRss(await fetchText(feed.url), feed);
+    const pageCount = extraFeedPages.get(feed.name) ?? 1;
+    if (stories.length < perSourceLimit && pageCount > 1) {
+      const extraPages = await Promise.all(Array.from({ length: pageCount - 1 }, async (_, index) => {
+        const url = new URL(feed.url);
+        url.searchParams.set('paged', String(index + 2));
+        try { return parseRss(await fetchText(url.toString()), feed); }
+        catch { return []; } // Keep the primary feed if an older page is unavailable.
+      }));
+      stories.push(...extraPages.flat());
+    }
     if (feed.kind === 'hackernews' && !stories.length) throw new Error('HNRSS returned no recognizable stories');
   }
   const orderedStories = sortNewestFirst(stories);

@@ -53,6 +53,9 @@ sourceGroups.forEach((group) => {
       (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
   });
 });
+sourceGroups.forEach((group) => {
+  group.stories = group.stories.slice(0, 20);
+});
 sourceGroups.sort((a, b) =>
   categories.indexOf(a.category) - categories.indexOf(b.category) ||
   (sourceOrder.get(a.name) ?? Number.POSITIVE_INFINITY) - (sourceOrder.get(b.name) ?? Number.POSITIVE_INFINITY),
@@ -91,17 +94,34 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
         </nav>
 
         <section class="source-list" id="source-list" aria-label="Latest headlines by source">
-          {sourceGroups.filter((group) => sourceOrder.has(group.name) && group.stories.length > 0).map((group) => (
-            <section class="source-group" data-category={group.category} aria-label={`${group.name} headlines`}>
+          {sourceGroups.filter((group) => sourceOrder.has(group.name) && group.stories.length > 0).map((group, groupIndex) => (
+            <section class="source-group" data-category={group.category} data-page="1" aria-label={`${group.name} headlines`}>
               <header class="source-heading">
                 <div class="source-name-line">
                   <h2>{homepages.has(group.name)
-                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name === '香港01' ? '香港01 · 熱門' : group.name}</a>
+                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name}</a>
                     : group.name}</h2>
                 </div>
+                {group.stories.length > 10 && (
+                  <nav class="source-pager" aria-label={`Pages of ${group.name} headlines`}>
+                    {[1, 2].map((page) => (
+                      <button
+                        class:list={["source-page-button", page === 1 && "active"]}
+                        type="button"
+                        data-page={page}
+                        aria-label={`Show stories 11–20 of ${group.name} headlines`}
+                        aria-controls={`stories-${groupIndex}`}
+                        aria-current={page === 1 ? 'page' : undefined}
+                        aria-pressed={page === 1 ? 'true' : 'false'}
+                      ><span class="source-page-segment" aria-hidden="true"></span></button>
+                    ))}
+                  </nav>
+                )}
               </header>
-              <ul class="story-list" role="list">
-                {group.stories.map((story) => <StoryCard story={story} referenceDate={edition?.date} />)}
+              <ul class="story-list" id={`stories-${groupIndex}`} role="list">
+                {group.stories.map((story, storyIndex) => (
+                  <StoryCard story={story} referenceDate={edition?.date} page={Math.floor(storyIndex / 10) + 1} initiallyHidden={storyIndex >= 10} />
+                ))}
               </ul>
             </section>
           ))}
@@ -162,8 +182,9 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       if (!row || !active) return;
       const rowRect = row.getBoundingClientRect();
       const chipRect = active.getBoundingClientRect();
-      if (chipRect.left < rowRect.left) row.scrollLeft += chipRect.left - rowRect.left;
-      else if (chipRect.right > rowRect.right) row.scrollLeft += chipRect.right - rowRect.right;
+      const inset = 16;
+      if (chipRect.left < rowRect.left + inset) row.scrollLeft += chipRect.left - rowRect.left - inset;
+      else if (chipRect.right > rowRect.right - inset) row.scrollLeft += chipRect.right - rowRect.right + inset;
     }
 
     function updateScrollTopic() {
@@ -203,7 +224,9 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       const button = filters.find((filter) => filter.dataset.filter === topic)
         ?? filters.find((filter) => filter.dataset.filter === 'All');
       if (!button) return;
-      selectedTopic = button.dataset.filter ?? 'All';
+      const nextTopic = button.dataset.filter ?? 'All';
+      if (nextTopic !== selectedTopic) resetGroupPages();
+      selectedTopic = nextTopic;
 
       if (updateUrl && selectedTopic !== topicFromUrl()) {
         const url = new URL(window.location.href);
@@ -220,6 +243,32 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       updateGroups();
       if (stickyBar?.classList.contains('is-visible')) updateScrollTopic();
     }
+
+    function setGroupPage(group: HTMLElement, page: number) {
+      const nextPage = page === 2 && group.querySelectorAll<HTMLElement>('.story[data-page="2"]').length > 0 ? 2 : 1;
+      group.dataset.page = String(nextPage);
+      group.querySelectorAll<HTMLElement>('.story').forEach((story) => {
+        story.hidden = Number(story.dataset.page) !== nextPage;
+      });
+      group.querySelectorAll<HTMLButtonElement>('.source-page-button').forEach((button) => {
+        const active = Number(button.dataset.page) === nextPage;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', String(active));
+        button.setAttribute('aria-label', `Show stories ${nextPage === 1 ? '11–20' : '1–10'} of ${group.getAttribute('aria-label') ?? 'headlines'}`);
+        if (active) button.setAttribute('aria-current', 'page');
+        else button.removeAttribute('aria-current');
+      });
+    }
+
+    function resetGroupPages() {
+      groups.forEach((group) => setGroupPage(group, 1));
+    }
+
+    groups.forEach((group) => {
+      group.querySelectorAll<HTMLButtonElement>('.source-page-button').forEach((button) => {
+        button.addEventListener('click', () => setGroupPage(group, group.dataset.page === '1' ? 2 : 1));
+      });
+    });
 
     filters.forEach((button) => button.addEventListener('click', () => {
       const topic = button.dataset.filter ?? 'All';

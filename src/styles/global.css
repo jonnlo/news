@@ -439,6 +439,11 @@
   color: #deded7;
 }
 
+.story-title > a:first-child:visited,
+.dark .story-title > a:first-child:visited {
+  color: color-mix(in srgb, var(--muted-copy) 87.5%, var(--surface));
+}
+
 .story-title a:hover {
   color: var(--text);
   text-decoration-color: var(--faint-copy);
@@ -718,7 +723,7 @@
   grid-row: span 2;
   grid-template-rows: subgrid;
   min-width: 0;
-  margin-bottom: 44px;
+  margin-bottom: 34px;
 }
 
 .source-group[hidden] {
@@ -777,7 +782,8 @@
   list-style: none;
   gap: 0;
   padding: 8px 16px;
-  border-radius: 12px;
+  border-top: 2px solid color-mix(in srgb, var(--ground) 75%, var(--text));
+  border-radius: 0;
   background: var(--surface);
 }
 

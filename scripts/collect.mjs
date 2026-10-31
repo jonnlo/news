@@ -50,6 +50,13 @@ function parseRss(xml, source) {
     const publishedAt = rawDate && !Number.isNaN(Date.parse(rawDate)) ? new Date(rawDate).toISOString() : null;
     const excerpt = decodeEntities(tag(item, ['description', 'summary', 'content:encoded', 'content'])).slice(0, 300);
     let sourceUrl;
+    let discussionUrl;
+    if (source.kind === 'hackernews') {
+      try {
+        const comments = new URL(decodeEntities(tag(item, ['comments'])));
+        if (comments.origin === 'https://news.ycombinator.com' && comments.pathname === '/item') discussionUrl = comments.toString();
+      } catch { /* HNRSS may omit a discussion link. */ }
+    }
     if (source.name === 'Waxy') {
       try {
         const waxyUrl = new URL(decodeEntities(tag(item, ['comments'])));
@@ -60,7 +67,8 @@ function parseRss(xml, source) {
       } catch { /* The feed may omit its Waxy post permalink. */ }
     }
     return title && url ? {
-      title, url, publishedAt, excerpt, source: source.name, category: source.category,
+      title, url, publishedAt, excerpt: source.kind === 'hackernews' ? '' : excerpt, source: source.name, category: source.category,
+      ...(discussionUrl ? { discussionUrl } : {}),
       ...(sourceUrl ? { sourceUrl } : {}),
       ...(source.role ? { sourceRole: source.role } : {}),
       ...(source.role === 'curator' ? { discoveryChannel: `curator:${source.name}` } : {}),
@@ -90,38 +98,6 @@ async function fetchJson(url) {
   const response = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.json();
-}
-
-async function collectHackerNews(feed) {
-  // The official topstories endpoint preserves Hacker News front-page ranking.
-  // Fetch extra IDs so deleted, text-only, and URL-less items do not starve the source.
-  const ids = await fetchJson('https://hacker-news.firebaseio.com/v0/topstories.json');
-  if (!Array.isArray(ids)) throw new Error('HN topstories endpoint returned an invalid response');
-  const results = await Promise.all(ids.slice(0, 50).map(async (id, index) => {
-    try {
-      const item = await fetchJson(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
-      if (item?.type !== 'story' || !item.title || item.deleted || item.dead) return { ok: true, story: null };
-      const discussionUrl = `https://news.ycombinator.com/item?id=${item.id}`;
-      return {
-        ok: true,
-        story: {
-          title: item.title,
-          url: item.url || discussionUrl,
-          publishedAt: item.time ? new Date(item.time * 1000).toISOString() : null,
-          excerpt: '',
-          source: feed.name,
-          category: feed.category,
-          discussionUrl,
-          _feedIndex: index,
-        },
-      };
-    } catch (error) { return { ok: false, error }; }
-  }));
-  const successfulRequests = results.filter((result) => result.ok).length;
-  if (ids.length > 0 && successfulRequests === 0) {
-    throw results.find((result) => !result.ok)?.error ?? new Error('HN item requests failed');
-  }
-  return results.filter((result) => result.ok && result.story).map((result) => result.story);
 }
 
 async function fetchText(url) {
@@ -163,12 +139,11 @@ async function collectSource(feed) {
         _feedIndex: index,
       }];
     });
-  } else stories = feed.kind === 'hackernews'
-    ? await collectHackerNews(feed)
-    : parseRss(await fetchText(feed.url), feed);
-  const orderedStories = feed.kind === 'hackernews'
-    ? stories
-    : sortNewestFirst(stories);
+  } else {
+    stories = parseRss(await fetchText(feed.url), feed);
+    if (feed.kind === 'hackernews' && !stories.length) throw new Error('HNRSS returned no recognizable stories');
+  }
+  const orderedStories = sortNewestFirst(stories);
   const selected = sourceLocalDedupe(orderedStories).slice(0, perSourceLimit)
     .map(({ _feedIndex, ...story }) => story);
   return {

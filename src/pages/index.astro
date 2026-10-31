@@ -127,10 +127,55 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
   </main>
 
   <script>
+    const topicBar = document.querySelector<HTMLElement>('.topic-bar');
+    const mobile = window.matchMedia('(max-width: 640px)');
+    const stickyBar = topicBar?.cloneNode(true) as HTMLElement | undefined;
+    if (stickyBar && topicBar) {
+      stickyBar.classList.add('sticky-topic-bar');
+      stickyBar.hidden = true;
+      document.body.append(stickyBar);
+      const observer = new IntersectionObserver(([entry]) => {
+        stickyBar.hidden = !mobile.matches || entry.boundingClientRect.bottom > 0;
+        if (!stickyBar.hidden) updateScrollTopic();
+      });
+      observer.observe(topicBar);
+      mobile.addEventListener('change', () => {
+        stickyBar.hidden = !mobile.matches || topicBar.getBoundingClientRect().bottom > 0;
+        if (!stickyBar.hidden) updateScrollTopic();
+      });
+    }
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
     const groups = [...document.querySelectorAll<HTMLElement>('.source-group')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
     let selectedTopic = 'All';
+
+    function revealActiveChip() {
+      const row = stickyBar?.querySelector<HTMLElement>('.filters');
+      const active = stickyBar?.querySelector<HTMLElement>('.filter.active');
+      if (!row || !active) return;
+      const rowRect = row.getBoundingClientRect();
+      const chipRect = active.getBoundingClientRect();
+      if (chipRect.left < rowRect.left) row.scrollLeft += chipRect.left - rowRect.left;
+      else if (chipRect.right > rowRect.right) row.scrollLeft += chipRect.right - rowRect.right;
+    }
+
+    function updateScrollTopic() {
+      if (!stickyBar || stickyBar.hidden) return;
+      const visible = groups.filter((group) => !group.hidden);
+      const threshold = stickyBar.getBoundingClientRect().height + 12;
+      let current = visible[0];
+      for (const group of visible) {
+        if (group.getBoundingClientRect().top > threshold) break;
+        current = group;
+      }
+      const topic = current?.dataset.category ?? selectedTopic;
+      stickyBar.querySelectorAll<HTMLButtonElement>('.filter').forEach((filter) => {
+        const active = filter.dataset.filter === topic;
+        filter.classList.toggle('active', active);
+        filter.setAttribute('aria-pressed', String(active));
+      });
+      revealActiveChip();
+    }
 
     function topicFromUrl() {
       const requested = new URLSearchParams(window.location.search).get('category');
@@ -161,16 +206,37 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       }
 
       filters.forEach((filter) => {
-        const active = filter === button;
+        const active = filter.dataset.filter === selectedTopic;
         filter.classList.toggle('active', active);
         filter.setAttribute('aria-pressed', String(active));
       });
       updateGroups();
+      if (stickyBar && !stickyBar.hidden) updateScrollTopic();
     }
 
     filters.forEach((button) => button.addEventListener('click', () => {
-      selectTopic(button.dataset.filter ?? 'All', true);
+      const topic = button.dataset.filter ?? 'All';
+      if (!stickyBar?.contains(button)) {
+        selectTopic(topic, true);
+        return;
+      }
+      selectTopic(topic, true);
+      const target = groups.find((group) => !group.hidden);
+      if (target) {
+        const top = target.getBoundingClientRect().top + window.scrollY - stickyBar.offsetHeight - 8;
+        window.scrollTo({ top, behavior: 'instant' });
+        updateScrollTopic();
+      }
     }));
+    let scrollPending = false;
+    window.addEventListener('scroll', () => {
+      if (scrollPending) return;
+      scrollPending = true;
+      requestAnimationFrame(() => {
+        scrollPending = false;
+        updateScrollTopic();
+      });
+    }, { passive: true });
     window.addEventListener('popstate', () => selectTopic(topicFromUrl(), false));
     selectTopic(topicFromUrl(), false);
   </script>

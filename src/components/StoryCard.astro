@@ -18,7 +18,7 @@ if (isDiscovery) {
     if (url.protocol === 'https:' || url.protocol === 'http:') articleDomain = url.hostname.replace(/^www\./, '');
   } catch { /* A malformed link may not identify a publisher. */ }
 }
-const showArticleDomain = articleDomain && story.source !== 'Hacker News' && story.category !== 'Discover';
+const showArticleDomain = articleDomain && story.source !== 'Hacker News' && story.source !== 'Sidebar' && story.category !== 'Discover';
 ---
 
 <li class="story" data-category={story.category} data-page={page} hidden={initiallyHidden}>

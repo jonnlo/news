@@ -407,7 +407,7 @@
 .story-title {
   position: relative;
   margin: 0;
-  padding-left: 16px;
+  padding-left: 18px;
   font-size: 16px;
   line-height: 1.35;
   font-weight: 400;
@@ -419,9 +419,10 @@
   position: absolute;
   top: 0.675em;
   left: 0;
-  width: 5px;
-  height: 5px;
-  background: var(--theme-accent-text);
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--theme-accent-text) 75%, black);
   transform: translateY(-50%);
 }
 
@@ -624,6 +625,10 @@
     line-height: 1.4;
   }
 
+  .story-title::before {
+    top: 0.7em;
+  }
+
   .story-excerpt {
     font-size: 13px;
   }
@@ -730,7 +735,7 @@
   list-style: none;
   gap: 0;
   padding: 8px 16px;
-  border-radius: 8px;
+  border-radius: 12px;
   background: var(--surface);
 }
 
@@ -795,6 +800,15 @@
     padding: 8px 0;
     background: var(--ground);
     border-bottom: 1px solid var(--rule);
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: transform 240ms ease, visibility 0s linear 240ms;
+  }
+
+  .sticky-topic-bar.is-visible {
+    visibility: visible;
+    transform: translateY(0);
+    transition: transform 240ms ease, visibility 0s;
   }
 
   .sticky-topic-bar .filters {

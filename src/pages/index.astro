@@ -134,20 +134,27 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       stickyBar.classList.add('sticky-topic-bar');
       stickyBar.hidden = true;
       document.body.append(stickyBar);
-      const observer = new IntersectionObserver(([entry]) => {
-        stickyBar.hidden = !mobile.matches || entry.boundingClientRect.bottom > 0;
-        if (!stickyBar.hidden) updateScrollTopic();
-      });
-      observer.observe(topicBar);
-      mobile.addEventListener('change', () => {
-        stickyBar.hidden = !mobile.matches || topicBar.getBoundingClientRect().bottom > 0;
-        if (!stickyBar.hidden) updateScrollTopic();
-      });
     }
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
     const groups = [...document.querySelectorAll<HTMLElement>('.source-group')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
     let selectedTopic = 'All';
+
+    function setStickyVisible(visible: boolean) {
+      if (!stickyBar) return;
+      stickyBar.hidden = false;
+      stickyBar.classList.toggle('is-visible', visible);
+      stickyBar.inert = !visible;
+      if (visible) updateScrollTopic();
+    }
+
+    function syncStickyVisibility() {
+      if (!stickyBar || !topicBar) return;
+      const visible = mobile.matches && topicBar.getBoundingClientRect().bottom <= 0;
+      if (stickyBar.hidden || stickyBar.classList.contains('is-visible') !== visible) {
+        setStickyVisible(visible);
+      }
+    }
 
     function revealActiveChip() {
       const row = stickyBar?.querySelector<HTMLElement>('.filters');
@@ -160,7 +167,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
     }
 
     function updateScrollTopic() {
-      if (!stickyBar || stickyBar.hidden) return;
+      if (!stickyBar || !stickyBar.classList.contains('is-visible')) return;
       const visible = groups.filter((group) => !group.hidden);
       const threshold = stickyBar.getBoundingClientRect().height + 12;
       let current = visible[0];
@@ -211,7 +218,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
         filter.setAttribute('aria-pressed', String(active));
       });
       updateGroups();
-      if (stickyBar && !stickyBar.hidden) updateScrollTopic();
+      if (stickyBar?.classList.contains('is-visible')) updateScrollTopic();
     }
 
     filters.forEach((button) => button.addEventListener('click', () => {
@@ -234,10 +241,14 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       scrollPending = true;
       requestAnimationFrame(() => {
         scrollPending = false;
+        syncStickyVisibility();
         updateScrollTopic();
       });
     }, { passive: true });
+    mobile.addEventListener('change', syncStickyVisibility);
+    window.addEventListener('resize', syncStickyVisibility);
     window.addEventListener('popstate', () => selectTopic(topicFromUrl(), false));
     selectTopic(topicFromUrl(), false);
+    syncStickyVisibility();
   </script>
 </Layout>

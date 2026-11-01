@@ -1,0 +1,300 @@
+---
+import { formatPublicationTimestamp, formatRelativeAge, type SourceCollection } from '../content';
+import '../styles/navigation.css';
+
+interface Props {
+  groups: SourceCollection[];
+}
+
+const { groups } = Astro.props;
+const topics = [...new Set(groups.map((group) => group.category))];
+const newestPublishedAt = (group: SourceCollection) => {
+  const dates = group.stories
+    .map((story) => story.publishedAt)
+    .filter((date): date is string => !!date && Number.isFinite(Date.parse(date)));
+  return dates.sort((left, right) => Date.parse(right) - Date.parse(left))[0] ?? null;
+};
+---
+
+<div class="source-navigator" data-source-navigator aria-label="Source navigation">
+  <div class="navigator-switcher" aria-label="Browse sources">
+    <button class="navigator-current" type="button" data-open-sources aria-haspopup="dialog">
+      <span class="navigator-current-name" data-current-name>Choose a source</span>
+      <span class="navigator-open-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </button>
+    <div class="navigator-arrows">
+      <button class="navigator-arrow" type="button" data-nav-prev aria-label="Previous source">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m14 5-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button class="navigator-arrow" type="button" data-nav-next aria-label="Next source">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m10 5 7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <dialog class="source-picker" aria-labelledby="source-picker-title">
+    <div class="picker-sheet">
+      <div class="picker-grabber" aria-hidden="true"></div>
+      <header class="picker-header">
+        <div><h2 id="source-picker-title" tabindex="-1">All sources</h2></div>
+        <button class="picker-close" type="button" data-close-sources aria-label="Close source list">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="m4 4 10 10M14 4 4 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+        </button>
+      </header>
+      <div class="picker-results" data-picker-results>
+        {topics.map((topic) => (
+          <section class="picker-topic" data-picker-topic={topic} aria-label={topic}>
+            <h3>{topic === 'Technology' ? 'Tech' : topic}</h3>
+            <div class="picker-topic-sources">
+              {groups.filter((group) => group.category === topic).map((group) => (
+                <button class="picker-source" type="button" data-source-id={`source-${groups.indexOf(group)}`} data-picker-source data-source-name={group.displayName ?? group.name}>
+                  <span class="picker-source-name">{group.displayName ?? group.name}</span>
+                  <span class="picker-source-age"> · <time datetime={newestPublishedAt(group) ?? undefined} title={formatPublicationTimestamp(newestPublishedAt(group))} data-relative-age>{formatRelativeAge(newestPublishedAt(group))}</time></span>
+                </button>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  </dialog>
+</div>
+
+<script>
+  const nav = document.querySelector<HTMLElement>('[data-source-navigator]');
+  const sourceList = document.querySelector<HTMLElement>('#source-list');
+  if (nav && sourceList) {
+    const allGroups = [...sourceList.querySelectorAll<HTMLElement>('.source-group')];
+    const prev = nav.querySelector<HTMLButtonElement>('[data-nav-prev]')!;
+    const next = nav.querySelector<HTMLButtonElement>('[data-nav-next]')!;
+    const currentName = nav.querySelector<HTMLElement>('[data-current-name]')!;
+    const dialog = nav.querySelector<HTMLDialogElement>('.source-picker')!;
+    const pickerTitle = nav.querySelector<HTMLElement>('#source-picker-title')!;
+    const results = nav.querySelector<HTMLElement>('[data-picker-results]')!;
+    const sourceButtons = [...nav.querySelectorAll<HTMLButtonElement>('[data-picker-source]')];
+    let visibleGroups: HTMLElement[] = [];
+    let current: HTMLElement | undefined;
+    let explicitlySelected = false;
+    let scrollPending = false;
+    let opener: HTMLButtonElement | null = null;
+    let keepFocusAfterClose = false;
+    let choosingFilteredSource = false;
+    let pendingTarget: HTMLElement | undefined;
+    let quickScrollTarget: HTMLElement | undefined;
+    let pendingTimer = 0;
+
+    function refreshVisible() {
+      visibleGroups = allGroups.filter((group) => !group.hidden);
+      sourceButtons.forEach((button) => {
+        const group = allGroups.find((item) => item.id === button.dataset.sourceId);
+        button.classList.toggle('is-current', group === current);
+        button.setAttribute('aria-pressed', String(group === current));
+      });
+      if (!visibleGroups.includes(current!)) current = visibleGroups[0];
+      if (!visibleGroups.length) current = undefined;
+      updateControls();
+    }
+
+    function updateControls() {
+      const index = current ? visibleGroups.indexOf(current) : -1;
+      currentName.textContent = current?.dataset.sourceName ?? 'No sources in this topic';
+      prev.disabled = index <= 0;
+      next.disabled = index < 0 || index >= visibleGroups.length - 1;
+      sourceButtons.forEach((button) => {
+        const group = allGroups.find((item) => item.id === button.dataset.sourceId);
+        button.classList.toggle('is-current', group === current);
+        button.setAttribute('aria-pressed', String(group === current));
+      });
+    }
+
+    function stickyOffset() {
+      if (window.matchMedia('(max-width: 640px)').matches) {
+        const stickyTopics = document.querySelector<HTMLElement>('.sticky-topic-bar');
+        if (stickyTopics && !stickyTopics.hidden) return stickyTopics.getBoundingClientRect().height + 12;
+        const originalTopics = document.querySelector<HTMLElement>('.topic-bar');
+        return (originalTopics?.getBoundingClientRect().height ?? 38) + 16;
+      }
+      const topicBar = document.querySelector<HTMLElement>('.topic-bar');
+      return (topicBar?.getBoundingClientRect().height ?? 0) + 12;
+    }
+
+    function animateQuickScroll(group: HTMLElement, top: number, duration: number) {
+      const startY = window.scrollY;
+      const distance = top - startY;
+      const startTime = performance.now();
+
+      function step(now: number) {
+        if (pendingTarget !== group || quickScrollTarget !== group) return;
+        const progress = Math.min(1, (now - startTime) / duration);
+        const eased = progress < 0.5
+          ? 4 * progress * progress * progress
+          : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+        window.scrollTo(0, startY + distance * eased);
+        if (progress < 1) {
+          requestAnimationFrame(step);
+          return;
+        }
+
+        quickScrollTarget = undefined;
+        window.clearTimeout(pendingTimer);
+        pendingTarget = undefined;
+        updateCurrentFromScroll();
+      }
+
+      requestAnimationFrame(step);
+    }
+
+    function jumpTo(group: HTMLElement, selected = true, quickMobile = false) {
+      if (group.hidden) return;
+      current = group;
+      explicitlySelected = selected;
+      updateControls();
+      group.focus({ preventScroll: true });
+      const top = Math.max(0, group.getBoundingClientRect().top + window.scrollY - stickyOffset());
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const useQuickMobileScroll = quickMobile && window.matchMedia('(max-width: 640px)').matches && !reducedMotion;
+      pendingTarget = group;
+      quickScrollTarget = undefined;
+      window.clearTimeout(pendingTimer);
+      if (useQuickMobileScroll) {
+        const duration = Math.min(480, Math.max(300, Math.abs(top - window.scrollY) / 6));
+        quickScrollTarget = group;
+        pendingTimer = window.setTimeout(() => {
+          if (pendingTarget !== group) return;
+          quickScrollTarget = undefined;
+          pendingTarget = undefined;
+          updateCurrentFromScroll();
+        }, duration + 150);
+        animateQuickScroll(group, top, duration);
+        return;
+      }
+      pendingTimer = window.setTimeout(() => {
+        pendingTarget = undefined;
+        updateCurrentFromScroll();
+      }, reducedMotion ? 100 : Math.min(2200, 450 + Math.abs(window.scrollY - top) / 2));
+      window.scrollTo({ top, behavior: reducedMotion ? 'instant' : 'smooth' });
+    }
+
+    function openPicker(event: Event) {
+      opener = event.currentTarget as HTMLButtonElement;
+      refreshVisible();
+      if (!dialog.open) dialog.showModal();
+      requestAnimationFrame(() => {
+        pickerTitle.focus({ preventScroll: true });
+        results.scrollTop = 0;
+        const active = sourceButtons.find((button) => button.classList.contains('is-current') && !button.hidden);
+        const topicHeading = active?.closest<HTMLElement>('[data-picker-topic]')?.querySelector<HTMLElement>('h3');
+        if (topicHeading) {
+          const resultsTop = results.getBoundingClientRect().top;
+          const headingTop = topicHeading.getBoundingClientRect().top;
+          results.scrollTop += headingTop - resultsTop;
+        }
+      });
+    }
+
+    document.querySelectorAll<HTMLButtonElement>('[data-open-sources]').forEach((button) => {
+      button.addEventListener('click', openPicker);
+    });
+    nav.querySelector<HTMLButtonElement>('[data-close-sources]')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener('close', () => {
+      if (keepFocusAfterClose) {
+        keepFocusAfterClose = false;
+        return;
+      }
+      if (opener?.isConnected && opener.getClientRects().length) {
+        opener.focus();
+      } else {
+        [...document.querySelectorAll<HTMLButtonElement>('[data-open-sources]')]
+          .find((button) => button.getClientRects().length > 0)
+          ?.focus();
+      }
+    });
+    sourceButtons.forEach((button) => button.addEventListener('click', () => {
+      const group = allGroups.find((item) => item.id === button.dataset.sourceId);
+      if (group?.hidden) {
+        choosingFilteredSource = true;
+        document.dispatchEvent(new CustomEvent('source-category-reset'));
+        choosingFilteredSource = false;
+      }
+      keepFocusAfterClose = true;
+      dialog.close();
+      if (group) jumpTo(group);
+    }));
+    prev.addEventListener('click', () => {
+      const index = current ? visibleGroups.indexOf(current) : -1;
+      if (index > 0) jumpTo(visibleGroups[index - 1], true, true);
+    });
+    next.addEventListener('click', () => {
+      const index = current ? visibleGroups.indexOf(current) : -1;
+      if (index >= 0 && index < visibleGroups.length - 1) jumpTo(visibleGroups[index + 1], true, true);
+    });
+
+    function updateCurrentFromScroll() {
+      if (!visibleGroups.length) return;
+      if (pendingTarget && visibleGroups.includes(pendingTarget)) return;
+      const mobileDock = window.matchMedia('(max-width: 640px)').matches;
+      const threshold = mobileDock
+        ? stickyOffset() + 24
+        : (document.querySelector<HTMLElement>('.topic-bar')?.getBoundingClientRect().height ?? 0) + 36;
+      let anchor = visibleGroups[0];
+      for (const group of visibleGroups) {
+        if (group.getBoundingClientRect().top > threshold) break;
+        anchor = group;
+      }
+      const anchorTop = anchor.getBoundingClientRect().top;
+      const row = visibleGroups.filter((group) => Math.abs(group.getBoundingClientRect().top - anchorTop) < 28);
+      if (explicitlySelected && current && row.includes(current)) {
+        // Preserve a deliberate choice while its desktop row remains current.
+      } else {
+        current = row[0] ?? anchor;
+        explicitlySelected = false;
+      }
+      updateControls();
+    }
+    window.addEventListener('scroll', () => {
+      if (scrollPending) return;
+      scrollPending = true;
+      requestAnimationFrame(() => { scrollPending = false; updateCurrentFromScroll(); });
+    }, { passive: true });
+    window.addEventListener('scrollend', () => {
+      if (!pendingTarget || quickScrollTarget) return;
+      pendingTarget = undefined;
+      window.clearTimeout(pendingTimer);
+      updateCurrentFromScroll();
+    });
+    function interruptPendingScroll() {
+      quickScrollTarget = undefined;
+      pendingTarget = undefined;
+      window.clearTimeout(pendingTimer);
+    }
+    window.addEventListener('wheel', interruptPendingScroll, { passive: true });
+    window.addEventListener('touchstart', interruptPendingScroll, { passive: true });
+    document.addEventListener('sources-filtered', () => {
+      if (choosingFilteredSource) {
+        refreshVisible();
+        return;
+      }
+      const oldCurrent = current;
+      const listDocumentTop = sourceList.getBoundingClientRect().top + window.scrollY;
+      const wasReadingContent = window.scrollY > listDocumentTop - stickyOffset();
+      refreshVisible();
+      if (wasReadingContent && oldCurrent && oldCurrent.hidden && visibleGroups[0]) jumpTo(visibleGroups[0], false);
+      else updateCurrentFromScroll();
+    });
+    window.addEventListener('resize', () => updateCurrentFromScroll());
+    refreshVisible();
+  }
+</script>

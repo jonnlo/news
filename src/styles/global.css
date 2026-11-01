@@ -657,20 +657,34 @@
 }
 
 .latest-heading {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 24px;
+  display: block;
   margin-bottom: 21px;
 }
 
-.edition-stamp {
+.site-intro {
+  min-width: 0;
+}
+
+.site-blurb {
   margin: 0;
-  color: var(--muted-copy);
-  text-align: left;
-  font-size: 12px;
+  font-size: 15px;
+  line-height: 1.5;
   font-weight: 400;
-  font-variant-numeric: tabular-nums;
+  letter-spacing: normal;
+}
+
+.site-description {
+  margin: 0;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.last-updated {
+  margin: 8px 0 0;
+  color: var(--muted-copy);
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .topic-bar {
@@ -873,11 +887,6 @@
 
   .latest-heading {
     display: block;
-  }
-
-  .edition-stamp {
-    margin-top: 6px;
-    text-align: left;
   }
 
   .topic-bar {

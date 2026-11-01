@@ -34,6 +34,7 @@ export interface Edition {
 
 export interface SourceCollection {
   name: string;
+  displayName?: string;
   category: Category;
   kind?: string;
   count?: number;

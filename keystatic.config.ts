@@ -15,7 +15,16 @@ export default config({
             sources: fields.array(
               fields.object({
                 enabled: fields.checkbox({ label: 'Enabled', defaultValue: true }),
-                name: fields.text({ label: 'Source name', validation: { isRequired: true } }),
+                name: fields.text({
+                  label: 'Source name',
+                  description: 'Stable identifier used to match collected editions. Keep this unchanged when only changing the label shown on the site.',
+                  validation: { isRequired: true },
+                }),
+                displayName: fields.text({
+                  label: 'Display name',
+                  description: 'Optional label shown on the site. Leave blank to use the source name.',
+                  defaultValue: '',
+                }),
                 url: fields.url({ label: 'Feed URL', validation: { isRequired: true } }),
                 kind: fields.select({
                   label: 'Feed type',
@@ -40,7 +49,7 @@ export default config({
               }),
               {
                 label: 'Sources — drag to reorder',
-                itemLabel: ({ fields }) => fields.name.value || 'New source',
+                itemLabel: ({ fields }) => fields.displayName.value || fields.name.value || 'New source',
               },
             ),
           }),

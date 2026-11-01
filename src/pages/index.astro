@@ -5,6 +5,7 @@ import { Button } from '@/components/starwind/button';
 import StoryCard from '@/components/StoryCard.astro';
 import { categories, formatDate, formatHongKongTime, type Edition, type SourceCollection } from '../content';
 import newsSettings from '../data/news-settings.json';
+import SourceNavigator from '../components/SourceNavigator.astro';
 
 const homepageOverrides: Record<string, string> = {
   '香港01': 'https://www.hk01.com/',
@@ -24,10 +25,18 @@ const activeSources = newsSettings.categories
   .filter((category) => category.enabled && categories.includes(category.name))
   .flatMap((category) => category.sources
     .filter((source) => source.enabled)
-    .map((source) => ({ ...source, category: category.name })));
+    .map((source) => {
+      const sourceSettings = source as typeof source & { displayName?: string };
+      return {
+        ...source,
+        displayName: sourceSettings.displayName?.trim() || source.name,
+        category: category.name,
+      };
+    }));
 const homepages = new Map(activeSources.map((source) => [source.name, homepageOverrides[source.name] ?? new URL(source.url).origin]));
 const sourceOrder = new Map(activeSources.map((source, index) => [source.name, index] as const));
 const sourceCategory = new Map(activeSources.map((source) => [source.name, source.category] as const));
+const sourceDisplayNames = new Map(activeSources.map((source) => [source.name, source.displayName] as const));
 
 const allEditions = Object.values(
   import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' }),
@@ -43,6 +52,7 @@ const sourceGroups: SourceCollection[] = edition?.sources?.length
   });
 sourceGroups.forEach((group) => {
   group.category = sourceCategory.get(group.name) ?? group.category;
+  group.displayName = sourceDisplayNames.get(group.name) ?? group.name;
 });
 sourceGroups.forEach((group) => {
   if (group.kind === 'hackernews' || group.name === 'Hacker News') return;
@@ -61,15 +71,21 @@ sourceGroups.sort((a, b) =>
   (sourceOrder.get(a.name) ?? Number.POSITIVE_INFINITY) - (sourceOrder.get(b.name) ?? Number.POSITIVE_INFINITY),
 );
 const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
+const lastUpdated = edition && collectionTime
+  ? `${formatDate(edition.generatedAt, { day: 'numeric', month: 'short', year: 'numeric' })}, ${collectionTime} HKT`
+  : null;
+const siteDescription = `What's happening, and a little more. No algorithms. Just one more tab. ${lastUpdated ? `Last updated ${lastUpdated}.` : ''}`.trim();
 ---
 
-<Layout title="One More Tab – Links Worth Opening" description="Links worth opening. A collection of stories, ideas, and discoveries from across the web.">
+<Layout title="One More Tab – Links Worth Opening" description={siteDescription}>
   <SiteHeader active="latest" />
-  <main class="page-shell latest-page">
-    <section class="latest-heading" aria-label="Collection status">
-      <h1 class="edition-stamp">{edition && collectionTime
-        ? `${edition.collectionMode === 'source-led' ? 'Updated' : 'Curated'} ${formatDate(edition.generatedAt, { day: 'numeric', month: 'short' })}, ${collectionTime} HKT`
-        : 'Waiting for first collection'}</h1>
+  <main class="page-shell latest-page source-navigation-page">
+    <section class="latest-heading" aria-label="About this collection">
+      <div class="site-intro">
+        <p class="site-blurb">What's happening, and a little more.</p>
+        <p class="site-description">No algorithms. Just one more tab.</p>
+        <p class="last-updated">Last updated {lastUpdated ?? '—'}</p>
+      </div>
     </section>
 
     {edition && sourceGroups.length > 0 ? (
@@ -91,25 +107,29 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
               </Button>
             ))}
           </div>
+          <button class="desktop-source-search" type="button" data-open-sources aria-haspopup="dialog" aria-label="All sources" title="All sources">
+            <span>All sources</span>
+          </button>
         </nav>
 
+        <SourceNavigator groups={sourceGroups.filter((group) => sourceOrder.has(group.name) && group.stories.length > 0)} />
         <section class="source-list" id="source-list" aria-label="Latest headlines by source">
           {sourceGroups.filter((group) => sourceOrder.has(group.name) && group.stories.length > 0).map((group, groupIndex) => (
-            <section class="source-group" data-category={group.category} data-page="1" aria-label={`${group.name} headlines`}>
+            <section class="source-group" id={`source-${groupIndex}`} data-source-name={group.displayName ?? group.name} data-category={group.category} data-page="1" aria-label={`${group.displayName ?? group.name} headlines`} tabindex="-1">
               <header class="source-heading">
                 <div class="source-name-line">
                   <h2>{homepages.has(group.name)
-                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.name}</a>
-                    : group.name}</h2>
+                    ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.displayName ?? group.name}</a>
+                    : group.displayName ?? group.name}</h2>
                 </div>
                 {group.stories.length > 10 && (
-                  <nav class="source-pager" aria-label={`Pages of ${group.name} headlines`}>
+                  <nav class="source-pager" aria-label={`Pages of ${group.displayName ?? group.name} headlines`}>
                     {[1, 2].map((page) => (
                       <button
                         class:list={["source-page-button", page === 1 && "active"]}
                         type="button"
                         data-page={page}
-                        aria-label={`Show stories 11–20 of ${group.name} headlines`}
+                        aria-label={`Show stories 11–20 of ${group.displayName ?? group.name} headlines`}
                         aria-controls={`stories-${groupIndex}`}
                         aria-current={page === 1 ? 'page' : undefined}
                         aria-pressed={page === 1 ? 'true' : 'false'}
@@ -152,6 +172,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
     const stickyBar = topicBar?.cloneNode(true) as HTMLElement | undefined;
     if (stickyBar && topicBar) {
       stickyBar.classList.add('sticky-topic-bar');
+      stickyBar.querySelector('.desktop-source-search')?.remove();
       stickyBar.hidden = true;
       document.body.append(stickyBar);
     }
@@ -218,6 +239,7 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
         if (matches) matching += 1;
       });
       if (empty) empty.hidden = matching > 0;
+      document.dispatchEvent(new CustomEvent('sources-filtered'));
     }
 
     function selectTopic(topic: string, updateUrl: boolean) {
@@ -243,6 +265,8 @@ const collectionTime = edition ? formatHongKongTime(edition.generatedAt) : null;
       updateGroups();
       if (stickyBar?.classList.contains('is-visible')) updateScrollTopic();
     }
+
+    document.addEventListener('source-category-reset', () => selectTopic('All', true));
 
     function setGroupPage(group: HTMLElement, page: number) {
       const nextPage = page === 2 && group.querySelectorAll<HTMLElement>('.story[data-page="2"]').length > 0 ? 2 : 1;

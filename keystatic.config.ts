@@ -26,6 +26,10 @@ export default config({
                   defaultValue: '',
                 }),
                 url: fields.url({ label: 'Feed URL', validation: { isRequired: true } }),
+                additionalFeedUrls: fields.array(
+                  fields.url({ label: 'Feed URL', validation: { isRequired: true } }),
+                  { label: 'Additional feeds — combined under this source', itemLabel: ({ value }) => value || 'New feed' },
+                ),
                 kind: fields.select({
                   label: 'Feed type',
                   options: [

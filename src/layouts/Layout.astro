@@ -25,6 +25,12 @@ const { title, description } = Astro.props;
     <script>
       const themeToggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
       const themeColor = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
+      const root = document.documentElement;
+
+      document.addEventListener('pointerdown', () => root.classList.add('pointer-mode'), true);
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Tab') root.classList.remove('pointer-mode');
+      }, true);
 
       function syncThemeControl() {
         const isDark = document.documentElement.classList.contains('dark');

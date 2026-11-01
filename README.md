@@ -10,6 +10,8 @@ Hong Kong sources include 香港01's popular stories through a third-party RSSHu
 
 The collector writes `src/data/editions/YYYY-MM-DD.json` using the Hong Kong date. Each refresh replaces that day's snapshot; earlier snapshots remain in the repository. A failed feed is reported in the snapshot instead of stopping the other sources. The site shows when the snapshot was collected, so a delayed refresh is visible.
 
+Vox combines Future Perfect, Culture, Technology, and Even Better; The Atlantic combines Ideas, Books, Culture, and Technology. Their general feeds are replaced by these selections. Additional RSS/Atom feed URLs can be managed under each source in Keystatic; the collector merges the results, removes duplicate URLs, and keeps the newest 20 stories per publication. If a section feed fails, the collector logs a warning and keeps the other sections.
+
 ## Local use
 
 Requires Node.js 22 or newer.
@@ -22,6 +24,8 @@ npm run build
 ```
 
 With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories and sources. Keystatic uses local storage here; changes are saved to the project files.
+
+On mobile, the bottom source switcher provides previous/next source buttons within the selected topic. On desktop, the category filters stay at the top while scrolling, with a source search icon beside them. The searchable source list always includes all sources; choosing a source outside the selected topic switches to All before jumping to it. The `/navigation/` preview URL also opens this view.
 
 `npm run collect -- --output=/tmp/digest-sample` writes a one-off collection to a separate directory instead of replacing a checked-in edition.
 

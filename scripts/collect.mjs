@@ -168,6 +168,19 @@ async function collectSource(feed) {
         return true;
       } catch { return false; }
     }).map((story, index) => ({ ...story, _feedIndex: index }));
+  } else if (feed.kind === 'rss' && feed.additionalFeedUrls?.length) {
+    const urls = [...new Set([feed.url, ...feed.additionalFeedUrls])];
+    const responses = await Promise.allSettled(urls.map(async (url) => {
+      const parsed = parseRss(await fetchText(url), feed);
+      if (!parsed.length) throw new Error('Feed returned no recognizable stories');
+      return parsed;
+    }));
+    stories = responses.flatMap((response) => response.status === 'fulfilled' ? response.value : []);
+    if (!stories.length) throw new Error(`${feed.name} feeds returned no recognizable stories`);
+    responses.forEach((response, index) => {
+      if (response.status === 'rejected') console.warn(`${feed.name}: ${urls[index]} unavailable (${response.reason?.message ?? 'feed unavailable'}); keeping other section feeds.`);
+    });
+    stories = stories.map((story, index) => ({ ...story, _feedIndex: index }));
   } else if (feed.kind === 'nownews') {
     const response = await fetchJson(feed.url);
     const items = Array.isArray(response) ? response : response?.newsList;

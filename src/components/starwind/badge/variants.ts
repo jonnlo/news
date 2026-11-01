@@ -38,7 +38,7 @@ export const badge = tv({
       frosted: "",
     },
     eyebrow: {
-      true: "uppercase tracking-wider",
+      true: "uppercase",
       false: "",
     },
     size: {

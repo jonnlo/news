@@ -69,12 +69,25 @@ function parseRss(xml, source) {
     const linkElement = item.match(/<link\b([^>]*)>([\s\S]*?)<\/link\s*>/i);
     const atomHref = item.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*\/?\s*>/i)?.[1];
     const linkText = decodeEntities(linkElement?.[2] ?? '');
-    const url = atomHref ?? (linkText || item.match(/<guid\b[^>]*>([\s\S]*?)<\/guid>/i)?.[1]?.trim());
+    let url = atomHref ?? (linkText || item.match(/<guid\b[^>]*>([\s\S]*?)<\/guid>/i)?.[1]?.trim());
     const rawDate = decodeEntities(tag(item, ['pubDate', 'published', 'updated', 'dc:date']));
     const publishedAt = rawDate && !Number.isNaN(Date.parse(rawDate)) ? new Date(rawDate).toISOString() : null;
     const excerpt = decodeEntities(tag(item, ['description', 'summary', 'content:encoded', 'content'])).slice(0, 300);
     let sourceUrl;
     let discussionUrl;
+    if (source.name === 'Techmeme') {
+      // The bold headline anchor identifies the original article, whereas other
+      // description links can point to publisher homepages or related coverage.
+      const description = tag(item, ['description']).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+      const headlineHref = description.match(/<b\b[^>]*>\s*<a\b[^>]*\bhref=["']([^"']+)["']/i)?.[1];
+      try {
+        const original = new URL(decodeEntities(headlineHref));
+        if (['https:', 'http:'].includes(original.protocol) && !/(^|\.)techmeme\.com$/i.test(original.hostname)) {
+          sourceUrl = url;
+          url = original.toString();
+        }
+      } catch { /* Keep the Techmeme permalink when no usable original link exists. */ }
+    }
     if (source.kind === 'hackernews') {
       try {
         const comments = new URL(decodeEntities(tag(item, ['comments'])));

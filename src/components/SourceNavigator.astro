@@ -206,10 +206,93 @@ const newestPublishedAt = (group: SourceCollection) => {
       button.addEventListener('click', openPicker);
     });
     nav.querySelector<HTMLButtonElement>('[data-close-sources]')?.addEventListener('click', () => dialog.close());
+    let sheetTouch: { x: number; y: number; time: number; dragging: boolean } | undefined;
+    let sheetDistance = 0;
+    let sheetAnimation: Animation | undefined;
+    let suppressSheetClickUntil = 0;
+
+    function settleSheet(dismiss: boolean) {
+      sheetTouch = undefined;
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const finish = () => {
+        if (dismiss && dialog.open) dialog.close();
+        dialog.style.removeProperty('transform');
+        sheetAnimation = undefined;
+        sheetDistance = 0;
+      };
+      if (reducedMotion) {
+        finish();
+        return;
+      }
+      sheetAnimation = dialog.animate(
+        [{ transform: `translateY(${sheetDistance}px)` }, { transform: dismiss ? 'translateY(100%)' : 'translateY(0)' }],
+        { duration: dismiss ? 180 : 150, easing: 'ease-out' },
+      );
+      sheetAnimation.onfinish = finish;
+    }
+
+    dialog.addEventListener('touchstart', (event) => {
+      if (!window.matchMedia('(max-width: 640px)').matches || sheetAnimation || event.touches.length !== 1) return;
+      const inList = event.target instanceof Node && results.contains(event.target);
+      if (inList && results.scrollTop > 1) return;
+      const touch = event.touches[0];
+      sheetTouch = { x: touch.clientX, y: touch.clientY, time: performance.now(), dragging: false };
+      sheetDistance = 0;
+    }, { passive: true });
+
+    dialog.addEventListener('touchmove', (event) => {
+      if (!sheetTouch) return;
+      if (event.touches.length !== 1) {
+        settleSheet(false);
+        return;
+      }
+      const touch = event.touches[0];
+      const distance = touch.clientY - sheetTouch.y;
+      if (!sheetTouch.dragging) {
+        if (Math.abs(distance) < 8 && Math.abs(touch.clientX - sheetTouch.x) < 8) return;
+        if (distance <= 0 || Math.abs(touch.clientX - sheetTouch.x) > distance) {
+          sheetTouch = undefined;
+          return;
+        }
+        sheetTouch.dragging = true;
+      }
+      if (!event.cancelable) {
+        settleSheet(false);
+        return;
+      }
+      event.preventDefault();
+      sheetDistance = Math.max(0, distance);
+      dialog.style.transform = `translateY(${sheetDistance}px)`;
+      suppressSheetClickUntil = performance.now() + 400;
+    }, { passive: false });
+
+    dialog.addEventListener('touchend', () => {
+      if (!sheetTouch) return;
+      if (!sheetTouch.dragging) {
+        sheetTouch = undefined;
+        return;
+      }
+      const speed = sheetDistance / Math.max(1, performance.now() - sheetTouch.time);
+      settleSheet(sheetDistance >= 80 || (sheetDistance >= 28 && speed > .5));
+    });
+    dialog.addEventListener('touchcancel', () => {
+      if (sheetTouch) settleSheet(false);
+    });
+    dialog.addEventListener('click', (event) => {
+      if (performance.now() < suppressSheetClickUntil) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }
+    }, { capture: true });
     dialog.addEventListener('click', (event) => {
       if (event.target === dialog) dialog.close();
     });
     dialog.addEventListener('close', () => {
+      sheetAnimation?.cancel();
+      sheetAnimation = undefined;
+      sheetTouch = undefined;
+      sheetDistance = 0;
+      dialog.style.removeProperty('transform');
       if (keepFocusAfterClose) {
         keepFocusAfterClose = false;
         return;

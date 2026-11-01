@@ -153,6 +153,11 @@
   }
 }
 
+html.pointer-mode :focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .masthead {
   width: 100%;
   height: 78px;
@@ -777,7 +782,6 @@
   height: 10px;
   border-radius: 3px;
   background: var(--rule);
-  transition: background-color 120ms ease;
 }
 
 .source-page-button.active .source-page-segment {

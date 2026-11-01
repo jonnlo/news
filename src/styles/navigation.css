@@ -220,7 +220,7 @@ body:has(.source-navigation-page .source-picker:modal) {
   width: 44px;
   height: 44px;
   flex: 0 0 auto;
-  place-items: center;
+  place-items: center end;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -261,14 +261,15 @@ body:has(.source-navigation-page .source-picker:modal) {
 }
 
 .source-navigation-page .picker-topic {
-  padding: 10px 0 12px;
+  padding: 18px 0 12px;
   border-top: 1px solid var(--rule);
 }
 
 .source-navigation-page .picker-topic h3 {
   margin: 0 0 6px;
+  padding-inline: 8px;
   color: var(--muted-copy);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
 }
 

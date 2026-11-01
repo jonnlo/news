@@ -800,7 +800,7 @@ html.pointer-mode :focus-visible {
   list-style: none;
   gap: 0;
   padding: 8px 16px;
-  border-top: 2px solid color-mix(in srgb, var(--ground) 75%, var(--text));
+  border-top: 1px solid color-mix(in srgb, var(--theme-accent-text) 35%, var(--ground));
   border-radius: 0;
   background: var(--surface);
 }

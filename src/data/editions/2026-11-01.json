@@ -2,11 +2,16 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T02:17:08.463Z",
-  "collectedAt": "2026-11-01T02:17:08.463Z",
+  "generatedAt": "2026-11-01T03:17:10.078Z",
+  "collectedAt": "2026-11-01T03:17:10.078Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 68,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Reuters",
+      "error": "HTTP 503"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -14,6 +19,24 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Hermantown approves controversial Google Data Center during late night meeting",
+          "url": "https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting",
+          "publishedAt": "2026-11-01T02:15:59.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50322155"
+        },
+        {
+          "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+          "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+          "publishedAt": "2026-11-01T00:10:30.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50321522"
+        },
         {
           "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
           "url": "https://emarzion.github.io/KSRT/",
@@ -67,15 +90,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50320599"
-        },
-        {
-          "title": "With 86% of the words, you might understand only 38% of an anime's lines",
-          "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
-          "publishedAt": "2026-10-31T20:46:39.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50320028"
         },
         {
           "title": "Surviving \"The Graduate\"",
@@ -184,15 +198,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50314699"
-        },
-        {
-          "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-          "url": "https://piefed.world/post/1503394",
-          "publishedAt": "2026-10-31T10:23:41.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50314666"
         }
       ]
     },
@@ -875,6 +880,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "Data centers are now a midterm issue, even in Brooklyn",
+          "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+          "publishedAt": "2026-11-01T02:22:10.000Z",
+          "excerpt": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
           "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
           "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
           "publishedAt": "2026-10-31T21:41:00.000Z",
@@ -1023,14 +1036,6 @@
           "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
           "publishedAt": "2026-10-30T17:00:00.000Z",
           "excerpt": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-          "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
-          "publishedAt": "2026-10-30T16:03:45.000Z",
-          "excerpt": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
           "source": "TechCrunch",
           "category": "Technology"
         }
@@ -2008,129 +2013,8 @@
       "name": "CSS-Tricks",
       "category": "Design",
       "kind": "rss",
-      "count": 15,
-      "stories": [
-        {
-          "title": "The Frankenstein Table",
-          "url": "https://css-tricks.com/the-frankenstein-table/",
-          "publishedAt": "2026-10-29T13:47:08.000Z",
-          "excerpt": "A super scary way to go about tables using other layout techniques, like CSS Grid. The Frankenstein Table originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "What’s !important #19: CSS Refraction Effects, Scroll State Queries, @custom-media, and More",
-          "url": "https://css-tricks.com/whats-important-19/",
-          "publishedAt": "2026-10-27T15:09:16.000Z",
-          "excerpt": "We’re back! Don't worry, this isn’t a trick (despite what our name suggests!). However, due to the hiatus, we're also a little behind. That’s why this issue of What’s !important is absolutely stacked. All killer, no filler. Here's what you missed. What’s !important #19: CSS Refraction Effects, Scrol",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "CSS-Tricks has a new owner!",
-          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-          "publishedAt": "2026-10-26T15:29:36.000Z",
-          "excerpt": "Yes, I've got the keys to the castle, so to speak. And, even after 12 years of working on the site, I'll admit I'm a little overwhelmed and nervous about that. CSS-Tricks has a new owner! originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-          "url": "https://css-tricks.com/css-random-function-polyfill/",
-          "publishedAt": "2026-08-31T15:12:19.000Z",
-          "excerpt": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "What’s !important #18: , Syntax ::highlight()ing, named-feature(), and More",
-          "url": "https://css-tricks.com/whats-important-18/",
-          "publishedAt": "2026-08-31T14:08:55.000Z",
-          "excerpt": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: , Syntax ::highlight()ing, named-feat",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-          "url": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-          "publishedAt": "2026-08-27T14:41:06.000Z",
-          "excerpt": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks . You should really get the newsletter",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "animation-trigger",
-          "url": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-          "publishedAt": "2026-08-26T15:38:41.000Z",
-          "excerpt": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "MicroLighter: Syntax Highlighter",
-          "url": "https://css-tricks.com/microlighter-syntax-highlighter/",
-          "publishedAt": "2026-08-25T14:10:34.000Z",
-          "excerpt": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "WordPress PHP-Only Block Registration",
-          "url": "https://css-tricks.com/wordpress-php-block-registration/",
-          "publishedAt": "2026-08-24T13:54:02.000Z",
-          "excerpt": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "Resolved: CSS Class Prefix Selector",
-          "url": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-          "publishedAt": "2026-08-21T15:13:03.000Z",
-          "excerpt": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-* . Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "CSS Navigation Matching, Early Days",
-          "url": "https://css-tricks.com/css-navigation-matching-early-days/",
-          "publishedAt": "2026-08-19T14:44:41.000Z",
-          "excerpt": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "WordPress.com Student Plan",
-          "url": "https://css-tricks.com/wordpress-student-plan/",
-          "publishedAt": "2026-08-19T08:50:00.000Z",
-          "excerpt": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks . You should really get the news",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "Dark mode toggles: two states are enough",
-          "url": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-          "publishedAt": "2026-08-17T14:15:50.000Z",
-          "excerpt": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
-          "url": "https://css-tricks.com/whats-important-17/",
-          "publishedAt": "2026-08-14T14:01:51.000Z",
-          "excerpt": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        },
-        {
-          "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong",
-          "url": "https://css-tricks.com/blocked-aria-hidden-fix/",
-          "publishedAt": "2026-08-12T13:43:56.000Z",
-          "excerpt": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks . You should really ",
-          "source": "CSS-Tricks",
-          "category": "Design"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "香港01",
@@ -2139,58 +2023,82 @@
       "count": 20,
       "stories": [
         {
-          "title": "北都馬拉松2026｜原有兩局長主禮 甯漢豪突缺席 只有麥美娟現身",
-          "url": "https://hk01.com/sns/article/60405782",
-          "publishedAt": "2026-11-01T02:07:27.000Z",
-          "excerpt": "首屆「北部都會區馬拉松」今天（1日）舉行，全馬賽事在沙田石門鄉議局大樓起步，以粉嶺繞道為終點。主禮嘉賓原定包括發展局局長甯漢豪，以及民政及青年事務局局長麥美娟。最後，甯漢豪缺席鳴槍儀式。 2026年11月1日，新界鄉議局主辦的首屆「北都馬拉松」舉行。（湯致遠攝） 全馬原有兩局長主禮 甯漢豪缺席 僅麥美娟現身 北都馬拉松慶祝鄉議局100周年，由新界鄉議局主辦。根據採訪通知，出席上午6時30分全馬主禮儀式的包括新界鄉議局主席劉業強、民政及青年事務局局長麥美娟、發展局局長甯漢豪、北部都會區馬拉松2026活動大使、藝人蔡思貝。不過，今早觀察甯漢豪未有在鳴槍儀式出現。 2026年11月1日，新界鄉議局主",
+          "title": "北都馬拉松2026｜主辦方劉業強期望每年舉辦 未來賽道延伸至深圳",
+          "url": "https://hk01.com/sns/article/60405796",
+          "publishedAt": "2026-11-01T03:10:18.000Z",
+          "excerpt": "首屆「北都馬拉松」今天（1日）舉行，約15,000人參與。全馬賽事早上6時30分在沙田石門開跑，終點為粉嶺繞道。主辦的新界鄉議局主席劉業強期望活動能每年舉辦，隨著新田科技城及河套區等核心項目落成，比賽路線可望延伸至深圳。 2026年11月1日，新界鄉議局主辦的首屆「北都馬拉松」舉行。（湯致遠攝） 鄉議局主席劉業強指，期望活動以後能每年都舉辦。（湯致遠攝） 主辦方劉業強期望每年舉辦 未來賽道延伸至深圳 北都馬拉松設全馬、半馬、10公里及1600米賽事。全馬由沙田石門新界鄉議局大樓起步，經科學園海濱長廊、吐露港公路、大埔林村河、大埔康樂園、龍山隧道、天平邨，終點設在粉嶺繞道。至於半馬路線由科學園科",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "英超︱曼聯守將82秒兩黃一紅兼輸十二碼 利辛度被評今季英超最差",
-          "url": "https://hk01.com/sns/article/60405769",
-          "publishedAt": "2026-11-01T02:04:08.000Z",
-          "excerpt": "曼聯作客0：2不敵車路士，各項賽事連續9場未能獲勝，焦點人物不止復任正選的隊長般奴費南迪斯，下半場82秒之內「兩黃一紅」被逐的守將利辛度馬天尼斯（Lisandro Martínez），甚至被體育網媒《The Athletic》一篇評論文章評為「英超今季最差勁球員」，甚至認為利辛度此舉無疑「搏炒」，仿傚阿根廷隊友羅美路上季在熱刺那樣，為求離隊不惜疑似未盡全力作賽甚至刻意搞破壞，迫使球隊放行。 英超︱曼聯守將利辛度馬天尼斯82秒兩黃一紅兼輸十二碼。（路透社） 荷蘭主帥坦赫格在曼聯無甚建樹，任內收購的球員亦是失敗居多，利辛度馬天尼斯算是少數獲正面評價的一員。即使身材相對矮小，憑一股拚勁和永不言敗精神",
+          "title": "蘭桂坊MMA│黑衣男遭南亞漢圍毆爆樽！ 清潔工神舉動成焦點：好勁",
+          "url": "https://hk01.com/sns/article/60405772",
+          "publishedAt": "2026-11-01T03:06:18.000Z",
+          "excerpt": "【蘭桂坊／MMA／萬聖節】萬聖夜（10月31日）蘭桂坊人頭湧湧，到今日（萬聖節）變怒火街頭？本港社交平台Threads瘋傳影片，中環蘭桂坊有多名南亞裔男子把黑衣年輕男子壓倒在地上圍毆，連環揮拳打頭部及身體，更「爆樽」，逞兇後咆哮離開。圍毆期間，1名男清潔工冷靜地在眾人旁邊拿着清潔工具手推車，走到另一邊繼續清潔，「神舉動」意外成為焦點。 影片震驚網民，「光天化日毆打人，最尾個個仲要爆樽，仲要下下打頭」、「黐線……影住佢哋個樣。全部拉得」。亦有大批網民讚男清潔工「淡定」盡忠職守，「掃地阿叔好氣定神閒，勁」。 中環蘭桂坊有多名南亞裔男子把黑衣年輕男子壓倒在地上圍毆，連環揮拳打頭部及身體。（Threa",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "原中石化黨組書記、董事長傅成玉被查 已卸任逾11年",
-          "url": "https://hk01.com/sns/article/60405779",
-          "publishedAt": "2026-11-01T02:03:48.000Z",
-          "excerpt": "據中央紀委國家監委網站10月31日消息：原中國石油化工集團公司黨組書記、董事長傅成玉涉嫌嚴重違紀違法，目前正接受中央紀委國家監委紀律審查和監察調查。傅成玉今年75歲，已卸任中石化黨組書記、董事長逾11年。 2017年3月9日，全國政協十二屆五次會議在北京人民大會堂舉行第二次全體會議。傅成玉作《重視國企改革中遇到的新問題》的發言。（新華社） 公開資料顯示，1951年6月，傅成玉出生於黑龍江省齊齊哈爾市訥河縣。後來作為工農兵大學生，被推選進入東北石油學院學習。畢業後，分到大慶油田勘探指揮部。 1982年中海油成立，傅成玉加入。兩年後，被公派到美國南加州大學學習，取得石油工程碩士學位。2003年傅成",
+          "title": "01直擊跨境白牌車萬聖節再現 江玉歡：怎保港人飯碗？倡刑罰加辣",
+          "url": "https://hk01.com/sns/article/60405793",
+          "publishedAt": "2026-11-01T03:03:05.000Z",
+          "excerpt": "萬聖節適逢加拿大歌手The Weeknd於啟德體育園主場館演唱會，《香港01》記者深夜到體育園附近的土瓜灣明倫街觀察，發現至少6至7輛持掛有中港牌的私家車停泊等候，當中僅一輛掛有「過境出租車」識別標誌。有觀看演唱會的內地旅客透過內地網購平台「閒魚」預約跨境包車「當日來回」深圳，三人平攤車費僅約200港元。 新皇崗口岸人車擠塞亂象，業界歸咎於有跨境白牌車非法載客取酬造成擠塞，警方早前指會「放蛇」嚴厲打擊執法。立法會前議員江玉歡今日（1日）表示間中「放蛇」拘捕司機只是姿態，質疑未能起到阻嚇作用。她說，市民搵食已難，現在還有收取乘客150元一位的白牌車司機，「政府可以怎樣保障本地市民的飯碗？」江玉歡",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "兒童吃甚麼魚最好？營養師推4大高營養魚類 護眼補腦吃了變聰明",
-          "url": "https://hk01.com/sns/article/60381832",
-          "publishedAt": "2026-11-01T02:00:56.000Z",
-          "excerpt": "俗話說常吃魚會變聰明，但台灣營養師孫語霙指出，不同魚類的營養價值各異，並非每一種魚都適合小孩食用。身為營養師兼媽媽的她，特別在 Facebook專頁 發布影片，推薦4款最常在好市多（Costco）回購的魚類，建議家長善用優點讓孩子輪流食用。 第一款是鮭魚（三文魚） 鮭魚含有豐富的EPA與DHA，對於發育期兒童與青少年的智力、情緒及視力發展非常有幫助。2歲以前的幼兒，每天只要食用小小一塊，DHA攝取量就幾乎達到標準。 相關文章： 兒童營養｜吃魚可補腦護心 推介2種魚 這樣簡單烹調已健康好吃👇👇👇 兒童營養｜眾多魚類中，這2種最適合小孩！（01製圖） 兒童營養｜眾多魚類中，這2種最適合小孩！",
+          "title": "神級改裝｜1985年任天堂NES變身電腦 網民自製系統暢玩《Doom》",
+          "url": "https://hk01.com/sns/article/60404857",
+          "publishedAt": "2026-11-01T03:01:29.000Z",
+          "excerpt": "網友Throaty Mumbo把一台1985年出廠的任天堂NES（美版紅白機）改造成了能跑桌面系統的電腦，能玩Doom、能打開網頁、能管理文件，專案名稱叫做NESPC。 NES本身並不幹重活，真正的運算由插在卡匣槽裏的EverDrive N8 Pro卡帶完成，它上面那顆Cyclone IV FPGA跑的是Next186軟核，能執行x86指令，負責跑桌面環境和應用程式。 網友Throaty Mumbo把一台1985年出廠的任天堂NES（美版紅白機）改造成了能跑桌面系統的電腦。（YouTube@Throaty Mumbo） 網民把1985年的NES魔改成了電腦： 網友Throaty Mumbo把一",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "張遠深｜9,248億元公務員長糧負擔——早該掃進歷史垃圾堆了！",
-          "url": "https://hk01.com/sns/article/60405260",
-          "publishedAt": "2026-11-01T02:00:49.000Z",
-          "excerpt": "來稿作者：張遠深 早前香港有不同媒體報道，香港公務員退休金承擔額現值高達9,248億港元，16.3萬人享受長糧，上年度開支逾500億港元。公務員事務局局長楊何蓓茵的回應仍是那套「合約精神、不可輕言更改」。作為長期觀察日本政治及政策的評論人，我必須直言：這套說辭，在日本早已被掃進歷史垃圾堆。日本用了20年的時間，把「官優於民」的退休特權徹底拆解，香港卻連碰都不敢碰。 日本大刀砍公務員待遇 香港連「檢討」都不敢說 1980年代，日本公務員高級官員的養老金一年約500萬日元，比民間高出四成。日本政府怎麼做的？沒有說「合約精神不可更改」，而是直接設定30年過渡期：舊制待遇凍結，不隨物價和工資上漲調整，",
+          "title": "張寶兒袁偉豪新海景複式豪宅全面曝光 無敵海景擁室內專屬遊戲區",
+          "url": "https://hk01.com/sns/article/60405620",
+          "publishedAt": "2026-11-01T03:00:17.000Z",
+          "excerpt": "前港姐張寶兒早前（Bowie）與老公袁偉豪（Ben）位於清水灣、市值約6,600萬的豪宅驚傳「漏屎水」疑雲，雖然其後證實為自家牆內熱水管爆裂所致，但為了提供兩個寶貝仔更安全舒適的環境，忍無可忍的張寶兒近日終於宣布脫離苦海，舉家成功暫租搬往全新兩層複式海景豪宅，正式展開一家四口的新生活。 張寶兒與丈夫袁偉豪（Ben）婚後共育有2個兒子。（IG@_bowiecheung） 張寶兒袁偉豪舉家搬入海景複式豪宅。（IG@_bowiecheung） 老公親力親為。（IG@_bowiecheung） 坐擁無敵海景！（IG@_bowiecheung） 張寶兒搬新家狠心「斷捨離」 張寶兒日前分享了這趟搬家小紀錄",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "大城小檔｜製衣女工轉戰土瓜灣樓梯底 兩鎮店之剪成就一代改衫匠",
-          "url": "https://hk01.com/sns/article/60405700",
-          "publishedAt": "2026-11-01T02:00:47.000Z",
-          "excerpt": "",
+          "title": "英超︱曼聯又輸一場般奴賽後強忍眼淚 卡域克堅稱未落入護級危機",
+          "url": "https://hk01.com/sns/article/60405786",
+          "publishedAt": "2026-11-01T02:58:57.000Z",
+          "excerpt": "曼聯英超又輸一場，作客0：2不敵車路士，賽後隊長般奴費南迪斯被鏡頭捕捉到強忍眼淚心酸一幕。般奴早前在歐聯1：4敗走科木後，公開批評球隊戰術失當，主帥卡域克在上輪英超對般尼茅夫一仗將他貶為後備，終未有派他落場。曼聯0：3大敗後，卡域克仍獲管理層支持留任，並與般奴單獨會面，二人傾談後放下分歧，般奴今輪對車路士重獲正選，並成為焦點人物。 曼聯負車路士，賽後紅魔隊長般奴費南迪斯被鏡頭捕捉到強忍眼淚。（Getty Images） 般奴復任正選無甚建樹 全場30次失控球 可惜般奴費南迪斯仍未能發揮上季為隊友鋪橋搭路的本領，全場80次觸球，60次傳球只得68%成功。他貢獻3次關鍵傳送和創造1次重大機會，惟未",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "50歲麥家琪穿高衩裙台步氣場全開 曾捲裸照風波遭親兒子嘲諷",
-          "url": "https://hk01.com/sns/article/60405599",
-          "publishedAt": "2026-11-01T02:00:41.000Z",
-          "excerpt": "現年50歲的前「性感女神」麥家琪（現名麥方喬），自2006年下嫁大律師王國豪並育有兩子一女後，一度淡出香港幕前。近年她轉移重心北上發展，除了在廣東肇慶廣寧開設雲吞麵店「搵真銀」外，亦頻頻獲邀接拍網絡電影及出席商業演出。日前內地網上流傳一段她出席商演活動的影片，片中她身穿一襲極致貼身的高衩晚裝，霸氣邁開大步走台步，身段緊緻零贅肉，瞬間引發網民熱烈討論。 麥家琪與三個仔女的合照。（小紅書） 麥家琪自信大邁台步！（小紅書圖片） 自信面帶笑容上台。（小紅書圖片） 高衩裙大踏步踩出名模氣場艷壓全場 從網上流傳的短片可見，活動舞台雖然只是商場中庭的臨時搭建場地，但麥家琪出場時絲毫未見敷衍。她身穿一襲剪裁大",
+          "title": "德國34城市爆Z世代示威 部份地區現暴力事件 警出動水炮車驅散",
+          "url": "https://hk01.com/sns/article/60405791",
+          "publishedAt": "2026-11-01T02:58:55.000Z",
+          "excerpt": "德國名為Gen Z regelt（德語意為「 Z世代掌權」）的組織10月31日在該國34個城市發起示威，反對恢復義務兵役制，要求政府改善教育並降低生活成本。警方表示，部份地區的示威演變成暴力衝突，除了有商店遭洗劫外，還有暴力份子向警員投擲汽油彈、石塊等物件，警方出動水砲車和胡椒噴霧作出驅散。 路透社 及 法媒France 24 報道，該示威活動由 法國的生活成本示威及學生運動啟發 ，主要在首都柏林、法蘭克福、科隆和慕尼黑等主要城市舉行，抗議高昂的生活成本、學校經費不足、政府可能恢復強制兵役制的企圖。 Gen Z regelt組織特意將示威活動安排在萬聖節當天，以最大限度地提高參與人數和影響力，",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳女注射100組生長因子後臉部饅化畸形 致患抑鬱2年沒工作社交",
+          "url": "https://hk01.com/sns/article/60405785",
+          "publishedAt": "2026-11-01T02:41:31.000Z",
+          "excerpt": "內媒《寧波晚報》報道，深圳一名年輕女子為變美，在江西贛州的美容機構為臉部注射了100組生長因子，隨後出現嚴重的「饅化」現象，面部腫脹畸形，引發關注。 事主在臉部未出現「饅化」前的樣子。（影片截圖） 事主在注射約100組生長因子後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 事主在事後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 事主在注射約100組生長因子後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 事主在注射約100組生長因子後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 報道指，在2021年起至2022年，當時23歲的肖女士前後約施打10次，共注射了約100組生長因子。 花近20",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "幣安遭黑客竊走63億美元 FBI點名朝鮮國家黑客組織所為",
+          "url": "https://hk01.com/sns/article/60405784",
+          "publishedAt": "2026-11-01T02:38:05.000Z",
+          "excerpt": "全球最大加密貨幣交易所幣安（Binance）遭黑客竊走約63億美元（約491億港元），美國聯邦調查局（FBI）10月31日指事件屬朝鮮國家支持黑客組織所為；幣安稱已動用公司資金補回九成失款。 據路透社周六（31日）報道， 失竊發生於10月29日左右，為加密貨幣史上最大宗盜竊案。幣安在X發文稱，已補回九成被盜資產，其餘一成流通性較低、需時回購，用戶不會承擔損失；公司聯合行政總裁鄧偉政（Richard Teng）表示，平台已內部撥出約63.4億美元（約495億港元）應對損失。 2026年10月30日，圖為加密貨幣交易平台幣安（Binance）的聯合行政總裁鄧偉政。（X@_RichardTeng） ",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "萬聖節MMA有片｜Wine & Dine三男混戰 網民：美酒加自由搏擊",
+          "url": "https://hk01.com/sns/article/60405774",
+          "publishedAt": "2026-11-01T02:30:54.000Z",
+          "excerpt": "「香港美酒佳餚巡禮2026」在中環海濱活動空間及添馬公園舉行，吸引大批市民及遊客入場品嚐美酒佳餚。然而，昨日（31日）社交平台流傳一段現場影片，片中有三名男子在美食攤位前激烈爭執並大打出手，一名黑衫男被拉扯單腳摔跌後，起身再起腳猛踢對方腹部，場面混亂，幸得一名熱心男子及時勸阻。期間一名涉事男子耳邊及頸部驚現血痕，惟適逢萬聖節，是真實傷勢抑或應節化妝引來網民熱議。 黑衣男起飛腳踢向另一男子，一名身穿白衣的熱心男子見狀即時上前勸阻。（Din Dong／香港突發事故報料區及討論區影片截圖） 社交平台流傳的影片全長約30秒，該片段沒有聲音，但火藥味極濃。事發地點為中環美酒佳餚巡禮的一個美食攤位前，一名",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -2199,22 +2107,6 @@
           "url": "https://hk01.com/sns/article/60398293",
           "publishedAt": "2026-11-01T02:00:39.000Z",
           "excerpt": "香港地萬家燈火，大舖小店滿佈；但繁華鬧市一角，總見小人物的身影。土瓜灣譚公道一個狹窄的樓梯底，藏着一間名為「精工改衫褲」的改衣舖，多年來是不少街坊修補衣物的熱點。 店主梁太自19歲入行，至今逾40年，經歷過香港製衣業北移的時代變遷，直至2003年租下這個角落。儘管空間擠逼，在舖內走動時甚至要彎下身子，卻無阻她以一雙巧手為街坊縫縫補補，用兩把同樣超過40年歷史的「鎮店之剪」，在樓梯底默默耕耘二十多載。 店主梁太自19歲入行，至今逾40年；直至2003年租下土瓜灣譚公道一個樓梯底角落，在舖內走動時甚至要彎身，卻無阻她以一雙巧手為街坊縫縫補補。（左朗星攝） 19歲入行見證香港製衣業變遷 由工廠轉戰樓",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "日本名模確診子宮內膜癌 曾出現經期長達10日異狀 醫揭4大先兆",
-          "url": "https://hk01.com/sns/article/60401651",
-          "publishedAt": "2026-11-01T02:00:30.000Z",
-          "excerpt": "日本名模桃華繪里近日對外宣布確診子宮內膜癌，已接受手術切除子宮與雙側卵巢。 她坦言早期出現經血過多、經期長達10天流不停的異狀，卻因曾有極為疼痛的內診經驗而恐懼就醫，自我安慰是更年期將至，一直逃避檢查，直到母親力勸下才就醫檢查，卻為時已晚，最終無法保留子宮與卵巢。 日本名模桃華繪里宣布確診子宮內膜癌👇👇👇 日本名模桃華繪里近日對外宣布確診子宮內膜癌，已接受手術切除子宮與雙側卵巢。（IG@_momoka828） 她坦言早期出現經血過多、經期長達10天流不停的異狀。（IG@_momoka828） 卻因曾有極為疼痛的內診經驗而恐懼就醫。（IG@_momoka828） 自我安慰是更年期將至，一直",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "盛滙李根興蝕放銀津茶餐廳舊址！叫價2290萬 曾Threads爆紅救舖",
-          "url": "https://hk01.com/sns/article/60404734",
-          "publishedAt": "2026-11-01T02:00:09.000Z",
-          "excerpt": "【盛滙商舖基金/李根興/舖位/蝕讓/Threads/銀津點心茶餐廳】曾於2024年底在社交平台Threads上爆紅、憑藉「太子女」發文而成功逆轉生意的旺角花園街「銀津點心茶餐廳」，其所在的舖位最新被資深投資者李根興旗下的盛滙商舖基金推出市場放售，意向價約2,290萬元，較買入價平810萬元或約26.1%。呎價約13,879元。 今年9月份，銀津宣佈最終仍不敵貴租而結業。據瞭解，其當時月租為8.8萬元。而銀津結業後，盛滙基金曾將舖位以每月9.8萬元招租。 利嘉閣（工商舖）地產商業部/商舖部及投資部聯席董事許建方表示，是次放售的舖位涉及旺角花園街108號地下連閣樓，總建築面積約1,650平方呎。業",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -2235,26 +2127,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "《明報》、《經濟日報》本月起加價至$15 《信報》$15元增至$18",
-          "url": "https://hk01.com/sns/article/60405765",
-          "publishedAt": "2026-11-01T00:26:46.000Z",
-          "excerpt": "三份本地報章本月起加價3元，其中《明報》今日（1日）起已由12元增至15元。《信報》及《經濟日報》明日（2日）將分別加價至18元及15元。 《明報》2026年11月1日起加價至15元。（潘耀昇攝） 《信報》2026年11月2日起加價至$18。（潘耀昇攝） 《經濟日報》2026年11月2日起加價至$15。（潘耀昇攝） 相隔兩年再有報章加價 對上一次有中文報章加價，是在2024年11月。當時，《明報》、《成報》及《香港經濟日報》，由10元加至12元，《信報》就由12元加至15元。《東方日報》則早一個月加價至12元。當時有報販預料加價後，整體報章銷量會減少兩成。",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "專訪丨張致恒一腳踏五船毀星途 含淚向關智斌道歉：對唔住",
           "url": "https://hk01.com/sns/article/60404194",
           "publishedAt": "2026-11-01T00:00:15.000Z",
           "excerpt": "曾經紅極一時的Boy'z成員張致恒（Steven），2019年7月突然宣布與粉絲區燕雯（雯雯）奉子成婚，竟意外引爆「一腳踏五船」的桃色醜聞，回應一句「性上癮」提問更要付出沉重代價。 由18歲年賺百萬，到今日一家六口揹上百萬巨債，Steven為求解困無所不用其技。除了向阿Bob林盛斌、七師傅等借錢，更淪落到幫襯財仔、網上貼QR Code眾籌求生。誠信跌至谷底，連昔日關係親如姊弟的蔡卓妍（阿Sa）亦心死將他降級為「前朋友」；回想當年出事後漏夜由泰國返港，獨留好兄弟面對殘局，他含淚向關智斌（Kenny）致歉：「咁多年嚟講咗好多次對唔住，想彌補嘅機會可能得返1%。」 如今面對沉重債務與患自閉及過度活躍",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "天氣｜今日初時一兩陣微雨 最高氣溫28度 今個星期連續多日有雨",
-          "url": "https://hk01.com/sns/article/60405750",
-          "publishedAt": "2026-10-31T22:16:02.000Z",
-          "excerpt": "天文台表示，今日（1日）大致多雲，初時有一兩陣微雨，市區最低氣溫約25度，新界再低一兩度，日間短暫時間有陽光，最高氣溫約28度，最高紫外線指數大約是6，強度屬於高，吹和緩偏東風，初時離岸風勢清勁，高地間中吹強風。天文台展望，明日（2日）部份時間有陽光，隨後一兩日風勢較大。 圖為截至11月1日清晨6時，天文台顯示各區氣溫。（天文台網頁圖片） 受東北季候風影響 本周中期華南沿岸風勢較大及有一兩陣雨 天文台指出，一股偏東氣流會在今日影響廣東沿岸，一道雲帶覆蓋該區，該區雲量較多。隨着偏東氣流緩和，明日（2日）廣東沿岸天色較為明朗，而受東北季候風影響，本周中期華南沿岸風勢較大及有一兩陣雨，預料一股清勁至",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -2291,10 +2167,18 @@
           "category": "Hong Kong"
         },
         {
-          "title": "六合彩︱萬聖節金多寶頭獎無人中 下期11.5攪珠一注獨中1.08億",
-          "url": "https://hk01.com/sns/article/60405730",
-          "publishedAt": "2026-10-31T14:11:16.000Z",
-          "excerpt": "【萬聖節金多寶／六合彩／金多寶／萬聖節／幸運號碼】六合彩萬聖節金多寶攪珠周六晚（10月31日）舉行，若以10港元一注獨中，可獨攬8,000萬元巨額彩金。馬會同晚公布，由於頭獎無人中，下期攪珠日為下周四（11月5日），估計頭獎獨中可得1.08億元（$108,000,000）。一文看清五大最旺號碼及十大幸運投注站。 六合彩萬聖節金多寶攪珠10月31日晚上舉行，特設6,000萬元金多寶。不少市民攪珠前的下午到中環士丹利街投注站買獎券。最終頭獎無人中。（梁鵬威攝） 六合彩萬聖節金多寶攪珠10月31日晚上舉行，特設6,000萬元金多寶。不少市民攪珠前的下午到中環士丹利街投注站買獎券。最終頭獎無人中。（梁",
+          "title": "萬聖節．蘭桂坊圖輯｜盤點「嘩鬼」出位造型 蜘蛛俠肌肉男被摸腹",
+          "url": "https://hk01.com/sns/article/60405727",
+          "publishedAt": "2026-10-31T13:59:11.000Z",
+          "excerpt": "【Halloween／萬聖節／蘭桂坊／中環】萬聖節（31日）中環蘭桂坊一帶街道「逼爆」，警方實施人流管制，市民及旅客打扮成各路妖魔鬼怪「扮鬼扮馬」，氣氛非常熾熱。《香港01》記者在現場直擊盛況，不少中外旅客均盛讚現場氣氛好，有人更稱計劃明年再來港參與蘭桂坊萬聖節。不過，入夜後人潮過多，警方的指示牌顯示由中環IFC前往蘭桂坊等候需時180分鐘，不少旅客都選擇放棄前往。 中環蘭桂坊萬聖節正日。（湯致遠攝） 中環一帶萬聖節氣氛熾熱，有人扮成iPhone Duo。（湯致遠攝） 中環蘭桂坊萬聖節正日，現場氣氛熾熱，不少市民及旅客打扮成「嘩鬼」。（湯致遠攝） 中環蘭桂坊萬聖節正日，現場氣氛熾熱，不少市民及",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "幼稚園發通告「切勿慶祝萬聖節」惹議 指源自供奉死神 家長力撐",
+          "url": "https://hk01.com/sns/article/60405601",
+          "publishedAt": "2026-10-31T13:38:31.000Z",
+          "excerpt": "10月31日萬聖夜，不少市民會上街慶祝萬聖節，但有家長就分享女兒所讀幼稚園的通告，校方提醒「切勿慶祝萬聖節」為題，指該節日源於塞爾特人（Celts）的「死節」，本質為「供奉死神」。家長大讚校方做法，稱「無揀錯學校」，解釋到萬聖節的背景，而且中國人傳統文化中，亦不會在「七月十四出街仲扮鬼扮馬」。 帖文引起熱議，有網民指一些宗教背景學校會發出類似通告，但只是不鼓勵舉辦萬聖節活動，較少「呼籲唔好慶祝」。不少網民認為大可當普通節日輕鬆看待，「以前間幼稚園唔提係咩節，但會搞化妝舞會」。 尖沙咀萬聖節，市民一同狂歡。（湯致遠攝） 學校通告質疑萬聖節成「常態」 指源於供奉死神 有家長在Threads上傳女兒",
           "source": "香港01",
           "category": "Hong Kong"
         }
@@ -2306,6 +2190,38 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "蒙彼利埃乒乓冠軍賽 蒯曼挫張本美和晉身女單四強",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518757/%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E4%B9%92%E4%B9%93%E5%86%A0%E8%BB%8D%E8%B3%BD-%E8%92%AF%E6%9B%BC%E6%8C%AB%E5%BC%B5%E6%9C%AC%E7%BE%8E%E5%92%8C%E6%99%89%E8%BA%AB%E5%A5%B3%E5%96%AE%E5%9B%9B",
+          "publishedAt": "2026-11-01T02:40:11.000Z",
+          "excerpt": "【有線新聞】蒙彼利埃乒乓冠軍賽，中國的蒯曼晉級女單四強。 湖水藍衫的蒯曼對日本的張本美和，先輸一局9比11下還",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "苗圃行動慈善越野馬拉松 逾千人參與 料籌得120萬資助海內外學童",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518754/%E8%8B%97%E5%9C%83%E8%A1%8C%E5%8B%95%E6%85%88%E5%96%84%E8%B6%8A%E9%87%8E%E9%A6%AC%E6%8B%89%E6%9D%BE-%E9%80%BE%E5%8D%83%E4%BA%BA%E5%8F%83%E8%88%87-%E6%96%99%E7%B1%8C%E5%BE%97120",
+          "publishedAt": "2026-11-01T02:37:04.000Z",
+          "excerpt": "【有線新聞】苗圃行動舉行慈善越野馬拉松。 保安局副局長卓孝業、警務處處長周一鳴為42公里組賽主持鳴槍儀式。苗圃",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "違30天宵禁令 駐沖繩美軍半夜醉駕遭截停拘捕",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518749/%E9%81%9530%E5%A4%A9%E5%AE%B5%E7%A6%81%E4%BB%A4-%E9%A7%90%E6%B2%96%E7%B9%A9%E7%BE%8E%E8%BB%8D%E5%8D%8A%E5%A4%9C%E9%86%89%E9%A7%95%E9%81%AD%E6%88%AA%E5%81%9C%E6%8B%98%E6%8D%95",
+          "publishedAt": "2026-11-01T02:28:41.000Z",
+          "excerpt": "【有線新聞】一名駐日沖繩美軍士兵違反宵禁令，半夜外出並酒後駕駛。 沖繩警方周六凌晨在公路截停駐漢森軍營的美軍海",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "政府擬修例雙軌並行打擊圍標 林定國：刑事優先、最高監禁10年更具阻嚇力",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518747/%E6%94%BF%E5%BA%9C%E6%93%AC%E4%BF%AE%E4%BE%8B%E9%9B%99%E8%BB%8C%E4%B8%A6%E8%A1%8C%E6%89%93%E6%93%8A%E5%9C%8D%E6%A8%99-%E6%9E%97%E5%AE%9A%E5%9C%8B-%E5%88%91%E4%BA%8B%E5%84%AA%E5%85%88",
+          "publishedAt": "2026-11-01T02:22:13.000Z",
+          "excerpt": "【有線新聞】政府計劃修例將圍標刑事化，律政司司長林定國說民事及刑事會雙軌並行，但一定以刑事檢控優先，最高監禁1",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "巴西大選｜弗拉維奧秘密抵美 特朗普稱無意會面：他想留多久便留多久",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518744/%E5%B7%B4%E8%A5%BF%E5%A4%A7%E9%81%B8-%E5%BC%97%E6%8B%89%E7%B6%AD%E5%A5%A7%E7%A7%98%E5%AF%86%E6%8A%B5%E7%BE%8E-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A8%B1%E7%84%A1%E6%84%8F%E6%9C%83%E9%9D%A2",
@@ -2433,38 +2349,6 @@
           "excerpt": "【有線新聞】輔助科技有助特殊學校學童表達喜好，活出個人色彩與尊嚴。17歲的佩穎患有大腦麻痺兼多種殘障，在學校學",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "萬聖節前夕｜中環部分通道封閉 警方籲轉往其他地區慶祝",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518667/%E8%90%AC%E8%81%96%E7%AF%80%E5%89%8D%E5%A4%95-%E4%B8%AD%E7%92%B0%E9%83%A8%E5%88%86%E9%80%9A%E9%81%93%E5%B0%81%E9%96%89-%E8%AD%A6%E6%96%B9%E7%B1%B2%E8%BD%89%E5%BE%80%E5%85%B6%E4%BB%96",
-          "publishedAt": "2026-10-31T13:26:35.000Z",
-          "excerpt": "【有線新聞】晚上大批人前往蘭桂坊。 人潮經域多利皇后街，倒灌至干諾道中，交易廣場對出的行人天橋亦迫滿人，部分通",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港金牛誓師 劍指NBL四連霸、衝擊CBA",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518641/%E9%A6%99%E6%B8%AF%E9%87%91%E7%89%9B%E8%AA%93%E5%B8%AB-%E5%8A%8D%E6%8C%87nbl%E5%9B%9B%E9%80%A3%E9%9C%B8-%E8%A1%9D%E6%93%8Acba",
-          "publishedAt": "2026-10-31T12:37:41.000Z",
-          "excerpt": "【有線新聞】香港金牛籃球隊誓師，劍指NBL四連霸，全力衝擊CBA。 港隊代表楊和、清華大學的控衛石奎、打過NB",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "政府料皇崗口岸今晚為出境高峰 有內地客決定提早回程避人潮",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518649/%E6%94%BF%E5%BA%9C%E6%96%99%E7%9A%87%E5%B4%97%E5%8F%A3%E5%B2%B8%E4%BB%8A%E6%99%9A%E7%82%BA%E5%87%BA%E5%A2%83%E9%AB%98%E5%B3%B0-%E5%B0%87%E9%96%8B%E6%94%BE%E6%89%80%E6%9C%89%E8%87%AA%E5%8A%A9",
-          "publishedAt": "2026-10-31T12:32:44.000Z",
-          "excerpt": "【有線新聞】政府預計周六晚是皇崗口岸出境高峰。 在中環干諾道中巴士站，大批乘客登上B13巴士前往皇崗口岸。在口",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "萬聖節前夕｜砵蘭街一帶人山人海 特別版紅色小巴供打卡",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518653/%E8%90%AC%E8%81%96%E7%AF%80%E5%89%8D%E5%A4%95-%E7%A0%B5%E8%98%AD%E8%A1%97%E4%B8%80%E5%B8%B6%E4%BA%BA%E5%B1%B1%E4%BA%BA%E6%B5%B7-%E7%89%B9%E5%88%A5%E7%89%88%E7%B4%85%E8%89%B2%E5%B0%8F",
-          "publishedAt": "2026-10-31T12:27:06.000Z",
-          "excerpt": "【有線新聞】旺角亦有活動慶祝萬聖節前夕。 朗豪坊對出的一段砵蘭街變身派對場地，人山人海，不少人穿上嘩鬼服飾或者",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ]
     },
@@ -2474,6 +2358,14 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "警方聯同慈善組織舉行越野挑戰賽",
+          "url": "https://news.now.com/home/local/player?newsId=667913",
+          "publishedAt": "2026-11-01T03:08:24.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "宏福苑報告｜林定國：圍標引入刑事化 最高囚十年屬非常高懲罰",
           "url": "https://news.now.com/home/local/player?newsId=667905",
@@ -2622,14 +2514,6 @@
           "title": "宏福苑報告｜麥美娟就宏福苑火災問題致歉 稱會謹守崗位做好修例工作",
           "url": "https://news.now.com/home/local/player?newsId=667864",
           "publishedAt": "2026-10-31T11:09:25.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "大鳴大放｜跟進宏福苑火災(二)",
-          "url": "https://news.now.com/home/local/player?newsId=667851",
-          "publishedAt": "2026-10-31T11:01:00.000Z",
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
@@ -3158,7 +3042,7 @@
           "title": "Pump pressure: how rising fuel costs leave Hong Kong drivers running on fumes",
           "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372851/pump-pressure-how-rising-fuel-costs-leave-hong-kong-drivers-running-fumes",
           "publishedAt": "2026-11-01T01:00:12.000Z",
-          "excerpt": "Van driver Wong Siu-po, 48, felt life was becoming more difficult than ever as mounting fuel prices cost him an additional HK$5,000 (US$640) a month, about a third of his monthly income. With an 11-year-old daughter and an unemployed wife to support, he feels the pressure mounting. “I need to work t",
+          "excerpt": "Van driver Wong Siu-po, 48, felt life was becoming more difficult than ever as rising fuel prices cost him an additional HK$5,000 (US$640) a month, about a third of his monthly income. With an 11-year-old daughter and an unemployed wife to support, he feels the pressure mounting. “I need to work thr",
           "source": "South China Morning Post",
           "category": "Hong Kong"
         },
@@ -3315,6 +3199,30 @@
       "count": 20,
       "stories": [
         {
+          "title": "酒牌局周二舉行會議",
+          "url": "https://www.info.gov.hk/gia/general/202611/01/P2026102900487.htm",
+          "publishedAt": "2026-11-01T03:00:00.000Z",
+          "excerpt": "​下稿代酒牌局發出： &nbsp; 酒牌局星期二（十一月三日）舉行會議，討論一宗會社酒牌續期申請，以及一宗酒牌（附加酒吧批註）轉讓及修訂（更改店號、更改地址描述、擴大售酒範圍及取消酒吧批註）申請。 &nbsp; 有關申請如下（不依照討論次序）： &nbsp; 香港區： ─── 位於中環的Ovolo 位於中環的Salon No. 10 &nbsp; 酒牌局會議於上午九時四十五分在灣仔皇后大道東258號一樓102號會議室舉行，歡迎市民旁聽。",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "政府成立漁民特惠津貼上訴委員會處理受香港東北水域海事工程影響個案",
+          "url": "https://www.info.gov.hk/gia/general/202611/01/P2026102700229.htm",
+          "publishedAt": "2026-11-01T03:00:00.000Z",
+          "excerpt": "政府今日（十一月一日）宣布成立漁民特惠津貼上訴委員會，處理受香港東北水域海事工程影響、船長不超過15米的漁船船東所提出的特惠津貼上訴個案。 上訴委員會是按需要成立的非法定組織，由一名非官方主席及四名非官方成員組成。楊明悌獲委任為主席，成員為歐栢青、鍾姍姍博士、凌民琛和譚健樂。有關委任即時生效，任期至完成處理所有上訴個案為止。 政府一直有機制向受海事工程影響並符合資格的漁船船東發放特惠津貼。政府已成立跨部門工作小組，處理漁船船東就有關在香港東北水域所進行的25個海事工程的特惠津貼申請。跨部門工作小組在登記期內共收到861個申請。如特惠津貼申請人不滿跨部門工作小組就其獲批特惠津貼金額或申領資格所作",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "行政長官在2026大灣區科學論壇開幕式致辭（只有中文）（附短片）",
+          "url": "https://www.info.gov.hk/gia/general/202611/01/P2026103000621.htm",
+          "publishedAt": "2026-11-01T02:45:00.000Z",
+          "excerpt": "以下是行政長官李家超今日（十一月一日）在2026大灣區科學論壇開幕式的視像致辭： &nbsp; 尊敬的黃坤明書記（廣東省委書記）、尊敬的岑浩輝行政長官（澳門特別行政區行政長官）、尊敬的陰和俊部長（科學技術部部長）、尊敬的侯建國院長（中國科學院院長）、尊敬的孟凡利省長（廣東省省長）、尊敬的白春禮主席（大灣區科學論壇主席）、各位嘉賓、各位朋友： &nbsp; 大家好！很高興參與今天的論壇，與各位科學家、學者和業界朋友集思廣益，共商創科未來。我首先熱烈恭賀大灣區科學論壇順利召開！ &nbsp; 今年是國家「十五五」規劃開局之年。「十五五」規劃明確提出，要深化粵港澳大灣區建設，強化科技創新等方面規則銜",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
           "title": "數個泳灘懸掛紅旗",
           "url": "https://www.info.gov.hk/gia/general/202611/01/P2026110100285.htm",
           "publishedAt": "2026-11-01T02:03:00.000Z",
@@ -3447,30 +3355,6 @@
           "url": "https://www.info.gov.hk/gia/general/202610/31/P2026102900246.htm",
           "publishedAt": "2026-10-30T22:00:00.000Z",
           "excerpt": "社會福利署（社署）發言人表示，中國基督教播道會社會服務獲發公開籌款許可證在今日（十月三十一日）由上午七時至下午十二時三十分，進行全港賣旗活動。 所有獲發許可證於公眾地方進行的慈善籌款活動詳情，包括任何更新的資料，已透過香港政府一站通網頁（ www.gov.hk/tc/theme/fundraising/search ）發布，而賣旗日許可證亦已上載至社署網頁（ www.swd.gov.hk/tc/ngo/controlofc/flagdays ），以供查閱賣旗機構的聯絡方法及已獲准舉行的賣旗日活動資料。市民如有查詢，可致電社署熱線2343 2255，或1823電話中心專線3142 2678。 發",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "政府公布新一屆節目與發展委員會任命",
-          "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000649.htm",
-          "publishedAt": "2026-10-30T14:30:00.000Z",
-          "excerpt": "文化體育及旅遊局（文體旅局）今日（十月三十日）公布委任羅智光為新一屆節目與發展委員會主席，以及委任其他節目與發展委員會及其轄下六個演藝專責委員會（音樂、舞蹈及跨媒體藝術、戲劇、中國傳統表演藝術、社區，以及藝術節）委員。所有任期均為兩年，由二○二六年十一月一日至二○二八年十月三十一日。 節目與發展委員會及其轄下六個演藝專責委員會的成員來自不同背景，在相關範疇均有豐富的專業知識和經驗，就表演藝術向康樂及文化事務署（康文署）提供意見。 文體旅局發言人感謝即將卸任的節目與發展委員會主席和委員，以及演藝專責委員會委員在過去的貢獻，包括譚榮邦、張國穎、葉冠成、陳嘉恩博士、張文蕊博士、朱琼愛、鍾亦琪、馮穎琪",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "政府公布新一屆場地伙伴計劃委員會任命",
-          "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000641.htm",
-          "publishedAt": "2026-10-30T14:30:00.000Z",
-          "excerpt": "文化體育及旅遊局（文體旅局）今日（十月三十日）公布委任潘明倫教授為新一屆場地伙伴計劃委員會主席，以及委任其他委員會委員。所有任期均為兩年，由二○二六年十一月一日至二○二八年十月三十一日。 場地伙伴計劃委員會的成員來自不同背景，在不同範疇具有豐富的專業知識和經驗，就場地伙伴計劃向康樂及文化事務署（康文署）提供意見。 文體旅局發言人感謝即將卸任的場地伙伴計劃委員會主席及委員在過去的貢獻，包括葉傲冬、張振宇、馮秀炎、葉劍豪教授、利德裕博士及王文揚。 以下為新一屆場地伙伴計劃委員會的成員名單及職權範圍： 主席 潘明倫教授＊ 委員 陳美娟博士 簡汝謙＊ 賴建群＊ 李澤恩 梁智軒博士 廖玲玲 吳立熙＊ 吳",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "文化體育及旅遊局局長出席新界鄉議局100周年粵劇大匯演開幕禮致辭（只有中文）",
-          "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000724.htm",
-          "publishedAt": "2026-10-30T12:50:00.000Z",
-          "excerpt": "​以下是文化體育及旅遊局（文體旅局）局長羅淑佩今日（十月三十日）出席新界鄉議局100周年粵劇大匯演開幕禮的致辭： 劉業強主席（新界鄉議局主席）、麥美娟局長（民政及青年事務局局長）、鄭于樺部長（中央人民政府駐香港特別行政區聯絡辦公室新界東區事務部副部長）、敏姐（新界鄉議局傳統文化委員會主任陳嘉敏）、林虹女士（高力集團營運總監）、各位嘉賓、各位朋友： 很高興今日晚上出席新界鄉議局100周年粵劇大匯演的開幕禮，剛才麥局長說這是她出席的第三個鄉議局100周年活動，我也起碼是第二個了，我早前已出席高爾夫球的開球禮。我亦十分高興今日可以為原創粵劇《情是故鄉濃》和往後多場精彩的演出揭開序幕。 粵劇於二○○九",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
         }
@@ -4794,377 +4678,15 @@
       "name": "n+1",
       "category": "Society",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "Rally for Hallie",
-          "url": "https://www.nplusonemag.com/online-only/election-special/rally-for-hallie/",
-          "publishedAt": "2026-10-30T22:16:01.000Z",
-          "excerpt": "Cotton’s absence on the campaign trail has been a ready target for Shoffner’s jabs. Compared to the tall, glowering Cotton, she’s approachable, more concerned about bread-and-butter issues than about containing Beijing.",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Send Some of These Guys Packing",
-          "url": "https://www.nplusonemag.com/online-only/election-special/send-some-of-these-guys-packing/",
-          "publishedAt": "2026-10-30T19:32:49.000Z",
-          "excerpt": "Jackson is what Platner claimed to be: an imperfect, working-class guy who’s learned—and is still learning—from his mistakes.",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How We Can Build a World for All",
-          "url": "https://www.nplusonemag.com/online-only/events/how-we-can-build-a-world-for-all/",
-          "publishedAt": "2026-10-28T16:41:44.000Z",
-          "excerpt": "Today—amid the second Trump Administration’s lethal military aggression and reckless defunding of international aid—it’s harder than ever to imagine what a just American foreign policy would look like. In A World for All: New Visions of US Foreign Policy (out in November from OR Books), former Berni",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Playing Roulette in the Archives",
-          "url": "https://www.nplusonemag.com/online-only/online-only/playing-roulette-in-the-archives/",
-          "publishedAt": "2026-10-23T15:58:31.000Z",
-          "excerpt": "When Ginzburg first started his research into the witch trials, his hypothesis was that they could be seen as “a crude form of class struggle.” He swiftly found good evidence for his theory—and was disappointed. There must be something wrong, he thought, with a hypothesis that can be demonstrated so",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Blue Power in New York",
-          "url": "https://www.nplusonemag.com/online-only/online-only/blue-power-in-new-york/",
-          "publishedAt": "2026-10-23T15:40:30.000Z",
-          "excerpt": "Colin Vanderburg: To begin, how generalizable are New York’s politics of policing and criminal justice? I think there’s an idea that the NYPD, as the country’s largest police department in the country’s largest city, is somehow archetypal of American policing generally; but obviously New York is qui",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Trump’s Microphones",
-          "url": "https://www.nplusonemag.com/online-only/online-only/trumps-microphones/",
-          "publishedAt": "2026-10-21T15:28:01.000Z",
-          "excerpt": "Trump is alone, photographed from below (presumably by a crouching photographer, though I never see one on the ground) so as to appear more monumental. More often than not, his arms are half-raised at his sides and his palms are up, like he’s fending off the press, rhetorically, with his habitual “W",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Death of the Mind in Sarasota",
-          "url": "https://www.nplusonemag.com/online-only/online-only/death-of-the-mind-in-sarasota/",
-          "publishedAt": "2026-10-13T20:01:48.000Z",
-          "excerpt": "The story of New College of Florida “merits attention . . . if only to record the perseverance of those who, for more than three decades, struggled to overcome numerous and daunting difficulties to help keep the institution alive.” So wrote Furman C. Arthur, the school’s first employee, in his intro",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "EV Listening",
-          "url": "https://www.nplusonemag.com/online-only/online-only/ev-listening/",
-          "publishedAt": "2026-10-05T15:38:39.000Z",
-          "excerpt": "The Honda Prologue has a hovering, suffusing melody, with a low rhythmic pulse and a subtle, epiphanic wash. It sounds like a computer game lifting you into heaven, or the arrival of benevolent extraterrestrial colonists. The Porsche Taycan makes a more sinister and comic, gulping, warp-speed sound,",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Last Week in End Times Cinema",
-          "url": "https://www.nplusonemag.com/online-only/online-only/last-week-in-end-times-cinema-2/",
-          "publishedAt": "2026-10-02T15:30:09.000Z",
-          "excerpt": "After a series of massive concessions by everyone from state attorneys general to the WGA to the great mass of the American people, the Paramount Skydance–Warner Brothers Discovery merger looks to be complete. Eyebrowless scion David Ellison will now be in charge of one of the largest media conglome",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Away Game",
-          "url": "https://www.nplusonemag.com/online-only/gooooaaal/away-game/",
-          "publishedAt": "2026-09-29T14:49:11.000Z",
-          "excerpt": "“I have a Mexican jersey too” Abdoulaye said. “I put it on if my client has a Latino name. Or Colombia. This one,” he said, gesturing to his USMNT jersey, “I wear this one for Americans. It helps with tips.”",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Freedom of the Weasel",
-          "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel/",
-          "publishedAt": "2026-09-22T18:33:59.000Z",
-          "excerpt": "Her great themes were timeless, the stuff of the ancients’ ancients: perception, eternity, travel, the problem of evil. She repudiated Aristotle, denied the primordial split between myth and natural philosophy: Anything could, and would, be likened to everything, in the service of the sentence.",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Municipal Sublime",
-          "url": "https://www.nplusonemag.com/online-only/events/the-municipal-sublime/",
-          "publishedAt": "2026-09-15T19:18:31.000Z",
-          "excerpt": "In a city that treats its architectural highlights—and even some of its mediocrities!—with an ardor that verges on the obsessive, plenty of buildings nonetheless manage to escape collective reverence. A disproportionate number of these buildings happen to belong to the public: community spaces, seni",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Last Year in End Times Cinema",
-          "url": "https://www.nplusonemag.com/online-only/events/last-year-in-end-times-cinema/",
-          "publishedAt": "2026-09-14T15:18:07.000Z",
-          "excerpt": "It’s been nearly a year since n+1 film critic A. S. Hamrah’s book Last Week in End Times Cinema—a study of bad news in the movie industry over the course of 365 days—was published. What’s happened in end times cinema since then? On Thursday, October 1, join us as we investigate. Hamrah will appear i",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Hi-Neighbor! Mayor",
-          "url": "https://www.nplusonemag.com/online-only/online-only/the-hi-neighbor-mayor/",
-          "publishedAt": "2026-09-11T20:21:24.000Z",
-          "excerpt": "When I first met David Morales it was December 2019, and I was standing in David’s ill-lit bachelor apartment as he announced to a small holiday party full of socialists that he intended to run for state representative. I was skeptical. David was young—only 21 at the time—just recently graduated, an",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Laura Kolbe and Patricia Lockwood in conversation",
-          "url": "https://www.nplusonemag.com/online-only/events/laura-kolbe-and-patricia-lockwood-in-conversation/",
-          "publishedAt": "2026-09-10T17:11:11.000Z",
-          "excerpt": "On Saturday, October 10, join us at the n+1 office in Brooklyn for a celebration of two new works of poetry: Laura Kolbe’s The Decadent Movement (out in September from University of Pittsburgh Press) and Patricia Lockwood’s Agate Head/Stone Soup (out in October from Penguin Books). Lockwood and Kolb",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Issue 54 Reading and Celebration",
-          "url": "https://www.nplusonemag.com/online-only/events/issue-54-reading-and-celebration/",
-          "publishedAt": "2026-09-10T16:10:57.000Z",
-          "excerpt": "Please join n+1 at our office in Greenpoint for reading and drinks in celebration of Issue 54: POWER PLAY! Featuring readings by Walker Caplan, Mark Krotov, Leigh Claire La Berge, Maria Marchinkoski, and Colin Vanderburg. Readings will start at 7, followed by a party, and cheap drinks will be for sa",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Billboards of Silicon Valley",
-          "url": "https://www.nplusonemag.com/online-only/online-only/the-billboards-of-silicon-valley/",
-          "publishedAt": "2026-09-04T18:42:43.000Z",
-          "excerpt": "YOUR AI AGENT NEEDS A WORKFLOW ENGINE. The billboard stands by a nondescript stretch of highway somewhere between Redwood City and Mountain View. A boom, likely a bubble, made manifest. A cry of triumphant return. And probably one day, a monument to a bubble bursting. All hype seems destined to furn",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Social and Anti-Social Housing",
-          "url": "https://www.nplusonemag.com/online-only/online-only/social-and-anti-social-housing/",
-          "publishedAt": "2026-09-04T16:23:30.000Z",
-          "excerpt": "We have public housing, but it has never been as well designed, built, or maintained. We have limited-equity co-ops built by limited-dividend companies, but we built far fewer of them, and we allowed some to go private. We have inclusionary zoning, but whereas their model requires two-thirds of the ",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Ciphers Poufed Out",
-          "url": "https://www.nplusonemag.com/online-only/online-only/ciphers-poufed-out/",
-          "publishedAt": "2026-09-01T15:22:30.000Z",
-          "excerpt": "Hi! Where have I been? Last time we heard from me, Miss Translation, I was on a rocket blasting out of Iowa. I hosted two events, one in New York and one in Chicago. Was I forced into hiding because of how well they went? No, although I could have been. Did I write a […]",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Zooming in on Wiseman",
-          "url": "https://www.nplusonemag.com/issue-54/letters/zooming-in-on-wiseman/",
-          "publishedAt": "2026-09-01T14:26:34.000Z",
-          "excerpt": "This is a different mode of watching film; the eye and ear must remain in a constant state of hypervigilance to confirm whether one can spy a coffee cup in the back of a frame, or if someone says “gonna be” instead of “going to be.”",
-          "source": "n+1",
-          "category": "Society",
-          "sourceRole": "publisher"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "Reuters",
       "category": "Society",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "California governor asks US judges to resist Trump attempts to seize ballots - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLVlXWHJiT1ZELXhOM3ZVM1hySTBsenhZbUxYdDRCN1NTcnFRN0xXcWFhVjZ2NDhnLVRzOFhGNzNtOEpXV3RUOWVtSW9tbFlqY184eVFqbUpPRXNQbnl6Q2V4SVVjdU1UZ0tMdGdpdWhhZjM3N3cwSTBPdGIwSXZSeXYxR0JySnhKdE02dzJmYmpvUXlwb05GeUl5QzhjZzNPRVU3VDBDRE1hemVyWHJzendXXzBaWWRKakZqTlh3a3U?oc=5",
-          "publishedAt": "2026-11-01T00:12:00.000Z",
-          "excerpt": "California governor asks US judges to resist Trump attempts to seize ballots &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "After Louvre heist and string of thefts, Europe's smaller museums are on guard - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV2hEQ0g1Rk9ZSjJMakpuX2lCY3hFc1I4VjhMbnE3aGFMWXh3TU9NSE1sWEFCM2dRUVBTRXE5cWxUMXdwdXZwZ29vNFdBbjVKYW1yTDN1b2tlZ1RjQW13NkdqVEI5RV9ybFRad3kyY0VTOTZaUEhFaDYyUmdTYnlMenBDNGM0VVEyanFtRFJUTjFnc0MyemdmRVlLNlBGbGdxMjFmZXRUem43WTRz?oc=5",
-          "publishedAt": "2026-10-31T23:49:30.000Z",
-          "excerpt": "After Louvre heist and string of thefts, Europe's smaller museums are on guard &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Salvadoran families demand fair trials, mourn prison dead on Day of the Dead - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRkdQUUgzVUh1N1F4MWQyX2hDR2sweTZiMTBlOVBtemRaeXRuUDdrMEI2emRkSFM3aXRteVJFdWFQR3J2cWhUeUt6RHZhb2l1em5ZRm1YVF9nWnpyekZCM2NZYXlHeWlVVXZpbDYtN3hPWWRYbTlFVzU1bFR4dnprU0VEcUU1Um90LXBMUzlpREF2aXhXa0NKZHR1NWREUXA0UExSUUdnWG51S2dFTDNzaVBnMGFpUHc?oc=5",
-          "publishedAt": "2026-10-31T23:49:00.000Z",
-          "excerpt": "Salvadoran families demand fair trials, mourn prison dead on Day of the Dead &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWDh2Tk1SWVpMWE1Mc1NmZ2JHUlFDOEFqVjg4T29yc1BLNXBibGFRSWNDUEhadDZiaEhiZXg4UFlfNV8tRVM3UVdfTkdzRzZVR2dmN2JwWjlIc3BHeVU0eVlJR0h1UThmaXhVWS1GcHZqb0c1NGR0VWoxU3k0Q3dLYU1hQVExZVJJd2FxZHpWOXc0NDRJWlZvUDk2Rm5GRUh1bXFITDBUZGFVWjY4T3VTWGh2NlFKaVBKLWc?oc=5",
-          "publishedAt": "2026-10-31T22:58:33.000Z",
-          "excerpt": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGlWdjVINldIeWxNTExNV01jTlZKOVJqWTdPMmRPRTBNZmFnWXBXeGtacmJkMUJldC1FTU0zTlVsMVQ5WVdhYUk2QmZqeG5ZM0U4UFpmeTEwSGNJR1Y1THVzZVZWU1Q5Z2pCcHJyTHpOc3hGVDdxWV9VVndkdzhvVXItQWlyZ3Frb1VSOVB5TWJ4aGdkbk8xeg?oc=5",
-          "publishedAt": "2026-10-31T22:27:00.000Z",
-          "excerpt": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "North Korea says defence research institutes tested major weapon system - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2szXzlwbFhuTl8xcVFPLU9JTTFnUTYtT1pYWGxTbEFhUmxWV1E5NkxvbTZvOEtETEp4YjdMaEhDbG1MSzIweE5kYXpSM3FWVEpUWEFFNUZTUFdaNzN2UldqMHlVdDZsT3NaNm9PQl9xSFpfMm1FR3JCUTA0Z2hiQ0EtUXpKZ3MwLThwQmZ3R0JxZ2lRZ2hjcEpkWjI0R2FyUGdIQ3VZZUVwRl96UVByZklTSm1KY1RVRExaSlptRUtLbHRld0FVN2lEYUcwbUU?oc=5",
-          "publishedAt": "2026-10-31T21:48:05.000Z",
-          "excerpt": "North Korea says defence research institutes tested major weapon system &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
-          "publishedAt": "2026-10-31T21:44:23.000Z",
-          "excerpt": "FBI links North Korea to theft of $6 billion from Binance &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "ICE raids in a California toss-up district spark accusations of voter intimidation - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMkk2Tk5vZ2RHMENmbGFkZjJrWjJIS2xkbDZrQW5hUS1abHlzOVNWendQdHNfZTdZcHFnWkFKUURwMDVmYnhlN3ZPeEctbHBmeE9KcVp0T1JCVGVNN3NrbXZMd1ZmcVZOcHQ5X3JIWHJuOHpJcThkbTdmQTItSlE1MXJ4ektHQ3Ytd3I1dGVhSTFSVHlQQ05iaHdzd2drWXhoTEphUVRTUUh3cWU3cDJ2ak1GQkNMb0NTV3VZeG5GdEFZNThORFE?oc=5",
-          "publishedAt": "2026-10-31T21:38:51.000Z",
-          "excerpt": "ICE raids in a California toss-up district spark accusations of voter intimidation &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Thousands return to Lisbon square, press government to scrap rental bill - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWVvNnVKTGlkcFRNcmpqWmZlaUNuVXJZU1p3bi1QRDdSbWtHQ082NmdqV3RwZlVobm50NE1JRVljYjc0WXlYdG44V2p1bFJVTTZPUUhxcXM4emlfV3pQdmFIeG9hVGZGZ09mOW05c05hTTFHYzgyWmhiUlhfc3FVNzFhWDFKXzJiRFlJZUdxQmV6SFZIb0RkSERTRklwamlkekYxZjZ5RDZMYWtyR2lRQ0J3eHQ?oc=5",
-          "publishedAt": "2026-10-31T21:22:49.000Z",
-          "excerpt": "Thousands return to Lisbon square, press government to scrap rental bill &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Polish PM Tusk vows support for tribunal amid court crisis - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1FQZ3BaNHVzYUlJRnloRE0wc0hFS2xrV3RJb2pkLXlXbXpBX1Y1eURkSUpCTVFhQjc3cWJmS2ZnNGM5eE1YTmxqN0t3cHVNM3NLMjlvSFpMMXJ4TkxjS2N6XzV6bVhlcExudmpBdzZPWHdyVHVYVExqZVVuNkdlVE1Mb1dpel8xdDNWSGlOS2o1R0tQVU5wWnE5WWJ5VmJ5cmsyYjA0cTJ0d1U?oc=5",
-          "publishedAt": "2026-10-31T21:13:03.000Z",
-          "excerpt": "Polish PM Tusk vows support for tribunal amid court crisis &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Canada advancing its 'middle power' strategy with new trade deals, Anand says - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMkR4dzVKdEdBZ1paNXRBRkJQRHlCaFBWQlk3ZG5jQVBwam1LQXdtMFpQcl8tR3ZpdWRjLXdfVjhRTDlXX0J3dDl1a1NmTHZhV1ZGazBqd1prYjZ3UEpGZHN2MkZ6WkRmS0JJRFE5a0pQSmlCQ1hGbUZSUGFSckgzZ2l5bEFRSUFCR2puZUdRSEgyMENsTzhoZ2hxZGRiUjBYZjMyYW53ODVwX0IwWnNvbVB5YUlvUWZUY21reFVoMmFQZU0?oc=5",
-          "publishedAt": "2026-10-31T21:11:43.000Z",
-          "excerpt": "Canada advancing its 'middle power' strategy with new trade deals, Anand says &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Real, Mbappe have moved on from China controversy, says Mourinho - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTNFZyREY1NE52QlpEWDNoLUNzTWF2d0RpOENKRS1rUXh0a19saUpSMExybzVYdmJFRU9TZmZncTMxTDAzVlVGRmdrZ2dVNU9RcVZ4UFhPYkwtbjhFYXhDUXdmNXN0NmZSWEJndzdkRFBpb056d3NjRlVvYmxjdDBZT2tEZ1E0b0tmcFZIVQ?oc=5",
-          "publishedAt": "2026-10-31T20:16:59.000Z",
-          "excerpt": "Real, Mbappe have moved on from China controversy, says Mourinho &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
-          "publishedAt": "2026-10-31T20:00:36.000Z",
-          "excerpt": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Ghana says Russia to back 2,000 MW nuclear plant, deepen ties - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVEU1TzJ6c1lISFlURGdCYlJscFltNmo3ay1SblgxNEtKU1lwcEhEcHZpMjg3TWE0VkVrdEtwSFF0dzhxRExVdUQtZTlkU2pENWpTRkdER3FHWEk1RzNRdFA2QlFVcmdzWWNSZ044MjNBejRPeFFNX3dwRUItTXRndW1UaXJxdHJkcThxUUtsVFo2d19MdFZVbVJFM245bW9iSEZwZENCQWk?oc=5",
-          "publishedAt": "2026-10-31T19:45:43.000Z",
-          "excerpt": "Ghana says Russia to back 2,000 MW nuclear plant, deepen ties &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjhmcnV5dnZWRFFnSkw0WUF5b3hld3Q2RmhYWjAzYVM4STJWUno1b1ZMMmpzMUZseDltNkgxZWdlbWdJQTVjZ2FoMVptRkZfdUlxcnZZMlpORXRoQTFCM1pBRjhrdU05Q1dQbU54WE5wejBhQnpmdjh4SF85RkVQMnViNTE4eWpyeU9FVF9feGpNTEpvQmpjbXhGSHZwMFlycmdTT1ZTQ0hWQQ?oc=5",
-          "publishedAt": "2026-10-31T18:41:19.000Z",
-          "excerpt": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Countries reach COP17 deal to speed up biodiversity action, but money still short - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR0NES1I2SUNHY1pIdGg3aVBYdW9wR0gtSDlETFpHU3pwbS1TVzdrTXFCd09DLUFHbjJxY0pBSHhGb0duVDEtczNjTjJFLThRaFRiTnJ2N2J4anJiWUpLVHhhay1xdmdCbzNTTUI1R0JCWkY2aVU5aTZxNHpWMUJzMS1ZVWE1UXRPdTE1SEhhd3JvTWVBSEtIUmM3Y0phRlc0X1Bzc1Z3NmYxSm5TS0FiYkNaenYzcmIyQUhKUk43Zy0wX2V0emhr?oc=5",
-          "publishedAt": "2026-10-31T18:32:51.000Z",
-          "excerpt": "Countries reach COP17 deal to speed up biodiversity action, but money still short &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "US Senate candidate El-Sayed wants Democratic rival to stay away, source says - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZk1TVThad3BBcnFwSU44RFlBSjU5NWNaOUxuTEFVQnp2c0tjU3h2Qmc3eUh1RWZGZVpnenlXRk5jcXczZmVhUENIcm53dFBPVm1pQnZxdDhGbmRRRHBXaTdBeHlaRjl3X05USjI3X1ViamRPX19Lc0ZrendnN2N0allNR0tLekhuM0ZCZFpmeWJROTdYY0YtbkdoZ2VEXzFiMlBIRzkwUUpxNXFPdFJERTNxRzNLMzZRUWc?oc=5",
-          "publishedAt": "2026-10-31T18:20:00.000Z",
-          "excerpt": "US Senate candidate El-Sayed wants Democratic rival to stay away, source says &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTk80ZVBzRVczc0hyRHU0RkJiTWx5ZDUwdnBHb0FWSmJyQWJzWHRYR0hZd0MzTW1INnFtSWRISVVRb1RncDltYW16eTYxRU9NcWJzanRqMmp4LWFXUVNTV2tzT3JCM0doS01hWDdGeUhNdHZ3WTdYXy14Q0luZTRmOWdQNlp2ZThtYlQ0cWhNSVk0c0ZkOUFyMExMUWRHMXRKamU2ZHRLa2pPMG9heUhzN2YwTnpCZw?oc=5",
-          "publishedAt": "2026-10-31T18:05:10.000Z",
-          "excerpt": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Nigeria reports two suspected Ebola cases in northeast region - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLVJNVjgwa3JjQjJTZV9qaEtOR0hPeUVlUU5fVmg1NmpMcmtWR2QycWNERWphd21IckhyYnNQMllfLUtrSDhCV1p4cEV4RWhmYURFbW91dVJ0YzVUMUJPNFctZG5FX1ZSdS1KemxhbWdmRTRSX2R0TEZMbm5tdVVDSDNUbnBreFJrT0tlQXE1VzVmSllTdVZoVVpqOXV1WXh3ZGpaNmZqWmdlS010Zi1NcWxQai1WU2k0dE96SDVuUld0WkxhSm9VSlFR?oc=5",
-          "publishedAt": "2026-10-31T17:54:27.000Z",
-          "excerpt": "Nigeria reports two suspected Ebola cases in northeast region &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "US, Canada see growing interest in limited ceasefire in Black Sea - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU2JIVVB6TndsbFNkS2Vma2ZRT2NBOHRyQTRkcEc2ZnNnRFc5R0JoT0hpem96RFMwalJGZFozdncxNmRBaE05ZU1hQXRsU0sxUDIyVHRWZzhlQXVfLW5GSGxBcHhscVRrLTlLSnFsOEZ0SnliUzhuQVhLeGc3VFBEWTI3ZjRfQU1uS2NWYjk2QVBEVldRVHZOUnZn?oc=5",
-          "publishedAt": "2026-10-31T17:39:00.000Z",
-          "excerpt": "US, Canada see growing interest in limited ceasefire in Black Sea &nbsp;&nbsp; Reuters",
-          "source": "Reuters",
-          "category": "Society",
-          "sourceRole": "publisher"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "Daily Nous",
@@ -6890,129 +6412,8 @@
       "name": "Asian Review of Books",
       "category": "Books",
       "kind": "rss",
-      "count": 15,
-      "stories": [
-        {
-          "title": "“The Shadeless Border” by Jiyar Jahan Fard",
-          "url": "https://asianreviewofbooks.com/the-shadeless-border-by-jiyar-jahan-fard/",
-          "publishedAt": "2026-10-31T06:00:00.000Z",
-          "excerpt": "The Yarsanis are a unique ethno-religious group centered in Kermanshah, in Iranian Kurdistan. With estimated adherents surpassing one million, this little-known syncretic religion dates from the 14th century and has elements reminiscent of Zoroanstrianism and other non-Islamic traditions, and is cen",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Abandoning a Cat” by Haruki Murakami",
-          "url": "https://asianreviewofbooks.com/abandoning-a-cat-by-haruki-murakami/",
-          "publishedAt": "2026-10-30T06:00:00.000Z",
-          "excerpt": "Parents are few and far between in Haruki Murakami novels. The Japanese author’s protagonists are adrift, often removed from their friends but nearly always removed from their families. This fictional alienation reflects a postwar dilution of collectivism in Japan as Murakami was growing up, not to ",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "Podcast with Hans van de Ven, “Blood Dawn”",
-          "url": "https://asianreviewofbooks.com/podcast-with-hans-van-de-ven-blood-dawn/",
-          "publishedAt": "2026-10-29T10:03:06.000Z",
-          "excerpt": "In March 1942, Japanese troops landed on Java’s north coast and were welcomed by many of the Indonesians they had come to conquer. It’s an indication of just how much the Second World War undermined the foundations of European empire, setting up a postwar order that still governs Asia today. Hans va",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Stories from Bengal” by Rumana Yasmin",
-          "url": "https://asianreviewofbooks.com/stories-from-bengal-by-rumana-yasmin/",
-          "publishedAt": "2026-10-29T06:00:00.000Z",
-          "excerpt": "For centuries, children in Bengal have looked up at the moon and imagined Chaader Buri – the magical grandmother who spins stories from glowing moonbeam threads. Now she is ready to take you on a journey. Stories from Bengal is an illustrated exploration of the myths, legends, and folk tales of a re",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Oil Wars” by Guy Laron",
-          "url": "https://asianreviewofbooks.com/oil-wars-by-guy-laron/",
-          "publishedAt": "2026-10-28T06:00:00.000Z",
-          "excerpt": "The “wars” in the title of Guy Laron’s new history of the past century and a half are as much metaphorical as literal; few readers will need much convincing of his thesis that “energy is one of the core instruments of geopolitics.” There is much to be said for Laron’s adopted lens. Oil provides a...",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“The Japanese Woodblock Prints Companion” by Andreas Marks",
-          "url": "https://asianreviewofbooks.com/the-japanese-woodblock-prints-companion-by-andreas-marks/",
-          "publishedAt": "2026-10-27T06:00:00.000Z",
-          "excerpt": "“Under the Wave Off Kanagawa”, popularly known as “The Great Wave”, is without a doubt the most celebrated Japanese woodblock print. It is also the most recognised work of Japanese art tout court. Ask anyone with an interest in the genre and they will tell you that it was made by Katsushika Hokusai ",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Foreigners” by EL Shen",
-          "url": "https://asianreviewofbooks.com/foreigners-by-el-shen/",
-          "publishedAt": "2026-10-25T06:00:00.000Z",
-          "excerpt": "When Dawn Chin is assigned a high school history project to interview a family member, she picks her paternal grandmother and learns more about her family history than she expected, including a couple of life-altering secrets. All the lies, all the secrets, the masks her family wears, the ones she p",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Reassembling Knowledge” by Thomas Benfey",
-          "url": "https://asianreviewofbooks.com/reassembling-knowledge-by-thomas-benfey/",
-          "publishedAt": "2026-10-24T05:00:00.000Z",
-          "excerpt": "Iranian tradition held that the first, ancient dynasty of kings had mastered all the useful sciences, from astronomy to medicine, and recorded them in books of wisdom. Some claimed the prophet Zoroaster himself to be the ultimate author. These books were well guarded in the great palace we call Pers",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“The Big Book of Kashmiri Literature”",
-          "url": "https://asianreviewofbooks.com/the-big-book-of-kashmiri-literature/",
-          "publishedAt": "2026-10-23T05:00:00.000Z",
-          "excerpt": "In 1958, a Kashmiri poet who earned his living cutting timber sat down in front of a radio microphone and stumbled over a verse from a printed edition of his own work. His name was Samad Mir, and he was one of the best-loved mystic poets of his day. His interviewers were JL Kaul, a... The post “The ",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "Podcast with Jeremy Simmons, “Sea of Treasures”",
-          "url": "https://asianreviewofbooks.com/podcast-with-jeremy-simmons-sea-of-treasures/",
-          "publishedAt": "2026-10-22T09:28:48.000Z",
-          "excerpt": "After Caesar’s assassination, the triumvirs drew up a kill list; one such target, a man named Lucius Plotius Plancus, fled to a villa near Naples and tried hiding behind a curtain. The soldiers found him anyway–thanks to his heavy perfume. Pliny the Elder, writing a century later, used the perfume t",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Coming of Age in Macholand” by Harjant S Gill",
-          "url": "https://asianreviewofbooks.com/coming-of-age-in-macholand-by-harjant-s-gill/",
-          "publishedAt": "2026-10-22T05:00:00.000Z",
-          "excerpt": "Through Punjabi men’s struggles to marry, migrate, love, and escape, Coming of Age in Macholand reveals what patriarchy costs the men it promises to empower. In 2019, Sandeep, a twenty-seven-year-old from a Punjabi family, killed five relatives and himself after a date was set for his wedding. His s",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Tree” by Aya Kōda",
-          "url": "https://asianreviewofbooks.com/tree-by-aya-koda/",
-          "publishedAt": "2026-10-21T05:00:00.000Z",
-          "excerpt": "Until she was forty-three years old, Aya Kōda (1904-1990) was known primarily for being the daughter of the novelist Rohan Kōda, who was influential in the development of early modern literature in Japan. Yet after Rohan’s death, a publisher asked Aya to write a memoir about her family, and she soon",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Sutra Americana” by Monona Wali",
-          "url": "https://asianreviewofbooks.com/sutra-americana-by-monona-wali/",
-          "publishedAt": "2026-10-20T05:00:00.000Z",
-          "excerpt": "It’s not hard to picture the leap Monona Wali made from filmmaker to writer after reading her latest novel, Sutra Americana, a cinematic story of an Indian family that immigrated to the United States in the early 1960s. Continuing well into the 2000s, the story is at heart about how long it can take",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Battleship Yamato” by Alexander Wooley",
-          "url": "https://asianreviewofbooks.com/battleship-yamato-by-alexander-wooley/",
-          "publishedAt": "2026-10-18T05:00:00.000Z",
-          "excerpt": "Author Alexander Wooley explores the enduring legacy of the battleship Yamato, weaving together history, myth, and cultural impact to reveal how a wartime icon became a symbol of Japan’s identity and imagination across generations. The battleship Yamato was conceived as the ultimate expression of Im",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        },
-        {
-          "title": "“Who Owns the Past?” by Shaan Kashyap",
-          "url": "https://asianreviewofbooks.com/who-owns-the-past-by-shaan-kashyap/",
-          "publishedAt": "2026-10-17T05:00:00.000Z",
-          "excerpt": "History, or least the writing of it, does not remain confined to academia or historians; it can increasingly become a matter of public debate. When it comes to India, debates about the past can be bitter, not just in one-off spats but as a constant source of tension between the ends of the political",
-          "source": "Asian Review of Books",
-          "category": "Books"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "Book Marks",
@@ -10602,7 +10003,7 @@
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 7,
+      "count": 6,
       "stories": [
         {
           "title": "Wolves contribute to disease control in a multi-host system",
@@ -10635,7 +10036,7 @@
           "title": "Disorderly conduct charge for impeding capitalism",
           "url": "https://www.metafilter.com/215015/Disorderly-conduct-charge-for-impeding-capitalism",
           "publishedAt": "2026-10-31T15:00:19.000Z",
-          "excerpt": "Woman arrested and charged with criminal mischief/disorderly conduct for blocking the path of a delivery driver says she'd do it again .",
+          "excerpt": "Woman arrested and charged with criminal mischief/disorderly conduct for blocking the path of a delivery robot says she'd do it again .",
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
@@ -10654,15 +10055,6 @@
           "url": "https://www.metafilter.com/215013/The-pterosaur-museum-built-to-thrive-in-the-Gobi-desert",
           "publishedAt": "2026-10-31T11:03:09.000Z",
           "excerpt": "Like eggs in the sand: the pterosaur museum built to thrive in the Gobi desert. How architects worked with harsh environment to create sustainable building in location where fossils were found.",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
-        },
-        {
-          "title": "\"That's \"soliloquy,\" you pile.\"",
-          "url": "https://www.metafilter.com/215012/Thats-soliloquy-you-pile",
-          "publishedAt": "2026-10-31T02:48:48.000Z",
-          "excerpt": "Spooky Friday game: Laszlovania ( trailer ). Join Laszlo Cravensworth as he meets old friends, conquers evil forces, and attempts to skirt responsibility at every turn! Help Cravensworth fight one final time through the vampire-iest place on earth: Staten Island!",
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
@@ -10881,209 +10273,8 @@
       "name": "Dense Discovery",
       "category": "Discover",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "DD412 / Breaking up with Gmail",
-          "url": "https://www.densediscovery.com/issues/412/",
-          "publishedAt": "2026-10-26T05:54:17.000Z",
-          "excerpt": "Issue 412: Breaking up with Gmail – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD411 / Nothing personal, just grifting",
-          "url": "https://www.densediscovery.com/issues/411/",
-          "publishedAt": "2026-10-19T06:21:24.000Z",
-          "excerpt": "Issue 411: Nothing personal, just grifting – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD410 / Design: frictionless, flawless, forgettable",
-          "url": "https://www.densediscovery.com/issues/410/",
-          "publishedAt": "2026-10-12T05:36:50.000Z",
-          "excerpt": "Issue 410: Design: frictionless, flawless, forgettable – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD409 / Leisure time, but make it useful",
-          "url": "https://www.densediscovery.com/issues/409/",
-          "publishedAt": "2026-10-05T06:17:27.000Z",
-          "excerpt": "Issue 409: Leisure time, but make it useful – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD408 / When the foxes want better fences",
-          "url": "https://www.densediscovery.com/issues/408/",
-          "publishedAt": "2026-09-28T07:28:40.000Z",
-          "excerpt": "Issue 408: When the foxes want better fences – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD407 / Cynicism is not a strategy",
-          "url": "https://www.densediscovery.com/issues/407/",
-          "publishedAt": "2026-09-21T07:36:46.000Z",
-          "excerpt": "Issue 407: Cynicism is not a strategy – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD406 / Sonntagsruhe: frivolously unmonetised time",
-          "url": "https://www.densediscovery.com/issues/406/",
-          "publishedAt": "2026-09-14T07:52:04.000Z",
-          "excerpt": "Issue 406: Sonntagsruhe: frivolously unmonetised time – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD405 / The Ponzi stage of being alive",
-          "url": "https://www.densediscovery.com/issues/405/",
-          "publishedAt": "2026-09-07T08:14:34.000Z",
-          "excerpt": "Issue 405: The Ponzi stage of being alive – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD404 / All click, no muscle",
-          "url": "https://www.densediscovery.com/issues/404/",
-          "publishedAt": "2026-08-31T08:12:39.000Z",
-          "excerpt": "Issue 404: All click, no muscle – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD403 / In praise of ‘it depends’",
-          "url": "https://www.densediscovery.com/issues/403/",
-          "publishedAt": "2026-08-24T07:41:27.000Z",
-          "excerpt": "Issue 403: In praise of ‘it depends’ – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD402 / Agency, not abstinence",
-          "url": "https://www.densediscovery.com/issues/402/",
-          "publishedAt": "2026-08-17T07:46:00.000Z",
-          "excerpt": "Issue 402: Agency, not abstinence – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD401 / Your call is important to us",
-          "url": "https://www.densediscovery.com/issues/401/",
-          "publishedAt": "2026-08-10T08:10:15.000Z",
-          "excerpt": "Issue 401: Your call is important to us – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD400 / Hitting ‘send’ for the 579th time",
-          "url": "https://www.densediscovery.com/issues/400/",
-          "publishedAt": "2026-08-03T07:27:41.000Z",
-          "excerpt": "Issue 400: Hitting ‘send’ for the 579th time – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD399 / Not a machine: on fragility and self-worth",
-          "url": "https://www.densediscovery.com/issues/399/",
-          "publishedAt": "2026-07-27T07:43:19.000Z",
-          "excerpt": "Issue 399: Not a machine: on fragility and self-worth – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD398 / Cold turkey on the outrage machine",
-          "url": "https://www.densediscovery.com/issues/398/",
-          "publishedAt": "2026-07-20T08:03:40.000Z",
-          "excerpt": "Issue 398: Cold turkey on the outrage machine – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD397 / Last drinks at the AI casino",
-          "url": "https://www.densediscovery.com/issues/397/",
-          "publishedAt": "2026-07-13T08:11:51.000Z",
-          "excerpt": "Issue 397: Last drinks at the AI casino – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD396 / On being properly unwell",
-          "url": "https://www.densediscovery.com/issues/396/",
-          "publishedAt": "2026-07-06T07:07:25.000Z",
-          "excerpt": "Issue 396: On being properly unwell – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD395 / Everything bleeds into everything",
-          "url": "https://www.densediscovery.com/issues/395/",
-          "publishedAt": "2026-06-29T09:51:39.000Z",
-          "excerpt": "Issue 395: Everything bleeds into everything – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD394 / The friendship recession",
-          "url": "https://www.densediscovery.com/issues/394/",
-          "publishedAt": "2026-06-22T07:00:02.000Z",
-          "excerpt": "Issue 394: The friendship recession – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD393 / The view from the apocalypse",
-          "url": "https://www.densediscovery.com/issues/393/",
-          "publishedAt": "2026-06-15T07:37:08.000Z",
-          "excerpt": "Issue 393: The view from the apocalypse – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "Quanta Magazine",
@@ -11276,6 +10467,24 @@
   ],
   "stories": [
     {
+      "title": "Hermantown approves controversial Google Data Center during late night meeting",
+      "url": "https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting",
+      "publishedAt": "2026-11-01T02:15:59.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50322155"
+    },
+    {
+      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+      "publishedAt": "2026-11-01T00:10:30.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50321522"
+    },
+    {
       "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
       "url": "https://emarzion.github.io/KSRT/",
       "publishedAt": "2026-10-31T23:55:21.000Z",
@@ -11328,15 +10537,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50320599"
-    },
-    {
-      "title": "With 86% of the words, you might understand only 38% of an anime's lines",
-      "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
-      "publishedAt": "2026-10-31T20:46:39.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50320028"
     },
     {
       "title": "Surviving \"The Graduate\"",
@@ -11445,15 +10645,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50314699"
-    },
-    {
-      "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-      "url": "https://piefed.world/post/1503394",
-      "publishedAt": "2026-10-31T10:23:41.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50314666"
     },
     {
       "title": "Get in the spirit with these horrors from YouTube",
@@ -12096,6 +11287,14 @@
       "category": "Technology"
     },
     {
+      "title": "Data centers are now a midterm issue, even in Brooklyn",
+      "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "publishedAt": "2026-11-01T02:22:10.000Z",
+      "excerpt": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
       "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
       "publishedAt": "2026-10-31T21:41:00.000Z",
@@ -12244,14 +11443,6 @@
       "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "excerpt": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
-      "publishedAt": "2026-10-30T16:03:45.000Z",
-      "excerpt": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
       "source": "TechCrunch",
       "category": "Technology"
     },
@@ -13176,178 +12367,82 @@
       "category": "Design"
     },
     {
-      "title": "The Frankenstein Table",
-      "url": "https://css-tricks.com/the-frankenstein-table/",
-      "publishedAt": "2026-10-29T13:47:08.000Z",
-      "excerpt": "A super scary way to go about tables using other layout techniques, like CSS Grid. The Frankenstein Table originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "What’s !important #19: CSS Refraction Effects, Scroll State Queries, @custom-media, and More",
-      "url": "https://css-tricks.com/whats-important-19/",
-      "publishedAt": "2026-10-27T15:09:16.000Z",
-      "excerpt": "We’re back! Don't worry, this isn’t a trick (despite what our name suggests!). However, due to the hiatus, we're also a little behind. That’s why this issue of What’s !important is absolutely stacked. All killer, no filler. Here's what you missed. What’s !important #19: CSS Refraction Effects, Scrol",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "CSS-Tricks has a new owner!",
-      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-      "publishedAt": "2026-10-26T15:29:36.000Z",
-      "excerpt": "Yes, I've got the keys to the castle, so to speak. And, even after 12 years of working on the site, I'll admit I'm a little overwhelmed and nervous about that. CSS-Tricks has a new owner! originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "url": "https://css-tricks.com/css-random-function-polyfill/",
-      "publishedAt": "2026-08-31T15:12:19.000Z",
-      "excerpt": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "What’s !important #18: , Syntax ::highlight()ing, named-feature(), and More",
-      "url": "https://css-tricks.com/whats-important-18/",
-      "publishedAt": "2026-08-31T14:08:55.000Z",
-      "excerpt": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: , Syntax ::highlight()ing, named-feat",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "url": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "publishedAt": "2026-08-27T14:41:06.000Z",
-      "excerpt": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks . You should really get the newsletter",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "animation-trigger",
-      "url": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "publishedAt": "2026-08-26T15:38:41.000Z",
-      "excerpt": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "url": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "publishedAt": "2026-08-25T14:10:34.000Z",
-      "excerpt": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "url": "https://css-tricks.com/wordpress-php-block-registration/",
-      "publishedAt": "2026-08-24T13:54:02.000Z",
-      "excerpt": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "url": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "publishedAt": "2026-08-21T15:13:03.000Z",
-      "excerpt": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-* . Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "url": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "publishedAt": "2026-08-19T14:44:41.000Z",
-      "excerpt": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "url": "https://css-tricks.com/wordpress-student-plan/",
-      "publishedAt": "2026-08-19T08:50:00.000Z",
-      "excerpt": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks . You should really get the news",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "url": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "publishedAt": "2026-08-17T14:15:50.000Z",
-      "excerpt": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
-      "url": "https://css-tricks.com/whats-important-17/",
-      "publishedAt": "2026-08-14T14:01:51.000Z",
-      "excerpt": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong",
-      "url": "https://css-tricks.com/blocked-aria-hidden-fix/",
-      "publishedAt": "2026-08-12T13:43:56.000Z",
-      "excerpt": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks . You should really ",
-      "source": "CSS-Tricks",
-      "category": "Design"
-    },
-    {
-      "title": "北都馬拉松2026｜原有兩局長主禮 甯漢豪突缺席 只有麥美娟現身",
-      "url": "https://hk01.com/sns/article/60405782",
-      "publishedAt": "2026-11-01T02:07:27.000Z",
-      "excerpt": "首屆「北部都會區馬拉松」今天（1日）舉行，全馬賽事在沙田石門鄉議局大樓起步，以粉嶺繞道為終點。主禮嘉賓原定包括發展局局長甯漢豪，以及民政及青年事務局局長麥美娟。最後，甯漢豪缺席鳴槍儀式。 2026年11月1日，新界鄉議局主辦的首屆「北都馬拉松」舉行。（湯致遠攝） 全馬原有兩局長主禮 甯漢豪缺席 僅麥美娟現身 北都馬拉松慶祝鄉議局100周年，由新界鄉議局主辦。根據採訪通知，出席上午6時30分全馬主禮儀式的包括新界鄉議局主席劉業強、民政及青年事務局局長麥美娟、發展局局長甯漢豪、北部都會區馬拉松2026活動大使、藝人蔡思貝。不過，今早觀察甯漢豪未有在鳴槍儀式出現。 2026年11月1日，新界鄉議局主",
+      "title": "北都馬拉松2026｜主辦方劉業強期望每年舉辦 未來賽道延伸至深圳",
+      "url": "https://hk01.com/sns/article/60405796",
+      "publishedAt": "2026-11-01T03:10:18.000Z",
+      "excerpt": "首屆「北都馬拉松」今天（1日）舉行，約15,000人參與。全馬賽事早上6時30分在沙田石門開跑，終點為粉嶺繞道。主辦的新界鄉議局主席劉業強期望活動能每年舉辦，隨著新田科技城及河套區等核心項目落成，比賽路線可望延伸至深圳。 2026年11月1日，新界鄉議局主辦的首屆「北都馬拉松」舉行。（湯致遠攝） 鄉議局主席劉業強指，期望活動以後能每年都舉辦。（湯致遠攝） 主辦方劉業強期望每年舉辦 未來賽道延伸至深圳 北都馬拉松設全馬、半馬、10公里及1600米賽事。全馬由沙田石門新界鄉議局大樓起步，經科學園海濱長廊、吐露港公路、大埔林村河、大埔康樂園、龍山隧道、天平邨，終點設在粉嶺繞道。至於半馬路線由科學園科",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "英超︱曼聯守將82秒兩黃一紅兼輸十二碼 利辛度被評今季英超最差",
-      "url": "https://hk01.com/sns/article/60405769",
-      "publishedAt": "2026-11-01T02:04:08.000Z",
-      "excerpt": "曼聯作客0：2不敵車路士，各項賽事連續9場未能獲勝，焦點人物不止復任正選的隊長般奴費南迪斯，下半場82秒之內「兩黃一紅」被逐的守將利辛度馬天尼斯（Lisandro Martínez），甚至被體育網媒《The Athletic》一篇評論文章評為「英超今季最差勁球員」，甚至認為利辛度此舉無疑「搏炒」，仿傚阿根廷隊友羅美路上季在熱刺那樣，為求離隊不惜疑似未盡全力作賽甚至刻意搞破壞，迫使球隊放行。 英超︱曼聯守將利辛度馬天尼斯82秒兩黃一紅兼輸十二碼。（路透社） 荷蘭主帥坦赫格在曼聯無甚建樹，任內收購的球員亦是失敗居多，利辛度馬天尼斯算是少數獲正面評價的一員。即使身材相對矮小，憑一股拚勁和永不言敗精神",
+      "title": "蘭桂坊MMA│黑衣男遭南亞漢圍毆爆樽！ 清潔工神舉動成焦點：好勁",
+      "url": "https://hk01.com/sns/article/60405772",
+      "publishedAt": "2026-11-01T03:06:18.000Z",
+      "excerpt": "【蘭桂坊／MMA／萬聖節】萬聖夜（10月31日）蘭桂坊人頭湧湧，到今日（萬聖節）變怒火街頭？本港社交平台Threads瘋傳影片，中環蘭桂坊有多名南亞裔男子把黑衣年輕男子壓倒在地上圍毆，連環揮拳打頭部及身體，更「爆樽」，逞兇後咆哮離開。圍毆期間，1名男清潔工冷靜地在眾人旁邊拿着清潔工具手推車，走到另一邊繼續清潔，「神舉動」意外成為焦點。 影片震驚網民，「光天化日毆打人，最尾個個仲要爆樽，仲要下下打頭」、「黐線……影住佢哋個樣。全部拉得」。亦有大批網民讚男清潔工「淡定」盡忠職守，「掃地阿叔好氣定神閒，勁」。 中環蘭桂坊有多名南亞裔男子把黑衣年輕男子壓倒在地上圍毆，連環揮拳打頭部及身體。（Threa",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "原中石化黨組書記、董事長傅成玉被查 已卸任逾11年",
-      "url": "https://hk01.com/sns/article/60405779",
-      "publishedAt": "2026-11-01T02:03:48.000Z",
-      "excerpt": "據中央紀委國家監委網站10月31日消息：原中國石油化工集團公司黨組書記、董事長傅成玉涉嫌嚴重違紀違法，目前正接受中央紀委國家監委紀律審查和監察調查。傅成玉今年75歲，已卸任中石化黨組書記、董事長逾11年。 2017年3月9日，全國政協十二屆五次會議在北京人民大會堂舉行第二次全體會議。傅成玉作《重視國企改革中遇到的新問題》的發言。（新華社） 公開資料顯示，1951年6月，傅成玉出生於黑龍江省齊齊哈爾市訥河縣。後來作為工農兵大學生，被推選進入東北石油學院學習。畢業後，分到大慶油田勘探指揮部。 1982年中海油成立，傅成玉加入。兩年後，被公派到美國南加州大學學習，取得石油工程碩士學位。2003年傅成",
+      "title": "01直擊跨境白牌車萬聖節再現 江玉歡：怎保港人飯碗？倡刑罰加辣",
+      "url": "https://hk01.com/sns/article/60405793",
+      "publishedAt": "2026-11-01T03:03:05.000Z",
+      "excerpt": "萬聖節適逢加拿大歌手The Weeknd於啟德體育園主場館演唱會，《香港01》記者深夜到體育園附近的土瓜灣明倫街觀察，發現至少6至7輛持掛有中港牌的私家車停泊等候，當中僅一輛掛有「過境出租車」識別標誌。有觀看演唱會的內地旅客透過內地網購平台「閒魚」預約跨境包車「當日來回」深圳，三人平攤車費僅約200港元。 新皇崗口岸人車擠塞亂象，業界歸咎於有跨境白牌車非法載客取酬造成擠塞，警方早前指會「放蛇」嚴厲打擊執法。立法會前議員江玉歡今日（1日）表示間中「放蛇」拘捕司機只是姿態，質疑未能起到阻嚇作用。她說，市民搵食已難，現在還有收取乘客150元一位的白牌車司機，「政府可以怎樣保障本地市民的飯碗？」江玉歡",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "兒童吃甚麼魚最好？營養師推4大高營養魚類 護眼補腦吃了變聰明",
-      "url": "https://hk01.com/sns/article/60381832",
-      "publishedAt": "2026-11-01T02:00:56.000Z",
-      "excerpt": "俗話說常吃魚會變聰明，但台灣營養師孫語霙指出，不同魚類的營養價值各異，並非每一種魚都適合小孩食用。身為營養師兼媽媽的她，特別在 Facebook專頁 發布影片，推薦4款最常在好市多（Costco）回購的魚類，建議家長善用優點讓孩子輪流食用。 第一款是鮭魚（三文魚） 鮭魚含有豐富的EPA與DHA，對於發育期兒童與青少年的智力、情緒及視力發展非常有幫助。2歲以前的幼兒，每天只要食用小小一塊，DHA攝取量就幾乎達到標準。 相關文章： 兒童營養｜吃魚可補腦護心 推介2種魚 這樣簡單烹調已健康好吃👇👇👇 兒童營養｜眾多魚類中，這2種最適合小孩！（01製圖） 兒童營養｜眾多魚類中，這2種最適合小孩！",
+      "title": "神級改裝｜1985年任天堂NES變身電腦 網民自製系統暢玩《Doom》",
+      "url": "https://hk01.com/sns/article/60404857",
+      "publishedAt": "2026-11-01T03:01:29.000Z",
+      "excerpt": "網友Throaty Mumbo把一台1985年出廠的任天堂NES（美版紅白機）改造成了能跑桌面系統的電腦，能玩Doom、能打開網頁、能管理文件，專案名稱叫做NESPC。 NES本身並不幹重活，真正的運算由插在卡匣槽裏的EverDrive N8 Pro卡帶完成，它上面那顆Cyclone IV FPGA跑的是Next186軟核，能執行x86指令，負責跑桌面環境和應用程式。 網友Throaty Mumbo把一台1985年出廠的任天堂NES（美版紅白機）改造成了能跑桌面系統的電腦。（YouTube@Throaty Mumbo） 網民把1985年的NES魔改成了電腦： 網友Throaty Mumbo把一",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "張遠深｜9,248億元公務員長糧負擔——早該掃進歷史垃圾堆了！",
-      "url": "https://hk01.com/sns/article/60405260",
-      "publishedAt": "2026-11-01T02:00:49.000Z",
-      "excerpt": "來稿作者：張遠深 早前香港有不同媒體報道，香港公務員退休金承擔額現值高達9,248億港元，16.3萬人享受長糧，上年度開支逾500億港元。公務員事務局局長楊何蓓茵的回應仍是那套「合約精神、不可輕言更改」。作為長期觀察日本政治及政策的評論人，我必須直言：這套說辭，在日本早已被掃進歷史垃圾堆。日本用了20年的時間，把「官優於民」的退休特權徹底拆解，香港卻連碰都不敢碰。 日本大刀砍公務員待遇 香港連「檢討」都不敢說 1980年代，日本公務員高級官員的養老金一年約500萬日元，比民間高出四成。日本政府怎麼做的？沒有說「合約精神不可更改」，而是直接設定30年過渡期：舊制待遇凍結，不隨物價和工資上漲調整，",
+      "title": "張寶兒袁偉豪新海景複式豪宅全面曝光 無敵海景擁室內專屬遊戲區",
+      "url": "https://hk01.com/sns/article/60405620",
+      "publishedAt": "2026-11-01T03:00:17.000Z",
+      "excerpt": "前港姐張寶兒早前（Bowie）與老公袁偉豪（Ben）位於清水灣、市值約6,600萬的豪宅驚傳「漏屎水」疑雲，雖然其後證實為自家牆內熱水管爆裂所致，但為了提供兩個寶貝仔更安全舒適的環境，忍無可忍的張寶兒近日終於宣布脫離苦海，舉家成功暫租搬往全新兩層複式海景豪宅，正式展開一家四口的新生活。 張寶兒與丈夫袁偉豪（Ben）婚後共育有2個兒子。（IG@_bowiecheung） 張寶兒袁偉豪舉家搬入海景複式豪宅。（IG@_bowiecheung） 老公親力親為。（IG@_bowiecheung） 坐擁無敵海景！（IG@_bowiecheung） 張寶兒搬新家狠心「斷捨離」 張寶兒日前分享了這趟搬家小紀錄",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "大城小檔｜製衣女工轉戰土瓜灣樓梯底 兩鎮店之剪成就一代改衫匠",
-      "url": "https://hk01.com/sns/article/60405700",
-      "publishedAt": "2026-11-01T02:00:47.000Z",
-      "excerpt": "",
+      "title": "英超︱曼聯又輸一場般奴賽後強忍眼淚 卡域克堅稱未落入護級危機",
+      "url": "https://hk01.com/sns/article/60405786",
+      "publishedAt": "2026-11-01T02:58:57.000Z",
+      "excerpt": "曼聯英超又輸一場，作客0：2不敵車路士，賽後隊長般奴費南迪斯被鏡頭捕捉到強忍眼淚心酸一幕。般奴早前在歐聯1：4敗走科木後，公開批評球隊戰術失當，主帥卡域克在上輪英超對般尼茅夫一仗將他貶為後備，終未有派他落場。曼聯0：3大敗後，卡域克仍獲管理層支持留任，並與般奴單獨會面，二人傾談後放下分歧，般奴今輪對車路士重獲正選，並成為焦點人物。 曼聯負車路士，賽後紅魔隊長般奴費南迪斯被鏡頭捕捉到強忍眼淚。（Getty Images） 般奴復任正選無甚建樹 全場30次失控球 可惜般奴費南迪斯仍未能發揮上季為隊友鋪橋搭路的本領，全場80次觸球，60次傳球只得68%成功。他貢獻3次關鍵傳送和創造1次重大機會，惟未",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "50歲麥家琪穿高衩裙台步氣場全開 曾捲裸照風波遭親兒子嘲諷",
-      "url": "https://hk01.com/sns/article/60405599",
-      "publishedAt": "2026-11-01T02:00:41.000Z",
-      "excerpt": "現年50歲的前「性感女神」麥家琪（現名麥方喬），自2006年下嫁大律師王國豪並育有兩子一女後，一度淡出香港幕前。近年她轉移重心北上發展，除了在廣東肇慶廣寧開設雲吞麵店「搵真銀」外，亦頻頻獲邀接拍網絡電影及出席商業演出。日前內地網上流傳一段她出席商演活動的影片，片中她身穿一襲極致貼身的高衩晚裝，霸氣邁開大步走台步，身段緊緻零贅肉，瞬間引發網民熱烈討論。 麥家琪與三個仔女的合照。（小紅書） 麥家琪自信大邁台步！（小紅書圖片） 自信面帶笑容上台。（小紅書圖片） 高衩裙大踏步踩出名模氣場艷壓全場 從網上流傳的短片可見，活動舞台雖然只是商場中庭的臨時搭建場地，但麥家琪出場時絲毫未見敷衍。她身穿一襲剪裁大",
+      "title": "德國34城市爆Z世代示威 部份地區現暴力事件 警出動水炮車驅散",
+      "url": "https://hk01.com/sns/article/60405791",
+      "publishedAt": "2026-11-01T02:58:55.000Z",
+      "excerpt": "德國名為Gen Z regelt（德語意為「 Z世代掌權」）的組織10月31日在該國34個城市發起示威，反對恢復義務兵役制，要求政府改善教育並降低生活成本。警方表示，部份地區的示威演變成暴力衝突，除了有商店遭洗劫外，還有暴力份子向警員投擲汽油彈、石塊等物件，警方出動水砲車和胡椒噴霧作出驅散。 路透社 及 法媒France 24 報道，該示威活動由 法國的生活成本示威及學生運動啟發 ，主要在首都柏林、法蘭克福、科隆和慕尼黑等主要城市舉行，抗議高昂的生活成本、學校經費不足、政府可能恢復強制兵役制的企圖。 Gen Z regelt組織特意將示威活動安排在萬聖節當天，以最大限度地提高參與人數和影響力，",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳女注射100組生長因子後臉部饅化畸形 致患抑鬱2年沒工作社交",
+      "url": "https://hk01.com/sns/article/60405785",
+      "publishedAt": "2026-11-01T02:41:31.000Z",
+      "excerpt": "內媒《寧波晚報》報道，深圳一名年輕女子為變美，在江西贛州的美容機構為臉部注射了100組生長因子，隨後出現嚴重的「饅化」現象，面部腫脹畸形，引發關注。 事主在臉部未出現「饅化」前的樣子。（影片截圖） 事主在注射約100組生長因子後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 事主在事後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 事主在注射約100組生長因子後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 事主在注射約100組生長因子後出現嚴重的「饅化」現象，面部腫脹。（影片截圖） 報道指，在2021年起至2022年，當時23歲的肖女士前後約施打10次，共注射了約100組生長因子。 花近20",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "幣安遭黑客竊走63億美元 FBI點名朝鮮國家黑客組織所為",
+      "url": "https://hk01.com/sns/article/60405784",
+      "publishedAt": "2026-11-01T02:38:05.000Z",
+      "excerpt": "全球最大加密貨幣交易所幣安（Binance）遭黑客竊走約63億美元（約491億港元），美國聯邦調查局（FBI）10月31日指事件屬朝鮮國家支持黑客組織所為；幣安稱已動用公司資金補回九成失款。 據路透社周六（31日）報道， 失竊發生於10月29日左右，為加密貨幣史上最大宗盜竊案。幣安在X發文稱，已補回九成被盜資產，其餘一成流通性較低、需時回購，用戶不會承擔損失；公司聯合行政總裁鄧偉政（Richard Teng）表示，平台已內部撥出約63.4億美元（約495億港元）應對損失。 2026年10月30日，圖為加密貨幣交易平台幣安（Binance）的聯合行政總裁鄧偉政。（X@_RichardTeng） ",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "萬聖節MMA有片｜Wine & Dine三男混戰 網民：美酒加自由搏擊",
+      "url": "https://hk01.com/sns/article/60405774",
+      "publishedAt": "2026-11-01T02:30:54.000Z",
+      "excerpt": "「香港美酒佳餚巡禮2026」在中環海濱活動空間及添馬公園舉行，吸引大批市民及遊客入場品嚐美酒佳餚。然而，昨日（31日）社交平台流傳一段現場影片，片中有三名男子在美食攤位前激烈爭執並大打出手，一名黑衫男被拉扯單腳摔跌後，起身再起腳猛踢對方腹部，場面混亂，幸得一名熱心男子及時勸阻。期間一名涉事男子耳邊及頸部驚現血痕，惟適逢萬聖節，是真實傷勢抑或應節化妝引來網民熱議。 黑衣男起飛腳踢向另一男子，一名身穿白衣的熱心男子見狀即時上前勸阻。（Din Dong／香港突發事故報料區及討論區影片截圖） 社交平台流傳的影片全長約30秒，該片段沒有聲音，但火藥味極濃。事發地點為中環美酒佳餚巡禮的一個美食攤位前，一名",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -13356,22 +12451,6 @@
       "url": "https://hk01.com/sns/article/60398293",
       "publishedAt": "2026-11-01T02:00:39.000Z",
       "excerpt": "香港地萬家燈火，大舖小店滿佈；但繁華鬧市一角，總見小人物的身影。土瓜灣譚公道一個狹窄的樓梯底，藏着一間名為「精工改衫褲」的改衣舖，多年來是不少街坊修補衣物的熱點。 店主梁太自19歲入行，至今逾40年，經歷過香港製衣業北移的時代變遷，直至2003年租下這個角落。儘管空間擠逼，在舖內走動時甚至要彎下身子，卻無阻她以一雙巧手為街坊縫縫補補，用兩把同樣超過40年歷史的「鎮店之剪」，在樓梯底默默耕耘二十多載。 店主梁太自19歲入行，至今逾40年；直至2003年租下土瓜灣譚公道一個樓梯底角落，在舖內走動時甚至要彎身，卻無阻她以一雙巧手為街坊縫縫補補。（左朗星攝） 19歲入行見證香港製衣業變遷 由工廠轉戰樓",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "日本名模確診子宮內膜癌 曾出現經期長達10日異狀 醫揭4大先兆",
-      "url": "https://hk01.com/sns/article/60401651",
-      "publishedAt": "2026-11-01T02:00:30.000Z",
-      "excerpt": "日本名模桃華繪里近日對外宣布確診子宮內膜癌，已接受手術切除子宮與雙側卵巢。 她坦言早期出現經血過多、經期長達10天流不停的異狀，卻因曾有極為疼痛的內診經驗而恐懼就醫，自我安慰是更年期將至，一直逃避檢查，直到母親力勸下才就醫檢查，卻為時已晚，最終無法保留子宮與卵巢。 日本名模桃華繪里宣布確診子宮內膜癌👇👇👇 日本名模桃華繪里近日對外宣布確診子宮內膜癌，已接受手術切除子宮與雙側卵巢。（IG@_momoka828） 她坦言早期出現經血過多、經期長達10天流不停的異狀。（IG@_momoka828） 卻因曾有極為疼痛的內診經驗而恐懼就醫。（IG@_momoka828） 自我安慰是更年期將至，一直",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "盛滙李根興蝕放銀津茶餐廳舊址！叫價2290萬 曾Threads爆紅救舖",
-      "url": "https://hk01.com/sns/article/60404734",
-      "publishedAt": "2026-11-01T02:00:09.000Z",
-      "excerpt": "【盛滙商舖基金/李根興/舖位/蝕讓/Threads/銀津點心茶餐廳】曾於2024年底在社交平台Threads上爆紅、憑藉「太子女」發文而成功逆轉生意的旺角花園街「銀津點心茶餐廳」，其所在的舖位最新被資深投資者李根興旗下的盛滙商舖基金推出市場放售，意向價約2,290萬元，較買入價平810萬元或約26.1%。呎價約13,879元。 今年9月份，銀津宣佈最終仍不敵貴租而結業。據瞭解，其當時月租為8.8萬元。而銀津結業後，盛滙基金曾將舖位以每月9.8萬元招租。 利嘉閣（工商舖）地產商業部/商舖部及投資部聯席董事許建方表示，是次放售的舖位涉及旺角花園街108號地下連閣樓，總建築面積約1,650平方呎。業",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -13392,26 +12471,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "《明報》、《經濟日報》本月起加價至$15 《信報》$15元增至$18",
-      "url": "https://hk01.com/sns/article/60405765",
-      "publishedAt": "2026-11-01T00:26:46.000Z",
-      "excerpt": "三份本地報章本月起加價3元，其中《明報》今日（1日）起已由12元增至15元。《信報》及《經濟日報》明日（2日）將分別加價至18元及15元。 《明報》2026年11月1日起加價至15元。（潘耀昇攝） 《信報》2026年11月2日起加價至$18。（潘耀昇攝） 《經濟日報》2026年11月2日起加價至$15。（潘耀昇攝） 相隔兩年再有報章加價 對上一次有中文報章加價，是在2024年11月。當時，《明報》、《成報》及《香港經濟日報》，由10元加至12元，《信報》就由12元加至15元。《東方日報》則早一個月加價至12元。當時有報販預料加價後，整體報章銷量會減少兩成。",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "專訪丨張致恒一腳踏五船毀星途 含淚向關智斌道歉：對唔住",
       "url": "https://hk01.com/sns/article/60404194",
       "publishedAt": "2026-11-01T00:00:15.000Z",
       "excerpt": "曾經紅極一時的Boy'z成員張致恒（Steven），2019年7月突然宣布與粉絲區燕雯（雯雯）奉子成婚，竟意外引爆「一腳踏五船」的桃色醜聞，回應一句「性上癮」提問更要付出沉重代價。 由18歲年賺百萬，到今日一家六口揹上百萬巨債，Steven為求解困無所不用其技。除了向阿Bob林盛斌、七師傅等借錢，更淪落到幫襯財仔、網上貼QR Code眾籌求生。誠信跌至谷底，連昔日關係親如姊弟的蔡卓妍（阿Sa）亦心死將他降級為「前朋友」；回想當年出事後漏夜由泰國返港，獨留好兄弟面對殘局，他含淚向關智斌（Kenny）致歉：「咁多年嚟講咗好多次對唔住，想彌補嘅機會可能得返1%。」 如今面對沉重債務與患自閉及過度活躍",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "天氣｜今日初時一兩陣微雨 最高氣溫28度 今個星期連續多日有雨",
-      "url": "https://hk01.com/sns/article/60405750",
-      "publishedAt": "2026-10-31T22:16:02.000Z",
-      "excerpt": "天文台表示，今日（1日）大致多雲，初時有一兩陣微雨，市區最低氣溫約25度，新界再低一兩度，日間短暫時間有陽光，最高氣溫約28度，最高紫外線指數大約是6，強度屬於高，吹和緩偏東風，初時離岸風勢清勁，高地間中吹強風。天文台展望，明日（2日）部份時間有陽光，隨後一兩日風勢較大。 圖為截至11月1日清晨6時，天文台顯示各區氣溫。（天文台網頁圖片） 受東北季候風影響 本周中期華南沿岸風勢較大及有一兩陣雨 天文台指出，一股偏東氣流會在今日影響廣東沿岸，一道雲帶覆蓋該區，該區雲量較多。隨着偏東氣流緩和，明日（2日）廣東沿岸天色較為明朗，而受東北季候風影響，本周中期華南沿岸風勢較大及有一兩陣雨，預料一股清勁至",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -13448,11 +12511,51 @@
       "category": "Hong Kong"
     },
     {
-      "title": "六合彩︱萬聖節金多寶頭獎無人中 下期11.5攪珠一注獨中1.08億",
-      "url": "https://hk01.com/sns/article/60405730",
-      "publishedAt": "2026-10-31T14:11:16.000Z",
-      "excerpt": "【萬聖節金多寶／六合彩／金多寶／萬聖節／幸運號碼】六合彩萬聖節金多寶攪珠周六晚（10月31日）舉行，若以10港元一注獨中，可獨攬8,000萬元巨額彩金。馬會同晚公布，由於頭獎無人中，下期攪珠日為下周四（11月5日），估計頭獎獨中可得1.08億元（$108,000,000）。一文看清五大最旺號碼及十大幸運投注站。 六合彩萬聖節金多寶攪珠10月31日晚上舉行，特設6,000萬元金多寶。不少市民攪珠前的下午到中環士丹利街投注站買獎券。最終頭獎無人中。（梁鵬威攝） 六合彩萬聖節金多寶攪珠10月31日晚上舉行，特設6,000萬元金多寶。不少市民攪珠前的下午到中環士丹利街投注站買獎券。最終頭獎無人中。（梁",
+      "title": "萬聖節．蘭桂坊圖輯｜盤點「嘩鬼」出位造型 蜘蛛俠肌肉男被摸腹",
+      "url": "https://hk01.com/sns/article/60405727",
+      "publishedAt": "2026-10-31T13:59:11.000Z",
+      "excerpt": "【Halloween／萬聖節／蘭桂坊／中環】萬聖節（31日）中環蘭桂坊一帶街道「逼爆」，警方實施人流管制，市民及旅客打扮成各路妖魔鬼怪「扮鬼扮馬」，氣氛非常熾熱。《香港01》記者在現場直擊盛況，不少中外旅客均盛讚現場氣氛好，有人更稱計劃明年再來港參與蘭桂坊萬聖節。不過，入夜後人潮過多，警方的指示牌顯示由中環IFC前往蘭桂坊等候需時180分鐘，不少旅客都選擇放棄前往。 中環蘭桂坊萬聖節正日。（湯致遠攝） 中環一帶萬聖節氣氛熾熱，有人扮成iPhone Duo。（湯致遠攝） 中環蘭桂坊萬聖節正日，現場氣氛熾熱，不少市民及旅客打扮成「嘩鬼」。（湯致遠攝） 中環蘭桂坊萬聖節正日，現場氣氛熾熱，不少市民及",
       "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "幼稚園發通告「切勿慶祝萬聖節」惹議 指源自供奉死神 家長力撐",
+      "url": "https://hk01.com/sns/article/60405601",
+      "publishedAt": "2026-10-31T13:38:31.000Z",
+      "excerpt": "10月31日萬聖夜，不少市民會上街慶祝萬聖節，但有家長就分享女兒所讀幼稚園的通告，校方提醒「切勿慶祝萬聖節」為題，指該節日源於塞爾特人（Celts）的「死節」，本質為「供奉死神」。家長大讚校方做法，稱「無揀錯學校」，解釋到萬聖節的背景，而且中國人傳統文化中，亦不會在「七月十四出街仲扮鬼扮馬」。 帖文引起熱議，有網民指一些宗教背景學校會發出類似通告，但只是不鼓勵舉辦萬聖節活動，較少「呼籲唔好慶祝」。不少網民認為大可當普通節日輕鬆看待，「以前間幼稚園唔提係咩節，但會搞化妝舞會」。 尖沙咀萬聖節，市民一同狂歡。（湯致遠攝） 學校通告質疑萬聖節成「常態」 指源於供奉死神 有家長在Threads上傳女兒",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "蒙彼利埃乒乓冠軍賽 蒯曼挫張本美和晉身女單四強",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518757/%E8%92%99%E5%BD%BC%E5%88%A9%E5%9F%83%E4%B9%92%E4%B9%93%E5%86%A0%E8%BB%8D%E8%B3%BD-%E8%92%AF%E6%9B%BC%E6%8C%AB%E5%BC%B5%E6%9C%AC%E7%BE%8E%E5%92%8C%E6%99%89%E8%BA%AB%E5%A5%B3%E5%96%AE%E5%9B%9B",
+      "publishedAt": "2026-11-01T02:40:11.000Z",
+      "excerpt": "【有線新聞】蒙彼利埃乒乓冠軍賽，中國的蒯曼晉級女單四強。 湖水藍衫的蒯曼對日本的張本美和，先輸一局9比11下還",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "苗圃行動慈善越野馬拉松 逾千人參與 料籌得120萬資助海內外學童",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518754/%E8%8B%97%E5%9C%83%E8%A1%8C%E5%8B%95%E6%85%88%E5%96%84%E8%B6%8A%E9%87%8E%E9%A6%AC%E6%8B%89%E6%9D%BE-%E9%80%BE%E5%8D%83%E4%BA%BA%E5%8F%83%E8%88%87-%E6%96%99%E7%B1%8C%E5%BE%97120",
+      "publishedAt": "2026-11-01T02:37:04.000Z",
+      "excerpt": "【有線新聞】苗圃行動舉行慈善越野馬拉松。 保安局副局長卓孝業、警務處處長周一鳴為42公里組賽主持鳴槍儀式。苗圃",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "違30天宵禁令 駐沖繩美軍半夜醉駕遭截停拘捕",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518749/%E9%81%9530%E5%A4%A9%E5%AE%B5%E7%A6%81%E4%BB%A4-%E9%A7%90%E6%B2%96%E7%B9%A9%E7%BE%8E%E8%BB%8D%E5%8D%8A%E5%A4%9C%E9%86%89%E9%A7%95%E9%81%AD%E6%88%AA%E5%81%9C%E6%8B%98%E6%8D%95",
+      "publishedAt": "2026-11-01T02:28:41.000Z",
+      "excerpt": "【有線新聞】一名駐日沖繩美軍士兵違反宵禁令，半夜外出並酒後駕駛。 沖繩警方周六凌晨在公路截停駐漢森軍營的美軍海",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "政府擬修例雙軌並行打擊圍標 林定國：刑事優先、最高監禁10年更具阻嚇力",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518747/%E6%94%BF%E5%BA%9C%E6%93%AC%E4%BF%AE%E4%BE%8B%E9%9B%99%E8%BB%8C%E4%B8%A6%E8%A1%8C%E6%89%93%E6%93%8A%E5%9C%8D%E6%A8%99-%E6%9E%97%E5%AE%9A%E5%9C%8B-%E5%88%91%E4%BA%8B%E5%84%AA%E5%85%88",
+      "publishedAt": "2026-11-01T02:22:13.000Z",
+      "excerpt": "【有線新聞】政府計劃修例將圍標刑事化，律政司司長林定國說民事及刑事會雙軌並行，但一定以刑事檢控優先，最高監禁1",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -13584,35 +12687,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "萬聖節前夕｜中環部分通道封閉 警方籲轉往其他地區慶祝",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518667/%E8%90%AC%E8%81%96%E7%AF%80%E5%89%8D%E5%A4%95-%E4%B8%AD%E7%92%B0%E9%83%A8%E5%88%86%E9%80%9A%E9%81%93%E5%B0%81%E9%96%89-%E8%AD%A6%E6%96%B9%E7%B1%B2%E8%BD%89%E5%BE%80%E5%85%B6%E4%BB%96",
-      "publishedAt": "2026-10-31T13:26:35.000Z",
-      "excerpt": "【有線新聞】晚上大批人前往蘭桂坊。 人潮經域多利皇后街，倒灌至干諾道中，交易廣場對出的行人天橋亦迫滿人，部分通",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港金牛誓師 劍指NBL四連霸、衝擊CBA",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518641/%E9%A6%99%E6%B8%AF%E9%87%91%E7%89%9B%E8%AA%93%E5%B8%AB-%E5%8A%8D%E6%8C%87nbl%E5%9B%9B%E9%80%A3%E9%9C%B8-%E8%A1%9D%E6%93%8Acba",
-      "publishedAt": "2026-10-31T12:37:41.000Z",
-      "excerpt": "【有線新聞】香港金牛籃球隊誓師，劍指NBL四連霸，全力衝擊CBA。 港隊代表楊和、清華大學的控衛石奎、打過NB",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "政府料皇崗口岸今晚為出境高峰 有內地客決定提早回程避人潮",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518649/%E6%94%BF%E5%BA%9C%E6%96%99%E7%9A%87%E5%B4%97%E5%8F%A3%E5%B2%B8%E4%BB%8A%E6%99%9A%E7%82%BA%E5%87%BA%E5%A2%83%E9%AB%98%E5%B3%B0-%E5%B0%87%E9%96%8B%E6%94%BE%E6%89%80%E6%9C%89%E8%87%AA%E5%8A%A9",
-      "publishedAt": "2026-10-31T12:32:44.000Z",
-      "excerpt": "【有線新聞】政府預計周六晚是皇崗口岸出境高峰。 在中環干諾道中巴士站，大批乘客登上B13巴士前往皇崗口岸。在口",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "萬聖節前夕｜砵蘭街一帶人山人海 特別版紅色小巴供打卡",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/518653/%E8%90%AC%E8%81%96%E7%AF%80%E5%89%8D%E5%A4%95-%E7%A0%B5%E8%98%AD%E8%A1%97%E4%B8%80%E5%B8%B6%E4%BA%BA%E5%B1%B1%E4%BA%BA%E6%B5%B7-%E7%89%B9%E5%88%A5%E7%89%88%E7%B4%85%E8%89%B2%E5%B0%8F",
-      "publishedAt": "2026-10-31T12:27:06.000Z",
-      "excerpt": "【有線新聞】旺角亦有活動慶祝萬聖節前夕。 朗豪坊對出的一段砵蘭街變身派對場地，人山人海，不少人穿上嘩鬼服飾或者",
-      "source": "有線新聞",
+      "title": "警方聯同慈善組織舉行越野挑戰賽",
+      "url": "https://news.now.com/home/local/player?newsId=667913",
+      "publishedAt": "2026-11-01T03:08:24.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
@@ -13763,14 +12842,6 @@
       "title": "宏福苑報告｜麥美娟就宏福苑火災問題致歉 稱會謹守崗位做好修例工作",
       "url": "https://news.now.com/home/local/player?newsId=667864",
       "publishedAt": "2026-10-31T11:09:25.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "大鳴大放｜跟進宏福苑火災(二)",
-      "url": "https://news.now.com/home/local/player?newsId=667851",
-      "publishedAt": "2026-10-31T11:01:00.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -14267,7 +13338,7 @@
       "title": "Pump pressure: how rising fuel costs leave Hong Kong drivers running on fumes",
       "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372851/pump-pressure-how-rising-fuel-costs-leave-hong-kong-drivers-running-fumes",
       "publishedAt": "2026-11-01T01:00:12.000Z",
-      "excerpt": "Van driver Wong Siu-po, 48, felt life was becoming more difficult than ever as mounting fuel prices cost him an additional HK$5,000 (US$640) a month, about a third of his monthly income. With an 11-year-old daughter and an unemployed wife to support, he feels the pressure mounting. “I need to work t",
+      "excerpt": "Van driver Wong Siu-po, 48, felt life was becoming more difficult than ever as rising fuel prices cost him an additional HK$5,000 (US$640) a month, about a third of his monthly income. With an 11-year-old daughter and an unemployed wife to support, he feels the pressure mounting. “I need to work thr",
       "source": "South China Morning Post",
       "category": "Hong Kong"
     },
@@ -14416,6 +13487,30 @@
       "category": "Hong Kong"
     },
     {
+      "title": "酒牌局周二舉行會議",
+      "url": "https://www.info.gov.hk/gia/general/202611/01/P2026102900487.htm",
+      "publishedAt": "2026-11-01T03:00:00.000Z",
+      "excerpt": "​下稿代酒牌局發出： &nbsp; 酒牌局星期二（十一月三日）舉行會議，討論一宗會社酒牌續期申請，以及一宗酒牌（附加酒吧批註）轉讓及修訂（更改店號、更改地址描述、擴大售酒範圍及取消酒吧批註）申請。 &nbsp; 有關申請如下（不依照討論次序）： &nbsp; 香港區： ─── 位於中環的Ovolo 位於中環的Salon No. 10 &nbsp; 酒牌局會議於上午九時四十五分在灣仔皇后大道東258號一樓102號會議室舉行，歡迎市民旁聽。",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "政府成立漁民特惠津貼上訴委員會處理受香港東北水域海事工程影響個案",
+      "url": "https://www.info.gov.hk/gia/general/202611/01/P2026102700229.htm",
+      "publishedAt": "2026-11-01T03:00:00.000Z",
+      "excerpt": "政府今日（十一月一日）宣布成立漁民特惠津貼上訴委員會，處理受香港東北水域海事工程影響、船長不超過15米的漁船船東所提出的特惠津貼上訴個案。 上訴委員會是按需要成立的非法定組織，由一名非官方主席及四名非官方成員組成。楊明悌獲委任為主席，成員為歐栢青、鍾姍姍博士、凌民琛和譚健樂。有關委任即時生效，任期至完成處理所有上訴個案為止。 政府一直有機制向受海事工程影響並符合資格的漁船船東發放特惠津貼。政府已成立跨部門工作小組，處理漁船船東就有關在香港東北水域所進行的25個海事工程的特惠津貼申請。跨部門工作小組在登記期內共收到861個申請。如特惠津貼申請人不滿跨部門工作小組就其獲批特惠津貼金額或申領資格所作",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "行政長官在2026大灣區科學論壇開幕式致辭（只有中文）（附短片）",
+      "url": "https://www.info.gov.hk/gia/general/202611/01/P2026103000621.htm",
+      "publishedAt": "2026-11-01T02:45:00.000Z",
+      "excerpt": "以下是行政長官李家超今日（十一月一日）在2026大灣區科學論壇開幕式的視像致辭： &nbsp; 尊敬的黃坤明書記（廣東省委書記）、尊敬的岑浩輝行政長官（澳門特別行政區行政長官）、尊敬的陰和俊部長（科學技術部部長）、尊敬的侯建國院長（中國科學院院長）、尊敬的孟凡利省長（廣東省省長）、尊敬的白春禮主席（大灣區科學論壇主席）、各位嘉賓、各位朋友： &nbsp; 大家好！很高興參與今天的論壇，與各位科學家、學者和業界朋友集思廣益，共商創科未來。我首先熱烈恭賀大灣區科學論壇順利召開！ &nbsp; 今年是國家「十五五」規劃開局之年。「十五五」規劃明確提出，要深化粵港澳大灣區建設，強化科技創新等方面規則銜",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
       "title": "數個泳灘懸掛紅旗",
       "url": "https://www.info.gov.hk/gia/general/202611/01/P2026110100285.htm",
       "publishedAt": "2026-11-01T02:03:00.000Z",
@@ -14548,30 +13643,6 @@
       "url": "https://www.info.gov.hk/gia/general/202610/31/P2026102900246.htm",
       "publishedAt": "2026-10-30T22:00:00.000Z",
       "excerpt": "社會福利署（社署）發言人表示，中國基督教播道會社會服務獲發公開籌款許可證在今日（十月三十一日）由上午七時至下午十二時三十分，進行全港賣旗活動。 所有獲發許可證於公眾地方進行的慈善籌款活動詳情，包括任何更新的資料，已透過香港政府一站通網頁（ www.gov.hk/tc/theme/fundraising/search ）發布，而賣旗日許可證亦已上載至社署網頁（ www.swd.gov.hk/tc/ngo/controlofc/flagdays ），以供查閱賣旗機構的聯絡方法及已獲准舉行的賣旗日活動資料。市民如有查詢，可致電社署熱線2343 2255，或1823電話中心專線3142 2678。 發",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "政府公布新一屆節目與發展委員會任命",
-      "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000649.htm",
-      "publishedAt": "2026-10-30T14:30:00.000Z",
-      "excerpt": "文化體育及旅遊局（文體旅局）今日（十月三十日）公布委任羅智光為新一屆節目與發展委員會主席，以及委任其他節目與發展委員會及其轄下六個演藝專責委員會（音樂、舞蹈及跨媒體藝術、戲劇、中國傳統表演藝術、社區，以及藝術節）委員。所有任期均為兩年，由二○二六年十一月一日至二○二八年十月三十一日。 節目與發展委員會及其轄下六個演藝專責委員會的成員來自不同背景，在相關範疇均有豐富的專業知識和經驗，就表演藝術向康樂及文化事務署（康文署）提供意見。 文體旅局發言人感謝即將卸任的節目與發展委員會主席和委員，以及演藝專責委員會委員在過去的貢獻，包括譚榮邦、張國穎、葉冠成、陳嘉恩博士、張文蕊博士、朱琼愛、鍾亦琪、馮穎琪",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "政府公布新一屆場地伙伴計劃委員會任命",
-      "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000641.htm",
-      "publishedAt": "2026-10-30T14:30:00.000Z",
-      "excerpt": "文化體育及旅遊局（文體旅局）今日（十月三十日）公布委任潘明倫教授為新一屆場地伙伴計劃委員會主席，以及委任其他委員會委員。所有任期均為兩年，由二○二六年十一月一日至二○二八年十月三十一日。 場地伙伴計劃委員會的成員來自不同背景，在不同範疇具有豐富的專業知識和經驗，就場地伙伴計劃向康樂及文化事務署（康文署）提供意見。 文體旅局發言人感謝即將卸任的場地伙伴計劃委員會主席及委員在過去的貢獻，包括葉傲冬、張振宇、馮秀炎、葉劍豪教授、利德裕博士及王文揚。 以下為新一屆場地伙伴計劃委員會的成員名單及職權範圍： 主席 潘明倫教授＊ 委員 陳美娟博士 簡汝謙＊ 賴建群＊ 李澤恩 梁智軒博士 廖玲玲 吳立熙＊ 吳",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "文化體育及旅遊局局長出席新界鄉議局100周年粵劇大匯演開幕禮致辭（只有中文）",
-      "url": "https://www.info.gov.hk/gia/general/202610/30/P2026103000724.htm",
-      "publishedAt": "2026-10-30T12:50:00.000Z",
-      "excerpt": "​以下是文化體育及旅遊局（文體旅局）局長羅淑佩今日（十月三十日）出席新界鄉議局100周年粵劇大匯演開幕禮的致辭： 劉業強主席（新界鄉議局主席）、麥美娟局長（民政及青年事務局局長）、鄭于樺部長（中央人民政府駐香港特別行政區聯絡辦公室新界東區事務部副部長）、敏姐（新界鄉議局傳統文化委員會主任陳嘉敏）、林虹女士（高力集團營運總監）、各位嘉賓、各位朋友： 很高興今日晚上出席新界鄉議局100周年粵劇大匯演的開幕禮，剛才麥局長說這是她出席的第三個鄉議局100周年活動，我也起碼是第二個了，我早前已出席高爾夫球的開球禮。我亦十分高興今日可以為原創粵劇《情是故鄉濃》和往後多場精彩的演出揭開序幕。 粵劇於二○○九",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     },
@@ -15814,366 +14885,6 @@
       "publishedAt": "2026-10-30T07:00:00.000Z",
       "excerpt": "Opinion | The rise of artificial intelligence in science complicates the notion of expertise. When AI can be used to generate ideas, conduct research, and write papers, live scientific presentations — such as public talks and seminars — become more important as a way to demonstrate who is a real exp",
       "source": "Undark",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Rally for Hallie",
-      "url": "https://www.nplusonemag.com/online-only/election-special/rally-for-hallie/",
-      "publishedAt": "2026-10-30T22:16:01.000Z",
-      "excerpt": "Cotton’s absence on the campaign trail has been a ready target for Shoffner’s jabs. Compared to the tall, glowering Cotton, she’s approachable, more concerned about bread-and-butter issues than about containing Beijing.",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Send Some of These Guys Packing",
-      "url": "https://www.nplusonemag.com/online-only/election-special/send-some-of-these-guys-packing/",
-      "publishedAt": "2026-10-30T19:32:49.000Z",
-      "excerpt": "Jackson is what Platner claimed to be: an imperfect, working-class guy who’s learned—and is still learning—from his mistakes.",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How We Can Build a World for All",
-      "url": "https://www.nplusonemag.com/online-only/events/how-we-can-build-a-world-for-all/",
-      "publishedAt": "2026-10-28T16:41:44.000Z",
-      "excerpt": "Today—amid the second Trump Administration’s lethal military aggression and reckless defunding of international aid—it’s harder than ever to imagine what a just American foreign policy would look like. In A World for All: New Visions of US Foreign Policy (out in November from OR Books), former Berni",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Playing Roulette in the Archives",
-      "url": "https://www.nplusonemag.com/online-only/online-only/playing-roulette-in-the-archives/",
-      "publishedAt": "2026-10-23T15:58:31.000Z",
-      "excerpt": "When Ginzburg first started his research into the witch trials, his hypothesis was that they could be seen as “a crude form of class struggle.” He swiftly found good evidence for his theory—and was disappointed. There must be something wrong, he thought, with a hypothesis that can be demonstrated so",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Blue Power in New York",
-      "url": "https://www.nplusonemag.com/online-only/online-only/blue-power-in-new-york/",
-      "publishedAt": "2026-10-23T15:40:30.000Z",
-      "excerpt": "Colin Vanderburg: To begin, how generalizable are New York’s politics of policing and criminal justice? I think there’s an idea that the NYPD, as the country’s largest police department in the country’s largest city, is somehow archetypal of American policing generally; but obviously New York is qui",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Trump’s Microphones",
-      "url": "https://www.nplusonemag.com/online-only/online-only/trumps-microphones/",
-      "publishedAt": "2026-10-21T15:28:01.000Z",
-      "excerpt": "Trump is alone, photographed from below (presumably by a crouching photographer, though I never see one on the ground) so as to appear more monumental. More often than not, his arms are half-raised at his sides and his palms are up, like he’s fending off the press, rhetorically, with his habitual “W",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Death of the Mind in Sarasota",
-      "url": "https://www.nplusonemag.com/online-only/online-only/death-of-the-mind-in-sarasota/",
-      "publishedAt": "2026-10-13T20:01:48.000Z",
-      "excerpt": "The story of New College of Florida “merits attention . . . if only to record the perseverance of those who, for more than three decades, struggled to overcome numerous and daunting difficulties to help keep the institution alive.” So wrote Furman C. Arthur, the school’s first employee, in his intro",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "EV Listening",
-      "url": "https://www.nplusonemag.com/online-only/online-only/ev-listening/",
-      "publishedAt": "2026-10-05T15:38:39.000Z",
-      "excerpt": "The Honda Prologue has a hovering, suffusing melody, with a low rhythmic pulse and a subtle, epiphanic wash. It sounds like a computer game lifting you into heaven, or the arrival of benevolent extraterrestrial colonists. The Porsche Taycan makes a more sinister and comic, gulping, warp-speed sound,",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Last Week in End Times Cinema",
-      "url": "https://www.nplusonemag.com/online-only/online-only/last-week-in-end-times-cinema-2/",
-      "publishedAt": "2026-10-02T15:30:09.000Z",
-      "excerpt": "After a series of massive concessions by everyone from state attorneys general to the WGA to the great mass of the American people, the Paramount Skydance–Warner Brothers Discovery merger looks to be complete. Eyebrowless scion David Ellison will now be in charge of one of the largest media conglome",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Away Game",
-      "url": "https://www.nplusonemag.com/online-only/gooooaaal/away-game/",
-      "publishedAt": "2026-09-29T14:49:11.000Z",
-      "excerpt": "“I have a Mexican jersey too” Abdoulaye said. “I put it on if my client has a Latino name. Or Colombia. This one,” he said, gesturing to his USMNT jersey, “I wear this one for Americans. It helps with tips.”",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Freedom of the Weasel",
-      "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel/",
-      "publishedAt": "2026-09-22T18:33:59.000Z",
-      "excerpt": "Her great themes were timeless, the stuff of the ancients’ ancients: perception, eternity, travel, the problem of evil. She repudiated Aristotle, denied the primordial split between myth and natural philosophy: Anything could, and would, be likened to everything, in the service of the sentence.",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Municipal Sublime",
-      "url": "https://www.nplusonemag.com/online-only/events/the-municipal-sublime/",
-      "publishedAt": "2026-09-15T19:18:31.000Z",
-      "excerpt": "In a city that treats its architectural highlights—and even some of its mediocrities!—with an ardor that verges on the obsessive, plenty of buildings nonetheless manage to escape collective reverence. A disproportionate number of these buildings happen to belong to the public: community spaces, seni",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Last Year in End Times Cinema",
-      "url": "https://www.nplusonemag.com/online-only/events/last-year-in-end-times-cinema/",
-      "publishedAt": "2026-09-14T15:18:07.000Z",
-      "excerpt": "It’s been nearly a year since n+1 film critic A. S. Hamrah’s book Last Week in End Times Cinema—a study of bad news in the movie industry over the course of 365 days—was published. What’s happened in end times cinema since then? On Thursday, October 1, join us as we investigate. Hamrah will appear i",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Hi-Neighbor! Mayor",
-      "url": "https://www.nplusonemag.com/online-only/online-only/the-hi-neighbor-mayor/",
-      "publishedAt": "2026-09-11T20:21:24.000Z",
-      "excerpt": "When I first met David Morales it was December 2019, and I was standing in David’s ill-lit bachelor apartment as he announced to a small holiday party full of socialists that he intended to run for state representative. I was skeptical. David was young—only 21 at the time—just recently graduated, an",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Laura Kolbe and Patricia Lockwood in conversation",
-      "url": "https://www.nplusonemag.com/online-only/events/laura-kolbe-and-patricia-lockwood-in-conversation/",
-      "publishedAt": "2026-09-10T17:11:11.000Z",
-      "excerpt": "On Saturday, October 10, join us at the n+1 office in Brooklyn for a celebration of two new works of poetry: Laura Kolbe’s The Decadent Movement (out in September from University of Pittsburgh Press) and Patricia Lockwood’s Agate Head/Stone Soup (out in October from Penguin Books). Lockwood and Kolb",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Issue 54 Reading and Celebration",
-      "url": "https://www.nplusonemag.com/online-only/events/issue-54-reading-and-celebration/",
-      "publishedAt": "2026-09-10T16:10:57.000Z",
-      "excerpt": "Please join n+1 at our office in Greenpoint for reading and drinks in celebration of Issue 54: POWER PLAY! Featuring readings by Walker Caplan, Mark Krotov, Leigh Claire La Berge, Maria Marchinkoski, and Colin Vanderburg. Readings will start at 7, followed by a party, and cheap drinks will be for sa",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Billboards of Silicon Valley",
-      "url": "https://www.nplusonemag.com/online-only/online-only/the-billboards-of-silicon-valley/",
-      "publishedAt": "2026-09-04T18:42:43.000Z",
-      "excerpt": "YOUR AI AGENT NEEDS A WORKFLOW ENGINE. The billboard stands by a nondescript stretch of highway somewhere between Redwood City and Mountain View. A boom, likely a bubble, made manifest. A cry of triumphant return. And probably one day, a monument to a bubble bursting. All hype seems destined to furn",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Social and Anti-Social Housing",
-      "url": "https://www.nplusonemag.com/online-only/online-only/social-and-anti-social-housing/",
-      "publishedAt": "2026-09-04T16:23:30.000Z",
-      "excerpt": "We have public housing, but it has never been as well designed, built, or maintained. We have limited-equity co-ops built by limited-dividend companies, but we built far fewer of them, and we allowed some to go private. We have inclusionary zoning, but whereas their model requires two-thirds of the ",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Ciphers Poufed Out",
-      "url": "https://www.nplusonemag.com/online-only/online-only/ciphers-poufed-out/",
-      "publishedAt": "2026-09-01T15:22:30.000Z",
-      "excerpt": "Hi! Where have I been? Last time we heard from me, Miss Translation, I was on a rocket blasting out of Iowa. I hosted two events, one in New York and one in Chicago. Was I forced into hiding because of how well they went? No, although I could have been. Did I write a […]",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Zooming in on Wiseman",
-      "url": "https://www.nplusonemag.com/issue-54/letters/zooming-in-on-wiseman/",
-      "publishedAt": "2026-09-01T14:26:34.000Z",
-      "excerpt": "This is a different mode of watching film; the eye and ear must remain in a constant state of hypervigilance to confirm whether one can spy a coffee cup in the back of a frame, or if someone says “gonna be” instead of “going to be.”",
-      "source": "n+1",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "California governor asks US judges to resist Trump attempts to seize ballots - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLVlXWHJiT1ZELXhOM3ZVM1hySTBsenhZbUxYdDRCN1NTcnFRN0xXcWFhVjZ2NDhnLVRzOFhGNzNtOEpXV3RUOWVtSW9tbFlqY184eVFqbUpPRXNQbnl6Q2V4SVVjdU1UZ0tMdGdpdWhhZjM3N3cwSTBPdGIwSXZSeXYxR0JySnhKdE02dzJmYmpvUXlwb05GeUl5QzhjZzNPRVU3VDBDRE1hemVyWHJzendXXzBaWWRKakZqTlh3a3U?oc=5",
-      "publishedAt": "2026-11-01T00:12:00.000Z",
-      "excerpt": "California governor asks US judges to resist Trump attempts to seize ballots &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "After Louvre heist and string of thefts, Europe's smaller museums are on guard - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV2hEQ0g1Rk9ZSjJMakpuX2lCY3hFc1I4VjhMbnE3aGFMWXh3TU9NSE1sWEFCM2dRUVBTRXE5cWxUMXdwdXZwZ29vNFdBbjVKYW1yTDN1b2tlZ1RjQW13NkdqVEI5RV9ybFRad3kyY0VTOTZaUEhFaDYyUmdTYnlMenBDNGM0VVEyanFtRFJUTjFnc0MyemdmRVlLNlBGbGdxMjFmZXRUem43WTRz?oc=5",
-      "publishedAt": "2026-10-31T23:49:30.000Z",
-      "excerpt": "After Louvre heist and string of thefts, Europe's smaller museums are on guard &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Salvadoran families demand fair trials, mourn prison dead on Day of the Dead - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRkdQUUgzVUh1N1F4MWQyX2hDR2sweTZiMTBlOVBtemRaeXRuUDdrMEI2emRkSFM3aXRteVJFdWFQR3J2cWhUeUt6RHZhb2l1em5ZRm1YVF9nWnpyekZCM2NZYXlHeWlVVXZpbDYtN3hPWWRYbTlFVzU1bFR4dnprU0VEcUU1Um90LXBMUzlpREF2aXhXa0NKZHR1NWREUXA0UExSUUdnWG51S2dFTDNzaVBnMGFpUHc?oc=5",
-      "publishedAt": "2026-10-31T23:49:00.000Z",
-      "excerpt": "Salvadoran families demand fair trials, mourn prison dead on Day of the Dead &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWDh2Tk1SWVpMWE1Mc1NmZ2JHUlFDOEFqVjg4T29yc1BLNXBibGFRSWNDUEhadDZiaEhiZXg4UFlfNV8tRVM3UVdfTkdzRzZVR2dmN2JwWjlIc3BHeVU0eVlJR0h1UThmaXhVWS1GcHZqb0c1NGR0VWoxU3k0Q3dLYU1hQVExZVJJd2FxZHpWOXc0NDRJWlZvUDk2Rm5GRUh1bXFITDBUZGFVWjY4T3VTWGh2NlFKaVBKLWc?oc=5",
-      "publishedAt": "2026-10-31T22:58:33.000Z",
-      "excerpt": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGlWdjVINldIeWxNTExNV01jTlZKOVJqWTdPMmRPRTBNZmFnWXBXeGtacmJkMUJldC1FTU0zTlVsMVQ5WVdhYUk2QmZqeG5ZM0U4UFpmeTEwSGNJR1Y1THVzZVZWU1Q5Z2pCcHJyTHpOc3hGVDdxWV9VVndkdzhvVXItQWlyZ3Frb1VSOVB5TWJ4aGdkbk8xeg?oc=5",
-      "publishedAt": "2026-10-31T22:27:00.000Z",
-      "excerpt": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "North Korea says defence research institutes tested major weapon system - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2szXzlwbFhuTl8xcVFPLU9JTTFnUTYtT1pYWGxTbEFhUmxWV1E5NkxvbTZvOEtETEp4YjdMaEhDbG1MSzIweE5kYXpSM3FWVEpUWEFFNUZTUFdaNzN2UldqMHlVdDZsT3NaNm9PQl9xSFpfMm1FR3JCUTA0Z2hiQ0EtUXpKZ3MwLThwQmZ3R0JxZ2lRZ2hjcEpkWjI0R2FyUGdIQ3VZZUVwRl96UVByZklTSm1KY1RVRExaSlptRUtLbHRld0FVN2lEYUcwbUU?oc=5",
-      "publishedAt": "2026-10-31T21:48:05.000Z",
-      "excerpt": "North Korea says defence research institutes tested major weapon system &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
-      "publishedAt": "2026-10-31T21:44:23.000Z",
-      "excerpt": "FBI links North Korea to theft of $6 billion from Binance &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "ICE raids in a California toss-up district spark accusations of voter intimidation - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMkk2Tk5vZ2RHMENmbGFkZjJrWjJIS2xkbDZrQW5hUS1abHlzOVNWendQdHNfZTdZcHFnWkFKUURwMDVmYnhlN3ZPeEctbHBmeE9KcVp0T1JCVGVNN3NrbXZMd1ZmcVZOcHQ5X3JIWHJuOHpJcThkbTdmQTItSlE1MXJ4ektHQ3Ytd3I1dGVhSTFSVHlQQ05iaHdzd2drWXhoTEphUVRTUUh3cWU3cDJ2ak1GQkNMb0NTV3VZeG5GdEFZNThORFE?oc=5",
-      "publishedAt": "2026-10-31T21:38:51.000Z",
-      "excerpt": "ICE raids in a California toss-up district spark accusations of voter intimidation &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Thousands return to Lisbon square, press government to scrap rental bill - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWVvNnVKTGlkcFRNcmpqWmZlaUNuVXJZU1p3bi1QRDdSbWtHQ082NmdqV3RwZlVobm50NE1JRVljYjc0WXlYdG44V2p1bFJVTTZPUUhxcXM4emlfV3pQdmFIeG9hVGZGZ09mOW05c05hTTFHYzgyWmhiUlhfc3FVNzFhWDFKXzJiRFlJZUdxQmV6SFZIb0RkSERTRklwamlkekYxZjZ5RDZMYWtyR2lRQ0J3eHQ?oc=5",
-      "publishedAt": "2026-10-31T21:22:49.000Z",
-      "excerpt": "Thousands return to Lisbon square, press government to scrap rental bill &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Polish PM Tusk vows support for tribunal amid court crisis - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1FQZ3BaNHVzYUlJRnloRE0wc0hFS2xrV3RJb2pkLXlXbXpBX1Y1eURkSUpCTVFhQjc3cWJmS2ZnNGM5eE1YTmxqN0t3cHVNM3NLMjlvSFpMMXJ4TkxjS2N6XzV6bVhlcExudmpBdzZPWHdyVHVYVExqZVVuNkdlVE1Mb1dpel8xdDNWSGlOS2o1R0tQVU5wWnE5WWJ5VmJ5cmsyYjA0cTJ0d1U?oc=5",
-      "publishedAt": "2026-10-31T21:13:03.000Z",
-      "excerpt": "Polish PM Tusk vows support for tribunal amid court crisis &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Canada advancing its 'middle power' strategy with new trade deals, Anand says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMkR4dzVKdEdBZ1paNXRBRkJQRHlCaFBWQlk3ZG5jQVBwam1LQXdtMFpQcl8tR3ZpdWRjLXdfVjhRTDlXX0J3dDl1a1NmTHZhV1ZGazBqd1prYjZ3UEpGZHN2MkZ6WkRmS0JJRFE5a0pQSmlCQ1hGbUZSUGFSckgzZ2l5bEFRSUFCR2puZUdRSEgyMENsTzhoZ2hxZGRiUjBYZjMyYW53ODVwX0IwWnNvbVB5YUlvUWZUY21reFVoMmFQZU0?oc=5",
-      "publishedAt": "2026-10-31T21:11:43.000Z",
-      "excerpt": "Canada advancing its 'middle power' strategy with new trade deals, Anand says &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Real, Mbappe have moved on from China controversy, says Mourinho - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYkdaRjdrN052cWJ6QXRmSWJheXBJS3A3dFVTNFZyREY1NE52QlpEWDNoLUNzTWF2d0RpOENKRS1rUXh0a19saUpSMExybzVYdmJFRU9TZmZncTMxTDAzVlVGRmdrZ2dVNU9RcVZ4UFhPYkwtbjhFYXhDUXdmNXN0NmZSWEJndzdkRFBpb056d3NjRlVvYmxjdDBZT2tEZ1E0b0tmcFZIVQ?oc=5",
-      "publishedAt": "2026-10-31T20:16:59.000Z",
-      "excerpt": "Real, Mbappe have moved on from China controversy, says Mourinho &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
-      "publishedAt": "2026-10-31T20:00:36.000Z",
-      "excerpt": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Ghana says Russia to back 2,000 MW nuclear plant, deepen ties - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVEU1TzJ6c1lISFlURGdCYlJscFltNmo3ay1SblgxNEtKU1lwcEhEcHZpMjg3TWE0VkVrdEtwSFF0dzhxRExVdUQtZTlkU2pENWpTRkdER3FHWEk1RzNRdFA2QlFVcmdzWWNSZ044MjNBejRPeFFNX3dwRUItTXRndW1UaXJxdHJkcThxUUtsVFo2d19MdFZVbVJFM245bW9iSEZwZENCQWk?oc=5",
-      "publishedAt": "2026-10-31T19:45:43.000Z",
-      "excerpt": "Ghana says Russia to back 2,000 MW nuclear plant, deepen ties &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjhmcnV5dnZWRFFnSkw0WUF5b3hld3Q2RmhYWjAzYVM4STJWUno1b1ZMMmpzMUZseDltNkgxZWdlbWdJQTVjZ2FoMVptRkZfdUlxcnZZMlpORXRoQTFCM1pBRjhrdU05Q1dQbU54WE5wejBhQnpmdjh4SF85RkVQMnViNTE4eWpyeU9FVF9feGpNTEpvQmpjbXhGSHZwMFlycmdTT1ZTQ0hWQQ?oc=5",
-      "publishedAt": "2026-10-31T18:41:19.000Z",
-      "excerpt": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Countries reach COP17 deal to speed up biodiversity action, but money still short - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR0NES1I2SUNHY1pIdGg3aVBYdW9wR0gtSDlETFpHU3pwbS1TVzdrTXFCd09DLUFHbjJxY0pBSHhGb0duVDEtczNjTjJFLThRaFRiTnJ2N2J4anJiWUpLVHhhay1xdmdCbzNTTUI1R0JCWkY2aVU5aTZxNHpWMUJzMS1ZVWE1UXRPdTE1SEhhd3JvTWVBSEtIUmM3Y0phRlc0X1Bzc1Z3NmYxSm5TS0FiYkNaenYzcmIyQUhKUk43Zy0wX2V0emhr?oc=5",
-      "publishedAt": "2026-10-31T18:32:51.000Z",
-      "excerpt": "Countries reach COP17 deal to speed up biodiversity action, but money still short &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "US Senate candidate El-Sayed wants Democratic rival to stay away, source says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZk1TVThad3BBcnFwSU44RFlBSjU5NWNaOUxuTEFVQnp2c0tjU3h2Qmc3eUh1RWZGZVpnenlXRk5jcXczZmVhUENIcm53dFBPVm1pQnZxdDhGbmRRRHBXaTdBeHlaRjl3X05USjI3X1ViamRPX19Lc0ZrendnN2N0allNR0tLekhuM0ZCZFpmeWJROTdYY0YtbkdoZ2VEXzFiMlBIRzkwUUpxNXFPdFJERTNxRzNLMzZRUWc?oc=5",
-      "publishedAt": "2026-10-31T18:20:00.000Z",
-      "excerpt": "US Senate candidate El-Sayed wants Democratic rival to stay away, source says &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTk80ZVBzRVczc0hyRHU0RkJiTWx5ZDUwdnBHb0FWSmJyQWJzWHRYR0hZd0MzTW1INnFtSWRISVVRb1RncDltYW16eTYxRU9NcWJzanRqMmp4LWFXUVNTV2tzT3JCM0doS01hWDdGeUhNdHZ3WTdYXy14Q0luZTRmOWdQNlp2ZThtYlQ0cWhNSVk0c0ZkOUFyMExMUWRHMXRKamU2ZHRLa2pPMG9heUhzN2YwTnpCZw?oc=5",
-      "publishedAt": "2026-10-31T18:05:10.000Z",
-      "excerpt": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Nigeria reports two suspected Ebola cases in northeast region - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLVJNVjgwa3JjQjJTZV9qaEtOR0hPeUVlUU5fVmg1NmpMcmtWR2QycWNERWphd21IckhyYnNQMllfLUtrSDhCV1p4cEV4RWhmYURFbW91dVJ0YzVUMUJPNFctZG5FX1ZSdS1KemxhbWdmRTRSX2R0TEZMbm5tdVVDSDNUbnBreFJrT0tlQXE1VzVmSllTdVZoVVpqOXV1WXh3ZGpaNmZqWmdlS010Zi1NcWxQai1WU2k0dE96SDVuUld0WkxhSm9VSlFR?oc=5",
-      "publishedAt": "2026-10-31T17:54:27.000Z",
-      "excerpt": "Nigeria reports two suspected Ebola cases in northeast region &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "category": "Society",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "US, Canada see growing interest in limited ceasefire in Black Sea - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU2JIVVB6TndsbFNkS2Vma2ZRT2NBOHRyQTRkcEc2ZnNnRFc5R0JoT0hpem96RFMwalJGZFozdncxNmRBaE05ZU1hQXRsU0sxUDIyVHRWZzhlQXVfLW5GSGxBcHhscVRrLTlLSnFsOEZ0SnliUzhuQVhLeGc3VFBEWTI3ZjRfQU1uS2NWYjk2QVBEVldRVHZOUnZn?oc=5",
-      "publishedAt": "2026-10-31T17:39:00.000Z",
-      "excerpt": "US, Canada see growing interest in limited ceasefire in Black Sea &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
       "category": "Society",
       "sourceRole": "publisher"
     },
@@ -17815,126 +16526,6 @@
       "publishedAt": "2024-12-17T15:00:00.000Z",
       "excerpt": "I published a book of essays two months ago, which I realized only in retrospect is a collection of meditations on pain, and since then I have been parsing reader reactions in an anecdotal sort of way. Here are some things that people have said about the essays: they are “harrowing” and “blunt”; “cl",
       "source": "The Millions",
-      "category": "Books"
-    },
-    {
-      "title": "“The Shadeless Border” by Jiyar Jahan Fard",
-      "url": "https://asianreviewofbooks.com/the-shadeless-border-by-jiyar-jahan-fard/",
-      "publishedAt": "2026-10-31T06:00:00.000Z",
-      "excerpt": "The Yarsanis are a unique ethno-religious group centered in Kermanshah, in Iranian Kurdistan. With estimated adherents surpassing one million, this little-known syncretic religion dates from the 14th century and has elements reminiscent of Zoroanstrianism and other non-Islamic traditions, and is cen",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Abandoning a Cat” by Haruki Murakami",
-      "url": "https://asianreviewofbooks.com/abandoning-a-cat-by-haruki-murakami/",
-      "publishedAt": "2026-10-30T06:00:00.000Z",
-      "excerpt": "Parents are few and far between in Haruki Murakami novels. The Japanese author’s protagonists are adrift, often removed from their friends but nearly always removed from their families. This fictional alienation reflects a postwar dilution of collectivism in Japan as Murakami was growing up, not to ",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "Podcast with Hans van de Ven, “Blood Dawn”",
-      "url": "https://asianreviewofbooks.com/podcast-with-hans-van-de-ven-blood-dawn/",
-      "publishedAt": "2026-10-29T10:03:06.000Z",
-      "excerpt": "In March 1942, Japanese troops landed on Java’s north coast and were welcomed by many of the Indonesians they had come to conquer. It’s an indication of just how much the Second World War undermined the foundations of European empire, setting up a postwar order that still governs Asia today. Hans va",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Stories from Bengal” by Rumana Yasmin",
-      "url": "https://asianreviewofbooks.com/stories-from-bengal-by-rumana-yasmin/",
-      "publishedAt": "2026-10-29T06:00:00.000Z",
-      "excerpt": "For centuries, children in Bengal have looked up at the moon and imagined Chaader Buri – the magical grandmother who spins stories from glowing moonbeam threads. Now she is ready to take you on a journey. Stories from Bengal is an illustrated exploration of the myths, legends, and folk tales of a re",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Oil Wars” by Guy Laron",
-      "url": "https://asianreviewofbooks.com/oil-wars-by-guy-laron/",
-      "publishedAt": "2026-10-28T06:00:00.000Z",
-      "excerpt": "The “wars” in the title of Guy Laron’s new history of the past century and a half are as much metaphorical as literal; few readers will need much convincing of his thesis that “energy is one of the core instruments of geopolitics.” There is much to be said for Laron’s adopted lens. Oil provides a...",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“The Japanese Woodblock Prints Companion” by Andreas Marks",
-      "url": "https://asianreviewofbooks.com/the-japanese-woodblock-prints-companion-by-andreas-marks/",
-      "publishedAt": "2026-10-27T06:00:00.000Z",
-      "excerpt": "“Under the Wave Off Kanagawa”, popularly known as “The Great Wave”, is without a doubt the most celebrated Japanese woodblock print. It is also the most recognised work of Japanese art tout court. Ask anyone with an interest in the genre and they will tell you that it was made by Katsushika Hokusai ",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Foreigners” by EL Shen",
-      "url": "https://asianreviewofbooks.com/foreigners-by-el-shen/",
-      "publishedAt": "2026-10-25T06:00:00.000Z",
-      "excerpt": "When Dawn Chin is assigned a high school history project to interview a family member, she picks her paternal grandmother and learns more about her family history than she expected, including a couple of life-altering secrets. All the lies, all the secrets, the masks her family wears, the ones she p",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Reassembling Knowledge” by Thomas Benfey",
-      "url": "https://asianreviewofbooks.com/reassembling-knowledge-by-thomas-benfey/",
-      "publishedAt": "2026-10-24T05:00:00.000Z",
-      "excerpt": "Iranian tradition held that the first, ancient dynasty of kings had mastered all the useful sciences, from astronomy to medicine, and recorded them in books of wisdom. Some claimed the prophet Zoroaster himself to be the ultimate author. These books were well guarded in the great palace we call Pers",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“The Big Book of Kashmiri Literature”",
-      "url": "https://asianreviewofbooks.com/the-big-book-of-kashmiri-literature/",
-      "publishedAt": "2026-10-23T05:00:00.000Z",
-      "excerpt": "In 1958, a Kashmiri poet who earned his living cutting timber sat down in front of a radio microphone and stumbled over a verse from a printed edition of his own work. His name was Samad Mir, and he was one of the best-loved mystic poets of his day. His interviewers were JL Kaul, a... The post “The ",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "Podcast with Jeremy Simmons, “Sea of Treasures”",
-      "url": "https://asianreviewofbooks.com/podcast-with-jeremy-simmons-sea-of-treasures/",
-      "publishedAt": "2026-10-22T09:28:48.000Z",
-      "excerpt": "After Caesar’s assassination, the triumvirs drew up a kill list; one such target, a man named Lucius Plotius Plancus, fled to a villa near Naples and tried hiding behind a curtain. The soldiers found him anyway–thanks to his heavy perfume. Pliny the Elder, writing a century later, used the perfume t",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Coming of Age in Macholand” by Harjant S Gill",
-      "url": "https://asianreviewofbooks.com/coming-of-age-in-macholand-by-harjant-s-gill/",
-      "publishedAt": "2026-10-22T05:00:00.000Z",
-      "excerpt": "Through Punjabi men’s struggles to marry, migrate, love, and escape, Coming of Age in Macholand reveals what patriarchy costs the men it promises to empower. In 2019, Sandeep, a twenty-seven-year-old from a Punjabi family, killed five relatives and himself after a date was set for his wedding. His s",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Tree” by Aya Kōda",
-      "url": "https://asianreviewofbooks.com/tree-by-aya-koda/",
-      "publishedAt": "2026-10-21T05:00:00.000Z",
-      "excerpt": "Until she was forty-three years old, Aya Kōda (1904-1990) was known primarily for being the daughter of the novelist Rohan Kōda, who was influential in the development of early modern literature in Japan. Yet after Rohan’s death, a publisher asked Aya to write a memoir about her family, and she soon",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Sutra Americana” by Monona Wali",
-      "url": "https://asianreviewofbooks.com/sutra-americana-by-monona-wali/",
-      "publishedAt": "2026-10-20T05:00:00.000Z",
-      "excerpt": "It’s not hard to picture the leap Monona Wali made from filmmaker to writer after reading her latest novel, Sutra Americana, a cinematic story of an Indian family that immigrated to the United States in the early 1960s. Continuing well into the 2000s, the story is at heart about how long it can take",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Battleship Yamato” by Alexander Wooley",
-      "url": "https://asianreviewofbooks.com/battleship-yamato-by-alexander-wooley/",
-      "publishedAt": "2026-10-18T05:00:00.000Z",
-      "excerpt": "Author Alexander Wooley explores the enduring legacy of the battleship Yamato, weaving together history, myth, and cultural impact to reveal how a wartime icon became a symbol of Japan’s identity and imagination across generations. The battleship Yamato was conceived as the ultimate expression of Im",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "“Who Owns the Past?” by Shaan Kashyap",
-      "url": "https://asianreviewofbooks.com/who-owns-the-past-by-shaan-kashyap/",
-      "publishedAt": "2026-10-17T05:00:00.000Z",
-      "excerpt": "History, or least the writing of it, does not remain confined to academia or historians; it can increasingly become a matter of public debate. When it comes to India, debates about the past can be bitter, not just in one-off spats but as a constant source of tension between the ends of the political",
-      "source": "Asian Review of Books",
       "category": "Books"
     },
     {
@@ -21384,7 +19975,7 @@
       "title": "Disorderly conduct charge for impeding capitalism",
       "url": "https://www.metafilter.com/215015/Disorderly-conduct-charge-for-impeding-capitalism",
       "publishedAt": "2026-10-31T15:00:19.000Z",
-      "excerpt": "Woman arrested and charged with criminal mischief/disorderly conduct for blocking the path of a delivery driver says she'd do it again .",
+      "excerpt": "Woman arrested and charged with criminal mischief/disorderly conduct for blocking the path of a delivery robot says she'd do it again .",
       "source": "MetaFilter",
       "category": "Discover",
       "sourceRole": "community"
@@ -21403,15 +19994,6 @@
       "url": "https://www.metafilter.com/215013/The-pterosaur-museum-built-to-thrive-in-the-Gobi-desert",
       "publishedAt": "2026-10-31T11:03:09.000Z",
       "excerpt": "Like eggs in the sand: the pterosaur museum built to thrive in the Gobi desert. How architects worked with harsh environment to create sustainable building in location where fossils were found.",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
-      "title": "\"That's \"soliloquy,\" you pile.\"",
-      "url": "https://www.metafilter.com/215012/Thats-soliloquy-you-pile",
-      "publishedAt": "2026-10-31T02:48:48.000Z",
-      "excerpt": "Spooky Friday game: Laszlovania ( trailer ). Join Laszlo Cravensworth as he meets old friends, conquers evil forces, and attempts to skirt responsibility at every turn! Help Cravensworth fight one final time through the vampire-iest place on earth: Staten Island!",
       "source": "MetaFilter",
       "category": "Discover",
       "sourceRole": "community"
@@ -21615,206 +20197,6 @@
       "category": "Discover",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Longreads"
-    },
-    {
-      "title": "DD412 / Breaking up with Gmail",
-      "url": "https://www.densediscovery.com/issues/412/",
-      "publishedAt": "2026-10-26T05:54:17.000Z",
-      "excerpt": "Issue 412: Breaking up with Gmail – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD411 / Nothing personal, just grifting",
-      "url": "https://www.densediscovery.com/issues/411/",
-      "publishedAt": "2026-10-19T06:21:24.000Z",
-      "excerpt": "Issue 411: Nothing personal, just grifting – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD410 / Design: frictionless, flawless, forgettable",
-      "url": "https://www.densediscovery.com/issues/410/",
-      "publishedAt": "2026-10-12T05:36:50.000Z",
-      "excerpt": "Issue 410: Design: frictionless, flawless, forgettable – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD409 / Leisure time, but make it useful",
-      "url": "https://www.densediscovery.com/issues/409/",
-      "publishedAt": "2026-10-05T06:17:27.000Z",
-      "excerpt": "Issue 409: Leisure time, but make it useful – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD408 / When the foxes want better fences",
-      "url": "https://www.densediscovery.com/issues/408/",
-      "publishedAt": "2026-09-28T07:28:40.000Z",
-      "excerpt": "Issue 408: When the foxes want better fences – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD407 / Cynicism is not a strategy",
-      "url": "https://www.densediscovery.com/issues/407/",
-      "publishedAt": "2026-09-21T07:36:46.000Z",
-      "excerpt": "Issue 407: Cynicism is not a strategy – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD406 / Sonntagsruhe: frivolously unmonetised time",
-      "url": "https://www.densediscovery.com/issues/406/",
-      "publishedAt": "2026-09-14T07:52:04.000Z",
-      "excerpt": "Issue 406: Sonntagsruhe: frivolously unmonetised time – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD405 / The Ponzi stage of being alive",
-      "url": "https://www.densediscovery.com/issues/405/",
-      "publishedAt": "2026-09-07T08:14:34.000Z",
-      "excerpt": "Issue 405: The Ponzi stage of being alive – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD404 / All click, no muscle",
-      "url": "https://www.densediscovery.com/issues/404/",
-      "publishedAt": "2026-08-31T08:12:39.000Z",
-      "excerpt": "Issue 404: All click, no muscle – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD403 / In praise of ‘it depends’",
-      "url": "https://www.densediscovery.com/issues/403/",
-      "publishedAt": "2026-08-24T07:41:27.000Z",
-      "excerpt": "Issue 403: In praise of ‘it depends’ – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD402 / Agency, not abstinence",
-      "url": "https://www.densediscovery.com/issues/402/",
-      "publishedAt": "2026-08-17T07:46:00.000Z",
-      "excerpt": "Issue 402: Agency, not abstinence – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD401 / Your call is important to us",
-      "url": "https://www.densediscovery.com/issues/401/",
-      "publishedAt": "2026-08-10T08:10:15.000Z",
-      "excerpt": "Issue 401: Your call is important to us – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD400 / Hitting ‘send’ for the 579th time",
-      "url": "https://www.densediscovery.com/issues/400/",
-      "publishedAt": "2026-08-03T07:27:41.000Z",
-      "excerpt": "Issue 400: Hitting ‘send’ for the 579th time – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD399 / Not a machine: on fragility and self-worth",
-      "url": "https://www.densediscovery.com/issues/399/",
-      "publishedAt": "2026-07-27T07:43:19.000Z",
-      "excerpt": "Issue 399: Not a machine: on fragility and self-worth – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD398 / Cold turkey on the outrage machine",
-      "url": "https://www.densediscovery.com/issues/398/",
-      "publishedAt": "2026-07-20T08:03:40.000Z",
-      "excerpt": "Issue 398: Cold turkey on the outrage machine – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD397 / Last drinks at the AI casino",
-      "url": "https://www.densediscovery.com/issues/397/",
-      "publishedAt": "2026-07-13T08:11:51.000Z",
-      "excerpt": "Issue 397: Last drinks at the AI casino – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD396 / On being properly unwell",
-      "url": "https://www.densediscovery.com/issues/396/",
-      "publishedAt": "2026-07-06T07:07:25.000Z",
-      "excerpt": "Issue 396: On being properly unwell – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD395 / Everything bleeds into everything",
-      "url": "https://www.densediscovery.com/issues/395/",
-      "publishedAt": "2026-06-29T09:51:39.000Z",
-      "excerpt": "Issue 395: Everything bleeds into everything – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD394 / The friendship recession",
-      "url": "https://www.densediscovery.com/issues/394/",
-      "publishedAt": "2026-06-22T07:00:02.000Z",
-      "excerpt": "Issue 394: The friendship recession – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
-    },
-    {
-      "title": "DD393 / The view from the apocalypse",
-      "url": "https://www.densediscovery.com/issues/393/",
-      "publishedAt": "2026-06-15T07:37:08.000Z",
-      "excerpt": "Issue 393: The view from the apocalypse – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
     },
     {
       "title": "A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy",

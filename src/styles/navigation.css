@@ -43,9 +43,9 @@
 }
 
 .source-navigation-page .navigator-arrow {
-  --arrow-icon: color-mix(in srgb, var(--theme-accent-text) 28%, var(--muted-copy));
-  --arrow-edge-base: color-mix(in srgb, var(--muted-copy) 50%, color-mix(in srgb, var(--rule) 80%, var(--ground)));
-  --arrow-edge: color-mix(in srgb, var(--theme-accent-text) 28%, var(--arrow-edge-base));
+  --arrow-icon: color-mix(in oklab, var(--theme-accent-text) 58%, var(--muted-copy));
+  --arrow-edge-base: color-mix(in oklab, var(--muted-copy) 50%, color-mix(in oklab, var(--rule) 80%, var(--ground)));
+  --arrow-edge: color-mix(in oklab, var(--theme-accent-text) 68%, var(--arrow-edge-base));
   -webkit-appearance: none;
   appearance: none;
   display: inline-grid;

@@ -43,7 +43,9 @@
 }
 
 .source-navigation-page .navigator-arrow {
-  --arrow-edge: color-mix(in srgb, var(--rule) 80%, var(--ground));
+  --arrow-icon: color-mix(in srgb, var(--theme-accent-text) 28%, var(--muted-copy));
+  --arrow-edge-base: color-mix(in srgb, var(--muted-copy) 50%, color-mix(in srgb, var(--rule) 80%, var(--ground)));
+  --arrow-edge: color-mix(in srgb, var(--theme-accent-text) 28%, var(--arrow-edge-base));
   -webkit-appearance: none;
   appearance: none;
   display: inline-grid;
@@ -56,7 +58,7 @@
   border: 0;
   border-radius: 0;
   background: transparent;
-  color: var(--muted-copy);
+  color: var(--arrow-icon);
   line-height: 0;
   -webkit-tap-highlight-color: transparent;
 }
@@ -82,7 +84,7 @@
 }
 
 .source-navigation-page .navigator-arrow:focus-visible {
-  outline: 2px solid var(--theme-accent-text);
+  outline: 2px solid var(--arrow-edge);
   outline-offset: -3px;
 }
 
@@ -129,7 +131,7 @@
   justify-content: center;
   gap: 12px;
   padding: 0 16px;
-  border: 0;
+  border: 1px solid color-mix(in srgb, var(--theme-accent-text) 14%, var(--rule));
   border-radius: 0;
   background: var(--surface);
   color: var(--theme-accent-text);
@@ -154,7 +156,7 @@
 }
 
 .source-navigation-page .source-navigator button:focus-visible {
-  outline: 2px solid var(--theme-accent-text);
+  outline: 2px solid var(--arrow-edge, var(--theme-accent-text));
   outline-offset: 2px;
 }
 

@@ -889,6 +889,12 @@ html.pointer-mode :focus-visible {
     display: none;
   }
 
+  /* WebKit can blank this async overflow layer during scripted vertical scrolling.
+     Keep native momentum scrolling for swipes; suspend it only for the page animation. */
+  .is-source-scrolling .sticky-topic-bar .filters {
+    overflow-x: hidden;
+  }
+
   .latest-heading {
     display: block;
   }

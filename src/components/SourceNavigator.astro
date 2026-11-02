@@ -18,29 +18,32 @@ const newestPublishedAt = (group: SourceCollection) => {
 
 <div class="source-navigator" data-source-navigator aria-label="Source navigation">
   <div class="navigator-switcher" aria-label="Browse sources">
-    <button class="navigator-current" type="button" data-open-sources aria-haspopup="dialog">
-      <span class="navigator-current-name" data-current-name>Choose a source</span>
-      <span class="navigator-open-mark" aria-hidden="true">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
+    <button class="navigator-current" type="button" data-open-sources aria-haspopup="dialog" aria-controls="source-picker" aria-expanded="false">
+      <span class="navigator-display">
+        <span class="navigator-current-name" data-current-name>Choose a source</span>
+        <span class="navigator-current-name navigator-outgoing-name" data-outgoing-name aria-hidden="true"></span>
+        <span class="navigator-open-mark" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="m6 7 4-4 4 4m-8 6 4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
       </span>
     </button>
-    <div class="navigator-arrows">
+    <div class="navigator-arrows" role="group" aria-label="Previous and next source">
       <button class="navigator-arrow" type="button" data-nav-prev aria-label="Previous source">
-        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M19 12H5m7-7-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <svg aria-hidden="true" width="22" height="18" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 10H2m4-4-4 4 4 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </button>
       <button class="navigator-arrow" type="button" data-nav-next aria-label="Next source">
-        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <svg aria-hidden="true" width="22" height="18" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 10h20m-4-4 4 4-4 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </button>
     </div>
   </div>
 
-  <dialog class="source-picker" aria-labelledby="source-picker-title">
+  <dialog id="source-picker" class="source-picker" aria-labelledby="source-picker-title">
     <div class="picker-sheet">
       <div class="picker-grabber" aria-hidden="true"></div>
       <header class="picker-header">
@@ -78,6 +81,86 @@ const newestPublishedAt = (group: SourceCollection) => {
     const prev = nav.querySelector<HTMLButtonElement>('[data-nav-prev]')!;
     const next = nav.querySelector<HTMLButtonElement>('[data-nav-next]')!;
     const currentName = nav.querySelector<HTMLElement>('[data-current-name]')!;
+    const outgoingName = nav.querySelector<HTMLElement>('[data-outgoing-name]')!;
+    const sourceSwitcher = nav.querySelector<HTMLButtonElement>('.navigator-current')!;
+    const reducedLabelMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const sourceTransitionDuration = 300;
+    const springPeakAt = .62;
+
+    function cubicBezierAt(time: number, x1: number, y1: number, x2: number, y2: number) {
+      const curve = (t: number, a: number, b: number) => 3 * (1 - t) ** 2 * t * a + 3 * (1 - t) * t ** 2 * b + t ** 3;
+      let low = 0;
+      let high = 1;
+      for (let i = 0; i < 16; i++) {
+        const middle = (low + high) / 2;
+        if (curve(middle, x1, x2) < time) low = middle;
+        else high = middle;
+      }
+      return curve((low + high) / 2, y1, y2);
+    }
+
+    function sourceSpringProgress(time: number, overshoot: number) {
+      if (time <= springPeakAt) {
+        const eased = cubicBezierAt(time / springPeakAt, .5, 0, .75, .2);
+        return eased * overshoot;
+      }
+      const eased = cubicBezierAt((time - springPeakAt) / (1 - springPeakAt), .4, 0, .7, 1);
+      return overshoot + (1 - overshoot) * eased;
+    }
+    let labelSourceId: string | undefined;
+    let labelInitialized = false;
+    let labelAnimations: Animation[] = [];
+
+    function settleLabel() {
+      labelAnimations.forEach((animation) => animation.cancel());
+      labelAnimations = [];
+      outgoingName.textContent = '';
+    }
+
+    reducedLabelMotion.addEventListener('change', () => {
+      if (reducedLabelMotion.matches) settleLabel();
+    });
+
+    function updateSourceLabel() {
+      const name = current?.dataset.sourceName ?? 'No sources in this topic';
+      if (labelInitialized && labelSourceId === current?.id) return;
+      const previousIndex = allGroups.findIndex((group) => group.id === labelSourceId);
+      const nextIndex = current ? allGroups.indexOf(current) : -1;
+      const previousName = currentName.textContent;
+      settleLabel();
+      currentName.textContent = name;
+      sourceSwitcher.setAttribute('aria-label', `Choose source: ${name}`);
+      sourceSwitcher.title = name;
+      const shouldAnimate = labelInitialized && !reducedLabelMotion.matches
+        && previousIndex >= 0 && nextIndex >= 0
+        && sourceSwitcher.getClientRects().length > 0;
+      labelInitialized = true;
+      labelSourceId = current?.id;
+      if (!shouldAnimate) return;
+
+      outgoingName.textContent = previousName;
+      // Both labels ride the same indexed wheel: forward rolls up, backward down.
+      // Clear the entire window before entering; percentage-of-label travel left
+      // a sliver of the incoming text visible at the edge of this taller display.
+      const direction = nextIndex > previousIndex ? 1 : -1;
+      const display = currentName.parentElement!;
+      const travel = (display.clientHeight + currentName.offsetHeight) / 2 + 2;
+      const pitch = direction * travel;
+      const stops = [
+        { progress: 0, offset: 0, easing: 'cubic-bezier(.5, 0, .75, .2)' },
+        { progress: 1 + 2 / travel, offset: springPeakAt, easing: 'cubic-bezier(.4, 0, .7, 1)' },
+        { progress: 1, offset: 1, easing: 'cubic-bezier(.4, 0, .7, 1)' },
+      ];
+      const options = { duration: sourceTransitionDuration, fill: 'both' as FillMode };
+      const outgoing = outgoingName.animate(stops.map(({ progress, ...timing }) => ({
+        ...timing, transform: `translateY(${-pitch * progress}px)`,
+      })), options);
+      const incoming = currentName.animate(stops.map(({ progress, ...timing }) => ({
+        ...timing, transform: `translateY(${pitch * (1 - progress)}px)`,
+      })), options);
+      labelAnimations = [outgoing, incoming];
+      incoming.onfinish = settleLabel;
+    }
     const dialog = nav.querySelector<HTMLDialogElement>('.source-picker')!;
     const pickerTitle = nav.querySelector<HTMLElement>('#source-picker-title')!;
     const results = nav.querySelector<HTMLElement>('[data-picker-results]')!;
@@ -90,7 +173,7 @@ const newestPublishedAt = (group: SourceCollection) => {
     let keepFocusAfterClose = false;
     let choosingFilteredSource = false;
     let pendingTarget: HTMLElement | undefined;
-    let quickScrollTarget: HTMLElement | undefined;
+    let animatedScrollTarget: HTMLElement | undefined;
     let pendingTimer = 0;
 
     function refreshVisible() {
@@ -107,7 +190,7 @@ const newestPublishedAt = (group: SourceCollection) => {
 
     function updateControls() {
       const index = current ? visibleGroups.indexOf(current) : -1;
-      currentName.textContent = current?.dataset.sourceName ?? 'No sources in this topic';
+      updateSourceLabel();
       prev.disabled = index <= 0;
       next.disabled = index < 0 || index >= visibleGroups.length - 1;
       sourceButtons.forEach((button) => {
@@ -128,67 +211,71 @@ const newestPublishedAt = (group: SourceCollection) => {
       return (topicBar?.getBoundingClientRect().height ?? 0) + 12;
     }
 
-    function animateQuickScroll(group: HTMLElement, top: number, duration: number) {
+    function animateSourceScroll(group: HTMLElement, top: number, duration: number, focusDestination: boolean) {
       const startY = window.scrollY;
       const distance = top - startY;
       const startTime = performance.now();
 
       function step(now: number) {
-        if (pendingTarget !== group || quickScrollTarget !== group) return;
+        if (pendingTarget !== group || animatedScrollTarget !== group) return;
         const progress = Math.min(1, (now - startTime) / duration);
-        const eased = progress < 0.5
-          ? 4 * progress * progress * progress
-          : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+        const eased = sourceSpringProgress(progress, 1);
         window.scrollTo(0, startY + distance * eased);
         if (progress < 1) {
           requestAnimationFrame(step);
           return;
         }
 
-        quickScrollTarget = undefined;
+        animatedScrollTarget = undefined;
         window.clearTimeout(pendingTimer);
         pendingTarget = undefined;
+        document.documentElement.classList.remove('is-source-scrolling');
         updateCurrentFromScroll();
+        if (focusDestination) group.focus({ preventScroll: true });
       }
 
       requestAnimationFrame(step);
     }
 
-    function jumpTo(group: HTMLElement, selected = true, quickMobile = false) {
+    function jumpTo(group: HTMLElement, selected = true, focusDestination = false) {
       if (group.hidden) return;
       current = group;
       explicitlySelected = selected;
       updateControls();
-      group.focus({ preventScroll: true });
       const top = Math.max(0, group.getBoundingClientRect().top + window.scrollY - stickyOffset());
       const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      const useQuickMobileScroll = quickMobile && window.matchMedia('(max-width: 640px)').matches && !reducedMotion;
       pendingTarget = group;
-      quickScrollTarget = undefined;
+      animatedScrollTarget = undefined;
       window.clearTimeout(pendingTimer);
-      if (useQuickMobileScroll) {
-        const duration = Math.min(480, Math.max(300, Math.abs(top - window.scrollY) / 6));
-        quickScrollTarget = group;
+      document.documentElement.classList.remove('is-source-scrolling');
+      if (!reducedMotion) {
+        const duration = sourceTransitionDuration;
+        animatedScrollTarget = group;
+        document.documentElement.classList.add('is-source-scrolling');
         pendingTimer = window.setTimeout(() => {
           if (pendingTarget !== group) return;
-          quickScrollTarget = undefined;
+          animatedScrollTarget = undefined;
           pendingTarget = undefined;
+          document.documentElement.classList.remove('is-source-scrolling');
           updateCurrentFromScroll();
+          if (focusDestination) group.focus({ preventScroll: true });
         }, duration + 150);
-        animateQuickScroll(group, top, duration);
+        animateSourceScroll(group, top, duration, focusDestination);
         return;
       }
       pendingTimer = window.setTimeout(() => {
         pendingTarget = undefined;
         updateCurrentFromScroll();
-      }, reducedMotion ? 100 : Math.min(2200, 450 + Math.abs(window.scrollY - top) / 2));
-      window.scrollTo({ top, behavior: reducedMotion ? 'instant' : 'smooth' });
+      }, 100);
+      window.scrollTo({ top, behavior: 'instant' });
+      if (focusDestination) group.focus({ preventScroll: true });
     }
 
     function openPicker(event: Event) {
       opener = event.currentTarget as HTMLButtonElement;
       refreshVisible();
       if (!dialog.open) dialog.showModal();
+      sourceSwitcher.setAttribute('aria-expanded', 'true');
       requestAnimationFrame(() => {
         pickerTitle.focus({ preventScroll: true });
         results.scrollTop = 0;
@@ -288,6 +375,7 @@ const newestPublishedAt = (group: SourceCollection) => {
       if (event.target === dialog) dialog.close();
     });
     dialog.addEventListener('close', () => {
+      sourceSwitcher.setAttribute('aria-expanded', 'false');
       sheetAnimation?.cancel();
       sheetAnimation = undefined;
       sheetTouch = undefined;
@@ -314,15 +402,15 @@ const newestPublishedAt = (group: SourceCollection) => {
       }
       keepFocusAfterClose = true;
       dialog.close();
-      if (group) jumpTo(group);
+      if (group) jumpTo(group, true, true);
     }));
     prev.addEventListener('click', () => {
       const index = current ? visibleGroups.indexOf(current) : -1;
-      if (index > 0) jumpTo(visibleGroups[index - 1], true, true);
+      if (index > 0) jumpTo(visibleGroups[index - 1]);
     });
     next.addEventListener('click', () => {
       const index = current ? visibleGroups.indexOf(current) : -1;
-      if (index >= 0 && index < visibleGroups.length - 1) jumpTo(visibleGroups[index + 1], true, true);
+      if (index >= 0 && index < visibleGroups.length - 1) jumpTo(visibleGroups[index + 1]);
     });
 
     function updateCurrentFromScroll() {
@@ -353,14 +441,15 @@ const newestPublishedAt = (group: SourceCollection) => {
       requestAnimationFrame(() => { scrollPending = false; updateCurrentFromScroll(); });
     }, { passive: true });
     window.addEventListener('scrollend', () => {
-      if (!pendingTarget || quickScrollTarget) return;
+      if (!pendingTarget || animatedScrollTarget) return;
       pendingTarget = undefined;
       window.clearTimeout(pendingTimer);
       updateCurrentFromScroll();
     });
     function interruptPendingScroll() {
-      quickScrollTarget = undefined;
+      animatedScrollTarget = undefined;
       pendingTarget = undefined;
+      document.documentElement.classList.remove('is-source-scrolling');
       window.clearTimeout(pendingTimer);
     }
     window.addEventListener('wheel', interruptPendingScroll, { passive: true });

@@ -180,6 +180,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     const groups = [...document.querySelectorAll<HTMLElement>('.source-group')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
     let selectedTopic = 'All';
+    let scrollTopic: string | undefined;
 
     function setStickyVisible(visible: boolean) {
       if (!stickyBar) return;
@@ -218,6 +219,8 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         current = group;
       }
       const topic = current?.dataset.category ?? selectedTopic;
+      if (scrollTopic === topic) return;
+      scrollTopic = topic;
       stickyBar.querySelectorAll<HTMLButtonElement>('.filter').forEach((filter) => {
         const active = filter.dataset.filter === topic;
         filter.classList.toggle('active', active);
@@ -249,6 +252,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       const nextTopic = button.dataset.filter ?? 'All';
       if (nextTopic !== selectedTopic) resetGroupPages();
       selectedTopic = nextTopic;
+      scrollTopic = undefined;
 
       if (updateUrl && selectedTopic !== topicFromUrl()) {
         const url = new URL(window.location.href);

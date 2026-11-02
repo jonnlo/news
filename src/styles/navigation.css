@@ -23,7 +23,7 @@
   min-height: 56px;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 12px;
   padding: 5px 8px;
 }
 
@@ -35,28 +35,36 @@
   cursor: pointer;
 }
 
+/* Two separate transport keys share a lightweight group. */
 .source-navigation-page .navigator-arrows {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: 4px;
+  gap: 0;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 1px;
+  background: var(--ground);
 }
 
 .source-navigation-page .navigator-arrow {
+  touch-action: manipulation;
   --arrow-icon: color-mix(in oklab, var(--theme-accent-text) 58%, var(--muted-copy));
   --arrow-edge-base: color-mix(in oklab, var(--muted-copy) 50%, color-mix(in oklab, var(--rule) 80%, var(--ground)));
   --arrow-edge: color-mix(in oklab, var(--theme-accent-text) 68%, var(--arrow-edge-base));
+  --key-edge: var(--arrow-edge);
   -webkit-appearance: none;
   appearance: none;
   display: inline-grid;
   position: relative;
-  width: 44px;
+  width: 60px;
   height: 44px;
   flex: 0 0 auto;
   place-items: center;
   padding: 0;
   border: 0;
-  border-radius: 0;
+  border-radius: 1px;
   background: transparent;
   color: var(--arrow-icon);
   line-height: 0;
@@ -67,12 +75,16 @@
   content: '';
   position: absolute;
   inset: 0 0 2px;
-  border: 1px solid var(--arrow-edge);
-  border-radius: 0;
+  border: 1px solid var(--key-edge);
+  border-radius: 1px;
   background: var(--surface);
-  box-shadow: 0 2px 0 var(--arrow-edge);
-  transition: transform 80ms ease-out;
+  box-shadow: 0 2px 0 var(--key-edge), inset 0 1px 0 color-mix(in srgb, var(--surface) 80%, white);
+  transition: transform 80ms ease-out, box-shadow 80ms ease-out;
   pointer-events: none;
+}
+
+.source-navigation-page .navigator-arrow + .navigator-arrow {
+  margin-inline-start: -1px;
 }
 
 .source-navigation-page .navigator-arrow svg {
@@ -80,23 +92,16 @@
   position: relative;
   flex: 0 0 auto;
   transform: translateY(-1px);
-  transition: transform 80ms ease-out, color 80ms ease-out;
-}
-
-.source-navigation-page .navigator-arrow:focus-visible {
-  outline: 2px solid var(--arrow-edge);
-  outline-offset: -3px;
+  transition: transform 80ms ease-out;
 }
 
 .source-navigation-page .navigator-arrow:active:not(:disabled)::before {
   transform: translateY(2px);
-  background: transparent;
-  box-shadow: none;
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--surface) 80%, white);
 }
 
 .source-navigation-page .navigator-arrow:active:not(:disabled) svg {
   transform: translateY(1px);
-  color: color-mix(in srgb, var(--muted-copy) 78%, black);
 }
 
 .source-navigation-page .navigator-arrow:disabled {
@@ -114,45 +119,84 @@
   transform: none;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .source-navigation-page .navigator-arrow::before,
-  .source-navigation-page .navigator-arrow svg {
-    transition: none;
-  }
-}
-
+/* The whole selector is one button, with a plain chevron inside the display. */
 .source-navigation-page .navigator-current {
+  touch-action: manipulation;
   -webkit-appearance: none;
   appearance: none;
   display: flex;
+  flex: 1 1 0;
   min-width: 0;
-  min-height: 44px;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  padding: 0 16px;
-  border: 1px solid color-mix(in srgb, var(--theme-accent-text) 14%, var(--rule));
-  border-radius: 0;
-  background: var(--surface);
+  height: 44px;
+  align-items: stretch;
+  gap: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 1px;
+  background: var(--ground);
   color: var(--theme-accent-text);
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.source-navigation-page .navigator-display {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex: 1 1 0;
+  min-width: 0;
+  align-items: center;
+  padding: 0 38px 0 10px;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  box-shadow: inset 0 1px 3px color-mix(in srgb, var(--text) 12%, transparent);
 }
 
 .source-navigation-page .navigator-current-name {
+  display: block;
   overflow: hidden;
-  max-width: min(48vw, 420px);
+  width: 100%;
   font-size: 14px;
   font-weight: 700;
+  line-height: 24px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
+.source-navigation-page .navigator-outgoing-name {
+  position: absolute;
+  inset-inline: 10px 38px;
+  width: auto;
+  pointer-events: none;
+}
+
 .source-navigation-page .navigator-open-mark {
   display: inline-grid;
-  width: 20px;
-  height: 20px;
-  flex: 0 0 auto;
+  position: absolute;
+  inset-inline-end: 10px;
+  width: 18px;
+  height: 18px;
   place-items: center;
   color: var(--muted-copy);
+  transition: transform 80ms ease-out;
+}
+
+.source-navigation-page .navigator-current:active .navigator-open-mark {
+  transform: translateY(1px);
+}
+
+@media (hover: hover) {
+  .source-navigation-page .navigator-arrow:hover:not(:disabled)::before {
+    background: color-mix(in srgb, var(--surface) 94%, var(--theme-accent-text));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .source-navigation-page .navigator-arrow::before,
+  .source-navigation-page .navigator-arrow svg,
+  .source-navigation-page .navigator-open-mark {
+    transition: none;
+  }
 }
 
 .source-navigation-page .source-navigator button:focus-visible {
@@ -343,27 +387,8 @@ body:has(.source-navigation-page .source-picker:modal) {
 
   .source-navigation-page .navigator-switcher {
     min-height: 58px;
-    gap: 5px;
+    gap: 12px;
     padding: 0;
-  }
-
-  .source-navigation-page .navigator-arrow {
-    width: 48px;
-    height: 48px;
-  }
-
-  .source-navigation-page .navigator-current {
-    flex: 1;
-    min-height: 48px;
-    justify-content: space-between;
-    padding: 0 15px;
-  }
-
-  .source-navigation-page .navigator-current-name {
-    max-width: calc(100vw - 180px);
-    text-align: left;
-    font-size: 14px;
-    font-weight: 700;
   }
 
   .source-navigation-page .source-picker {

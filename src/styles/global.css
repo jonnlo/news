@@ -831,9 +831,43 @@ html.pointer-mode :focus-visible {
   list-style: none;
   gap: 0;
   padding: 8px 10px;
-  border-top: 1px solid var(--rule);
+  border: 0;
   border-radius: 0;
+  background: transparent;
+}
+
+.source-group .story-viewport {
+  min-width: 0;
+  overflow: hidden;
+  border-top: 1px solid var(--rule);
   background: var(--surface);
+  transition: height 280ms cubic-bezier(.22, 1, .36, 1);
+  touch-action: pan-y;
+}
+
+.source-group .story-track {
+  display: flex;
+  align-items: flex-start;
+  width: 200%;
+  transform: translate3d(var(--story-track-x, 0px), 0, 0);
+  transition: transform 280ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.source-group .story-page {
+  flex: 0 0 50%;
+  width: 50%;
+  min-width: 0;
+}
+
+.source-group .story-viewport.is-dragging {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.source-group .story-viewport.is-dragging .story-track,
+.source-group .story-viewport.is-immediate,
+.source-group .story-viewport.is-immediate .story-track {
+  transition: none;
 }
 
 .source-group .story-card {
@@ -955,5 +989,12 @@ html.pointer-mode :focus-visible {
 
   .source-group .story-content {
     padding: 5px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .source-group .story-viewport,
+  .source-group .story-track {
+    transition: none;
   }
 }

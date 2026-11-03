@@ -93,7 +93,7 @@
   border-radius: 1px;
   background: var(--surface);
   box-shadow: 0 2px 0 var(--key-edge), inset 0 1px 0 color-mix(in srgb, var(--surface) 80%, white);
-  transition: transform 80ms ease-out, box-shadow 80ms ease-out;
+  transition: transform 80ms ease-out, box-shadow 80ms ease-out, background-color 80ms ease-out;
   pointer-events: none;
 }
 
@@ -121,16 +121,6 @@
 .source-navigation-page .navigator-arrow:disabled {
   opacity: .35;
   cursor: default;
-}
-
-.source-navigation-page .navigator-arrow:disabled::before {
-  inset: 0;
-  background: transparent;
-  box-shadow: none;
-}
-
-.source-navigation-page .navigator-arrow:disabled svg {
-  transform: none;
 }
 
 /* The whole selector is one button, with a plain chevron inside the display. */
@@ -442,6 +432,10 @@ body:has(.source-navigation-page .source-picker:modal) {
 }
 
 @media (max-width: 640px) {
+  .source-navigation-page .navigator-arrow:active:not(:disabled)::before {
+    background: color-mix(in srgb, var(--surface) 90%, var(--theme-accent-text));
+  }
+
   .source-navigation-page .topic-bar .filter,
   .source-navigation-page .topic-bar .filter.active {
     height: 32px;

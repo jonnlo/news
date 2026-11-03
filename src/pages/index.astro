@@ -138,11 +138,25 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
                   </nav>
                 )}
               </header>
-              <ul class="story-list" id={`stories-${groupIndex}`} role="list">
-                {group.stories.map((story, storyIndex) => (
-                  <StoryCard story={story} referenceDate={edition?.date} page={Math.floor(storyIndex / 10) + 1} initiallyHidden={storyIndex >= 10} />
-                ))}
-              </ul>
+              <div class="story-viewport" id={`stories-${groupIndex}`} data-story-viewport>
+                <div class="story-track" data-story-track style="--story-track-x: 0px">
+                  {[1, 2].filter((page) => group.stories.slice((page - 1) * 10, page * 10).length > 0).map((page) => (
+                    <ul
+                      class="story-list story-page"
+                      id={`stories-${groupIndex}-page-${page}`}
+                      data-story-page={page}
+                      role="list"
+                      aria-label={`Stories ${page === 1 ? '1–10' : '11–20'}`}
+                      aria-hidden={page === 1 ? undefined : 'true'}
+                      inert={page === 1 ? undefined : true}
+                    >
+                      {group.stories.slice((page - 1) * 10, page * 10).map((story, storyIndex) => (
+                        <StoryCard story={story} referenceDate={edition?.date} page={page} initiallyHidden={false} />
+                      ))}
+                    </ul>
+                  ))}
+                </div>
+              </div>
             </section>
           ))}
           <p class="empty-state" hidden>No headlines in this topic for this collection.</p>
@@ -272,30 +286,264 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
     document.addEventListener('source-category-reset', () => selectTopic('All', true));
 
-    function setGroupPage(group: HTMLElement, page: number) {
-      const nextPage = page === 2 && group.querySelectorAll<HTMLElement>('.story[data-page="2"]').length > 0 ? 2 : 1;
+    const reducedStoryMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const storyViewports = new Map<HTMLElement, {
+      viewport: HTMLElement;
+      track: HTMLElement;
+      panels: HTMLElement[];
+      pageHeights: Map<number, number>;
+      lastHeight: number;
+      compensateAbove: boolean;
+      clampAfterTransition: { top: number; height: number } | undefined;
+    }>();
+
+    function pageHeight(panel: HTMLElement) {
+      return panel.getBoundingClientRect().height + 1;
+    }
+
+    function setGroupPage(group: HTMLElement, page: number, animate = true) {
+      const state = storyViewports.get(group);
+      if (!state) return;
+      const maxPage = Math.max(1, ...state.panels.map((panel) => Number(panel.dataset.storyPage) || 1));
+      const nextPage = Math.min(maxPage, Math.max(1, page));
+      const viewportRect = state.viewport.getBoundingClientRect();
+      const hidden = group.hidden;
+      const oldHeight = viewportRect.height || Number.parseFloat(state.viewport.style.height) || 0;
+      const newPanel = state.panels.find((panel) => Number(panel.dataset.storyPage) === nextPage) ?? state.panels[0];
+      if (!newPanel) return;
+      const nextHeight = hidden
+        ? state.pageHeights.get(nextPage) ?? pageHeight(newPanel)
+        : pageHeight(newPanel);
+      if (!hidden) state.pageHeights.set(nextPage, nextHeight);
+      const documentTop = viewportRect.top + window.scrollY;
+      const wasAbove = !hidden && viewportRect.height > 0 && viewportRect.bottom <= 0;
+      const wasIntersecting = !hidden && viewportRect.height > 0 && viewportRect.top < 0 && viewportRect.bottom > 0;
+      state.clampAfterTransition = wasIntersecting && nextHeight < oldHeight
+        ? { top: documentTop, height: nextHeight }
+        : undefined;
+      const heightChanged = Math.abs(nextHeight - oldHeight) > 1;
+      state.compensateAbove = wasAbove && heightChanged && animate && !reducedStoryMotion.matches;
+
       group.dataset.page = String(nextPage);
-      group.querySelectorAll<HTMLElement>('.story').forEach((story) => {
-        story.hidden = Number(story.dataset.page) !== nextPage;
+      state.panels.forEach((panel) => {
+        const active = Number(panel.dataset.storyPage) === nextPage;
+        panel.inert = !active;
+        if (active) panel.removeAttribute('aria-hidden');
+        else panel.setAttribute('aria-hidden', 'true');
       });
       group.querySelectorAll<HTMLButtonElement>('.source-page-button').forEach((button) => {
         const active = Number(button.dataset.page) === nextPage;
         button.classList.toggle('active', active);
         button.setAttribute('aria-pressed', String(active));
-        button.setAttribute('aria-label', `Show stories ${nextPage === 1 ? '11–20' : '1–10'} of ${group.getAttribute('aria-label') ?? 'headlines'}`);
+        const togglePage = nextPage === 1 ? 2 : 1;
+        button.setAttribute('aria-label', `Show stories ${togglePage === 1 ? '1–10' : '11–20'} of ${group.getAttribute('aria-label') ?? 'headlines'}`);
         if (active) button.setAttribute('aria-current', 'page');
         else button.removeAttribute('aria-current');
       });
+      state.viewport.style.height = `${nextHeight}px`;
+      state.track.style.setProperty('--story-track-x', nextPage === 1 ? '0px' : `${-state.viewport.clientWidth}px`);
+      if (!animate || reducedStoryMotion.matches) {
+        state.viewport.classList.add('is-immediate');
+        void state.viewport.offsetHeight;
+        requestAnimationFrame(() => state.viewport.classList.remove('is-immediate'));
+      }
+      if (wasAbove && heightChanged && (!animate || reducedStoryMotion.matches)) window.scrollBy(0, nextHeight - oldHeight);
+      if (wasIntersecting && nextHeight < oldHeight && window.scrollY > documentTop + nextHeight - 80) {
+        window.scrollTo(0, Math.max(0, documentTop + Math.max(0, nextHeight - 80)));
+      }
+      if (!animate || reducedStoryMotion.matches) {
+        state.clampAfterTransition = undefined;
+        state.compensateAbove = false;
+      }
     }
 
     function resetGroupPages() {
-      groups.forEach((group) => setGroupPage(group, 1));
+      groups.forEach((group) => setGroupPage(group, 1, false));
+    }
+
+    function readTrackX(track: HTMLElement) {
+      const transform = getComputedStyle(track).transform;
+      if (!transform || transform === 'none') return 0;
+      const values = transform.match(/matrix(?:3d)?\((.+)\)/)?.[1].split(',').map(Number);
+      if (!values) return 0;
+      return values.length === 16 ? values[12] : values[4];
+    }
+
+    let suppressedStoryViewport: HTMLElement | undefined;
+    let suppressStoryClickUntil = 0;
+    document.addEventListener('click', (event) => {
+      if (performance.now() < suppressStoryClickUntil && suppressedStoryViewport
+        && event.target instanceof Node && suppressedStoryViewport.contains(event.target)) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }
+    }, true);
+
+    function installStorySwipe(group: HTMLElement, state: { viewport: HTMLElement; track: HTMLElement; panels: HTMLElement[] }) {
+      const { viewport, track, panels } = state;
+      let gesture: {
+        touchId: number;
+        startX: number;
+        startY: number;
+        lastX: number;
+        lastTime: number;
+        velocity: number;
+        baseX: number;
+        startPage: number;
+        claimed: boolean;
+      } | undefined;
+      function cancelGesture() {
+        if (!gesture) return;
+        const cancelled = gesture;
+        gesture = undefined;
+        if (!cancelled.claimed) return;
+        suppressedStoryViewport = viewport;
+        suppressStoryClickUntil = performance.now() + 400;
+        viewport.classList.remove('is-dragging');
+        setGroupPage(group, cancelled.startPage, true);
+      }
+
+      viewport.addEventListener('touchstart', (event) => {
+        if (gesture && event.touches.length !== 1) {
+          cancelGesture();
+          return;
+        }
+        if (!mobile.matches || gesture || event.touches.length !== 1) return;
+        const touch = event.changedTouches[0];
+        if (!touch) return;
+        gesture = {
+          touchId: touch.identifier,
+          startX: touch.clientX,
+          startY: touch.clientY,
+          lastX: touch.clientX,
+          lastTime: performance.now(),
+          velocity: 0,
+          baseX: readTrackX(track),
+          startPage: Number(group.dataset.page) || 1,
+          claimed: false,
+        };
+      }, { passive: true });
+
+      viewport.addEventListener('touchmove', (event) => {
+        if (!gesture) return;
+        if (event.touches.length !== 1 || !event.cancelable) {
+          cancelGesture();
+          return;
+        }
+        const touch = [...event.changedTouches].find((candidate) => candidate.identifier === gesture!.touchId);
+        if (!touch) return;
+        const dx = touch.clientX - gesture.startX;
+        const dy = touch.clientY - gesture.startY;
+        if (!gesture.claimed) {
+          if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
+          if (Math.abs(dx) < Math.abs(dy) * 1.2) {
+            if (Math.abs(dy) > Math.abs(dx) * 1.2) gesture = undefined;
+            return;
+          }
+          event.preventDefault();
+          gesture.claimed = true;
+          viewport.classList.add('is-dragging');
+          window.getSelection()?.removeAllRanges();
+        } else {
+          event.preventDefault();
+        }
+        const width = Math.max(1, viewport.clientWidth);
+        let nextX = gesture.baseX + dx;
+        if (nextX > 0) nextX *= 0.22;
+        if (nextX < -width) nextX = -width + (nextX + width) * 0.22;
+        track.style.setProperty('--story-track-x', `${nextX}px`);
+        const now = performance.now();
+        gesture.velocity = (touch.clientX - gesture.lastX) / Math.max(1, now - gesture.lastTime);
+        gesture.lastX = touch.clientX;
+        gesture.lastTime = now;
+      }, { passive: false });
+
+      function finishGesture(touch: Touch, cancelled = false) {
+        if (!gesture || gesture.touchId !== touch.identifier) return;
+        const finished = gesture;
+        gesture = undefined;
+        if (!finished.claimed) return;
+        suppressedStoryViewport = viewport;
+        suppressStoryClickUntil = performance.now() + 400;
+        const dx = touch.clientX - finished.startX;
+        const width = Math.max(1, viewport.clientWidth);
+        const enoughTravel = Math.abs(dx) >= width * 0.25;
+        const recentMovement = performance.now() - finished.lastTime <= 100;
+        const enoughFlick = recentMovement && Math.abs(dx) >= 20 && Math.abs(finished.velocity) > 0.45 && Math.sign(finished.velocity) === Math.sign(dx);
+        const committed = !cancelled && (enoughTravel || enoughFlick);
+        const targetPage = committed
+          ? Math.max(1, Math.min(panels.length, finished.startPage + (dx < 0 ? 1 : -1)))
+          : finished.startPage;
+        viewport.classList.remove('is-dragging');
+        setGroupPage(group, targetPage, true);
+      }
+
+      viewport.addEventListener('touchend', (event) => {
+        const touch = [...event.changedTouches].find((candidate) => candidate.identifier === gesture?.touchId);
+        if (touch) finishGesture(touch);
+      }, { passive: true });
+      viewport.addEventListener('touchcancel', (event) => {
+        if (event.changedTouches.length) cancelGesture();
+      }, { passive: true });
     }
 
     groups.forEach((group) => {
-      group.querySelectorAll<HTMLButtonElement>('.source-page-button').forEach((button) => {
-        button.addEventListener('click', () => setGroupPage(group, group.dataset.page === '1' ? 2 : 1));
+      const viewport = group.querySelector<HTMLElement>('[data-story-viewport]');
+      const track = group.querySelector<HTMLElement>('[data-story-track]');
+      const panels = [...group.querySelectorAll<HTMLElement>('[data-story-page]')];
+      if (!viewport || !track || !panels.length) return;
+      const pageHeights = new Map(panels.map((panel) => [Number(panel.dataset.storyPage), pageHeight(panel)]));
+      const state = {
+        viewport,
+        track,
+        panels,
+        pageHeights,
+        lastHeight: 0,
+        compensateAbove: false,
+        clampAfterTransition: undefined as { top: number; height: number } | undefined,
+      };
+      storyViewports.set(group, state);
+      const initialPage = Number(group.dataset.page) || 1;
+      panels.forEach((panel) => {
+        const active = Number(panel.dataset.storyPage) === initialPage;
+        panel.inert = !active;
+        if (active) panel.removeAttribute('aria-hidden');
+        else panel.setAttribute('aria-hidden', 'true');
       });
+      const initialPanel = panels.find((panel) => Number(panel.dataset.storyPage) === initialPage) ?? panels[0];
+      viewport.style.height = `${pageHeight(initialPanel)}px`;
+      track.style.setProperty('--story-track-x', initialPage === 1 ? '0px' : `${-viewport.clientWidth}px`);
+      state.lastHeight = viewport.getBoundingClientRect().height;
+      const resizeObserver = new ResizeObserver(() => {
+        const currentHeight = viewport.getBoundingClientRect().height;
+        if (state.compensateAbove && Math.abs(currentHeight - state.lastHeight) > 0.5) {
+          window.scrollBy(0, currentHeight - state.lastHeight);
+        }
+        state.lastHeight = currentHeight;
+      });
+      resizeObserver.observe(viewport);
+      viewport.addEventListener('transitionend', (event) => {
+        if (event.propertyName !== 'height') return;
+        state.compensateAbove = false;
+        if (!state.clampAfterTransition) return;
+        const rect = viewport.getBoundingClientRect();
+        if (rect.bottom <= 0) {
+          const { top, height } = state.clampAfterTransition;
+          window.scrollTo(0, Math.max(0, top + Math.max(0, height - 96)));
+        }
+        state.clampAfterTransition = undefined;
+      });
+      group.querySelectorAll<HTMLButtonElement>('.source-page-button').forEach((button) => {
+        button.addEventListener('click', () => {
+          const currentPage = Number(group.dataset.page) || 1;
+          setGroupPage(group, currentPage === 1 ? 2 : 1);
+        });
+      });
+      if (panels.length > 1) installStorySwipe(group, state);
+    });
+
+    window.addEventListener('resize', () => {
+      groups.forEach((group) => setGroupPage(group, Number(group.dataset.page) || 1, false));
     });
 
     filters.forEach((button) => button.addEventListener('click', () => {

@@ -16,6 +16,15 @@ const baseUrl = import.meta.env.BASE_URL.endsWith('/')
     <link rel="icon" type="image/svg+xml" href={`${baseUrl}favicon.svg`} />
     <title>{title}</title>
     <script is:inline>
+      const standalone = window.matchMedia('(display-mode: standalone)').matches
+        || window.navigator.standalone === true;
+      document.documentElement.classList.toggle('is-standalone', standalone);
+      if (standalone) {
+        document.querySelector('meta[name="viewport"]')?.setAttribute(
+          'content',
+          'width=device-width, initial-scale=1, viewport-fit=cover',
+        );
+      }
       try {
         if (localStorage.getItem('daily-brief-theme') === 'dark') {
           document.documentElement.classList.add('dark');

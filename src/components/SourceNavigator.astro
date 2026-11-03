@@ -55,20 +55,30 @@ const newestPublishedAt = (group: SourceCollection) => {
         </button>
       </header>
       <div class="picker-results" data-picker-results>
-        {topics.map((topic) => (
+        {topics.map((topic) => {
+          const topicGroups = groups.filter((group) => group.category === topic);
+          return (
           <section class="picker-topic" data-picker-topic={topic} aria-label={topic}>
-            <h3>{topic === 'Technology' ? 'Tech' : topic}</h3>
+            <h3>
+              <span>{topic === 'Technology' ? 'Tech' : topic}</span>
+              <span class="picker-topic-count">{topicGroups.length} {topicGroups.length === 1 ? 'source' : 'sources'}</span>
+            </h3>
             <div class="picker-topic-sources">
-              {groups.filter((group) => group.category === topic).map((group) => (
+              {topicGroups.map((group) => (
                 <button class="picker-source" type="button" data-source-id={`source-${groups.indexOf(group)}`} data-picker-source data-source-name={group.displayName ?? group.name}>
                   <span class="picker-source-name">{group.displayName ?? group.name}</span>
-                  <span class="picker-source-age"> · <time datetime={newestPublishedAt(group) ?? undefined} title={formatPublicationTimestamp(newestPublishedAt(group))} data-relative-age>{formatRelativeAge(newestPublishedAt(group))}</time></span>
+                  <span class="picker-source-age"><time datetime={newestPublishedAt(group) ?? undefined} title={formatPublicationTimestamp(newestPublishedAt(group))} data-relative-age>{formatRelativeAge(newestPublishedAt(group))}</time></span>
                 </button>
               ))}
             </div>
           </section>
-        ))}
+          );
+        })}
       </div>
+      <footer class="picker-footer">
+        <span>{groups.length} {groups.length === 1 ? 'source' : 'sources'}</span>
+        <span>Time since latest story</span>
+      </footer>
     </div>
   </dialog>
 </div>
@@ -274,7 +284,20 @@ const newestPublishedAt = (group: SourceCollection) => {
     function openPicker(event: Event) {
       opener = event.currentTarget as HTMLButtonElement;
       refreshVisible();
-      if (!dialog.open) dialog.showModal();
+      if (!dialog.open) {
+        dialog.showModal();
+        if (window.matchMedia('(max-width: 640px)').matches
+          && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          const openingAnimation = dialog.animate(
+            [{ transform: 'translateY(100%)' }, { transform: 'translateY(0)' }],
+            { duration: 240, easing: 'cubic-bezier(.22, 1, .36, 1)' },
+          );
+          sheetAnimation = openingAnimation;
+          openingAnimation.onfinish = () => {
+            if (sheetAnimation === openingAnimation) sheetAnimation = undefined;
+          };
+        }
+      }
       sourceSwitcher.setAttribute('aria-expanded', 'true');
       requestAnimationFrame(() => {
         pickerTitle.focus({ preventScroll: true });
@@ -282,9 +305,16 @@ const newestPublishedAt = (group: SourceCollection) => {
         const active = sourceButtons.find((button) => button.classList.contains('is-current') && !button.hidden);
         const topicHeading = active?.closest<HTMLElement>('[data-picker-topic]')?.querySelector<HTMLElement>('h3');
         if (topicHeading) {
-          const resultsTop = results.getBoundingClientRect().top;
+          const resultsTop = results.getBoundingClientRect().top + 12;
           const headingTop = topicHeading.getBoundingClientRect().top;
           results.scrollTop += headingTop - resultsTop;
+          if (active) {
+            const visibleTop = results.getBoundingClientRect().top + 8;
+            const visibleBottom = results.getBoundingClientRect().bottom - 8;
+            const activeRect = active.getBoundingClientRect();
+            if (activeRect.top < visibleTop) results.scrollTop -= visibleTop - activeRect.top;
+            else if (activeRect.bottom > visibleBottom) results.scrollTop += activeRect.bottom - visibleBottom;
+          }
         }
       });
     }

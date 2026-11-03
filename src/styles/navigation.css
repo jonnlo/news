@@ -37,7 +37,7 @@
   min-height: 56px;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 8px;
   padding: 5px 8px;
 }
 
@@ -99,6 +99,18 @@
 
 .source-navigation-page .navigator-arrow + .navigator-arrow {
   margin-inline-start: -1px;
+}
+
+.source-navigation-page .navigator-arrow:first-child,
+.source-navigation-page .navigator-arrow:first-child::before {
+  border-start-end-radius: 2px;
+  border-end-end-radius: 2px;
+}
+
+.source-navigation-page .navigator-arrow:last-child,
+.source-navigation-page .navigator-arrow:last-child::before {
+  border-start-start-radius: 2px;
+  border-end-start-radius: 2px;
 }
 
 .source-navigation-page .navigator-arrow svg {
@@ -462,7 +474,6 @@ body:has(.source-navigation-page .source-picker:modal) {
 
   .source-navigation-page .navigator-switcher {
     min-height: 58px;
-    gap: 12px;
     padding: 0;
   }
 

@@ -256,6 +256,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         if (matches) matching += 1;
       });
       if (empty) empty.hidden = matching > 0;
+      refreshStoryHeights();
       document.dispatchEvent(new CustomEvent('sources-filtered'));
     }
 
@@ -540,9 +541,12 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       if (panels.length > 1) installStorySwipe(group, state);
     });
 
-    window.addEventListener('resize', () => {
+    function refreshStoryHeights() {
       groups.forEach((group) => setGroupPage(group, Number(group.dataset.page) || 1, false));
-    });
+    }
+
+    window.addEventListener('resize', refreshStoryHeights);
+    document.fonts.ready.then(refreshStoryHeights);
 
     filters.forEach((button) => button.addEventListener('click', () => {
       const topic = button.dataset.filter ?? 'All';

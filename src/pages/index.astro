@@ -364,9 +364,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     function readTrackX(track: HTMLElement) {
       const transform = getComputedStyle(track).transform;
       if (!transform || transform === 'none') return 0;
-      const values = transform.match(/matrix(?:3d)?\((.+)\)/)?.[1].split(',').map(Number);
-      if (!values) return 0;
-      return values.length === 16 ? values[12] : values[4];
+      return new DOMMatrixReadOnly(transform).m41;
     }
 
     let suppressedStoryViewport: HTMLElement | undefined;

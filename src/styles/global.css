@@ -844,14 +844,14 @@ html.pointer-mode :focus-visible {
   border-radius: var(--ui-radius);
   background: var(--surface);
   transition: height 280ms cubic-bezier(.22, 1, .36, 1);
-  touch-action: pan-y;
+  touch-action: pan-y pinch-zoom;
 }
 
 .source-group .story-track {
   display: flex;
   align-items: flex-start;
   width: 200%;
-  transform: translate3d(var(--story-track-x, 0px), 0, 0);
+  transform: translateX(var(--story-track-x, 0px));
   transition: transform 280ms cubic-bezier(.22, 1, .36, 1);
 }
 

@@ -2,11 +2,16 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-04",
-  "generatedAt": "2026-11-03T18:17:20.241Z",
-  "collectedAt": "2026-11-03T18:17:20.241Z",
+  "generatedAt": "2026-11-03T19:17:17.250Z",
+  "collectedAt": "2026-11-03T19:17:17.250Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 76,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "香港政府新聞公報",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,13 +20,22 @@
       "count": 20,
       "stories": [
         {
-          "title": "Google researchers demand freedom to tell the world what they know about AI",
-          "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
-          "publishedAt": "2026-11-03T17:55:26.000Z",
+          "title": "I use AI (Oct 2026)",
+          "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+          "publishedAt": "2026-11-03T18:11:11.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50355504"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50355767"
+        },
+        {
+          "title": "How to write comparison content that doesn't age like milk",
+          "url": "https://posthog.com/blog/comparison-content-guide",
+          "publishedAt": "2026-11-03T17:46:58.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50355365"
         },
         {
           "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
@@ -51,6 +65,15 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50354582"
         },
         {
+          "title": "Stringman, an $800 open-source room scale gripper robot",
+          "url": "https://neufangled.com/",
+          "publishedAt": "2026-11-03T16:47:29.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50354358"
+        },
+        {
           "title": "Gitbook Breached",
           "url": "https://news.ycombinator.com/item?id=50354336",
           "publishedAt": "2026-11-03T16:45:49.000Z",
@@ -67,15 +90,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50354250"
-        },
-        {
-          "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
-          "url": "https://concepts.laxmena.com/",
-          "publishedAt": "2026-11-03T15:48:35.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50353468"
         },
         {
           "title": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
@@ -114,7 +128,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50353229"
         },
         {
-          "title": "Schools that block Google’s A.I. will lose student access to its search engine",
+          "title": "Google will turn off search for schools that reject AI",
           "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
           "publishedAt": "2026-11-03T15:25:47.000Z",
           "excerpt": "",
@@ -168,15 +182,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50352577"
         },
         {
-          "title": "Charles Tandy, the mastermind behind Radio Shack",
-          "url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack/",
-          "publishedAt": "2026-11-03T12:42:30.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50351319"
-        },
-        {
           "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
           "url": "https://honnibal.dev/blog/astra-read-write-misleading",
           "publishedAt": "2026-11-03T12:21:17.000Z",
@@ -202,6 +207,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+          "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+          "publishedAt": "2026-11-03T18:31:00.000Z",
+          "excerpt": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, and Live Rewind, which",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "OpenAI says ChatGPT is catching up to Google in search",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+          "publishedAt": "2026-11-03T18:30:42.000Z",
+          "excerpt": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a pres",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Reddit is adding more ads",
+          "url": "https://www.theverge.com/tech/1025602/reddit-search-ads-test",
+          "publishedAt": "2026-11-03T18:26:36.000Z",
+          "excerpt": "Reddit is testing ads on another area of its platform: search. With this update, ads will appear within your search results \"based on a range of factors, including contextual relevance to a search query,\" according to Reddit. That means searching for \"espresso station\" could present you with ads for",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Indie games are missing launch dates because Steam is backed up",
           "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
@@ -315,14 +344,6 @@
           "category": "Technology"
         },
         {
-          "title": "Peak Design expands its collection of wireless charging accessories",
-          "url": "https://www.theverge.com/tech/1024484/peak-design-wireless-travel-battery-charging-charger-station-qi",
-          "publishedAt": "2026-11-03T14:00:00.000Z",
-          "excerpt": "Peak Design, best known for its backpacks and travel bags packed full of useful features, announced it's expanding its collection of chargers and charging accessories with new devices that focus on pairing premium materials with innovative functionality. \"Somewhere along the way, we accepted that th",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
           "title": "Bambu’s nine-nozzle H3C foretells the future of 3D printing",
           "url": "https://www.theverge.com/tech/1024978/bambu-h3c-color-mixing-toolchanger-3d-printer-trend",
           "publishedAt": "2026-11-03T14:00:00.000Z",
@@ -339,26 +360,10 @@
           "category": "Technology"
         },
         {
-          "title": "Adobe’s Premiere mobile app is adding licensed music from ‘leading artists’",
-          "url": "https://www.theverge.com/tech/1025160/adobe-umg-wmg-premiere-mobile-licensed-music",
+          "title": "Peak Design expands its collection of wireless charging accessories",
+          "url": "https://www.theverge.com/tech/1024484/peak-design-wireless-travel-battery-charging-charger-station-qi",
           "publishedAt": "2026-11-03T14:00:00.000Z",
-          "excerpt": "Adobe is teaming up with Universal Music Group and Warner Music Group to add a library of licensed music clips to the Premiere mobile video editing app. No specific musicians have been announced with this partnership, but Adobe said it will include \"popular songs\" from \"leading artists,\" and enable ",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "Apple is restricting dating apps and romanceable chatbots to over 18s",
-          "url": "https://www.theverge.com/tech/1025185/apple-app-store-age-rating-dating-apps-ai-companion",
-          "publishedAt": "2026-11-03T13:22:38.000Z",
-          "excerpt": "Apple will soon start asking developers to provide more details about their apps to enforce new App Store age rating requirements for dating and location-sharing features. The upcoming content descriptors announced on Monday will require developers to declare if their apps allow users to share their",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "Redmagic upgrades its liquid-cooled gaming phone with extra RGBs",
-          "url": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
-          "publishedAt": "2026-11-03T12:00:00.000Z",
-          "excerpt": "After introducing true liquid cooling to its gaming phones last year, Redmagic is upping the ante in its 12 Pro by building RGB lights into the transparent cooling loop, too. And they work! Sort of. The lights do turn on, and they can be set to glow in set patterns, activate for specific apps, or […",
+          "excerpt": "Peak Design, best known for its backpacks and travel bags packed full of useful features, announced it's expanding its collection of chargers and charging accessories with new devices that focus on pairing premium materials with innovative functionality. \"Somewhere along the way, we accepted that th",
           "source": "The Verge",
           "category": "Technology"
         }
@@ -370,6 +375,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist",
+          "url": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+          "publishedAt": "2026-11-03T19:04:58.000Z",
+          "excerpt": "Suspected North Korean attackers duped an engineer with a fake job interview and a malicious download to gain a foothold in the crypto firm’s system and steal billions, according to Binance.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "Best Air Purifiers for Allergies Are on Sale: Levoit, BlueAir (2026)",
           "url": "https://www.wired.com/story/air-purifier-sale-october-3-2026/",
@@ -467,14 +480,6 @@
           "category": "Technology"
         },
         {
-          "title": "30% Off Canon Promo Codes | November 2026",
-          "url": "https://www.wired.com/story/canon-promo-code/",
-          "publishedAt": "2026-11-03T06:00:00.000Z",
-          "excerpt": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
           "title": "Uber Eats Promo Codes: $15 Off│November 2026",
           "url": "https://www.wired.com/story/uber-eats-promo-code/",
           "publishedAt": "2026-11-03T06:00:00.000Z",
@@ -515,18 +520,18 @@
           "category": "Technology"
         },
         {
-          "title": "AT&T Promo Codes: $50 Off This November 2026",
-          "url": "https://www.wired.com/story/att-promo-code/",
+          "title": "30% Off Canon Promo Codes | November 2026",
+          "url": "https://www.wired.com/story/canon-promo-code/",
           "publishedAt": "2026-11-03T06:00:00.000Z",
-          "excerpt": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
+          "excerpt": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
           "source": "WIRED",
           "category": "Technology"
         },
         {
-          "title": "KitchenAid Promo Codes: Save Up to 20%",
-          "url": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
+          "title": "AT&T Promo Codes: $50 Off This November 2026",
+          "url": "https://www.wired.com/story/att-promo-code/",
           "publishedAt": "2026-11-03T06:00:00.000Z",
-          "excerpt": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances.",
+          "excerpt": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
           "source": "WIRED",
           "category": "Technology"
         }
@@ -875,6 +880,30 @@
       "count": 20,
       "stories": [
         {
+          "title": "Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",
+          "url": "https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/",
+          "publishedAt": "2026-11-03T19:04:52.000Z",
+          "excerpt": "Hillary Clinton's 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "Ferrari’s controversial Luce EV is sold out for 2027",
+          "url": "https://techcrunch.com/2026/11/03/ferraris-controversial-luce-ev-is-sold-out-for-2027/",
+          "publishedAt": "2026-11-03T18:51:33.000Z",
+          "excerpt": "The Luce, Ferrari's first electric car and one of its most polarizing models, is \"fully allocated\" through 2027, according to CEO Benedetto Vigna.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+          "publishedAt": "2026-11-03T18:42:16.000Z",
+          "excerpt": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
           "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
           "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
           "publishedAt": "2026-11-03T17:56:52.000Z",
@@ -1009,30 +1038,6 @@
           "excerpt": "The one-year-old startup is now valued at $300 million.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Apple’s inventory surges 154% as memory chip costs climb",
-          "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
-          "publishedAt": "2026-11-02T23:04:57.000Z",
-          "excerpt": "Apple says unprecedented memory chip costs will continue to rise, raising questions about future device prices as its inventory climbs to $14.5 billion.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-          "publishedAt": "2026-11-02T22:14:50.000Z",
-          "excerpt": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Germany says lawmakers’ iPhones may have been hacked with spyware",
-          "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
-          "publishedAt": "2026-11-02T19:45:54.000Z",
-          "excerpt": "German lawmakers and a filmmaker are among the people who received notifications from Apple warning that their phones may have been hacked.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ]
     },
@@ -1140,6 +1145,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Fujifilm To Bost Tape Production 5x As AI Fuels Archiving Demand",
+          "url": "https://hardware.slashdot.org/story/26/11/03/190206/fujifilm-to-bost-tape-production-5x-as-ai-fuels-archiving-demand?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-03T19:01:00.000Z",
+          "excerpt": "An anonymous reader quotes a report from Ars Technica: In an announcement released Thursday, Fujifilm said it will invest roughly 10 billion yen (about $63 million) to increase its production capacity fivefold for an unlikely beneficiary of the AI era: magnetic tape. Fujifilm attributes the surge in",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Google Will Turn Off Search For Schools That Reject AI",
           "url": "https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1265,15 +1279,6 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Supermarket Freezers Across Europe Hit By Second Suspected Cyberattack",
-          "url": "https://it.slashdot.org/story/26/11/02/1522249/supermarket-freezers-across-europe-hit-by-second-suspected-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-02T16:00:00.000Z",
-          "excerpt": "An anonymous reader quotes a report from The Guardian: Supermarket chains in Sweden, Belgium and Luxembourg have said the temperatures of their refrigerators and freezers in dozens of stores rose overnight, prompting fears of a cyber-attack similar to one that caused millions of euros of food losses",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ]
     },
@@ -1283,6 +1288,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/meta-readies-cross-border-investment-bond-offering",
+          "publishedAt": "2026-11-03T18:55:03.000Z",
+          "excerpt": "Bloomberg : Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros &nbsp; &mdash;&nbsp; Meta Platforms Inc. is eyeing at least $20 billion from a potential cross-border investment-grade bond offe",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261103/p25#a261103p25",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; a source says it hit $800M in annualized revenue this year (Natasha Mascarenhas/Bloomberg)",
           "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation",
@@ -1436,17 +1452,6 @@
           "sourceUrl": "https://www.techmeme.com/261103/p11#a261103p11",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Chainalysis and Elliptic expect North Korean hackers to take months to launder the stolen Binance funds, using crypto swapping services and DeFi lending markets (Financial Times)",
-          "url": "https://www.ft.com/content/a6212e33-2175-4957-91d1-8f8f6bc3918b",
-          "publishedAt": "2026-11-03T11:40:00.000Z",
-          "excerpt": "Financial Times : Chainalysis and Elliptic expect North Korean hackers to take months to launder the stolen Binance funds, using crypto swapping services and DeFi lending markets &nbsp; &mdash;&nbsp; North Korean hackers are expected to take months to launder the billions of dollars of tokens they s",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261103/p10#a261103p10",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ]
     },
@@ -1456,6 +1461,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How to use your phone to find hidden cameras",
+          "url": "https://www.engadget.com/2300439/how-to-use-phone-find-hidden-cameras/",
+          "publishedAt": "2026-11-03T19:00:00.000Z",
+          "excerpt": "When you feel wary, a quick check might provide some peace of mind.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Razer unveils the Raiju V3 Pro Signature Edition PS5 controller",
+          "url": "https://www.engadget.com/2305576/razer-unveils-the-raiju-v3-pro-signature-edition-ps5-controller/",
+          "publishedAt": "2026-11-03T18:28:03.000Z",
+          "excerpt": "It sure is pretty and will likely be expensive.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "How to make your older Android phones last longer",
           "url": "https://www.engadget.com/2302743/how-to-make-older-android-phones-last-longer/",
@@ -1617,24 +1640,6 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The Arduview might be the ultimate tribute to retro translucent gadgets",
-          "url": "https://www.engadget.com/2304756/the-arduview-might-be-the-ultimate-tribute-to-retro-translucent-gadgets/",
-          "publishedAt": "2026-11-03T12:30:00.000Z",
-          "excerpt": "Almost every component of the tiny Arduview gaming handheld is see-through.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple will start mandating age requirements for dating apps",
-          "url": "https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/",
-          "publishedAt": "2026-11-03T10:32:28.000Z",
-          "excerpt": "Apple developers will have to declare whether their app enables dating between real people and/or AI companions, so the company can apply the proper age rating.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1644,6 +1649,69 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "'Stylish, highly upgradable Copilot mini PC': The Minisforum AI X1 Pro-470 proved a devastatingly effective AI workstation in our tests — with a price cut at Best Buy not even Amazon can beat",
+          "url": "https://www.techradar.com/pro/stylish-highly-upgradable-copilot-mini-pc-the-minisforum-ai-x1-pro-470-proved-a-devastatingly-effective-ai-workstation-in-our-tests-with-a-price-cut-at-best-buy-not-even-amazon-can-beat",
+          "publishedAt": "2026-11-03T19:13:48.000Z",
+          "excerpt": "The Minisforum AI X1 Pro-470 proved a devastatingly effective AI mini PC in our tests. Now, the model gets a price cut at Best Buy not even Amazon can beat.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as ‘remote' despite bosses promising to boost in-person teams",
+          "url": "https://www.techradar.com/pro/the-office-increasingly-fails-to-deliver-this-benefit-most-in-office-workers-now-describe-their-desk-jobs-as-remote-despite-bosses-promising-to-boost-in-person-teams",
+          "publishedAt": "2026-11-03T19:05:00.000Z",
+          "excerpt": "Companies are asking their workers to come into the office on average 3.74 days per week, but they're still not working in-person.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Save $350 on Dell's touchscreen laptop for remote and hybrid workers",
+          "url": "https://www.techradar.com/pro/dells-15-6-inch-touchscreen-laptop-is-ideal-for-hybrid-workers-and-its-a-massive-usd350-off-for-black-friday",
+          "publishedAt": "2026-11-03T18:51:38.000Z",
+          "excerpt": "Dell's 15.6-inch Core i7 laptop gets a huge $350 discount in Best Buy's Black Friday sale - but it's the angled keyboard that makes us recommend it.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Black Friday web hosting deals 2026 — we found early discounts on shared, WordPress, and VPS hosting platforms for your business",
+          "url": "https://www.techradar.com/pro/black-friday/black-friday-web-hosting-deals",
+          "publishedAt": "2026-11-03T18:32:59.000Z",
+          "excerpt": "After testing the top web hosting providers, we've tracked down all the early Black Friday deals from Hostinger, Bluehost, Siteground, and more.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "VIDEO: Interview with Proton CEO Andy Yen on the rise and risks of AI, and the future of his company",
+          "url": "https://www.techradar.com/vpn/vpn-privacy-security/video-interview-with-proton-ceo-andy-yen-on-the-rise-and-risks-of-ai-and-the-future-of-his-company",
+          "publishedAt": "2026-11-03T18:30:27.000Z",
+          "excerpt": "Yen sat down with The Privacy Lab in early October to talk age verification and just how much more telling AI chatbots are than your browser history.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "'A CV used to be a candidate's account of themselves. Increasingly, it's an AI's account of what a recruiter wants to read': Report finds most recruiters don't believe anyone is actually writing their CV anymore",
+          "url": "https://www.techradar.com/pro/a-cv-used-to-be-a-candidates-account-of-themselves-increasingly-its-an-ais-account-of-what-a-recruiter-wants-to-read-report-finds-most-recruiters-dont-believe-anyone-is-actually-writing-their-cv-anymore",
+          "publishedAt": "2026-11-03T18:25:00.000Z",
+          "excerpt": "It is now easier to find candidates for job roles, but thanks to AI-written CVs, recruiters have to spend more time per candidate verifying their skill set.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Gruffalo's illustrator is 'seriously considering' suing AI companies — so I tested whether ChatGPT and Gemini would recreate his famous characters",
+          "url": "https://www.techradar.com/ai-platforms-assistants/the-gruffalos-illustrator-is-seriously-considering-suing-ai-companies-so-i-tested-whether-chatgpt-and-gemini-would-recreate-his-famous-characters",
+          "publishedAt": "2026-11-03T18:20:50.000Z",
+          "excerpt": "The illustrator of the Gruffalo says his images are being pumped out of AI models, so I put that to the test.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "'I have no lack of inspiration from the amazing gameplay itself' — Call of Duty: Modern Warfare 4 composer says Infinity Ward's sound team were a 'huge creative influence' on the soundtrack and 'integral in shaping the overall vibe'",
           "url": "https://www.techradar.com/gaming/i-have-no-lack-of-inspiration-from-the-amazing-gameplay-itself-call-of-duty-modern-warfare-4-composer-says-infinity-wards-sound-team-were-a-huge-creative-influence-on-the-soundtrack-and-integral-in-shaping-the-overall-vibe",
@@ -1699,15 +1767,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Barcelona vs Aston Villa for FREE: Live streams",
-          "url": "https://www.techradar.com/entertainment/football/barcelona-vs-aston-villa-free-champions-league-2026-27",
-          "publishedAt": "2026-11-03T17:00:00.000Z",
-          "excerpt": "All the ways to watch Barcelona vs Aston Villa, as Unai Emery takes the upstart Villans to Camp Nou on Matchday 4 of the Champions League 2026/27 league phase.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "How to watch Man Utd vs Roma",
           "url": "https://www.techradar.com/entertainment/football/watch-man-utd-vs-roma-champions-league-2026-27",
           "publishedAt": "2026-11-03T17:00:00.000Z",
@@ -1721,6 +1780,15 @@
           "url": "https://www.techradar.com/entertainment/tv-shows/us-midterm-elections-2026-live-stream-where-to-watch-results-as-they-happen",
           "publishedAt": "2026-11-03T17:00:00.000Z",
           "excerpt": "Here's how you can live stream US Midterm Elections coverage from anywhere in the world.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How to watch Barcelona vs Aston Villa for FREE: Live streams",
+          "url": "https://www.techradar.com/entertainment/football/barcelona-vs-aston-villa-free-champions-league-2026-27",
+          "publishedAt": "2026-11-03T17:00:00.000Z",
+          "excerpt": "All the ways to watch Barcelona vs Aston Villa, as Unai Emery takes the upstart Villans to Camp Nou on Matchday 4 of the Champions League 2026/27 league phase.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1760,69 +1828,6 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Anthropic employee wages are now costing the AI giant over $100,000 per person per month",
-          "url": "https://www.techradar.com/pro/anthropic-employee-wages-are-now-costing-the-ai-giant-over-usd100-000-per-person-per-month",
-          "publishedAt": "2026-11-03T16:25:00.000Z",
-          "excerpt": "Anthropic has already spent nearly $5 billion on personnel in the first nine months of 2026 as revenue soars.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "GTA 6 digital pre-loads for PS5 and Xbox will begin 9 days early and require a whopping 212GB of free space",
-          "url": "https://www.techradar.com/gaming/gta-6-digital-pre-loads-for-ps5-and-xbox-will-begin-9-days-early-and-require-a-whopping-212gb-of-free-space",
-          "publishedAt": "2026-11-03T16:07:35.000Z",
-          "excerpt": "Rockstar Games has announced the file size for Grand Theft Auto 6 and the dates for when players can pre-load their game depending on their edition.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Google Pixel Watch 5 drops to its lowest-ever price on Amazon — 'it’s the best Android watch yet'",
-          "url": "https://www.techradar.com/health-fitness/smartwatches/the-google-pixel-watch-5-drops-to-its-lowest-ever-price-on-amazon-its-the-best-android-watch-yet",
-          "publishedAt": "2026-11-03T16:01:24.000Z",
-          "excerpt": "The Google Pixel Watch 5 has been discounted for only the second time since launch, with a $100 price cut at Amazon bringing the four-star wearable down to its lowest price yet.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Raiju V3 Pro Signature Edition is Razer's 'most ambitious' PS5 controller to date, featuring materials 'chosen for strength, durability, and finish' — here's where you can get the limited release gamepad",
-          "url": "https://www.techradar.com/gaming/the-raiju-v3-pro-signature-edition-is-razers-most-ambitious-ps5-controller-to-date-featuring-materials-chosen-for-strength-durability-and-finish-heres-where-you-can-get-the-limited-release-gamepad",
-          "publishedAt": "2026-11-03T16:00:00.000Z",
-          "excerpt": "Razer has announced the Raiju V3 Pro Signature Edition, a new version of its officially licensed PS5 controller built on a decade of experience.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "FastestVPN launches the cheapest way to get a lifetime of VPN and password manager access — and it's exclusive to TechRadar readers",
-          "url": "https://www.techradar.com/vpn/vpn-services/fastestvpn-launches-the-cheapest-way-to-get-a-lifetime-of-vpn-and-password-manager-access-and-its-exclusive-to-techradar-readers",
-          "publishedAt": "2026-11-03T15:46:48.000Z",
-          "excerpt": "Spend $27 and get your software and service for keeps",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Lego Black Friday deals have arrived early — here's my pick of the best deals",
-          "url": "https://www.techradar.com/seasonal-sales/the-lego-black-friday-deals-have-arrived-early-heres-my-pick-of-the-best-deals-to-expand-your-collection-or-give-as-a-gift",
-          "publishedAt": "2026-11-03T15:38:47.000Z",
-          "excerpt": "Major discounts on sets big and small — and many with a price promise so you know it's safe to buy now.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The hidden growth opportunity inside UK payment operations",
-          "url": "https://www.techradar.com/pro/the-hidden-growth-opportunity-inside-uk-payment-operations",
-          "publishedAt": "2026-11-03T15:27:46.000Z",
-          "excerpt": "Growth depends on the ability to move money accurately, quickly and at scale.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1832,6 +1837,69 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "iOS 27.3 introduces new iPhone Duo feature for one-handed use",
+          "url": "https://9to5mac.com/2026/11/03/ios-27-3-introduces-new-iphone-duo-feature-for-one-handed-use/",
+          "publishedAt": "2026-11-03T19:09:11.000Z",
+          "excerpt": "iOS 27.3 beta 1 launched today with a variety of new features, including a big upgrade for one-handed iPhone Duo use thanks to Reachability. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Everything new in iOS 27.3 beta 1 so far",
+          "url": "https://9to5mac.com/2026/11/03/everything-new-in-ios-27-3-beta-1-so-far/",
+          "publishedAt": "2026-11-03T19:05:31.000Z",
+          "excerpt": "iOS 27.3 beta 1 is here. Apple’s next iPhone software update brings TK. Below, we’re collecting the new features and changes discovered during testing. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "watchOS 27.3 beta adds new Siri Recap and Live Rewind features for Apple Watch",
+          "url": "https://9to5mac.com/2026/11/03/watchos-27-3-beta-adds-new-siri-recap-and-live-rewind-features-for-apple-watch/",
+          "publishedAt": "2026-11-03T18:56:25.000Z",
+          "excerpt": "Apple has released the first beta of watchOS 27.3 for developers, including two new Audio Intelligence features for Apple Watch Series 12 and Apple Watch Ultra 4: Siri Recap and Live Rewind. Apple first announced these features at its special event in September, saying they would “arrive in beta lat",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "iOS 27.3 and macOS 27.3 add Vertical Tabs, Adaptive Dark Mode, and more to Safari",
+          "url": "https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/",
+          "publishedAt": "2026-11-03T18:51:53.000Z",
+          "excerpt": "Apple just released the first betas of iOS 27.3, iPadOS 27.3, and macOS 27.3, with some big changes to Safari. The updates add a new vertical tab layout, Adaptive Dark Mode, and Siri AI Custom Actions. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "iOS 27.3 adds all-new Apple Health app, details here",
+          "url": "https://9to5mac.com/2026/11/03/ios-27-3-adds-all-new-apple-health-app-details-here/",
+          "publishedAt": "2026-11-03T18:45:17.000Z",
+          "excerpt": "Apple released iOS 27.3 beta 1 today, and it reintroduces the all-new Health app that was first available for testing during the iOS 27.2 beta. Here’s what’s new. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "First macOS Sequoia 15.8.3 and macOS Tahoe 26.7.3 RCs now available",
+          "url": "https://9to5mac.com/2026/11/03/first-macos-sequoia-15-8-3-and-macos-tahoe-26-7-3-rcs-now-available/",
+          "publishedAt": "2026-11-03T18:29:08.000Z",
+          "excerpt": "In addition to the release of macOS 27.3 beta 1, Apple is also rolling out the first release candidates of macOS Sequoia 15.8.3 and macOS Tahoe 26.7.3. Here are the details. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Apple announces Fitness+ Gym Strength program with personalized workout plans",
+          "url": "https://9to5mac.com/2026/11/03/apple-announces-fitness-gym-strength-program-with-personalized-workout-plans/",
+          "publishedAt": "2026-11-03T18:26:16.000Z",
+          "excerpt": "Apple wants to help you get stronger. Apple Fitness+ is expanding to the gym with a new strength training experience. Gym Strength is now available in beta, bringing personalized workout plans, exercise demonstrations, and Apple Watch logging to your lifting routine. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "watchOS 27.3, iPadOS 27.3, and more now available in beta",
           "url": "https://9to5mac.com/2026/11/03/watchos-27-3-ipados-27-3-and-more-now-available-in-beta/",
@@ -1945,69 +2013,6 @@
           "url": "https://9to5mac.com/2026/11/03/apple-ceo-john-ternus-criticized-for-scripted-approach-to-first-earnings-call/",
           "publishedAt": "2026-11-03T12:54:08.000Z",
           "excerpt": "Investors didn’t seem overly happy about yesterday’s Apple earnings call despite the record results . That likely reflects the company’s cautious take on margins in the current quarter, but some have also criticized what they describe as a very “scripted” approach by new CEO John Ternus . Bloomberg ",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple earnings suggest the iPhone 18 launch strategy is really working",
-          "url": "https://9to5mac.com/2026/11/03/apple-earnings-suggest-the-iphone-18-launch-strategy-is-really-working/",
-          "publishedAt": "2026-11-03T12:29:25.000Z",
-          "excerpt": "Yesterday’s AAPL earnings report revealed record revenue for a September quarter, and within it was an arguably even more significant record: iPhone revenue. That’s because this year’s quarter only includes just two new iPhone models compared to the four released last year … more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple @ Work Podcast: How rising Apple costs are reshaping the trade-in market",
-          "url": "https://9to5mac.com/2026/11/03/how-rising-apple-costs-are-reshaping-the-trade-in-market/",
-          "publishedAt": "2026-11-03T11:00:00.000Z",
-          "excerpt": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage & protect Apple devices at work. Over 45,000 organiza",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "SCOTUS sets hearing date for Apple’s appeal in Epic Games case",
-          "url": "https://9to5mac.com/2026/11/02/scotus-sets-hearing-date-for-apples-appeal-in-epic-games-case/",
-          "publishedAt": "2026-11-03T03:00:42.000Z",
-          "excerpt": "The U.S. Supreme Court has officially scheduled oral arguments in Apple’s appeal in its long-running legal battle with Epic Games. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple recently notified users in 99 countries of potential mercenary spyware attacks",
-          "url": "https://9to5mac.com/2026/11/02/apple-recently-notified-users-in-99-countries-of-potential-mercenary-spyware-attacks/",
-          "publishedAt": "2026-11-03T02:19:39.000Z",
-          "excerpt": "Apple reportedly sent notifications to users in 99 countries warning of potential mercenary spyware attacks, as German authorities investigate reports that lawmakers and government officials may have been targeted. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple to require 18+ age ratings for dating apps and AI romantic companions",
-          "url": "https://9to5mac.com/2026/11/02/apple-to-require-18-age-ratings-for-dating-apps-and-ai-romantic-companions/",
-          "publishedAt": "2026-11-03T01:28:51.000Z",
-          "excerpt": "Apple today announced new age rating requirements coming to the App Store , covering apps with location-sharing features, as well as dating and relationship features. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple stock drops nearly 3% after hours following Q4 2026 results",
-          "url": "https://9to5mac.com/2026/11/02/apple-stock-drops-nearly-3-after-hours-following-q4-2026-results/",
-          "publishedAt": "2026-11-03T01:07:40.000Z",
-          "excerpt": "Apple shares fell as much as 4.43% in after-hours trading on Monday during the company’s fiscal Q4 2026 earnings call, before recovering some of those losses later in the evening. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple forecasts its biggest revenue quarter ever despite supply constraints",
-          "url": "https://9to5mac.com/2026/11/02/apple-forecasts-its-biggest-revenue-quarter-ever-despite-supply-constraints/",
-          "publishedAt": "2026-11-02T23:38:32.000Z",
-          "excerpt": "During today’s earnings call following its fiscal Q4 2026 report, Apple said it expects its December quarter “to be the best quarter for revenue in the history of the company.” Here are the details. more…",
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -2209,6 +2214,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "This $580-off Black Friday laptop deal is great for content creators and artists as well as gamers",
+          "url": "https://www.creativebloq.com/deals/this-usd580-off-black-friday-laptop-deal-is-great-for-content-creators-and-artists-as-well-as-gamers",
+          "publishedAt": "2026-11-03T19:06:24.000Z",
+          "excerpt": "And it's not the only great laptop deal at B&H Photo right now.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Is this the most controversial font since Comic Sans?",
           "url": "https://www.creativebloq.com/news/is-this-the-most-controversial-font-since-comic-sans",
           "publishedAt": "2026-11-03T15:30:00.000Z",
@@ -2375,15 +2389,6 @@
           "url": "https://www.creativebloq.com/news/from-pepsi-man-to-wendyquest-why-are-brands-making-video-games-again",
           "publishedAt": "2026-11-01T14:00:00.000Z",
           "excerpt": "A burger chain's pixel-art RPG has gamers excited.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "\"I’ve ignored most advice and learned by fire\": 5 Questions with Christopher Glass",
-          "url": "https://www.creativebloq.com/features/ive-ignored-most-advice-and-learned-by-fire-5-questions-with-christopher-glass",
-          "publishedAt": "2026-11-01T12:00:00.000Z",
-          "excerpt": "The award-winning production designer discusses pet peeves and imposter syndrome.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
@@ -3365,6 +3370,38 @@
       "count": 20,
       "stories": [
         {
+          "title": "高海寧揭被屈包養真相：記者親口承認「寫你銷量高」",
+          "url": "https://hk01.com/sns/article/60405649",
+          "publishedAt": "2026-11-03T19:00:35.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "網傳南亞幫上門劫財 10多人狹窄單位亂戰困獸鬥 MMA影片曝光",
+          "url": "https://hk01.com/sns/article/60406856",
+          "publishedAt": "2026-11-03T18:42:32.000Z",
+          "excerpt": "Facebook流傳一段名為「南亞裔上門打劫毒品飯堂」的閉路電視影片，片長2分半鐘，帖主沒有交代事發地點，顯示日期為2026年10月28日晚上8時11分左右。影片最初見到涉事單位聚集大約10名男女，近門口位置牆身安裝一部監看「天眼」的電視，屋內共有4張枱，其中一張枱有5名男子在玩啤牌，其餘3張枱各坐有一人。 同黨打開枱內櫃桶懷疑搶錢。（網上影片截圖） 電話男向一名坐在木枱懷疑「管數」的赤膊男子施襲。（網上影片截圖） 其間有人打開單位門，一名戴上鴨舌帽、手持電話正在通話的男子進入單位，隨後有一批戴帽或口罩的男子尾隨，包括多名南亞漢，電話男向一名坐在木枱懷疑「管數」的赤膊男子施襲，同黨則打開枱內櫃",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美國中期選舉｜司法部派1000名監督員進駐50州票站 規模史上最大",
+          "url": "https://hk01.com/sns/article/60406854",
+          "publishedAt": "2026-11-03T18:38:29.000Z",
+          "excerpt": "美國司法部11月3日（周二）宣布，已在全美50個州部署1,000名選舉監督員及觀察員。據美媒報道，本次監督員人數約為上次中期選舉的三倍（289人），這將是司法部史上規模最大的選舉日監督行動。 據路透社 報道 ，超過三分之二的轄區位於2024年總統大選中支持民主黨候選人賀錦麗（Kamala Harris，又譯哈里斯）而非共和黨候選人特朗普（Donald Trump，又譯川普）的地區。民主黨人批評該計劃可能構成選民恐嚇。 2026年11月3日，美國喬治亞州阿爾法雷塔，美國中期選舉期間，選民在霍普韋爾浸信會的票站開放前排隊等候。（Reuters） 司法部官員表示，優先處理的對象包括過去曾出現選民投票",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美國中期選舉‧最新｜票站陸續開放 7大搖擺州選情矚目共和黨告急",
+          "url": "https://hk01.com/sns/article/60406687",
+          "publishedAt": "2026-11-03T18:21:45.000Z",
+          "excerpt": "2026美國中期選舉（US midterm elections）11月3日舉行，這場重要選舉將決定總統特朗普（Donald Trump，又譯川普）能否繼續控制國會兩院。眾議院435個席位將進行改選，參議院35個席位將進行改選，而36個州也會舉行州長選舉。外界預期民主黨大勝，除了奪回眾議院控制權，還有可能控制參議院，成為特朗普的「噩夢」。眾議員本文將跟進美國中期選舉的最新消息。 專頁： 美國中期選舉專頁｜最新選情戰報 特朗普會輸掉兩院？ 最新重點： ．美國票站陸續開放，佛蒙特州（Vermont）首批票站定於美東時間上午5時（香港時間3日下午6時）開放，之後新澤西州、維珍尼亞州、肯塔基州等的票站會",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "歐洲至少7班航機接獲炸彈恐嚇 降落後均無發現",
           "url": "https://hk01.com/sns/article/60406855",
           "publishedAt": "2026-11-03T18:08:12.000Z",
@@ -3421,14 +3458,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "璀璨之城｜高海寧誘吳卓羲床戰 再屈強姦留「重要物證」極狗血",
-          "url": "https://hk01.com/sns/article/60406844",
-          "publishedAt": "2026-11-03T16:14:05.000Z",
-          "excerpt": "TVB劇集《璀璨之城》已經踏入結局篇，各人的陰暗面亦慢慢呈現，除了張智霖已經「黑化」外，張曦雯及高海寧亦開始露出「真本性」。劇情講到張智霖捉了高海寧的媽媽來要脅她，要她繼續服從自己，更曾提過為了他的事業，必要時可以犧牲自己的身體。 《璀璨之城》已經踏入結局篇。(節目截圖) 高海寧做雙面人 遭張曦雯怒摑轉投吳卓羲 今日（3日）一集講到高海寧從張曦雯的電話中得知孔德賢與倪嘉雯躲在香港，一邊廂她通知張智霖，另一邊廂她又通知孔德賢讓他們逃走。張曦雯與吳卓羲約高海寧出來對質，在他們的對話途中，張曦雯認為高海寧利用她的感情，突然發惡地一個巴掌賞在高海寧臉上，結果三人不歡而散。高海寧致電吳卓羲，本身對高海寧",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "屯門食肆3隻老鼠龐大敏捷 目擊者驚呼：跳上枱望住我兜飯｜有片",
           "url": "https://hk01.com/sns/article/60406838",
           "publishedAt": "2026-11-03T16:04:54.000Z",
@@ -3461,26 +3490,18 @@
           "category": "Hong Kong"
         },
         {
-          "title": "赤柱狗跳海｜釣魚郎目擊「粟米」飛奔跳海 男狗主落水救援無果",
-          "url": "https://hk01.com/sns/article/60406830",
-          "publishedAt": "2026-11-03T14:36:30.000Z",
-          "excerpt": "1歲唐狗「粟米」今日（3日）傍晚在赤柱突然跳入海中，往赤柱後灘方向游去，其間失去蹤影，狗主報警求助，大批消防員包括蛙人、及警察到場搜索，惟至晚上近10時仍未尋回「粟米」。有釣魚郎事發時正在現場垂釣，他在社交平台公開隨身攝錄機拍下的事發經過，指當時狗主有拖繩，但「粟米」突然掙脫胸帶，飛奔到海邊跳入水中，男狗主隨即跳海嘗試救援，惜未能成功。片主留言強調：「狗主已經有拖住狗繩，狗仔自己甩真係冇人預料到，唔好攻擊佢哋」。 赤柱有唐狗突然跳海。有網民在社交平台公開事發片段，可見當時一男一女狗主帶着兩隻狗散步，兩狗均有拖繩。（Threads @fishing_kwong） 片主上載的片段顯示 ，當時一男一",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "美國中期選舉‧最新｜票站陸續開放 7大搖擺州選情矚目共和黨告急",
-          "url": "https://hk01.com/sns/article/60406687",
-          "publishedAt": "2026-11-03T13:30:07.000Z",
-          "excerpt": "2026美國中期選舉（US midterm elections）11月3日舉行，這場重要選舉將決定總統特朗普（Donald Trump，又譯川普）能否繼續控制國會兩院。眾議院435個席位將進行改選，參議院35個席位將進行改選，而36個州也會舉行州長選舉。外界預期民主黨大勝，除了奪回眾議院控制權，還有可能控制參議院，成為特朗普的「噩夢」。眾議員本文將跟進美國中期選舉的最新消息。 專頁： 美國中期選舉專頁｜最新選情戰報 特朗普會輸掉兩院？ 最新重點： ．美國票站陸續開放，佛蒙特州（Vermont）首批票站定於美東時間上午5時（香港時間3日下午6時）開放，之後新澤西州、維珍尼亞州、肯塔基州等的票站會",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "QS亞洲大學排名｜港5大學成10強港大蟬聯榜首 城大首度全港排第二",
           "url": "https://hk01.com/sns/article/60406558",
           "publishedAt": "2026-11-03T12:00:55.000Z",
           "excerpt": "國際高等教育機構 Quacquarelli Symonds今日（3日）公布2027 QS 亞洲大學排名，香港有五所大學躋身頭10名，當中3間排前5名，數量為亞洲之冠。其中，港大連續兩年成亞洲第一，而去年並列第七的城大今年升至第四創該校歷史新高，超前排名升兩位至第五的中大，於本地大學排名第二。內地大學方面，有三間成亞洲十強，當中北京大學及清華大學分列二、三位，其中清華大學排名急升六位。 城市大學 ▼ 上榜大學 ▼ 香港大學。（資料圖片／黃寶瑩攝） 城市大學。（城大提供圖片） 香港中文大學。（資料圖片／夏嘉朗攝） 香港科技大學。（資料圖片 / 鄭子峰攝） 香港理工大學。（資料圖片） 香港浸會大學。",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "西乙球賽致命意外 前鋒Jesus de miguel與門將相撞心臟驟停不治",
+          "url": "https://hk01.com/sns/article/60406748",
+          "publishedAt": "2026-11-03T10:56:39.000Z",
+          "excerpt": "西乙聯賽11月2日發生致命意外，特內里費（CD Tenerife）30歲前鋒迪米基爾（Jesús de Miguel）遭到對手安道爾（FC Andorra）門將奧禾奴（Jesus Owono）相撞，隨後心臟驟停送醫不治，於11月3日上午8時離世。 事件發生於特內里費主場對陣安道爾補時階段的第7分鐘，迪米基爾在爭取長傳時，遭出迎解圍的門將奧禾奴膝部猛烈撞擊後倒地，隨後雙方球員連忙示意醫護進場，奧禾奴當場被紅牌逐出。 🔵⚪️ | Golpe fortísimo de Owono sobre Jesús de Miguel que hace que salten todas las alarmas",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -3505,22 +3526,6 @@
           "url": "https://hk01.com/sns/article/60406611",
           "publishedAt": "2026-11-03T07:45:02.000Z",
           "excerpt": "香港網球新星黃澤林（Coleman）與歌神陳奕迅（Eason）愛女陳康堤的半年情玩完，男方火速撻着「籃球女神」譚旻萱（Mandy）惹來全城狂轟。風波愈演愈烈，有網民翻查IG發現，原來除了康堤之外，Eason與太太徐濠縈早已全數取消關注黃澤林的帳號，一家三口連成一線！而黃澤林昨晚（2日）疑為洗白，突然踩上JFFT「床哥直播」親自解畫，爆出「被飛」時間線撇清出軌嫌疑，無疑令事件火上加油。 一家三口聯成一線，一齊unfollow 黃澤林ig。（ig@_constancec_） 一家人感情要好。（微博圖片） 黃澤林公開認戀譚旻萱。（網上圖片） 熱愛網球成契機 傳Eason牽線做媒人 其實這段戀情當初能",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "立冬天氣｜天文台料吹7級風 東北季候風殺到 11.10多區跌穿20度",
-          "url": "https://hk01.com/sns/article/60406549",
-          "publishedAt": "2026-11-03T05:28:30.000Z",
-          "excerpt": "【香港天文台／HKO／明天的天氣／東北季候風／立冬的天氣】天文台今早（3日）預測一股達強風程度的東北季候風，周五（6日）稍後抵達廣東沿岸，周六（7日、廿四節氣的立冬）離岸及高地間中吹7級風，即達強風程度，隨後下周初至中期受隨後乾燥的季候風補充影響，本港氣溫下降，內陸地區日夜溫差較大。 天文台自動分區天氣預報顯示下周二（10日）氣溫最低，當日早上7時本港多區跌穿20度，其中黃竹坑、屯門、上水、大埔、沙田等地跌至19度；石崗及將軍澳僅18度；打鼓嶺更低見17度。 天文台預料，下周初至中期受隨後乾燥的季候風補充影響，華南天色大致良好，氣溫下降，內陸地區日夜溫差較大。（資料圖片） 天文台預料，下周初至",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "張世華醫生離世｜母校訪問透露初中成績不好 寄語學弟妹珍惜當下",
-          "url": "https://hk01.com/sns/article/60406552",
-          "publishedAt": "2026-11-03T05:06:28.000Z",
-          "excerpt": "腸胃及肝臟科專科醫生張世華傳離世消息，不少其病人網上致哀外，張世華母校「嗇色園主辦可風中學」今日（3日）亦發文悼念，讚揚張世華一生熱愛母校。 今年1月，張世華接受母校訪問時分享指，自己初中成績「都係相當唔好嘅」，到中三、中四後開始接觸社活動，在師兄、師姊帶領下參加活動：「相對又會想返學習多啲嘅。」 「嗇色園主辦可風中學」今感謝張世華多年來慷慨向該校捐助獎學金，扶掖後進，而張世華在訪問中亦寄語學弟妹珍惜當下：「盡量珍惜每一個學年 ，每一個學期，每一個機緣......可能每一個階段都盡量嘗試去珍惜享受過程。」 腸胃及肝臟科專科醫生張世華傳離世消息，張世華的母校「嗇色園主辦可風中學」11月3日發文悼",
           "source": "香港01",
           "category": "Hong Kong"
         }
@@ -4538,169 +4543,8 @@
       "name": "香港政府新聞公報",
       "category": "Hong Kong",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "商經局局長出席亞太區經濟合作組織部長級視像會議（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110300384.htm",
-          "publishedAt": "2026-11-03T16:02:33.000Z",
-          "excerpt": "商務及經濟發展局局長丘應樺昨晚（十一月三日）出席以視像方式舉行的第三十七屆亞太區經濟合作組織（亞太經合組織）部長級會議。 今年亞太經合組織中國年以「建設亞太共同體，促進共同繁榮」為主題，丘應樺在一個討論環節上強調，面對瞬息萬變的局勢及科技的迅速發展，成員經濟體必須透過加強對話與合作，攜手實現共同繁榮。 丘應樺以數字轉型為例，表示成員經濟體須繼續務實合作，秉持以人為本且具包容性的方式，發揮各自的數字科技優勢。在本地層面，香港正在加強前沿科技的研究能力，並推出相關計劃以促進公眾對人工智能的認識及推廣負責任地使用人工智能。香港期待在這方面與其他成員經濟體分享經驗和互相學習。 此外，丘應樺呼籲成員經濟",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "文創處資助動畫《無涯之約》舉行本地首映（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300772.htm",
-          "publishedAt": "2026-11-03T14:49:32.000Z",
-          "excerpt": "文化體育及旅遊局轄下文創產業發展處（文創處）資助製作的原創動畫《無涯之約》今日（十一月三日）舉行本地首映禮。是次放映的「第一話．灰降」為三十分鐘加長版，並將於十一月七日起在香港指定戲院作特別放映。 &nbsp; 文創產業專員黎細明出席首映禮致辭時表示，《無涯之約》成功推出，印證了香港特區政府推動文創產業發展的積極成效。文創處將繼續透過多元化的資助計劃，支援本地創作者開發更多具備國際競爭力的動漫知識產權（IP）作品，以及協助業界參與各地影展和商貿平台，促進知識產權交易及跨界合作。 &nbsp; 《無涯之約》是文創處透過第三屆「明日動畫&mdash;─人工智能輔助動畫製作支援計劃」支持的優秀作品之",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選管會向選舉委員會界別分組一般選舉候選人簡介選舉法例及指引（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300393.htm",
-          "publishedAt": "2026-11-03T13:55:00.000Z",
-          "excerpt": "下稿代選舉管理委員會發出： 選舉管理委員會主席陸啟康法官今晚（十一月三日）在二○二六年選舉委員會（選委會）界別分組一般選舉候選人簡介會，向候選人講解選舉安排、選舉活動指引內容及進行競選活動時應注意的重要事項，以確保選舉在公開、誠實及公平的情況下進行。 陸啟康法官在簡介會說：「選委會界別分組一般選舉將於十一月二十二日舉行，提名期已在十月二十日結束，其間共接獲1 115份候選人提名表格。候選人資格審查委員會早前在憲報公布獲有效提名的候選人名單，選舉主任亦刊憲公布各個無須競逐的界別分組妥為選出的候選人詳情。」 陸啟康法官表示，這次選舉須要競逐的界別分組共有31個，當中涉及約5 700名投票人，他們可",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "警方跟進涉及停車收費錶系統故障的告票",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300724.htm",
-          "publishedAt": "2026-11-03T12:30:09.000Z",
-          "excerpt": "警務處今日（十一月三日）表示，就今早全港停車收費錶（俗稱「咪錶」）系統出現故障，警方正審視系統故障期間就路旁泊車位發出的交通定額罰款通知書（告票），並會按個案的實際情況跟進處理。 市民如認為其接獲的告票可能與是次系統故障有關，欲查詢或提出異議，可親身到訪或以郵寄方式（地址：灣仔軍器廠街一號警察總部警政大樓十一樓），或以電郵方式（ ctpd-traffic@police.gov.hk ），或致電熱線「181 181」與中央交通違例檢控組聯絡。此外，市民亦可透過警務處「電子報案中心」、「電子交通告票平台」（ www.etrafficticket.gov.hk ）或平台的流動應用程式就有關告票提出異",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "QS亞洲大學排名表現卓越 世界頂尖大學校長論壇接續登場 香港高等教育輝映國際舞台",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300550.htm",
-          "publishedAt": "2026-11-03T12:09:00.000Z",
-          "excerpt": "教育局發言人今日（十一月三日）回應國際高等教育研究機構Quacquarelli Symonds（QS）公布的二○二七年QS亞洲大學排名時表示，香港的高等教育界在亞洲區內再次展現出卓越的國際競爭力與學術實力，成績令人鼓舞。發言人指出，是次佳績反映香港特別行政區（特區）政府持續投入資源及推行各項前瞻性措施以配合高等教育發展的努力，進一步鞏固香港作為國際專上教育樞紐的地位。 發言人表示，在最新公布的排名中，香港高等教育界的表現極為出色，連同繼續穩佔首位的香港大學在內，香港共有五間大學躋身亞洲十強，其中三間大學更同時登上亞洲五強，包括首位的香港大學、位列第四的香港城市大學，以及位列第五的香港中文大學。",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "多國因疫苗接種率低爆發麻疹疫情 衞生署提醒市民採取適當預防措施",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300636.htm",
-          "publishedAt": "2026-11-03T11:20:00.000Z",
-          "excerpt": "鑑於近期全球多個地區因疫苗接種率偏低而持續出現麻疹疫情，衞生署衞生防護中心（中心）今日（十一月三日）提醒計劃外遊的市民，在出發前瀏覽衞生署 旅遊健康服務網站 ，了解目的地是否錄得麻疹高發病率或正爆發疫情，以採取適當的預防措施，包括確保已完成接種兩劑麻疹疫苗，並時刻注意個人及環境衞生。身處受影響國家的留學生亦應檢視自己的接種紀錄，如不確定是否完成接種兩劑麻疹疫苗，應盡快安排接種，以防止受感染。由於外國寒假將至，不少留學生將返港，中心呼籲市民提高警覺，如有不適，應立即求醫，求診前應預先知會醫護人員有關的病徵及旅遊史，以便醫療機構安排適當的感染控制措施，防止出現社區傳播。學校亦應提高警覺，減低傳染病",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "​預先包裝竹筍樣本違反食物標籤規例",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300621.htm",
-          "publishedAt": "2026-11-03T11:00:00.000Z",
-          "excerpt": "食物環境衞生署食物安全中心（中心）今日（十一月三日）公布，一個預先包裝竹筍樣本含有可在某些食物中使用的防腐劑二氧化硫，但樣本的食物標籤未有標明有關添加劑的作用類別及名稱。市民應停止食用受影響批次產品，業界如持有受影響批次產品，亦應立即停止使用或出售。&nbsp; 產品資料如下︰ 產品名稱：高山細筍&nbsp; 品牌：集森&nbsp; 淨重：二百五十克&nbsp; 來源地：中國&nbsp; 總經銷商：集森食品公司&nbsp; 此日期前最佳︰二○二七年九月二日&nbsp; 中心發言人說：「中心從上述總經銷商檢取該預先包裝竹筍樣本作檢測，結果顯示樣本含二氧化硫，雖然含量符合法例要求，但樣本的食物標籤",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "行政長官展開北京訪問行程（附圖／短片）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300430.htm",
-          "publishedAt": "2026-11-03T11:00:00.000Z",
-          "excerpt": "行政長官李家超今日（十一月三日）展開北京訪問，到訪北京城市副中心，並與北京市官員會面。 &nbsp; 李家超下午前往北京城市副中心，到訪副中心三大文化建築之一的北京城市圖書館，以及位於北京市委大樓的規劃展覽廳，通過沙盤模型，了解副中心城區的整體規劃、發展和文化設施建設的情況。 &nbsp; 李家超表示，北京城市副中心是京津冀協同發展戰略中的北京新「兩翼」之一，這布局促進更高質量發展，展現國家前瞻性和系統性的部署。香港正全速推動北部都會區（北都）建設，北都是香港未來發展的重要新引擎，以大學城、科技、產業和宜居宜業宜遊為四大發展目標。副中心在整體規劃、基建配套、公共服務設施布局等方面的經驗，對香港",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "​財經事務及庫務局局長在北京出席第二十九屆北京・香港經濟合作研討洽談會京港金融合作專題活動致辭全文（只有中文）（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300455.htm",
-          "publishedAt": "2026-11-03T10:45:00.000Z",
-          "excerpt": "以下是財經事務及庫務局局長許正宇今日（十一月三日）在北京出席第二十九屆北京・香港經濟合作研討洽談會（京港洽談會）京港金融合作專題活動的致辭全文： 尊敬的趙局長（北京市地方金融管理局局長趙海東）、各位嘉賓、各位朋友： 下午好。很高興出席第二十九屆北京・香港經濟合作研討洽談會京港金融合作專題活動。本次專題活動以「京港攜手 金融同行」為主題，緊扣國家「十五五」規劃實施與建設金融強國的核心任務，圍繞金融「五篇大文章」、跨境金融、資本市場等領域，共同探討京港兩地金融合作的新方向。首先，我謹代表香港特別行政區（特區）政府財經事務及庫務局，感謝北京市人民政府以及各界朋友長期以來對香港金融發展、京港經貿交流的",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "財庫局局長於京港經濟合作研討洽談會推廣香港金融機遇（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300452.htm",
-          "publishedAt": "2026-11-03T10:45:00.000Z",
-          "excerpt": "財經事務及庫務局局長許正宇今日（十一月三日）在北京展開行程，出席第二十九屆北京・香港經濟合作研討洽談會（京港洽談會）&mdash;京港金融合作專題活動，向內地政商及金融界推廣香港的金融機遇與獨特優勢。 今屆專題活動以「京港攜手 金融同行」為主題。許正宇在致辭時表示，國家正全力邁向建設金融強國的核心任務，香港作為領先的國際金融中心，一直發揮着「超級聯繫人」和「超級增值人」的獨特角色。特區政府正積極推動「金融+」策略，將金融力量與科技、綠色及產業等領域深度結合，落實做好科技金融、綠色金融、普惠金融、養老金融、數字金融「五篇大文章」，讓金融真正賦能實體經濟。 許正宇向與會者分享香港金融市場的最新發展",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港銀行同業結算有限公司提醒公眾慎防偽冒網站",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300513.htm",
-          "publishedAt": "2026-11-03T10:40:00.000Z",
-          "excerpt": "下稿代香港金融管理局發出︰ 香港銀行同業結算有限公司（結算公司）近日發現一個偽冒成仿如結算公司官方網站的詐騙網站fpshk.asia。該偽冒網站偽裝成「買家網上安全保障」，提供轉數快FPS網上交易安全服務，包括1）退款、2）舉報未經授權的網上交易，以及3）網上交易支援，及進一步引導用戶與偽冒客服的人員進行對話。 結算公司澄清，該偽冒網站與結算公司以及結算公司所有業務，均絕無關係。在一般情況下，結算公司不會直接向個別公眾人士提供轉數快服務，也不會主動接觸個別公眾人士。結算公司真正官方網址是 www.hkicl.com.hk 及 fps.hkicl.com.hk 。 結算公司呼籲公眾人士提防可疑電",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "與銀行有關的騙案通知",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300495.htm",
-          "publishedAt": "2026-11-03T10:40:00.000Z",
-          "excerpt": "下稿代香港金融管理局發出︰ 香港金融管理局（金管局）呼籲市民提高警覺，留意以下銀行已就欺詐網站、網上銀行登入畫面、偽冒電郵或其他騙案發出新聞稿。有關銀行已向金管局匯報事件，其新聞稿的超連結已上載至 金管局網站 。 &nbsp; 銀行 騙案類別 東亞銀行有限公司 欺詐網站及網上銀行登入畫面 上海商業銀行有限公司 欺詐網站及網上銀行登入畫面 創興銀行有限公司 欺詐網站及網上銀行登入畫面 集友銀行有限公司 欺詐網站及網上銀行登入畫面 富邦銀行（香港）有限公司 欺詐網站及網上銀行登入畫面 香港上海滙豐銀行有限公司 欺詐網站及網上銀行登入畫面 金管局提醒公眾，銀行不會透過短訊或電郵超連結，引領他們到其網",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "​駐布魯塞爾經貿辦於聖塞巴斯蒂安恐怖及奇幻電影節推廣香港奇幻電影（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110200281.htm",
-          "publishedAt": "2026-11-03T10:20:00.000Z",
-          "excerpt": "香港駐布魯塞爾經濟貿易辦事處（駐布魯塞爾經貿辦），聯同香港特別行政區（特區）政府文化體育及旅遊局轄下的文創產業發展處、首次與聖塞巴斯蒂安恐怖及奇幻電影節（電影節）合作，於十月三十日至十一月六日（聖塞巴斯蒂安時間）在西班牙聖塞巴斯蒂安舉行的第三十七屆電影節呈獻四部香港電影。 是次香港電影環節包括兩部新作《尋秦記》及《衝鋒：火拼》，以及兩部香港經典電影《腦魔》及《辣手神探》。選映作品展現香港電影的多元面貌，涵蓋超自然題材以至香港享負盛名的動作電影，讓歐洲觀眾了解香港電影的傳統特色及當代創作。 香港駐歐洲聯盟特派代表翁佩雯十一月一日（聖塞巴斯蒂安時間）於電影節的香港酒會上致辭，介紹香港深厚的電影傳統",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "金管局舉辦第五屆國際金融領袖投資峰會（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300369.htm",
-          "publishedAt": "2026-11-03T10:18:00.000Z",
-          "excerpt": "下稿代香港金融管理局發出︰ 由香港金融管理局（金管局）籌辦的國際金融領袖投資峰會（峰會）的主峰會於今日（十一月三日）舉行。是次活動匯聚約280位國際金融領袖，當中包括約120位集團主席及行政總裁。 &nbsp; 今年的主峰會以「思變圖新 開拓新局」為主題。國務院副總理何立峰以視像形式為主峰會作開幕演講。其後討論圍繞近期的宏觀經濟趨勢、金融市場變動以及科技發展等為不同行業、資產和地區所帶來的新興機遇與潛在風險。演講嘉賓共同思考更新「遊戲規則」，應對風險長存、韌性必常備的世界。 &nbsp; 金管局總裁余偉文表示：「峰會連續舉辦五年，已成為促進國際金融領袖高層次對話及深化全球金融界聯繫的平台。與會",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港海關偵破懷疑非法進口活雀鳥（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300611.htm",
-          "publishedAt": "2026-11-03T10:12:00.000Z",
-          "excerpt": "​香港海關今日（十一月三日）在落馬洲支線管制站檢獲六十六隻懷疑非法進口活雀鳥，估計市值約三千元。 海關人員今日在上述管制站入境大堂截查一名三十四歲抵港內地女旅客，經檢查後在其個人行李內檢獲該批裝載於鳥籠的懷疑非法進口活雀鳥。該名女子隨即被捕。案件已轉交漁農自然護理署跟進。 根據《公眾衞生（動物及禽鳥）規例》，沒有有效健康證明書而進口禽鳥，即屬違法，一經定罪，最高可被罰款二萬五千元。 市民可致電海關二十四小時熱線182 8080，或透過舉報罪案專用電郵帳戶（ crimereport@customs.gov.hk ）或網上表格（ eform.cefs.gov.hk/form/ced002 ）舉報懷",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港郵政提醒市民慎防偽冒香港郵政的虛假網站",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300575.htm",
-          "publishedAt": "2026-11-03T09:42:00.000Z",
-          "excerpt": "​香港郵政今日（十一月三日）呼籲市民提高警覺，留意一個偽冒香港郵政的虛假網址 （hxxps://hongkongpostairmailtrackingapf[.]wordpress[.]com），並慎防冒認香港郵政發出的虛假短訊或電郵，附有超連結至該偽冒網址，要求收件人提供個人資料，或支付郵費。 香港郵政澄清與相關虛假網站並無關係，並已把事件轉交警方處理。香港郵政提醒市民，其官方網站網址為「 hongkongpost.hk 」、「 hongkongpost.gov.hk 」及「 ecert.gov.hk 」。香港郵政只會以「#HKPost」名稱向本地流動電話服務用戶發出短訊，及以「@hkpo.",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "​財政司司長會見傳媒談話內容（只有中文）（附圖／短片）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300539.htm",
-          "publishedAt": "2026-11-03T09:30:00.000Z",
-          "excerpt": "以下是財政司司長陳茂波今日（十一月三日）出席國際金融領袖投資峰會後會見傳媒的談話內容： 財政司司長：各位傳媒朋友，大家好。 國際金融領袖投資峰會的主峰會，今日順利舉行，匯聚約280位國際金融領袖，包括約120位國際金融機構的主席或行政總裁，大家一起探討環球金融的變化和機遇。我們非常感謝何立峰副總理（國務院副總理）今早的視像發言，為與會者提供了深刻洞察。 在與這些國際金融領袖交流時，我感受到他們普遍對香港感到積極和樂觀。他們也有向我提到這點，可以説這是他們的共同觀察。 這次峰會有幾個值得注意的面向。 首先，內地金融監管機構的分享。內地金融監管機構的分享讓國際金融界直接了解政策思路。這種交流有助國",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "行政長官在2026粵港澳大灣區全球招商大會致辭（只有中文）（附短片）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110200483.htm",
-          "publishedAt": "2026-11-03T09:30:00.000Z",
-          "excerpt": "以下是行政長官李家超今日（十一月三日）在2026粵港澳大灣區全球招商大會的視像致辭： 尊敬的黃坤明書記（廣東省委書記）、尊敬的孟凡利省長（廣東省省長）、各位企業代表、各位嘉賓、各位朋友︰ 大家好！很高興參與今年的粵港澳大灣區全球招商大會。今年是粵港澳三地政府第五年合辦招商大會，體現三地緊密合作，共同向全球展示大灣區發展機遇。 粵港澳大灣區是國家新發展格局的戰略支點、高質量發展的示範地、中國式現代化的引領地。這片佔全國面積不到百分之零點六的土地，創造出約全國九分之一的經濟總量。商機匯聚，前景無限。 今年是國家「十五五」規劃開局之年，香港特區政府在九月公布了《香港第一個五年規劃》，主動對接國家發展",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "文化體育及旅遊局局長在立法會經濟發展事務委員會會議就旅遊業監管局的工作報告開場發言（只有中文）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300533.htm",
-          "publishedAt": "2026-11-03T09:15:00.000Z",
-          "excerpt": "以下是文化體育及旅遊局局長羅淑佩今日（十一月三日）在立法會經濟發展事務委員會會議就旅遊業監管局（旅監局）的工作報告的開場發言： &nbsp; 主席︰ &nbsp; 今日我聯同旅遊事務署及旅遊業監管局的代表，向事務委員會匯報旅監局自旅遊業新規管制度全面實施以來的工作進展。 &nbsp; 旅遊業是香港的主要經濟支柱，亦是說好香港故事的重要平台。回想十多年前，當時我還在旅遊事務署擔任旅遊事務副專員。當時業界飽受「零、負團費」及強迫購物等亂象困擾，嚴重損害香港作為旅遊城市的聲譽。當年我們下定決心改革監管制度，成立具法定權力的獨立監管機構，徹底擺脫以往業界自我監管的局限，並建立完善的發牌及持續專業進修制",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "​海關關長與老撾財政部副部長會面（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/03/P2026103000263.htm",
-          "publishedAt": "2026-11-03T09:08:00.000Z",
-          "excerpt": "海關關長陳子達於十月三十日與老撾財政部副部長Soulivath Souvannachoumkham及代表團於海關總部大樓會面，以增進雙方友好關係及加強業務聯繫。老撾駐香港總領事Ammala Saenchonghack亦有出席。 陳子達歡迎Soulivath Souvannachoumkham及代表團成員到訪香港海關。雙方進行高層會晤，就推動認可經濟營運商互認安排、打擊跨境犯罪活動，以及共同關注的議題交換意見。 香港海關將繼續與國際及區域夥伴保持緊密聯繫，促進貿易便利，以鞏固和提升香港作為國際貿易中心的地位。 &nbsp;&nbsp; &nbsp;&nbsp;",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Conversation",
@@ -6799,10 +6643,10 @@
       "count": 20,
       "stories": [
         {
-          "title": "Bodhi Leaves Fellowship",
+          "title": "New Lion’s Roar fellowship seeks to amplify Asian voices",
           "url": "https://www.lionsroar.com/bodhi-leaves-fellowship/",
           "publishedAt": "2026-11-01T13:30:00.000Z",
-          "excerpt": "Lion’s Roar, a leading voice for Buddhism in the English-speaking world, invites applications to its Bodhi Leaves Fellowship. The post Bodhi Leaves Fellowship appeared first on Lion’s Roar .",
+          "excerpt": "Lion’s Roar, a leading voice for Buddhism in the English-speaking world, invites applications to its Bodhi Leaves Fellowship. The post New Lion’s Roar fellowship seeks to amplify Asian voices appeared first on Lion’s Roar .",
           "source": "Lion’s Roar",
           "category": "Philosophy"
         },
@@ -7428,7 +7272,7 @@
       "name": "Book Marks",
       "category": "Books",
       "kind": "rss",
-      "count": 20,
+      "count": 10,
       "stories": [
         {
           "title": "The Best Reviewed Books of the Month",
@@ -7507,86 +7351,6 @@
           "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-month-9-30-2026/",
           "publishedAt": "2026-09-30T09:45:28.000Z",
           "excerpt": "Marlon James’ The Disappearers, Jon Ronson’s The Castle, Emily St. John Mandel’s Exit Party, and Emily Wilson’s Crossing the Wine-Dark Sea all feature among September’s best reviewed books. * Fiction 1. The Disappearers by Marlon James (Riverhead) 17 Rave • 4 Positive • 2 Mixed Read a profile of Mar",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "The Best Reviewed Books of the Week",
-          "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-25-2026/",
-          "publishedAt": "2026-09-25T09:45:15.000Z",
-          "excerpt": "Gloria Steinem’s An Unexpected Life, Naomi Alderman’s The Strangers, Chuck Klosterman’s Rock*, and Doireann Ní Ghríofa’s Said the Dead all feature among the best reviewed books of the week. * Fiction 1. The Strangers by Naomi Alderman (Little Brown and Company) 5 Rave • 1 Mixed • 1 Pan “A remarkably",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "5 Reviews You Need to Read This Week",
-          "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-9-24-2026/",
-          "publishedAt": "2026-09-24T09:45:00.000Z",
-          "excerpt": "Our smorgasbord of sumptuous reviews this week includes Anahid Nersessian on Ashton Politanoff’s Dad Had a Bad Day, Peter Beinart on Akbar Shahid Ahmed’s Crossing the Red Line, Jennifer Wilson on Lars Anderson’s Brady, Sanjena Sathian on Min Jin Lee’s American Hagwon, and Jeff VanderMeer on China Mi",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "The Best Reviewed Books of the Week",
-          "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-18-2026/",
-          "publishedAt": "2026-09-18T09:45:57.000Z",
-          "excerpt": "Emily St. John Mandel’s Exit Party, Ben Macintyre’s Redwood, Kate Atkinson’s Our Noble Selves, and Naomi Klein & Astra Taylor’s End Times Fascism all feature among the best reviewed books of the week. * Fiction 1. Exit Party by Emily St. John Mandel (Knopf) 16 Rave • 2 Positive • 1 Mixed • 1 Pan […]",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "5 Book Reviews You Need to Read This Week",
-          "url": "https://bookmarks.reviews/5-book-reviews-you-need-to-read-this-week-9-17-2026/",
-          "publishedAt": "2026-09-17T09:45:36.000Z",
-          "excerpt": "Our quintet of quality reviews this week includes Joseph O’Neill on Jared Weisberg’s Profiles in Cowardice, Hua Hsu on Brian Dillon’s Ambivalence, Felipe De La Hoz on Mahmoud Khalil’s No Land to Stand On, Edna Bonhomme on Imani Thompson’s Honey, and Jeremy Gordon on Jon Ronson’s The Castle. * “Say w",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "The Best Reviewed Books of the Week",
-          "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-48/",
-          "publishedAt": "2026-09-11T09:45:11.000Z",
-          "excerpt": "Emma Cline’s Switzy, Francis Fukuyama’s In the Realm of the Last Man, and R.F. Kuang’s Taipei all feature among the best reviewed books of the week. * Fiction 1. Switzy by Emma Cline (Random House) 5 Rave • 3 Positive • 1 Mixed “What’s hypnotic about this novel is the illusion that we’re watching a ",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "5 Reviews You Need to Read This Week",
-          "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-9-10-2026/",
-          "publishedAt": "2026-09-10T09:45:26.000Z",
-          "excerpt": "Our mixum-gatherum of magnificent reviews this week includes Emma Alpern on Emma Cline’s Switzy, T. M. Brown on Danny McBride’s Thrilling Tales of Modern Men, Sara Collins on Sebastian Barry’s The Newer World, Joy Williams on Lance Richardson’s True Nature, and Tembe Denton-Hurst on Marlon James’ Th",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "The Best Reviewed Books of the Week",
-          "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-4-2026/",
-          "publishedAt": "2026-09-04T09:45:00.000Z",
-          "excerpt": "Marlon James’ The Disappearers, Jon Ronson’s The Castle, Chloe Benjamin’s Under Story, and Emily Wilson’s Crossing the Wine Dark Sea all feature among the best reviewed books of the month. * Fiction 1. The Disappearers by Marlon James (Riverhead) 11 Rave • 2 Positive • 1 Mixed Read a profile of Marl",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "5 Reviews You Need to Read This Week",
-          "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-14/",
-          "publishedAt": "2026-09-03T09:45:25.000Z",
-          "excerpt": "Our bevy of brilliant reviews this week includes Dwight Garner on Marlon James’ The Disappearers, Kate Tuttle on John Dos Passos’ U.S.A. trilogy, Parul Sehgal on Rachel Cusk’s The Life of M, Laura Miller on Kai Bird’s American Scoundrel, and Alexandra Harris on Colm Tóibín’s The Bridge. * “In the so",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "The Best Reviewed Books of the Month",
-          "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-month-5/",
-          "publishedAt": "2026-08-28T09:45:39.000Z",
-          "excerpt": "Chang-Rae Lee’s A Tender Age, Jill Lepore’s The Rise and Fall of the Artificial State, Téa Obreht’s Sunrise, and Dave Zirin’s The People’s Historian all feature among August’s best reviewed books. * Fiction 1. A Tender Age by Chang Rae-Lee (Riverhead) 11 Rave • 1 Mixed • 1 Pan “Luminous … In his mas",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "5 Reviews You Need to Read This Week",
-          "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-8-27-2026/",
-          "publishedAt": "2026-08-27T09:45:14.000Z",
-          "excerpt": "Our smorgasbord of sumptuous reviews this week includes Megan Nolan on Jon Ronson’s The Castle, Kasia Boddy on William Kennedy’s Albany Trilogy, Jonathan Dee on Kurt Andersen’s The Breakup, Johanna Thomas-Corr on Meg Mason’s Sophie, Standing There, and Ali Winston on Gil Durán’s The Nerd Reich. * “M",
           "source": "Book Marks",
           "category": "Books"
         }
@@ -7784,7 +7548,7 @@
       "name": "The Millions",
       "category": "Books",
       "kind": "rss",
-      "count": 10,
+      "count": 20,
       "stories": [
         {
           "title": "The Millions’ Great Fall 2026 Book Preview",
@@ -7863,6 +7627,86 @@
           "url": "https://themillions.com/2025/04/the-great-spring-2025-preview.html",
           "publishedAt": "2025-04-11T16:40:19.000Z",
           "excerpt": "It’s been a painfully long winter here in New York City, but the glinting promise of spring—and spring books—has bolstered me through these cold, hard months. Here you’ll find just over 100 titles that we’re looking forward to here at The Millions. Some we’ve already read in galley form; others we’r",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "Esther Kinsky’s Lyrical Elegy for the Movies",
+          "url": "https://themillions.com/2025/01/esther-kinskys-lyrical-elegy-for-the-movies.html",
+          "publishedAt": "2025-01-30T13:00:00.000Z",
+          "excerpt": "In Esther Kinsky’s fiction, landscapes write and speak. Across her novels we find “waters sighing,” “shadows of leaves scribbling notes,” the Oder drawing “countless watery question marks and intertwining letters,” “annotating the landscape.” Kinsky animates the environments of her books, reminding ",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "Madeleine Watts Doesn’t Want Closure",
+          "url": "https://themillions.com/2025/01/madeleine-watts-doesnt-want-closure.html",
+          "publishedAt": "2025-01-29T13:00:00.000Z",
+          "excerpt": "Elegy, Southwest, Madeleine Watts’s sophomore novel, follows a young married couple from New York City on a two-week road trip across the American Southwest in November 2018. As wildfires rage and the Colorado River faces ecological collapse, the couple grapples with personal turmoil—Lewis mourns th",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "John and Yves Berger’s Letters on the Nature of Art—and the Art of Nature",
+          "url": "https://themillions.com/2025/01/john-and-yves-bergers-letters-on-the-nature-of-art-and-the-art-of-nature.html",
+          "publishedAt": "2025-01-28T13:00:00.000Z",
+          "excerpt": "Halfway through Over to You, the painter Yves Berger recounts a meeting with university students interested in his creative process. The meeting, he feels, was a “failure,” in part because of the inadequacy of his visual aid—photographs of three of his works in various stages of completion. The phot",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "Most Anticipated: The Great Winter 2025 Preview",
+          "url": "https://themillions.com/2025/01/most-anticipated-the-great-winter-2025-preview.html",
+          "publishedAt": "2025-01-14T13:00:00.000Z",
+          "excerpt": "It’s cold, it’s grey, its bleak—but winter, at the very least, brings with it a glut of anticipation-inducing books. Here you’ll find nearly 100 titles that we’re excited to cozy up with this season. Some we’ve already read in galley form; others we’re simply eager to devour based on their authors, ",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "Rubies Shored Against the Ruin",
+          "url": "https://themillions.com/2025/01/rubies-shored-against-the-ruin.html",
+          "publishedAt": "2025-01-08T14:00:00.000Z",
+          "excerpt": "By the time the English poet and courtier Sir Philip Sidney was felled by a bullet among the low, frigid marshes of Zutphen in October of 1586, where he was fighting on behalf of Dutch independence, he had already spent quite a lot of time thinking about greatness, both personal and poetic. Dead at ",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "A Year in Reading: Edwin Frank",
+          "url": "https://themillions.com/2024/12/a-year-in-reading-edwin-frank.html",
+          "publishedAt": "2024-12-18T15:00:00.000Z",
+          "excerpt": "The book that held my attention through most of the year, that I went back to again and again—perforce, it is a very long book—was Volume 1 of Capital, the only volume of his magnum opus that Karl Marx saw into print. It is a long book and an essentially unclassifiable book: a study in … The post A ",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "A Year in Reading: Sophia Stewart",
+          "url": "https://themillions.com/2024/12/a-year-in-reading-sophia-stewart-3.html",
+          "publishedAt": "2024-12-18T15:00:00.000Z",
+          "excerpt": "A mortifying admission in light of my 2023 Year in Reading essay: this year, I fell in love with a man. I also fell back in love with making music. Both developments shifted my priorities and altered my reading practice (I read more while in transit, to and from dates or practice). As a result, … Th",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "A Year in Reading: Jeremy Gordon",
+          "url": "https://themillions.com/2024/12/a-year-in-reading-jeremy-gordon.html",
+          "publishedAt": "2024-12-17T15:00:00.000Z",
+          "excerpt": "I have long made lists of my favorite cultural artifacts of the year—as a college blogger blathering about movies to a single-digit readership, as a Pitchfork voter trying to advocate for Fred Thomas’s “Cops Don’t Care Pt. II” for the Best of 2010s List. (Mission: unsuccessful.) A few years ago, I d",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "A Year in Reading: John Lee Clark",
+          "url": "https://themillions.com/2024/12/a-year-in-reading-john-lee-clark.html",
+          "publishedAt": "2024-12-17T15:00:00.000Z",
+          "excerpt": "When I moved to Montreal last August to begin doctoral studies, I gave myself a personal assignment to sift through Canadian literature. Elizabeth Hay’s 2006 novel Late Nights on Air stopped me, just like how a voice on the radio stops a character named Gwen: “His relaxed, gravelly, conversational v",
+          "source": "The Millions",
+          "category": "Books"
+        },
+        {
+          "title": "A Year in Reading: Ellen Wayland-Smith",
+          "url": "https://themillions.com/2024/12/a-year-in-reading-ellen-wayland-smith.html",
+          "publishedAt": "2024-12-17T15:00:00.000Z",
+          "excerpt": "I published a book of essays two months ago, which I realized only in retrospect is a collection of meditations on pain, and since then I have been parsing reader reactions in an anecdotal sort of way. Here are some things that people have said about the essays: they are “harrowing” and “blunt”; “cl",
           "source": "The Millions",
           "category": "Books"
         }
@@ -9622,19 +9466,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The Telephone’s Tangled History of Intimacy and Control",
-          "url": "https://www.newyorker.com/magazine/2026/11/09/the-telephone-james-gleick-book-review",
+          "title": "The Trouble with Saying What You Mean",
+          "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
           "publishedAt": "2026-11-02T11:00:00.000Z",
-          "excerpt": "How an invention that brought distant voices close rewrote the rules of conversation and raised an unsettling question: Who else might be listening?",
+          "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "The Trouble with Saying What You Mean",
-          "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
+          "title": "The Telephone’s Tangled History of Intimacy and Control",
+          "url": "https://www.newyorker.com/magazine/2026/11/09/the-telephone-james-gleick-book-review",
           "publishedAt": "2026-11-02T11:00:00.000Z",
-          "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
+          "excerpt": "How an invention that brought distant voices close rewrote the rules of conversation and raised an unsettling question: Who else might be listening?",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -9951,6 +9795,14 @@
       "count": 15,
       "stories": [
         {
+          "title": "Americans Place “I Voted” Stickers on Memorials to ICE Victims",
+          "url": "https://hyperallergic.com/americans-place-i-voted-stickers-on-memorials-to-ice-victims/",
+          "publishedAt": "2026-11-03T19:09:16.000Z",
+          "excerpt": "Voting stickers appeared across memorials dedicated to Lorenzo Salgado Araujo and Alex Pretti, both of whom were killed by ICE agents earlier this year.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
+        {
           "title": "Your Midterm Guide to Voting for the Arts",
           "url": "https://hyperallergic.com/your-midterm-guide-to-voting-for-the-arts/",
           "publishedAt": "2026-11-03T11:00:00.000Z",
@@ -10061,14 +9913,6 @@
           "excerpt": "From “Las Dos Fridas” to a walking Eva Hesse sculpture, Hyperallergic members, readers, friends, and artists brought the spirit of the season to our second annual costume contest.",
           "source": "Hyperallergic",
           "category": "Culture"
-        },
-        {
-          "title": "10 Years Later, Magenta Plains Is Still Embracing the Unexpected",
-          "url": "https://hyperallergic.com/10-years-later-magenta-plains-is-still-embracing-the-unexpected/",
-          "publishedAt": "2026-10-30T21:00:02.000Z",
-          "excerpt": "An anniversary exhibition spotlights the artists who’ve made the gallery one of Lower Manhattan’s most adventurous success stories.",
-          "source": "Hyperallergic",
-          "category": "Culture"
         }
       ]
     },
@@ -10078,6 +9922,30 @@
       "kind": "rss",
       "count": 12,
       "stories": [
+        {
+          "title": "‘The Intertwining’ Review: Two Medical Students Uncover Buried Truths in Tense Psychological Drama",
+          "url": "https://www.indiewire.com/criticism/movies/the-intertwining-movie-review-1235225255/",
+          "publishedAt": "2026-11-03T19:00:00.000Z",
+          "excerpt": "A Japanese woman and a Korean woman learn they were switched during IVF in an intensely controlled film from Kiyoshi Kurosawa protegé Akira Yamamoto.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
+          "title": "Billy Evans Hosts AMA on (His Own) X Account: ‘You Can See Everything’ Subject on Not Being a Cocaine Fan, Going Full Frontal, and What His Cousin’s Thing Was",
+          "url": "https://www.indiewire.com/news/general-news/billy-evans-you-can-see-everything-elizabeth-holmes-cocaine-full-frontal-1235225245/",
+          "publishedAt": "2026-11-03T18:56:05.000Z",
+          "excerpt": "Elizabeth Holmes' life partner spend Monday answering \"legally permissible\" questions from fans.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
+          "title": "Jordan Firstman Opens Up with ‘Club Kid,’ His Hilarious, Tender, and Must-See Feature Filmmaking Debut",
+          "url": "https://www.indiewire.com/features/interviews/jordan-firstman-club-kid-interview-1235193584/",
+          "publishedAt": "2026-11-03T18:30:00.000Z",
+          "excerpt": "“I’ve softened a lot in the process of making it,” Firstman told IndieWire, reflecting on the melancholy portrait he paints in a film about queer nightlife and learning how to be seen.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
         {
           "title": "Even Netflix Is Turning to AI to Help Audiences Figure Out What to Watch",
           "url": "https://www.indiewire.com/news/general-news/netflix-ai-discover-function-1235225158/",
@@ -10147,30 +10015,6 @@
           "url": "https://www.indiewire.com/news/trailers/the-liberation-trailer-carrie-coon-1235225057/",
           "publishedAt": "2026-11-02T21:30:00.000Z",
           "excerpt": "The fall festival hit opens in theaters on January 8, courtesy of Bleecker Street.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "‘Godzilla Minus Zero’ Review: The King of the Monsters Returns with a Direct Sequel That’s One Better Than the Last Movie in Almost Every Way",
-          "url": "https://www.indiewire.com/criticism/movies/godzilla-minus-zero-movie-review-1235218720/",
-          "publishedAt": "2026-11-02T21:00:00.000Z",
-          "excerpt": "Godzilla squares off against King Ghidorah in an IMAX-sized melodrama that features some of the most thrilling kaiju fights ever.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "‘Mouse’ Review: ‘Saint Frances’ and ‘Ghostlight’ Filmmakers Bring Their Singular Humanity to a Coming-of-Age Tale",
-          "url": "https://www.indiewire.com/criticism/movies/mouse-review-kelly-osullivan-alex-thompson-1235178567/",
-          "publishedAt": "2026-11-02T20:00:00.000Z",
-          "excerpt": "Around these parts, every Kelly O'Sullivan and Alex Thompson feature film is an event. The pair's third production together is no exception — and their best to date.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "‘The Hunger Games: Sunrise on the Reaping’ Will Be in 3D in Theaters — and on Meta’s New VR Glasses",
-          "url": "https://www.indiewire.com/news/breaking-news/hunger-games-sunrise-reaping-3d-version-meta-vr-glasses-1235225062/",
-          "publishedAt": "2026-11-02T20:00:00.000Z",
-          "excerpt": "Lionsgate is partnering with Facebook parent company Meta on the 3D version of the film and will collaborate on future titles for the VR glasses hitting shelves next spring.",
           "source": "IndieWire",
           "category": "Culture"
         }
@@ -11083,6 +10927,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "Extreme Conditions: Inside Nepal’s Metal Underground",
+          "url": "https://daily.bandcamp.com/scene-report/nepal-metal-scene-report",
+          "publishedAt": "2026-11-03T18:32:48.000Z",
+          "excerpt": "In the shadow of the Himalayas, a fiercely independent scene is making a righteous noise. Read full story on the Bandcamp Daily .",
+          "source": "Bandcamp Daily",
+          "category": "Arts"
+        },
+        {
           "title": "The Best Ambient Music on Bandcamp, October 2026",
           "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-october-2026",
           "publishedAt": "2026-11-03T14:43:34.000Z",
@@ -11231,14 +11083,6 @@
           "url": "https://daily.bandcamp.com/features/leenalchi-sugungga-feature",
           "publishedAt": "2026-10-27T13:46:13.000Z",
           "excerpt": "The septet combine pansori—an ancient form of Korean musical storytelling—with funky, off-kilter pop. Read full story on the Bandcamp Daily .",
-          "source": "Bandcamp Daily",
-          "category": "Arts"
-        },
-        {
-          "title": "Orchestra Baobab, “Made In Senegal”",
-          "url": "https://daily.bandcamp.com/album-of-the-day/orchestra-baobab-made-in-senegal-review",
-          "publishedAt": "2026-10-27T13:46:10.000Z",
-          "excerpt": "The biggest band in Senegal celebrate their 50th anniversary with an explosive, triumphant LP. Read full story on the Bandcamp Daily .",
           "source": "Bandcamp Daily",
           "category": "Arts"
         }
@@ -11607,6 +11451,16 @@
       "count": 20,
       "stories": [
         {
+          "title": "The soundtrack for Wipeout XL (aka Wipeout 2097) was...",
+          "url": "https://kottke.org/26/11/0049925-the-soundtrack-for-wipeou",
+          "publishedAt": "2026-11-03T19:09:00.000Z",
+          "excerpt": "The soundtrack for Wipeout XL (aka Wipeout 2097) was crazy for a video game; it featured tracks from groups like Underworld, Orbital, The Prodigy, Daft Punk, and Chemical Brothers. I had this on CD! Ripped it and played ‘em on Winamp!",
+          "source": "Kottke",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Kottke"
+        },
+        {
           "title": "10 Years of Kottke.org Membership",
           "url": "https://kottke.org/26/11/10-years-of-kottkeorg-membership",
           "publishedAt": "2026-11-03T16:36:00.000Z",
@@ -11791,16 +11645,6 @@
           "url": "https://kottke.org/26/10/na-na-na-na-na-na-na-na-site-search",
           "publishedAt": "2026-10-30T13:42:00.000Z",
           "excerpt": "After years in the making (or more accurately, years in the wanting), I finally figured out how I wanted to do search for KDO posts. I’ve been tinkering with this specific implementation since the beginning of the summer and it finally all came together. If you’re a member , please help me to kick t",
-          "source": "Kottke",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Kottke"
-        },
-        {
-          "title": "Listen to a Long-Lost Daft Punk Mix From 1997",
-          "url": "https://kottke.org/26/10/listen-to-a-long-lost-daft-punk-mix-from-1997",
-          "publishedAt": "2026-10-30T12:30:00.000Z",
-          "excerpt": "A DJ named Ralph Lawson, who hosted a radio show called Trans Europe Express, found an incredible time capsule in his collection: an hour-long mixtape sent to him by Daft Punk in 1997, shortly after the release of their debut album, Homework. The tape was badly damaged, but he worked with a speciali",
           "source": "Kottke",
           "category": "Discover",
           "sourceRole": "curator",
@@ -12759,13 +12603,22 @@
   ],
   "stories": [
     {
-      "title": "Google researchers demand freedom to tell the world what they know about AI",
-      "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
-      "publishedAt": "2026-11-03T17:55:26.000Z",
+      "title": "I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "publishedAt": "2026-11-03T18:11:11.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50355504"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50355767"
+    },
+    {
+      "title": "How to write comparison content that doesn't age like milk",
+      "url": "https://posthog.com/blog/comparison-content-guide",
+      "publishedAt": "2026-11-03T17:46:58.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50355365"
     },
     {
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
@@ -12795,6 +12648,15 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50354582"
     },
     {
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "publishedAt": "2026-11-03T16:47:29.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50354358"
+    },
+    {
       "title": "Gitbook Breached",
       "url": "https://news.ycombinator.com/item?id=50354336",
       "publishedAt": "2026-11-03T16:45:49.000Z",
@@ -12811,15 +12673,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50354250"
-    },
-    {
-      "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
-      "url": "https://concepts.laxmena.com/",
-      "publishedAt": "2026-11-03T15:48:35.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50353468"
     },
     {
       "title": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
@@ -12858,7 +12711,7 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50353229"
     },
     {
-      "title": "Schools that block Google’s A.I. will lose student access to its search engine",
+      "title": "Google will turn off search for schools that reject AI",
       "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
       "publishedAt": "2026-11-03T15:25:47.000Z",
       "excerpt": "",
@@ -12912,15 +12765,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50352577"
     },
     {
-      "title": "Charles Tandy, the mastermind behind Radio Shack",
-      "url": "https://dfarq.homeip.net/charles-tandy-the-mastermind-behind-radio-shack/",
-      "publishedAt": "2026-11-03T12:42:30.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50351319"
-    },
-    {
       "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
       "url": "https://honnibal.dev/blog/astra-read-write-misleading",
       "publishedAt": "2026-11-03T12:21:17.000Z",
@@ -12937,6 +12781,30 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50349276"
+    },
+    {
+      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "publishedAt": "2026-11-03T18:31:00.000Z",
+      "excerpt": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, and Live Rewind, which",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "publishedAt": "2026-11-03T18:30:42.000Z",
+      "excerpt": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a pres",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Reddit is adding more ads",
+      "url": "https://www.theverge.com/tech/1025602/reddit-search-ads-test",
+      "publishedAt": "2026-11-03T18:26:36.000Z",
+      "excerpt": "Reddit is testing ads on another area of its platform: search. With this update, ads will appear within your search results \"based on a range of factors, including contextual relevance to a search query,\" according to Reddit. That means searching for \"espresso station\" could present you with ads for",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
       "title": "Indie games are missing launch dates because Steam is backed up",
@@ -13051,14 +12919,6 @@
       "category": "Technology"
     },
     {
-      "title": "Peak Design expands its collection of wireless charging accessories",
-      "url": "https://www.theverge.com/tech/1024484/peak-design-wireless-travel-battery-charging-charger-station-qi",
-      "publishedAt": "2026-11-03T14:00:00.000Z",
-      "excerpt": "Peak Design, best known for its backpacks and travel bags packed full of useful features, announced it's expanding its collection of chargers and charging accessories with new devices that focus on pairing premium materials with innovative functionality. \"Somewhere along the way, we accepted that th",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
       "title": "Bambu’s nine-nozzle H3C foretells the future of 3D printing",
       "url": "https://www.theverge.com/tech/1024978/bambu-h3c-color-mixing-toolchanger-3d-printer-trend",
       "publishedAt": "2026-11-03T14:00:00.000Z",
@@ -13075,27 +12935,19 @@
       "category": "Technology"
     },
     {
-      "title": "Adobe’s Premiere mobile app is adding licensed music from ‘leading artists’",
-      "url": "https://www.theverge.com/tech/1025160/adobe-umg-wmg-premiere-mobile-licensed-music",
+      "title": "Peak Design expands its collection of wireless charging accessories",
+      "url": "https://www.theverge.com/tech/1024484/peak-design-wireless-travel-battery-charging-charger-station-qi",
       "publishedAt": "2026-11-03T14:00:00.000Z",
-      "excerpt": "Adobe is teaming up with Universal Music Group and Warner Music Group to add a library of licensed music clips to the Premiere mobile video editing app. No specific musicians have been announced with this partnership, but Adobe said it will include \"popular songs\" from \"leading artists,\" and enable ",
+      "excerpt": "Peak Design, best known for its backpacks and travel bags packed full of useful features, announced it's expanding its collection of chargers and charging accessories with new devices that focus on pairing premium materials with innovative functionality. \"Somewhere along the way, we accepted that th",
       "source": "The Verge",
       "category": "Technology"
     },
     {
-      "title": "Apple is restricting dating apps and romanceable chatbots to over 18s",
-      "url": "https://www.theverge.com/tech/1025185/apple-app-store-age-rating-dating-apps-ai-companion",
-      "publishedAt": "2026-11-03T13:22:38.000Z",
-      "excerpt": "Apple will soon start asking developers to provide more details about their apps to enforce new App Store age rating requirements for dating and location-sharing features. The upcoming content descriptors announced on Monday will require developers to declare if their apps allow users to share their",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Redmagic upgrades its liquid-cooled gaming phone with extra RGBs",
-      "url": "https://www.theverge.com/gadgets/1024504/redmagic-12-pro-liquid-cooling-rgb-lighting-185hz-camera",
-      "publishedAt": "2026-11-03T12:00:00.000Z",
-      "excerpt": "After introducing true liquid cooling to its gaming phones last year, Redmagic is upping the ante in its 12 Pro by building RGB lights into the transparent cooling loop, too. And they work! Sort of. The lights do turn on, and they can be set to glow in set patterns, activate for specific apps, or […",
-      "source": "The Verge",
+      "title": "Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist",
+      "url": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+      "publishedAt": "2026-11-03T19:04:58.000Z",
+      "excerpt": "Suspected North Korean attackers duped an engineer with a fake job interview and a malicious download to gain a foothold in the crypto firm’s system and steal billions, according to Binance.",
+      "source": "WIRED",
       "category": "Technology"
     },
     {
@@ -13195,14 +13047,6 @@
       "category": "Technology"
     },
     {
-      "title": "30% Off Canon Promo Codes | November 2026",
-      "url": "https://www.wired.com/story/canon-promo-code/",
-      "publishedAt": "2026-11-03T06:00:00.000Z",
-      "excerpt": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
       "title": "Uber Eats Promo Codes: $15 Off│November 2026",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
       "publishedAt": "2026-11-03T06:00:00.000Z",
@@ -13243,18 +13087,18 @@
       "category": "Technology"
     },
     {
-      "title": "AT&T Promo Codes: $50 Off This November 2026",
-      "url": "https://www.wired.com/story/att-promo-code/",
+      "title": "30% Off Canon Promo Codes | November 2026",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "publishedAt": "2026-11-03T06:00:00.000Z",
-      "excerpt": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
+      "excerpt": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
       "source": "WIRED",
       "category": "Technology"
     },
     {
-      "title": "KitchenAid Promo Codes: Save Up to 20%",
-      "url": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
+      "title": "AT&T Promo Codes: $50 Off This November 2026",
+      "url": "https://www.wired.com/story/att-promo-code/",
       "publishedAt": "2026-11-03T06:00:00.000Z",
-      "excerpt": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances.",
+      "excerpt": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -13579,6 +13423,30 @@
       "category": "Technology"
     },
     {
+      "title": "Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",
+      "url": "https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/",
+      "publishedAt": "2026-11-03T19:04:52.000Z",
+      "excerpt": "Hillary Clinton's 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Ferrari’s controversial Luce EV is sold out for 2027",
+      "url": "https://techcrunch.com/2026/11/03/ferraris-controversial-luce-ev-is-sold-out-for-2027/",
+      "publishedAt": "2026-11-03T18:51:33.000Z",
+      "excerpt": "The Luce, Ferrari's first electric car and one of its most polarizing models, is \"fully allocated\" through 2027, according to CEO Benedetto Vigna.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "publishedAt": "2026-11-03T18:42:16.000Z",
+      "excerpt": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
       "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
       "publishedAt": "2026-11-03T17:56:52.000Z",
@@ -13715,30 +13583,6 @@
       "category": "Technology"
     },
     {
-      "title": "Apple’s inventory surges 154% as memory chip costs climb",
-      "url": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/",
-      "publishedAt": "2026-11-02T23:04:57.000Z",
-      "excerpt": "Apple says unprecedented memory chip costs will continue to rise, raising questions about future device prices as its inventory climbs to $14.5 billion.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "publishedAt": "2026-11-02T22:14:50.000Z",
-      "excerpt": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Germany says lawmakers’ iPhones may have been hacked with spyware",
-      "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/",
-      "publishedAt": "2026-11-02T19:45:54.000Z",
-      "excerpt": "German lawmakers and a filmmaker are among the people who received notifications from Apple warning that their phones may have been hacked.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "title": "AMD needs a big quarter to escape Intel’s fate as AI fears grow",
       "url": "https://thenextweb.com/news/amd-q3-2026-earnings-preview-intel-selloff-ai-fears",
       "publishedAt": "2026-11-03T18:04:49.000Z",
@@ -13827,6 +13671,15 @@
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
+    },
+    {
+      "title": "Fujifilm To Bost Tape Production 5x As AI Fuels Archiving Demand",
+      "url": "https://hardware.slashdot.org/story/26/11/03/190206/fujifilm-to-bost-tape-production-5x-as-ai-fuels-archiving-demand?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-03T19:01:00.000Z",
+      "excerpt": "An anonymous reader quotes a report from Ars Technica: In an announcement released Thursday, Fujifilm said it will invest roughly 10 billion yen (about $63 million) to increase its production capacity fivefold for an unlikely beneficiary of the AI era: magnetic tape. Fujifilm attributes the surge in",
+      "source": "Slashdot",
+      "category": "Technology",
+      "sourceRole": "community"
     },
     {
       "title": "Google Will Turn Off Search For Schools That Reject AI",
@@ -13955,13 +13808,15 @@
       "sourceRole": "community"
     },
     {
-      "title": "Supermarket Freezers Across Europe Hit By Second Suspected Cyberattack",
-      "url": "https://it.slashdot.org/story/26/11/02/1522249/supermarket-freezers-across-europe-hit-by-second-suspected-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-02T16:00:00.000Z",
-      "excerpt": "An anonymous reader quotes a report from The Guardian: Supermarket chains in Sweden, Belgium and Luxembourg have said the temperatures of their refrigerators and freezers in dozens of stores rose overnight, prompting fears of a cyber-attack similar to one that caused millions of euros of food losses",
-      "source": "Slashdot",
+      "title": "Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/meta-readies-cross-border-investment-bond-offering",
+      "publishedAt": "2026-11-03T18:55:03.000Z",
+      "excerpt": "Bloomberg : Sources: Meta eyes at least $20B from a potential cross-border bond offering, the company's first major debt sale in six months and its debut offering in euros &nbsp; &mdash;&nbsp; Meta Platforms Inc. is eyeing at least $20 billion from a potential cross-border investment-grade bond offe",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261103/p25#a261103p25",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; a source says it hit $800M in annualized revenue this year (Natasha Mascarenhas/Bloomberg)",
@@ -14118,15 +13973,22 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Chainalysis and Elliptic expect North Korean hackers to take months to launder the stolen Binance funds, using crypto swapping services and DeFi lending markets (Financial Times)",
-      "url": "https://www.ft.com/content/a6212e33-2175-4957-91d1-8f8f6bc3918b",
-      "publishedAt": "2026-11-03T11:40:00.000Z",
-      "excerpt": "Financial Times : Chainalysis and Elliptic expect North Korean hackers to take months to launder the stolen Binance funds, using crypto swapping services and DeFi lending markets &nbsp; &mdash;&nbsp; North Korean hackers are expected to take months to launder the billions of dollars of tokens they s",
-      "source": "Techmeme",
+      "title": "How to use your phone to find hidden cameras",
+      "url": "https://www.engadget.com/2300439/how-to-use-phone-find-hidden-cameras/",
+      "publishedAt": "2026-11-03T19:00:00.000Z",
+      "excerpt": "When you feel wary, a quick check might provide some peace of mind.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261103/p10#a261103p10",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Razer unveils the Raiju V3 Pro Signature Edition PS5 controller",
+      "url": "https://www.engadget.com/2305576/razer-unveils-the-raiju-v3-pro-signature-edition-ps5-controller/",
+      "publishedAt": "2026-11-03T18:28:03.000Z",
+      "excerpt": "It sure is pretty and will likely be expensive.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "How to make your older Android phones last longer",
@@ -14291,20 +14153,65 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Arduview might be the ultimate tribute to retro translucent gadgets",
-      "url": "https://www.engadget.com/2304756/the-arduview-might-be-the-ultimate-tribute-to-retro-translucent-gadgets/",
-      "publishedAt": "2026-11-03T12:30:00.000Z",
-      "excerpt": "Almost every component of the tiny Arduview gaming handheld is see-through.",
-      "source": "Engadget",
+      "title": "'Stylish, highly upgradable Copilot mini PC': The Minisforum AI X1 Pro-470 proved a devastatingly effective AI workstation in our tests — with a price cut at Best Buy not even Amazon can beat",
+      "url": "https://www.techradar.com/pro/stylish-highly-upgradable-copilot-mini-pc-the-minisforum-ai-x1-pro-470-proved-a-devastatingly-effective-ai-workstation-in-our-tests-with-a-price-cut-at-best-buy-not-even-amazon-can-beat",
+      "publishedAt": "2026-11-03T19:13:48.000Z",
+      "excerpt": "The Minisforum AI X1 Pro-470 proved a devastatingly effective AI mini PC in our tests. Now, the model gets a price cut at Best Buy not even Amazon can beat.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "Apple will start mandating age requirements for dating apps",
-      "url": "https://www.engadget.com/2305017/apple-start-mandating-age-requirements-dating-apps/",
-      "publishedAt": "2026-11-03T10:32:28.000Z",
-      "excerpt": "Apple developers will have to declare whether their app enables dating between real people and/or AI companions, so the company can apply the proper age rating.",
-      "source": "Engadget",
+      "title": "'The office increasingly fails to deliver this benefit': Most in-office workers now describe their desk jobs as ‘remote' despite bosses promising to boost in-person teams",
+      "url": "https://www.techradar.com/pro/the-office-increasingly-fails-to-deliver-this-benefit-most-in-office-workers-now-describe-their-desk-jobs-as-remote-despite-bosses-promising-to-boost-in-person-teams",
+      "publishedAt": "2026-11-03T19:05:00.000Z",
+      "excerpt": "Companies are asking their workers to come into the office on average 3.74 days per week, but they're still not working in-person.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Save $350 on Dell's touchscreen laptop for remote and hybrid workers",
+      "url": "https://www.techradar.com/pro/dells-15-6-inch-touchscreen-laptop-is-ideal-for-hybrid-workers-and-its-a-massive-usd350-off-for-black-friday",
+      "publishedAt": "2026-11-03T18:51:38.000Z",
+      "excerpt": "Dell's 15.6-inch Core i7 laptop gets a huge $350 discount in Best Buy's Black Friday sale - but it's the angled keyboard that makes us recommend it.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Black Friday web hosting deals 2026 — we found early discounts on shared, WordPress, and VPS hosting platforms for your business",
+      "url": "https://www.techradar.com/pro/black-friday/black-friday-web-hosting-deals",
+      "publishedAt": "2026-11-03T18:32:59.000Z",
+      "excerpt": "After testing the top web hosting providers, we've tracked down all the early Black Friday deals from Hostinger, Bluehost, Siteground, and more.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "VIDEO: Interview with Proton CEO Andy Yen on the rise and risks of AI, and the future of his company",
+      "url": "https://www.techradar.com/vpn/vpn-privacy-security/video-interview-with-proton-ceo-andy-yen-on-the-rise-and-risks-of-ai-and-the-future-of-his-company",
+      "publishedAt": "2026-11-03T18:30:27.000Z",
+      "excerpt": "Yen sat down with The Privacy Lab in early October to talk age verification and just how much more telling AI chatbots are than your browser history.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "'A CV used to be a candidate's account of themselves. Increasingly, it's an AI's account of what a recruiter wants to read': Report finds most recruiters don't believe anyone is actually writing their CV anymore",
+      "url": "https://www.techradar.com/pro/a-cv-used-to-be-a-candidates-account-of-themselves-increasingly-its-an-ais-account-of-what-a-recruiter-wants-to-read-report-finds-most-recruiters-dont-believe-anyone-is-actually-writing-their-cv-anymore",
+      "publishedAt": "2026-11-03T18:25:00.000Z",
+      "excerpt": "It is now easier to find candidates for job roles, but thanks to AI-written CVs, recruiters have to spend more time per candidate verifying their skill set.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Gruffalo's illustrator is 'seriously considering' suing AI companies — so I tested whether ChatGPT and Gemini would recreate his famous characters",
+      "url": "https://www.techradar.com/ai-platforms-assistants/the-gruffalos-illustrator-is-seriously-considering-suing-ai-companies-so-i-tested-whether-chatgpt-and-gemini-would-recreate-his-famous-characters",
+      "publishedAt": "2026-11-03T18:20:50.000Z",
+      "excerpt": "The illustrator of the Gruffalo says his images are being pumped out of AI models, so I put that to the test.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14363,15 +14270,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Barcelona vs Aston Villa for FREE: Live streams",
-      "url": "https://www.techradar.com/entertainment/football/barcelona-vs-aston-villa-free-champions-league-2026-27",
-      "publishedAt": "2026-11-03T17:00:00.000Z",
-      "excerpt": "All the ways to watch Barcelona vs Aston Villa, as Unai Emery takes the upstart Villans to Camp Nou on Matchday 4 of the Champions League 2026/27 league phase.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "How to watch Man Utd vs Roma",
       "url": "https://www.techradar.com/entertainment/football/watch-man-utd-vs-roma-champions-league-2026-27",
       "publishedAt": "2026-11-03T17:00:00.000Z",
@@ -14385,6 +14283,15 @@
       "url": "https://www.techradar.com/entertainment/tv-shows/us-midterm-elections-2026-live-stream-where-to-watch-results-as-they-happen",
       "publishedAt": "2026-11-03T17:00:00.000Z",
       "excerpt": "Here's how you can live stream US Midterm Elections coverage from anywhere in the world.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How to watch Barcelona vs Aston Villa for FREE: Live streams",
+      "url": "https://www.techradar.com/entertainment/football/barcelona-vs-aston-villa-free-champions-league-2026-27",
+      "publishedAt": "2026-11-03T17:00:00.000Z",
+      "excerpt": "All the ways to watch Barcelona vs Aston Villa, as Unai Emery takes the upstart Villans to Camp Nou on Matchday 4 of the Champions League 2026/27 league phase.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14426,65 +14333,65 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Anthropic employee wages are now costing the AI giant over $100,000 per person per month",
-      "url": "https://www.techradar.com/pro/anthropic-employee-wages-are-now-costing-the-ai-giant-over-usd100-000-per-person-per-month",
-      "publishedAt": "2026-11-03T16:25:00.000Z",
-      "excerpt": "Anthropic has already spent nearly $5 billion on personnel in the first nine months of 2026 as revenue soars.",
-      "source": "TechRadar",
+      "title": "iOS 27.3 introduces new iPhone Duo feature for one-handed use",
+      "url": "https://9to5mac.com/2026/11/03/ios-27-3-introduces-new-iphone-duo-feature-for-one-handed-use/",
+      "publishedAt": "2026-11-03T19:09:11.000Z",
+      "excerpt": "iOS 27.3 beta 1 launched today with a variety of new features, including a big upgrade for one-handed iPhone Duo use thanks to Reachability. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "GTA 6 digital pre-loads for PS5 and Xbox will begin 9 days early and require a whopping 212GB of free space",
-      "url": "https://www.techradar.com/gaming/gta-6-digital-pre-loads-for-ps5-and-xbox-will-begin-9-days-early-and-require-a-whopping-212gb-of-free-space",
-      "publishedAt": "2026-11-03T16:07:35.000Z",
-      "excerpt": "Rockstar Games has announced the file size for Grand Theft Auto 6 and the dates for when players can pre-load their game depending on their edition.",
-      "source": "TechRadar",
+      "title": "Everything new in iOS 27.3 beta 1 so far",
+      "url": "https://9to5mac.com/2026/11/03/everything-new-in-ios-27-3-beta-1-so-far/",
+      "publishedAt": "2026-11-03T19:05:31.000Z",
+      "excerpt": "iOS 27.3 beta 1 is here. Apple’s next iPhone software update brings TK. Below, we’re collecting the new features and changes discovered during testing. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "The Google Pixel Watch 5 drops to its lowest-ever price on Amazon — 'it’s the best Android watch yet'",
-      "url": "https://www.techradar.com/health-fitness/smartwatches/the-google-pixel-watch-5-drops-to-its-lowest-ever-price-on-amazon-its-the-best-android-watch-yet",
-      "publishedAt": "2026-11-03T16:01:24.000Z",
-      "excerpt": "The Google Pixel Watch 5 has been discounted for only the second time since launch, with a $100 price cut at Amazon bringing the four-star wearable down to its lowest price yet.",
-      "source": "TechRadar",
+      "title": "watchOS 27.3 beta adds new Siri Recap and Live Rewind features for Apple Watch",
+      "url": "https://9to5mac.com/2026/11/03/watchos-27-3-beta-adds-new-siri-recap-and-live-rewind-features-for-apple-watch/",
+      "publishedAt": "2026-11-03T18:56:25.000Z",
+      "excerpt": "Apple has released the first beta of watchOS 27.3 for developers, including two new Audio Intelligence features for Apple Watch Series 12 and Apple Watch Ultra 4: Siri Recap and Live Rewind. Apple first announced these features at its special event in September, saying they would “arrive in beta lat",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "The Raiju V3 Pro Signature Edition is Razer's 'most ambitious' PS5 controller to date, featuring materials 'chosen for strength, durability, and finish' — here's where you can get the limited release gamepad",
-      "url": "https://www.techradar.com/gaming/the-raiju-v3-pro-signature-edition-is-razers-most-ambitious-ps5-controller-to-date-featuring-materials-chosen-for-strength-durability-and-finish-heres-where-you-can-get-the-limited-release-gamepad",
-      "publishedAt": "2026-11-03T16:00:00.000Z",
-      "excerpt": "Razer has announced the Raiju V3 Pro Signature Edition, a new version of its officially licensed PS5 controller built on a decade of experience.",
-      "source": "TechRadar",
+      "title": "iOS 27.3 and macOS 27.3 add Vertical Tabs, Adaptive Dark Mode, and more to Safari",
+      "url": "https://9to5mac.com/2026/11/03/ios-27-3-and-macos-27-3-add-vertical-tabs-adaptive-dark-mode-and-more-to-safari/",
+      "publishedAt": "2026-11-03T18:51:53.000Z",
+      "excerpt": "Apple just released the first betas of iOS 27.3, iPadOS 27.3, and macOS 27.3, with some big changes to Safari. The updates add a new vertical tab layout, Adaptive Dark Mode, and Siri AI Custom Actions. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "FastestVPN launches the cheapest way to get a lifetime of VPN and password manager access — and it's exclusive to TechRadar readers",
-      "url": "https://www.techradar.com/vpn/vpn-services/fastestvpn-launches-the-cheapest-way-to-get-a-lifetime-of-vpn-and-password-manager-access-and-its-exclusive-to-techradar-readers",
-      "publishedAt": "2026-11-03T15:46:48.000Z",
-      "excerpt": "Spend $27 and get your software and service for keeps",
-      "source": "TechRadar",
+      "title": "iOS 27.3 adds all-new Apple Health app, details here",
+      "url": "https://9to5mac.com/2026/11/03/ios-27-3-adds-all-new-apple-health-app-details-here/",
+      "publishedAt": "2026-11-03T18:45:17.000Z",
+      "excerpt": "Apple released iOS 27.3 beta 1 today, and it reintroduces the all-new Health app that was first available for testing during the iOS 27.2 beta. Here’s what’s new. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "The Lego Black Friday deals have arrived early — here's my pick of the best deals",
-      "url": "https://www.techradar.com/seasonal-sales/the-lego-black-friday-deals-have-arrived-early-heres-my-pick-of-the-best-deals-to-expand-your-collection-or-give-as-a-gift",
-      "publishedAt": "2026-11-03T15:38:47.000Z",
-      "excerpt": "Major discounts on sets big and small — and many with a price promise so you know it's safe to buy now.",
-      "source": "TechRadar",
+      "title": "First macOS Sequoia 15.8.3 and macOS Tahoe 26.7.3 RCs now available",
+      "url": "https://9to5mac.com/2026/11/03/first-macos-sequoia-15-8-3-and-macos-tahoe-26-7-3-rcs-now-available/",
+      "publishedAt": "2026-11-03T18:29:08.000Z",
+      "excerpt": "In addition to the release of macOS 27.3 beta 1, Apple is also rolling out the first release candidates of macOS Sequoia 15.8.3 and macOS Tahoe 26.7.3. Here are the details. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "The hidden growth opportunity inside UK payment operations",
-      "url": "https://www.techradar.com/pro/the-hidden-growth-opportunity-inside-uk-payment-operations",
-      "publishedAt": "2026-11-03T15:27:46.000Z",
-      "excerpt": "Growth depends on the ability to move money accurately, quickly and at scale.",
-      "source": "TechRadar",
+      "title": "Apple announces Fitness+ Gym Strength program with personalized workout plans",
+      "url": "https://9to5mac.com/2026/11/03/apple-announces-fitness-gym-strength-program-with-personalized-workout-plans/",
+      "publishedAt": "2026-11-03T18:26:16.000Z",
+      "excerpt": "Apple wants to help you get stronger. Apple Fitness+ is expanding to the gym with a new strength training experience. Gym Strength is now available in beta, bringing personalized workout plans, exercise demonstrations, and Apple Watch logging to your lifting routine. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14601,69 +14508,6 @@
       "url": "https://9to5mac.com/2026/11/03/apple-ceo-john-ternus-criticized-for-scripted-approach-to-first-earnings-call/",
       "publishedAt": "2026-11-03T12:54:08.000Z",
       "excerpt": "Investors didn’t seem overly happy about yesterday’s Apple earnings call despite the record results . That likely reflects the company’s cautious take on margins in the current quarter, but some have also criticized what they describe as a very “scripted” approach by new CEO John Ternus . Bloomberg ",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple earnings suggest the iPhone 18 launch strategy is really working",
-      "url": "https://9to5mac.com/2026/11/03/apple-earnings-suggest-the-iphone-18-launch-strategy-is-really-working/",
-      "publishedAt": "2026-11-03T12:29:25.000Z",
-      "excerpt": "Yesterday’s AAPL earnings report revealed record revenue for a September quarter, and within it was an arguably even more significant record: iPhone revenue. That’s because this year’s quarter only includes just two new iPhone models compared to the four released last year … more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple @ Work Podcast: How rising Apple costs are reshaping the trade-in market",
-      "url": "https://9to5mac.com/2026/11/03/how-rising-apple-costs-are-reshaping-the-trade-in-market/",
-      "publishedAt": "2026-11-03T11:00:00.000Z",
-      "excerpt": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional-grade platform all the solutions necessary to seamlessly and automatically deploy, manage & protect Apple devices at work. Over 45,000 organiza",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "SCOTUS sets hearing date for Apple’s appeal in Epic Games case",
-      "url": "https://9to5mac.com/2026/11/02/scotus-sets-hearing-date-for-apples-appeal-in-epic-games-case/",
-      "publishedAt": "2026-11-03T03:00:42.000Z",
-      "excerpt": "The U.S. Supreme Court has officially scheduled oral arguments in Apple’s appeal in its long-running legal battle with Epic Games. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple recently notified users in 99 countries of potential mercenary spyware attacks",
-      "url": "https://9to5mac.com/2026/11/02/apple-recently-notified-users-in-99-countries-of-potential-mercenary-spyware-attacks/",
-      "publishedAt": "2026-11-03T02:19:39.000Z",
-      "excerpt": "Apple reportedly sent notifications to users in 99 countries warning of potential mercenary spyware attacks, as German authorities investigate reports that lawmakers and government officials may have been targeted. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple to require 18+ age ratings for dating apps and AI romantic companions",
-      "url": "https://9to5mac.com/2026/11/02/apple-to-require-18-age-ratings-for-dating-apps-and-ai-romantic-companions/",
-      "publishedAt": "2026-11-03T01:28:51.000Z",
-      "excerpt": "Apple today announced new age rating requirements coming to the App Store , covering apps with location-sharing features, as well as dating and relationship features. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple stock drops nearly 3% after hours following Q4 2026 results",
-      "url": "https://9to5mac.com/2026/11/02/apple-stock-drops-nearly-3-after-hours-following-q4-2026-results/",
-      "publishedAt": "2026-11-03T01:07:40.000Z",
-      "excerpt": "Apple shares fell as much as 4.43% in after-hours trading on Monday during the company’s fiscal Q4 2026 earnings call, before recovering some of those losses later in the evening. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple forecasts its biggest revenue quarter ever despite supply constraints",
-      "url": "https://9to5mac.com/2026/11/02/apple-forecasts-its-biggest-revenue-quarter-ever-despite-supply-constraints/",
-      "publishedAt": "2026-11-02T23:38:32.000Z",
-      "excerpt": "During today’s earnings call following its fiscal Q4 2026 report, Apple said it expects its December quarter “to be the best quarter for revenue in the history of the company.” Here are the details. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14849,6 +14693,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "This $580-off Black Friday laptop deal is great for content creators and artists as well as gamers",
+      "url": "https://www.creativebloq.com/deals/this-usd580-off-black-friday-laptop-deal-is-great-for-content-creators-and-artists-as-well-as-gamers",
+      "publishedAt": "2026-11-03T19:06:24.000Z",
+      "excerpt": "And it's not the only great laptop deal at B&H Photo right now.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Is this the most controversial font since Comic Sans?",
       "url": "https://www.creativebloq.com/news/is-this-the-most-controversial-font-since-comic-sans",
       "publishedAt": "2026-11-03T15:30:00.000Z",
@@ -15015,15 +14868,6 @@
       "url": "https://www.creativebloq.com/news/from-pepsi-man-to-wendyquest-why-are-brands-making-video-games-again",
       "publishedAt": "2026-11-01T14:00:00.000Z",
       "excerpt": "A burger chain's pixel-art RPG has gamers excited.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "\"I’ve ignored most advice and learned by fire\": 5 Questions with Christopher Glass",
-      "url": "https://www.creativebloq.com/features/ive-ignored-most-advice-and-learned-by-fire-5-questions-with-christopher-glass",
-      "publishedAt": "2026-11-01T12:00:00.000Z",
-      "excerpt": "The award-winning production designer discusses pet peeves and imposter syndrome.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -15949,6 +15793,38 @@
       "category": "Design"
     },
     {
+      "title": "高海寧揭被屈包養真相：記者親口承認「寫你銷量高」",
+      "url": "https://hk01.com/sns/article/60405649",
+      "publishedAt": "2026-11-03T19:00:35.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "網傳南亞幫上門劫財 10多人狹窄單位亂戰困獸鬥 MMA影片曝光",
+      "url": "https://hk01.com/sns/article/60406856",
+      "publishedAt": "2026-11-03T18:42:32.000Z",
+      "excerpt": "Facebook流傳一段名為「南亞裔上門打劫毒品飯堂」的閉路電視影片，片長2分半鐘，帖主沒有交代事發地點，顯示日期為2026年10月28日晚上8時11分左右。影片最初見到涉事單位聚集大約10名男女，近門口位置牆身安裝一部監看「天眼」的電視，屋內共有4張枱，其中一張枱有5名男子在玩啤牌，其餘3張枱各坐有一人。 同黨打開枱內櫃桶懷疑搶錢。（網上影片截圖） 電話男向一名坐在木枱懷疑「管數」的赤膊男子施襲。（網上影片截圖） 其間有人打開單位門，一名戴上鴨舌帽、手持電話正在通話的男子進入單位，隨後有一批戴帽或口罩的男子尾隨，包括多名南亞漢，電話男向一名坐在木枱懷疑「管數」的赤膊男子施襲，同黨則打開枱內櫃",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美國中期選舉｜司法部派1000名監督員進駐50州票站 規模史上最大",
+      "url": "https://hk01.com/sns/article/60406854",
+      "publishedAt": "2026-11-03T18:38:29.000Z",
+      "excerpt": "美國司法部11月3日（周二）宣布，已在全美50個州部署1,000名選舉監督員及觀察員。據美媒報道，本次監督員人數約為上次中期選舉的三倍（289人），這將是司法部史上規模最大的選舉日監督行動。 據路透社 報道 ，超過三分之二的轄區位於2024年總統大選中支持民主黨候選人賀錦麗（Kamala Harris，又譯哈里斯）而非共和黨候選人特朗普（Donald Trump，又譯川普）的地區。民主黨人批評該計劃可能構成選民恐嚇。 2026年11月3日，美國喬治亞州阿爾法雷塔，美國中期選舉期間，選民在霍普韋爾浸信會的票站開放前排隊等候。（Reuters） 司法部官員表示，優先處理的對象包括過去曾出現選民投票",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美國中期選舉‧最新｜票站陸續開放 7大搖擺州選情矚目共和黨告急",
+      "url": "https://hk01.com/sns/article/60406687",
+      "publishedAt": "2026-11-03T18:21:45.000Z",
+      "excerpt": "2026美國中期選舉（US midterm elections）11月3日舉行，這場重要選舉將決定總統特朗普（Donald Trump，又譯川普）能否繼續控制國會兩院。眾議院435個席位將進行改選，參議院35個席位將進行改選，而36個州也會舉行州長選舉。外界預期民主黨大勝，除了奪回眾議院控制權，還有可能控制參議院，成為特朗普的「噩夢」。眾議員本文將跟進美國中期選舉的最新消息。 專頁： 美國中期選舉專頁｜最新選情戰報 特朗普會輸掉兩院？ 最新重點： ．美國票站陸續開放，佛蒙特州（Vermont）首批票站定於美東時間上午5時（香港時間3日下午6時）開放，之後新澤西州、維珍尼亞州、肯塔基州等的票站會",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "歐洲至少7班航機接獲炸彈恐嚇 降落後均無發現",
       "url": "https://hk01.com/sns/article/60406855",
       "publishedAt": "2026-11-03T18:08:12.000Z",
@@ -16005,14 +15881,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "璀璨之城｜高海寧誘吳卓羲床戰 再屈強姦留「重要物證」極狗血",
-      "url": "https://hk01.com/sns/article/60406844",
-      "publishedAt": "2026-11-03T16:14:05.000Z",
-      "excerpt": "TVB劇集《璀璨之城》已經踏入結局篇，各人的陰暗面亦慢慢呈現，除了張智霖已經「黑化」外，張曦雯及高海寧亦開始露出「真本性」。劇情講到張智霖捉了高海寧的媽媽來要脅她，要她繼續服從自己，更曾提過為了他的事業，必要時可以犧牲自己的身體。 《璀璨之城》已經踏入結局篇。(節目截圖) 高海寧做雙面人 遭張曦雯怒摑轉投吳卓羲 今日（3日）一集講到高海寧從張曦雯的電話中得知孔德賢與倪嘉雯躲在香港，一邊廂她通知張智霖，另一邊廂她又通知孔德賢讓他們逃走。張曦雯與吳卓羲約高海寧出來對質，在他們的對話途中，張曦雯認為高海寧利用她的感情，突然發惡地一個巴掌賞在高海寧臉上，結果三人不歡而散。高海寧致電吳卓羲，本身對高海寧",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "屯門食肆3隻老鼠龐大敏捷 目擊者驚呼：跳上枱望住我兜飯｜有片",
       "url": "https://hk01.com/sns/article/60406838",
       "publishedAt": "2026-11-03T16:04:54.000Z",
@@ -16045,26 +15913,18 @@
       "category": "Hong Kong"
     },
     {
-      "title": "赤柱狗跳海｜釣魚郎目擊「粟米」飛奔跳海 男狗主落水救援無果",
-      "url": "https://hk01.com/sns/article/60406830",
-      "publishedAt": "2026-11-03T14:36:30.000Z",
-      "excerpt": "1歲唐狗「粟米」今日（3日）傍晚在赤柱突然跳入海中，往赤柱後灘方向游去，其間失去蹤影，狗主報警求助，大批消防員包括蛙人、及警察到場搜索，惟至晚上近10時仍未尋回「粟米」。有釣魚郎事發時正在現場垂釣，他在社交平台公開隨身攝錄機拍下的事發經過，指當時狗主有拖繩，但「粟米」突然掙脫胸帶，飛奔到海邊跳入水中，男狗主隨即跳海嘗試救援，惜未能成功。片主留言強調：「狗主已經有拖住狗繩，狗仔自己甩真係冇人預料到，唔好攻擊佢哋」。 赤柱有唐狗突然跳海。有網民在社交平台公開事發片段，可見當時一男一女狗主帶着兩隻狗散步，兩狗均有拖繩。（Threads @fishing_kwong） 片主上載的片段顯示 ，當時一男一",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "美國中期選舉‧最新｜票站陸續開放 7大搖擺州選情矚目共和黨告急",
-      "url": "https://hk01.com/sns/article/60406687",
-      "publishedAt": "2026-11-03T13:30:07.000Z",
-      "excerpt": "2026美國中期選舉（US midterm elections）11月3日舉行，這場重要選舉將決定總統特朗普（Donald Trump，又譯川普）能否繼續控制國會兩院。眾議院435個席位將進行改選，參議院35個席位將進行改選，而36個州也會舉行州長選舉。外界預期民主黨大勝，除了奪回眾議院控制權，還有可能控制參議院，成為特朗普的「噩夢」。眾議員本文將跟進美國中期選舉的最新消息。 專頁： 美國中期選舉專頁｜最新選情戰報 特朗普會輸掉兩院？ 最新重點： ．美國票站陸續開放，佛蒙特州（Vermont）首批票站定於美東時間上午5時（香港時間3日下午6時）開放，之後新澤西州、維珍尼亞州、肯塔基州等的票站會",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "QS亞洲大學排名｜港5大學成10強港大蟬聯榜首 城大首度全港排第二",
       "url": "https://hk01.com/sns/article/60406558",
       "publishedAt": "2026-11-03T12:00:55.000Z",
       "excerpt": "國際高等教育機構 Quacquarelli Symonds今日（3日）公布2027 QS 亞洲大學排名，香港有五所大學躋身頭10名，當中3間排前5名，數量為亞洲之冠。其中，港大連續兩年成亞洲第一，而去年並列第七的城大今年升至第四創該校歷史新高，超前排名升兩位至第五的中大，於本地大學排名第二。內地大學方面，有三間成亞洲十強，當中北京大學及清華大學分列二、三位，其中清華大學排名急升六位。 城市大學 ▼ 上榜大學 ▼ 香港大學。（資料圖片／黃寶瑩攝） 城市大學。（城大提供圖片） 香港中文大學。（資料圖片／夏嘉朗攝） 香港科技大學。（資料圖片 / 鄭子峰攝） 香港理工大學。（資料圖片） 香港浸會大學。",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "西乙球賽致命意外 前鋒Jesus de miguel與門將相撞心臟驟停不治",
+      "url": "https://hk01.com/sns/article/60406748",
+      "publishedAt": "2026-11-03T10:56:39.000Z",
+      "excerpt": "西乙聯賽11月2日發生致命意外，特內里費（CD Tenerife）30歲前鋒迪米基爾（Jesús de Miguel）遭到對手安道爾（FC Andorra）門將奧禾奴（Jesus Owono）相撞，隨後心臟驟停送醫不治，於11月3日上午8時離世。 事件發生於特內里費主場對陣安道爾補時階段的第7分鐘，迪米基爾在爭取長傳時，遭出迎解圍的門將奧禾奴膝部猛烈撞擊後倒地，隨後雙方球員連忙示意醫護進場，奧禾奴當場被紅牌逐出。 🔵⚪️ | Golpe fortísimo de Owono sobre Jesús de Miguel que hace que salten todas las alarmas",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -16089,22 +15949,6 @@
       "url": "https://hk01.com/sns/article/60406611",
       "publishedAt": "2026-11-03T07:45:02.000Z",
       "excerpt": "香港網球新星黃澤林（Coleman）與歌神陳奕迅（Eason）愛女陳康堤的半年情玩完，男方火速撻着「籃球女神」譚旻萱（Mandy）惹來全城狂轟。風波愈演愈烈，有網民翻查IG發現，原來除了康堤之外，Eason與太太徐濠縈早已全數取消關注黃澤林的帳號，一家三口連成一線！而黃澤林昨晚（2日）疑為洗白，突然踩上JFFT「床哥直播」親自解畫，爆出「被飛」時間線撇清出軌嫌疑，無疑令事件火上加油。 一家三口聯成一線，一齊unfollow 黃澤林ig。（ig@_constancec_） 一家人感情要好。（微博圖片） 黃澤林公開認戀譚旻萱。（網上圖片） 熱愛網球成契機 傳Eason牽線做媒人 其實這段戀情當初能",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "立冬天氣｜天文台料吹7級風 東北季候風殺到 11.10多區跌穿20度",
-      "url": "https://hk01.com/sns/article/60406549",
-      "publishedAt": "2026-11-03T05:28:30.000Z",
-      "excerpt": "【香港天文台／HKO／明天的天氣／東北季候風／立冬的天氣】天文台今早（3日）預測一股達強風程度的東北季候風，周五（6日）稍後抵達廣東沿岸，周六（7日、廿四節氣的立冬）離岸及高地間中吹7級風，即達強風程度，隨後下周初至中期受隨後乾燥的季候風補充影響，本港氣溫下降，內陸地區日夜溫差較大。 天文台自動分區天氣預報顯示下周二（10日）氣溫最低，當日早上7時本港多區跌穿20度，其中黃竹坑、屯門、上水、大埔、沙田等地跌至19度；石崗及將軍澳僅18度；打鼓嶺更低見17度。 天文台預料，下周初至中期受隨後乾燥的季候風補充影響，華南天色大致良好，氣溫下降，內陸地區日夜溫差較大。（資料圖片） 天文台預料，下周初至",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "張世華醫生離世｜母校訪問透露初中成績不好 寄語學弟妹珍惜當下",
-      "url": "https://hk01.com/sns/article/60406552",
-      "publishedAt": "2026-11-03T05:06:28.000Z",
-      "excerpt": "腸胃及肝臟科專科醫生張世華傳離世消息，不少其病人網上致哀外，張世華母校「嗇色園主辦可風中學」今日（3日）亦發文悼念，讚揚張世華一生熱愛母校。 今年1月，張世華接受母校訪問時分享指，自己初中成績「都係相當唔好嘅」，到中三、中四後開始接觸社活動，在師兄、師姊帶領下參加活動：「相對又會想返學習多啲嘅。」 「嗇色園主辦可風中學」今感謝張世華多年來慷慨向該校捐助獎學金，扶掖後進，而張世華在訪問中亦寄語學弟妹珍惜當下：「盡量珍惜每一個學年 ，每一個學期，每一個機緣......可能每一個階段都盡量嘗試去珍惜享受過程。」 腸胃及肝臟科專科醫生張世華傳離世消息，張世華的母校「嗇色園主辦可風中學」11月3日發文悼",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -17066,166 +16910,6 @@
       "publishedAt": "2026-11-03T00:30:09.000Z",
       "excerpt": "Water shortages, gruelling course conditions and a lengthy post-race walk marred Hong Kong’s inaugural Northern Metropolis Marathon on Sunday, participants have said, prompting calls for organisers to overhaul arrangements if the event is to return. As the city seeks to establish itself as a premier",
       "source": "South China Morning Post",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "商經局局長出席亞太區經濟合作組織部長級視像會議（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110300384.htm",
-      "publishedAt": "2026-11-03T16:02:33.000Z",
-      "excerpt": "商務及經濟發展局局長丘應樺昨晚（十一月三日）出席以視像方式舉行的第三十七屆亞太區經濟合作組織（亞太經合組織）部長級會議。 今年亞太經合組織中國年以「建設亞太共同體，促進共同繁榮」為主題，丘應樺在一個討論環節上強調，面對瞬息萬變的局勢及科技的迅速發展，成員經濟體必須透過加強對話與合作，攜手實現共同繁榮。 丘應樺以數字轉型為例，表示成員經濟體須繼續務實合作，秉持以人為本且具包容性的方式，發揮各自的數字科技優勢。在本地層面，香港正在加強前沿科技的研究能力，並推出相關計劃以促進公眾對人工智能的認識及推廣負責任地使用人工智能。香港期待在這方面與其他成員經濟體分享經驗和互相學習。 此外，丘應樺呼籲成員經濟",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "文創處資助動畫《無涯之約》舉行本地首映（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300772.htm",
-      "publishedAt": "2026-11-03T14:49:32.000Z",
-      "excerpt": "文化體育及旅遊局轄下文創產業發展處（文創處）資助製作的原創動畫《無涯之約》今日（十一月三日）舉行本地首映禮。是次放映的「第一話．灰降」為三十分鐘加長版，並將於十一月七日起在香港指定戲院作特別放映。 &nbsp; 文創產業專員黎細明出席首映禮致辭時表示，《無涯之約》成功推出，印證了香港特區政府推動文創產業發展的積極成效。文創處將繼續透過多元化的資助計劃，支援本地創作者開發更多具備國際競爭力的動漫知識產權（IP）作品，以及協助業界參與各地影展和商貿平台，促進知識產權交易及跨界合作。 &nbsp; 《無涯之約》是文創處透過第三屆「明日動畫&mdash;─人工智能輔助動畫製作支援計劃」支持的優秀作品之",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選管會向選舉委員會界別分組一般選舉候選人簡介選舉法例及指引（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300393.htm",
-      "publishedAt": "2026-11-03T13:55:00.000Z",
-      "excerpt": "下稿代選舉管理委員會發出： 選舉管理委員會主席陸啟康法官今晚（十一月三日）在二○二六年選舉委員會（選委會）界別分組一般選舉候選人簡介會，向候選人講解選舉安排、選舉活動指引內容及進行競選活動時應注意的重要事項，以確保選舉在公開、誠實及公平的情況下進行。 陸啟康法官在簡介會說：「選委會界別分組一般選舉將於十一月二十二日舉行，提名期已在十月二十日結束，其間共接獲1 115份候選人提名表格。候選人資格審查委員會早前在憲報公布獲有效提名的候選人名單，選舉主任亦刊憲公布各個無須競逐的界別分組妥為選出的候選人詳情。」 陸啟康法官表示，這次選舉須要競逐的界別分組共有31個，當中涉及約5 700名投票人，他們可",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "警方跟進涉及停車收費錶系統故障的告票",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300724.htm",
-      "publishedAt": "2026-11-03T12:30:09.000Z",
-      "excerpt": "警務處今日（十一月三日）表示，就今早全港停車收費錶（俗稱「咪錶」）系統出現故障，警方正審視系統故障期間就路旁泊車位發出的交通定額罰款通知書（告票），並會按個案的實際情況跟進處理。 市民如認為其接獲的告票可能與是次系統故障有關，欲查詢或提出異議，可親身到訪或以郵寄方式（地址：灣仔軍器廠街一號警察總部警政大樓十一樓），或以電郵方式（ ctpd-traffic@police.gov.hk ），或致電熱線「181 181」與中央交通違例檢控組聯絡。此外，市民亦可透過警務處「電子報案中心」、「電子交通告票平台」（ www.etrafficticket.gov.hk ）或平台的流動應用程式就有關告票提出異",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "QS亞洲大學排名表現卓越 世界頂尖大學校長論壇接續登場 香港高等教育輝映國際舞台",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300550.htm",
-      "publishedAt": "2026-11-03T12:09:00.000Z",
-      "excerpt": "教育局發言人今日（十一月三日）回應國際高等教育研究機構Quacquarelli Symonds（QS）公布的二○二七年QS亞洲大學排名時表示，香港的高等教育界在亞洲區內再次展現出卓越的國際競爭力與學術實力，成績令人鼓舞。發言人指出，是次佳績反映香港特別行政區（特區）政府持續投入資源及推行各項前瞻性措施以配合高等教育發展的努力，進一步鞏固香港作為國際專上教育樞紐的地位。 發言人表示，在最新公布的排名中，香港高等教育界的表現極為出色，連同繼續穩佔首位的香港大學在內，香港共有五間大學躋身亞洲十強，其中三間大學更同時登上亞洲五強，包括首位的香港大學、位列第四的香港城市大學，以及位列第五的香港中文大學。",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "多國因疫苗接種率低爆發麻疹疫情 衞生署提醒市民採取適當預防措施",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300636.htm",
-      "publishedAt": "2026-11-03T11:20:00.000Z",
-      "excerpt": "鑑於近期全球多個地區因疫苗接種率偏低而持續出現麻疹疫情，衞生署衞生防護中心（中心）今日（十一月三日）提醒計劃外遊的市民，在出發前瀏覽衞生署 旅遊健康服務網站 ，了解目的地是否錄得麻疹高發病率或正爆發疫情，以採取適當的預防措施，包括確保已完成接種兩劑麻疹疫苗，並時刻注意個人及環境衞生。身處受影響國家的留學生亦應檢視自己的接種紀錄，如不確定是否完成接種兩劑麻疹疫苗，應盡快安排接種，以防止受感染。由於外國寒假將至，不少留學生將返港，中心呼籲市民提高警覺，如有不適，應立即求醫，求診前應預先知會醫護人員有關的病徵及旅遊史，以便醫療機構安排適當的感染控制措施，防止出現社區傳播。學校亦應提高警覺，減低傳染病",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​預先包裝竹筍樣本違反食物標籤規例",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300621.htm",
-      "publishedAt": "2026-11-03T11:00:00.000Z",
-      "excerpt": "食物環境衞生署食物安全中心（中心）今日（十一月三日）公布，一個預先包裝竹筍樣本含有可在某些食物中使用的防腐劑二氧化硫，但樣本的食物標籤未有標明有關添加劑的作用類別及名稱。市民應停止食用受影響批次產品，業界如持有受影響批次產品，亦應立即停止使用或出售。&nbsp; 產品資料如下︰ 產品名稱：高山細筍&nbsp; 品牌：集森&nbsp; 淨重：二百五十克&nbsp; 來源地：中國&nbsp; 總經銷商：集森食品公司&nbsp; 此日期前最佳︰二○二七年九月二日&nbsp; 中心發言人說：「中心從上述總經銷商檢取該預先包裝竹筍樣本作檢測，結果顯示樣本含二氧化硫，雖然含量符合法例要求，但樣本的食物標籤",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "行政長官展開北京訪問行程（附圖／短片）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300430.htm",
-      "publishedAt": "2026-11-03T11:00:00.000Z",
-      "excerpt": "行政長官李家超今日（十一月三日）展開北京訪問，到訪北京城市副中心，並與北京市官員會面。 &nbsp; 李家超下午前往北京城市副中心，到訪副中心三大文化建築之一的北京城市圖書館，以及位於北京市委大樓的規劃展覽廳，通過沙盤模型，了解副中心城區的整體規劃、發展和文化設施建設的情況。 &nbsp; 李家超表示，北京城市副中心是京津冀協同發展戰略中的北京新「兩翼」之一，這布局促進更高質量發展，展現國家前瞻性和系統性的部署。香港正全速推動北部都會區（北都）建設，北都是香港未來發展的重要新引擎，以大學城、科技、產業和宜居宜業宜遊為四大發展目標。副中心在整體規劃、基建配套、公共服務設施布局等方面的經驗，對香港",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​財經事務及庫務局局長在北京出席第二十九屆北京・香港經濟合作研討洽談會京港金融合作專題活動致辭全文（只有中文）（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300455.htm",
-      "publishedAt": "2026-11-03T10:45:00.000Z",
-      "excerpt": "以下是財經事務及庫務局局長許正宇今日（十一月三日）在北京出席第二十九屆北京・香港經濟合作研討洽談會（京港洽談會）京港金融合作專題活動的致辭全文： 尊敬的趙局長（北京市地方金融管理局局長趙海東）、各位嘉賓、各位朋友： 下午好。很高興出席第二十九屆北京・香港經濟合作研討洽談會京港金融合作專題活動。本次專題活動以「京港攜手 金融同行」為主題，緊扣國家「十五五」規劃實施與建設金融強國的核心任務，圍繞金融「五篇大文章」、跨境金融、資本市場等領域，共同探討京港兩地金融合作的新方向。首先，我謹代表香港特別行政區（特區）政府財經事務及庫務局，感謝北京市人民政府以及各界朋友長期以來對香港金融發展、京港經貿交流的",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "財庫局局長於京港經濟合作研討洽談會推廣香港金融機遇（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300452.htm",
-      "publishedAt": "2026-11-03T10:45:00.000Z",
-      "excerpt": "財經事務及庫務局局長許正宇今日（十一月三日）在北京展開行程，出席第二十九屆北京・香港經濟合作研討洽談會（京港洽談會）&mdash;京港金融合作專題活動，向內地政商及金融界推廣香港的金融機遇與獨特優勢。 今屆專題活動以「京港攜手 金融同行」為主題。許正宇在致辭時表示，國家正全力邁向建設金融強國的核心任務，香港作為領先的國際金融中心，一直發揮着「超級聯繫人」和「超級增值人」的獨特角色。特區政府正積極推動「金融+」策略，將金融力量與科技、綠色及產業等領域深度結合，落實做好科技金融、綠色金融、普惠金融、養老金融、數字金融「五篇大文章」，讓金融真正賦能實體經濟。 許正宇向與會者分享香港金融市場的最新發展",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港銀行同業結算有限公司提醒公眾慎防偽冒網站",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300513.htm",
-      "publishedAt": "2026-11-03T10:40:00.000Z",
-      "excerpt": "下稿代香港金融管理局發出︰ 香港銀行同業結算有限公司（結算公司）近日發現一個偽冒成仿如結算公司官方網站的詐騙網站fpshk.asia。該偽冒網站偽裝成「買家網上安全保障」，提供轉數快FPS網上交易安全服務，包括1）退款、2）舉報未經授權的網上交易，以及3）網上交易支援，及進一步引導用戶與偽冒客服的人員進行對話。 結算公司澄清，該偽冒網站與結算公司以及結算公司所有業務，均絕無關係。在一般情況下，結算公司不會直接向個別公眾人士提供轉數快服務，也不會主動接觸個別公眾人士。結算公司真正官方網址是 www.hkicl.com.hk 及 fps.hkicl.com.hk 。 結算公司呼籲公眾人士提防可疑電",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "與銀行有關的騙案通知",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300495.htm",
-      "publishedAt": "2026-11-03T10:40:00.000Z",
-      "excerpt": "下稿代香港金融管理局發出︰ 香港金融管理局（金管局）呼籲市民提高警覺，留意以下銀行已就欺詐網站、網上銀行登入畫面、偽冒電郵或其他騙案發出新聞稿。有關銀行已向金管局匯報事件，其新聞稿的超連結已上載至 金管局網站 。 &nbsp; 銀行 騙案類別 東亞銀行有限公司 欺詐網站及網上銀行登入畫面 上海商業銀行有限公司 欺詐網站及網上銀行登入畫面 創興銀行有限公司 欺詐網站及網上銀行登入畫面 集友銀行有限公司 欺詐網站及網上銀行登入畫面 富邦銀行（香港）有限公司 欺詐網站及網上銀行登入畫面 香港上海滙豐銀行有限公司 欺詐網站及網上銀行登入畫面 金管局提醒公眾，銀行不會透過短訊或電郵超連結，引領他們到其網",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​駐布魯塞爾經貿辦於聖塞巴斯蒂安恐怖及奇幻電影節推廣香港奇幻電影（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110200281.htm",
-      "publishedAt": "2026-11-03T10:20:00.000Z",
-      "excerpt": "香港駐布魯塞爾經濟貿易辦事處（駐布魯塞爾經貿辦），聯同香港特別行政區（特區）政府文化體育及旅遊局轄下的文創產業發展處、首次與聖塞巴斯蒂安恐怖及奇幻電影節（電影節）合作，於十月三十日至十一月六日（聖塞巴斯蒂安時間）在西班牙聖塞巴斯蒂安舉行的第三十七屆電影節呈獻四部香港電影。 是次香港電影環節包括兩部新作《尋秦記》及《衝鋒：火拼》，以及兩部香港經典電影《腦魔》及《辣手神探》。選映作品展現香港電影的多元面貌，涵蓋超自然題材以至香港享負盛名的動作電影，讓歐洲觀眾了解香港電影的傳統特色及當代創作。 香港駐歐洲聯盟特派代表翁佩雯十一月一日（聖塞巴斯蒂安時間）於電影節的香港酒會上致辭，介紹香港深厚的電影傳統",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "金管局舉辦第五屆國際金融領袖投資峰會（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300369.htm",
-      "publishedAt": "2026-11-03T10:18:00.000Z",
-      "excerpt": "下稿代香港金融管理局發出︰ 由香港金融管理局（金管局）籌辦的國際金融領袖投資峰會（峰會）的主峰會於今日（十一月三日）舉行。是次活動匯聚約280位國際金融領袖，當中包括約120位集團主席及行政總裁。 &nbsp; 今年的主峰會以「思變圖新 開拓新局」為主題。國務院副總理何立峰以視像形式為主峰會作開幕演講。其後討論圍繞近期的宏觀經濟趨勢、金融市場變動以及科技發展等為不同行業、資產和地區所帶來的新興機遇與潛在風險。演講嘉賓共同思考更新「遊戲規則」，應對風險長存、韌性必常備的世界。 &nbsp; 金管局總裁余偉文表示：「峰會連續舉辦五年，已成為促進國際金融領袖高層次對話及深化全球金融界聯繫的平台。與會",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港海關偵破懷疑非法進口活雀鳥（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300611.htm",
-      "publishedAt": "2026-11-03T10:12:00.000Z",
-      "excerpt": "​香港海關今日（十一月三日）在落馬洲支線管制站檢獲六十六隻懷疑非法進口活雀鳥，估計市值約三千元。 海關人員今日在上述管制站入境大堂截查一名三十四歲抵港內地女旅客，經檢查後在其個人行李內檢獲該批裝載於鳥籠的懷疑非法進口活雀鳥。該名女子隨即被捕。案件已轉交漁農自然護理署跟進。 根據《公眾衞生（動物及禽鳥）規例》，沒有有效健康證明書而進口禽鳥，即屬違法，一經定罪，最高可被罰款二萬五千元。 市民可致電海關二十四小時熱線182 8080，或透過舉報罪案專用電郵帳戶（ crimereport@customs.gov.hk ）或網上表格（ eform.cefs.gov.hk/form/ced002 ）舉報懷",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港郵政提醒市民慎防偽冒香港郵政的虛假網站",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300575.htm",
-      "publishedAt": "2026-11-03T09:42:00.000Z",
-      "excerpt": "​香港郵政今日（十一月三日）呼籲市民提高警覺，留意一個偽冒香港郵政的虛假網址 （hxxps://hongkongpostairmailtrackingapf[.]wordpress[.]com），並慎防冒認香港郵政發出的虛假短訊或電郵，附有超連結至該偽冒網址，要求收件人提供個人資料，或支付郵費。 香港郵政澄清與相關虛假網站並無關係，並已把事件轉交警方處理。香港郵政提醒市民，其官方網站網址為「 hongkongpost.hk 」、「 hongkongpost.gov.hk 」及「 ecert.gov.hk 」。香港郵政只會以「#HKPost」名稱向本地流動電話服務用戶發出短訊，及以「@hkpo.",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​財政司司長會見傳媒談話內容（只有中文）（附圖／短片）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300539.htm",
-      "publishedAt": "2026-11-03T09:30:00.000Z",
-      "excerpt": "以下是財政司司長陳茂波今日（十一月三日）出席國際金融領袖投資峰會後會見傳媒的談話內容： 財政司司長：各位傳媒朋友，大家好。 國際金融領袖投資峰會的主峰會，今日順利舉行，匯聚約280位國際金融領袖，包括約120位國際金融機構的主席或行政總裁，大家一起探討環球金融的變化和機遇。我們非常感謝何立峰副總理（國務院副總理）今早的視像發言，為與會者提供了深刻洞察。 在與這些國際金融領袖交流時，我感受到他們普遍對香港感到積極和樂觀。他們也有向我提到這點，可以説這是他們的共同觀察。 這次峰會有幾個值得注意的面向。 首先，內地金融監管機構的分享。內地金融監管機構的分享讓國際金融界直接了解政策思路。這種交流有助國",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "行政長官在2026粵港澳大灣區全球招商大會致辭（只有中文）（附短片）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110200483.htm",
-      "publishedAt": "2026-11-03T09:30:00.000Z",
-      "excerpt": "以下是行政長官李家超今日（十一月三日）在2026粵港澳大灣區全球招商大會的視像致辭： 尊敬的黃坤明書記（廣東省委書記）、尊敬的孟凡利省長（廣東省省長）、各位企業代表、各位嘉賓、各位朋友︰ 大家好！很高興參與今年的粵港澳大灣區全球招商大會。今年是粵港澳三地政府第五年合辦招商大會，體現三地緊密合作，共同向全球展示大灣區發展機遇。 粵港澳大灣區是國家新發展格局的戰略支點、高質量發展的示範地、中國式現代化的引領地。這片佔全國面積不到百分之零點六的土地，創造出約全國九分之一的經濟總量。商機匯聚，前景無限。 今年是國家「十五五」規劃開局之年，香港特區政府在九月公布了《香港第一個五年規劃》，主動對接國家發展",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "文化體育及旅遊局局長在立法會經濟發展事務委員會會議就旅遊業監管局的工作報告開場發言（只有中文）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300533.htm",
-      "publishedAt": "2026-11-03T09:15:00.000Z",
-      "excerpt": "以下是文化體育及旅遊局局長羅淑佩今日（十一月三日）在立法會經濟發展事務委員會會議就旅遊業監管局（旅監局）的工作報告的開場發言： &nbsp; 主席︰ &nbsp; 今日我聯同旅遊事務署及旅遊業監管局的代表，向事務委員會匯報旅監局自旅遊業新規管制度全面實施以來的工作進展。 &nbsp; 旅遊業是香港的主要經濟支柱，亦是說好香港故事的重要平台。回想十多年前，當時我還在旅遊事務署擔任旅遊事務副專員。當時業界飽受「零、負團費」及強迫購物等亂象困擾，嚴重損害香港作為旅遊城市的聲譽。當年我們下定決心改革監管制度，成立具法定權力的獨立監管機構，徹底擺脫以往業界自我監管的局限，並建立完善的發牌及持續專業進修制",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​海關關長與老撾財政部副部長會面（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/03/P2026103000263.htm",
-      "publishedAt": "2026-11-03T09:08:00.000Z",
-      "excerpt": "海關關長陳子達於十月三十日與老撾財政部副部長Soulivath Souvannachoumkham及代表團於海關總部大樓會面，以增進雙方友好關係及加強業務聯繫。老撾駐香港總領事Ammala Saenchonghack亦有出席。 陳子達歡迎Soulivath Souvannachoumkham及代表團成員到訪香港海關。雙方進行高層會晤，就推動認可經濟營運商互認安排、打擊跨境犯罪活動，以及共同關注的議題交換意見。 香港海關將繼續與國際及區域夥伴保持緊密聯繫，促進貿易便利，以鞏固和提升香港作為國際貿易中心的地位。 &nbsp;&nbsp; &nbsp;&nbsp;",
-      "source": "香港政府新聞公報",
       "category": "Hong Kong"
     },
     {
@@ -19215,10 +18899,10 @@
       "category": "Philosophy"
     },
     {
-      "title": "Bodhi Leaves Fellowship",
+      "title": "New Lion’s Roar fellowship seeks to amplify Asian voices",
       "url": "https://www.lionsroar.com/bodhi-leaves-fellowship/",
       "publishedAt": "2026-11-01T13:30:00.000Z",
-      "excerpt": "Lion’s Roar, a leading voice for Buddhism in the English-speaking world, invites applications to its Bodhi Leaves Fellowship. The post Bodhi Leaves Fellowship appeared first on Lion’s Roar .",
+      "excerpt": "Lion’s Roar, a leading voice for Buddhism in the English-speaking world, invites applications to its Bodhi Leaves Fellowship. The post New Lion’s Roar fellowship seeks to amplify Asian voices appeared first on Lion’s Roar .",
       "source": "Lion’s Roar",
       "category": "Philosophy"
     },
@@ -19895,86 +19579,6 @@
       "category": "Books"
     },
     {
-      "title": "The Best Reviewed Books of the Week",
-      "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-25-2026/",
-      "publishedAt": "2026-09-25T09:45:15.000Z",
-      "excerpt": "Gloria Steinem’s An Unexpected Life, Naomi Alderman’s The Strangers, Chuck Klosterman’s Rock*, and Doireann Ní Ghríofa’s Said the Dead all feature among the best reviewed books of the week. * Fiction 1. The Strangers by Naomi Alderman (Little Brown and Company) 5 Rave • 1 Mixed • 1 Pan “A remarkably",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "5 Reviews You Need to Read This Week",
-      "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-9-24-2026/",
-      "publishedAt": "2026-09-24T09:45:00.000Z",
-      "excerpt": "Our smorgasbord of sumptuous reviews this week includes Anahid Nersessian on Ashton Politanoff’s Dad Had a Bad Day, Peter Beinart on Akbar Shahid Ahmed’s Crossing the Red Line, Jennifer Wilson on Lars Anderson’s Brady, Sanjena Sathian on Min Jin Lee’s American Hagwon, and Jeff VanderMeer on China Mi",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "The Best Reviewed Books of the Week",
-      "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-18-2026/",
-      "publishedAt": "2026-09-18T09:45:57.000Z",
-      "excerpt": "Emily St. John Mandel’s Exit Party, Ben Macintyre’s Redwood, Kate Atkinson’s Our Noble Selves, and Naomi Klein & Astra Taylor’s End Times Fascism all feature among the best reviewed books of the week. * Fiction 1. Exit Party by Emily St. John Mandel (Knopf) 16 Rave • 2 Positive • 1 Mixed • 1 Pan […]",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "5 Book Reviews You Need to Read This Week",
-      "url": "https://bookmarks.reviews/5-book-reviews-you-need-to-read-this-week-9-17-2026/",
-      "publishedAt": "2026-09-17T09:45:36.000Z",
-      "excerpt": "Our quintet of quality reviews this week includes Joseph O’Neill on Jared Weisberg’s Profiles in Cowardice, Hua Hsu on Brian Dillon’s Ambivalence, Felipe De La Hoz on Mahmoud Khalil’s No Land to Stand On, Edna Bonhomme on Imani Thompson’s Honey, and Jeremy Gordon on Jon Ronson’s The Castle. * “Say w",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "The Best Reviewed Books of the Week",
-      "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-48/",
-      "publishedAt": "2026-09-11T09:45:11.000Z",
-      "excerpt": "Emma Cline’s Switzy, Francis Fukuyama’s In the Realm of the Last Man, and R.F. Kuang’s Taipei all feature among the best reviewed books of the week. * Fiction 1. Switzy by Emma Cline (Random House) 5 Rave • 3 Positive • 1 Mixed “What’s hypnotic about this novel is the illusion that we’re watching a ",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "5 Reviews You Need to Read This Week",
-      "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-9-10-2026/",
-      "publishedAt": "2026-09-10T09:45:26.000Z",
-      "excerpt": "Our mixum-gatherum of magnificent reviews this week includes Emma Alpern on Emma Cline’s Switzy, T. M. Brown on Danny McBride’s Thrilling Tales of Modern Men, Sara Collins on Sebastian Barry’s The Newer World, Joy Williams on Lance Richardson’s True Nature, and Tembe Denton-Hurst on Marlon James’ Th",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "The Best Reviewed Books of the Week",
-      "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-4-2026/",
-      "publishedAt": "2026-09-04T09:45:00.000Z",
-      "excerpt": "Marlon James’ The Disappearers, Jon Ronson’s The Castle, Chloe Benjamin’s Under Story, and Emily Wilson’s Crossing the Wine Dark Sea all feature among the best reviewed books of the month. * Fiction 1. The Disappearers by Marlon James (Riverhead) 11 Rave • 2 Positive • 1 Mixed Read a profile of Marl",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "5 Reviews You Need to Read This Week",
-      "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-14/",
-      "publishedAt": "2026-09-03T09:45:25.000Z",
-      "excerpt": "Our bevy of brilliant reviews this week includes Dwight Garner on Marlon James’ The Disappearers, Kate Tuttle on John Dos Passos’ U.S.A. trilogy, Parul Sehgal on Rachel Cusk’s The Life of M, Laura Miller on Kai Bird’s American Scoundrel, and Alexandra Harris on Colm Tóibín’s The Bridge. * “In the so",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "The Best Reviewed Books of the Month",
-      "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-month-5/",
-      "publishedAt": "2026-08-28T09:45:39.000Z",
-      "excerpt": "Chang-Rae Lee’s A Tender Age, Jill Lepore’s The Rise and Fall of the Artificial State, Téa Obreht’s Sunrise, and Dave Zirin’s The People’s Historian all feature among August’s best reviewed books. * Fiction 1. A Tender Age by Chang Rae-Lee (Riverhead) 11 Rave • 1 Mixed • 1 Pan “Luminous … In his mas",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "5 Reviews You Need to Read This Week",
-      "url": "https://bookmarks.reviews/5-reviews-you-need-to-read-this-week-8-27-2026/",
-      "publishedAt": "2026-08-27T09:45:14.000Z",
-      "excerpt": "Our smorgasbord of sumptuous reviews this week includes Megan Nolan on Jon Ronson’s The Castle, Kasia Boddy on William Kennedy’s Albany Trilogy, Jonathan Dee on Kurt Andersen’s The Breakup, Johanna Thomas-Corr on Meg Mason’s Sophie, Standing There, and Ali Winston on Gil Durán’s The Nerd Reich. * “M",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
       "title": "Eyal Weizman: Necro-Economics",
       "url": "https://www.lrb.co.uk/the-paper/v48/n20/eyal-weizman/necro-economics",
       "publishedAt": "2026-10-23T00:00:00.000Z",
@@ -20231,6 +19835,86 @@
       "url": "https://themillions.com/2025/04/the-great-spring-2025-preview.html",
       "publishedAt": "2025-04-11T16:40:19.000Z",
       "excerpt": "It’s been a painfully long winter here in New York City, but the glinting promise of spring—and spring books—has bolstered me through these cold, hard months. Here you’ll find just over 100 titles that we’re looking forward to here at The Millions. Some we’ve already read in galley form; others we’r",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "Esther Kinsky’s Lyrical Elegy for the Movies",
+      "url": "https://themillions.com/2025/01/esther-kinskys-lyrical-elegy-for-the-movies.html",
+      "publishedAt": "2025-01-30T13:00:00.000Z",
+      "excerpt": "In Esther Kinsky’s fiction, landscapes write and speak. Across her novels we find “waters sighing,” “shadows of leaves scribbling notes,” the Oder drawing “countless watery question marks and intertwining letters,” “annotating the landscape.” Kinsky animates the environments of her books, reminding ",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "Madeleine Watts Doesn’t Want Closure",
+      "url": "https://themillions.com/2025/01/madeleine-watts-doesnt-want-closure.html",
+      "publishedAt": "2025-01-29T13:00:00.000Z",
+      "excerpt": "Elegy, Southwest, Madeleine Watts’s sophomore novel, follows a young married couple from New York City on a two-week road trip across the American Southwest in November 2018. As wildfires rage and the Colorado River faces ecological collapse, the couple grapples with personal turmoil—Lewis mourns th",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "John and Yves Berger’s Letters on the Nature of Art—and the Art of Nature",
+      "url": "https://themillions.com/2025/01/john-and-yves-bergers-letters-on-the-nature-of-art-and-the-art-of-nature.html",
+      "publishedAt": "2025-01-28T13:00:00.000Z",
+      "excerpt": "Halfway through Over to You, the painter Yves Berger recounts a meeting with university students interested in his creative process. The meeting, he feels, was a “failure,” in part because of the inadequacy of his visual aid—photographs of three of his works in various stages of completion. The phot",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "Most Anticipated: The Great Winter 2025 Preview",
+      "url": "https://themillions.com/2025/01/most-anticipated-the-great-winter-2025-preview.html",
+      "publishedAt": "2025-01-14T13:00:00.000Z",
+      "excerpt": "It’s cold, it’s grey, its bleak—but winter, at the very least, brings with it a glut of anticipation-inducing books. Here you’ll find nearly 100 titles that we’re excited to cozy up with this season. Some we’ve already read in galley form; others we’re simply eager to devour based on their authors, ",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "Rubies Shored Against the Ruin",
+      "url": "https://themillions.com/2025/01/rubies-shored-against-the-ruin.html",
+      "publishedAt": "2025-01-08T14:00:00.000Z",
+      "excerpt": "By the time the English poet and courtier Sir Philip Sidney was felled by a bullet among the low, frigid marshes of Zutphen in October of 1586, where he was fighting on behalf of Dutch independence, he had already spent quite a lot of time thinking about greatness, both personal and poetic. Dead at ",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "A Year in Reading: Edwin Frank",
+      "url": "https://themillions.com/2024/12/a-year-in-reading-edwin-frank.html",
+      "publishedAt": "2024-12-18T15:00:00.000Z",
+      "excerpt": "The book that held my attention through most of the year, that I went back to again and again—perforce, it is a very long book—was Volume 1 of Capital, the only volume of his magnum opus that Karl Marx saw into print. It is a long book and an essentially unclassifiable book: a study in … The post A ",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "A Year in Reading: Sophia Stewart",
+      "url": "https://themillions.com/2024/12/a-year-in-reading-sophia-stewart-3.html",
+      "publishedAt": "2024-12-18T15:00:00.000Z",
+      "excerpt": "A mortifying admission in light of my 2023 Year in Reading essay: this year, I fell in love with a man. I also fell back in love with making music. Both developments shifted my priorities and altered my reading practice (I read more while in transit, to and from dates or practice). As a result, … Th",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "A Year in Reading: Jeremy Gordon",
+      "url": "https://themillions.com/2024/12/a-year-in-reading-jeremy-gordon.html",
+      "publishedAt": "2024-12-17T15:00:00.000Z",
+      "excerpt": "I have long made lists of my favorite cultural artifacts of the year—as a college blogger blathering about movies to a single-digit readership, as a Pitchfork voter trying to advocate for Fred Thomas’s “Cops Don’t Care Pt. II” for the Best of 2010s List. (Mission: unsuccessful.) A few years ago, I d",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "A Year in Reading: John Lee Clark",
+      "url": "https://themillions.com/2024/12/a-year-in-reading-john-lee-clark.html",
+      "publishedAt": "2024-12-17T15:00:00.000Z",
+      "excerpt": "When I moved to Montreal last August to begin doctoral studies, I gave myself a personal assignment to sift through Canadian literature. Elizabeth Hay’s 2006 novel Late Nights on Air stopped me, just like how a voice on the radio stops a character named Gwen: “His relaxed, gravelly, conversational v",
+      "source": "The Millions",
+      "category": "Books"
+    },
+    {
+      "title": "A Year in Reading: Ellen Wayland-Smith",
+      "url": "https://themillions.com/2024/12/a-year-in-reading-ellen-wayland-smith.html",
+      "publishedAt": "2024-12-17T15:00:00.000Z",
+      "excerpt": "I published a book of essays two months ago, which I realized only in retrospect is a collection of meditations on pain, and since then I have been parsing reader reactions in an anecdotal sort of way. Here are some things that people have said about the essays: they are “harrowing” and “blunt”; “cl",
       "source": "The Millions",
       "category": "Books"
     },
@@ -21902,19 +21586,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Telephone’s Tangled History of Intimacy and Control",
-      "url": "https://www.newyorker.com/magazine/2026/11/09/the-telephone-james-gleick-book-review",
+      "title": "The Trouble with Saying What You Mean",
+      "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
       "publishedAt": "2026-11-02T11:00:00.000Z",
-      "excerpt": "How an invention that brought distant voices close rewrote the rules of conversation and raised an unsettling question: Who else might be listening?",
+      "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "The Trouble with Saying What You Mean",
-      "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
+      "title": "The Telephone’s Tangled History of Intimacy and Control",
+      "url": "https://www.newyorker.com/magazine/2026/11/09/the-telephone-james-gleick-book-review",
       "publishedAt": "2026-11-02T11:00:00.000Z",
-      "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
+      "excerpt": "How an invention that brought distant voices close rewrote the rules of conversation and raised an unsettling question: Who else might be listening?",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22215,6 +21899,14 @@
       "category": "Culture"
     },
     {
+      "title": "Americans Place “I Voted” Stickers on Memorials to ICE Victims",
+      "url": "https://hyperallergic.com/americans-place-i-voted-stickers-on-memorials-to-ice-victims/",
+      "publishedAt": "2026-11-03T19:09:16.000Z",
+      "excerpt": "Voting stickers appeared across memorials dedicated to Lorenzo Salgado Araujo and Alex Pretti, both of whom were killed by ICE agents earlier this year.",
+      "source": "Hyperallergic",
+      "category": "Culture"
+    },
+    {
       "title": "Your Midterm Guide to Voting for the Arts",
       "url": "https://hyperallergic.com/your-midterm-guide-to-voting-for-the-arts/",
       "publishedAt": "2026-11-03T11:00:00.000Z",
@@ -22327,11 +22019,27 @@
       "category": "Culture"
     },
     {
-      "title": "10 Years Later, Magenta Plains Is Still Embracing the Unexpected",
-      "url": "https://hyperallergic.com/10-years-later-magenta-plains-is-still-embracing-the-unexpected/",
-      "publishedAt": "2026-10-30T21:00:02.000Z",
-      "excerpt": "An anniversary exhibition spotlights the artists who’ve made the gallery one of Lower Manhattan’s most adventurous success stories.",
-      "source": "Hyperallergic",
+      "title": "‘The Intertwining’ Review: Two Medical Students Uncover Buried Truths in Tense Psychological Drama",
+      "url": "https://www.indiewire.com/criticism/movies/the-intertwining-movie-review-1235225255/",
+      "publishedAt": "2026-11-03T19:00:00.000Z",
+      "excerpt": "A Japanese woman and a Korean woman learn they were switched during IVF in an intensely controlled film from Kiyoshi Kurosawa protegé Akira Yamamoto.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
+      "title": "Billy Evans Hosts AMA on (His Own) X Account: ‘You Can See Everything’ Subject on Not Being a Cocaine Fan, Going Full Frontal, and What His Cousin’s Thing Was",
+      "url": "https://www.indiewire.com/news/general-news/billy-evans-you-can-see-everything-elizabeth-holmes-cocaine-full-frontal-1235225245/",
+      "publishedAt": "2026-11-03T18:56:05.000Z",
+      "excerpt": "Elizabeth Holmes' life partner spend Monday answering \"legally permissible\" questions from fans.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
+      "title": "Jordan Firstman Opens Up with ‘Club Kid,’ His Hilarious, Tender, and Must-See Feature Filmmaking Debut",
+      "url": "https://www.indiewire.com/features/interviews/jordan-firstman-club-kid-interview-1235193584/",
+      "publishedAt": "2026-11-03T18:30:00.000Z",
+      "excerpt": "“I’ve softened a lot in the process of making it,” Firstman told IndieWire, reflecting on the melancholy portrait he paints in a film about queer nightlife and learning how to be seen.",
+      "source": "IndieWire",
       "category": "Culture"
     },
     {
@@ -22403,30 +22111,6 @@
       "url": "https://www.indiewire.com/news/trailers/the-liberation-trailer-carrie-coon-1235225057/",
       "publishedAt": "2026-11-02T21:30:00.000Z",
       "excerpt": "The fall festival hit opens in theaters on January 8, courtesy of Bleecker Street.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "‘Godzilla Minus Zero’ Review: The King of the Monsters Returns with a Direct Sequel That’s One Better Than the Last Movie in Almost Every Way",
-      "url": "https://www.indiewire.com/criticism/movies/godzilla-minus-zero-movie-review-1235218720/",
-      "publishedAt": "2026-11-02T21:00:00.000Z",
-      "excerpt": "Godzilla squares off against King Ghidorah in an IMAX-sized melodrama that features some of the most thrilling kaiju fights ever.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "‘Mouse’ Review: ‘Saint Frances’ and ‘Ghostlight’ Filmmakers Bring Their Singular Humanity to a Coming-of-Age Tale",
-      "url": "https://www.indiewire.com/criticism/movies/mouse-review-kelly-osullivan-alex-thompson-1235178567/",
-      "publishedAt": "2026-11-02T20:00:00.000Z",
-      "excerpt": "Around these parts, every Kelly O'Sullivan and Alex Thompson feature film is an event. The pair's third production together is no exception — and their best to date.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "‘The Hunger Games: Sunrise on the Reaping’ Will Be in 3D in Theaters — and on Meta’s New VR Glasses",
-      "url": "https://www.indiewire.com/news/breaking-news/hunger-games-sunrise-reaping-3d-version-meta-vr-glasses-1235225062/",
-      "publishedAt": "2026-11-02T20:00:00.000Z",
-      "excerpt": "Lionsgate is partnering with Facebook parent company Meta on the 3D version of the film and will collaborate on future titles for the VR glasses hitting shelves next spring.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -23291,6 +22975,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Extreme Conditions: Inside Nepal’s Metal Underground",
+      "url": "https://daily.bandcamp.com/scene-report/nepal-metal-scene-report",
+      "publishedAt": "2026-11-03T18:32:48.000Z",
+      "excerpt": "In the shadow of the Himalayas, a fiercely independent scene is making a righteous noise. Read full story on the Bandcamp Daily .",
+      "source": "Bandcamp Daily",
+      "category": "Arts"
+    },
+    {
       "title": "The Best Ambient Music on Bandcamp, October 2026",
       "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-october-2026",
       "publishedAt": "2026-11-03T14:43:34.000Z",
@@ -23439,14 +23131,6 @@
       "url": "https://daily.bandcamp.com/features/leenalchi-sugungga-feature",
       "publishedAt": "2026-10-27T13:46:13.000Z",
       "excerpt": "The septet combine pansori—an ancient form of Korean musical storytelling—with funky, off-kilter pop. Read full story on the Bandcamp Daily .",
-      "source": "Bandcamp Daily",
-      "category": "Arts"
-    },
-    {
-      "title": "Orchestra Baobab, “Made In Senegal”",
-      "url": "https://daily.bandcamp.com/album-of-the-day/orchestra-baobab-made-in-senegal-review",
-      "publishedAt": "2026-10-27T13:46:10.000Z",
-      "excerpt": "The biggest band in Senegal celebrate their 50th anniversary with an explosive, triumphant LP. Read full story on the Bandcamp Daily .",
       "source": "Bandcamp Daily",
       "category": "Arts"
     },
@@ -23791,6 +23475,16 @@
       "category": "Arts"
     },
     {
+      "title": "The soundtrack for Wipeout XL (aka Wipeout 2097) was...",
+      "url": "https://kottke.org/26/11/0049925-the-soundtrack-for-wipeou",
+      "publishedAt": "2026-11-03T19:09:00.000Z",
+      "excerpt": "The soundtrack for Wipeout XL (aka Wipeout 2097) was crazy for a video game; it featured tracks from groups like Underworld, Orbital, The Prodigy, Daft Punk, and Chemical Brothers. I had this on CD! Ripped it and played ‘em on Winamp!",
+      "source": "Kottke",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Kottke"
+    },
+    {
       "title": "10 Years of Kottke.org Membership",
       "url": "https://kottke.org/26/11/10-years-of-kottkeorg-membership",
       "publishedAt": "2026-11-03T16:36:00.000Z",
@@ -23975,16 +23669,6 @@
       "url": "https://kottke.org/26/10/na-na-na-na-na-na-na-na-site-search",
       "publishedAt": "2026-10-30T13:42:00.000Z",
       "excerpt": "After years in the making (or more accurately, years in the wanting), I finally figured out how I wanted to do search for KDO posts. I’ve been tinkering with this specific implementation since the beginning of the summer and it finally all came together. If you’re a member , please help me to kick t",
-      "source": "Kottke",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Kottke"
-    },
-    {
-      "title": "Listen to a Long-Lost Daft Punk Mix From 1997",
-      "url": "https://kottke.org/26/10/listen-to-a-long-lost-daft-punk-mix-from-1997",
-      "publishedAt": "2026-10-30T12:30:00.000Z",
-      "excerpt": "A DJ named Ralph Lawson, who hosted a radio show called Trans Europe Express, found an incredible time capsule in his collection: an hour-long mixtape sent to him by Daft Punk in 1997, shortly after the release of their debut album, Homework. The tape was badly damaged, but he worked with a speciali",
       "source": "Kottke",
       "category": "Discover",
       "sourceRole": "curator",

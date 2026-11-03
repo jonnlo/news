@@ -10,6 +10,7 @@
   --surface: #ffffff;
   --raised: #e4e4e4;
   --rule: #d2d2d2;
+  --ui-radius: 3px;
   --text: #202020;
   --muted-copy: #5d5d5d;
   --faint-copy: #737373;
@@ -306,7 +307,7 @@ html.pointer-mode :focus-visible {
   height: 30px;
   padding: 0 12px;
   border: 1px solid var(--rule);
-  border-radius: 999px;
+  border-radius: var(--ui-radius);
   background: transparent;
   color: var(--muted-copy);
   font-size: 13px;
@@ -354,7 +355,7 @@ html.pointer-mode :focus-visible {
   --card-spacing: 0px;
   overflow: hidden;
   border: 0;
-  border-radius: 8px;
+  border-radius: var(--ui-radius);
   background: var(--surface);
   --tw-ring-shadow: 0 0 #0000;
 }
@@ -840,6 +841,7 @@ html.pointer-mode :focus-visible {
   min-width: 0;
   overflow: hidden;
   border-top: 1px solid var(--rule);
+  border-radius: var(--ui-radius);
   background: var(--surface);
   transition: height 280ms cubic-bezier(.22, 1, .36, 1);
   touch-action: pan-y;

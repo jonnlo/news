@@ -58,7 +58,7 @@
   height: 44px;
   padding: 0;
   border: 0;
-  border-radius: 1px;
+  border-radius: var(--ui-radius);
   background: var(--ground);
 }
 
@@ -78,7 +78,7 @@
   place-items: center;
   padding: 0;
   border: 0;
-  border-radius: 1px;
+  border-radius: var(--ui-radius);
   background: transparent;
   color: var(--arrow-icon);
   line-height: 0;
@@ -90,7 +90,7 @@
   position: absolute;
   inset: 0 0 2px;
   border: 1px solid var(--key-edge);
-  border-radius: 1px;
+  border-radius: var(--ui-radius);
   background: var(--surface);
   box-shadow: 0 2px 0 var(--key-edge), inset 0 1px 0 color-mix(in srgb, var(--surface) 80%, white);
   transition: transform 80ms ease-out, box-shadow 80ms ease-out, background-color 80ms ease-out;
@@ -136,7 +136,7 @@
   gap: 4px;
   padding: 0;
   border: 0;
-  border-radius: 1px;
+  border-radius: var(--ui-radius);
   background: var(--ground);
   color: var(--theme-accent-text);
   text-align: left;
@@ -155,6 +155,7 @@
 
 .source-navigation-page .navigator-display,
 .source-navigation-page .picker-results {
+  border-radius: var(--ui-radius);
   border: 1px solid var(--rule);
   background: var(--surface);
   box-shadow: inset 0 1px 3px color-mix(in srgb, var(--text) 12%, transparent);
@@ -230,7 +231,7 @@
   padding: 0;
   overflow: hidden;
   border: 1px solid var(--rule);
-  border-radius: 0;
+  border-radius: var(--ui-radius);
   background: var(--ground);
   color: var(--text);
   box-shadow: 0 24px 80px color-mix(in srgb, var(--text) 24%, transparent);
@@ -316,7 +317,7 @@ body:has(.source-navigation-page .source-picker:modal) {
 .source-navigation-page .topic-bar .filter.active,
 .sticky-topic-bar .filter,
 .sticky-topic-bar .filter.active {
-  border-radius: 0;
+  border-radius: var(--ui-radius);
   transition: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -472,7 +473,7 @@ body:has(.source-navigation-page .source-picker:modal) {
     max-width: none;
     max-height: min(84dvh, 760px);
     margin: 0;
-    border-radius: 0;
+    border-radius: var(--ui-radius);
     border-bottom: 0;
   }
 

@@ -26,16 +26,19 @@ const showArticleDomain = articleDomain && !['Hacker News', 'Sidebar', 'Slashdot
     <Card size="sm" class="story-card ring-0">
       <CardContent class="story-content">
         <div class="story-copy">
-          <h2 class="story-title"><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>{' '}
+          <h2 class="story-title">
+            <span class="story-title-text">
+              <a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>
+              {story.source === 'Hacker News' && story.discussionUrl && (
+                <a class="story-source story-discussion story-age" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>HN</a>
+              )}
+              {story.source === 'Waxy' && story.sourceUrl && (
+                <a class="story-source story-discussion story-age" href={story.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Open Waxy post for ${story.title}`}>W</a>
+              )}
+            </span>
             <time class="story-age" datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
               {formatRelativeAge(story.publishedAt)}
             </time>
-            {story.source === 'Hacker News' && story.discussionUrl && (
-              <span class="story-age"> · <a class="story-source" href={story.discussionUrl} target="_blank" rel="noreferrer" aria-label={`Open Hacker News discussion for ${story.title}`}>HN</a></span>
-            )}
-            {story.source === 'Waxy' && story.sourceUrl && (
-              <span class="story-age"> · <a class="story-source" href={story.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Open Waxy post for ${story.title}`}>W</a></span>
-            )}
           </h2>
           {showArticleDomain && <div class="story-meta">
             {(

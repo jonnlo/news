@@ -270,13 +270,15 @@ body:has(.source-navigation-page .source-picker:modal) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 22px 10px;
+  padding: 12px 22px 10px;
 }
 
 .source-navigation-page .picker-header h2 {
   margin: 0;
-  font-size: 22px;
-  letter-spacing: -.03em;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -.01em;
 }
 
 .source-navigation-page .picker-close {
@@ -497,7 +499,7 @@ body:has(.source-navigation-page .source-picker:modal) {
   }
 
   .source-navigation-page .picker-header {
-    padding: 13px 18px 5px;
+    padding: 5px 18px 5px;
   }
 
   .source-navigation-page .picker-header,
@@ -518,6 +520,11 @@ body:has(.source-navigation-page .source-picker:modal) {
 
   .source-navigation-page .picker-source {
     min-height: 40px;
+  }
+
+  .source-navigation-page .picker-source-age {
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
   }
 }
 

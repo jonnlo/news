@@ -8,6 +8,7 @@
           "enabled": true,
           "name": "Hacker News",
           "url": "https://hnrss.org/frontpage?count=100",
+          "additionalFeedUrls": [],
           "kind": "hackernews",
           "role": ""
         },
@@ -15,6 +16,7 @@
           "enabled": true,
           "name": "The Verge",
           "url": "https://www.theverge.com/rss/index.xml",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -22,6 +24,7 @@
           "enabled": true,
           "name": "WIRED",
           "url": "https://www.wired.com/feed/rss",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -29,6 +32,7 @@
           "enabled": true,
           "name": "Ars Technica",
           "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -36,6 +40,7 @@
           "enabled": true,
           "name": "MIT Technology Review",
           "url": "https://www.technologyreview.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -43,6 +48,7 @@
           "enabled": true,
           "name": "TechCrunch",
           "url": "https://techcrunch.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -50,6 +56,7 @@
           "enabled": true,
           "name": "The Next Web",
           "url": "https://thenextweb.com/feed",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -57,6 +64,7 @@
           "enabled": true,
           "name": "Slashdot",
           "url": "https://rss.slashdot.org/Slashdot/slashdotMain",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "community"
         },
@@ -64,6 +72,7 @@
           "enabled": true,
           "name": "Techmeme",
           "url": "https://www.techmeme.com/feed.xml",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "curator"
         },
@@ -71,6 +80,7 @@
           "enabled": true,
           "name": "Engadget",
           "url": "https://www.engadget.com/rss.xml",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -78,6 +88,7 @@
           "enabled": true,
           "name": "TechRadar",
           "url": "https://www.techradar.com/feeds.xml",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -85,6 +96,7 @@
           "enabled": true,
           "name": "9to5Mac",
           "url": "https://9to5mac.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         }
@@ -96,8 +108,17 @@
       "sources": [
         {
           "enabled": true,
+          "name": "It’s Nice That",
+          "url": "https://feeds2.feedburner.com/itsnicethat/SlXC",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
           "name": "Fast Company",
-          "url": "https://www.fastcompany.com/co-design/rss",
+          "url": "https://www.fastcompany.com/section/design/rss",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -105,6 +126,7 @@
           "enabled": true,
           "name": "Creative Bloq",
           "url": "https://www.creativebloq.com/feed",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -112,6 +134,7 @@
           "enabled": true,
           "name": "Sidebar",
           "url": "https://sidebar.io/feed.xml",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "curator"
         },
@@ -119,6 +142,7 @@
           "enabled": true,
           "name": "Creative Boom",
           "url": "https://www.creativeboom.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -126,6 +150,7 @@
           "enabled": true,
           "name": "Nielsen Norman Group",
           "url": "https://www.nngroup.com/feed/rss/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -133,6 +158,7 @@
           "enabled": true,
           "name": "The Creative Independent",
           "url": "https://thecreativeindependent.com/feed.xml",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -140,6 +166,7 @@
           "enabled": true,
           "name": "Smashing Magazine",
           "url": "https://www.smashingmagazine.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -147,290 +174,9 @@
           "enabled": true,
           "name": "A List Apart",
           "url": "https://alistapart.com/main/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
-        }
-      ]
-    },
-    {
-      "name": "Hong Kong",
-      "enabled": true,
-      "sources": [
-        {
-          "enabled": true,
-          "name": "香港01",
-          "url": "https://rsshub.runnable.run/hk01/hot",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "有線新聞",
-          "url": "https://www.i-cable.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Now 新聞",
-          "url": "https://newsapi1.now.com/pccw-news-api/api/getNewsListv2?category=119&pageNo=1&pageSize=20",
-          "kind": "nownews",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Hong Kong Free Press",
-          "url": "https://hongkongfp.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "RTHK Local News",
-          "url": "https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "香港電台中文本地新聞",
-          "url": "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "South China Morning Post",
-          "url": "https://www.scmp.com/rss/2/feed",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "香港政府新聞公報",
-          "url": "https://www.info.gov.hk/gia/rss/general_zh.xml",
-          "kind": "rss",
-          "role": ""
-        }
-      ]
-    },
-    {
-      "name": "Society",
-      "enabled": true,
-      "sources": [
-        {
-          "enabled": true,
-          "name": "The Conversation",
-          "url": "https://theconversation.com/global/articles.atom",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Pew Research Center",
-          "url": "https://www.pewresearch.org/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "404 Media",
-          "url": "https://www.404media.co/rss/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Undark",
-          "url": "https://undark.org/feed/",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "JSTOR Daily",
-          "url": "https://daily.jstor.org/feed/",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "Noema",
-          "url": "https://www.noemamag.com/feed/",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "n+1",
-          "url": "https://www.nplusonemag.com/feed/",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "Rest of World",
-          "url": "https://restofworld.org/feed/latest/",
-          "kind": "rss",
-          "role": ""
-        }
-      ]
-    },
-    {
-      "name": "Philosophy",
-      "enabled": true,
-      "sources": [
-        {
-          "enabled": true,
-          "name": "The Marginalian",
-          "url": "https://www.themarginalian.org/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Daily Nous",
-          "url": "https://dailynous.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Aeon",
-          "url": "https://aeon.co/feed.rss",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Psyche",
-          "url": "https://psyche.co/feed.rss",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "Tricycle",
-          "url": "https://tricycle.org/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Lion’s Roar",
-          "url": "https://www.lionsroar.com/feed/",
-          "kind": "rss",
-          "role": ""
-        }
-      ]
-    },
-    {
-      "name": "Books",
-      "enabled": true,
-      "sources": [
-        {
-          "enabled": true,
-          "name": "Publishers Weekly",
-          "url": "https://www.publishersweekly.com/pw/feeds/recent/index.xml",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Asian Review of Books",
-          "url": "https://asianreviewofbooks.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Five Books",
-          "url": "https://fivebooks.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Book Marks",
-          "url": "https://bookmarks.reviews/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "London Review of Books",
-          "url": "https://www.lrb.co.uk/feeds/rss",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "The Millions",
-          "url": "https://themillions.com/feed",
-          "kind": "rss",
-          "role": ""
-        }
-      ]
-    },
-    {
-      "name": "Literature",
-      "enabled": true,
-      "sources": [
-        {
-          "enabled": true,
-          "name": "Literary Hub",
-          "url": "https://lithub.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "The Rumpus",
-          "url": "https://public-api.wordpress.com/rest/v1.1/sites/therumpus.net/posts/?number=20",
-          "kind": "wordpress",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "Poetry Foundation",
-          "url": "https://www.poetryfoundation.org/rss/poemoftheday",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "Electric Literature",
-          "url": "https://electricliterature.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "The Paris Review",
-          "url": "https://www.theparisreview.org/blog/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "The Offing",
-          "url": "https://theoffingmag.com/feed/",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "Words Without Borders",
-          "url": "https://wordswithoutborders.org/feed/",
-          "kind": "rss",
-          "role": "publisher"
-        },
-        {
-          "enabled": true,
-          "name": "Mekong Review",
-          "url": "https://mekongreview.com/feed/",
-          "kind": "rss",
-          "role": "publisher"
         }
       ]
     },
@@ -440,16 +186,24 @@
       "sources": [
         {
           "enabled": true,
+          "name": "Them",
+          "url": "https://www.them.us/feeds/feed.rss",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
           "name": "New York Magazine (Intelligencer)",
           "displayName": "New York Magazine",
           "url": "https://feeds.feedburner.com/nymag/intelligencer",
-          "kind": "rss",
-          "role": "publisher",
           "additionalFeedUrls": [
             "https://feeds.feedburner.com/nymag/vulture",
             "https://feeds.feedburner.com/nymag/fashion",
             "https://www.curbed.com/rss/index.xml"
-          ]
+          ],
+          "kind": "rss",
+          "role": "publisher"
         },
         {
           "enabled": true,
@@ -477,15 +231,9 @@
         },
         {
           "enabled": true,
-          "name": "The Quietus",
-          "url": "https://thequietus.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
           "name": "Hyperallergic",
           "url": "https://hyperallergic.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -493,13 +241,7 @@
           "enabled": true,
           "name": "IndieWire",
           "url": "https://www.indiewire.com/feed/",
-          "kind": "rss",
-          "role": ""
-        },
-        {
-          "enabled": true,
-          "name": "BFI",
-          "url": "https://www.bfi.org.uk/rss-feed",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -517,17 +259,81 @@
         },
         {
           "enabled": true,
-          "name": "MUBI Notebook",
-          "url": "https://mubi.com/notebook/posts.rss",
+          "name": "The Public Domain Review",
+          "url": "https://publicdomainreview.org/rss.xml",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Society",
+      "enabled": true,
+      "sources": [
+        {
+          "enabled": true,
+          "name": "The Conversation",
+          "url": "https://theconversation.com/global/articles.atom",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
         {
           "enabled": true,
-          "name": "The Public Domain Review",
-          "url": "https://publicdomainreview.org/rss.xml",
+          "name": "Pew Research Center",
+          "url": "https://www.pewresearch.org/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "404 Media",
+          "url": "https://www.404media.co/rss/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Undark",
+          "url": "https://undark.org/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "JSTOR Daily",
+          "url": "https://daily.jstor.org/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "Noema",
+          "url": "https://www.noemamag.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "n+1",
+          "url": "https://www.nplusonemag.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "Rest of World",
+          "url": "https://restofworld.org/feed/latest/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
         }
       ]
     },
@@ -537,15 +343,33 @@
       "sources": [
         {
           "enabled": true,
-          "name": "It’s Nice That",
-          "url": "https://feeds2.feedburner.com/itsnicethat/SlXC",
+          "name": "The Quietus",
+          "url": "https://thequietus.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
-          "role": "publisher"
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "BFI",
+          "url": "https://www.bfi.org.uk/rss-feed",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "MUBI Notebook",
+          "url": "https://mubi.com/notebook/posts.rss",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
         },
         {
           "enabled": true,
           "name": "Bandcamp Daily",
           "url": "https://daily.bandcamp.com/feed",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         },
@@ -553,6 +377,7 @@
           "enabled": true,
           "name": "Colossal",
           "url": "https://www.thisiscolossal.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -560,6 +385,185 @@
           "enabled": true,
           "name": "The Pudding",
           "url": "https://pudding.cool/rss.xml",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "name": "Books",
+      "enabled": true,
+      "sources": [
+        {
+          "enabled": true,
+          "name": "Publishers Weekly",
+          "url": "https://www.publishersweekly.com/pw/feeds/recent/index.xml",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Asian Review of Books",
+          "url": "https://asianreviewofbooks.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Five Books",
+          "url": "https://fivebooks.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Book Marks",
+          "url": "https://bookmarks.reviews/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "London Review of Books",
+          "url": "https://www.lrb.co.uk/feeds/rss",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "The Millions",
+          "url": "https://themillions.com/feed",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "name": "Literature",
+      "enabled": true,
+      "sources": [
+        {
+          "enabled": true,
+          "name": "Literary Hub",
+          "url": "https://lithub.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "The Rumpus",
+          "url": "https://public-api.wordpress.com/rest/v1.1/sites/therumpus.net/posts/?number=20",
+          "additionalFeedUrls": [],
+          "kind": "wordpress",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "Poetry Foundation",
+          "url": "https://www.poetryfoundation.org/rss/poemoftheday",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Electric Literature",
+          "url": "https://electricliterature.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "The Paris Review",
+          "url": "https://www.theparisreview.org/blog/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "The Offing",
+          "url": "https://theoffingmag.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "Words Without Borders",
+          "url": "https://wordswithoutborders.org/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "Mekong Review",
+          "url": "https://mekongreview.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "enabled": true,
+      "sources": [
+        {
+          "enabled": true,
+          "name": "The Marginalian",
+          "url": "https://www.themarginalian.org/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Daily Nous",
+          "url": "https://dailynous.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Aeon",
+          "url": "https://aeon.co/feed.rss",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Psyche",
+          "url": "https://psyche.co/feed.rss",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": "publisher"
+        },
+        {
+          "enabled": true,
+          "name": "Tricycle",
+          "url": "https://tricycle.org/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Lion’s Roar",
+          "url": "https://www.lionsroar.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": ""
         }
@@ -573,6 +577,7 @@
           "enabled": true,
           "name": "Kottke",
           "url": "https://feeds.kottke.org/main",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "curator"
         },
@@ -580,6 +585,7 @@
           "enabled": true,
           "name": "Longreads",
           "url": "https://longreads.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "curator"
         },
@@ -587,6 +593,7 @@
           "enabled": true,
           "name": "Waxy",
           "url": "https://waxy.org/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "curator"
         },
@@ -594,6 +601,7 @@
           "enabled": true,
           "name": "MetaFilter",
           "url": "https://rss.metafilter.com/metafilter.rss",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "community"
         },
@@ -601,6 +609,7 @@
           "enabled": true,
           "name": "Quanta Magazine",
           "url": "https://www.quantamagazine.org/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "publisher"
         },
@@ -608,8 +617,71 @@
           "enabled": true,
           "name": "Dense Discovery",
           "url": "https://www.densediscovery.com/feed/",
+          "additionalFeedUrls": [],
           "kind": "rss",
           "role": "curator"
+        }
+      ]
+    },
+    {
+      "name": "Hong Kong",
+      "enabled": true,
+      "sources": [
+        {
+          "enabled": true,
+          "name": "香港01",
+          "url": "https://rsshub.runnable.run/hk01/hot",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "有線新聞",
+          "url": "https://www.i-cable.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Now 新聞",
+          "url": "https://newsapi1.now.com/pccw-news-api/api/getNewsListv2?category=119&pageNo=1&pageSize=20",
+          "additionalFeedUrls": [],
+          "kind": "nownews",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "Hong Kong Free Press",
+          "url": "https://hongkongfp.com/feed/",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "香港電台中文本地新聞",
+          "url": "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/rss/2/feed",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
+        },
+        {
+          "enabled": true,
+          "name": "香港政府新聞公報",
+          "url": "https://www.info.gov.hk/gia/rss/general_zh.xml",
+          "additionalFeedUrls": [],
+          "kind": "rss",
+          "role": ""
         }
       ]
     }

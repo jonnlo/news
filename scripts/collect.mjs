@@ -131,6 +131,22 @@ function sourceLocalDedupe(stories) {
   });
 }
 
+function isWiredCouponCodePage(story) {
+  if (String(story.source ?? '').toLocaleLowerCase() !== 'wired') return false;
+
+  const codePhrase = /\b(?:promo(?:tional)?|coupon|discount)[\s-]*codes?\b/i;
+  let urlText = '';
+  try {
+    urlText = new URL(story.url).pathname.replace(/[-_]+/g, ' ');
+  } catch { /* Title and excerpt still provide usable signals for malformed URLs. */ }
+
+  // WIRED's coupon landing pages use stable, explicit URL slugs. Also catch
+  // equivalent pages when the URL is less descriptive but text says so.
+  return codePhrase.test(urlText)
+    || codePhrase.test(String(story.title ?? ''))
+    || codePhrase.test(String(story.excerpt ?? ''));
+}
+
 async function fetchJson(url) {
   const response = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -227,7 +243,9 @@ async function collectSource(feed) {
     if (feed.kind === 'hackernews' && !stories.length) throw new Error('HNRSS returned no recognizable stories');
   }
   const orderedStories = sortNewestFirst(stories);
-  const selected = sourceLocalDedupe(orderedStories).slice(0, perSourceLimit)
+  const selected = sourceLocalDedupe(orderedStories)
+    .filter((story) => !isWiredCouponCodePage(story))
+    .slice(0, perSourceLimit)
     .map(({ _feedIndex, ...story }) => story);
   return {
     name: feed.name,

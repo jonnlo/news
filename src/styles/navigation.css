@@ -327,20 +327,20 @@ body:has(.source-navigation-page .source-picker:modal) {
 
 .source-navigation-page .topic-bar .filter,
 .source-navigation-page .topic-bar .filter.active,
-.sticky-topic-bar .filter,
-.sticky-topic-bar .filter.active {
+.topic-bar.is-pinned .filter,
+.topic-bar.is-pinned .filter.active {
   border-radius: var(--ui-radius);
   transition: none;
   -webkit-tap-highlight-color: transparent;
 }
 
 .source-navigation-page .topic-bar .filter:active:not(:disabled),
-.sticky-topic-bar .filter:active:not(:disabled) {
+.topic-bar.is-pinned .filter:active:not(:disabled) {
   background: color-mix(in srgb, var(--ground) 94%, var(--text));
 }
 
 .source-navigation-page .topic-bar .filter.active:active:not(:disabled),
-.sticky-topic-bar .filter.active:active:not(:disabled) {
+.topic-bar.is-pinned .filter.active:active:not(:disabled) {
   background: color-mix(in srgb, var(--theme-accent) 92%, black);
 }
 

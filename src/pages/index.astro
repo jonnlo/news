@@ -90,27 +90,29 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
     {edition && sourceGroups.length > 0 ? (
       <>
-        <nav class="topic-bar" aria-label="Filter headlines by topic">
-          <div class="filters">
-            <Button variant="ghost" class="filter active" data-filter="All" aria-pressed="true" aria-controls="source-list">
-              <span>All</span>
-            </Button>
-            {categories.map((category) => (
-              <Button
-                variant="ghost"
-                class="filter"
-                data-filter={category}
-                aria-pressed="false"
-                aria-controls="source-list"
-              >
-                <span>{category === 'Technology' ? 'Tech' : category}</span>
+        <div class="topic-bar-slot">
+          <nav class="topic-bar" aria-label="Filter headlines by topic">
+            <div class="filters">
+              <Button variant="ghost" class="filter active" data-filter="All" aria-pressed="true" aria-controls="source-list">
+                <span>All</span>
               </Button>
-            ))}
-          </div>
-          <button class="desktop-source-search" type="button" data-open-sources aria-haspopup="dialog" aria-label="All sources" title="All sources">
-            <span>All sources</span>
-          </button>
-        </nav>
+              {categories.map((category) => (
+                <Button
+                  variant="ghost"
+                  class="filter"
+                  data-filter={category}
+                  aria-pressed="false"
+                  aria-controls="source-list"
+                >
+                  <span>{category === 'Technology' ? 'Tech' : category}</span>
+                </Button>
+              ))}
+            </div>
+            <button class="desktop-source-search" type="button" data-open-sources aria-haspopup="dialog" aria-label="All sources" title="All sources">
+              <span>All sources</span>
+            </button>
+          </nav>
+        </div>
 
         <SourceNavigator groups={sourceGroups.filter((group) => sourceOrder.has(group.name) && group.stories.length > 0)} />
         <section class="source-list" id="source-list" aria-label="Latest headlines by source">
@@ -183,38 +185,38 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
   <script>
     const topicBar = document.querySelector<HTMLElement>('.topic-bar');
     const mobile = window.matchMedia('(max-width: 640px)');
-    const stickyBar = topicBar?.cloneNode(true) as HTMLElement | undefined;
-    if (stickyBar && topicBar) {
-      stickyBar.classList.add('sticky-topic-bar');
-      stickyBar.querySelector('.desktop-source-search')?.remove();
-      stickyBar.hidden = true;
-      document.body.append(stickyBar);
-    }
+    const topicBarSlot = document.querySelector<HTMLElement>('.topic-bar-slot');
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
     const groups = [...document.querySelectorAll<HTMLElement>('.source-group')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
     let selectedTopic = 'All';
     let scrollTopic: string | undefined;
 
-    function setStickyVisible(visible: boolean) {
-      if (!stickyBar) return;
-      stickyBar.hidden = false;
-      stickyBar.classList.toggle('is-visible', visible);
-      stickyBar.inert = !visible;
-      if (visible) updateScrollTopic();
-    }
+    function syncStickyVisibility(remeasure = false) {
+      if (!topicBar || !topicBarSlot) return;
+      const pinned = mobile.matches && topicBarSlot.getBoundingClientRect().top <= 0;
+      if (!remeasure && pinned === topicBar.classList.contains('is-pinned')) return;
 
-    function syncStickyVisibility() {
-      if (!stickyBar || !topicBar) return;
-      const visible = mobile.matches && topicBar.getBoundingClientRect().bottom <= 0;
-      if (stickyBar.hidden || stickyBar.classList.contains('is-visible') !== visible) {
-        setStickyVisible(visible);
+      topicBar.classList.remove('is-pinned');
+      topicBarSlot.style.height = '';
+      if (pinned) {
+        topicBarSlot.style.height = `${topicBarSlot.getBoundingClientRect().height}px`;
+        topicBar.classList.add('is-pinned');
+        scrollTopic = undefined;
+        updateScrollTopic();
+      } else {
+        scrollTopic = undefined;
+        filters.forEach((filter) => {
+          const active = filter.dataset.filter === selectedTopic;
+          filter.classList.toggle('active', active);
+          filter.setAttribute('aria-pressed', String(active));
+        });
       }
     }
 
     function revealActiveChip() {
-      const row = stickyBar?.querySelector<HTMLElement>('.filters');
-      const active = stickyBar?.querySelector<HTMLElement>('.filter.active');
+      const row = topicBar?.querySelector<HTMLElement>('.filters');
+      const active = topicBar?.querySelector<HTMLElement>('.filter.active');
       if (!row || !active) return;
       const rowRect = row.getBoundingClientRect();
       const chipRect = active.getBoundingClientRect();
@@ -224,9 +226,9 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     }
 
     function updateScrollTopic() {
-      if (!stickyBar || !stickyBar.classList.contains('is-visible')) return;
+      if (!topicBar || !topicBar.classList.contains('is-pinned')) return;
       const visible = groups.filter((group) => !group.hidden);
-      const threshold = stickyBar.getBoundingClientRect().height + 12;
+      const threshold = topicBar.getBoundingClientRect().height + 12;
       let current = visible[0];
       for (const group of visible) {
         if (group.getBoundingClientRect().top > threshold) break;
@@ -235,7 +237,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       const topic = current?.dataset.category ?? selectedTopic;
       if (scrollTopic === topic) return;
       scrollTopic = topic;
-      stickyBar.querySelectorAll<HTMLButtonElement>('.filter').forEach((filter) => {
+      topicBar.querySelectorAll<HTMLButtonElement>('.filter').forEach((filter) => {
         const active = filter.dataset.filter === topic;
         filter.classList.toggle('active', active);
         filter.setAttribute('aria-pressed', String(active));
@@ -248,7 +250,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       return filters.some((filter) => filter.dataset.filter === requested) ? requested! : 'All';
     }
 
-    function updateGroups() {
+    function updateGroups(scrollHandled: boolean) {
       let matching = 0;
       groups.forEach((group) => {
         const matches = selectedTopic === 'All' || group.dataset.category === selectedTopic;
@@ -257,10 +259,10 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       });
       if (empty) empty.hidden = matching > 0;
       refreshStoryHeights();
-      document.dispatchEvent(new CustomEvent('sources-filtered'));
+      document.dispatchEvent(new CustomEvent('sources-filtered', { detail: { scrollHandled } }));
     }
 
-    function selectTopic(topic: string, updateUrl: boolean) {
+    function selectTopic(topic: string, updateUrl: boolean, scrollHandled = false) {
       const button = filters.find((filter) => filter.dataset.filter === topic)
         ?? filters.find((filter) => filter.dataset.filter === 'All');
       if (!button) return;
@@ -281,8 +283,8 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         filter.classList.toggle('active', active);
         filter.setAttribute('aria-pressed', String(active));
       });
-      updateGroups();
-      if (stickyBar?.classList.contains('is-visible')) updateScrollTopic();
+      updateGroups(scrollHandled);
+      if (topicBar?.classList.contains('is-pinned')) updateScrollTopic();
     }
 
     document.addEventListener('source-category-reset', () => selectTopic('All', true));
@@ -550,15 +552,16 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
     filters.forEach((button) => button.addEventListener('click', () => {
       const topic = button.dataset.filter ?? 'All';
-      if (!stickyBar?.contains(button)) {
+      if (!topicBar?.classList.contains('is-pinned') || !topicBarSlot) {
         selectTopic(topic, true);
         return;
       }
-      selectTopic(topic, true);
+      selectTopic(topic, true, true);
       const target = groups.find((group) => !group.hidden);
       if (target) {
-        const top = target.getBoundingClientRect().top + window.scrollY - stickyBar.offsetHeight - 8;
-        window.scrollTo({ top, behavior: 'instant' });
+        const top = target.getBoundingClientRect().top + window.scrollY - topicBar.offsetHeight - 8;
+        const pinTop = Math.ceil(topicBarSlot.getBoundingClientRect().top + window.scrollY);
+        window.scrollTo({ top: Math.max(pinTop, top), behavior: 'instant' });
         updateScrollTopic();
       }
     }));
@@ -572,8 +575,9 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         updateScrollTopic();
       });
     }, { passive: true });
-    mobile.addEventListener('change', syncStickyVisibility);
-    window.addEventListener('resize', syncStickyVisibility);
+    mobile.addEventListener('change', () => syncStickyVisibility(true));
+    window.addEventListener('resize', () => syncStickyVisibility(true));
+    document.fonts.ready.then(() => syncStickyVisibility(true));
     window.addEventListener('popstate', () => selectTopic(topicFromUrl(), false));
     selectTopic(topicFromUrl(), false);
     syncStickyVisibility();

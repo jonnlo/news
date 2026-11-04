@@ -710,8 +710,8 @@ html.pointer-mode :focus-visible {
   margin: 0;
 }
 
-.sticky-topic-bar {
-  display: none;
+.topic-bar-slot {
+  display: contents;
 }
 
 .source-list {
@@ -926,8 +926,11 @@ html.pointer-mode :focus-visible {
 }
 
 @media (max-width: 640px) {
-  .sticky-topic-bar:not([hidden]) {
-    display: block;
+  .topic-bar-slot {
+    display: flow-root;
+  }
+
+  .source-navigation-page .topic-bar.is-pinned {
     position: fixed;
     z-index: 20;
     inset: 0 0 auto;
@@ -935,18 +938,9 @@ html.pointer-mode :focus-visible {
     padding: 8px 0;
     background: var(--ground);
     border-bottom: 1px solid var(--rule);
-    visibility: hidden;
-    transform: translateY(-100%);
-    transition: transform 240ms ease, visibility 0s linear 240ms;
   }
 
-  .sticky-topic-bar.is-visible {
-    visibility: visible;
-    transform: translateY(0);
-    transition: transform 240ms ease, visibility 0s;
-  }
-
-  .sticky-topic-bar .filters {
+  .topic-bar.is-pinned .filters {
     flex-wrap: nowrap;
     overflow-x: auto;
     padding: 2px 16px;
@@ -954,13 +948,13 @@ html.pointer-mode :focus-visible {
     overscroll-behavior-x: contain;
   }
 
-  .sticky-topic-bar .filters::-webkit-scrollbar {
+  .topic-bar.is-pinned .filters::-webkit-scrollbar {
     display: none;
   }
 
   /* WebKit can blank this async overflow layer during scripted vertical scrolling.
      Keep native momentum scrolling for swipes; suspend it only for the page animation. */
-  .is-source-scrolling .sticky-topic-bar .filters {
+  .is-source-scrolling .topic-bar.is-pinned .filters {
     overflow-x: hidden;
   }
 

@@ -212,8 +212,8 @@ const newestPublishedAt = (group: SourceCollection) => {
 
     function stickyOffset() {
       if (window.matchMedia('(max-width: 640px)').matches) {
-        const stickyTopics = document.querySelector<HTMLElement>('.sticky-topic-bar');
-        if (stickyTopics && !stickyTopics.hidden) return stickyTopics.getBoundingClientRect().height + 12;
+        const stickyTopics = document.querySelector<HTMLElement>('.topic-bar.is-pinned');
+        if (stickyTopics) return stickyTopics.getBoundingClientRect().height + 12;
         const originalTopics = document.querySelector<HTMLElement>('.topic-bar');
         return (originalTopics?.getBoundingClientRect().height ?? 38) + 16;
       }
@@ -484,7 +484,12 @@ const newestPublishedAt = (group: SourceCollection) => {
     }
     window.addEventListener('wheel', interruptPendingScroll, { passive: true });
     window.addEventListener('touchstart', interruptPendingScroll, { passive: true });
-    document.addEventListener('sources-filtered', () => {
+    document.addEventListener('sources-filtered', (event) => {
+      if (event instanceof CustomEvent && event.detail?.scrollHandled) {
+        interruptPendingScroll();
+        refreshVisible();
+        return;
+      }
       if (choosingFilteredSource) {
         refreshVisible();
         return;

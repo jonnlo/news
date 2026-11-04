@@ -1,0 +1,467 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+// Reference colors supplied from “Recommend Color Palettes”. These are light palettes.
+const presets = [
+  { id: 'quiet-mineral', name: 'Quiet Mineral', canvas: '#F3F6F4', paper: '#FFFFFF', text: '#182522', border: '#D6E0DC', accent: '#007E74', secondary: '#5A6C68' },
+  { id: 'chalk-volt', name: 'Chalk & Volt', canvas: '#F4F6F1', paper: '#FFFFFF', text: '#171B18', border: '#D5DAD1', accent: '#C7FF3B', secondary: '#687068' },
+  { id: 'cobalt-ledger', name: 'Cobalt Ledger', canvas: '#F1F4F9', paper: '#FFFFFF', text: '#131C2D', border: '#CCD6E4', accent: '#2559FF', secondary: '#627086' },
+  { id: 'pure-monochrome', name: 'Pure Monochrome', canvas: '#ECEEEF', paper: '#FFFFFF', text: '#161719', border: '#BFC2C6', accent: '#303236', secondary: '#62676C' },
+];
+const palettes = {
+  light: {
+    label: 'Light palette',
+    tokens: [
+      { key: '--theme-accent', label: 'Theme accent', original: '#704b65', group: 'Accent' },
+      { key: '--theme-accent-text', label: 'Accent text', original: '#704b65', group: 'Accent' },
+      { key: '--theme-accent-foreground', label: 'On accent', original: '#ffffff', group: 'Accent' },
+      { key: '--ground', label: 'Ground', original: '#f0f1f3', group: 'Background' },
+      { key: '--surface', label: 'Surface', original: '#ffffff', group: 'Background' },
+      { key: '--raised', label: 'Raised', original: '#e4e4e4', group: 'Background' },
+      { key: '--rule', label: 'Rule', original: '#d2d2d2', group: 'Background' },
+      { key: '--text', label: 'Text / controls', original: '#202020', group: 'Text' },
+      { key: '--muted-copy', label: 'Secondary text', original: '#5d5d5d', group: 'Text' },
+      { key: '--faint-copy', label: 'Faint text', original: '#737373', group: 'Text' },
+      { key: '--wordmark-copy', label: 'Wordmark', original: '#505050', group: 'Text' },
+    ],
+  },
+  dark: {
+    label: 'Dark palette',
+    tokens: [
+      { key: '--theme-accent', label: 'Theme accent', original: '#704b65', group: 'Accent' },
+      { key: '--theme-accent-text', label: 'Accent text', original: '#c29eb2', group: 'Accent' },
+      { key: '--theme-accent-foreground', label: 'On accent', original: '#ffffff', group: 'Accent' },
+      { key: '--ground', label: 'Ground', original: '#141517', group: 'Background' },
+      { key: '--surface', label: 'Surface', original: '#191a17', group: 'Background' },
+      { key: '--raised', label: 'Raised', original: '#252622', group: 'Background' },
+      { key: '--rule', label: 'Rule', original: '#34352f', group: 'Background' },
+      { key: '--text', label: 'Text / controls', original: '#f5f4ef', group: 'Text' },
+      { key: '--muted-copy', label: 'Secondary text', original: '#c0bfb7', group: 'Text' },
+      { key: '--faint-copy', label: 'Faint text', original: '#9c9b93', group: 'Text' },
+      { key: '--wordmark-copy', label: 'Wordmark', original: '#aaa9a2', group: 'Text' },
+    ],
+  },
+};
+---
+
+<Layout title="Color experiment – One More Tab" description="Explore the news digest color tokens against the real latest edition.">
+  <main class="experiment-shell" data-palettes={JSON.stringify(palettes)} data-home={base} data-presets={JSON.stringify(presets)}>
+    <header class="experiment-header">
+      <div class="experiment-heading">
+        <a href={base} class="back-link">← One More Tab</a>
+        <h1>Color experiment</h1>
+        <p>Adjust the real theme tokens against today’s headlines.</p>
+      </div>
+    </header>
+
+    <div class="experiment-workspace">
+      <aside class="tuner-panel" aria-label="Color controls">
+        <div class="palette-switch" role="group" aria-label="Choose a palette">
+          <button type="button" data-palette="light" aria-pressed="true">Light</button>
+          <button type="button" data-palette="dark" aria-pressed="false">Dark</button>
+        </div>
+        <fieldset class="preset-picker">
+          <legend>Light palette presets</legend>
+          <div class="preset-list">
+            {presets.map((preset) => (
+              <button type="button" data-preset={preset.id} aria-pressed="false" disabled>
+                <span class="preset-swatches" aria-hidden="true">
+                  {[preset.canvas, preset.paper, preset.text, preset.border, preset.accent].map((color) => <span style={`background:${color}`}></span>)}
+                </span>
+                <span>{preset.name}</span>
+              </button>
+            ))}
+          </div>
+        </fieldset>
+        <div class="token-heading">
+          <div><h2 id="palette-title">Light palette</h2><p>OKLCH · lightness, chroma, hue</p></div>
+          <button id="reset-all" class="text-button" type="button">Reset all</button>
+        </div>
+        <div id="token-controls" class="token-controls"></div>
+        <div class="export-controls">
+          <label for="css-output">Selected palette CSS</label>
+          <textarea id="css-output" rows="5" readonly spellcheck="false"></textarea>
+          <div class="export-actions">
+            <button id="copy-css" class="quiet-button" type="button">Copy CSS</button>
+            <button id="download-css" class="quiet-button" type="button">Download CSS</button>
+          </div>
+          <p id="experiment-status" role="status" aria-live="polite">Edits are previewed in this page only.</p>
+        </div>
+      </aside>
+
+      <section class="preview-panel" aria-label="Live news page preview">
+        <div class="preview-toolbar">
+          <div class="preview-label"><span class="live-dot" aria-hidden="true"></span><span>Latest edition</span><span class="preview-date">Live page preview</span></div>
+          <div class="preview-options">
+            <div class="preview-mode" role="group" aria-label="Show preview colors">
+              <button type="button" data-preview="tuned" aria-pressed="true">Tuned</button>
+              <button type="button" data-preview="original" aria-pressed="false">Original</button>
+            </div>
+            <button id="preview-width" class="text-button" type="button" aria-pressed="false">Narrow preview</button>
+            <button id="focus-preview" class="quiet-button" type="button" aria-pressed="false">Focus preview</button>
+          </div>
+        </div>
+        <div class="preview-frame-wrap">
+          <iframe title="One More Tab latest headlines with experimental colors" src={base} loading="eager"></iframe>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    type Token = { key: string; label: string; original: string; group: string };
+    type Preset = { id: string; name: string; canvas: string; paper: string; text: string; border: string; accent: string; secondary: string };
+    type Palette = { label: string; tokens: Token[] };
+    const shell = document.querySelector<HTMLElement>('.experiment-shell')!;
+    const palettes = JSON.parse(shell.dataset.palettes ?? '{}') as Record<'light' | 'dark', Palette>;
+    const presets = JSON.parse(shell.dataset.presets ?? '[]') as Preset[];
+    const selectedPresets: Record<'light' | 'dark', string | null> = { light: null, dark: null };
+    const iframe = document.querySelector<HTMLIFrameElement>('.preview-frame-wrap iframe')!;
+    const controls = document.querySelector<HTMLElement>('#token-controls')!;
+    const cssOutput = document.querySelector<HTMLTextAreaElement>('#css-output')!;
+    const status = document.querySelector<HTMLElement>('#experiment-status')!;
+    const paletteTitle = document.querySelector<HTMLElement>('#palette-title')!;
+    const state: Record<'light' | 'dark', Record<string, { l: number; c: number; h: number; value: string }>> = { light: {}, dark: {} };
+    let activePalette: 'light' | 'dark' = 'light';
+    let previewOriginal = false;
+
+    function normalizeHex(color: string) {
+      if (color.startsWith('#')) {
+        const hex = color.slice(1);
+        if (/^[\da-f]{3}$/i.test(hex)) return `#${[...hex].map((digit) => `${digit}${digit}`).join('')}`;
+        if (/^[\da-f]{4}$/i.test(hex)) return `#${[...hex.slice(0, 3)].map((digit) => `${digit}${digit}`).join('')}`;
+        if (/^[\da-f]{6}$/i.test(hex)) return `#${hex}`;
+        if (/^[\da-f]{8}$/i.test(hex)) return `#${hex.slice(0, 6)}`;
+      }
+      const values = color.match(/[\d.]+/g)?.slice(0, 3).map(Number);
+      if (!values || values.length < 3) return '#000000';
+      return `#${values.map((value) => Math.round(value).toString(16).padStart(2, '0')).join('')}`;
+    }
+
+    function rgbToOklch(color: string) {
+      const hex = normalizeHex(color);
+      const raw = hex.replace('#', '');
+      const rgb = [0, 2, 4].map((i) => parseInt(raw.slice(i, i + 2), 16) / 255).map((v) => v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4);
+      const [r, g, b] = rgb;
+      const l = 0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b;
+      const m = 0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b;
+      const s = 0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b;
+      const ll = Math.cbrt(l), mm = Math.cbrt(m), ss = Math.cbrt(s);
+      const L = 0.2104542553 * ll + 0.793617785 * mm - 0.0040720468 * ss;
+      const a = 1.9779984951 * ll - 2.428592205 * mm + 0.4505937099 * ss;
+      const bb = 0.0259040371 * ll + 0.7827717662 * mm - 0.808675766 * ss;
+      return { l: L * 100, c: Math.hypot(a, bb) * 100, h: (Math.atan2(bb, a) * 180 / Math.PI + 360) % 360 };
+    }
+
+    function formatColor(value: { l: number; c: number; h: number }) {
+      return `oklch(${(value.l / 100).toFixed(3)} ${(value.c / 100).toFixed(3)} ${Math.round(value.h)})`;
+    }
+
+    function ensureState() {
+      for (const mode of ['light', 'dark'] as const) {
+        for (const token of palettes[mode].tokens) {
+          state[mode][token.key] = { ...rgbToOklch(token.original), value: token.original };
+        }
+      }
+    }
+
+    function renderControls() {
+      const palette = palettes[activePalette];
+      paletteTitle.textContent = palette.label;
+      const groups = ['Accent', 'Background', 'Text'];
+      syncPresetSelection();
+      controls.innerHTML = groups.map((group) => `<section class="token-group" aria-label="${group} tokens"><h3>${group}</h3>${palette.tokens.filter((token) => token.group === group).map((token) => {
+        const current = state[activePalette][token.key];
+        const id = `${activePalette}-${token.key.replace(/[^a-z]/gi, '')}`;
+        return `<article class="token-row" data-token="${token.key}">
+          <div class="token-topline"><div class="token-name"><span class="swatch" style="--swatch:${current.value}"></span><label for="${id}-l">${token.label}</label></div><code>${current.value}</code><button class="reset-token" type="button" data-reset-token="${token.key}" aria-label="Reset ${token.label} to original">Reset</button></div>
+          <div class="channel-row"><label for="${id}-l">L</label><input type="number" min="0" max="100" step="0.1" value="${current.l.toFixed(1)}" data-channel="l" data-key="${token.key}" aria-label="${token.label} lightness value" inputmode="decimal"><input id="${id}-l" type="range" min="0" max="100" step="0.1" value="${current.l}" data-channel="l" data-key="${token.key}" aria-label="${token.label} lightness"></div>
+          <div class="channel-row"><label for="${id}-c">C</label><input type="number" min="0" max="37" step="0.1" value="${current.c.toFixed(1)}" data-channel="c" data-key="${token.key}" aria-label="${token.label} chroma value" inputmode="decimal"><input id="${id}-c" type="range" min="0" max="37" step="0.1" value="${current.c}" data-channel="c" data-key="${token.key}" aria-label="${token.label} chroma"></div>
+          <div class="channel-row"><label for="${id}-h">H</label><input type="number" min="0" max="360" step="1" value="${Math.round(current.h)}" data-channel="h" data-key="${token.key}" aria-label="${token.label} hue value" inputmode="numeric"><input id="${id}-h" type="range" min="0" max="360" step="1" value="${current.h}" data-channel="h" data-key="${token.key}" aria-label="${token.label} hue"></div>
+        </article>`;
+      }).join('')}</section>`).join('');
+
+      controls.querySelectorAll<HTMLInputElement>('input[type="range"], input[type="number"]').forEach((input) => {
+        const updateChannel = (finalize = false) => {
+          const channel = input.dataset.channel as 'l' | 'c' | 'h';
+          const tokenState = state[activePalette][input.dataset.key!];
+          const raw = input.valueAsNumber;
+          if (!Number.isFinite(raw)) {
+            if (finalize) input.value = String(tokenState[channel]);
+            return;
+          }
+          const min = Number(input.min), max = Number(input.max), step = Number(input.step);
+          const bounded = Math.min(max, Math.max(min, raw));
+          const value = Number((Math.round((bounded - min) / step) * step + min).toFixed(channel === 'h' ? 0 : 1));
+          selectedPresets[activePalette] = null;
+          showTuned();
+          syncPresetSelection();
+          tokenState[channel] = value;
+          tokenState.value = formatColor(tokenState);
+          const row = input.closest<HTMLElement>('.token-row')!;
+          row.querySelector('.swatch')?.setAttribute('style', `--swatch:${tokenState.value}`);
+          row.querySelector('code')!.textContent = tokenState.value;
+          row.querySelectorAll<HTMLInputElement>(`input[data-channel="${channel}"]`).forEach((peer) => {
+            if (peer !== input) peer.value = String(value);
+          });
+          if (finalize) input.value = String(value);
+          updatePreview();
+        };
+        input.addEventListener('input', () => updateChannel());
+        input.addEventListener('change', () => updateChannel(true));
+      });
+      controls.querySelectorAll<HTMLButtonElement>('[data-reset-token]').forEach((button) => button.addEventListener('click', () => {
+        selectedPresets[activePalette] = null;
+        const token = palette.tokens.find((item) => item.key === button.dataset.resetToken)!;
+        state[activePalette][token.key] = { ...rgbToOklch(token.original), value: token.original };
+        previewOriginal = false;
+        document.querySelectorAll('[data-preview]').forEach((tab) => tab.setAttribute('aria-pressed', String(tab.getAttribute('data-preview') === 'tuned')));
+        renderControls(); updatePreview();
+      }));
+      updateCss();
+    }
+
+    function syncPresetSelection() {
+      document.querySelectorAll<HTMLButtonElement>('[data-preset]').forEach((button) => {
+        button.setAttribute('aria-pressed', String(activePalette === 'light' && selectedPresets.light === button.dataset.preset));
+      });
+    }
+
+    function showTuned() {
+      previewOriginal = false;
+      document.querySelectorAll('[data-preview]').forEach((button) => button.setAttribute('aria-pressed', String(button.getAttribute('data-preview') === 'tuned')));
+    }
+
+    document.querySelectorAll<HTMLButtonElement>('[data-preset]').forEach((button) => button.addEventListener('click', () => {
+      const preset = presets.find((item) => item.id === button.dataset.preset)!;
+      activePalette = 'light';
+      const volt = preset.id === 'chalk-volt';
+      // No extra reference was supplied for Raised: use the reference canvas.
+      // Bright lime is a fill/indicator; use the reference ink for readable accent text.
+      const values: Record<string, string> = {
+        '--ground': preset.canvas, '--surface': preset.paper, '--raised': preset.canvas,
+        '--rule': preset.border, '--theme-accent': preset.accent,
+        '--theme-accent-text': volt ? preset.text : preset.accent,
+        '--theme-accent-foreground': volt ? preset.text : preset.paper,
+        '--text': preset.text, '--wordmark-copy': preset.text,
+        '--muted-copy': preset.secondary, '--faint-copy': preset.secondary,
+      };
+      for (const token of palettes.light.tokens) {
+        const value = values[token.key];
+        state.light[token.key] = { ...rgbToOklch(value), value };
+      }
+      selectedPresets.light = preset.id;
+      document.querySelectorAll('[data-palette]').forEach((tab) => tab.setAttribute('aria-pressed', String(tab.getAttribute('data-palette') === 'light')));
+      showTuned(); renderControls(); updatePreview();
+      status.textContent = `${preset.name} applied to the light palette.`;
+    }));
+
+    function updateCss() {
+      const palette = palettes[activePalette];
+      cssOutput.value = `html${activePalette === 'dark' ? '.dark' : ''} {\n${palette.tokens.map((token) => {
+        const value = activePalette === 'light' && token.key === '--theme-accent-text'
+          && state.light[token.key].value === token.original
+          ? 'var(--theme-accent)'
+          : state[activePalette][token.key].value;
+        return `  ${token.key}: ${value};`;
+      }).join('\n')}\n}`;
+    }
+
+    function updatePreview() {
+      const doc = iframe.contentDocument;
+      if (!doc) return;
+      const root = doc.documentElement;
+      const mode = activePalette;
+      root.classList.toggle('dark', mode === 'dark');
+      root.style.colorScheme = mode;
+      for (const palette of ['light', 'dark'] as const) {
+        for (const token of palettes[palette].tokens) root.style.removeProperty(token.key);
+      }
+      if (!previewOriginal) for (const token of palettes[activePalette].tokens) {
+        const lightAlias = activePalette === 'light' && token.key === '--theme-accent-text'
+          && state.light[token.key].value === token.original;
+        if (!lightAlias) root.style.setProperty(token.key, state[activePalette][token.key].value);
+      }
+      updateCss();
+    }
+
+    let initialized = false;
+    const previewUrl = new URL(shell.dataset.home ?? '/', window.location.href);
+    const initializeFromRenderedSite = () => {
+      const doc = iframe.contentDocument;
+      if (!doc) return;
+      // The browser creates a completed about:blank document before the iframe's
+      // requested homepage loads. Wait until the actual same-origin home document.
+      try {
+        if (doc.location.origin !== window.location.origin || doc.location.pathname !== previewUrl.pathname) return;
+      } catch { return; }
+      const root = doc.documentElement;
+      if (!root || doc.readyState !== 'complete') return;
+      if (initialized) {
+        updatePreview();
+        return;
+      }
+      initialized = true;
+      root.classList.remove('dark');
+      root.style.colorScheme = 'light';
+      const lightValues = getComputedStyle(root);
+      for (const token of palettes.light.tokens) token.original = normalizeHex(lightValues.getPropertyValue(token.key).trim());
+      root.classList.add('dark');
+      const darkValues = getComputedStyle(root);
+      for (const token of palettes.dark.tokens) token.original = normalizeHex(darkValues.getPropertyValue(token.key).trim());
+      root.classList.remove('dark');
+      ensureState();
+      document.querySelectorAll<HTMLButtonElement>('[data-preset]').forEach((button) => { button.disabled = false; });
+      renderControls();
+      updatePreview();
+    };
+    iframe.addEventListener('load', initializeFromRenderedSite);
+    if (iframe.contentDocument?.readyState === 'complete') initializeFromRenderedSite();
+    document.querySelectorAll<HTMLButtonElement>('[data-palette]').forEach((button) => button.addEventListener('click', () => {
+      activePalette = button.dataset.palette as 'light' | 'dark';
+      document.querySelectorAll('[data-palette]').forEach((tab) => tab.setAttribute('aria-pressed', String(tab === button)));
+      previewOriginal = false;
+      document.querySelectorAll('[data-preview]').forEach((tab) => tab.setAttribute('aria-pressed', String(tab.dataset.preview === 'tuned')));
+      renderControls(); updatePreview();
+    }));
+    document.querySelectorAll<HTMLButtonElement>('[data-preview]').forEach((button) => button.addEventListener('click', () => {
+      previewOriginal = button.dataset.preview === 'original';
+      document.querySelectorAll('[data-preview]').forEach((tab) => tab.setAttribute('aria-pressed', String(tab === button)));
+      updatePreview(); status.textContent = previewOriginal ? 'Showing the original token values.' : 'Showing your tuned token values.';
+    }));
+    document.querySelector<HTMLButtonElement>('#reset-all')!.addEventListener('click', () => {
+      selectedPresets[activePalette] = null;
+      for (const token of palettes[activePalette].tokens) state[activePalette][token.key] = { ...rgbToOklch(token.original), value: token.original };
+      renderControls(); previewOriginal = false;
+      document.querySelectorAll('[data-preview]').forEach((tab) => tab.setAttribute('aria-pressed', String(tab.getAttribute('data-preview') === 'tuned')));
+      updatePreview(); status.textContent = `${palettes[activePalette].label} reset to the original values.`;
+    });
+    document.querySelector<HTMLButtonElement>('#preview-width')!.addEventListener('click', (event) => {
+      const button = event.currentTarget as HTMLButtonElement;
+      const narrow = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(narrow)); button.textContent = narrow ? 'Full width' : 'Narrow preview';
+      document.querySelector('.preview-frame-wrap')!.classList.toggle('narrow', narrow);
+    });
+    document.querySelector<HTMLButtonElement>('#focus-preview')!.addEventListener('click', (event) => {
+      const button = event.currentTarget as HTMLButtonElement;
+      const focused = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(focused)); button.textContent = focused ? 'Show controls' : 'Focus preview';
+      document.querySelector('.experiment-workspace')!.classList.toggle('preview-focus', focused);
+      document.querySelector('.experiment-shell')!.classList.toggle('focus-mode', focused);
+    });
+    document.querySelector<HTMLButtonElement>('#copy-css')!.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(cssOutput.value); status.textContent = 'CSS copied to clipboard.'; }
+      catch { cssOutput.select(); document.execCommand('copy'); status.textContent = 'CSS copied to clipboard.'; }
+    });
+    document.querySelector<HTMLButtonElement>('#download-css')!.addEventListener('click', () => {
+      const url = URL.createObjectURL(new Blob([cssOutput.value], { type: 'text/css' }));
+      const link = document.createElement('a'); link.href = url; link.download = `one-more-tab-${activePalette}-tokens.css`; link.click(); URL.revokeObjectURL(url);
+      status.textContent = 'CSS file downloaded.';
+    });
+  </script>
+
+  <style>
+    .experiment-shell { width: min(1760px, calc(100% - 48px)); margin: 0 auto; padding: 24px 0 48px; }
+    .experiment-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 14px 0 24px; border-bottom: 1px solid var(--rule); }
+    .experiment-heading h1 { margin: 10px 0 2px; font-size: 25px; line-height: 1.2; font-weight: 600; letter-spacing: -0.025em; }
+    .experiment-heading p { margin: 0; color: var(--muted-copy); font-size: 14px; }
+    .back-link { color: var(--muted-copy); font-size: 13px; }
+    .back-link:hover { color: var(--text); }
+    .quiet-button, .text-button { border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+    .quiet-button { padding: 8px 11px; font-size: 12px; }
+    .text-button { border-color: transparent; background: transparent; padding: 5px 3px; color: var(--muted-copy); font-size: 12px; }
+    .quiet-button:hover, .text-button:hover { color: var(--theme-accent-text); border-color: var(--theme-accent-text); }
+    .experiment-workspace { display: grid; grid-template-columns: minmax(330px, 395px) minmax(0, 1fr); gap: 22px; align-items: start; padding-top: 20px; }
+    .tuner-panel, .preview-panel { min-width: 0; border: 1px solid var(--rule); background: var(--surface); }
+    .tuner-panel { padding: 18px 18px 14px; }
+    .palette-switch, .preview-mode { display: inline-flex; padding: 2px; border: 1px solid var(--rule); border-radius: 4px; background: var(--ground); }
+    .palette-switch button, .preview-mode button { border: 0; border-radius: 2px; background: transparent; color: var(--muted-copy); font: inherit; font-size: 12px; cursor: pointer; }
+    .palette-switch button { padding: 6px 13px; }
+    .preview-mode button { padding: 5px 9px; }
+    .palette-switch button[aria-pressed="true"], .preview-mode button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px #0002; }
+    .preset-picker { margin: 18px 0 0; padding: 0; border: 0; min-width: 0; }
+    .preset-picker legend { margin-bottom: 8px; color: var(--muted-copy); font-size: 12px; }
+    .preset-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+    .preset-list button { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; min-height: 62px; padding: 9px; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); color: var(--text); font: inherit; font-size: 12px; cursor: pointer; }
+    .preset-list button:hover, .preset-list button[aria-pressed="true"] { border-color: var(--text); }
+    .preset-list button[aria-pressed="true"] { box-shadow: inset 0 0 0 1px var(--text); }
+    .preset-list button:disabled { opacity: .5; cursor: wait; }
+    .preset-swatches { display: flex; border: 1px solid var(--rule); }
+    .preset-swatches span { width: 20px; height: 12px; }
+    .token-heading { display: flex; align-items: end; justify-content: space-between; gap: 10px; margin: 22px 0 12px; }
+    .token-heading h2 { margin: 0; font-size: 16px; font-weight: 600; }
+    .token-heading p { margin: 3px 0 0; color: var(--muted-copy); font-size: 11px; }
+    .experiment-shell :global(.token-group + .token-group) { margin-top: 17px; }
+    .experiment-shell :global(.token-group h3) { margin: 0 0 4px; color: var(--muted-copy); font-size: 12px; font-weight: 500; }
+    .experiment-shell :global(.token-row) { padding: 9px 0 11px; border-top: 1px solid var(--rule); }
+    .experiment-shell :global(.token-topline) { display: grid; grid-template-columns: minmax(120px, 1fr) auto 34px; align-items: center; gap: 8px; margin-bottom: 7px; }
+    .experiment-shell :global(.token-name) { display: flex; min-width: 0; align-items: center; gap: 8px; font-size: 12px; }
+    .experiment-shell :global(.swatch) { width: 15px; height: 15px; flex: 0 0 auto; border: 1px solid color-mix(in srgb, var(--text) 18%, transparent); border-radius: 3px; background: var(--swatch); }
+    .experiment-shell :global(.token-topline code) { color: var(--muted-copy); font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; white-space: nowrap; }
+    .experiment-shell :global(.reset-token) { border: 0; background: transparent; color: var(--muted-copy); font: inherit; font-size: 10px; cursor: pointer; text-align: right; }
+    .experiment-shell :global(.reset-token:hover) { color: var(--theme-accent-text); }
+    .experiment-shell :global(.channel-row) { display: grid; grid-template-columns: 14px 54px minmax(0, 1fr); align-items: center; gap: 8px; height: 24px; }
+    .experiment-shell :global(.channel-row label) { color: var(--muted-copy); font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .experiment-shell :global(.channel-row input[type="range"]) { width: 100%; height: 15px; margin: 0; accent-color: var(--theme-accent); cursor: ew-resize; }
+    .experiment-shell :global(.channel-row input[type="number"]) { width: 100%; height: 22px; padding: 2px 4px; border: 1px solid var(--rule); border-radius: 2px; background: var(--ground); color: var(--text); font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; text-align: right; }
+    .export-controls { margin-top: 17px; padding-top: 14px; border-top: 1px solid var(--rule); }
+    .export-controls > label { display: block; margin-bottom: 6px; color: var(--muted-copy); font-size: 11px; }
+    .export-controls textarea { display: block; width: 100%; resize: vertical; border: 1px solid var(--rule); border-radius: 3px; background: var(--ground); color: var(--text); padding: 9px; font: 10px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .export-actions { display: flex; gap: 8px; margin-top: 7px; }
+    #experiment-status { min-height: 17px; margin: 8px 0 0; color: var(--faint-copy); font-size: 10px; }
+    .preview-panel { overflow: hidden; }
+    .preview-toolbar { min-height: 48px; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 12px; border-bottom: 1px solid var(--rule); }
+    .preview-label, .preview-options { display: flex; align-items: center; gap: 10px; }
+    .preview-label { font-size: 12px; }
+    .preview-date { color: var(--faint-copy); font-size: 11px; }
+    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--theme-accent-text); }
+    .preview-options { gap: 12px; }
+    .preview-frame-wrap { height: min(780px, calc(100vh - 180px)); min-height: 520px; overflow: auto; background: var(--ground); }
+    .preview-frame-wrap iframe { display: block; width: 100%; height: 100%; min-height: 700px; border: 0; }
+    .preview-frame-wrap.narrow { width: min(440px, 100%); margin: 0 auto; border-left: 1px solid var(--rule); border-right: 1px solid var(--rule); }
+    .preview-focus { grid-template-columns: minmax(0, 1fr); }
+    .preview-focus .tuner-panel { display: none; }
+    .experiment-shell.focus-mode { position: fixed; z-index: 1000; inset: 0; display: flex; flex-direction: column; width: 100%; max-width: none; height: 100vh; height: 100dvh; margin: 0; padding: 0; overflow: hidden; background: var(--ground); }
+    .focus-mode .experiment-header { display: none; }
+    .focus-mode .experiment-workspace { display: block; flex: 1; min-height: 0; padding: 0; }
+    .focus-mode .preview-panel { position: static; display: flex; flex-direction: column; width: 100%; height: 100%; border: 0; background: var(--ground); }
+    .focus-mode .preview-toolbar { flex: 0 0 42px; min-height: 42px; gap: 10px; padding: 4px 12px; border-bottom: 1px solid var(--rule); }
+    .focus-mode .preview-label { gap: 7px; font-size: 11px; }
+    .focus-mode .preview-date { display: none; }
+    .focus-mode .preview-options { gap: 8px; }
+    .focus-mode .preview-mode button { padding: 4px 7px; font-size: 11px; }
+    .focus-mode #preview-width { padding: 4px 2px; font-size: 11px; }
+    .focus-mode #focus-preview { padding: 5px 8px; font-size: 11px; }
+    .focus-mode .preview-frame-wrap { flex: 1; width: 100%; height: auto; min-height: 0; overflow: auto; }
+    .focus-mode .preview-frame-wrap iframe { height: 100%; min-height: 0; }
+    .focus-mode .preview-frame-wrap.narrow { width: min(440px, 100%); border-right: 1px solid var(--rule); border-left: 1px solid var(--rule); }
+    .experiment-shell :is(button, a, input, textarea):focus-visible { outline: 2px solid var(--theme-accent-text); outline-offset: 2px; }
+    @media (max-width: 1000px) {
+      .experiment-workspace { grid-template-columns: minmax(270px, 340px) minmax(0, 1fr); gap: 14px; }
+      .tuner-panel { padding: 14px 12px; }
+      .token-topline { grid-template-columns: minmax(92px, 1fr) auto 34px; gap: 4px; }
+    }
+    @media (max-width: 760px) {
+      .experiment-shell { width: calc(100% - 28px); padding-top: 14px; }
+      .experiment-header { align-items: center; padding-bottom: 16px; }
+      .experiment-workspace { grid-template-columns: minmax(0, 1fr); }
+      .preview-panel { grid-row: 1; }
+      .preview-frame-wrap { height: 62vh; min-height: 440px; }
+      .preview-frame-wrap iframe { min-height: 650px; }
+      .preview-panel { position: static; }
+      .preview-toolbar { flex-wrap: wrap; }
+      .preview-date { display: none; }
+      .focus-mode .preview-toolbar { flex: 0 0 auto; min-height: 40px; flex-wrap: nowrap; padding: 4px 8px; }
+      .focus-mode .preview-label > span:not(.live-dot) { display: none; }
+      .focus-mode .preview-options { gap: 5px; }
+      .focus-mode .preview-mode button { padding-inline: 5px; }
+      .focus-mode #preview-width { font-size: 10px; }
+      .focus-mode #focus-preview { padding: 5px 6px; font-size: 10px; }
+    }
+    @media (min-width: 761px) {
+      .preview-panel { position: sticky; top: 12px; }
+      .preview-frame-wrap { height: calc(100vh - 86px); min-height: 480px; }
+    }
+  </style>
+</Layout>

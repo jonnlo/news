@@ -6,7 +6,7 @@
   color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --ground: #ebecea;
+  --ground: oklch(0.950 0.003 230);
   --surface: #ffffff;
   --raised: #e4e4e4;
   --rule: #d2d2d2;
@@ -17,14 +17,12 @@
   --wordmark-copy: #505050;
   --theme-accent: #704b65;
   --theme-accent-text: var(--theme-accent);
-  --data-accent: #8f5c00;
+  --theme-accent-foreground: #ffffff;
 
   --background: var(--ground);
   --foreground: var(--text);
   --card: var(--surface);
   --card-foreground: var(--text);
-  --popover: var(--surface);
-  --popover-foreground: var(--text);
   --primary: var(--text);
   --primary-foreground: var(--ground);
   --primary-accent: var(--text);
@@ -33,32 +31,16 @@
   --secondary-accent: var(--text);
   --muted: var(--raised);
   --muted-foreground: var(--muted-copy);
-  --accent: var(--raised);
-  --accent-foreground: var(--text);
-  --destructive: #e5484d;
   --border: var(--rule);
   --input: #c8c8c8;
   --ring: #646464;
   --outline: var(--ring);
-  --chart-1: var(--data-accent);
-  --chart-2: #e6e6e6;
-  --chart-3: #6b6b6b;
-  --chart-4: #494743;
-  --chart-5: #34322f;
   --radius: 0.625rem;
-  --sidebar: var(--ground);
-  --sidebar-foreground: var(--text);
-  --sidebar-primary: var(--primary);
-  --sidebar-primary-foreground: var(--primary-foreground);
-  --sidebar-accent: var(--surface);
-  --sidebar-accent-foreground: var(--text);
-  --sidebar-border: var(--rule);
-  --sidebar-ring: var(--ring);
 }
 
 .dark {
   color-scheme: dark;
-  --ground: #121411;
+  --ground: oklch(0.160 0.003 230);
   --surface: #191a17;
   --raised: #252622;
   --rule: #34352f;
@@ -67,7 +49,6 @@
   --faint-copy: #9c9b93;
   --wordmark-copy: #aaa9a2;
   --theme-accent-text: #c29eb2;
-  --data-accent: #f2b33d;
   --input: #45463f;
   --ring: #b4b0a8;
 }
@@ -75,33 +56,15 @@
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: var(--site-font-stack);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
   --color-foreground: var(--foreground);
@@ -324,7 +287,7 @@ html.pointer-mode :focus-visible {
 .filter.active {
   border-color: var(--theme-accent);
   background: var(--theme-accent);
-  color: #fff;
+  color: var(--theme-accent-foreground);
 }
 
 .filter:focus-visible {
@@ -339,7 +302,7 @@ html.pointer-mode :focus-visible {
 }
 
 .filter.active .filter-count {
-  color: color-mix(in srgb, #fff 76%, transparent);
+  color: color-mix(in srgb, var(--theme-accent-foreground) 76%, transparent);
 }
 
 .story-list {

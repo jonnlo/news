@@ -630,6 +630,10 @@ html.pointer-mode :focus-visible {
     top: calc(0.34em + 4px);
   }
 
+  .source-heading h2::before {
+    font-size: 15px;
+  }
+
   .story-excerpt {
     font-size: 13px;
   }
@@ -746,10 +750,13 @@ html.pointer-mode :focus-visible {
 
 .source-heading {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 10px;
   padding: 0;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -8px;
 }
 
 .source-pager {
@@ -794,7 +801,7 @@ html.pointer-mode :focus-visible {
   margin: 0;
   list-style: none;
   gap: 0;
-  padding: 8px 10px;
+  padding: 8px 12px;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -803,7 +810,7 @@ html.pointer-mode :focus-visible {
 .source-group .story-viewport {
   min-width: 0;
   overflow: hidden;
-  border-top: 1px solid var(--rule);
+  border: 0;
   border-radius: 0;
   background: var(--surface);
   transition: height 280ms cubic-bezier(.22, 1, .36, 1);
@@ -857,11 +864,19 @@ html.pointer-mode :focus-visible {
 .source-name-line {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: 6px;
+  min-height: 44px;
+  padding: 6px 12px 7px;
+  border: 0;
+  background: var(--surface);
 }
 
 .source-heading h2 {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 12px;
   margin: 0;
   font-size: 19px;
   font-weight: 600;
@@ -870,7 +885,21 @@ html.pointer-mode :focus-visible {
   color: var(--theme-accent-text);
 }
 
+.source-heading h2::before {
+  content: '';
+  display: block;
+  flex: 0 0 auto;
+  width: calc(0.72em - 2px);
+  width: calc(1cap - 2px);
+  height: calc(0.72em - 2px);
+  height: calc(1cap - 2px);
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--theme-accent-text) 75%, black);
+  font-size: 16px;
+}
+
 .source-heading h2 a {
+  min-width: 0;
   color: inherit;
 }
 

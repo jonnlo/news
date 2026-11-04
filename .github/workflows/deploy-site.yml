@@ -23,6 +23,9 @@ concurrency:
 jobs:
   deploy:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    env:
+      SITE_URL: https://tab.jonlo.xyz
+      SITE_BASE_PATH: /
     runs-on: ubuntu-latest
     environment:
       name: github-pages

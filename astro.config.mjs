@@ -8,10 +8,10 @@ const isUserSite = repository.endsWith('.github.io');
 const isDevCommand = process.argv.includes('dev');
 
 export default defineConfig({
-  site: process.env.GITHUB_REPOSITORY
+  site: process.env.SITE_URL ?? (process.env.GITHUB_REPOSITORY
     ? `https://${process.env.GITHUB_REPOSITORY.split('/')[0]}.github.io`
-    : 'http://localhost:4321',
-  base: !process.env.GITHUB_REPOSITORY || isUserSite ? '/' : `/${repository}`,
+    : 'http://localhost:4321'),
+  base: process.env.SITE_BASE_PATH ?? (!process.env.GITHUB_REPOSITORY || isUserSite ? '/' : `/${repository}`),
   devToolbar: { enabled: false },
   integrations: isDevCommand ? [react(), keystatic()] : [],
   vite: {

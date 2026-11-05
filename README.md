@@ -18,6 +18,7 @@ Requires Node.js 22 or newer.
 
 ```sh
 npm ci
+npx playwright install chromium
 npm run collect
 npm run dev
 npm run build
@@ -33,7 +34,15 @@ On mobile, the bottom source switcher provides previous/next source buttons with
 
 The **Refresh headlines** GitHub Actions workflow runs hourly and can also be started manually. It commits the current day's snapshot. Scheduled Actions can run late, and the displayed collection time reflects the actual run. **Deploy site** builds and publishes `main` after a push, after a successful refresh, or when started manually. Deployments are serialized and check out the latest `main`.
 
-For GitHub Pages, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**, and allow Actions to write repository contents for the refresh workflow. Run **Refresh headlines** once and verify the deploy. The Astro config derives the project-page base path from `GITHUB_REPOSITORY` in Actions.
+For GitHub Pages, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**, and allow Actions to write repository contents for the refresh workflow. Run **Refresh headlines** once and verify the deploy. The deployment workflow explicitly sets `SITE_URL=https://tab.jonlo.xyz` and `SITE_BASE_PATH=/` for the configured custom domain. Without those overrides, Astro derives the project-page URL and base path from `GITHUB_REPOSITORY` in Actions. Local builds default to the production custom domain; `SITE_URL` and `SITE_BASE_PATH` can override it.
+
+### Build-time social image
+
+Every `npm run build` (including direct `astro build`) renders the dedicated `/og/` composition from the completed static output using Playwright Chromium. It shares the masthead's `Wordmark.astro` component, Inter font and CSS color tokens. The build waits for the bundled font, writes a 1200 × 630 PNG to `dist/og.png`, checks the image dimensions and served content, and validates Open Graph/Twitter image URLs and canonical URLs on every public route. A render or validation failure stops deployment. The composition is marked `noindex` and has no theme-switching script, so the image always uses the light palette.
+
+Install Chromium once after `npm ci` with `npx playwright install chromium` (on Linux, use `npx playwright install --with-deps chromium`). For local builds with an existing Google Chrome installation, `OG_BROWSER_CHANNEL=chrome npm run build` also works without downloading Chromium. No dev server or external font service is needed. Preview the image after building at `/og.png` using `npm run preview`; edit its source in `src/pages/og.astro`.
+
+The Pages workflow installs Chromium and its system dependencies, runs the complete build, then uploads **all of `dist/`**, including the generated PNG, before deploying. Only the composition and renderer source belong in Git. `dist/` and `public/og.png` are ignored; the PNG is stored in the Pages deployment artifact and hosted at `https://tab.jonlo.xyz/og.png`. Change the workflow's `SITE_URL` if the custom domain changes; metadata follows that value automatically.
 
 ## Earlier experiments
 

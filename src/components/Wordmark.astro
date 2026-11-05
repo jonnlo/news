@@ -1,0 +1,9 @@
+---
+interface Props {
+  href?: string;
+  class?: string;
+}
+const { href, class: className } = Astro.props;
+const Tag = href ? 'a' : 'span';
+---
+<Tag class:list={['wordmark', className]} href={href}>one more <span class="wordmark-accent">tab.</span></Tag>

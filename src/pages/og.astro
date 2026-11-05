@@ -1,0 +1,70 @@
+---
+import '@/styles/starwind.css';
+import '@/styles/global.css';
+import Wordmark from '@/components/Wordmark.astro';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>One More Tab — social image composition</title>
+  </head>
+  <body>
+    <main class="og-canvas" aria-label="One More Tab">
+      <div class="og-card">
+        <h1><Wordmark class="og-wordmark" /></h1>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  .og-canvas {
+    width: 1200px;
+    height: 630px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: var(--ground);
+  }
+
+  .og-card {
+    position: relative;
+    width: 896px;
+    height: 340px;
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 64px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 0 var(--ui-radius) var(--ui-radius) var(--ui-radius);
+  }
+
+  .og-card::before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    bottom: calc(100% - 1px);
+    width: 316px;
+    height: 56px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-bottom: 0;
+    border-radius: var(--ui-radius) var(--ui-radius) 0 0;
+  }
+
+  h1 {
+    margin: 0;
+    font: inherit;
+    white-space: nowrap;
+  }
+
+  /* Enlarge the shared masthead; its weight, tracking and colors stay shared. */
+  .og-card :global(.og-wordmark) {
+    font-size: 88px;
+  }
+</style>

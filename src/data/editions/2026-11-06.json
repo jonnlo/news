@@ -2,11 +2,16 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T01:35:18.403Z",
-  "collectedAt": "2026-11-06T01:35:18.403Z",
+  "generatedAt": "2026-11-06T02:17:14.061Z",
+  "collectedAt": "2026-11-06T02:17:14.061Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 76,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Rest of World",
+      "error": "HTTP 403"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -14,6 +19,33 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears",
+          "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
+          "publishedAt": "2026-11-06T01:11:40.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50386909"
+        },
+        {
+          "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
+          "url": "https://github.com/matthewmrichter/mooftcp",
+          "publishedAt": "2026-11-06T00:54:15.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50386789"
+        },
+        {
+          "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+          "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
+          "publishedAt": "2026-11-06T00:31:11.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50386597"
+        },
         {
           "title": "Inkling 2 Small",
           "url": "https://thinkingmachines.ai/news/inkling-2-small/",
@@ -96,15 +128,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50383294"
         },
         {
-          "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
-          "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
-          "publishedAt": "2026-11-05T19:16:34.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50383163"
-        },
-        {
           "title": "The Hackintosh Reborn",
           "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
           "publishedAt": "2026-11-05T19:08:22.000Z",
@@ -168,15 +191,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50380810"
         },
         {
-          "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
-          "url": "https://github.com/AGGIB/Stroq",
-          "publishedAt": "2026-11-05T15:54:41.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50380704"
-        },
-        {
           "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
           "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
           "publishedAt": "2026-11-05T14:44:20.000Z",
@@ -184,15 +198,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50379704"
-        },
-        {
-          "title": "September in Servo: , rounded rectangles, and more",
-          "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
-          "publishedAt": "2026-11-05T14:34:18.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50379576"
         }
       ]
     },
@@ -467,18 +472,18 @@
           "category": "Technology"
         },
         {
-          "title": "AI’s Next Trick? Speaking Dolphin",
-          "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
-          "publishedAt": "2026-11-05T12:00:00.000Z",
-          "excerpt": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
           "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
           "url": "https://www.wired.com/gallery/best-wireless-chargers/",
           "publishedAt": "2026-11-05T12:00:00.000Z",
           "excerpt": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "AI’s Next Trick? Speaking Dolphin",
+          "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+          "publishedAt": "2026-11-05T12:00:00.000Z",
+          "excerpt": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
           "source": "WIRED",
           "category": "Technology"
         },
@@ -1284,6 +1289,17 @@
       "count": 15,
       "stories": [
         {
+          "title": "Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far (The Information)",
+          "url": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
+          "publishedAt": "2026-11-06T01:50:07.000Z",
+          "excerpt": "The Information : Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far &nbsp; &mdash;&nbsp; Airbnb on Thursday shed new light on a secretive AI startup that founder and CEO Brian Chesky controls",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261105/p67#a261105p67",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
           "title": "Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year (Business Insider)",
           "url": "https://www.businessinsider.com/thinking-machines-lab-is-closing-5-billion-new-round-2026-11",
           "publishedAt": "2026-11-06T01:15:02.000Z",
@@ -1434,17 +1450,6 @@
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261105/p53#a261105p53",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "METR: Anthropic redacted much of the \"most informative\" evidence from METR's 100-page report, so readers \"must rely on our judgment more than we consider ideal\" (@metr_evals)",
-          "url": "https://x.com/metr_evals/status/2118412194702598339",
-          "publishedAt": "2026-11-05T21:30:03.000Z",
-          "excerpt": "@metr_evals : METR: Anthropic redacted much of the &ldquo;most informative&rdquo; evidence from METR's 100-page report, so readers &ldquo;must rely on our judgment more than we consider ideal&rdquo; &nbsp; &mdash;&nbsp; We submitted a ~100-page full report on our assessment to Anthropic. For the pub",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261105/p52#a261105p52",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
         }
@@ -1654,19 +1659,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "JMGO N3 Ultimate review: this projector is so, so bright, but less compelling at night",
-          "url": "https://www.techradar.com/televisions/projectors/jmgo-n3-ultimate-review",
+          "title": "LG faces legal action over alleged smart TV spying",
+          "url": "https://www.techradar.com/televisions/lg-faces-legal-action-over-alleged-smart-tv-spying-and-other-manufacturers-could-be-in-the-firing-line-over-ignoring-acr-opt-outs",
           "publishedAt": "2026-11-06T01:00:00.000Z",
-          "excerpt": "JMGO’s N3 Ultimate is a high-end projector with competitive performance but a few drawbacks that keep it from perfection.",
+          "excerpt": "LG's smart TV privacy woes continue as Portugal's Citizen Voice asks the court to investigate. Are smart TVs too keen to gather data?",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "LG faces legal action over alleged smart TV spying",
-          "url": "https://www.techradar.com/televisions/lg-faces-legal-action-over-alleged-smart-tv-spying-and-other-manufacturers-could-be-in-the-firing-line-over-ignoring-acr-opt-outs",
+          "title": "JMGO N3 Ultimate review: this projector is so, so bright, but less compelling at night",
+          "url": "https://www.techradar.com/televisions/projectors/jmgo-n3-ultimate-review",
           "publishedAt": "2026-11-06T01:00:00.000Z",
-          "excerpt": "LG's smart TV privacy woes continue as Portugal's Citizen Voice asks the court to investigate. Are smart TVs too keen to gather data?",
+          "excerpt": "JMGO’s N3 Ultimate is a high-end projector with competitive performance but a few drawbacks that keep it from perfection.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1833,6 +1838,24 @@
       "count": 20,
       "stories": [
         {
+          "title": "‘Awkwafina: The Unlikely Cook’ premieres on Apple TV",
+          "url": "https://9to5mac.com/2026/11/05/awkwafina-the-unlikely-cook-premieres-on-apple-tv/",
+          "publishedAt": "2026-11-06T02:10:07.000Z",
+          "excerpt": "Apple TV subscribers can now stream the first two episodes of the platform’s new unscripted food series, ‘ Awkwafina: The Unlikely Cook .’ Watch the trailer below. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Apple explains how to turn off the new MacBook Pro’s glowing logo",
+          "url": "https://9to5mac.com/2026/11/05/apple-explains-how-to-turn-off-the-new-macbook-pros-glowing-logo/",
+          "publishedAt": "2026-11-06T01:48:42.000Z",
+          "excerpt": "While the illuminated Apple logo on the new MacBook Pro drew one of the biggest cheers during last week’s announcement, Apple knows that not everyone will want to keep it on. Here’s the company’s official guide to turning it off. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "WhatsApp’s AI-powered photo expansion tool starts rolling out on iOS",
           "url": "https://9to5mac.com/2026/11/05/whatsapps-ai-powered-photo-expansion-tool-starts-rolling-out-on-ios/",
           "publishedAt": "2026-11-06T01:24:45.000Z",
@@ -1990,24 +2013,6 @@
           "url": "https://9to5mac.com/2026/11/05/deals-homeview-airpods-pro-3-apple-watch-ultra-4-macbook/",
           "publishedAt": "2026-11-05T16:34:18.000Z",
           "excerpt": "The ongoing Apple HomeView pre-order discount and AirPods Pro 3 at $50 off , the venerable 2026 Apple Polishing Cloth is now back in-stock at $9 Prime shipped – perfect Apple stocking stuffer. We are also now tracking Apple Watch Ultra 4 with the Translucent Gray Ocean Band down at nearly $100 off a",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "iOS 27.3 gives Apple One’s high-end tier a compelling upgrade",
-          "url": "https://9to5mac.com/2026/11/05/ios-27-3-gives-apple-ones-high-end-tier-a-compelling-upgrade/",
-          "publishedAt": "2026-11-05T16:08:21.000Z",
-          "excerpt": "iOS 27.3 is coming next month and is packed with new features, including some that make Apple One Premier more compelling than ever. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "iPhone Duo durability tested on unfolding livestream, now over 260,000 folds",
-          "url": "https://9to5mac.com/2026/11/05/iphone-duo-durability-tested-on-unfolding-livestream-now-over-260000-folds/",
-          "publishedAt": "2026-11-05T15:10:50.000Z",
-          "excerpt": "CNET built a ‘Fold-a-Phone’ machine that’s been constantly folding and unfolding iPhone Duo for over a week to test durability, while livestreaming daily. Here’s how it’s going. more…",
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -4171,19 +4176,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Roy Lichtenstein’s Witty Critiques of Masculinity",
-          "url": "https://www.newyorker.com/magazine/2026/11/09/roy-lichtensteins-witty-critiques-of-masculinity",
+          "title": "The Trouble with Saying What You Mean",
+          "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
           "publishedAt": "2026-11-02T11:00:00.000Z",
-          "excerpt": "The artist’s best work, in a new retrospective at the Whitney Museum, directs his campy humor at gender stereotypes.",
+          "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "The Trouble with Saying What You Mean",
-          "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
+          "title": "Roy Lichtenstein’s Witty Critiques of Masculinity",
+          "url": "https://www.newyorker.com/magazine/2026/11/09/roy-lichtensteins-witty-critiques-of-masculinity",
           "publishedAt": "2026-11-02T11:00:00.000Z",
-          "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
+          "excerpt": "The artist’s best work, in a new retrospective at the Whitney Museum, directs his campy humor at gender stereotypes.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -5991,105 +5996,8 @@
       "name": "Rest of World",
       "category": "Society",
       "kind": "rss",
-      "count": 12,
-      "stories": [
-        {
-          "title": "A rare strike in Taiwan exposes labor unrest beneath the global AI rush",
-          "url": "https://restofworld.org/2026/taiwan-labor-strike-ai-profits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "Labor disputes and unionization in Taiwan’s semiconductor industry highlight growing worker discontent over the unequal distribution of profits from the AI boom.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "Startups recalibrate Chinese AI for the West",
-          "url": "https://restofworld.org/2026/western-startups-realigning-chinese-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-11-02T11:00:00.000Z",
-          "excerpt": "A growing number of startups are editing powerful Chinese open-weight models for Western businesses that are concerned about censorship and security.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "Why Africa needs its own AI off switch",
-          "url": "https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-29T10:00:00.000Z",
-          "excerpt": "Africa must develop AI systems with local control to protect critical infrastructure such as mobile money networks from growing AI-powered cyberthreats.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "AI models cost more when you don’t use English",
-          "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-26T10:00:22.000Z",
-          "excerpt": "Some languages require far more tokens for AI models to process, raising costs and reducing context for the people who use them.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "Big Tech’s thirst for water is sparking a global resistance",
-          "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-22T10:00:00.000Z",
-          "excerpt": "In his new book “Hyperscale: The Ambition and Excess of Big Tech’s Data Empires,” writer Paris Marx examines how local communities are resisting the growing demand for water to cool data centers.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "Will developing nations be able to handle millions of AI agents?",
-          "url": "https://restofworld.org/2026/meta-muse-openai-dots-ai-agents-global-south/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-19T10:00:00.000Z",
-          "excerpt": "It may be some time before AI agents can fully navigate the complexities and cultural nuances of developing nations.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "Western open-weight models still can’t beat China",
-          "url": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-16T10:00:00.000Z",
-          "excerpt": "Chinese open-weight AI models offer high capability at significantly lower costs than U.S. frontier systems, but face monetization and compute challenges, experts said at a Rest of World event in San Francisco.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-15T10:00:00.000Z",
-          "excerpt": "The developing world’s enthusiastic adoption of AI and necessity-driven innovations offer lessons for an anxiety-ridden West.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "BYD expands EV shipping fleet as wars upend freight costs and key trade routes",
-          "url": "https://restofworld.org/2026/byd-expands-cargo-ship-ev-exports/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-14T10:00:00.000Z",
-          "excerpt": "China’s EV giant says a shortage of ships is holding back its exports.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "The UAE embraces AI for kindergartners",
-          "url": "https://restofworld.org/2026/uae-mandates-k12-ai-education-schools/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-13T10:00:00.000Z",
-          "excerpt": "The country’s approach offers a glimpse of what education could look like if AI literacy becomes as fundamental as reading and writing.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "As U.S. blocks DJI, Insta360 races to win American creators",
-          "url": "https://restofworld.org/2026/insta360-us-dji-sanctions-drones-cameras/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-09T10:00:00.000Z",
-          "excerpt": "Regulatory clarity and market timing are a boon for smaller Chinese smart-camera maker Insta360 and its independent Antigravity drone brand.",
-          "source": "Rest of World",
-          "category": "Society"
-        },
-        {
-          "title": "Conflict in the Red Sea is forcing cloud giants to find a new route for the internet",
-          "url": "https://restofworld.org/2026/google-meta-red-sea-subsea-cables-houthi-yemen/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "publishedAt": "2026-10-07T10:00:41.000Z",
-          "excerpt": "Google, Meta, and Microsoft are said to be securing expensive land routes as fighting around Yemen threatens the submarine cables connecting Europe and Asia.",
-          "source": "Rest of World",
-          "category": "Society"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Quietus",
@@ -9962,19 +9870,19 @@
       "count": 20,
       "stories": [
         {
-          "title": "Who am I if I don’t run?",
-          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+          "title": "How to take notes that actually help you learn",
+          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to take notes that actually help you learn",
-          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+          "title": "Who am I if I don’t run?",
+          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -11624,34 +11532,82 @@
       "count": 20,
       "stories": [
         {
-          "title": "076型四川艦電磁彈射攻擊-21 是全球首艘無人機航母還是試驗艦？",
-          "url": "https://hk01.com/sns/article/60407141",
-          "publishedAt": "2026-11-06T01:30:51.000Z",
-          "excerpt": "【軍事】076型「四川」號（舷號51）成功進行了攻擊-21的電磁彈射和攔阻試驗。新聞裏提到：「創新應用了全自動著艦引導系統、新型綜合電力系統、電磁彈射和阻攔技術，可搭載固定翼無人機、直升機、兩棲裝備等。」推測起來，076上運作固定翼戰機應該不會了，至少不會作為日常運作的主力。這不奇怪。076畢竟小了，直通甲板不利於快速放飛和回收。搭載數量太少更是不利於形成有用的戰鬥力，這事不是「有就是比沒有好」。 攻擊-21當然對海上作戰有用。攻擊-21的具體能力並沒有公布，猜測起來，對海對陸攻擊都不成問題，偵察也應該可以。用於長航時巡邏和預警好像不大行，氣動外形不是往長航時方向優化的，搭載的傳感器也擔當不了",
+          "title": "8休班警$1050萬洗黑錢案 34歲停職男警被控欺詐罪今提堂",
+          "url": "https://hk01.com/sns/article/60407746",
+          "publishedAt": "2026-11-06T02:13:05.000Z",
+          "excerpt": "2025年1月16日，警方在全港多地拘捕8男5女（28至68歲）涉及洗黑錢等罪，其中7名男子（28至39歲）及1名女子（38歲）為休班警員，他們涉嫌在2017年至2024年期間，利用22個銀行戶口洗黑錢，涉款約1,050萬港元。 警方今日（6日）表示，涉案其中一名已被停職的34歲男警務人員，被正式起訴一項「欺詐」罪，案件今日早上在東區裁判法院提堂。 涉案一名已被停職的34歲男警務人員，被正式起訴一項「欺詐」罪，案件今早在東區裁判法院提堂。（資料圖片） 警方指，被捕人涉嫌在2017年至2024年期間，利用22個銀行戶口，清洗由犯罪活動所得的懷疑犯罪得益，涉款約1,050萬港元。其中兩名休班警員，",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "哈里梅根兩洲房產荒誕劇：棄加州億元豪宅 傳一家擠英倫富豪客舍",
-          "url": "https://hk01.com/sns/article/60407201",
-          "publishedAt": "2026-11-06T01:30:32.000Z",
-          "excerpt": "薩塞克斯公爵哈里王子（Prince Harry）與妻子梅根（Meghan Markle）帶同子女重返英國後，被美媒與英媒爆出並非入住自購豪宅，而是借住軍事慈善機構富豪好友的私人莊園。 最新傳聞指，兩人近日悄悄從莊園「主屋」搬進旁邊的「客舍偏殿」（Guest House /Annex），同時其位於美國加州價值1,450萬美元（約1.13億港元）的豪宅則繼續閒置。這對前王室核心成員在兩大洲之間頻繁搬遷、豪宅與寄居並存的奇特居住安排，被不少網民戲謔為「奢華級豪門寄居蟹」，引發外界對其房地產佈局與荒誕日常的熱烈討論。 薩塞克斯公爵哈里王子（Prince Harry）與妻子梅根（Meghan Markl",
+          "title": "羅馬尼亞再有2客機接炸彈威脅 歐洲同日遭波及航班增至近30班",
+          "url": "https://hk01.com/sns/article/60407731",
+          "publishedAt": "2026-11-06T02:12:32.000Z",
+          "excerpt": "歐洲多個航班11月5日接到炸彈威脅，是歐洲於一週內第二次發生類似事件。羅馬尼亞情報機構同日晚表示，當地另有兩架飛機收到炸彈威脅，使當日同樣接到相關威脅的歐洲航班增至近30班。 路透社5日報道 ，羅馬尼亞情報機構當晚發布上述消息，並指其中一架涉事客機是荷蘭皇家航空公司（KLM）的航班，客機當時中途停留羅馬尼亞首都布加勒斯特，準備再飛往以色列特拉維夫。 歐洲多個航班2026年11月5日接到炸彈威脅，圖為荷蘭皇家航空公司（KLM）的客機。（X@Independent/非涉事客機） 此前，一架從意大利米蘭飛往布加勒斯特的威茲航空公司（Wizz Air）航班也接到炸彈威脅。 路透社稱， 計及歐洲其他航班",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "蘋果據報籌資75億美元 一年多來首次發債｜美股",
-          "url": "https://hk01.com/sns/article/60407730",
-          "publishedAt": "2026-11-06T01:27:15.000Z",
-          "excerpt": "據彭博報道，蘋果公司擬通過高評級債券發行籌資75億美元，儘管更廣泛的金融市場出現拋售，這筆交易仍獲得強勁需求，一些投資者希望暫時避開大量湧现的AI相關債券發行。 2026年6月22日，中國北京，人們在中國國際供應鏈博覽會（CISCE）上，走過展示蘋果供應商的展位。（Reuters） 據知情人士透露，投資者對這筆交易的認購訂單約為310億美元，是發行規模的四倍多。 周四這筆債券發行緊隨過去幾天美國市場約500億美元的大型科技公司發債潮。與此同時，投資者正在評估民主黨橫掃美國中期選舉將如何影響AI數據中心，這引發股市大跌，並推高了信用風險指標。 此次發債所得將用於一般企業用途，包括股票回購計畫。 ",
+          "title": "遊戲出海｜《黑悟空》吸引全球玩家 冼漢迪：香港要當文化共創者",
+          "url": "https://hk01.com/sns/article/60407703",
+          "publishedAt": "2026-11-06T02:00:52.000Z",
+          "excerpt": "2026年世界互聯網大會烏鎮峰會於11月2日至5日在浙江烏鎮舉行。港區全國人大代表、中手游聯合創始人冼漢迪出席峰會，並於「海峽兩岸暨港澳互聯網發展論壇」中發表演說。 針對近年以《黑神話：悟空》為代表的遊戲文化出海熱潮，冼漢迪直言「好玩是第一步」；談及香港的角色時，他更明確指出，香港絕不能只當單純的「通道」或「超級聯繫人」，而是要晉身為「文化共創者」，強調「香港能貢獻的不只是通道，更有內容，本身就是世界級文化IP」。 2026年世界互聯網大會烏鎮峰會於11月2日至5日在浙江烏鎮舉行。港區全國人大代表、中手游聯合創始人冼漢迪出席峰會，並於「海峽兩岸暨港澳互聯網發展論壇」中發表演說。（微信公眾號＠冼",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "北都｜蔡若蓮：新田大學城項目最快明年底推 正爭取加碼百億貸款",
-          "url": "https://hk01.com/sns/article/60407720",
-          "publishedAt": "2026-11-06T01:26:09.000Z",
-          "excerpt": "北都大學城發展規模擴大，多間院校均有意參與其中，其中洪水橋大學城用地下月底截標。教育局局長蔡若蓮接受《星島日報》訪問時表示，預計新田大學城項目最快於明年底才會推出，2028年逐步完成平整。政府預留100億元貸款予北都大學城校舍建設，她說，明白院校發展大學城需要的資金超出貸款額，將爭取「加碼 」；三塊大學城用地分階段發展，相信院校不會一下子用盡儲備或債台高築。 圖片中央位置為打鼓嶺大學城（下方建築為坪輋路博愛昇平村，上方為香園圍公路及深圳方向）。（黃偉民攝） 打鼓嶺大學城校園區（紅圈範圍）（黃偉民攝） 預料院校爭地不會「大包圍」 政府全力推動北都大學城發展，教育局局長蔡若蓮在接受傳媒專訪時表示，",
+          "title": "李頴彰｜黃之鋒勾結外國重判十年：「國際戰線」幻象徹底破滅！",
+          "url": "https://hk01.com/sns/article/60407511",
+          "publishedAt": "2026-11-06T02:00:34.000Z",
+          "excerpt": "李頴彰律師專欄 香港高等法院就黃之鋒承認「串謀勾結外國或者境外勢力危害國家安全罪」作出判刑，裁定其罪行屬《香港國安法》下的重大罪行，並判處監禁十年。這宗案件備受社會關注，其重要性並不在於被告本人的政治知名度，而在於案件首次以完整而清晰的司法程序，具體展示何謂勾結外國或者境外勢力危害國家安全，以及此類行為在香港法律制度下應承擔何種法律責任。 休拿言論充抗辯 實質勾結定重罪 長期以來，部分反對派人士試圖將案件理解為「言論自由」或「政治參與」問題。然而從判詞內容可見，法庭審視的核心始終並非被告的政治立場，而是其具體行為。現代法治社會從不因個人持有某種思想或政治觀點而定罪，法律所規範的是行為本身及其可",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "李偉健Terry 48歲生日獲《三代同糖》劇組送驚喜 車婉婉甜喊細佬",
+          "url": "https://hk01.com/sns/article/60407656",
+          "publishedAt": "2026-11-06T02:00:08.000Z",
+          "excerpt": "李偉健（Terry）在上一輯無綫（TVB）處境喜劇《愛・回家之開心速遞》形象入屋，更是少數順利過渡至新處境劇《三代同糖》的舊班底。昨日（4日）是Terry 48歲生日，雖然要開工，但《三代同糖》眾演員樊亦敏、KC歐瑞偉、車婉婉、李茵彤、羅皓誼、侯雋熙等送上生日蛋糕為其慶祝，極速融入新班底！ 李偉健。(節目截圖) 李偉健與歐瑞偉回到《三代同糖》。（公關提供） 李偉健極速融入《三代同糖》 Terry日前在Instagram分享慶生派對照片和影片。Terry與《三代同糖》眾演員在公司食堂食飯，期間眾人為Terry送上驚喜生日蛋糕，並即場大唱生日歌車婉婉更親切稱呼「細佬」，足見Terry在圈中人緣甚佳",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "孫藝珍也煩惱明天煮什麼！教6款韓式料理 讓孩子食得營養均衡",
+          "url": "https://hk01.com/sns/article/60405284",
+          "publishedAt": "2026-11-06T02:00:06.000Z",
+          "excerpt": "煩惱明天煮甚麼？來抄孫藝珍的餐桌！辣炒魷魚、蒸蛋、飯捲做法一次學。 韓國女神孫藝珍日前在個人Instagram分享多張平日在家親手準備的家常菜，並開心寫下： 忙著煮飯忙得團團轉，然後坐下來和大家一起吃飯的時候最幸福。大家也要多吃健康又美味的食物喔！ 照片一曝光，滿桌豐盛的菜色立刻吸引大批粉絲朝聖。 不過眼尖網友發現了一個有趣的細節：3人份的餐點中，夫妻倆的飯量少到讓人分不出哪一碗才是兒子的，紛紛直呼：「以為是3碗小孩的飯！」意外成為熱議焦點。 一桌滿滿韓式家常味，網友：玄彬也太幸福（按圖瀏覽👇👇👇） 韓國女神孫藝珍日前在個人Instagram分享多張平日在家親手準備的家常菜。（IG@ye",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "過期牙膏恐成細菌溫床 專家揭7大日用品使用期限 建議定期清理",
+          "url": "https://hk01.com/sns/article/60399131",
+          "publishedAt": "2026-11-06T02:00:02.000Z",
+          "excerpt": "英國消費網站「 Which? 」揭露多項日用品的隱形保存期限，提醒大家即使外觀正常，開封後的牙膏、睫毛膏、乾洗手（酒精搓手液）、漂白水、機油及電池等，都可能因成分降解、細菌滋生或漏液而危害健康與電器安全。 根據報導，牙膏雖然未開封可放2年，但只要一揭開封膜，效期就會大幅縮短。專家指出，開封後的牙膏成分會隨時間降解，含氟成分的防蛀效果不僅大打折扣，長時間放在潮濕浴室更易淪為細菌溫床，若不儘快用完，每天刷牙恐怕反將大量細菌吞下肚。 相關文章： 牙刷放馬桶旁邊、洗澡水溫過高 醫生警告8個日常壞習慣危害健康 浴室暗藏健康風險，醫揭8個日常壞習慣（AI生成圖片；01製圖） 1. 沖馬桶不蓋蓋（AI生成圖",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "懶理美股股災！ 李寧逆市飆逾8% 豪派特別息、現價股息率近17厘",
+          "url": "https://hk01.com/sns/article/60407742",
+          "publishedAt": "2026-11-06T01:56:53.000Z",
+          "excerpt": "美股股災，亞股今早普遍急挫，惟體育用品股李寧﹙2331﹚豪派特別息，股價逆市升逾8%。 該公司宣布，落實派發持別息金額，每股豪派2.32元人民幣，折合每股2.71港元，總派息總額近70億港元。受消息帶動，李寧今早逆市彈起，股價大升8.8%至16.02元。以現價計，股息率達17%。 李寧通告指，於董事會上決議批准派發特別股息，金額為每股2.32元人民幣；特別股息將派予11月23日登記在公司股東名冊上的普通股股東。 內地零售不景氣，但李寧上半年仍錄得淨利潤18.16億元人民幣，按年增長約4.5%。更吸引的是，該公司現市值380億港元，但坐擁近200億元人民幣，折合逾230億港元。 「李寧」由中國體",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "金管局外匯基金第三季投資收入186億元 按年跌近70%",
+          "url": "https://hk01.com/sns/article/60407737",
+          "publishedAt": "2026-11-06T01:56:10.000Z",
+          "excerpt": "金管局公布，外匯基金第三季投資收入186億元，當中未計及當季長期增長組合持有的私募股權及實物資產投資估值變動。去年同期，外匯基金投資收入600億元，意味今年按年跌69%。 季內，第三季債券投資收益3億元，港股投資收益91億元，其他股票投資收益15億元，外匯估值上調77億元。 外匯基金第三季港股投資收益91億元。﹙資料圖片﹚",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美媒：中國月之暗面擬繞過美國限制 租用英偉達歐洲先進晶片算力",
+          "url": "https://hk01.com/sns/article/60407734",
+          "publishedAt": "2026-11-06T01:54:49.000Z",
+          "excerpt": "中國人工智能（AI）初創企業月之暗面據報尋求通過歐洲的數據中心，租用美國晶片巨頭英偉達（Nvidia，又譯輝達）先進AI晶片提供的運算能力，以繞過美國對華晶片出口管制的限制。 美國消費者新聞與商業頻道（CNBC）周四（11月5日）引述四名知情人士報道，月之暗面今年曾與多家在歐洲運營數據中心的新興雲服務供應商洽談，尋求租用英偉達圖形處理器（GPU）提供的運算能力。 其中三名消息人士透露，月之暗面主要尋求租用英偉達最新的Blackwell系列晶片。一名消息人士稱，雙方曾討論租用部署在歐洲、規模達8000枚或以上Blackwell晶片的運算集群。 月之暗面（Moonshot AI）創辦人楊植麟，於北",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11660,38 +11616,6 @@
           "url": "https://hk01.com/sns/article/60407725",
           "publishedAt": "2026-11-06T01:18:56.000Z",
           "excerpt": "今日（6日）凌晨4時28分，青衣翠怡花園第3座的保安員報案，指有住戶求助遭醉漢拍門滋擾。警員到場時，該名醉酒外籍男子拒絕合作，用手襲擊警員，致其嘴部受傷，同時失平衡撞落門，致頭部受傷。 警方隨後以涉嫌襲警拘捕58歲外籍男子，遇襲警員清醒送到沙田威爾斯醫院治理。 據了解，疑犯為翠怡花園第3座住客，但並不在涉案位置同層。 遇襲警員送到沙田威爾斯醫院治理。（資料圖片） 青衣翠怡花園發生襲警案。（資料圖片）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "青奧2026｜港隊再添兩銅牌 文薈喬蘇籽童齊奪今屆第二面獎牌",
-          "url": "https://hk01.com/sns/article/60407726",
-          "publishedAt": "2026-11-06T01:14:31.000Z",
-          "excerpt": "在塞內加爾達喀爾（Dakar，又譯達卡）舉行的青年奧運會，香港隊再有進賬，兩名女將摘下今屆第二面獎牌。游泳代表文薈喬在女子50米蛙泳摘銅，蘇籽童則在乒乓女單銅牌戰力克日本球手松島美空。 （港協暨奧委會提供） （港協暨奧委會提供）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "早晨如廁撞時間？人妻立「6S浴室規矩」惹議 附4招化解告別塞車",
-          "url": "https://hk01.com/sns/article/60407028",
-          "publishedAt": "2026-11-06T01:10:24.000Z",
-          "excerpt": "清晨趕著出門上班、護膚化妝，伴侶卻坐在坐廁上滑手機半小時不出來；剛洗完澡室內水氣瀰漫，家人又急著推門衝進來如廁，的確煩惱，到底如何化解早晨洗手間塞車？內地1位丈夫日前在網上分享妻子訂立的「6S 級」極致浴室規矩，引發網絡熱議。該名人妻規定沖涼前須先用水桶盛起冷水沖廁、抹布分色清潔不同區域，甚至連沐浴露等清潔用品都必須傾斜 45 度 角整齊排列！極致細節讓不少網民直呼「同住壓力極大」，更揭開無數家庭在早晚高峰期「搶廁所」與衛浴動線碰撞的深層問題。 內地1位丈夫在網上分享妻子訂立浴室規矩的影片，登上微博熱搜榜。（微博@賈有梗） 浴室規矩堪比「6S現場管理」 這套被網民形容為企業「6S 現場管理」的",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃仁勳捲中國女間諜案 美眾院共和黨人傳召出席閉門簡報會",
-          "url": "https://hk01.com/sns/article/60407722",
-          "publishedAt": "2026-11-06T01:08:45.000Z",
-          "excerpt": "美國國會眾議院三名重量級共和黨領袖正式致函人工智能（AI）晶片巨頭英偉達（Nvidia，又譯輝達）行政總裁黃仁勳，要求他在本月中旬前往國會出席閉門簡報會，就媒體報道他與一名涉嫌為中國政府搜集情報的新加坡科技公司前高管存在密切往來一事，向國會作出說明。 據路透社與彭博社報道，眾議院外交事務委員會主席馬斯特（Brian Mast）、美國與中共戰略競爭特設委員會主席穆勒納爾（John Moolenaar），以及情報委員會主席克勞福德（Rick Crawford）周三（11月4日）聯名向黃仁勳發出信函，要求他在11月18日出席閉門簡報會，詳細交代英偉達防範外國對手間諜活動的內部安全機制。 三名議員在聯",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "美股股災震散亞洲市！ 韓股暴瀉8%觸熔斷 恒指低開400點",
-          "url": "https://hk01.com/sns/article/60407723",
-          "publishedAt": "2026-11-06T01:05:26.000Z",
-          "excerpt": "由於市場日益擔憂民主黨將尋求對人工智能(AI)行業實施更嚴格監管，晶片股在美國中期選舉後的拋售潮加劇，隔夜美股曝瀉下，亞洲股市早盤重挫，韓股一度暴瀉8%觸熔斷。 恒指黑期挫近400點 韓國Kospi指數開市不久即重挫8%後暫停交易20分鐘，該基準股指跌破5,000點大關，三星電子和SK海力士股價均暴跌超過10%！Kospi已較6月創下的歷史高點暴跌46%。 據彭博報道，Zian Investment Management執行長Kim Dojoon表示，最終，我們已經入恐慌性拋售階段。在今天這樣的市場中，大多數市場參與者恐怕都會被迫賣出。 另外，日本東證指數和日經225指數跌幅均在5%以上，日經",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11766,22 +11690,6 @@
           "excerpt": "【六合彩／金多寶／幸運號碼／萬聖節金多寶】上期六合彩萬聖節金多寶頭獎無人中，多寶累積約8,043萬元至最新一期六合彩，於今晚（5日）9時30分攪珠，馬會估計若以10元一注獨中頭獎，可獨攬1.08億巨額彩金。獎券截止售票時間為晚上9時15分，總投注額高達2.32億元（232,183,154元）。下文即對7個攪出號碼。 馬會公布，今晚頭獎有2,5注中，每注可獲獎金逾4,200萬元（42,964,760元）。下文即對7個攪出號碼。 上期六合彩萬聖節金多寶頭獎無人中，多寶累積約8,043萬元至今晚新一期六合彩，馬會估計若以10元一注獨中頭獎，可獨攬1.08億巨額彩金。（梁鶻威攝） 六合彩攪珠結果 今晚",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "41歲周秀娜暴瘦身材再跌Watt 眼窩凹陷嚇壞網民健康令人擔憂",
-          "url": "https://hk01.com/sns/article/60407512",
-          "publishedAt": "2026-11-05T11:30:08.000Z",
-          "excerpt": "現年41歲的周秀娜（娜姐）於千禧年代憑著完美誘人身材俘虜一眾粉絲，其後收起性感專注拍戲發展影壇事業，於2017年上映的電影《29+1》中演技獲得肯定，成功轉型為實力派演員。近年周秀娜的身形變化屢成焦點，被指因愈來愈瘦變皮包骨，就連當年寫真中的驕人身材都「大跌Watt」。近日有網民捕獲娜姐出席新戲《第四幕》首映宣傳時，被發現瘦得誇張，隨即引起網民熱議。 周秀娜於千禧年代憑著完美誘人身材俘虜一眾粉絲。（寫真照片） 周秀娜成功轉型為實力派演員。（IG/@chrissienana） 近年周秀娜的身型變化屢成焦點，被指因愈來愈瘦變皮包骨。（IG/@chrissienana） 周秀娜暴瘦眼窩凹陷 近日有網",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "網紅出軌殃及池魚 另一餐廳食死貓發聲明：冇體力半夜去屯赤接人",
-          "url": "https://hk01.com/sns/article/60407622",
-          "publishedAt": "2026-11-05T10:33:27.000Z",
-          "excerpt": "網紅與餐廳「Layback Matters」老闆的感情糾紛於網上持續發酵，事件更引發「點錯相」烏龍。一間名稱相近的餐廳因為被網民誤會為涉事店舖而慘遭留下負評。對此，被誤認的餐廳於社交平台發佈「緊急澄清聲明」，標題直指「此 Layback 非彼 Layback 💀」，以正視聽。 網紅被指出軌老闆 男友扮驚喜慶祝三週年公開出軌證據女方傻笑 網紅出軌最新發展！涉事餐廳發聲明割席 終止合夥人職務安排退股 男事主扮驚喜，其實係揭發偷食。（片段截圖） 整宗出軌風波源於男事主在社交平台Threads上的長文控訴，透露與交往三年的女網紅慶祝紀念日時，當面攤牌揭發對方與任職餐廳的謝姓合夥人暗生情愫。據早前《香",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ]
     },
@@ -11791,6 +11699,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "粵港澳警方打擊三合會行動 香港警方拘捕逾4,700人",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520684/%E7%B2%B5%E6%B8%AF%E6%BE%B3%E8%AD%A6%E6%96%B9%E6%89%93%E6%93%8A%E4%B8%89%E5%90%88%E6%9C%83%E8%A1%8C%E5%8B%95-%E9%A6%99%E6%B8%AF%E8%AD%A6%E6%96%B9%E6%8B%98%E6%8D%95%E9%80%BE4700%E4%BA%BA",
+          "publishedAt": "2026-11-06T01:41:08.000Z",
+          "excerpt": "【有線新聞】粵港澳三地警方打擊三合會及有組織犯罪集團，其中香港警方拘捕逾4,700人。警方兩階段採取行動，巡查",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "法蘭克福乒乓冠軍賽 王楚欽男單次圈止步",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520685/%E6%B3%95%E8%98%AD%E5%85%8B%E7%A6%8F%E4%B9%92%E4%B9%93%E5%86%A0%E8%BB%8D%E8%B3%BD-%E7%8E%8B%E6%A5%9A%E6%AC%BD%E7%94%B7%E5%96%AE%E6%AC%A1%E5%9C%88%E6%AD%A2%E6%AD%A5",
+          "publishedAt": "2026-11-06T01:38:48.000Z",
+          "excerpt": "【有線新聞】法蘭克福乒乓冠軍賽，中國的王楚欽爆冷男單次圈止步。 左手握拍，戴頭巾的王楚欽面對19歲隊友溫瑞博，",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "北都大學城｜蔡若蓮：爭取院校百億貸款「加碼」",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520671/%E5%8C%97%E9%83%BD%E5%A4%A7%E5%AD%B8%E5%9F%8E-%E8%94%A1%E8%8B%A5%E8%93%AE-%E7%88%AD%E5%8F%96%E9%99%A2%E6%A0%A1%E7%99%BE%E5%84%84%E8%B2%B8%E6%AC%BE-%E5%8A%A0%E7%A2%BC",
+          "publishedAt": "2026-11-06T01:37:57.000Z",
+          "excerpt": "【有線新聞】教育局局長蔡若蓮表示，將爭取提高北都大學城貸款額。 蔡若蓮接受報章專訪表示，理解院校發展大學城所需",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "法蘭克福乒乓冠軍賽 蒯曼晉身女單16強",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520680/%E6%B3%95%E8%98%AD%E5%85%8B%E7%A6%8F%E4%B9%92%E4%B9%93%E5%86%A0%E8%BB%8D%E8%B3%BD-%E8%92%AF%E6%9B%BC%E6%99%89%E8%BA%AB%E5%A5%B3%E5%96%AE16%E5%BC%B7",
@@ -11924,30 +11856,6 @@
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520614/%E4%BA%9E%E5%86%A0%E4%BA%8C-%E5%82%91%E5%BF%972%E6%AF%941%E9%9A%AA%E5%8B%9D%E9%87%91%E9%82%8A%E7%9A%87%E5%86%A0-%E4%BB%8A%E5%B1%86%E9%A6%96%E5%A0%B4%E5%8B%9D%E4%BB%97",
           "publishedAt": "2026-11-05T13:47:01.000Z",
           "excerpt": "【有線新聞】亞冠二級聯賽H組，傑志半場踢多一人下，主場2比1險勝金邊皇冠，取得今屆首場勝仗。 賽前兩和一負，深",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "今日重點新聞｜黃之鋒判囚10年．鄧炳強：研究判詞是否上訴．蔡天鳳頭部7傷口料生前造成．恒指創逾一年來最大升市．C朗退出葡萄牙國家隊",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520603/%E4%BB%8A%E6%97%A5%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E-%E9%BB%83%E4%B9%8B%E9%8B%92%E5%88%A4%E5%9B%9A10%E5%B9%B4%EF%BC%8E%E9%84%A7%E7%82%B3%E5%BC%B7-%E7%A0%94%E7%A9%B6%E5%88%A4%E8%A9%9E",
-          "publishedAt": "2026-11-05T13:41:50.000Z",
-          "excerpt": "黃之鋒案｜判囚10年 官：國安法後發文聲援羅冠聰請求外國制裁、屬「罪行重大」 前香港眾志秘書長黃之鋒承認串謀勾",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "紐約大學教授斥馬斯克為「西方叛徒」 暗示應如冷戰間諜處死",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520609/%E7%B4%90%E7%B4%84%E5%A4%A7%E5%AD%B8%E6%95%99%E6%8E%88%E6%96%A5%E9%A6%AC%E6%96%AF%E5%85%8B%E7%82%BA-%E8%A5%BF%E6%96%B9%E5%8F%9B%E5%BE%92-%E6%9A%97%E7%A4%BA%E6%87%89%E5%A6%82",
-          "publishedAt": "2026-11-05T13:24:48.000Z",
-          "excerpt": "【有線新聞】美國紐約大學一名教授日前形容富商馬斯克是西方世界的叛徒，暗示應處死對方。這番言論令保守派進一步憂慮",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "丁薛祥︰願同各方一道發揮進博會四大平台作用",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/520598/%E4%B8%81%E8%96%9B%E7%A5%A5%EF%B8%B0%E9%A1%98%E5%90%8C%E5%90%84%E6%96%B9%E4%B8%80%E9%81%93%E7%99%BC%E6%8F%AE%E9%80%B2%E5%8D%9A%E6%9C%83%E5%9B%9B%E5%A4%A7%E5%B9%B3%E5%8F%B0%E4%BD%9C%E7%94%A8",
-          "publishedAt": "2026-11-05T12:00:40.000Z",
-          "excerpt": "【有線新聞】第九屆中國國際進口博覽會在上海開幕，國務院副總理丁薛祥發表主旨演講，強調舉辦進博會是中國主動開放市",
           "source": "有線新聞",
           "category": "Hong Kong"
         }
@@ -12128,10 +12036,10 @@
       "count": 20,
       "stories": [
         {
-          "title": "Hong Kong installs HK$5m ‘anti-terrorism’ crash bollards outside Causeway Bay mall",
+          "title": "Hong Kong installs HK$5m ‘anti-terrorism’ crash bollards outside Causeway Bay dep’t store",
           "url": "https://hongkongfp.com/2026/11/06/hong-kong-installs-hk5m-anti-terrorism-crash-bollards-outside-causeway-bay-mall/",
           "publishedAt": "2026-11-06T01:25:00.000Z",
-          "excerpt": "Hong Kong authorities have installed “anti-terrorism” collision bollards outside a shopping mall in Causeway Bay, one of the city’s busiest shopping districts – a project with a HK$5 million price tag. The bollards, which were still wrapped in foam sheeting on Thursday morning, were initially propos",
+          "excerpt": "Hong Kong authorities have installed “anti-terrorism” collision bollards outside a department store in Causeway Bay, one of the city’s busiest shopping districts – a project with a HK$5 million price tag. The bollards, which were still wrapped in foam sheeting on Thursday morning, were initially pro",
           "source": "Hong Kong Free Press",
           "category": "Hong Kong"
         },
@@ -12296,6 +12204,22 @@
       "count": 20,
       "stories": [
         {
+          "title": "外匯基金第3季錄得投資收入186億元",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1876766-20261106.htm",
+          "publishedAt": "2026-11-06T01:32:36.000Z",
+          "excerpt": "金管局公布，外匯基金第3季未計其他投資，錄得投資收入186億元，首3季投資收入1719億元。 第3季各項投資都賺，但債券投資收入只得3億元，按年及按季都跌約99%。港股投資收入91億元，按年跌47%，按季則由盈轉虧。其他股票投資收入15億元，按年及按季都跌逾90%。外匯投資賺77億元，去年同期虧損266億元，按季則跌8%。 至於首3季各項投資，只得港股投資虧損27億元，其餘都錄得投資收入。 編輯：宋家樑",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "【重溫】2026年11月6日《社評摘要》",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1876758-20261106.htm",
+          "publishedAt": "2026-11-06T01:30:50.000Z",
+          "excerpt": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
           "title": "【重溫】2026年11月6日《報章摘要》",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1876756-20261106.htm",
           "publishedAt": "2026-11-06T01:30:32.000Z",
@@ -12436,22 +12360,6 @@
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1876698-20261105.htm",
           "publishedAt": "2026-11-05T10:43:32.000Z",
           "excerpt": "政府新聞處處長謝振中表示，《香港第一個五年規劃》提到，要增加主流媒體國際傳播能力，而連續兩年的《施政報告》都提及特區政府會協助本地傳媒發展香港以外的網絡，說好香港故事。 謝振中在社交媒體表示，在上海舉行的第九屆進博會，貿發局向全球商家展示「出海專班跨界別專業服務平台」，羅列八大領域的出海服務供應商，可滿足內地企業出海的各方面需要。他表示，內地企業要出海，需要做品牌推廣工作，香港本地媒體擁有兩文三語能力和國際視野，極具創意和市場觸覺，正好可為內地企業提供品牌策劃、市場推廣、國際形象管理等服務。 他表示，貿發局的平台已納入4間本地傳媒機構，清晰展示服務範圍、受眾版圖、海外服務經驗等，相信既能協助內",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "土拓署：中九龍繞道九龍灣段巴士道路測試順利完成",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1876697-20261105.htm",
-          "publishedAt": "2026-11-05T10:26:31.000Z",
-          "excerpt": "六號幹線最後一段中九龍繞道（九龍灣段）將於下月6日通車，土木工程拓展署表示，建造工程已經大致完成，各項通車準備工作正進入最後階段。兩間專營巴士公司早前合共派出6輛雙層巴士，經新路行駛六號幹線往返油麻地及將軍澳，並順利完成道路測試。 署方在社交網頁表示，六號幹線全線通車後，繁忙時段往來將軍澳市中心及油麻地的行車時間，預計會由幹線興建前約65分鐘，大幅縮短至約12分鐘。 署方又說，六號幹線的核心設計理念是提供一條特快通道，將「長途跨區」與「短途地區」的車輛有效分流。透過「長短途分流」，跨區長途車輛可以更方便往來將軍澳及西九龍，而來往將軍澳及啟德的短途車輛則可繼續使用原有道路。 中九龍繞道（九龍灣段",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "首三季近3萬5千宗詐騙按年升8% 騙徒新手法遙距讀信用卡資料",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1876696-20261105.htm",
-          "publishedAt": "2026-11-05T10:15:23.000Z",
-          "excerpt": "本港今年首三季的整體罪案有68015宗，較去年同期升2.1%，數字上升主要因為詐騙案增加。 保安局局長鄧炳強表示，首三季有34679宗詐騙案，按年升7.9%，涉及騙款約60億2千萬元。他說，詐騙案增加主要因為8月及9月新一波電話詐騙案急升，這兩個月約有3900宗電話詐騙案，當中約八成屬假冒客服騙案。 鄧炳強又說，發現騙徒有新手法，包括冒充物流公司，誘騙市民在假冒網站提交個人資料，之後發出聲稱批核文件及以退款為理由等，要求他們下載惡意程式，及開啟手機NPC近場通訊功能，然後指示市民把信用卡貼近手機，利用手機變為讀卡機，從而遙距讀取他們的信用卡資料。 編輯：陳樂謙",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
         }
@@ -12796,6 +12704,33 @@
   ],
   "stories": [
     {
+      "title": "Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears",
+      "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
+      "publishedAt": "2026-11-06T01:11:40.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50386909"
+    },
+    {
+      "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
+      "url": "https://github.com/matthewmrichter/mooftcp",
+      "publishedAt": "2026-11-06T00:54:15.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50386789"
+    },
+    {
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
+      "publishedAt": "2026-11-06T00:31:11.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50386597"
+    },
+    {
       "title": "Inkling 2 Small",
       "url": "https://thinkingmachines.ai/news/inkling-2-small/",
       "publishedAt": "2026-11-06T00:00:24.000Z",
@@ -12877,15 +12812,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50383294"
     },
     {
-      "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
-      "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
-      "publishedAt": "2026-11-05T19:16:34.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50383163"
-    },
-    {
       "title": "The Hackintosh Reborn",
       "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
       "publishedAt": "2026-11-05T19:08:22.000Z",
@@ -12949,15 +12875,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50380810"
     },
     {
-      "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
-      "url": "https://github.com/AGGIB/Stroq",
-      "publishedAt": "2026-11-05T15:54:41.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50380704"
-    },
-    {
       "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
       "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
       "publishedAt": "2026-11-05T14:44:20.000Z",
@@ -12965,15 +12882,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50379704"
-    },
-    {
-      "title": "September in Servo: , rounded rectangles, and more",
-      "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
-      "publishedAt": "2026-11-05T14:34:18.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50379576"
     },
     {
       "title": "OpenAI is stepping back from NDAs for data center projects",
@@ -13232,18 +13140,18 @@
       "category": "Technology"
     },
     {
-      "title": "AI’s Next Trick? Speaking Dolphin",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "excerpt": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
       "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
       "url": "https://www.wired.com/gallery/best-wireless-chargers/",
       "publishedAt": "2026-11-05T12:00:00.000Z",
       "excerpt": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "AI’s Next Trick? Speaking Dolphin",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "excerpt": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14001,6 +13909,17 @@
       "sourceRole": "community"
     },
     {
+      "title": "Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far (The Information)",
+      "url": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
+      "publishedAt": "2026-11-06T01:50:07.000Z",
+      "excerpt": "The Information : Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far &nbsp; &mdash;&nbsp; Airbnb on Thursday shed new light on a secretive AI startup that founder and CEO Brian Chesky controls",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261105/p67#a261105p67",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year (Business Insider)",
       "url": "https://www.businessinsider.com/thinking-machines-lab-is-closing-5-billion-new-round-2026-11",
       "publishedAt": "2026-11-06T01:15:02.000Z",
@@ -14151,17 +14070,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261105/p53#a261105p53",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "METR: Anthropic redacted much of the \"most informative\" evidence from METR's 100-page report, so readers \"must rely on our judgment more than we consider ideal\" (@metr_evals)",
-      "url": "https://x.com/metr_evals/status/2118412194702598339",
-      "publishedAt": "2026-11-05T21:30:03.000Z",
-      "excerpt": "@metr_evals : METR: Anthropic redacted much of the &ldquo;most informative&rdquo; evidence from METR's 100-page report, so readers &ldquo;must rely on our judgment more than we consider ideal&rdquo; &nbsp; &mdash;&nbsp; We submitted a ~100-page full report on our assessment to Anthropic. For the pub",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261105/p52#a261105p52",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14355,19 +14263,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "JMGO N3 Ultimate review: this projector is so, so bright, but less compelling at night",
-      "url": "https://www.techradar.com/televisions/projectors/jmgo-n3-ultimate-review",
+      "title": "LG faces legal action over alleged smart TV spying",
+      "url": "https://www.techradar.com/televisions/lg-faces-legal-action-over-alleged-smart-tv-spying-and-other-manufacturers-could-be-in-the-firing-line-over-ignoring-acr-opt-outs",
       "publishedAt": "2026-11-06T01:00:00.000Z",
-      "excerpt": "JMGO’s N3 Ultimate is a high-end projector with competitive performance but a few drawbacks that keep it from perfection.",
+      "excerpt": "LG's smart TV privacy woes continue as Portugal's Citizen Voice asks the court to investigate. Are smart TVs too keen to gather data?",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "LG faces legal action over alleged smart TV spying",
-      "url": "https://www.techradar.com/televisions/lg-faces-legal-action-over-alleged-smart-tv-spying-and-other-manufacturers-could-be-in-the-firing-line-over-ignoring-acr-opt-outs",
+      "title": "JMGO N3 Ultimate review: this projector is so, so bright, but less compelling at night",
+      "url": "https://www.techradar.com/televisions/projectors/jmgo-n3-ultimate-review",
       "publishedAt": "2026-11-06T01:00:00.000Z",
-      "excerpt": "LG's smart TV privacy woes continue as Portugal's Citizen Voice asks the court to investigate. Are smart TVs too keen to gather data?",
+      "excerpt": "JMGO’s N3 Ultimate is a high-end projector with competitive performance but a few drawbacks that keep it from perfection.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14522,6 +14430,24 @@
       "publishedAt": "2026-11-05T18:00:00.000Z",
       "excerpt": "The Samsung Galaxy S26 FE is a cheaper alternative to the standard Galaxy S26, but is it a better buy? We're not so sure.",
       "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "‘Awkwafina: The Unlikely Cook’ premieres on Apple TV",
+      "url": "https://9to5mac.com/2026/11/05/awkwafina-the-unlikely-cook-premieres-on-apple-tv/",
+      "publishedAt": "2026-11-06T02:10:07.000Z",
+      "excerpt": "Apple TV subscribers can now stream the first two episodes of the platform’s new unscripted food series, ‘ Awkwafina: The Unlikely Cook .’ Watch the trailer below. more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Apple explains how to turn off the new MacBook Pro’s glowing logo",
+      "url": "https://9to5mac.com/2026/11/05/apple-explains-how-to-turn-off-the-new-macbook-pros-glowing-logo/",
+      "publishedAt": "2026-11-06T01:48:42.000Z",
+      "excerpt": "While the illuminated Apple logo on the new MacBook Pro drew one of the biggest cheers during last week’s announcement, Apple knows that not everyone will want to keep it on. Here’s the company’s official guide to turning it off. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14683,24 +14609,6 @@
       "url": "https://9to5mac.com/2026/11/05/deals-homeview-airpods-pro-3-apple-watch-ultra-4-macbook/",
       "publishedAt": "2026-11-05T16:34:18.000Z",
       "excerpt": "The ongoing Apple HomeView pre-order discount and AirPods Pro 3 at $50 off , the venerable 2026 Apple Polishing Cloth is now back in-stock at $9 Prime shipped – perfect Apple stocking stuffer. We are also now tracking Apple Watch Ultra 4 with the Translucent Gray Ocean Band down at nearly $100 off a",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "iOS 27.3 gives Apple One’s high-end tier a compelling upgrade",
-      "url": "https://9to5mac.com/2026/11/05/ios-27-3-gives-apple-ones-high-end-tier-a-compelling-upgrade/",
-      "publishedAt": "2026-11-05T16:08:21.000Z",
-      "excerpt": "iOS 27.3 is coming next month and is packed with new features, including some that make Apple One Premier more compelling than ever. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "iPhone Duo durability tested on unfolding livestream, now over 260,000 folds",
-      "url": "https://9to5mac.com/2026/11/05/iphone-duo-durability-tested-on-unfolding-livestream-now-over-260000-folds/",
-      "publishedAt": "2026-11-05T15:10:50.000Z",
-      "excerpt": "CNET built a ‘Fold-a-Phone’ machine that’s been constantly folding and unfolding iPhone Duo for over a week to test durability, while livestreaming daily. Here’s how it’s going. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -16760,19 +16668,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Roy Lichtenstein’s Witty Critiques of Masculinity",
-      "url": "https://www.newyorker.com/magazine/2026/11/09/roy-lichtensteins-witty-critiques-of-masculinity",
+      "title": "The Trouble with Saying What You Mean",
+      "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
       "publishedAt": "2026-11-02T11:00:00.000Z",
-      "excerpt": "The artist’s best work, in a new retrospective at the Whitney Museum, directs his campy humor at gender stereotypes.",
+      "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "The Trouble with Saying What You Mean",
-      "url": "https://www.newyorker.com/magazine/2026/11/09/the-channel-jana-prikryl-book-review",
+      "title": "Roy Lichtenstein’s Witty Critiques of Masculinity",
+      "url": "https://www.newyorker.com/magazine/2026/11/09/roy-lichtensteins-witty-critiques-of-masculinity",
       "publishedAt": "2026-11-02T11:00:00.000Z",
-      "excerpt": "In “The Channel,” the poet Jana Prikryl borrows voices from Shakespeare and her own past to explore exile, family, and the possibilities of expressing private grief.",
+      "excerpt": "The artist’s best work, in a new retrospective at the Whitney Museum, directs his campy humor at gender stereotypes.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -18485,102 +18393,6 @@
       "source": "n+1",
       "category": "Society",
       "sourceRole": "publisher"
-    },
-    {
-      "title": "A rare strike in Taiwan exposes labor unrest beneath the global AI rush",
-      "url": "https://restofworld.org/2026/taiwan-labor-strike-ai-profits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "Labor disputes and unionization in Taiwan’s semiconductor industry highlight growing worker discontent over the unequal distribution of profits from the AI boom.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "Startups recalibrate Chinese AI for the West",
-      "url": "https://restofworld.org/2026/western-startups-realigning-chinese-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-11-02T11:00:00.000Z",
-      "excerpt": "A growing number of startups are editing powerful Chinese open-weight models for Western businesses that are concerned about censorship and security.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "Why Africa needs its own AI off switch",
-      "url": "https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-29T10:00:00.000Z",
-      "excerpt": "Africa must develop AI systems with local control to protect critical infrastructure such as mobile money networks from growing AI-powered cyberthreats.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "AI models cost more when you don’t use English",
-      "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-26T10:00:22.000Z",
-      "excerpt": "Some languages require far more tokens for AI models to process, raising costs and reducing context for the people who use them.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "Big Tech’s thirst for water is sparking a global resistance",
-      "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-22T10:00:00.000Z",
-      "excerpt": "In his new book “Hyperscale: The Ambition and Excess of Big Tech’s Data Empires,” writer Paris Marx examines how local communities are resisting the growing demand for water to cool data centers.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "Will developing nations be able to handle millions of AI agents?",
-      "url": "https://restofworld.org/2026/meta-muse-openai-dots-ai-agents-global-south/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-19T10:00:00.000Z",
-      "excerpt": "It may be some time before AI agents can fully navigate the complexities and cultural nuances of developing nations.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "Western open-weight models still can’t beat China",
-      "url": "https://restofworld.org/2026/china-open-weight-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-16T10:00:00.000Z",
-      "excerpt": "Chinese open-weight AI models offer high capability at significantly lower costs than U.S. frontier systems, but face monetization and compute challenges, experts said at a Rest of World event in San Francisco.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "What the West can learn from AI optimists in the rest of the world",
-      "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-15T10:00:00.000Z",
-      "excerpt": "The developing world’s enthusiastic adoption of AI and necessity-driven innovations offer lessons for an anxiety-ridden West.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "BYD expands EV shipping fleet as wars upend freight costs and key trade routes",
-      "url": "https://restofworld.org/2026/byd-expands-cargo-ship-ev-exports/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-14T10:00:00.000Z",
-      "excerpt": "China’s EV giant says a shortage of ships is holding back its exports.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "The UAE embraces AI for kindergartners",
-      "url": "https://restofworld.org/2026/uae-mandates-k12-ai-education-schools/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-13T10:00:00.000Z",
-      "excerpt": "The country’s approach offers a glimpse of what education could look like if AI literacy becomes as fundamental as reading and writing.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "As U.S. blocks DJI, Insta360 races to win American creators",
-      "url": "https://restofworld.org/2026/insta360-us-dji-sanctions-drones-cameras/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-09T10:00:00.000Z",
-      "excerpt": "Regulatory clarity and market timing are a boon for smaller Chinese smart-camera maker Insta360 and its independent Antigravity drone brand.",
-      "source": "Rest of World",
-      "category": "Society"
-    },
-    {
-      "title": "Conflict in the Red Sea is forcing cloud giants to find a new route for the internet",
-      "url": "https://restofworld.org/2026/google-meta-red-sea-subsea-cables-houthi-yemen/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-      "publishedAt": "2026-10-07T10:00:41.000Z",
-      "excerpt": "Google, Meta, and Microsoft are said to be securing expensive land routes as fighting around Yemen threatens the submarine cables connecting Europe and Asia.",
-      "source": "Rest of World",
-      "category": "Society"
     },
     {
       "title": "Tim Reaper’s Debut Solo Album Set for Release via Hyperdub",
@@ -22263,19 +22075,19 @@
       "category": "Philosophy"
     },
     {
-      "title": "Who am I if I don’t run?",
-      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "title": "How to take notes that actually help you learn",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to take notes that actually help you learn",
-      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "title": "Who am I if I don’t run?",
+      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -23853,34 +23665,82 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "076型四川艦電磁彈射攻擊-21 是全球首艘無人機航母還是試驗艦？",
-      "url": "https://hk01.com/sns/article/60407141",
-      "publishedAt": "2026-11-06T01:30:51.000Z",
-      "excerpt": "【軍事】076型「四川」號（舷號51）成功進行了攻擊-21的電磁彈射和攔阻試驗。新聞裏提到：「創新應用了全自動著艦引導系統、新型綜合電力系統、電磁彈射和阻攔技術，可搭載固定翼無人機、直升機、兩棲裝備等。」推測起來，076上運作固定翼戰機應該不會了，至少不會作為日常運作的主力。這不奇怪。076畢竟小了，直通甲板不利於快速放飛和回收。搭載數量太少更是不利於形成有用的戰鬥力，這事不是「有就是比沒有好」。 攻擊-21當然對海上作戰有用。攻擊-21的具體能力並沒有公布，猜測起來，對海對陸攻擊都不成問題，偵察也應該可以。用於長航時巡邏和預警好像不大行，氣動外形不是往長航時方向優化的，搭載的傳感器也擔當不了",
+      "title": "8休班警$1050萬洗黑錢案 34歲停職男警被控欺詐罪今提堂",
+      "url": "https://hk01.com/sns/article/60407746",
+      "publishedAt": "2026-11-06T02:13:05.000Z",
+      "excerpt": "2025年1月16日，警方在全港多地拘捕8男5女（28至68歲）涉及洗黑錢等罪，其中7名男子（28至39歲）及1名女子（38歲）為休班警員，他們涉嫌在2017年至2024年期間，利用22個銀行戶口洗黑錢，涉款約1,050萬港元。 警方今日（6日）表示，涉案其中一名已被停職的34歲男警務人員，被正式起訴一項「欺詐」罪，案件今日早上在東區裁判法院提堂。 涉案一名已被停職的34歲男警務人員，被正式起訴一項「欺詐」罪，案件今早在東區裁判法院提堂。（資料圖片） 警方指，被捕人涉嫌在2017年至2024年期間，利用22個銀行戶口，清洗由犯罪活動所得的懷疑犯罪得益，涉款約1,050萬港元。其中兩名休班警員，",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "哈里梅根兩洲房產荒誕劇：棄加州億元豪宅 傳一家擠英倫富豪客舍",
-      "url": "https://hk01.com/sns/article/60407201",
-      "publishedAt": "2026-11-06T01:30:32.000Z",
-      "excerpt": "薩塞克斯公爵哈里王子（Prince Harry）與妻子梅根（Meghan Markle）帶同子女重返英國後，被美媒與英媒爆出並非入住自購豪宅，而是借住軍事慈善機構富豪好友的私人莊園。 最新傳聞指，兩人近日悄悄從莊園「主屋」搬進旁邊的「客舍偏殿」（Guest House /Annex），同時其位於美國加州價值1,450萬美元（約1.13億港元）的豪宅則繼續閒置。這對前王室核心成員在兩大洲之間頻繁搬遷、豪宅與寄居並存的奇特居住安排，被不少網民戲謔為「奢華級豪門寄居蟹」，引發外界對其房地產佈局與荒誕日常的熱烈討論。 薩塞克斯公爵哈里王子（Prince Harry）與妻子梅根（Meghan Markl",
+      "title": "羅馬尼亞再有2客機接炸彈威脅 歐洲同日遭波及航班增至近30班",
+      "url": "https://hk01.com/sns/article/60407731",
+      "publishedAt": "2026-11-06T02:12:32.000Z",
+      "excerpt": "歐洲多個航班11月5日接到炸彈威脅，是歐洲於一週內第二次發生類似事件。羅馬尼亞情報機構同日晚表示，當地另有兩架飛機收到炸彈威脅，使當日同樣接到相關威脅的歐洲航班增至近30班。 路透社5日報道 ，羅馬尼亞情報機構當晚發布上述消息，並指其中一架涉事客機是荷蘭皇家航空公司（KLM）的航班，客機當時中途停留羅馬尼亞首都布加勒斯特，準備再飛往以色列特拉維夫。 歐洲多個航班2026年11月5日接到炸彈威脅，圖為荷蘭皇家航空公司（KLM）的客機。（X@Independent/非涉事客機） 此前，一架從意大利米蘭飛往布加勒斯特的威茲航空公司（Wizz Air）航班也接到炸彈威脅。 路透社稱， 計及歐洲其他航班",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "蘋果據報籌資75億美元 一年多來首次發債｜美股",
-      "url": "https://hk01.com/sns/article/60407730",
-      "publishedAt": "2026-11-06T01:27:15.000Z",
-      "excerpt": "據彭博報道，蘋果公司擬通過高評級債券發行籌資75億美元，儘管更廣泛的金融市場出現拋售，這筆交易仍獲得強勁需求，一些投資者希望暫時避開大量湧现的AI相關債券發行。 2026年6月22日，中國北京，人們在中國國際供應鏈博覽會（CISCE）上，走過展示蘋果供應商的展位。（Reuters） 據知情人士透露，投資者對這筆交易的認購訂單約為310億美元，是發行規模的四倍多。 周四這筆債券發行緊隨過去幾天美國市場約500億美元的大型科技公司發債潮。與此同時，投資者正在評估民主黨橫掃美國中期選舉將如何影響AI數據中心，這引發股市大跌，並推高了信用風險指標。 此次發債所得將用於一般企業用途，包括股票回購計畫。 ",
+      "title": "遊戲出海｜《黑悟空》吸引全球玩家 冼漢迪：香港要當文化共創者",
+      "url": "https://hk01.com/sns/article/60407703",
+      "publishedAt": "2026-11-06T02:00:52.000Z",
+      "excerpt": "2026年世界互聯網大會烏鎮峰會於11月2日至5日在浙江烏鎮舉行。港區全國人大代表、中手游聯合創始人冼漢迪出席峰會，並於「海峽兩岸暨港澳互聯網發展論壇」中發表演說。 針對近年以《黑神話：悟空》為代表的遊戲文化出海熱潮，冼漢迪直言「好玩是第一步」；談及香港的角色時，他更明確指出，香港絕不能只當單純的「通道」或「超級聯繫人」，而是要晉身為「文化共創者」，強調「香港能貢獻的不只是通道，更有內容，本身就是世界級文化IP」。 2026年世界互聯網大會烏鎮峰會於11月2日至5日在浙江烏鎮舉行。港區全國人大代表、中手游聯合創始人冼漢迪出席峰會，並於「海峽兩岸暨港澳互聯網發展論壇」中發表演說。（微信公眾號＠冼",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "北都｜蔡若蓮：新田大學城項目最快明年底推 正爭取加碼百億貸款",
-      "url": "https://hk01.com/sns/article/60407720",
-      "publishedAt": "2026-11-06T01:26:09.000Z",
-      "excerpt": "北都大學城發展規模擴大，多間院校均有意參與其中，其中洪水橋大學城用地下月底截標。教育局局長蔡若蓮接受《星島日報》訪問時表示，預計新田大學城項目最快於明年底才會推出，2028年逐步完成平整。政府預留100億元貸款予北都大學城校舍建設，她說，明白院校發展大學城需要的資金超出貸款額，將爭取「加碼 」；三塊大學城用地分階段發展，相信院校不會一下子用盡儲備或債台高築。 圖片中央位置為打鼓嶺大學城（下方建築為坪輋路博愛昇平村，上方為香園圍公路及深圳方向）。（黃偉民攝） 打鼓嶺大學城校園區（紅圈範圍）（黃偉民攝） 預料院校爭地不會「大包圍」 政府全力推動北都大學城發展，教育局局長蔡若蓮在接受傳媒專訪時表示，",
+      "title": "李頴彰｜黃之鋒勾結外國重判十年：「國際戰線」幻象徹底破滅！",
+      "url": "https://hk01.com/sns/article/60407511",
+      "publishedAt": "2026-11-06T02:00:34.000Z",
+      "excerpt": "李頴彰律師專欄 香港高等法院就黃之鋒承認「串謀勾結外國或者境外勢力危害國家安全罪」作出判刑，裁定其罪行屬《香港國安法》下的重大罪行，並判處監禁十年。這宗案件備受社會關注，其重要性並不在於被告本人的政治知名度，而在於案件首次以完整而清晰的司法程序，具體展示何謂勾結外國或者境外勢力危害國家安全，以及此類行為在香港法律制度下應承擔何種法律責任。 休拿言論充抗辯 實質勾結定重罪 長期以來，部分反對派人士試圖將案件理解為「言論自由」或「政治參與」問題。然而從判詞內容可見，法庭審視的核心始終並非被告的政治立場，而是其具體行為。現代法治社會從不因個人持有某種思想或政治觀點而定罪，法律所規範的是行為本身及其可",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "李偉健Terry 48歲生日獲《三代同糖》劇組送驚喜 車婉婉甜喊細佬",
+      "url": "https://hk01.com/sns/article/60407656",
+      "publishedAt": "2026-11-06T02:00:08.000Z",
+      "excerpt": "李偉健（Terry）在上一輯無綫（TVB）處境喜劇《愛・回家之開心速遞》形象入屋，更是少數順利過渡至新處境劇《三代同糖》的舊班底。昨日（4日）是Terry 48歲生日，雖然要開工，但《三代同糖》眾演員樊亦敏、KC歐瑞偉、車婉婉、李茵彤、羅皓誼、侯雋熙等送上生日蛋糕為其慶祝，極速融入新班底！ 李偉健。(節目截圖) 李偉健與歐瑞偉回到《三代同糖》。（公關提供） 李偉健極速融入《三代同糖》 Terry日前在Instagram分享慶生派對照片和影片。Terry與《三代同糖》眾演員在公司食堂食飯，期間眾人為Terry送上驚喜生日蛋糕，並即場大唱生日歌車婉婉更親切稱呼「細佬」，足見Terry在圈中人緣甚佳",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "孫藝珍也煩惱明天煮什麼！教6款韓式料理 讓孩子食得營養均衡",
+      "url": "https://hk01.com/sns/article/60405284",
+      "publishedAt": "2026-11-06T02:00:06.000Z",
+      "excerpt": "煩惱明天煮甚麼？來抄孫藝珍的餐桌！辣炒魷魚、蒸蛋、飯捲做法一次學。 韓國女神孫藝珍日前在個人Instagram分享多張平日在家親手準備的家常菜，並開心寫下： 忙著煮飯忙得團團轉，然後坐下來和大家一起吃飯的時候最幸福。大家也要多吃健康又美味的食物喔！ 照片一曝光，滿桌豐盛的菜色立刻吸引大批粉絲朝聖。 不過眼尖網友發現了一個有趣的細節：3人份的餐點中，夫妻倆的飯量少到讓人分不出哪一碗才是兒子的，紛紛直呼：「以為是3碗小孩的飯！」意外成為熱議焦點。 一桌滿滿韓式家常味，網友：玄彬也太幸福（按圖瀏覽👇👇👇） 韓國女神孫藝珍日前在個人Instagram分享多張平日在家親手準備的家常菜。（IG@ye",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "過期牙膏恐成細菌溫床 專家揭7大日用品使用期限 建議定期清理",
+      "url": "https://hk01.com/sns/article/60399131",
+      "publishedAt": "2026-11-06T02:00:02.000Z",
+      "excerpt": "英國消費網站「 Which? 」揭露多項日用品的隱形保存期限，提醒大家即使外觀正常，開封後的牙膏、睫毛膏、乾洗手（酒精搓手液）、漂白水、機油及電池等，都可能因成分降解、細菌滋生或漏液而危害健康與電器安全。 根據報導，牙膏雖然未開封可放2年，但只要一揭開封膜，效期就會大幅縮短。專家指出，開封後的牙膏成分會隨時間降解，含氟成分的防蛀效果不僅大打折扣，長時間放在潮濕浴室更易淪為細菌溫床，若不儘快用完，每天刷牙恐怕反將大量細菌吞下肚。 相關文章： 牙刷放馬桶旁邊、洗澡水溫過高 醫生警告8個日常壞習慣危害健康 浴室暗藏健康風險，醫揭8個日常壞習慣（AI生成圖片；01製圖） 1. 沖馬桶不蓋蓋（AI生成圖",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "懶理美股股災！ 李寧逆市飆逾8% 豪派特別息、現價股息率近17厘",
+      "url": "https://hk01.com/sns/article/60407742",
+      "publishedAt": "2026-11-06T01:56:53.000Z",
+      "excerpt": "美股股災，亞股今早普遍急挫，惟體育用品股李寧﹙2331﹚豪派特別息，股價逆市升逾8%。 該公司宣布，落實派發持別息金額，每股豪派2.32元人民幣，折合每股2.71港元，總派息總額近70億港元。受消息帶動，李寧今早逆市彈起，股價大升8.8%至16.02元。以現價計，股息率達17%。 李寧通告指，於董事會上決議批准派發特別股息，金額為每股2.32元人民幣；特別股息將派予11月23日登記在公司股東名冊上的普通股股東。 內地零售不景氣，但李寧上半年仍錄得淨利潤18.16億元人民幣，按年增長約4.5%。更吸引的是，該公司現市值380億港元，但坐擁近200億元人民幣，折合逾230億港元。 「李寧」由中國體",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "金管局外匯基金第三季投資收入186億元 按年跌近70%",
+      "url": "https://hk01.com/sns/article/60407737",
+      "publishedAt": "2026-11-06T01:56:10.000Z",
+      "excerpt": "金管局公布，外匯基金第三季投資收入186億元，當中未計及當季長期增長組合持有的私募股權及實物資產投資估值變動。去年同期，外匯基金投資收入600億元，意味今年按年跌69%。 季內，第三季債券投資收益3億元，港股投資收益91億元，其他股票投資收益15億元，外匯估值上調77億元。 外匯基金第三季港股投資收益91億元。﹙資料圖片﹚",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美媒：中國月之暗面擬繞過美國限制 租用英偉達歐洲先進晶片算力",
+      "url": "https://hk01.com/sns/article/60407734",
+      "publishedAt": "2026-11-06T01:54:49.000Z",
+      "excerpt": "中國人工智能（AI）初創企業月之暗面據報尋求通過歐洲的數據中心，租用美國晶片巨頭英偉達（Nvidia，又譯輝達）先進AI晶片提供的運算能力，以繞過美國對華晶片出口管制的限制。 美國消費者新聞與商業頻道（CNBC）周四（11月5日）引述四名知情人士報道，月之暗面今年曾與多家在歐洲運營數據中心的新興雲服務供應商洽談，尋求租用英偉達圖形處理器（GPU）提供的運算能力。 其中三名消息人士透露，月之暗面主要尋求租用英偉達最新的Blackwell系列晶片。一名消息人士稱，雙方曾討論租用部署在歐洲、規模達8000枚或以上Blackwell晶片的運算集群。 月之暗面（Moonshot AI）創辦人楊植麟，於北",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -23889,38 +23749,6 @@
       "url": "https://hk01.com/sns/article/60407725",
       "publishedAt": "2026-11-06T01:18:56.000Z",
       "excerpt": "今日（6日）凌晨4時28分，青衣翠怡花園第3座的保安員報案，指有住戶求助遭醉漢拍門滋擾。警員到場時，該名醉酒外籍男子拒絕合作，用手襲擊警員，致其嘴部受傷，同時失平衡撞落門，致頭部受傷。 警方隨後以涉嫌襲警拘捕58歲外籍男子，遇襲警員清醒送到沙田威爾斯醫院治理。 據了解，疑犯為翠怡花園第3座住客，但並不在涉案位置同層。 遇襲警員送到沙田威爾斯醫院治理。（資料圖片） 青衣翠怡花園發生襲警案。（資料圖片）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "青奧2026｜港隊再添兩銅牌 文薈喬蘇籽童齊奪今屆第二面獎牌",
-      "url": "https://hk01.com/sns/article/60407726",
-      "publishedAt": "2026-11-06T01:14:31.000Z",
-      "excerpt": "在塞內加爾達喀爾（Dakar，又譯達卡）舉行的青年奧運會，香港隊再有進賬，兩名女將摘下今屆第二面獎牌。游泳代表文薈喬在女子50米蛙泳摘銅，蘇籽童則在乒乓女單銅牌戰力克日本球手松島美空。 （港協暨奧委會提供） （港協暨奧委會提供）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "早晨如廁撞時間？人妻立「6S浴室規矩」惹議 附4招化解告別塞車",
-      "url": "https://hk01.com/sns/article/60407028",
-      "publishedAt": "2026-11-06T01:10:24.000Z",
-      "excerpt": "清晨趕著出門上班、護膚化妝，伴侶卻坐在坐廁上滑手機半小時不出來；剛洗完澡室內水氣瀰漫，家人又急著推門衝進來如廁，的確煩惱，到底如何化解早晨洗手間塞車？內地1位丈夫日前在網上分享妻子訂立的「6S 級」極致浴室規矩，引發網絡熱議。該名人妻規定沖涼前須先用水桶盛起冷水沖廁、抹布分色清潔不同區域，甚至連沐浴露等清潔用品都必須傾斜 45 度 角整齊排列！極致細節讓不少網民直呼「同住壓力極大」，更揭開無數家庭在早晚高峰期「搶廁所」與衛浴動線碰撞的深層問題。 內地1位丈夫在網上分享妻子訂立浴室規矩的影片，登上微博熱搜榜。（微博@賈有梗） 浴室規矩堪比「6S現場管理」 這套被網民形容為企業「6S 現場管理」的",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃仁勳捲中國女間諜案 美眾院共和黨人傳召出席閉門簡報會",
-      "url": "https://hk01.com/sns/article/60407722",
-      "publishedAt": "2026-11-06T01:08:45.000Z",
-      "excerpt": "美國國會眾議院三名重量級共和黨領袖正式致函人工智能（AI）晶片巨頭英偉達（Nvidia，又譯輝達）行政總裁黃仁勳，要求他在本月中旬前往國會出席閉門簡報會，就媒體報道他與一名涉嫌為中國政府搜集情報的新加坡科技公司前高管存在密切往來一事，向國會作出說明。 據路透社與彭博社報道，眾議院外交事務委員會主席馬斯特（Brian Mast）、美國與中共戰略競爭特設委員會主席穆勒納爾（John Moolenaar），以及情報委員會主席克勞福德（Rick Crawford）周三（11月4日）聯名向黃仁勳發出信函，要求他在11月18日出席閉門簡報會，詳細交代英偉達防範外國對手間諜活動的內部安全機制。 三名議員在聯",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "美股股災震散亞洲市！ 韓股暴瀉8%觸熔斷 恒指低開400點",
-      "url": "https://hk01.com/sns/article/60407723",
-      "publishedAt": "2026-11-06T01:05:26.000Z",
-      "excerpt": "由於市場日益擔憂民主黨將尋求對人工智能(AI)行業實施更嚴格監管，晶片股在美國中期選舉後的拋售潮加劇，隔夜美股曝瀉下，亞洲股市早盤重挫，韓股一度暴瀉8%觸熔斷。 恒指黑期挫近400點 韓國Kospi指數開市不久即重挫8%後暫停交易20分鐘，該基準股指跌破5,000點大關，三星電子和SK海力士股價均暴跌超過10%！Kospi已較6月創下的歷史高點暴跌46%。 據彭博報道，Zian Investment Management執行長Kim Dojoon表示，最終，我們已經入恐慌性拋售階段。在今天這樣的市場中，大多數市場參與者恐怕都會被迫賣出。 另外，日本東證指數和日經225指數跌幅均在5%以上，日經",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -23997,19 +23825,27 @@
       "category": "Hong Kong"
     },
     {
-      "title": "41歲周秀娜暴瘦身材再跌Watt 眼窩凹陷嚇壞網民健康令人擔憂",
-      "url": "https://hk01.com/sns/article/60407512",
-      "publishedAt": "2026-11-05T11:30:08.000Z",
-      "excerpt": "現年41歲的周秀娜（娜姐）於千禧年代憑著完美誘人身材俘虜一眾粉絲，其後收起性感專注拍戲發展影壇事業，於2017年上映的電影《29+1》中演技獲得肯定，成功轉型為實力派演員。近年周秀娜的身形變化屢成焦點，被指因愈來愈瘦變皮包骨，就連當年寫真中的驕人身材都「大跌Watt」。近日有網民捕獲娜姐出席新戲《第四幕》首映宣傳時，被發現瘦得誇張，隨即引起網民熱議。 周秀娜於千禧年代憑著完美誘人身材俘虜一眾粉絲。（寫真照片） 周秀娜成功轉型為實力派演員。（IG/@chrissienana） 近年周秀娜的身型變化屢成焦點，被指因愈來愈瘦變皮包骨。（IG/@chrissienana） 周秀娜暴瘦眼窩凹陷 近日有網",
-      "source": "香港01",
+      "title": "粵港澳警方打擊三合會行動 香港警方拘捕逾4,700人",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520684/%E7%B2%B5%E6%B8%AF%E6%BE%B3%E8%AD%A6%E6%96%B9%E6%89%93%E6%93%8A%E4%B8%89%E5%90%88%E6%9C%83%E8%A1%8C%E5%8B%95-%E9%A6%99%E6%B8%AF%E8%AD%A6%E6%96%B9%E6%8B%98%E6%8D%95%E9%80%BE4700%E4%BA%BA",
+      "publishedAt": "2026-11-06T01:41:08.000Z",
+      "excerpt": "【有線新聞】粵港澳三地警方打擊三合會及有組織犯罪集團，其中香港警方拘捕逾4,700人。警方兩階段採取行動，巡查",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "網紅出軌殃及池魚 另一餐廳食死貓發聲明：冇體力半夜去屯赤接人",
-      "url": "https://hk01.com/sns/article/60407622",
-      "publishedAt": "2026-11-05T10:33:27.000Z",
-      "excerpt": "網紅與餐廳「Layback Matters」老闆的感情糾紛於網上持續發酵，事件更引發「點錯相」烏龍。一間名稱相近的餐廳因為被網民誤會為涉事店舖而慘遭留下負評。對此，被誤認的餐廳於社交平台發佈「緊急澄清聲明」，標題直指「此 Layback 非彼 Layback 💀」，以正視聽。 網紅被指出軌老闆 男友扮驚喜慶祝三週年公開出軌證據女方傻笑 網紅出軌最新發展！涉事餐廳發聲明割席 終止合夥人職務安排退股 男事主扮驚喜，其實係揭發偷食。（片段截圖） 整宗出軌風波源於男事主在社交平台Threads上的長文控訴，透露與交往三年的女網紅慶祝紀念日時，當面攤牌揭發對方與任職餐廳的謝姓合夥人暗生情愫。據早前《香",
-      "source": "香港01",
+      "title": "法蘭克福乒乓冠軍賽 王楚欽男單次圈止步",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520685/%E6%B3%95%E8%98%AD%E5%85%8B%E7%A6%8F%E4%B9%92%E4%B9%93%E5%86%A0%E8%BB%8D%E8%B3%BD-%E7%8E%8B%E6%A5%9A%E6%AC%BD%E7%94%B7%E5%96%AE%E6%AC%A1%E5%9C%88%E6%AD%A2%E6%AD%A5",
+      "publishedAt": "2026-11-06T01:38:48.000Z",
+      "excerpt": "【有線新聞】法蘭克福乒乓冠軍賽，中國的王楚欽爆冷男單次圈止步。 左手握拍，戴頭巾的王楚欽面對19歲隊友溫瑞博，",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "北都大學城｜蔡若蓮：爭取院校百億貸款「加碼」",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520671/%E5%8C%97%E9%83%BD%E5%A4%A7%E5%AD%B8%E5%9F%8E-%E8%94%A1%E8%8B%A5%E8%93%AE-%E7%88%AD%E5%8F%96%E9%99%A2%E6%A0%A1%E7%99%BE%E5%84%84%E8%B2%B8%E6%AC%BE-%E5%8A%A0%E7%A2%BC",
+      "publishedAt": "2026-11-06T01:37:57.000Z",
+      "excerpt": "【有線新聞】教育局局長蔡若蓮表示，將爭取提高北都大學城貸款額。 蔡若蓮接受報章專訪表示，理解院校發展大學城所需",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24145,30 +23981,6 @@
       "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520614/%E4%BA%9E%E5%86%A0%E4%BA%8C-%E5%82%91%E5%BF%972%E6%AF%941%E9%9A%AA%E5%8B%9D%E9%87%91%E9%82%8A%E7%9A%87%E5%86%A0-%E4%BB%8A%E5%B1%86%E9%A6%96%E5%A0%B4%E5%8B%9D%E4%BB%97",
       "publishedAt": "2026-11-05T13:47:01.000Z",
       "excerpt": "【有線新聞】亞冠二級聯賽H組，傑志半場踢多一人下，主場2比1險勝金邊皇冠，取得今屆首場勝仗。 賽前兩和一負，深",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "今日重點新聞｜黃之鋒判囚10年．鄧炳強：研究判詞是否上訴．蔡天鳳頭部7傷口料生前造成．恒指創逾一年來最大升市．C朗退出葡萄牙國家隊",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520603/%E4%BB%8A%E6%97%A5%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E-%E9%BB%83%E4%B9%8B%E9%8B%92%E5%88%A4%E5%9B%9A10%E5%B9%B4%EF%BC%8E%E9%84%A7%E7%82%B3%E5%BC%B7-%E7%A0%94%E7%A9%B6%E5%88%A4%E8%A9%9E",
-      "publishedAt": "2026-11-05T13:41:50.000Z",
-      "excerpt": "黃之鋒案｜判囚10年 官：國安法後發文聲援羅冠聰請求外國制裁、屬「罪行重大」 前香港眾志秘書長黃之鋒承認串謀勾",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "紐約大學教授斥馬斯克為「西方叛徒」 暗示應如冷戰間諜處死",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/520609/%E7%B4%90%E7%B4%84%E5%A4%A7%E5%AD%B8%E6%95%99%E6%8E%88%E6%96%A5%E9%A6%AC%E6%96%AF%E5%85%8B%E7%82%BA-%E8%A5%BF%E6%96%B9%E5%8F%9B%E5%BE%92-%E6%9A%97%E7%A4%BA%E6%87%89%E5%A6%82",
-      "publishedAt": "2026-11-05T13:24:48.000Z",
-      "excerpt": "【有線新聞】美國紐約大學一名教授日前形容富商馬斯克是西方世界的叛徒，暗示應處死對方。這番言論令保守派進一步憂慮",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "丁薛祥︰願同各方一道發揮進博會四大平台作用",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/520598/%E4%B8%81%E8%96%9B%E7%A5%A5%EF%B8%B0%E9%A1%98%E5%90%8C%E5%90%84%E6%96%B9%E4%B8%80%E9%81%93%E7%99%BC%E6%8F%AE%E9%80%B2%E5%8D%9A%E6%9C%83%E5%9B%9B%E5%A4%A7%E5%B9%B3%E5%8F%B0%E4%BD%9C%E7%94%A8",
-      "publishedAt": "2026-11-05T12:00:40.000Z",
-      "excerpt": "【有線新聞】第九屆中國國際進口博覽會在上海開幕，國務院副總理丁薛祥發表主旨演講，強調舉辦進博會是中國主動開放市",
       "source": "有線新聞",
       "category": "Hong Kong"
     },
@@ -24333,10 +24145,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "Hong Kong installs HK$5m ‘anti-terrorism’ crash bollards outside Causeway Bay mall",
+      "title": "Hong Kong installs HK$5m ‘anti-terrorism’ crash bollards outside Causeway Bay dep’t store",
       "url": "https://hongkongfp.com/2026/11/06/hong-kong-installs-hk5m-anti-terrorism-crash-bollards-outside-causeway-bay-mall/",
       "publishedAt": "2026-11-06T01:25:00.000Z",
-      "excerpt": "Hong Kong authorities have installed “anti-terrorism” collision bollards outside a shopping mall in Causeway Bay, one of the city’s busiest shopping districts – a project with a HK$5 million price tag. The bollards, which were still wrapped in foam sheeting on Thursday morning, were initially propos",
+      "excerpt": "Hong Kong authorities have installed “anti-terrorism” collision bollards outside a department store in Causeway Bay, one of the city’s busiest shopping districts – a project with a HK$5 million price tag. The bollards, which were still wrapped in foam sheeting on Thursday morning, were initially pro",
       "source": "Hong Kong Free Press",
       "category": "Hong Kong"
     },
@@ -24493,6 +24305,22 @@
       "category": "Hong Kong"
     },
     {
+      "title": "外匯基金第3季錄得投資收入186億元",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1876766-20261106.htm",
+      "publishedAt": "2026-11-06T01:32:36.000Z",
+      "excerpt": "金管局公布，外匯基金第3季未計其他投資，錄得投資收入186億元，首3季投資收入1719億元。 第3季各項投資都賺，但債券投資收入只得3億元，按年及按季都跌約99%。港股投資收入91億元，按年跌47%，按季則由盈轉虧。其他股票投資收入15億元，按年及按季都跌逾90%。外匯投資賺77億元，去年同期虧損266億元，按季則跌8%。 至於首3季各項投資，只得港股投資虧損27億元，其餘都錄得投資收入。 編輯：宋家樑",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "【重溫】2026年11月6日《社評摘要》",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1876758-20261106.htm",
+      "publishedAt": "2026-11-06T01:30:50.000Z",
+      "excerpt": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "【重溫】2026年11月6日《報章摘要》",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1876756-20261106.htm",
       "publishedAt": "2026-11-06T01:30:32.000Z",
@@ -24633,22 +24461,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1876698-20261105.htm",
       "publishedAt": "2026-11-05T10:43:32.000Z",
       "excerpt": "政府新聞處處長謝振中表示，《香港第一個五年規劃》提到，要增加主流媒體國際傳播能力，而連續兩年的《施政報告》都提及特區政府會協助本地傳媒發展香港以外的網絡，說好香港故事。 謝振中在社交媒體表示，在上海舉行的第九屆進博會，貿發局向全球商家展示「出海專班跨界別專業服務平台」，羅列八大領域的出海服務供應商，可滿足內地企業出海的各方面需要。他表示，內地企業要出海，需要做品牌推廣工作，香港本地媒體擁有兩文三語能力和國際視野，極具創意和市場觸覺，正好可為內地企業提供品牌策劃、市場推廣、國際形象管理等服務。 他表示，貿發局的平台已納入4間本地傳媒機構，清晰展示服務範圍、受眾版圖、海外服務經驗等，相信既能協助內",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "土拓署：中九龍繞道九龍灣段巴士道路測試順利完成",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1876697-20261105.htm",
-      "publishedAt": "2026-11-05T10:26:31.000Z",
-      "excerpt": "六號幹線最後一段中九龍繞道（九龍灣段）將於下月6日通車，土木工程拓展署表示，建造工程已經大致完成，各項通車準備工作正進入最後階段。兩間專營巴士公司早前合共派出6輛雙層巴士，經新路行駛六號幹線往返油麻地及將軍澳，並順利完成道路測試。 署方在社交網頁表示，六號幹線全線通車後，繁忙時段往來將軍澳市中心及油麻地的行車時間，預計會由幹線興建前約65分鐘，大幅縮短至約12分鐘。 署方又說，六號幹線的核心設計理念是提供一條特快通道，將「長途跨區」與「短途地區」的車輛有效分流。透過「長短途分流」，跨區長途車輛可以更方便往來將軍澳及西九龍，而來往將軍澳及啟德的短途車輛則可繼續使用原有道路。 中九龍繞道（九龍灣段",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "首三季近3萬5千宗詐騙按年升8% 騙徒新手法遙距讀信用卡資料",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1876696-20261105.htm",
-      "publishedAt": "2026-11-05T10:15:23.000Z",
-      "excerpt": "本港今年首三季的整體罪案有68015宗，較去年同期升2.1%，數字上升主要因為詐騙案增加。 保安局局長鄧炳強表示，首三季有34679宗詐騙案，按年升7.9%，涉及騙款約60億2千萬元。他說，詐騙案增加主要因為8月及9月新一波電話詐騙案急升，這兩個月約有3900宗電話詐騙案，當中約八成屬假冒客服騙案。 鄧炳強又說，發現騙徒有新手法，包括冒充物流公司，誘騙市民在假冒網站提交個人資料，之後發出聲稱批核文件及以退款為理由等，要求他們下載惡意程式，及開啟手機NPC近場通訊功能，然後指示市民把信用卡貼近手機，利用手機變為讀卡機，從而遙距讀取他們的信用卡資料。 編輯：陳樂謙",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },

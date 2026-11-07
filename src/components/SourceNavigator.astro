@@ -202,7 +202,7 @@ const newestPublishedAt = (group: SourceCollection) => {
       const index = current ? visibleGroups.indexOf(current) : -1;
       updateSourceLabel();
       prev.disabled = index <= 0;
-      next.disabled = index < 0 || index >= visibleGroups.length - 1;
+      next.disabled = !nextSource();
       sourceButtons.forEach((button) => {
         const group = allGroups.find((item) => item.id === button.dataset.sourceId);
         button.classList.toggle('is-current', group === current);
@@ -214,11 +214,30 @@ const newestPublishedAt = (group: SourceCollection) => {
       if (window.matchMedia('(max-width: 640px)').matches) {
         const stickyTopics = document.querySelector<HTMLElement>('.topic-bar.is-pinned');
         if (stickyTopics) return stickyTopics.getBoundingClientRect().height + 12;
-        const originalTopics = document.querySelector<HTMLElement>('.topic-bar');
-        return (originalTopics?.getBoundingClientRect().height ?? 38) + 16;
+        const chip = document.querySelector<HTMLElement>('.topic-bar .filter');
+        // The pinned bar uses one row of chips, with 20px of padding and a 1px border.
+        return (chip?.getBoundingClientRect().height ?? 32) + 21 + 12;
       }
       const topicBar = document.querySelector<HTMLElement>('.topic-bar');
       return (topicBar?.getBoundingClientRect().height ?? 0) + 12;
+    }
+
+    function sourceScrollTop(group: HTMLElement) {
+      const top = group.getBoundingClientRect().top + window.scrollY - stickyOffset();
+      const topicSlot = window.matchMedia('(max-width: 640px)').matches
+        ? document.querySelector<HTMLElement>('.topic-bar-slot')
+        : null;
+      const pinTop = topicSlot ? Math.ceil(topicSlot.getBoundingClientRect().top + window.scrollY) : 0;
+      return Math.max(0, pinTop, top);
+    }
+
+    function nextSource() {
+      const first = visibleGroups[0];
+      if (first && window.matchMedia('(max-width: 640px)').matches && sourceScrollTop(first) - window.scrollY > 1) {
+        return first;
+      }
+      const index = current ? visibleGroups.indexOf(current) : -1;
+      return index >= 0 ? visibleGroups[index + 1] : undefined;
     }
 
     function animateSourceScroll(group: HTMLElement, top: number, duration: number, focusDestination: boolean) {
@@ -252,7 +271,7 @@ const newestPublishedAt = (group: SourceCollection) => {
       current = group;
       explicitlySelected = selected;
       updateControls();
-      const top = Math.max(0, group.getBoundingClientRect().top + window.scrollY - stickyOffset());
+      const top = sourceScrollTop(group);
       const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       pendingTarget = group;
       animatedScrollTarget = undefined;
@@ -439,8 +458,8 @@ const newestPublishedAt = (group: SourceCollection) => {
       if (index > 0) jumpTo(visibleGroups[index - 1]);
     });
     next.addEventListener('click', () => {
-      const index = current ? visibleGroups.indexOf(current) : -1;
-      if (index >= 0 && index < visibleGroups.length - 1) jumpTo(visibleGroups[index + 1]);
+      const target = nextSource();
+      if (target && target !== pendingTarget) jumpTo(target);
     });
 
     function updateCurrentFromScroll() {

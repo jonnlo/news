@@ -19,6 +19,23 @@ if (isDiscovery) {
   } catch { /* A malformed link may not identify a publisher. */ }
 }
 const showArticleDomain = articleDomain && !['Hacker News', 'Sidebar', 'Slashdot', 'Techmeme'].includes(story.source) && story.category !== 'Discover';
+const wallhopSources = new Set([
+  'wired',
+  'mit technology review',
+  'the new yorker',
+  'new york magazine',
+  'new york magazine (intelligencer)',
+  'fast company',
+  'vox',
+  'publishers weekly',
+  'london review of books',
+  'south china morning post',
+  'scmp',
+  'the atlantic',
+]);
+const wallhopUrl = wallhopSources.has(story.source.trim().toLocaleLowerCase())
+  ? `https://wallhop.io/${story.url}`
+  : null;
 ---
 
 <li class="story" data-category={story.category} data-page={page} hidden={initiallyHidden}>
@@ -36,16 +53,20 @@ const showArticleDomain = articleDomain && !['Hacker News', 'Sidebar', 'Slashdot
                 <a class="story-source story-discussion story-age" href={story.sourceUrl} target="_blank" rel="noreferrer" aria-label={`Open Waxy post for ${story.title}`}>W</a>
               )}
             </span>
-            <time class="story-age" datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
-              {formatRelativeAge(story.publishedAt)}
-            </time>
+            {wallhopUrl ? (
+              <a class="story-age" href={wallhopUrl} target="_blank" rel="noreferrer" aria-label={`Open ${story.title} through Wallhop`}>
+                <time datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
+                  {formatRelativeAge(story.publishedAt)}
+                </time>
+              </a>
+            ) : (
+              <time class="story-age" datetime={story.publishedAt ?? undefined} title={formatPublicationTimestamp(story.publishedAt, referenceDate)} data-relative-age>
+                {formatRelativeAge(story.publishedAt)}
+              </time>
+            )}
           </h2>
           {showArticleDomain && <div class="story-meta">
-            {(
-              <>
-                <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>{articleDomain}</a>
-              </>
-            )}
+            {showArticleDomain && <a class="story-source" href={story.url} target="_blank" rel="noreferrer" aria-label={`Open original article on ${articleDomain}: ${story.title}`}>{articleDomain}</a>}
           </div>}
         </div>
       </CardContent>
@@ -57,7 +78,7 @@ const showArticleDomain = articleDomain && !['Hacker News', 'Sidebar', 'Slashdot
   import { formatRelativeAge } from '@/content';
 
   function updateAges() {
-    document.querySelectorAll<HTMLTimeElement>('[data-relative-age]').forEach((time) => {
+    document.querySelectorAll<HTMLElement>('[data-relative-age]').forEach((time) => {
       time.textContent = formatRelativeAge(time.getAttribute('datetime'));
     });
   }

@@ -448,6 +448,14 @@ html.pointer-mode :focus-visible {
   color: oklch(89.9% 2.4% 106.6);
 }
 
+.story-title > a.story-age,
+.story-title > a.story-age:hover,
+.dark .story-title > a.story-age,
+.dark .story-title > a.story-age:hover {
+  color: var(--faint-copy);
+  text-decoration: none;
+}
+
 .story-title a:focus-visible,
 .story-source:focus-visible,
 .site-nav a:focus-visible,

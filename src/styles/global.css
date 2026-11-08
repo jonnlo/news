@@ -57,16 +57,9 @@
   --font-heading: var(--font-sans);
   --font-sans: var(--site-font-stack);
   --color-ring: var(--ring);
-  --color-input: var(--input);
+  /* Tailwind compiles this stylesheet separately; these local mappings are
+     required by the @apply rules below even though Starwind also defines them. */
   --color-border: var(--border);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
   --color-foreground: var(--foreground);
   --color-background: var(--background);
   --radius-sm: calc(var(--radius) * 0.6);
@@ -126,7 +119,6 @@ html.pointer-mode :focus-visible {
   width: 100%;
   height: 78px;
   padding-top: 16px;
-  box-sizing: border-box;
 }
 
 .masthead-inner {
@@ -155,27 +147,6 @@ html.pointer-mode :focus-visible {
 
 .wordmark-accent {
   color: var(--theme-accent-text);
-}
-
-.site-nav {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.site-nav a {
-  align-self: stretch;
-  display: inline-flex;
-  align-items: center;
-  color: var(--muted-copy);
-  font-size: 13px;
-  transition: color 120ms ease;
-}
-
-.site-nav a:hover,
-.site-nav a[aria-current="page"] {
-  color: var(--text);
 }
 
 .theme-toggle {
@@ -245,13 +216,6 @@ html.pointer-mode :focus-visible {
   font-weight: 600;
 }
 
-.page-subtitle {
-  margin: 7px 0 0;
-  color: var(--muted-copy);
-  font-size: 14px;
-  line-height: 1.5;
-}
-
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -293,16 +257,6 @@ html.pointer-mode :focus-visible {
 .filter:focus-visible {
   outline: 2px solid var(--ring);
   outline-offset: 2px;
-}
-
-.filter-count {
-  color: var(--faint-copy);
-  font-size: 11px;
-  font-variant-numeric: tabular-nums;
-}
-
-.filter.active .filter-count {
-  color: color-mix(in srgb, var(--theme-accent-foreground) 76%, transparent);
 }
 
 .story-list {
@@ -361,10 +315,6 @@ html.pointer-mode :focus-visible {
   font-size: 11px;
   text-align: right;
   white-space: nowrap;
-}
-
-.story-meta-separator {
-  color: var(--faint-copy);
 }
 
 .story-source {
@@ -458,25 +408,12 @@ html.pointer-mode :focus-visible {
 
 .story-title a:focus-visible,
 .story-source:focus-visible,
-.site-nav a:focus-visible,
 .wordmark:focus-visible,
-.archive-row:focus-visible,
 .back-link:focus-visible,
 .page-footer a:focus-visible {
   outline: 2px solid var(--text);
   outline-offset: 3px;
   border-radius: 2px;
-}
-
-.story-excerpt {
-  display: -webkit-box;
-  overflow: hidden;
-  margin: 6px 0 0;
-  color: var(--muted-copy);
-  font-size: 13px;
-  line-height: 1.45;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
 }
 
 .empty-state,
@@ -504,38 +441,6 @@ html.pointer-mode :focus-visible {
 
 .empty-panel p {
   margin: 6px 0 0;
-}
-
-.archive-page .page-heading {
-  margin-bottom: 24px;
-}
-
-.archive-list {
-  border-top: 1px solid var(--rule);
-}
-
-.archive-row {
-  min-height: 62px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  border-bottom: 1px solid var(--rule);
-  color: var(--text);
-  font-size: 14px;
-}
-
-.archive-row:hover .archive-date {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: oklch(63.1% 3.5% 86.9);
-  text-underline-offset: 3px;
-}
-
-.archive-count {
-  color: var(--muted-copy);
-  font-size: 13px;
-  font-variant-numeric: tabular-nums;
 }
 
 .back-link {
@@ -575,10 +480,6 @@ html.pointer-mode :focus-visible {
     width: calc(100% - 32px);
   }
 
-  .site-nav {
-    gap: 14px;
-  }
-
   .site-actions {
     gap: 10px;
   }
@@ -601,18 +502,8 @@ html.pointer-mode :focus-visible {
     font-size: 22px;
   }
 
-  .page-subtitle {
-    font-size: 13px;
-  }
-
   .filter {
     height: 34px;
-    font-size: 13px;
-  }
-
-  .filters {
-    flex-wrap: wrap;
-    overflow-x: visible;
   }
 
   .story-list {
@@ -638,18 +529,9 @@ html.pointer-mode :focus-visible {
     top: calc(0.34em + 4px);
   }
 
-  .source-heading h2::before {
-    font-size: 15px;
-  }
-
-  .story-excerpt {
-    font-size: 13px;
-  }
-
   .page-footer {
     flex-direction: column;
     gap: 7px;
-    font-size: 12px;
   }
 }
 
@@ -704,13 +586,6 @@ html.pointer-mode :focus-visible {
   align-items: center;
   gap: 12px;
   margin-bottom: 28px;
-}
-
-.topic-label,
-.source-topic,
-.source-time-label {
-  color: var(--faint-copy);
-  font-size: 11px;
 }
 
 .topic-bar .filters {
@@ -852,17 +727,12 @@ html.pointer-mode :focus-visible {
 
 .source-group .story-card {
   overflow: visible;
-  border-radius: 0;
   background: transparent;
 }
 
 .source-group .story-title {
   padding-left: calc(0.72em + 10px);
   padding-left: calc(1cap + 10px);
-}
-
-.source-group .story-title::before {
-  left: 0;
 }
 
 .source-group .story-content {
@@ -966,17 +836,8 @@ html.pointer-mode :focus-visible {
     overflow-x: hidden;
   }
 
-  .latest-heading {
-    display: block;
-  }
-
   .topic-bar {
     display: block;
-  }
-
-  .topic-label {
-    display: block;
-    margin-bottom: 5px;
   }
 
   .source-list {

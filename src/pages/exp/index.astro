@@ -378,8 +378,6 @@ const palettes = {
     .experiment-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 14px 0 24px; border-bottom: 1px solid var(--rule); }
     .experiment-heading h1 { margin: 10px 0 2px; font-size: 25px; line-height: 1.2; font-weight: 600; letter-spacing: -0.025em; }
     .experiment-heading p { margin: 0; color: var(--muted-copy); font-size: 14px; }
-    .back-link { color: var(--muted-copy); font-size: 13px; }
-    .back-link:hover { color: var(--text); }
     .quiet-button, .text-button { border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
     .quiet-button { padding: 8px 11px; font-size: 12px; }
     .text-button { border-color: transparent; background: transparent; padding: 5px 3px; color: var(--muted-copy); font-size: 12px; }
@@ -447,7 +445,7 @@ const palettes = {
     .focus-mode #focus-preview { padding: 5px 8px; font-size: 11px; }
     .focus-mode .preview-frame-wrap { flex: 1; width: 100%; height: auto; min-height: 0; overflow: auto; }
     .focus-mode .preview-frame-wrap iframe { height: 100%; min-height: 0; }
-    .focus-mode .preview-frame-wrap.narrow { width: min(440px, 100%); border-right: 1px solid var(--rule); border-left: 1px solid var(--rule); }
+    .focus-mode .preview-frame-wrap.narrow { width: min(440px, 100%); }
     .experiment-shell :is(button, a, input, textarea):focus-visible { outline: 2px solid var(--theme-accent-text); outline-offset: 2px; }
     @media (max-width: 1000px) {
       .experiment-workspace { grid-template-columns: minmax(270px, 340px) minmax(0, 1fr); gap: 14px; }
@@ -458,10 +456,9 @@ const palettes = {
       .experiment-shell { width: calc(100% - 28px); padding-top: 14px; }
       .experiment-header { align-items: center; padding-bottom: 16px; }
       .experiment-workspace { grid-template-columns: minmax(0, 1fr); }
-      .preview-panel { grid-row: 1; }
+      .preview-panel { grid-row: 1; position: static; }
       .preview-frame-wrap { height: 62vh; min-height: 440px; }
       .preview-frame-wrap iframe { min-height: 650px; }
-      .preview-panel { position: static; }
       .preview-toolbar { flex-wrap: wrap; }
       .preview-date { display: none; }
       .focus-mode .preview-toolbar { flex: 0 0 auto; min-height: 40px; flex-wrap: nowrap; padding: 4px 8px; }

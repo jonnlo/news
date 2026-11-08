@@ -326,9 +326,7 @@ body:has(.source-navigation-page .source-picker:modal) {
 }
 
 .source-navigation-page .topic-bar .filter,
-.source-navigation-page .topic-bar .filter.active,
-.topic-bar.is-pinned .filter,
-.topic-bar.is-pinned .filter.active {
+.topic-bar.is-pinned .filter {
   border-radius: var(--ui-radius);
   transition: none;
   -webkit-tap-highlight-color: transparent;
@@ -449,10 +447,8 @@ body:has(.source-navigation-page .source-picker:modal) {
     background: color-mix(in srgb, var(--surface) 90%, var(--theme-accent-text));
   }
 
-  .source-navigation-page .topic-bar .filter,
-  .source-navigation-page .topic-bar .filter.active {
+  .source-navigation-page .topic-bar .filter {
     height: 32px;
-    font-size: 13px;
   }
 
   .source-navigation-page:has(.source-navigator) {
@@ -463,13 +459,10 @@ body:has(.source-navigation-page .source-picker:modal) {
     position: fixed;
     inset: auto 0 0;
     z-index: 40;
-    width: 100%;
     margin: 0;
     padding: 5px 10px calc(5px + var(--app-safe-bottom, 0px));
     border: 0;
     border-top: 1px solid var(--rule);
-    border-radius: 0;
-    background: var(--ground);
   }
 
   .source-navigation-page .navigator-switcher {
@@ -481,15 +474,12 @@ body:has(.source-navigation-page .source-picker:modal) {
     position: fixed;
     inset: auto 0 0;
     width: 100%;
-    max-width: none;
     max-height: min(84dvh, 760px);
     margin: 0;
-    border-radius: var(--ui-radius);
     border-bottom: 0;
   }
 
   .source-navigation-page .picker-sheet {
-    min-height: 0;
     max-height: min(84dvh, 760px);
     padding-bottom: calc(12px + var(--app-safe-bottom, 0px));
   }
@@ -529,7 +519,6 @@ body:has(.source-navigation-page .source-picker:modal) {
   }
 
   .source-navigation-page .picker-source-age {
-    font-size: 11px;
     font-variant-numeric: tabular-nums;
   }
 }
@@ -539,11 +528,8 @@ body:has(.source-navigation-page .source-picker:modal) {
     margin: 4px 12px 0;
     padding: 0 9px 20px;
   }
-}
 
-@media (min-width: 641px) {
   .source-navigation-page .picker-source-name {
-    font-size: 14px;
     font-weight: 500;
   }
 
@@ -551,22 +537,13 @@ body:has(.source-navigation-page .source-picker:modal) {
     position: sticky;
     z-index: 30;
     top: 0;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 12px;
     padding: 8px 0;
     margin-bottom: 14px;
     background: var(--ground);
   }
 
-  .source-navigation-page .topic-bar .filters {
-    min-width: 0;
-    margin: 0;
-  }
-
-  .source-navigation-page .topic-bar .filter,
-  .source-navigation-page .topic-bar .filter.active {
+  .source-navigation-page .topic-bar .filter {
     height: 36px;
     font-size: 14px;
   }
@@ -583,8 +560,6 @@ body:has(.source-navigation-page .source-picker:modal) {
     border-radius: 0;
     background: transparent;
     color: var(--text);
-    font-size: 13px;
-    font-weight: 600;
     font: inherit;
     cursor: pointer;
     transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
@@ -592,7 +567,6 @@ body:has(.source-navigation-page .source-picker:modal) {
 
   .source-navigation-page .desktop-source-search:hover {
     border-color: var(--faint-copy);
-    color: var(--text);
   }
 
   .source-navigation-page .desktop-source-search:focus-visible {

@@ -252,13 +252,15 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
     function updateGroups(scrollHandled: boolean) {
       let matching = 0;
+      const revealedGroups: HTMLElement[] = [];
       groups.forEach((group) => {
         const matches = selectedTopic === 'All' || group.dataset.category === selectedTopic;
-        group.hidden = !matches;
+        if (matches && group.hidden) revealedGroups.push(group);
+        if (group.hidden === matches) group.hidden = !matches;
         if (matches) matching += 1;
       });
       if (empty) empty.hidden = matching > 0;
-      refreshStoryHeights();
+      refreshRevealedStoryHeights(revealedGroups);
       document.dispatchEvent(new CustomEvent('sources-filtered', { detail: { scrollHandled } }));
     }
 
@@ -284,7 +286,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         filter.setAttribute('aria-pressed', String(active));
       });
       updateGroups(scrollHandled);
-      if (topicBar?.classList.contains('is-pinned')) updateScrollTopic();
+      if (!scrollHandled && topicBar?.classList.contains('is-pinned')) updateScrollTopic();
     }
 
     document.addEventListener('source-category-reset', () => selectTopic('All', true));
@@ -361,7 +363,9 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     }
 
     function resetGroupPages() {
-      groups.forEach((group) => setGroupPage(group, 1, false));
+      groups.forEach((group) => {
+        if (group.dataset.page !== '1') setGroupPage(group, 1, false);
+      });
     }
 
     function readTrackX(track: HTMLElement) {
@@ -547,6 +551,21 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       groups.forEach((group) => setGroupPage(group, Number(group.dataset.page) || 1, false));
     }
 
+    function refreshRevealedStoryHeights(revealedGroups: HTMLElement[]) {
+      const measurements = revealedGroups.flatMap((group) => {
+        const state = storyViewports.get(group);
+        const firstPanel = state?.panels[0];
+        return state && firstPanel ? [{ state, height: pageHeight(firstPanel) }] : [];
+      });
+      measurements.forEach(({ state, height }) => {
+        state.pageHeights.set(1, height);
+        if (state.viewport.style.height === `${height}px`) return;
+        state.viewport.classList.add('is-immediate');
+        state.viewport.style.height = `${height}px`;
+        requestAnimationFrame(() => state.viewport.classList.remove('is-immediate'));
+      });
+    }
+
     window.addEventListener('resize', refreshStoryHeights);
     document.fonts.ready.then(refreshStoryHeights);
 
@@ -562,8 +581,8 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         const top = target.getBoundingClientRect().top + window.scrollY - topicBar.offsetHeight - 8;
         const pinTop = Math.ceil(topicBarSlot.getBoundingClientRect().top + window.scrollY);
         window.scrollTo({ top: Math.max(pinTop, top), behavior: 'instant' });
-        updateScrollTopic();
       }
+      updateScrollTopic();
     }));
     let scrollPending = false;
     window.addEventListener('scroll', () => {

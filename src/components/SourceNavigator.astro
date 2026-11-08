@@ -84,6 +84,8 @@ const newestPublishedAt = (group: SourceCollection) => {
 </div>
 
 <script>
+  import { mobileTopicBarHeight } from '../mobile-topic-bar';
+
   const nav = document.querySelector<HTMLElement>('[data-source-navigator]');
   const sourceList = document.querySelector<HTMLElement>('#source-list');
   if (nav && sourceList) {
@@ -93,6 +95,8 @@ const newestPublishedAt = (group: SourceCollection) => {
     const currentName = nav.querySelector<HTMLElement>('[data-current-name]')!;
     const outgoingName = nav.querySelector<HTMLElement>('[data-outgoing-name]')!;
     const sourceSwitcher = nav.querySelector<HTMLButtonElement>('.navigator-current')!;
+    const mobileDock = window.matchMedia('(max-width: 640px)');
+    const topicSlot = document.querySelector<HTMLElement>('.topic-bar-slot');
     const reducedLabelMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const sourceTransitionDuration = 300;
     const springPeakAt = .62;
@@ -210,30 +214,21 @@ const newestPublishedAt = (group: SourceCollection) => {
       });
     }
 
-    function stickyOffset() {
-      if (window.matchMedia('(max-width: 640px)').matches) {
-        const stickyTopics = document.querySelector<HTMLElement>('.topic-bar.is-pinned');
-        if (stickyTopics) return stickyTopics.getBoundingClientRect().height + 12;
-        const chip = document.querySelector<HTMLElement>('.topic-bar .filter');
-        // The pinned bar uses one row of chips, with 20px of padding and a 1px border.
-        return (chip?.getBoundingClientRect().height ?? 32) + 21 + 12;
-      }
+    function stickyOffset(inset = 12) {
       const topicBar = document.querySelector<HTMLElement>('.topic-bar');
+      if (mobileDock.matches) return mobileTopicBarHeight(topicBar) + inset;
       return (topicBar?.getBoundingClientRect().height ?? 0) + 12;
     }
 
     function sourceScrollTop(group: HTMLElement) {
-      const top = group.getBoundingClientRect().top + window.scrollY - stickyOffset();
-      const topicSlot = window.matchMedia('(max-width: 640px)').matches
-        ? document.querySelector<HTMLElement>('.topic-bar-slot')
-        : null;
-      const pinTop = topicSlot ? Math.ceil(topicSlot.getBoundingClientRect().top + window.scrollY) : 0;
+      const top = group.getBoundingClientRect().top + window.scrollY - stickyOffset(mobileDock.matches ? 8 : 12);
+      const pinTop = mobileDock.matches && topicSlot ? Math.ceil(topicSlot.getBoundingClientRect().top + window.scrollY) : 0;
       return Math.max(0, pinTop, top);
     }
 
     function nextSource() {
       const first = visibleGroups[0];
-      if (first && window.matchMedia('(max-width: 640px)').matches && sourceScrollTop(first) - window.scrollY > 1) {
+      if (first && mobileDock.matches && sourceScrollTop(first) - window.scrollY > 1) {
         return first;
       }
       const index = current ? visibleGroups.indexOf(current) : -1;
@@ -255,15 +250,20 @@ const newestPublishedAt = (group: SourceCollection) => {
           return;
         }
 
-        animatedScrollTarget = undefined;
-        window.clearTimeout(pendingTimer);
-        pendingTarget = undefined;
-        document.documentElement.classList.remove('is-source-scrolling');
-        updateCurrentFromScroll();
-        if (focusDestination) group.focus({ preventScroll: true });
+        finishSourceScroll(group, focusDestination);
       }
 
       requestAnimationFrame(step);
+    }
+
+    function finishSourceScroll(group: HTMLElement, focusDestination: boolean) {
+      interruptPendingScroll();
+      if (mobileDock.matches) {
+        window.scrollTo({ top: sourceScrollTop(group), behavior: 'instant' });
+        document.dispatchEvent(new Event('source-scroll-settled'));
+      }
+      updateCurrentFromScroll();
+      if (focusDestination) group.focus({ preventScroll: true });
     }
 
     function jumpTo(group: HTMLElement, selected = true, focusDestination = false) {
@@ -283,11 +283,7 @@ const newestPublishedAt = (group: SourceCollection) => {
         document.documentElement.classList.add('is-source-scrolling');
         pendingTimer = window.setTimeout(() => {
           if (pendingTarget !== group) return;
-          animatedScrollTarget = undefined;
-          pendingTarget = undefined;
-          document.documentElement.classList.remove('is-source-scrolling');
-          updateCurrentFromScroll();
-          if (focusDestination) group.focus({ preventScroll: true });
+          finishSourceScroll(group, focusDestination);
         }, duration + 150);
         animateSourceScroll(group, top, duration, focusDestination);
         return;
@@ -297,6 +293,7 @@ const newestPublishedAt = (group: SourceCollection) => {
         updateCurrentFromScroll();
       }, 100);
       window.scrollTo({ top, behavior: 'instant' });
+      if (mobileDock.matches) document.dispatchEvent(new Event('source-scroll-settled'));
       if (focusDestination) group.focus({ preventScroll: true });
     }
 
@@ -465,8 +462,7 @@ const newestPublishedAt = (group: SourceCollection) => {
     function updateCurrentFromScroll() {
       if (!visibleGroups.length) return;
       if (pendingTarget && visibleGroups.includes(pendingTarget)) return;
-      const mobileDock = window.matchMedia('(max-width: 640px)').matches;
-      const threshold = mobileDock
+      const threshold = mobileDock.matches
         ? stickyOffset() + 24
         : (document.querySelector<HTMLElement>('.topic-bar')?.getBoundingClientRect().height ?? 0) + 36;
       let anchor = visibleGroups[0];
@@ -503,6 +499,18 @@ const newestPublishedAt = (group: SourceCollection) => {
     }
     window.addEventListener('wheel', interruptPendingScroll, { passive: true });
     window.addEventListener('touchstart', interruptPendingScroll, { passive: true });
+    mobileDock.addEventListener('change', interruptPendingScroll);
+    document.addEventListener('mobile-category-jump', (event) => {
+      if (!mobileDock.matches || !topicSlot || !(event instanceof CustomEvent)) return;
+      const target = event.detail;
+      interruptPendingScroll();
+      const top = target instanceof HTMLElement
+        ? sourceScrollTop(target)
+        : Math.floor(topicSlot.getBoundingClientRect().top + window.scrollY) - 1;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'instant' });
+      document.dispatchEvent(new Event('source-scroll-settled'));
+      updateCurrentFromScroll();
+    });
     document.addEventListener('sources-filtered', (event) => {
       if (event instanceof CustomEvent && event.detail?.scrollHandled) {
         interruptPendingScroll();

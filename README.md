@@ -26,7 +26,7 @@ npm run build
 
 With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories and sources. Keystatic uses local storage here; changes are saved to the project files.
 
-On mobile, the bottom source switcher provides previous/next source buttons within the selected topic. On desktop, the category filters stay at the top while scrolling, with a source search icon beside them. The searchable source list always includes all sources; choosing a source outside the selected topic switches to All before jumping to it. The `/navigation/` preview URL also opens this view.
+On mobile, category chips jump to the first source in each topic and **All** returns to the start of the feed. The pinned bar follows the category as you scroll. The bottom source switcher jumps to individual publishers and steps through the full feed. On desktop, the sticky category bar filters the grid. The source picker includes all publishers, and choosing one outside the desktop filter switches to **All** before jumping to it. A category link opens at that topic on mobile and filters the grid on desktop. The `/navigation/` preview URL also opens this view.
 
 `npm run collect -- --output=/tmp/digest-sample` writes a one-off collection to a separate directory instead of replacing a checked-in edition.
 

@@ -183,14 +183,36 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
   </main>
 
   <script>
+    import { mobileTopicBarHeight } from '../mobile-topic-bar';
+
     const topicBar = document.querySelector<HTMLElement>('.topic-bar');
     const mobile = window.matchMedia('(max-width: 640px)');
     const topicBarSlot = document.querySelector<HTMLElement>('.topic-bar-slot');
     const filters = [...document.querySelectorAll<HTMLButtonElement>('.filter')];
     const groups = [...document.querySelectorAll<HTMLElement>('.source-group')];
     const empty = document.querySelector<HTMLElement>('.empty-state');
+    const topicTargets = new Map<string, HTMLElement>();
+    for (const group of groups) {
+      const topic = group.dataset.category;
+      if (topic && !topicTargets.has(topic)) topicTargets.set(topic, group);
+    }
     let selectedTopic = 'All';
     let scrollTopic: string | undefined;
+
+    function highlightTopic(topic: string) {
+      filters.forEach((filter) => {
+        const active = filter.dataset.filter === topic;
+        filter.classList.toggle('active', active);
+        if (mobile.matches) {
+          filter.removeAttribute('aria-pressed');
+          if (active) filter.setAttribute('aria-current', 'location');
+          else filter.removeAttribute('aria-current');
+        } else {
+          filter.removeAttribute('aria-current');
+          filter.setAttribute('aria-pressed', String(active));
+        }
+      });
+    }
 
     function syncStickyVisibility(remeasure = false) {
       if (!topicBar || !topicBarSlot) return;
@@ -203,15 +225,11 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         topicBarSlot.style.height = `${topicBarSlot.getBoundingClientRect().height}px`;
         topicBar.classList.add('is-pinned');
         scrollTopic = undefined;
-        updateScrollTopic();
       } else {
         scrollTopic = undefined;
-        filters.forEach((filter) => {
-          const active = filter.dataset.filter === selectedTopic;
-          filter.classList.toggle('active', active);
-          filter.setAttribute('aria-pressed', String(active));
-        });
+        highlightTopic(mobile.matches ? 'All' : selectedTopic);
       }
+      updateScrollTopic();
     }
 
     function revealActiveChip() {
@@ -227,21 +245,15 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
     function updateScrollTopic() {
       if (!topicBar || !topicBar.classList.contains('is-pinned')) return;
-      const visible = groups.filter((group) => !group.hidden);
-      const threshold = topicBar.getBoundingClientRect().height + 12;
-      let current = visible[0];
-      for (const group of visible) {
-        if (group.getBoundingClientRect().top > threshold) break;
-        current = group;
+      const threshold = mobileTopicBarHeight(topicBar) + 12;
+      let topic = 'All';
+      for (const [category, firstSource] of topicTargets) {
+        if (firstSource.getBoundingClientRect().top > threshold) break;
+        topic = category;
       }
-      const topic = current?.dataset.category ?? selectedTopic;
       if (scrollTopic === topic) return;
       scrollTopic = topic;
-      topicBar.querySelectorAll<HTMLButtonElement>('.filter').forEach((filter) => {
-        const active = filter.dataset.filter === topic;
-        filter.classList.toggle('active', active);
-        filter.setAttribute('aria-pressed', String(active));
-      });
+      highlightTopic(topic);
       revealActiveChip();
     }
 
@@ -250,7 +262,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       return filters.some((filter) => filter.dataset.filter === requested) ? requested! : 'All';
     }
 
-    function updateGroups(scrollHandled: boolean) {
+    function updateGroups(scrollHandled = false) {
       let matching = 0;
       const revealedGroups: HTMLElement[] = [];
       groups.forEach((group) => {
@@ -264,14 +276,13 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       document.dispatchEvent(new CustomEvent('sources-filtered', { detail: { scrollHandled } }));
     }
 
-    function selectTopic(topic: string, updateUrl: boolean, scrollHandled = false) {
+    function selectTopic(topic: string, updateUrl: boolean) {
       const button = filters.find((filter) => filter.dataset.filter === topic)
         ?? filters.find((filter) => filter.dataset.filter === 'All');
       if (!button) return;
       const nextTopic = button.dataset.filter ?? 'All';
       if (nextTopic !== selectedTopic) resetGroupPages();
       selectedTopic = nextTopic;
-      scrollTopic = undefined;
 
       if (updateUrl && selectedTopic !== topicFromUrl()) {
         const url = new URL(window.location.href);
@@ -280,16 +291,13 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         window.history.pushState({}, '', url);
       }
 
-      filters.forEach((filter) => {
-        const active = filter.dataset.filter === selectedTopic;
-        filter.classList.toggle('active', active);
-        filter.setAttribute('aria-pressed', String(active));
-      });
-      updateGroups(scrollHandled);
-      if (!scrollHandled && topicBar?.classList.contains('is-pinned')) updateScrollTopic();
+      highlightTopic(selectedTopic);
+      updateGroups();
     }
 
-    document.addEventListener('source-category-reset', () => selectTopic('All', true));
+    document.addEventListener('source-category-reset', () => {
+      if (!mobile.matches) selectTopic('All', true);
+    });
 
     const reducedStoryMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const storyViewports = new Map<HTMLElement, {
@@ -569,20 +577,48 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     window.addEventListener('resize', refreshStoryHeights);
     document.fonts.ready.then(refreshStoryHeights);
 
+    function jumpToMobileTopic(topic: string) {
+      const target = topicTargets.get(topic);
+      if (target || topic === 'All') {
+        document.dispatchEvent(new CustomEvent('mobile-category-jump', { detail: target ?? null }));
+      }
+    }
+
+    function syncCategoryMode(preserveSource = false) {
+      if (topicBar) {
+        topicBar.setAttribute('aria-label', mobile.matches ? 'Jump to a topic' : 'Filter headlines by topic');
+      }
+      filters.forEach((filter) => {
+        const topic = filter.dataset.filter ?? 'All';
+        filter.disabled = mobile.matches && topic !== 'All' && !topicTargets.has(topic);
+      });
+      if (mobile.matches) {
+        let anchor: HTMLElement | undefined;
+        if (preserveSource && window.scrollY > 0) {
+          const readingLine = (topicBar?.getBoundingClientRect().height ?? 0) + 12;
+          for (const group of groups) {
+            if (group.hidden) continue;
+            const top = group.getBoundingClientRect().top;
+            if (top >= window.innerHeight || (anchor && top > readingLine)) break;
+            anchor = group;
+          }
+        }
+        if (selectedTopic !== 'All') {
+          selectedTopic = 'All';
+          updateGroups(true);
+        }
+        syncStickyVisibility(true);
+        if (anchor) document.dispatchEvent(new CustomEvent('mobile-category-jump', { detail: anchor }));
+      } else {
+        syncStickyVisibility(true);
+        selectTopic(topicFromUrl(), false);
+      }
+    }
+
     filters.forEach((button) => button.addEventListener('click', () => {
       const topic = button.dataset.filter ?? 'All';
-      if (!topicBar?.classList.contains('is-pinned') || !topicBarSlot) {
-        selectTopic(topic, true);
-        return;
-      }
-      selectTopic(topic, true, true);
-      const target = groups.find((group) => !group.hidden);
-      if (target) {
-        const top = target.getBoundingClientRect().top + window.scrollY - topicBar.offsetHeight - 8;
-        const pinTop = Math.ceil(topicBarSlot.getBoundingClientRect().top + window.scrollY);
-        window.scrollTo({ top: Math.max(pinTop, top), behavior: 'instant' });
-      }
-      updateScrollTopic();
+      if (mobile.matches) jumpToMobileTopic(topic);
+      else selectTopic(topic, true);
     }));
     let scrollPending = false;
     window.addEventListener('scroll', () => {
@@ -594,11 +630,31 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         updateScrollTopic();
       });
     }, { passive: true });
-    mobile.addEventListener('change', () => syncStickyVisibility(true));
+    document.addEventListener('source-scroll-settled', () => {
+      syncStickyVisibility();
+      updateScrollTopic();
+    });
+    if (topicBar) new ResizeObserver(updateScrollTopic).observe(topicBar);
+    mobile.addEventListener('change', () => syncCategoryMode(true));
     window.addEventListener('resize', () => syncStickyVisibility(true));
     document.fonts.ready.then(() => syncStickyVisibility(true));
-    window.addEventListener('popstate', () => selectTopic(topicFromUrl(), false));
-    selectTopic(topicFromUrl(), false);
-    syncStickyVisibility();
+    window.addEventListener('popstate', () => {
+      if (!mobile.matches) selectTopic(topicFromUrl(), false);
+    });
+    syncCategoryMode();
+    const initialTopic = topicFromUrl();
+    if (mobile.matches && topicTargets.has(initialTopic)) {
+      const initialJump = new AbortController();
+      const cancelInitialJump = () => initialJump.abort();
+      const options = { signal: initialJump.signal, passive: true };
+      window.addEventListener('pointerdown', cancelInitialJump, options);
+      window.addEventListener('keydown', cancelInitialJump, options);
+      window.addEventListener('wheel', cancelInitialJump, options);
+      mobile.addEventListener('change', cancelInitialJump, options);
+      document.fonts.ready.then(() => requestAnimationFrame(() => {
+        if (!initialJump.signal.aborted) jumpToMobileTopic(initialTopic);
+        initialJump.abort();
+      }));
+    }
   </script>
 </Layout>

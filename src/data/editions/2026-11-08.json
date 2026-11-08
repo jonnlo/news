@@ -2,199 +2,27 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T11:17:10.311Z",
-  "collectedAt": "2026-11-08T11:17:10.311Z",
+  "generatedAt": "2026-11-08T12:17:10.971Z",
+  "collectedAt": "2026-11-08T12:17:10.971Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 76,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    },
+    {
+      "source": "Mekong Review",
+      "error": "fetch failed"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
       "category": "Technology",
       "kind": "hackernews",
-      "count": 20,
-      "stories": [
-        {
-          "title": "GitHub Down Again?",
-          "url": "https://github.com/torvalds/linux",
-          "publishedAt": "2026-11-08T09:56:07.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50411818"
-        },
-        {
-          "title": "a",
-          "url": "http://a.com",
-          "publishedAt": "2026-11-08T09:44:14.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50411767"
-        },
-        {
-          "title": "I'm Rewriting IBM SPSS Statistics in 100% Safe Rust, Alone",
-          "url": "https://github.com/kobaltgit/StatCraft",
-          "publishedAt": "2026-11-08T08:53:43.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50411522"
-        },
-        {
-          "title": "Agent memory needs its OpenTelemetry moment",
-          "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-          "publishedAt": "2026-11-08T08:40:23.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50411467"
-        },
-        {
-          "title": "WaveDudeNext 2D Wave Simulator",
-          "url": "https://github.com/graealex/WaveDudeNext",
-          "publishedAt": "2026-11-08T07:09:02.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50411083"
-        },
-        {
-          "title": "Kirlian Photography: Building Your Own Equipment",
-          "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
-          "publishedAt": "2026-11-08T04:14:12.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50410359"
-        },
-        {
-          "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
-          "url": "https://github.com/dmunozv04/isponsorblocktv",
-          "publishedAt": "2026-11-08T03:47:19.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50410249"
-        },
-        {
-          "title": "Goodbye Claude, Hello Pi",
-          "url": "https://caleb.software/posts/claude-to-pi.html",
-          "publishedAt": "2026-11-08T03:11:48.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
-        },
-        {
-          "title": "Consumer brain wave headsets threaten privacy",
-          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-          "publishedAt": "2026-11-08T02:02:38.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50409856"
-        },
-        {
-          "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
-          "url": "https://github.com/crmne/zapfast",
-          "publishedAt": "2026-11-08T02:02:27.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50409855"
-        },
-        {
-          "title": "Commodore PET – The Worlds First Personal Computer",
-          "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
-          "publishedAt": "2026-11-07T23:15:34.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50408961"
-        },
-        {
-          "title": "GitHub New pull request overview page in public preview",
-          "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-          "publishedAt": "2026-11-07T23:09:40.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50408931"
-        },
-        {
-          "title": "Making any integer with four 2s (2025)",
-          "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
-          "publishedAt": "2026-11-07T22:38:58.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50408713"
-        },
-        {
-          "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-          "publishedAt": "2026-11-07T20:45:32.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
-        },
-        {
-          "title": "What I run on my $10 USD OpenStick homelab",
-          "url": "https://blog.bosscher.ch/posts/openstick/",
-          "publishedAt": "2026-11-07T18:12:12.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
-        },
-        {
-          "title": "The end of Microsoft Research's AI Frontiers group",
-          "url": "https://hunch.net/?p=13764006",
-          "publishedAt": "2026-11-07T18:02:17.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50406563"
-        },
-        {
-          "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-          "url": "https://github.com/hedgerow-dev/coldframe",
-          "publishedAt": "2026-11-07T17:27:30.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50406292"
-        },
-        {
-          "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-          "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-          "publishedAt": "2026-11-07T17:19:00.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50406222"
-        },
-        {
-          "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
-          "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
-          "publishedAt": "2026-11-07T17:06:36.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50406111"
-        },
-        {
-          "title": "Every processor die anyone has photographed and given away",
-          "url": "https://sheets.works/data-viz/cpu-dies",
-          "publishedAt": "2026-11-07T16:21:36.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50405782"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Verge",
@@ -371,6 +199,30 @@
       "count": 20,
       "stories": [
         {
+          "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs",
+          "url": "https://www.wired.com/gallery/best-computer-speakers/",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "excerpt": "After testing 30 pairs of computer speakers, these are the best computer speakers—from stereo speakers to subwoofers to surround sound systems.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "excerpt": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "Wandrd’s Magnetic Camera Straps Are My New Favorite Accessory",
+          "url": "https://www.wired.com/story/wandrd-magnetic-camera-straps-are-my-new-favorite-accessory/",
+          "publishedAt": "2026-11-08T11:30:00.000Z",
+          "excerpt": "More evidence that magnets are magical.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
           "title": "How to Remind Your Boss of Your PTO Without Pissing Them Off",
           "url": "https://www.wired.com/story/how-to-remind-your-boss-about-your-vacation/",
           "publishedAt": "2026-11-08T11:00:00.000Z",
@@ -467,18 +319,18 @@
           "category": "Technology"
         },
         {
-          "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
-          "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
           "title": "Ecoflow Rapid Pro Power Bank Deal: Save $80",
           "url": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/",
           "publishedAt": "2026-11-07T11:00:00.000Z",
           "excerpt": "With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+          "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+          "publishedAt": "2026-11-07T11:00:00.000Z",
+          "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
           "source": "WIRED",
           "category": "Technology"
         },
@@ -503,30 +355,6 @@
           "url": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
           "publishedAt": "2026-11-06T22:31:15.000Z",
           "excerpt": "Tesla’s biggest failure is the second massive EV to get the axe within the last year, while smaller vehicles are proliferating. It could be a huge benefit for the US battery supply chain.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
-          "title": "How Stephen Miller Schemed His Way to the Top",
-          "url": "https://www.wired.com/story/how-stephen-miller-schemed-his-way-to-the-top/",
-          "publishedAt": "2026-11-06T21:10:02.000Z",
-          "excerpt": "The architect of the Trump administration’s brutal crackdowns on immigration and dissent was already known as “the prime minister.” Now he’ll work as the chief of staff.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
-          "title": "Rocco’s Black Friday Sale: Smart Fridges Hit Their Lowest Prices of 2026",
-          "url": "https://www.wired.com/story/rocco-black-friday-sale-2026/",
-          "publishedAt": "2026-11-06T18:54:21.000Z",
-          "excerpt": "The new Essential and certain colors of the original Classic are at their lowest prices of the year.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
-          "title": "Early Black Friday Mattress Deals: Get Up to 35% Off WIRED-Tested Favorites",
-          "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-6-2026/",
-          "publishedAt": "2026-11-06T18:51:27.000Z",
-          "excerpt": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
           "source": "WIRED",
           "category": "Technology"
         }
@@ -1645,6 +1473,33 @@
       "count": 20,
       "stories": [
         {
+          "title": "How to watch England vs Australia: FREE live streams, TV channels for Nations Championship 2026 game",
+          "url": "https://www.techradar.com/entertainment/rugby/watch-england-vs-australia-free-nations-championship-2026-free",
+          "publishedAt": "2026-11-08T12:10:00.000Z",
+          "excerpt": "All the ways to watch England vs Australia for free from anywhere, as Steve Borthwick's men host the Wallabies in Nations Championship 2026 at Twickenham.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "'Getting the job done should also be a natural thing': Zoom lays out its plans to use AI and context to be even more of a useful workplace assistant",
+          "url": "https://www.techradar.com/pro/getting-the-job-done-should-also-be-a-natural-thing",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "excerpt": "Zoom's next era looks to enrich the user experience with greater AI tools and insights than ever before.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The iPhone has a 'gray list' of words and phrases that won't auto-complete",
+          "url": "https://www.techradar.com/phones/ios/a-very-light-touch-form-of-censorship-the-iphone-has-a-gray-list-of-words-and-phrases-that-apple-wont-auto-complete-for-you",
+          "publishedAt": "2026-11-08T11:30:00.000Z",
+          "excerpt": "Researchers and reporters have discovered that some words and phrases are banned from auto-complete and swipe typing.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Audio-Technica AT-LP7X review: a beautiful and easy to use turntable that's just a shade off excellent, sonically speaking",
           "url": "https://www.techradar.com/audio/turntables/audio-technica-at-lp7x-review",
           "publishedAt": "2026-11-08T11:00:00.000Z",
@@ -1793,33 +1648,6 @@
           "url": "https://www.techradar.com/gaming/retail-world-of-warcraft-is-one-lonely-treadmill-fortunately-classic-and-forever-remind-us-that-it-doesnt-have-to-be",
           "publishedAt": "2026-11-07T20:00:00.000Z",
           "excerpt": "A study in isolation: Why modern World of Warcraft doesn’t hold a candle to Forever or Classic.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Accenture accused of publishing major research full of AI hallucinations — paper featured as many as 15 fictitious citations and case studies",
-          "url": "https://www.techradar.com/pro/accenture-accused-of-publishing-major-research-full-of-ai-hallucinations-paper-featured-as-many-as-15-fictitious-citations-and-case-studies",
-          "publishedAt": "2026-11-07T19:05:00.000Z",
-          "excerpt": "A new paper from Accenture called “Leapfrogging Development” appears to have been produced using AI, and features as many as 15 fictitious citations and case studies.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Hostinger slashes Premium hosting prices by 87% this Black Friday",
-          "url": "https://www.techradar.com/pro/hostinger-slashes-87-percent-off-its-premium-web-hosting-for-black-friday-and-our-exclusive-techradar-code-reduces-the-price-even-more",
-          "publishedAt": "2026-11-07T18:20:00.000Z",
-          "excerpt": "Hostinger's Premium hosting gets a massive Black Friday discount, and our exclusive code takes another 10% off eligible plans.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Creative XF1 review: although not truly perfect, these active desktop speakers get pretty close for not a lot of money",
-          "url": "https://www.techradar.com/audio/speakers/creative-xf1-review",
-          "publishedAt": "2026-11-07T18:00:00.000Z",
-          "excerpt": "Creative is no stranger to the affordable-yet-high-achieving speaker system — and with the XF1 it will be hoping lightning will strike for the umpteenth time…",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -2352,6 +2180,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "How to make a detailed 3D landscape using Photoshop, Cinema 4D and ZBrush",
+          "url": "https://www.creativebloq.com/how-to/how-to-make-a-detailed-3d-landscape-using-photoshop-with-cinema-4d-and-zbrush",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "excerpt": "Sci-fi and fantasy artist Calder Moore breaks down his process for creating a dark fantasy landscape into clear manageable tasks.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "The cleverest GTA VI adverts don't even show the game",
           "url": "https://www.creativebloq.com/news/the-cleverest-gta-vi-adverts-dont-even-show-the-game",
           "publishedAt": "2026-11-08T10:00:00.000Z",
@@ -2518,15 +2355,6 @@
           "url": "https://www.creativebloq.com/deals/finally-a-cd-player-that-doesnt-look-like-a-plastic-y2k-nightmare",
           "publishedAt": "2026-11-06T09:00:00.000Z",
           "excerpt": "Get 15% off the ultimate IT GIRL home accessory.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Evercade Nexus review: Banjo-Kazooie and Doom make this retro handheld a must-have",
-          "url": "https://www.creativebloq.com/reviews/evercade-nexus-review-banjo-kazooie-makes-this-retro-handheld-a-must-have",
-          "publishedAt": "2026-11-06T08:00:00.000Z",
-          "excerpt": "It's a Rare thing.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
@@ -3884,6 +3712,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "When Writers Lose Faith in Free Speech",
+          "url": "https://www.theatlantic.com/ideas/2026/11/philip-roth-political-novelists/689337/?utm_source=feed",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "excerpt": "Writers have to maintain an inner distance from external demands, including the demands of politics.",
+          "source": "The Atlantic",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Memories of the Train",
           "url": "https://www.theatlantic.com/magazine/2026/12/siqi-liu-memories-of-the-train/689026/?utm_source=feed",
           "publishedAt": "2026-11-07T14:00:00.000Z",
@@ -3965,19 +3802,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The Pope Confronts One of His Toughest Political Challenges",
-          "url": "https://www.theatlantic.com/ideas/2026/11/pope-leo-south-america-right-wing/689316/?utm_source=feed",
+          "title": "In Front of Their Noses",
+          "url": "https://www.theatlantic.com/ideas/2026/11/democrats-midterms-trump-maga/689315/?utm_source=feed",
           "publishedAt": "2026-11-06T12:00:00.000Z",
-          "excerpt": "Leo’s upcoming trip to South America is an early test of how he will handle the rise of right-wing populists.",
+          "excerpt": "Why did so many highly intelligent people refuse to believe that a self-destructive administration would actually self-destruct?",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "In Front of Their Noses",
-          "url": "https://www.theatlantic.com/ideas/2026/11/democrats-midterms-trump-maga/689315/?utm_source=feed",
+          "title": "The Pope Confronts One of His Toughest Political Challenges",
+          "url": "https://www.theatlantic.com/ideas/2026/11/pope-leo-south-america-right-wing/689316/?utm_source=feed",
           "publishedAt": "2026-11-06T12:00:00.000Z",
-          "excerpt": "Why did so many highly intelligent people refuse to believe that a self-destructive administration would actually self-destruct?",
+          "excerpt": "Leo’s upcoming trip to South America is an early test of how he will handle the rise of right-wing populists.",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4053,15 +3890,6 @@
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "A Good Night for the Christian Faith",
-          "url": "https://www.theatlantic.com/ideas/2026/11/midterms-christianity-talarico-hamilton/689299/?utm_source=feed",
-          "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "A pair of victories may do much to help the Democratic Party—and even more for the evangelical world.",
-          "source": "The Atlantic",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -4117,6 +3945,15 @@
           "sourceRole": "publisher"
         },
         {
+          "title": "“Wicker” and What Straight Women Want",
+          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+          "publishedAt": "2026-11-07T11:00:00.000Z",
+          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
+          "source": "The New Yorker",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Good Enough for a Tuesday Night",
           "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
           "publishedAt": "2026-11-07T11:00:00.000Z",
@@ -4130,15 +3967,6 @@
           "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
           "publishedAt": "2026-11-07T11:00:00.000Z",
           "excerpt": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
-          "source": "The New Yorker",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "“Wicker” and What Straight Women Want",
-          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -9267,189 +9095,8 @@
       "name": "Mekong Review",
       "category": "Literature",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "The death of a scammer Tonggo Simangunsong",
-          "url": "https://mekongreview.com/the-death-of-a-scammer/",
-          "publishedAt": "2026-11-08T02:00:13.000Z",
-          "excerpt": "Between climate change and a lack of jobs at home, working-class Indonesians are increasingly vulnerable to recruitment by scam syndicates in countries like Cambodia. The post The death of a scammer Tonggo Simangunsong appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "When the tigers become rats Jake Adelstein",
-          "url": "https://mekongreview.com/when-the-tigers-become-rats/",
-          "publishedAt": "2026-11-08T00:59:10.000Z",
-          "excerpt": "With Yakuza: A 400-Year History of the Japanese Underworld, Andrew Rankin provides the clearest and best-sourced narrative history of the yakuza in English. The post When the tigers become rats Jake Adelstein appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Chronicler of insurgencies Kristian Odebjer",
-          "url": "https://mekongreview.com/chronicler-of-insurgencies/",
-          "publishedAt": "2026-11-08T00:58:15.000Z",
-          "excerpt": "Bertil Lintner on what first drew his interest in Southeast Asia, his family’s long trek across northern Burma in the 1980s, and his long-standing connection to Burma and its people. The post Chronicler of insurgencies Kristian Odebjer appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The ineligibles Thammika Songkaeo",
-          "url": "https://mekongreview.com/the-ineligibles/",
-          "publishedAt": "2026-11-08T00:56:03.000Z",
-          "excerpt": "When BTS refused to submit their music to the Grammys for consideration, artists worldwide were filled with pride but also envy. Many know that to walk away from the table, one must first be invited to sit down. The post The ineligibles Thammika Songkaeo appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Chasing the burning pearl Angela Sim",
-          "url": "https://mekongreview.com/chasing-the-burning-pearl/",
-          "publishedAt": "2026-11-08T00:52:33.000Z",
-          "excerpt": "It begins with the scent of dry straw and the hands of devotees, but ends in a 72.5 metre roar of smoke and light. A tradition that survived the 1880s is being woven back to life, one joss stick at a time. The post Chasing the burning pearl Angela Sim appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The state and the sin Rafly Gilang Pratama",
-          "url": "https://mekongreview.com/the-state-and-the-sin/",
-          "publishedAt": "2026-11-08T00:52:17.000Z",
-          "excerpt": "Prabowo’s government now calls the “spread of LGBTQ culture” a non-military threat. Rafly Gilang Pratama grew up in Indonesia carrying some of the same prejudice. The post The state and the sin Rafly Gilang Pratama appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Hong Kong story in fiction Jennifer Eagleton",
-          "url": "https://mekongreview.com/the-hong-kong-story-in-fiction/",
-          "publishedAt": "2026-11-08T00:50:32.000Z",
-          "excerpt": "As authoritarian control makes it increasingly difficult to engage in ‘hard’ resistance and confront power directly, fiction can step in to tease out the things that might otherwise go unsaid. The post The Hong Kong story in fiction Jennifer Eagleton appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "On their own terms Calla Lim",
-          "url": "https://mekongreview.com/on-their-own-terms/",
-          "publishedAt": "2026-11-08T00:48:20.000Z",
-          "excerpt": "The lives and experiences of queer Singaporeans should not be ignored any further, and books like SQ21 - Families and Fearfully & Wonderfully Made place these stories front and centre. The post On their own terms Calla Lim appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The “very nice” funeral Lila Roberts",
-          "url": "https://mekongreview.com/the-very-nice-funeral/",
-          "publishedAt": "2026-11-08T00:46:53.000Z",
-          "excerpt": "According to Aluk Todolo, the indigenous religion of the Toraja in the Tana Toraja highlands of Sulawesi, death is not a single event but a passage to Puya, the spirit world. The post The “very nice” funeral Lila Roberts appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Rave culture Erin Hale",
-          "url": "https://mekongreview.com/rave-culture/",
-          "publishedAt": "2026-11-08T00:44:52.000Z",
-          "excerpt": "More than thirty years after the first rave, Taiwan’s rave scene is once again booming, thanks to a surging global interest in electronic and techno music and a new generation of social media–savvy organisers. The post Rave culture Erin Hale appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "When Ranto Reads Poetry Every Morning Wawan Kurniawan",
-          "url": "https://mekongreview.com/when-ranto-reads-poetry-every-morning/",
-          "publishedAt": "2026-11-08T00:42:24.000Z",
-          "excerpt": "A short story by Wawan Kurniawan, translated from Indonesian by the author. The post When Ranto Reads Poetry Every Morning Wawan Kurniawan appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Learning journeys Tamar Herman",
-          "url": "https://mekongreview.com/learning-journeys/",
-          "publishedAt": "2026-11-08T00:40:28.000Z",
-          "excerpt": "Michelle Cho and Joe Lim of Singing Beetle on the company’s first K-pop group, 1VERSE, and their vision of a space that looks out for artists’ happiness, mental health, and ability to make a sustainable living. The post Learning journeys Tamar Herman appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "To inhabit a chimera self Arathi Devandran",
-          "url": "https://mekongreview.com/to-inhabit-a-chimera-self/",
-          "publishedAt": "2026-11-08T00:38:34.000Z",
-          "excerpt": "Belonging is of our own making, and it can look like a space just about wide enough to hold all our mismatched parts. The post To inhabit a chimera self Arathi Devandran appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Dancing in shackles Martin Laflamme",
-          "url": "https://mekongreview.com/dancing-in-shackles/",
-          "publishedAt": "2026-11-08T00:36:36.000Z",
-          "excerpt": "Read together, three books on China take us through short-lived periods of openness, political shifts, and reminders that present realities may not last forever. The post Dancing in shackles Martin Laflamme appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Carried in silk Khoa Nguyen",
-          "url": "https://mekongreview.com/carried-in-silk/",
-          "publishedAt": "2026-11-08T00:34:30.000Z",
-          "excerpt": "For some, wearing áo dài can feel like a hindrance. For others, it’s the only extravagance they have. The post Carried in silk Khoa Nguyen appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The afterlife of memory Xinrou Shu",
-          "url": "https://mekongreview.com/the-afterlife-of-memory/",
-          "publishedAt": "2026-11-08T00:32:21.000Z",
-          "excerpt": "Tiananmen Square is a major tourist attraction, but it also carries a far greater political meaning. While working as a fixer for a foreign production crew, a young Beijing native reflects on memory, presence, and silence. The post The afterlife of memory Xinrou Shu appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Survival requires small fictions Shumin Tan",
-          "url": "https://mekongreview.com/survival-requires-small-fictions/",
-          "publishedAt": "2026-11-08T00:30:21.000Z",
-          "excerpt": "Adorable by Wan Phing Lim makes attempts to make sense of things visible: coping mechanisms appear not as background habits but as part of the very fabric of social reality. The post Survival requires small fictions Shumin Tan appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Messy realities Ja Ian Chong",
-          "url": "https://mekongreview.com/messy-realities/",
-          "publishedAt": "2026-11-08T00:28:37.000Z",
-          "excerpt": "Works like Blood Dawn: World War II and the Making of Modern Asia highlight how prone people everywhere can be to excess, even violence, as they pursue competing political visions and ambitions. The post Messy realities Ja Ian Chong appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Lung Examination of a Single Xin Ru, translated from Chinese by Zheng Wei",
-          "url": "https://mekongreview.com/lung-examination-of-a-single/",
-          "publishedAt": "2026-11-07T00:26:53.000Z",
-          "excerpt": "A poem by Xin Ru, translated from Chinese by Zheng Wei. The post Lung Examination of a Single Xin Ru, translated from Chinese by Zheng Wei appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The cost of visibility Nathalie Chi",
-          "url": "https://mekongreview.com/the-cost-of-visibility/",
-          "publishedAt": "2026-08-09T13:50:39.000Z",
-          "excerpt": "For the Tibetan community in London, the upcoming Chinese mega-embassy at Royal Mint Court is just another physical manifestation of the surveillance and climate of fear they have to navigate. The post The cost of visibility Nathalie Chi appeared first on Mekong Review .",
-          "source": "Mekong Review",
-          "category": "Literature",
-          "sourceRole": "publisher"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Marginalian",
@@ -9971,19 +9618,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to take notes that actually help you learn",
-          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+          "title": "Who am I if I don’t run?",
+          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Who am I if I don’t run?",
-          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+          "title": "How to take notes that actually help you learn",
+          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -11606,10 +11253,74 @@
       "count": 20,
       "stories": [
         {
-          "title": "WTA香港賽︱伊雅娜紮住上負劉婧文奪亞 菲律賓甜心仍為賽季感自豪",
-          "url": "https://hk01.com/sns/article/60408450",
-          "publishedAt": "2026-11-08T11:08:23.000Z",
-          "excerpt": "在維園猶如擁有主場之利的菲律賓「甜心」伊雅娜（Alexandra Eala），成功殺入WTA香港網球公開賽女單決賽，惟今日（8日）面對美籍華裔劉婧文（Claire Liu）全場陷入下風，以3：6、0：6敗陣，與生涯WTA第二冠擦身而過，但網球女單世界排名仍將再創新高，進一步升上第15位。 WTA香港賽︱伊雅娜決賽紮住上，不敵美籍華裔劉婧文獲亞軍。（Getty Images） 來到賽季最後一項比賽，兩位球手都要帶傷上陣，伊雅娜右大腿重重包紮，劉婧文的右膝同樣「紮住上」。首盤雙方皆把握到打破對手發球局的機會，伊雅娜一次「破發」，不及兩度「破發」的劉婧文，以3：6先輸第一盤。劉婧文領先下愈戰愈勇，第",
+          "title": "玫瑰戰爭丨陳自瑤慘遭好姊妹姚子羚設局 被落迷姦水送上床陪客",
+          "url": "https://hk01.com/sns/article/60408421",
+          "publishedAt": "2026-11-08T12:15:38.000Z",
+          "excerpt": "無綫（TVB）與騰訊視頻合拍的年度重頭劇《玫瑰戰爭》於明晚（9日）正式啟播。劇集卡士陣容鼎盛，由楊茜堯、陳豪、林夏薇、馬國明及陳展鵬等多位視帝視后級人馬攜手掛帥，開拍以來一直備受矚目。 玫瑰戰爭（IG@tvb77atelier） 「迷姦水」情節惹網民聯想濱崎真緒事件 率先於網上公開的第4集劇情引起極大迴響，劇中大膽觸及娛樂圈黑暗面，更出現令人心驚膽戰的「迷姦水」情節。由於橋段描繪得逼真寫實，令大批網民聯想起早前日本女星濱崎真緒（DJ Mao）在尖沙咀疑遭人「下藥」事件，在討論區掀起熱烈討論。 「梁菲雅」傅嘉莉暗戀馬國明飾演的「李德龍」。（劇集截圖） 陳自瑤慘遭掌摑陷小三風波 劇中飾演影后「關子",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "AI救命！男子胸悶檢查正常 瀕窒息休克求助豆包 勸勿離院終保命",
+          "url": "https://hk01.com/sns/article/60408389",
+          "publishedAt": "2026-11-08T12:02:18.000Z",
+          "excerpt": "AI已成為許多人日常生活的必備工具，危急時候甚至可救人一命！江西1名59歲男子早前因反覆胸悶，連走2間醫院接受心電圖、心肌酵素抽血及電腦斷層血管造影（CTA）檢查，結果全部顯示「正常」。豈料男子在醫院地庫停車場休息期間，病情突然急劇惡化，在瀕臨窒息休克的危急關頭，他啟動手機AI語音助手「豆包」求助，AI勸他切勿離開醫院，並即時通報醫護。 幸得豆包關鍵提示，男子最終及時折返急症室求救，經檢查後赫然發現其心臟血管已重度狹窄達99%，經緊急手術才保住性命。心臟專科醫生提醒，常規檢查存在時間窗與成像盲點，即使報告未見異樣，若持續出現胸悶亦絕不可掉以輕心。專家亦同時提醒，雖然AI能輔助醫療，但切勿用AI",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "今日娛樂熱話｜何麥33年女友首開腔｜康子妮揭與林曉峰離婚後現狀",
+          "url": "https://hk01.com/sns/article/60408472",
+          "publishedAt": "2026-11-08T12:00:52.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "澳洲東南部11月罕見下雪 悉尼氣溫驟降如冬",
+          "url": "https://hk01.com/sns/article/60408427",
+          "publishedAt": "2026-11-08T12:00:45.000Z",
+          "excerpt": "澳洲東南部11月8日受罕見寒潮侵襲，新南威爾士州（New South Wales）、維多利亞州（Victoria）及塔斯馬尼亞（Tasmania）部分地區降雪。悉尼（Sydney）氣溫由早上29度急降至傍晚約14度，周日早上風寒效應下感覺僅約8度，比正步入冬季的倫敦和紐約更冷。 澳洲《悉尼晨鋒報》報道， 這股冷鋒源於南部海洋水溫偏冷，冷空氣橫掃澳洲南部 。儘管悉尼7日早上仍達29度高溫，至傍晚幾乎減半至約14度，期間雷暴帶來冰雹及強風，8日市區氣溫不會升至20度以上。 Meanwhile in Australia snow in November! https://t.co/tyhN03PII",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "《穀雨》開播爆紅！井柏然張頌文對決 揭巨額假發票大案劇名深意",
+          "url": "https://hk01.com/sns/article/60408393",
+          "publishedAt": "2026-11-08T12:00:35.000Z",
+          "excerpt": "由反腐神作《人民的名義》導演李路執導、井柏然與張頌文兩大實力派演員主演的懸疑劇《穀雨》（內地官方簡體劇名為《谷雨》，The Silent Storm），自11月5日於內地央視電視劇頻道（CCTV-8）開播後即引發網上熱話。劇集改編自上世紀90年代涉案金額高達43.7億人民幣（約51.3億港元）的真實經濟犯罪大案，向觀眾深刻揭示特大假發票案對社會經濟的深遠影響。 不少觀眾疑惑，一部以查稅為核心的劇集，為何以節氣命名？事實上，「穀雨」是劇中直指經濟黑幕的行動代號，其英文譯名亦點出稅務監管「表面溫潤、內裡雷霆」的本質。 由《人民的名義》導演李路執導、井柏然與張頌文兩大實力派演員主演的懸疑劇《穀雨》（",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "全身一碰即爛 湖南4歲蝴蝶寶貝嘆「我是世上最孤獨的人」惹心疼",
+          "url": "https://hk01.com/sns/article/60408475",
+          "publishedAt": "2026-11-08T12:00:09.000Z",
+          "excerpt": "湖南湘潭4歲女童晨晨一出生便確診罕見病「遺傳性大皰性表皮鬆解症（EB）」，因全身皮膚表層極度脆弱，患者又被稱為「蝴蝶寶貝」。 4年來，晨晨父母每天耗費數小時為其全身敷藥換藥，每月昂貴敷料與生物製劑花費逾萬元（人民幣，下同）。面對沉重經濟壓力與無藥可醫的困境，甚至女兒因無法參與跳繩等戶外活動而感嘆「我是世上最孤獨的人」，他們始終耐心給予正向心理引導，更決定不再生育，全心呵護女兒的心靈。 晨晨患有遺傳性大皰性表皮鬆解症。（影片截圖） 《瀟湘晨報》報道，晨晨患有遺傳性大皰性表皮鬆解症，皮膚如蝴蝶翅膀般脆弱，輕微摩擦或碰撞就會導致皮膚破損、起水疱甚至潰爛，平日需要全身貼藥護理，每月護理費過萬元，其中僅",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "前泰國小姐Boom慈善人設崩塌 涉「吞2億善款」遭捕逾億資產被扣",
+          "url": "https://hk01.com/sns/article/60408446",
+          "publishedAt": "2026-11-08T11:45:34.000Z",
+          "excerpt": "泰國女星Panadda Wongphudee（Boom）捲入慈善捐款案，與丈夫Atip Anantawan雙雙被法院簽發逮捕令。警方調查發現，她擔任主席的「行善組織基金會」累計收到約9億泰銖（約2億港元）捐款，部分資金疑流入夫妻私人帳戶，另有款項疑與普吉島（布吉島）豪華泳池別墅項目有關。 泰媒報道，警方11月6日清晨持逮捕令及搜索令前往Boom位於曼谷的住處。當時，她正準備與律師出門接受媒體訪問，隨後被警方帶回屋內配合搜索。 泰國女星Panadda Wongphudee（Boom）涉侵佔慈善捐款。（IG@boompanadda） 女星Panadda Wongphudee（Boom）曾是泰國小姐",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "劉穎鏇出戰903籃球賽片洗版 網民激讚完勝Mandy：依啲先係真女神",
+          "url": "https://hk01.com/sns/article/60408447",
+          "publishedAt": "2026-11-08T11:36:14.000Z",
+          "excerpt": "「903 AllStar籃球賽」昨晚（11月7日）圓滿結束，賽事除了雲集多位人氣偶像外，最引人注目的莫過於兩大新生代「籃球女神」。29歲的劉穎鏇（Tiffany）和25歲的譚旻萱（Mandy）同樣擁高䠷身材、樣子甜美，加上又喜歡打籃球，被視為圈中的「籃球女神」，但兩人一個是電視台小花，一個是影壇新貴，一直未有機會接觸，直到昨晚，兩人首次在球場上正面交鋒，分別代表「歌星勇士隊」對「903人隊」，豈料比賽結束後，網民焦點全落在劉穎鏇身上，令近來陷入戀情風波的Mandy瞬間失色。 劉穎鏇出戰903籃球賽的片段，賽後在社交平台洗版。（胡凱欣 攝） 劉穎鏇吸引觀眾眼球 高中時代在美國曾代表學校征戰加州賽",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "周秀娜生圖被指暴瘦變樣 高EQ親揭真正原因自嘲「眼大都有壞處」",
+          "url": "https://hk01.com/sns/article/60408367",
+          "publishedAt": "2026-11-08T11:30:20.000Z",
+          "excerpt": "現年41歲的周秀娜（娜姐）於千禧年代憑完美身材俘虜一眾粉絲，其後收起性感專注拍戲，2017年憑電影《29+1》獲演技肯定，成功轉型實力派演員，惟近年其身形變化屢成焦點。近日她馬不停蹄為新戲《第四幕》四出宣傳，未料散場後在停車場與影迷互動時，意外遭現場極端燈光「暗算」拍下驚悚生圖，面對健康狀況再惹揣測，周秀娜火速在社交媒體以極高EQ霸氣解畫！ 周秀娜。（IG@chrissienana） 周秀娜生圖被指眼窩深陷「目露凶光」 當晚宣傳活動中，周秀娜以一襲黑色露肩貼身長裙亮相，身形明顯比以往纖瘦清減。寵粉的她於活動結束後特意留在停車場，對守候多時的影迷簽名及合照要求均有求必應，態度親民又貼地。惟當周秀",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11622,58 +11333,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "酒家吃長腳蟹防掉包絕招？食客教路秤重後做兩行動 上枱證獲原蟹",
-          "url": "https://hk01.com/sns/article/60408406",
-          "publishedAt": "2026-11-08T11:02:57.000Z",
-          "excerpt": "又踏入吃長腳蟹的最佳季節，不少人吃貴價海鮮都會擔心不幸遇上不良商家，秤重後被掉包成另1隻平價蟹。有食客近日就於網上分享在上水1間酒家吃價值1,115.4元清蒸阿拉斯加長腳蟹的經驗，教路秤重後入廚房清蒸前，要先拍照及扭斷蟹腳作記號，上枱後再對比照片，最後成功證實沒被掉包，帖文隨即引起網民熱議。 有食客近日於網上分享，在上水1間酒家吃價值1,115.4元清蒸阿拉斯加長腳蟹的經驗。（Threads@i_snow_nobody） 該食客於Threads發文發相分享 ，「Threads學到真嘢，去食長腳蟹要影相+斷腳（對唔住啦，蟹）」，目的為防止商家掉包另1隻蟹，「我淨係扭咗少少，有啲人扭成隻腳」，幸最",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "山東男童受傷驗出腫瘤 遭醫生切除幾乎整個消化系統 3年後逝世",
-          "url": "https://hk01.com/sns/article/60408456",
-          "publishedAt": "2026-11-08T11:00:45.000Z",
-          "excerpt": "內媒《紅星新聞》報道，在2023年10月，山東菏澤一名時年10歲的男童在一次意外被撞擊後，在醫院檢查出腹腔內存在腫瘤，手術中被切除了包括十二指腸、胰腺、大部分胃和小腸等多個器官，消化系統近乎遭全部切除，此後無法再如常吃飯、喝水，要靠長期靜脈注射營養液維生。 最新報道指，這名男童於本年11月4日在上海交通大學醫學院附屬瑞金醫院去世，死亡診斷為循環衰竭、失血性休克、代謝性酸中毒、凝血功能障礙、短腸綜合症等10項。 男童在一次意外被撞擊後，在醫院檢查出腹腔內存在腫瘤，手術中被切除了包括十二指腸、胰腺、大部分胃和小腸等多個器官，消化系統近乎遭全部切除。（《紅星新聞》） 男童在一次意外被撞擊後，在醫院檢",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "M+博物館5周年免費入場 部份展館須分流 有市民扶老攜幼親子遊",
           "url": "https://hk01.com/sns/article/60408463",
           "publishedAt": "2026-11-08T10:48:19.000Z",
           "excerpt": "西九文化區M+博物館5周年，今日（8日）早上10時起，免費開放指定展覽供市民及旅客參觀。有不少市民專程提早於開館前半小時來霸頭位，排隊等候入場，亦吸引不少內地和外國旅客前來參觀，有部份展廳需進行人流管制。有市民趁免費入場，帶同小孩來親子遊，認為館內的常規展覽值得觀賞，日後亦會考慮付費入場特別展覽。 博物館內有展覽館進行限制人流，訪客需要排隊進入。（梁家俊攝） 為慶祝M+博物館踏入5周年，館方除舉辦一連串文娛活動外，今日（8日）更開放特定展區予公眾免費觀賞，吸引不少市民於早上9時半、即在開館前半小時，已來排隊等候入場。除了一家大小，入場人士亦不乏來自內地、韓國及歐美國家等旅客。 11月8日，M+",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "玫瑰戰爭丨楊茜堯爆劇集揭露娛樂圈黑暗面 唔爭視后想奪最佳劇集",
-          "url": "https://hk01.com/sns/article/60408444",
-          "publishedAt": "2026-11-08T10:45:59.000Z",
-          "excerpt": "TVB台慶劇《玫瑰戰爭》今日（8日）劇中演員，包括楊茜堯、馬國明、陳展鵬、傅嘉莉、陳自瑤、陳楨怡、陳星妤、趙璧渝，以電車巡遊繼續為劇集預熱。一行人在電車上落力宣傳劇集，沿途向市民打招呼。 楊茜堯、馬國明、陳展鵬、傅嘉莉、陳自瑤、陳怡、陳星妤、趙壁渝，以電車巡遊，為《玫瑰戰爭》宣傳。（關穎賢 攝） 一眾演員為劇集進行預熱宣傳。（關穎賢 攝） 一行人在電車上落力宣傳劇集。（關穎賢 攝） 電車駛至銅鑼灣鬧市後，再向途人派發劇集紀念品及合照打卡。（關穎賢 攝） 銅鑼灣街頭宣傳場面混亂 現場有人發生推撞 電車駛至銅鑼灣鬧市後，再向途人派發劇集紀念品及合照打卡，吸引大批市民圍觀。由於人多擠迫，場面極為混亂",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "冷鋒挾東北季候風11.9殺到 市區最低氣溫16度 風力飆升有得解",
-          "url": "https://hk01.com/sns/article/60408452",
-          "publishedAt": "2026-11-08T10:34:54.000Z",
-          "excerpt": "「那次季候風／吹得格外兇／彷彿世上一切／也將消失所蹤」。加拿大天王The Weeknd（又譯：威肯/ The Weeknd）上月在啟德體育園獻唱，演唱會中推出以香港《Hong Kong》為名的新作，把本港樂壇天后王菲的經典粵語金曲《季候風》歌詞融入曲中，在網絡引發熱潮。不過現實中，這股「季候風」確實需要關注！ 加拿大天王The Weeknd以香港《Hong Kong》為名的新作，把王菲金曲《季候風》歌詞融入曲中，在網絡引發熱潮。（IG圖片） 事關香港天文台預測，一道冷鋒會在星期一（11月9日）初時橫過廣東沿岸，本港會轉吹偏北強風，早上較涼，日間漸轉天晴乾燥。受隨後的強烈東北季候風影響，星期一晚",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "冷空氣襲廣東全省降溫5℃～9℃ 深圳周二料低至16℃",
-          "url": "https://hk01.com/sns/article/60408454",
-          "publishedAt": "2026-11-08T10:33:08.000Z",
-          "excerpt": "據廣東天氣11月8日消息，預計中等偏強的冷空氣將於8日下午影響粵北，上半夜到達廣州市區，9日早晨影響沿海市縣，廣東省大部平均氣溫將下降5℃～9℃，過程最低氣溫將出現在10日早晨前後。 粵北和珠三角北部市縣最低氣溫將降至8℃～12℃，南部沿海市縣14℃～16℃，其餘大部市縣11℃～13℃。 冷空氣襲廣東。（廣東天氣） 據《深圳晚報》報道，對深圳來說，11月9日早晨是體感轉折的起點，日平均氣溫下降5℃～7℃，是今年下半年以來最實在的一段涼意。過程最低氣溫將出現在10日（周二）早晨前後，深圳最低氣溫降至16℃左右， 之後陽光回歸，晴涼上線。 預計9日多雲，局部有零星小雨，氣溫下降，沿海高地和海區最大",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "6旬婦當「房屋保姆」住遍豪宅 睇屋照顧毛孩換住宿年慳19萬租金",
-          "url": "https://hk01.com/sns/article/60407949",
-          "publishedAt": "2026-11-08T10:30:58.000Z",
-          "excerpt": "英國一名女子為了實現環遊世界的夢想，決定放棄租屋，透過當「房屋保姆」（house-sitter），直接住進陌生人的豪宅。自從做了這份工作，她不僅能住進平常負擔不起的豪華住宅，每年還能省下高達1.8萬英鎊（約19萬港元）的房租與生活開銷，將錢用來到處旅行。 據《鏡報》（Mirror）報導 ，63歲的蜜雪兒（Michelle）為了完成環遊世界的夢想，決定成為全職「房屋保姆」。她把所有家當塞到車上，開車往返英國及歐洲各地，為外出度假的屋主維護房屋，藉此換取免費住宿。 英國一名女子為了實現環遊世界的夢想，決定放棄租屋，透過當「房屋保姆」（house-sitter），直接住進陌生人的豪宅。（Facebo",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11689,7 +11352,7 @@
           "title": "馬鞍山昂平滑翔傘意外｜事主疑上網睇片自學 傘友曾勸搵教練學習",
           "url": "https://hk01.com/sns/article/60408412",
           "publishedAt": "2026-11-08T09:32:57.000Z",
-          "excerpt": "馬鞍山昂平發生滑翔傘意外，3名行山客被撞傷，所幸3人均清醒，傷勢不算嚴重。今午（8日）12時許，一名滑翔傘男玩家在馬鞍山昂平降落時懷疑失控，撞到3名男女行山客，令3人頭部及背部受傷，由直升機送院治理。 中國香港滑翔傘協會副會長趙浩南接受《香港01》訪問時指，圈內傘友對涉事男子並不陌生，早於約9個月前，已有傘友在山上留意到涉事男子的蹤影，發現對方的操作「甩漏」、「唔正常」，其後得悉對方疑竟是「睇YouTube自學」，當時已有傘友勸他找合格教練學習，惟對方未有理會，詎料今日發生意外。 趙浩南坦言，單靠上網睇片自學滑翔傘，是既不可行，亦不可取。（資料圖片） 涉事男子稱上網「睇YouTube自學」 圈",
+          "excerpt": "馬鞍山昂平發生滑翔傘意外，3名行山客被撞傷，所幸3人均清醒，傷勢不算嚴重。今午（8日）12時許，一名滑翔傘男玩家在馬鞍山昂平降落時懷疑失控，撞到3名男女行山客，令3人頭部及背部受傷，由直升機送院治理。 中國香港滑翔傘協會副會長趙浩南接受《香港01》訪問時指，圈內傘友對涉事男子並不陌生，早於約9個月前，已有傘友在山上留意到涉事男子的蹤影，發現對方的操作「甩漏」、「唔正常」，其後得悉對方疑竟是「睇YouTube自學」，當時已有傘友勸他找合格教練學習，惟對方未有理會，詎料今日發生意外。 消息稱，涉事男子姓葉，50歲，於今年1月才開始自學滑翔傘。警方事後將他帶署調查。 根據《1995 年飛航（香港）令",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11726,6 +11389,14 @@
           "category": "Hong Kong"
         },
         {
+          "title": "東北季候風殺到 多區一夜跌逾10度 周二最低16度 一區低見13度",
+          "url": "https://hk01.com/sns/article/60408368",
+          "publishedAt": "2026-11-08T05:30:47.000Z",
+          "excerpt": "【香港天文台／HKO／明天的天氣／東北季候風／冷鋒／維港渡海泳】天文台今早（8日）預測，一道冷鋒周一（9日）初時橫過廣東沿岸，受隨後的強烈東北季候風影響，北風增強，氣溫顯著下降。 九天天氣預報進一步調低最低氣溫預測，預計周二（10日）市區氣溫（天文台尖沙咀總部）進一步降至最低16度，新界再低兩三度。分區天氣預報則顯示，周一下午起多區氣溫急跌超過10度，至周二上午7時，新界多區只得14度，包括上水、流浮山、石崗及將軍澳；打鼓嶺更低見13度。 天文台11月8日預測，一道冷鋒周一（9日）初時橫過廣東沿岸，受隨後的強烈東北季候風影響，北風增強，氣溫顯著下降。（資料圖片） ▼2026年11月7日 立冬本",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "The Weeknd掀熱王菲季候風 曾俊華：提醒香港勿硬裝亂砌抺去特色",
           "url": "https://hk01.com/sns/article/60408358",
           "publishedAt": "2026-11-08T04:38:33.000Z",
@@ -11740,30 +11411,6 @@
           "excerpt": "乘搭港鐵不應破壞幕門。本港社交平台Threads流傳影片，港鐵天水圍站月台有穿上吊帶短裙的疑似女子，因碰撞問題與1名男子大聲爭吵，斥責對方「你掂到我呀！」，並挑釁「係咪要xxx呀？」。男子放棄爭拗走開，女子即暴怒瘋狂大力踢幕門，港鐵職員到場處理，問1句後女子收起「金剛腿」，上車離開，但上車後仍多次踢門泄憤。 影片震驚網民，有人笑言「港版春麗」、「有食過夜粥，個前撐算幾穩」，亦有大批人批評女子離譜，「刑事毁壞，着住條裙都咁粗魯」、「情緒咁唔穩定唔應該畀佢上車。報警」、「唔應該破壞公物」。另有網民爭拗「女子」性別，懷疑是否男扮女裝。 港鐵天水圍站月台有穿上吊帶短裙的疑似女子不斷踢幕門。（Threa",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "獨家丨何麥武館早倒閉 女友斥何慈茵一年見父兩次：人在做天在看",
-          "url": "https://hk01.com/sns/article/60408228",
-          "publishedAt": "2026-11-08T00:30:02.000Z",
-          "excerpt": "一代洪拳宗師劉家良入室弟子何麥（Mark Houghton）早前離世，其女兒何慈茵（Charlene）前日（5日）在Facebook撰文宣佈接任「嶺南黃飛鴻洪拳傳人-劉家洪拳」承繼人。不過事件卻出現羅生門，Mark的女友Christie隨後在劉家良的Facebook專頁發出另一版本聲明，指第六代領導傳人另有其人，但相隔不久又遭刪掉，她再在Mark和自己的fb專頁上載，令事件添上不少疑團。 何慈茵前日（6日）接受《香港01》訪問時，指控Christie獨自決定父親的喪禮儀式，令她感到不被尊重，並相信父親想由女兒繼承衣缽。昨日（6日）《香港01》聯絡上何麥的女友Christie進行獨家電話訪問。正",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "荃灣九巴男乘客車內暈倒 車長報案 送院不治",
-          "url": "https://hk01.com/sns/article/60408315",
-          "publishedAt": "2026-11-07T19:31:37.000Z",
-          "excerpt": "荃灣有人猝死。昨晚（7日）11時許，一輛路線36B的九巴駛回梨木樹公共運輸交匯處時，62歲黎姓車長發現一名66歲梁姓男乘客在車內暈倒，於是報案。 救護員接報到場，梁翁昏迷被送往仁濟醫院進行搶救，其後被證實死亡，死因有待驗屍後確定。 九巴回覆《香港01》查詢表示，昨晚約11時半，九巴一輛路線36B巴士駛抵梨木樹總站後，車長巡視車廂時發現一名乘客躺臥於下層地台失去知覺，於是報警求助，乘客送院搶救後不治。 九巴對事件感到難過，並指對車長工作設有嚴謹內部指引，要求車長完成每一個行程後，必須巡視上下層車廂。 梁翁昏迷被送往仁濟醫院進行搶救，其後被證實死亡。（資料圖片）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "屋宇署證東涌西站30石屎支柱欠妥當 稱10月接通報證監管制度有效",
-          "url": "https://hk01.com/sns/article/60408310",
-          "publishedAt": "2026-11-07T17:49:54.000Z",
-          "excerpt": "《香港01》周六（7日）揭發港鐵東涌延線東涌西站大堂樓層半數支柱，約30支柱灌石屎「未到頂」，出現嚴重灌石屎質量問題。 屋宇署稱東涌西站10月初接工程師通報，發現有混凝土支柱欠妥當，在10月尾例行視察確認兩支柱有問題，要求承建商全面調查，最終確認30條支柱欠妥當。署方稱由「上而下」設計的樓板有臨時支撐，不會對車站結構構成危險。署方稱通報證監管制度有效，初步無發現證據有故意偏離圖則的情況，亦無發現人員違反守則及條例。 【01偵查YouTube Playlist】 《香港01》取得部份東涌西站相片，見到有4條約8至9米高的石屎支柱，面積約0.5米乘0.5米，前面兩條支柱已灌完石屎，靠後的兩條支柱明",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ]
     },
@@ -11773,6 +11420,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "樓宇維修局｜初期編制約百人、聚焦處理「招標妥」工程",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521383/%E6%A8%93%E5%AE%87%E7%B6%AD%E4%BF%AE%E5%B1%80-%E5%88%9D%E6%9C%9F%E7%B7%A8%E5%88%B6%E7%B4%84%E7%99%BE%E4%BA%BA-%E8%81%9A%E7%84%A6%E8%99%95%E7%90%86-%E6%8B%9B%E6%A8%99%E5%A6%A5",
+          "publishedAt": "2026-11-08T11:33:11.000Z",
+          "excerpt": "【有線新聞】政府目標年底前成立專責監管維修工程的樓宇維修支援及服務局，初期人手編制約100名。 發展局指樓宇維",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "孫東恭賀科大校長葉玉如獲教科文組織生命科學研究獎",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521386/%E5%AD%AB%E6%9D%B1%E6%81%AD%E8%B3%80%E7%A7%91%E5%A4%A7%E6%A0%A1%E9%95%B7%E8%91%89%E7%8E%89%E5%A6%82%E7%8D%B2%E6%95%99%E7%A7%91%E6%96%87%E7%B5%84%E7%B9%94%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%B8%E7%A0%94",
+          "publishedAt": "2026-11-08T11:32:40.000Z",
+          "excerpt": "【有線新聞】創新科技及工業局局長孫東恭賀科大校長葉玉如獲教科文組織生命科學研究獎。 孫東在社交平台稱，葉玉如是",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "特朗普邀UFC總裁白大拿出任白宮發言人 惟據報對方已私下婉拒",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521378/%E7%89%B9%E6%9C%97%E6%99%AE%E9%82%80ufc%E7%B8%BD%E8%A3%81%E7%99%BD%E5%A4%A7%E6%8B%BF%E5%87%BA%E4%BB%BB%E7%99%BD%E5%AE%AE%E7%99%BC%E8%A8%80%E4%BA%BA-%E6%83%9F%E6%93%9A%E5%A0%B1%E5%B0%8D",
@@ -11916,22 +11579,6 @@
           "excerpt": "【有線新聞】警方在流浮山一個過渡性房屋單位破獲毒品儲存倉，檢獲20公斤氯胺酮及一批毒品包裝工具，市值約800萬",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "巴黎網球精英賽 艾卡拉斯勝魯德闖決賽",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521295/%E5%B7%B4%E9%BB%8E%E7%B6%B2%E7%90%83%E7%B2%BE%E8%8B%B1%E8%B3%BD-%E8%89%BE%E5%8D%A1%E6%8B%89%E6%96%AF%E5%8B%9D%E9%AD%AF%E5%BE%B7%E9%97%96%E6%B1%BA%E8%B3%BD",
-          "publishedAt": "2026-11-08T03:03:18.000Z",
-          "excerpt": "【有線新聞】巴黎網球精英賽，艾卡拉斯躋身決賽。 黃色褲的艾卡拉斯過去7次面對魯德贏了6次，這位二號種子延續強勢",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "九巴辦人寵同樂日 設3寵物專線往西沙",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521292/%E4%B9%9D%E5%B7%B4%E8%BE%A6%E4%BA%BA%E5%AF%B5%E5%90%8C%E6%A8%82%E6%97%A5-%E8%A8%AD3%E5%AF%B5%E7%89%A9%E5%B0%88%E7%B7%9A%E5%BE%80%E8%A5%BF%E6%B2%99",
-          "publishedAt": "2026-11-08T02:58:36.000Z",
-          "excerpt": "【有線新聞】九巴開設寵物巴士兩周年，聯乘卡通人物舉行人寵同樂日。 早上開跑的800米「寵物組」，一群狗狗迫不及",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ]
     },
@@ -11941,6 +11588,54 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "一語千金 - 港好創科｜專訪京東集團副總裁沈建光(二)",
+          "url": "https://news.now.com/home/local/player?newsId=668756",
+          "publishedAt": "2026-11-08T12:03:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "一語千金 - 港好創科｜專訪京東集團副總裁沈建光(一)",
+          "url": "https://news.now.com/home/local/player?newsId=668755",
+          "publishedAt": "2026-11-08T12:02:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "大鳴大放｜人道救援與民間外交(二)",
+          "url": "https://news.now.com/home/local/player?newsId=668754",
+          "publishedAt": "2026-11-08T12:01:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "大鳴大放｜人道救援與民間外交(一)",
+          "url": "https://news.now.com/home/local/player?newsId=668753",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事全方位重點提要｜11月9日",
+          "url": "https://news.now.com/home/local/player?newsId=668802",
+          "publishedAt": "2026-11-08T11:21:30.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "香港網球公開賽 劉婧文直落兩盤挫伊雅娜 首奪巡迴賽冠軍",
+          "url": "https://news.now.com/home/local/player?newsId=668800",
+          "publishedAt": "2026-11-08T11:19:30.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "澳門大熊貓雙胞胎赴成都 展開成長之旅",
           "url": "https://news.now.com/home/local/player?newsId=668798",
@@ -11974,16 +11669,16 @@
           "category": "Hong Kong"
         },
         {
-          "title": "國家級匹克球賽事凱瑞麟盃首度落戶香港",
-          "url": "https://news.now.com/home/local/player?newsId=668792",
+          "title": "李慧琼、陳祖光及葛珮帆開設聯合辦事處",
+          "url": "https://news.now.com/home/local/player?newsId=668791",
           "publishedAt": "2026-11-08T09:30:54.000Z",
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
         },
         {
-          "title": "李慧琼、陳祖光及葛珮帆開設聯合辦事處",
-          "url": "https://news.now.com/home/local/player?newsId=668791",
+          "title": "國家級匹克球賽事凱瑞麟盃首度落戶香港",
+          "url": "https://news.now.com/home/local/player?newsId=668792",
           "publishedAt": "2026-11-08T09:30:54.000Z",
           "excerpt": "",
           "source": "Now 新聞",
@@ -12049,54 +11744,6 @@
           "title": "樓宇維修局初期約有近百員工部分由市建局「過檔」 將公開招聘行政總裁",
           "url": "https://news.now.com/home/local/player?newsId=668777",
           "publishedAt": "2026-11-08T07:15:25.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "天文台料周二市區清涼 最低氣溫降至約16度",
-          "url": "https://news.now.com/home/local/player?newsId=668772",
-          "publishedAt": "2026-11-08T05:07:38.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "陳茂波：大力推動不同領域盛事 讓旅遊會展業更蓬勃發展",
-          "url": "https://news.now.com/home/local/player?newsId=668771",
-          "publishedAt": "2026-11-08T04:26:38.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "九巴寵物巴士推行兩周年 舉辦人寵同樂周年派對",
-          "url": "https://news.now.com/home/local/player?newsId=668768",
-          "publishedAt": "2026-11-08T04:18:38.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "打鼓嶺大學城擬擴大至75公頃 部分預留建演藝學院新校舍",
-          "url": "https://news.now.com/home/local/player?newsId=668766",
-          "publishedAt": "2026-11-08T04:09:38.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "律政司推法律科技服務資助計劃 有律師指AI媲美資歷淺律師但擔心生成虛構內容",
-          "url": "https://news.now.com/home/local/player?newsId=668765",
-          "publishedAt": "2026-11-08T04:08:38.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃之鋒案判刑惹西方批評 林定國指不評論案件但會說明自身立場",
-          "url": "https://news.now.com/home/local/player?newsId=668764",
-          "publishedAt": "2026-11-08T04:05:38.000Z",
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
@@ -12278,6 +11925,22 @@
       "count": 20,
       "stories": [
         {
+          "title": "【重溫】2026年11月8日新聞天地",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877026-20261108.htm",
+          "publishedAt": "2026-11-08T11:34:29.000Z",
+          "excerpt": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "甯漢豪回應建造業涉「造假」 強調要「是其是、非其非」",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877027-20261108.htm",
+          "publishedAt": "2026-11-08T11:18:26.000Z",
+          "excerpt": "發展局局長甯漢豪出席一個電視節目，被問到近期，建造業界被指接連出現涉嫌「造假」個案，她表示，要「是其是、非其非」，又稱違規者會受到很大的懲處。 編輯：劉景輝",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
           "title": "三項鐵人世界盃香港站混合接力賽 港隊取得第11名",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1877031-20261108.htm",
           "publishedAt": "2026-11-08T11:09:37.000Z",
@@ -12418,22 +12081,6 @@
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1876974-20261108.htm",
           "publishedAt": "2026-11-07T16:18:13.000Z",
           "excerpt": "屋宇署表示，就港鐵東涌西站月台層部分混凝土柱有施工欠妥一事，截至過去的星期五，註冊結構工程師於所有板模拆除後共發現約30條混凝土柱出現有關情況，已要求註冊結構工程師於本月中提交調查報告及建議補救措施，署方會審視報告及建議，繼續密切監察情況及跟進所需的糾正工程，確保所有工程符合相關安全及質素要求。 屋宇署回覆查詢時表示，屋宇署人員上月27日進行例行地盤視察及質量審核時已檢視有關情況，確認有兩條混凝土柱存在欠妥情況，當場要求註冊結構工程師團隊及註冊承建商進行全面調查及盡快進行糾正工程。港鐵已指令暫停相關施工。註冊結構工程師監工團隊按正常工序於混凝土板模陸續拆除後作檢查，進一步發現有其他混凝土柱有類",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "丘應樺：粵港澳三地深化合作 將有助推動大灣區協同發展",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1876973-20261107.htm",
-          "publishedAt": "2026-11-07T13:17:32.000Z",
-          "excerpt": "商務及經濟發展局局長丘應樺在廣州出席「2026國際灣區經濟論壇」致辭指，粵港澳三地各具特色、優勢互補。香港擁有高度國際化的營商環境和寬廣的國際商貿網絡；廣東具備雄厚的製造業基礎、完整的產業鏈和蓬勃的創新科技產業；澳門則在中葡商貿合作及文化交流方面具有獨特優勢。三地深化合作，將有助推動大灣區協同發展。 他指出，香港作為國際金融、貿易和專業服務中心，是連接內地與世界的重要橋樑。香港是全球最大的離岸人民幣業務中心，上月再次獲評為全球最自由經濟體。去年，母公司位於海外及內地的駐港公司和本地初創企業數目，雙雙創下歷史新高，反映香港對國際企業和創業人才的吸引力。 丘應樺表示，北部都會區是香港未來發展的重要",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "東涌西站支柱施工質量問題 路政署要求港鐵兩周內交報告",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1876970-20261107.htm",
-          "publishedAt": "2026-11-07T12:15:42.000Z",
-          "excerpt": "路政署表示，星期一接獲港鐵通報，指在巡查時發現東涌西站工地月台層部分混凝土支柱位置出現施工質量問題，及承建商曾在未有獲批的施工方法下嘗試進行修補工程，港鐵已即時指示承建商停止有關工程，署方高度關注事件，強調東涌綫延線2029年的通車目標維持不變。 路政署回覆查詢時表示，接獲通報後於星期二、三派員到場核查情況，以及於昨日與港鐵舉行會議，進一步跟進事件及了解調查進度。署方要求港鐵認真展開調查，並在通報事件後兩個星期內提交詳細調查報告，並督促承辦商制定詳細修復方案，盡快自資進行修復工程，以確保工程質量符合標準，同時採取措施， 確保事件不會影響整個工程進度 。 路政署一直密切監察東涌綫延線項目的進度、",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
         }
@@ -12614,6 +12261,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "香港海關檢獲懷疑屬受管制瀕危物種乾魚翅（附圖）",
+          "url": "https://www.info.gov.hk/gia/general/202611/08/P2026110800503.htm",
+          "publishedAt": "2026-11-08T12:15:00.000Z",
+          "excerpt": "​香港海關昨日（十一月七日）在香港國際機場檢獲約三十一公斤懷疑屬受管制瀕危物種的乾魚翅，估計市值約十三萬元。 一名五十一歲的內地女旅客昨日從巴西經埃塞俄比亞飛抵本港，她於機場入境大堂被海關人員截停進行清關檢查。海關人員在其寄艙行李內發現該批懷疑受管制乾魚翅。經漁農自然護理署（漁護署）人員查驗後，懷疑該批乾魚翅屬《瀕危野生動植物種國際貿易公約》所列明的瀕危物種，在本港受《保護瀕危動植物物種條例》（第586章）所管制。海關人員遂把她拘捕。案件已轉交漁護署跟進調查。 被捕女子已被漁護署落案控以一項非法進口附錄II瀕危物種罪。 根據《保護瀕危動植物物種條例》，任何人如非按照《條例》規定進出口或管有瀕危",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
           "title": "環境及生態局局長前往土耳其出席第31屆聯合國氣候變化大會",
           "url": "https://www.info.gov.hk/gia/general/202611/08/P2026110600252.htm",
           "publishedAt": "2026-11-08T08:00:00.000Z",
@@ -12764,199 +12419,11 @@
           "excerpt": "電台及電視台當值宣布員注意： 請盡快播出下列特別報告： 游泳人士請注意：康樂及文化事務署今日（十一月七日）宣布，由於大浪關係，港島南區的赤柱正灘泳灘及大浪灣泳灘；以及西貢區的銀線灣泳灘及清水灣第二灣泳灘已懸掛紅旗，顯示在該處游泳會有危險，市民請勿在該處游泳。",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "分區賣旗日",
-          "url": "https://www.info.gov.hk/gia/general/202611/07/P2026110500203.htm",
-          "publishedAt": "2026-11-06T22:00:00.000Z",
-          "excerpt": "社會福利署（社署）發言人表示，三個慈善團體獲發公開籌款許可證於今日（十一月七日）由上午七時至下午十二時三十分，分別在港島（The Royal British Legion（Hong Kong & China Branch）（沒有中文註冊名稱））、九龍（香港復康力量）及新界（荃灣葵青區婦女會）三區同時進行賣旗活動。 &nbsp; 為了確保分區賣旗日順利進行，該署已與有關賣旗團體作出安排，方便市民識別當日同時進行的三個分區賣旗活動。 &nbsp; 十一月七日舉行的分區賣旗的安排如下： &nbsp; 地區 機構名稱 賣旗錢袋顏色 旗紙顏色 港島 The Royal British Legion（Ho",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ]
     }
   ],
   "stories": [
-    {
-      "title": "GitHub Down Again?",
-      "url": "https://github.com/torvalds/linux",
-      "publishedAt": "2026-11-08T09:56:07.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50411818"
-    },
-    {
-      "title": "a",
-      "url": "http://a.com",
-      "publishedAt": "2026-11-08T09:44:14.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50411767"
-    },
-    {
-      "title": "I'm Rewriting IBM SPSS Statistics in 100% Safe Rust, Alone",
-      "url": "https://github.com/kobaltgit/StatCraft",
-      "publishedAt": "2026-11-08T08:53:43.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50411522"
-    },
-    {
-      "title": "Agent memory needs its OpenTelemetry moment",
-      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "publishedAt": "2026-11-08T08:40:23.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50411467"
-    },
-    {
-      "title": "WaveDudeNext 2D Wave Simulator",
-      "url": "https://github.com/graealex/WaveDudeNext",
-      "publishedAt": "2026-11-08T07:09:02.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50411083"
-    },
-    {
-      "title": "Kirlian Photography: Building Your Own Equipment",
-      "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
-      "publishedAt": "2026-11-08T04:14:12.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50410359"
-    },
-    {
-      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
-      "url": "https://github.com/dmunozv04/isponsorblocktv",
-      "publishedAt": "2026-11-08T03:47:19.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50410249"
-    },
-    {
-      "title": "Goodbye Claude, Hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "publishedAt": "2026-11-08T03:11:48.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
-    },
-    {
-      "title": "Consumer brain wave headsets threaten privacy",
-      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-      "publishedAt": "2026-11-08T02:02:38.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50409856"
-    },
-    {
-      "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
-      "url": "https://github.com/crmne/zapfast",
-      "publishedAt": "2026-11-08T02:02:27.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50409855"
-    },
-    {
-      "title": "Commodore PET – The Worlds First Personal Computer",
-      "url": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
-      "publishedAt": "2026-11-07T23:15:34.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50408961"
-    },
-    {
-      "title": "GitHub New pull request overview page in public preview",
-      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-      "publishedAt": "2026-11-07T23:09:40.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50408931"
-    },
-    {
-      "title": "Making any integer with four 2s (2025)",
-      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
-      "publishedAt": "2026-11-07T22:38:58.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50408713"
-    },
-    {
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "publishedAt": "2026-11-07T20:45:32.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
-    },
-    {
-      "title": "What I run on my $10 USD OpenStick homelab",
-      "url": "https://blog.bosscher.ch/posts/openstick/",
-      "publishedAt": "2026-11-07T18:12:12.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
-    },
-    {
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "url": "https://hunch.net/?p=13764006",
-      "publishedAt": "2026-11-07T18:02:17.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406563"
-    },
-    {
-      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-      "url": "https://github.com/hedgerow-dev/coldframe",
-      "publishedAt": "2026-11-07T17:27:30.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406292"
-    },
-    {
-      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "publishedAt": "2026-11-07T17:19:00.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406222"
-    },
-    {
-      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
-      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
-      "publishedAt": "2026-11-07T17:06:36.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406111"
-    },
-    {
-      "title": "Every processor die anyone has photographed and given away",
-      "url": "https://sheets.works/data-viz/cpu-dies",
-      "publishedAt": "2026-11-07T16:21:36.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50405782"
-    },
     {
       "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
       "url": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
@@ -13118,6 +12585,30 @@
       "category": "Technology"
     },
     {
+      "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs",
+      "url": "https://www.wired.com/gallery/best-computer-speakers/",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "excerpt": "After testing 30 pairs of computer speakers, these are the best computer speakers—from stereo speakers to subwoofers to surround sound systems.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "excerpt": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "Wandrd’s Magnetic Camera Straps Are My New Favorite Accessory",
+      "url": "https://www.wired.com/story/wandrd-magnetic-camera-straps-are-my-new-favorite-accessory/",
+      "publishedAt": "2026-11-08T11:30:00.000Z",
+      "excerpt": "More evidence that magnets are magical.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "How to Remind Your Boss of Your PTO Without Pissing Them Off",
       "url": "https://www.wired.com/story/how-to-remind-your-boss-about-your-vacation/",
       "publishedAt": "2026-11-08T11:00:00.000Z",
@@ -13214,18 +12705,18 @@
       "category": "Technology"
     },
     {
-      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
-      "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
-      "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
       "title": "Ecoflow Rapid Pro Power Bank Deal: Save $80",
       "url": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/",
       "publishedAt": "2026-11-07T11:00:00.000Z",
       "excerpt": "With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+      "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -13250,30 +12741,6 @@
       "url": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
       "publishedAt": "2026-11-06T22:31:15.000Z",
       "excerpt": "Tesla’s biggest failure is the second massive EV to get the axe within the last year, while smaller vehicles are proliferating. It could be a huge benefit for the US battery supply chain.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "How Stephen Miller Schemed His Way to the Top",
-      "url": "https://www.wired.com/story/how-stephen-miller-schemed-his-way-to-the-top/",
-      "publishedAt": "2026-11-06T21:10:02.000Z",
-      "excerpt": "The architect of the Trump administration’s brutal crackdowns on immigration and dissent was already known as “the prime minister.” Now he’ll work as the chief of staff.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Rocco’s Black Friday Sale: Smart Fridges Hit Their Lowest Prices of 2026",
-      "url": "https://www.wired.com/story/rocco-black-friday-sale-2026/",
-      "publishedAt": "2026-11-06T18:54:21.000Z",
-      "excerpt": "The new Essential and certain colors of the original Classic are at their lowest prices of the year.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Early Black Friday Mattress Deals: Get Up to 35% Off WIRED-Tested Favorites",
-      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-6-2026/",
-      "publishedAt": "2026-11-06T18:51:27.000Z",
-      "excerpt": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14328,6 +13795,33 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "How to watch England vs Australia: FREE live streams, TV channels for Nations Championship 2026 game",
+      "url": "https://www.techradar.com/entertainment/rugby/watch-england-vs-australia-free-nations-championship-2026-free",
+      "publishedAt": "2026-11-08T12:10:00.000Z",
+      "excerpt": "All the ways to watch England vs Australia for free from anywhere, as Steve Borthwick's men host the Wallabies in Nations Championship 2026 at Twickenham.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "'Getting the job done should also be a natural thing': Zoom lays out its plans to use AI and context to be even more of a useful workplace assistant",
+      "url": "https://www.techradar.com/pro/getting-the-job-done-should-also-be-a-natural-thing",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "excerpt": "Zoom's next era looks to enrich the user experience with greater AI tools and insights than ever before.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The iPhone has a 'gray list' of words and phrases that won't auto-complete",
+      "url": "https://www.techradar.com/phones/ios/a-very-light-touch-form-of-censorship-the-iphone-has-a-gray-list-of-words-and-phrases-that-apple-wont-auto-complete-for-you",
+      "publishedAt": "2026-11-08T11:30:00.000Z",
+      "excerpt": "Researchers and reporters have discovered that some words and phrases are banned from auto-complete and swipe typing.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Audio-Technica AT-LP7X review: a beautiful and easy to use turntable that's just a shade off excellent, sonically speaking",
       "url": "https://www.techradar.com/audio/turntables/audio-technica-at-lp7x-review",
       "publishedAt": "2026-11-08T11:00:00.000Z",
@@ -14476,33 +13970,6 @@
       "url": "https://www.techradar.com/gaming/retail-world-of-warcraft-is-one-lonely-treadmill-fortunately-classic-and-forever-remind-us-that-it-doesnt-have-to-be",
       "publishedAt": "2026-11-07T20:00:00.000Z",
       "excerpt": "A study in isolation: Why modern World of Warcraft doesn’t hold a candle to Forever or Classic.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Accenture accused of publishing major research full of AI hallucinations — paper featured as many as 15 fictitious citations and case studies",
-      "url": "https://www.techradar.com/pro/accenture-accused-of-publishing-major-research-full-of-ai-hallucinations-paper-featured-as-many-as-15-fictitious-citations-and-case-studies",
-      "publishedAt": "2026-11-07T19:05:00.000Z",
-      "excerpt": "A new paper from Accenture called “Leapfrogging Development” appears to have been produced using AI, and features as many as 15 fictitious citations and case studies.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Hostinger slashes Premium hosting prices by 87% this Black Friday",
-      "url": "https://www.techradar.com/pro/hostinger-slashes-87-percent-off-its-premium-web-hosting-for-black-friday-and-our-exclusive-techradar-code-reduces-the-price-even-more",
-      "publishedAt": "2026-11-07T18:20:00.000Z",
-      "excerpt": "Hostinger's Premium hosting gets a massive Black Friday discount, and our exclusive code takes another 10% off eligible plans.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Creative XF1 review: although not truly perfect, these active desktop speakers get pretty close for not a lot of money",
-      "url": "https://www.techradar.com/audio/speakers/creative-xf1-review",
-      "publishedAt": "2026-11-07T18:00:00.000Z",
-      "excerpt": "Creative is no stranger to the affordable-yet-high-achieving speaker system — and with the XF1 it will be hoping lightning will strike for the umpteenth time…",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15003,6 +14470,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "How to make a detailed 3D landscape using Photoshop, Cinema 4D and ZBrush",
+      "url": "https://www.creativebloq.com/how-to/how-to-make-a-detailed-3d-landscape-using-photoshop-with-cinema-4d-and-zbrush",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "excerpt": "Sci-fi and fantasy artist Calder Moore breaks down his process for creating a dark fantasy landscape into clear manageable tasks.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "The cleverest GTA VI adverts don't even show the game",
       "url": "https://www.creativebloq.com/news/the-cleverest-gta-vi-adverts-dont-even-show-the-game",
       "publishedAt": "2026-11-08T10:00:00.000Z",
@@ -15169,15 +14645,6 @@
       "url": "https://www.creativebloq.com/deals/finally-a-cd-player-that-doesnt-look-like-a-plastic-y2k-nightmare",
       "publishedAt": "2026-11-06T09:00:00.000Z",
       "excerpt": "Get 15% off the ultimate IT GIRL home accessory.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Evercade Nexus review: Banjo-Kazooie and Doom make this retro handheld a must-have",
-      "url": "https://www.creativebloq.com/reviews/evercade-nexus-review-banjo-kazooie-makes-this-retro-handheld-a-must-have",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "excerpt": "It's a Rare thing.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16463,6 +15930,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "When Writers Lose Faith in Free Speech",
+      "url": "https://www.theatlantic.com/ideas/2026/11/philip-roth-political-novelists/689337/?utm_source=feed",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "excerpt": "Writers have to maintain an inner distance from external demands, including the demands of politics.",
+      "source": "The Atlantic",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Memories of the Train",
       "url": "https://www.theatlantic.com/magazine/2026/12/siqi-liu-memories-of-the-train/689026/?utm_source=feed",
       "publishedAt": "2026-11-07T14:00:00.000Z",
@@ -16544,19 +16020,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Pope Confronts One of His Toughest Political Challenges",
-      "url": "https://www.theatlantic.com/ideas/2026/11/pope-leo-south-america-right-wing/689316/?utm_source=feed",
+      "title": "In Front of Their Noses",
+      "url": "https://www.theatlantic.com/ideas/2026/11/democrats-midterms-trump-maga/689315/?utm_source=feed",
       "publishedAt": "2026-11-06T12:00:00.000Z",
-      "excerpt": "Leo’s upcoming trip to South America is an early test of how he will handle the rise of right-wing populists.",
+      "excerpt": "Why did so many highly intelligent people refuse to believe that a self-destructive administration would actually self-destruct?",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "In Front of Their Noses",
-      "url": "https://www.theatlantic.com/ideas/2026/11/democrats-midterms-trump-maga/689315/?utm_source=feed",
+      "title": "The Pope Confronts One of His Toughest Political Challenges",
+      "url": "https://www.theatlantic.com/ideas/2026/11/pope-leo-south-america-right-wing/689316/?utm_source=feed",
       "publishedAt": "2026-11-06T12:00:00.000Z",
-      "excerpt": "Why did so many highly intelligent people refuse to believe that a self-destructive administration would actually self-destruct?",
+      "excerpt": "Leo’s upcoming trip to South America is an early test of how he will handle the rise of right-wing populists.",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16634,15 +16110,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "A Good Night for the Christian Faith",
-      "url": "https://www.theatlantic.com/ideas/2026/11/midterms-christianity-talarico-hamilton/689299/?utm_source=feed",
-      "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "A pair of victories may do much to help the Democratic Party—and even more for the evangelical world.",
-      "source": "The Atlantic",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "How Takashi Yamazaki Brought Godzilla Back to Life",
       "url": "https://www.newyorker.com/culture/persons-of-interest/how-takashi-yamazaki-brought-godzilla-back-to-life",
       "publishedAt": "2026-11-08T11:00:00.000Z",
@@ -16688,6 +16155,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "“Wicker” and What Straight Women Want",
+      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
+      "source": "The New Yorker",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Good Enough for a Tuesday Night",
       "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
       "publishedAt": "2026-11-07T11:00:00.000Z",
@@ -16701,15 +16177,6 @@
       "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
       "publishedAt": "2026-11-07T11:00:00.000Z",
       "excerpt": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
-      "source": "The New Yorker",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "“Wicker” and What Straight Women Want",
-      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-      "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -21585,186 +21052,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The death of a scammer Tonggo Simangunsong",
-      "url": "https://mekongreview.com/the-death-of-a-scammer/",
-      "publishedAt": "2026-11-08T02:00:13.000Z",
-      "excerpt": "Between climate change and a lack of jobs at home, working-class Indonesians are increasingly vulnerable to recruitment by scam syndicates in countries like Cambodia. The post The death of a scammer Tonggo Simangunsong appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "When the tigers become rats Jake Adelstein",
-      "url": "https://mekongreview.com/when-the-tigers-become-rats/",
-      "publishedAt": "2026-11-08T00:59:10.000Z",
-      "excerpt": "With Yakuza: A 400-Year History of the Japanese Underworld, Andrew Rankin provides the clearest and best-sourced narrative history of the yakuza in English. The post When the tigers become rats Jake Adelstein appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Chronicler of insurgencies Kristian Odebjer",
-      "url": "https://mekongreview.com/chronicler-of-insurgencies/",
-      "publishedAt": "2026-11-08T00:58:15.000Z",
-      "excerpt": "Bertil Lintner on what first drew his interest in Southeast Asia, his family’s long trek across northern Burma in the 1980s, and his long-standing connection to Burma and its people. The post Chronicler of insurgencies Kristian Odebjer appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The ineligibles Thammika Songkaeo",
-      "url": "https://mekongreview.com/the-ineligibles/",
-      "publishedAt": "2026-11-08T00:56:03.000Z",
-      "excerpt": "When BTS refused to submit their music to the Grammys for consideration, artists worldwide were filled with pride but also envy. Many know that to walk away from the table, one must first be invited to sit down. The post The ineligibles Thammika Songkaeo appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Chasing the burning pearl Angela Sim",
-      "url": "https://mekongreview.com/chasing-the-burning-pearl/",
-      "publishedAt": "2026-11-08T00:52:33.000Z",
-      "excerpt": "It begins with the scent of dry straw and the hands of devotees, but ends in a 72.5 metre roar of smoke and light. A tradition that survived the 1880s is being woven back to life, one joss stick at a time. The post Chasing the burning pearl Angela Sim appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The state and the sin Rafly Gilang Pratama",
-      "url": "https://mekongreview.com/the-state-and-the-sin/",
-      "publishedAt": "2026-11-08T00:52:17.000Z",
-      "excerpt": "Prabowo’s government now calls the “spread of LGBTQ culture” a non-military threat. Rafly Gilang Pratama grew up in Indonesia carrying some of the same prejudice. The post The state and the sin Rafly Gilang Pratama appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Hong Kong story in fiction Jennifer Eagleton",
-      "url": "https://mekongreview.com/the-hong-kong-story-in-fiction/",
-      "publishedAt": "2026-11-08T00:50:32.000Z",
-      "excerpt": "As authoritarian control makes it increasingly difficult to engage in ‘hard’ resistance and confront power directly, fiction can step in to tease out the things that might otherwise go unsaid. The post The Hong Kong story in fiction Jennifer Eagleton appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "On their own terms Calla Lim",
-      "url": "https://mekongreview.com/on-their-own-terms/",
-      "publishedAt": "2026-11-08T00:48:20.000Z",
-      "excerpt": "The lives and experiences of queer Singaporeans should not be ignored any further, and books like SQ21 - Families and Fearfully & Wonderfully Made place these stories front and centre. The post On their own terms Calla Lim appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The “very nice” funeral Lila Roberts",
-      "url": "https://mekongreview.com/the-very-nice-funeral/",
-      "publishedAt": "2026-11-08T00:46:53.000Z",
-      "excerpt": "According to Aluk Todolo, the indigenous religion of the Toraja in the Tana Toraja highlands of Sulawesi, death is not a single event but a passage to Puya, the spirit world. The post The “very nice” funeral Lila Roberts appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Rave culture Erin Hale",
-      "url": "https://mekongreview.com/rave-culture/",
-      "publishedAt": "2026-11-08T00:44:52.000Z",
-      "excerpt": "More than thirty years after the first rave, Taiwan’s rave scene is once again booming, thanks to a surging global interest in electronic and techno music and a new generation of social media–savvy organisers. The post Rave culture Erin Hale appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "When Ranto Reads Poetry Every Morning Wawan Kurniawan",
-      "url": "https://mekongreview.com/when-ranto-reads-poetry-every-morning/",
-      "publishedAt": "2026-11-08T00:42:24.000Z",
-      "excerpt": "A short story by Wawan Kurniawan, translated from Indonesian by the author. The post When Ranto Reads Poetry Every Morning Wawan Kurniawan appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Learning journeys Tamar Herman",
-      "url": "https://mekongreview.com/learning-journeys/",
-      "publishedAt": "2026-11-08T00:40:28.000Z",
-      "excerpt": "Michelle Cho and Joe Lim of Singing Beetle on the company’s first K-pop group, 1VERSE, and their vision of a space that looks out for artists’ happiness, mental health, and ability to make a sustainable living. The post Learning journeys Tamar Herman appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "To inhabit a chimera self Arathi Devandran",
-      "url": "https://mekongreview.com/to-inhabit-a-chimera-self/",
-      "publishedAt": "2026-11-08T00:38:34.000Z",
-      "excerpt": "Belonging is of our own making, and it can look like a space just about wide enough to hold all our mismatched parts. The post To inhabit a chimera self Arathi Devandran appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Dancing in shackles Martin Laflamme",
-      "url": "https://mekongreview.com/dancing-in-shackles/",
-      "publishedAt": "2026-11-08T00:36:36.000Z",
-      "excerpt": "Read together, three books on China take us through short-lived periods of openness, political shifts, and reminders that present realities may not last forever. The post Dancing in shackles Martin Laflamme appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Carried in silk Khoa Nguyen",
-      "url": "https://mekongreview.com/carried-in-silk/",
-      "publishedAt": "2026-11-08T00:34:30.000Z",
-      "excerpt": "For some, wearing áo dài can feel like a hindrance. For others, it’s the only extravagance they have. The post Carried in silk Khoa Nguyen appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The afterlife of memory Xinrou Shu",
-      "url": "https://mekongreview.com/the-afterlife-of-memory/",
-      "publishedAt": "2026-11-08T00:32:21.000Z",
-      "excerpt": "Tiananmen Square is a major tourist attraction, but it also carries a far greater political meaning. While working as a fixer for a foreign production crew, a young Beijing native reflects on memory, presence, and silence. The post The afterlife of memory Xinrou Shu appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Survival requires small fictions Shumin Tan",
-      "url": "https://mekongreview.com/survival-requires-small-fictions/",
-      "publishedAt": "2026-11-08T00:30:21.000Z",
-      "excerpt": "Adorable by Wan Phing Lim makes attempts to make sense of things visible: coping mechanisms appear not as background habits but as part of the very fabric of social reality. The post Survival requires small fictions Shumin Tan appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Messy realities Ja Ian Chong",
-      "url": "https://mekongreview.com/messy-realities/",
-      "publishedAt": "2026-11-08T00:28:37.000Z",
-      "excerpt": "Works like Blood Dawn: World War II and the Making of Modern Asia highlight how prone people everywhere can be to excess, even violence, as they pursue competing political visions and ambitions. The post Messy realities Ja Ian Chong appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Lung Examination of a Single Xin Ru, translated from Chinese by Zheng Wei",
-      "url": "https://mekongreview.com/lung-examination-of-a-single/",
-      "publishedAt": "2026-11-07T00:26:53.000Z",
-      "excerpt": "A poem by Xin Ru, translated from Chinese by Zheng Wei. The post Lung Examination of a Single Xin Ru, translated from Chinese by Zheng Wei appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The cost of visibility Nathalie Chi",
-      "url": "https://mekongreview.com/the-cost-of-visibility/",
-      "publishedAt": "2026-08-09T13:50:39.000Z",
-      "excerpt": "For the Tibetan community in London, the upcoming Chinese mega-embassy at Royal Mint Court is just another physical manifestation of the surveillance and climate of fear they have to navigate. The post The cost of visibility Nathalie Chi appeared first on Mekong Review .",
-      "source": "Mekong Review",
-      "category": "Literature",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "How to Harness Your Existential Wanderlust",
       "url": "https://www.themarginalian.org/2026/11/07/rockwell-kent-wilderness-wanderlust/",
       "publishedAt": "2026-11-08T00:35:13.000Z",
@@ -22254,19 +21541,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to take notes that actually help you learn",
-      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "title": "Who am I if I don’t run?",
+      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Who am I if I don’t run?",
-      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "title": "How to take notes that actually help you learn",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -23817,10 +23104,74 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "WTA香港賽︱伊雅娜紮住上負劉婧文奪亞 菲律賓甜心仍為賽季感自豪",
-      "url": "https://hk01.com/sns/article/60408450",
-      "publishedAt": "2026-11-08T11:08:23.000Z",
-      "excerpt": "在維園猶如擁有主場之利的菲律賓「甜心」伊雅娜（Alexandra Eala），成功殺入WTA香港網球公開賽女單決賽，惟今日（8日）面對美籍華裔劉婧文（Claire Liu）全場陷入下風，以3：6、0：6敗陣，與生涯WTA第二冠擦身而過，但網球女單世界排名仍將再創新高，進一步升上第15位。 WTA香港賽︱伊雅娜決賽紮住上，不敵美籍華裔劉婧文獲亞軍。（Getty Images） 來到賽季最後一項比賽，兩位球手都要帶傷上陣，伊雅娜右大腿重重包紮，劉婧文的右膝同樣「紮住上」。首盤雙方皆把握到打破對手發球局的機會，伊雅娜一次「破發」，不及兩度「破發」的劉婧文，以3：6先輸第一盤。劉婧文領先下愈戰愈勇，第",
+      "title": "玫瑰戰爭丨陳自瑤慘遭好姊妹姚子羚設局 被落迷姦水送上床陪客",
+      "url": "https://hk01.com/sns/article/60408421",
+      "publishedAt": "2026-11-08T12:15:38.000Z",
+      "excerpt": "無綫（TVB）與騰訊視頻合拍的年度重頭劇《玫瑰戰爭》於明晚（9日）正式啟播。劇集卡士陣容鼎盛，由楊茜堯、陳豪、林夏薇、馬國明及陳展鵬等多位視帝視后級人馬攜手掛帥，開拍以來一直備受矚目。 玫瑰戰爭（IG@tvb77atelier） 「迷姦水」情節惹網民聯想濱崎真緒事件 率先於網上公開的第4集劇情引起極大迴響，劇中大膽觸及娛樂圈黑暗面，更出現令人心驚膽戰的「迷姦水」情節。由於橋段描繪得逼真寫實，令大批網民聯想起早前日本女星濱崎真緒（DJ Mao）在尖沙咀疑遭人「下藥」事件，在討論區掀起熱烈討論。 「梁菲雅」傅嘉莉暗戀馬國明飾演的「李德龍」。（劇集截圖） 陳自瑤慘遭掌摑陷小三風波 劇中飾演影后「關子",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "AI救命！男子胸悶檢查正常 瀕窒息休克求助豆包 勸勿離院終保命",
+      "url": "https://hk01.com/sns/article/60408389",
+      "publishedAt": "2026-11-08T12:02:18.000Z",
+      "excerpt": "AI已成為許多人日常生活的必備工具，危急時候甚至可救人一命！江西1名59歲男子早前因反覆胸悶，連走2間醫院接受心電圖、心肌酵素抽血及電腦斷層血管造影（CTA）檢查，結果全部顯示「正常」。豈料男子在醫院地庫停車場休息期間，病情突然急劇惡化，在瀕臨窒息休克的危急關頭，他啟動手機AI語音助手「豆包」求助，AI勸他切勿離開醫院，並即時通報醫護。 幸得豆包關鍵提示，男子最終及時折返急症室求救，經檢查後赫然發現其心臟血管已重度狹窄達99%，經緊急手術才保住性命。心臟專科醫生提醒，常規檢查存在時間窗與成像盲點，即使報告未見異樣，若持續出現胸悶亦絕不可掉以輕心。專家亦同時提醒，雖然AI能輔助醫療，但切勿用AI",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "今日娛樂熱話｜何麥33年女友首開腔｜康子妮揭與林曉峰離婚後現狀",
+      "url": "https://hk01.com/sns/article/60408472",
+      "publishedAt": "2026-11-08T12:00:52.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "澳洲東南部11月罕見下雪 悉尼氣溫驟降如冬",
+      "url": "https://hk01.com/sns/article/60408427",
+      "publishedAt": "2026-11-08T12:00:45.000Z",
+      "excerpt": "澳洲東南部11月8日受罕見寒潮侵襲，新南威爾士州（New South Wales）、維多利亞州（Victoria）及塔斯馬尼亞（Tasmania）部分地區降雪。悉尼（Sydney）氣溫由早上29度急降至傍晚約14度，周日早上風寒效應下感覺僅約8度，比正步入冬季的倫敦和紐約更冷。 澳洲《悉尼晨鋒報》報道， 這股冷鋒源於南部海洋水溫偏冷，冷空氣橫掃澳洲南部 。儘管悉尼7日早上仍達29度高溫，至傍晚幾乎減半至約14度，期間雷暴帶來冰雹及強風，8日市區氣溫不會升至20度以上。 Meanwhile in Australia snow in November! https://t.co/tyhN03PII",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "《穀雨》開播爆紅！井柏然張頌文對決 揭巨額假發票大案劇名深意",
+      "url": "https://hk01.com/sns/article/60408393",
+      "publishedAt": "2026-11-08T12:00:35.000Z",
+      "excerpt": "由反腐神作《人民的名義》導演李路執導、井柏然與張頌文兩大實力派演員主演的懸疑劇《穀雨》（內地官方簡體劇名為《谷雨》，The Silent Storm），自11月5日於內地央視電視劇頻道（CCTV-8）開播後即引發網上熱話。劇集改編自上世紀90年代涉案金額高達43.7億人民幣（約51.3億港元）的真實經濟犯罪大案，向觀眾深刻揭示特大假發票案對社會經濟的深遠影響。 不少觀眾疑惑，一部以查稅為核心的劇集，為何以節氣命名？事實上，「穀雨」是劇中直指經濟黑幕的行動代號，其英文譯名亦點出稅務監管「表面溫潤、內裡雷霆」的本質。 由《人民的名義》導演李路執導、井柏然與張頌文兩大實力派演員主演的懸疑劇《穀雨》（",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "全身一碰即爛 湖南4歲蝴蝶寶貝嘆「我是世上最孤獨的人」惹心疼",
+      "url": "https://hk01.com/sns/article/60408475",
+      "publishedAt": "2026-11-08T12:00:09.000Z",
+      "excerpt": "湖南湘潭4歲女童晨晨一出生便確診罕見病「遺傳性大皰性表皮鬆解症（EB）」，因全身皮膚表層極度脆弱，患者又被稱為「蝴蝶寶貝」。 4年來，晨晨父母每天耗費數小時為其全身敷藥換藥，每月昂貴敷料與生物製劑花費逾萬元（人民幣，下同）。面對沉重經濟壓力與無藥可醫的困境，甚至女兒因無法參與跳繩等戶外活動而感嘆「我是世上最孤獨的人」，他們始終耐心給予正向心理引導，更決定不再生育，全心呵護女兒的心靈。 晨晨患有遺傳性大皰性表皮鬆解症。（影片截圖） 《瀟湘晨報》報道，晨晨患有遺傳性大皰性表皮鬆解症，皮膚如蝴蝶翅膀般脆弱，輕微摩擦或碰撞就會導致皮膚破損、起水疱甚至潰爛，平日需要全身貼藥護理，每月護理費過萬元，其中僅",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "前泰國小姐Boom慈善人設崩塌 涉「吞2億善款」遭捕逾億資產被扣",
+      "url": "https://hk01.com/sns/article/60408446",
+      "publishedAt": "2026-11-08T11:45:34.000Z",
+      "excerpt": "泰國女星Panadda Wongphudee（Boom）捲入慈善捐款案，與丈夫Atip Anantawan雙雙被法院簽發逮捕令。警方調查發現，她擔任主席的「行善組織基金會」累計收到約9億泰銖（約2億港元）捐款，部分資金疑流入夫妻私人帳戶，另有款項疑與普吉島（布吉島）豪華泳池別墅項目有關。 泰媒報道，警方11月6日清晨持逮捕令及搜索令前往Boom位於曼谷的住處。當時，她正準備與律師出門接受媒體訪問，隨後被警方帶回屋內配合搜索。 泰國女星Panadda Wongphudee（Boom）涉侵佔慈善捐款。（IG@boompanadda） 女星Panadda Wongphudee（Boom）曾是泰國小姐",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "劉穎鏇出戰903籃球賽片洗版 網民激讚完勝Mandy：依啲先係真女神",
+      "url": "https://hk01.com/sns/article/60408447",
+      "publishedAt": "2026-11-08T11:36:14.000Z",
+      "excerpt": "「903 AllStar籃球賽」昨晚（11月7日）圓滿結束，賽事除了雲集多位人氣偶像外，最引人注目的莫過於兩大新生代「籃球女神」。29歲的劉穎鏇（Tiffany）和25歲的譚旻萱（Mandy）同樣擁高䠷身材、樣子甜美，加上又喜歡打籃球，被視為圈中的「籃球女神」，但兩人一個是電視台小花，一個是影壇新貴，一直未有機會接觸，直到昨晚，兩人首次在球場上正面交鋒，分別代表「歌星勇士隊」對「903人隊」，豈料比賽結束後，網民焦點全落在劉穎鏇身上，令近來陷入戀情風波的Mandy瞬間失色。 劉穎鏇出戰903籃球賽的片段，賽後在社交平台洗版。（胡凱欣 攝） 劉穎鏇吸引觀眾眼球 高中時代在美國曾代表學校征戰加州賽",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "周秀娜生圖被指暴瘦變樣 高EQ親揭真正原因自嘲「眼大都有壞處」",
+      "url": "https://hk01.com/sns/article/60408367",
+      "publishedAt": "2026-11-08T11:30:20.000Z",
+      "excerpt": "現年41歲的周秀娜（娜姐）於千禧年代憑完美身材俘虜一眾粉絲，其後收起性感專注拍戲，2017年憑電影《29+1》獲演技肯定，成功轉型實力派演員，惟近年其身形變化屢成焦點。近日她馬不停蹄為新戲《第四幕》四出宣傳，未料散場後在停車場與影迷互動時，意外遭現場極端燈光「暗算」拍下驚悚生圖，面對健康狀況再惹揣測，周秀娜火速在社交媒體以極高EQ霸氣解畫！ 周秀娜。（IG@chrissienana） 周秀娜生圖被指眼窩深陷「目露凶光」 當晚宣傳活動中，周秀娜以一襲黑色露肩貼身長裙亮相，身形明顯比以往纖瘦清減。寵粉的她於活動結束後特意留在停車場，對守候多時的影迷簽名及合照要求均有求必應，態度親民又貼地。惟當周秀",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -23833,58 +23184,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "酒家吃長腳蟹防掉包絕招？食客教路秤重後做兩行動 上枱證獲原蟹",
-      "url": "https://hk01.com/sns/article/60408406",
-      "publishedAt": "2026-11-08T11:02:57.000Z",
-      "excerpt": "又踏入吃長腳蟹的最佳季節，不少人吃貴價海鮮都會擔心不幸遇上不良商家，秤重後被掉包成另1隻平價蟹。有食客近日就於網上分享在上水1間酒家吃價值1,115.4元清蒸阿拉斯加長腳蟹的經驗，教路秤重後入廚房清蒸前，要先拍照及扭斷蟹腳作記號，上枱後再對比照片，最後成功證實沒被掉包，帖文隨即引起網民熱議。 有食客近日於網上分享，在上水1間酒家吃價值1,115.4元清蒸阿拉斯加長腳蟹的經驗。（Threads@i_snow_nobody） 該食客於Threads發文發相分享 ，「Threads學到真嘢，去食長腳蟹要影相+斷腳（對唔住啦，蟹）」，目的為防止商家掉包另1隻蟹，「我淨係扭咗少少，有啲人扭成隻腳」，幸最",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "山東男童受傷驗出腫瘤 遭醫生切除幾乎整個消化系統 3年後逝世",
-      "url": "https://hk01.com/sns/article/60408456",
-      "publishedAt": "2026-11-08T11:00:45.000Z",
-      "excerpt": "內媒《紅星新聞》報道，在2023年10月，山東菏澤一名時年10歲的男童在一次意外被撞擊後，在醫院檢查出腹腔內存在腫瘤，手術中被切除了包括十二指腸、胰腺、大部分胃和小腸等多個器官，消化系統近乎遭全部切除，此後無法再如常吃飯、喝水，要靠長期靜脈注射營養液維生。 最新報道指，這名男童於本年11月4日在上海交通大學醫學院附屬瑞金醫院去世，死亡診斷為循環衰竭、失血性休克、代謝性酸中毒、凝血功能障礙、短腸綜合症等10項。 男童在一次意外被撞擊後，在醫院檢查出腹腔內存在腫瘤，手術中被切除了包括十二指腸、胰腺、大部分胃和小腸等多個器官，消化系統近乎遭全部切除。（《紅星新聞》） 男童在一次意外被撞擊後，在醫院檢",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "M+博物館5周年免費入場 部份展館須分流 有市民扶老攜幼親子遊",
       "url": "https://hk01.com/sns/article/60408463",
       "publishedAt": "2026-11-08T10:48:19.000Z",
       "excerpt": "西九文化區M+博物館5周年，今日（8日）早上10時起，免費開放指定展覽供市民及旅客參觀。有不少市民專程提早於開館前半小時來霸頭位，排隊等候入場，亦吸引不少內地和外國旅客前來參觀，有部份展廳需進行人流管制。有市民趁免費入場，帶同小孩來親子遊，認為館內的常規展覽值得觀賞，日後亦會考慮付費入場特別展覽。 博物館內有展覽館進行限制人流，訪客需要排隊進入。（梁家俊攝） 為慶祝M+博物館踏入5周年，館方除舉辦一連串文娛活動外，今日（8日）更開放特定展區予公眾免費觀賞，吸引不少市民於早上9時半、即在開館前半小時，已來排隊等候入場。除了一家大小，入場人士亦不乏來自內地、韓國及歐美國家等旅客。 11月8日，M+",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "玫瑰戰爭丨楊茜堯爆劇集揭露娛樂圈黑暗面 唔爭視后想奪最佳劇集",
-      "url": "https://hk01.com/sns/article/60408444",
-      "publishedAt": "2026-11-08T10:45:59.000Z",
-      "excerpt": "TVB台慶劇《玫瑰戰爭》今日（8日）劇中演員，包括楊茜堯、馬國明、陳展鵬、傅嘉莉、陳自瑤、陳楨怡、陳星妤、趙璧渝，以電車巡遊繼續為劇集預熱。一行人在電車上落力宣傳劇集，沿途向市民打招呼。 楊茜堯、馬國明、陳展鵬、傅嘉莉、陳自瑤、陳怡、陳星妤、趙壁渝，以電車巡遊，為《玫瑰戰爭》宣傳。（關穎賢 攝） 一眾演員為劇集進行預熱宣傳。（關穎賢 攝） 一行人在電車上落力宣傳劇集。（關穎賢 攝） 電車駛至銅鑼灣鬧市後，再向途人派發劇集紀念品及合照打卡。（關穎賢 攝） 銅鑼灣街頭宣傳場面混亂 現場有人發生推撞 電車駛至銅鑼灣鬧市後，再向途人派發劇集紀念品及合照打卡，吸引大批市民圍觀。由於人多擠迫，場面極為混亂",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "冷鋒挾東北季候風11.9殺到 市區最低氣溫16度 風力飆升有得解",
-      "url": "https://hk01.com/sns/article/60408452",
-      "publishedAt": "2026-11-08T10:34:54.000Z",
-      "excerpt": "「那次季候風／吹得格外兇／彷彿世上一切／也將消失所蹤」。加拿大天王The Weeknd（又譯：威肯/ The Weeknd）上月在啟德體育園獻唱，演唱會中推出以香港《Hong Kong》為名的新作，把本港樂壇天后王菲的經典粵語金曲《季候風》歌詞融入曲中，在網絡引發熱潮。不過現實中，這股「季候風」確實需要關注！ 加拿大天王The Weeknd以香港《Hong Kong》為名的新作，把王菲金曲《季候風》歌詞融入曲中，在網絡引發熱潮。（IG圖片） 事關香港天文台預測，一道冷鋒會在星期一（11月9日）初時橫過廣東沿岸，本港會轉吹偏北強風，早上較涼，日間漸轉天晴乾燥。受隨後的強烈東北季候風影響，星期一晚",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "冷空氣襲廣東全省降溫5℃～9℃ 深圳周二料低至16℃",
-      "url": "https://hk01.com/sns/article/60408454",
-      "publishedAt": "2026-11-08T10:33:08.000Z",
-      "excerpt": "據廣東天氣11月8日消息，預計中等偏強的冷空氣將於8日下午影響粵北，上半夜到達廣州市區，9日早晨影響沿海市縣，廣東省大部平均氣溫將下降5℃～9℃，過程最低氣溫將出現在10日早晨前後。 粵北和珠三角北部市縣最低氣溫將降至8℃～12℃，南部沿海市縣14℃～16℃，其餘大部市縣11℃～13℃。 冷空氣襲廣東。（廣東天氣） 據《深圳晚報》報道，對深圳來說，11月9日早晨是體感轉折的起點，日平均氣溫下降5℃～7℃，是今年下半年以來最實在的一段涼意。過程最低氣溫將出現在10日（周二）早晨前後，深圳最低氣溫降至16℃左右， 之後陽光回歸，晴涼上線。 預計9日多雲，局部有零星小雨，氣溫下降，沿海高地和海區最大",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "6旬婦當「房屋保姆」住遍豪宅 睇屋照顧毛孩換住宿年慳19萬租金",
-      "url": "https://hk01.com/sns/article/60407949",
-      "publishedAt": "2026-11-08T10:30:58.000Z",
-      "excerpt": "英國一名女子為了實現環遊世界的夢想，決定放棄租屋，透過當「房屋保姆」（house-sitter），直接住進陌生人的豪宅。自從做了這份工作，她不僅能住進平常負擔不起的豪華住宅，每年還能省下高達1.8萬英鎊（約19萬港元）的房租與生活開銷，將錢用來到處旅行。 據《鏡報》（Mirror）報導 ，63歲的蜜雪兒（Michelle）為了完成環遊世界的夢想，決定成為全職「房屋保姆」。她把所有家當塞到車上，開車往返英國及歐洲各地，為外出度假的屋主維護房屋，藉此換取免費住宿。 英國一名女子為了實現環遊世界的夢想，決定放棄租屋，透過當「房屋保姆」（house-sitter），直接住進陌生人的豪宅。（Facebo",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -23900,7 +23203,7 @@
       "title": "馬鞍山昂平滑翔傘意外｜事主疑上網睇片自學 傘友曾勸搵教練學習",
       "url": "https://hk01.com/sns/article/60408412",
       "publishedAt": "2026-11-08T09:32:57.000Z",
-      "excerpt": "馬鞍山昂平發生滑翔傘意外，3名行山客被撞傷，所幸3人均清醒，傷勢不算嚴重。今午（8日）12時許，一名滑翔傘男玩家在馬鞍山昂平降落時懷疑失控，撞到3名男女行山客，令3人頭部及背部受傷，由直升機送院治理。 中國香港滑翔傘協會副會長趙浩南接受《香港01》訪問時指，圈內傘友對涉事男子並不陌生，早於約9個月前，已有傘友在山上留意到涉事男子的蹤影，發現對方的操作「甩漏」、「唔正常」，其後得悉對方疑竟是「睇YouTube自學」，當時已有傘友勸他找合格教練學習，惟對方未有理會，詎料今日發生意外。 趙浩南坦言，單靠上網睇片自學滑翔傘，是既不可行，亦不可取。（資料圖片） 涉事男子稱上網「睇YouTube自學」 圈",
+      "excerpt": "馬鞍山昂平發生滑翔傘意外，3名行山客被撞傷，所幸3人均清醒，傷勢不算嚴重。今午（8日）12時許，一名滑翔傘男玩家在馬鞍山昂平降落時懷疑失控，撞到3名男女行山客，令3人頭部及背部受傷，由直升機送院治理。 中國香港滑翔傘協會副會長趙浩南接受《香港01》訪問時指，圈內傘友對涉事男子並不陌生，早於約9個月前，已有傘友在山上留意到涉事男子的蹤影，發現對方的操作「甩漏」、「唔正常」，其後得悉對方疑竟是「睇YouTube自學」，當時已有傘友勸他找合格教練學習，惟對方未有理會，詎料今日發生意外。 消息稱，涉事男子姓葉，50歲，於今年1月才開始自學滑翔傘。警方事後將他帶署調查。 根據《1995 年飛航（香港）令",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -23937,6 +23240,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "東北季候風殺到 多區一夜跌逾10度 周二最低16度 一區低見13度",
+      "url": "https://hk01.com/sns/article/60408368",
+      "publishedAt": "2026-11-08T05:30:47.000Z",
+      "excerpt": "【香港天文台／HKO／明天的天氣／東北季候風／冷鋒／維港渡海泳】天文台今早（8日）預測，一道冷鋒周一（9日）初時橫過廣東沿岸，受隨後的強烈東北季候風影響，北風增強，氣溫顯著下降。 九天天氣預報進一步調低最低氣溫預測，預計周二（10日）市區氣溫（天文台尖沙咀總部）進一步降至最低16度，新界再低兩三度。分區天氣預報則顯示，周一下午起多區氣溫急跌超過10度，至周二上午7時，新界多區只得14度，包括上水、流浮山、石崗及將軍澳；打鼓嶺更低見13度。 天文台11月8日預測，一道冷鋒周一（9日）初時橫過廣東沿岸，受隨後的強烈東北季候風影響，北風增強，氣溫顯著下降。（資料圖片） ▼2026年11月7日 立冬本",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "The Weeknd掀熱王菲季候風 曾俊華：提醒香港勿硬裝亂砌抺去特色",
       "url": "https://hk01.com/sns/article/60408358",
       "publishedAt": "2026-11-08T04:38:33.000Z",
@@ -23953,27 +23264,19 @@
       "category": "Hong Kong"
     },
     {
-      "title": "獨家丨何麥武館早倒閉 女友斥何慈茵一年見父兩次：人在做天在看",
-      "url": "https://hk01.com/sns/article/60408228",
-      "publishedAt": "2026-11-08T00:30:02.000Z",
-      "excerpt": "一代洪拳宗師劉家良入室弟子何麥（Mark Houghton）早前離世，其女兒何慈茵（Charlene）前日（5日）在Facebook撰文宣佈接任「嶺南黃飛鴻洪拳傳人-劉家洪拳」承繼人。不過事件卻出現羅生門，Mark的女友Christie隨後在劉家良的Facebook專頁發出另一版本聲明，指第六代領導傳人另有其人，但相隔不久又遭刪掉，她再在Mark和自己的fb專頁上載，令事件添上不少疑團。 何慈茵前日（6日）接受《香港01》訪問時，指控Christie獨自決定父親的喪禮儀式，令她感到不被尊重，並相信父親想由女兒繼承衣缽。昨日（6日）《香港01》聯絡上何麥的女友Christie進行獨家電話訪問。正",
-      "source": "香港01",
+      "title": "樓宇維修局｜初期編制約百人、聚焦處理「招標妥」工程",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521383/%E6%A8%93%E5%AE%87%E7%B6%AD%E4%BF%AE%E5%B1%80-%E5%88%9D%E6%9C%9F%E7%B7%A8%E5%88%B6%E7%B4%84%E7%99%BE%E4%BA%BA-%E8%81%9A%E7%84%A6%E8%99%95%E7%90%86-%E6%8B%9B%E6%A8%99%E5%A6%A5",
+      "publishedAt": "2026-11-08T11:33:11.000Z",
+      "excerpt": "【有線新聞】政府目標年底前成立專責監管維修工程的樓宇維修支援及服務局，初期人手編制約100名。 發展局指樓宇維",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "荃灣九巴男乘客車內暈倒 車長報案 送院不治",
-      "url": "https://hk01.com/sns/article/60408315",
-      "publishedAt": "2026-11-07T19:31:37.000Z",
-      "excerpt": "荃灣有人猝死。昨晚（7日）11時許，一輛路線36B的九巴駛回梨木樹公共運輸交匯處時，62歲黎姓車長發現一名66歲梁姓男乘客在車內暈倒，於是報案。 救護員接報到場，梁翁昏迷被送往仁濟醫院進行搶救，其後被證實死亡，死因有待驗屍後確定。 九巴回覆《香港01》查詢表示，昨晚約11時半，九巴一輛路線36B巴士駛抵梨木樹總站後，車長巡視車廂時發現一名乘客躺臥於下層地台失去知覺，於是報警求助，乘客送院搶救後不治。 九巴對事件感到難過，並指對車長工作設有嚴謹內部指引，要求車長完成每一個行程後，必須巡視上下層車廂。 梁翁昏迷被送往仁濟醫院進行搶救，其後被證實死亡。（資料圖片）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "屋宇署證東涌西站30石屎支柱欠妥當 稱10月接通報證監管制度有效",
-      "url": "https://hk01.com/sns/article/60408310",
-      "publishedAt": "2026-11-07T17:49:54.000Z",
-      "excerpt": "《香港01》周六（7日）揭發港鐵東涌延線東涌西站大堂樓層半數支柱，約30支柱灌石屎「未到頂」，出現嚴重灌石屎質量問題。 屋宇署稱東涌西站10月初接工程師通報，發現有混凝土支柱欠妥當，在10月尾例行視察確認兩支柱有問題，要求承建商全面調查，最終確認30條支柱欠妥當。署方稱由「上而下」設計的樓板有臨時支撐，不會對車站結構構成危險。署方稱通報證監管制度有效，初步無發現證據有故意偏離圖則的情況，亦無發現人員違反守則及條例。 【01偵查YouTube Playlist】 《香港01》取得部份東涌西站相片，見到有4條約8至9米高的石屎支柱，面積約0.5米乘0.5米，前面兩條支柱已灌完石屎，靠後的兩條支柱明",
-      "source": "香港01",
+      "title": "孫東恭賀科大校長葉玉如獲教科文組織生命科學研究獎",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521386/%E5%AD%AB%E6%9D%B1%E6%81%AD%E8%B3%80%E7%A7%91%E5%A4%A7%E6%A0%A1%E9%95%B7%E8%91%89%E7%8E%89%E5%A6%82%E7%8D%B2%E6%95%99%E7%A7%91%E6%96%87%E7%B5%84%E7%B9%94%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%B8%E7%A0%94",
+      "publishedAt": "2026-11-08T11:32:40.000Z",
+      "excerpt": "【有線新聞】創新科技及工業局局長孫東恭賀科大校長葉玉如獲教科文組織生命科學研究獎。 孫東在社交平台稱，葉玉如是",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24121,19 +23424,51 @@
       "category": "Hong Kong"
     },
     {
-      "title": "巴黎網球精英賽 艾卡拉斯勝魯德闖決賽",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521295/%E5%B7%B4%E9%BB%8E%E7%B6%B2%E7%90%83%E7%B2%BE%E8%8B%B1%E8%B3%BD-%E8%89%BE%E5%8D%A1%E6%8B%89%E6%96%AF%E5%8B%9D%E9%AD%AF%E5%BE%B7%E9%97%96%E6%B1%BA%E8%B3%BD",
-      "publishedAt": "2026-11-08T03:03:18.000Z",
-      "excerpt": "【有線新聞】巴黎網球精英賽，艾卡拉斯躋身決賽。 黃色褲的艾卡拉斯過去7次面對魯德贏了6次，這位二號種子延續強勢",
-      "source": "有線新聞",
+      "title": "一語千金 - 港好創科｜專訪京東集團副總裁沈建光(二)",
+      "url": "https://news.now.com/home/local/player?newsId=668756",
+      "publishedAt": "2026-11-08T12:03:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "九巴辦人寵同樂日 設3寵物專線往西沙",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/521292/%E4%B9%9D%E5%B7%B4%E8%BE%A6%E4%BA%BA%E5%AF%B5%E5%90%8C%E6%A8%82%E6%97%A5-%E8%A8%AD3%E5%AF%B5%E7%89%A9%E5%B0%88%E7%B7%9A%E5%BE%80%E8%A5%BF%E6%B2%99",
-      "publishedAt": "2026-11-08T02:58:36.000Z",
-      "excerpt": "【有線新聞】九巴開設寵物巴士兩周年，聯乘卡通人物舉行人寵同樂日。 早上開跑的800米「寵物組」，一群狗狗迫不及",
-      "source": "有線新聞",
+      "title": "一語千金 - 港好創科｜專訪京東集團副總裁沈建光(一)",
+      "url": "https://news.now.com/home/local/player?newsId=668755",
+      "publishedAt": "2026-11-08T12:02:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "大鳴大放｜人道救援與民間外交(二)",
+      "url": "https://news.now.com/home/local/player?newsId=668754",
+      "publishedAt": "2026-11-08T12:01:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "大鳴大放｜人道救援與民間外交(一)",
+      "url": "https://news.now.com/home/local/player?newsId=668753",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "時事全方位重點提要｜11月9日",
+      "url": "https://news.now.com/home/local/player?newsId=668802",
+      "publishedAt": "2026-11-08T11:21:30.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "香港網球公開賽 劉婧文直落兩盤挫伊雅娜 首奪巡迴賽冠軍",
+      "url": "https://news.now.com/home/local/player?newsId=668800",
+      "publishedAt": "2026-11-08T11:19:30.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
@@ -24169,16 +23504,16 @@
       "category": "Hong Kong"
     },
     {
-      "title": "國家級匹克球賽事凱瑞麟盃首度落戶香港",
-      "url": "https://news.now.com/home/local/player?newsId=668792",
+      "title": "李慧琼、陳祖光及葛珮帆開設聯合辦事處",
+      "url": "https://news.now.com/home/local/player?newsId=668791",
       "publishedAt": "2026-11-08T09:30:54.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "李慧琼、陳祖光及葛珮帆開設聯合辦事處",
-      "url": "https://news.now.com/home/local/player?newsId=668791",
+      "title": "國家級匹克球賽事凱瑞麟盃首度落戶香港",
+      "url": "https://news.now.com/home/local/player?newsId=668792",
       "publishedAt": "2026-11-08T09:30:54.000Z",
       "excerpt": "",
       "source": "Now 新聞",
@@ -24244,54 +23579,6 @@
       "title": "樓宇維修局初期約有近百員工部分由市建局「過檔」 將公開招聘行政總裁",
       "url": "https://news.now.com/home/local/player?newsId=668777",
       "publishedAt": "2026-11-08T07:15:25.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "天文台料周二市區清涼 最低氣溫降至約16度",
-      "url": "https://news.now.com/home/local/player?newsId=668772",
-      "publishedAt": "2026-11-08T05:07:38.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "陳茂波：大力推動不同領域盛事 讓旅遊會展業更蓬勃發展",
-      "url": "https://news.now.com/home/local/player?newsId=668771",
-      "publishedAt": "2026-11-08T04:26:38.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "九巴寵物巴士推行兩周年 舉辦人寵同樂周年派對",
-      "url": "https://news.now.com/home/local/player?newsId=668768",
-      "publishedAt": "2026-11-08T04:18:38.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "打鼓嶺大學城擬擴大至75公頃 部分預留建演藝學院新校舍",
-      "url": "https://news.now.com/home/local/player?newsId=668766",
-      "publishedAt": "2026-11-08T04:09:38.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "律政司推法律科技服務資助計劃 有律師指AI媲美資歷淺律師但擔心生成虛構內容",
-      "url": "https://news.now.com/home/local/player?newsId=668765",
-      "publishedAt": "2026-11-08T04:08:38.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃之鋒案判刑惹西方批評 林定國指不評論案件但會說明自身立場",
-      "url": "https://news.now.com/home/local/player?newsId=668764",
-      "publishedAt": "2026-11-08T04:05:38.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -24457,6 +23744,22 @@
       "category": "Hong Kong"
     },
     {
+      "title": "【重溫】2026年11月8日新聞天地",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877026-20261108.htm",
+      "publishedAt": "2026-11-08T11:34:29.000Z",
+      "excerpt": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "甯漢豪回應建造業涉「造假」 強調要「是其是、非其非」",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877027-20261108.htm",
+      "publishedAt": "2026-11-08T11:18:26.000Z",
+      "excerpt": "發展局局長甯漢豪出席一個電視節目，被問到近期，建造業界被指接連出現涉嫌「造假」個案，她表示，要「是其是、非其非」，又稱違規者會受到很大的懲處。 編輯：劉景輝",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "三項鐵人世界盃香港站混合接力賽 港隊取得第11名",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1877031-20261108.htm",
       "publishedAt": "2026-11-08T11:09:37.000Z",
@@ -24597,22 +23900,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1876974-20261108.htm",
       "publishedAt": "2026-11-07T16:18:13.000Z",
       "excerpt": "屋宇署表示，就港鐵東涌西站月台層部分混凝土柱有施工欠妥一事，截至過去的星期五，註冊結構工程師於所有板模拆除後共發現約30條混凝土柱出現有關情況，已要求註冊結構工程師於本月中提交調查報告及建議補救措施，署方會審視報告及建議，繼續密切監察情況及跟進所需的糾正工程，確保所有工程符合相關安全及質素要求。 屋宇署回覆查詢時表示，屋宇署人員上月27日進行例行地盤視察及質量審核時已檢視有關情況，確認有兩條混凝土柱存在欠妥情況，當場要求註冊結構工程師團隊及註冊承建商進行全面調查及盡快進行糾正工程。港鐵已指令暫停相關施工。註冊結構工程師監工團隊按正常工序於混凝土板模陸續拆除後作檢查，進一步發現有其他混凝土柱有類",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "丘應樺：粵港澳三地深化合作 將有助推動大灣區協同發展",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1876973-20261107.htm",
-      "publishedAt": "2026-11-07T13:17:32.000Z",
-      "excerpt": "商務及經濟發展局局長丘應樺在廣州出席「2026國際灣區經濟論壇」致辭指，粵港澳三地各具特色、優勢互補。香港擁有高度國際化的營商環境和寬廣的國際商貿網絡；廣東具備雄厚的製造業基礎、完整的產業鏈和蓬勃的創新科技產業；澳門則在中葡商貿合作及文化交流方面具有獨特優勢。三地深化合作，將有助推動大灣區協同發展。 他指出，香港作為國際金融、貿易和專業服務中心，是連接內地與世界的重要橋樑。香港是全球最大的離岸人民幣業務中心，上月再次獲評為全球最自由經濟體。去年，母公司位於海外及內地的駐港公司和本地初創企業數目，雙雙創下歷史新高，反映香港對國際企業和創業人才的吸引力。 丘應樺表示，北部都會區是香港未來發展的重要",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "東涌西站支柱施工質量問題 路政署要求港鐵兩周內交報告",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1876970-20261107.htm",
-      "publishedAt": "2026-11-07T12:15:42.000Z",
-      "excerpt": "路政署表示，星期一接獲港鐵通報，指在巡查時發現東涌西站工地月台層部分混凝土支柱位置出現施工質量問題，及承建商曾在未有獲批的施工方法下嘗試進行修補工程，港鐵已即時指示承建商停止有關工程，署方高度關注事件，強調東涌綫延線2029年的通車目標維持不變。 路政署回覆查詢時表示，接獲通報後於星期二、三派員到場核查情況，以及於昨日與港鐵舉行會議，進一步跟進事件及了解調查進度。署方要求港鐵認真展開調查，並在通報事件後兩個星期內提交詳細調查報告，並督促承辦商制定詳細修復方案，盡快自資進行修復工程，以確保工程質量符合標準，同時採取措施， 確保事件不會影響整個工程進度 。 路政署一直密切監察東涌綫延線項目的進度、",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -24777,6 +24064,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "香港海關檢獲懷疑屬受管制瀕危物種乾魚翅（附圖）",
+      "url": "https://www.info.gov.hk/gia/general/202611/08/P2026110800503.htm",
+      "publishedAt": "2026-11-08T12:15:00.000Z",
+      "excerpt": "​香港海關昨日（十一月七日）在香港國際機場檢獲約三十一公斤懷疑屬受管制瀕危物種的乾魚翅，估計市值約十三萬元。 一名五十一歲的內地女旅客昨日從巴西經埃塞俄比亞飛抵本港，她於機場入境大堂被海關人員截停進行清關檢查。海關人員在其寄艙行李內發現該批懷疑受管制乾魚翅。經漁農自然護理署（漁護署）人員查驗後，懷疑該批乾魚翅屬《瀕危野生動植物種國際貿易公約》所列明的瀕危物種，在本港受《保護瀕危動植物物種條例》（第586章）所管制。海關人員遂把她拘捕。案件已轉交漁護署跟進調查。 被捕女子已被漁護署落案控以一項非法進口附錄II瀕危物種罪。 根據《保護瀕危動植物物種條例》，任何人如非按照《條例》規定進出口或管有瀕危",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
       "title": "環境及生態局局長前往土耳其出席第31屆聯合國氣候變化大會",
       "url": "https://www.info.gov.hk/gia/general/202611/08/P2026110600252.htm",
       "publishedAt": "2026-11-08T08:00:00.000Z",
@@ -24925,14 +24220,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/07/P2026110700244.htm",
       "publishedAt": "2026-11-07T02:03:00.000Z",
       "excerpt": "電台及電視台當值宣布員注意： 請盡快播出下列特別報告： 游泳人士請注意：康樂及文化事務署今日（十一月七日）宣布，由於大浪關係，港島南區的赤柱正灘泳灘及大浪灣泳灘；以及西貢區的銀線灣泳灘及清水灣第二灣泳灘已懸掛紅旗，顯示在該處游泳會有危險，市民請勿在該處游泳。",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "分區賣旗日",
-      "url": "https://www.info.gov.hk/gia/general/202611/07/P2026110500203.htm",
-      "publishedAt": "2026-11-06T22:00:00.000Z",
-      "excerpt": "社會福利署（社署）發言人表示，三個慈善團體獲發公開籌款許可證於今日（十一月七日）由上午七時至下午十二時三十分，分別在港島（The Royal British Legion（Hong Kong & China Branch）（沒有中文註冊名稱））、九龍（香港復康力量）及新界（荃灣葵青區婦女會）三區同時進行賣旗活動。 &nbsp; 為了確保分區賣旗日順利進行，該署已與有關賣旗團體作出安排，方便市民識別當日同時進行的三個分區賣旗活動。 &nbsp; 十一月七日舉行的分區賣旗的安排如下： &nbsp; 地區 機構名稱 賣旗錢袋顏色 旗紙顏色 港島 The Royal British Legion（Ho",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

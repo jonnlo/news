@@ -62,6 +62,45 @@ function tag(item, names) {
   return '';
 }
 
+function htmlAttribute(tagText, name) {
+  return tagText.match(new RegExp(`\\b${name}=["']([^"']*)["']`, 'i'))?.[1] ?? '';
+}
+
+function htmlMeta(html, key) {
+  const tags = html.match(/<meta\b[^>]*>/gi) ?? [];
+  const meta = tags.find((entry) =>
+    htmlAttribute(entry, 'property').toLowerCase() === key.toLowerCase()
+    || htmlAttribute(entry, 'name').toLowerCase() === key.toLowerCase());
+  return meta ? decodeEntities(htmlAttribute(meta, 'content')) : '';
+}
+
+async function collectSitemap(feed) {
+  const xml = await fetchText(feed.url);
+  const entries = [...xml.matchAll(/<url>\s*([\s\S]*?)\s*<\/url>/gi)].map(([, entry]) => ({
+    url: decodeEntities(tag(entry, ['loc'])),
+    lastmod: decodeEntities(tag(entry, ['lastmod'])),
+  })).filter((entry) => entry.url && new URL(entry.url).hostname === 'humanistreview.ai');
+  const fetched = await Promise.allSettled(entries.map(async (entry, index) => {
+    const html = await fetchText(entry.url);
+    const title = htmlMeta(html, 'og:title') || html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)?.[1] || '';
+    if (!title) return null;
+    const date = htmlMeta(html, 'article:published_time') || entry.lastmod;
+    return {
+      title: decodeEntities(title).replace(/\s*\|\s*The Humanist Review(?: of AI)?\s*$/i, ''),
+      url: entry.url,
+      publishedAt: date && !Number.isNaN(Date.parse(date)) ? new Date(date).toISOString() : null,
+      excerpt: (htmlMeta(html, 'og:description') || htmlMeta(html, 'description')).slice(0, 300),
+      source: feed.name,
+      category: feed.category,
+      sourceRole: feed.role,
+      _feedIndex: index,
+    };
+  }));
+  const stories = fetched.flatMap((result) => result.status === 'fulfilled' && result.value ? [result.value] : []);
+  if (!stories.length) throw new Error('Article sitemap returned no recognizable stories');
+  return stories;
+}
+
 function parseRss(xml, source) {
   const blocks = [...xml.matchAll(/<(?:item|entry)\b[^>]*>([\s\S]*?)<\/(?:item|entry)>/gi)];
   return blocks.map(([, item], index) => {
@@ -161,7 +200,9 @@ async function fetchText(url) {
 
 async function collectSource(feed) {
   let stories;
-  if (feed.name === '香港01') {
+  if (feed.kind === 'sitemap') {
+    stories = await collectSitemap(feed);
+  } else if (feed.name === '香港01') {
     const urls = [feed.url, 'https://rsshub.runnable.run/hk01/latest', 'https://rsshub.runnable.run/hk01/zone/1'];
     const responses = await Promise.allSettled(urls.map(async (url) => parseRss(await fetchText(url), feed)));
     stories = responses.flatMap((response) => response.status === 'fulfilled' ? response.value : []);

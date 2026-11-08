@@ -2,11 +2,16 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-09",
-  "generatedAt": "2026-11-08T19:17:11.079Z",
-  "collectedAt": "2026-11-08T19:17:11.079Z",
+  "generatedAt": "2026-11-08T20:17:11.157Z",
+  "collectedAt": "2026-11-08T20:17:11.157Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Sidebar",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,6 +20,33 @@
       "count": 20,
       "stories": [
         {
+          "title": "How I Fight AI Brain Fry",
+          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+          "publishedAt": "2026-11-08T19:37:42.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50416363"
+        },
+        {
+          "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+          "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+          "publishedAt": "2026-11-08T19:20:32.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50416158"
+        },
+        {
+          "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+          "url": "https://duxlabs.dev/",
+          "publishedAt": "2026-11-08T19:08:51.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50416053"
+        },
+        {
           "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
           "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
           "publishedAt": "2026-11-08T18:43:07.000Z",
@@ -22,6 +54,15 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50415817"
+        },
+        {
+          "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
+          "url": "https://kevinboone.me/cpmzork.html",
+          "publishedAt": "2026-11-08T18:33:50.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50415750"
         },
         {
           "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
@@ -42,6 +83,15 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50415281"
         },
         {
+          "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+          "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+          "publishedAt": "2026-11-08T17:20:29.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50415172"
+        },
+        {
           "title": "A Little Snitch for Windows",
           "url": "https://packethound.app/",
           "publishedAt": "2026-11-08T17:16:07.000Z",
@@ -58,15 +108,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50415078"
-        },
-        {
-          "title": "UK House of Lords to propose mandatory CSAM detection software on smartphones",
-          "url": "https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign",
-          "publishedAt": "2026-11-08T15:57:37.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50414331"
         },
         {
           "title": "I'm not a fan of Deno's security model (2024)",
@@ -150,15 +191,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
         },
         {
-          "title": "Making any integer with four 2s (2025)",
-          "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
-          "publishedAt": "2026-11-07T22:38:58.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50408713"
-        },
-        {
           "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
           "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
           "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -166,33 +198,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
-        },
-        {
-          "title": "What I run on my $10 USD OpenStick homelab",
-          "url": "https://blog.bosscher.ch/posts/openstick/",
-          "publishedAt": "2026-11-07T18:12:12.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
-        },
-        {
-          "title": "The Gordon Gekko effect: The role of culture in the financial industry (2016) [pdf]",
-          "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
-          "publishedAt": "2026-11-07T14:18:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50404747"
-        },
-        {
-          "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
-          "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
-          "publishedAt": "2026-11-07T11:11:15.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50403507"
         }
       ]
     },
@@ -202,6 +207,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Apple is racing to make Siri more agentic",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "publishedAt": "2026-11-08T19:18:19.000Z",
+          "excerpt": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the com",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Elvis and Eminem rights holders are suing Suno",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
@@ -353,14 +366,6 @@
           "excerpt": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than",
           "source": "The Verge",
           "category": "Technology"
-        },
-        {
-          "title": "Lame-duck Congress might actually do something: speed up energy projects",
-          "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
-          "publishedAt": "2026-11-06T18:42:30.000Z",
-          "excerpt": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new d",
-          "source": "The Verge",
-          "category": "Technology"
         }
       ]
     },
@@ -491,18 +496,18 @@
           "category": "Technology"
         },
         {
-          "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
-          "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
           "title": "Ecoflow Rapid Pro Power Bank Deal: Save $80",
           "url": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/",
           "publishedAt": "2026-11-07T11:00:00.000Z",
           "excerpt": "With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+          "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+          "publishedAt": "2026-11-07T11:00:00.000Z",
+          "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
           "source": "WIRED",
           "category": "Technology"
         },
@@ -875,6 +880,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+          "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+          "publishedAt": "2026-11-08T19:51:30.000Z",
+          "excerpt": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
           "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
           "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
           "publishedAt": "2026-11-08T18:00:04.000Z",
@@ -1025,14 +1038,6 @@
           "excerpt": "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-          "publishedAt": "2026-11-06T15:54:47.000Z",
-          "excerpt": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ]
     },
@@ -1140,6 +1145,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Salon, One of the Web's Pioneering News Outlets, Shuts Down After 31 Years",
+          "url": "https://news.slashdot.org/story/26/11/08/1849210/salon-one-of-the-webs-pioneering-news-outlets-shuts-down-after-31-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-08T19:34:00.000Z",
+          "excerpt": "\"It has been an extraordinary privilege,\" says the subheading on Thursday's announcement. After 31 years Salon.com will stop publishing, according to an announcement which appeared on the site under the byline \"Salon\". It remembers that Salon \"was an idea about what journalism could be, born at a mo",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Claude Code's 'Don't Ask Again' File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
           "url": "https://it.slashdot.org/story/26/11/08/1758242/claude-codes-dont-ask-again-file-exposes-passwords-and-keys-in-1122-public-copies-on-github?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1265,15 +1279,6 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "China's Top Spy Agency Recruited Woman Who Targeted Jensen Huang",
-          "url": "https://slashdot.org/story/26/11/07/0234213/chinas-top-spy-agency-recruited-woman-who-targeted-jensen-huang?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-07T16:00:00.000Z",
-          "excerpt": "An anonymous reader quotes a report from The New York Times: A Chinese businesswoman who had a close relationship with the chief executive of one of the most important artificial intelligence companies in the United States was a spy for China's Ministry of State Security, Beijing's top intelligence ",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ]
     },
@@ -1283,6 +1288,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user (Saritha Rai/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/deepseek-s-ai-agent-platform-hits-1-54-million-daily-users",
+          "publishedAt": "2026-11-08T20:10:00.000Z",
+          "excerpt": "Saritha Rai / Bloomberg : DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user &nbsp; &mdash;&nbsp; DeepSeek, the Chinese AI disruptor, released striking adoption numbers for its AI agent infra",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261108/p12#a261108p12",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "THORChain, which handled ~$1B of stolen Bybit funds in 2025 for $12M+ in fees, began moving the Binance loot despite FBI pleas, saying it can't stop transfers (Wall Street Journal)",
           "url": "https://www.wsj.com/finance/currencies/the-shadowy-crypto-services-helping-the-binance-hackers-launder-stolen-billions-28641737?st=3WgKBC&reflink=desktopwebshare_permalink",
@@ -1436,17 +1452,6 @@
           "sourceUrl": "https://www.techmeme.com/261107/p16#a261107p16",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. (Arundhati Hazra/The Guardian)",
-          "url": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
-          "publishedAt": "2026-11-07T21:40:00.000Z",
-          "excerpt": "Arundhati Hazra / The Guardian : Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. &nbsp; &mdash;&nbsp; Power and water constraints are pressuring what seemed like a juggernaut of growth fo",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261107/p15#a261107p15",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ]
     },
@@ -1456,6 +1461,51 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The danger of charging your phone under your pillow isn't radiation",
+          "url": "https://www.engadget.com/2309290/why-charging-phone-under-pillow-dangerous-explained/",
+          "publishedAt": "2026-11-08T20:00:00.000Z",
+          "excerpt": "The old fear about cell phone radiation causing cancer is an overblown concern, but there are other dangers when you tuck a charging phone under your pillow.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Why Apple's M6 Chip Can't Hold Its Own Against Any NVIDIA GPU",
+          "url": "https://www.engadget.com/2309286/why-apple-m6-chip-cant-compete-any-nvidia-gpu/",
+          "publishedAt": "2026-11-08T19:45:00.000Z",
+          "excerpt": "With the announcement of its M6, Apple is stepping into a new generation of its processors. Here's why it still can't compete with NVIDIA GPUs.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Suno AI music generator sued again for copyright infringement",
+          "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
+          "publishedAt": "2026-11-08T19:42:14.000Z",
+          "excerpt": "Groups that own the music rights to Elvis Presley and Eminem's tracks filed the latest lawsuits.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "You can have a PlayStation arcade machine at home, but there's a huge caveat",
+          "url": "https://www.engadget.com/2307850/you-can-have-a-playstation-arcade-machine-at-home-but-theres-a-huge-caveat/",
+          "publishedAt": "2026-11-08T19:30:00.000Z",
+          "excerpt": "The $1,000-plus price is only part of the problem.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "What does the Xbox Series X have that the Playstation 5 Pro doesn't?",
+          "url": "https://www.engadget.com/2309608/what-xbox-series-x-has-playstation-5-pro-doesnt/",
+          "publishedAt": "2026-11-08T19:15:00.000Z",
+          "excerpt": "While the PlayStation 5 Pro is the most powerful games console, the Xbox Series X offers features like Smart Delivery and Quick Resume.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "5 underrated PlayStation App features",
           "url": "https://www.engadget.com/2309256/underrated-playstation-app-features/",
@@ -1590,51 +1640,6 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "These experimental EV batteries can eject themselves during a fire",
-          "url": "https://www.engadget.com/2307844/experimental-ev-batteries-eject-during-fire/",
-          "publishedAt": "2026-11-08T15:30:00.000Z",
-          "excerpt": "EV battery fires are highly dangerous and difficult to extinguish, but is launching a battery pack out of the car a smart or realistic solution?",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Pro Gamers typically don't use OLED monitors, but you most definitely can",
-          "url": "https://www.engadget.com/2307840/pro-gamers-dont-use-oled-monitors-why-you-should/",
-          "publishedAt": "2026-11-08T15:15:00.000Z",
-          "excerpt": "Big tournaments favor LCD monitors, though perhaps not for the reasons you suspect. We'll explain why normal gamers can and should embrace OLED displays.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How to set up Google Authenticator on a new phone",
-          "url": "https://www.engadget.com/2307835/how-to-set-up-google-authenticator-new-phone/",
-          "publishedAt": "2026-11-08T15:00:00.000Z",
-          "excerpt": "How to setup Google Authenticator on a new phone without causing a headache.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Your digital game library is yours, until it's not",
-          "url": "https://www.engadget.com/2307829/digital-game-library-ownership-uncertainty/",
-          "publishedAt": "2026-11-08T14:45:00.000Z",
-          "excerpt": "Digital games you \"buy\" can be taken away at any time, and there are fewer options than ever for true game ownership.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The pros and cons of buying refurbished laptops",
-          "url": "https://www.engadget.com/2307699/buying-refurbished-laptops-pros-and-cons/",
-          "publishedAt": "2026-11-08T14:30:00.000Z",
-          "excerpt": "A properly refurbished laptop will get you a lot for your money, but not all refurb jobs are done to the same standard.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1644,6 +1649,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "This is the cheapest RTX 5090 PC we could find — and why we'd pick it over a similarly-powered laptop",
+          "url": "https://www.techradar.com/pro/this-is-the-cheapest-rtx-5090-pc-i-could-find-rtx-5090-laptops-are-far-cheaper-but-they-are-not-the-real-deal",
+          "publishedAt": "2026-11-08T20:10:00.000Z",
+          "excerpt": "This CyberPowerPC desktop pairs an RTX 5090 with capable components, costing $70 less than Amazon's listed standalone ASUS card today.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "New report claims 'America hates data centers' as it finds 90% of public comments at local government meetings are negative",
           "url": "https://www.techradar.com/pro/new-report-claims-america-hates-data-centers-as-it-finds-90-of-public-comments-at-local-government-meetings-are-negative",
@@ -1814,15 +1828,6 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "'The next generation won’t replace this one so much as sit on top of it' — Industry analysts say Sony, Microsoft, and Nintendo's 'relentless push for higher-end performance will need to be moderated' to avoid $1000 launch consoles",
-          "url": "https://www.techradar.com/gaming/the-next-generation-wont-replace-this-one-so-much-as-sit-on-top-of-it-industry-analysts-say-sony-microsoft-and-nintendos-relentless-push-for-higher-end-performance-will-need-to-be-moderated-to-avoid-usd1000-launch-consoles",
-          "publishedAt": "2026-11-08T01:00:00.000Z",
-          "excerpt": "Industry analysts have suggested console manufacturers will need to temper their ambitions for next-gen to avoid breaching the $1000 console launch mark.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1832,6 +1837,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "macOS 27.3 could change how you grant AI agents Full Disk Access, here’s how",
+          "url": "https://9to5mac.com/2026/11/08/macos-changes-for-full-disk-access-ai-agents-imessage/",
+          "publishedAt": "2026-11-08T19:52:41.000Z",
+          "excerpt": "Last month, Apple announced it’d be tightening privacy controls in a future macOS update, in response to AI agents requesting Full Disk Access then going rogue with users data without them being fully aware. Now, we have an idea of how the changes might look. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Report: John Ternus pushing Craig Federighi to speed up Apple software engineering",
           "url": "https://9to5mac.com/2026/11/08/john-ternus-pushing-craig-federighi-to-move-faster-software-engineering/",
@@ -1999,15 +2013,6 @@
           "url": "https://9to5mac.com/2026/11/06/apples-doj-antitrust-battle-sparks-disputes-with-epic-samsung-oura-roblox-more/",
           "publishedAt": "2026-11-06T20:06:06.000Z",
           "excerpt": "Several tech companies are pushing back against subpoenas issued by Apple and the DOJ in their ongoing antitrust battle. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "HomeKit Weekly: Airversa’s Humelle is the Thread humidifier my house needs this winter",
-          "url": "https://9to5mac.com/2026/11/06/airversa-humelle/",
-          "publishedAt": "2026-11-06T19:33:00.000Z",
-          "excerpt": "I love natural gas heat for a few reasons, but one is avoiding AUX heat from a heat pump and watching the bill rise. The downside is when the gas heat kicks on, the air in mt house is bone dry. My nose ends up being super dry for months. A humidifier like the Airversa Humelle works with Apple Home o",
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -2698,209 +2703,8 @@
       "name": "Sidebar",
       "category": "Design",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "Everyone is building AI agents. Who’s designing the stop button?",
-          "url": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c",
-          "publishedAt": "2026-11-06T04:21:29.000Z",
-          "excerpt": "Here’s why the hardest design decisions happen where that autonomy ends.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "A sans serif built on oversized round shapes",
-          "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
-          "publishedAt": "2026-11-06T04:20:55.000Z",
-          "excerpt": "Superior Type’s Heaven is a brutalist grotesque built on round shapes that are too big for their space.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Tokenizer Mono",
-          "url": "https://george.mand.is/2026/11/the-tokenizer-font/",
-          "publishedAt": "2026-11-06T04:20:10.000Z",
-          "excerpt": "A monospace font that highlights LLM tokens as you type. No JavaScript, just OpenType substitution rules and a color table.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Attention is all you need",
-          "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
-          "publishedAt": "2026-11-06T04:19:24.000Z",
-          "excerpt": "A report from the future on AI, attention, and the maintenance of civilization",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "A-Frame",
-          "url": "https://aframe.io/",
-          "publishedAt": "2026-11-06T04:18:55.000Z",
-          "excerpt": "A web framework for building virtual reality experiences. Make WebVR with HTML and Entity-Component. Works on Vive, Rift, desktop, mobile.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Great but painful",
-          "url": "https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful",
-          "publishedAt": "2026-11-05T09:49:19.000Z",
-          "excerpt": "If you want to build a product that people will use, find something that people already do and make it less painful.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Mean",
-          "url": "https://mean.app/",
-          "publishedAt": "2026-11-05T09:48:49.000Z",
-          "excerpt": "Visual handoff for humans and agents. Freeze or record your screen, annotate with gestures, and hand the finished session to a human or AI.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Designing a skill",
-          "url": "https://iamnoman.com/writing/designing-a-skill",
-          "publishedAt": "2026-11-05T09:48:02.000Z",
-          "excerpt": "Skills are becoming the apps of the agentic era. What you learn shipping quality software still applies to them.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Nubank: Rebrand",
-          "url": "https://koto.com/projects/nubank",
-          "publishedAt": "2026-11-05T09:46:23.000Z",
-          "excerpt": "Brand redesign and digital foundations built to fight complexity and empower people, with a system that stays unmistakably Nu.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Digital minimalism",
-          "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-          "publishedAt": "2026-11-05T09:43:56.000Z",
-          "excerpt": "Being intentional about ways that you access digital technology, making each use a conscious choice.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Pick three",
-          "url": "https://buzzusborne.com/writing/pick-three/",
-          "publishedAt": "2026-11-04T06:43:01.000Z",
-          "excerpt": "Exploring the hidden cost of producing good, fast and cheap creative work.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Avant Garde",
-          "url": "https://avantgarde.110west40th.com/",
-          "publishedAt": "2026-11-04T06:42:35.000Z",
-          "excerpt": "A seminal, but somewhat overlooked by a wider public, magazine, which broke taboos, rattled some nerves and made a few enemies.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Building an AI-ready design system library",
-          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2",
-          "publishedAt": "2026-11-04T06:42:05.000Z",
-          "excerpt": "Why my design system starts in code, and how I build, check and maintain the Figma library.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "The window with no buttons",
-          "url": "https://www.baselinedesign.com/posts/the-window-with-no-buttons",
-          "publishedAt": "2026-11-04T06:41:29.000Z",
-          "excerpt": "Why the terminal feels so unfamiliar to designers, and how to read it anyway.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Paper Mono",
-          "url": "https://paper.design/mono",
-          "publishedAt": "2026-11-04T06:40:47.000Z",
-          "excerpt": "A beautiful monospace font family with 8 variable weights and coding ligatures, free and open source.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Fingerprints are the new cookies",
-          "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-          "publishedAt": "2026-11-03T05:05:00.000Z",
-          "excerpt": "How browser fingerprinting replaces third-party cookies for persistent user tracking. And to the highest bidder it goes.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Jelly UI",
-          "url": "https://jelly-ui.com/",
-          "publishedAt": "2026-11-03T05:04:00.000Z",
-          "excerpt": "A dependency-free Web Components library for tactile product interfaces: soft-body physics, real form controls, dark mode, RTL and WCAG.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "There will always be someone faster, cheaper, and better",
-          "url": "https://www.chrbutler.com/faster-cheaper-better",
-          "publishedAt": "2026-11-03T05:03:00.000Z",
-          "excerpt": "AI has designers questioning everything. But the three things we think we’re chosen for haven’t changed at all.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Desigma",
-          "url": "https://github.com/deepfounder-ai/desigma",
-          "publishedAt": "2026-11-03T05:02:00.000Z",
-          "excerpt": "Free Figma alternative made on Rust. An independent, local-first, open-source design tool.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "How to hire junior engineers in the age of AI",
-          "url": "https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/",
-          "publishedAt": "2026-11-03T05:01:00.000Z",
-          "excerpt": "Junior developer hiring has collapsed because nobody knows how to interview for the new AI-assisted job.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "Creative Boom",
@@ -3857,6 +3661,24 @@
       "count": 20,
       "stories": [
         {
+          "title": "Adam Driver Finally Addressed the Girls Reboot",
+          "url": "http://www.thecut.com/article/adam-driver-finally-addressed-the-girls-reboot.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-08T18:57:44.000Z",
+          "excerpt": "Driver shared he will not be returning for the ‘Girls’ reboot, but he’s wishing them “the best of luck.”",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Saturday Night Live Recap: Druski Struggles to Do It Live",
+          "url": "http://www.vulture.com/article/saturday-night-live-recap-snl-season-52-episode-5-druski.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-08T18:42:46.000Z",
+          "excerpt": "The viral comedy star thrives in the pre-tapes, but fumbles the live sketches in Studio 8H.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "James Talarico Crashed SNL’s Cold Open",
           "url": "http://www.thecut.com/article/james-talarico-crashed-saturday-night-lives-cold-open.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-08T16:48:37.000Z",
@@ -4017,24 +3839,6 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Black Doves Season-Finale Recap: It’s So Hard to Find a Good Nanny",
-          "url": "http://www.vulture.com/article/black-doves-recap-season-2-episode-6-netflix-finale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-06T21:19:45.000Z",
-          "excerpt": "Every loyalty is pushed to the brink as the Black Doves and Kestrel head into their final showdown.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "A Ramayana 101 for Western Audiences",
-          "url": "http://www.vulture.com/article/ramayana-rise-of-a-legend-explained-for-western-audiences.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-06T21:09:22.000Z",
-          "excerpt": "The Bollywood blockbuster has millennia-old source material and modern political baggage.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -4044,6 +3848,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Why Is Everyone Connecting Fridges to the Internet?",
+          "url": "https://www.theatlantic.com/technology/2026/11/fridge-hacks-europe-supermarkets/689328/?utm_source=feed",
+          "publishedAt": "2026-11-08T19:19:00.000Z",
+          "excerpt": "Supermarkets are going digital—and getting hacked.",
+          "source": "The Atlantic",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "On SNL , the Struggle (For Power) Was Real",
           "url": "https://www.theatlantic.com/culture/2026/11/saturday-night-live-james-talarico-cold-open/689344/?utm_source=feed",
@@ -4214,15 +4027,6 @@
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Trump May Come to Regret His Rush Job on the Arch and Ballroom",
-          "url": "https://www.theatlantic.com/culture/2026/11/trump-monument-fight/689309/?utm_source=feed",
-          "publishedAt": "2026-11-05T19:37:00.000Z",
-          "excerpt": "Democrats want to cut off funding for the president’s building projects—or tear them down later.",
-          "source": "The Atlantic",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -4278,15 +4082,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "“Wicker” and What Straight Women Want",
-          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
-          "source": "The New Yorker",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "Good Enough for a Tuesday Night",
           "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
           "publishedAt": "2026-11-07T11:00:00.000Z",
@@ -4300,6 +4095,15 @@
           "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
           "publishedAt": "2026-11-07T11:00:00.000Z",
           "excerpt": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
+          "source": "The New Yorker",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "“Wicker” and What Straight Women Want",
+          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+          "publishedAt": "2026-11-07T11:00:00.000Z",
+          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -11288,7 +11092,7 @@
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 9,
+      "count": 8,
       "stories": [
         {
           "title": "Diamonds and Ice are synonyms",
@@ -11358,15 +11162,6 @@
           "url": "https://www.metafilter.com/215088/It-Was-A-Graveyard-Smash",
           "publishedAt": "2026-11-07T21:47:12.000Z",
           "excerpt": "Monster Mash by The Cure. (sort of)",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
-        },
-        {
-          "title": "\"But why does she cry out as the hawk cries?\"",
-          "url": "https://www.metafilter.com/215087/But-why-does-she-cry-out-as-the-hawk-cries",
-          "publishedAt": "2026-11-07T19:50:32.000Z",
-          "excerpt": "\" At the Hawk's Well \" from William Butler Yeats's Four Plays for Dancers invents a story about the Irish hero Cú Chulainn based on the Noh drama Yōrō . The hawk was first played by dancer / choreographer Michio Ito ( open access bio ), and the play was translated into Japanese as Taka no Izumi . Ye",
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
@@ -11776,6 +11571,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "元華爆李小龍私下狂熱鍛鍊：用高壓電刺激肌肉訓練",
+          "url": "https://hk01.com/sns/article/60408195",
+          "publishedAt": "2026-11-08T20:00:48.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "元華回憶首度對決李小龍：在《精武門》飾演日本仔挨踢",
           "url": "https://hk01.com/sns/article/60408193",
           "publishedAt": "2026-11-08T19:00:04.000Z",
@@ -11924,14 +11727,6 @@
           "url": "https://hk01.com/sns/article/60408424",
           "publishedAt": "2026-11-08T08:31:30.000Z",
           "excerpt": "一名69歲翁今早（8日）報警求助，指發現其10歲孫女，被獨留在長沙灣麗翠苑麗柏閣單位整夜。警方經初步調查後，以涉嫌「對所看管兒童或少年人虐待或忽略」拘捕女童的43歲姓陳母親。 案件再有新細節曝光。消息指，被捕母親數日前發現女兒疑打爛豬仔錢罌，偷錢購買零食，一怒之下打其左臉及腹部，並用衣架抽打小腿。女童感到疼痛，但無表面傷勢。直至今晨，祖父欲接走孫女外出吃早餐，赫見她被獨留在家，擔心她或再遭虐打，遂報警並聯絡事主母親，揭發事件。 涉事現場為長沙灣麗翠苑麗柏閣。（黃學潤攝） 案發於今日（8日）上午10時27分 。涉事女童在其祖父陪同下，由救護車送往明愛醫院檢查。案件列作「對所看管兒童或少年人虐待或",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "紐約馬拉松24歲女終點前倒地亡 父揭死因：橫紋肌溶解症引衰竭",
-          "url": "https://hk01.com/sns/article/60408405",
-          "publishedAt": "2026-11-08T07:58:04.000Z",
-          "excerpt": "美國紐約馬拉松11月1日舉行期間，一名24歲女跑手在距離終點約2英里處倒地，送院後不治。紐約警方指，美媒：死者為賓夕法尼亞州劉易斯伯里（Lewisberry）的帕拉（Rachel Apa）。其父向《紐約時報》表示，女兒死因為橫紋肌溶解症（rhabdomyolysis）。 美媒報道，紐約市法醫辦公室周二（3日）表示仍在調查帕拉死因。其父史蒂夫（Steve Apa）稱，死因為橫紋肌溶解症，即骨骼肌迅速分解壞死，釋放物質毒害身體，可損害腎臟、引發危及生命的心臟問題，甚至導致多重器官衰竭。 帕拉倒地時，有途人為她施行心肺復甦術，賽事工作人員使用去顫器，救護人員將她送院，惟最終未能救回。 美國紐約馬拉松",
           "source": "香港01",
           "category": "Hong Kong"
         }
@@ -12948,6 +12743,33 @@
   ],
   "stories": [
     {
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50416363"
+    },
+    {
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "publishedAt": "2026-11-08T19:20:32.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50416158"
+    },
+    {
+      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "url": "https://duxlabs.dev/",
+      "publishedAt": "2026-11-08T19:08:51.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50416053"
+    },
+    {
       "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
       "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
       "publishedAt": "2026-11-08T18:43:07.000Z",
@@ -12955,6 +12777,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50415817"
+    },
+    {
+      "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
+      "url": "https://kevinboone.me/cpmzork.html",
+      "publishedAt": "2026-11-08T18:33:50.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50415750"
     },
     {
       "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
@@ -12975,6 +12806,15 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50415281"
     },
     {
+      "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+      "publishedAt": "2026-11-08T17:20:29.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50415172"
+    },
+    {
       "title": "A Little Snitch for Windows",
       "url": "https://packethound.app/",
       "publishedAt": "2026-11-08T17:16:07.000Z",
@@ -12991,15 +12831,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50415078"
-    },
-    {
-      "title": "UK House of Lords to propose mandatory CSAM detection software on smartphones",
-      "url": "https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign",
-      "publishedAt": "2026-11-08T15:57:37.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50414331"
     },
     {
       "title": "I'm not a fan of Deno's security model (2024)",
@@ -13083,15 +12914,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
     },
     {
-      "title": "Making any integer with four 2s (2025)",
-      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
-      "publishedAt": "2026-11-07T22:38:58.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50408713"
-    },
-    {
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -13101,31 +12923,12 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
     },
     {
-      "title": "What I run on my $10 USD OpenStick homelab",
-      "url": "https://blog.bosscher.ch/posts/openstick/",
-      "publishedAt": "2026-11-07T18:12:12.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50406670"
-    },
-    {
-      "title": "The Gordon Gekko effect: The role of culture in the financial industry (2016) [pdf]",
-      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
-      "publishedAt": "2026-11-07T14:18:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50404747"
-    },
-    {
-      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
-      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
-      "publishedAt": "2026-11-07T11:11:15.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50403507"
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "publishedAt": "2026-11-08T19:18:19.000Z",
+      "excerpt": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the com",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
       "title": "Elvis and Eminem rights holders are suing Suno",
@@ -13280,14 +13083,6 @@
       "category": "Technology"
     },
     {
-      "title": "Lame-duck Congress might actually do something: speed up energy projects",
-      "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
-      "publishedAt": "2026-11-06T18:42:30.000Z",
-      "excerpt": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new d",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
       "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs",
       "url": "https://www.wired.com/gallery/best-computer-speakers/",
       "publishedAt": "2026-11-08T12:00:00.000Z",
@@ -13408,18 +13203,18 @@
       "category": "Technology"
     },
     {
-      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
-      "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
-      "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
       "title": "Ecoflow Rapid Pro Power Bank Deal: Save $80",
       "url": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/",
       "publishedAt": "2026-11-07T11:00:00.000Z",
       "excerpt": "With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+      "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "excerpt": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -13768,6 +13563,14 @@
       "category": "Technology"
     },
     {
+      "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+      "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+      "publishedAt": "2026-11-08T19:51:30.000Z",
+      "excerpt": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
       "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
       "publishedAt": "2026-11-08T18:00:04.000Z",
@@ -13920,14 +13723,6 @@
       "category": "Technology"
     },
     {
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "publishedAt": "2026-11-06T15:54:47.000Z",
-      "excerpt": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "title": "Tencent AI chief warns models will soon pose biology risks, SCMP reports",
       "url": "https://thenextweb.com/news/tencent-yao-shunyu-ai-biology-risk-hy4",
       "publishedAt": "2026-11-08T15:38:11.000Z",
@@ -14016,6 +13811,15 @@
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
+    },
+    {
+      "title": "Salon, One of the Web's Pioneering News Outlets, Shuts Down After 31 Years",
+      "url": "https://news.slashdot.org/story/26/11/08/1849210/salon-one-of-the-webs-pioneering-news-outlets-shuts-down-after-31-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-08T19:34:00.000Z",
+      "excerpt": "\"It has been an extraordinary privilege,\" says the subheading on Thursday's announcement. After 31 years Salon.com will stop publishing, according to an announcement which appeared on the site under the byline \"Salon\". It remembers that Salon \"was an idea about what journalism could be, born at a mo",
+      "source": "Slashdot",
+      "category": "Technology",
+      "sourceRole": "community"
     },
     {
       "title": "Claude Code's 'Don't Ask Again' File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -14144,13 +13948,15 @@
       "sourceRole": "community"
     },
     {
-      "title": "China's Top Spy Agency Recruited Woman Who Targeted Jensen Huang",
-      "url": "https://slashdot.org/story/26/11/07/0234213/chinas-top-spy-agency-recruited-woman-who-targeted-jensen-huang?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-07T16:00:00.000Z",
-      "excerpt": "An anonymous reader quotes a report from The New York Times: A Chinese businesswoman who had a close relationship with the chief executive of one of the most important artificial intelligence companies in the United States was a spy for China's Ministry of State Security, Beijing's top intelligence ",
-      "source": "Slashdot",
+      "title": "DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user (Saritha Rai/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/deepseek-s-ai-agent-platform-hits-1-54-million-daily-users",
+      "publishedAt": "2026-11-08T20:10:00.000Z",
+      "excerpt": "Saritha Rai / Bloomberg : DeepSeek says its open-source agent app Harness hit 1.54M DAUs on November 4, less than three months after launch, and uses ~92T tokens a day, or ~60M per user &nbsp; &mdash;&nbsp; DeepSeek, the Chinese AI disruptor, released striking adoption numbers for its AI agent infra",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261108/p12#a261108p12",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "THORChain, which handled ~$1B of stolen Bybit funds in 2025 for $12M+ in fees, began moving the Binance loot despite FBI pleas, saying it can't stop transfers (Wall Street Journal)",
@@ -14307,15 +14113,49 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. (Arundhati Hazra/The Guardian)",
-      "url": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
-      "publishedAt": "2026-11-07T21:40:00.000Z",
-      "excerpt": "Arundhati Hazra / The Guardian : Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. &nbsp; &mdash;&nbsp; Power and water constraints are pressuring what seemed like a juggernaut of growth fo",
-      "source": "Techmeme",
+      "title": "The danger of charging your phone under your pillow isn't radiation",
+      "url": "https://www.engadget.com/2309290/why-charging-phone-under-pillow-dangerous-explained/",
+      "publishedAt": "2026-11-08T20:00:00.000Z",
+      "excerpt": "The old fear about cell phone radiation causing cancer is an overblown concern, but there are other dangers when you tuck a charging phone under your pillow.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261107/p15#a261107p15",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Why Apple's M6 Chip Can't Hold Its Own Against Any NVIDIA GPU",
+      "url": "https://www.engadget.com/2309286/why-apple-m6-chip-cant-compete-any-nvidia-gpu/",
+      "publishedAt": "2026-11-08T19:45:00.000Z",
+      "excerpt": "With the announcement of its M6, Apple is stepping into a new generation of its processors. Here's why it still can't compete with NVIDIA GPUs.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Suno AI music generator sued again for copyright infringement",
+      "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
+      "publishedAt": "2026-11-08T19:42:14.000Z",
+      "excerpt": "Groups that own the music rights to Elvis Presley and Eminem's tracks filed the latest lawsuits.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "You can have a PlayStation arcade machine at home, but there's a huge caveat",
+      "url": "https://www.engadget.com/2307850/you-can-have-a-playstation-arcade-machine-at-home-but-theres-a-huge-caveat/",
+      "publishedAt": "2026-11-08T19:30:00.000Z",
+      "excerpt": "The $1,000-plus price is only part of the problem.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "What does the Xbox Series X have that the Playstation 5 Pro doesn't?",
+      "url": "https://www.engadget.com/2309608/what-xbox-series-x-has-playstation-5-pro-doesnt/",
+      "publishedAt": "2026-11-08T19:15:00.000Z",
+      "excerpt": "While the PlayStation 5 Pro is the most powerful games console, the Xbox Series X offers features like Smart Delivery and Quick Resume.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "5 underrated PlayStation App features",
@@ -14453,47 +14293,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "These experimental EV batteries can eject themselves during a fire",
-      "url": "https://www.engadget.com/2307844/experimental-ev-batteries-eject-during-fire/",
-      "publishedAt": "2026-11-08T15:30:00.000Z",
-      "excerpt": "EV battery fires are highly dangerous and difficult to extinguish, but is launching a battery pack out of the car a smart or realistic solution?",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Pro Gamers typically don't use OLED monitors, but you most definitely can",
-      "url": "https://www.engadget.com/2307840/pro-gamers-dont-use-oled-monitors-why-you-should/",
-      "publishedAt": "2026-11-08T15:15:00.000Z",
-      "excerpt": "Big tournaments favor LCD monitors, though perhaps not for the reasons you suspect. We'll explain why normal gamers can and should embrace OLED displays.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How to set up Google Authenticator on a new phone",
-      "url": "https://www.engadget.com/2307835/how-to-set-up-google-authenticator-new-phone/",
-      "publishedAt": "2026-11-08T15:00:00.000Z",
-      "excerpt": "How to setup Google Authenticator on a new phone without causing a headache.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Your digital game library is yours, until it's not",
-      "url": "https://www.engadget.com/2307829/digital-game-library-ownership-uncertainty/",
-      "publishedAt": "2026-11-08T14:45:00.000Z",
-      "excerpt": "Digital games you \"buy\" can be taken away at any time, and there are fewer options than ever for true game ownership.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The pros and cons of buying refurbished laptops",
-      "url": "https://www.engadget.com/2307699/buying-refurbished-laptops-pros-and-cons/",
-      "publishedAt": "2026-11-08T14:30:00.000Z",
-      "excerpt": "A properly refurbished laptop will get you a lot for your money, but not all refurb jobs are done to the same standard.",
-      "source": "Engadget",
+      "title": "This is the cheapest RTX 5090 PC we could find — and why we'd pick it over a similarly-powered laptop",
+      "url": "https://www.techradar.com/pro/this-is-the-cheapest-rtx-5090-pc-i-could-find-rtx-5090-laptops-are-far-cheaper-but-they-are-not-the-real-deal",
+      "publishedAt": "2026-11-08T20:10:00.000Z",
+      "excerpt": "This CyberPowerPC desktop pairs an RTX 5090 with capable components, costing $70 less than Amazon's listed standalone ASUS card today.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14669,11 +14473,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "'The next generation won’t replace this one so much as sit on top of it' — Industry analysts say Sony, Microsoft, and Nintendo's 'relentless push for higher-end performance will need to be moderated' to avoid $1000 launch consoles",
-      "url": "https://www.techradar.com/gaming/the-next-generation-wont-replace-this-one-so-much-as-sit-on-top-of-it-industry-analysts-say-sony-microsoft-and-nintendos-relentless-push-for-higher-end-performance-will-need-to-be-moderated-to-avoid-usd1000-launch-consoles",
-      "publishedAt": "2026-11-08T01:00:00.000Z",
-      "excerpt": "Industry analysts have suggested console manufacturers will need to temper their ambitions for next-gen to avoid breaching the $1000 console launch mark.",
-      "source": "TechRadar",
+      "title": "macOS 27.3 could change how you grant AI agents Full Disk Access, here’s how",
+      "url": "https://9to5mac.com/2026/11/08/macos-changes-for-full-disk-access-ai-agents-imessage/",
+      "publishedAt": "2026-11-08T19:52:41.000Z",
+      "excerpt": "Last month, Apple announced it’d be tightening privacy controls in a future macOS update, in response to AI agents requesting Full Disk Access then going rogue with users data without them being fully aware. Now, we have an idea of how the changes might look. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14844,15 +14648,6 @@
       "url": "https://9to5mac.com/2026/11/06/apples-doj-antitrust-battle-sparks-disputes-with-epic-samsung-oura-roblox-more/",
       "publishedAt": "2026-11-06T20:06:06.000Z",
       "excerpt": "Several tech companies are pushing back against subpoenas issued by Apple and the DOJ in their ongoing antitrust battle. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "HomeKit Weekly: Airversa’s Humelle is the Thread humidifier my house needs this winter",
-      "url": "https://9to5mac.com/2026/11/06/airversa-humelle/",
-      "publishedAt": "2026-11-06T19:33:00.000Z",
-      "excerpt": "I love natural gas heat for a few reasons, but one is avoiding AUX heat from a heat pump and watching the bill rise. The downside is when the gas heat kicks on, the air in mt house is bone dry. My nose ends up being super dry for months. A humidifier like the Airversa Humelle works with Apple Home o",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15504,206 +15299,6 @@
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
-    },
-    {
-      "title": "Everyone is building AI agents. Who’s designing the stop button?",
-      "url": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c",
-      "publishedAt": "2026-11-06T04:21:29.000Z",
-      "excerpt": "Here’s why the hardest design decisions happen where that autonomy ends.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "A sans serif built on oversized round shapes",
-      "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
-      "publishedAt": "2026-11-06T04:20:55.000Z",
-      "excerpt": "Superior Type’s Heaven is a brutalist grotesque built on round shapes that are too big for their space.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Tokenizer Mono",
-      "url": "https://george.mand.is/2026/11/the-tokenizer-font/",
-      "publishedAt": "2026-11-06T04:20:10.000Z",
-      "excerpt": "A monospace font that highlights LLM tokens as you type. No JavaScript, just OpenType substitution rules and a color table.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Attention is all you need",
-      "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
-      "publishedAt": "2026-11-06T04:19:24.000Z",
-      "excerpt": "A report from the future on AI, attention, and the maintenance of civilization",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "A-Frame",
-      "url": "https://aframe.io/",
-      "publishedAt": "2026-11-06T04:18:55.000Z",
-      "excerpt": "A web framework for building virtual reality experiences. Make WebVR with HTML and Entity-Component. Works on Vive, Rift, desktop, mobile.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Great but painful",
-      "url": "https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful",
-      "publishedAt": "2026-11-05T09:49:19.000Z",
-      "excerpt": "If you want to build a product that people will use, find something that people already do and make it less painful.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Mean",
-      "url": "https://mean.app/",
-      "publishedAt": "2026-11-05T09:48:49.000Z",
-      "excerpt": "Visual handoff for humans and agents. Freeze or record your screen, annotate with gestures, and hand the finished session to a human or AI.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Designing a skill",
-      "url": "https://iamnoman.com/writing/designing-a-skill",
-      "publishedAt": "2026-11-05T09:48:02.000Z",
-      "excerpt": "Skills are becoming the apps of the agentic era. What you learn shipping quality software still applies to them.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Nubank: Rebrand",
-      "url": "https://koto.com/projects/nubank",
-      "publishedAt": "2026-11-05T09:46:23.000Z",
-      "excerpt": "Brand redesign and digital foundations built to fight complexity and empower people, with a system that stays unmistakably Nu.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Digital minimalism",
-      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-      "publishedAt": "2026-11-05T09:43:56.000Z",
-      "excerpt": "Being intentional about ways that you access digital technology, making each use a conscious choice.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Pick three",
-      "url": "https://buzzusborne.com/writing/pick-three/",
-      "publishedAt": "2026-11-04T06:43:01.000Z",
-      "excerpt": "Exploring the hidden cost of producing good, fast and cheap creative work.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Avant Garde",
-      "url": "https://avantgarde.110west40th.com/",
-      "publishedAt": "2026-11-04T06:42:35.000Z",
-      "excerpt": "A seminal, but somewhat overlooked by a wider public, magazine, which broke taboos, rattled some nerves and made a few enemies.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Building an AI-ready design system library",
-      "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2",
-      "publishedAt": "2026-11-04T06:42:05.000Z",
-      "excerpt": "Why my design system starts in code, and how I build, check and maintain the Figma library.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "The window with no buttons",
-      "url": "https://www.baselinedesign.com/posts/the-window-with-no-buttons",
-      "publishedAt": "2026-11-04T06:41:29.000Z",
-      "excerpt": "Why the terminal feels so unfamiliar to designers, and how to read it anyway.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Paper Mono",
-      "url": "https://paper.design/mono",
-      "publishedAt": "2026-11-04T06:40:47.000Z",
-      "excerpt": "A beautiful monospace font family with 8 variable weights and coding ligatures, free and open source.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Fingerprints are the new cookies",
-      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-      "publishedAt": "2026-11-03T05:05:00.000Z",
-      "excerpt": "How browser fingerprinting replaces third-party cookies for persistent user tracking. And to the highest bidder it goes.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Jelly UI",
-      "url": "https://jelly-ui.com/",
-      "publishedAt": "2026-11-03T05:04:00.000Z",
-      "excerpt": "A dependency-free Web Components library for tactile product interfaces: soft-body physics, real form controls, dark mode, RTL and WCAG.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "There will always be someone faster, cheaper, and better",
-      "url": "https://www.chrbutler.com/faster-cheaper-better",
-      "publishedAt": "2026-11-03T05:03:00.000Z",
-      "excerpt": "AI has designers questioning everything. But the three things we think we’re chosen for haven’t changed at all.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Desigma",
-      "url": "https://github.com/deepfounder-ai/desigma",
-      "publishedAt": "2026-11-03T05:02:00.000Z",
-      "excerpt": "Free Figma alternative made on Rust. An independent, local-first, open-source design tool.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "How to hire junior engineers in the age of AI",
-      "url": "https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/",
-      "publishedAt": "2026-11-03T05:01:00.000Z",
-      "excerpt": "Junior developer hiring has collapsed because nobody knows how to interview for the new AI-assisted job.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
     },
     {
       "title": "Peter Davis's Gig Pose paintings capture the phones-in-the-air moment at every concert",
@@ -16606,6 +16201,24 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Adam Driver Finally Addressed the Girls Reboot",
+      "url": "http://www.thecut.com/article/adam-driver-finally-addressed-the-girls-reboot.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-08T18:57:44.000Z",
+      "excerpt": "Driver shared he will not be returning for the ‘Girls’ reboot, but he’s wishing them “the best of luck.”",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Saturday Night Live Recap: Druski Struggles to Do It Live",
+      "url": "http://www.vulture.com/article/saturday-night-live-recap-snl-season-52-episode-5-druski.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-08T18:42:46.000Z",
+      "excerpt": "The viral comedy star thrives in the pre-tapes, but fumbles the live sketches in Studio 8H.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "James Talarico Crashed SNL’s Cold Open",
       "url": "http://www.thecut.com/article/james-talarico-crashed-saturday-night-lives-cold-open.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-08T16:48:37.000Z",
@@ -16768,20 +16381,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Black Doves Season-Finale Recap: It’s So Hard to Find a Good Nanny",
-      "url": "http://www.vulture.com/article/black-doves-recap-season-2-episode-6-netflix-finale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-06T21:19:45.000Z",
-      "excerpt": "Every loyalty is pushed to the brink as the Black Doves and Kestrel head into their final showdown.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "A Ramayana 101 for Western Audiences",
-      "url": "http://www.vulture.com/article/ramayana-rise-of-a-legend-explained-for-western-audiences.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-06T21:09:22.000Z",
-      "excerpt": "The Bollywood blockbuster has millennia-old source material and modern political baggage.",
-      "source": "New York Magazine (Intelligencer)",
+      "title": "Why Is Everyone Connecting Fridges to the Internet?",
+      "url": "https://www.theatlantic.com/technology/2026/11/fridge-hacks-europe-supermarkets/689328/?utm_source=feed",
+      "publishedAt": "2026-11-08T19:19:00.000Z",
+      "excerpt": "Supermarkets are going digital—and getting hacked.",
+      "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
     },
@@ -16957,15 +16561,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Trump May Come to Regret His Rush Job on the Arch and Ballroom",
-      "url": "https://www.theatlantic.com/culture/2026/11/trump-monument-fight/689309/?utm_source=feed",
-      "publishedAt": "2026-11-05T19:37:00.000Z",
-      "excerpt": "Democrats want to cut off funding for the president’s building projects—or tear them down later.",
-      "source": "The Atlantic",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "How Takashi Yamazaki Brought Godzilla Back to Life",
       "url": "https://www.newyorker.com/culture/persons-of-interest/how-takashi-yamazaki-brought-godzilla-back-to-life",
       "publishedAt": "2026-11-08T11:00:00.000Z",
@@ -17011,15 +16606,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "“Wicker” and What Straight Women Want",
-      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
-      "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
-      "source": "The New Yorker",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "Good Enough for a Tuesday Night",
       "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
       "publishedAt": "2026-11-07T11:00:00.000Z",
@@ -17033,6 +16619,15 @@
       "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
       "publishedAt": "2026-11-07T11:00:00.000Z",
       "excerpt": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
+      "source": "The New Yorker",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "“Wicker” and What Straight Women Want",
+      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -23760,15 +23355,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "\"But why does she cry out as the hawk cries?\"",
-      "url": "https://www.metafilter.com/215087/But-why-does-she-cry-out-as-the-hawk-cries",
-      "publishedAt": "2026-11-07T19:50:32.000Z",
-      "excerpt": "\" At the Hawk's Well \" from William Butler Yeats's Four Plays for Dancers invents a story about the Irish hero Cú Chulainn based on the Noh drama Yōrō . The hawk was first played by dancer / choreographer Michio Ito ( open access bio ), and the play was translated into Japanese as Taka no Izumi . Ye",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
       "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
       "publishedAt": "2026-11-06T15:48:54.000Z",
@@ -24149,6 +23735,14 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "元華爆李小龍私下狂熱鍛鍊：用高壓電刺激肌肉訓練",
+      "url": "https://hk01.com/sns/article/60408195",
+      "publishedAt": "2026-11-08T20:00:48.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "元華回憶首度對決李小龍：在《精武門》飾演日本仔挨踢",
       "url": "https://hk01.com/sns/article/60408193",
       "publishedAt": "2026-11-08T19:00:04.000Z",
@@ -24297,14 +23891,6 @@
       "url": "https://hk01.com/sns/article/60408424",
       "publishedAt": "2026-11-08T08:31:30.000Z",
       "excerpt": "一名69歲翁今早（8日）報警求助，指發現其10歲孫女，被獨留在長沙灣麗翠苑麗柏閣單位整夜。警方經初步調查後，以涉嫌「對所看管兒童或少年人虐待或忽略」拘捕女童的43歲姓陳母親。 案件再有新細節曝光。消息指，被捕母親數日前發現女兒疑打爛豬仔錢罌，偷錢購買零食，一怒之下打其左臉及腹部，並用衣架抽打小腿。女童感到疼痛，但無表面傷勢。直至今晨，祖父欲接走孫女外出吃早餐，赫見她被獨留在家，擔心她或再遭虐打，遂報警並聯絡事主母親，揭發事件。 涉事現場為長沙灣麗翠苑麗柏閣。（黃學潤攝） 案發於今日（8日）上午10時27分 。涉事女童在其祖父陪同下，由救護車送往明愛醫院檢查。案件列作「對所看管兒童或少年人虐待或",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "紐約馬拉松24歲女終點前倒地亡 父揭死因：橫紋肌溶解症引衰竭",
-      "url": "https://hk01.com/sns/article/60408405",
-      "publishedAt": "2026-11-08T07:58:04.000Z",
-      "excerpt": "美國紐約馬拉松11月1日舉行期間，一名24歲女跑手在距離終點約2英里處倒地，送院後不治。紐約警方指，美媒：死者為賓夕法尼亞州劉易斯伯里（Lewisberry）的帕拉（Rachel Apa）。其父向《紐約時報》表示，女兒死因為橫紋肌溶解症（rhabdomyolysis）。 美媒報道，紐約市法醫辦公室周二（3日）表示仍在調查帕拉死因。其父史蒂夫（Steve Apa）稱，死因為橫紋肌溶解症，即骨骼肌迅速分解壞死，釋放物質毒害身體，可損害腎臟、引發危及生命的心臟問題，甚至導致多重器官衰竭。 帕拉倒地時，有途人為她施行心肺復甦術，賽事工作人員使用去顫器，救護人員將她送院，惟最終未能救回。 美國紐約馬拉松",
       "source": "香港01",
       "category": "Hong Kong"
     },

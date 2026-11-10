@@ -2,199 +2,23 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-10T17:54:00.012Z",
-  "collectedAt": "2026-11-10T17:54:00.012Z",
+  "generatedAt": "2026-11-10T18:17:11.873Z",
+  "collectedAt": "2026-11-10T18:17:11.873Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
       "category": "Technology",
       "kind": "hackernews",
-      "count": 20,
-      "stories": [
-        {
-          "title": "AMD's Zen 6 Family: Feeding the Beast",
-          "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-          "publishedAt": "2026-11-10T17:02:32.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50443090"
-        },
-        {
-          "title": ".name Grandfathered",
-          "url": "https://neil.fraser.name/news/2026/11/10/",
-          "publishedAt": "2026-11-10T16:37:44.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
-        },
-        {
-          "title": "Tailscale's DNS IPv6 spells out \"Tailscale\"",
-          "url": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
-          "publishedAt": "2026-11-10T16:34:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50442691"
-        },
-        {
-          "title": "Blender 5.3 released with Gaussian Splat support",
-          "url": "https://www.blender.org/download/releases/5-3/",
-          "publishedAt": "2026-11-10T16:15:43.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50442426"
-        },
-        {
-          "title": "Gemini 4 Carbon is now available",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-          "publishedAt": "2026-11-10T16:07:15.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50442303"
-        },
-        {
-          "title": "Smart home devices should work without the internet",
-          "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-          "publishedAt": "2026-11-10T15:25:20.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
-        },
-        {
-          "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
-          "url": "https://tinyvalencia.com/",
-          "publishedAt": "2026-11-10T15:12:16.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50441518"
-        },
-        {
-          "title": "The Hardest Tarball?",
-          "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-          "publishedAt": "2026-11-10T15:00:39.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50441338"
-        },
-        {
-          "title": "The death knell of digital search",
-          "url": "https://www.newyorker.com/culture/infinite-scroll/the-death-knell-of-digital-search",
-          "publishedAt": "2026-11-10T14:41:36.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50441074"
-        },
-        {
-          "title": "Ableton Live 13",
-          "url": "https://www.ableton.com/en/live/",
-          "publishedAt": "2026-11-10T12:58:04.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50439695"
-        },
-        {
-          "title": "Let over Lambda–50 Years of Lisp (2008)",
-          "url": "https://letoverlambda.com/",
-          "publishedAt": "2026-11-10T12:35:27.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50439448"
-        },
-        {
-          "title": "What's new in the .NET 11 runtime",
-          "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
-          "publishedAt": "2026-11-10T12:20:07.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50439284"
-        },
-        {
-          "title": "AlphaProof Code",
-          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-          "publishedAt": "2026-11-10T12:11:12.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50439193"
-        },
-        {
-          "title": "What constant surveillance is doing to children and parents",
-          "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
-          "publishedAt": "2026-11-10T10:47:18.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50438480"
-        },
-        {
-          "title": "Queens Public library under ransomware attack e-borrowing suspended",
-          "url": "https://connect.queenslibrary.org/",
-          "publishedAt": "2026-11-10T09:04:39.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50437790"
-        },
-        {
-          "title": "Fireworks AI security breach impacts Notion and their customers",
-          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-          "publishedAt": "2026-11-10T07:19:38.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50437106"
-        },
-        {
-          "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-          "publishedAt": "2026-11-10T06:01:08.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50436640"
-        },
-        {
-          "title": "Your TV can see through walls (2025)",
-          "url": "https://maurycyz.com/projects/fading/",
-          "publishedAt": "2026-11-10T05:24:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50436410"
-        },
-        {
-          "title": "Locating the source of a mysterious beep",
-          "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-          "publishedAt": "2026-11-10T00:10:46.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50434310"
-        },
-        {
-          "title": "Here comes the sun[light]:An ambient Daylight Clock with time and space controls",
-          "url": "https://hannahilea.com/blog/daylight-clock/",
-          "publishedAt": "2026-11-09T20:00:32.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50431075"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Verge",
@@ -202,6 +26,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "ChatGPT is getting verified AI ‘Business Agents’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "excerpt": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in Cha",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Ableton Live 13 announced with a step sequencer, new drum synth, and more",
           "url": "https://www.theverge.com/tech/1030846/ableton-live-13-announced-step-sequencer-looplet-daw",
@@ -351,14 +183,6 @@
           "url": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
           "publishedAt": "2026-11-10T11:00:00.000Z",
           "excerpt": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a big fan of the vaguely retrofuturistic stylings of the Maevin",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-          "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-          "publishedAt": "2026-11-10T00:28:49.000Z",
-          "excerpt": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has th",
           "source": "The Verge",
           "category": "Technology"
         }
@@ -1043,6 +867,42 @@
       "count": 10,
       "stories": [
         {
+          "title": "Graphon Labs raises $35m to give AI agents a memory that lasts",
+          "url": "https://thenextweb.com/news/graphon-labs-35m-series-a-ai-agent-memory",
+          "publishedAt": "2026-11-10T18:01:41.000Z",
+          "excerpt": "Graphon Labs, a San Francisco startup that builds memory for AI agents, has raised $35m. RRE Ventures led the Series A. HP, Energy Impact Partners, Hitachi Ventures and Gaia VC also invested, Graphon said on Tuesday. The round brings its total funding to $43.3m, less than six months after it left st",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Mosaic raises $47m to build surgical machines that navigate blood vessels",
+          "url": "https://thenextweb.com/news/mosaic-intelligence-labs-47m-seed-ai-surgical-catheter",
+          "publishedAt": "2026-11-10T17:53:15.000Z",
+          "excerpt": "Mosaic Intelligence Labs, a San Francisco startup building AI-guided surgical instruments, has come out of stealth with $47m. It raised the money in two seed rounds led by 8VC and Fundomo, the one-year-old company told The Information. Lingotto Innovation and Obvious Ventures also invested, Mosaic s",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Ring’s flying security camera is finally coming, six years late, for $250",
+          "url": "https://thenextweb.com/news/amazon-ring-drone-cam-rover-cam-launch",
+          "publishedAt": "2026-11-10T17:49:40.000Z",
+          "excerpt": "Amazon’s Ring will sell the $250 Ring Drone Cam, an indoor flying security camera, from late January, more than six years after first announcing it. It also launched the $1,000 Rover Cam, a rebranded Astro robot, shipping in mid-December. Amazon’s Ring will start selling its flying home security cam",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Google Cloud launches Gemini for healthcare to take on hospital paperwork",
+          "url": "https://thenextweb.com/news/gemini-for-healthcare-google-cloud-ai-agent-launch",
+          "publishedAt": "2026-11-10T17:46:02.000Z",
+          "excerpt": "Google Cloud has launched Gemini for healthcare, an AI agent that works across the record, billing and insurance systems hospitals and health insurers already use. It is available in preview in the US from Tuesday, Google Cloud said. Launch customers include Blue Cross Blue Shield of Massachusetts, ",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Anthropic adds Claude Sheets and a call assistant, taking on its backers",
           "url": "https://thenextweb.com/news/anthropic-claude-sheets-office-tools-microsoft-google",
           "publishedAt": "2026-11-10T17:35:00.000Z",
@@ -1095,42 +955,6 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Blue J raises $176M to put AI agents to work for tax professionals",
-          "url": "https://thenextweb.com/news/blue-j-176m-series-e-tax-ai-agents",
-          "publishedAt": "2026-11-10T17:01:20.000Z",
-          "excerpt": "Toronto-based Blue J, which develops AI tools for tax research, has raised $176M in a Series E funding round led by JMI Equity, valuing the company at more than $700M, or over C$1bn. Existing investors Oak HC/FT and Sapphire Ventures also participated, alongside Intrepid Growth Partners. JMI princip",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Photoshop can now relight a photo, and Lightroom can open closed eyes",
-          "url": "https://thenextweb.com/news/adobe-photoshop-relight-premiere-lightroom-open-eyes",
-          "publishedAt": "2026-11-10T17:00:57.000Z",
-          "excerpt": "Adobe released new tools for Photoshop, Premiere and Lightroom on Tuesday at its MAX conference in Miami Beach. Most of them are available today, and a few are in beta. Adobe announced the features alongside its plan to let outside AI agents work inside its apps from early 2027. “With demand for con",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Stanford’s 100-year AI study says scaling is running out of road",
-          "url": "https://thenextweb.com/news/stanford-ai100-report-2026-ai-goes-mainstream",
-          "publishedAt": "2026-11-10T16:56:20.000Z",
-          "excerpt": "Stanford’s One Hundred Year Study on Artificial Intelligence (AI100) published its third report on Tuesday. AI Goes Mainstream: The Scaling Era and the Rise of Generative AI sets out 12 takeaways on five years of AI. The last one is a warning about the Stanford AI100 report itself. “This report will",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Google’s Gemini 4 Carbon is now open to paying developers and Ultra users",
-          "url": "https://thenextweb.com/news/google-gemini-4-carbon-available-developers-ultra",
-          "publishedAt": "2026-11-10T16:56:15.000Z",
-          "excerpt": "Google made Gemini 4 Carbon available to paying developers and businesses and is rolling it out to AI Ultra subscribers, two weeks after a limited release to cyber defenders. It costs the same per token as Argon at launch but uses more tokens per task. Google has made Gemini 4 Carbon, its most power",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1140,6 +964,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Blender 5.3 Released With Nvidia DLSS 4.5 Ray Reconstruction, Vulkan Default",
+          "url": "https://tech.slashdot.org/story/26/11/10/178254/blender-53-released-with-nvidia-dlss-45-ray-reconstruction-vulkan-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "excerpt": "Blender 5.3 has been released with support for 3D Gaussian Splats, Nvidia DLSS 4.5 Ray Reconstruction and Vulkan as the default graphics backend on Linux. Phoronix reports: Blender now allows importing Gaussian Splats from PLY, SPZ, and glTF files. Also new to Blender 5.3 is NVIDIA DLSS 4.5 Ray Reco",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Reddit Is Turning User Conversations Into AI-Powered Product Reviews",
           "url": "https://tech.slashdot.org/story/26/11/10/1654224/reddit-is-turning-user-conversations-into-ai-powered-product-reviews?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1265,15 +1098,6 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Orbiter Detects Signs of Possible Volcanic Activity on Mars",
-          "url": "https://science.slashdot.org/story/26/11/09/0516221/orbiter-detects-signs-of-possible-volcanic-activity-on-mars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-09T12:34:00.000Z",
-          "excerpt": "Futurism reports: While many scientists have long held that Mars is \"geologically dead\" inside, new research is adding to the growing body of evidence to the contrary. As detailed in a new paper published in the journal Science Advances, an international team of researchers examined data collected b",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ]
     },
@@ -1283,6 +1107,28 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "The AI Futures Project updates its AI timelines after METR's report on Anthropic R&D, saying it now expects a Superhuman AI Researcher to arrive in 2027 (AI Futures Project)",
+          "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+          "publishedAt": "2026-11-10T18:02:13.000Z",
+          "excerpt": "AI Futures Project : The AI Futures Project updates its AI timelines after METR's report on Anthropic R&D, saying it now expects a Superhuman AI Researcher to arrive in 2027 &nbsp; &mdash;&nbsp; We want to get this post out quickly given the urgency of the topic.&nbsp; It's possible that there are s",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261110/p38#a261110p38",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Oura agrees to acquire AI and on-demand doctor service Counsel Health for $625M, says Q4 revenue grew 153% YoY to $533M and FY 2026 revenue grew 92% to $1.75B (Mark Gurman/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/oura-to-buy-on-demand-doctor-ai-service-counsel-health-revenue-jumps-153-in-q4",
+          "publishedAt": "2026-11-10T17:55:01.000Z",
+          "excerpt": "Mark Gurman / Bloomberg : Oura agrees to acquire AI and on-demand doctor service Counsel Health for $625M, says Q4 revenue grew 153% YoY to $533M and FY 2026 revenue grew 92% to $1.75B &nbsp; &mdash;&nbsp; Oura Inc. agreed to acquire artificial intelligence and on-demand doctor service Counsel Healt",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261110/p37#a261110p37",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "How Alice Huang built her career with romantic partner and Hexi Capital founder Kang Wei, who faced stock market probes; sources believe she is back in China (Financial Times)",
           "url": "https://www.ft.com/content/3238d92b-4074-478d-a7f2-d78b9e154fc7",
@@ -1425,28 +1271,6 @@
           "sourceUrl": "https://www.techmeme.com/261110/p24#a261110p24",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Scale Labs and CAIS' Remote Labor Index: Fable 5.2 completes 41.3% of freelance projects at professional quality, above Opus 5.5's 21.3% and GPT-6 Astra's 20.8% (Maximilian Schreiner/The Decoder)",
-          "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-          "publishedAt": "2026-11-10T14:40:01.000Z",
-          "excerpt": "Maximilian Schreiner / The Decoder : Scale Labs and CAIS' Remote Labor Index: Fable 5.2 completes 41.3% of freelance projects at professional quality, above Opus 5.5's 21.3% and GPT-6 Astra's 20.8% &nbsp; &mdash;&nbsp; - Fable 5.2 breaks through in 3D models, audio, and architecture &hellip; The tes",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261110/p23#a261110p23",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Cyanogen's co-founder and two others debut Kora, a Linux desktop OS that integrates AI models at a system level, set for a 2027 launch on Snapdragon and x86 PCs (Reece Rogers/Wired)",
-          "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-          "publishedAt": "2026-11-10T14:35:00.000Z",
-          "excerpt": "Reece Rogers / Wired : Cyanogen's co-founder and two others debut Kora, a Linux desktop OS that integrates AI models at a system level, set for a 2027 launch on Snapdragon and x86 PCs &nbsp; &mdash;&nbsp; Hailing from Cyanogen's cofounder, Kora is a next-gen alternative to Windows and macOS for powe",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261110/p22#a261110p22",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ]
     },
@@ -1456,6 +1280,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Here's what to look for so you don't get scammed by a fake GPU",
+          "url": "https://www.engadget.com/2307801/fake-gpu-scam-what-to-look-for/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "excerpt": "From tracking number heists to missing memory dies, don't waste your precious time and money on a bogus GPU bargain.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "NVIDIA DLSS 4.5 has presets you should know about",
           "url": "https://www.engadget.com/2307797/nvidia-dlss-4-5-presets-should-know/",
@@ -1626,15 +1459,6 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Here's what the red dot on your Apple Watch means and how to clear it",
-          "url": "https://www.engadget.com/2307762/apple-watch-red-dot-meaning-how-to-clear/",
-          "publishedAt": "2026-11-10T13:45:00.000Z",
-          "excerpt": "That red dot on your Apple Watch indicates you have unread notifications. Here's how you can clear them and change your notification settings.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1644,6 +1468,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "LG's 97-inch OLED TV panels are finally being upgraded to 4,000 nits of brightness and 165Hz",
+          "url": "https://www.techradar.com/televisions/lgs-97-inch-oled-tv-panels-are-finally-being-upgraded-to-4-000-nits-of-brightness-and-165hz-and-the-new-screen-is-debuting-in-a-bigger-version-of-lgs-awesome-wallpaper-wireless-tv",
+          "publishedAt": "2026-11-10T18:02:52.000Z",
+          "excerpt": "LG goes big and bright with the new evo OLED TV panel —and it's updated its transparent OLED TV too.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Adobe wants you to spend less time editing and more time creating – Creative Cloud opens its doors to third-party AI agents",
           "url": "https://www.techradar.com/pro/adobe-wants-you-to-spend-less-time-editing-and-more-time-creating-creative-cloud-opens-its-doors-to-third-party-ai-agents",
@@ -1814,15 +1647,6 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Sega newsletter data breach sees 2.2 million email addresses exposed",
-          "url": "https://www.techradar.com/pro/security/sega-newsletter-data-breach-sees-2-2-million-email-addresses-exposed-gaming-giant-says-it-is-investigating-but-user-financial-data-not-affected",
-          "publishedAt": "2026-11-10T15:25:00.000Z",
-          "excerpt": "The Sega breach is part of a much larger supply chain attack that struck a digital marketing company called Arara.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1832,6 +1656,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Apple announces Swift Student Challenge 2027 with new twist",
+          "url": "https://9to5mac.com/2026/11/10/apple-announces-swift-student-challenge-2027-with-new-twist/",
+          "publishedAt": "2026-11-10T18:11:28.000Z",
+          "excerpt": "Apple has announced details for 2027’s Swift Student Challenge, and there’s a new twist this year: students can submit an app for any Apple platform. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "New Apple TV 4K remote’s best feature requires a newer iPhone model",
           "url": "https://9to5mac.com/2026/11/10/new-apple-tv-4k-remotes-best-feature-requires-a-newer-iphone-model/",
@@ -1999,15 +1832,6 @@
           "url": "https://9to5mac.com/2026/11/09/todays-macos-updates-fix-security-gap-involving-emudhra-certificates/",
           "publishedAt": "2026-11-09T22:17:36.000Z",
           "excerpt": "Apple today released macOS updates that address a security gap involving compromised eMudhra certificates, after initially blocking them in Safari, Mail, and other apps in October. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Skydance confirms HBO Max and Paramount+ ‘value’ bundle plan",
-          "url": "https://9to5mac.com/2026/11/09/skydance-confirms-hbo-max-and-paramount-value-bundle-plan/",
-          "publishedAt": "2026-11-09T21:46:15.000Z",
-          "excerpt": "HBO Max and Paramount+ customers will soon be able to pay for one subscription that unlocks both services. That’s according to Skydance, the company that came out of Paramount’s Warner Bros. Discovery acquisition. more…",
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -2513,6 +2337,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "£568 off makes this a great budget PC for creatives as well as gamers",
+          "url": "https://www.creativebloq.com/deals/gbp568-off-makes-this-a-great-budget-pc-for-creatives-as-well-as-gamers",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "excerpt": "The Acer NITRO 20 N20-101 is now as cheap as a budget laptop.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "With £700 off, this LG soundbar is now the perfect upgrade for a home entertainment setup",
           "url": "https://www.creativebloq.com/deals/with-gbp700-off-this-lg-soundbar-is-now-the-perfect-upgrade-for-a-home-entertainment-setup",
           "publishedAt": "2026-11-10T17:23:01.000Z",
@@ -2679,15 +2512,6 @@
           "url": "https://www.creativebloq.com/how-to/10-key-techniques-for-creating-environment-art-that-drives-visual-storytelling",
           "publishedAt": "2026-11-09T09:00:00.000Z",
           "excerpt": "An effective environment is about much more than spectacular landscape.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "An anti-AI indie game about keeping hand-drawn fish has become a surprise viral hit",
-          "url": "https://www.creativebloq.com/news/an-anti-ai-indie-game-about-keeping-hand-drawn-fish-has-become-a-surprise-viral-hit",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
-          "excerpt": "And it's all thanks to its emotive trailer.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
@@ -3669,7 +3493,16 @@
       "count": 20,
       "stories": [
         {
-          "title": "The Creator of VeggieTales Says God Being Nonbinary Is Backed by the Bible",
+          "title": "Rapper Young Miko Tops Poll for “Sexiest Lesbian Alive”",
+          "url": "https://www.them.us/entertainment/celebrity/young-miko-sexiest-lesbian-alive",
+          "publishedAt": "2026-11-10T17:53:14.000Z",
+          "excerpt": "Legacy lesbian magazine, Curve , named Puerto Rican rapper, singer, and songwriter Young Miko the Sexiest Lesbian Alive for its November 2026 issue in celebration of 35 years of sapphic media. While it’s obvious that the ultra-suave androgynous artist is objectively attractive — I mean she is irresi",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Creator of VeggieTales Says God Not Being Binary Is Backed by the Bible",
           "url": "https://www.them.us/politics/veggietales-phil-vischer-god-nonbinary",
           "publishedAt": "2026-11-10T17:16:34.000Z",
           "excerpt": "Phil Vischer, the co-creator of the Christian-themed animated series VeggieTales , pointed out that God doesn’t have a gender according to Biblical canon. Naturally, transphobes are absolutely losing it. After Texas Democrat James Talarico easily won his bid for U.S. Senate in a “blue wave” of midte",
@@ -3835,15 +3668,6 @@
           "url": "https://www.them.us/politics/chappell-roan",
           "publishedAt": "2026-11-05T22:05:26.000Z",
           "excerpt": "This story originally appeared on Out . As the Republican Party faces the reality that it suffered historic losses in the midterm elections, the Missouri state House is set to name a new majority leader who is related to Chappell Roan . Roan's conservative uncle, Missouri state Rep. Darin Chappell, ",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "LGBTQ+ Groups \"Heartbroken\" by Passage of Anti-Trans Measures Amid Blue Wave",
-          "url": "https://www.them.us/politics/midterm-election-2026-transgender-measures",
-          "publishedAt": "2026-11-05T21:49:58.000Z",
-          "excerpt": "This story originally appeared on The Advocate . \"Check on your trans friends,\" wrote a woman on Facebook Wednesday morning, sending a melancholy message on the same day most social media posts were hailing \"the blue wave,\" the \"blunami,\" and the \"the rainbow wave\". It's all in reference to the over",
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4332,19 +4156,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "“Vers Libre,” by Jane Huffman",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/vers-libre-jane-huffman-poem",
+          "title": "“After Rothko,” by David Biespiel",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/after-rothko-david-biespiel-poem",
           "publishedAt": "2026-11-08T11:00:00.000Z",
-          "excerpt": "“I was being / let down.”",
+          "excerpt": "“Always there are afternoons, / The empty days, and scaly / Layers of intimate / Footprints, deep / Enough to step into.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "“After Rothko,” by David Biespiel",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/after-rothko-david-biespiel-poem",
+          "title": "“Vers Libre,” by Jane Huffman",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/vers-libre-jane-huffman-poem",
           "publishedAt": "2026-11-08T11:00:00.000Z",
-          "excerpt": "“Always there are afternoons, / The empty days, and scaly / Layers of intimate / Footprints, deep / Enough to step into.”",
+          "excerpt": "“I was being / let down.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4359,19 +4183,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "“Wicker” and What Straight Women Want",
-          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+          "title": "Good Enough for a Tuesday Night",
+          "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
           "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
+          "excerpt": "An affair with an economist exposed the calculus of modern dating.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Good Enough for a Tuesday Night",
-          "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
+          "title": "“Wicker” and What Straight Women Want",
+          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
           "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "An affair with an economist exposed the calculus of modern dating.",
+          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4549,6 +4373,14 @@
       "count": 12,
       "stories": [
         {
+          "title": "Casey Bloys to Receive the Milestone Award at 2027 PGAs",
+          "url": "https://www.indiewire.com/awards/results/pga-awards-2027-casey-bloys-milestone-award-1235226429/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "excerpt": "The newly minted co-chair and chief content officer, Skydance Direct-to-Consumer, who's spent the last decade running HBO, will receive the Milestone Award at the 38th annual Producers Guild Awards.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
           "title": "‘Victorian Psycho’ Review: Maika Monroe Scares Up a Very Different Kind of Final Girl",
           "url": "https://www.indiewire.com/criticism/movies/victorian-psycho-review-maika-monroe-adaptation-1235195211/",
           "publishedAt": "2026-11-10T16:30:56.000Z",
@@ -4633,14 +4465,6 @@
           "url": "https://www.indiewire.com/awards/consider-this/john-malkovich-interview-wild-horse-nine-oscars-1235216943/",
           "publishedAt": "2026-11-09T14:23:00.000Z",
           "excerpt": "Now 72, Malkovich says he enjoyed channeling his jaded CIA spy's fearless rage. It could win him an Oscar.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "‘Half Nelson’ at 20: How a $700,000 Indie Addiction Drama Earned Ryan Gosling His First Oscar Nod",
-          "url": "https://www.indiewire.com/features/interviews/half-nelson-at-20-how-ryan-gosling-earned-first-oscar-nod-1235226155/",
-          "publishedAt": "2026-11-09T14:00:00.000Z",
-          "excerpt": "Ahead of a new dual-disc 4K re-release and a return to theaters, filmmakers Ryan Fleck and Anna Boden look back on their indie drama, starring Gosling as a freebasing middle-school teacher.",
           "source": "IndieWire",
           "category": "Culture"
         }
@@ -6931,6 +6755,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "Bats, Spiders, and Slime Molds Make the Close-Up Photographer of the Year Shortlist",
+          "url": "https://www.thisiscolossal.com/2026/11/close-up-photographer-of-the-year-2026-shortlist/",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "excerpt": "The competition saw its highest-ever number of entries this year. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Bats, Spiders, and Slime Molds Make the Close-Up Photographer of the Yea",
+          "source": "Colossal",
+          "category": "Arts",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Amy Genser’s Elaborate Mulberry Paper Assemblages Undulate Like the Sea",
           "url": "https://www.thisiscolossal.com/2026/11/amy-genser-paper-wall-sculptures/",
           "publishedAt": "2026-11-10T16:22:43.000Z",
@@ -7097,15 +6930,6 @@
           "url": "https://www.thisiscolossal.com/2026/10/aspen-golann-woodworking-embroidery-vessels-sculpture/",
           "publishedAt": "2026-10-30T15:09:43.000Z",
           "excerpt": "Golann creates uniquely sculptural, contemporary iterations of furniture and vessels in a nod to early American craft traditions. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article 17th-Cen",
-          "source": "Colossal",
-          "category": "Arts",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
-          "url": "https://www.thisiscolossal.com/2026/10/november-2026-opportunities-open-calls-residencies-and-grants-for-artists/",
-          "publishedAt": "2026-10-29T22:46:33.000Z",
-          "excerpt": "It's 2027 residency application season! Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists appeared first on Col",
           "source": "Colossal",
           "category": "Arts",
           "sourceRole": "publisher"
@@ -10159,19 +9983,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Who am I if I don’t run?",
-          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+          "title": "How to take notes that actually help you learn",
+          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to take notes that actually help you learn",
-          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+          "title": "Who am I if I don’t run?",
+          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10647,6 +10471,16 @@
       "count": 20,
       "stories": [
         {
+          "title": "How Much Wealth Does It Take to be Safe in the United States?",
+          "url": "https://kottke.org/26/11/how-much-wealth-does-it-take-to-be-safe-in-the-united-states",
+          "publishedAt": "2026-11-10T17:56:00.000Z",
+          "excerpt": "Pulitzer Prize winning journalist and illustrator Mona Chalabi’s new book is about wealth inequality in America. Ten Lives: How What We Have Shapes Who We Are ( Amazon ) follows ten people with ten different incomes, from the bottom 10% to the top 10% and everything in-between: For five years, data ",
+          "source": "Kottke",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Kottke"
+        },
+        {
           "title": "Great title for an article about London’s invasive...",
           "url": "https://kottke.org/26/11/0049950-the-pollycrisis",
           "publishedAt": "2026-11-10T16:41:00.000Z",
@@ -10831,16 +10665,6 @@
           "url": "https://kottke.org/26/11/0049918-a-call-for-more-mindful-u",
           "publishedAt": "2026-11-06T16:20:00.000Z",
           "excerpt": "A call for more “mindful underparenting” from psychologist Darby Saxbe . “If you want to raise empathetic, imaginative children who can figure out how to entertain themselves, don’t keep their brains too occupied.” 💯",
-          "source": "Kottke",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Kottke"
-        },
-        {
-          "title": "KDO Search Now Available to Everyone",
-          "url": "https://kottke.org/26/11/kdo-search-now-available-to-everyone",
-          "publishedAt": "2026-11-06T14:51:00.000Z",
-          "excerpt": "Ok, after a week of testing, I’ve opened up KDO search to everyone. You can read more about it in my post from last week : For now, the search only looks at posts from 2014 to the present. You can search by keyword, describe what you remember (“the guy who walks in Japan”), or paste a link to find p",
           "source": "Kottke",
           "category": "Discover",
           "sourceRole": "curator",
@@ -11812,6 +11636,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "元華拍《功夫》慘遭酷暑考驗：40度上海高溫下曬到中暑",
+          "url": "https://hk01.com/sns/article/60408208",
+          "publishedAt": "2026-11-10T18:00:08.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "美防長赫格塞思斥彈劾案為鬧劇 特朗普再次表態力挺",
           "url": "https://hk01.com/sns/article/60409347",
           "publishedAt": "2026-11-10T17:38:57.000Z",
@@ -11880,14 +11712,6 @@
           "url": "https://hk01.com/sns/article/60408391",
           "publishedAt": "2026-11-10T16:36:55.000Z",
           "excerpt": "趣味拔河比賽驚現好勝心極強的搜救犬！貴州消防救援大隊日前舉辦開放日，數名體型健碩的消防員與一班幼稚園學童進行趣味拔河賽。正當隊員極力「交戲」佯裝不敵之際，一隻搜救犬疑誤以為隊友陷入苦戰，突然衝入場內咬緊麻繩死命後拉。消防員既要演戲「放水」，又要制止全力拉扯的搜救犬，場面混亂滑稽，笑翻一眾網民。 搜救犬疑誤以為隊友陷入苦戰，突然衝入場內咬緊麻繩死命後拉。（網上影片截圖） 消防員假裝不敵拔河賽 幼童隊佔盡上風 綜合《 浙江日報 》及《 人民日報 》等內地傳媒報道，事發於11月5日威寧縣消防大隊的開放日現場。為了讓到場參觀的幼稚園學童體驗團隊協作的樂趣，隊方特別安排拔河趣味賽，由4至5名受過專業體能",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "國產化率破90%突破封鎖 新一代光刻機步入量產 關鍵部件全自主",
-          "url": "https://hk01.com/sns/article/60409267",
-          "publishedAt": "2026-11-10T16:12:39.000Z",
-          "excerpt": "第九屆中國國際進口博覽會5日至10日在上海國家會展中心舉行。在中國館展區內，由上海微電子裝備集團（SMEE）自主研發的新一代前道乾式掃描投影光刻機SSC800及SSB800模型正式亮相。 據悉，該系列光刻機關鍵零部件國產化率已突破90%，不僅實現定型並步入規模化量產，其核心零組件更是全鏈條自主可控。 第九屆中國國際進口博覽會5日至10日在上海國家會展中心舉行。（上海微電子裝備集團） 上海微電子裝備集團（SMEE）自主研發的新一代前道乾式掃描投影光刻機SSC800及SSB800模型首度亮相。（上海微電子裝備集團） 核心部件全鏈條自主可控 《觀察者網》和「上海微電子裝備集團」消息，光刻機是晶片製造",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12984,184 +12808,12 @@
   ],
   "stories": [
     {
-      "title": "AMD's Zen 6 Family: Feeding the Beast",
-      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-      "publishedAt": "2026-11-10T17:02:32.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50443090"
-    },
-    {
-      "title": ".name Grandfathered",
-      "url": "https://neil.fraser.name/news/2026/11/10/",
-      "publishedAt": "2026-11-10T16:37:44.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50442736"
-    },
-    {
-      "title": "Tailscale's DNS IPv6 spells out \"Tailscale\"",
-      "url": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
-      "publishedAt": "2026-11-10T16:34:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50442691"
-    },
-    {
-      "title": "Blender 5.3 released with Gaussian Splat support",
-      "url": "https://www.blender.org/download/releases/5-3/",
-      "publishedAt": "2026-11-10T16:15:43.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50442426"
-    },
-    {
-      "title": "Gemini 4 Carbon is now available",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "publishedAt": "2026-11-10T16:07:15.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50442303"
-    },
-    {
-      "title": "Smart home devices should work without the internet",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "publishedAt": "2026-11-10T15:25:20.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50441707"
-    },
-    {
-      "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
-      "url": "https://tinyvalencia.com/",
-      "publishedAt": "2026-11-10T15:12:16.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50441518"
-    },
-    {
-      "title": "The Hardest Tarball?",
-      "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-      "publishedAt": "2026-11-10T15:00:39.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50441338"
-    },
-    {
-      "title": "The death knell of digital search",
-      "url": "https://www.newyorker.com/culture/infinite-scroll/the-death-knell-of-digital-search",
-      "publishedAt": "2026-11-10T14:41:36.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50441074"
-    },
-    {
-      "title": "Ableton Live 13",
-      "url": "https://www.ableton.com/en/live/",
-      "publishedAt": "2026-11-10T12:58:04.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50439695"
-    },
-    {
-      "title": "Let over Lambda–50 Years of Lisp (2008)",
-      "url": "https://letoverlambda.com/",
-      "publishedAt": "2026-11-10T12:35:27.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50439448"
-    },
-    {
-      "title": "What's new in the .NET 11 runtime",
-      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
-      "publishedAt": "2026-11-10T12:20:07.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50439284"
-    },
-    {
-      "title": "AlphaProof Code",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "publishedAt": "2026-11-10T12:11:12.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50439193"
-    },
-    {
-      "title": "What constant surveillance is doing to children and parents",
-      "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
-      "publishedAt": "2026-11-10T10:47:18.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50438480"
-    },
-    {
-      "title": "Queens Public library under ransomware attack e-borrowing suspended",
-      "url": "https://connect.queenslibrary.org/",
-      "publishedAt": "2026-11-10T09:04:39.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50437790"
-    },
-    {
-      "title": "Fireworks AI security breach impacts Notion and their customers",
-      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "publishedAt": "2026-11-10T07:19:38.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50437106"
-    },
-    {
-      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-      "publishedAt": "2026-11-10T06:01:08.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50436640"
-    },
-    {
-      "title": "Your TV can see through walls (2025)",
-      "url": "https://maurycyz.com/projects/fading/",
-      "publishedAt": "2026-11-10T05:24:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50436410"
-    },
-    {
-      "title": "Locating the source of a mysterious beep",
-      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "publishedAt": "2026-11-10T00:10:46.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50434310"
-    },
-    {
-      "title": "Here comes the sun[light]:An ambient Daylight Clock with time and space controls",
-      "url": "https://hannahilea.com/blog/daylight-clock/",
-      "publishedAt": "2026-11-09T20:00:32.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50431075"
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "excerpt": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in Cha",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
       "title": "Ableton Live 13 announced with a step sequencer, new drum synth, and more",
@@ -13312,14 +12964,6 @@
       "url": "https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride",
       "publishedAt": "2026-11-10T11:00:00.000Z",
       "excerpt": "Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I'm a big fan of the vaguely retrofuturistic stylings of the Maevin",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "publishedAt": "2026-11-10T00:28:49.000Z",
-      "excerpt": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has th",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13964,6 +13608,42 @@
       "category": "Technology"
     },
     {
+      "title": "Graphon Labs raises $35m to give AI agents a memory that lasts",
+      "url": "https://thenextweb.com/news/graphon-labs-35m-series-a-ai-agent-memory",
+      "publishedAt": "2026-11-10T18:01:41.000Z",
+      "excerpt": "Graphon Labs, a San Francisco startup that builds memory for AI agents, has raised $35m. RRE Ventures led the Series A. HP, Energy Impact Partners, Hitachi Ventures and Gaia VC also invested, Graphon said on Tuesday. The round brings its total funding to $43.3m, less than six months after it left st",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Mosaic raises $47m to build surgical machines that navigate blood vessels",
+      "url": "https://thenextweb.com/news/mosaic-intelligence-labs-47m-seed-ai-surgical-catheter",
+      "publishedAt": "2026-11-10T17:53:15.000Z",
+      "excerpt": "Mosaic Intelligence Labs, a San Francisco startup building AI-guided surgical instruments, has come out of stealth with $47m. It raised the money in two seed rounds led by 8VC and Fundomo, the one-year-old company told The Information. Lingotto Innovation and Obvious Ventures also invested, Mosaic s",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Ring’s flying security camera is finally coming, six years late, for $250",
+      "url": "https://thenextweb.com/news/amazon-ring-drone-cam-rover-cam-launch",
+      "publishedAt": "2026-11-10T17:49:40.000Z",
+      "excerpt": "Amazon’s Ring will sell the $250 Ring Drone Cam, an indoor flying security camera, from late January, more than six years after first announcing it. It also launched the $1,000 Rover Cam, a rebranded Astro robot, shipping in mid-December. Amazon’s Ring will start selling its flying home security cam",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare to take on hospital paperwork",
+      "url": "https://thenextweb.com/news/gemini-for-healthcare-google-cloud-ai-agent-launch",
+      "publishedAt": "2026-11-10T17:46:02.000Z",
+      "excerpt": "Google Cloud has launched Gemini for healthcare, an AI agent that works across the record, billing and insurance systems hospitals and health insurers already use. It is available in preview in the US from Tuesday, Google Cloud said. Launch customers include Blue Cross Blue Shield of Massachusetts, ",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Anthropic adds Claude Sheets and a call assistant, taking on its backers",
       "url": "https://thenextweb.com/news/anthropic-claude-sheets-office-tools-microsoft-google",
       "publishedAt": "2026-11-10T17:35:00.000Z",
@@ -14018,40 +13698,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Blue J raises $176M to put AI agents to work for tax professionals",
-      "url": "https://thenextweb.com/news/blue-j-176m-series-e-tax-ai-agents",
-      "publishedAt": "2026-11-10T17:01:20.000Z",
-      "excerpt": "Toronto-based Blue J, which develops AI tools for tax research, has raised $176M in a Series E funding round led by JMI Equity, valuing the company at more than $700M, or over C$1bn. Existing investors Oak HC/FT and Sapphire Ventures also participated, alongside Intrepid Growth Partners. JMI princip",
-      "source": "The Next Web",
+      "title": "Blender 5.3 Released With Nvidia DLSS 4.5 Ray Reconstruction, Vulkan Default",
+      "url": "https://tech.slashdot.org/story/26/11/10/178254/blender-53-released-with-nvidia-dlss-45-ray-reconstruction-vulkan-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "excerpt": "Blender 5.3 has been released with support for 3D Gaussian Splats, Nvidia DLSS 4.5 Ray Reconstruction and Vulkan as the default graphics backend on Linux. Phoronix reports: Blender now allows importing Gaussian Splats from PLY, SPZ, and glTF files. Also new to Blender 5.3 is NVIDIA DLSS 4.5 Ray Reco",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Photoshop can now relight a photo, and Lightroom can open closed eyes",
-      "url": "https://thenextweb.com/news/adobe-photoshop-relight-premiere-lightroom-open-eyes",
-      "publishedAt": "2026-11-10T17:00:57.000Z",
-      "excerpt": "Adobe released new tools for Photoshop, Premiere and Lightroom on Tuesday at its MAX conference in Miami Beach. Most of them are available today, and a few are in beta. Adobe announced the features alongside its plan to let outside AI agents work inside its apps from early 2027. “With demand for con",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Stanford’s 100-year AI study says scaling is running out of road",
-      "url": "https://thenextweb.com/news/stanford-ai100-report-2026-ai-goes-mainstream",
-      "publishedAt": "2026-11-10T16:56:20.000Z",
-      "excerpt": "Stanford’s One Hundred Year Study on Artificial Intelligence (AI100) published its third report on Tuesday. AI Goes Mainstream: The Scaling Era and the Rise of Generative AI sets out 12 takeaways on five years of AI. The last one is a warning about the Stanford AI100 report itself. “This report will",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Google’s Gemini 4 Carbon is now open to paying developers and Ultra users",
-      "url": "https://thenextweb.com/news/google-gemini-4-carbon-available-developers-ultra",
-      "publishedAt": "2026-11-10T16:56:15.000Z",
-      "excerpt": "Google made Gemini 4 Carbon available to paying developers and businesses and is rolling it out to AI Ultra subscribers, two weeks after a limited release to cyber defenders. It costs the same per token as Argon at launch but uses more tokens per task. Google has made Gemini 4 Carbon, its most power",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "Reddit Is Turning User Conversations Into AI-Powered Product Reviews",
@@ -14180,13 +13833,26 @@
       "sourceRole": "community"
     },
     {
-      "title": "Orbiter Detects Signs of Possible Volcanic Activity on Mars",
-      "url": "https://science.slashdot.org/story/26/11/09/0516221/orbiter-detects-signs-of-possible-volcanic-activity-on-mars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-09T12:34:00.000Z",
-      "excerpt": "Futurism reports: While many scientists have long held that Mars is \"geologically dead\" inside, new research is adding to the growing body of evidence to the contrary. As detailed in a new paper published in the journal Science Advances, an international team of researchers examined data collected b",
-      "source": "Slashdot",
+      "title": "The AI Futures Project updates its AI timelines after METR's report on Anthropic R&D, saying it now expects a Superhuman AI Researcher to arrive in 2027 (AI Futures Project)",
+      "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+      "publishedAt": "2026-11-10T18:02:13.000Z",
+      "excerpt": "AI Futures Project : The AI Futures Project updates its AI timelines after METR's report on Anthropic R&D, saying it now expects a Superhuman AI Researcher to arrive in 2027 &nbsp; &mdash;&nbsp; We want to get this post out quickly given the urgency of the topic.&nbsp; It's possible that there are s",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261110/p38#a261110p38",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Oura agrees to acquire AI and on-demand doctor service Counsel Health for $625M, says Q4 revenue grew 153% YoY to $533M and FY 2026 revenue grew 92% to $1.75B (Mark Gurman/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/oura-to-buy-on-demand-doctor-ai-service-counsel-health-revenue-jumps-153-in-q4",
+      "publishedAt": "2026-11-10T17:55:01.000Z",
+      "excerpt": "Mark Gurman / Bloomberg : Oura agrees to acquire AI and on-demand doctor service Counsel Health for $625M, says Q4 revenue grew 153% YoY to $533M and FY 2026 revenue grew 92% to $1.75B &nbsp; &mdash;&nbsp; Oura Inc. agreed to acquire artificial intelligence and on-demand doctor service Counsel Healt",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261110/p37#a261110p37",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "How Alice Huang built her career with romantic partner and Hexi Capital founder Kang Wei, who faced stock market probes; sources believe she is back in China (Financial Times)",
@@ -14332,26 +13998,13 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Scale Labs and CAIS' Remote Labor Index: Fable 5.2 completes 41.3% of freelance projects at professional quality, above Opus 5.5's 21.3% and GPT-6 Astra's 20.8% (Maximilian Schreiner/The Decoder)",
-      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-      "publishedAt": "2026-11-10T14:40:01.000Z",
-      "excerpt": "Maximilian Schreiner / The Decoder : Scale Labs and CAIS' Remote Labor Index: Fable 5.2 completes 41.3% of freelance projects at professional quality, above Opus 5.5's 21.3% and GPT-6 Astra's 20.8% &nbsp; &mdash;&nbsp; - Fable 5.2 breaks through in 3D models, audio, and architecture &hellip; The tes",
-      "source": "Techmeme",
+      "title": "Here's what to look for so you don't get scammed by a fake GPU",
+      "url": "https://www.engadget.com/2307801/fake-gpu-scam-what-to-look-for/",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "excerpt": "From tracking number heists to missing memory dies, don't waste your precious time and money on a bogus GPU bargain.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261110/p23#a261110p23",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Cyanogen's co-founder and two others debut Kora, a Linux desktop OS that integrates AI models at a system level, set for a 2027 launch on Snapdragon and x86 PCs (Reece Rogers/Wired)",
-      "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-      "publishedAt": "2026-11-10T14:35:00.000Z",
-      "excerpt": "Reece Rogers / Wired : Cyanogen's co-founder and two others debut Kora, a Linux desktop OS that integrates AI models at a system level, set for a 2027 launch on Snapdragon and x86 PCs &nbsp; &mdash;&nbsp; Hailing from Cyanogen's cofounder, Kora is a next-gen alternative to Windows and macOS for powe",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261110/p22#a261110p22",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
       "title": "NVIDIA DLSS 4.5 has presets you should know about",
@@ -14525,11 +14178,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Here's what the red dot on your Apple Watch means and how to clear it",
-      "url": "https://www.engadget.com/2307762/apple-watch-red-dot-meaning-how-to-clear/",
-      "publishedAt": "2026-11-10T13:45:00.000Z",
-      "excerpt": "That red dot on your Apple Watch indicates you have unread notifications. Here's how you can clear them and change your notification settings.",
-      "source": "Engadget",
+      "title": "LG's 97-inch OLED TV panels are finally being upgraded to 4,000 nits of brightness and 165Hz",
+      "url": "https://www.techradar.com/televisions/lgs-97-inch-oled-tv-panels-are-finally-being-upgraded-to-4-000-nits-of-brightness-and-165hz-and-the-new-screen-is-debuting-in-a-bigger-version-of-lgs-awesome-wallpaper-wireless-tv",
+      "publishedAt": "2026-11-10T18:02:52.000Z",
+      "excerpt": "LG goes big and bright with the new evo OLED TV panel —and it's updated its transparent OLED TV too.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14705,11 +14358,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Sega newsletter data breach sees 2.2 million email addresses exposed",
-      "url": "https://www.techradar.com/pro/security/sega-newsletter-data-breach-sees-2-2-million-email-addresses-exposed-gaming-giant-says-it-is-investigating-but-user-financial-data-not-affected",
-      "publishedAt": "2026-11-10T15:25:00.000Z",
-      "excerpt": "The Sega breach is part of a much larger supply chain attack that struck a digital marketing company called Arara.",
-      "source": "TechRadar",
+      "title": "Apple announces Swift Student Challenge 2027 with new twist",
+      "url": "https://9to5mac.com/2026/11/10/apple-announces-swift-student-challenge-2027-with-new-twist/",
+      "publishedAt": "2026-11-10T18:11:28.000Z",
+      "excerpt": "Apple has announced details for 2027’s Swift Student Challenge, and there’s a new twist this year: students can submit an app for any Apple platform. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14880,15 +14533,6 @@
       "url": "https://9to5mac.com/2026/11/09/todays-macos-updates-fix-security-gap-involving-emudhra-certificates/",
       "publishedAt": "2026-11-09T22:17:36.000Z",
       "excerpt": "Apple today released macOS updates that address a security gap involving compromised eMudhra certificates, after initially blocking them in Safari, Mail, and other apps in October. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Skydance confirms HBO Max and Paramount+ ‘value’ bundle plan",
-      "url": "https://9to5mac.com/2026/11/09/skydance-confirms-hbo-max-and-paramount-value-bundle-plan/",
-      "publishedAt": "2026-11-09T21:46:15.000Z",
-      "excerpt": "HBO Max and Paramount+ customers will soon be able to pay for one subscription that unlocks both services. That’s according to Skydance, the company that came out of Paramount’s Warner Bros. Discovery acquisition. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15362,6 +15006,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "£568 off makes this a great budget PC for creatives as well as gamers",
+      "url": "https://www.creativebloq.com/deals/gbp568-off-makes-this-a-great-budget-pc-for-creatives-as-well-as-gamers",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "excerpt": "The Acer NITRO 20 N20-101 is now as cheap as a budget laptop.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "With £700 off, this LG soundbar is now the perfect upgrade for a home entertainment setup",
       "url": "https://www.creativebloq.com/deals/with-gbp700-off-this-lg-soundbar-is-now-the-perfect-upgrade-for-a-home-entertainment-setup",
       "publishedAt": "2026-11-10T17:23:01.000Z",
@@ -15528,15 +15181,6 @@
       "url": "https://www.creativebloq.com/how-to/10-key-techniques-for-creating-environment-art-that-drives-visual-storytelling",
       "publishedAt": "2026-11-09T09:00:00.000Z",
       "excerpt": "An effective environment is about much more than spectacular landscape.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "An anti-AI indie game about keeping hand-drawn fish has become a surprise viral hit",
-      "url": "https://www.creativebloq.com/news/an-anti-ai-indie-game-about-keeping-hand-drawn-fish-has-become-a-surprise-viral-hit",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "excerpt": "And it's all thanks to its emotive trailer.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16462,7 +16106,16 @@
       "category": "Design"
     },
     {
-      "title": "The Creator of VeggieTales Says God Being Nonbinary Is Backed by the Bible",
+      "title": "Rapper Young Miko Tops Poll for “Sexiest Lesbian Alive”",
+      "url": "https://www.them.us/entertainment/celebrity/young-miko-sexiest-lesbian-alive",
+      "publishedAt": "2026-11-10T17:53:14.000Z",
+      "excerpt": "Legacy lesbian magazine, Curve , named Puerto Rican rapper, singer, and songwriter Young Miko the Sexiest Lesbian Alive for its November 2026 issue in celebration of 35 years of sapphic media. While it’s obvious that the ultra-suave androgynous artist is objectively attractive — I mean she is irresi",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Creator of VeggieTales Says God Not Being Binary Is Backed by the Bible",
       "url": "https://www.them.us/politics/veggietales-phil-vischer-god-nonbinary",
       "publishedAt": "2026-11-10T17:16:34.000Z",
       "excerpt": "Phil Vischer, the co-creator of the Christian-themed animated series VeggieTales , pointed out that God doesn’t have a gender according to Biblical canon. Naturally, transphobes are absolutely losing it. After Texas Democrat James Talarico easily won his bid for U.S. Senate in a “blue wave” of midte",
@@ -16628,15 +16281,6 @@
       "url": "https://www.them.us/politics/chappell-roan",
       "publishedAt": "2026-11-05T22:05:26.000Z",
       "excerpt": "This story originally appeared on Out . As the Republican Party faces the reality that it suffered historic losses in the midterm elections, the Missouri state House is set to name a new majority leader who is related to Chappell Roan . Roan's conservative uncle, Missouri state Rep. Darin Chappell, ",
-      "source": "Them",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "LGBTQ+ Groups \"Heartbroken\" by Passage of Anti-Trans Measures Amid Blue Wave",
-      "url": "https://www.them.us/politics/midterm-election-2026-transgender-measures",
-      "publishedAt": "2026-11-05T21:49:58.000Z",
-      "excerpt": "This story originally appeared on The Advocate . \"Check on your trans friends,\" wrote a woman on Facebook Wednesday morning, sending a melancholy message on the same day most social media posts were hailing \"the blue wave,\" the \"blunami,\" and the \"the rainbow wave\". It's all in reference to the over",
       "source": "Them",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17101,19 +16745,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "“Vers Libre,” by Jane Huffman",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/vers-libre-jane-huffman-poem",
+      "title": "“After Rothko,” by David Biespiel",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/after-rothko-david-biespiel-poem",
       "publishedAt": "2026-11-08T11:00:00.000Z",
-      "excerpt": "“I was being / let down.”",
+      "excerpt": "“Always there are afternoons, / The empty days, and scaly / Layers of intimate / Footprints, deep / Enough to step into.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "“After Rothko,” by David Biespiel",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/after-rothko-david-biespiel-poem",
+      "title": "“Vers Libre,” by Jane Huffman",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/vers-libre-jane-huffman-poem",
       "publishedAt": "2026-11-08T11:00:00.000Z",
-      "excerpt": "“Always there are afternoons, / The empty days, and scaly / Layers of intimate / Footprints, deep / Enough to step into.”",
+      "excerpt": "“I was being / let down.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17128,19 +16772,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "“Wicker” and What Straight Women Want",
-      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+      "title": "Good Enough for a Tuesday Night",
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
       "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
+      "excerpt": "An affair with an economist exposed the calculus of modern dating.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Good Enough for a Tuesday Night",
-      "url": "https://www.newyorker.com/culture/the-weekend-essay/good-enough-for-a-tuesday-night",
+      "title": "“Wicker” and What Straight Women Want",
+      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
       "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "An affair with an economist exposed the calculus of modern dating.",
+      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17302,6 +16946,14 @@
       "category": "Culture"
     },
     {
+      "title": "Casey Bloys to Receive the Milestone Award at 2027 PGAs",
+      "url": "https://www.indiewire.com/awards/results/pga-awards-2027-casey-bloys-milestone-award-1235226429/",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "excerpt": "The newly minted co-chair and chief content officer, Skydance Direct-to-Consumer, who's spent the last decade running HBO, will receive the Milestone Award at the 38th annual Producers Guild Awards.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
       "title": "‘Victorian Psycho’ Review: Maika Monroe Scares Up a Very Different Kind of Final Girl",
       "url": "https://www.indiewire.com/criticism/movies/victorian-psycho-review-maika-monroe-adaptation-1235195211/",
       "publishedAt": "2026-11-10T16:30:56.000Z",
@@ -17386,14 +17038,6 @@
       "url": "https://www.indiewire.com/awards/consider-this/john-malkovich-interview-wild-horse-nine-oscars-1235216943/",
       "publishedAt": "2026-11-09T14:23:00.000Z",
       "excerpt": "Now 72, Malkovich says he enjoyed channeling his jaded CIA spy's fearless rage. It could win him an Oscar.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "‘Half Nelson’ at 20: How a $700,000 Indie Addiction Drama Earned Ryan Gosling His First Oscar Nod",
-      "url": "https://www.indiewire.com/features/interviews/half-nelson-at-20-how-ryan-gosling-earned-first-oscar-nod-1235226155/",
-      "publishedAt": "2026-11-09T14:00:00.000Z",
-      "excerpt": "Ahead of a new dual-disc 4K re-release and a return to theaters, filmmakers Ryan Fleck and Anna Boden look back on their indie drama, starring Gosling as a freebasing middle-school teacher.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -19564,6 +19208,15 @@
       "category": "Arts"
     },
     {
+      "title": "Bats, Spiders, and Slime Molds Make the Close-Up Photographer of the Year Shortlist",
+      "url": "https://www.thisiscolossal.com/2026/11/close-up-photographer-of-the-year-2026-shortlist/",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "excerpt": "The competition saw its highest-ever number of entries this year. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Bats, Spiders, and Slime Molds Make the Close-Up Photographer of the Yea",
+      "source": "Colossal",
+      "category": "Arts",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Amy Genser’s Elaborate Mulberry Paper Assemblages Undulate Like the Sea",
       "url": "https://www.thisiscolossal.com/2026/11/amy-genser-paper-wall-sculptures/",
       "publishedAt": "2026-11-10T16:22:43.000Z",
@@ -19730,15 +19383,6 @@
       "url": "https://www.thisiscolossal.com/2026/10/aspen-golann-woodworking-embroidery-vessels-sculpture/",
       "publishedAt": "2026-10-30T15:09:43.000Z",
       "excerpt": "Golann creates uniquely sculptural, contemporary iterations of furniture and vessels in a nod to early American craft traditions. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article 17th-Cen",
-      "source": "Colossal",
-      "category": "Arts",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
-      "url": "https://www.thisiscolossal.com/2026/10/november-2026-opportunities-open-calls-residencies-and-grants-for-artists/",
-      "publishedAt": "2026-10-29T22:46:33.000Z",
-      "excerpt": "It's 2027 residency application season! Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists appeared first on Col",
       "source": "Colossal",
       "category": "Arts",
       "sourceRole": "publisher"
@@ -22640,19 +22284,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Who am I if I don’t run?",
-      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "title": "How to take notes that actually help you learn",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to take notes that actually help you learn",
-      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "title": "Who am I if I don’t run?",
+      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -23104,6 +22748,16 @@
       "category": "Philosophy"
     },
     {
+      "title": "How Much Wealth Does It Take to be Safe in the United States?",
+      "url": "https://kottke.org/26/11/how-much-wealth-does-it-take-to-be-safe-in-the-united-states",
+      "publishedAt": "2026-11-10T17:56:00.000Z",
+      "excerpt": "Pulitzer Prize winning journalist and illustrator Mona Chalabi’s new book is about wealth inequality in America. Ten Lives: How What We Have Shapes Who We Are ( Amazon ) follows ten people with ten different incomes, from the bottom 10% to the top 10% and everything in-between: For five years, data ",
+      "source": "Kottke",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Kottke"
+    },
+    {
       "title": "Great title for an article about London’s invasive...",
       "url": "https://kottke.org/26/11/0049950-the-pollycrisis",
       "publishedAt": "2026-11-10T16:41:00.000Z",
@@ -23288,16 +22942,6 @@
       "url": "https://kottke.org/26/11/0049918-a-call-for-more-mindful-u",
       "publishedAt": "2026-11-06T16:20:00.000Z",
       "excerpt": "A call for more “mindful underparenting” from psychologist Darby Saxbe . “If you want to raise empathetic, imaginative children who can figure out how to entertain themselves, don’t keep their brains too occupied.” 💯",
-      "source": "Kottke",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Kottke"
-    },
-    {
-      "title": "KDO Search Now Available to Everyone",
-      "url": "https://kottke.org/26/11/kdo-search-now-available-to-everyone",
-      "publishedAt": "2026-11-06T14:51:00.000Z",
-      "excerpt": "Ok, after a week of testing, I’ve opened up KDO search to everyone. You can read more about it in my post from last week : For now, the search only looks at posts from 2014 to the present. You can search by keyword, describe what you remember (“the guy who walks in Japan”), or paste a link to find p",
       "source": "Kottke",
       "category": "Discover",
       "sourceRole": "curator",
@@ -24221,6 +23865,14 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "元華拍《功夫》慘遭酷暑考驗：40度上海高溫下曬到中暑",
+      "url": "https://hk01.com/sns/article/60408208",
+      "publishedAt": "2026-11-10T18:00:08.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "美防長赫格塞思斥彈劾案為鬧劇 特朗普再次表態力挺",
       "url": "https://hk01.com/sns/article/60409347",
       "publishedAt": "2026-11-10T17:38:57.000Z",
@@ -24289,14 +23941,6 @@
       "url": "https://hk01.com/sns/article/60408391",
       "publishedAt": "2026-11-10T16:36:55.000Z",
       "excerpt": "趣味拔河比賽驚現好勝心極強的搜救犬！貴州消防救援大隊日前舉辦開放日，數名體型健碩的消防員與一班幼稚園學童進行趣味拔河賽。正當隊員極力「交戲」佯裝不敵之際，一隻搜救犬疑誤以為隊友陷入苦戰，突然衝入場內咬緊麻繩死命後拉。消防員既要演戲「放水」，又要制止全力拉扯的搜救犬，場面混亂滑稽，笑翻一眾網民。 搜救犬疑誤以為隊友陷入苦戰，突然衝入場內咬緊麻繩死命後拉。（網上影片截圖） 消防員假裝不敵拔河賽 幼童隊佔盡上風 綜合《 浙江日報 》及《 人民日報 》等內地傳媒報道，事發於11月5日威寧縣消防大隊的開放日現場。為了讓到場參觀的幼稚園學童體驗團隊協作的樂趣，隊方特別安排拔河趣味賽，由4至5名受過專業體能",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "國產化率破90%突破封鎖 新一代光刻機步入量產 關鍵部件全自主",
-      "url": "https://hk01.com/sns/article/60409267",
-      "publishedAt": "2026-11-10T16:12:39.000Z",
-      "excerpt": "第九屆中國國際進口博覽會5日至10日在上海國家會展中心舉行。在中國館展區內，由上海微電子裝備集團（SMEE）自主研發的新一代前道乾式掃描投影光刻機SSC800及SSB800模型正式亮相。 據悉，該系列光刻機關鍵零部件國產化率已突破90%，不僅實現定型並步入規模化量產，其核心零組件更是全鏈條自主可控。 第九屆中國國際進口博覽會5日至10日在上海國家會展中心舉行。（上海微電子裝備集團） 上海微電子裝備集團（SMEE）自主研發的新一代前道乾式掃描投影光刻機SSC800及SSB800模型首度亮相。（上海微電子裝備集團） 核心部件全鏈條自主可控 《觀察者網》和「上海微電子裝備集團」消息，光刻機是晶片製造",
       "source": "香港01",
       "category": "Hong Kong"
     },

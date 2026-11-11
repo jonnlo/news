@@ -2,11 +2,16 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-12",
-  "generatedAt": "2026-11-11T22:17:13.651Z",
-  "collectedAt": "2026-11-11T22:17:13.651Z",
+  "generatedAt": "2026-11-11T22:43:55.088Z",
+  "collectedAt": "2026-11-11T22:43:55.088Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Nielsen Norman Group",
+      "error": "fetch failed"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -14,6 +19,24 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Lock Your GitHub Actions",
+          "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+          "publishedAt": "2026-11-11T22:16:41.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50459485"
+        },
+        {
+          "title": "Jensen Huang Said to Have Had Relationship with Nvidia Executive",
+          "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+          "publishedAt": "2026-11-11T22:03:58.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50459321"
+        },
         {
           "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
           "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
@@ -159,15 +182,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50454995"
         },
         {
-          "title": "The Computer Graphics Book of Knowledge",
-          "url": "https://www.cs.cmu.edu/~ph/nyit/masson/history.htm",
-          "publishedAt": "2026-11-11T15:50:02.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50454823"
-        },
-        {
           "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
           "url": "https://github.com/FrigadeHQ/yogurt",
           "publishedAt": "2026-11-11T15:33:06.000Z",
@@ -175,15 +189,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50454625"
-        },
-        {
-          "title": "Pharo in the Browser with WebAssembly",
-          "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
-          "publishedAt": "2026-11-11T14:21:27.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453763"
         },
         {
           "title": "Atuin Threads: All your agent sessions on every machine",
@@ -1284,10 +1289,21 @@
       "count": 15,
       "stories": [
         {
-          "title": "Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell; their relationship has been discussed inside the company (New York Times)",
+          "title": "Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future (Wall Street Journal)",
+          "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=1PYhvY",
+          "publishedAt": "2026-11-11T22:32:14.000Z",
+          "excerpt": "Wall Street Journal : Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future &nbsp; &mdash;&nbsp; The board is preparing to meet as soon as today to determine his future, people familiar with the matter said.",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261111/p44#a261111p44",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company (New York Times)",
           "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.PlE.QYQK.ExXQ3moeKx-i&smid=nytcore-ios-share",
           "publishedAt": "2026-11-11T22:03:12.000Z",
-          "excerpt": "New York Times : Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell; their relationship has been discussed inside the company &nbsp; &mdash;&nbsp; Mr. Huang, Nvidia's chief executive, is already facing scrutiny over an affair with a Chinese busines",
+          "excerpt": "New York Times : Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company &nbsp; &mdash;&nbsp; Mr. Huang, Nvidia's chief executive, is already facing scrutiny over an affair with a Chinese business",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261111/p43#a261111p43",
@@ -1434,17 +1450,6 @@
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261111/p30#a261111p30",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as \"progressive\" and praising Trump for saying ICE went too far (Politico)",
-          "url": "https://www.politico.com/newsletters/playbook/2026/11/11/the-tech-right-pivots-left-01160648",
-          "publishedAt": "2026-11-11T14:20:57.000Z",
-          "excerpt": "Politico : After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as &ldquo;progressive&rdquo; and praising Trump for saying ICE went too far &nbsp; &mdash;&nbsp; With help from Eli Okun, Ali Bianco and Irie Sentner&nbsp; &mdash;&nbsp; Good Wednesday morning",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261111/p29#a261111p29",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
         }
@@ -1645,6 +1650,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "Anthropic is spending $3.4 billion on natural gas turbines to avoid the AI power crisis",
+          "url": "https://www.techradar.com/pro/anthropic-is-spending-usd3-4-billion-on-natural-gas-turbines-to-avoid-the-ai-power-crisis-caterpillar-generators-capable-of-producing-up-to-1-7-gigawatts-of-electricity-could-power-the-next-generation-of-claude",
+          "publishedAt": "2026-11-11T22:20:00.000Z",
+          "excerpt": "Anthropic is investing $3.4 billion in natural gas generators to secure electricity for AI infrastructure amid growing shortages and rising energy costs.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "DJI's new drone could be a literal lifesaver — Matrice 5T features enhanced night vision and 1k thermal imaging, making it perfect for search and rescue",
           "url": "https://www.techradar.com/pro/djis-new-drone-could-be-a-literal-lifesaver-matrice-5t-features-enhanced-night-vision-and-1k-thermal-imaging-making-it-perfect-for-search-and-rescue",
           "publishedAt": "2026-11-11T21:10:00.000Z",
@@ -1811,15 +1825,6 @@
           "url": "https://www.techradar.com/audio/wireless-headphones/get-the-best-headphones-or-earbuds-for-you-with-our-simple-headphone-finder-quiz-all-picked-by-an-audio-editor",
           "publishedAt": "2026-11-11T15:00:00.000Z",
           "excerpt": "I’m TechRadar's audio editor, and I want to take the guesswork out of headphones — just take my quiz to find the perfect set for you, or as a gift for someone",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Cloud hosting firm Railway says recent breach leads to $740,000 in fraudulent AI charges",
-          "url": "https://www.techradar.com/pro/security/cloud-hosting-firm-railway-says-recent-breach-leads-to-usd740-000-in-fraudulent-ai-charges",
-          "publishedAt": "2026-11-11T14:54:03.000Z",
-          "excerpt": "A zero-day in a cloud provider's infrastructure granted attackers access to paid AI models and in a single day they raked up hundreds of thousands in expenses.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -3074,169 +3079,8 @@
       "name": "Nielsen Norman Group",
       "category": "Design",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "Agent Harness: Definition",
-          "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-11-06T18:00:00.000Z",
-          "excerpt": "An agent harness manages a software loop between an AI model and its tools. Its context, permissions, and limits shape what users can do.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Usability 101: Introduction to Usability",
-          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-11-06T18:00:00.000Z",
-          "excerpt": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
-          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-11-06T04:34:21.000Z",
-          "excerpt": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, 2026.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "The Role of UX in Agentic Software Factories",
-          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-30T17:00:00.000Z",
-          "excerpt": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Experience Design: Dropping the “User” from “User Experience”",
-          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-30T17:00:00.000Z",
-          "excerpt": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z",
-          "excerpt": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z",
-          "excerpt": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-          "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-16T17:00:00.000Z",
-          "excerpt": "Data from AI-generated respondents pointed to the same conclusion as a survey of 604 humans but contained far fewer distinct answers.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "UX Maps: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-16T17:00:00.000Z",
-          "excerpt": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-          "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-09T17:00:00.000Z",
-          "excerpt": "A useful AI assistant needs relevant personal context, the capability to use it, and an experience that helps users understand its limits.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-          "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-09T17:00:00.000Z",
-          "excerpt": "Claude power users rarely edit their context files and often can’t find them. Your AI agent is only as powerful as its context library.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z",
-          "excerpt": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
-          "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z",
-          "excerpt": "AI makes building nearly free, so users grow agentic systems piecemeal into fragile messes they no longer understand.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "How AI Works and How Users Think About It: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-functionality-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-25T17:00:00.000Z",
-          "excerpt": "Unsure where to start? Use this collection of links to our articles and videos to learn about how artificial intelligence works, and how users think about it.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "When Should You Disclose AI Use? The PACED Framework",
-          "url": "https://www.nngroup.com/articles/disclose-ai-paced/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-25T17:00:00.000Z",
-          "excerpt": "How people react to being told that AI helped create a piece of content varies with audience, context, the nature and degree of AI use.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Designing AI Products and Features: Study Guide",
-          "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-18T17:00:00.000Z",
-          "excerpt": "Unsure where to start? Use this collection of links to our articles and videos to learn about recommendations for designing AI products and features.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "The 3 Roles of Context for AI Agents",
-          "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-18T17:00:00.000Z",
-          "excerpt": "AI-agent power users curate 3 kinds of context: global (across tasks), local (task-specific), and ambient (raw streams like email).",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-16T06:59:19.000Z",
-          "excerpt": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15, 2026.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "Test Complex Interactions Earlier with AI Prototyping",
-          "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-11T17:00:00.000Z",
-          "excerpt": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        },
-        {
-          "title": "AI Can Help Write an Article, but It Can’t Stand Behind It",
-          "url": "https://www.nngroup.com/articles/ai-editorial-process/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-11T17:00:00.000Z",
-          "excerpt": "NN/G uses AI for clarity, formatting, and critique, but humans retain editorial judgment and responsibility for every article.",
-          "source": "Nielsen Norman Group",
-          "category": "Design"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Creative Independent",
@@ -3857,7 +3701,7 @@
       "count": 20,
       "stories": [
         {
-          "title": "A New Generation of Paper Lantern-Makers Inspired by Noguchi",
+          "title": "A New Generation of Paper Lantern–Makers Inspired by Noguchi",
           "url": "http://www.curbed.com/article/noguchi-akari-new-generation-paper-lamp-design.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-11T21:54:50.000Z",
           "excerpt": "75 years since the artist first designed his Akari sculptures, a look at four contemporary design studios experimenting with paper and light.",
@@ -4421,6 +4265,14 @@
       "count": 15,
       "stories": [
         {
+          "title": "Nvidia CEO Jensen Huang’s Situation-Chip is Meme Gold",
+          "url": "https://hyperallergic.com/nvidia-ceo-jensen-huangs-situation-chip-is-meme-gold/",
+          "publishedAt": "2026-11-11T22:26:45.000Z",
+          "excerpt": "The internet is having a field day after the tech mogul confessed to having an affair with a suspected Chinese intelligence spy.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
+        {
           "title": "Art Bros About to Get More Insufferable as Artnet Partners With Kalshi",
           "url": "https://hyperallergic.com/art-bros-about-to-get-more-insufferable-as-artnet-partners-with-kalshi/",
           "publishedAt": "2026-11-11T21:59:14.000Z",
@@ -4529,14 +4381,6 @@
           "url": "https://hyperallergic.com/mrs-gallery-marks-10-years-of-getting-art-collectors-to-queens/",
           "publishedAt": "2026-11-10T21:57:42.000Z",
           "excerpt": "A decade since Sara Maria Salamone and Tyler Lafreniere found their storefront space on Craigslist, the gallery presents a rotating anniversary show that channels its evolving nature.",
-          "source": "Hyperallergic",
-          "category": "Culture"
-        },
-        {
-          "title": "Mexican Duo RojoNegro Installs Colossal Work on UC San Diego Campus",
-          "url": "https://hyperallergic.com/mexican-duo-rojonegro-installs-colossal-work-on-uc-san-diego-campus/",
-          "publishedAt": "2026-11-10T21:46:17.000Z",
-          "excerpt": "María Sosa and Noé Martínez, the Michoacán artists representing Mexico at the Venice Biennale, hand-painted 260 ceramic tiles for the installation.",
           "source": "Hyperallergic",
           "category": "Culture"
         }
@@ -5964,8 +5808,189 @@
       "name": "n+1",
       "category": "Society",
       "kind": "rss",
-      "count": 0,
-      "stories": []
+      "count": 20,
+      "stories": [
+        {
+          "title": "Everybody Moves Leftward",
+          "url": "https://www.nplusonemag.com/online-only/election-special/everybody-moves-leftward/",
+          "publishedAt": "2026-11-06T21:15:54.000Z",
+          "excerpt": "If Democrats have a majority in 2029, they goddamn better go further on democracy reform than the Democrats did in the Biden years. That will mean being aggressive about election subversion, and a national ban on gerrymandering with teeth.",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Right On for the Darkness",
+          "url": "https://www.nplusonemag.com/online-only/online-only/right-on-for-the-darkness/",
+          "publishedAt": "2026-11-06T19:31:19.000Z",
+          "excerpt": "Footage of burning trash cans or school buildings in disarray lose potency when viewed alongside images of the 14-year-old boy who was shot point-blank by a grenade launcher (broken jaw), the sobbing 14-year-old girl in a police chokehold, the 16-year-old who lost an eye to a rubber bullet, or the 1",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Rally for Hallie",
+          "url": "https://www.nplusonemag.com/online-only/election-special/rally-for-hallie/",
+          "publishedAt": "2026-10-30T22:16:01.000Z",
+          "excerpt": "Cotton’s absence on the campaign trail has been a ready target for Shoffner’s jabs. Compared to the tall, glowering Cotton, she’s approachable, more concerned about bread-and-butter issues than about containing Beijing.",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Send Some of These Guys Packing",
+          "url": "https://www.nplusonemag.com/online-only/election-special/send-some-of-these-guys-packing/",
+          "publishedAt": "2026-10-30T19:32:49.000Z",
+          "excerpt": "Jackson is what Platner claimed to be: an imperfect, working-class guy who’s learned—and is still learning—from his mistakes.",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How We Can Build a World for All",
+          "url": "https://www.nplusonemag.com/online-only/events/how-we-can-build-a-world-for-all/",
+          "publishedAt": "2026-10-28T16:41:44.000Z",
+          "excerpt": "Today—amid the second Trump Administration’s lethal military aggression and reckless defunding of international aid—it’s harder than ever to imagine what a just American foreign policy would look like. In A World for All: New Visions of US Foreign Policy (out in November from OR Books), former Berni",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Playing Roulette in the Archives",
+          "url": "https://www.nplusonemag.com/online-only/online-only/playing-roulette-in-the-archives/",
+          "publishedAt": "2026-10-23T15:58:31.000Z",
+          "excerpt": "When Ginzburg first started his research into the witch trials, his hypothesis was that they could be seen as “a crude form of class struggle.” He swiftly found good evidence for his theory—and was disappointed. There must be something wrong, he thought, with a hypothesis that can be demonstrated so",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Blue Power in New York",
+          "url": "https://www.nplusonemag.com/online-only/online-only/blue-power-in-new-york/",
+          "publishedAt": "2026-10-23T15:40:30.000Z",
+          "excerpt": "Colin Vanderburg: To begin, how generalizable are New York’s politics of policing and criminal justice? I think there’s an idea that the NYPD, as the country’s largest police department in the country’s largest city, is somehow archetypal of American policing generally; but obviously New York is qui",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Trump’s Microphones",
+          "url": "https://www.nplusonemag.com/online-only/online-only/trumps-microphones/",
+          "publishedAt": "2026-10-21T15:28:01.000Z",
+          "excerpt": "Trump is alone, photographed from below (presumably by a crouching photographer, though I never see one on the ground) so as to appear more monumental. More often than not, his arms are half-raised at his sides and his palms are up, like he’s fending off the press, rhetorically, with his habitual “W",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Death of the Mind in Sarasota",
+          "url": "https://www.nplusonemag.com/online-only/online-only/death-of-the-mind-in-sarasota/",
+          "publishedAt": "2026-10-13T20:01:48.000Z",
+          "excerpt": "The story of New College of Florida “merits attention . . . if only to record the perseverance of those who, for more than three decades, struggled to overcome numerous and daunting difficulties to help keep the institution alive.” So wrote Furman C. Arthur, the school’s first employee, in his intro",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "EV Listening",
+          "url": "https://www.nplusonemag.com/online-only/online-only/ev-listening/",
+          "publishedAt": "2026-10-05T15:38:39.000Z",
+          "excerpt": "The Honda Prologue has a hovering, suffusing melody, with a low rhythmic pulse and a subtle, epiphanic wash. It sounds like a computer game lifting you into heaven, or the arrival of benevolent extraterrestrial colonists. The Porsche Taycan makes a more sinister and comic, gulping, warp-speed sound,",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Last Week in End Times Cinema",
+          "url": "https://www.nplusonemag.com/online-only/online-only/last-week-in-end-times-cinema-2/",
+          "publishedAt": "2026-10-02T15:30:09.000Z",
+          "excerpt": "After a series of massive concessions by everyone from state attorneys general to the WGA to the great mass of the American people, the Paramount Skydance–Warner Brothers Discovery merger looks to be complete. Eyebrowless scion David Ellison will now be in charge of one of the largest media conglome",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Away Game",
+          "url": "https://www.nplusonemag.com/online-only/gooooaaal/away-game/",
+          "publishedAt": "2026-09-29T14:49:11.000Z",
+          "excerpt": "“I have a Mexican jersey too” Abdoulaye said. “I put it on if my client has a Latino name. Or Colombia. This one,” he said, gesturing to his USMNT jersey, “I wear this one for Americans. It helps with tips.”",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Freedom of the Weasel",
+          "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel/",
+          "publishedAt": "2026-09-22T18:33:59.000Z",
+          "excerpt": "Her great themes were timeless, the stuff of the ancients’ ancients: perception, eternity, travel, the problem of evil. She repudiated Aristotle, denied the primordial split between myth and natural philosophy: Anything could, and would, be likened to everything, in the service of the sentence.",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Municipal Sublime",
+          "url": "https://www.nplusonemag.com/online-only/events/the-municipal-sublime/",
+          "publishedAt": "2026-09-15T19:18:31.000Z",
+          "excerpt": "In a city that treats its architectural highlights—and even some of its mediocrities!—with an ardor that verges on the obsessive, plenty of buildings nonetheless manage to escape collective reverence. A disproportionate number of these buildings happen to belong to the public: community spaces, seni",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Last Year in End Times Cinema",
+          "url": "https://www.nplusonemag.com/online-only/events/last-year-in-end-times-cinema/",
+          "publishedAt": "2026-09-14T15:18:07.000Z",
+          "excerpt": "It’s been nearly a year since n+1 film critic A. S. Hamrah’s book Last Week in End Times Cinema—a study of bad news in the movie industry over the course of 365 days—was published. What’s happened in end times cinema since then? On Thursday, October 1, join us as we investigate. Hamrah will appear i",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Hi-Neighbor! Mayor",
+          "url": "https://www.nplusonemag.com/online-only/online-only/the-hi-neighbor-mayor/",
+          "publishedAt": "2026-09-11T20:21:24.000Z",
+          "excerpt": "When I first met David Morales it was December 2019, and I was standing in David’s ill-lit bachelor apartment as he announced to a small holiday party full of socialists that he intended to run for state representative. I was skeptical. David was young—only 21 at the time—just recently graduated, an",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Laura Kolbe and Patricia Lockwood in conversation",
+          "url": "https://www.nplusonemag.com/online-only/events/laura-kolbe-and-patricia-lockwood-in-conversation/",
+          "publishedAt": "2026-09-10T17:11:11.000Z",
+          "excerpt": "On Saturday, October 10, join us at the n+1 office in Brooklyn for a celebration of two new works of poetry: Laura Kolbe’s The Decadent Movement (out in September from University of Pittsburgh Press) and Patricia Lockwood’s Agate Head/Stone Soup (out in October from Penguin Books). Lockwood and Kolb",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Issue 54 Reading and Celebration",
+          "url": "https://www.nplusonemag.com/online-only/events/issue-54-reading-and-celebration/",
+          "publishedAt": "2026-09-10T16:10:57.000Z",
+          "excerpt": "Please join n+1 at our office in Greenpoint for reading and drinks in celebration of Issue 54: POWER PLAY! Featuring readings by Walker Caplan, Mark Krotov, Leigh Claire La Berge, Maria Marchinkoski, and Colin Vanderburg. Readings will start at 7, followed by a party, and cheap drinks will be for sa",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Billboards of Silicon Valley",
+          "url": "https://www.nplusonemag.com/online-only/online-only/the-billboards-of-silicon-valley/",
+          "publishedAt": "2026-09-04T18:42:43.000Z",
+          "excerpt": "YOUR AI AGENT NEEDS A WORKFLOW ENGINE. The billboard stands by a nondescript stretch of highway somewhere between Redwood City and Mountain View. A boom, likely a bubble, made manifest. A cry of triumphant return. And probably one day, a monument to a bubble bursting. All hype seems destined to furn",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Social and Anti-Social Housing",
+          "url": "https://www.nplusonemag.com/online-only/online-only/social-and-anti-social-housing/",
+          "publishedAt": "2026-09-04T16:23:30.000Z",
+          "excerpt": "We have public housing, but it has never been as well designed, built, or maintained. We have limited-equity co-ops built by limited-dividend companies, but we built far fewer of them, and we allowed some to go private. We have inclusionary zoning, but whereas their model requires two-thirds of the ",
+          "source": "n+1",
+          "category": "Society",
+          "sourceRole": "publisher"
+        }
+      ]
     },
     {
       "name": "Rest of World",
@@ -8174,6 +8199,14 @@
           "category": "Literature"
         },
         {
+          "title": "The brand new Stylus Prize will distribute $750,000 to three literary nonprofits.",
+          "url": "https://lithub.com/the-brand-new-stylus-prize-will-distribute-750000-to-three-literary-nonprofits/",
+          "publishedAt": "2026-11-10T20:11:52.000Z",
+          "excerpt": "Today, the Literary Arts Fund announced the inaugural winners of a new major literary prize: The Stylus Award, which recognizes nonprofits making essential contributions in the literary world. This award is designed to highlight the many literary organizations that keep",
+          "source": "Literary Hub",
+          "category": "Literature"
+        },
+        {
           "title": "Phoebe Waller-Bridge is donating a flat to emerging writers.",
           "url": "https://lithub.com/phoebe-waller-bridge-is-donating-a-flat-to-emerging-writers/",
           "publishedAt": "2026-11-10T18:22:52.000Z",
@@ -8242,14 +8275,6 @@
           "url": "https://lithub.com/karen-olsson-on-writing-about-the-endangered-species-of-south-texas/",
           "publishedAt": "2026-11-10T08:45:04.000Z",
           "excerpt": "Austin-based novelist Karen Olsson’s background as a journalist (as writer-at-large for Texas Monthly and an editor of the late Texas Observer) has enriched her fiction since the beginning of her career. Waterloo, her first novel, offers a sophisticated, perspective on",
-          "source": "Literary Hub",
-          "category": "Literature"
-        },
-        {
-          "title": "Annie Proulx, Dustin Hoffman, Rachel Maddow, and more: 20 new books out today!",
-          "url": "https://lithub.com/annie-proulx-dustin-hoffman-rachel-maddow-and-more-20-new-books-out-today/",
-          "publishedAt": "2026-11-10T08:30:19.000Z",
-          "excerpt": "It’s a month of nonfiction galore: many of our most beloved, prolific, and/or erudite celebrities and talking heads have come out of the woodwork, leaving us with one more composition of history and biography to devour before the end of",
           "source": "Literary Hub",
           "category": "Literature"
         }
@@ -11107,7 +11132,7 @@
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 11,
+      "count": 10,
       "stories": [
         {
           "title": "Apple Support Community to Close",
@@ -11195,15 +11220,6 @@
           "url": "https://www.metafilter.com/215124/Dont-get-on-the-Infinity-Bus",
           "publishedAt": "2026-11-10T22:51:51.000Z",
           "excerpt": "bill wurtz uploads a new video called \"hi.\" In three hours, it's gotten 260K views and over 6,000 comments. It is much fun and uses no \"AI.\"",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
-        },
-        {
-          "title": "Strike that. Reverse it. Thank you.",
-          "url": "https://www.metafilter.com/215123/Strike-that-Reverse-it-Thank-you",
-          "publishedAt": "2026-11-10T22:34:32.000Z",
-          "excerpt": "Jill Bearup explains YouTube's copyright system [YT ~14min.] Bearup is an actor/combatant and author . Her YouTube channel normally focuses on movies, with an emphasis on stage combat. The videos mentioned: My Immortal cover I Learned to Dance in 28 Hours (original version) Collecting Copyright Clai",
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
@@ -11613,6 +11629,30 @@
       "count": 20,
       "stories": [
         {
+          "title": "天氣｜今日大致多雲 日間乾燥約27度 明日稍後有驟雨",
+          "url": "https://hk01.com/sns/article/60409799",
+          "publishedAt": "2026-11-11T22:35:47.000Z",
+          "excerpt": "東北季候風正影響廣東沿岸。天文台預測，本港今日（11月12日）大致多雲。日間部份時間有陽光及乾燥，相對濕度最低約55%，最高氣溫約27度。吹和緩東至東北風，初時離岸風勢清勁。天文台展望，明日（13日）稍後至星期六（14日）初時有驟雨，星期六稍後及星期日（15日）短暫時間有陽光。 圖為截至11月12日清晨6時00分，天文台顯示各區氣溫。（天文台網頁圖片） 下周初較為潮濕 下周中後期迎冷鋒 天文台指出，隨著東北季候風在今日稍為緩和，廣東沿岸氣溫回升。預料高空擾動會在未來一兩日為華南帶來驟雨，局部地區有雷暴。受一股偏東氣流影響，下周初廣東沿岸較為潮濕，部份地區能見度較低。 預料一道冷鋒會在下周中後期",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "李添勝手持拐杖罕現身 「掃街茂」變金牌監製捧紅周潤發梁朝偉",
+          "url": "https://hk01.com/sns/article/60409678",
+          "publishedAt": "2026-11-11T22:30:45.000Z",
+          "excerpt": "無綫長壽綜藝節目《歡樂今宵》（EYT）自1967年啟播，陪伴無數香港人成長。雖然節目於1994年暫告一段落，但一眾台前幕後共事多年、情同家人，至今仍維持每年聚會的傳統。在最新一次的EYT聯歡宴會上，昔日憑經典短劇角色「掃街茂」深入民心的金牌監製李添勝亦罕有露面！ 現年78歲的李添勝（添哥）罕有現身《歡樂今宵》聚會。 （盧振輝攝） 李添勝曾是TVB的金牌監製。（資料圖片） 《巾幗》系列，令黎耀祥、鄧萃雯事業更上一層樓。（資料圖片） 祥仔代表台前幕後送上「黃金監製」祝賀榮休的添哥。（陳嘉欣攝） 貴為天王級的華仔，在無綫拍劇時跟添哥合作無間，打造出《《鹿鼎記》等經典劇集，難怪添哥榮休晚宴上，華仔神秘",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美媒：美商務部長阻撓特朗普打擊英偉達對華出口 憂管制引貿易戰",
+          "url": "https://hk01.com/sns/article/60409811",
+          "publishedAt": "2026-11-11T22:17:24.000Z",
+          "excerpt": "美媒Axios於11月11日（周三）引述消息人士報道，商務部長盧特尼克（Howard Lutnick）一直阻撓特朗普（Donald Trump）及政府其他官員限制涉嫌將英偉達AI晶片轉移至中國公司的舉措，因其擔心管制措施會引發與中國貿易戰。 報道指，至少在5月、8月和11月5日這三個不同的場合，特朗普都批准對涉嫌向中國轉移英偉達晶片的行為採取行動。但盧特尼克和商務部副部長凱斯勒（Jeffrey Kessler）頂住財長貝森特（Scott Bessent）等人的壓力，拒絕採取行動。 2026年3月31日，美國華盛頓特區白宮橢圓辦公室，美國總統特朗普（Donald Trump）在簽署行政命令儀式上",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "內地健身室MMA｜女子亂扔啞鈴惹不滿 男客勸阻無果連揮2拳擊倒地",
           "url": "https://hk01.com/sns/article/60409487",
           "publishedAt": "2026-11-11T22:10:11.000Z",
@@ -11669,30 +11709,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "元華決定離開TVB主因：角色千篇一律 毫無挑戰性",
-          "url": "https://hk01.com/sns/article/60408222",
-          "publishedAt": "2026-11-11T19:00:52.000Z",
-          "excerpt": "",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "烏軍襲俄石油港口起火 俄談判代表指和平協議不可能包括領土交換",
-          "url": "https://hk01.com/sns/article/60409804",
-          "publishedAt": "2026-11-11T18:56:55.000Z",
-          "excerpt": "烏克蘭軍方11月11日（周三）表示，其無人機襲擊俄羅斯波羅的海主要港口烏斯季盧加港，該港口是石油產品運輸的關鍵樞紐。襲擊引發火災，並損壞部份儲罐網絡。 路透社報道，烏克蘭總參謀部在Telegram上表示：「根據初步訊息，無人機襲擊港口石油基礎設施後，儲槽網絡受損最為嚴重。」聲明指出，共有五個儲槽受損。 在烏方進行襲擊的同日，俄羅斯首席談判代表梅金斯基（Vladimir Medinsky）在阿布扎比為期兩天的會談結束後表示，俄羅斯認為任何和平協議中都不可能包含與烏克蘭交換領土的內容。 俄羅斯、美國和烏克蘭三方2026年11月11日在阿聯酋首都阿布扎比舉行第二日會談，美國代表庫什納（左）與威特科夫",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "跨部門油尖掃黃和打擊黑工 突擊搜查多處 31男女被捕",
-          "url": "https://hk01.com/sns/article/60409803",
-          "publishedAt": "2026-11-11T18:22:42.000Z",
-          "excerpt": "警方表示，油尖警區聯同入境處昨日（11日）在區內展開代號「冠軍」的打擊非法勞工及掃黃行動，突擊搜查區內多個地點，共拘捕31人。 執法人員拘捕多人。（警方提供） 行動中，執法人員共拘捕24名內地女子、2名內地男子、3名非華裔男子及2名非華裔女子，年齡介乎21歲至54歲，分別涉嫌「逾期居留」、「違反逗留條件」及「非法勞工」，所有被捕人現正被扣留調查，部份被捕人稍後將交由入境處跟進。 據了解，所有被捕內地男女均持雙程證到港，該3名涉案非華裔男子中，有兩人來自印度，持護照入境，餘下一人來自孟加拉，持「行街紙」留港，該2名涉案非華裔女子分別來自印度和孟加拉，均持本港身份證。 執法人員拘捕多人。（警方提供",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "港珠澳大橋香港段半馬拉松周日舉行 特別交通安排周六起分段實施",
           "url": "https://hk01.com/sns/article/60409792",
           "publishedAt": "2026-11-11T16:37:20.000Z",
@@ -11713,14 +11729,6 @@
           "url": "https://hk01.com/sns/article/60409711",
           "publishedAt": "2026-11-11T14:22:48.000Z",
           "excerpt": "【GTA6／PS5／PlayStation／俠盜獵車手6】全球玩家矚目的遊戲大作《Grand Theft Auto VI》（GTA6／俠盜獵車手6）下周四（19日）推出，網傳近月引起新一輪的炒機熱潮。《香港01》記者今日（11日）到深水埗黃金電腦商場觀察，發現PS5 Pro遊戲主機最貴索價1.2萬元，遠高於官方零售價的6,502元，即高出84.6%。 有商戶解釋，來貨價遠高於官方零售價，因而只能高價出售遊戲主機。也有商戶稱，GTA6公布正式推出後，PS5主機的銷量升兩倍，直至最近銷情逐漸回落，預料售價也將會下降。 深水埗黃金電腦商場一樓有多間商戶出售PS5等遊戲主機。（林曉儀攝） 深水埗黃金電",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "成人展取消｜主辦去年成立老闆做設計倉存生意 上月增三內地股東",
-          "url": "https://hk01.com/sns/article/60409773",
-          "publishedAt": "2026-11-11T14:05:40.000Z",
-          "excerpt": "【成人展／女優／MEGA FANS EXPO／KKDAY／MFE】香港首個大型成人展「MEGA FANS EXPO 2026」原訂於本月13日至15日在富豪機場酒店舉行，有日本AV女優稱遭拒絕入境，活動已取消。 主辦方為在2025年9月成立的「亞洲娛樂集團」，蔡偉森為唯一股東兼董事，為十間公司董事，部份業務為設計、生產及倉存的一條龍生意。記者翻查資料，「香港成人展」新聞稿最早在10月中公布，公司在公布10日後便新增三名內地股東。 香港首個大型成人展原訂於今年11月13日至15日，一連三天於香港富豪機場酒店舉行。 董事為蔡偉森 有設計、生產及倉存生意 香港首個大型成人展「MEGA FANS EX",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11769,6 +11777,14 @@
           "url": "https://hk01.com/sns/article/60409708",
           "publishedAt": "2026-11-11T09:55:39.000Z",
           "excerpt": "香港首個大型成人展「MEGA FANS EXPO 2026」即將於本月13日至15日在富豪機場酒店舉行。然而，在活動前夕卻傳出有參展女優無法順利過關的消息。日本知名女優大槻響（大槻ひびき）今日在社交平台發文，透露自己與團隊在抵達香港後遭到拒絕入境，宣佈原定的香港活動將會取消。 抵港後突遭拒入境 團隊被迫折返日本 根據大槻響在社交平台發文表示，自己已經抵達香港，但其經理人、工作人員以及同行女演員們均全部無法入境。她於文中強調，團隊事前雖已辦理相關簽證，但抵港接受入境審查時最終仍被拒絕入境，不得不返回日本。大槻響對於突如其來的狀況表示震驚，坦言「這種事還是第一次，嚇了一跳」。 大槻響在社交平台發文",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "霍啟山娜然12.12灣仔君悅擺酒結婚 早獲霍家認可有最美坦己之稱",
+          "url": "https://hk01.com/sns/article/60409627",
+          "publishedAt": "2026-11-11T09:52:47.000Z",
+          "excerpt": "已故全國政協副主席霍英東孫兒、現任霍英東集團副主席霍啟山與29歲俄蒙混血女星娜然（Narána Erdynéyeva）近年屢傳好事近。今日（11日）兩人的結婚喜帖正式曝光，確認將於12月12日下午4時半至7時半假香港灣仔君悅酒店宴會大禮堂舉行結婚酒會。隨着二公子成家立室，霍震霆與朱玲玲的三名兒子均已各自組織家庭，為霍家再添喜事。 霍啟山與娜然兩人的結婚喜帖正式曝光。（網上圖片 ） 霍啟山雙十二設宴迎娶娜然 2015年，當時18歲的娜然赴港簽約成為霍啟山入股的模特兒公司旗下藝人，初期二人僅止於工作往來，私下並無太多接觸。2016年10月，娜然受邀擔任周杰倫熱門歌曲〈告白氣球〉的MV女主角，清新甜",
           "source": "香港01",
           "category": "Hong Kong"
         }
@@ -12785,6 +12801,24 @@
   ],
   "stories": [
     {
+      "title": "Lock Your GitHub Actions",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "publishedAt": "2026-11-11T22:16:41.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50459485"
+    },
+    {
+      "title": "Jensen Huang Said to Have Had Relationship with Nvidia Executive",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "publishedAt": "2026-11-11T22:03:58.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50459321"
+    },
+    {
       "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
       "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
       "publishedAt": "2026-11-11T21:24:35.000Z",
@@ -12929,15 +12963,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50454995"
     },
     {
-      "title": "The Computer Graphics Book of Knowledge",
-      "url": "https://www.cs.cmu.edu/~ph/nyit/masson/history.htm",
-      "publishedAt": "2026-11-11T15:50:02.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50454823"
-    },
-    {
       "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
       "url": "https://github.com/FrigadeHQ/yogurt",
       "publishedAt": "2026-11-11T15:33:06.000Z",
@@ -12945,15 +12970,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50454625"
-    },
-    {
-      "title": "Pharo in the Browser with WebAssembly",
-      "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
-      "publishedAt": "2026-11-11T14:21:27.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453763"
     },
     {
       "title": "Atuin Threads: All your agent sessions on every machine",
@@ -13990,10 +14006,21 @@
       "sourceRole": "community"
     },
     {
-      "title": "Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell; their relationship has been discussed inside the company (New York Times)",
+      "title": "Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future (Wall Street Journal)",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=1PYhvY",
+      "publishedAt": "2026-11-11T22:32:14.000Z",
+      "excerpt": "Wall Street Journal : Sources: Nvidia's board is preparing to oust Jensen Huang; it plans to meet as soon as Wednesday to determine his future &nbsp; &mdash;&nbsp; The board is preparing to meet as soon as today to determine his future, people familiar with the matter said.",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261111/p44#a261111p44",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company (New York Times)",
       "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.PlE.QYQK.ExXQ3moeKx-i&smid=nytcore-ios-share",
       "publishedAt": "2026-11-11T22:03:12.000Z",
-      "excerpt": "New York Times : Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell; their relationship has been discussed inside the company &nbsp; &mdash;&nbsp; Mr. Huang, Nvidia's chief executive, is already facing scrutiny over an affair with a Chinese busines",
+      "excerpt": "New York Times : Sources: Jensen Huang had an extramarital relationship with Nvidia's VP of healthcare, Kimberly Powell, who reports to him; it was discussed inside the company &nbsp; &mdash;&nbsp; Mr. Huang, Nvidia's chief executive, is already facing scrutiny over an affair with a Chinese business",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261111/p43#a261111p43",
@@ -14140,17 +14167,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261111/p30#a261111p30",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as \"progressive\" and praising Trump for saying ICE went too far (Politico)",
-      "url": "https://www.politico.com/newsletters/playbook/2026/11/11/the-tech-right-pivots-left-01160648",
-      "publishedAt": "2026-11-11T14:20:57.000Z",
-      "excerpt": "Politico : After the US midterms, Palantir CEO Alex Karp pivots toward Democrats, describing his philosophy as &ldquo;progressive&rdquo; and praising Trump for saying ICE went too far &nbsp; &mdash;&nbsp; With help from Eli Okun, Ali Bianco and Irie Sentner&nbsp; &mdash;&nbsp; Good Wednesday morning",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261111/p29#a261111p29",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14335,6 +14351,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Anthropic is spending $3.4 billion on natural gas turbines to avoid the AI power crisis",
+      "url": "https://www.techradar.com/pro/anthropic-is-spending-usd3-4-billion-on-natural-gas-turbines-to-avoid-the-ai-power-crisis-caterpillar-generators-capable-of-producing-up-to-1-7-gigawatts-of-electricity-could-power-the-next-generation-of-claude",
+      "publishedAt": "2026-11-11T22:20:00.000Z",
+      "excerpt": "Anthropic is investing $3.4 billion in natural gas generators to secure electricity for AI infrastructure amid growing shortages and rising energy costs.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "DJI's new drone could be a literal lifesaver — Matrice 5T features enhanced night vision and 1k thermal imaging, making it perfect for search and rescue",
       "url": "https://www.techradar.com/pro/djis-new-drone-could-be-a-literal-lifesaver-matrice-5t-features-enhanced-night-vision-and-1k-thermal-imaging-making-it-perfect-for-search-and-rescue",
       "publishedAt": "2026-11-11T21:10:00.000Z",
@@ -14501,15 +14526,6 @@
       "url": "https://www.techradar.com/audio/wireless-headphones/get-the-best-headphones-or-earbuds-for-you-with-our-simple-headphone-finder-quiz-all-picked-by-an-audio-editor",
       "publishedAt": "2026-11-11T15:00:00.000Z",
       "excerpt": "I’m TechRadar's audio editor, and I want to take the guesswork out of headphones — just take my quiz to find the perfect set for you, or as a gift for someone",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Cloud hosting firm Railway says recent breach leads to $740,000 in fraudulent AI charges",
-      "url": "https://www.techradar.com/pro/security/cloud-hosting-firm-railway-says-recent-breach-leads-to-usd740-000-in-fraudulent-ai-charges",
-      "publishedAt": "2026-11-11T14:54:03.000Z",
-      "excerpt": "A zero-day in a cloud provider's infrastructure granted attackers access to paid AI models and in a single day they raked up hundreds of thousands in expenses.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15703,166 +15719,6 @@
       "category": "Design"
     },
     {
-      "title": "Agent Harness: Definition",
-      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-11-06T18:00:00.000Z",
-      "excerpt": "An agent harness manages a software loop between an AI model and its tools. Its context, permissions, and limits shape what users can do.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Usability 101: Introduction to Usability",
-      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-11-06T18:00:00.000Z",
-      "excerpt": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "UX Conference January Announced (Jan 19 - Feb 1)",
-      "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-11-06T04:34:21.000Z",
-      "excerpt": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, 2026.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "The Role of UX in Agentic Software Factories",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "excerpt": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Experience Design: Dropping the “User” from “User Experience”",
-      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "excerpt": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "UX Disciplines: Glossary",
-      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "excerpt": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "excerpt": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-16T17:00:00.000Z",
-      "excerpt": "Data from AI-generated respondents pointed to the same conclusion as a survey of 604 humans but contained far fewer distinct answers.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "UX Maps: Glossary",
-      "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-16T17:00:00.000Z",
-      "excerpt": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-      "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-09T17:00:00.000Z",
-      "excerpt": "A useful AI assistant needs relevant personal context, the capability to use it, and an experience that helps users understand its limits.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-      "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-09T17:00:00.000Z",
-      "excerpt": "Claude power users rarely edit their context files and often can’t find them. Your AI agent is only as powerful as its context library.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "excerpt": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
-      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "excerpt": "AI makes building nearly free, so users grow agentic systems piecemeal into fragile messes they no longer understand.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "How AI Works and How Users Think About It: Study Guide",
-      "url": "https://www.nngroup.com/articles/ai-functionality-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-25T17:00:00.000Z",
-      "excerpt": "Unsure where to start? Use this collection of links to our articles and videos to learn about how artificial intelligence works, and how users think about it.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "When Should You Disclose AI Use? The PACED Framework",
-      "url": "https://www.nngroup.com/articles/disclose-ai-paced/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-25T17:00:00.000Z",
-      "excerpt": "How people react to being told that AI helped create a piece of content varies with audience, context, the nature and degree of AI use.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Designing AI Products and Features: Study Guide",
-      "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-18T17:00:00.000Z",
-      "excerpt": "Unsure where to start? Use this collection of links to our articles and videos to learn about recommendations for designing AI products and features.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "The 3 Roles of Context for AI Agents",
-      "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-18T17:00:00.000Z",
-      "excerpt": "AI-agent power users curate 3 kinds of context: global (across tasks), local (task-specific), and ambient (raw streams like email).",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-      "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-16T06:59:19.000Z",
-      "excerpt": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15, 2026.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "Test Complex Interactions Earlier with AI Prototyping",
-      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-11T17:00:00.000Z",
-      "excerpt": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
-      "title": "AI Can Help Write an Article, but It Can’t Stand Behind It",
-      "url": "https://www.nngroup.com/articles/ai-editorial-process/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-09-11T17:00:00.000Z",
-      "excerpt": "NN/G uses AI for clarity, formatting, and critique, but humans retain editorial judgment and responsibility for every article.",
-      "source": "Nielsen Norman Group",
-      "category": "Design"
-    },
-    {
       "title": "Painter Jonathan Ryan on finding a new angle",
       "url": "https://thecreativeindependent.com/people/painter-jonathan-ryan-on-finding-a-new-angle/",
       "publishedAt": "2026-11-11T05:00:00.000Z",
@@ -16443,7 +16299,7 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "A New Generation of Paper Lantern-Makers Inspired by Noguchi",
+      "title": "A New Generation of Paper Lantern–Makers Inspired by Noguchi",
       "url": "http://www.curbed.com/article/noguchi-akari-new-generation-paper-lamp-design.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-11T21:54:50.000Z",
       "excerpt": "75 years since the artist first designed his Akari sculptures, a look at four contemporary design studios experimenting with paper and light.",
@@ -16983,6 +16839,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Nvidia CEO Jensen Huang’s Situation-Chip is Meme Gold",
+      "url": "https://hyperallergic.com/nvidia-ceo-jensen-huangs-situation-chip-is-meme-gold/",
+      "publishedAt": "2026-11-11T22:26:45.000Z",
+      "excerpt": "The internet is having a field day after the tech mogul confessed to having an affair with a suspected Chinese intelligence spy.",
+      "source": "Hyperallergic",
+      "category": "Culture"
+    },
+    {
       "title": "Art Bros About to Get More Insufferable as Artnet Partners With Kalshi",
       "url": "https://hyperallergic.com/art-bros-about-to-get-more-insufferable-as-artnet-partners-with-kalshi/",
       "publishedAt": "2026-11-11T21:59:14.000Z",
@@ -17091,14 +16955,6 @@
       "url": "https://hyperallergic.com/mrs-gallery-marks-10-years-of-getting-art-collectors-to-queens/",
       "publishedAt": "2026-11-10T21:57:42.000Z",
       "excerpt": "A decade since Sara Maria Salamone and Tyler Lafreniere found their storefront space on Craigslist, the gallery presents a rotating anniversary show that channels its evolving nature.",
-      "source": "Hyperallergic",
-      "category": "Culture"
-    },
-    {
-      "title": "Mexican Duo RojoNegro Installs Colossal Work on UC San Diego Campus",
-      "url": "https://hyperallergic.com/mexican-duo-rojonegro-installs-colossal-work-on-uc-san-diego-campus/",
-      "publishedAt": "2026-11-10T21:46:17.000Z",
-      "excerpt": "María Sosa and Noé Martínez, the Michoacán artists representing Mexico at the Venice Biennale, hand-painted 260 ceramic tiles for the installation.",
       "source": "Hyperallergic",
       "category": "Culture"
     },
@@ -18445,6 +18301,186 @@
       "publishedAt": "2026-09-23T13:57:27.000Z",
       "excerpt": "The post Let The People Set The Pace Of Frontier AI appeared first on NOEMA .",
       "source": "Noema",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Everybody Moves Leftward",
+      "url": "https://www.nplusonemag.com/online-only/election-special/everybody-moves-leftward/",
+      "publishedAt": "2026-11-06T21:15:54.000Z",
+      "excerpt": "If Democrats have a majority in 2029, they goddamn better go further on democracy reform than the Democrats did in the Biden years. That will mean being aggressive about election subversion, and a national ban on gerrymandering with teeth.",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Right On for the Darkness",
+      "url": "https://www.nplusonemag.com/online-only/online-only/right-on-for-the-darkness/",
+      "publishedAt": "2026-11-06T19:31:19.000Z",
+      "excerpt": "Footage of burning trash cans or school buildings in disarray lose potency when viewed alongside images of the 14-year-old boy who was shot point-blank by a grenade launcher (broken jaw), the sobbing 14-year-old girl in a police chokehold, the 16-year-old who lost an eye to a rubber bullet, or the 1",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Rally for Hallie",
+      "url": "https://www.nplusonemag.com/online-only/election-special/rally-for-hallie/",
+      "publishedAt": "2026-10-30T22:16:01.000Z",
+      "excerpt": "Cotton’s absence on the campaign trail has been a ready target for Shoffner’s jabs. Compared to the tall, glowering Cotton, she’s approachable, more concerned about bread-and-butter issues than about containing Beijing.",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Send Some of These Guys Packing",
+      "url": "https://www.nplusonemag.com/online-only/election-special/send-some-of-these-guys-packing/",
+      "publishedAt": "2026-10-30T19:32:49.000Z",
+      "excerpt": "Jackson is what Platner claimed to be: an imperfect, working-class guy who’s learned—and is still learning—from his mistakes.",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How We Can Build a World for All",
+      "url": "https://www.nplusonemag.com/online-only/events/how-we-can-build-a-world-for-all/",
+      "publishedAt": "2026-10-28T16:41:44.000Z",
+      "excerpt": "Today—amid the second Trump Administration’s lethal military aggression and reckless defunding of international aid—it’s harder than ever to imagine what a just American foreign policy would look like. In A World for All: New Visions of US Foreign Policy (out in November from OR Books), former Berni",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Playing Roulette in the Archives",
+      "url": "https://www.nplusonemag.com/online-only/online-only/playing-roulette-in-the-archives/",
+      "publishedAt": "2026-10-23T15:58:31.000Z",
+      "excerpt": "When Ginzburg first started his research into the witch trials, his hypothesis was that they could be seen as “a crude form of class struggle.” He swiftly found good evidence for his theory—and was disappointed. There must be something wrong, he thought, with a hypothesis that can be demonstrated so",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Blue Power in New York",
+      "url": "https://www.nplusonemag.com/online-only/online-only/blue-power-in-new-york/",
+      "publishedAt": "2026-10-23T15:40:30.000Z",
+      "excerpt": "Colin Vanderburg: To begin, how generalizable are New York’s politics of policing and criminal justice? I think there’s an idea that the NYPD, as the country’s largest police department in the country’s largest city, is somehow archetypal of American policing generally; but obviously New York is qui",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Trump’s Microphones",
+      "url": "https://www.nplusonemag.com/online-only/online-only/trumps-microphones/",
+      "publishedAt": "2026-10-21T15:28:01.000Z",
+      "excerpt": "Trump is alone, photographed from below (presumably by a crouching photographer, though I never see one on the ground) so as to appear more monumental. More often than not, his arms are half-raised at his sides and his palms are up, like he’s fending off the press, rhetorically, with his habitual “W",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Death of the Mind in Sarasota",
+      "url": "https://www.nplusonemag.com/online-only/online-only/death-of-the-mind-in-sarasota/",
+      "publishedAt": "2026-10-13T20:01:48.000Z",
+      "excerpt": "The story of New College of Florida “merits attention . . . if only to record the perseverance of those who, for more than three decades, struggled to overcome numerous and daunting difficulties to help keep the institution alive.” So wrote Furman C. Arthur, the school’s first employee, in his intro",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "EV Listening",
+      "url": "https://www.nplusonemag.com/online-only/online-only/ev-listening/",
+      "publishedAt": "2026-10-05T15:38:39.000Z",
+      "excerpt": "The Honda Prologue has a hovering, suffusing melody, with a low rhythmic pulse and a subtle, epiphanic wash. It sounds like a computer game lifting you into heaven, or the arrival of benevolent extraterrestrial colonists. The Porsche Taycan makes a more sinister and comic, gulping, warp-speed sound,",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Last Week in End Times Cinema",
+      "url": "https://www.nplusonemag.com/online-only/online-only/last-week-in-end-times-cinema-2/",
+      "publishedAt": "2026-10-02T15:30:09.000Z",
+      "excerpt": "After a series of massive concessions by everyone from state attorneys general to the WGA to the great mass of the American people, the Paramount Skydance–Warner Brothers Discovery merger looks to be complete. Eyebrowless scion David Ellison will now be in charge of one of the largest media conglome",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Away Game",
+      "url": "https://www.nplusonemag.com/online-only/gooooaaal/away-game/",
+      "publishedAt": "2026-09-29T14:49:11.000Z",
+      "excerpt": "“I have a Mexican jersey too” Abdoulaye said. “I put it on if my client has a Latino name. Or Colombia. This one,” he said, gesturing to his USMNT jersey, “I wear this one for Americans. It helps with tips.”",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Freedom of the Weasel",
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel/",
+      "publishedAt": "2026-09-22T18:33:59.000Z",
+      "excerpt": "Her great themes were timeless, the stuff of the ancients’ ancients: perception, eternity, travel, the problem of evil. She repudiated Aristotle, denied the primordial split between myth and natural philosophy: Anything could, and would, be likened to everything, in the service of the sentence.",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Municipal Sublime",
+      "url": "https://www.nplusonemag.com/online-only/events/the-municipal-sublime/",
+      "publishedAt": "2026-09-15T19:18:31.000Z",
+      "excerpt": "In a city that treats its architectural highlights—and even some of its mediocrities!—with an ardor that verges on the obsessive, plenty of buildings nonetheless manage to escape collective reverence. A disproportionate number of these buildings happen to belong to the public: community spaces, seni",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Last Year in End Times Cinema",
+      "url": "https://www.nplusonemag.com/online-only/events/last-year-in-end-times-cinema/",
+      "publishedAt": "2026-09-14T15:18:07.000Z",
+      "excerpt": "It’s been nearly a year since n+1 film critic A. S. Hamrah’s book Last Week in End Times Cinema—a study of bad news in the movie industry over the course of 365 days—was published. What’s happened in end times cinema since then? On Thursday, October 1, join us as we investigate. Hamrah will appear i",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Hi-Neighbor! Mayor",
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-hi-neighbor-mayor/",
+      "publishedAt": "2026-09-11T20:21:24.000Z",
+      "excerpt": "When I first met David Morales it was December 2019, and I was standing in David’s ill-lit bachelor apartment as he announced to a small holiday party full of socialists that he intended to run for state representative. I was skeptical. David was young—only 21 at the time—just recently graduated, an",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Laura Kolbe and Patricia Lockwood in conversation",
+      "url": "https://www.nplusonemag.com/online-only/events/laura-kolbe-and-patricia-lockwood-in-conversation/",
+      "publishedAt": "2026-09-10T17:11:11.000Z",
+      "excerpt": "On Saturday, October 10, join us at the n+1 office in Brooklyn for a celebration of two new works of poetry: Laura Kolbe’s The Decadent Movement (out in September from University of Pittsburgh Press) and Patricia Lockwood’s Agate Head/Stone Soup (out in October from Penguin Books). Lockwood and Kolb",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Issue 54 Reading and Celebration",
+      "url": "https://www.nplusonemag.com/online-only/events/issue-54-reading-and-celebration/",
+      "publishedAt": "2026-09-10T16:10:57.000Z",
+      "excerpt": "Please join n+1 at our office in Greenpoint for reading and drinks in celebration of Issue 54: POWER PLAY! Featuring readings by Walker Caplan, Mark Krotov, Leigh Claire La Berge, Maria Marchinkoski, and Colin Vanderburg. Readings will start at 7, followed by a party, and cheap drinks will be for sa",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Billboards of Silicon Valley",
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-billboards-of-silicon-valley/",
+      "publishedAt": "2026-09-04T18:42:43.000Z",
+      "excerpt": "YOUR AI AGENT NEEDS A WORKFLOW ENGINE. The billboard stands by a nondescript stretch of highway somewhere between Redwood City and Mountain View. A boom, likely a bubble, made manifest. A cry of triumphant return. And probably one day, a monument to a bubble bursting. All hype seems destined to furn",
+      "source": "n+1",
+      "category": "Society",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Social and Anti-Social Housing",
+      "url": "https://www.nplusonemag.com/online-only/online-only/social-and-anti-social-housing/",
+      "publishedAt": "2026-09-04T16:23:30.000Z",
+      "excerpt": "We have public housing, but it has never been as well designed, built, or maintained. We have limited-equity co-ops built by limited-dividend companies, but we built far fewer of them, and we allowed some to go private. We have inclusionary zoning, but whereas their model requires two-thirds of the ",
+      "source": "n+1",
       "category": "Society",
       "sourceRole": "publisher"
     },
@@ -20545,6 +20581,14 @@
       "category": "Literature"
     },
     {
+      "title": "The brand new Stylus Prize will distribute $750,000 to three literary nonprofits.",
+      "url": "https://lithub.com/the-brand-new-stylus-prize-will-distribute-750000-to-three-literary-nonprofits/",
+      "publishedAt": "2026-11-10T20:11:52.000Z",
+      "excerpt": "Today, the Literary Arts Fund announced the inaugural winners of a new major literary prize: The Stylus Award, which recognizes nonprofits making essential contributions in the literary world. This award is designed to highlight the many literary organizations that keep",
+      "source": "Literary Hub",
+      "category": "Literature"
+    },
+    {
       "title": "Phoebe Waller-Bridge is donating a flat to emerging writers.",
       "url": "https://lithub.com/phoebe-waller-bridge-is-donating-a-flat-to-emerging-writers/",
       "publishedAt": "2026-11-10T18:22:52.000Z",
@@ -20613,14 +20657,6 @@
       "url": "https://lithub.com/karen-olsson-on-writing-about-the-endangered-species-of-south-texas/",
       "publishedAt": "2026-11-10T08:45:04.000Z",
       "excerpt": "Austin-based novelist Karen Olsson’s background as a journalist (as writer-at-large for Texas Monthly and an editor of the late Texas Observer) has enriched her fiction since the beginning of her career. Waterloo, her first novel, offers a sophisticated, perspective on",
-      "source": "Literary Hub",
-      "category": "Literature"
-    },
-    {
-      "title": "Annie Proulx, Dustin Hoffman, Rachel Maddow, and more: 20 new books out today!",
-      "url": "https://lithub.com/annie-proulx-dustin-hoffman-rachel-maddow-and-more-20-new-books-out-today/",
-      "publishedAt": "2026-11-10T08:30:19.000Z",
-      "excerpt": "It’s a month of nonfiction galore: many of our most beloved, prolific, and/or erudite celebrities and talking heads have come out of the woodwork, leaving us with one more composition of history and biography to devour before the end of",
       "source": "Literary Hub",
       "category": "Literature"
     },
@@ -23435,15 +23471,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "Strike that. Reverse it. Thank you.",
-      "url": "https://www.metafilter.com/215123/Strike-that-Reverse-it-Thank-you",
-      "publishedAt": "2026-11-10T22:34:32.000Z",
-      "excerpt": "Jill Bearup explains YouTube's copyright system [YT ~14min.] Bearup is an actor/combatant and author . Her YouTube channel normally focuses on movies, with an emphasis on stage combat. The videos mentioned: My Immortal cover I Learned to Dance in 28 Hours (original version) Collecting Copyright Clai",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "How a Metabolic Spark Could Have Jump-Started Life",
       "url": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
       "publishedAt": "2026-11-11T15:10:30.000Z",
@@ -23824,6 +23851,30 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "天氣｜今日大致多雲 日間乾燥約27度 明日稍後有驟雨",
+      "url": "https://hk01.com/sns/article/60409799",
+      "publishedAt": "2026-11-11T22:35:47.000Z",
+      "excerpt": "東北季候風正影響廣東沿岸。天文台預測，本港今日（11月12日）大致多雲。日間部份時間有陽光及乾燥，相對濕度最低約55%，最高氣溫約27度。吹和緩東至東北風，初時離岸風勢清勁。天文台展望，明日（13日）稍後至星期六（14日）初時有驟雨，星期六稍後及星期日（15日）短暫時間有陽光。 圖為截至11月12日清晨6時00分，天文台顯示各區氣溫。（天文台網頁圖片） 下周初較為潮濕 下周中後期迎冷鋒 天文台指出，隨著東北季候風在今日稍為緩和，廣東沿岸氣溫回升。預料高空擾動會在未來一兩日為華南帶來驟雨，局部地區有雷暴。受一股偏東氣流影響，下周初廣東沿岸較為潮濕，部份地區能見度較低。 預料一道冷鋒會在下周中後期",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "李添勝手持拐杖罕現身 「掃街茂」變金牌監製捧紅周潤發梁朝偉",
+      "url": "https://hk01.com/sns/article/60409678",
+      "publishedAt": "2026-11-11T22:30:45.000Z",
+      "excerpt": "無綫長壽綜藝節目《歡樂今宵》（EYT）自1967年啟播，陪伴無數香港人成長。雖然節目於1994年暫告一段落，但一眾台前幕後共事多年、情同家人，至今仍維持每年聚會的傳統。在最新一次的EYT聯歡宴會上，昔日憑經典短劇角色「掃街茂」深入民心的金牌監製李添勝亦罕有露面！ 現年78歲的李添勝（添哥）罕有現身《歡樂今宵》聚會。 （盧振輝攝） 李添勝曾是TVB的金牌監製。（資料圖片） 《巾幗》系列，令黎耀祥、鄧萃雯事業更上一層樓。（資料圖片） 祥仔代表台前幕後送上「黃金監製」祝賀榮休的添哥。（陳嘉欣攝） 貴為天王級的華仔，在無綫拍劇時跟添哥合作無間，打造出《《鹿鼎記》等經典劇集，難怪添哥榮休晚宴上，華仔神秘",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美媒：美商務部長阻撓特朗普打擊英偉達對華出口 憂管制引貿易戰",
+      "url": "https://hk01.com/sns/article/60409811",
+      "publishedAt": "2026-11-11T22:17:24.000Z",
+      "excerpt": "美媒Axios於11月11日（周三）引述消息人士報道，商務部長盧特尼克（Howard Lutnick）一直阻撓特朗普（Donald Trump）及政府其他官員限制涉嫌將英偉達AI晶片轉移至中國公司的舉措，因其擔心管制措施會引發與中國貿易戰。 報道指，至少在5月、8月和11月5日這三個不同的場合，特朗普都批准對涉嫌向中國轉移英偉達晶片的行為採取行動。但盧特尼克和商務部副部長凱斯勒（Jeffrey Kessler）頂住財長貝森特（Scott Bessent）等人的壓力，拒絕採取行動。 2026年3月31日，美國華盛頓特區白宮橢圓辦公室，美國總統特朗普（Donald Trump）在簽署行政命令儀式上",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "內地健身室MMA｜女子亂扔啞鈴惹不滿 男客勸阻無果連揮2拳擊倒地",
       "url": "https://hk01.com/sns/article/60409487",
       "publishedAt": "2026-11-11T22:10:11.000Z",
@@ -23880,30 +23931,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "元華決定離開TVB主因：角色千篇一律 毫無挑戰性",
-      "url": "https://hk01.com/sns/article/60408222",
-      "publishedAt": "2026-11-11T19:00:52.000Z",
-      "excerpt": "",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "烏軍襲俄石油港口起火 俄談判代表指和平協議不可能包括領土交換",
-      "url": "https://hk01.com/sns/article/60409804",
-      "publishedAt": "2026-11-11T18:56:55.000Z",
-      "excerpt": "烏克蘭軍方11月11日（周三）表示，其無人機襲擊俄羅斯波羅的海主要港口烏斯季盧加港，該港口是石油產品運輸的關鍵樞紐。襲擊引發火災，並損壞部份儲罐網絡。 路透社報道，烏克蘭總參謀部在Telegram上表示：「根據初步訊息，無人機襲擊港口石油基礎設施後，儲槽網絡受損最為嚴重。」聲明指出，共有五個儲槽受損。 在烏方進行襲擊的同日，俄羅斯首席談判代表梅金斯基（Vladimir Medinsky）在阿布扎比為期兩天的會談結束後表示，俄羅斯認為任何和平協議中都不可能包含與烏克蘭交換領土的內容。 俄羅斯、美國和烏克蘭三方2026年11月11日在阿聯酋首都阿布扎比舉行第二日會談，美國代表庫什納（左）與威特科夫",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "跨部門油尖掃黃和打擊黑工 突擊搜查多處 31男女被捕",
-      "url": "https://hk01.com/sns/article/60409803",
-      "publishedAt": "2026-11-11T18:22:42.000Z",
-      "excerpt": "警方表示，油尖警區聯同入境處昨日（11日）在區內展開代號「冠軍」的打擊非法勞工及掃黃行動，突擊搜查區內多個地點，共拘捕31人。 執法人員拘捕多人。（警方提供） 行動中，執法人員共拘捕24名內地女子、2名內地男子、3名非華裔男子及2名非華裔女子，年齡介乎21歲至54歲，分別涉嫌「逾期居留」、「違反逗留條件」及「非法勞工」，所有被捕人現正被扣留調查，部份被捕人稍後將交由入境處跟進。 據了解，所有被捕內地男女均持雙程證到港，該3名涉案非華裔男子中，有兩人來自印度，持護照入境，餘下一人來自孟加拉，持「行街紙」留港，該2名涉案非華裔女子分別來自印度和孟加拉，均持本港身份證。 執法人員拘捕多人。（警方提供",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "港珠澳大橋香港段半馬拉松周日舉行 特別交通安排周六起分段實施",
       "url": "https://hk01.com/sns/article/60409792",
       "publishedAt": "2026-11-11T16:37:20.000Z",
@@ -23924,14 +23951,6 @@
       "url": "https://hk01.com/sns/article/60409711",
       "publishedAt": "2026-11-11T14:22:48.000Z",
       "excerpt": "【GTA6／PS5／PlayStation／俠盜獵車手6】全球玩家矚目的遊戲大作《Grand Theft Auto VI》（GTA6／俠盜獵車手6）下周四（19日）推出，網傳近月引起新一輪的炒機熱潮。《香港01》記者今日（11日）到深水埗黃金電腦商場觀察，發現PS5 Pro遊戲主機最貴索價1.2萬元，遠高於官方零售價的6,502元，即高出84.6%。 有商戶解釋，來貨價遠高於官方零售價，因而只能高價出售遊戲主機。也有商戶稱，GTA6公布正式推出後，PS5主機的銷量升兩倍，直至最近銷情逐漸回落，預料售價也將會下降。 深水埗黃金電腦商場一樓有多間商戶出售PS5等遊戲主機。（林曉儀攝） 深水埗黃金電",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "成人展取消｜主辦去年成立老闆做設計倉存生意 上月增三內地股東",
-      "url": "https://hk01.com/sns/article/60409773",
-      "publishedAt": "2026-11-11T14:05:40.000Z",
-      "excerpt": "【成人展／女優／MEGA FANS EXPO／KKDAY／MFE】香港首個大型成人展「MEGA FANS EXPO 2026」原訂於本月13日至15日在富豪機場酒店舉行，有日本AV女優稱遭拒絕入境，活動已取消。 主辦方為在2025年9月成立的「亞洲娛樂集團」，蔡偉森為唯一股東兼董事，為十間公司董事，部份業務為設計、生產及倉存的一條龍生意。記者翻查資料，「香港成人展」新聞稿最早在10月中公布，公司在公布10日後便新增三名內地股東。 香港首個大型成人展原訂於今年11月13日至15日，一連三天於香港富豪機場酒店舉行。 董事為蔡偉森 有設計、生產及倉存生意 香港首個大型成人展「MEGA FANS EX",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -23980,6 +23999,14 @@
       "url": "https://hk01.com/sns/article/60409708",
       "publishedAt": "2026-11-11T09:55:39.000Z",
       "excerpt": "香港首個大型成人展「MEGA FANS EXPO 2026」即將於本月13日至15日在富豪機場酒店舉行。然而，在活動前夕卻傳出有參展女優無法順利過關的消息。日本知名女優大槻響（大槻ひびき）今日在社交平台發文，透露自己與團隊在抵達香港後遭到拒絕入境，宣佈原定的香港活動將會取消。 抵港後突遭拒入境 團隊被迫折返日本 根據大槻響在社交平台發文表示，自己已經抵達香港，但其經理人、工作人員以及同行女演員們均全部無法入境。她於文中強調，團隊事前雖已辦理相關簽證，但抵港接受入境審查時最終仍被拒絕入境，不得不返回日本。大槻響對於突如其來的狀況表示震驚，坦言「這種事還是第一次，嚇了一跳」。 大槻響在社交平台發文",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "霍啟山娜然12.12灣仔君悅擺酒結婚 早獲霍家認可有最美坦己之稱",
+      "url": "https://hk01.com/sns/article/60409627",
+      "publishedAt": "2026-11-11T09:52:47.000Z",
+      "excerpt": "已故全國政協副主席霍英東孫兒、現任霍英東集團副主席霍啟山與29歲俄蒙混血女星娜然（Narána Erdynéyeva）近年屢傳好事近。今日（11日）兩人的結婚喜帖正式曝光，確認將於12月12日下午4時半至7時半假香港灣仔君悅酒店宴會大禮堂舉行結婚酒會。隨着二公子成家立室，霍震霆與朱玲玲的三名兒子均已各自組織家庭，為霍家再添喜事。 霍啟山與娜然兩人的結婚喜帖正式曝光。（網上圖片 ） 霍啟山雙十二設宴迎娶娜然 2015年，當時18歲的娜然赴港簽約成為霍啟山入股的模特兒公司旗下藝人，初期二人僅止於工作往來，私下並無太多接觸。2016年10月，娜然受邀擔任周杰倫熱門歌曲〈告白氣球〉的MV女主角，清新甜",
       "source": "香港01",
       "category": "Hong Kong"
     },

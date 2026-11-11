@@ -2,199 +2,23 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-12",
-  "generatedAt": "2026-11-11T19:17:12.662Z",
-  "collectedAt": "2026-11-11T19:17:12.662Z",
+  "generatedAt": "2026-11-11T20:17:11.051Z",
+  "collectedAt": "2026-11-11T20:17:11.051Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
       "category": "Technology",
       "kind": "hackernews",
-      "count": 20,
-      "stories": [
-        {
-          "title": "AWS Emulator and the engineer's job when agents write the code",
-          "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-          "publishedAt": "2026-11-11T18:28:31.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50456740"
-        },
-        {
-          "title": "AWS Finally Built Its Own AWS Emulator",
-          "url": "https://github.com/aws/aws-emulator",
-          "publishedAt": "2026-11-11T18:21:38.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50456631"
-        },
-        {
-          "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
-          "url": "https://pomerado.ai/",
-          "publishedAt": "2026-11-11T17:11:56.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50455811"
-        },
-        {
-          "title": "Faster Retrieval for Better, More Efficient RAG",
-          "url": "https://machinelearning.apple.com/research/faster-retrieval",
-          "publishedAt": "2026-11-11T16:57:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50455633"
-        },
-        {
-          "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
-          "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
-          "publishedAt": "2026-11-11T16:38:44.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50455394"
-        },
-        {
-          "title": "AI, activity, and outcomes in software engineering",
-          "url": "https://cabird.com/talks/shipping-faster/",
-          "publishedAt": "2026-11-11T16:33:28.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50455332"
-        },
-        {
-          "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
-          "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
-          "publishedAt": "2026-11-11T16:08:14.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50455031"
-        },
-        {
-          "title": "The hardest notes to find on the guitar fretboard",
-          "url": "https://www.gitori.com/blog/articles/hardest-notes-on-the-guitar-fretboard",
-          "publishedAt": "2026-11-11T16:05:18.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50454995"
-        },
-        {
-          "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
-          "url": "https://github.com/klad-app/klad",
-          "publishedAt": "2026-11-11T16:00:50.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50454951"
-        },
-        {
-          "title": "The Computer Graphics Book of Knowledge",
-          "url": "https://www.cs.cmu.edu/~ph/nyit/masson/history.htm",
-          "publishedAt": "2026-11-11T15:50:02.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50454823"
-        },
-        {
-          "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-          "url": "https://github.com/FrigadeHQ/yogurt",
-          "publishedAt": "2026-11-11T15:33:06.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50454625"
-        },
-        {
-          "title": "Pharo in the Browser with WebAssembly",
-          "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
-          "publishedAt": "2026-11-11T14:21:27.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453763"
-        },
-        {
-          "title": "Atuin Threads: All your agent sessions on every machine",
-          "url": "https://blog.atuin.sh/threads-agent-sessions/",
-          "publishedAt": "2026-11-11T14:10:46.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453637"
-        },
-        {
-          "title": "Apple is killing its Support Community forum next week",
-          "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
-          "publishedAt": "2026-11-11T14:02:11.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453555"
-        },
-        {
-          "title": "I asked every TV manufacturer 17 questions about how they spy on you",
-          "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
-          "publishedAt": "2026-11-11T13:56:05.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453474"
-        },
-        {
-          "title": "Hyper-Realistic Sand with WebGL2",
-          "url": "https://av.github.io/safe-sand/",
-          "publishedAt": "2026-11-11T13:39:29.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453288"
-        },
-        {
-          "title": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
-          "url": "https://github.com/0xdeadf1sh/AssemblyForNeovim",
-          "publishedAt": "2026-11-11T13:34:24.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453229"
-        },
-        {
-          "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
-          "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
-          "publishedAt": "2026-11-11T13:29:46.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453171"
-        },
-        {
-          "title": "EventSourcingDB 1.3.0 Is Available",
-          "url": "https://www.eventfoundation.io/resources/blog/eventsourcingdb-1-3-0-is-available",
-          "publishedAt": "2026-11-11T13:19:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50453080"
-        },
-        {
-          "title": "Can a Linear Program Do Weight-Space Programming?",
-          "url": "https://nathan.rs/posts/weight-space-lp/",
-          "publishedAt": "2026-11-11T12:30:17.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50452655"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "The Verge",
@@ -371,6 +195,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+          "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+          "publishedAt": "2026-11-11T19:55:54.000Z",
+          "excerpt": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
           "title": "The 22 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
           "url": "https://www.wired.com/story/best-black-friday-deals-11-11-2026/",
           "publishedAt": "2026-11-11T17:08:14.000Z",
@@ -521,14 +353,6 @@
           "excerpt": "The new Mini Mini holds 12 cans and fits on a countertop. And if you buy a full-sized Rocco fridge, you can take $50 off the little one.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "4DX Movies Are Entering Their Thirsty Romance Era",
-          "url": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "excerpt": "From Heated Rivalry to Wicker, the movie format that embraces thrusting chairs and splashing the crowd is catering to those who want a horny communal theatergoing experience.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ]
     },
@@ -539,10 +363,34 @@
       "count": 20,
       "stories": [
         {
+          "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
+          "url": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
+          "publishedAt": "2026-11-11T19:00:26.000Z",
+          "excerpt": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
+          "source": "Ars Technica",
+          "category": "Technology"
+        },
+        {
+          "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+          "publishedAt": "2026-11-11T18:16:40.000Z",
+          "excerpt": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+          "source": "Ars Technica",
+          "category": "Technology"
+        },
+        {
+          "title": "Trump admin loses fight to spy on random journalists’ LinkedIn DMs",
+          "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+          "publishedAt": "2026-11-11T18:05:26.000Z",
+          "excerpt": "Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.",
+          "source": "Ars Technica",
+          "category": "Technology"
+        },
+        {
           "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
           "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
           "publishedAt": "2026-11-11T17:37:32.000Z",
-          "excerpt": "Any amount of AI coding is too much for many Indie Game Festival judges.",
+          "excerpt": "Any amount of AI coding is too much for many Independent Games Festival judges.",
           "source": "Ars Technica",
           "category": "Technology"
         },
@@ -671,30 +519,6 @@
           "url": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
           "publishedAt": "2026-11-10T16:17:51.000Z",
           "excerpt": "\"NASA advised that Vast’s submission in some locations substituted 'the PAM Provider' for Axiom\"",
-          "source": "Ars Technica",
-          "category": "Technology"
-        },
-        {
-          "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-          "publishedAt": "2026-11-10T15:00:39.000Z",
-          "excerpt": "The new model is up to twice as successful at some tasks.",
-          "source": "Ars Technica",
-          "category": "Technology"
-        },
-        {
-          "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
-          "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
-          "publishedAt": "2026-11-10T14:53:05.000Z",
-          "excerpt": "Huang faces a board probe as investors fret over Nvidia’s lack of a clear successor.",
-          "source": "Ars Technica",
-          "category": "Technology"
-        },
-        {
-          "title": "FDA warns GLP-1 drugs may pose risk of rare condition that causes vision loss",
-          "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-may-increase-risk-of-vision-loss-from-rare-condition-fda-warns/",
-          "publishedAt": "2026-11-10T14:43:49.000Z",
-          "excerpt": "The risk appears small and data is mixed, but FDA wants patients to be aware.",
           "source": "Ars Technica",
           "category": "Technology"
         }
@@ -875,6 +699,54 @@
       "count": 20,
       "stories": [
         {
+          "title": "Why the data center you dread might never even be built",
+          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+          "publishedAt": "2026-11-11T20:15:15.000Z",
+          "excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "Meta is losing its longtime head of infrastructure",
+          "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+          "publishedAt": "2026-11-11T20:12:01.000Z",
+          "excerpt": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
+          "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+          "publishedAt": "2026-11-11T20:04:28.000Z",
+          "excerpt": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that difficult doesn't mean impossible.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+          "publishedAt": "2026-11-11T19:54:00.000Z",
+          "excerpt": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "publishedAt": "2026-11-11T19:34:55.000Z",
+          "excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+          "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+          "publishedAt": "2026-11-11T19:22:22.000Z",
+          "excerpt": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
           "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
           "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
           "publishedAt": "2026-11-11T16:16:07.000Z",
@@ -985,54 +857,6 @@
           "excerpt": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-          "publishedAt": "2026-11-10T18:49:52.000Z",
-          "excerpt": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Pixel Tag, Google’s $30 Android-ready answer to Apple’s AirTag, is now available",
-          "url": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/",
-          "publishedAt": "2026-11-10T18:49:19.000Z",
-          "excerpt": "Google's Pixel Tag lets you track lost items with your Android device, similar to Apple's AirTag.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-          "publishedAt": "2026-11-10T17:30:00.000Z",
-          "excerpt": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-          "publishedAt": "2026-11-10T17:04:19.000Z",
-          "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Sundrop turns your endless baby photos into recaps, time lapses, and more — without AI",
-          "url": "https://techcrunch.com/2026/11/10/sundrop-turns-your-endless-baby-photos-into-recaps-time-lapses-and-more-without-ai/",
-          "publishedAt": "2026-11-10T16:50:38.000Z",
-          "excerpt": "Sundrop is a new iPhone app that uses Apple's on-device AI to help parents rediscover their favorite photos and create keepsakes without uploading images to the cloud.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "Apple TV makes sign language interpretation a built-in accessibility feature",
-          "url": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
-          "publishedAt": "2026-11-10T16:00:00.000Z",
-          "excerpt": "Apple TV's new accessibility feature lets viewers turn on sign language interpretation within supported titles.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ]
     },
@@ -1042,6 +866,24 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "For Singles Day, World explains why real is the new attractive",
+          "url": "https://thenextweb.com/news/singles-day-world-proof-of-human-dating",
+          "publishedAt": "2026-11-11T19:41:32.000Z",
+          "excerpt": "New Harris Poll research on behalf of World finds that 81% of singles would be more likely to use a dating app if every profile were confirmed as a real person. As millions of singles celebrate Singles Day on November 11, the biggest question in online dating is no longer “are we compatible?” but “a",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "London’s Fractile raises $720M for memory-first AI chips and hits $7B valuation",
+          "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips",
+          "publishedAt": "2026-11-11T19:31:35.000Z",
+          "excerpt": "London-based chip designer Fractile has raised $720 million in a Series C round, betting that memory bandwidth, rather than raw computing power, is the main constraint holding back AI performance. The funding values the four-year-old company at $7 billion, according to the Financial Times, which cit",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "ElevenLabs moves beyond voice with custom models and a work app",
           "url": "https://thenextweb.com/news/elevenlabs-summit-nyc-elevenai-custom-models-partner-program",
@@ -1113,24 +955,6 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Meta’s infrastructure chief Santosh Janardhan to step down in 2027",
-          "url": "https://thenextweb.com/news/meta-infrastructure-chief-santosh-janardhan-steps-down",
-          "publishedAt": "2026-11-11T16:49:42.000Z",
-          "excerpt": "Santosh Janardhan, who has run Meta’s infrastructure for years, will step down in early 2027, Bloomberg reported. Dave Brown, who joined from AWS this year, will take over as Meta spends up to $145B this year, mostly on AI. Santosh Janardhan, Meta’s head of infrastructure and co-head of engineering,",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Patti Schutte says AI is giving sales teams more data and worse results",
-          "url": "https://thenextweb.com/news/patti-schutte-ai-sales-teams-more-data-worse-results",
-          "publishedAt": "2026-11-11T16:48:36.000Z",
-          "excerpt": "Most people know the difference between reciting a fact and truly understanding it. In sales organizations today, that gap is costing companies their most promising deals. Patti Schutte has spent the past year listening to recorded sales calls across the enterprise teams she coaches. She keeps heari",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1140,6 +964,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Ukraine Strikes Cause Permanent Data Loss at Russia's Yandex Cloud",
+          "url": "https://hardware.slashdot.org/story/26/11/11/1950231/ukraine-strikes-cause-permanent-data-loss-at-russias-yandex-cloud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-11T20:00:00.000Z",
+          "excerpt": "Russia's Yandex says 2.84% of customer data has been permanently lost following Ukrainian strikes on data centers in the country. \"According to the company, recovery is impossible because of critical damage to equipment and the lack of backup copies on the platform,\" reports UNITED24 Media. From the",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Court Says Trump Can't Use Leaks To Justify Spying On Journalists' LinkedIn DMs",
           "url": "https://yro.slashdot.org/story/26/11/11/1822204/court-says-trump-cant-use-leaks-to-justify-spying-on-journalists-linkedin-dms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1265,15 +1098,6 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Reddit Is Turning User Conversations Into AI-Powered Product Reviews",
-          "url": "https://tech.slashdot.org/story/26/11/10/1654224/reddit-is-turning-user-conversations-into-ai-powered-product-reviews?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-10T17:00:00.000Z",
-          "excerpt": "Reddit is rolling out an AI-powered shopping feature called \"Reddit Reviews\" that summarizes user conversations about products and turns them into dedicated reviews. TechCrunch reports: Reddit's announcement points to its rules and its latest measures to combat automated abuse and spam, as well as i",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ]
     },
@@ -1317,10 +1141,10 @@
           "discoveryChannel": "curator:Techmeme"
         },
         {
-          "title": "IBM announces the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex problems (Kyt Dotson/SiliconANGLE)",
+          "title": "IBM unveils the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex computations (Kyt Dotson/SiliconANGLE)",
           "url": "https://siliconangle.com/2026/11/11/ibm-quantum-announces-upcoming-nighthawk-r3-processor-designed-to-execute-10000-operations/",
           "publishedAt": "2026-11-11T17:40:01.000Z",
-          "excerpt": "Kyt Dotson / SiliconANGLE : IBM announces the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex problems &nbsp; &mdash;&nbsp; IBM Corp. today announced the Quantum Nighthawk r3, its next-generation processor designed t",
+          "excerpt": "Kyt Dotson / SiliconANGLE : IBM unveils the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex computations &nbsp; &mdash;&nbsp; IBM Corp. today announced the Quantum Nighthawk r3, its next-generation processor designed",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261111/p37#a261111p37",
@@ -1361,10 +1185,10 @@
           "discoveryChannel": "curator:Techmeme"
         },
         {
-          "title": "Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform optimized for AI agents, emerges from stealth with $70M across Series A and seed (Tim Keary/Forbes)",
+          "title": "Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform designed for AI agents, emerges from stealth with $70M across a Series A and a seed (Tim Keary/Forbes)",
           "url": "https://www.forbes.com/sites/timkeary/2026/11/11/edelbyte-raises-70-million-to-bring-big-data-analytics-to-ai-agents/",
           "publishedAt": "2026-11-11T15:21:00.000Z",
-          "excerpt": "Tim Keary / Forbes : Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform optimized for AI agents, emerges from stealth with $70M across Series A and seed &nbsp; &mdash;&nbsp; This voice experience is generated by AI.&nbsp; Learn more. &hellip; Big data analytics is being rei",
+          "excerpt": "Tim Keary / Forbes : Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform designed for AI agents, emerges from stealth with $70M across a Series A and a seed &nbsp; &mdash;&nbsp; This voice experience is generated by AI.&nbsp; Learn more. &hellip; Big data analytics is being ",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261111/p33#a261111p33",
@@ -1456,6 +1280,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Google brings the Gemini app to Apple CarPlay",
+          "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
+          "publishedAt": "2026-11-11T19:54:55.000Z",
+          "excerpt": "The chatbot was already available through the Google Maps app.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "ByteDance is reportedly working on its own AI agent",
+          "url": "https://www.engadget.com/2314064/bytedance-is-reportedly-working-on-its-own-ai-agent/",
+          "publishedAt": "2026-11-11T19:42:19.000Z",
+          "excerpt": "The Chinese company wants to compete with Meta's Muse.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How many SpaceX Starship rocket tests have failed?",
+          "url": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+          "publishedAt": "2026-11-11T19:27:00.000Z",
+          "excerpt": "Thanks to SpaceX's unique approach to testing, the answer isn't so clear-cut.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Cash App founder's killer gets 16 years to life in prison",
           "url": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
@@ -1608,33 +1459,6 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Meta warns some of its AI glasses may get 'too warm' if they get wet",
-          "url": "https://www.engadget.com/2312864/meta-warns-some-of-its-ai-glasses-may-get-too-warm-if-they-get-wet/",
-          "publishedAt": "2026-11-10T22:05:37.000Z",
-          "excerpt": "A software update will tell users if they're affected and direct them to Meta's customer support for a full replacement.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Disney+ app on Meta Quest now includes 3D movies",
-          "url": "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies/",
-          "publishedAt": "2026-11-10T22:00:00.000Z",
-          "excerpt": "Meta is starting to sell 3D films too.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "What is the 'Dead Internet Theory' and should humanity be worried?",
-          "url": "https://www.engadget.com/2307790/what-is-dead-internet-theory/",
-          "publishedAt": "2026-11-10T21:00:00.000Z",
-          "excerpt": "As AI-generated content takes over the internet, will human beings still be able to connect online with other humans in a meaningful way?",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1644,6 +1468,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Google Fitbit Edge review: The Fitbit we loved, now in its Google era",
+          "url": "https://www.techradar.com/health-fitness/fitness-trackers/google-fitbit-edge-review-the-fitbit-we-loved-now-in-its-google-era",
+          "publishedAt": "2026-11-11T20:04:41.000Z",
+          "excerpt": "The Google Fitbit Edge is a perfectly competent but largely unexciting fitness tracker, bolstered by automatic activity smarts.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "SpaceX plans massive $24 billion gas-powered Texas data center — application for 35 natural gas turbines and a capacity of 748 megawatts comes despite rising opposition in the state",
           "url": "https://www.techradar.com/pro/spacex-plans-massive-usd24-billion-gas-powered-texas-data-center-application-for-35-natural-gas-turbines-and-a-capacity-of-748-megawatts-comes-despite-rising-opposition-in-the-state",
@@ -1814,15 +1647,6 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "More deals have landed in the Argos Black Friday sale — £99 Ninja air fryer, £150 Garmin Forerunner, £50 off Kindles, and more top deals",
-          "url": "https://www.techradar.com/seasonal-sales/more-deals-have-landed-in-the-argos-black-friday-sale-gbp99-ninja-air-fryer-gbp150-garmin-forerunner-gbp50-off-kindles-and-more-top-deals",
-          "publishedAt": "2026-11-11T13:41:23.000Z",
-          "excerpt": "The Argos Black Friday sale just got bigger, with more deals across tech, gaming, appliances, homeware, and toys — I've picked the 18 best deals.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -1832,6 +1656,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "OpenAI’s personal finance features for ChatGPT expands to Mac app",
+          "url": "https://9to5mac.com/2026/11/11/openais-personal-finance-features-for-chatgpt-expands-to-mac-app/",
+          "publishedAt": "2026-11-11T19:58:26.000Z",
+          "excerpt": "Earlier this year, OpenAI introduced ChatGPT Finances. The feature started on the mobile app and website, but it’s been missing from ChatGPT’s desktop app. Starting today. ChatGPT Finances is now available on the Mac as well. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "iCloud+ has new perk in iOS 27 if you pay for more storage",
+          "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage/",
+          "publishedAt": "2026-11-11T19:32:54.000Z",
+          "excerpt": "The tentpole feature of iCloud+ is cloud storage, but Apple keeps improving and expanding the service to include other perks too. And in iOS 27, iCloud+ has a new benefit for high-storage tiers: AI features for HomeKit cameras. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Apple offers a military discount, here’s how to get it",
           "url": "https://9to5mac.com/2026/11/11/apple-offers-a-military-discount-heres-how-to-get-it/",
@@ -1990,24 +1832,6 @@
           "url": "https://9to5mac.com/2026/11/10/ifixit-tears-down-touchscreen-macbook-pro-reveals-light-up-apple-logo-details/",
           "publishedAt": "2026-11-10T23:14:49.000Z",
           "excerpt": "iFixit published its teardown of the new MacBook Pro with PROLED XDR Display today, revealing interesting details about how Apple brought back its illuminated logo on the lid. Watch it below. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "CleanupBuddy 2.0 expands beyond the keyboard with new display cleaning features",
-          "url": "https://9to5mac.com/2026/11/10/cleanupbuddy-2-0-expands-beyond-the-keyboard-with-new-display-cleaning-features/",
-          "publishedAt": "2026-11-10T22:56:55.000Z",
-          "excerpt": "Developer Gui Rambo updated CleanupBuddy today, expanding its ability to prevent accidental inputs while cleaning your Mac from the keyboard to the touchscreen. Here are the details. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple to investigate accident that killed three workers at iPhone parts factory in India",
-          "url": "https://9to5mac.com/2026/11/10/apple-to-investigate-accident-that-killed-three-workers-at-iphone-parts-factory-in-india/",
-          "publishedAt": "2026-11-10T21:34:43.000Z",
-          "excerpt": "Reuters reports that three contract workers died after inhaling gas during an inspection at a Tata Electronics factory that produces iPhone components in India. Here are the details. more…",
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -2513,6 +2337,24 @@
       "count": 20,
       "stories": [
         {
+          "title": "Adobe MAX 2026 Sneaks: Project Link Up is making design playful again",
+          "url": "https://www.creativebloq.com/features/adobe-max-2026-sneaks-project-link-up-is-making-design-playful-again",
+          "publishedAt": "2026-11-11T20:05:34.000Z",
+          "excerpt": "I sit down with Hailin Jin, Adobe's research lead for imaging and design, to discuss how the project could revolutionise vector design.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "So, what are the best AI video generators, and how do they compare on price?",
+          "url": "https://www.creativebloq.com/features/so-what-are-the-best-ai-video-generators-and-how-do-they-compare-on-price",
+          "publishedAt": "2026-11-11T20:00:00.000Z",
+          "excerpt": "We look at the hidden costs of the top 5 options.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "5 wild Adobe Sneaks that creatives need to know about",
           "url": "https://www.creativebloq.com/news/5-wild-adobe-sneaks-that-creatives-need-to-know-about",
           "publishedAt": "2026-11-11T18:19:03.000Z",
@@ -2670,24 +2512,6 @@
           "url": "https://www.creativebloq.com/news/print-on-wood-metal-glass-and-more-with-the-best-uv-printers",
           "publishedAt": "2026-11-10T14:00:00.000Z",
           "excerpt": "These machines offer new creative opportunities to designers, illustrators and crafters.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "There's something off about the new Harry Potter poster designs",
-          "url": "https://www.creativebloq.com/news/theres-something-off-about-the-new-harry-potter-poster-designs",
-          "publishedAt": "2026-11-10T13:02:34.000Z",
-          "excerpt": "What did those poor kids do to offend HBO's graphic designers?",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "This film festival logo proves originality isn't dead in graphic design",
-          "url": "https://www.creativebloq.com/news/this-film-festival-logo-proves-originality-isnt-dead-in-graphic-design",
-          "publishedAt": "2026-11-10T10:48:19.000Z",
-          "excerpt": "KIFF's redesigned logo feels fresh and alive.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
@@ -3669,6 +3493,15 @@
       "count": 20,
       "stories": [
         {
+          "title": "Researchers in Ethiopia Discover Male Donkey and Bull in Committed Relationship",
+          "url": "https://www.them.us/news/patroclo-achille-donkey-bull-love",
+          "publishedAt": "2026-11-11T19:12:57.000Z",
+          "excerpt": "Some pretty gay interspecies behavior has been spotted in the Ethiopian Highlands. The pairing? A male donkey, Patroclo, and a bull, Achille, who are named after the ancient Greek heroes, Patroclus and Achilles, known for their affectionate relationship in Homer’s Iliad . As CNN reported, citing a n",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "\"Transition Regret” Is Extremely Rare, According to Study",
           "url": "https://www.them.us/answers-and-advice/health/transition-regret-extremely-rare",
           "publishedAt": "2026-11-11T18:22:32.000Z",
@@ -3736,6 +3569,15 @@
           "url": "https://www.them.us/politics/veggietales-phil-vischer-god-nonbinary",
           "publishedAt": "2026-11-10T17:16:34.000Z",
           "excerpt": "Phil Vischer, the co-creator of the Christian-themed animated series VeggieTales , pointed out that God doesn’t have a gender according to Biblical canon. Naturally, transphobes are absolutely losing it. After Texas Democrat James Talarico easily won his bid for U.S. Senate in a “blue wave” of midte",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How Do Ordinary People Change the World? These New York City AIDS Activists Left a Record",
+          "url": "https://www.them.us/culture/act-up-oral-history-project",
+          "publishedAt": "2026-11-10T16:16:34.000Z",
+          "excerpt": "This story originally appeared on The Advocate . Sarah Schulman and Jim Hubbard both knew personally the devastation that the AIDS crisis had on New York City . As early members of the activist group ACT UP New York , they also saw firsthand the success of social justice movements launched in its wa",
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -3829,24 +3671,6 @@
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Nearly 40% of Single Gen Zers Are Celibate. How to Practice Intentional Celibacy",
-          "url": "https://www.them.us/answers-and-advice/sex-and-relationships/intentional-celibacy",
-          "publishedAt": "2026-11-06T20:09:01.000Z",
-          "excerpt": "Reports about the death of Gen Z’s sex life have not been exaggerated: About 37% of single Gen Zers are now celibate, according to a survey by the Kinsey Institute and ModernDating.com . You’d think that at a time when we have more access to sex education , hookup apps , and a greater understanding ",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Meet the Weed-Growing Transgender Daughter of Immigrants Who Just Made Florida Electoral History",
-          "url": "https://www.them.us/politics/quinnie-perez-florida-transgender-history",
-          "publishedAt": "2026-11-06T19:45:25.000Z",
-          "excerpt": "This story originally appeared on The Advocate . A cannabis worker and daughter of immigrants just won election as Florida’s first out transgender elected official. Quinnie Perez, a trans woman, was the top vote-getter in a three-person race for a relatively low-profile post on Orange County’s Soil ",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ]
     },
@@ -3870,6 +3694,15 @@
           "url": "http://www.curbed.com/article/interior-design-books-magazines-recommendations-for-scale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-11T17:16:33.000Z",
           "excerpt": "For Scale’s David Michon chats interior design and the state of publishing on the occasion of a décor book pop-up.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Stephen Miller’s Big Plan Is to Bring Back Men",
+          "url": "http://nymag.com/intelligencer/article/stephen-millers-big-plan-is-to-bring-back-men.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-11T16:59:23.000Z",
+          "excerpt": "Trump’s new White House chief of staff wants to go alpha on affordability and double down on the war on woke.",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4023,15 +3856,6 @@
           "url": "http://www.vulture.com/article/lord-of-the-rings-the-rings-of-power-recap-season-3-episode-1-prime-video.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-11T09:00:17.000Z",
           "excerpt": "The war has continued to rage in between seasons, and the premiere reveals that things have been going pretty well for Sauron.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "VisionQuest Season-Finale Recap: Reprogramming",
-          "url": "http://www.vulture.com/article/visionquest-recap-episode-8-forever-disney-mcu-finale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-11T03:00:47.000Z",
-          "excerpt": "The finale rushes through all its themes, jokes, and action sequences toward an ending that feels messy and unsatisfying.",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4305,10 +4129,10 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The Lasting Influence of John Berger",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
           "publishedAt": "2026-11-09T11:00:00.000Z",
-          "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+          "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4323,19 +4147,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "After the War, They Turned the Cameras on Themselves, in “Allies in Exile”",
-          "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/after-the-war-they-turned-the-cameras-on-themselves-in-allies-in-exile",
+          "title": "The Lasting Influence of John Berger",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
           "publishedAt": "2026-11-09T11:00:00.000Z",
-          "excerpt": "Displaced by war, two Syrian filmmakers, Hasan Kattan and Fadi al-Halabi, document their wait for asylum in the U.K., forging a friendship through storytelling amid rising anti-immigrant protests.",
+          "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Briefly Noted Book Reviews",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
+          "title": "After the War, They Turned the Cameras on Themselves, in “Allies in Exile”",
+          "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/after-the-war-they-turned-the-cameras-on-themselves-in-allies-in-exile",
           "publishedAt": "2026-11-09T11:00:00.000Z",
-          "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
+          "excerpt": "Displaced by war, two Syrian filmmakers, Hasan Kattan and Fadi al-Halabi, document their wait for asylum in the U.K., forging a friendship through storytelling amid rising anti-immigrant protests.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4395,10 +4219,10 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "“Wicker” and What Straight Women Want",
-          "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+          "title": "How France Took Over Basketball",
+          "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
           "publishedAt": "2026-11-07T11:00:00.000Z",
-          "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
+          "excerpt": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4549,6 +4373,14 @@
       "count": 12,
       "stories": [
         {
+          "title": "How ‘Godzilla Minus Zero’ Dominated the Box Office: GKIDS Chief on IMAX’s Impact and the Growing Market for Foreign-Language Movies",
+          "url": "https://www.indiewire.com/features/interviews/godzilla-minus-zero-box-office-gkids-imax-1235226577/",
+          "publishedAt": "2026-11-11T19:30:00.000Z",
+          "excerpt": "In an interview with IndieWire, the distributor's president Dave Jesteadt credits younger audiences and premium large-formats for building the record opening.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
           "title": "Democrats Won. When Do Hollywood Crews Get Back to Work?",
           "url": "https://www.indiewire.com/features/interviews/hollywood-jobs-after-midterms-film-tax-credits-1235226539/",
           "publishedAt": "2026-11-11T18:00:00.000Z",
@@ -4633,14 +4465,6 @@
           "url": "https://www.indiewire.com/news/events/indiewire-future-of-filmmaking-video-contest-2026-1235225520/",
           "publishedAt": "2026-11-10T23:46:00.000Z",
           "excerpt": "A three-minute Instagram reel could be all it takes to attend Cannes, Venice, SXSW, or SXSW London with IndieWire.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "Why Ari Aster and Lars Knudsen’s Square Peg Built a Therapy Circle for Hollywood’s Next Generation in Texas",
-          "url": "https://www.indiewire.com/features/interviews/square-peg-social-2026-ari-aster-lance-oppenheim-1235226526/",
-          "publishedAt": "2026-11-10T22:00:00.000Z",
-          "excerpt": "IndieWire talks to the mentors and participants behind the second year of Square Peg Social, which offers four days of not only panels and one-on-ones with top filmmakers, but also camaraderie and commiseration for those who've just begun their careers.",
           "source": "IndieWire",
           "category": "Culture"
         }
@@ -5029,6 +4853,22 @@
       "count": 20,
       "stories": [
         {
+          "title": "Democrats are at Cop31 to show that the US has not abandoned the fight against climate change",
+          "url": "https://theconversation.com/democrats-are-at-cop31-to-show-that-the-us-has-not-abandoned-the-fight-against-climate-change-296218",
+          "publishedAt": "2026-11-11T17:31:32.000Z",
+          "excerpt": "Democratic control of Congress means they have more power to challenge Trump’s environmental stance.",
+          "source": "The Conversation",
+          "category": "Society"
+        },
+        {
+          "title": "Cabo Verde’s presidential election: the stakes in one of Africa’s most stable democracies",
+          "url": "https://theconversation.com/cabo-verdes-presidential-election-the-stakes-in-one-of-africas-most-stable-democracies-295763",
+          "publishedAt": "2026-11-11T13:19:33.000Z",
+          "excerpt": "The presidential election will test party loyalties and voters’ expectations of the presidency, as well as its role in the political system.",
+          "source": "The Conversation",
+          "category": "Society"
+        },
+        {
           "title": "Economic coercion once ousted Iran’s leader – but that was the 1950s; don’t expect a repeat today",
           "url": "https://theconversation.com/economic-coercion-once-ousted-irans-leader-but-that-was-the-1950s-dont-expect-a-repeat-today-294628",
           "publishedAt": "2026-11-10T13:36:36.000Z",
@@ -5097,14 +4937,6 @@
           "url": "https://theconversation.com/we-need-to-talk-about-meta-political-interference-and-interests-in-the-brazilian-elections-296102",
           "publishedAt": "2026-11-06T17:53:34.000Z",
           "excerpt": "The company’s actions show that, above users’ rights, public interest, and democracy itself, prevails its economic interests and the maximization of their profits",
-          "source": "The Conversation",
-          "category": "Society"
-        },
-        {
-          "title": "The Cop31 climate summit is betting on electrification – but still needs a plan to ditch fossil fuels",
-          "url": "https://theconversation.com/the-cop31-climate-summit-is-betting-on-electrification-but-still-needs-a-plan-to-ditch-fossil-fuels-295493",
-          "publishedAt": "2026-11-06T17:02:53.000Z",
-          "excerpt": "Electrification alone won’t deliver a clean energy transition. Two major challenges remain.",
           "source": "The Conversation",
           "category": "Society"
         },
@@ -5179,14 +5011,6 @@
           "excerpt": "Although separated by centuries, these two epics pose dilemmas that separate the morality of the husband from the duty of the leader.",
           "source": "The Conversation",
           "category": "Society"
-        },
-        {
-          "title": "The Binance hack exploited familiar weaknesses – all organisations should learn from it",
-          "url": "https://theconversation.com/the-binance-hack-exploited-familiar-weaknesses-all-organisations-should-learn-from-it-295627",
-          "publishedAt": "2026-11-05T08:24:35.000Z",
-          "excerpt": "The hackers compromised a laptop belonging to an IT engineer, according to Binance.",
-          "source": "The Conversation",
-          "category": "Society"
         }
       ]
     },
@@ -5196,6 +5020,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "A Look at Catholics in Latin America as Pope Leo Visits",
+          "url": "https://www.pewresearch.org/newsletter/religion-weekly/religion-weekly-update-nov-11-2026/",
+          "publishedAt": "2026-11-11T20:00:00.000Z",
+          "excerpt": "Religion & Public Life A weekly digest of the Center’s latest research on religion and public life in the U.S. and around the world · Subscribe ↗ Media mentions Pope Leo readies to visit a Latin America where Catholicism is on the declineNov. 4 – Reuters * In the news Could Texas repeal abortion ban",
+          "source": "Pew Research Center",
+          "category": "Society"
+        },
         {
           "title": "Key Facts About U.S. Data Centers",
           "url": "https://www.pewresearch.org/short-reads/2026/11/11/key-facts-about-us-data-centers/",
@@ -5345,14 +5177,6 @@
           "url": "https://www.pewresearch.org/newsletter/the-briefing/the-briefing-10-29-2026/",
           "publishedAt": "2026-10-29T18:57:00.000Z",
           "excerpt": "The Briefing ☀️ Happy Thursday! The Briefing is your guide to the world of news and information. Sign up here! In today’s email: 🔥 Featured story Artificial intelligence is now integrated into not only chatbots but also major social media platforms and search engines. This is raising questions abou",
-          "source": "Pew Research Center",
-          "category": "Society"
-        },
-        {
-          "title": "On Facebook and Instagram, Political Ads Are Increasingly Critical of Data Centers",
-          "url": "https://www.pewresearch.org/short-reads/2026/10/29/on-facebook-and-instagram-political-ads-are-increasingly-critical-of-data-centers/",
-          "publishedAt": "2026-10-29T16:53:50.000Z",
-          "excerpt": "Political ads about data centers on Facebook and Instagram have turned increasingly critical, with 57% opposed and just 3% supportive ahead of the midterms.",
           "source": "Pew Research Center",
           "category": "Society"
         }
@@ -5797,10 +5621,10 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Building The New Equilibrium Economy",
+          "title": "How Aristotle Anticipated The AI Era",
           "url": "https://www.noemamag.com/building-the-new-equilibrium-economy",
           "publishedAt": "2026-11-05T14:53:38.000Z",
-          "excerpt": "The post Building The New Equilibrium Economy appeared first on NOEMA .",
+          "excerpt": "The post How Aristotle Anticipated The AI Era appeared first on NOEMA .",
           "source": "Noema",
           "category": "Society",
           "sourceRole": "publisher"
@@ -6763,6 +6587,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "Celebrating 50 Years of 3RRR, Melbourne’s Iconic Community Radio Station",
+          "url": "https://daily.bandcamp.com/features/3rrr-50th-anniversary-feature",
+          "publishedAt": "2026-11-11T19:03:48.000Z",
+          "excerpt": "Melbourne's raucous, seminal, and signal-boosting community radio station celebrates five decades of boosting independent music. Read full story on the Bandcamp Daily .",
+          "source": "Bandcamp Daily",
+          "category": "Arts"
+        },
+        {
           "title": "Chastity Belt, “All My Friends”",
           "url": "https://daily.bandcamp.com/album-of-the-day/chastity-belt-all-my-friends-review",
           "publishedAt": "2026-11-11T15:01:08.000Z",
@@ -6911,14 +6743,6 @@
           "url": "https://daily.bandcamp.com/scene-report/nepal-metal-scene-report",
           "publishedAt": "2026-11-03T18:32:48.000Z",
           "excerpt": "In the shadow of the Himalayas, a fiercely independent scene is making a righteous noise. Read full story on the Bandcamp Daily .",
-          "source": "Bandcamp Daily",
-          "category": "Arts"
-        },
-        {
-          "title": "The Best Ambient Music on Bandcamp, October 2026",
-          "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-october-2026",
-          "publishedAt": "2026-11-03T14:43:34.000Z",
-          "excerpt": "Our guide to the month’s crucial ambient LPs. Read full story on the Bandcamp Daily .",
           "source": "Bandcamp Daily",
           "category": "Arts"
         }
@@ -10647,6 +10471,16 @@
       "count": 20,
       "stories": [
         {
+          "title": "Scientists have identified a new species of penguin, the...",
+          "url": "https://kottke.org/26/11/0049955-scientists-have-identifie",
+          "publishedAt": "2026-11-11T20:04:00.000Z",
+          "excerpt": "Scientists have identified a new species of penguin , the first in 100 years. “Genetic evidence shows that what scientists once treated as a single, widely distributed gentoo penguin species is actually made up of four separate species.”",
+          "source": "Kottke",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Kottke"
+        },
+        {
           "title": "What Will Starting a Creative Career Look Like in the...",
           "url": "https://kottke.org/26/11/0049969-what-will-starting-a-crea",
           "publishedAt": "2026-11-11T19:15:00.000Z",
@@ -10831,16 +10665,6 @@
           "url": "https://kottke.org/26/11/0049953-computer-chips-are-the-mo",
           "publishedAt": "2026-11-09T17:45:00.000Z",
           "excerpt": "Computer Chips Are the Most Magnificent Things Humanity Has Ever Made . “The phone in your pocket is several orders of magnitude more sophisticated than the computers used for the Apollo mission. One AirPod could easily calculate a path to the moon.”",
-          "source": "Kottke",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Kottke"
-        },
-        {
-          "title": "A YouTuber discovered that most videos contain inaudible...",
-          "url": "https://kottke.org/26/11/0049951-most-videos-contain-inaud",
-          "publishedAt": "2026-11-09T16:55:00.000Z",
-          "excerpt": "A YouTuber discovered that most videos contain inaudible background audio that can be geolocated by using airplane flight data . Incredible. I wonder how long the NSA has known about this though…",
           "source": "Kottke",
           "category": "Discover",
           "sourceRole": "curator",
@@ -11794,6 +11618,22 @@
       "count": 20,
       "stories": [
         {
+          "title": "元華晚年移居溫哥華：享受孫兒圍繞的清閑退休生活",
+          "url": "https://hk01.com/sns/article/60408223",
+          "publishedAt": "2026-11-11T20:00:03.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "沙田女子屋內暈倒 母親報案求助 送院搶救不治",
+          "url": "https://hk01.com/sns/article/60409806",
+          "publishedAt": "2026-11-11T19:42:12.000Z",
+          "excerpt": "沙田有人猝死。昨晚（11日）11時許，一名45歲林姓女子在沙田正街11至17號偉華中心住所暈倒，母親見狀報案。 救護員接報到場，林女昏迷被送往威爾斯親王醫院進行搶救，其後被證實死亡。女事主死因有待驗屍後確定。 據了解，林女有身體病紀錄。 女事主昏迷被送往威爾斯親王醫院進行搶救，其後被證實死亡。（資料圖片）",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "美國中期選舉｜白宮致函民主黨眾議員 部份調查或構成犯罪",
           "url": "https://hk01.com/sns/article/60409805",
           "publishedAt": "2026-11-11T19:13:08.000Z",
@@ -11858,22 +11698,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "俄羅斯駐美大使達爾奇耶夫突然去世 終年66歲",
-          "url": "https://hk01.com/sns/article/60409798",
-          "publishedAt": "2026-11-11T17:10:41.000Z",
-          "excerpt": "俄羅斯外交部11月11日（周三）宣布，俄羅斯駐美國大使達爾奇耶夫（Alexander Darchiyev）於周三突然逝世，終年66歲。他在去年3月被普京（Vladimir Putin）任命為新駐美大使，任職時長不到兩年。 俄外交部在一份聲明中表示，「俄羅斯外交部領導和全體工作人員懷着沉痛的心情宣布，俄羅斯駐美國特命全權大使達爾奇耶夫於11月11日突然去世，終年66歲。」 俄羅斯駐美國大使達爾奇耶夫（Alexander Darchiyev）。（Reuters） 據俄外交部稱，達爾奇耶夫「是一位傑出的外交官、一位經驗豐富的領導者、一位和藹可親的朋友和一位良師益友」。外交部強調，「達爾奇耶夫是一位技",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "警聯同入境處旺角打擊非法勞工 18女被捕 年紀最輕19歲",
-          "url": "https://hk01.com/sns/article/60409796",
-          "publishedAt": "2026-11-11T17:09:56.000Z",
-          "excerpt": "警方表示，旺角警區聯同入境處根據線報及深入調查，昨日（11日）在區內展開代號「冠軍」的跨部門反非法入境者及非法勞工行動，突擊巡查區內多個地點。 行動中，14名內地女子及4名外籍女子，年齡介乎19歲至48歲，涉嫌「違反逗留條件」被捕。所有被捕人現正被扣留調查，部分被捕人稍後將交由入境處跟進。 據了解，所有涉案內地女子持雙程證到港，至於4名外籍女子分別來自泰國、菲律賓和印尼，均持護照入境。 執法人員拘捕多人。（警方提供）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "港珠澳大橋香港段半馬拉松周日舉行 特別交通安排周六起分段實施",
           "url": "https://hk01.com/sns/article/60409792",
           "publishedAt": "2026-11-11T16:37:20.000Z",
@@ -11894,6 +11718,14 @@
           "url": "https://hk01.com/sns/article/60409711",
           "publishedAt": "2026-11-11T14:22:48.000Z",
           "excerpt": "【GTA6／PS5／PlayStation／俠盜獵車手6】全球玩家矚目的遊戲大作《Grand Theft Auto VI》（GTA6／俠盜獵車手6）下周四（19日）推出，網傳近月引起新一輪的炒機熱潮。《香港01》記者今日（11日）到深水埗黃金電腦商場觀察，發現PS5 Pro遊戲主機最貴索價1.2萬元，遠高於官方零售價的6,502元，即高出84.6%。 有商戶解釋，來貨價遠高於官方零售價，因而只能高價出售遊戲主機。也有商戶稱，GTA6公布正式推出後，PS5主機的銷量升兩倍，直至最近銷情逐漸回落，預料售價也將會下降。 深水埗黃金電腦商場一樓有多間商戶出售PS5等遊戲主機。（林曉儀攝） 深水埗黃金電",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "成人展取消｜主辦去年成立老闆做設計倉存生意 上月增三內地股東",
+          "url": "https://hk01.com/sns/article/60409773",
+          "publishedAt": "2026-11-11T14:05:40.000Z",
+          "excerpt": "【成人展／女優／MEGA FANS EXPO／KKDAY／MFE】香港首個大型成人展「MEGA FANS EXPO 2026」原訂於本月13日至15日在富豪機場酒店舉行，有日本AV女優稱遭拒絕入境，活動已取消。 主辦方為在2025年9月成立的「亞洲娛樂集團」，蔡偉森為唯一股東兼董事，為十間公司董事，部份業務為設計、生產及倉存的一條龍生意。記者翻查資料，「香港成人展」新聞稿最早在10月中公布，公司在公布10日後便新增三名內地股東。 香港首個大型成人展原訂於今年11月13日至15日，一連三天於香港富豪機場酒店舉行。 董事為蔡偉森 有設計、生產及倉存生意 香港首個大型成人展「MEGA FANS EX",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11942,14 +11774,6 @@
           "url": "https://hk01.com/sns/article/60409627",
           "publishedAt": "2026-11-11T09:52:47.000Z",
           "excerpt": "已故全國政協副主席霍英東孫兒、現任霍英東集團副主席霍啟山與29歲俄蒙混血女星娜然（Narána Erdynéyeva）近年屢傳好事近。今日（11日）兩人的結婚喜帖正式曝光，確認將於12月12日下午4時半至7時半假香港灣仔君悅酒店宴會大禮堂舉行結婚酒會。隨着二公子成家立室，霍震霆與朱玲玲的三名兒子均已各自組織家庭，為霍家再添喜事。 霍啟山與娜然兩人的結婚喜帖正式曝光。（網上圖片 ） 霍啟山雙十二設宴迎娶娜然 2015年，當時18歲的娜然赴港簽約成為霍啟山入股的模特兒公司旗下藝人，初期二人僅止於工作往來，私下並無太多接觸。2016年10月，娜然受邀擔任周杰倫熱門歌曲〈告白氣球〉的MV女主角，清新甜",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "周慧賢涉被殺 被告稱因債台高築臨自殺邊緣 想離世前再見周數面",
-          "url": "https://hk01.com/sns/article/60409644",
-          "publishedAt": "2026-11-11T08:36:00.000Z",
-          "excerpt": "瑜伽導師周慧賢(Aqua Chow)身中逾40刀伏屍麗思卡爾頓酒店房案，其前男友勞浚銘涉謀殺（HCCC148/2024）的審訊繼續，勞今（10日）在高等法院自辯時，交代他在事發前與周的最後相處。 勞稱他當時債台高築，常被追債，已萌生自殺念頭，在他瀕臨自殺邊緣時，突想起他最愛的女人Aqua(周)。他於是再與周聯絡，並相約食飯，他更請周食飯花了約5千元，又給周6萬元當禮物。他指周收款後很開心，更問他：「想唔想要多個女朋友？」他認為周是問他要否做周的情人。 勞稱當時死意已決，他只想臨終前再多見周幾面，並計劃在周離港後自殺。 被告勞浚銘（洋名Alex，被起訴時28 歲）被控一項謀殺罪。控罪指，被告於 ",
           "source": "香港01",
           "category": "Hong Kong"
         }
@@ -12966,186 +12790,6 @@
   ],
   "stories": [
     {
-      "title": "AWS Emulator and the engineer's job when agents write the code",
-      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "publishedAt": "2026-11-11T18:28:31.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50456740"
-    },
-    {
-      "title": "AWS Finally Built Its Own AWS Emulator",
-      "url": "https://github.com/aws/aws-emulator",
-      "publishedAt": "2026-11-11T18:21:38.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50456631"
-    },
-    {
-      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
-      "url": "https://pomerado.ai/",
-      "publishedAt": "2026-11-11T17:11:56.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50455811"
-    },
-    {
-      "title": "Faster Retrieval for Better, More Efficient RAG",
-      "url": "https://machinelearning.apple.com/research/faster-retrieval",
-      "publishedAt": "2026-11-11T16:57:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50455633"
-    },
-    {
-      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
-      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
-      "publishedAt": "2026-11-11T16:38:44.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50455394"
-    },
-    {
-      "title": "AI, activity, and outcomes in software engineering",
-      "url": "https://cabird.com/talks/shipping-faster/",
-      "publishedAt": "2026-11-11T16:33:28.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50455332"
-    },
-    {
-      "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
-      "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
-      "publishedAt": "2026-11-11T16:08:14.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50455031"
-    },
-    {
-      "title": "The hardest notes to find on the guitar fretboard",
-      "url": "https://www.gitori.com/blog/articles/hardest-notes-on-the-guitar-fretboard",
-      "publishedAt": "2026-11-11T16:05:18.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50454995"
-    },
-    {
-      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
-      "url": "https://github.com/klad-app/klad",
-      "publishedAt": "2026-11-11T16:00:50.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50454951"
-    },
-    {
-      "title": "The Computer Graphics Book of Knowledge",
-      "url": "https://www.cs.cmu.edu/~ph/nyit/masson/history.htm",
-      "publishedAt": "2026-11-11T15:50:02.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50454823"
-    },
-    {
-      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "publishedAt": "2026-11-11T15:33:06.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50454625"
-    },
-    {
-      "title": "Pharo in the Browser with WebAssembly",
-      "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
-      "publishedAt": "2026-11-11T14:21:27.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453763"
-    },
-    {
-      "title": "Atuin Threads: All your agent sessions on every machine",
-      "url": "https://blog.atuin.sh/threads-agent-sessions/",
-      "publishedAt": "2026-11-11T14:10:46.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453637"
-    },
-    {
-      "title": "Apple is killing its Support Community forum next week",
-      "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
-      "publishedAt": "2026-11-11T14:02:11.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453555"
-    },
-    {
-      "title": "I asked every TV manufacturer 17 questions about how they spy on you",
-      "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
-      "publishedAt": "2026-11-11T13:56:05.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453474"
-    },
-    {
-      "title": "Hyper-Realistic Sand with WebGL2",
-      "url": "https://av.github.io/safe-sand/",
-      "publishedAt": "2026-11-11T13:39:29.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453288"
-    },
-    {
-      "title": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
-      "url": "https://github.com/0xdeadf1sh/AssemblyForNeovim",
-      "publishedAt": "2026-11-11T13:34:24.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453229"
-    },
-    {
-      "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
-      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
-      "publishedAt": "2026-11-11T13:29:46.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453171"
-    },
-    {
-      "title": "EventSourcingDB 1.3.0 Is Available",
-      "url": "https://www.eventfoundation.io/resources/blog/eventsourcingdb-1-3-0-is-available",
-      "publishedAt": "2026-11-11T13:19:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50453080"
-    },
-    {
-      "title": "Can a Linear Program Do Weight-Space Programming?",
-      "url": "https://nathan.rs/posts/weight-space-lp/",
-      "publishedAt": "2026-11-11T12:30:17.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50452655"
-    },
-    {
       "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
       "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
       "publishedAt": "2026-11-11T18:13:52.000Z",
@@ -13306,6 +12950,14 @@
       "category": "Technology"
     },
     {
+      "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+      "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+      "publishedAt": "2026-11-11T19:55:54.000Z",
+      "excerpt": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "The 22 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
       "url": "https://www.wired.com/story/best-black-friday-deals-11-11-2026/",
       "publishedAt": "2026-11-11T17:08:14.000Z",
@@ -13458,18 +13110,34 @@
       "category": "Technology"
     },
     {
-      "title": "4DX Movies Are Entering Their Thirsty Romance Era",
-      "url": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "excerpt": "From Heated Rivalry to Wicker, the movie format that embraces thrusting chairs and splashing the crowd is catering to those who want a horny communal theatergoing experience.",
-      "source": "WIRED",
+      "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
+      "url": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
+      "publishedAt": "2026-11-11T19:00:26.000Z",
+      "excerpt": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
+      "source": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "publishedAt": "2026-11-11T18:16:40.000Z",
+      "excerpt": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+      "source": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "title": "Trump admin loses fight to spy on random journalists’ LinkedIn DMs",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+      "publishedAt": "2026-11-11T18:05:26.000Z",
+      "excerpt": "Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.",
+      "source": "Ars Technica",
       "category": "Technology"
     },
     {
       "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
       "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
       "publishedAt": "2026-11-11T17:37:32.000Z",
-      "excerpt": "Any amount of AI coding is too much for many Indie Game Festival judges.",
+      "excerpt": "Any amount of AI coding is too much for many Independent Games Festival judges.",
       "source": "Ars Technica",
       "category": "Technology"
     },
@@ -13598,30 +13266,6 @@
       "url": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
       "publishedAt": "2026-11-10T16:17:51.000Z",
       "excerpt": "\"NASA advised that Vast’s submission in some locations substituted 'the PAM Provider' for Axiom\"",
-      "source": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-      "publishedAt": "2026-11-10T15:00:39.000Z",
-      "excerpt": "The new model is up to twice as successful at some tasks.",
-      "source": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
-      "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
-      "publishedAt": "2026-11-10T14:53:05.000Z",
-      "excerpt": "Huang faces a board probe as investors fret over Nvidia’s lack of a clear successor.",
-      "source": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "title": "FDA warns GLP-1 drugs may pose risk of rare condition that causes vision loss",
-      "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-may-increase-risk-of-vision-loss-from-rare-condition-fda-warns/",
-      "publishedAt": "2026-11-10T14:43:49.000Z",
-      "excerpt": "The risk appears small and data is mixed, but FDA wants patients to be aware.",
       "source": "Ars Technica",
       "category": "Technology"
     },
@@ -13786,6 +13430,54 @@
       "category": "Technology"
     },
     {
+      "title": "Why the data center you dread might never even be built",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "publishedAt": "2026-11-11T20:15:15.000Z",
+      "excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Meta is losing its longtime head of infrastructure",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "publishedAt": "2026-11-11T20:12:01.000Z",
+      "excerpt": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
+      "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+      "publishedAt": "2026-11-11T20:04:28.000Z",
+      "excerpt": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that difficult doesn't mean impossible.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "publishedAt": "2026-11-11T19:54:00.000Z",
+      "excerpt": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "publishedAt": "2026-11-11T19:34:55.000Z",
+      "excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "publishedAt": "2026-11-11T19:22:22.000Z",
+      "excerpt": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
       "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
       "publishedAt": "2026-11-11T16:16:07.000Z",
@@ -13898,52 +13590,22 @@
       "category": "Technology"
     },
     {
-      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-      "publishedAt": "2026-11-10T18:49:52.000Z",
-      "excerpt": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "For Singles Day, World explains why real is the new attractive",
+      "url": "https://thenextweb.com/news/singles-day-world-proof-of-human-dating",
+      "publishedAt": "2026-11-11T19:41:32.000Z",
+      "excerpt": "New Harris Poll research on behalf of World finds that 81% of singles would be more likely to use a dating app if every profile were confirmed as a real person. As millions of singles celebrate Singles Day on November 11, the biggest question in online dating is no longer “are we compatible?” but “a",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
-      "title": "Pixel Tag, Google’s $30 Android-ready answer to Apple’s AirTag, is now available",
-      "url": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/",
-      "publishedAt": "2026-11-10T18:49:19.000Z",
-      "excerpt": "Google's Pixel Tag lets you track lost items with your Android device, similar to Apple's AirTag.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "publishedAt": "2026-11-10T17:30:00.000Z",
-      "excerpt": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
-      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "publishedAt": "2026-11-10T17:04:19.000Z",
-      "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Sundrop turns your endless baby photos into recaps, time lapses, and more — without AI",
-      "url": "https://techcrunch.com/2026/11/10/sundrop-turns-your-endless-baby-photos-into-recaps-time-lapses-and-more-without-ai/",
-      "publishedAt": "2026-11-10T16:50:38.000Z",
-      "excerpt": "Sundrop is a new iPhone app that uses Apple's on-device AI to help parents rediscover their favorite photos and create keepsakes without uploading images to the cloud.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Apple TV makes sign language interpretation a built-in accessibility feature",
-      "url": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "excerpt": "Apple TV's new accessibility feature lets viewers turn on sign language interpretation within supported titles.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "London’s Fractile raises $720M for memory-first AI chips and hits $7B valuation",
+      "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips",
+      "publishedAt": "2026-11-11T19:31:35.000Z",
+      "excerpt": "London-based chip designer Fractile has raised $720 million in a Series C round, betting that memory bandwidth, rather than raw computing power, is the main constraint holding back AI performance. The funding values the four-year-old company at $7 billion, according to the Financial Times, which cit",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "ElevenLabs moves beyond voice with custom models and a work app",
@@ -14018,22 +13680,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Meta’s infrastructure chief Santosh Janardhan to step down in 2027",
-      "url": "https://thenextweb.com/news/meta-infrastructure-chief-santosh-janardhan-steps-down",
-      "publishedAt": "2026-11-11T16:49:42.000Z",
-      "excerpt": "Santosh Janardhan, who has run Meta’s infrastructure for years, will step down in early 2027, Bloomberg reported. Dave Brown, who joined from AWS this year, will take over as Meta spends up to $145B this year, mostly on AI. Santosh Janardhan, Meta’s head of infrastructure and co-head of engineering,",
-      "source": "The Next Web",
+      "title": "Ukraine Strikes Cause Permanent Data Loss at Russia's Yandex Cloud",
+      "url": "https://hardware.slashdot.org/story/26/11/11/1950231/ukraine-strikes-cause-permanent-data-loss-at-russias-yandex-cloud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-11T20:00:00.000Z",
+      "excerpt": "Russia's Yandex says 2.84% of customer data has been permanently lost following Ukrainian strikes on data centers in the country. \"According to the company, recovery is impossible because of critical damage to equipment and the lack of backup copies on the platform,\" reports UNITED24 Media. From the",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Patti Schutte says AI is giving sales teams more data and worse results",
-      "url": "https://thenextweb.com/news/patti-schutte-ai-sales-teams-more-data-worse-results",
-      "publishedAt": "2026-11-11T16:48:36.000Z",
-      "excerpt": "Most people know the difference between reciting a fact and truly understanding it. In sales organizations today, that gap is costing companies their most promising deals. Patti Schutte has spent the past year listening to recorded sales calls across the enterprise teams she coaches. She keeps heari",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "Court Says Trump Can't Use Leaks To Justify Spying On Journalists' LinkedIn DMs",
@@ -14162,15 +13815,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "Reddit Is Turning User Conversations Into AI-Powered Product Reviews",
-      "url": "https://tech.slashdot.org/story/26/11/10/1654224/reddit-is-turning-user-conversations-into-ai-powered-product-reviews?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-10T17:00:00.000Z",
-      "excerpt": "Reddit is rolling out an AI-powered shopping feature called \"Reddit Reviews\" that summarizes user conversations about products and turns them into dedicated reviews. TechCrunch reports: Reddit's announcement points to its rules and its latest measures to combat automated abuse and spam, as well as i",
-      "source": "Slashdot",
-      "category": "Technology",
-      "sourceRole": "community"
-    },
-    {
       "title": "Google launches Gemini Decisions API, powered by its new Gemini Decision 1 model, to return predefined answers with confidence scores, at $0.10/1M input tokens (Google)",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "publishedAt": "2026-11-11T19:05:00.000Z",
@@ -14204,10 +13848,10 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "IBM announces the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex problems (Kyt Dotson/SiliconANGLE)",
+      "title": "IBM unveils the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex computations (Kyt Dotson/SiliconANGLE)",
       "url": "https://siliconangle.com/2026/11/11/ibm-quantum-announces-upcoming-nighthawk-r3-processor-designed-to-execute-10000-operations/",
       "publishedAt": "2026-11-11T17:40:01.000Z",
-      "excerpt": "Kyt Dotson / SiliconANGLE : IBM announces the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex problems &nbsp; &mdash;&nbsp; IBM Corp. today announced the Quantum Nighthawk r3, its next-generation processor designed t",
+      "excerpt": "Kyt Dotson / SiliconANGLE : IBM unveils the Quantum Nighthawk r3, its next-gen processor designed to execute 10,000 quantum operations across 520 qubits to tackle more complex computations &nbsp; &mdash;&nbsp; IBM Corp. today announced the Quantum Nighthawk r3, its next-generation processor designed",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261111/p37#a261111p37",
@@ -14248,10 +13892,10 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform optimized for AI agents, emerges from stealth with $70M across Series A and seed (Tim Keary/Forbes)",
+      "title": "Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform designed for AI agents, emerges from stealth with $70M across a Series A and a seed (Tim Keary/Forbes)",
       "url": "https://www.forbes.com/sites/timkeary/2026/11/11/edelbyte-raises-70-million-to-bring-big-data-analytics-to-ai-agents/",
       "publishedAt": "2026-11-11T15:21:00.000Z",
-      "excerpt": "Tim Keary / Forbes : Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform optimized for AI agents, emerges from stealth with $70M across Series A and seed &nbsp; &mdash;&nbsp; This voice experience is generated by AI.&nbsp; Learn more. &hellip; Big data analytics is being rei",
+      "excerpt": "Tim Keary / Forbes : Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform designed for AI agents, emerges from stealth with $70M across a Series A and a seed &nbsp; &mdash;&nbsp; This voice experience is generated by AI.&nbsp; Learn more. &hellip; Big data analytics is being ",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261111/p33#a261111p33",
@@ -14334,6 +13978,33 @@
       "sourceUrl": "https://www.techmeme.com/261111/p26#a261111p26",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Google brings the Gemini app to Apple CarPlay",
+      "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
+      "publishedAt": "2026-11-11T19:54:55.000Z",
+      "excerpt": "The chatbot was already available through the Google Maps app.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "ByteDance is reportedly working on its own AI agent",
+      "url": "https://www.engadget.com/2314064/bytedance-is-reportedly-working-on-its-own-ai-agent/",
+      "publishedAt": "2026-11-11T19:42:19.000Z",
+      "excerpt": "The Chinese company wants to compete with Meta's Muse.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How many SpaceX Starship rocket tests have failed?",
+      "url": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+      "publishedAt": "2026-11-11T19:27:00.000Z",
+      "excerpt": "Thanks to SpaceX's unique approach to testing, the answer isn't so clear-cut.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Cash App founder's killer gets 16 years to life in prison",
@@ -14489,29 +14160,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Meta warns some of its AI glasses may get 'too warm' if they get wet",
-      "url": "https://www.engadget.com/2312864/meta-warns-some-of-its-ai-glasses-may-get-too-warm-if-they-get-wet/",
-      "publishedAt": "2026-11-10T22:05:37.000Z",
-      "excerpt": "A software update will tell users if they're affected and direct them to Meta's customer support for a full replacement.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Disney+ app on Meta Quest now includes 3D movies",
-      "url": "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies/",
-      "publishedAt": "2026-11-10T22:00:00.000Z",
-      "excerpt": "Meta is starting to sell 3D films too.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "What is the 'Dead Internet Theory' and should humanity be worried?",
-      "url": "https://www.engadget.com/2307790/what-is-dead-internet-theory/",
-      "publishedAt": "2026-11-10T21:00:00.000Z",
-      "excerpt": "As AI-generated content takes over the internet, will human beings still be able to connect online with other humans in a meaningful way?",
-      "source": "Engadget",
+      "title": "Google Fitbit Edge review: The Fitbit we loved, now in its Google era",
+      "url": "https://www.techradar.com/health-fitness/fitness-trackers/google-fitbit-edge-review-the-fitbit-we-loved-now-in-its-google-era",
+      "publishedAt": "2026-11-11T20:04:41.000Z",
+      "excerpt": "The Google Fitbit Edge is a perfectly competent but largely unexciting fitness tracker, bolstered by automatic activity smarts.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14687,11 +14340,20 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "More deals have landed in the Argos Black Friday sale — £99 Ninja air fryer, £150 Garmin Forerunner, £50 off Kindles, and more top deals",
-      "url": "https://www.techradar.com/seasonal-sales/more-deals-have-landed-in-the-argos-black-friday-sale-gbp99-ninja-air-fryer-gbp150-garmin-forerunner-gbp50-off-kindles-and-more-top-deals",
-      "publishedAt": "2026-11-11T13:41:23.000Z",
-      "excerpt": "The Argos Black Friday sale just got bigger, with more deals across tech, gaming, appliances, homeware, and toys — I've picked the 18 best deals.",
-      "source": "TechRadar",
+      "title": "OpenAI’s personal finance features for ChatGPT expands to Mac app",
+      "url": "https://9to5mac.com/2026/11/11/openais-personal-finance-features-for-chatgpt-expands-to-mac-app/",
+      "publishedAt": "2026-11-11T19:58:26.000Z",
+      "excerpt": "Earlier this year, OpenAI introduced ChatGPT Finances. The feature started on the mobile app and website, but it’s been missing from ChatGPT’s desktop app. Starting today. ChatGPT Finances is now available on the Mac as well. more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "iCloud+ has new perk in iOS 27 if you pay for more storage",
+      "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage/",
+      "publishedAt": "2026-11-11T19:32:54.000Z",
+      "excerpt": "The tentpole feature of iCloud+ is cloud storage, but Apple keeps improving and expanding the service to include other perks too. And in iOS 27, iCloud+ has a new benefit for high-storage tiers: AI features for HomeKit cameras. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14853,24 +14515,6 @@
       "url": "https://9to5mac.com/2026/11/10/ifixit-tears-down-touchscreen-macbook-pro-reveals-light-up-apple-logo-details/",
       "publishedAt": "2026-11-10T23:14:49.000Z",
       "excerpt": "iFixit published its teardown of the new MacBook Pro with PROLED XDR Display today, revealing interesting details about how Apple brought back its illuminated logo on the lid. Watch it below. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "CleanupBuddy 2.0 expands beyond the keyboard with new display cleaning features",
-      "url": "https://9to5mac.com/2026/11/10/cleanupbuddy-2-0-expands-beyond-the-keyboard-with-new-display-cleaning-features/",
-      "publishedAt": "2026-11-10T22:56:55.000Z",
-      "excerpt": "Developer Gui Rambo updated CleanupBuddy today, expanding its ability to prevent accidental inputs while cleaning your Mac from the keyboard to the touchscreen. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple to investigate accident that killed three workers at iPhone parts factory in India",
-      "url": "https://9to5mac.com/2026/11/10/apple-to-investigate-accident-that-killed-three-workers-at-iphone-parts-factory-in-india/",
-      "publishedAt": "2026-11-10T21:34:43.000Z",
-      "excerpt": "Reuters reports that three contract workers died after inhaling gas during an inspection at a Tata Electronics factory that produces iPhone components in India. Here are the details. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15344,6 +14988,24 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Adobe MAX 2026 Sneaks: Project Link Up is making design playful again",
+      "url": "https://www.creativebloq.com/features/adobe-max-2026-sneaks-project-link-up-is-making-design-playful-again",
+      "publishedAt": "2026-11-11T20:05:34.000Z",
+      "excerpt": "I sit down with Hailin Jin, Adobe's research lead for imaging and design, to discuss how the project could revolutionise vector design.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "So, what are the best AI video generators, and how do they compare on price?",
+      "url": "https://www.creativebloq.com/features/so-what-are-the-best-ai-video-generators-and-how-do-they-compare-on-price",
+      "publishedAt": "2026-11-11T20:00:00.000Z",
+      "excerpt": "We look at the hidden costs of the top 5 options.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "5 wild Adobe Sneaks that creatives need to know about",
       "url": "https://www.creativebloq.com/news/5-wild-adobe-sneaks-that-creatives-need-to-know-about",
       "publishedAt": "2026-11-11T18:19:03.000Z",
@@ -15501,24 +15163,6 @@
       "url": "https://www.creativebloq.com/news/print-on-wood-metal-glass-and-more-with-the-best-uv-printers",
       "publishedAt": "2026-11-10T14:00:00.000Z",
       "excerpt": "These machines offer new creative opportunities to designers, illustrators and crafters.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "There's something off about the new Harry Potter poster designs",
-      "url": "https://www.creativebloq.com/news/theres-something-off-about-the-new-harry-potter-poster-designs",
-      "publishedAt": "2026-11-10T13:02:34.000Z",
-      "excerpt": "What did those poor kids do to offend HBO's graphic designers?",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "This film festival logo proves originality isn't dead in graphic design",
-      "url": "https://www.creativebloq.com/news/this-film-festival-logo-proves-originality-isnt-dead-in-graphic-design",
-      "publishedAt": "2026-11-10T10:48:19.000Z",
-      "excerpt": "KIFF's redesigned logo feels fresh and alive.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16444,6 +16088,15 @@
       "category": "Design"
     },
     {
+      "title": "Researchers in Ethiopia Discover Male Donkey and Bull in Committed Relationship",
+      "url": "https://www.them.us/news/patroclo-achille-donkey-bull-love",
+      "publishedAt": "2026-11-11T19:12:57.000Z",
+      "excerpt": "Some pretty gay interspecies behavior has been spotted in the Ethiopian Highlands. The pairing? A male donkey, Patroclo, and a bull, Achille, who are named after the ancient Greek heroes, Patroclus and Achilles, known for their affectionate relationship in Homer’s Iliad . As CNN reported, citing a n",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "\"Transition Regret” Is Extremely Rare, According to Study",
       "url": "https://www.them.us/answers-and-advice/health/transition-regret-extremely-rare",
       "publishedAt": "2026-11-11T18:22:32.000Z",
@@ -16511,6 +16164,15 @@
       "url": "https://www.them.us/politics/veggietales-phil-vischer-god-nonbinary",
       "publishedAt": "2026-11-10T17:16:34.000Z",
       "excerpt": "Phil Vischer, the co-creator of the Christian-themed animated series VeggieTales , pointed out that God doesn’t have a gender according to Biblical canon. Naturally, transphobes are absolutely losing it. After Texas Democrat James Talarico easily won his bid for U.S. Senate in a “blue wave” of midte",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How Do Ordinary People Change the World? These New York City AIDS Activists Left a Record",
+      "url": "https://www.them.us/culture/act-up-oral-history-project",
+      "publishedAt": "2026-11-10T16:16:34.000Z",
+      "excerpt": "This story originally appeared on The Advocate . Sarah Schulman and Jim Hubbard both knew personally the devastation that the AIDS crisis had on New York City . As early members of the activist group ACT UP New York , they also saw firsthand the success of social justice movements launched in its wa",
       "source": "Them",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16606,24 +16268,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Nearly 40% of Single Gen Zers Are Celibate. How to Practice Intentional Celibacy",
-      "url": "https://www.them.us/answers-and-advice/sex-and-relationships/intentional-celibacy",
-      "publishedAt": "2026-11-06T20:09:01.000Z",
-      "excerpt": "Reports about the death of Gen Z’s sex life have not been exaggerated: About 37% of single Gen Zers are now celibate, according to a survey by the Kinsey Institute and ModernDating.com . You’d think that at a time when we have more access to sex education , hookup apps , and a greater understanding ",
-      "source": "Them",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Meet the Weed-Growing Transgender Daughter of Immigrants Who Just Made Florida Electoral History",
-      "url": "https://www.them.us/politics/quinnie-perez-florida-transgender-history",
-      "publishedAt": "2026-11-06T19:45:25.000Z",
-      "excerpt": "This story originally appeared on The Advocate . A cannabis worker and daughter of immigrants just won election as Florida’s first out transgender elected official. Quinnie Perez, a trans woman, was the top vote-getter in a three-person race for a relatively low-profile post on Orange County’s Soil ",
-      "source": "Them",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "Gird Your Loins: A Heated Rivalry Monopoly Game Is Coming",
       "url": "http://www.thecut.com/article/heated-rivalry-monopoly-board-game.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-11T18:16:06.000Z",
@@ -16637,6 +16281,15 @@
       "url": "http://www.curbed.com/article/interior-design-books-magazines-recommendations-for-scale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-11T17:16:33.000Z",
       "excerpt": "For Scale’s David Michon chats interior design and the state of publishing on the occasion of a décor book pop-up.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Stephen Miller’s Big Plan Is to Bring Back Men",
+      "url": "http://nymag.com/intelligencer/article/stephen-millers-big-plan-is-to-bring-back-men.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-11T16:59:23.000Z",
+      "excerpt": "Trump’s new White House chief of staff wants to go alpha on affordability and double down on the war on woke.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16790,15 +16443,6 @@
       "url": "http://www.vulture.com/article/lord-of-the-rings-the-rings-of-power-recap-season-3-episode-1-prime-video.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-11T09:00:17.000Z",
       "excerpt": "The war has continued to rage in between seasons, and the premiere reveals that things have been going pretty well for Sauron.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "VisionQuest Season-Finale Recap: Reprogramming",
-      "url": "http://www.vulture.com/article/visionquest-recap-episode-8-forever-disney-mcu-finale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-11T03:00:47.000Z",
-      "excerpt": "The finale rushes through all its themes, jokes, and action sequences toward an ending that feels messy and unsatisfying.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17056,10 +16700,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Lasting Influence of John Berger",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
       "publishedAt": "2026-11-09T11:00:00.000Z",
-      "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+      "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17074,19 +16718,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "After the War, They Turned the Cameras on Themselves, in “Allies in Exile”",
-      "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/after-the-war-they-turned-the-cameras-on-themselves-in-allies-in-exile",
+      "title": "The Lasting Influence of John Berger",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
       "publishedAt": "2026-11-09T11:00:00.000Z",
-      "excerpt": "Displaced by war, two Syrian filmmakers, Hasan Kattan and Fadi al-Halabi, document their wait for asylum in the U.K., forging a friendship through storytelling amid rising anti-immigrant protests.",
+      "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Briefly Noted Book Reviews",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
+      "title": "After the War, They Turned the Cameras on Themselves, in “Allies in Exile”",
+      "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/after-the-war-they-turned-the-cameras-on-themselves-in-allies-in-exile",
       "publishedAt": "2026-11-09T11:00:00.000Z",
-      "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
+      "excerpt": "Displaced by war, two Syrian filmmakers, Hasan Kattan and Fadi al-Halabi, document their wait for asylum in the U.K., forging a friendship through storytelling amid rising anti-immigrant protests.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17146,10 +16790,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "“Wicker” and What Straight Women Want",
-      "url": "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+      "title": "How France Took Over Basketball",
+      "url": "https://www.newyorker.com/culture/the-lede/how-france-took-over-basketball",
       "publishedAt": "2026-11-07T11:00:00.000Z",
-      "excerpt": "The monster-romance movie, starring Olivia Colman and Alexander Skarsgård, is a Chaucerian romp, and, at times, it is even sexy. But one wishes the film were braver—that it had more to say about the grotesque and its power to drive attraction.",
+      "excerpt": "The country spent decades building a development system to cultivate the tallest and most talented kids. Now the best player in the world is French, and its national team poses a serious threat to U.S. Olympic dominance.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17284,6 +16928,14 @@
       "category": "Culture"
     },
     {
+      "title": "How ‘Godzilla Minus Zero’ Dominated the Box Office: GKIDS Chief on IMAX’s Impact and the Growing Market for Foreign-Language Movies",
+      "url": "https://www.indiewire.com/features/interviews/godzilla-minus-zero-box-office-gkids-imax-1235226577/",
+      "publishedAt": "2026-11-11T19:30:00.000Z",
+      "excerpt": "In an interview with IndieWire, the distributor's president Dave Jesteadt credits younger audiences and premium large-formats for building the record opening.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
       "title": "Democrats Won. When Do Hollywood Crews Get Back to Work?",
       "url": "https://www.indiewire.com/features/interviews/hollywood-jobs-after-midterms-film-tax-credits-1235226539/",
       "publishedAt": "2026-11-11T18:00:00.000Z",
@@ -17368,14 +17020,6 @@
       "url": "https://www.indiewire.com/news/events/indiewire-future-of-filmmaking-video-contest-2026-1235225520/",
       "publishedAt": "2026-11-10T23:46:00.000Z",
       "excerpt": "A three-minute Instagram reel could be all it takes to attend Cannes, Venice, SXSW, or SXSW London with IndieWire.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "Why Ari Aster and Lars Knudsen’s Square Peg Built a Therapy Circle for Hollywood’s Next Generation in Texas",
-      "url": "https://www.indiewire.com/features/interviews/square-peg-social-2026-ari-aster-lance-oppenheim-1235226526/",
-      "publishedAt": "2026-11-10T22:00:00.000Z",
-      "excerpt": "IndieWire talks to the mentors and participants behind the second year of Square Peg Social, which offers four days of not only panels and one-on-ones with top filmmakers, but also camaraderie and commiseration for those who've just begun their careers.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -17740,6 +17384,22 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Democrats are at Cop31 to show that the US has not abandoned the fight against climate change",
+      "url": "https://theconversation.com/democrats-are-at-cop31-to-show-that-the-us-has-not-abandoned-the-fight-against-climate-change-296218",
+      "publishedAt": "2026-11-11T17:31:32.000Z",
+      "excerpt": "Democratic control of Congress means they have more power to challenge Trump’s environmental stance.",
+      "source": "The Conversation",
+      "category": "Society"
+    },
+    {
+      "title": "Cabo Verde’s presidential election: the stakes in one of Africa’s most stable democracies",
+      "url": "https://theconversation.com/cabo-verdes-presidential-election-the-stakes-in-one-of-africas-most-stable-democracies-295763",
+      "publishedAt": "2026-11-11T13:19:33.000Z",
+      "excerpt": "The presidential election will test party loyalties and voters’ expectations of the presidency, as well as its role in the political system.",
+      "source": "The Conversation",
+      "category": "Society"
+    },
+    {
       "title": "Economic coercion once ousted Iran’s leader – but that was the 1950s; don’t expect a repeat today",
       "url": "https://theconversation.com/economic-coercion-once-ousted-irans-leader-but-that-was-the-1950s-dont-expect-a-repeat-today-294628",
       "publishedAt": "2026-11-10T13:36:36.000Z",
@@ -17808,14 +17468,6 @@
       "url": "https://theconversation.com/we-need-to-talk-about-meta-political-interference-and-interests-in-the-brazilian-elections-296102",
       "publishedAt": "2026-11-06T17:53:34.000Z",
       "excerpt": "The company’s actions show that, above users’ rights, public interest, and democracy itself, prevails its economic interests and the maximization of their profits",
-      "source": "The Conversation",
-      "category": "Society"
-    },
-    {
-      "title": "The Cop31 climate summit is betting on electrification – but still needs a plan to ditch fossil fuels",
-      "url": "https://theconversation.com/the-cop31-climate-summit-is-betting-on-electrification-but-still-needs-a-plan-to-ditch-fossil-fuels-295493",
-      "publishedAt": "2026-11-06T17:02:53.000Z",
-      "excerpt": "Electrification alone won’t deliver a clean energy transition. Two major challenges remain.",
       "source": "The Conversation",
       "category": "Society"
     },
@@ -17892,11 +17544,11 @@
       "category": "Society"
     },
     {
-      "title": "The Binance hack exploited familiar weaknesses – all organisations should learn from it",
-      "url": "https://theconversation.com/the-binance-hack-exploited-familiar-weaknesses-all-organisations-should-learn-from-it-295627",
-      "publishedAt": "2026-11-05T08:24:35.000Z",
-      "excerpt": "The hackers compromised a laptop belonging to an IT engineer, according to Binance.",
-      "source": "The Conversation",
+      "title": "A Look at Catholics in Latin America as Pope Leo Visits",
+      "url": "https://www.pewresearch.org/newsletter/religion-weekly/religion-weekly-update-nov-11-2026/",
+      "publishedAt": "2026-11-11T20:00:00.000Z",
+      "excerpt": "Religion & Public Life A weekly digest of the Center’s latest research on religion and public life in the U.S. and around the world · Subscribe ↗ Media mentions Pope Leo readies to visit a Latin America where Catholicism is on the declineNov. 4 – Reuters * In the news Could Texas repeal abortion ban",
+      "source": "Pew Research Center",
       "category": "Society"
     },
     {
@@ -18048,14 +17700,6 @@
       "url": "https://www.pewresearch.org/newsletter/the-briefing/the-briefing-10-29-2026/",
       "publishedAt": "2026-10-29T18:57:00.000Z",
       "excerpt": "The Briefing ☀️ Happy Thursday! The Briefing is your guide to the world of news and information. Sign up here! In today’s email: 🔥 Featured story Artificial intelligence is now integrated into not only chatbots but also major social media platforms and search engines. This is raising questions abou",
-      "source": "Pew Research Center",
-      "category": "Society"
-    },
-    {
-      "title": "On Facebook and Instagram, Political Ads Are Increasingly Critical of Data Centers",
-      "url": "https://www.pewresearch.org/short-reads/2026/10/29/on-facebook-and-instagram-political-ads-are-increasingly-critical-of-data-centers/",
-      "publishedAt": "2026-10-29T16:53:50.000Z",
-      "excerpt": "Political ads about data centers on Facebook and Instagram have turned increasingly critical, with 57% opposed and just 3% supportive ahead of the midterms.",
       "source": "Pew Research Center",
       "category": "Society"
     },
@@ -18468,10 +18112,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Building The New Equilibrium Economy",
+      "title": "How Aristotle Anticipated The AI Era",
       "url": "https://www.noemamag.com/building-the-new-equilibrium-economy",
       "publishedAt": "2026-11-05T14:53:38.000Z",
-      "excerpt": "The post Building The New Equilibrium Economy appeared first on NOEMA .",
+      "excerpt": "The post How Aristotle Anticipated The AI Era appeared first on NOEMA .",
       "source": "Noema",
       "category": "Society",
       "sourceRole": "publisher"
@@ -19386,6 +19030,14 @@
       "category": "Arts"
     },
     {
+      "title": "Celebrating 50 Years of 3RRR, Melbourne’s Iconic Community Radio Station",
+      "url": "https://daily.bandcamp.com/features/3rrr-50th-anniversary-feature",
+      "publishedAt": "2026-11-11T19:03:48.000Z",
+      "excerpt": "Melbourne's raucous, seminal, and signal-boosting community radio station celebrates five decades of boosting independent music. Read full story on the Bandcamp Daily .",
+      "source": "Bandcamp Daily",
+      "category": "Arts"
+    },
+    {
       "title": "Chastity Belt, “All My Friends”",
       "url": "https://daily.bandcamp.com/album-of-the-day/chastity-belt-all-my-friends-review",
       "publishedAt": "2026-11-11T15:01:08.000Z",
@@ -19534,14 +19186,6 @@
       "url": "https://daily.bandcamp.com/scene-report/nepal-metal-scene-report",
       "publishedAt": "2026-11-03T18:32:48.000Z",
       "excerpt": "In the shadow of the Himalayas, a fiercely independent scene is making a righteous noise. Read full story on the Bandcamp Daily .",
-      "source": "Bandcamp Daily",
-      "category": "Arts"
-    },
-    {
-      "title": "The Best Ambient Music on Bandcamp, October 2026",
-      "url": "https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-october-2026",
-      "publishedAt": "2026-11-03T14:43:34.000Z",
-      "excerpt": "Our guide to the month’s crucial ambient LPs. Read full story on the Bandcamp Daily .",
       "source": "Bandcamp Daily",
       "category": "Arts"
     },
@@ -23086,6 +22730,16 @@
       "category": "Philosophy"
     },
     {
+      "title": "Scientists have identified a new species of penguin, the...",
+      "url": "https://kottke.org/26/11/0049955-scientists-have-identifie",
+      "publishedAt": "2026-11-11T20:04:00.000Z",
+      "excerpt": "Scientists have identified a new species of penguin , the first in 100 years. “Genetic evidence shows that what scientists once treated as a single, widely distributed gentoo penguin species is actually made up of four separate species.”",
+      "source": "Kottke",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Kottke"
+    },
+    {
       "title": "What Will Starting a Creative Career Look Like in the...",
       "url": "https://kottke.org/26/11/0049969-what-will-starting-a-crea",
       "publishedAt": "2026-11-11T19:15:00.000Z",
@@ -23270,16 +22924,6 @@
       "url": "https://kottke.org/26/11/0049953-computer-chips-are-the-mo",
       "publishedAt": "2026-11-09T17:45:00.000Z",
       "excerpt": "Computer Chips Are the Most Magnificent Things Humanity Has Ever Made . “The phone in your pocket is several orders of magnitude more sophisticated than the computers used for the Apollo mission. One AirPod could easily calculate a path to the moon.”",
-      "source": "Kottke",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Kottke"
-    },
-    {
-      "title": "A YouTuber discovered that most videos contain inaudible...",
-      "url": "https://kottke.org/26/11/0049951-most-videos-contain-inaud",
-      "publishedAt": "2026-11-09T16:55:00.000Z",
-      "excerpt": "A YouTuber discovered that most videos contain inaudible background audio that can be geolocated by using airplane flight data . Incredible. I wonder how long the NSA has known about this though…",
       "source": "Kottke",
       "category": "Discover",
       "sourceRole": "curator",
@@ -24185,6 +23829,22 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "元華晚年移居溫哥華：享受孫兒圍繞的清閑退休生活",
+      "url": "https://hk01.com/sns/article/60408223",
+      "publishedAt": "2026-11-11T20:00:03.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "沙田女子屋內暈倒 母親報案求助 送院搶救不治",
+      "url": "https://hk01.com/sns/article/60409806",
+      "publishedAt": "2026-11-11T19:42:12.000Z",
+      "excerpt": "沙田有人猝死。昨晚（11日）11時許，一名45歲林姓女子在沙田正街11至17號偉華中心住所暈倒，母親見狀報案。 救護員接報到場，林女昏迷被送往威爾斯親王醫院進行搶救，其後被證實死亡。女事主死因有待驗屍後確定。 據了解，林女有身體病紀錄。 女事主昏迷被送往威爾斯親王醫院進行搶救，其後被證實死亡。（資料圖片）",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "美國中期選舉｜白宮致函民主黨眾議員 部份調查或構成犯罪",
       "url": "https://hk01.com/sns/article/60409805",
       "publishedAt": "2026-11-11T19:13:08.000Z",
@@ -24249,22 +23909,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "俄羅斯駐美大使達爾奇耶夫突然去世 終年66歲",
-      "url": "https://hk01.com/sns/article/60409798",
-      "publishedAt": "2026-11-11T17:10:41.000Z",
-      "excerpt": "俄羅斯外交部11月11日（周三）宣布，俄羅斯駐美國大使達爾奇耶夫（Alexander Darchiyev）於周三突然逝世，終年66歲。他在去年3月被普京（Vladimir Putin）任命為新駐美大使，任職時長不到兩年。 俄外交部在一份聲明中表示，「俄羅斯外交部領導和全體工作人員懷着沉痛的心情宣布，俄羅斯駐美國特命全權大使達爾奇耶夫於11月11日突然去世，終年66歲。」 俄羅斯駐美國大使達爾奇耶夫（Alexander Darchiyev）。（Reuters） 據俄外交部稱，達爾奇耶夫「是一位傑出的外交官、一位經驗豐富的領導者、一位和藹可親的朋友和一位良師益友」。外交部強調，「達爾奇耶夫是一位技",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "警聯同入境處旺角打擊非法勞工 18女被捕 年紀最輕19歲",
-      "url": "https://hk01.com/sns/article/60409796",
-      "publishedAt": "2026-11-11T17:09:56.000Z",
-      "excerpt": "警方表示，旺角警區聯同入境處根據線報及深入調查，昨日（11日）在區內展開代號「冠軍」的跨部門反非法入境者及非法勞工行動，突擊巡查區內多個地點。 行動中，14名內地女子及4名外籍女子，年齡介乎19歲至48歲，涉嫌「違反逗留條件」被捕。所有被捕人現正被扣留調查，部分被捕人稍後將交由入境處跟進。 據了解，所有涉案內地女子持雙程證到港，至於4名外籍女子分別來自泰國、菲律賓和印尼，均持護照入境。 執法人員拘捕多人。（警方提供）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "港珠澳大橋香港段半馬拉松周日舉行 特別交通安排周六起分段實施",
       "url": "https://hk01.com/sns/article/60409792",
       "publishedAt": "2026-11-11T16:37:20.000Z",
@@ -24285,6 +23929,14 @@
       "url": "https://hk01.com/sns/article/60409711",
       "publishedAt": "2026-11-11T14:22:48.000Z",
       "excerpt": "【GTA6／PS5／PlayStation／俠盜獵車手6】全球玩家矚目的遊戲大作《Grand Theft Auto VI》（GTA6／俠盜獵車手6）下周四（19日）推出，網傳近月引起新一輪的炒機熱潮。《香港01》記者今日（11日）到深水埗黃金電腦商場觀察，發現PS5 Pro遊戲主機最貴索價1.2萬元，遠高於官方零售價的6,502元，即高出84.6%。 有商戶解釋，來貨價遠高於官方零售價，因而只能高價出售遊戲主機。也有商戶稱，GTA6公布正式推出後，PS5主機的銷量升兩倍，直至最近銷情逐漸回落，預料售價也將會下降。 深水埗黃金電腦商場一樓有多間商戶出售PS5等遊戲主機。（林曉儀攝） 深水埗黃金電",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "成人展取消｜主辦去年成立老闆做設計倉存生意 上月增三內地股東",
+      "url": "https://hk01.com/sns/article/60409773",
+      "publishedAt": "2026-11-11T14:05:40.000Z",
+      "excerpt": "【成人展／女優／MEGA FANS EXPO／KKDAY／MFE】香港首個大型成人展「MEGA FANS EXPO 2026」原訂於本月13日至15日在富豪機場酒店舉行，有日本AV女優稱遭拒絕入境，活動已取消。 主辦方為在2025年9月成立的「亞洲娛樂集團」，蔡偉森為唯一股東兼董事，為十間公司董事，部份業務為設計、生產及倉存的一條龍生意。記者翻查資料，「香港成人展」新聞稿最早在10月中公布，公司在公布10日後便新增三名內地股東。 香港首個大型成人展原訂於今年11月13日至15日，一連三天於香港富豪機場酒店舉行。 董事為蔡偉森 有設計、生產及倉存生意 香港首個大型成人展「MEGA FANS EX",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24333,14 +23985,6 @@
       "url": "https://hk01.com/sns/article/60409627",
       "publishedAt": "2026-11-11T09:52:47.000Z",
       "excerpt": "已故全國政協副主席霍英東孫兒、現任霍英東集團副主席霍啟山與29歲俄蒙混血女星娜然（Narána Erdynéyeva）近年屢傳好事近。今日（11日）兩人的結婚喜帖正式曝光，確認將於12月12日下午4時半至7時半假香港灣仔君悅酒店宴會大禮堂舉行結婚酒會。隨着二公子成家立室，霍震霆與朱玲玲的三名兒子均已各自組織家庭，為霍家再添喜事。 霍啟山與娜然兩人的結婚喜帖正式曝光。（網上圖片 ） 霍啟山雙十二設宴迎娶娜然 2015年，當時18歲的娜然赴港簽約成為霍啟山入股的模特兒公司旗下藝人，初期二人僅止於工作往來，私下並無太多接觸。2016年10月，娜然受邀擔任周杰倫熱門歌曲〈告白氣球〉的MV女主角，清新甜",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "周慧賢涉被殺 被告稱因債台高築臨自殺邊緣 想離世前再見周數面",
-      "url": "https://hk01.com/sns/article/60409644",
-      "publishedAt": "2026-11-11T08:36:00.000Z",
-      "excerpt": "瑜伽導師周慧賢(Aqua Chow)身中逾40刀伏屍麗思卡爾頓酒店房案，其前男友勞浚銘涉謀殺（HCCC148/2024）的審訊繼續，勞今（10日）在高等法院自辯時，交代他在事發前與周的最後相處。 勞稱他當時債台高築，常被追債，已萌生自殺念頭，在他瀕臨自殺邊緣時，突想起他最愛的女人Aqua(周)。他於是再與周聯絡，並相約食飯，他更請周食飯花了約5千元，又給周6萬元當禮物。他指周收款後很開心，更問他：「想唔想要多個女朋友？」他認為周是問他要否做周的情人。 勞稱當時死意已決，他只想臨終前再多見周幾面，並計劃在周離港後自殺。 被告勞浚銘（洋名Alex，被起訴時28 歲）被控一項謀殺罪。控罪指，被告於 ",
       "source": "香港01",
       "category": "Hong Kong"
     },

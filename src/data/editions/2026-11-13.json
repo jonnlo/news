@@ -2,11 +2,20 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-13",
-  "generatedAt": "2026-11-12T20:17:11.580Z",
-  "collectedAt": "2026-11-12T20:17:11.580Z",
+  "generatedAt": "2026-11-12T20:51:54.003Z",
+  "collectedAt": "2026-11-12T20:51:54.003Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourceErrors": [],
+  "sourceErrors": [
+    {
+      "source": "Sidebar",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "source": "The Quietus",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -42,13 +51,13 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50472260"
         },
         {
-          "title": "Rust 1.100.0",
-          "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
-          "publishedAt": "2026-11-12T18:24:06.000Z",
+          "title": "Rust 1.100",
+          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "publishedAt": "2026-11-12T18:39:05.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50471793"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
         },
         {
           "title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
@@ -114,15 +123,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50471281"
         },
         {
-          "title": "Paths in Pieces",
-          "url": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
-          "publishedAt": "2026-11-12T17:19:39.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50470762"
-        },
-        {
           "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
           "url": "https://github.com/simpsoka/zigzag",
           "publishedAt": "2026-11-12T17:02:42.000Z",
@@ -139,6 +139,15 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50470445"
+        },
+        {
+          "title": "Show HN: Apron Chat Protocol",
+          "url": "https://apron.chat/",
+          "publishedAt": "2026-11-12T16:52:31.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50470343"
         },
         {
           "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
@@ -168,15 +177,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
         },
         {
-          "title": "Fitting Four 32 GB Resizable Bars Behind a PCIe Switch on Linux",
-          "url": "https://doug.sh/posts/gpu-bars-behind-a-pcie-switch/",
-          "publishedAt": "2026-11-12T15:14:52.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50468720"
-        },
-        {
           "title": "Abandoned Quake 4 expansion finished by modders and now playable",
           "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
           "publishedAt": "2026-11-12T14:18:49.000Z",
@@ -193,6 +193,15 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50467460"
+        },
+        {
+          "title": "Libreagi – Save OSS Models",
+          "url": "https://libreagi.com/",
+          "publishedAt": "2026-11-12T14:11:58.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50467439"
         }
       ]
     },
@@ -202,6 +211,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Microsoft Outlook is down",
+          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+          "publishedAt": "2026-11-12T20:43:02.000Z",
+          "excerpt": "Over the last hour or so, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft has acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing ele",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Meet the people who want peptides to be made in America",
           "url": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
@@ -215,14 +232,6 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
           "publishedAt": "2026-11-12T19:42:40.000Z",
           "excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked cr",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "Microsoft Outlook is down",
-          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-          "publishedAt": "2026-11-12T19:07:21.000Z",
-          "excerpt": "Over the last hour or so, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft has acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing ele",
           "source": "The Verge",
           "category": "Technology"
         },
@@ -370,6 +379,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
+          "url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
+          "publishedAt": "2026-11-12T20:35:11.000Z",
+          "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
           "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
@@ -521,14 +538,6 @@
           "excerpt": "The holiday is still two weeks out, but this MacBook Air discount may be the must-buy laptop deal of the season.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "Walking Pad Deals to Shop Ahead of Black Friday (2026)",
-          "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-11-26/",
-          "publishedAt": "2026-11-12T01:53:24.000Z",
-          "excerpt": "Don’t let cold weather stop you from getting your steps in. These under-desk treadmills are already marked down.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ]
     },
@@ -539,7 +548,7 @@
       "count": 20,
       "stories": [
         {
-          "title": "Ars Live: Can the cloud survive drone strikes on data centers?",
+          "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
           "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
           "publishedAt": "2026-11-12T19:59:59.000Z",
           "excerpt": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
@@ -704,8 +713,16 @@
       "name": "MIT Technology Review",
       "category": "Technology",
       "kind": "rss",
-      "count": 19,
+      "count": 20,
       "stories": [
+        {
+          "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "publishedAt": "2026-11-12T20:16:24.000Z",
+          "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that the tracking requirements of his Chip Security Act meant to combat smuggling were technically possible, Foster told MIT Technology Review in an interview on Thursday, even while its industry group claimed they were “potentiall",
+          "source": "MIT Technology Review",
+          "category": "Technology"
+        },
         {
           "title": "The Download: COP31’s climate challenge and the quest for immortality",
           "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
@@ -867,6 +884,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "Jensen Huang was having a third affair, Reuters reports",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "publishedAt": "2026-11-12T20:26:47.000Z",
+          "excerpt": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
           "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
           "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
           "publishedAt": "2026-11-12T19:27:45.000Z",
@@ -1017,14 +1042,6 @@
           "excerpt": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-          "publishedAt": "2026-11-11T23:28:45.000Z",
-          "excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ]
     },
@@ -1034,6 +1051,15 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "Google’s Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
+          "url": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
+          "publishedAt": "2026-11-12T20:19:32.000Z",
+          "excerpt": "Google has launched Gemini 4 Hydrogen, a fast, lower-cost model for coding and AI agents. It is available to everyone in the Gemini app and Search, and to developers at $1.50 per million input tokens. Google says it nearly matches its flagship Argon. Google has launched Gemini 4 Hydrogen, a faster a",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "AMD plans to invest in PsiQuantum as they team up on quantum computers",
           "url": "https://thenextweb.com/news/psiquantum-amd-partnership-equity-investment-quantum",
@@ -1111,15 +1137,6 @@
           "url": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
           "publishedAt": "2026-11-12T17:55:22.000Z",
           "excerpt": "OpenAI’s revenue reached $10bn in the third quarter, up almost 50% from the second, The Information reported. OpenAI shared the figures with investors on Tuesday. Demand for its newer models and enterprise products had picked up, Valida Pau and Jemima McEvoy wrote, citing a person familiar with the ",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "SpaceX plans $74B of AI computing centres in Arizona and Texas",
-          "url": "https://thenextweb.com/news/spacex-74b-ai-computing-centers-arizona-texas",
-          "publishedAt": "2026-11-12T17:54:21.000Z",
-          "excerpt": "SpaceX plans to spend $74B on two AI supercomputing sites: a $50B campus in Cochise County, Arizona, and a $24B site with its own gas power plant near Starbase, Texas. It now sells computing power to Anthropic and Google, but faces local pushback in Arizona. SpaceX plans to spend $74B on two AI supe",
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1276,6 +1293,17 @@
       "count": 15,
       "stories": [
         {
+          "title": "Sources: SpaceX and Tesla are progressing in their merger negotiations and could announce a deal as soon as December or early 2027 (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress",
+          "publishedAt": "2026-11-12T20:28:00.000Z",
+          "excerpt": "Bloomberg : Sources: SpaceX and Tesla are progressing in their merger negotiations and could announce a deal as soon as December or early 2027 &nbsp; &mdash;&nbsp; SpaceX and Tesla Inc. are progressing in their merger negotiations, setting the stage for a combination that could redefine the limits o",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261112/p53#a261112p53",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
           "title": "Sources: Jensen Huang had an intimate relationship with a second employee; revelations about two other extramarital affairs led to his resignation (Reuters)",
           "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
           "publishedAt": "2026-11-12T19:46:11.000Z",
@@ -1426,17 +1454,6 @@
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261112/p39#a261112p39",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Trump says Tim Cook is the \"only one man\" to replace Jensen Huang as Nvidia CEO, adding \"A Legend replaces a Legend!\" and Huang \"has done a fantastic job\" (Zac Hall/9to5Mac)",
-          "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
-          "publishedAt": "2026-11-12T16:05:00.000Z",
-          "excerpt": "Zac Hall / 9to5Mac : Trump says Tim Cook is the &ldquo;only one man&rdquo; to replace Jensen Huang as Nvidia CEO, adding &ldquo;A Legend replaces a Legend!&rdquo; and Huang &ldquo;has done a fantastic job&rdquo; &nbsp; &mdash;&nbsp; Jensen Huang is out as CEO of NVIDIA after reported love affairs wi",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261112/p38#a261112p38",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
         }
@@ -2690,209 +2707,8 @@
       "name": "Sidebar",
       "category": "Design",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "Design is a search problem",
-          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
-          "publishedAt": "2026-11-12T11:26:27.000Z",
-          "excerpt": "Most of what we call ‘design’ is groping around a dark room looking for a black cat.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Airline Logos",
-          "url": "https://www.logohistories.com/p/airline-logos",
-          "publishedAt": "2026-11-12T11:24:14.000Z",
-          "excerpt": "From Lufthansa’s crane to United’s tulip, the stories behind twelve airline logos designed for the jet age.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "I made a film in Excel",
-          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
-          "publishedAt": "2026-11-12T11:23:46.000Z",
-          "excerpt": "A testament to the inescapable pull of making something out of nothing.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "State of JavaScript 2026",
-          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
-          "publishedAt": "2026-11-12T11:21:55.000Z",
-          "excerpt": "Take the State of JavaScript survey: a programming language that grew up much, much bigger than anybody ever anticipated.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "By taking away",
-          "url": "https://haydenbleasel.com/taking-away",
-          "publishedAt": "2026-11-12T11:20:24.000Z",
-          "excerpt": "Software used to be made like a painting, one layer at a time. With agents, it’s closer to sculpture, and the hard part is seeing what to keep.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Don’t make a human do what AI is amazing at",
-          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-          "publishedAt": "2026-11-11T06:35:14.000Z",
-          "excerpt": "How Nunebot makes my apps a little better every day without me doing the tedious parts.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "1 in 8 billion",
-          "url": "https://1in8b.life/en/",
-          "publishedAt": "2026-11-11T06:33:56.000Z",
-          "excerpt": "Become one of the babies being born right now and live their whole life inside the real statistics of 172 countries and territories.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "A family tree of software job titles",
-          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "publishedAt": "2026-11-11T06:33:29.000Z",
-          "excerpt": "If you’ve been in this industry for any length of time you’ll have seen titles come and go, and you might have wondered where they all came from.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "The components of agent memory",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory",
-          "publishedAt": "2026-11-11T06:32:11.000Z",
-          "excerpt": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "There’s no better name for design systems",
-          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "publishedAt": "2026-11-11T06:31:39.000Z",
-          "excerpt": "How to talk about design systems across functions.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Please use AI",
-          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
-          "publishedAt": "2026-11-10T07:34:44.000Z",
-          "excerpt": "Be sure to use AI when making.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "TK",
-          "url": "https://tk.xyz/",
-          "publishedAt": "2026-11-10T07:33:00.000Z",
-          "excerpt": "A new way to write from Medium. The more you write, the better it gets.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Blossom carousel",
-          "url": "https://blossom-carousel.com/",
-          "publishedAt": "2026-11-10T07:32:33.000Z",
-          "excerpt": "Enhance native scrolling with dragging instead of replacing it.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "What product strategy does",
-          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "publishedAt": "2026-11-10T07:32:00.000Z",
-          "excerpt": "On maintaining and rebuilding critical relationships.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Customer or product?",
-          "url": "https://customerorproduct.org/",
-          "publishedAt": "2026-11-10T07:31:09.000Z",
-          "excerpt": "Sort the apps your family uses and see the price you can’t see.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Vote in Readymag Websites of the Year 2026",
-          "url": "https://bit.ly/side-mag5",
-          "publishedAt": "2026-11-09T05:05:00.000Z",
-          "excerpt": "The award spotlights inventive projects made with Readymag, a design tool for creating outstanding websites. Explore the shortlist and vote.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Otherwise you’re just a machine",
-          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5",
-          "publishedAt": "2026-11-09T05:04:00.000Z",
-          "excerpt": "AI is getting better at design. Designers should too.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "What does design system AI readiness mean, anyway?",
-          "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "publishedAt": "2026-11-09T05:03:00.000Z",
-          "excerpt": "Maybe it’s less about machine-legible artifacts and more about where humans stay in the loop.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "edge-aura",
-          "url": "https://edge-aura.js.org/",
-          "publishedAt": "2026-11-09T05:02:00.000Z",
-          "excerpt": "An organic glow that hugs the edge of your screen. Zero-dependency Canvas 2D engine with a thin React adapter.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        },
-        {
-          "title": "Site Seeing",
-          "url": "https://ishadeed.com/article/beyond-the-viewport/",
-          "publishedAt": "2026-11-09T05:01:00.000Z",
-          "excerpt": "See how a web page will behave in different contexts that force unusual viewport sizes.",
-          "source": "Sidebar",
-          "category": "Design",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Sidebar"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "Creative Boom",
@@ -3858,6 +3674,24 @@
           "sourceRole": "publisher"
         },
         {
+          "title": "We Don’t Need to Reboot DC Again",
+          "url": "http://www.vulture.com/article/david-ellison-dont-reboot-dc-again-after-james-gunn.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-12T19:00:07.000Z",
+          "excerpt": "A few words of advice for David Ellison & Co.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Jen Affleck Says Zac Gambled Over $100,000 Behind Her Back",
+          "url": "http://www.vulture.com/article/jen-affleck-secret-lives-of-mormon-wives-oc-divorce-gambling.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-12T19:00:07.000Z",
+          "excerpt": "The Secret Lives of Mormon Wives: Orange County star says his financial dishonesty was the final straw in their marriage.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "26 Travel Gift Ideas for the Frequent Flier in Your Life",
           "url": "http://www.thecut.com/article/best-travel-gift-ideas.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-12T18:45:00.000Z",
@@ -3876,7 +3710,7 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "His Name Is Roger Taylor and He Just Quit Duran Duran",
+          "title": "His Name Is Roger Taylor, and He Just Quit Duran Duran",
           "url": "http://www.vulture.com/article/roger-taylor-quits-duran-duran-severe-tinnitus.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-12T18:21:41.000Z",
           "excerpt": "“The truth is that my tinnitus has been getting steadily worse, and I’ve reached the point where I must now listen to my body and my doctors.”",
@@ -4006,24 +3840,6 @@
           "url": "http://www.thecut.com/article/ariana-grande-ricky-alvarez-focker-in-law-premiere.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-12T14:25:11.000Z",
           "excerpt": "The couple looked very into each other at the Focker-in-Law premiere.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Jensen Huang’s Leather Jackets Confessed Before He Did",
-          "url": "http://www.thecut.com/article/jensen-huangs-leather-jackets-confessed-before-he-did.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-12T14:22:00.000Z",
-          "excerpt": "Are we surprised the guy in $9,000 Tom Ford outerwear cheated on his wife?",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Rosamund Pike Doesn’t Flinch",
-          "url": "http://www.vulture.com/article/rosamund-pike-inter-alia-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-12T14:00:07.000Z",
-          "excerpt": "In her Broadway debut, the star of Inter Alia stares down society’s problems: “They don’t know how fucking hard it is.”",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4413,6 +4229,14 @@
       "count": 15,
       "stories": [
         {
+          "title": "Human Rights Orgs Denounce Egypt's Arrest of Mada Masr Editor Lina Attalah",
+          "url": "https://hyperallergic.com/human-rights-orgs-denounce-egypts-arrest-of-mada-masr-editor-lina-attalah/",
+          "publishedAt": "2026-11-12T20:46:03.000Z",
+          "excerpt": "Attalah was accused of publishing false news and operating without a license amid Egyptian authorities’ extensive crackdown on independent press.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
+        {
           "title": "$160,000 Hans Arp Sculpture Stolen From Art Cologne",
           "url": "https://hyperallergic.com/160-000-hans-arp-sculpture-stolen-from-art-cologne/",
           "publishedAt": "2026-11-12T17:38:52.000Z",
@@ -4429,7 +4253,7 @@
           "category": "Culture"
         },
         {
-          "title": "Celebrate Indigenous Cinema and Storytelling with Free Short Films",
+          "title": "Celebrate Indigenous Cinema and Storytelling with Free Films",
           "url": "https://hyperallergic.com/celebrate-indigenous-cinema-and-storytelling-with-free-short-films/",
           "publishedAt": "2026-11-12T16:24:45.000Z",
           "excerpt": "Available for only two weeks, this curated selection of 14 Indigenous films features stories of resilience, inspiration, and hope.",
@@ -4521,14 +4345,6 @@
           "url": "https://hyperallergic.com/free-lyric-tells-the-story-of-a-young-black-female-rapper-cancelled-for-her-provocative-lyrics/",
           "publishedAt": "2026-11-11T15:15:00.000Z",
           "excerpt": "Watch the new documentary by BAFTA award-winning filmmaker Cherish ‘Chez’ Oteka on Field of Vision.",
-          "source": "Hyperallergic",
-          "category": "Culture"
-        },
-        {
-          "title": "Contemporary Beadworker Ken Williams Jr Awarded Rakow Commission by Corning Museum of Glass",
-          "url": "https://hyperallergic.com/contemporary-beadworker-ken-williams-jr-awarded-rakow-commission-by-corning-museum-of-glass/",
-          "publishedAt": "2026-11-11T15:15:00.000Z",
-          "excerpt": "Marking the prize’s 40th year, \"I Am the Hungry Cat\" is the first Rakow Commission awarded for beadwork.",
           "source": "Hyperallergic",
           "category": "Culture"
         }
@@ -4645,6 +4461,33 @@
       "count": 20,
       "stories": [
         {
+          "title": "How science informs author Emily St. John Mandel’s fiction",
+          "url": "https://www.vox.com/podcasts/509975/emily-st-john-mandel-exit-party-science-fiction",
+          "publishedAt": "2026-11-12T20:45:00.000Z",
+          "excerpt": "The world is full of unanswered questions and strange ideas. Do parallel universes exist? What would it look like if a pandemic wiped out life as we know it? Is time travel possible? I host the science podcast Unexplainable, where we often speak to scientists about their attempts to puzzle through l",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The disturbing reality behind America’s milk and cheese — and the fight to end it",
+          "url": "https://www.vox.com/future-perfect/510168/dairy-calves-extreme-confinement-hettinga-lawsuit",
+          "publishedAt": "2026-11-12T20:40:00.000Z",
+          "excerpt": "This story is part of a series supported by Animal Charity Evaluators, which received a grant from EarthShare. Deep-blue, regulation-happy California is not usually imagined as factory farm country. But the state leads the US in agricultural output, and it is, by a wide margin, America’s top produce",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Why the Nvidia CEO’s resignation is so important",
+          "url": "https://www.vox.com/today-explained-newsletter/509593/nvidia-jensen-huang-chinese-spy-affair",
+          "publishedAt": "2026-11-12T20:35:00.000Z",
+          "excerpt": "Editor’s note, November 12, 3:35 pm ET: This story was originally posted on November 9 and is being republished today in light of Jensen Huang’s resignation as Nvidia CEO. The movie version of Jensen Huang’s jaw-dropping affair basically writes itself. Cast BD Wong as 63-year-old Huang, the CEO of o",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Philly fixed a melted interstate in 12 days. Why does everything else take so long?",
           "url": "https://www.vox.com/future-perfect/510138/philadelphia-i-95-collapse-repair-12-days",
           "publishedAt": "2026-11-12T12:00:00.000Z",
@@ -4654,28 +4497,10 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "A little-known law could upend the dairy industry",
-          "url": "https://www.vox.com/future-perfect/510168/dairy-calves-extreme-confinement-hettinga-lawsuit",
-          "publishedAt": "2026-11-11T13:30:00.000Z",
-          "excerpt": "This story is part of a series supported by Animal Charity Evaluators, which received a grant from EarthShare. Deep-blue, regulation-happy California is not usually imagined as factory farm country. But the state leads the US in agricultural output, and it is, by a wide margin, America’s top produce",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "HIV was supposed to kill them. Now they could help scientists find a cure.",
           "url": "https://www.vox.com/future-perfect/506553/hiv-elite-controllers-cure-research",
           "publishedAt": "2026-11-11T11:00:00.000Z",
           "excerpt": "Paul Boakye was 22 when he was diagnosed with HIV. It was winter 1986, five years after the world first became aware of the deadly disease that would become known as acquired immune deficiency syndrome (AIDS). After receiving the news, Boakye was certain he was going to die young. “I distinctly reme",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Why the Nvidia spy scandal is so important",
-          "url": "https://www.vox.com/today-explained-newsletter/509593/nvidia-jensen-huang-chinese-spy-affair",
-          "publishedAt": "2026-11-10T15:05:00.000Z",
-          "excerpt": "This story appeared in Today, Explained, a daily newsletter that helps you understand the most compelling news and stories of the day. Subscribe here. The movie version of Jensen Huang’s jaw-dropping affair basically writes itself. Cast BD Wong as 63-year-old Huang, the CEO of one of the world’s mos",
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4811,15 +4636,6 @@
           "url": "https://www.vox.com/even-better/23380646/create-best-halloween-costume-cheap-diy",
           "publishedAt": "2026-10-29T14:15:00.000Z",
           "excerpt": "Editor’s note, October 29, 2026, 10:15 am ET: This article was originally published in 2022 and has been updated for Halloween 2026. With an October 30 birthday, it’s only natural that Kimberly Murphy takes Halloween extremely seriously. A natural redhead, Murphy has dressed up as iconic crimson-hai",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The fix for America’s terrible internet is hiding in Tennessee",
-          "url": "https://www.vox.com/future-perfect/508149/chattanooga-municipal-broadband-internet",
-          "publishedAt": "2026-10-29T12:00:00.000Z",
-          "excerpt": "Most Americans hate their cable companies. But not the 200,000-odd residents of Chattanooga, Tennessee, a city nestled in the Appalachian foothills. For many people, the city might seem off the beaten path — enough so that when Spain’s national team chose the city as their base during the FIFA World",
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -5021,6 +4837,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "From ancient Asia to the AI age: Has China’s ‘beauty stratagem’ found a new victim in Nvidia’s Jensen Huang?",
+          "url": "https://theconversation.com/from-ancient-asia-to-the-ai-age-has-chinas-beauty-stratagem-found-a-new-victim-in-nvidias-jensen-huang-296393",
+          "publishedAt": "2026-11-12T20:25:32.000Z",
+          "excerpt": "‘Honey traps’ have long been used to gain an advantage over a rival. In China, it is a tactic documented in stories that go back 2 millennia.",
+          "source": "The Conversation",
+          "category": "Society"
+        },
+        {
           "title": "El Salvador is exporting the ‘Bukele model’ to Haiti – but the gang offensive is a gamble for both nations",
           "url": "https://theconversation.com/el-salvador-is-exporting-the-bukele-model-to-haiti-but-the-gang-offensive-is-a-gamble-for-both-nations-296390",
           "publishedAt": "2026-11-11T23:58:06.000Z",
@@ -5049,14 +4873,6 @@
           "url": "https://theconversation.com/economic-coercion-once-ousted-irans-leader-but-that-was-the-1950s-dont-expect-a-repeat-today-294628",
           "publishedAt": "2026-11-10T13:36:36.000Z",
           "excerpt": "A two-year blockade imposed on Iran by Britain gave way to a coup and leadership change. But seven decades later, circumstances are very different.",
-          "source": "The Conversation",
-          "category": "Society"
-        },
-        {
-          "title": "Why is Nvidia so powerful in the AI world, and what could Jensen Huang’s scandal really cost?",
-          "url": "https://theconversation.com/why-is-nvidia-so-powerful-in-the-ai-world-and-what-could-jensen-huangs-scandal-really-cost-296257",
-          "publishedAt": "2026-11-10T06:49:02.000Z",
-          "excerpt": "A tech CEO’s affair with a suspected Chinese spy is rocking the AI industry.",
           "source": "The Conversation",
           "category": "Society"
         },
@@ -5189,6 +5005,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "A First Look at Polling Performance in 2026",
+          "url": "https://www.pewresearch.org/short-reads/2026/11/12/a-first-look-at-polling-performance-in-2026/",
+          "publishedAt": "2026-11-12T20:31:35.000Z",
+          "excerpt": "Preelection polls captured the direction of this year’s election, while generally understating the size of Democrats’ advantage.",
+          "source": "Pew Research Center",
+          "category": "Society"
+        },
+        {
           "title": "‘Download My Free Guide’: What Products and Services Do Health and Wellness Influencers Promote?",
           "url": "https://www.pewresearch.org/short-reads/2026/11/12/download-my-free-guide-what-products-and-services-do-health-and-wellness-influencers-promote/",
           "publishedAt": "2026-11-12T16:07:07.000Z",
@@ -5273,14 +5097,6 @@
           "url": "https://www.pewresearch.org/newsletter/weekly-roundup/weekly-11-7-26/",
           "publishedAt": "2026-11-07T12:00:00.000Z",
           "excerpt": "Weekly Roundup The latest findings from Pew Research Center · Subscribe ↗ From our research The number of people in the U.S. who identify as Middle Eastern or North African by ancestry. The estimated size of the MENA population increases to 5.2 million when considering other characteristics, like bi",
-          "source": "Pew Research Center",
-          "category": "Society"
-        },
-        {
-          "title": "A First Look at Polling Performance in 2026",
-          "url": "https://www.pewresearch.org/short-reads/2026/11/06/a-first-look-at-polling-performance-in-2026/",
-          "publishedAt": "2026-11-06T18:58:34.000Z",
-          "excerpt": "Preelection polls captured the direction of this year’s election, while generally understating the size of Democrats’ advantage.",
           "source": "Pew Research Center",
           "category": "Society"
         },
@@ -6248,169 +6064,8 @@
       "name": "The Quietus",
       "category": "Arts",
       "kind": "rss",
-      "count": 20,
-      "stories": [
-        {
-          "title": "Brokeback Return with First Album in Over 10 Years",
-          "url": "https://thequietus.com/news/brokeback-return-with-first-album-in-over-10-years/",
-          "publishedAt": "2026-11-12T15:27:04.000Z",
-          "excerpt": "Thrill Jockey will release Colder, Milder in February Photo by John Sturdy Brokeback, the band led by Tortoise's Douglas McCombs, have announced their first album in over a decade. Spanning eight tracks, Colder, Milder sees the quartet refine their post-surf rock sound, prioritising simplicity and r",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Spydergum – Spydergum",
-          "url": "https://thequietus.com/quietus-reviews/spydergum-spydergum-review/",
-          "publishedAt": "2026-11-12T09:48:16.000Z",
-          "excerpt": "Spydergum Spydergum Featuring Concepción Huerta and Luka Aron among others, this large improvising ensemble contains multitudes Spydergum by Spydergum It is sticky and it penetrates the skin. That tingling feeling is tortuously triggering. Attentive listening is what is calling for Spydergum. This i",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "The Low Culture Podcast: The Walker Brothers’ Nite Flights",
-          "url": "https://thequietus.com/subscriber-area/low-culture-podcast/the-low-culture-podcast-the-walker-brothers-nite-flights/",
-          "publishedAt": "2026-11-12T07:00:00.000Z",
-          "excerpt": "In this month’s pod, John Doran and Luke Turner listen to a pioneering record in which Scott Walker bade farewell to his brothers in song Make it easy on yourself: brew a fine mahogany-toned cup of tea, fetch a virgin packet of garibaldis from the pantry, nudge the thermostat up another degree centi",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Paint it Black: Saints in The Wethouse by Blackhaine",
-          "url": "https://thequietus.com/quietus-reviews/album-of-the-week/blackhaine-saints-in-the-wethouse-review/",
-          "publishedAt": "2026-11-12T06:00:00.000Z",
-          "excerpt": "The \"debut album\" by the Preston-born musician, rapper and choreographer establishes Blackhaine as one of the most confident voices in the new Northern Gothic scene developing around Yorkshire and Lancashire Credit: Archie Finch In the film, The King (2019), we see a stubborn Dauphin of France attem",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Tehran Contemporary Sounds Festival Takes Place in Berlin",
-          "url": "https://thequietus.com/news/tehran-contemporary-sounds-festival-takes-place-in-berlin/",
-          "publishedAt": "2026-11-11T18:48:00.000Z",
-          "excerpt": "The latest edition of the event takes in performances from Abdullah Miniawy, Gnäw and more Abdullah Miniawy Tehran Contemporary Sounds Festival is taking place in Berlin this week. Stretching out across six days, the seventh edition of the event brings together live performances, film screenings, ta",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Armand Hammer Surprise Release New Album, ‘Snakes & Ladders’",
-          "url": "https://thequietus.com/news/armand-hammer-surprise-release-new-album-snakes-ladders/",
-          "publishedAt": "2026-11-11T14:42:30.000Z",
-          "excerpt": "It features guest appearances from DJ Haram and $ilkmoney Armand Hammer, the duo of billy woods and ELUCID, have released a surprise new album, Snakes & Ladders. Featuring 16 tracks, it follows on from last year's Mercy LP, and features guest appearances from DJ Haram and $ilkmoney. There is also pr",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Coachella Reveals 2027 Lineup",
-          "url": "https://thequietus.com/news/coachella-reveals-2027-lineup/",
-          "publishedAt": "2026-11-11T13:32:00.000Z",
-          "excerpt": "Madonna, SZA and Giorgio Moroder are among the artists playing next year's festival in California Coachella has revealed its full 2027 lineup. The California festival will be headlined by SZA, Dua Lipa and Tame Impala, while Madonna is also listed to play a special set in the Sahara dance music tent",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "It Never Went Away: Radie Peat’s Favourite Albums",
-          "url": "https://thequietus.com/interviews/bakers-dozen/radie-peat-lankum-oxn-interview-favourite-albums/",
-          "publishedAt": "2026-11-11T09:09:16.000Z",
-          "excerpt": "On the verge of her debut solo album, Radie Peat of Lankum and ØXN presents 13 records that have held sway over her life and work, from Nico to Beak > Photo by Dave Smith Radie Peat is rightly known&nbsp;as a generational talent in traditional folk music. With all-conquering Lankum and doomy supergr",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Coil – Gold is the Metal (with the Broadest Shoulders)",
-          "url": "https://thequietus.com/quietus-reviews/coil/",
-          "publishedAt": "2026-11-11T08:30:00.000Z",
-          "excerpt": "Coil Gold is the Metal (with the Broadest Shoulders) Assembled from the discarded off-cuts from Horse Rotorvator and the group's unused Hellraiser score, Coil's third album proves far more than the sum of its parts Gold Is The Metal (With The Broadest Shoulders) by Coil Alchemy. The protoscientific ",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Far Beyond & Non-Existent: Wipers’ Youth Of America Revisited",
-          "url": "https://thequietus.com/opinion-and-essays/anniversary/wipers-youth-of-america-review/",
-          "publishedAt": "2026-11-11T08:05:27.000Z",
-          "excerpt": "Wipers would have been huge if they hadn't asked so many questions. John Calvert writes about an essential punk album from 45 years ago On Portland Punk Live At The Earth 10-29-79, a live-on-the-night document of local bands released warts'n'all by Wipers' Greg Sage on his own label, Trap, Sage can ",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "More Eaze – Valley and Structure",
-          "url": "https://thequietus.com/quietus-reviews/more-eaze-valley-and-structure-review/",
-          "publishedAt": "2026-11-11T06:00:00.000Z",
-          "excerpt": "More Eaze Valley and Structure The latest from Mari Rubio builds complex scaffolding from the simplest of motifs valley and structure by more eaze Over the last few years, I’ve seen More Eaze (aka Mari Rubio) twice. At Rewire in 2022, she performed as -----__, a digital, detail-laden project created",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "International Feel: Highlights from Le Guess Who? 2026",
-          "url": "https://thequietus.com/quietus-reviews/live-reviews/international-feel-highlights-from-le-guess-who-2026/",
-          "publishedAt": "2026-11-10T16:10:41.000Z",
-          "excerpt": "Celebrating its 20th year, with a lineup focussed on bypassing arbitrary boundaries, Utrecht's flagship experimental festival forces even the most eclectic listener to go beyond, says Patrick Clarke Bethlehem's Lawrence Sammour, photo by Maarten Mooijman We start Le Guess Who? 2026 with Tortoise, wh",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Squid Release Live Album, ‘CROWDS’",
-          "url": "https://thequietus.com/news/squid-release-live-album-crowds/",
-          "publishedAt": "2026-11-10T15:13:00.000Z",
-          "excerpt": "It was captured over the course of the band's UK headline tour for 2025 LP Cowards Photo by Caroline Sanfran Squid have released a live album, titled CROWDS. Recorded over the course of their UK headline tour for 2025 LP Cowards, the 11-track album features live renditions of songs from that record,",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Kelela and More to Play RALLY 2027",
-          "url": "https://thequietus.com/news/kelela-and-more-to-play-rally-2027/",
-          "publishedAt": "2026-11-10T14:21:00.000Z",
-          "excerpt": "The headline set will mark her only London performance of next year Photo by Seb Gardner London festival RALLY has revealed the first wave of acts playing its 2027 edition. Returning to Southwark Park for its fifth edition, next year's event will take in a headline set from Kelela. It will mark her ",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Straight Hedge! Noel Gardner Reviews Punk & HC for November",
-          "url": "https://thequietus.com/quietus-reviews/punk/straight-hedge-punk-hardcore-new-music-review-november-2026/",
-          "publishedAt": "2026-11-10T10:10:00.000Z",
-          "excerpt": "From charge-the-enemy, knife-down-boot, shoelace-round-head hardcore to some gleaming and nasty Lima death rock, Noel Gardner's guide to the best in punk returns Funeral, photo by Satanist Madness Welcome (back) to what many are calling “the tersest column on the Quietus dot com”, not because of the",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Claire Cronin – The Bruise",
-          "url": "https://thequietus.com/quietus-reviews/claire-cronin-the-bruise-review/",
-          "publishedAt": "2026-11-10T10:04:37.000Z",
-          "excerpt": "Claire Cronin The Bruise The folk horror Sandy Denny sees the horror of it all all too clearly The Bruise by Claire Cronin “Female singer songwriter” is a designation packed full of dated assumptions male singer songwriters have not had to contend with since the 60s. The category not only fails to i",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Dirty Projectors Share New Song, ‘Jumbotron’",
-          "url": "https://thequietus.com/news/dirty-projectors-share-new-song-jumbotron/",
-          "publishedAt": "2026-11-09T17:49:00.000Z",
-          "excerpt": "Its release marks their signing to Indiana label Joyful Noise, and the founding of their own imprint, Well-Tempered Zealot Dirty Projectors have released a new song, called 'Jumbotron'. It comes amid a flurry of activity from the project, which is led by David Longstreth. They've newly signed to Ind",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Nick Cave Announces Talk and Music Tour of North America",
-          "url": "https://thequietus.com/news/nick-cave-announces-talk-and-music-tour-of-north-america/",
-          "publishedAt": "2026-11-09T15:31:00.000Z",
-          "excerpt": "The Australian artist is refreshing the concept for his popular 2019 tour for a new 2027 run next spring Photo by Venetia Scott Nick Cave has announced an extensive tour of North America for 2027. Conversations With Nick Cave will offer up a night of talk and music from the Australian artist, refres",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "A Hymn of Selfishness: Sheherazaad Interviewed",
-          "url": "https://thequietus.com/interviews/sheherazaad-interview/",
-          "publishedAt": "2026-11-09T09:17:10.000Z",
-          "excerpt": "Khudgarzi is the debut album of Sheherazaad; the ghostly sound of female resistance in experimental pop and gothic folk. Words: Arusa Qureshi. Portraits: Zayira Ray Khudgarzi by Sheherazaad “There’s this fantastical, romanticised thing of being in grief and being dark and depressed, and then doing y",
-          "source": "The Quietus",
-          "category": "Arts"
-        },
-        {
-          "title": "Ana Lua Caiano – Devagar Que A Vida É Curta",
-          "url": "https://thequietus.com/quietus-reviews/ana-lua-caiano-devagar-que-a-vida-e-curta-review/",
-          "publishedAt": "2026-11-09T06:00:00.000Z",
-          "excerpt": "Ana Lua Caiano Devagar Que A Vida É Curta Portuguese singer-producer draws on Zeca Afonso and modern digital production techniques to produce a thrilling call to action Devagar Que A Vida É Curta by Ana Lua Caiano Devagar Que A Vida É Curta translates loosely as ‘Go slowly as life is short’. The tit",
-          "source": "The Quietus",
-          "category": "Arts"
-        }
-      ]
+      "count": 0,
+      "stories": []
     },
     {
       "name": "BFI",
@@ -11280,8 +10935,17 @@
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 15,
+      "count": 16,
       "stories": [
+        {
+          "title": "Siren culture",
+          "url": "https://www.metafilter.com/215147/Siren-culture",
+          "publishedAt": "2026-11-12T20:42:36.000Z",
+          "excerpt": "The world's loudest subculture: siren kings",
+          "source": "MetaFilter",
+          "category": "Discover",
+          "sourceRole": "community"
+        },
         {
           "title": "Dad Issues in Space: 50th anniversary release",
           "url": "https://www.metafilter.com/215146/Dad-Issues-in-Space-50th-anniversary-release",
@@ -11822,7 +11486,15 @@
       "count": 20,
       "stories": [
         {
-          "title": "觀塘男子捱斬倒地遺血路 一度昏迷送院治理 警到場調查",
+          "title": "BIGBANG啟德演唱會｜30人通宵排隊等買周邊商品 女粉絲：無預算",
+          "url": "https://hk01.com/sns/article/60410253",
+          "publishedAt": "2026-11-12T20:33:47.000Z",
+          "excerpt": "韓國天團BIGBANG今日（13日）起在啟德主場館舉行4場演唱會，場內官方周邊商品攤位設於東營，營業時間為上午11時至開演前30分鐘，吸引大量粉絲通宵排隊等候購買。Threads凌晨流傳多人在場排隊，網民留言「最早個批係（凌晨）12點」、「可以放棄唔出去排了」、「大癲，祝大家買到心頭好、唔好冷親」。 《香港01》今日（13日）凌晨3時許抵達了解，大約30人正在通宵排隊，秩序良好，天文台當時錄得24.3度，氣溫宜人。 Threads凌晨流傳多人在場排隊，網民留言「最早個批係（凌晨）12點」、「可以放棄唔出去排了」、「大癲，祝大家買到心頭好、唔好冷親」。（Threads@clseyna圖片） 大約",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "觀塘男子捱斬浴血倒地遺血路血衣 一度昏迷送院 獨行刀手在逃",
           "url": "https://hk01.com/sns/article/60410252",
           "publishedAt": "2026-11-12T19:39:07.000Z",
           "excerpt": "觀塘發生傷人案。今日（13日）凌晨1時許，警方接獲一名年約60歲男子報案，聲稱自己在輔仁街8號乾豐大廈遭到刺傷，同時聲稱自己財物被偷走。警員到場了解，相信事主負傷行走，倒在輔仁街8號位置，左前臂有大約8厘米長傷口，相信由利刀造成。事主昏迷由救護車送往伊利沙伯醫院，經治理後回復清醒，警方正調查事件。 就現場所見，輔仁街8號乾豐大廈對開行人路遺下大灘血跡和數隻手套，外套亦染有大量血跡，警方封鎖現場調查。 據了解，警員在乾豐大廈出入口梯級發現少量血跡，但大廈其他地方未見血跡，正調查傷者負傷行走路線。 根據讀者提供相片，傷者當時已經倒下，挨在乾豐大廈對開小巴站柱身，遺下大量血跡。 傷者當時已經倒下，挨",
@@ -11894,26 +11566,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "我的有罪之人｜薛仁雅重傷現女兒身！任時完崩潰 改編原作神反轉",
-          "url": "https://hk01.com/sns/article/60410003",
-          "publishedAt": "2026-11-12T16:30:49.000Z",
-          "excerpt": "由任時完與薛仁雅主演的tvN熱門韓劇《我的有罪之人》（又名《偽裝戀愛》），近日播出第8集迎來全劇最大反轉。劇中女刑警姜在熙（薛仁雅飾）在車禍後為保護財閥繼承人尹伊俊（任時完飾）與兇徒搏鬥而身受重傷，一直隱瞞的女性身份在這場意外中被揭穿，大膽改編手法令劇迷直呼「神來之筆」。 這一「現女兒身」的鋪排與原著小說及網漫截然不同，原著男主角早在女主角坦白前便看穿真相，只是未主動點破，劇版則將懸念留到生死一刻才揭曉，令觀眾看得屏息以待。 由任時完與薛仁雅主演的tvN熱門韓劇《我的有罪之人》（又名《偽裝戀愛》），近日播出第8集迎來全劇最大反轉。（IG@tvn_drama） 一場意外逼出真相車禍引爆殺機 身份",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "灣仔錫克教廟藍燈海原來有彩蛋？網民教路呢一刻 瞬間由藍變幻彩",
           "url": "https://hk01.com/sns/article/60409826",
           "publishedAt": "2026-11-12T16:15:54.000Z",
           "excerpt": "【錫克廟排燈節/錫克教廟排燈節/錫克教】灣仔錫克教廟為慶祝囚徒解放日(Bandi Chhor Divas)和排燈節（Diwali），今年首度在廟宇外圍大規模掛起一串串燈飾，幾乎覆蓋整座廟，當晚上6時半亮起藍燈後，營造出一片耀目燈海，更被網民大讚恍如迪士尼人氣動畫《魔雪奇緣》（FROZEN）的建築，近日吸引大批市民來打卡。 不過，這幕迷人藍燈原來還有「彩蛋」！有不少市民周三（11日）晚來打卡後，在網上發文指在晚上約9時半，原本的廟宇閃耀綻放的藍燈燈飾，瞬間竟變成更加奪目的幻彩燈海，令現場人士大感驚喜，部份人更在社交平台Threads及instagram上載相片熱傳，並留言提醒大家去打卡，勿忘「最",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "BIGBANG演唱會｜尖沙咀無人機匯演 G-DRAGON及太陽閃爆維港上空",
-          "url": "https://hk01.com/sns/article/60410228",
-          "publishedAt": "2026-11-12T15:22:27.000Z",
-          "excerpt": "【BIGBANG香港演唱會／BIGBANG／啟德體育園／啟德主場館／城巴】韓國天團BIGBANG為慶祝出道 20 週年，舉辦世界巡迴演唱會，香港站將於明日起在啟德主場館舉行一連四場演唱會。今日（12日）晚上8時、即演唱會前夕，主辦方在尖沙咀海濱辦「無人機匯演」，維港上空可見奪目耀眼的BIGBANG成員圖案，G-DRAGON、太陽和大聲，吸引大批粉絲早已霸位打卡。有英國粉絲由倫敦站追星到香港，形容香港的粉絲比較「瘋狂」，也有眾多香港粉絲大讚表演精彩，「直頭想重睇一次」。 BIGBANG20周年無人機匯演，現場一眾粉絲市民齊聚欣賞。（梁鵬威攝） 不少粉絲特意帶上BIGBANG應援手燈到場打卡支持。",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11938,6 +11594,14 @@
           "url": "https://hk01.com/sns/article/60410182",
           "publishedAt": "2026-11-12T10:54:28.000Z",
           "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），審訊今(12日）在高等法院續審，首被告鄺港傑續透露他事發當晚，他與鄺球回到龍尾村單位，並在屋內看到的情形。 鄺港傑稱，他下午離開龍尾村，晚上應父親鄺球要求過去一趟，他稱與鄺球吃過飯後，兩人一同回到龍尾村的單位。鄺港傑問父如何處理了事情，他指鄺球沒有回答，只是打開了大房的房門，他看到房內有一個帳篷，內裡有膠箱，膠箱旁有電鋸，電鋸上有血。鄺稱他當時理解，應該是蔡的部份屍體應已被肢解。鄺港傑稱，當時的畫面好震撼，他當時都好驚，不知可以說甚麼好，故亦沒有問鄺球詳情。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "鍾麗淇9月入ICU休養缺席細女生日會 「七魔女」代陪慶祝場面溫馨",
+          "url": "https://hk01.com/sns/article/60410158",
+          "publishedAt": "2026-11-12T10:30:30.000Z",
+          "excerpt": "由佘詩曼、湯盈盈、梁靖琪、文頌嫻、姚樂怡、鍾麗淇及周家蔚組成的「七魔女」，在圈中向來感情要好。今年9月驚傳鍾麗淇（Margaret）因突發重病入院，情況一度嚴峻並需於深切治療部（ICU）留醫。健康亮起紅燈後一直專心休養的她，未能親自出席細女 Michela的11歲生日派對，一眾好姊妹隨即仗義「代母職」，為好友愛女悉心籌備慶生派對，場面相當有愛。 由佘詩曼、湯盈盈、梁靖琪、文頌嫻、姚樂怡、鍾麗淇、周家蔚組成的「七魔女」，10多年來感情要好。（佘詩曼微博） 鍾麗淇早前出席「七魔女」周家蔚生日派對暴瘦引猜測。（IG@janetchowkawai） 三姊妹代母職為Michela慶生 近日姚樂怡在社交平",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12494,6 +12158,14 @@
       "count": 20,
       "stories": [
         {
+          "title": "天文台料晚上驟雨增多及有幾陣狂風雷暴 明日初時雨勢頗大",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877617-20261113.htm",
+          "publishedAt": "2026-11-12T20:24:33.000Z",
+          "excerpt": "天文台發出特別天氣提示，指隨著高空擾動靠近，本港近期較晴朗的天氣將會有所改變，預料今日下午開始逐漸有幾陣驟雨，晚上驟雨增多及有幾陣狂風雷暴，風勢增強，明日初時雨勢頗大，提醒市民留意最新天氣消息，進行戶外活動時，要時刻注意天氣變化。 天文台說，隨著高空擾動遠離，明日日間驟雨減少，天色好轉，下午部分時間有陽光。 編輯：許敬軒",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
           "title": "警方打擊白牌車拘捕12人 包括七名內地男子",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1877615-20261113.htm",
           "publishedAt": "2026-11-12T19:56:43.000Z",
@@ -12642,14 +12314,6 @@
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1877559-20261112.htm",
           "publishedAt": "2026-11-12T09:40:37.000Z",
           "excerpt": "食環署公布，10月份全港白紋伊蚊誘蚊器指數為百分之2.9，較9月份的百分之5.2為低，反映食環署及相關政府部門加緊採取防蚊及滅蚊行動，令整體蚊患情況進一步改善。 署方說在10月份，62個監察地區中，全部監察地區的分區誘蚊器指數均低於百分之20的警戒水平。10月份每月誘蚊器指數及分區誘蚊器指數的回落，是由於各政府部門及持份者持續加緊採取防蚊及滅蚊行動，亦有機會受天氣等因素影響。各相關部門及持份者仍會持續進行控蚊工作。 另外，10月份的白紋伊蚊密度指數為1.1，表示在發現有白紋伊蚊的誘蚊器中，白紋伊蚊成蚊的平均數量為1.1隻，顯示整體監察地區內的白紋伊蚊成蚊數量並不多。 不過食環署說，鄰近地區仍錄",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "鄺港傑供稱相信膠箱內有蔡天鳳屍首 猜測有某部分已被肢解",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877554-20261112.htm",
-          "publishedAt": "2026-11-12T09:08:04.000Z",
-          "excerpt": "蔡天鳳案下午在高等法院續審，蔡天鳳前大伯鄺港傑繼續作供，指2023年2月21日晚上，他將七人車駛回荃灣準備回家期間，父親鄺球致電相約在大埔一間茶餐廳見面，期間沒有討論日間發生的事，兩人之後再一同返回龍尾村村屋。 鄺港傑說，進入村屋後其中一道房門關閉，曾經問父親打算如何處理，有否報警，父親沒有回應，並將房門打開。鄺港傑指，見到房間地上有一塊帆布，上面放有一個打開的帳蓬，內有透明膠箱，箱內有被鋪包裹的物體，其中一端有大量血液滲出，附近亦有一把早前曾經在家中見過、用作鋸木的電鋸，刀片上有少量血跡。 鄺港傑指出，當時見到的相信是父親日間用作放置蔡天鳳的膠箱和被鋪，相信箱內是蔡天鳳的屍首。他又說，當刻對",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
         }
@@ -13021,13 +12685,13 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50472260"
     },
     {
-      "title": "Rust 1.100.0",
-      "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
-      "publishedAt": "2026-11-12T18:24:06.000Z",
+      "title": "Rust 1.100",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "publishedAt": "2026-11-12T18:39:05.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50471793"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50472038"
     },
     {
       "title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
@@ -13093,15 +12757,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50471281"
     },
     {
-      "title": "Paths in Pieces",
-      "url": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
-      "publishedAt": "2026-11-12T17:19:39.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50470762"
-    },
-    {
       "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "url": "https://github.com/simpsoka/zigzag",
       "publishedAt": "2026-11-12T17:02:42.000Z",
@@ -13118,6 +12773,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50470445"
+    },
+    {
+      "title": "Show HN: Apron Chat Protocol",
+      "url": "https://apron.chat/",
+      "publishedAt": "2026-11-12T16:52:31.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50470343"
     },
     {
       "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
@@ -13147,15 +12811,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
     },
     {
-      "title": "Fitting Four 32 GB Resizable Bars Behind a PCIe Switch on Linux",
-      "url": "https://doug.sh/posts/gpu-bars-behind-a-pcie-switch/",
-      "publishedAt": "2026-11-12T15:14:52.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50468720"
-    },
-    {
       "title": "Abandoned Quake 4 expansion finished by modders and now playable",
       "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
       "publishedAt": "2026-11-12T14:18:49.000Z",
@@ -13174,6 +12829,23 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50467460"
     },
     {
+      "title": "Libreagi – Save OSS Models",
+      "url": "https://libreagi.com/",
+      "publishedAt": "2026-11-12T14:11:58.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50467439"
+    },
+    {
+      "title": "Microsoft Outlook is down",
+      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "publishedAt": "2026-11-12T20:43:02.000Z",
+      "excerpt": "Over the last hour or so, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft has acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing ele",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
       "title": "Meet the people who want peptides to be made in America",
       "url": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
       "publishedAt": "2026-11-12T20:00:00.000Z",
@@ -13186,14 +12858,6 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
       "publishedAt": "2026-11-12T19:42:40.000Z",
       "excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked cr",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Microsoft Outlook is down",
-      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-      "publishedAt": "2026-11-12T19:07:21.000Z",
-      "excerpt": "Over the last hour or so, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft has acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing ele",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13331,6 +12995,14 @@
       "publishedAt": "2026-11-12T13:53:16.000Z",
       "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huan",
       "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
+      "url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
+      "publishedAt": "2026-11-12T20:35:11.000Z",
+      "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
+      "source": "WIRED",
       "category": "Technology"
     },
     {
@@ -13486,15 +13158,7 @@
       "category": "Technology"
     },
     {
-      "title": "Walking Pad Deals to Shop Ahead of Black Friday (2026)",
-      "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-11-26/",
-      "publishedAt": "2026-11-12T01:53:24.000Z",
-      "excerpt": "Don’t let cold weather stop you from getting your steps in. These under-desk treadmills are already marked down.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Ars Live: Can the cloud survive drone strikes on data centers?",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
       "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
       "publishedAt": "2026-11-12T19:59:59.000Z",
       "excerpt": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
@@ -13654,6 +13318,14 @@
       "category": "Technology"
     },
     {
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "publishedAt": "2026-11-12T20:16:24.000Z",
+      "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that the tracking requirements of his Chip Security Act meant to combat smuggling were technically possible, Foster told MIT Technology Review in an interview on Thursday, even while its industry group claimed they were “potentiall",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
       "title": "The Download: COP31’s climate challenge and the quest for immortality",
       "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
       "publishedAt": "2026-11-12T13:10:00.000Z",
@@ -13803,6 +13475,14 @@
       "publishedAt": "2026-11-04T13:00:00.000Z",
       "excerpt": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No ",
       "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "publishedAt": "2026-11-12T20:26:47.000Z",
+      "excerpt": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "source": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -13958,12 +13638,13 @@
       "category": "Technology"
     },
     {
-      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
-      "publishedAt": "2026-11-11T23:28:45.000Z",
-      "excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "Google’s Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
+      "url": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
+      "publishedAt": "2026-11-12T20:19:32.000Z",
+      "excerpt": "Google has launched Gemini 4 Hydrogen, a fast, lower-cost model for coding and AI agents. It is available to everyone in the Gemini app and Search, and to developers at $1.50 per million input tokens. Google says it nearly matches its flagship Argon. Google has launched Gemini 4 Hydrogen, a faster a",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "AMD plans to invest in PsiQuantum as they team up on quantum computers",
@@ -14042,15 +13723,6 @@
       "url": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss",
       "publishedAt": "2026-11-12T17:55:22.000Z",
       "excerpt": "OpenAI’s revenue reached $10bn in the third quarter, up almost 50% from the second, The Information reported. OpenAI shared the figures with investors on Tuesday. Demand for its newer models and enterprise products had picked up, Valida Pau and Jemima McEvoy wrote, citing a person familiar with the ",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "SpaceX plans $74B of AI computing centres in Arizona and Texas",
-      "url": "https://thenextweb.com/news/spacex-74b-ai-computing-centers-arizona-texas",
-      "publishedAt": "2026-11-12T17:54:21.000Z",
-      "excerpt": "SpaceX plans to spend $74B on two AI supercomputing sites: a $50B campus in Cochise County, Arizona, and a $24B site with its own gas power plant near Starbase, Texas. It now sells computing power to Anthropic and Google, but faces local pushback in Arizona. SpaceX plans to spend $74B on two AI supe",
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14189,6 +13861,17 @@
       "source": "Slashdot",
       "category": "Technology",
       "sourceRole": "community"
+    },
+    {
+      "title": "Sources: SpaceX and Tesla are progressing in their merger negotiations and could announce a deal as soon as December or early 2027 (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress",
+      "publishedAt": "2026-11-12T20:28:00.000Z",
+      "excerpt": "Bloomberg : Sources: SpaceX and Tesla are progressing in their merger negotiations and could announce a deal as soon as December or early 2027 &nbsp; &mdash;&nbsp; SpaceX and Tesla Inc. are progressing in their merger negotiations, setting the stage for a combination that could redefine the limits o",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261112/p53#a261112p53",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "Sources: Jensen Huang had an intimate relationship with a second employee; revelations about two other extramarital affairs led to his resignation (Reuters)",
@@ -14341,17 +14024,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261112/p39#a261112p39",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Trump says Tim Cook is the \"only one man\" to replace Jensen Huang as Nvidia CEO, adding \"A Legend replaces a Legend!\" and Huang \"has done a fantastic job\" (Zac Hall/9to5Mac)",
-      "url": "https://9to5mac.com/2026/11/12/president-trump-calls-on-tim-cook-to-be-next-nvidia-ceo/",
-      "publishedAt": "2026-11-12T16:05:00.000Z",
-      "excerpt": "Zac Hall / 9to5Mac : Trump says Tim Cook is the &ldquo;only one man&rdquo; to replace Jensen Huang as Nvidia CEO, adding &ldquo;A Legend replaces a Legend!&rdquo; and Huang &ldquo;has done a fantastic job&rdquo; &nbsp; &mdash;&nbsp; Jensen Huang is out as CEO of NVIDIA after reported love affairs wi",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261112/p38#a261112p38",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -15544,206 +15216,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Design is a search problem",
-      "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
-      "publishedAt": "2026-11-12T11:26:27.000Z",
-      "excerpt": "Most of what we call ‘design’ is groping around a dark room looking for a black cat.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Airline Logos",
-      "url": "https://www.logohistories.com/p/airline-logos",
-      "publishedAt": "2026-11-12T11:24:14.000Z",
-      "excerpt": "From Lufthansa’s crane to United’s tulip, the stories behind twelve airline logos designed for the jet age.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "I made a film in Excel",
-      "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
-      "publishedAt": "2026-11-12T11:23:46.000Z",
-      "excerpt": "A testament to the inescapable pull of making something out of nothing.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "State of JavaScript 2026",
-      "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
-      "publishedAt": "2026-11-12T11:21:55.000Z",
-      "excerpt": "Take the State of JavaScript survey: a programming language that grew up much, much bigger than anybody ever anticipated.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "By taking away",
-      "url": "https://haydenbleasel.com/taking-away",
-      "publishedAt": "2026-11-12T11:20:24.000Z",
-      "excerpt": "Software used to be made like a painting, one layer at a time. With agents, it’s closer to sculpture, and the hard part is seeing what to keep.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Don’t make a human do what AI is amazing at",
-      "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-      "publishedAt": "2026-11-11T06:35:14.000Z",
-      "excerpt": "How Nunebot makes my apps a little better every day without me doing the tedious parts.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "1 in 8 billion",
-      "url": "https://1in8b.life/en/",
-      "publishedAt": "2026-11-11T06:33:56.000Z",
-      "excerpt": "Become one of the babies being born right now and live their whole life inside the real statistics of 172 countries and territories.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "A family tree of software job titles",
-      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "publishedAt": "2026-11-11T06:33:29.000Z",
-      "excerpt": "If you’ve been in this industry for any length of time you’ll have seen titles come and go, and you might have wondered where they all came from.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "The components of agent memory",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "publishedAt": "2026-11-11T06:32:11.000Z",
-      "excerpt": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "There’s no better name for design systems",
-      "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-      "publishedAt": "2026-11-11T06:31:39.000Z",
-      "excerpt": "How to talk about design systems across functions.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Please use AI",
-      "url": "https://shawnsmucker.substack.com/p/please-use-ai",
-      "publishedAt": "2026-11-10T07:34:44.000Z",
-      "excerpt": "Be sure to use AI when making.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "TK",
-      "url": "https://tk.xyz/",
-      "publishedAt": "2026-11-10T07:33:00.000Z",
-      "excerpt": "A new way to write from Medium. The more you write, the better it gets.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Blossom carousel",
-      "url": "https://blossom-carousel.com/",
-      "publishedAt": "2026-11-10T07:32:33.000Z",
-      "excerpt": "Enhance native scrolling with dragging instead of replacing it.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "What product strategy does",
-      "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-      "publishedAt": "2026-11-10T07:32:00.000Z",
-      "excerpt": "On maintaining and rebuilding critical relationships.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Customer or product?",
-      "url": "https://customerorproduct.org/",
-      "publishedAt": "2026-11-10T07:31:09.000Z",
-      "excerpt": "Sort the apps your family uses and see the price you can’t see.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Vote in Readymag Websites of the Year 2026",
-      "url": "https://bit.ly/side-mag5",
-      "publishedAt": "2026-11-09T05:05:00.000Z",
-      "excerpt": "The award spotlights inventive projects made with Readymag, a design tool for creating outstanding websites. Explore the shortlist and vote.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Otherwise you’re just a machine",
-      "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5",
-      "publishedAt": "2026-11-09T05:04:00.000Z",
-      "excerpt": "AI is getting better at design. Designers should too.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "What does design system AI readiness mean, anyway?",
-      "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-      "publishedAt": "2026-11-09T05:03:00.000Z",
-      "excerpt": "Maybe it’s less about machine-legible artifacts and more about where humans stay in the loop.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "edge-aura",
-      "url": "https://edge-aura.js.org/",
-      "publishedAt": "2026-11-09T05:02:00.000Z",
-      "excerpt": "An organic glow that hugs the edge of your screen. Zero-dependency Canvas 2D engine with a thin React adapter.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
-      "title": "Site Seeing",
-      "url": "https://ishadeed.com/article/beyond-the-viewport/",
-      "publishedAt": "2026-11-09T05:01:00.000Z",
-      "excerpt": "See how a web page will behave in different contexts that force unusual viewport sizes.",
-      "source": "Sidebar",
-      "category": "Design",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Sidebar"
-    },
-    {
       "title": "What 50 years in business has taught Springetts about building brands that thrive",
       "url": "https://www.creativeboom.com/insight/what-50-years-in-business-has-taught-springetts-about-building-brands-that-thrive/",
       "publishedAt": "2026-11-12T07:00:00.000Z",
@@ -16653,6 +16125,24 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "We Don’t Need to Reboot DC Again",
+      "url": "http://www.vulture.com/article/david-ellison-dont-reboot-dc-again-after-james-gunn.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-12T19:00:07.000Z",
+      "excerpt": "A few words of advice for David Ellison & Co.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Jen Affleck Says Zac Gambled Over $100,000 Behind Her Back",
+      "url": "http://www.vulture.com/article/jen-affleck-secret-lives-of-mormon-wives-oc-divorce-gambling.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-12T19:00:07.000Z",
+      "excerpt": "The Secret Lives of Mormon Wives: Orange County star says his financial dishonesty was the final straw in their marriage.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "26 Travel Gift Ideas for the Frequent Flier in Your Life",
       "url": "http://www.thecut.com/article/best-travel-gift-ideas.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-12T18:45:00.000Z",
@@ -16671,7 +16161,7 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "His Name Is Roger Taylor and He Just Quit Duran Duran",
+      "title": "His Name Is Roger Taylor, and He Just Quit Duran Duran",
       "url": "http://www.vulture.com/article/roger-taylor-quits-duran-duran-severe-tinnitus.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-12T18:21:41.000Z",
       "excerpt": "“The truth is that my tinnitus has been getting steadily worse, and I’ve reached the point where I must now listen to my body and my doctors.”",
@@ -16801,24 +16291,6 @@
       "url": "http://www.thecut.com/article/ariana-grande-ricky-alvarez-focker-in-law-premiere.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-12T14:25:11.000Z",
       "excerpt": "The couple looked very into each other at the Focker-in-Law premiere.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Jensen Huang’s Leather Jackets Confessed Before He Did",
-      "url": "http://www.thecut.com/article/jensen-huangs-leather-jackets-confessed-before-he-did.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-12T14:22:00.000Z",
-      "excerpt": "Are we surprised the guy in $9,000 Tom Ford outerwear cheated on his wife?",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Rosamund Pike Doesn’t Flinch",
-      "url": "http://www.vulture.com/article/rosamund-pike-inter-alia-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-12T14:00:07.000Z",
-      "excerpt": "In her Broadway debut, the star of Inter Alia stares down society’s problems: “They don’t know how fucking hard it is.”",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17184,6 +16656,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Human Rights Orgs Denounce Egypt's Arrest of Mada Masr Editor Lina Attalah",
+      "url": "https://hyperallergic.com/human-rights-orgs-denounce-egypts-arrest-of-mada-masr-editor-lina-attalah/",
+      "publishedAt": "2026-11-12T20:46:03.000Z",
+      "excerpt": "Attalah was accused of publishing false news and operating without a license amid Egyptian authorities’ extensive crackdown on independent press.",
+      "source": "Hyperallergic",
+      "category": "Culture"
+    },
+    {
       "title": "$160,000 Hans Arp Sculpture Stolen From Art Cologne",
       "url": "https://hyperallergic.com/160-000-hans-arp-sculpture-stolen-from-art-cologne/",
       "publishedAt": "2026-11-12T17:38:52.000Z",
@@ -17200,7 +16680,7 @@
       "category": "Culture"
     },
     {
-      "title": "Celebrate Indigenous Cinema and Storytelling with Free Short Films",
+      "title": "Celebrate Indigenous Cinema and Storytelling with Free Films",
       "url": "https://hyperallergic.com/celebrate-indigenous-cinema-and-storytelling-with-free-short-films/",
       "publishedAt": "2026-11-12T16:24:45.000Z",
       "excerpt": "Available for only two weeks, this curated selection of 14 Indigenous films features stories of resilience, inspiration, and hope.",
@@ -17292,14 +16772,6 @@
       "url": "https://hyperallergic.com/free-lyric-tells-the-story-of-a-young-black-female-rapper-cancelled-for-her-provocative-lyrics/",
       "publishedAt": "2026-11-11T15:15:00.000Z",
       "excerpt": "Watch the new documentary by BAFTA award-winning filmmaker Cherish ‘Chez’ Oteka on Field of Vision.",
-      "source": "Hyperallergic",
-      "category": "Culture"
-    },
-    {
-      "title": "Contemporary Beadworker Ken Williams Jr Awarded Rakow Commission by Corning Museum of Glass",
-      "url": "https://hyperallergic.com/contemporary-beadworker-ken-williams-jr-awarded-rakow-commission-by-corning-museum-of-glass/",
-      "publishedAt": "2026-11-11T15:15:00.000Z",
-      "excerpt": "Marking the prize’s 40th year, \"I Am the Hungry Cat\" is the first Rakow Commission awarded for beadwork.",
       "source": "Hyperallergic",
       "category": "Culture"
     },
@@ -17400,6 +16872,33 @@
       "category": "Culture"
     },
     {
+      "title": "How science informs author Emily St. John Mandel’s fiction",
+      "url": "https://www.vox.com/podcasts/509975/emily-st-john-mandel-exit-party-science-fiction",
+      "publishedAt": "2026-11-12T20:45:00.000Z",
+      "excerpt": "The world is full of unanswered questions and strange ideas. Do parallel universes exist? What would it look like if a pandemic wiped out life as we know it? Is time travel possible? I host the science podcast Unexplainable, where we often speak to scientists about their attempts to puzzle through l",
+      "source": "Vox",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The disturbing reality behind America’s milk and cheese — and the fight to end it",
+      "url": "https://www.vox.com/future-perfect/510168/dairy-calves-extreme-confinement-hettinga-lawsuit",
+      "publishedAt": "2026-11-12T20:40:00.000Z",
+      "excerpt": "This story is part of a series supported by Animal Charity Evaluators, which received a grant from EarthShare. Deep-blue, regulation-happy California is not usually imagined as factory farm country. But the state leads the US in agricultural output, and it is, by a wide margin, America’s top produce",
+      "source": "Vox",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Why the Nvidia CEO’s resignation is so important",
+      "url": "https://www.vox.com/today-explained-newsletter/509593/nvidia-jensen-huang-chinese-spy-affair",
+      "publishedAt": "2026-11-12T20:35:00.000Z",
+      "excerpt": "Editor’s note, November 12, 3:35 pm ET: This story was originally posted on November 9 and is being republished today in light of Jensen Huang’s resignation as Nvidia CEO. The movie version of Jensen Huang’s jaw-dropping affair basically writes itself. Cast BD Wong as 63-year-old Huang, the CEO of o",
+      "source": "Vox",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Philly fixed a melted interstate in 12 days. Why does everything else take so long?",
       "url": "https://www.vox.com/future-perfect/510138/philadelphia-i-95-collapse-repair-12-days",
       "publishedAt": "2026-11-12T12:00:00.000Z",
@@ -17409,28 +16908,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "A little-known law could upend the dairy industry",
-      "url": "https://www.vox.com/future-perfect/510168/dairy-calves-extreme-confinement-hettinga-lawsuit",
-      "publishedAt": "2026-11-11T13:30:00.000Z",
-      "excerpt": "This story is part of a series supported by Animal Charity Evaluators, which received a grant from EarthShare. Deep-blue, regulation-happy California is not usually imagined as factory farm country. But the state leads the US in agricultural output, and it is, by a wide margin, America’s top produce",
-      "source": "Vox",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "HIV was supposed to kill them. Now they could help scientists find a cure.",
       "url": "https://www.vox.com/future-perfect/506553/hiv-elite-controllers-cure-research",
       "publishedAt": "2026-11-11T11:00:00.000Z",
       "excerpt": "Paul Boakye was 22 when he was diagnosed with HIV. It was winter 1986, five years after the world first became aware of the deadly disease that would become known as acquired immune deficiency syndrome (AIDS). After receiving the news, Boakye was certain he was going to die young. “I distinctly reme",
-      "source": "Vox",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Why the Nvidia spy scandal is so important",
-      "url": "https://www.vox.com/today-explained-newsletter/509593/nvidia-jensen-huang-chinese-spy-affair",
-      "publishedAt": "2026-11-10T15:05:00.000Z",
-      "excerpt": "This story appeared in Today, Explained, a daily newsletter that helps you understand the most compelling news and stories of the day. Subscribe here. The movie version of Jensen Huang’s jaw-dropping affair basically writes itself. Cast BD Wong as 63-year-old Huang, the CEO of one of the world’s mos",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17566,15 +17047,6 @@
       "url": "https://www.vox.com/even-better/23380646/create-best-halloween-costume-cheap-diy",
       "publishedAt": "2026-10-29T14:15:00.000Z",
       "excerpt": "Editor’s note, October 29, 2026, 10:15 am ET: This article was originally published in 2022 and has been updated for Halloween 2026. With an October 30 birthday, it’s only natural that Kimberly Murphy takes Halloween extremely seriously. A natural redhead, Murphy has dressed up as iconic crimson-hai",
-      "source": "Vox",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The fix for America’s terrible internet is hiding in Tennessee",
-      "url": "https://www.vox.com/future-perfect/508149/chattanooga-municipal-broadband-internet",
-      "publishedAt": "2026-10-29T12:00:00.000Z",
-      "excerpt": "Most Americans hate their cable companies. But not the 200,000-odd residents of Chattanooga, Tennessee, a city nestled in the Appalachian foothills. For many people, the city might seem off the beaten path — enough so that when Spain’s national team chose the city as their base during the FIFA World",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17760,6 +17232,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "From ancient Asia to the AI age: Has China’s ‘beauty stratagem’ found a new victim in Nvidia’s Jensen Huang?",
+      "url": "https://theconversation.com/from-ancient-asia-to-the-ai-age-has-chinas-beauty-stratagem-found-a-new-victim-in-nvidias-jensen-huang-296393",
+      "publishedAt": "2026-11-12T20:25:32.000Z",
+      "excerpt": "‘Honey traps’ have long been used to gain an advantage over a rival. In China, it is a tactic documented in stories that go back 2 millennia.",
+      "source": "The Conversation",
+      "category": "Society"
+    },
+    {
       "title": "El Salvador is exporting the ‘Bukele model’ to Haiti – but the gang offensive is a gamble for both nations",
       "url": "https://theconversation.com/el-salvador-is-exporting-the-bukele-model-to-haiti-but-the-gang-offensive-is-a-gamble-for-both-nations-296390",
       "publishedAt": "2026-11-11T23:58:06.000Z",
@@ -17788,14 +17268,6 @@
       "url": "https://theconversation.com/economic-coercion-once-ousted-irans-leader-but-that-was-the-1950s-dont-expect-a-repeat-today-294628",
       "publishedAt": "2026-11-10T13:36:36.000Z",
       "excerpt": "A two-year blockade imposed on Iran by Britain gave way to a coup and leadership change. But seven decades later, circumstances are very different.",
-      "source": "The Conversation",
-      "category": "Society"
-    },
-    {
-      "title": "Why is Nvidia so powerful in the AI world, and what could Jensen Huang’s scandal really cost?",
-      "url": "https://theconversation.com/why-is-nvidia-so-powerful-in-the-ai-world-and-what-could-jensen-huangs-scandal-really-cost-296257",
-      "publishedAt": "2026-11-10T06:49:02.000Z",
-      "excerpt": "A tech CEO’s affair with a suspected Chinese spy is rocking the AI industry.",
       "source": "The Conversation",
       "category": "Society"
     },
@@ -17920,6 +17392,14 @@
       "category": "Society"
     },
     {
+      "title": "A First Look at Polling Performance in 2026",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/12/a-first-look-at-polling-performance-in-2026/",
+      "publishedAt": "2026-11-12T20:31:35.000Z",
+      "excerpt": "Preelection polls captured the direction of this year’s election, while generally understating the size of Democrats’ advantage.",
+      "source": "Pew Research Center",
+      "category": "Society"
+    },
+    {
       "title": "‘Download My Free Guide’: What Products and Services Do Health and Wellness Influencers Promote?",
       "url": "https://www.pewresearch.org/short-reads/2026/11/12/download-my-free-guide-what-products-and-services-do-health-and-wellness-influencers-promote/",
       "publishedAt": "2026-11-12T16:07:07.000Z",
@@ -18004,14 +17484,6 @@
       "url": "https://www.pewresearch.org/newsletter/weekly-roundup/weekly-11-7-26/",
       "publishedAt": "2026-11-07T12:00:00.000Z",
       "excerpt": "Weekly Roundup The latest findings from Pew Research Center · Subscribe ↗ From our research The number of people in the U.S. who identify as Middle Eastern or North African by ancestry. The estimated size of the MENA population increases to 5.2 million when considering other characteristics, like bi",
-      "source": "Pew Research Center",
-      "category": "Society"
-    },
-    {
-      "title": "A First Look at Polling Performance in 2026",
-      "url": "https://www.pewresearch.org/short-reads/2026/11/06/a-first-look-at-polling-performance-in-2026/",
-      "publishedAt": "2026-11-06T18:58:34.000Z",
-      "excerpt": "Preelection polls captured the direction of this year’s election, while generally understating the size of Democrats’ advantage.",
       "source": "Pew Research Center",
       "category": "Society"
     },
@@ -18924,166 +18396,6 @@
       "excerpt": "The country’s approach offers a glimpse of what education could look like if AI literacy becomes as fundamental as reading and writing.",
       "source": "Rest of World",
       "category": "Society"
-    },
-    {
-      "title": "Brokeback Return with First Album in Over 10 Years",
-      "url": "https://thequietus.com/news/brokeback-return-with-first-album-in-over-10-years/",
-      "publishedAt": "2026-11-12T15:27:04.000Z",
-      "excerpt": "Thrill Jockey will release Colder, Milder in February Photo by John Sturdy Brokeback, the band led by Tortoise's Douglas McCombs, have announced their first album in over a decade. Spanning eight tracks, Colder, Milder sees the quartet refine their post-surf rock sound, prioritising simplicity and r",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Spydergum – Spydergum",
-      "url": "https://thequietus.com/quietus-reviews/spydergum-spydergum-review/",
-      "publishedAt": "2026-11-12T09:48:16.000Z",
-      "excerpt": "Spydergum Spydergum Featuring Concepción Huerta and Luka Aron among others, this large improvising ensemble contains multitudes Spydergum by Spydergum It is sticky and it penetrates the skin. That tingling feeling is tortuously triggering. Attentive listening is what is calling for Spydergum. This i",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "The Low Culture Podcast: The Walker Brothers’ Nite Flights",
-      "url": "https://thequietus.com/subscriber-area/low-culture-podcast/the-low-culture-podcast-the-walker-brothers-nite-flights/",
-      "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "In this month’s pod, John Doran and Luke Turner listen to a pioneering record in which Scott Walker bade farewell to his brothers in song Make it easy on yourself: brew a fine mahogany-toned cup of tea, fetch a virgin packet of garibaldis from the pantry, nudge the thermostat up another degree centi",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Paint it Black: Saints in The Wethouse by Blackhaine",
-      "url": "https://thequietus.com/quietus-reviews/album-of-the-week/blackhaine-saints-in-the-wethouse-review/",
-      "publishedAt": "2026-11-12T06:00:00.000Z",
-      "excerpt": "The \"debut album\" by the Preston-born musician, rapper and choreographer establishes Blackhaine as one of the most confident voices in the new Northern Gothic scene developing around Yorkshire and Lancashire Credit: Archie Finch In the film, The King (2019), we see a stubborn Dauphin of France attem",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Tehran Contemporary Sounds Festival Takes Place in Berlin",
-      "url": "https://thequietus.com/news/tehran-contemporary-sounds-festival-takes-place-in-berlin/",
-      "publishedAt": "2026-11-11T18:48:00.000Z",
-      "excerpt": "The latest edition of the event takes in performances from Abdullah Miniawy, Gnäw and more Abdullah Miniawy Tehran Contemporary Sounds Festival is taking place in Berlin this week. Stretching out across six days, the seventh edition of the event brings together live performances, film screenings, ta",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Armand Hammer Surprise Release New Album, ‘Snakes & Ladders’",
-      "url": "https://thequietus.com/news/armand-hammer-surprise-release-new-album-snakes-ladders/",
-      "publishedAt": "2026-11-11T14:42:30.000Z",
-      "excerpt": "It features guest appearances from DJ Haram and $ilkmoney Armand Hammer, the duo of billy woods and ELUCID, have released a surprise new album, Snakes & Ladders. Featuring 16 tracks, it follows on from last year's Mercy LP, and features guest appearances from DJ Haram and $ilkmoney. There is also pr",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Coachella Reveals 2027 Lineup",
-      "url": "https://thequietus.com/news/coachella-reveals-2027-lineup/",
-      "publishedAt": "2026-11-11T13:32:00.000Z",
-      "excerpt": "Madonna, SZA and Giorgio Moroder are among the artists playing next year's festival in California Coachella has revealed its full 2027 lineup. The California festival will be headlined by SZA, Dua Lipa and Tame Impala, while Madonna is also listed to play a special set in the Sahara dance music tent",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "It Never Went Away: Radie Peat’s Favourite Albums",
-      "url": "https://thequietus.com/interviews/bakers-dozen/radie-peat-lankum-oxn-interview-favourite-albums/",
-      "publishedAt": "2026-11-11T09:09:16.000Z",
-      "excerpt": "On the verge of her debut solo album, Radie Peat of Lankum and ØXN presents 13 records that have held sway over her life and work, from Nico to Beak > Photo by Dave Smith Radie Peat is rightly known&nbsp;as a generational talent in traditional folk music. With all-conquering Lankum and doomy supergr",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Coil – Gold is the Metal (with the Broadest Shoulders)",
-      "url": "https://thequietus.com/quietus-reviews/coil/",
-      "publishedAt": "2026-11-11T08:30:00.000Z",
-      "excerpt": "Coil Gold is the Metal (with the Broadest Shoulders) Assembled from the discarded off-cuts from Horse Rotorvator and the group's unused Hellraiser score, Coil's third album proves far more than the sum of its parts Gold Is The Metal (With The Broadest Shoulders) by Coil Alchemy. The protoscientific ",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Far Beyond & Non-Existent: Wipers’ Youth Of America Revisited",
-      "url": "https://thequietus.com/opinion-and-essays/anniversary/wipers-youth-of-america-review/",
-      "publishedAt": "2026-11-11T08:05:27.000Z",
-      "excerpt": "Wipers would have been huge if they hadn't asked so many questions. John Calvert writes about an essential punk album from 45 years ago On Portland Punk Live At The Earth 10-29-79, a live-on-the-night document of local bands released warts'n'all by Wipers' Greg Sage on his own label, Trap, Sage can ",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "More Eaze – Valley and Structure",
-      "url": "https://thequietus.com/quietus-reviews/more-eaze-valley-and-structure-review/",
-      "publishedAt": "2026-11-11T06:00:00.000Z",
-      "excerpt": "More Eaze Valley and Structure The latest from Mari Rubio builds complex scaffolding from the simplest of motifs valley and structure by more eaze Over the last few years, I’ve seen More Eaze (aka Mari Rubio) twice. At Rewire in 2022, she performed as -----__, a digital, detail-laden project created",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "International Feel: Highlights from Le Guess Who? 2026",
-      "url": "https://thequietus.com/quietus-reviews/live-reviews/international-feel-highlights-from-le-guess-who-2026/",
-      "publishedAt": "2026-11-10T16:10:41.000Z",
-      "excerpt": "Celebrating its 20th year, with a lineup focussed on bypassing arbitrary boundaries, Utrecht's flagship experimental festival forces even the most eclectic listener to go beyond, says Patrick Clarke Bethlehem's Lawrence Sammour, photo by Maarten Mooijman We start Le Guess Who? 2026 with Tortoise, wh",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Squid Release Live Album, ‘CROWDS’",
-      "url": "https://thequietus.com/news/squid-release-live-album-crowds/",
-      "publishedAt": "2026-11-10T15:13:00.000Z",
-      "excerpt": "It was captured over the course of the band's UK headline tour for 2025 LP Cowards Photo by Caroline Sanfran Squid have released a live album, titled CROWDS. Recorded over the course of their UK headline tour for 2025 LP Cowards, the 11-track album features live renditions of songs from that record,",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Kelela and More to Play RALLY 2027",
-      "url": "https://thequietus.com/news/kelela-and-more-to-play-rally-2027/",
-      "publishedAt": "2026-11-10T14:21:00.000Z",
-      "excerpt": "The headline set will mark her only London performance of next year Photo by Seb Gardner London festival RALLY has revealed the first wave of acts playing its 2027 edition. Returning to Southwark Park for its fifth edition, next year's event will take in a headline set from Kelela. It will mark her ",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Straight Hedge! Noel Gardner Reviews Punk & HC for November",
-      "url": "https://thequietus.com/quietus-reviews/punk/straight-hedge-punk-hardcore-new-music-review-november-2026/",
-      "publishedAt": "2026-11-10T10:10:00.000Z",
-      "excerpt": "From charge-the-enemy, knife-down-boot, shoelace-round-head hardcore to some gleaming and nasty Lima death rock, Noel Gardner's guide to the best in punk returns Funeral, photo by Satanist Madness Welcome (back) to what many are calling “the tersest column on the Quietus dot com”, not because of the",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Claire Cronin – The Bruise",
-      "url": "https://thequietus.com/quietus-reviews/claire-cronin-the-bruise-review/",
-      "publishedAt": "2026-11-10T10:04:37.000Z",
-      "excerpt": "Claire Cronin The Bruise The folk horror Sandy Denny sees the horror of it all all too clearly The Bruise by Claire Cronin “Female singer songwriter” is a designation packed full of dated assumptions male singer songwriters have not had to contend with since the 60s. The category not only fails to i",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Dirty Projectors Share New Song, ‘Jumbotron’",
-      "url": "https://thequietus.com/news/dirty-projectors-share-new-song-jumbotron/",
-      "publishedAt": "2026-11-09T17:49:00.000Z",
-      "excerpt": "Its release marks their signing to Indiana label Joyful Noise, and the founding of their own imprint, Well-Tempered Zealot Dirty Projectors have released a new song, called 'Jumbotron'. It comes amid a flurry of activity from the project, which is led by David Longstreth. They've newly signed to Ind",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Nick Cave Announces Talk and Music Tour of North America",
-      "url": "https://thequietus.com/news/nick-cave-announces-talk-and-music-tour-of-north-america/",
-      "publishedAt": "2026-11-09T15:31:00.000Z",
-      "excerpt": "The Australian artist is refreshing the concept for his popular 2019 tour for a new 2027 run next spring Photo by Venetia Scott Nick Cave has announced an extensive tour of North America for 2027. Conversations With Nick Cave will offer up a night of talk and music from the Australian artist, refres",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "A Hymn of Selfishness: Sheherazaad Interviewed",
-      "url": "https://thequietus.com/interviews/sheherazaad-interview/",
-      "publishedAt": "2026-11-09T09:17:10.000Z",
-      "excerpt": "Khudgarzi is the debut album of Sheherazaad; the ghostly sound of female resistance in experimental pop and gothic folk. Words: Arusa Qureshi. Portraits: Zayira Ray Khudgarzi by Sheherazaad “There’s this fantastical, romanticised thing of being in grief and being dark and depressed, and then doing y",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Ana Lua Caiano – Devagar Que A Vida É Curta",
-      "url": "https://thequietus.com/quietus-reviews/ana-lua-caiano-devagar-que-a-vida-e-curta-review/",
-      "publishedAt": "2026-11-09T06:00:00.000Z",
-      "excerpt": "Ana Lua Caiano Devagar Que A Vida É Curta Portuguese singer-producer draws on Zeca Afonso and modern digital production techniques to produce a thrilling call to action Devagar Que A Vida É Curta by Ana Lua Caiano Devagar Que A Vida É Curta translates loosely as ‘Go slowly as life is short’. The tit",
-      "source": "The Quietus",
-      "category": "Arts"
     },
     {
       "title": "10 great films based on unfinished books",
@@ -23726,6 +23038,15 @@
       "discoveryChannel": "curator:Waxy"
     },
     {
+      "title": "Siren culture",
+      "url": "https://www.metafilter.com/215147/Siren-culture",
+      "publishedAt": "2026-11-12T20:42:36.000Z",
+      "excerpt": "The world's loudest subculture: siren kings",
+      "source": "MetaFilter",
+      "category": "Discover",
+      "sourceRole": "community"
+    },
+    {
       "title": "Dad Issues in Space: 50th anniversary release",
       "url": "https://www.metafilter.com/215146/Dad-Issues-in-Space-50th-anniversary-release",
       "publishedAt": "2026-11-12T20:14:40.000Z",
@@ -24241,7 +23562,15 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "觀塘男子捱斬倒地遺血路 一度昏迷送院治理 警到場調查",
+      "title": "BIGBANG啟德演唱會｜30人通宵排隊等買周邊商品 女粉絲：無預算",
+      "url": "https://hk01.com/sns/article/60410253",
+      "publishedAt": "2026-11-12T20:33:47.000Z",
+      "excerpt": "韓國天團BIGBANG今日（13日）起在啟德主場館舉行4場演唱會，場內官方周邊商品攤位設於東營，營業時間為上午11時至開演前30分鐘，吸引大量粉絲通宵排隊等候購買。Threads凌晨流傳多人在場排隊，網民留言「最早個批係（凌晨）12點」、「可以放棄唔出去排了」、「大癲，祝大家買到心頭好、唔好冷親」。 《香港01》今日（13日）凌晨3時許抵達了解，大約30人正在通宵排隊，秩序良好，天文台當時錄得24.3度，氣溫宜人。 Threads凌晨流傳多人在場排隊，網民留言「最早個批係（凌晨）12點」、「可以放棄唔出去排了」、「大癲，祝大家買到心頭好、唔好冷親」。（Threads@clseyna圖片） 大約",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "觀塘男子捱斬浴血倒地遺血路血衣 一度昏迷送院 獨行刀手在逃",
       "url": "https://hk01.com/sns/article/60410252",
       "publishedAt": "2026-11-12T19:39:07.000Z",
       "excerpt": "觀塘發生傷人案。今日（13日）凌晨1時許，警方接獲一名年約60歲男子報案，聲稱自己在輔仁街8號乾豐大廈遭到刺傷，同時聲稱自己財物被偷走。警員到場了解，相信事主負傷行走，倒在輔仁街8號位置，左前臂有大約8厘米長傷口，相信由利刀造成。事主昏迷由救護車送往伊利沙伯醫院，經治理後回復清醒，警方正調查事件。 就現場所見，輔仁街8號乾豐大廈對開行人路遺下大灘血跡和數隻手套，外套亦染有大量血跡，警方封鎖現場調查。 據了解，警員在乾豐大廈出入口梯級發現少量血跡，但大廈其他地方未見血跡，正調查傷者負傷行走路線。 根據讀者提供相片，傷者當時已經倒下，挨在乾豐大廈對開小巴站柱身，遺下大量血跡。 傷者當時已經倒下，挨",
@@ -24313,26 +23642,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "我的有罪之人｜薛仁雅重傷現女兒身！任時完崩潰 改編原作神反轉",
-      "url": "https://hk01.com/sns/article/60410003",
-      "publishedAt": "2026-11-12T16:30:49.000Z",
-      "excerpt": "由任時完與薛仁雅主演的tvN熱門韓劇《我的有罪之人》（又名《偽裝戀愛》），近日播出第8集迎來全劇最大反轉。劇中女刑警姜在熙（薛仁雅飾）在車禍後為保護財閥繼承人尹伊俊（任時完飾）與兇徒搏鬥而身受重傷，一直隱瞞的女性身份在這場意外中被揭穿，大膽改編手法令劇迷直呼「神來之筆」。 這一「現女兒身」的鋪排與原著小說及網漫截然不同，原著男主角早在女主角坦白前便看穿真相，只是未主動點破，劇版則將懸念留到生死一刻才揭曉，令觀眾看得屏息以待。 由任時完與薛仁雅主演的tvN熱門韓劇《我的有罪之人》（又名《偽裝戀愛》），近日播出第8集迎來全劇最大反轉。（IG@tvn_drama） 一場意外逼出真相車禍引爆殺機 身份",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "灣仔錫克教廟藍燈海原來有彩蛋？網民教路呢一刻 瞬間由藍變幻彩",
       "url": "https://hk01.com/sns/article/60409826",
       "publishedAt": "2026-11-12T16:15:54.000Z",
       "excerpt": "【錫克廟排燈節/錫克教廟排燈節/錫克教】灣仔錫克教廟為慶祝囚徒解放日(Bandi Chhor Divas)和排燈節（Diwali），今年首度在廟宇外圍大規模掛起一串串燈飾，幾乎覆蓋整座廟，當晚上6時半亮起藍燈後，營造出一片耀目燈海，更被網民大讚恍如迪士尼人氣動畫《魔雪奇緣》（FROZEN）的建築，近日吸引大批市民來打卡。 不過，這幕迷人藍燈原來還有「彩蛋」！有不少市民周三（11日）晚來打卡後，在網上發文指在晚上約9時半，原本的廟宇閃耀綻放的藍燈燈飾，瞬間竟變成更加奪目的幻彩燈海，令現場人士大感驚喜，部份人更在社交平台Threads及instagram上載相片熱傳，並留言提醒大家去打卡，勿忘「最",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "BIGBANG演唱會｜尖沙咀無人機匯演 G-DRAGON及太陽閃爆維港上空",
-      "url": "https://hk01.com/sns/article/60410228",
-      "publishedAt": "2026-11-12T15:22:27.000Z",
-      "excerpt": "【BIGBANG香港演唱會／BIGBANG／啟德體育園／啟德主場館／城巴】韓國天團BIGBANG為慶祝出道 20 週年，舉辦世界巡迴演唱會，香港站將於明日起在啟德主場館舉行一連四場演唱會。今日（12日）晚上8時、即演唱會前夕，主辦方在尖沙咀海濱辦「無人機匯演」，維港上空可見奪目耀眼的BIGBANG成員圖案，G-DRAGON、太陽和大聲，吸引大批粉絲早已霸位打卡。有英國粉絲由倫敦站追星到香港，形容香港的粉絲比較「瘋狂」，也有眾多香港粉絲大讚表演精彩，「直頭想重睇一次」。 BIGBANG20周年無人機匯演，現場一眾粉絲市民齊聚欣賞。（梁鵬威攝） 不少粉絲特意帶上BIGBANG應援手燈到場打卡支持。",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24357,6 +23670,14 @@
       "url": "https://hk01.com/sns/article/60410182",
       "publishedAt": "2026-11-12T10:54:28.000Z",
       "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），審訊今(12日）在高等法院續審，首被告鄺港傑續透露他事發當晚，他與鄺球回到龍尾村單位，並在屋內看到的情形。 鄺港傑稱，他下午離開龍尾村，晚上應父親鄺球要求過去一趟，他稱與鄺球吃過飯後，兩人一同回到龍尾村的單位。鄺港傑問父如何處理了事情，他指鄺球沒有回答，只是打開了大房的房門，他看到房內有一個帳篷，內裡有膠箱，膠箱旁有電鋸，電鋸上有血。鄺稱他當時理解，應該是蔡的部份屍體應已被肢解。鄺港傑稱，當時的畫面好震撼，他當時都好驚，不知可以說甚麼好，故亦沒有問鄺球詳情。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "鍾麗淇9月入ICU休養缺席細女生日會 「七魔女」代陪慶祝場面溫馨",
+      "url": "https://hk01.com/sns/article/60410158",
+      "publishedAt": "2026-11-12T10:30:30.000Z",
+      "excerpt": "由佘詩曼、湯盈盈、梁靖琪、文頌嫻、姚樂怡、鍾麗淇及周家蔚組成的「七魔女」，在圈中向來感情要好。今年9月驚傳鍾麗淇（Margaret）因突發重病入院，情況一度嚴峻並需於深切治療部（ICU）留醫。健康亮起紅燈後一直專心休養的她，未能親自出席細女 Michela的11歲生日派對，一眾好姊妹隨即仗義「代母職」，為好友愛女悉心籌備慶生派對，場面相當有愛。 由佘詩曼、湯盈盈、梁靖琪、文頌嫻、姚樂怡、鍾麗淇、周家蔚組成的「七魔女」，10多年來感情要好。（佘詩曼微博） 鍾麗淇早前出席「七魔女」周家蔚生日派對暴瘦引猜測。（IG@janetchowkawai） 三姊妹代母職為Michela慶生 近日姚樂怡在社交平",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24881,6 +24202,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "天文台料晚上驟雨增多及有幾陣狂風雷暴 明日初時雨勢頗大",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877617-20261113.htm",
+      "publishedAt": "2026-11-12T20:24:33.000Z",
+      "excerpt": "天文台發出特別天氣提示，指隨著高空擾動靠近，本港近期較晴朗的天氣將會有所改變，預料今日下午開始逐漸有幾陣驟雨，晚上驟雨增多及有幾陣狂風雷暴，風勢增強，明日初時雨勢頗大，提醒市民留意最新天氣消息，進行戶外活動時，要時刻注意天氣變化。 天文台說，隨著高空擾動遠離，明日日間驟雨減少，天色好轉，下午部分時間有陽光。 編輯：許敬軒",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "警方打擊白牌車拘捕12人 包括七名內地男子",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1877615-20261113.htm",
       "publishedAt": "2026-11-12T19:56:43.000Z",
@@ -25029,14 +24358,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1877559-20261112.htm",
       "publishedAt": "2026-11-12T09:40:37.000Z",
       "excerpt": "食環署公布，10月份全港白紋伊蚊誘蚊器指數為百分之2.9，較9月份的百分之5.2為低，反映食環署及相關政府部門加緊採取防蚊及滅蚊行動，令整體蚊患情況進一步改善。 署方說在10月份，62個監察地區中，全部監察地區的分區誘蚊器指數均低於百分之20的警戒水平。10月份每月誘蚊器指數及分區誘蚊器指數的回落，是由於各政府部門及持份者持續加緊採取防蚊及滅蚊行動，亦有機會受天氣等因素影響。各相關部門及持份者仍會持續進行控蚊工作。 另外，10月份的白紋伊蚊密度指數為1.1，表示在發現有白紋伊蚊的誘蚊器中，白紋伊蚊成蚊的平均數量為1.1隻，顯示整體監察地區內的白紋伊蚊成蚊數量並不多。 不過食環署說，鄰近地區仍錄",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "鄺港傑供稱相信膠箱內有蔡天鳳屍首 猜測有某部分已被肢解",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877554-20261112.htm",
-      "publishedAt": "2026-11-12T09:08:04.000Z",
-      "excerpt": "蔡天鳳案下午在高等法院續審，蔡天鳳前大伯鄺港傑繼續作供，指2023年2月21日晚上，他將七人車駛回荃灣準備回家期間，父親鄺球致電相約在大埔一間茶餐廳見面，期間沒有討論日間發生的事，兩人之後再一同返回龍尾村村屋。 鄺港傑說，進入村屋後其中一道房門關閉，曾經問父親打算如何處理，有否報警，父親沒有回應，並將房門打開。鄺港傑指，見到房間地上有一塊帆布，上面放有一個打開的帳蓬，內有透明膠箱，箱內有被鋪包裹的物體，其中一端有大量血液滲出，附近亦有一把早前曾經在家中見過、用作鋸木的電鋸，刀片上有少量血跡。 鄺港傑指出，當時見到的相信是父親日間用作放置蔡天鳳的膠箱和被鋪，相信箱內是蔡天鳳的屍首。他又說，當刻對",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },

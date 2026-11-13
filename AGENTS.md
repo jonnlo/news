@@ -9,3 +9,8 @@
 - Preserve intentional compatibility fallbacks, vendor-prefixed declarations, dark-mode overrides, focus states, and reduced-motion behavior. For example, `em` dimensions followed by `cap` dimensions are browser fallbacks, not accidental duplicates. Comment non-obvious fallbacks or necessary repeated declarations.
 - Keep redundancy cleanups behavior-preserving. Handle visual corrections separately rather than silently changing the winning declaration.
 - After CSS changes, run `npm run build` and relevant tests. For layout or cascade changes, compare affected pages at desktop and mobile widths in both light and dark modes, including interactive states; report any validation not performed.
+
+# News sources and settings
+
+- For source/category changes, follow [`docs/news-sources-and-settings.md`](docs/news-sources-and-settings.md) before editing `src/data/news-settings.json`, collector parsing, or category ranking behavior. It maps the active settings to the collector, site, and ranking config and describes a safe feed validation workflow.
+- Treat `src/data/news-settings.json` as the active configuration and `docs/source-audit.md` as a planning/history registry; adding a candidate to the registry does not activate it.

@@ -43,7 +43,7 @@ const wallhopUrl = wallhopSources.has(story.source.trim().toLocaleLowerCase())
     <Card size="sm" class="story-card ring-0">
       <CardContent class="story-content">
         <div class="story-copy">
-          <h2 class="story-title">
+          <h2 class="story-title story-marker">
             <span class="story-title-text">
               <a href={story.url} target="_blank" rel="noreferrer">{story.title}</a>
               {story.source === 'Hacker News' && story.discussionUrl && (

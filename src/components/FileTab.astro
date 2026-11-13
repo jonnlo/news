@@ -1,0 +1,31 @@
+---
+const { class: className, ...attributes } = Astro.props;
+---
+
+<div class:list={['file-tab', className]} {...attributes}>
+  <div class="file-tab-label" aria-hidden="true"><slot name="label" /></div>
+  <slot />
+</div>
+
+<style>
+  .file-tab {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 0 var(--ui-radius) var(--ui-radius) var(--ui-radius);
+  }
+
+  .file-tab-label {
+    position: absolute;
+    left: -1px;
+    bottom: calc(100% - 1px);
+    width: var(--file-tab-width);
+    height: var(--file-tab-height);
+    display: grid;
+    place-items: center;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-bottom: 0;
+    border-radius: var(--ui-radius) var(--ui-radius) 0 0;
+  }
+</style>

@@ -2,6 +2,10 @@
 
 :root {
   --site-font-stack: "Inter Variable", Inter, "PingFang HK", "PingFang SC", "PingFang TC", "Hiragino Sans", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans CJK TC", system-ui, sans-serif;
+  --story-font-size: 16px;
+  --story-card-padding: 8px 12px;
+  --story-row-block-padding: 8px;
+  --story-marker-gutter: calc(0.72em + 10px);
   font-family: var(--site-font-stack);
   color-scheme: light;
   font-synthesis: none;
@@ -336,15 +340,13 @@ html.pointer-mode :focus-visible {
 }
 
 .story-title {
-  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) max-content;
   align-items: baseline;
   gap: 10px;
   margin: 0;
   padding-left: 18px;
-  font-size: 16px;
-  line-height: 1.35;
+  font-size: var(--story-font-size);
   font-weight: 400;
   letter-spacing: -0.01em;
 }
@@ -358,11 +360,22 @@ html.pointer-mode :focus-visible {
   margin-inline-start: 6px;
 }
 
-.story-title::before {
+.story-marker {
+  position: relative;
+  line-height: 1.35;
+}
+
+@supports (width: 1cap) {
+  :root {
+    --story-marker-gutter: calc(1cap + 10px);
+  }
+}
+
+.story-marker::before {
   content: '';
   position: absolute;
   top: calc(0.315em + 4px);
-  left: 0;
+  inset-inline-start: var(--story-marker-offset, 0px);
   width: calc(0.72em - 2px);
   width: calc(1cap - 2px);
   height: calc(0.72em - 8px);
@@ -470,6 +483,11 @@ html.pointer-mode :focus-visible {
 }
 
 @media (max-width: 640px) {
+  :root {
+    --story-font-size: 15px;
+    --story-row-block-padding: 5px;
+  }
+
   .masthead {
     height: 74px;
   }
@@ -520,12 +538,11 @@ html.pointer-mode :focus-visible {
     font-size: 12px;
   }
 
-  .story-title {
-    font-size: 15px;
+  .story-marker {
     line-height: 1.4;
   }
 
-  .story-title::before {
+  .story-marker::before {
     top: calc(0.34em + 4px);
   }
 
@@ -536,7 +553,7 @@ html.pointer-mode :focus-visible {
 }
 
 @supports (top: calc((1lh - 1cap) / 2)) {
-  .story-title::before {
+  .story-marker::before {
     top: calc((1lh - 1cap) / 2 + 4px);
   }
 }
@@ -684,7 +701,7 @@ html.pointer-mode :focus-visible {
   margin: 0;
   list-style: none;
   gap: 0;
-  padding: 8px 12px;
+  padding: var(--story-card-padding);
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -731,12 +748,11 @@ html.pointer-mode :focus-visible {
 }
 
 .source-group .story-title {
-  padding-left: calc(0.72em + 10px);
-  padding-left: calc(1cap + 10px);
+  padding-left: var(--story-marker-gutter);
 }
 
 .source-group .story-content {
-  padding: 8px 0;
+  padding: var(--story-row-block-padding) 0;
 }
 
 .source-name-line {
@@ -750,7 +766,7 @@ html.pointer-mode :focus-visible {
   background: var(--surface);
 }
 
-.source-heading h2 {
+.source-tab-label {
   display: flex;
   min-width: 0;
   align-items: center;
@@ -763,7 +779,7 @@ html.pointer-mode :focus-visible {
   color: var(--theme-accent-text);
 }
 
-.source-heading h2::before {
+.source-tab-label::before {
   content: '';
   display: block;
   flex: 0 0 auto;
@@ -776,18 +792,18 @@ html.pointer-mode :focus-visible {
   font-size: 16px;
 }
 
-.source-heading h2 a {
+.source-tab-label a {
   min-width: 0;
   color: inherit;
 }
 
-.source-heading h2 a:hover {
+.source-tab-label a:hover {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 3px;
 }
 
-.source-heading h2 a:focus-visible {
+.source-tab-label a:focus-visible {
   outline: 2px solid var(--ring);
   outline-offset: 3px;
 }
@@ -842,10 +858,6 @@ html.pointer-mode :focus-visible {
 
   .source-list {
     grid-template-columns: 1fr;
-  }
-
-  .source-group .story-content {
-    padding: 5px 0;
   }
 }
 

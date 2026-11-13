@@ -1,0 +1,149 @@
+---
+import Markdoc, { type Config } from '@markdoc/markdoc';
+import SiteHeader from '@/components/SiteHeader.astro';
+import about from '@/data/about.mdoc?raw';
+import Layout from '@/layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const content = Markdoc.parse(about).children;
+const hasHeadline = content[0]?.type === 'heading' && content[0].attributes.level === 1;
+const firstBodyNode = content[hasHeadline ? 1 : 0];
+const intro = firstBodyNode?.type === 'paragraph' ? firstBodyNode : undefined;
+const description = intro && [...intro.walk()]
+  .map((node) => node.type === 'text' || node.type === 'code' ? node.attributes.content : node.type === 'softbreak' ? ' ' : '')
+  .join('');
+
+const markdocConfig: Config = {
+  nodes: {
+    heading: {
+      ...Markdoc.nodes.heading,
+      transform(node, config) {
+        const level = node.attributes.level;
+        const attributes = node.transformAttributes(config);
+        attributes.class = attributes.class ? `${attributes.class} story-marker` : 'story-marker';
+        return new Markdoc.Tag(`h${level}`, attributes, node.transformChildren(config));
+      },
+    },
+    link: {
+      ...Markdoc.nodes.link,
+      transform(node, config) {
+        const attributes = node.transformAttributes(config);
+        if (attributes.href === '../') attributes.href = base;
+        return new Markdoc.Tag('a', attributes, node.transformChildren(config));
+      },
+    },
+    image: {
+      ...Markdoc.nodes.image,
+      transform(node, config) {
+        const attributes = node.transformAttributes(config);
+        if (attributes.src?.startsWith('/about-assets/')) attributes.src = `${base}${attributes.src.slice(1)}`;
+        return new Markdoc.Tag('img', attributes);
+      },
+    },
+  },
+};
+const body = Markdoc.renderers.html(Markdoc.transform(content, markdocConfig));
+---
+
+<Layout title="About One More Tab" description={description || 'About the One More Tab news digest.'}>
+  <SiteHeader active="about" />
+  <main class="page-shell about-page">
+    <div class="source-heading" aria-hidden="true">
+      <div class="source-name-line"><span class="source-tab-label">About</span></div>
+    </div>
+    <article class="about-sheet">
+      <div class="about-copy">
+        {!hasHeadline && <h1 class="story-marker">About One More Tab</h1>}
+        <Fragment set:html={body} />
+      </div>
+    </article>
+  </main>
+</Layout>
+
+<style>
+  .about-page {
+    max-width: 720px;
+  }
+
+  .about-sheet {
+    --story-marker-offset: calc(0px - var(--story-marker-gutter));
+    padding: var(--story-card-padding);
+    background: var(--surface);
+    font-size: var(--story-font-size);
+    overflow-wrap: anywhere;
+  }
+
+  .about-copy {
+    max-width: calc(62ch + var(--story-marker-gutter));
+    padding-block: var(--story-row-block-padding);
+    padding-inline-start: var(--story-marker-gutter);
+    line-height: 1.6;
+  }
+
+  .about-copy > :global(* + *) {
+    margin-block-start: 12px;
+  }
+
+  .about-copy > :global(* + .story-marker) {
+    margin-block-start: 24px;
+  }
+
+  .about-copy > :global(.story-marker + :not(.story-marker)) {
+    margin-block-start: 6px;
+  }
+
+  .about-copy :global(.story-marker) {
+    font-weight: 650;
+    letter-spacing: -0.02em;
+  }
+
+  .about-copy :global(h1.story-marker) {
+    font-weight: 750;
+    text-wrap: balance;
+  }
+
+  .about-copy :global(:is(ul, ol)) {
+    padding-inline-start: 1.4em;
+  }
+
+  .about-copy :global(ul) { list-style: disc; }
+  .about-copy :global(ol) { list-style: decimal; }
+
+  .about-copy :global(blockquote) {
+    padding-inline-start: 1em;
+    border-inline-start: 2px solid var(--rule);
+  }
+
+  .about-copy :global(:is(pre, table)) {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .about-copy :global(:is(th, td)) {
+    border: 1px solid var(--rule);
+    padding: 0.35em 0.6em;
+  }
+
+  .about-copy :global(pre) {
+    padding: 0.75em;
+    background: var(--ground);
+  }
+
+  .about-copy :global(a) {
+    text-decoration: underline;
+    text-decoration-color: var(--faint-copy);
+    text-underline-offset: 0.2em;
+  }
+
+  .about-copy :global(a:hover) {
+    color: var(--theme-accent-text);
+    text-decoration-color: currentColor;
+  }
+
+  .about-copy :global(a:focus-visible) {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+</style>

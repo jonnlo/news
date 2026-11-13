@@ -3,6 +3,17 @@ import { config, fields, singleton } from '@keystatic/core';
 export default config({
   storage: { kind: 'local' },
   singletons: {
+    aboutPage: singleton({
+      label: 'About page',
+      path: 'src/data/about',
+      format: { contentField: 'content' },
+      schema: {
+        content: fields.markdoc({
+          label: 'Content',
+          options: { image: { directory: 'public/about-assets', publicPath: '/about-assets/' } },
+        }),
+      },
+    }),
     newsSettings: singleton({
       label: 'News settings',
       path: 'src/data/news-settings',

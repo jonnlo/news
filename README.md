@@ -24,7 +24,7 @@ npm run dev
 npm run build
 ```
 
-With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories and sources. Keystatic uses local storage here; changes are saved to the project files.
+With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories, sources, and the About page. In Keystatic, choose **About page** to edit the formatted page copy. Keystatic saves these edits to the project files.
 
 On mobile, category chips jump to the first source in each topic and **All** returns to the start of the feed. The pinned bar follows the category as you scroll. The bottom source switcher jumps to individual publishers and steps through the full feed. On desktop, the sticky category bar filters the grid. The source picker includes all publishers, and choosing one outside the desktop filter switches to **All** before jumping to it. A category link opens at that topic on mobile and filters the grid on desktop. The `/navigation/` preview URL also opens this view.
 

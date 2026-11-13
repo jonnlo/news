@@ -1,6 +1,7 @@
 ---
 import '@/styles/starwind.css';
 import '@/styles/global.css';
+import FileTab from '@/components/FileTab.astro';
 import Wordmark from '@/components/Wordmark.astro';
 ---
 <!doctype html>
@@ -13,9 +14,9 @@ import Wordmark from '@/components/Wordmark.astro';
   </head>
   <body>
     <main class="og-canvas" aria-label="One More Tab">
-      <div class="og-card">
+      <FileTab class="og-card">
         <h1><Wordmark class="og-wordmark" /></h1>
-      </div>
+      </FileTab>
     </main>
   </body>
 </html>
@@ -31,7 +32,8 @@ import Wordmark from '@/components/Wordmark.astro';
   }
 
   .og-card {
-    position: relative;
+    --file-tab-width: 316px;
+    --file-tab-height: 56px;
     width: 896px;
     height: 340px;
     margin-top: 54px;
@@ -39,22 +41,6 @@ import Wordmark from '@/components/Wordmark.astro';
     align-items: center;
     justify-content: center;
     padding: 0 64px;
-    background: var(--surface);
-    border: 1px solid var(--rule);
-    border-radius: 0 var(--ui-radius) var(--ui-radius) var(--ui-radius);
-  }
-
-  .og-card::before {
-    content: '';
-    position: absolute;
-    left: -1px;
-    bottom: calc(100% - 1px);
-    width: 316px;
-    height: 56px;
-    background: var(--surface);
-    border: 1px solid var(--rule);
-    border-bottom: 0;
-    border-radius: var(--ui-radius) var(--ui-radius) 0 0;
   }
 
   h1 {

@@ -3,9 +3,10 @@ import { Button } from '@/components/starwind/button';
 import Wordmark from './Wordmark.astro';
 
 interface Props {
-  active?: 'latest' | 'archive' | 'compare' | 'review';
+  active?: 'latest' | 'archive' | 'compare' | 'review' | 'about';
 }
 
+const { active } = Astro.props;
 const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
@@ -15,6 +16,13 @@ const base = import.meta.env.BASE_URL.endsWith('/')
   <div class="masthead-inner">
     <Wordmark href={base} />
     <div class="site-actions">
+      <Button
+        href={`${base}about/`}
+        variant="ghost"
+        size="sm"
+        class="px-2 text-[color:var(--muted-copy)] aria-[current=page]:text-[color:var(--theme-accent-text)]"
+        aria-current={active === 'about' ? 'page' : undefined}
+      >About</Button>
       <Button
         type="button"
         variant="ghost"

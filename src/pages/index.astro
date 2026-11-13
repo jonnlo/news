@@ -120,7 +120,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
             <section class="source-group" id={`source-${groupIndex}`} data-source-name={group.displayName ?? group.name} data-category={group.category} data-page="1" aria-label={`${group.displayName ?? group.name} headlines`} tabindex="-1">
               <header class="source-heading">
                 <div class="source-name-line">
-                  <h2>{homepages.has(group.name)
+                  <h2 class="source-tab-label">{homepages.has(group.name)
                     ? <a href={homepages.get(group.name)} target="_blank" rel="noreferrer">{group.displayName ?? group.name}</a>
                     : group.displayName ?? group.name}</h2>
                 </div>

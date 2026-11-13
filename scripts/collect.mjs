@@ -1,7 +1,7 @@
-import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { assertCollectionHasSuccess } from './collector-utils.mjs';
+import { assertCollectionHasSuccess, fetchWithRetry, loadPreviousSources, retainPreviousSource } from './collector-utils.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const newsSettings = JSON.parse(await readFile(resolve(root, 'src/data/news-settings.json'), 'utf8'));
@@ -22,20 +22,8 @@ const perSourceLimit = 20;
 const vergeFeeds = ['tech', 'ai-artificial-intelligence', 'policy', 'science', 'reviews', 'games']
   .map((section) => `https://www.theverge.com/rss/${section}/index.xml`);
 
-async function previousVergeStories() {
-  try {
-    const editions = (await readdir(outputDir)).filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name) && name <= `${today}.json`).sort().reverse();
-    for (const name of editions) {
-      try {
-        const edition = JSON.parse(await readFile(resolve(outputDir, name), 'utf8'));
-        const stories = edition.sources?.find((source) => source.name === 'The Verge')?.stories;
-        if (Array.isArray(stories) && stories.length) return stories;
-      } catch { /* Try an earlier edition if this file cannot be read. */ }
-    }
-  } catch { /* There may not be an edition yet. */ }
-  return [];
-}
-const savedVergeStories = await previousVergeStories();
+const previousSources = await loadPreviousSources([outputDir, resolve(root, 'src/data/editions')], today);
+const savedVergeStories = previousSources.get('The Verge')?.stories ?? [];
 // These publishers expose older, distinct RSS entries using WordPress pagination.
 const extraFeedPages = new Map([
   ...['MIT Technology Review', 'Tricycle', 'Five Books', 'Daily Nous', 'The Millions',
@@ -187,15 +175,14 @@ function isWiredCouponCodePage(story) {
 }
 
 async function fetchJson(url) {
-  const response = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs) });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.json();
+  return JSON.parse(await fetchText(url));
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, { headers, signal: AbortSignal.timeout(timeoutMs), redirect: 'follow' });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.text();
+  return fetchWithRetry(url, {
+    headers, timeoutMs,
+    onRetry: ({ url, attempt, error }) => console.warn(`Retrying ${url} after attempt ${attempt}/3 (${error.message}).`),
+  });
 }
 
 async function collectSource(feed) {
@@ -211,8 +198,7 @@ async function collectSource(feed) {
   } else if (feed.name === 'The Verge') {
     const responses = await Promise.allSettled([feed.url, ...vergeFeeds].map(async (url) => parseRss(await fetchText(url), feed)));
     const fetched = responses.flatMap((response) => response.status === 'fulfilled' ? response.value : []);
-    if (!fetched.length && !savedVergeStories.length) throw new Error('The Verge feeds returned no recognizable stories');
-    if (!fetched.length) console.warn('The Verge feeds are unavailable; keeping stories from the previous edition.');
+    if (!fetched.length) throw new Error('The Verge feeds returned no recognizable stories');
     const seen = new Set();
     stories = [...fetched, ...savedVergeStories].filter((story) => {
       try {
@@ -288,12 +274,14 @@ async function collectSource(feed) {
     .filter((story) => !isWiredCouponCodePage(story))
     .slice(0, perSourceLimit)
     .map(({ _feedIndex, ...story }) => story);
+  if (!selected.length) throw new Error('Source returned no recognizable stories');
   return {
     name: feed.name,
     category: feed.category,
     kind: feed.kind,
     count: selected.length,
     stories: selected,
+    lastSuccessfulAt: collectedAt.toISOString(),
   };
 }
 
@@ -302,7 +290,9 @@ const sourceResults = await Promise.all(feedList.map(async (feed) => {
   try { return await collectSource(feed); }
   catch (error) {
     sourceErrors.push({ source: feed.name, error: error?.message ?? 'feed unavailable' });
-    return { name: feed.name, category: feed.category, kind: feed.kind, count: 0, stories: [] };
+    const retained = retainPreviousSource(feed, previousSources.get(feed.name));
+    if (retained.retained) console.warn(`${feed.name}: refresh failed; retaining ${retained.count} saved stories (${retained.lastSuccessfulAt}).`);
+    return retained;
   }
 }));
 // Promise callbacks append failures as they finish; keep diagnostics aligned with feed order.
@@ -319,6 +309,7 @@ const snapshot = {
   collectedAt: collectedAt.toISOString(),
   timezone: 'Asia/Hong_Kong',
   sourcesChecked: feedList.length,
+  sourcesUpdated: feedList.length - sourceErrors.length,
   sourceErrors,
   sources: sourceResults,
   stories,
@@ -330,4 +321,5 @@ await mkdir(outputDir, { recursive: true });
 await writeFile(output, `${JSON.stringify(snapshot, null, 2)}\n`);
 console.log(`Saved ${stories.length} stories from ${sourceResults.filter((source) => source.count > 0).length} sources (${today}, Asia/Hong_Kong) to ${output}`);
 console.log(`Sources: ${feedList.length - sourceErrors.length}/${feedList.length} succeeded; ${sourceErrors.length} failed.`);
+console.log(`Retained saved stories for ${sourceResults.filter((source) => source.retained).length} sources.`);
 for (const { source, error } of sourceErrors) console.log(`- ${source}: ${error}`);

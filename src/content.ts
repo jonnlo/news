@@ -28,6 +28,7 @@ export interface Edition {
   collectionMode?: 'source-led';
   stories: Story[];
   sourcesChecked: number;
+  sourcesUpdated?: number;
   sourceErrors: (string | { source: string; error: string })[];
   sources?: SourceCollection[];
 }
@@ -38,6 +39,8 @@ export interface SourceCollection {
   category: Category;
   kind?: string;
   count?: number;
+  retained?: boolean;
+  lastSuccessfulAt?: string;
   stories: Story[];
 }
 

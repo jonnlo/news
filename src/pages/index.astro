@@ -178,7 +178,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
     <footer class="page-footer">
       <span>Headlines link to their original publishers.</span>
-      <span>{edition ? `${edition.sourcesChecked} sources checked` : 'No collection has run yet'}</span>
+      <span>{edition ? `${edition.sourcesUpdated ?? edition.sourcesChecked - (edition.sourceErrors?.length ?? 0)}/${edition.sourcesChecked} sources updated` : 'No collection has run yet'}</span>
     </footer>
   </main>
 

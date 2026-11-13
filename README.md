@@ -19,12 +19,13 @@ Requires Node.js 22 or newer.
 ```sh
 npm ci
 npx playwright install chromium
-npm run collect
 npm run dev
 npm run build
 ```
 
 With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories, sources, and the About page. In Keystatic, choose **About page** to edit the formatted page copy. Keystatic saves these edits to the project files.
+
+To fetch headlines for development, double-click **Fetch News for Dev.command** on macOS or run `npm run collect:local`. The collector saves snapshots in the Git-ignored `src/data/local-editions/` folder. The dev site shows the newest dated edition and prefers the local snapshot when both have the same Hong Kong date. Reload the page after the fetch finishes. Use `npm run collect` when you intend to refresh the edition under `src/data/editions/`.
 
 On mobile, category chips jump to the first source in each topic and **All** returns to the start of the feed. The pinned bar follows the category as you scroll. The bottom source switcher jumps to individual publishers and steps through the full feed. On desktop, the sticky category bar filters the grid. The source picker includes all publishers, and choosing one outside the desktop filter switches to **All** before jumping to it. A category link opens at that topic on mobile and filters the grid on desktop. The `/navigation/` preview URL also opens this view.
 

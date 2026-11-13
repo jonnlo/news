@@ -7,6 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "collect": "node scripts/collect.mjs",
+    "collect:local": "npm run collect -- --output=src/data/local-editions",
     "compare-rankings": "node scripts/compare-rankings.mjs",
     "compare-relevance": "node scripts/relevance-compare.mjs",
     "prepare-review": "node scripts/make-review.mjs"

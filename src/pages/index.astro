@@ -3,8 +3,9 @@ import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import { Button } from '@/components/starwind/button';
 import StoryCard from '@/components/StoryCard.astro';
-import { categories, formatDate, formatHongKongTime, type Edition, type SourceCollection } from '../content';
+import { categories, formatDate, formatHongKongTime, type SourceCollection } from '../content';
 import newsSettings from '../data/news-settings.json';
+import { getEditionSourceGroups, latestEdition as edition, sortSourceStories } from '../latest-edition';
 import SourceNavigator from '../components/SourceNavigator.astro';
 
 const homepageOverrides: Record<string, string> = {
@@ -38,31 +39,12 @@ const sourceOrder = new Map(activeSources.map((source, index) => [source.name, i
 const sourceCategory = new Map(activeSources.map((source) => [source.name, source.category] as const));
 const sourceDisplayNames = new Map(activeSources.map((source) => [source.name, source.displayName] as const));
 
-const allEditions = Object.values(
-  import.meta.glob('../data/editions/*.json', { eager: true, import: 'default' }),
-) as Edition[];
-const edition = allEditions.sort((a, b) => b.date.localeCompare(a.date))[0];
-const stories = edition?.stories ?? [];
-const sourceGroups: SourceCollection[] = edition?.sources?.length
-  ? edition.sources
-  : [...new Set(stories.map((story) => `${story.source}\u0000${story.category}`))].map((key) => {
-    const [source, category] = key.split('\u0000');
-    const sourceStories = stories.filter((story) => story.source === source && story.category === category);
-    return { name: source, category: (category ?? 'Discover') as SourceCollection['category'], stories: sourceStories };
-  });
+const sourceGroups: SourceCollection[] = getEditionSourceGroups(edition);
 sourceGroups.forEach((group) => {
   group.category = sourceCategory.get(group.name) ?? group.category;
   group.displayName = sourceDisplayNames.get(group.name) ?? group.name;
 });
-sourceGroups.forEach((group) => {
-  if (group.kind === 'hackernews' || group.name === 'Hacker News') return;
-  group.stories.sort((a, b) => {
-    const timeA = a.publishedAt ? Date.parse(a.publishedAt) : Number.NEGATIVE_INFINITY;
-    const timeB = b.publishedAt ? Date.parse(b.publishedAt) : Number.NEGATIVE_INFINITY;
-    return (Number.isNaN(timeB) ? Number.NEGATIVE_INFINITY : timeB) -
-      (Number.isNaN(timeA) ? Number.NEGATIVE_INFINITY : timeA);
-  });
-});
+sourceGroups.forEach(sortSourceStories);
 sourceGroups.forEach((group) => {
   group.stories = group.stories.slice(0, 20);
 });

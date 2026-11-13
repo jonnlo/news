@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-14",
-  "generatedAt": "2026-11-13T18:17:12.442Z",
-  "collectedAt": "2026-11-13T18:17:12.442Z",
+  "generatedAt": "2026-11-13T19:17:12.220Z",
+  "collectedAt": "2026-11-13T19:17:12.220Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "Mekong Review",
+      "error": "HTTP 504"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,6 +20,60 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Models can now transmit viruses in weight-space",
+          "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+          "publishedAt": "2026-11-13T18:33:35.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487762"
+        },
+        {
+          "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+          "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+          "publishedAt": "2026-11-13T18:23:49.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487605"
+        },
+        {
+          "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+          "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+          "publishedAt": "2026-11-13T18:18:37.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487522"
+        },
+        {
+          "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+          "url": "https://isometricsf.com/",
+          "publishedAt": "2026-11-13T17:58:37.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487228"
+        },
+        {
+          "title": "After 600 experiments, here's what I discovered about JEPA world models",
+          "url": "https://haddyalchaer.com/jepa",
+          "publishedAt": "2026-11-13T17:55:28.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487185"
+        },
+        {
+          "title": "OpenAI disbands its robotics team as its general models start running robots",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+          "publishedAt": "2026-11-13T17:55:23.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50487184"
+        },
         {
           "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
           "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
@@ -25,16 +84,16 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50486748"
         },
         {
-          "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-          "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-          "publishedAt": "2026-11-13T17:10:33.000Z",
+          "title": "Concurrent Shell Command Queues",
+          "url": "https://emmer.dev/blog/concurrent-shell-command-queues/",
+          "publishedAt": "2026-11-13T17:13:01.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50486489"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50486521"
         },
         {
-          "title": "\"LibreOffice works 365 days a year. Just saying.\"",
+          "title": "LibreOffice actually works 365 days a year",
           "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
           "publishedAt": "2026-11-13T17:09:58.000Z",
           "excerpt": "",
@@ -43,7 +102,16 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50486482"
         },
         {
-          "title": "Apify Was Hacked",
+          "title": "Gnomon. Git for Postgres data, built for agents",
+          "url": "https://github.com/bitsinfra/gnomon",
+          "publishedAt": "2026-11-13T17:09:52.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50486480"
+        },
+        {
+          "title": "Apify Security Incident",
           "url": "https://status.apify.com/incidents/sxd1dj5j6749",
           "publishedAt": "2026-11-13T16:55:59.000Z",
           "excerpt": "",
@@ -70,31 +138,22 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50485295"
         },
         {
-          "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
-          "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-          "publishedAt": "2026-11-13T15:08:44.000Z",
+          "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+          "url": "https://text.npr.org/nx-s1-6029408",
+          "publishedAt": "2026-11-13T15:29:10.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484658"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
         },
         {
-          "title": "Palmfrets, Minnesota guitarist's invention, strikes a new chord",
+          "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
           "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
           "publishedAt": "2026-11-13T15:08:07.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50484650"
-        },
-        {
-          "title": "EU Digital Identity Wallet rollout: every EU state on one board",
-          "url": "https://myid.ie/business/eu-digital-wallet-tracker/",
-          "publishedAt": "2026-11-13T14:58:07.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50484496"
         },
         {
           "title": "A technical vision for the Haskell ecosystem",
@@ -133,15 +192,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50483611"
         },
         {
-          "title": "US test reactor cleared for operations",
-          "url": "https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations",
-          "publishedAt": "2026-11-13T13:54:49.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50483533"
-        },
-        {
           "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
           "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
           "publishedAt": "2026-11-13T12:10:24.000Z",
@@ -149,54 +199,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50482379"
-        },
-        {
-          "title": "AI Is Destroying the Trust Between Writers and Readers",
-          "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-          "publishedAt": "2026-11-13T11:13:46.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50481870"
-        },
-        {
-          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-          "url": "https://status.claude.com/incidents/nn11wk485zfn",
-          "publishedAt": "2026-11-13T10:18:13.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50481187"
-        },
-        {
-          "title": "IceWM",
-          "url": "https://ice-wm.org/",
-          "publishedAt": "2026-11-13T04:54:53.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50478515"
-        },
-        {
-          "title": "Switcher (2004)",
-          "url": "https://folklore.org/Switcher.html",
-          "publishedAt": "2026-11-13T03:14:59.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50477714"
-        },
-        {
-          "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-          "url": "https://brave.com/blog/search-api-agentic-payments/",
-          "publishedAt": "2026-11-13T03:08:08.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50477649"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "WIRED",
@@ -373,6 +378,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+          "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+          "publishedAt": "2026-11-13T19:08:57.000Z",
+          "excerpt": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "The Microsoft Outage Is a Warning for the World",
           "url": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/",
@@ -524,17 +537,9 @@
           "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
-          "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
-          "publishedAt": "2026-11-12T20:01:33.000Z",
-          "excerpt": "Microsoft says its systems are experiencing “elevated loads” as the company races to end an outage impacting its business and enterprise customers.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "MIT Technology Review",
@@ -792,6 +797,14 @@
           "category": "Technology"
         },
         {
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "publishedAt": "2026-11-09T17:05:43.000Z",
+          "excerpt": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener",
+          "source": "MIT Technology Review",
+          "category": "Technology"
+        },
+        {
           "title": "The Download: empty AI climate claims, and an Nvidia investigation",
           "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
           "publishedAt": "2026-11-09T13:15:00.000Z",
@@ -862,17 +875,9 @@
           "excerpt": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring pos",
           "source": "MIT Technology Review",
           "category": "Technology"
-        },
-        {
-          "title": "What’s next for US energy policy after the midterm elections?",
-          "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
-          "publishedAt": "2026-11-04T17:08:00.000Z",
-          "excerpt": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
-          "source": "MIT Technology Review",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "TechCrunch",
@@ -880,6 +885,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "publishedAt": "2026-11-13T18:40:30.000Z",
+          "excerpt": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
         {
           "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
           "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
@@ -900,7 +913,7 @@
           "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
           "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
           "publishedAt": "2026-11-13T14:57:55.000Z",
-          "excerpt": "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
+          "excerpt": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
           "source": "TechCrunch",
           "category": "Technology"
         },
@@ -913,7 +926,7 @@
           "category": "Technology"
         },
         {
-          "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
+          "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
           "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
           "publishedAt": "2026-11-13T13:15:20.000Z",
           "excerpt": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
@@ -1031,17 +1044,9 @@
           "excerpt": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-          "publishedAt": "2026-11-12T16:32:33.000Z",
-          "excerpt": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Next Web",
@@ -1049,6 +1054,42 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "Anthropic says its AI safety scores depend heavily on how they’re measured",
+          "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
+          "publishedAt": "2026-11-13T19:01:04.000Z",
+          "excerpt": "Anthropic has published advice on building AI safety tests. It shows Claude Fable 5.1 behaved appropriately in only 60% of self-harm test conversations via its API, against 94% in the Claude app after a fix, and warns that many headline safety scores hide wide uncertainty. Anthropic has published ad",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Sierra releases Poppy 1.0 as Shopify and Meta’s Muse sign on",
+          "url": "https://thenextweb.com/news/sierra-poppy-1-0-shopify-meta-muse-personal-agents",
+          "publishedAt": "2026-11-13T18:37:45.000Z",
+          "excerpt": "Sierra has released version 1.0 of Personal Agent Protocol, or Poppy, a standard for how personal AI agents deal with companies. Shopify has turned it on for every store, Meta’s Muse agent now looks for it on every site, and more than 100 companies have signed up. Sierra has released version 1.0 of ",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Alexander Rinke says Europe needs AI champions to share in the next wave of AI value",
+          "url": "https://thenextweb.com/news/alexander-rinke-celonis-sovereign-ai-tnw-podcast",
+          "publishedAt": "2026-11-13T18:27:32.000Z",
+          "excerpt": "Thirty years ago, Europe’s GDP was roughly on par with the US, Alexander Rinke told TNW. Today it is dramatically less. The Celonis co-founder and co-CEO does not want AI to make that gap wider. Rinke spoke to Cristian Dina for the TNW Podcast at HumanX in Amsterdam on 23 September. Earlier that day",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Cornelis launches CN6000 800G networking to rival Nvidia InfiniBand",
+          "url": "https://thenextweb.com/news/cornelis-cn6000-800g-networking-ai-supercomputers",
+          "publishedAt": "2026-11-13T18:12:52.000Z",
+          "excerpt": "Cornelis, which Intel spun out in 2020, has launched CN6000, a family of 800G network cards and switches for AI and supercomputers. It claims lower latency than Nvidia’s InfiniBand, based on its own tests. Partner systems arrive in early 2027. Cornelis, a networking company spun out of Intel, has la",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Google’s Gemini can now read your Google Wallet to help you budget",
           "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid",
@@ -1102,45 +1143,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Cerebras raises its 2026 forecast and signs Microsoft as a cloud customer",
-          "url": "https://thenextweb.com/news/cerebras-microsoft-deal-q3-2026-forecast",
-          "publishedAt": "2026-11-13T14:59:33.000Z",
-          "excerpt": "Cerebras shares rose about 17% in after-hours trading on Thursday. The AI chipmaker posted third-quarter results that beat analysts’ estimates, lifted its outlook for the year and added a new cloud customer. The company now expects core revenue of $940m to $960m this year, Reuters reported. In Augus",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Singapore barred Alice Huang after she gave police inaccurate information",
-          "url": "https://thenextweb.com/news/alice-huang-singapore-barred-megaspeed-limited-us-help",
-          "publishedAt": "2026-11-13T13:58:05.000Z",
-          "excerpt": "Singapore barred Alice Huang from re-entering the country after she gave police inaccurate information about her role at Megaspeed. The Ministry of Home Affairs disclosed the ban on Thursday. Singapore also said it had asked US authorities for information for more than a year and received only limit",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Ireland fines Tinder’s owner €11M over its ‘Download My Data’ tool",
-          "url": "https://thenextweb.com/news/tinder-match-group-11m-gdpr-fine-ireland",
-          "publishedAt": "2026-11-13T13:41:11.000Z",
-          "excerpt": "Ireland’s privacy watchdog has fined Match Group €11mn after finding that Tinder’s “Download My Data” tool failed to give users a full copy of the personal data the company holds on them, Politico reports. In a decision announced on Friday, the Data Protection Commission said the tool omitted certai",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Nvidia will keep investigating Jensen Huang, The Information reports",
-          "url": "https://thenextweb.com/news/jensen-huang-nvidia-investigation-senate-lutnick-testify",
-          "publishedAt": "2026-11-13T13:25:43.000Z",
-          "excerpt": "Nvidia plans to keep investigating whether Jensen Huang was the target of a foreign intelligence effort, Jessica E. Lessin reported for The Information, citing a person familiar with the situation. Huang resigned as chief executive on Thursday. Nvidia is expected to issue a statement saying it is no",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Slashdot",
@@ -1148,6 +1153,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "ChatGPT's New Wallet Lets AI Agents Shop For You",
+          "url": "https://news.slashdot.org/story/26/11/13/1911210/chatgpts-new-wallet-lets-ai-agents-shop-for-you?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-13T19:12:00.000Z",
+          "excerpt": "OpenAI has launched ChatGPT Wallet, a feature that lets its Dots AI agents help users choose products and complete purchases on their behalf. TechCrunch reports: The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Maste",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Advocacy Groups Sue AI Giants to Freeze New Models, Warning of 'Catastrophic' Risks",
           "url": "https://news.slashdot.org/story/26/11/13/1734203/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1273,18 +1287,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Jensen Huang Resigns As Nvidia CEO",
-          "url": "https://slashdot.org/story/26/11/12/1548253/jensen-huang-resigns-as-nvidia-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
-          "excerpt": "Jensen Huang has stepped down as CEO of Nvidia after 33 years leading the company, with CFO Colette Kress taking over as interim CEO while the board searches for a permanent replacement. \"The Board has full confidence in Colette and the leadership team, and we expect the company's operations, custom",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,28 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops (New York Times)",
+          "url": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
+          "publishedAt": "2026-11-13T19:10:01.000Z",
+          "excerpt": "New York Times : Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops &nbsp; &mdash;&nbsp; Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies,",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261113/p24#a261113p24",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Claude Duet review: user-friendly, sends a helpful morning brief, and spots scheduling conflicts, but can feel like a neurotic personal assistant that nags (Allison Johnson/The Verge)",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+          "publishedAt": "2026-11-13T18:55:00.000Z",
+          "excerpt": "Allison Johnson / The Verge : Claude Duet review: user-friendly, sends a helpful morning brief, and spots scheduling conflicts, but can feel like a neurotic personal assistant that nags &nbsp; &mdash;&nbsp; Normally, the products I test don't offer to help me write up my experience with them.&nbsp; ",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261113/p23#a261113p23",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Some in China question the timing of reports on the relationship between Jensen Huang and Alice Huang; Trump is set to meet Xi Jinping in Shenzhen next week (Mithil Aggarwal/NBC News)",
           "url": "https://www.nbcnews.com/world/asia/jensen-huang-nvidia-china-ai-chips-rcna608952",
@@ -1434,31 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261113/p10#a261113p10",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Source: at an August 2026 finance meeting, Jensen Huang interrupted Colette Kress' presentation, calling her \"a deer in the headlights\" and a \"reporting CFO\" (Wall Street Journal)",
-          "url": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097?st=TUtsF9&reflink=desktopwebshare_permalink",
-          "publishedAt": "2026-11-13T12:50:01.000Z",
-          "excerpt": "Wall Street Journal : Source: at an August 2026 finance meeting, Jensen Huang interrupted Colette Kress' presentation, calling her &ldquo;a deer in the headlights&rdquo; and a &ldquo;reporting CFO&rdquo; &nbsp; &mdash;&nbsp; Interim CEO Colette Kress has questioned some Huang dealmaking.&nbsp; He ca",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261113/p9#a261113p9",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "South Korea-based DeepX tapes out DX-M2, an edge AI chip to run inference of 100B-parameter LLMs on robots and drones, targeting fall 2027 for mass production (Sally Ward-Foxton/EE Times)",
-          "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-          "publishedAt": "2026-11-13T12:15:19.000Z",
-          "excerpt": "Sally Ward-Foxton / EE Times : South Korea-based DeepX tapes out DX-M2, an edge AI chip to run inference of 100B-parameter LLMs on robots and drones, targeting fall 2027 for mass production &nbsp; &mdash;&nbsp; DeepX is targeting edge markets including robotics with its second-generation AI accelera",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261113/p8#a261113p8",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1471,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Disney's 3D movies shine on Meta's Quest 3, it's just a shame it took so long",
+          "url": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
+          "publishedAt": "2026-11-13T19:00:00.000Z",
+          "excerpt": "Finally, you can watch Avatar in 3D HFR at home.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "You can now tempt fate and give your banking information to ChatGPT",
           "url": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
@@ -1636,18 +1650,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple TV 4K (4th gen) review: Still great, but drastically more expensive",
-          "url": "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
-          "publishedAt": "2026-11-12T14:00:00.000Z",
-          "excerpt": "The Apple TV 4K remains the best premium streaming box you can buy, but the higher price makes it harder to recommend.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1660,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Younger workers are hiding AI usage from bosses as they try to hold on to jobs",
+          "url": "https://www.techradar.com/pro/younger-workers-are-hiding-ai-usage-from-bosses-as-they-try-to-hold-on-to-jobs",
+          "publishedAt": "2026-11-13T19:05:00.000Z",
+          "excerpt": "Gen Z workers using AI for their role increasingly feel that they have to hide their actions, fearing negative reactions from colleagues and managers.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The first 100-inch TV with Ambilight is here, and this thing will be super-immersive",
+          "url": "https://www.techradar.com/televisions/the-first-100-inch-tv-with-ambilight-is-here-will-this-br-the-most-immersive-home-theatre-experience-that-doesnt-involve-a-projector",
+          "publishedAt": "2026-11-13T18:22:05.000Z",
+          "excerpt": "Philips has extended its The One range of Ambilight TVs with a new 100-inch QLED",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "45+ best early Black Friday deals in the UK — Nintendo Switch 2, LG OLED TVs, AirPods 5, Kindle, Garmin Forerunner, and more of my top picks this weekend",
           "url": "https://www.techradar.com/seasonal-sales/45-best-early-black-friday-deals-in-the-uk-nintendo-switch-2-lg-oled-tvs-airpods-5-kindle-garmin-forerunner-and-more-of-my-top-picks-this-weekend",
@@ -1674,7 +1697,16 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Scotland vs North Macedonia: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture",
+          "title": "How to watch Sweden vs Bosnia & Herzegovina: live stream for free online from anywhere",
+          "url": "https://www.techradar.com/entertainment/football/watch-sweden-vs-bosnia-herzegovina",
+          "publishedAt": "2026-11-13T17:00:00.000Z",
+          "excerpt": "Here's how you can watch Sweden vs Bosnia and Herzegovina for free online from anywhere in the world as they face off in the Nations League.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How to watch Scotland vs North Macedonia: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
           "url": "https://www.techradar.com/entertainment/football/watch-scotland-vs-north-macedonia-nations-league-2026-27-free",
           "publishedAt": "2026-11-13T17:00:00.000Z",
           "excerpt": "How you can watch Scotland vs North Macedonia in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
@@ -1701,15 +1733,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Sweden vs Bosnia & Herzegovina: live stream for free online from anywhere",
-          "url": "https://www.techradar.com/entertainment/football/watch-sweden-vs-bosnia-herzegovina",
-          "publishedAt": "2026-11-13T17:00:00.000Z",
-          "excerpt": "Here's how you can watch Sweden vs Bosnia and Herzegovina for free online from anywhere in the world as they face off in the Nations League.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "There's 50% off Criterion Collection 4K Blu-rays — here are my 9 picks",
           "url": "https://www.techradar.com/televisions/blu-ray/theres-up-to-50-percent-off-criterion-collection-4k-blu-rays-right-now-here-are-my-6-picks-from-the-sale-all-of-which-ive-tested",
           "publishedAt": "2026-11-13T16:50:55.000Z",
@@ -1719,7 +1742,7 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch France vs South Africa: FREE live streams, TV channels and kick-off time for Nations Championship 2026 game",
+          "title": "How to watch France vs South Africa: FREE live streams, TV channels and kick-off time for Nations Championship 2026 game, teams",
           "url": "https://www.techradar.com/entertainment/rugby/france-vs-south-africa-free-nations-championship-2026",
           "publishedAt": "2026-11-13T16:30:00.000Z",
           "excerpt": "All the ways to watch France vs South Africa for free from anywhere, as the respective table toppers meet in the Nations Championship 2026 at Stade de France.",
@@ -1816,27 +1839,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "My favorite drawing display offers top-tier drawing performance at a surprisingly low price — here’s why you should be considering the XP-Pen Artist Pro 24 Gen 2 4K",
-          "url": "https://www.techradar.com/tablets/my-favorite-drawing-display-offers-top-tier-drawing-performance-at-a-surprisingly-low-price-heres-why-you-should-be-considering-the-xp-pen-artist-pro-24-gen-2-4k",
-          "publishedAt": "2026-11-13T12:00:49.000Z",
-          "excerpt": "There's so much to love about the Artist Pro 24 Gen2 4K, I'm struggling to put my stylus down.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "European cyber threats are growing much faster than other regions",
-          "url": "https://www.techradar.com/pro/security/european-cyber-threats-are-growing-much-faster-than-other-regions-as-new-report-warns-ai-enables-cybercriminals-to-operate-at-a-scale-weve-never-seen-before",
-          "publishedAt": "2026-11-13T12:00:00.000Z",
-          "excerpt": "Europeans are more likely to open a phishing email compared to everyone else, Proofpoint finds.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "9to5Mac",
@@ -1844,6 +1849,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "iOS 27.3 adds three new features I’ve used almost every day",
+          "url": "https://9to5mac.com/2026/11/13/ios-27-3-adds-three-new-features-ive-used-almost-every-day/",
+          "publishedAt": "2026-11-13T18:56:41.000Z",
+          "excerpt": "iOS 27.3 is coming next month , and during the beta so far there are three new features I’ve been using almost every day. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "9to5Mac Daily: November 13, 2026 – New Apple TV 4K and HomeView now available",
           "url": "https://9to5mac.com/2026/11/13/daily-november-13-2026/",
@@ -2014,18 +2028,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Microsoft Outlook experiencing widespread outage",
-          "url": "https://9to5mac.com/2026/11/12/microsoft-outlook-experiencing-widespread-outage/",
-          "publishedAt": "2026-11-12T18:54:54.000Z",
-          "excerpt": "Everybody’s working for the weekend, but Microsoft Outlook clocked out early. The mission-critical email service is facing a widespread outage. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2381,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2525,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Creative Bloq",
@@ -2709,7 +2714,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2923,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3092,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3261,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3350,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3519,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3688,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3877,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3880,6 +3885,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "What Michael Ealy Watches (and Listens to) With His Kids",
+          "url": "http://www.vulture.com/article/michael-ealy-kids-family-movies.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-13T18:00:45.000Z",
+          "excerpt": "“My kids made me watch The Sound of Music, which I had avoided for about 40 years, and I’ve got to say: It is absolutely magical.”",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "What We Know About the Shooting in Washington, D.C.",
+          "url": "http://www.thecut.com/article/what-we-know-about-the-shooting-in-washington-d-c.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-13T17:15:00.000Z",
+          "excerpt": "One person is dead and four others are in the hospital after a gunman opened fire at a gym in D.C.’s Logan Circle neighborhood.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "When Clayface Swallowed ‘Batman: The Animated Series’",
           "url": "http://www.vulture.com/article/batman-the-animated-series-feat-of-clay-behind-the-scenes-interviews.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -4001,7 +4024,7 @@
           "title": "Matthew Barney Isn’t a Celebrity Artist Anymore",
           "url": "http://www.vulture.com/article/matthew-barney-at-60.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-13T12:00:25.000Z",
-          "excerpt": "The art world turned the ex-quarterback, ex-model, ex–Mr. Björk into a star, then moved along. That turned out to be for the best.",
+          "excerpt": "The art world turned the ex-quarterback, ex-model, ex–Mr. Björk into a star, then moved on. That turned out to be for the best.",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4041,27 +4064,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The Welcome End of Play-It-Safe Politics",
-          "url": "http://nymag.com/intelligencer/article/the-welcome-end-of-play-it-safe-politics.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-13T11:00:22.000Z",
-          "excerpt": "Democrats just need to remember that affordability trumps “electability.”",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Lives of the Tech Caesars",
-          "url": "http://nymag.com/intelligencer/article/jensen-huang-tech-caesars-nvidia-scandal.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-13T10:00:37.000Z",
-          "excerpt": "The market, and maybe the future of humanity, depends on the personal decisions of 11 men.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Atlantic",
@@ -4069,6 +4074,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Writers Who Tried to Reconstruct the Past",
+          "url": "https://www.theatlantic.com/newsletters/2026/11/books-briefing-writers-reconstruct-past-lamela/689429/?utm_source=feed",
+          "publishedAt": "2026-11-13T19:10:00.000Z",
+          "excerpt": "Their attempts might be doomed to fail, but that doesn’t mean they aren’t noble, or even beautiful.",
+          "source": "The Atlantic",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Zelda ’s Midlife Crisis",
           "url": "https://www.theatlantic.com/ideas/2026/11/new-zelda-review-nostalgia/689420/?utm_source=feed",
@@ -4239,18 +4253,9 @@
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The Trolls’ Comeuppance",
-          "url": "https://www.theatlantic.com/ideas/2026/11/attention-economy-republicans-failure/689347/?utm_source=feed",
-          "publishedAt": "2026-11-10T15:02:03.000Z",
-          "excerpt": "How the attention economy turned on Republicans",
-          "source": "The Atlantic",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The New Yorker",
@@ -4439,7 +4444,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Hyperallergic",
@@ -4447,6 +4452,14 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Seven Museums to Host Solo Exhibitions Celebrating Wolf Kahn’s Centennial",
+          "url": "https://hyperallergic.com/seven-museums-to-host-solo-exhibitions-celebrating-wolf-kahns-centennial/",
+          "publishedAt": "2026-11-13T18:45:44.000Z",
+          "excerpt": "Museums in Germany, New York, and Vermont are among those to honor the late abstract landscape painter next year.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
         {
           "title": "Craft in America Concludes its Handwork Series with NORTH and SOUTH",
           "url": "https://hyperallergic.com/craft-in-america-concludes-its-handwork-series-with-north-and-south/",
@@ -4558,17 +4571,9 @@
           "excerpt": "The internet is having a field day after the tech mogul confessed to having an affair with a suspected Chinese intelligence spy.",
           "source": "Hyperallergic",
           "category": "Culture"
-        },
-        {
-          "title": "Art Bros About to Get More Insufferable as Artnet Partners With Kalshi",
-          "url": "https://hyperallergic.com/art-bros-about-to-get-more-insufferable-as-artnet-partners-with-kalshi/",
-          "publishedAt": "2026-11-11T21:59:14.000Z",
-          "excerpt": "Under new private equity ownership, Artnet will “curate” art-market wagers for the controversial prediction platform. What could go right?",
-          "source": "Hyperallergic",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "IndieWire",
@@ -4576,6 +4581,22 @@
       "kind": "rss",
       "count": 12,
       "stories": [
+        {
+          "title": "Will ‘Dune’ and ‘Avengers’ Drown Out Everything Else at the Box Office This Christmas?",
+          "url": "https://www.indiewire.com/news/box-office/will-dune-avengers-drown-out-xmas-box-office-1235227379/",
+          "publishedAt": "2026-11-13T19:00:00.000Z",
+          "excerpt": "\"Werwulf,\" \"Mr. Irrelevant,\" \"Jumanji: Open World,\" \"Artificial,\" and \"The Angry Birds Movie 3\" are the other titles leading a crowded holiday.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
+          "title": "Russell Brand Was Sentenced for Rape and Sexual Assault on Monday. By Friday, Netflix Had a Sleazy Doc Ready to Go",
+          "url": "https://www.indiewire.com/features/commentary/netflix-russell-brand-documentary-insights-1235227726/",
+          "publishedAt": "2026-11-13T18:32:10.000Z",
+          "excerpt": "Olivia Isaacs' documentary on the (very) recently convicted and imprisoned rapist has been in the works for a while, but its fast-tracked release date seems designed to piggyback on the news, not offer any fresh insights.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
         {
           "title": "David O. Russell’s ‘Madden’ Biopic Is Out Next Week — Does Anybody Know or Care?",
           "url": "https://www.indiewire.com/features/commentary/david-o-russell-madden-biopic-amazon-burying-nicolas-cage-film-1235224213/",
@@ -4655,25 +4676,9 @@
           "excerpt": "The '70s drama follows a NYC ironworker who becomes a working class legend.",
           "source": "IndieWire",
           "category": "Culture"
-        },
-        {
-          "title": "‘American Doctor’ and ‘You Can See Everything’ Lead 2027 Cinema Eye Honors Film Nominations",
-          "url": "https://www.indiewire.com/awards/results/2027-cinema-eye-honors-film-nominations-full-list-1235227192/",
-          "publishedAt": "2026-11-12T18:00:00.000Z",
-          "excerpt": "Poh Si Teng’s “American Doctor” and Nathan Fielder and Lance Oppenheim’s “You Can See Everything” led the 20th annual Cinema Eye Honors with seven nominations each.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "What Makes a Good Oscar Campaign? Just Ask Sony Classics’ Michael Barker and Tom Bernard",
-          "url": "https://www.indiewire.com/features/podcast/sony-pictures-classics-michael-barker-tom-bernard-interview-1235227301/",
-          "publishedAt": "2026-11-12T17:30:00.000Z",
-          "excerpt": "The Sony Pictures Classics co-presidents join IndieWire's \"Screen Talk\" podcast this week to talk about their slate of films, the state of the business, and more.",
-          "source": "IndieWire",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4867,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5056,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5225,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5394,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5523,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5622,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5811,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6000,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "n+1",
@@ -6184,7 +6189,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Rest of World",
@@ -6289,7 +6294,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6463,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6632,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6801,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6970,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7159,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7328,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7497,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,7 +7626,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Five Books",
@@ -7790,7 +7795,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7964,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8153,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Millions",
@@ -8317,14 +8322,22 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Literary Hub",
       "category": "Literature",
       "kind": "rss",
-      "count": 20,
+      "count": 19,
       "stories": [
+        {
+          "title": "Alibris has made a deal to sell used books on Temu.",
+          "url": "https://lithub.com/alibris-has-made-a-deal-to-sell-used-books-on-temu/",
+          "publishedAt": "2026-11-13T17:42:52.000Z",
+          "excerpt": "As Sam Spratford reports in Publisher’s Weekly, Alibris has inked a deal to make over a million books available on Temu’s massive digital marketplace. It’s not too shocking, as Alibris seems to be chasing a model of breadth and speed;",
+          "source": "Literary Hub",
+          "category": "Literature"
+        },
         {
           "title": "Put off Bolaño’s 2666 for too long? In 2027, tackle it with the Equator book club.",
           "url": "https://lithub.com/put-off-bolanos-2666-for-too-long-in-2027-tackle-it-with-the-equator-book-club/",
@@ -8468,25 +8481,9 @@
           "excerpt": "What would later be referred to as World War I was supposed to be a short, sharp war, in which the Germans would in a matter of a few weeks occupy Paris. The First Battle of the Marne in early",
           "source": "Literary Hub",
           "category": "Literature"
-        },
-        {
-          "title": "Eight Books That Help Us Understand Multiracial America",
-          "url": "https://lithub.com/eight-books-that-help-us-understand-multiracial-america/",
-          "publishedAt": "2026-11-12T08:30:23.000Z",
-          "excerpt": "My mother’s ancestors arrived in the US during the late 1700s from Germany and England. I’ve held an American passport since birth. My first language is English which I speak with an American accent. Despite all of this, I never",
-          "source": "Literary Hub",
-          "category": "Literature"
-        },
-        {
-          "title": "The Annotated Nightstand: What Katrina Dodson is Reading Now, and Next",
-          "url": "https://lithub.com/the-annotated-nightstand-what-katrina-dodson-is-reading-now-and-next/",
-          "publishedAt": "2026-11-12T08:20:04.000Z",
-          "excerpt": "Small horn toot for the hundredth Annotated Nightstand! Thrilled to have this incredible guest for this milestone column. For years I have considered Katrina Dodson a high priestess of translation, quietly yet relentlessly exerting herself in her work translating Brazilian",
-          "source": "Literary Hub",
-          "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8672,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8841,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9010,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Paris Review",
@@ -9033,7 +9030,7 @@
           "title": "Threads of Imagery: Barbara Trapido’s Debut Novel Forty Years On",
           "url": "https://www.theparisreview.org/blog/2026/11/11/barbara-trapido-brother-more-famous-jack-rosa-lyster/",
           "publishedAt": "2026-11-11T13:00:29.000Z",
-          "excerpt": "“Trapido’s novel is about how to live, how to be: how to be happy, how to fall in love, how to collapse in a heap when love doesn’t work out.”",
+          "excerpt": "“It is a novel about how to live, or how to be: how to be happy, how to be sad, how to fall in love, how to collapse in a heap when love doesn’t work out.”",
           "source": "The Paris Review",
           "category": "Literature"
         },
@@ -9102,7 +9099,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9288,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9477,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,6 +9666,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
     },
     {
@@ -9838,7 +9836,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10005,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10174,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10363,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10532,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10701,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Kottke",
@@ -10711,6 +10709,16 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Surma Boys of Afghanistan",
+          "url": "https://kottke.org/26/11/the-surma-boys-of-afghanistan",
+          "publishedAt": "2026-11-13T18:54:00.000Z",
+          "excerpt": "Afghan-American visual artist Daniel Malikyar recently shared some great photos of what he calls “a fashion subculture unlike anything I’ve encountered before” that he found in a remote village in the mountains of Afghanistan. I met a group of boys in a remote village who had developed their own dis",
+          "source": "Kottke",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Kottke"
+        },
         {
           "title": "The long-lost source for a sample in Craig Mack’s Flava...",
           "url": "https://kottke.org/26/11/0049991-the-long-lost-source-for-",
@@ -10900,19 +10908,9 @@
           "category": "Discover",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Kottke"
-        },
-        {
-          "title": "“I Made a Film in Excel, and I Don’t Know Why”",
-          "url": "https://kottke.org/26/11/i-made-a-film-in-excel-and-i-dont-know-why",
-          "publishedAt": "2026-11-11T17:02:00.000Z",
-          "excerpt": "Animation director Maria Tomazou made a short animated film entirely in Microsoft Excel. There’s no reason for this film to exist. Yet, I made it and it took ages to put together. To keep going and keep creating something that is pointless is actually very painful. I wish my love for making films wa",
-          "source": "Kottke",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11119,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Waxy",
@@ -11350,13 +11348,13 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 13,
+      "count": 12,
       "stories": [
         {
           "title": "Where art thou blue?",
@@ -11465,18 +11463,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "A life, seen through paper",
-          "url": "https://www.metafilter.com/215145/A-life-seen-through-paper",
-          "publishedAt": "2026-11-12T19:04:42.000Z",
-          "excerpt": "Don Hertzfeldt 's new animation: Paper Trail . A life in fourteen minutes of paperwork.",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11665,7 +11654,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Dense Discovery",
@@ -11874,7 +11863,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "香港01",
@@ -11882,6 +11871,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "歐洲五國將參與下輪俄烏會談 美方指已就歐洲安全架構問題展磋商",
+          "url": "https://hk01.com/sns/article/60410662",
+          "publishedAt": "2026-11-13T19:11:56.000Z",
+          "excerpt": "歐洲理事會主席科斯塔（António Costa）11月13日（周五）表示，歐盟領導人已達成協議，歐洲參與下一輪烏克蘭和平談判的團隊將由英國、法國、德國、意大利、波蘭以及歐盟組成。美國首席談判代表庫什納（Jared Kushner）周四在莫斯科表示，他已開始與歐洲夥伴就歐洲大陸的安全架構進行磋商。 路透社報道，科斯塔在都柏林舉行的新聞發布會上表示，「在所有影響烏克蘭未來和歐洲大陸安全的討論中，歐洲必須發出清晰統一的聲音。這最終是一項團隊合作。」 2026年11月11日，烏克蘭總統澤連斯基和愛爾蘭總理馬丁在愛爾蘭都柏林政府大樓舉行雙邊記者會。（Reuters） 克里姆林宮周五表示，如果俄羅斯認為",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "七旬男誤中投資騙案失近$1800萬 警一周接40宗同類案涉款$5000萬",
           "url": "https://hk01.com/sns/article/60410658",
@@ -11951,14 +11948,6 @@
           "url": "https://hk01.com/sns/article/60405764",
           "publishedAt": "2026-11-13T16:15:33.000Z",
           "excerpt": "女團VIVA昨日（31日）出席《SPOOKY Halloween 2026》萬聖節活動，首度挑戰長達30多分鐘的跳唱表演。在演出的最後部分，VIVA除了翻唱《Toxic》及Little Mix《Wings》的歌曲外，更驚喜首度獻唱尚未正式推出的全新單曲，而新歌的名字同樣叫作《Wings》。成員接受傳媒訪問時透露，早前穿着的羽毛造型服裝，其實正是為配合新歌主題「翼」而留下的伏筆。 女團VIVA出席《SPOOKY Halloween 2026》萬聖節活動。(葉志明 攝) 挑戰半小時高強度跳唱苦練到凌晨 為了這次長達半小時的演出，VIVA坦言花了不少心血，更排練至凌晨3點，力求將最好的一面呈現給觀眾",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "日圓兌4.9算｜iPhone預建多張Suica卡教學｜破增值上限賺簽帳回贈",
-          "url": "https://hk01.com/sns/article/60363643",
-          "publishedAt": "2026-11-13T16:10:10.000Z",
-          "excerpt": "日圓兌4.9算｜iPhone預建多張Suica卡｜破增值上限賺海外簽帳回贈｜最近，日圓兌港元跌破4.9算，掀起香港旅客赴日本旅遊搶匯潮 。與其大熱天時在找換店排隊「唱錢」 ，不如用iPhone 在 Apple Wallet 開設多張虛擬Suica（西瓜卡），並以海外簽帳著數最多之信用卡為其增值，先以低兌率充值、出發後慢慢使！賺盡著數！ 【優惠促銷5折】日本 5G/4G原生SIM卡｜香港機場領取 實體現鈔過時？智能手機開日本交通卡．鎖定4.9匯率 傳統去實體找換店排隊換日圓現鈔既耗時又晒又熱，而且完全沒有消費回贈 。現在用iPhone在Apple Wallet內預先開設數碼交通卡（如Suica）",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12035,15 +12024,15 @@
           "category": "Hong Kong"
         },
         {
-          "title": "Outlook死機原因 微軟稱大量伺服器離線釀故障 未發現黑客攻擊",
-          "url": "https://hk01.com/sns/article/60410439",
-          "publishedAt": "2026-11-13T07:08:34.000Z",
-          "excerpt": "微軟（Microsoft）美東時間11月12日下午1時左右（本港時間13日凌晨2時）後出現大範圍服務中斷，Outlook、Exchange Online、Teams、Copilot及Defender XDR 等多項雲服務受影響，多地企業用戶無法正常接入電郵與協作工具。目前，微軟通報故障源於大量伺服器集體離線，暫未發現惡意攻擊的證據。 綜合 美國科技媒體securitywee k和 微軟在社交媒體X 通報，故障源於大量伺服器未能通過自動健康檢查、集體離線，剩餘基礎設施承接全部流量導致負荷過高，而負責建立安全連接的進程不堪重負，伺服器停止處理請求。 We're aggressively pursu",
+          "title": "教師鐵飯碗不再？教育修例刊憲每3年須續牌 附2026最新薪酬表",
+          "url": "https://hk01.com/sns/article/60410437",
+          "publishedAt": "2026-11-13T08:30:08.000Z",
+          "excerpt": "《2026年教育（修訂）條例草案》今日（13日）刊憲，正式引入教師執業證明書制度，規定公帑資助學校、私立學校、國際學校及幼稚園的教師與校長均須持證任教。證書有效期不超過3個學年，教師每3年須續牌一次，若犯下國安罪行教師更會被自動「終身釘牌」。 始終是為人師表，對教師有一定要求也相當合理，而且香港教師的薪酬本來也相當吸引。根據政府最新數字，老師月薪$35,780起，即使是小學學位教師，頂薪也達$83,140 。《開罐》整合學歷、入職要求、薪酬、教育學系等資料，有興趣教書的你在入行或轉行之前，不妨先了解。 （《教束》劇照） 根據政府公布《2026年教育（修訂）條例草案》，教師執業證明書將列為執教的",
           "source": "香港01",
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "有線新聞",
@@ -12212,7 +12201,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Now 新聞",
@@ -12381,7 +12370,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12550,7 +12539,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12719,7 +12708,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "South China Morning Post",
@@ -12888,7 +12877,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13057,10 +13046,64 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-13T18:17:12.442Z"
+      "lastSuccessfulAt": "2026-11-13T19:17:12.220Z"
     }
   ],
   "stories": [
+    {
+      "title": "Models can now transmit viruses in weight-space",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "publishedAt": "2026-11-13T18:33:35.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50487762"
+    },
+    {
+      "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+      "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+      "publishedAt": "2026-11-13T18:23:49.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50487605"
+    },
+    {
+      "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+      "publishedAt": "2026-11-13T18:18:37.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50487522"
+    },
+    {
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "url": "https://isometricsf.com/",
+      "publishedAt": "2026-11-13T17:58:37.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50487228"
+    },
+    {
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "publishedAt": "2026-11-13T17:55:28.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50487185"
+    },
+    {
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "publishedAt": "2026-11-13T17:55:23.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50487184"
+    },
     {
       "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
       "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
@@ -13071,16 +13114,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50486748"
     },
     {
-      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "publishedAt": "2026-11-13T17:10:33.000Z",
+      "title": "Concurrent Shell Command Queues",
+      "url": "https://emmer.dev/blog/concurrent-shell-command-queues/",
+      "publishedAt": "2026-11-13T17:13:01.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50486489"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50486521"
     },
     {
-      "title": "\"LibreOffice works 365 days a year. Just saying.\"",
+      "title": "LibreOffice actually works 365 days a year",
       "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
       "publishedAt": "2026-11-13T17:09:58.000Z",
       "excerpt": "",
@@ -13089,7 +13132,16 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50486482"
     },
     {
-      "title": "Apify Was Hacked",
+      "title": "Gnomon. Git for Postgres data, built for agents",
+      "url": "https://github.com/bitsinfra/gnomon",
+      "publishedAt": "2026-11-13T17:09:52.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50486480"
+    },
+    {
+      "title": "Apify Security Incident",
       "url": "https://status.apify.com/incidents/sxd1dj5j6749",
       "publishedAt": "2026-11-13T16:55:59.000Z",
       "excerpt": "",
@@ -13116,31 +13168,22 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50485295"
     },
     {
-      "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "publishedAt": "2026-11-13T15:08:44.000Z",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "publishedAt": "2026-11-13T15:29:10.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50484658"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
     },
     {
-      "title": "Palmfrets, Minnesota guitarist's invention, strikes a new chord",
+      "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
       "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
       "publishedAt": "2026-11-13T15:08:07.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50484650"
-    },
-    {
-      "title": "EU Digital Identity Wallet rollout: every EU state on one board",
-      "url": "https://myid.ie/business/eu-digital-wallet-tracker/",
-      "publishedAt": "2026-11-13T14:58:07.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50484496"
     },
     {
       "title": "A technical vision for the Haskell ecosystem",
@@ -13179,15 +13222,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50483611"
     },
     {
-      "title": "US test reactor cleared for operations",
-      "url": "https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations",
-      "publishedAt": "2026-11-13T13:54:49.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50483533"
-    },
-    {
       "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
       "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
       "publishedAt": "2026-11-13T12:10:24.000Z",
@@ -13195,51 +13229,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50482379"
-    },
-    {
-      "title": "AI Is Destroying the Trust Between Writers and Readers",
-      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
-      "publishedAt": "2026-11-13T11:13:46.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50481870"
-    },
-    {
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "publishedAt": "2026-11-13T10:18:13.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50481187"
-    },
-    {
-      "title": "IceWM",
-      "url": "https://ice-wm.org/",
-      "publishedAt": "2026-11-13T04:54:53.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50478515"
-    },
-    {
-      "title": "Switcher (2004)",
-      "url": "https://folklore.org/Switcher.html",
-      "publishedAt": "2026-11-13T03:14:59.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50477714"
-    },
-    {
-      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-      "url": "https://brave.com/blog/search-api-agentic-payments/",
-      "publishedAt": "2026-11-13T03:08:08.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50477649"
     },
     {
       "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
@@ -13402,6 +13391,14 @@
       "category": "Technology"
     },
     {
+      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+      "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+      "publishedAt": "2026-11-13T19:08:57.000Z",
+      "excerpt": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "The Microsoft Outage Is a Warning for the World",
       "url": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/",
       "publishedAt": "2026-11-13T17:15:54.000Z",
@@ -13550,14 +13547,6 @@
       "url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
       "publishedAt": "2026-11-12T20:35:11.000Z",
       "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
-      "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
-      "publishedAt": "2026-11-12T20:01:33.000Z",
-      "excerpt": "Microsoft says its systems are experiencing “elevated loads” as the company races to end an outage impacting its business and enterprise customers.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -13802,6 +13791,14 @@
       "category": "Technology"
     },
     {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "publishedAt": "2026-11-09T17:05:43.000Z",
+      "excerpt": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener",
+      "source": "MIT Technology Review",
+      "category": "Technology"
+    },
+    {
       "title": "The Download: empty AI climate claims, and an Nvidia investigation",
       "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
       "publishedAt": "2026-11-09T13:15:00.000Z",
@@ -13874,11 +13871,11 @@
       "category": "Technology"
     },
     {
-      "title": "What’s next for US energy policy after the midterm elections?",
-      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
-      "publishedAt": "2026-11-04T17:08:00.000Z",
-      "excerpt": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
-      "source": "MIT Technology Review",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "publishedAt": "2026-11-13T18:40:30.000Z",
+      "excerpt": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "source": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -13901,7 +13898,7 @@
       "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
       "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
       "publishedAt": "2026-11-13T14:57:55.000Z",
-      "excerpt": "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
+      "excerpt": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
       "source": "TechCrunch",
       "category": "Technology"
     },
@@ -13914,7 +13911,7 @@
       "category": "Technology"
     },
     {
-      "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
+      "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
       "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
       "publishedAt": "2026-11-13T13:15:20.000Z",
       "excerpt": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
@@ -14034,12 +14031,40 @@
       "category": "Technology"
     },
     {
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "publishedAt": "2026-11-12T16:32:33.000Z",
-      "excerpt": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "Anthropic says its AI safety scores depend heavily on how they’re measured",
+      "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
+      "publishedAt": "2026-11-13T19:01:04.000Z",
+      "excerpt": "Anthropic has published advice on building AI safety tests. It shows Claude Fable 5.1 behaved appropriately in only 60% of self-harm test conversations via its API, against 94% in the Claude app after a fix, and warns that many headline safety scores hide wide uncertainty. Anthropic has published ad",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Sierra releases Poppy 1.0 as Shopify and Meta’s Muse sign on",
+      "url": "https://thenextweb.com/news/sierra-poppy-1-0-shopify-meta-muse-personal-agents",
+      "publishedAt": "2026-11-13T18:37:45.000Z",
+      "excerpt": "Sierra has released version 1.0 of Personal Agent Protocol, or Poppy, a standard for how personal AI agents deal with companies. Shopify has turned it on for every store, Meta’s Muse agent now looks for it on every site, and more than 100 companies have signed up. Sierra has released version 1.0 of ",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Alexander Rinke says Europe needs AI champions to share in the next wave of AI value",
+      "url": "https://thenextweb.com/news/alexander-rinke-celonis-sovereign-ai-tnw-podcast",
+      "publishedAt": "2026-11-13T18:27:32.000Z",
+      "excerpt": "Thirty years ago, Europe’s GDP was roughly on par with the US, Alexander Rinke told TNW. Today it is dramatically less. The Celonis co-founder and co-CEO does not want AI to make that gap wider. Rinke spoke to Cristian Dina for the TNW Podcast at HumanX in Amsterdam on 23 September. Earlier that day",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Cornelis launches CN6000 800G networking to rival Nvidia InfiniBand",
+      "url": "https://thenextweb.com/news/cornelis-cn6000-800g-networking-ai-supercomputers",
+      "publishedAt": "2026-11-13T18:12:52.000Z",
+      "excerpt": "Cornelis, which Intel spun out in 2020, has launched CN6000, a family of 800G network cards and switches for AI and supercomputers. It claims lower latency than Nvidia’s InfiniBand, based on its own tests. Partner systems arrive in early 2027. Cornelis, a networking company spun out of Intel, has la",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Google’s Gemini can now read your Google Wallet to help you budget",
@@ -14096,40 +14121,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Cerebras raises its 2026 forecast and signs Microsoft as a cloud customer",
-      "url": "https://thenextweb.com/news/cerebras-microsoft-deal-q3-2026-forecast",
-      "publishedAt": "2026-11-13T14:59:33.000Z",
-      "excerpt": "Cerebras shares rose about 17% in after-hours trading on Thursday. The AI chipmaker posted third-quarter results that beat analysts’ estimates, lifted its outlook for the year and added a new cloud customer. The company now expects core revenue of $940m to $960m this year, Reuters reported. In Augus",
-      "source": "The Next Web",
+      "title": "ChatGPT's New Wallet Lets AI Agents Shop For You",
+      "url": "https://news.slashdot.org/story/26/11/13/1911210/chatgpts-new-wallet-lets-ai-agents-shop-for-you?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-13T19:12:00.000Z",
+      "excerpt": "OpenAI has launched ChatGPT Wallet, a feature that lets its Dots AI agents help users choose products and complete purchases on their behalf. TechCrunch reports: The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Maste",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Singapore barred Alice Huang after she gave police inaccurate information",
-      "url": "https://thenextweb.com/news/alice-huang-singapore-barred-megaspeed-limited-us-help",
-      "publishedAt": "2026-11-13T13:58:05.000Z",
-      "excerpt": "Singapore barred Alice Huang from re-entering the country after she gave police inaccurate information about her role at Megaspeed. The Ministry of Home Affairs disclosed the ban on Thursday. Singapore also said it had asked US authorities for information for more than a year and received only limit",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Ireland fines Tinder’s owner €11M over its ‘Download My Data’ tool",
-      "url": "https://thenextweb.com/news/tinder-match-group-11m-gdpr-fine-ireland",
-      "publishedAt": "2026-11-13T13:41:11.000Z",
-      "excerpt": "Ireland’s privacy watchdog has fined Match Group €11mn after finding that Tinder’s “Download My Data” tool failed to give users a full copy of the personal data the company holds on them, Politico reports. In a decision announced on Friday, the Data Protection Commission said the tool omitted certai",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Nvidia will keep investigating Jensen Huang, The Information reports",
-      "url": "https://thenextweb.com/news/jensen-huang-nvidia-investigation-senate-lutnick-testify",
-      "publishedAt": "2026-11-13T13:25:43.000Z",
-      "excerpt": "Nvidia plans to keep investigating whether Jensen Huang was the target of a foreign intelligence effort, Jessica E. Lessin reported for The Information, citing a person familiar with the situation. Huang resigned as chief executive on Thursday. Nvidia is expected to issue a statement saying it is no",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "Advocacy Groups Sue AI Giants to Freeze New Models, Warning of 'Catastrophic' Risks",
@@ -14258,13 +14256,26 @@
       "sourceRole": "community"
     },
     {
-      "title": "Jensen Huang Resigns As Nvidia CEO",
-      "url": "https://slashdot.org/story/26/11/12/1548253/jensen-huang-resigns-as-nvidia-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-12T16:00:00.000Z",
-      "excerpt": "Jensen Huang has stepped down as CEO of Nvidia after 33 years leading the company, with CFO Colette Kress taking over as interim CEO while the board searches for a permanent replacement. \"The Board has full confidence in Colette and the leadership team, and we expect the company's operations, custom",
-      "source": "Slashdot",
+      "title": "Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops (New York Times)",
+      "url": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
+      "publishedAt": "2026-11-13T19:10:01.000Z",
+      "excerpt": "New York Times : Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops &nbsp; &mdash;&nbsp; Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies,",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261113/p24#a261113p24",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Claude Duet review: user-friendly, sends a helpful morning brief, and spots scheduling conflicts, but can feel like a neurotic personal assistant that nags (Allison Johnson/The Verge)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "publishedAt": "2026-11-13T18:55:00.000Z",
+      "excerpt": "Allison Johnson / The Verge : Claude Duet review: user-friendly, sends a helpful morning brief, and spots scheduling conflicts, but can feel like a neurotic personal assistant that nags &nbsp; &mdash;&nbsp; Normally, the products I test don't offer to help me write up my experience with them.&nbsp; ",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261113/p23#a261113p23",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "Some in China question the timing of reports on the relationship between Jensen Huang and Alice Huang; Trump is set to meet Xi Jinping in Shenzhen next week (Mithil Aggarwal/NBC News)",
@@ -14410,26 +14421,13 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Source: at an August 2026 finance meeting, Jensen Huang interrupted Colette Kress' presentation, calling her \"a deer in the headlights\" and a \"reporting CFO\" (Wall Street Journal)",
-      "url": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097?st=TUtsF9&reflink=desktopwebshare_permalink",
-      "publishedAt": "2026-11-13T12:50:01.000Z",
-      "excerpt": "Wall Street Journal : Source: at an August 2026 finance meeting, Jensen Huang interrupted Colette Kress' presentation, calling her &ldquo;a deer in the headlights&rdquo; and a &ldquo;reporting CFO&rdquo; &nbsp; &mdash;&nbsp; Interim CEO Colette Kress has questioned some Huang dealmaking.&nbsp; He ca",
-      "source": "Techmeme",
+      "title": "Disney's 3D movies shine on Meta's Quest 3, it's just a shame it took so long",
+      "url": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
+      "publishedAt": "2026-11-13T19:00:00.000Z",
+      "excerpt": "Finally, you can watch Avatar in 3D HFR at home.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261113/p9#a261113p9",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "South Korea-based DeepX tapes out DX-M2, an edge AI chip to run inference of 100B-parameter LLMs on robots and drones, targeting fall 2027 for mass production (Sally Ward-Foxton/EE Times)",
-      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-      "publishedAt": "2026-11-13T12:15:19.000Z",
-      "excerpt": "Sally Ward-Foxton / EE Times : South Korea-based DeepX tapes out DX-M2, an edge AI chip to run inference of 100B-parameter LLMs on robots and drones, targeting fall 2027 for mass production &nbsp; &mdash;&nbsp; DeepX is targeting edge markets including robotics with its second-generation AI accelera",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261113/p8#a261113p8",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
       "title": "You can now tempt fate and give your banking information to ChatGPT",
@@ -14603,11 +14601,20 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Apple TV 4K (4th gen) review: Still great, but drastically more expensive",
-      "url": "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
-      "publishedAt": "2026-11-12T14:00:00.000Z",
-      "excerpt": "The Apple TV 4K remains the best premium streaming box you can buy, but the higher price makes it harder to recommend.",
-      "source": "Engadget",
+      "title": "Younger workers are hiding AI usage from bosses as they try to hold on to jobs",
+      "url": "https://www.techradar.com/pro/younger-workers-are-hiding-ai-usage-from-bosses-as-they-try-to-hold-on-to-jobs",
+      "publishedAt": "2026-11-13T19:05:00.000Z",
+      "excerpt": "Gen Z workers using AI for their role increasingly feel that they have to hide their actions, fearing negative reactions from colleagues and managers.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The first 100-inch TV with Ambilight is here, and this thing will be super-immersive",
+      "url": "https://www.techradar.com/televisions/the-first-100-inch-tv-with-ambilight-is-here-will-this-br-the-most-immersive-home-theatre-experience-that-doesnt-involve-a-projector",
+      "publishedAt": "2026-11-13T18:22:05.000Z",
+      "excerpt": "Philips has extended its The One range of Ambilight TVs with a new 100-inch QLED",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14630,7 +14637,16 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Scotland vs North Macedonia: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture",
+      "title": "How to watch Sweden vs Bosnia & Herzegovina: live stream for free online from anywhere",
+      "url": "https://www.techradar.com/entertainment/football/watch-sweden-vs-bosnia-herzegovina",
+      "publishedAt": "2026-11-13T17:00:00.000Z",
+      "excerpt": "Here's how you can watch Sweden vs Bosnia and Herzegovina for free online from anywhere in the world as they face off in the Nations League.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How to watch Scotland vs North Macedonia: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
       "url": "https://www.techradar.com/entertainment/football/watch-scotland-vs-north-macedonia-nations-league-2026-27-free",
       "publishedAt": "2026-11-13T17:00:00.000Z",
       "excerpt": "How you can watch Scotland vs North Macedonia in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
@@ -14657,15 +14673,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Sweden vs Bosnia & Herzegovina: live stream for free online from anywhere",
-      "url": "https://www.techradar.com/entertainment/football/watch-sweden-vs-bosnia-herzegovina",
-      "publishedAt": "2026-11-13T17:00:00.000Z",
-      "excerpt": "Here's how you can watch Sweden vs Bosnia and Herzegovina for free online from anywhere in the world as they face off in the Nations League.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "There's 50% off Criterion Collection 4K Blu-rays — here are my 9 picks",
       "url": "https://www.techradar.com/televisions/blu-ray/theres-up-to-50-percent-off-criterion-collection-4k-blu-rays-right-now-here-are-my-6-picks-from-the-sale-all-of-which-ive-tested",
       "publishedAt": "2026-11-13T16:50:55.000Z",
@@ -14675,7 +14682,7 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch France vs South Africa: FREE live streams, TV channels and kick-off time for Nations Championship 2026 game",
+      "title": "How to watch France vs South Africa: FREE live streams, TV channels and kick-off time for Nations Championship 2026 game, teams",
       "url": "https://www.techradar.com/entertainment/rugby/france-vs-south-africa-free-nations-championship-2026",
       "publishedAt": "2026-11-13T16:30:00.000Z",
       "excerpt": "All the ways to watch France vs South Africa for free from anywhere, as the respective table toppers meet in the Nations Championship 2026 at Stade de France.",
@@ -14774,20 +14781,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "My favorite drawing display offers top-tier drawing performance at a surprisingly low price — here’s why you should be considering the XP-Pen Artist Pro 24 Gen 2 4K",
-      "url": "https://www.techradar.com/tablets/my-favorite-drawing-display-offers-top-tier-drawing-performance-at-a-surprisingly-low-price-heres-why-you-should-be-considering-the-xp-pen-artist-pro-24-gen-2-4k",
-      "publishedAt": "2026-11-13T12:00:49.000Z",
-      "excerpt": "There's so much to love about the Artist Pro 24 Gen2 4K, I'm struggling to put my stylus down.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "European cyber threats are growing much faster than other regions",
-      "url": "https://www.techradar.com/pro/security/european-cyber-threats-are-growing-much-faster-than-other-regions-as-new-report-warns-ai-enables-cybercriminals-to-operate-at-a-scale-weve-never-seen-before",
-      "publishedAt": "2026-11-13T12:00:00.000Z",
-      "excerpt": "Europeans are more likely to open a phishing email compared to everyone else, Proofpoint finds.",
-      "source": "TechRadar",
+      "title": "iOS 27.3 adds three new features I’ve used almost every day",
+      "url": "https://9to5mac.com/2026/11/13/ios-27-3-adds-three-new-features-ive-used-almost-every-day/",
+      "publishedAt": "2026-11-13T18:56:41.000Z",
+      "excerpt": "iOS 27.3 is coming next month , and during the beta so far there are three new features I’ve been using almost every day. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14958,15 +14956,6 @@
       "url": "https://9to5mac.com/2026/11/12/ios-27s-find-my-app-adds-convenient-feature-ive-long-wished-for/",
       "publishedAt": "2026-11-12T19:21:20.000Z",
       "excerpt": "iOS 27 is packed with new features, including several for the Find My app . One upgrade to Find My—custom sharing durations—grants a feature request I’ve had for years. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Microsoft Outlook experiencing widespread outage",
-      "url": "https://9to5mac.com/2026/11/12/microsoft-outlook-experiencing-widespread-outage/",
-      "publishedAt": "2026-11-12T18:54:54.000Z",
-      "excerpt": "Everybody’s working for the weekend, but Microsoft Outlook clocked out early. The mission-critical email service is facing a widespread outage. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -16720,6 +16709,24 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "What Michael Ealy Watches (and Listens to) With His Kids",
+      "url": "http://www.vulture.com/article/michael-ealy-kids-family-movies.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-13T18:00:45.000Z",
+      "excerpt": "“My kids made me watch The Sound of Music, which I had avoided for about 40 years, and I’ve got to say: It is absolutely magical.”",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "What We Know About the Shooting in Washington, D.C.",
+      "url": "http://www.thecut.com/article/what-we-know-about-the-shooting-in-washington-d-c.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-13T17:15:00.000Z",
+      "excerpt": "One person is dead and four others are in the hospital after a gunman opened fire at a gym in D.C.’s Logan Circle neighborhood.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "When Clayface Swallowed ‘Batman: The Animated Series’",
       "url": "http://www.vulture.com/article/batman-the-animated-series-feat-of-clay-behind-the-scenes-interviews.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-13T17:00:06.000Z",
@@ -16840,7 +16847,7 @@
       "title": "Matthew Barney Isn’t a Celebrity Artist Anymore",
       "url": "http://www.vulture.com/article/matthew-barney-at-60.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-13T12:00:25.000Z",
-      "excerpt": "The art world turned the ex-quarterback, ex-model, ex–Mr. Björk into a star, then moved along. That turned out to be for the best.",
+      "excerpt": "The art world turned the ex-quarterback, ex-model, ex–Mr. Björk into a star, then moved on. That turned out to be for the best.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16882,20 +16889,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Welcome End of Play-It-Safe Politics",
-      "url": "http://nymag.com/intelligencer/article/the-welcome-end-of-play-it-safe-politics.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-13T11:00:22.000Z",
-      "excerpt": "Democrats just need to remember that affordability trumps “electability.”",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Lives of the Tech Caesars",
-      "url": "http://nymag.com/intelligencer/article/jensen-huang-tech-caesars-nvidia-scandal.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-13T10:00:37.000Z",
-      "excerpt": "The market, and maybe the future of humanity, depends on the personal decisions of 11 men.",
-      "source": "New York Magazine (Intelligencer)",
+      "title": "The Writers Who Tried to Reconstruct the Past",
+      "url": "https://www.theatlantic.com/newsletters/2026/11/books-briefing-writers-reconstruct-past-lamela/689429/?utm_source=feed",
+      "publishedAt": "2026-11-13T19:10:00.000Z",
+      "excerpt": "Their attempts might be doomed to fail, but that doesn’t mean they aren’t noble, or even beautiful.",
+      "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
     },
@@ -17066,15 +17064,6 @@
       "url": "https://www.theatlantic.com/culture/2026/11/microdramas-festival-vertical-entertainment/689361/?utm_source=feed",
       "publishedAt": "2026-11-10T16:29:28.000Z",
       "excerpt": "A new festival devoted to vertical-video series tries to make a case for the format.",
-      "source": "The Atlantic",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Trolls’ Comeuppance",
-      "url": "https://www.theatlantic.com/ideas/2026/11/attention-economy-republicans-failure/689347/?utm_source=feed",
-      "publishedAt": "2026-11-10T15:02:03.000Z",
-      "excerpt": "How the attention economy turned on Republicans",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17260,6 +17249,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Seven Museums to Host Solo Exhibitions Celebrating Wolf Kahn’s Centennial",
+      "url": "https://hyperallergic.com/seven-museums-to-host-solo-exhibitions-celebrating-wolf-kahns-centennial/",
+      "publishedAt": "2026-11-13T18:45:44.000Z",
+      "excerpt": "Museums in Germany, New York, and Vermont are among those to honor the late abstract landscape painter next year.",
+      "source": "Hyperallergic",
+      "category": "Culture"
+    },
+    {
       "title": "Craft in America Concludes its Handwork Series with NORTH and SOUTH",
       "url": "https://hyperallergic.com/craft-in-america-concludes-its-handwork-series-with-north-and-south/",
       "publishedAt": "2026-11-13T16:00:00.000Z",
@@ -17372,11 +17369,19 @@
       "category": "Culture"
     },
     {
-      "title": "Art Bros About to Get More Insufferable as Artnet Partners With Kalshi",
-      "url": "https://hyperallergic.com/art-bros-about-to-get-more-insufferable-as-artnet-partners-with-kalshi/",
-      "publishedAt": "2026-11-11T21:59:14.000Z",
-      "excerpt": "Under new private equity ownership, Artnet will “curate” art-market wagers for the controversial prediction platform. What could go right?",
-      "source": "Hyperallergic",
+      "title": "Will ‘Dune’ and ‘Avengers’ Drown Out Everything Else at the Box Office This Christmas?",
+      "url": "https://www.indiewire.com/news/box-office/will-dune-avengers-drown-out-xmas-box-office-1235227379/",
+      "publishedAt": "2026-11-13T19:00:00.000Z",
+      "excerpt": "\"Werwulf,\" \"Mr. Irrelevant,\" \"Jumanji: Open World,\" \"Artificial,\" and \"The Angry Birds Movie 3\" are the other titles leading a crowded holiday.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
+      "title": "Russell Brand Was Sentenced for Rape and Sexual Assault on Monday. By Friday, Netflix Had a Sleazy Doc Ready to Go",
+      "url": "https://www.indiewire.com/features/commentary/netflix-russell-brand-documentary-insights-1235227726/",
+      "publishedAt": "2026-11-13T18:32:10.000Z",
+      "excerpt": "Olivia Isaacs' documentary on the (very) recently convicted and imprisoned rapist has been in the works for a while, but its fast-tracked release date seems designed to piggyback on the news, not offer any fresh insights.",
+      "source": "IndieWire",
       "category": "Culture"
     },
     {
@@ -17456,22 +17461,6 @@
       "url": "https://www.indiewire.com/news/breaking-news/brad-pitt-connector-sound-of-metal-director-darius-marder-1235227338/",
       "publishedAt": "2026-11-12T18:15:18.000Z",
       "excerpt": "The '70s drama follows a NYC ironworker who becomes a working class legend.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "‘American Doctor’ and ‘You Can See Everything’ Lead 2027 Cinema Eye Honors Film Nominations",
-      "url": "https://www.indiewire.com/awards/results/2027-cinema-eye-honors-film-nominations-full-list-1235227192/",
-      "publishedAt": "2026-11-12T18:00:00.000Z",
-      "excerpt": "Poh Si Teng’s “American Doctor” and Nathan Fielder and Lance Oppenheim’s “You Can See Everything” led the 20th annual Cinema Eye Honors with seven nominations each.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "What Makes a Good Oscar Campaign? Just Ask Sony Classics’ Michael Barker and Tom Bernard",
-      "url": "https://www.indiewire.com/features/podcast/sony-pictures-classics-michael-barker-tom-bernard-interview-1235227301/",
-      "publishedAt": "2026-11-12T17:30:00.000Z",
-      "excerpt": "The Sony Pictures Classics co-presidents join IndieWire's \"Screen Talk\" podcast this week to talk about their slate of films, the state of the business, and more.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -20922,6 +20911,14 @@
       "category": "Books"
     },
     {
+      "title": "Alibris has made a deal to sell used books on Temu.",
+      "url": "https://lithub.com/alibris-has-made-a-deal-to-sell-used-books-on-temu/",
+      "publishedAt": "2026-11-13T17:42:52.000Z",
+      "excerpt": "As Sam Spratford reports in Publisher’s Weekly, Alibris has inked a deal to make over a million books available on Temu’s massive digital marketplace. It’s not too shocking, as Alibris seems to be chasing a model of breadth and speed;",
+      "source": "Literary Hub",
+      "category": "Literature"
+    },
+    {
       "title": "Put off Bolaño’s 2666 for too long? In 2027, tackle it with the Equator book club.",
       "url": "https://lithub.com/put-off-bolanos-2666-for-too-long-in-2027-tackle-it-with-the-equator-book-club/",
       "publishedAt": "2026-11-13T17:02:08.000Z",
@@ -21062,22 +21059,6 @@
       "url": "https://lithub.com/could-the-us-survive-a-war-with-china/",
       "publishedAt": "2026-11-12T08:40:16.000Z",
       "excerpt": "What would later be referred to as World War I was supposed to be a short, sharp war, in which the Germans would in a matter of a few weeks occupy Paris. The First Battle of the Marne in early",
-      "source": "Literary Hub",
-      "category": "Literature"
-    },
-    {
-      "title": "Eight Books That Help Us Understand Multiracial America",
-      "url": "https://lithub.com/eight-books-that-help-us-understand-multiracial-america/",
-      "publishedAt": "2026-11-12T08:30:23.000Z",
-      "excerpt": "My mother’s ancestors arrived in the US during the late 1700s from Germany and England. I’ve held an American passport since birth. My first language is English which I speak with an American accent. Despite all of this, I never",
-      "source": "Literary Hub",
-      "category": "Literature"
-    },
-    {
-      "title": "The Annotated Nightstand: What Katrina Dodson is Reading Now, and Next",
-      "url": "https://lithub.com/the-annotated-nightstand-what-katrina-dodson-is-reading-now-and-next/",
-      "publishedAt": "2026-11-12T08:20:04.000Z",
-      "excerpt": "Small horn toot for the hundredth Annotated Nightstand! Thrilled to have this incredible guest for this milestone column. For years I have considered Katrina Dodson a high priestess of translation, quietly yet relentlessly exerting herself in her work translating Brazilian",
       "source": "Literary Hub",
       "category": "Literature"
     },
@@ -21593,7 +21574,7 @@
       "title": "Threads of Imagery: Barbara Trapido’s Debut Novel Forty Years On",
       "url": "https://www.theparisreview.org/blog/2026/11/11/barbara-trapido-brother-more-famous-jack-rosa-lyster/",
       "publishedAt": "2026-11-11T13:00:29.000Z",
-      "excerpt": "“Trapido’s novel is about how to live, how to be: how to be happy, how to fall in love, how to collapse in a heap when love doesn’t work out.”",
+      "excerpt": "“It is a novel about how to live, or how to be: how to be happy, how to be sad, how to fall in love, how to collapse in a heap when love doesn’t work out.”",
       "source": "The Paris Review",
       "category": "Literature"
     },
@@ -23182,6 +23163,16 @@
       "category": "Philosophy"
     },
     {
+      "title": "The Surma Boys of Afghanistan",
+      "url": "https://kottke.org/26/11/the-surma-boys-of-afghanistan",
+      "publishedAt": "2026-11-13T18:54:00.000Z",
+      "excerpt": "Afghan-American visual artist Daniel Malikyar recently shared some great photos of what he calls “a fashion subculture unlike anything I’ve encountered before” that he found in a remote village in the mountains of Afghanistan. I met a group of boys in a remote village who had developed their own dis",
+      "source": "Kottke",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Kottke"
+    },
+    {
       "title": "The long-lost source for a sample in Craig Mack’s Flava...",
       "url": "https://kottke.org/26/11/0049991-the-long-lost-source-for-",
       "publishedAt": "2026-11-13T18:01:00.000Z",
@@ -23366,16 +23357,6 @@
       "url": "https://kottke.org/26/11/0049971-why-does-japan-have-such-",
       "publishedAt": "2026-11-11T18:26:00.000Z",
       "excerpt": "Why Does Japan Have Such Good Railways? “Successful public policies can be emulated by one good government. Much about Japan’s railway system could be replicable around the world.”",
-      "source": "Kottke",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Kottke"
-    },
-    {
-      "title": "“I Made a Film in Excel, and I Don’t Know Why”",
-      "url": "https://kottke.org/26/11/i-made-a-film-in-excel-and-i-dont-know-why",
-      "publishedAt": "2026-11-11T17:02:00.000Z",
-      "excerpt": "Animation director Maria Tomazou made a short animated film entirely in Microsoft Excel. There’s no reason for this film to exist. Yet, I made it and it took ages to put together. To keep going and keep creating something that is pointless is actually very painful. I wish my love for making films wa",
       "source": "Kottke",
       "category": "Discover",
       "sourceRole": "curator",
@@ -23910,15 +23891,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "A life, seen through paper",
-      "url": "https://www.metafilter.com/215145/A-life-seen-through-paper",
-      "publishedAt": "2026-11-12T19:04:42.000Z",
-      "excerpt": "Don Hertzfeldt 's new animation: Paper Trail . A life in fourteen minutes of paperwork.",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "Can Network Science Transform Health and Nutrition?",
       "url": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
       "publishedAt": "2026-11-12T19:40:54.000Z",
@@ -24299,6 +24271,14 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "歐洲五國將參與下輪俄烏會談 美方指已就歐洲安全架構問題展磋商",
+      "url": "https://hk01.com/sns/article/60410662",
+      "publishedAt": "2026-11-13T19:11:56.000Z",
+      "excerpt": "歐洲理事會主席科斯塔（António Costa）11月13日（周五）表示，歐盟領導人已達成協議，歐洲參與下一輪烏克蘭和平談判的團隊將由英國、法國、德國、意大利、波蘭以及歐盟組成。美國首席談判代表庫什納（Jared Kushner）周四在莫斯科表示，他已開始與歐洲夥伴就歐洲大陸的安全架構進行磋商。 路透社報道，科斯塔在都柏林舉行的新聞發布會上表示，「在所有影響烏克蘭未來和歐洲大陸安全的討論中，歐洲必須發出清晰統一的聲音。這最終是一項團隊合作。」 2026年11月11日，烏克蘭總統澤連斯基和愛爾蘭總理馬丁在愛爾蘭都柏林政府大樓舉行雙邊記者會。（Reuters） 克里姆林宮周五表示，如果俄羅斯認為",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "七旬男誤中投資騙案失近$1800萬 警一周接40宗同類案涉款$5000萬",
       "url": "https://hk01.com/sns/article/60410658",
       "publishedAt": "2026-11-13T18:15:32.000Z",
@@ -24367,14 +24347,6 @@
       "url": "https://hk01.com/sns/article/60405764",
       "publishedAt": "2026-11-13T16:15:33.000Z",
       "excerpt": "女團VIVA昨日（31日）出席《SPOOKY Halloween 2026》萬聖節活動，首度挑戰長達30多分鐘的跳唱表演。在演出的最後部分，VIVA除了翻唱《Toxic》及Little Mix《Wings》的歌曲外，更驚喜首度獻唱尚未正式推出的全新單曲，而新歌的名字同樣叫作《Wings》。成員接受傳媒訪問時透露，早前穿着的羽毛造型服裝，其實正是為配合新歌主題「翼」而留下的伏筆。 女團VIVA出席《SPOOKY Halloween 2026》萬聖節活動。(葉志明 攝) 挑戰半小時高強度跳唱苦練到凌晨 為了這次長達半小時的演出，VIVA坦言花了不少心血，更排練至凌晨3點，力求將最好的一面呈現給觀眾",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "日圓兌4.9算｜iPhone預建多張Suica卡教學｜破增值上限賺簽帳回贈",
-      "url": "https://hk01.com/sns/article/60363643",
-      "publishedAt": "2026-11-13T16:10:10.000Z",
-      "excerpt": "日圓兌4.9算｜iPhone預建多張Suica卡｜破增值上限賺海外簽帳回贈｜最近，日圓兌港元跌破4.9算，掀起香港旅客赴日本旅遊搶匯潮 。與其大熱天時在找換店排隊「唱錢」 ，不如用iPhone 在 Apple Wallet 開設多張虛擬Suica（西瓜卡），並以海外簽帳著數最多之信用卡為其增值，先以低兌率充值、出發後慢慢使！賺盡著數！ 【優惠促銷5折】日本 5G/4G原生SIM卡｜香港機場領取 實體現鈔過時？智能手機開日本交通卡．鎖定4.9匯率 傳統去實體找換店排隊換日圓現鈔既耗時又晒又熱，而且完全沒有消費回贈 。現在用iPhone在Apple Wallet內預先開設數碼交通卡（如Suica）",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24451,10 +24423,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "Outlook死機原因 微軟稱大量伺服器離線釀故障 未發現黑客攻擊",
-      "url": "https://hk01.com/sns/article/60410439",
-      "publishedAt": "2026-11-13T07:08:34.000Z",
-      "excerpt": "微軟（Microsoft）美東時間11月12日下午1時左右（本港時間13日凌晨2時）後出現大範圍服務中斷，Outlook、Exchange Online、Teams、Copilot及Defender XDR 等多項雲服務受影響，多地企業用戶無法正常接入電郵與協作工具。目前，微軟通報故障源於大量伺服器集體離線，暫未發現惡意攻擊的證據。 綜合 美國科技媒體securitywee k和 微軟在社交媒體X 通報，故障源於大量伺服器未能通過自動健康檢查、集體離線，剩餘基礎設施承接全部流量導致負荷過高，而負責建立安全連接的進程不堪重負，伺服器停止處理請求。 We're aggressively pursu",
+      "title": "教師鐵飯碗不再？教育修例刊憲每3年須續牌 附2026最新薪酬表",
+      "url": "https://hk01.com/sns/article/60410437",
+      "publishedAt": "2026-11-13T08:30:08.000Z",
+      "excerpt": "《2026年教育（修訂）條例草案》今日（13日）刊憲，正式引入教師執業證明書制度，規定公帑資助學校、私立學校、國際學校及幼稚園的教師與校長均須持證任教。證書有效期不超過3個學年，教師每3年須續牌一次，若犯下國安罪行教師更會被自動「終身釘牌」。 始終是為人師表，對教師有一定要求也相當合理，而且香港教師的薪酬本來也相當吸引。根據政府最新數字，老師月薪$35,780起，即使是小學學位教師，頂薪也達$83,140 。《開罐》整合學歷、入職要求、薪酬、教育學系等資料，有興趣教書的你在入行或轉行之前，不妨先了解。 （《教束》劇照） 根據政府公布《2026年教育（修訂）條例草案》，教師執業證明書將列為執教的",
       "source": "香港01",
       "category": "Hong Kong"
     },

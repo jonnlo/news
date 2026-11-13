@@ -8,9 +8,7 @@ const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
 const content = Markdoc.parse(about).children;
-const hasHeadline = content[0]?.type === 'heading' && content[0].attributes.level === 1;
-const firstBodyNode = content[hasHeadline ? 1 : 0];
-const intro = firstBodyNode?.type === 'paragraph' ? firstBodyNode : undefined;
+const intro = content.find((node) => node.type === 'paragraph');
 const description = intro && [...intro.walk()]
   .map((node) => node.type === 'text' || node.type === 'code' ? node.attributes.content : node.type === 'softbreak' ? ' ' : '')
   .join('');
@@ -49,13 +47,12 @@ const body = Markdoc.renderers.html(Markdoc.transform(content, markdocConfig));
 
 <Layout title="About One More Tab" description={description || 'About the One More Tab news digest.'}>
   <SiteHeader active="about" />
-  <main class="page-shell about-page">
+  <main class="page-shell about-page" aria-label="About">
     <div class="source-heading" aria-hidden="true">
       <div class="source-name-line"><span class="source-tab-label">About</span></div>
     </div>
     <article class="about-sheet">
       <div class="about-copy">
-        {!hasHeadline && <h1 class="story-marker">About One More Tab</h1>}
         <Fragment set:html={body} />
       </div>
     </article>

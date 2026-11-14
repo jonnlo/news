@@ -2,15 +2,15 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-15",
-  "generatedAt": "2026-11-14T20:17:20.654Z",
-  "collectedAt": "2026-11-14T20:17:20.654Z",
+  "generatedAt": "2026-11-14T21:17:12.661Z",
+  "collectedAt": "2026-11-14T21:17:12.661Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
   "sourcesUpdated": 76,
   "sourceErrors": [
     {
-      "source": "n+1",
-      "error": "Source returned no recognizable stories"
+      "source": "Hacker News",
+      "error": "HTTP 502"
     }
   ],
   "sources": [
@@ -201,6 +201,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50496602"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
@@ -370,7 +371,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "WIRED",
@@ -539,7 +540,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Ars Technica",
@@ -708,7 +709,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "MIT Technology Review",
@@ -877,7 +878,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "TechCrunch",
@@ -1046,7 +1047,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Next Web",
@@ -1145,7 +1146,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Slashdot",
@@ -1153,6 +1154,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "EFF Criticizes US Government's Use of AI For Evaluating Senior Health Insurance Requests",
+          "url": "https://yro.slashdot.org/story/26/11/14/0641233/eff-criticizes-us-governments-use-of-ai-for-evaluating-senior-health-insurance-requests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-14T21:00:00.000Z",
+          "excerpt": "\"When we need medical care, we expect decisions about our treatment to be made by our doctors, not a tech company's algorithm,\" writes the EFF newsletter EFFector. But in January America's federal government launched a program called WISeR that uses AI to evaluate authorization requests for certain ",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Hundreds of Fake Accounts Defended Jensen Huang On Social Media",
           "url": "https://tech.slashdot.org/story/26/11/14/0529218/hundreds-of-fake-accounts-defended-jensen-huang-on-social-media?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1278,18 +1288,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "ChatGPT's New Wallet Lets AI Agents Shop For You",
-          "url": "https://news.slashdot.org/story/26/11/13/1911210/chatgpts-new-wallet-lets-ai-agents-shop-for-you?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-13T19:12:00.000Z",
-          "excerpt": "OpenAI has launched ChatGPT Wallet, a feature that lets its Dots AI agents help users choose products and complete purchases on their behalf. TechCrunch reports: The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Maste",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Techmeme",
@@ -1297,6 +1298,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system (Maria Clara Cobo/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/stablecoins-are-becoming-crypto-s-killer-app-across-latin-america?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDU4NDc3NywiZXhwIjoxNzk1MTg5NTc3LCJhcnRpY2xlSWQiOiJUT0ZKSVFSS1YyVFcwMCIsImJjb25uZWN0SWQiOiIyN0Y1RjQ0NUUwQ0M0Q0I3OTVDMDlGMzEzMzVCN0NBNSJ9.kuYIJ968CiOxK5J82iSNK9K1CVZAvx3bDakA0KzVR30",
+          "publishedAt": "2026-11-14T20:45:34.000Z",
+          "excerpt": "Maria Clara Cobo / Bloomberg : USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system &nbsp; &mdash;&nbsp; Stablecoins are proving useful not only as a store of value but as a payment system &mdas",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261114/p19#a261114p19",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia (Katie Tarasov/CNBC)",
           "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
@@ -1450,20 +1462,9 @@
           "sourceUrl": "https://www.techmeme.com/261114/p5#a261114p5",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners (Jessica Hagen/MobiHealthNews)",
-          "url": "https://www.mobihealthnews.com/news/charta-health-raises-55m-launches-new-ai-coding-tools",
-          "publishedAt": "2026-11-14T06:35:00.000Z",
-          "excerpt": "Jessica Hagen / MobiHealthNews : Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners &nbsp; &mdash;&nbsp; The round is the company's third in less than two years and brings its total funding to $",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p4#a261114p4",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Engadget",
@@ -1471,6 +1472,51 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How to clear the cache on your Samsung TV",
+          "url": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
+          "publishedAt": "2026-11-14T21:00:00.000Z",
+          "excerpt": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Watch SpaceX attempt to catch the Starship upper stage for the first time",
+          "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+          "publishedAt": "2026-11-14T20:54:14.000Z",
+          "excerpt": "While the company has pulled off this trick a few times with Super Heavy boosters, it'll be a first for the Ship.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How to clear the cache on your Xbox Series X",
+          "url": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x/",
+          "publishedAt": "2026-11-14T20:45:00.000Z",
+          "excerpt": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Is your car tracking your location? Here's how to check and opt out",
+          "url": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out/",
+          "publishedAt": "2026-11-14T20:30:00.000Z",
+          "excerpt": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "This built-in Windows tool can diagnose your PC's battery health",
+          "url": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg/",
+          "publishedAt": "2026-11-14T20:15:00.000Z",
+          "excerpt": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Change these Fitbit Edge settings for a better experience",
           "url": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
@@ -1605,54 +1651,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Here's how much Apple AirPods cost in 2016 vs. 2026",
-          "url": "https://www.engadget.com/2311715/apple-airpods-2016-vs-2026-how-much-they-cost/",
-          "publishedAt": "2026-11-14T16:30:00.000Z",
-          "excerpt": "First introduced in 2016, AirPods have improved in quality, offering a bevy of new features, but how has that impacted the cost to the consumer today?",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Whatever happened to Sony Xperia phones?",
-          "url": "https://www.engadget.com/2311608/sony-xperia-phones-what-happened/",
-          "publishedAt": "2026-11-14T16:15:00.000Z",
-          "excerpt": "Sony seems to have its hand in virtually every device offering, but true fans know that one product line in particular vanished from the American market.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "What the circled \"Z\" on Google Maps means",
-          "url": "https://www.engadget.com/2311447/google-maps-circled-z-meaning/",
-          "publishedAt": "2026-11-14T16:00:00.000Z",
-          "excerpt": "If you've seen a circled capital Z on your Google Maps route, you should know what it means. It might save you from a ticket.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Sodium vs. lithium-ion batteries: What's the difference between them?",
-          "url": "https://www.engadget.com/2311394/sodium-vs-lithium-ion-batteries-differences-compared/",
-          "publishedAt": "2026-11-14T15:45:00.000Z",
-          "excerpt": "Lithium-ion batteries may dominate today, but emerging alternatives like sodium-ion may soon have their time in the spotlight if we can manage key differences.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Should you make the switch to Samsung Galaxy from Google Pixel?",
-          "url": "https://www.engadget.com/2311344/switch-to-samsung-galaxy-to-google-pixel/",
-          "publishedAt": "2026-11-14T15:30:00.000Z",
-          "excerpt": "Thinking about trading your Google Pixel for a Samsung Galaxy? Some of the biggest differences might not be the ones you expect.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "TechRadar",
@@ -1679,19 +1680,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
-          "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
+          "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
+          "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
           "publishedAt": "2026-11-14T18:00:00.000Z",
-          "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
+          "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
-          "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
+          "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
+          "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
           "publishedAt": "2026-11-14T18:00:00.000Z",
-          "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
+          "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1715,19 +1716,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Portugal vs Denmark: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture, team news",
-          "url": "https://www.techradar.com/entertainment/football/watch-portugal-vs-denmark-nations-league-2026-27-free",
+          "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels, team news",
+          "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
           "publishedAt": "2026-11-14T17:00:00.000Z",
-          "excerpt": "How you can watch Portugal vs Denmark in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
+          "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels, team news",
-          "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
+          "title": "How to watch Portugal vs Denmark: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture, team news",
+          "url": "https://www.techradar.com/entertainment/football/watch-portugal-vs-denmark-nations-league-2026-27-free",
           "publishedAt": "2026-11-14T17:00:00.000Z",
-          "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
+          "excerpt": "How you can watch Portugal vs Denmark in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1751,19 +1752,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
-          "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
+          "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
+          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
           "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
+          "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
-          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
+          "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
+          "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
           "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
+          "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1841,7 +1842,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "9to5Mac",
@@ -1849,6 +1850,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Indie App Spotlight: ‘Milton’ lets you turn your old iPad into a home dashboard",
+          "url": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/",
+          "publishedAt": "2026-11-14T20:30:00.000Z",
+          "excerpt": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . Apple finally released its new HomeView this week, a smart display that serves at the center of your hom",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Here’s a HomeView feature that should come to every Apple device",
           "url": "https://9to5mac.com/2026/11/14/homeview-ambient-dark-mode-should-come-to-all-devices/",
@@ -2019,18 +2029,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "tvOS 27.2.1 launching soon with Siri AI for older Apple TV 4K models",
-          "url": "https://9to5mac.com/2026/11/13/tvos-27-2-1-launching-soon-with-siri-ai-for-older-apple-tv-4k-models/",
-          "publishedAt": "2026-11-13T14:15:56.000Z",
-          "excerpt": "Today the new Apple TV 4K has arrived ( order here ) with Siri AI as a major tentpole feature. But older Apple TV 4K models are about to get Siri AI too via a tvOS 27.2.1 software update. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Humanist Review",
@@ -2192,7 +2193,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "It’s Nice That",
@@ -2381,7 +2382,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Fast Company",
@@ -2525,7 +2526,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Creative Bloq",
@@ -2696,15 +2697,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The toy company Tomy has a new logo, and people are baffled",
-          "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
-          "publishedAt": "2026-11-12T07:00:00.000Z",
-          "excerpt": "The new design is all about play.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "How I created this ninja puppet scene inspired by Naruto",
           "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
           "publishedAt": "2026-11-12T07:00:00.000Z",
@@ -2712,9 +2704,18 @@
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
+        },
+        {
+          "title": "The toy company Tomy has a new logo, and people are baffled",
+          "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+          "publishedAt": "2026-11-12T07:00:00.000Z",
+          "excerpt": "The new design is all about play.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Sidebar",
@@ -2923,7 +2924,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Creative Boom",
@@ -3092,7 +3093,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3261,7 +3262,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Creative Independent",
@@ -3350,7 +3351,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3519,7 +3520,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "A List Apart",
@@ -3688,7 +3689,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Them",
@@ -3877,7 +3878,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3885,6 +3886,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Taylor Swift Talks the Art of Loving Lux and Olivia Dean",
+          "url": "http://www.vulture.com/article/taylor-swift-rosalia-olivia-dean-praise.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-14T19:11:34.000Z",
+          "excerpt": "Her two favorite albums of the year come from Olivia Dean and Rosalía, not A.I.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Air Travel Chaos Continues After FAA Ground Stop: As It Happened",
           "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -4055,18 +4065,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Taylor Swift Is Campaigning Correctly",
-          "url": "http://www.vulture.com/article/taylor-swift-is-campaigning-correctly-in-2027-oscars-run.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-13T20:00:27.000Z",
-          "excerpt": "So far, the star has been able to stick to the script.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Atlantic",
@@ -4255,7 +4256,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The New Yorker",
@@ -4435,16 +4436,16 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The Lasting Influence of John Berger",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
           "publishedAt": "2026-11-09T11:00:00.000Z",
-          "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+          "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Hyperallergic",
@@ -4573,7 +4574,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "IndieWire",
@@ -4678,7 +4679,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Vox",
@@ -4849,6 +4850,15 @@
           "sourceRole": "publisher"
         },
         {
+          "title": "How they built it",
+          "url": "https://www.vox.com/future-perfect/509149/how-they-built-it",
+          "publishedAt": "2026-11-06T11:00:00.000Z",
+          "excerpt": "The US faces a huge housing shortage, outdated transportation systems, a dearth of affordable childcare, and an urgent need for substantial clean energy. But why haven’t we been able to build out all of the things we so acutely need? Fortunately, these problems are not without solutions. We just nee",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "The midterms were a youth revolt",
           "url": "https://www.vox.com/politics/509429/midterm-election-results-gen-z-youth-vote-blue-wave",
           "publishedAt": "2026-11-05T17:35:00.000Z",
@@ -4856,18 +4866,9 @@
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Your guide to coping with election anxiety",
-          "url": "https://www.vox.com/even-better/379814/election-anxiety-stress-coping-strategies-control-community",
-          "publishedAt": "2026-11-03T20:00:00.000Z",
-          "excerpt": "Editor’s note, November 3, 2026, 3 pm ET: This article was originally published in 2024 and has been updated for the 2026 midterm elections. If you’re heading to the polls today, you may be among the 30 percent of American voters who say the country’s political situation is the biggest source of str",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5056,7 +5057,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Conversation",
@@ -5225,7 +5226,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Pew Research Center",
@@ -5394,7 +5395,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "404 Media",
@@ -5523,7 +5524,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Undark",
@@ -5622,7 +5623,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5811,7 +5812,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Noema",
@@ -6000,7 +6001,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "n+1",
@@ -6189,8 +6190,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "retained": true,
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Rest of World",
@@ -6295,7 +6295,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Quietus",
@@ -6464,7 +6464,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "BFI",
@@ -6633,7 +6633,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6802,7 +6802,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6971,7 +6971,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Colossal",
@@ -7160,7 +7160,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Pudding",
@@ -7329,7 +7329,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7337,6 +7337,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "NYT, NYPL Announce Best Illustrated Children’s Books of 2026",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101767-nyt-nypl-announce-best-illustrated-children-s-books-of-2026.html",
+          "publishedAt": "2026-11-14T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
         {
           "title": "This Week’s Bestsellers: November 16, 2026",
           "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101778-this-week-s-bestsellers-november-16-2026.html",
@@ -7488,17 +7496,9 @@
           "excerpt": "",
           "source": "Publishers Weekly",
           "category": "Books"
-        },
-        {
-          "title": "ECPA Announces Christy Awards for Fiction",
-          "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101724-ecpa-announces-christy-awards-for-fiction.html",
-          "publishedAt": "2026-11-12T05:00:00.000Z",
-          "excerpt": "",
-          "source": "Publishers Weekly",
-          "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7627,7 +7627,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Five Books",
@@ -7796,7 +7796,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Book Marks",
@@ -7965,7 +7965,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "London Review of Books",
@@ -8154,7 +8154,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Millions",
@@ -8323,7 +8323,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Literary Hub",
@@ -8492,7 +8492,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Rumpus",
@@ -8681,7 +8681,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8850,7 +8850,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Electric Literature",
@@ -9019,7 +9019,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Paris Review",
@@ -9108,7 +9108,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Offing",
@@ -9297,7 +9297,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Words Without Borders",
@@ -9486,7 +9486,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Mekong Review",
@@ -9675,7 +9675,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "The Marginalian",
@@ -9844,7 +9844,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Daily Nous",
@@ -10013,7 +10013,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Aeon",
@@ -10182,7 +10182,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Psyche",
@@ -10209,19 +10209,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+          "title": "Eye on the mark",
+          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Eye on the mark",
-          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10371,7 +10371,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Tricycle",
@@ -10540,7 +10540,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10709,7 +10709,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Kottke",
@@ -10918,7 +10918,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Longreads",
@@ -11127,7 +11127,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Waxy",
@@ -11356,7 +11356,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "MetaFilter",
@@ -11437,7 +11437,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11626,7 +11626,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Dense Discovery",
@@ -11835,7 +11835,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "香港01",
@@ -11843,6 +11843,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "意大利對Meta罰款8.05億歐元 指其未經用戶同意存取相簿",
+          "url": "https://hk01.com/sns/article/60410898",
+          "publishedAt": "2026-11-14T20:47:59.000Z",
+          "excerpt": "意大利資料保護機構11月14日（周六）表示，已對Meta Platforms公司處以8.05億歐元（約69.6億港元）的罰款，原因是該公司未經用戶同意或告知，擅自存取安卓用戶的照片和影片。監管機構稱，Meta公司有60天的時間預設禁用該功能，並單獨徵求用戶的同意。Meta公司發言人則表示，公司將提起上訴，強烈反對監管機構的決定，並稱罰款「過高」。 路透社報道，監管機構在聲明中表示，Meta公司透過Facebook應用程式的一項功能存取Android用戶的照片和影片。此功能會根據使用者的個人圖庫推薦內容供其發布。 2025年9月11日，圖中一名青少年手持智能手機，在美國科企Meta標誌前自拍。（",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "中環男子臉部遭鎅傷 清醒送院治理 警到場調查",
+          "url": "https://hk01.com/sns/article/60410897",
+          "publishedAt": "2026-11-14T20:44:48.000Z",
+          "excerpt": "中環發生傷人案。今日（15日）凌晨3時許，一名男子在皇后大道中29號對開位置報案，表示其年約20歲男性友人臉部有鎅傷傷口，男傷者清醒由救護車送往瑪麗醫院接受治理。 就現場所見，警方到場跟進，正調查事件。 警員在場調查。（李家傑攝） 現場為皇后大道中29號。（李家傑攝）",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "沙田碩門邨男子屋內猝死 家人揭發惜太遲",
+          "url": "https://hk01.com/sns/article/60410896",
+          "publishedAt": "2026-11-14T20:18:53.000Z",
+          "excerpt": "沙田有人猝死。昨日（14日）晚上9時許，一名44歲龍姓男子在碩門邨豐碩樓住所暈倒，家人見狀報案。 救護員接報到場，證實事主當場死亡，事主死因有待驗屍後確定。 沙田碩門邨有人猝死。（資料圖片）",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "車Cam｜觀塘女童衝出馬路 Cam車司機立即響號 網民：遲早一鑊",
           "url": "https://hk01.com/sns/article/60410895",
@@ -11892,34 +11916,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "灣仔夫妻遊客橫過馬路遭的士撞傷 女醒男半醒送院 馬路遺血漬",
+          "title": "灣仔英籍夫妻橫過馬路遭的士撞傷送院 男傷者半清醒 馬路遺血漬",
           "url": "https://hk01.com/sns/article/60410892",
           "publishedAt": "2026-11-14T18:43:42.000Z",
           "excerpt": "灣仔發生車禍。今日（15日）凌晨1時許，一輛的士沿軒尼詩道往金鐘方向行駛，途經軒尼詩道和盧押道交界燈位對開時，的士按照綠燈繼續行駛，兩名外籍男女突然沿行人過路處橫過馬路，的士懷疑收掣不及撞倒兩人，女傷者臉部受傷，保持清醒，男傷者頭臉受傷，陷入半清醒狀態，由救護車送院治理。 就現場所見，的士擋風玻璃右邊上方位置有蜘蛛網狀裂痕，馬路遺下血漬，的士司機在場協助調查。 消息稱，兩名男女傷者是夫妻關係，年約50歲，從英國來港旅遊，事發時正和朋友會合，相約飲酒消遣，身上沒有酒氣。 的士擋風玻璃右邊上方位置有蜘蛛網狀裂痕，馬路遺下血漬。（李家傑攝） 的士擋風玻璃右邊上方位置有蜘蛛網狀裂痕，馬路遺下血漬。（李",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "旺角兩的士迎頭相撞 6人受傷 警不排除其中一車衝燈肇禍",
-          "url": "https://hk01.com/sns/article/60410891",
-          "publishedAt": "2026-11-14T18:21:03.000Z",
-          "excerpt": "旺角發生車禍。今日（15日）凌晨1時許，一輛載有兩名男乘客的市區的士沿洗衣街往太子方向行駛，另一輛載有兩名男乘客的市區的士則沿聯運街駛入弼街，往大角咀方向行駛，駛至洗衣街和弼街交界，兩車迎頭相撞，繼而猛衝撞毀鐵欄和一支交通燈。途經駕駛人士擔心司機被困車內，於是報案。 兩名男司機和4名乘客均受輕傷，在場接受治理，由救護車送往廣華醫院接受治理，警方正調查車禍原因，不排除其中一輛的士衝燈。 就現場所見，兩車車頭嚴重損毀，其中一車車頭冚摺起，路旁鐵欄被撞至變形微凹。 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴重損毀，其中一車車頭冚",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "李尚正破解讀書迷思：學習本是樂趣 家長不應該傳播痛苦",
-          "url": "https://hk01.com/sns/article/60410787",
-          "publishedAt": "2026-11-14T18:00:00.000Z",
-          "excerpt": "",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "張家輝憑《絕命法官》奪得《亞洲電視大獎》視帝 上台晒流利英文",
-          "url": "https://hk01.com/sns/article/60410889",
-          "publishedAt": "2026-11-14T17:46:07.000Z",
-          "excerpt": "第31屆亞洲電視大獎（Asian Television Awards, ATA）昨晚在胡志明市舉行、張家輝憑《絕命法官》奪得《亞洲電視大獎》《最佳男主角》，獎項分別有張嘉益、白宇、楊旭文、張家輝、張軒睿、山崎賢人、尹正、章宇等男演員角逐，張家輝得獎後上台以英文致詞，他說：「I would like to say ，thank yo u to investors and my production team for their support and trust in me. and also, I like to thank the Judges of the Asian Television",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11996,15 +11996,15 @@
           "category": "Hong Kong"
         },
         {
-          "title": "黃仁勳出軌｜張家輝偷食言論瘋傳 「呢個咩罪名呀，都係衰鹹濕」",
-          "url": "https://hk01.com/sns/article/60410755",
-          "publishedAt": "2026-11-14T07:25:32.000Z",
-          "excerpt": "張家輝今日（14/11）出席《大娛樂騷》記者會。上星期，英偉達行政總裁黃仁勳（Jensen Huang）於11月8日，向員工發電郵承認出軌，而女主角是中國籍女子黃樂（又名Alice Huang），事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌誘惑的回應也翻Hit。有網民指他是先知，亦特別清醒，但他不覺得自己特別有見地︰「呢個係咩罪名呀，都係衰鹹濕，成日以為無人知，尤其你愛得熱烈就唔記得有冇人知。」 黃仁勳出軌｜張家輝曾剖白偷食代價大 「所有嘢要換晒唔襟計喎」 英偉達行政總裁黃仁勳承認出軌，事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌",
+          "title": "天文台凌晨發出黃雨 成史上第二遲暴雨警告 暖冬暴雨陸續有來？",
+          "url": "https://hk01.com/sns/article/60410732",
+          "publishedAt": "2026-11-14T08:20:55.000Z",
+          "excerpt": "【香港天文台／HKO／黃色暴雨警告信號／黃雨／暴雨／明天的天氣／維港泳／港珠澳大橋半馬拉松】受高空擾動影響，天文台今日（14日）凌晨3時50分發出黃色暴雨警告信號，至凌晨5時30分取消，成為天文台史上第二遲發出的暴雨警告信號，僅次於2006年11月21日發出的黃雨。 綜合天文台過去的文章，秋末華南受北方較乾燥的東北季候風主導，較少出現強對流天氣，不過在合適的大氣配置下，仍有機會出現顯著降雨，惟隨着氣候變化，本港寒冷日子愈來愈少，近年冬季的一月及二月也曾發出暴雨警告，市民對暴雨的防範意識絕不能鬆懈。 天文台2026年11月14日凌晨3時50分發出黃色暴雨警告信號，圖為當時的雷達圖。（天文台網頁圖",
           "source": "香港01",
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "有線新聞",
@@ -12173,7 +12173,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Now 新聞",
@@ -12342,7 +12342,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12511,7 +12511,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12680,7 +12680,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "South China Morning Post",
@@ -12849,7 +12849,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13018,7 +13018,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
+      "lastSuccessfulAt": "2026-11-14T21:17:12.661Z"
     }
   ],
   "stories": [
@@ -14093,6 +14093,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "EFF Criticizes US Government's Use of AI For Evaluating Senior Health Insurance Requests",
+      "url": "https://yro.slashdot.org/story/26/11/14/0641233/eff-criticizes-us-governments-use-of-ai-for-evaluating-senior-health-insurance-requests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-14T21:00:00.000Z",
+      "excerpt": "\"When we need medical care, we expect decisions about our treatment to be made by our doctors, not a tech company's algorithm,\" writes the EFF newsletter EFFector. But in January America's federal government launched a program called WISeR that uses AI to evaluate authorization requests for certain ",
+      "source": "Slashdot",
+      "category": "Technology",
+      "sourceRole": "community"
+    },
+    {
       "title": "Hundreds of Fake Accounts Defended Jensen Huang On Social Media",
       "url": "https://tech.slashdot.org/story/26/11/14/0529218/hundreds-of-fake-accounts-defended-jensen-huang-on-social-media?utm_source=rss1.0mainlinkanon&utm_medium=feed",
       "publishedAt": "2026-11-14T20:00:00.000Z",
@@ -14219,13 +14228,15 @@
       "sourceRole": "community"
     },
     {
-      "title": "ChatGPT's New Wallet Lets AI Agents Shop For You",
-      "url": "https://news.slashdot.org/story/26/11/13/1911210/chatgpts-new-wallet-lets-ai-agents-shop-for-you?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-13T19:12:00.000Z",
-      "excerpt": "OpenAI has launched ChatGPT Wallet, a feature that lets its Dots AI agents help users choose products and complete purchases on their behalf. TechCrunch reports: The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Maste",
-      "source": "Slashdot",
+      "title": "USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system (Maria Clara Cobo/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/stablecoins-are-becoming-crypto-s-killer-app-across-latin-america?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDU4NDc3NywiZXhwIjoxNzk1MTg5NTc3LCJhcnRpY2xlSWQiOiJUT0ZKSVFSS1YyVFcwMCIsImJjb25uZWN0SWQiOiIyN0Y1RjQ0NUUwQ0M0Q0I3OTVDMDlGMzEzMzVCN0NBNSJ9.kuYIJ968CiOxK5J82iSNK9K1CVZAvx3bDakA0KzVR30",
+      "publishedAt": "2026-11-14T20:45:34.000Z",
+      "excerpt": "Maria Clara Cobo / Bloomberg : USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system &nbsp; &mdash;&nbsp; Stablecoins are proving useful not only as a store of value but as a payment system &mdas",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261114/p19#a261114p19",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia (Katie Tarasov/CNBC)",
@@ -14382,15 +14393,49 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners (Jessica Hagen/MobiHealthNews)",
-      "url": "https://www.mobihealthnews.com/news/charta-health-raises-55m-launches-new-ai-coding-tools",
-      "publishedAt": "2026-11-14T06:35:00.000Z",
-      "excerpt": "Jessica Hagen / MobiHealthNews : Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners &nbsp; &mdash;&nbsp; The round is the company's third in less than two years and brings its total funding to $",
-      "source": "Techmeme",
+      "title": "How to clear the cache on your Samsung TV",
+      "url": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
+      "publishedAt": "2026-11-14T21:00:00.000Z",
+      "excerpt": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p4#a261114p4",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Watch SpaceX attempt to catch the Starship upper stage for the first time",
+      "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+      "publishedAt": "2026-11-14T20:54:14.000Z",
+      "excerpt": "While the company has pulled off this trick a few times with Super Heavy boosters, it'll be a first for the Ship.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How to clear the cache on your Xbox Series X",
+      "url": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x/",
+      "publishedAt": "2026-11-14T20:45:00.000Z",
+      "excerpt": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Is your car tracking your location? Here's how to check and opt out",
+      "url": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out/",
+      "publishedAt": "2026-11-14T20:30:00.000Z",
+      "excerpt": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "This built-in Windows tool can diagnose your PC's battery health",
+      "url": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg/",
+      "publishedAt": "2026-11-14T20:15:00.000Z",
+      "excerpt": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Change these Fitbit Edge settings for a better experience",
@@ -14528,51 +14573,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Here's how much Apple AirPods cost in 2016 vs. 2026",
-      "url": "https://www.engadget.com/2311715/apple-airpods-2016-vs-2026-how-much-they-cost/",
-      "publishedAt": "2026-11-14T16:30:00.000Z",
-      "excerpt": "First introduced in 2016, AirPods have improved in quality, offering a bevy of new features, but how has that impacted the cost to the consumer today?",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Whatever happened to Sony Xperia phones?",
-      "url": "https://www.engadget.com/2311608/sony-xperia-phones-what-happened/",
-      "publishedAt": "2026-11-14T16:15:00.000Z",
-      "excerpt": "Sony seems to have its hand in virtually every device offering, but true fans know that one product line in particular vanished from the American market.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "What the circled \"Z\" on Google Maps means",
-      "url": "https://www.engadget.com/2311447/google-maps-circled-z-meaning/",
-      "publishedAt": "2026-11-14T16:00:00.000Z",
-      "excerpt": "If you've seen a circled capital Z on your Google Maps route, you should know what it means. It might save you from a ticket.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Sodium vs. lithium-ion batteries: What's the difference between them?",
-      "url": "https://www.engadget.com/2311394/sodium-vs-lithium-ion-batteries-differences-compared/",
-      "publishedAt": "2026-11-14T15:45:00.000Z",
-      "excerpt": "Lithium-ion batteries may dominate today, but emerging alternatives like sodium-ion may soon have their time in the spotlight if we can manage key differences.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Should you make the switch to Samsung Galaxy from Google Pixel?",
-      "url": "https://www.engadget.com/2311344/switch-to-samsung-galaxy-to-google-pixel/",
-      "publishedAt": "2026-11-14T15:30:00.000Z",
-      "excerpt": "Thinking about trading your Google Pixel for a Samsung Galaxy? Some of the biggest differences might not be the ones you expect.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "'It’s time to retire the stereotype that gaming is a waste of time': Logitech is giving workers the day off to play video games — just as GTA VI is set to launch",
       "url": "https://www.techradar.com/pro/its-time-to-retire-the-stereotype-that-gaming-is-a-waste-of-time-logitech-is-giving-workers-the-day-off-to-play-video-games-just-as-gta-vi-is-set-to-launch",
       "publishedAt": "2026-11-14T19:05:00.000Z",
@@ -14591,19 +14591,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
-      "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
+      "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
+      "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
       "publishedAt": "2026-11-14T18:00:00.000Z",
-      "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
+      "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
-      "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
+      "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
+      "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
       "publishedAt": "2026-11-14T18:00:00.000Z",
-      "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
+      "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14627,19 +14627,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Portugal vs Denmark: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture, team news",
-      "url": "https://www.techradar.com/entertainment/football/watch-portugal-vs-denmark-nations-league-2026-27-free",
+      "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels, team news",
+      "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
       "publishedAt": "2026-11-14T17:00:00.000Z",
-      "excerpt": "How you can watch Portugal vs Denmark in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
+      "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels, team news",
-      "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
+      "title": "How to watch Portugal vs Denmark: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture, team news",
+      "url": "https://www.techradar.com/entertainment/football/watch-portugal-vs-denmark-nations-league-2026-27-free",
       "publishedAt": "2026-11-14T17:00:00.000Z",
-      "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
+      "excerpt": "How you can watch Portugal vs Denmark in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14663,19 +14663,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
-      "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
+      "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
+      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
       "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
+      "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
-      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
+      "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
+      "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
       "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
+      "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14749,6 +14749,15 @@
       "publishedAt": "2026-11-14T12:00:00.000Z",
       "excerpt": "007 First Light composers Joe Henson and Alexis Smith have said scoring a game about a young James Bond was \"harder than it looks.\"",
       "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Indie App Spotlight: ‘Milton’ lets you turn your old iPad into a home dashboard",
+      "url": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/",
+      "publishedAt": "2026-11-14T20:30:00.000Z",
+      "excerpt": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . Apple finally released its new HomeView this week, a smart display that serves at the center of your hom",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14919,15 +14928,6 @@
       "url": "https://9to5mac.com/2026/11/13/new-apple-tv-youtube-broken-fix/",
       "publishedAt": "2026-11-13T14:21:50.000Z",
       "excerpt": "If you just unboxed your new Apple TV 4K, you might run into a problem using the YouTube app. Some users report an error message that reads: “YouTube is not yet available on this device.” Here’s how to fix this problem. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "tvOS 27.2.1 launching soon with Siri AI for older Apple TV 4K models",
-      "url": "https://9to5mac.com/2026/11/13/tvos-27-2-1-launching-soon-with-siri-ai-for-older-apple-tv-4k-models/",
-      "publishedAt": "2026-11-13T14:15:56.000Z",
-      "excerpt": "Today the new Apple TV 4K has arrived ( order here ) with Siri AI as a major tentpole feature. But older Apple TV 4K models are about to get Siri AI too via a tvOS 27.2.1 software update. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15563,19 +15563,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The toy company Tomy has a new logo, and people are baffled",
-      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+      "title": "How I created this ninja puppet scene inspired by Naruto",
+      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "The new design is all about play.",
+      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
     },
     {
-      "title": "How I created this ninja puppet scene inspired by Naruto",
-      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+      "title": "The toy company Tomy has a new logo, and people are baffled",
+      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
+      "excerpt": "The new design is all about play.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16681,6 +16681,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Taylor Swift Talks the Art of Loving Lux and Olivia Dean",
+      "url": "http://www.vulture.com/article/taylor-swift-rosalia-olivia-dean-praise.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-14T19:11:34.000Z",
+      "excerpt": "Her two favorite albums of the year come from Olivia Dean and Rosalía, not A.I.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Air Travel Chaos Continues After FAA Ground Stop: As It Happened",
       "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-14T17:42:00.000Z",
@@ -16847,15 +16856,6 @@
       "url": "http://nymag.com/intelligencer/article/van-hollen-challenge-raises-odds-of-government-shutdown.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-13T20:00:50.000Z",
       "excerpt": "Schumer backed off a government shutdown threat in 2025, infuriating progressives. If he does so again, it could cost him his leadership gig.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Taylor Swift Is Campaigning Correctly",
-      "url": "http://www.vulture.com/article/taylor-swift-is-campaigning-correctly-in-2027-oscars-run.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-13T20:00:27.000Z",
-      "excerpt": "So far, the star has been able to stick to the script.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17212,10 +17212,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Lasting Influence of John Berger",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
       "publishedAt": "2026-11-09T11:00:00.000Z",
-      "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+      "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17599,19 +17599,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The midterms were a youth revolt",
-      "url": "https://www.vox.com/politics/509429/midterm-election-results-gen-z-youth-vote-blue-wave",
-      "publishedAt": "2026-11-05T17:35:00.000Z",
-      "excerpt": "One of the most consequential subplots of the 2026 elections is that young voters swung back toward Democrats — hard. Early data shows that 66 percent of adults under 30 voted for a Democrat for the House of Representatives, compared to just 31 percent who voted for a Republican — a gap of 35 percen",
+      "title": "How they built it",
+      "url": "https://www.vox.com/future-perfect/509149/how-they-built-it",
+      "publishedAt": "2026-11-06T11:00:00.000Z",
+      "excerpt": "The US faces a huge housing shortage, outdated transportation systems, a dearth of affordable childcare, and an urgent need for substantial clean energy. But why haven’t we been able to build out all of the things we so acutely need? Fortunately, these problems are not without solutions. We just nee",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Your guide to coping with election anxiety",
-      "url": "https://www.vox.com/even-better/379814/election-anxiety-stress-coping-strategies-control-community",
-      "publishedAt": "2026-11-03T20:00:00.000Z",
-      "excerpt": "Editor’s note, November 3, 2026, 3 pm ET: This article was originally published in 2024 and has been updated for the 2026 midterm elections. If you’re heading to the polls today, you may be among the 30 percent of American voters who say the country’s political situation is the biggest source of str",
+      "title": "The midterms were a youth revolt",
+      "url": "https://www.vox.com/politics/509429/midterm-election-results-gen-z-youth-vote-blue-wave",
+      "publishedAt": "2026-11-05T17:35:00.000Z",
+      "excerpt": "One of the most consequential subplots of the 2026 elections is that young voters swung back toward Democrats — hard. Early data shows that 66 percent of adults under 30 voted for a Democrat for the House of Representatives, compared to just 31 percent who voted for a Republican — a gap of 35 percen",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -19943,6 +19943,14 @@
       "category": "Arts"
     },
     {
+      "title": "NYT, NYPL Announce Best Illustrated Children’s Books of 2026",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101767-nyt-nypl-announce-best-illustrated-children-s-books-of-2026.html",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
       "title": "This Week’s Bestsellers: November 16, 2026",
       "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101778-this-week-s-bestsellers-november-16-2026.html",
       "publishedAt": "2026-11-13T05:00:00.000Z",
@@ -20089,14 +20097,6 @@
     {
       "title": "Christian Gift Books Pioneer Jack Countryman Dies",
       "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101740-christian-gift-books-pioneer-jack-countryman-has-died.html",
-      "publishedAt": "2026-11-12T05:00:00.000Z",
-      "excerpt": "",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "ECPA Announces Christy Awards for Fiction",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101724-ecpa-announces-christy-awards-for-fiction.html",
       "publishedAt": "2026-11-12T05:00:00.000Z",
       "excerpt": "",
       "source": "Publishers Weekly",
@@ -22661,19 +22661,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+      "title": "Eye on the mark",
+      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Eye on the mark",
-      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -24215,6 +24215,30 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "意大利對Meta罰款8.05億歐元 指其未經用戶同意存取相簿",
+      "url": "https://hk01.com/sns/article/60410898",
+      "publishedAt": "2026-11-14T20:47:59.000Z",
+      "excerpt": "意大利資料保護機構11月14日（周六）表示，已對Meta Platforms公司處以8.05億歐元（約69.6億港元）的罰款，原因是該公司未經用戶同意或告知，擅自存取安卓用戶的照片和影片。監管機構稱，Meta公司有60天的時間預設禁用該功能，並單獨徵求用戶的同意。Meta公司發言人則表示，公司將提起上訴，強烈反對監管機構的決定，並稱罰款「過高」。 路透社報道，監管機構在聲明中表示，Meta公司透過Facebook應用程式的一項功能存取Android用戶的照片和影片。此功能會根據使用者的個人圖庫推薦內容供其發布。 2025年9月11日，圖中一名青少年手持智能手機，在美國科企Meta標誌前自拍。（",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "中環男子臉部遭鎅傷 清醒送院治理 警到場調查",
+      "url": "https://hk01.com/sns/article/60410897",
+      "publishedAt": "2026-11-14T20:44:48.000Z",
+      "excerpt": "中環發生傷人案。今日（15日）凌晨3時許，一名男子在皇后大道中29號對開位置報案，表示其年約20歲男性友人臉部有鎅傷傷口，男傷者清醒由救護車送往瑪麗醫院接受治理。 就現場所見，警方到場跟進，正調查事件。 警員在場調查。（李家傑攝） 現場為皇后大道中29號。（李家傑攝）",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "沙田碩門邨男子屋內猝死 家人揭發惜太遲",
+      "url": "https://hk01.com/sns/article/60410896",
+      "publishedAt": "2026-11-14T20:18:53.000Z",
+      "excerpt": "沙田有人猝死。昨日（14日）晚上9時許，一名44歲龍姓男子在碩門邨豐碩樓住所暈倒，家人見狀報案。 救護員接報到場，證實事主當場死亡，事主死因有待驗屍後確定。 沙田碩門邨有人猝死。（資料圖片）",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "車Cam｜觀塘女童衝出馬路 Cam車司機立即響號 網民：遲早一鑊",
       "url": "https://hk01.com/sns/article/60410895",
       "publishedAt": "2026-11-14T20:13:01.000Z",
@@ -24263,34 +24287,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "灣仔夫妻遊客橫過馬路遭的士撞傷 女醒男半醒送院 馬路遺血漬",
+      "title": "灣仔英籍夫妻橫過馬路遭的士撞傷送院 男傷者半清醒 馬路遺血漬",
       "url": "https://hk01.com/sns/article/60410892",
       "publishedAt": "2026-11-14T18:43:42.000Z",
       "excerpt": "灣仔發生車禍。今日（15日）凌晨1時許，一輛的士沿軒尼詩道往金鐘方向行駛，途經軒尼詩道和盧押道交界燈位對開時，的士按照綠燈繼續行駛，兩名外籍男女突然沿行人過路處橫過馬路，的士懷疑收掣不及撞倒兩人，女傷者臉部受傷，保持清醒，男傷者頭臉受傷，陷入半清醒狀態，由救護車送院治理。 就現場所見，的士擋風玻璃右邊上方位置有蜘蛛網狀裂痕，馬路遺下血漬，的士司機在場協助調查。 消息稱，兩名男女傷者是夫妻關係，年約50歲，從英國來港旅遊，事發時正和朋友會合，相約飲酒消遣，身上沒有酒氣。 的士擋風玻璃右邊上方位置有蜘蛛網狀裂痕，馬路遺下血漬。（李家傑攝） 的士擋風玻璃右邊上方位置有蜘蛛網狀裂痕，馬路遺下血漬。（李",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "旺角兩的士迎頭相撞 6人受傷 警不排除其中一車衝燈肇禍",
-      "url": "https://hk01.com/sns/article/60410891",
-      "publishedAt": "2026-11-14T18:21:03.000Z",
-      "excerpt": "旺角發生車禍。今日（15日）凌晨1時許，一輛載有兩名男乘客的市區的士沿洗衣街往太子方向行駛，另一輛載有兩名男乘客的市區的士則沿聯運街駛入弼街，往大角咀方向行駛，駛至洗衣街和弼街交界，兩車迎頭相撞，繼而猛衝撞毀鐵欄和一支交通燈。途經駕駛人士擔心司機被困車內，於是報案。 兩名男司機和4名乘客均受輕傷，在場接受治理，由救護車送往廣華醫院接受治理，警方正調查車禍原因，不排除其中一輛的士衝燈。 就現場所見，兩車車頭嚴重損毀，其中一車車頭冚摺起，路旁鐵欄被撞至變形微凹。 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴重損毀，其中一車車頭冚",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "李尚正破解讀書迷思：學習本是樂趣 家長不應該傳播痛苦",
-      "url": "https://hk01.com/sns/article/60410787",
-      "publishedAt": "2026-11-14T18:00:00.000Z",
-      "excerpt": "",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "張家輝憑《絕命法官》奪得《亞洲電視大獎》視帝 上台晒流利英文",
-      "url": "https://hk01.com/sns/article/60410889",
-      "publishedAt": "2026-11-14T17:46:07.000Z",
-      "excerpt": "第31屆亞洲電視大獎（Asian Television Awards, ATA）昨晚在胡志明市舉行、張家輝憑《絕命法官》奪得《亞洲電視大獎》《最佳男主角》，獎項分別有張嘉益、白宇、楊旭文、張家輝、張軒睿、山崎賢人、尹正、章宇等男演員角逐，張家輝得獎後上台以英文致詞，他說：「I would like to say ，thank yo u to investors and my production team for their support and trust in me. and also, I like to thank the Judges of the Asian Television",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24367,10 +24367,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "黃仁勳出軌｜張家輝偷食言論瘋傳 「呢個咩罪名呀，都係衰鹹濕」",
-      "url": "https://hk01.com/sns/article/60410755",
-      "publishedAt": "2026-11-14T07:25:32.000Z",
-      "excerpt": "張家輝今日（14/11）出席《大娛樂騷》記者會。上星期，英偉達行政總裁黃仁勳（Jensen Huang）於11月8日，向員工發電郵承認出軌，而女主角是中國籍女子黃樂（又名Alice Huang），事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌誘惑的回應也翻Hit。有網民指他是先知，亦特別清醒，但他不覺得自己特別有見地︰「呢個係咩罪名呀，都係衰鹹濕，成日以為無人知，尤其你愛得熱烈就唔記得有冇人知。」 黃仁勳出軌｜張家輝曾剖白偷食代價大 「所有嘢要換晒唔襟計喎」 英偉達行政總裁黃仁勳承認出軌，事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌",
+      "title": "天文台凌晨發出黃雨 成史上第二遲暴雨警告 暖冬暴雨陸續有來？",
+      "url": "https://hk01.com/sns/article/60410732",
+      "publishedAt": "2026-11-14T08:20:55.000Z",
+      "excerpt": "【香港天文台／HKO／黃色暴雨警告信號／黃雨／暴雨／明天的天氣／維港泳／港珠澳大橋半馬拉松】受高空擾動影響，天文台今日（14日）凌晨3時50分發出黃色暴雨警告信號，至凌晨5時30分取消，成為天文台史上第二遲發出的暴雨警告信號，僅次於2006年11月21日發出的黃雨。 綜合天文台過去的文章，秋末華南受北方較乾燥的東北季候風主導，較少出現強對流天氣，不過在合適的大氣配置下，仍有機會出現顯著降雨，惟隨着氣候變化，本港寒冷日子愈來愈少，近年冬季的一月及二月也曾發出暴雨警告，市民對暴雨的防範意識絕不能鬆懈。 天文台2026年11月14日凌晨3時50分發出黃色暴雨警告信號，圖為當時的雷達圖。（天文台網頁圖",
       "source": "香港01",
       "category": "Hong Kong"
     },

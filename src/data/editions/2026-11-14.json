@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T02:17:19.830Z",
-  "collectedAt": "2026-11-14T02:17:19.830Z",
+  "generatedAt": "2026-11-14T03:17:11.114Z",
+  "collectedAt": "2026-11-14T03:17:11.114Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,6 +20,42 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Ggml v1.0.0",
+          "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+          "publishedAt": "2026-11-14T02:28:29.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50493062"
+        },
+        {
+          "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+          "publishedAt": "2026-11-14T02:21:36.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50492993"
+        },
+        {
+          "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
+          "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+          "publishedAt": "2026-11-14T02:02:42.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50492860"
+        },
+        {
+          "title": "GigChain Keys – a free, open-source MainStage alternative",
+          "url": "https://github.com/xDarkzx/GigChain-Keys",
+          "publishedAt": "2026-11-14T01:47:30.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50492727"
+        },
         {
           "title": "FAA lifted National Ground Stop at 0119Z",
           "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
@@ -158,45 +199,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50488470"
-        },
-        {
-          "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-          "publishedAt": "2026-11-13T19:24:47.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50488464"
-        },
-        {
-          "title": "FM-1 Workbench",
-          "url": "https://open.m-vave.com/fm1-workbench",
-          "publishedAt": "2026-11-13T19:14:02.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50488325"
-        },
-        {
-          "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-          "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-          "publishedAt": "2026-11-13T18:40:44.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50487864"
-        },
-        {
-          "title": "Weight Space Misfolding",
-          "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
-          "publishedAt": "2026-11-13T18:33:35.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50487762"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Ars Technica",
@@ -551,10 +556,10 @@
           "category": "Technology"
         },
         {
-          "title": "FAA orders third nationwide ground stop in its history",
+          "title": "FAA has lifted its third-ever nationwide ground stop",
           "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
           "publishedAt": "2026-11-13T23:17:38.000Z",
-          "excerpt": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+          "excerpt": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
           "source": "Ars Technica",
           "category": "Technology"
         },
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,28 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi (Dan Mangan/CNBC)",
+          "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+          "publishedAt": "2026-11-14T03:10:01.000Z",
+          "excerpt": "Dan Mangan / CNBC : US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi &nbsp; &mdash;&nbsp; President Donald Trump is not expected to raise allegations of a Chinese intelligence operation involvin",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261113/p40#a261113p40",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Tesla says \"select customers\" can now place orders for its Cybercab \"for personal use\", for $30K plus a required $299/month Autonomy Subscription to operate (Kara Carlson/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/tesla-says-it-s-starting-to-sell-cybercabs-for-personal-use",
+          "publishedAt": "2026-11-14T02:25:00.000Z",
+          "excerpt": "Kara Carlson / Bloomberg : Tesla says &ldquo;select customers&rdquo; can now place orders for its Cybercab &ldquo;for personal use&rdquo;, for $30K plus a required $299/month Autonomy Subscription to operate &nbsp; &mdash;&nbsp; Tesla Inc. invited select customers to place orders for the Cybercab in",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261113/p39#a261113p39",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "AI's impact on math is a preview of what AI will do to AI research, with AI matching top human researchers potentially just a couple of years away (Dwarkesh Patel/Dwarkesh Podcast)",
           "url": "https://www.dwarkesh.com/p/rsi",
@@ -1329,7 +1356,7 @@
           "title": "Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash (Kierra Frazier/CBS News)",
           "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
           "publishedAt": "2026-11-13T23:55:00.000Z",
-          "excerpt": "Kierra Frazier / CBS News : Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash &nbsp; &mdash;&nbsp; Kierra Frazier is a news editor for CBS News & Stations.&nbsp; &mdash;&nbsp; Faris Tanyos is a ne",
+          "excerpt": "Kierra Frazier / CBS News : Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash &nbsp; &mdash;&nbsp; A rare nationwide ground stop on all departing U.S. flights that lasted several hours Friday has ",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261113/p35#a261113p35",
@@ -1434,31 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261113/p26#a261113p26",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Dario Amodei says figuring out how much computing is needed in a year or two is Anthropic's \"deepest business dilemma\" due to the unpredictability of revenue (Bloomberg)",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
-          "publishedAt": "2026-11-13T19:20:01.000Z",
-          "excerpt": "Bloomberg : Dario Amodei says figuring out how much computing is needed in a year or two is Anthropic's &ldquo;deepest business dilemma&rdquo; due to the unpredictability of revenue &nbsp; &mdash;&nbsp; Anthropic PBC Chief Executive Officer Dario Amodei named sourcing computing power as one of the a",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261113/p25#a261113p25",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops (New York Times)",
-          "url": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
-          "publishedAt": "2026-11-13T19:10:01.000Z",
-          "excerpt": "New York Times : Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops &nbsp; &mdash;&nbsp; Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies,",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261113/p24#a261113p24",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1652,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "TechRadar",
@@ -1660,15 +1665,6 @@
           "url": "https://www.techradar.com/pro/gigabyte-unveils-its-nvidia-spark-powered-ai-workstation-ai-top-aero-combines-blackwell-architecture-gpu-and-up-to-128-gb-memory-if-you-can-get-one",
           "publishedAt": "2026-11-14T01:25:00.000Z",
           "excerpt": "Three days after its stated launch, the one-liter AI TOP AERO still has no price, no regional configurations and no product page.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Quordle hints and answers for Saturday, November 14 (game #1755)",
-          "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-14-november-2026",
-          "publishedAt": "2026-11-14T00:00:00.000Z",
-          "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1687,6 +1683,15 @@
           "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-14-november-2026",
           "publishedAt": "2026-11-14T00:00:00.000Z",
           "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Quordle hints and answers for Saturday, November 14 (game #1755)",
+          "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-14-november-2026",
+          "publishedAt": "2026-11-14T00:00:00.000Z",
+          "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1836,7 +1841,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2381,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2525,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Creative Bloq",
@@ -2646,19 +2651,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How I created this ninja puppet scene inspired by Naruto",
-          "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+          "title": "The toy company Tomy has a new logo, and people are baffled",
+          "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
           "publishedAt": "2026-11-12T07:00:00.000Z",
-          "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
+          "excerpt": "The new design is all about play.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
         },
         {
-          "title": "The toy company Tomy has a new logo, and people are baffled",
-          "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+          "title": "How I created this ninja puppet scene inspired by Naruto",
+          "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
           "publishedAt": "2026-11-12T07:00:00.000Z",
-          "excerpt": "The new design is all about play.",
+          "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
@@ -2709,7 +2714,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2923,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3092,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3261,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3350,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3519,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3688,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3877,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3881,10 +3886,19 @@
       "count": 20,
       "stories": [
         {
-          "title": "FAA Grounds All U.S. Flights: Live Updates",
+          "title": "FAA Lifts Crippling Ground Stop: Live Updates",
           "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-14T01:31:00.000Z",
-          "excerpt": "An extraordinary nationwide ground stop is underway, and it’s still not clear why. Here’s the latest.",
+          "publishedAt": "2026-11-14T02:26:00.000Z",
+          "excerpt": "Everything is still a mess though. Here’s the latest.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Shane Gillis Gave His SNL Monologue a C Minus",
+          "url": "http://www.vulture.com/article/shane-gillis-addresses-snl-monologue-controversy.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-14T01:10:24.000Z",
+          "excerpt": "“I was like, ‘Fellas, I’m giving you a solid C minus of a monologue but I promise there’s no controversy.’”",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4050,18 +4064,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "20 Ways to Think About Nvidia’s Jensen Huang Mess",
-          "url": "http://nymag.com/intelligencer/article/roundup-nvidia-jensen-huang-takes-commentary.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-13T18:56:00.000Z",
-          "excerpt": "If you’re having trouble keeping up with the torrent of takes and takeaways, we’re here to help.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Atlantic",
@@ -4070,10 +4075,10 @@
       "count": 20,
       "stories": [
         {
-          "title": "Get Ready for More Chaos",
+          "title": "The Next Major Grounding Will Be Worse",
           "url": "https://www.theatlantic.com/ideas/2026/11/flights-grounded-why/689446/?utm_source=feed",
           "publishedAt": "2026-11-14T01:56:25.000Z",
-          "excerpt": "Plane groundings and other disruptions may become more common.",
+          "excerpt": "Get ready for more havoc.",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4250,7 +4255,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The New Yorker",
@@ -4439,7 +4444,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4573,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "IndieWire",
@@ -4673,7 +4678,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4867,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5056,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5225,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5394,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5523,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5622,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5811,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6000,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "n+1",
@@ -6184,6 +6189,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
     },
     {
@@ -6289,7 +6295,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6464,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6633,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6802,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6971,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7160,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7329,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7498,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,7 +7627,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Five Books",
@@ -7790,7 +7796,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7965,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8154,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8323,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8492,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8681,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8850,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9019,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9108,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9297,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9486,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9675,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9844,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10013,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10182,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10371,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10540,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10709,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10918,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11127,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Waxy",
@@ -11350,7 +11356,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "MetaFilter",
@@ -11449,7 +11455,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11638,7 +11644,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Dense Discovery",
@@ -11847,7 +11853,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "香港01",
@@ -11856,26 +11862,90 @@
       "count": 20,
       "stories": [
         {
-          "title": "安記海味雙11最後召集！加$1多1件！溏心鮑魚、花膠湯包限時優惠",
-          "url": "https://hk01.com/sns/article/60410108",
-          "publishedAt": "2026-11-14T02:02:14.000Z",
-          "excerpt": "雙11購物節旺季，不少品牌相繼推出限時折扣大減價。老字號安記海味由即日起至11月15日期間推出「11.11大激賞」，全線門市及網店同步舉行。今次優惠玩法簡單直接，只要選購指定產品，分別加$1、$11或$111即可多換1件，涵蓋即食糖水、足料湯包、鮑魚拌麵以至名貴罐頭鮑魚，無論買回家隨時加餸或預早準備送禮都相當划算！即睇以下精選商品！ 安記海味由即日起至11月15日期間推出「11.11大激賞」，全線門市及網店同步舉行。（IG@onkeedryseafood） 三大激抵加購專區：加$1/$11/$111多1件 今次 安記海味 優惠玩法簡單直接，只要選購指定產品，加少少錢即可多換1件。 最吸引的 「",
+          "title": "44歲曹敏莉攜子女遊紐約 母女合照猶如姊妹 每年百萬供子女讀漢基",
+          "url": "https://hk01.com/sns/article/60410594",
+          "publishedAt": "2026-11-14T03:08:50.000Z",
+          "excerpt": "2003年香港小姐冠軍曹敏莉婚後淡出幕前，專心照顧家庭，與丈夫張家傑育有兩子一女，不時在社交平台分享一家人的生活點滴。近日，她帶同15歲大女Dora及13歲二仔Marco遊歷美國紐約及波士頓，除了帶子女遊覽當地景點，更陪伴女兒入場欣賞演唱會，分享旅途中的溫馨時光。一家人的旅遊照片曝光後，亦引起網民關注。 曹敏莉帶子女遊紐約波士頓 陪15歲女兒睇演唱會 曹敏莉日前在Instagram分享多張美國之旅的照片，並感性表示相隔多年再次回到紐約，牽着子女漫步街頭的感覺恍如昨日。相片可見，她帶同一對子女乘搭地鐵穿梭城市，亦到訪著名地標紐約公共圖書館，享受難得的親子旅行時光。 曹敏莉還陪伴熱愛音樂的女兒Do",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "40歲女指甲異常確診腎衰竭 醫：警惕3情況 半紅半白恐是尿毒症",
-          "url": "https://hk01.com/sns/article/60405311",
-          "publishedAt": "2026-11-14T02:00:45.000Z",
-          "excerpt": "台灣腎臟科醫師洪永祥早前 分享 一起臨床案例，一名40多歲企業女主管因指甲異常變化被及時發現腎臟問題。這名女子生活規律、不煙不酒，卻頻繁感到疲倦，同事無意間發現她的指甲下半段呈白色、上半段呈暗紅色，建議她就醫檢查，才確診慢性腎衰竭第5期，已瀕臨需要洗腎的邊緣。 3種指甲異常恐是腎衰竭（01製圖） 指甲變化作為疾病警訊非常重要👇👇👇 指甲出現這三種變化，是腎臟已經極度危險的求救訊號？（FB@洪永祥醫師的慢性腎衰竭攻城療法） 【3種指甲異常恐是腎衰竭】1. 半紅白指甲（01製圖） 【3種指甲異常恐是腎衰竭】1. 半紅白指甲（01製圖） 【3種指甲異常恐是腎衰竭】1. 半紅白指甲（01製圖） ",
+          "title": "全美航班一度停飛4小時 911事件後第2次 7164航班被取消",
+          "url": "https://hk01.com/sns/article/60410686",
+          "publishedAt": "2026-11-14T03:08:22.000Z",
+          "excerpt": "美國聯邦航空管理局（FAA）11月13日因通訊系統發生問題一度下令全國航班暫停起飛，是自2001年911恐怖攻擊以來，美國第二度下令全國航班暫停起飛。FAA在4個小時後解除停飛令。國土安全部長馬林（Markwayne Mullin）事後在簡報會強調，暫沒有跡象顯示這次事件是由網絡攻擊引起；交通部長達菲（Sean Duffy）則將事件起因，歸咎於老舊交通管制技術和路由器過載。 據美媒引述 Flightaware數據 報道，美國13日有超過7164班航班被取消，8501班航班延誤，而14日則有700個航班被取消。航空分析師表示，在全國範圍內停飛超過四個小時後，航空公司可能需要數天時間才能恢復航班時",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "80校網｜上水、古洞小學名單有甚麼學校？學額一共有多少？",
-          "url": "https://hk01.com/sns/article/60409186",
-          "publishedAt": "2026-11-14T02:00:28.000Z",
-          "excerpt": "80校網的範圍以北區為主，共有14間學校可供選擇，主要位於在上水及古洞附近，亦包括一大部份的北部都會區。「01教育」已經於下文為你整合80校網的小學名單、範圍及地圖及80校網屋苑名單，幫助你的子女升讀心儀學校！ 80校網的競爭激烈嗎？學生人數是多少？學額有幾多？ 教育局《學生人數統計報告書》未有根據小學校網分類的學生數字，只有按區議會紀計的數字。參考最新的2025年度《報告書》，在2025年9月於北區就讀本地幼稚園及非本地幼稚園低班（該批學生一般將於2027年9月入讀小一）的學生人數分別為1,763及26人，而80校網學校現正為2027年9月入讀小一的學生，於自行分配學位階段，提供合共728個",
+          "title": "謝安琪再送19歲張瞻返澳洲留學坦言心情低落 兄妹離別曾哭成淚人",
+          "url": "https://hk01.com/sns/article/60410260",
+          "publishedAt": "2026-11-14T03:08:06.000Z",
+          "excerpt": "張繼聰和謝安琪（Kay）的大仔張瞻（James）今年遠赴澳洲升學。早前，James曾短暫回港，近日Kay分享再次送兒子到機場的合照，坦言每次分別都會感到失落，但如今已逐漸適應，她更分享與子女的得意合照，記錄溫馨的離別時刻。 張瞻赴澳洲升學 與兒子離別不捨落淚 James於今年2月赴澳洲墨爾本升學，修讀「Bachelor of Education &amp; Bachelor of Science – Primary Education」學位課程。後來有網民目睹張繼聰和Kay在墨爾本與仔女用餐。 他們離開澳洲回港前，在機場與James分別。當時，張繼聰揸機拍下Kay、James與妹妹KakaBa",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "黃仁勳辭職｜近3萬人網上聯署力撐教主 提三大要求 馬斯克跟簽",
+          "url": "https://hk01.com/sns/article/60410699",
+          "publishedAt": "2026-11-14T03:06:47.000Z",
+          "excerpt": "【黃仁勳／Nvidia／英偉達／Alice huang / Kimberly Powell / Colette Kress】英偉達前CEO 黃C仁勳辭職才兩天，網絡上已出現「萬人聯署」要教主回來的盛況，並發公開信提三大要求，全球首富馬斯克也「跟簽」。 一個叫「Stand with Jensen」的獨立聯網站上線，暫吸近3萬人聯署。﹙「Stand with Jensen」網站截圖﹚ 一個叫「Stand with Jensen」的獨立聯網站上線，附有一封寫給 NVIDIA 董事會的公開信。目前不知發起人背景，網站稱跟 NVIDIA 和黃仁勳本人都沒有關係，並稱是NVIDIA 的現任與前任員工、合作",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "公屋新租戶代收信！上手長者贈$500利市 住戶：舊公屋人情確唔同",
+          "url": "https://hk01.com/sns/article/60409765",
+          "publishedAt": "2026-11-14T03:02:16.000Z",
+          "excerpt": "香港公屋鄰里之間，仍然充滿濃濃人情味！近日有港媽媽在Threads發文，以「好人好事」為題分享經歷，稱早前所住公屋單位的前租客女兒突然登門，解釋由於家中老人家年事已高，不方便親自前往銀行處理事務，希望樓主能協助留意1封即將寄抵的銀行信件，如果收到後，可以致電通知她前來領取。 樓主認為代收信件只是舉手之勞，因此答應幫忙，她亦理解老一輩習慣以利市表達謝意，因此當對方送上利市時，起初並未拒絕，「年長一輩好興封返封利市嘅，咁佢好意，我照單全收嘅」。 然而，樓主沒有預料到對方送出的利市金額竟高達500元，令她大感意外，「無諗過係咁大封，嚇咗一跳…黐線，咁大封，唔收得，我以為100幾十，意思意思咋」、「好",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "午睡越睡越累？專家揭黃金時間僅20至30分鐘 睡前飲咖啡反更提神",
+          "url": "https://hk01.com/sns/article/60410039",
+          "publishedAt": "2026-11-14T03:00:56.000Z",
+          "excerpt": "不少香港上班族平日經常晚睡加班，睡眠嚴重不足，習慣趁午飯後空檔將手機鬧鐘設於45分鐘甚至1小時後，企圖透過長時間午睡一口氣償還「睡眠債」。結果鬧鐘一響，非但沒有精神飽滿，反而頭昏腦脹、四肢無力，整個下午均處於呆滯狀態，連看電腦屏幕也難以集中精神，問題關鍵不在於睡得不夠，而是睡得太久。 不少上班族經常晚睡加班，睡眠嚴重不足，習慣趁午飯後空檔將手機鬧鐘設於45分鐘甚至1小時後，企圖透過長時間午睡一口氣償還睡眠債。（《THE K2》劇照） 超過30分鐘誤入深層睡眠 觸發睡眠惰性 根據 妙佑醫療國際（Mayo Clinic） 的成人午睡健康指引，理想的午睡時長應嚴格控制在20至30分鐘以內，讓大腦停留",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "俞可程密會「肥仔」斷正 細數撞樣史力加太太、爭寵暗鬥黑歷史",
+          "url": "https://hk01.com/sns/article/60410517",
+          "publishedAt": "2026-11-14T03:00:43.000Z",
+          "excerpt": "無綫（TVB）戀愛真人騷《女神配對計劃2》播映以來話題不絕，2022年港姐出身的「東張女神」俞可程（Kanis）憑節目人氣急升，同時亦成為網民狙擊對象。近日有網民在社交平台發文，指在街頭「斷正」俞可程於參與配對節目期間與一名男子並肩同行、舉止親密，質疑她「騎牛搵馬」，又令她入行兩年來的連串爭議與「黑歷史」再度被網民翻炒。 俞可程為落選港姐！（截圖） 黑歷史1：疑街頭約會被網民斷正 對於被網民指抱著「拖住呢個男士去揀男仔」的心態參與《女神配對計劃2》，俞可程受訪時表現從容並還原真相。她表示今年7月及8月接下連鎖快餐店廣告，由於機會難得，特意邀請TVB男導演協助拍攝、度橋及剪片：「佢影咗我相嗰一日",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "北角循道學校校工成叔走過半生浮華 化身多啦A夢為師生解憂送暖",
+          "url": "https://hk01.com/sns/article/60404346",
+          "publishedAt": "2026-11-14T03:00:37.000Z",
+          "excerpt": "清晨時分，北角循道學校的校舍門口，總會準時出現一個穿著淺藍工友上衣、頂著一頭灰白短髮的活力身影。他是全校無人不曉的校工「成叔」。每逢返學放學，他總是挺直腰板站在校門前，臉上掛著標誌性的大大笑容，活力充沛地向每一位睡眼惺忪的小朋友高呼「Good Morning、 Hi」，放學又逐一揮手「 Goodbye」。 看到有低年級小朋友在校門前鬧情緒、依賴父母流淚不肯入校，成叔從不大聲喝斥，而是彎下雙膝、整個人「踎低身」，把自己的視線降至與孩子的眼睛相同水平，邊笑著輕撫孩子的頭，一邊溫柔接過沉甸甸的書包，牽著他們的小手一步一步走進班房。如陽光般溫暖的成叔，曾走過半生浮華，在低潮時期曾靠聽《多啦A夢》主題曲",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "楊華勇｜高市早苗的「APEC焦慮」 暴露日本的外交窘態",
+          "url": "https://hk01.com/sns/article/60410078",
+          "publishedAt": "2026-11-14T03:00:07.000Z",
+          "excerpt": "來稿作者：楊華勇 深圳APEC領導人非正式會議定於2026年11月18日至19日舉行，這是中國繼2001年上海、2014年北京之後第三次擔任東道主。按慣例，東道主會對所有成員領導人給予對等禮遇，晚宴合影、握手寒暄、議程排序都有成規可循。可就在會期臨近之際，日本方面卻通過共同社、彭博社連續放風：政府正在向中方「尋求保證」，希望高市早苗不被「冷落」，若出現「異常安排」或中方借機「羞辱」她，日方將提出抗議。這種未會先討「免冷落承諾」的操作，本身就極不尋常。多邊場合的體面，從來不是靠提前索要來的，而是靠平時攢下的。東京此刻的焦慮，不是中方態度突變，而是自己過去一年把信任帳戶刷爆了。 屢踩中方紅線 妄圖",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "港漂搭小巴無現金兼八達通負錢！遇暖心港女生3善舉神救:愛上香港",
+          "url": "https://hk01.com/sns/article/60410576",
+          "publishedAt": "2026-11-14T03:00:00.000Z",
+          "excerpt": "香港小巴即使是本地薑，對小巴的行走路線和停車位也未必知，更何況是內地來港的港漂同學仔？早前一位內地來港讀大學的男學生，因為長時間等不到酒店接駁巴士，最終選擇了乘搭不熟悉的專線小巴，卻在上車後遇到八達通餘額不足、身上沒有現金的尷尬處境，後來一位香港女生神救援，令他感到非常感動，更直言這一個瞬間令他「徹底愛上一座城市」！ 《那夜凌晨，我坐上開往大埔的紅Van》劇照 內地港漂男學生早前在小紅書上發帖，表示近日從沙田新城市廣場附近準備坐車回馬鞍山，本來打算乘坐酒店接駁巴士，但是等了一段長時間都沒有車。於是自己跟著導航程式到達了專線小巴801車站，來了一輛801A，因為不熟悉的關係在連番研究之下才最後一",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "建管條例修訂｜授權票未設上限 麥美娟稱大多反映實際操作有困難",
+          "url": "https://hk01.com/sns/article/60410691",
+          "publishedAt": "2026-11-14T02:26:32.000Z",
+          "excerpt": "《建築物管理條例》早前完成公眾諮詢，曾建議業主大會設立每人可持有俗稱授權票的上限，最終改為「持續研究」。民政及青年事務局局長麥美娟出席商台節目《政經星期六》表示，諮詢期間大多數反映建議有實際操作困難。她又指，政府正研究透過電子授權，為授權票設上限，政府將於明年年底前推出先導計劃，首階段在大型屋苑及單幢樓宇等試行。 民政及青年事務局局長麥美娟。（資料圖片) 《建築物管理條例》諮詢期早前完結，麥美娟表示，接獲很多來自法團、物管業界的意見，整體認同當局的修例方向，不過當中，過半意見認為建議有實際操作困難，難辨識提交授權書次序。她解釋，業主大會投票時會將全部票放入票箱，若點票時發現有人獲超出數量的授權",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11884,38 +11954,6 @@
           "url": "https://hk01.com/sns/article/60410557",
           "publishedAt": "2026-11-14T02:00:25.000Z",
           "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），昨日（11月13日）在高等法院續審，首被告鄺港傑第五天出庭自辯。鄺港傑詳細供述案發當晚（2月21日）通宵留在龍尾村單位廁所清洗沾血刀具，期間聽到房間及廚房傳來「用刀切割聲」 。而他聽到切割聲時，更在哭泣；翌日他更與父親鄺球前往將軍澳墳場燒衣紙憑弔蔡天鳳，其後亦按父要求剪爛蔡的身份證與信用卡。 此外，鄺港傑接受鄺港智代表大律師盤問時，被揭發在還押期間曾托囚友送信予胞弟，信中內容指案發當日蔡找鄺球在車內「講數」，兄弟離開車廂，其後蔡流血倒地。鄺港傑指信件是為予「夾口供」，圖將責任推卸給父親，鄺港傑當庭推翻信件內",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "裘言真｜直面問題、依法追責、標本兼治：瑪麗升降機事故報告評析",
-          "url": "https://hk01.com/sns/article/60410644",
-          "publishedAt": "2026-11-14T02:00:20.000Z",
-          "excerpt": "來稿作者：裘言真 瑪麗醫院臨床大樓1（新大樓）的升降機，早前頻繁出現故障，社會有聲音希望政府公開透明處理事件，切實問責。發展局日前向立法會提交長達125頁的調查報告，詳細交代事件始末、成因、責任與跟進安排。細看整份報告內容及政府各項後續行動，特區政府體現了開誠布公的態度，毫不迴避承建商、分判商、顧問公司及政府部門的缺失，亦沒有偏幫事件中的任何一方，切實把問題攤在陽光下，讓公眾清楚看到責任誰屬。這種直面問題、不遮不掩的處理方式，值得社會肯定。 政府「一查到底」 報告公開透明 綜觀是次報告的公開程度和問責力度，盡顯政府「一查到底」的決心和公開透明的態度。報告清楚指出，28部升降機均出現不同程度問題",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "前新聞主播余浩宗轉行變富貴 瘋狂開箱CHANEL孖密友帶狗名店試衫",
-          "url": "https://hk01.com/sns/article/60408484",
-          "publishedAt": "2026-11-14T02:00:18.000Z",
-          "excerpt": "前TVB新聞主播余浩宗（Cyrus）2016年因為眼紅紅報新聞而見報，離巢後完全擺脫以往書生形象，突然留鬚兼狂操肌。近年他轉行做歐洲名牌代購生意，生活質素幾級跳，變得超級富貴！日前（8日），Cyrus開心拍片瘋狂開箱過萬美元的CHANEL新袋，平時又經常孖同性密友兼帶愛犬於名店試衫，盡顯VVIP的奢華氣派。 2016年，余浩宗因眼紅紅報新聞引起觀眾注意，他事後解畫指，眼紅只因工作進入倒數階段而感觸及感動。（TVB） 余浩宗操得一身健碩身型。（IG@cyrus_yuu） 開箱綠色鱷魚壓紋袋 豪晒15萬「機場包」 Cyrus在家中穿上CHANEL針織冷衫拍片開箱CHANEL新袋，影片畫面中打上細字",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "孩子怕被真人批評把AI當樹洞？醫生示警：機器人無法取代專業醫療",
-          "url": "https://hk01.com/sns/article/60397647",
-          "publishedAt": "2026-11-14T02:00:05.000Z",
-          "excerpt": "生成式人工智慧（AI）逐漸融入民眾的日常生活，其中有不少兒童及青少年甚至開始向聊天機器人（chatbot）尋求情緒支持。 加拿大一項針對近4萬名小學至高中（4至12年級）學生的研究發現，超過2成曾使用生成式AI尋求情緒支持，或詢問和朋友、家人相關問題，而這群學生出現達臨床顯著程度的情緒困擾症狀的可能性，接近其他學生的2倍，不過該研究僅發現兩者存在關聯，無法證明使用AI會造成情緒困擾。 相關文章： 新一代更沒耐性、更信AI！高中老師點出「現代教育」7個殘酷事實 教育子女｜現代教育面臨7個殘酷事實！（01製圖） 教育子女｜現代教育面臨7個殘酷事實！（01製圖） 教育子女｜現代教育面臨7個殘酷事實！",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "由帶隊老師變成巨型木偶藝術家助理 專訪退休視藝老師葉家偉",
-          "url": "https://hk01.com/sns/article/60410406",
-          "publishedAt": "2026-11-14T02:00:04.000Z",
-          "excerpt": "「渣打藝趣嘉年華2026」將於11月14及15日在銅鑼灣舉行，今年的主題是經典童話。11月15日的「壓軸巡遊」會有10座4米高的巨型木偶，由維多利亞公園出發，巡遊銅鑼灣街頭。這些木偶由本地學校的學生在藝術家指導下製作。 今年參與木偶製作的人當中，有一位剛退休的視藝科老師葉家偉（Alexis Ip）。他教了39年書，退休後以「藝術家助理」的身分回到校園，協助巡遊巨型木偶藝術家謝志明（Jimmy）帶學生創作。 由老師變成助理 「家人和朋友知道後，都說我『退而不休』。加上最近有作品在海外展覽，真的比以前還要忙。」葉家偉說。他以前是視藝科老師，帶學生參加過八屆嘉年華。Jimmy也曾多次到他任教的學校教",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11952,26 +11990,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "最新天氣消息｜黃色暴雨警告信號一度生效 凌晨5時30分取消",
-          "url": "https://hk01.com/sns/article/60410538",
-          "publishedAt": "2026-11-13T16:03:56.000Z",
-          "excerpt": "【香港天文台／HKO】繼今日（14日）凌晨0時45分發出發出雷暴警告後，香港天文台同日凌晨3時50分發出黃色暴雨警告信號的特別報告，香港廣泛地區已錄得或預料會有每小時雨量超過30毫米的大雨，而且雨勢可能持續，去到同日凌晨5時30分取消。 【06:00】雷暴警告有效時間終止。 【05:30】黃色暴雨警告信號取消。天文台提醒，雖然暴雨警告已經取消，但市民仍須警覺有關河道氾濫可能帶來的危險。 【04:30】雷暴警告有效時間至今日清晨6時正。 圖為截至11月14日凌晨4時45分，天文台顯示各區過去一小時雨量。（天文台網頁圖片） 【03:50】天文台發出黃色暴雨警告信號，表示香港廣泛地區已錄得或預料會有",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "見習督察兒時睹途人追賊阻劫案後立志當差 獲榮譽警棍盼入重案組",
           "url": "https://hk01.com/sns/article/60408390",
           "publishedAt": "2026-11-13T16:00:15.000Z",
           "excerpt": "警察學院今日（14日）舉行結業會操，13名見習督察及130名警員將投入警務工作。獲頒榮譽警棍及學業成績優異證書見習督察陶軒麟，兒時曾親眼目睹一宗搶劫案，當時有一名途人挺身而出追截疑犯，令他意識市民需要警察的保護，因而立志加入警隊，希望日後能加入刑事偵緝部門，甚至重案組查案和保護市民。 警察學院今日（11月14日）舉行結業會操。左起：24歲督察陳以琳；32歲督察陶軒麟；25歲警員陸嘉怡。（梁鵬威攝） 兒時睹熱心途人制止劫案 立志當差保護市民 陶軒麟指，大約六歲、就讀小學時，曾親眼目睹一宗搶劫案，當時放學後在路上聽到一位女士突然尖叫，回頭望見一個男子正向對方行劫，有一名途人馬上挺身而出，制止並追截",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "BIGBANG｜警封土瓜灣十三街上落客位設路障 人潮改新碼頭街登車",
-          "url": "https://hk01.com/sns/article/60410629",
-          "publishedAt": "2026-11-13T13:57:13.000Z",
-          "excerpt": "韓國天團BIGBANG今日 （13日）起在啟德主場館，舉行4場BIGBANG 2026-2027 WORLD TOUR IN HONG KONG演唱會，警方早前已預告，會嚴厲打擊「白牌車」。《香港01》記者在啟德體育園附近的土瓜灣現場觀察，交通警從晚上8時半起，在馬頭角道牛棚藝術村對開封路，設置單向管制路障，截停及檢查可疑車輛，並封鎖馬頭角道、十三街一帶的上落客位置，杜絕「白牌車」非法載客取酬。 演唱會散場後，由於未能在十三街一帶乘車，人潮改為步行到新碼頭街一帶登車，當中包括原本已安排網約車、操普通話的男女，兩人最後亦成功登車。警方隨即亦派員到新碼頭街封路。但仍有漏網之魚趕及在警員制止前登車，",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11998,25 +12020,9 @@
           "excerpt": "英偉達（Nvidia，又譯輝達）行政總裁黃仁勳（Jensen Huang）因捲入連串出軌事件11月12日宣布辭職下台。曾為黃仁勳撰寫傳記的維特（Stephen Witt）投書《紐約時報》，指黃仁勳「跌下神壇」是有關男性傲慢自大的永恆故事，講述了一個男人因過度自信而走向毀滅。維特稱黃仁勳與女下屬鮑威爾（Kimberly Powell）出軌一事是公司內部的「公開秘密」；而黃仁勳私下幾乎無法容忍異議，也幾乎沒有公開討論的能力，很多員工都懼怕他。 黃仁勳辭職始末： 維特曾為黃仁勳撰寫傳記：《黃仁勳傳：輝達創辦人如何打造全球最搶手的晶片》（The Thinking Machine: Jensen Hua",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜獄中信提無留意爸是否有武器 鄺港傑認曾想與弟夾口供",
-          "url": "https://hk01.com/sns/article/60410521",
-          "publishedAt": "2026-11-13T08:50:38.000Z",
-          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），案件今(13日）在高等法院續審，首被告鄺港傑在接受其弟的律師盤問時，被揭曾寄信給其弟疑想「夾口供」。 代表第三被告鄺港智的大律師盤問時，指鄺港傑在獄中曾寫信給胞弟，提及父親在大美督停車場時，蔡天鳳曾想與鄺球對話，鄺港傑的信寫道：「目睹Abby已躺在中排座位地上冇知覺，頭部流咗好多血，並無留意爸有否武器，當刻已驚慌，因附近有不少車及行人…..」律師問這是否才是事實。鄺港傑指信件內容不真確，又指當時想與胞弟夾口供，並稱：「其實係庭上面先係真實，呢張紙係我嗰時用自己嘅小聰明去踱嘅。」 【蔡天鳳案・專頁】 三名被告",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "柴灣聖米迦勒小學疑爆欺凌 小六生遭同學拳打指插傷臀 警列襲擊",
-          "url": "https://hk01.com/sns/article/60410403",
-          "publishedAt": "2026-11-13T08:45:05.000Z",
-          "excerpt": "再有懷疑校園欺凌的帖文在網上流傳，指聖公會柴灣聖米迦勒小學一名小六男生遭同學欺凌，拳打、手指插私隱部位等。家長已經報警，但發文指控校方處理手法，包括指家長反應太大、稱讚施襲者肯認錯，與及拒絕將兩人分班上課。 警方證實於10月24日接報，指一名11歲男童於10月21日，在柴灣一學校內懷疑被人用手襲擊。他臀部受傷，清醒被送往東區醫院治理。警方經初步調查，案件列「襲擊致造成身體傷害」，交由東區警區刑事調查隊第一隊跟進，暫未有人被捕。 校方回覆《香港01》查詢 指關注事件，已聯絡相關家長並通報教育局；並已已啟動危機處理機制，以及安排學生輔導組和校本教育心理學家，為有需要的學生及教職員提供情緒支援及輔導",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "有線新聞",
@@ -12025,10 +12031,66 @@
       "count": 20,
       "stories": [
         {
+          "title": "周一鳴：警方「銳眼計劃」閉路電視系統 下周一起加入人臉識別功能",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523679/%E5%91%A8%E4%B8%80%E9%B3%B4-%E8%AD%A6%E6%96%B9-%E9%8A%B3%E7%9C%BC%E8%A8%88%E5%8A%83-%E9%96%89%E8%B7%AF%E9%9B%BB%E8%A6%96%E7%B3%BB%E7%B5%B1-%E4%B8%8B%E5%91%A8%E4%B8%80",
+          "publishedAt": "2026-11-14T03:05:19.000Z",
+          "excerpt": "周一鳴：警方「銳眼計劃」閉路電視系統 下周一起加入人臉識別功能",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "警察學院結業會操 卓孝業籲學員傳承忠誠勇毅、休班亦不容卸責",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523676/%E8%AD%A6%E5%AF%9F%E5%AD%B8%E9%99%A2%E7%B5%90%E6%A5%AD%E6%9C%83%E6%93%8D-%E5%8D%93%E5%AD%9D%E6%A5%AD%E7%B1%B2%E5%AD%B8%E5%93%A1%E5%82%B3%E6%89%BF%E5%BF%A0%E8%AA%A0%E5%8B%87%E6%AF%85",
+          "publishedAt": "2026-11-14T02:59:28.000Z",
+          "excerpt": "【有線新聞】警察學院舉行結業會操。 新一批畢業的13名見習督察及130名學警步操進場。保安局副局長卓孝業擔任檢",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "建築物管理條例｜指有業主憂增法定人數難召開會議 麥美娟：須確保條例「落到地」",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523672/%E5%BB%BA%E7%AF%89%E7%89%A9%E7%AE%A1%E7%90%86%E6%A2%9D%E4%BE%8B-%E6%8C%87%E6%9C%89%E6%A5%AD%E4%B8%BB%E6%86%82%E5%A2%9E%E6%B3%95%E5%AE%9A%E4%BA%BA%E6%95%B8%E9%9B%A3%E5%8F%AC%E9%96%8B%E6%9C%83",
+          "publishedAt": "2026-11-14T02:59:17.000Z",
+          "excerpt": "【有線新聞】因應公眾諮詢的意見，政府調整《建築物管理條例》最新修例內容。民政及青年事務局局長麥美娟說，涉及大維",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "智創未來｜建造業界積極突破傳統框架 應用焊接機械臂及檢測無人機等科技推動轉型",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523656/%E6%99%BA%E5%89%B5%E6%9C%AA%E4%BE%86-%E5%BB%BA%E9%80%A0%E6%A5%AD%E7%95%8C%E7%A9%8D%E6%A5%B5%E7%AA%81%E7%A0%B4%E5%82%B3%E7%B5%B1%E6%A1%86%E6%9E%B6-%E6%87%89%E7%94%A8%E7%84%8A%E6%8E%A5",
+          "publishedAt": "2026-11-14T02:22:58.000Z",
+          "excerpt": "【有線新聞】建造業近年持續推動科技轉型，業界正積極突破傳統框架。有工程公司利用焊接機械臂，提升焊接工程的質量及",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "英超｜接任曼聯主教練 普捷天奴：生涯最艱難決定之一",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523659/%E8%8B%B1%E8%B6%85-%E6%8E%A5%E4%BB%BB%E6%9B%BC%E8%81%AF%E4%B8%BB%E6%95%99%E7%B7%B4-%E6%99%AE%E6%8D%B7%E5%A4%A9%E5%A5%B4-%E7%94%9F%E6%B6%AF%E6%9C%80%E8%89%B1%E9%9B%A3%E6%B1%BA",
+          "publishedAt": "2026-11-14T02:22:35.000Z",
+          "excerpt": "【有線新聞】即將離任美國主帥成為英超曼聯主教練，普捷天奴說是生涯最艱難決定之一。 候任曼聯主教練普捷天奴：「我",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "女網年終賽｜施維杜蓮娜2比1挫莎芭蓮卡闖4強",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523668/%E5%A5%B3%E7%B6%B2%E5%B9%B4%E7%B5%82%E8%B3%BD-%E6%96%BD%E7%B6%AD%E6%9D%9C%E8%93%AE%E5%A8%9C2%E6%AF%941%E6%8C%AB%E8%8E%8E%E8%8A%AD%E8%93%AE%E5%8D%A1%E9%97%964%E5%BC%B7",
+          "publishedAt": "2026-11-14T02:20:13.000Z",
+          "excerpt": "【有線新聞】女子職業網球年終賽，施維杜蓮娜擊敗前「一姐」莎芭蓮卡，晉身4強。 粉紅裙施維杜蓮娜面對莎芭蓮卡已連",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
           "title": "楊美珍專訪｜稱北環綫引入新標準減成本 8幅資助地古洞站優先 料兩三年內資金需求較大",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523652/%E6%A5%8A%E7%BE%8E%E7%8F%8D%E5%B0%88%E8%A8%AA-%E7%A8%B1%E5%8C%97%E7%92%B0%E7%B6%AB%E5%BC%95%E5%85%A5%E6%96%B0%E6%A8%99%E6%BA%96%E6%B8%9B%E6%88%90%E6%9C%AC-8%E5%B9%85%E8%B3%87%E5%8A%A9",
           "publishedAt": "2026-11-14T02:13:29.000Z",
           "excerpt": "【有線新聞】政府與港鐵簽訂北環綫全線項目，港鐵行政總裁楊美珍在本台節目《有理有得傾》表示，主線及支線項目合併，",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "瑞典網球公開賽 費利斯挫慕斯迪闖決賽 將與狄蘭迪爭冠",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523664/%E7%91%9E%E5%85%B8%E7%B6%B2%E7%90%83%E5%85%AC%E9%96%8B%E8%B3%BD-%E8%B2%BB%E5%88%A9%E6%96%AF%E6%8C%AB%E6%85%95%E6%96%AF%E8%BF%AA%E9%97%96%E6%B1%BA%E8%B3%BD-%E5%B0%87%E8%88%87%E7%8B%84",
+          "publishedAt": "2026-11-14T02:00:29.000Z",
+          "excerpt": "【有線新聞】瑞典網球公開賽，費利斯晉身決賽，會與狄蘭迪爭冠軍。 面向鏡頭的費利斯，全場4次破發機會把握到3次，",
           "source": "有線新聞",
           "category": "Hong Kong"
         },
@@ -12127,65 +12189,9 @@
           "excerpt": "【有線新聞】柴灣一間小學有男生被同學打傷臀部，警方將案件列作「襲擊致造成身體傷害」，暫未有人被捕。 警方上月2",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "李強訪泰晤阿努廷 雙方強調中泰手足情、推動命運共同體建設",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523585/%E6%9D%8E%E5%BC%B7%E8%A8%AA%E6%B3%B0%E6%99%A4%E9%98%BF%E5%8A%AA%E5%BB%B7-%E9%9B%99%E6%96%B9%E5%BC%B7%E8%AA%BF%E4%B8%AD%E6%B3%B0%E6%89%8B%E8%B6%B3%E6%83%85-%E6%8E%A8%E5%8B%95%E5%91%BD",
-          "publishedAt": "2026-11-13T14:10:13.000Z",
-          "excerpt": "【有線新聞】總理李強訪問泰國，與泰國總理阿努廷會晤，期待此行就深化兩國全面戰略合作深入交流，推動中泰命運共同體",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "李家超出席新聞工作者聯會活動 冀傳媒對抗不實資訊、說好香港故事",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523560/%E6%9D%8E%E5%AE%B6%E8%B6%85%E5%87%BA%E5%B8%AD%E6%96%B0%E8%81%9E%E5%B7%A5%E4%BD%9C%E8%80%85%E8%81%AF%E6%9C%83%E6%B4%BB%E5%8B%95-%E5%86%80%E5%82%B3%E5%AA%92%E5%B0%8D%E6%8A%97%E4%B8%8D%E5%AF%A6",
-          "publishedAt": "2026-11-13T12:57:25.000Z",
-          "excerpt": "【有線新聞】行政長官李家超在新聞工作者聯會活動致辭時，對業界提出三點期許，期望傳媒能對抗不實資訊、說好香港故事",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "理大成立航空航天高等研究院 推動航天創新、技術突破",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523507/%E7%90%86%E5%A4%A7%E6%88%90%E7%AB%8B%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E9%AB%98%E7%AD%89%E7%A0%94%E7%A9%B6%E9%99%A2-%E6%8E%A8%E5%8B%95%E8%88%AA%E5%A4%A9%E5%89%B5%E6%96%B0-%E6%8A%80",
-          "publishedAt": "2026-11-13T12:50:01.000Z",
-          "excerpt": "【有線新聞】理工大學成立航空航天高等研究院，跨學科推動航天創新及技術突破。 研究院於今年7月成立，匯聚跨學科及",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "BIGBANG演唱會｜警方於啟德體育園附近打擊白牌車 提醒司機可被罰款及判監",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523574/bigbang%E6%BC%94%E5%94%B1%E6%9C%83-%E8%AD%A6%E6%96%B9%E6%96%BC%E5%95%9F%E5%BE%B7%E9%AB%94%E8%82%B2%E5%9C%92%E9%99%84%E8%BF%91%E6%89%93%E6%93%8A%E7%99%BD%E7%89%8C%E8%BB%8A-%E7%A6%81",
-          "publishedAt": "2026-11-13T12:45:49.000Z",
-          "excerpt": "【有線新聞】啟德體育園舉行大型演唱會，警方在附近一帶打擊白牌車。 警方在馬頭角道、牛棚對開設置路障，截查多輛中",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "股市直播室(13/11/2026)恒指收跌370 一周挫逾800點",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/523571/%E8%82%A1%E5%B8%82%E7%9B%B4%E6%92%AD%E5%AE%A413-11-2026%E6%81%92%E6%8C%87%E6%94%B6%E8%B7%8C370-%E4%B8%80%E5%91%A8%E6%8C%AB%E9%80%BE800%E9%BB%9E",
-          "publishedAt": "2026-11-13T12:36:23.000Z",
-          "excerpt": "主持：麥嘉恩 嘉賓：譚朗蔚 富昌證券聯席董事 收市焦點： 恒生指數收跌370點跌23637點，一周計跌844點",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "今日重點新聞｜微軟全球性死機．港上調GDP增長預測．私隱專員審查人臉識別門禁．鄺港傑認曾虛構版本．黃仁勳出軌多一人",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523568/%E4%BB%8A%E6%97%A5%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E-%E5%BE%AE%E8%BB%9F%E5%85%A8%E7%90%83%E6%80%A7%E6%AD%BB%E6%A9%9F%EF%BC%8E%E6%B8%AF%E4%B8%8A%E8%AA%BFgdp%E5%A2%9E%E9%95%B7%E9%A0%90",
-          "publishedAt": "2026-11-13T12:32:13.000Z",
-          "excerpt": "微軟死機｜服務開始局部恢復 未有證據顯示涉惡意活動 微軟多項軟件大規模故障，Microsoft 365、Out",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "微軟死機｜服務開始局部恢復 未有證據顯示涉惡意活動",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523519/%E5%BE%AE%E8%BB%9F%E6%AD%BB%E6%A9%9F-%E8%87%B3%E4%BB%8A%E5%A4%A7%E5%8D%8A%E6%97%A5%E6%9C%AA%E5%9B%9E%E5%BE%A9%E6%AD%A3%E5%B8%B8-%E5%BE%AE%E8%BB%9F%E8%AA%8D%E9%83%A8%E5%88%86%E5%95%8F",
-          "publishedAt": "2026-11-13T12:00:50.000Z",
-          "excerpt": "【有線新聞】微軟多項軟件大規模故障，Microsoft 365、Outlook、Teams出現問題，估計影響數",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Now 新聞",
@@ -12354,7 +12360,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12523,7 +12529,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12531,6 +12537,38 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "周一鳴：持續打擊非法跨境白牌車 過去兩星期拘捕12名司機",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877793-20261114.htm",
+          "publishedAt": "2026-11-14T03:07:37.000Z",
+          "excerpt": "",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "麥美娟：期望明年底前推行有關授權票科技平台之先導計劃",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877790-20261114.htm",
+          "publishedAt": "2026-11-14T02:53:18.000Z",
+          "excerpt": "《建築物管理條例》有關大廈管理的修訂建議早前完成公眾諮詢。民政及青年事務局局長麥美娟表示，修例工作不容易，因為涉及很多建議，除了授權票，亦包括會議程序、主管當局的權力等，要修訂很多條文，正與律政司快馬加鞭草擬條例，期望盡快提交立法會審議，並得到支持。 麥美娟在本台節目《星期六問責》表示，大家在公開諮詢期間對一些建議有保留，提出實際操作上的技術困難，例如授權票上限。如果當局研究到解決方法，會繼續檢視條例，在適當時候提出進一步修訂落實。 她在一個電台節目表示，今次修例落實核查授權票真偽的機制，在諮詢時並非反對授權票設上限，而是一般法團在提交授權票後，管理處難以分辨先後次序，容易引起爭拗。 麥美娟表",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "嶺南中學13歲男生日前懷疑遇襲 警方拘3名男童涉普通襲擊",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877788-20261114.htm",
+          "publishedAt": "2026-11-14T02:44:37.000Z",
+          "excerpt": "港島杏花邨嶺南中學一名13歲男學生，星期三懷疑在校內被人用手襲擊，東區警區反三合會行動組接手跟進，案件列作普通襲擊，拘捕3人。 經調查後，警方昨日分別在東區及深水埗區拘捕3名年齡介乎13至15歲男童，涉嫌普通襲擊。3人已獲准保釋候查，須於下月中旬向警方報到。 編輯：譚佩貞",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "卓孝業勉勵畢業學員要做到「忠誠護國安 勇毅保家園」",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877787-20261114.htm",
+          "publishedAt": "2026-11-14T02:32:07.000Z",
+          "excerpt": "保安局副局長卓孝業表示，今年是國家十五五規劃開局之年，也是香港首個五年規劃的開展之年，相信警隊會繼續發揮關鍵作用守護香港。他又說，黑暴事件突顯國家安全的重要，目前看來歲月靜好，但仍然要居安思危。 卓孝業出席警察學院結業會操擔任檢閱官，今屆共有超過140人畢業。他致辭表示，香港能夠長期成為世界上最安全和穩定的城市之一，香港警隊功不可沒，多年以來警隊是學習型和智慧型部隊，一直革新前進，一代又一代薪火相傳，面對各種挑戰時主動識變、應變、求變，更好地保護香港和服務市民，他勉勵新畢業的學員要傳承警隊忠誠勇毅、心繫社會的精神，做到「忠誠護國安、勇毅保家園」。 卓孝業又勉勵畢業學員要以使命為本、堅守底線，不",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "麥美娟：有業主反映如業主大會法定出席人數再提高 憂難召開會議",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1877783-20261114.htm",
@@ -12658,41 +12696,9 @@
           "excerpt": "食環署今年頭十個月，接獲約11000宗鼠患投訴，相當於往年全年的總和。 署方說，除了環境因素，傳媒廣泛報道，帶動公眾關注。署方近期核查超過1300個地點，捕獲超過100隻活鼠。 編輯：王濱南",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "【重溫】2026年11月13日新聞天地",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877731-20261113.htm",
-          "publishedAt": "2026-11-13T11:35:08.000Z",
-          "excerpt": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "34歲男子感染猴痘 潛伏期內離港期間與其他男子有高風險性接觸",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877732-20261113.htm",
-          "publishedAt": "2026-11-13T11:30:33.000Z",
-          "excerpt": "衞生防護中心表示，正調查一宗猴痘輸入個案，涉及一名34歲男子，上星期一起出現發燒、疲倦和手臂出現皮疹，其後皮疹蔓延至身體多處地方，星期三到伊利沙伯醫院急症室求診，獲安排留院接受隔離治療，他目前情況穩定。 中心表示，病人的臨床樣本經中心公共衞生化驗服務處化驗後，證實對猴痘病毒呈陽性反應。根據病人提供的資料，他於潛伏期內曾於離港期間與其他男子有高風險性接觸，正繼續就個案進行流行病學調查，亦會將個案通報世界衞生組織。 中心建議高風險目標群組人士接種猴痘疫苗，市民亦應提高警覺，避免與懷疑感染猴痘的人士作密切身體接觸。 編輯：任順熙",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "全年經濟增長預測再上調至4.8%",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877727-20261113.htm",
-          "publishedAt": "2026-11-13T11:20:24.000Z",
-          "excerpt": "政府再上調全年經濟增長預測，由之前的3.5%至4.5%，向上修訂至4.8％，指考慮到今年首三季的實際數字，以及第四季經濟有望進一步穩健增長，預期全年經濟應該有比較強勁的增長。 編輯：梁家奇",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "李家超嘉許亞殘運港隊代表團",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877726-20261113.htm",
-          "publishedAt": "2026-11-13T11:19:09.000Z",
-          "excerpt": "特區政府與中國香港殘疾人奧委會舉行嘉許禮，表揚中國香港代表團在第五屆亞洲殘疾人運動會取得佳績。 出席嘉許禮的行政長官李家超，讚揚港隊代表以永不言敗的香港精神，身體力行說好香港故事。他表示，政府會繼續支持殘疾運動發展，讓運動員勇敢實現夢想，為香港爭光。 編輯：梁家奇",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "South China Morning Post",
@@ -12861,7 +12867,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12869,6 +12875,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "​響應「世界糖尿病日」 定期篩查均衡飲食 及早行動降低風險",
+          "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111300652.htm",
+          "publishedAt": "2026-11-14T02:30:00.000Z",
+          "excerpt": "國際糖尿病聯合會和世界衞生組織將每年的十一月十四日定為「世界糖尿病日」，今年以「早發現，早行動」為主題，呼籲全社會共同行動，及早控制糖尿病。 &nbsp; 衞生署衞生防護中心（中心）今日（十一月十四日）提醒市民，糖尿病是香港主要的致病及致死原因之一。二○二○至二○二二年度人口健康調查顯示，15至84歲非住院人口中，8.5%患有糖尿病或血糖升高。其中，二型糖尿病佔絕大多數（95%）。患上二型糖尿病的風險因素包括超重及肥胖、高血壓、血脂異常、糖尿病家族史或妊娠糖尿病史。因此，奉行健康生活模式和定期接受篩查，亦即政府一直倡議的「早預防、早發現、早治療」，是減低患上糖尿病及相關併發症的最佳方法。 &n",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "創新科技及工業局常任秘書長出席南京理工大學香港科創研究院揭牌儀式致辭（只有中文）",
+          "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111300380.htm",
+          "publishedAt": "2026-11-14T02:30:00.000Z",
+          "excerpt": "以下是創新科技及工業局常任秘書長蔡傑銘今日（十一月十四日）在南京理工大學香港科創研究院揭牌儀式的致辭： &nbsp; 張司長（國家工業和信息化部國際合作司（港澳台辦公室）副司長張曉雷）、郝院長（中國科學院香港創新研究院執行院長郝銀星博士）、楊校長（南京理工大學校長楊益新教授）、各位嘉賓、各位朋友： &nbsp; 大家好！今天很高興出席南京理工大學香港科創研究院揭牌儀式，與各位共同見證江蘇與香港在科技創新合作方面又一重要樞紐的誕生。 &nbsp; 人才是創新科技發展的最大資本。人才興，則產業興；教育強，則人才強。國家創新科技發展一日千里，早已在國際舞台上舉足輕重。要培育承先啓後、引領創科發展的高",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "數個泳灘懸掛紅旗",
           "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111400284.htm",
@@ -13012,28 +13034,48 @@
           "excerpt": "下稿代香港金融管理局發出︰ 香港金融管理局（金管局）今日（十一月十三日）公布外匯基金在二○二六年十月底的主要分析帳目。 &nbsp; 在十月份，外匯基金的境外資產增加570億港元，至36,330億港元。 &nbsp; 貨幣基礎為20,947億港元，包括負債證明書、政府發行的流通紙幣及硬幣、銀行體系結餘，以及已發行外匯基金票據及債券。 &nbsp; 外匯基金對香港私營部門的債權總額為4,278億港元。 &nbsp; 對外負債總額為1,403億港元。 &nbsp; 金管局按照國際貨幣基金組織的數據公布特殊標準（特殊標準），公布外匯基金分析帳目。這些帳目即特殊標準所稱的「中央銀行分析帳目」（附件）。",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "衞生署署長與中國藥品檢定研究院代表團會面 深化藥品規管及檢測合作（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300446.htm",
-          "publishedAt": "2026-11-13T08:45:00.000Z",
-          "excerpt": "衞生署署長林文健醫生今日（十一月十三日）與訪港的中國藥品檢定研究院（中檢院）院長安撫東及其率領的代表團會面，雙方同意在藥品監管、信息數智化工作及生物製品檢測專業能力建設等多個範疇，進一步加強合作和交流。 &nbsp; 林文健醫生說：「《香港特別行政區經濟和社會發展第一個五年規劃（2026&mdash;2030年）》（《香港第一個五年規劃》）全面、主動對接國家『十五五』規劃，明確指出香港要推動中醫藥實現全方位、高質量和高水平發展。行政長官二○二六年《施政報告》與之一脈相承，提出多項推動中醫藥發展的具體政策措施，包括善用衞生署政府中藥檢測中心，制定國際中醫藥標準，成為中醫藥走向世界的橋頭堡。我期待",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "日本京都府禽肉及禽類產品暫停進口",
-          "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300460.htm",
-          "publishedAt": "2026-11-13T08:42:00.000Z",
-          "excerpt": "食物環境衞生署食物安全中心（中心）今日（十一月十三日）宣布，因應日本農林水產省通報，指日本京都府爆發高致病性H5禽流感，中心即時指示業界暫停從該地區進口禽肉及禽類產品（包括禽蛋），以保障本港公眾健康。&nbsp; 中心發言人說，根據政府統計處的資料，本港今年首九個月從日本進口約一千零三十公噸冷藏禽肉及約二億四千九百九十四萬隻禽蛋。&nbsp; 發言人說：「中心已就事件聯絡日本當局，並會繼續密切留意世界動物衞生組織及有關當局發出關於爆發禽流感的消息，因應當地疫情發展，採取適當行動。」&nbsp;",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T02:17:19.830Z"
+      "lastSuccessfulAt": "2026-11-14T03:17:11.114Z"
     }
   ],
   "stories": [
+    {
+      "title": "Ggml v1.0.0",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "publishedAt": "2026-11-14T02:28:29.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50493062"
+    },
+    {
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "publishedAt": "2026-11-14T02:21:36.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50492993"
+    },
+    {
+      "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
+      "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "publishedAt": "2026-11-14T02:02:42.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50492860"
+    },
+    {
+      "title": "GigChain Keys – a free, open-source MainStage alternative",
+      "url": "https://github.com/xDarkzx/GigChain-Keys",
+      "publishedAt": "2026-11-14T01:47:30.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50492727"
+    },
     {
       "title": "FAA lifted National Ground Stop at 0119Z",
       "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
@@ -13177,42 +13219,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50488470"
-    },
-    {
-      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-      "publishedAt": "2026-11-13T19:24:47.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50488464"
-    },
-    {
-      "title": "FM-1 Workbench",
-      "url": "https://open.m-vave.com/fm1-workbench",
-      "publishedAt": "2026-11-13T19:14:02.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50488325"
-    },
-    {
-      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-      "publishedAt": "2026-11-13T18:40:44.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50487864"
-    },
-    {
-      "title": "Weight Space Misfolding",
-      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
-      "publishedAt": "2026-11-13T18:33:35.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50487762"
     },
     {
       "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
@@ -13543,10 +13549,10 @@
       "category": "Technology"
     },
     {
-      "title": "FAA orders third nationwide ground stop in its history",
+      "title": "FAA has lifted its third-ever nationwide ground stop",
       "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
       "publishedAt": "2026-11-13T23:17:38.000Z",
-      "excerpt": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+      "excerpt": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
       "source": "Ars Technica",
       "category": "Technology"
     },
@@ -14240,6 +14246,28 @@
       "sourceRole": "community"
     },
     {
+      "title": "US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi (Dan Mangan/CNBC)",
+      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "publishedAt": "2026-11-14T03:10:01.000Z",
+      "excerpt": "Dan Mangan / CNBC : US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi &nbsp; &mdash;&nbsp; President Donald Trump is not expected to raise allegations of a Chinese intelligence operation involvin",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261113/p40#a261113p40",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Tesla says \"select customers\" can now place orders for its Cybercab \"for personal use\", for $30K plus a required $299/month Autonomy Subscription to operate (Kara Carlson/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/tesla-says-it-s-starting-to-sell-cybercabs-for-personal-use",
+      "publishedAt": "2026-11-14T02:25:00.000Z",
+      "excerpt": "Kara Carlson / Bloomberg : Tesla says &ldquo;select customers&rdquo; can now place orders for its Cybercab &ldquo;for personal use&rdquo;, for $30K plus a required $299/month Autonomy Subscription to operate &nbsp; &mdash;&nbsp; Tesla Inc. invited select customers to place orders for the Cybercab in",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261113/p39#a261113p39",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "AI's impact on math is a preview of what AI will do to AI research, with AI matching top human researchers potentially just a couple of years away (Dwarkesh Patel/Dwarkesh Podcast)",
       "url": "https://www.dwarkesh.com/p/rsi",
       "publishedAt": "2026-11-14T01:55:00.000Z",
@@ -14276,7 +14304,7 @@
       "title": "Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash (Kierra Frazier/CBS News)",
       "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
       "publishedAt": "2026-11-13T23:55:00.000Z",
-      "excerpt": "Kierra Frazier / CBS News : Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash &nbsp; &mdash;&nbsp; Kierra Frazier is a news editor for CBS News & Stations.&nbsp; &mdash;&nbsp; Faris Tanyos is a ne",
+      "excerpt": "Kierra Frazier / CBS News : Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash &nbsp; &mdash;&nbsp; A rare nationwide ground stop on all departing U.S. flights that lasted several hours Friday has ",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261113/p35#a261113p35",
@@ -14379,28 +14407,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261113/p26#a261113p26",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Dario Amodei says figuring out how much computing is needed in a year or two is Anthropic's \"deepest business dilemma\" due to the unpredictability of revenue (Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
-      "publishedAt": "2026-11-13T19:20:01.000Z",
-      "excerpt": "Bloomberg : Dario Amodei says figuring out how much computing is needed in a year or two is Anthropic's &ldquo;deepest business dilemma&rdquo; due to the unpredictability of revenue &nbsp; &mdash;&nbsp; Anthropic PBC Chief Executive Officer Dario Amodei named sourcing computing power as one of the a",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261113/p25#a261113p25",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops (New York Times)",
-      "url": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
-      "publishedAt": "2026-11-13T19:10:01.000Z",
-      "excerpt": "New York Times : Some investors and founders say they lost an ally in Jensen Huang; Nvidia held $48B in 229 private companies as of July and offered $165B in cloud backstops &nbsp; &mdash;&nbsp; Mr. Huang championed start-ups, with Nvidia holding $48 billion worth of stakes in 229 private companies,",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261113/p24#a261113p24",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14594,15 +14600,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Quordle hints and answers for Saturday, November 14 (game #1755)",
-      "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-14-november-2026",
-      "publishedAt": "2026-11-14T00:00:00.000Z",
-      "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "NYT Connections hints and answers for Saturday, November 14 (game #1252)",
       "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-14-november-2026",
       "publishedAt": "2026-11-14T00:00:00.000Z",
@@ -14616,6 +14613,15 @@
       "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-14-november-2026",
       "publishedAt": "2026-11-14T00:00:00.000Z",
       "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Quordle hints and answers for Saturday, November 14 (game #1755)",
+      "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-14-november-2026",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15530,19 +15536,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How I created this ninja puppet scene inspired by Naruto",
-      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+      "title": "The toy company Tomy has a new logo, and people are baffled",
+      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
+      "excerpt": "The new design is all about play.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
     },
     {
-      "title": "The toy company Tomy has a new logo, and people are baffled",
-      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+      "title": "How I created this ninja puppet scene inspired by Naruto",
+      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "The new design is all about play.",
+      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16693,10 +16699,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "FAA Grounds All U.S. Flights: Live Updates",
+      "title": "FAA Lifts Crippling Ground Stop: Live Updates",
       "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-14T01:31:00.000Z",
-      "excerpt": "An extraordinary nationwide ground stop is underway, and it’s still not clear why. Here’s the latest.",
+      "publishedAt": "2026-11-14T02:26:00.000Z",
+      "excerpt": "Everything is still a mess though. Here’s the latest.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Shane Gillis Gave His SNL Monologue a C Minus",
+      "url": "http://www.vulture.com/article/shane-gillis-addresses-snl-monologue-controversy.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-14T01:10:24.000Z",
+      "excerpt": "“I was like, ‘Fellas, I’m giving you a solid C minus of a monologue but I promise there’s no controversy.’”",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16864,19 +16879,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "20 Ways to Think About Nvidia’s Jensen Huang Mess",
-      "url": "http://nymag.com/intelligencer/article/roundup-nvidia-jensen-huang-takes-commentary.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-13T18:56:00.000Z",
-      "excerpt": "If you’re having trouble keeping up with the torrent of takes and takeaways, we’re here to help.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Get Ready for More Chaos",
+      "title": "The Next Major Grounding Will Be Worse",
       "url": "https://www.theatlantic.com/ideas/2026/11/flights-grounded-why/689446/?utm_source=feed",
       "publishedAt": "2026-11-14T01:56:25.000Z",
-      "excerpt": "Plane groundings and other disruptions may become more common.",
+      "excerpt": "Get ready for more havoc.",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -24245,26 +24251,90 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "安記海味雙11最後召集！加$1多1件！溏心鮑魚、花膠湯包限時優惠",
-      "url": "https://hk01.com/sns/article/60410108",
-      "publishedAt": "2026-11-14T02:02:14.000Z",
-      "excerpt": "雙11購物節旺季，不少品牌相繼推出限時折扣大減價。老字號安記海味由即日起至11月15日期間推出「11.11大激賞」，全線門市及網店同步舉行。今次優惠玩法簡單直接，只要選購指定產品，分別加$1、$11或$111即可多換1件，涵蓋即食糖水、足料湯包、鮑魚拌麵以至名貴罐頭鮑魚，無論買回家隨時加餸或預早準備送禮都相當划算！即睇以下精選商品！ 安記海味由即日起至11月15日期間推出「11.11大激賞」，全線門市及網店同步舉行。（IG@onkeedryseafood） 三大激抵加購專區：加$1/$11/$111多1件 今次 安記海味 優惠玩法簡單直接，只要選購指定產品，加少少錢即可多換1件。 最吸引的 「",
+      "title": "44歲曹敏莉攜子女遊紐約 母女合照猶如姊妹 每年百萬供子女讀漢基",
+      "url": "https://hk01.com/sns/article/60410594",
+      "publishedAt": "2026-11-14T03:08:50.000Z",
+      "excerpt": "2003年香港小姐冠軍曹敏莉婚後淡出幕前，專心照顧家庭，與丈夫張家傑育有兩子一女，不時在社交平台分享一家人的生活點滴。近日，她帶同15歲大女Dora及13歲二仔Marco遊歷美國紐約及波士頓，除了帶子女遊覽當地景點，更陪伴女兒入場欣賞演唱會，分享旅途中的溫馨時光。一家人的旅遊照片曝光後，亦引起網民關注。 曹敏莉帶子女遊紐約波士頓 陪15歲女兒睇演唱會 曹敏莉日前在Instagram分享多張美國之旅的照片，並感性表示相隔多年再次回到紐約，牽着子女漫步街頭的感覺恍如昨日。相片可見，她帶同一對子女乘搭地鐵穿梭城市，亦到訪著名地標紐約公共圖書館，享受難得的親子旅行時光。 曹敏莉還陪伴熱愛音樂的女兒Do",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "40歲女指甲異常確診腎衰竭 醫：警惕3情況 半紅半白恐是尿毒症",
-      "url": "https://hk01.com/sns/article/60405311",
-      "publishedAt": "2026-11-14T02:00:45.000Z",
-      "excerpt": "台灣腎臟科醫師洪永祥早前 分享 一起臨床案例，一名40多歲企業女主管因指甲異常變化被及時發現腎臟問題。這名女子生活規律、不煙不酒，卻頻繁感到疲倦，同事無意間發現她的指甲下半段呈白色、上半段呈暗紅色，建議她就醫檢查，才確診慢性腎衰竭第5期，已瀕臨需要洗腎的邊緣。 3種指甲異常恐是腎衰竭（01製圖） 指甲變化作為疾病警訊非常重要👇👇👇 指甲出現這三種變化，是腎臟已經極度危險的求救訊號？（FB@洪永祥醫師的慢性腎衰竭攻城療法） 【3種指甲異常恐是腎衰竭】1. 半紅白指甲（01製圖） 【3種指甲異常恐是腎衰竭】1. 半紅白指甲（01製圖） 【3種指甲異常恐是腎衰竭】1. 半紅白指甲（01製圖） ",
+      "title": "全美航班一度停飛4小時 911事件後第2次 7164航班被取消",
+      "url": "https://hk01.com/sns/article/60410686",
+      "publishedAt": "2026-11-14T03:08:22.000Z",
+      "excerpt": "美國聯邦航空管理局（FAA）11月13日因通訊系統發生問題一度下令全國航班暫停起飛，是自2001年911恐怖攻擊以來，美國第二度下令全國航班暫停起飛。FAA在4個小時後解除停飛令。國土安全部長馬林（Markwayne Mullin）事後在簡報會強調，暫沒有跡象顯示這次事件是由網絡攻擊引起；交通部長達菲（Sean Duffy）則將事件起因，歸咎於老舊交通管制技術和路由器過載。 據美媒引述 Flightaware數據 報道，美國13日有超過7164班航班被取消，8501班航班延誤，而14日則有700個航班被取消。航空分析師表示，在全國範圍內停飛超過四個小時後，航空公司可能需要數天時間才能恢復航班時",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "80校網｜上水、古洞小學名單有甚麼學校？學額一共有多少？",
-      "url": "https://hk01.com/sns/article/60409186",
-      "publishedAt": "2026-11-14T02:00:28.000Z",
-      "excerpt": "80校網的範圍以北區為主，共有14間學校可供選擇，主要位於在上水及古洞附近，亦包括一大部份的北部都會區。「01教育」已經於下文為你整合80校網的小學名單、範圍及地圖及80校網屋苑名單，幫助你的子女升讀心儀學校！ 80校網的競爭激烈嗎？學生人數是多少？學額有幾多？ 教育局《學生人數統計報告書》未有根據小學校網分類的學生數字，只有按區議會紀計的數字。參考最新的2025年度《報告書》，在2025年9月於北區就讀本地幼稚園及非本地幼稚園低班（該批學生一般將於2027年9月入讀小一）的學生人數分別為1,763及26人，而80校網學校現正為2027年9月入讀小一的學生，於自行分配學位階段，提供合共728個",
+      "title": "謝安琪再送19歲張瞻返澳洲留學坦言心情低落 兄妹離別曾哭成淚人",
+      "url": "https://hk01.com/sns/article/60410260",
+      "publishedAt": "2026-11-14T03:08:06.000Z",
+      "excerpt": "張繼聰和謝安琪（Kay）的大仔張瞻（James）今年遠赴澳洲升學。早前，James曾短暫回港，近日Kay分享再次送兒子到機場的合照，坦言每次分別都會感到失落，但如今已逐漸適應，她更分享與子女的得意合照，記錄溫馨的離別時刻。 張瞻赴澳洲升學 與兒子離別不捨落淚 James於今年2月赴澳洲墨爾本升學，修讀「Bachelor of Education &amp; Bachelor of Science – Primary Education」學位課程。後來有網民目睹張繼聰和Kay在墨爾本與仔女用餐。 他們離開澳洲回港前，在機場與James分別。當時，張繼聰揸機拍下Kay、James與妹妹KakaBa",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "黃仁勳辭職｜近3萬人網上聯署力撐教主 提三大要求 馬斯克跟簽",
+      "url": "https://hk01.com/sns/article/60410699",
+      "publishedAt": "2026-11-14T03:06:47.000Z",
+      "excerpt": "【黃仁勳／Nvidia／英偉達／Alice huang / Kimberly Powell / Colette Kress】英偉達前CEO 黃C仁勳辭職才兩天，網絡上已出現「萬人聯署」要教主回來的盛況，並發公開信提三大要求，全球首富馬斯克也「跟簽」。 一個叫「Stand with Jensen」的獨立聯網站上線，暫吸近3萬人聯署。﹙「Stand with Jensen」網站截圖﹚ 一個叫「Stand with Jensen」的獨立聯網站上線，附有一封寫給 NVIDIA 董事會的公開信。目前不知發起人背景，網站稱跟 NVIDIA 和黃仁勳本人都沒有關係，並稱是NVIDIA 的現任與前任員工、合作",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "公屋新租戶代收信！上手長者贈$500利市 住戶：舊公屋人情確唔同",
+      "url": "https://hk01.com/sns/article/60409765",
+      "publishedAt": "2026-11-14T03:02:16.000Z",
+      "excerpt": "香港公屋鄰里之間，仍然充滿濃濃人情味！近日有港媽媽在Threads發文，以「好人好事」為題分享經歷，稱早前所住公屋單位的前租客女兒突然登門，解釋由於家中老人家年事已高，不方便親自前往銀行處理事務，希望樓主能協助留意1封即將寄抵的銀行信件，如果收到後，可以致電通知她前來領取。 樓主認為代收信件只是舉手之勞，因此答應幫忙，她亦理解老一輩習慣以利市表達謝意，因此當對方送上利市時，起初並未拒絕，「年長一輩好興封返封利市嘅，咁佢好意，我照單全收嘅」。 然而，樓主沒有預料到對方送出的利市金額竟高達500元，令她大感意外，「無諗過係咁大封，嚇咗一跳…黐線，咁大封，唔收得，我以為100幾十，意思意思咋」、「好",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "午睡越睡越累？專家揭黃金時間僅20至30分鐘 睡前飲咖啡反更提神",
+      "url": "https://hk01.com/sns/article/60410039",
+      "publishedAt": "2026-11-14T03:00:56.000Z",
+      "excerpt": "不少香港上班族平日經常晚睡加班，睡眠嚴重不足，習慣趁午飯後空檔將手機鬧鐘設於45分鐘甚至1小時後，企圖透過長時間午睡一口氣償還「睡眠債」。結果鬧鐘一響，非但沒有精神飽滿，反而頭昏腦脹、四肢無力，整個下午均處於呆滯狀態，連看電腦屏幕也難以集中精神，問題關鍵不在於睡得不夠，而是睡得太久。 不少上班族經常晚睡加班，睡眠嚴重不足，習慣趁午飯後空檔將手機鬧鐘設於45分鐘甚至1小時後，企圖透過長時間午睡一口氣償還睡眠債。（《THE K2》劇照） 超過30分鐘誤入深層睡眠 觸發睡眠惰性 根據 妙佑醫療國際（Mayo Clinic） 的成人午睡健康指引，理想的午睡時長應嚴格控制在20至30分鐘以內，讓大腦停留",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "俞可程密會「肥仔」斷正 細數撞樣史力加太太、爭寵暗鬥黑歷史",
+      "url": "https://hk01.com/sns/article/60410517",
+      "publishedAt": "2026-11-14T03:00:43.000Z",
+      "excerpt": "無綫（TVB）戀愛真人騷《女神配對計劃2》播映以來話題不絕，2022年港姐出身的「東張女神」俞可程（Kanis）憑節目人氣急升，同時亦成為網民狙擊對象。近日有網民在社交平台發文，指在街頭「斷正」俞可程於參與配對節目期間與一名男子並肩同行、舉止親密，質疑她「騎牛搵馬」，又令她入行兩年來的連串爭議與「黑歷史」再度被網民翻炒。 俞可程為落選港姐！（截圖） 黑歷史1：疑街頭約會被網民斷正 對於被網民指抱著「拖住呢個男士去揀男仔」的心態參與《女神配對計劃2》，俞可程受訪時表現從容並還原真相。她表示今年7月及8月接下連鎖快餐店廣告，由於機會難得，特意邀請TVB男導演協助拍攝、度橋及剪片：「佢影咗我相嗰一日",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "北角循道學校校工成叔走過半生浮華 化身多啦A夢為師生解憂送暖",
+      "url": "https://hk01.com/sns/article/60404346",
+      "publishedAt": "2026-11-14T03:00:37.000Z",
+      "excerpt": "清晨時分，北角循道學校的校舍門口，總會準時出現一個穿著淺藍工友上衣、頂著一頭灰白短髮的活力身影。他是全校無人不曉的校工「成叔」。每逢返學放學，他總是挺直腰板站在校門前，臉上掛著標誌性的大大笑容，活力充沛地向每一位睡眼惺忪的小朋友高呼「Good Morning、 Hi」，放學又逐一揮手「 Goodbye」。 看到有低年級小朋友在校門前鬧情緒、依賴父母流淚不肯入校，成叔從不大聲喝斥，而是彎下雙膝、整個人「踎低身」，把自己的視線降至與孩子的眼睛相同水平，邊笑著輕撫孩子的頭，一邊溫柔接過沉甸甸的書包，牽著他們的小手一步一步走進班房。如陽光般溫暖的成叔，曾走過半生浮華，在低潮時期曾靠聽《多啦A夢》主題曲",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "楊華勇｜高市早苗的「APEC焦慮」 暴露日本的外交窘態",
+      "url": "https://hk01.com/sns/article/60410078",
+      "publishedAt": "2026-11-14T03:00:07.000Z",
+      "excerpt": "來稿作者：楊華勇 深圳APEC領導人非正式會議定於2026年11月18日至19日舉行，這是中國繼2001年上海、2014年北京之後第三次擔任東道主。按慣例，東道主會對所有成員領導人給予對等禮遇，晚宴合影、握手寒暄、議程排序都有成規可循。可就在會期臨近之際，日本方面卻通過共同社、彭博社連續放風：政府正在向中方「尋求保證」，希望高市早苗不被「冷落」，若出現「異常安排」或中方借機「羞辱」她，日方將提出抗議。這種未會先討「免冷落承諾」的操作，本身就極不尋常。多邊場合的體面，從來不是靠提前索要來的，而是靠平時攢下的。東京此刻的焦慮，不是中方態度突變，而是自己過去一年把信任帳戶刷爆了。 屢踩中方紅線 妄圖",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "港漂搭小巴無現金兼八達通負錢！遇暖心港女生3善舉神救:愛上香港",
+      "url": "https://hk01.com/sns/article/60410576",
+      "publishedAt": "2026-11-14T03:00:00.000Z",
+      "excerpt": "香港小巴即使是本地薑，對小巴的行走路線和停車位也未必知，更何況是內地來港的港漂同學仔？早前一位內地來港讀大學的男學生，因為長時間等不到酒店接駁巴士，最終選擇了乘搭不熟悉的專線小巴，卻在上車後遇到八達通餘額不足、身上沒有現金的尷尬處境，後來一位香港女生神救援，令他感到非常感動，更直言這一個瞬間令他「徹底愛上一座城市」！ 《那夜凌晨，我坐上開往大埔的紅Van》劇照 內地港漂男學生早前在小紅書上發帖，表示近日從沙田新城市廣場附近準備坐車回馬鞍山，本來打算乘坐酒店接駁巴士，但是等了一段長時間都沒有車。於是自己跟著導航程式到達了專線小巴801車站，來了一輛801A，因為不熟悉的關係在連番研究之下才最後一",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "建管條例修訂｜授權票未設上限 麥美娟稱大多反映實際操作有困難",
+      "url": "https://hk01.com/sns/article/60410691",
+      "publishedAt": "2026-11-14T02:26:32.000Z",
+      "excerpt": "《建築物管理條例》早前完成公眾諮詢，曾建議業主大會設立每人可持有俗稱授權票的上限，最終改為「持續研究」。民政及青年事務局局長麥美娟出席商台節目《政經星期六》表示，諮詢期間大多數反映建議有實際操作困難。她又指，政府正研究透過電子授權，為授權票設上限，政府將於明年年底前推出先導計劃，首階段在大型屋苑及單幢樓宇等試行。 民政及青年事務局局長麥美娟。（資料圖片) 《建築物管理條例》諮詢期早前完結，麥美娟表示，接獲很多來自法團、物管業界的意見，整體認同當局的修例方向，不過當中，過半意見認為建議有實際操作困難，難辨識提交授權書次序。她解釋，業主大會投票時會將全部票放入票箱，若點票時發現有人獲超出數量的授權",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24273,38 +24343,6 @@
       "url": "https://hk01.com/sns/article/60410557",
       "publishedAt": "2026-11-14T02:00:25.000Z",
       "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），昨日（11月13日）在高等法院續審，首被告鄺港傑第五天出庭自辯。鄺港傑詳細供述案發當晚（2月21日）通宵留在龍尾村單位廁所清洗沾血刀具，期間聽到房間及廚房傳來「用刀切割聲」 。而他聽到切割聲時，更在哭泣；翌日他更與父親鄺球前往將軍澳墳場燒衣紙憑弔蔡天鳳，其後亦按父要求剪爛蔡的身份證與信用卡。 此外，鄺港傑接受鄺港智代表大律師盤問時，被揭發在還押期間曾托囚友送信予胞弟，信中內容指案發當日蔡找鄺球在車內「講數」，兄弟離開車廂，其後蔡流血倒地。鄺港傑指信件是為予「夾口供」，圖將責任推卸給父親，鄺港傑當庭推翻信件內",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "裘言真｜直面問題、依法追責、標本兼治：瑪麗升降機事故報告評析",
-      "url": "https://hk01.com/sns/article/60410644",
-      "publishedAt": "2026-11-14T02:00:20.000Z",
-      "excerpt": "來稿作者：裘言真 瑪麗醫院臨床大樓1（新大樓）的升降機，早前頻繁出現故障，社會有聲音希望政府公開透明處理事件，切實問責。發展局日前向立法會提交長達125頁的調查報告，詳細交代事件始末、成因、責任與跟進安排。細看整份報告內容及政府各項後續行動，特區政府體現了開誠布公的態度，毫不迴避承建商、分判商、顧問公司及政府部門的缺失，亦沒有偏幫事件中的任何一方，切實把問題攤在陽光下，讓公眾清楚看到責任誰屬。這種直面問題、不遮不掩的處理方式，值得社會肯定。 政府「一查到底」 報告公開透明 綜觀是次報告的公開程度和問責力度，盡顯政府「一查到底」的決心和公開透明的態度。報告清楚指出，28部升降機均出現不同程度問題",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "前新聞主播余浩宗轉行變富貴 瘋狂開箱CHANEL孖密友帶狗名店試衫",
-      "url": "https://hk01.com/sns/article/60408484",
-      "publishedAt": "2026-11-14T02:00:18.000Z",
-      "excerpt": "前TVB新聞主播余浩宗（Cyrus）2016年因為眼紅紅報新聞而見報，離巢後完全擺脫以往書生形象，突然留鬚兼狂操肌。近年他轉行做歐洲名牌代購生意，生活質素幾級跳，變得超級富貴！日前（8日），Cyrus開心拍片瘋狂開箱過萬美元的CHANEL新袋，平時又經常孖同性密友兼帶愛犬於名店試衫，盡顯VVIP的奢華氣派。 2016年，余浩宗因眼紅紅報新聞引起觀眾注意，他事後解畫指，眼紅只因工作進入倒數階段而感觸及感動。（TVB） 余浩宗操得一身健碩身型。（IG@cyrus_yuu） 開箱綠色鱷魚壓紋袋 豪晒15萬「機場包」 Cyrus在家中穿上CHANEL針織冷衫拍片開箱CHANEL新袋，影片畫面中打上細字",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "孩子怕被真人批評把AI當樹洞？醫生示警：機器人無法取代專業醫療",
-      "url": "https://hk01.com/sns/article/60397647",
-      "publishedAt": "2026-11-14T02:00:05.000Z",
-      "excerpt": "生成式人工智慧（AI）逐漸融入民眾的日常生活，其中有不少兒童及青少年甚至開始向聊天機器人（chatbot）尋求情緒支持。 加拿大一項針對近4萬名小學至高中（4至12年級）學生的研究發現，超過2成曾使用生成式AI尋求情緒支持，或詢問和朋友、家人相關問題，而這群學生出現達臨床顯著程度的情緒困擾症狀的可能性，接近其他學生的2倍，不過該研究僅發現兩者存在關聯，無法證明使用AI會造成情緒困擾。 相關文章： 新一代更沒耐性、更信AI！高中老師點出「現代教育」7個殘酷事實 教育子女｜現代教育面臨7個殘酷事實！（01製圖） 教育子女｜現代教育面臨7個殘酷事實！（01製圖） 教育子女｜現代教育面臨7個殘酷事實！",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "由帶隊老師變成巨型木偶藝術家助理 專訪退休視藝老師葉家偉",
-      "url": "https://hk01.com/sns/article/60410406",
-      "publishedAt": "2026-11-14T02:00:04.000Z",
-      "excerpt": "「渣打藝趣嘉年華2026」將於11月14及15日在銅鑼灣舉行，今年的主題是經典童話。11月15日的「壓軸巡遊」會有10座4米高的巨型木偶，由維多利亞公園出發，巡遊銅鑼灣街頭。這些木偶由本地學校的學生在藝術家指導下製作。 今年參與木偶製作的人當中，有一位剛退休的視藝科老師葉家偉（Alexis Ip）。他教了39年書，退休後以「藝術家助理」的身分回到校園，協助巡遊巨型木偶藝術家謝志明（Jimmy）帶學生創作。 由老師變成助理 「家人和朋友知道後，都說我『退而不休』。加上最近有作品在海外展覽，真的比以前還要忙。」葉家偉說。他以前是視藝科老師，帶學生參加過八屆嘉年華。Jimmy也曾多次到他任教的學校教",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24341,26 +24379,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "最新天氣消息｜黃色暴雨警告信號一度生效 凌晨5時30分取消",
-      "url": "https://hk01.com/sns/article/60410538",
-      "publishedAt": "2026-11-13T16:03:56.000Z",
-      "excerpt": "【香港天文台／HKO】繼今日（14日）凌晨0時45分發出發出雷暴警告後，香港天文台同日凌晨3時50分發出黃色暴雨警告信號的特別報告，香港廣泛地區已錄得或預料會有每小時雨量超過30毫米的大雨，而且雨勢可能持續，去到同日凌晨5時30分取消。 【06:00】雷暴警告有效時間終止。 【05:30】黃色暴雨警告信號取消。天文台提醒，雖然暴雨警告已經取消，但市民仍須警覺有關河道氾濫可能帶來的危險。 【04:30】雷暴警告有效時間至今日清晨6時正。 圖為截至11月14日凌晨4時45分，天文台顯示各區過去一小時雨量。（天文台網頁圖片） 【03:50】天文台發出黃色暴雨警告信號，表示香港廣泛地區已錄得或預料會有",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "見習督察兒時睹途人追賊阻劫案後立志當差 獲榮譽警棍盼入重案組",
       "url": "https://hk01.com/sns/article/60408390",
       "publishedAt": "2026-11-13T16:00:15.000Z",
       "excerpt": "警察學院今日（14日）舉行結業會操，13名見習督察及130名警員將投入警務工作。獲頒榮譽警棍及學業成績優異證書見習督察陶軒麟，兒時曾親眼目睹一宗搶劫案，當時有一名途人挺身而出追截疑犯，令他意識市民需要警察的保護，因而立志加入警隊，希望日後能加入刑事偵緝部門，甚至重案組查案和保護市民。 警察學院今日（11月14日）舉行結業會操。左起：24歲督察陳以琳；32歲督察陶軒麟；25歲警員陸嘉怡。（梁鵬威攝） 兒時睹熱心途人制止劫案 立志當差保護市民 陶軒麟指，大約六歲、就讀小學時，曾親眼目睹一宗搶劫案，當時放學後在路上聽到一位女士突然尖叫，回頭望見一個男子正向對方行劫，有一名途人馬上挺身而出，制止並追截",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "BIGBANG｜警封土瓜灣十三街上落客位設路障 人潮改新碼頭街登車",
-      "url": "https://hk01.com/sns/article/60410629",
-      "publishedAt": "2026-11-13T13:57:13.000Z",
-      "excerpt": "韓國天團BIGBANG今日 （13日）起在啟德主場館，舉行4場BIGBANG 2026-2027 WORLD TOUR IN HONG KONG演唱會，警方早前已預告，會嚴厲打擊「白牌車」。《香港01》記者在啟德體育園附近的土瓜灣現場觀察，交通警從晚上8時半起，在馬頭角道牛棚藝術村對開封路，設置單向管制路障，截停及檢查可疑車輛，並封鎖馬頭角道、十三街一帶的上落客位置，杜絕「白牌車」非法載客取酬。 演唱會散場後，由於未能在十三街一帶乘車，人潮改為步行到新碼頭街一帶登車，當中包括原本已安排網約車、操普通話的男女，兩人最後亦成功登車。警方隨即亦派員到新碼頭街封路。但仍有漏網之魚趕及在警員制止前登車，",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24389,19 +24411,51 @@
       "category": "Hong Kong"
     },
     {
-      "title": "蔡天鳳案｜獄中信提無留意爸是否有武器 鄺港傑認曾想與弟夾口供",
-      "url": "https://hk01.com/sns/article/60410521",
-      "publishedAt": "2026-11-13T08:50:38.000Z",
-      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），案件今(13日）在高等法院續審，首被告鄺港傑在接受其弟的律師盤問時，被揭曾寄信給其弟疑想「夾口供」。 代表第三被告鄺港智的大律師盤問時，指鄺港傑在獄中曾寫信給胞弟，提及父親在大美督停車場時，蔡天鳳曾想與鄺球對話，鄺港傑的信寫道：「目睹Abby已躺在中排座位地上冇知覺，頭部流咗好多血，並無留意爸有否武器，當刻已驚慌，因附近有不少車及行人…..」律師問這是否才是事實。鄺港傑指信件內容不真確，又指當時想與胞弟夾口供，並稱：「其實係庭上面先係真實，呢張紙係我嗰時用自己嘅小聰明去踱嘅。」 【蔡天鳳案・專頁】 三名被告",
-      "source": "香港01",
+      "title": "周一鳴：警方「銳眼計劃」閉路電視系統 下周一起加入人臉識別功能",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523679/%E5%91%A8%E4%B8%80%E9%B3%B4-%E8%AD%A6%E6%96%B9-%E9%8A%B3%E7%9C%BC%E8%A8%88%E5%8A%83-%E9%96%89%E8%B7%AF%E9%9B%BB%E8%A6%96%E7%B3%BB%E7%B5%B1-%E4%B8%8B%E5%91%A8%E4%B8%80",
+      "publishedAt": "2026-11-14T03:05:19.000Z",
+      "excerpt": "周一鳴：警方「銳眼計劃」閉路電視系統 下周一起加入人臉識別功能",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "柴灣聖米迦勒小學疑爆欺凌 小六生遭同學拳打指插傷臀 警列襲擊",
-      "url": "https://hk01.com/sns/article/60410403",
-      "publishedAt": "2026-11-13T08:45:05.000Z",
-      "excerpt": "再有懷疑校園欺凌的帖文在網上流傳，指聖公會柴灣聖米迦勒小學一名小六男生遭同學欺凌，拳打、手指插私隱部位等。家長已經報警，但發文指控校方處理手法，包括指家長反應太大、稱讚施襲者肯認錯，與及拒絕將兩人分班上課。 警方證實於10月24日接報，指一名11歲男童於10月21日，在柴灣一學校內懷疑被人用手襲擊。他臀部受傷，清醒被送往東區醫院治理。警方經初步調查，案件列「襲擊致造成身體傷害」，交由東區警區刑事調查隊第一隊跟進，暫未有人被捕。 校方回覆《香港01》查詢 指關注事件，已聯絡相關家長並通報教育局；並已已啟動危機處理機制，以及安排學生輔導組和校本教育心理學家，為有需要的學生及教職員提供情緒支援及輔導",
-      "source": "香港01",
+      "title": "警察學院結業會操 卓孝業籲學員傳承忠誠勇毅、休班亦不容卸責",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523676/%E8%AD%A6%E5%AF%9F%E5%AD%B8%E9%99%A2%E7%B5%90%E6%A5%AD%E6%9C%83%E6%93%8D-%E5%8D%93%E5%AD%9D%E6%A5%AD%E7%B1%B2%E5%AD%B8%E5%93%A1%E5%82%B3%E6%89%BF%E5%BF%A0%E8%AA%A0%E5%8B%87%E6%AF%85",
+      "publishedAt": "2026-11-14T02:59:28.000Z",
+      "excerpt": "【有線新聞】警察學院舉行結業會操。 新一批畢業的13名見習督察及130名學警步操進場。保安局副局長卓孝業擔任檢",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "建築物管理條例｜指有業主憂增法定人數難召開會議 麥美娟：須確保條例「落到地」",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523672/%E5%BB%BA%E7%AF%89%E7%89%A9%E7%AE%A1%E7%90%86%E6%A2%9D%E4%BE%8B-%E6%8C%87%E6%9C%89%E6%A5%AD%E4%B8%BB%E6%86%82%E5%A2%9E%E6%B3%95%E5%AE%9A%E4%BA%BA%E6%95%B8%E9%9B%A3%E5%8F%AC%E9%96%8B%E6%9C%83",
+      "publishedAt": "2026-11-14T02:59:17.000Z",
+      "excerpt": "【有線新聞】因應公眾諮詢的意見，政府調整《建築物管理條例》最新修例內容。民政及青年事務局局長麥美娟說，涉及大維",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "智創未來｜建造業界積極突破傳統框架 應用焊接機械臂及檢測無人機等科技推動轉型",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523656/%E6%99%BA%E5%89%B5%E6%9C%AA%E4%BE%86-%E5%BB%BA%E9%80%A0%E6%A5%AD%E7%95%8C%E7%A9%8D%E6%A5%B5%E7%AA%81%E7%A0%B4%E5%82%B3%E7%B5%B1%E6%A1%86%E6%9E%B6-%E6%87%89%E7%94%A8%E7%84%8A%E6%8E%A5",
+      "publishedAt": "2026-11-14T02:22:58.000Z",
+      "excerpt": "【有線新聞】建造業近年持續推動科技轉型，業界正積極突破傳統框架。有工程公司利用焊接機械臂，提升焊接工程的質量及",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "英超｜接任曼聯主教練 普捷天奴：生涯最艱難決定之一",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523659/%E8%8B%B1%E8%B6%85-%E6%8E%A5%E4%BB%BB%E6%9B%BC%E8%81%AF%E4%B8%BB%E6%95%99%E7%B7%B4-%E6%99%AE%E6%8D%B7%E5%A4%A9%E5%A5%B4-%E7%94%9F%E6%B6%AF%E6%9C%80%E8%89%B1%E9%9B%A3%E6%B1%BA",
+      "publishedAt": "2026-11-14T02:22:35.000Z",
+      "excerpt": "【有線新聞】即將離任美國主帥成為英超曼聯主教練，普捷天奴說是生涯最艱難決定之一。 候任曼聯主教練普捷天奴：「我",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "女網年終賽｜施維杜蓮娜2比1挫莎芭蓮卡闖4強",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523668/%E5%A5%B3%E7%B6%B2%E5%B9%B4%E7%B5%82%E8%B3%BD-%E6%96%BD%E7%B6%AD%E6%9D%9C%E8%93%AE%E5%A8%9C2%E6%AF%941%E6%8C%AB%E8%8E%8E%E8%8A%AD%E8%93%AE%E5%8D%A1%E9%97%964%E5%BC%B7",
+      "publishedAt": "2026-11-14T02:20:13.000Z",
+      "excerpt": "【有線新聞】女子職業網球年終賽，施維杜蓮娜擊敗前「一姐」莎芭蓮卡，晉身4強。 粉紅裙施維杜蓮娜面對莎芭蓮卡已連",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24409,6 +24463,14 @@
       "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523652/%E6%A5%8A%E7%BE%8E%E7%8F%8D%E5%B0%88%E8%A8%AA-%E7%A8%B1%E5%8C%97%E7%92%B0%E7%B6%AB%E5%BC%95%E5%85%A5%E6%96%B0%E6%A8%99%E6%BA%96%E6%B8%9B%E6%88%90%E6%9C%AC-8%E5%B9%85%E8%B3%87%E5%8A%A9",
       "publishedAt": "2026-11-14T02:13:29.000Z",
       "excerpt": "【有線新聞】政府與港鐵簽訂北環綫全線項目，港鐵行政總裁楊美珍在本台節目《有理有得傾》表示，主線及支線項目合併，",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "瑞典網球公開賽 費利斯挫慕斯迪闖決賽 將與狄蘭迪爭冠",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523664/%E7%91%9E%E5%85%B8%E7%B6%B2%E7%90%83%E5%85%AC%E9%96%8B%E8%B3%BD-%E8%B2%BB%E5%88%A9%E6%96%AF%E6%8C%AB%E6%85%95%E6%96%AF%E8%BF%AA%E9%97%96%E6%B1%BA%E8%B3%BD-%E5%B0%87%E8%88%87%E7%8B%84",
+      "publishedAt": "2026-11-14T02:00:29.000Z",
+      "excerpt": "【有線新聞】瑞典網球公開賽，費利斯晉身決賽，會與狄蘭迪爭冠軍。 面向鏡頭的費利斯，全場4次破發機會把握到3次，",
       "source": "有線新聞",
       "category": "Hong Kong"
     },
@@ -24505,62 +24567,6 @@
       "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523601/%E6%9F%B4%E7%81%A3%E5%B0%8F%E5%AD%B8%E5%B0%8F%E5%85%AD%E7%94%B7%E7%94%9F%E7%96%91%E8%A2%AB%E5%90%8C%E7%8F%AD%E5%90%8C%E5%AD%B8%E8%A5%B2%E6%93%8A%E8%87%80%E9%83%A8%E5%8F%97%E5%82%B7-%E7%88%B6",
       "publishedAt": "2026-11-13T14:37:09.000Z",
       "excerpt": "【有線新聞】柴灣一間小學有男生被同學打傷臀部，警方將案件列作「襲擊致造成身體傷害」，暫未有人被捕。 警方上月2",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "李強訪泰晤阿努廷 雙方強調中泰手足情、推動命運共同體建設",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523585/%E6%9D%8E%E5%BC%B7%E8%A8%AA%E6%B3%B0%E6%99%A4%E9%98%BF%E5%8A%AA%E5%BB%B7-%E9%9B%99%E6%96%B9%E5%BC%B7%E8%AA%BF%E4%B8%AD%E6%B3%B0%E6%89%8B%E8%B6%B3%E6%83%85-%E6%8E%A8%E5%8B%95%E5%91%BD",
-      "publishedAt": "2026-11-13T14:10:13.000Z",
-      "excerpt": "【有線新聞】總理李強訪問泰國，與泰國總理阿努廷會晤，期待此行就深化兩國全面戰略合作深入交流，推動中泰命運共同體",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "李家超出席新聞工作者聯會活動 冀傳媒對抗不實資訊、說好香港故事",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523560/%E6%9D%8E%E5%AE%B6%E8%B6%85%E5%87%BA%E5%B8%AD%E6%96%B0%E8%81%9E%E5%B7%A5%E4%BD%9C%E8%80%85%E8%81%AF%E6%9C%83%E6%B4%BB%E5%8B%95-%E5%86%80%E5%82%B3%E5%AA%92%E5%B0%8D%E6%8A%97%E4%B8%8D%E5%AF%A6",
-      "publishedAt": "2026-11-13T12:57:25.000Z",
-      "excerpt": "【有線新聞】行政長官李家超在新聞工作者聯會活動致辭時，對業界提出三點期許，期望傳媒能對抗不實資訊、說好香港故事",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "理大成立航空航天高等研究院 推動航天創新、技術突破",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523507/%E7%90%86%E5%A4%A7%E6%88%90%E7%AB%8B%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E9%AB%98%E7%AD%89%E7%A0%94%E7%A9%B6%E9%99%A2-%E6%8E%A8%E5%8B%95%E8%88%AA%E5%A4%A9%E5%89%B5%E6%96%B0-%E6%8A%80",
-      "publishedAt": "2026-11-13T12:50:01.000Z",
-      "excerpt": "【有線新聞】理工大學成立航空航天高等研究院，跨學科推動航天創新及技術突破。 研究院於今年7月成立，匯聚跨學科及",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "BIGBANG演唱會｜警方於啟德體育園附近打擊白牌車 提醒司機可被罰款及判監",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523574/bigbang%E6%BC%94%E5%94%B1%E6%9C%83-%E8%AD%A6%E6%96%B9%E6%96%BC%E5%95%9F%E5%BE%B7%E9%AB%94%E8%82%B2%E5%9C%92%E9%99%84%E8%BF%91%E6%89%93%E6%93%8A%E7%99%BD%E7%89%8C%E8%BB%8A-%E7%A6%81",
-      "publishedAt": "2026-11-13T12:45:49.000Z",
-      "excerpt": "【有線新聞】啟德體育園舉行大型演唱會，警方在附近一帶打擊白牌車。 警方在馬頭角道、牛棚對開設置路障，截查多輛中",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "股市直播室(13/11/2026)恒指收跌370 一周挫逾800點",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/523571/%E8%82%A1%E5%B8%82%E7%9B%B4%E6%92%AD%E5%AE%A413-11-2026%E6%81%92%E6%8C%87%E6%94%B6%E8%B7%8C370-%E4%B8%80%E5%91%A8%E6%8C%AB%E9%80%BE800%E9%BB%9E",
-      "publishedAt": "2026-11-13T12:36:23.000Z",
-      "excerpt": "主持：麥嘉恩 嘉賓：譚朗蔚 富昌證券聯席董事 收市焦點： 恒生指數收跌370點跌23637點，一周計跌844點",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "今日重點新聞｜微軟全球性死機．港上調GDP增長預測．私隱專員審查人臉識別門禁．鄺港傑認曾虛構版本．黃仁勳出軌多一人",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523568/%E4%BB%8A%E6%97%A5%E9%87%8D%E9%BB%9E%E6%96%B0%E8%81%9E-%E5%BE%AE%E8%BB%9F%E5%85%A8%E7%90%83%E6%80%A7%E6%AD%BB%E6%A9%9F%EF%BC%8E%E6%B8%AF%E4%B8%8A%E8%AA%BFgdp%E5%A2%9E%E9%95%B7%E9%A0%90",
-      "publishedAt": "2026-11-13T12:32:13.000Z",
-      "excerpt": "微軟死機｜服務開始局部恢復 未有證據顯示涉惡意活動 微軟多項軟件大規模故障，Microsoft 365、Out",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "微軟死機｜服務開始局部恢復 未有證據顯示涉惡意活動",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523519/%E5%BE%AE%E8%BB%9F%E6%AD%BB%E6%A9%9F-%E8%87%B3%E4%BB%8A%E5%A4%A7%E5%8D%8A%E6%97%A5%E6%9C%AA%E5%9B%9E%E5%BE%A9%E6%AD%A3%E5%B8%B8-%E5%BE%AE%E8%BB%9F%E8%AA%8D%E9%83%A8%E5%88%86%E5%95%8F",
-      "publishedAt": "2026-11-13T12:00:50.000Z",
-      "excerpt": "【有線新聞】微軟多項軟件大規模故障，Microsoft 365、Outlook、Teams出現問題，估計影響數",
       "source": "有線新聞",
       "category": "Hong Kong"
     },
@@ -24885,6 +24891,38 @@
       "category": "Hong Kong"
     },
     {
+      "title": "周一鳴：持續打擊非法跨境白牌車 過去兩星期拘捕12名司機",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877793-20261114.htm",
+      "publishedAt": "2026-11-14T03:07:37.000Z",
+      "excerpt": "",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "麥美娟：期望明年底前推行有關授權票科技平台之先導計劃",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877790-20261114.htm",
+      "publishedAt": "2026-11-14T02:53:18.000Z",
+      "excerpt": "《建築物管理條例》有關大廈管理的修訂建議早前完成公眾諮詢。民政及青年事務局局長麥美娟表示，修例工作不容易，因為涉及很多建議，除了授權票，亦包括會議程序、主管當局的權力等，要修訂很多條文，正與律政司快馬加鞭草擬條例，期望盡快提交立法會審議，並得到支持。 麥美娟在本台節目《星期六問責》表示，大家在公開諮詢期間對一些建議有保留，提出實際操作上的技術困難，例如授權票上限。如果當局研究到解決方法，會繼續檢視條例，在適當時候提出進一步修訂落實。 她在一個電台節目表示，今次修例落實核查授權票真偽的機制，在諮詢時並非反對授權票設上限，而是一般法團在提交授權票後，管理處難以分辨先後次序，容易引起爭拗。 麥美娟表",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "嶺南中學13歲男生日前懷疑遇襲 警方拘3名男童涉普通襲擊",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877788-20261114.htm",
+      "publishedAt": "2026-11-14T02:44:37.000Z",
+      "excerpt": "港島杏花邨嶺南中學一名13歲男學生，星期三懷疑在校內被人用手襲擊，東區警區反三合會行動組接手跟進，案件列作普通襲擊，拘捕3人。 經調查後，警方昨日分別在東區及深水埗區拘捕3名年齡介乎13至15歲男童，涉嫌普通襲擊。3人已獲准保釋候查，須於下月中旬向警方報到。 編輯：譚佩貞",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "卓孝業勉勵畢業學員要做到「忠誠護國安 勇毅保家園」",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877787-20261114.htm",
+      "publishedAt": "2026-11-14T02:32:07.000Z",
+      "excerpt": "保安局副局長卓孝業表示，今年是國家十五五規劃開局之年，也是香港首個五年規劃的開展之年，相信警隊會繼續發揮關鍵作用守護香港。他又說，黑暴事件突顯國家安全的重要，目前看來歲月靜好，但仍然要居安思危。 卓孝業出席警察學院結業會操擔任檢閱官，今屆共有超過140人畢業。他致辭表示，香港能夠長期成為世界上最安全和穩定的城市之一，香港警隊功不可沒，多年以來警隊是學習型和智慧型部隊，一直革新前進，一代又一代薪火相傳，面對各種挑戰時主動識變、應變、求變，更好地保護香港和服務市民，他勉勵新畢業的學員要傳承警隊忠誠勇毅、心繫社會的精神，做到「忠誠護國安、勇毅保家園」。 卓孝業又勉勵畢業學員要以使命為本、堅守底線，不",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "麥美娟：有業主反映如業主大會法定出席人數再提高 憂難召開會議",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1877783-20261114.htm",
       "publishedAt": "2026-11-14T01:25:01.000Z",
@@ -25009,38 +25047,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1877734-20261113.htm",
       "publishedAt": "2026-11-13T11:39:22.000Z",
       "excerpt": "食環署今年頭十個月，接獲約11000宗鼠患投訴，相當於往年全年的總和。 署方說，除了環境因素，傳媒廣泛報道，帶動公眾關注。署方近期核查超過1300個地點，捕獲超過100隻活鼠。 編輯：王濱南",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "【重溫】2026年11月13日新聞天地",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877731-20261113.htm",
-      "publishedAt": "2026-11-13T11:35:08.000Z",
-      "excerpt": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "34歲男子感染猴痘 潛伏期內離港期間與其他男子有高風險性接觸",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877732-20261113.htm",
-      "publishedAt": "2026-11-13T11:30:33.000Z",
-      "excerpt": "衞生防護中心表示，正調查一宗猴痘輸入個案，涉及一名34歲男子，上星期一起出現發燒、疲倦和手臂出現皮疹，其後皮疹蔓延至身體多處地方，星期三到伊利沙伯醫院急症室求診，獲安排留院接受隔離治療，他目前情況穩定。 中心表示，病人的臨床樣本經中心公共衞生化驗服務處化驗後，證實對猴痘病毒呈陽性反應。根據病人提供的資料，他於潛伏期內曾於離港期間與其他男子有高風險性接觸，正繼續就個案進行流行病學調查，亦會將個案通報世界衞生組織。 中心建議高風險目標群組人士接種猴痘疫苗，市民亦應提高警覺，避免與懷疑感染猴痘的人士作密切身體接觸。 編輯：任順熙",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "全年經濟增長預測再上調至4.8%",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877727-20261113.htm",
-      "publishedAt": "2026-11-13T11:20:24.000Z",
-      "excerpt": "政府再上調全年經濟增長預測，由之前的3.5%至4.5%，向上修訂至4.8％，指考慮到今年首三季的實際數字，以及第四季經濟有望進一步穩健增長，預期全年經濟應該有比較強勁的增長。 編輯：梁家奇",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "李家超嘉許亞殘運港隊代表團",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877726-20261113.htm",
-      "publishedAt": "2026-11-13T11:19:09.000Z",
-      "excerpt": "特區政府與中國香港殘疾人奧委會舉行嘉許禮，表揚中國香港代表團在第五屆亞洲殘疾人運動會取得佳績。 出席嘉許禮的行政長官李家超，讚揚港隊代表以永不言敗的香港精神，身體力行說好香港故事。他表示，政府會繼續支持殘疾運動發展，讓運動員勇敢實現夢想，為香港爭光。 編輯：梁家奇",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -25205,6 +25211,22 @@
       "category": "Hong Kong"
     },
     {
+      "title": "​響應「世界糖尿病日」 定期篩查均衡飲食 及早行動降低風險",
+      "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111300652.htm",
+      "publishedAt": "2026-11-14T02:30:00.000Z",
+      "excerpt": "國際糖尿病聯合會和世界衞生組織將每年的十一月十四日定為「世界糖尿病日」，今年以「早發現，早行動」為主題，呼籲全社會共同行動，及早控制糖尿病。 &nbsp; 衞生署衞生防護中心（中心）今日（十一月十四日）提醒市民，糖尿病是香港主要的致病及致死原因之一。二○二○至二○二二年度人口健康調查顯示，15至84歲非住院人口中，8.5%患有糖尿病或血糖升高。其中，二型糖尿病佔絕大多數（95%）。患上二型糖尿病的風險因素包括超重及肥胖、高血壓、血脂異常、糖尿病家族史或妊娠糖尿病史。因此，奉行健康生活模式和定期接受篩查，亦即政府一直倡議的「早預防、早發現、早治療」，是減低患上糖尿病及相關併發症的最佳方法。 &n",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "創新科技及工業局常任秘書長出席南京理工大學香港科創研究院揭牌儀式致辭（只有中文）",
+      "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111300380.htm",
+      "publishedAt": "2026-11-14T02:30:00.000Z",
+      "excerpt": "以下是創新科技及工業局常任秘書長蔡傑銘今日（十一月十四日）在南京理工大學香港科創研究院揭牌儀式的致辭： &nbsp; 張司長（國家工業和信息化部國際合作司（港澳台辦公室）副司長張曉雷）、郝院長（中國科學院香港創新研究院執行院長郝銀星博士）、楊校長（南京理工大學校長楊益新教授）、各位嘉賓、各位朋友： &nbsp; 大家好！今天很高興出席南京理工大學香港科創研究院揭牌儀式，與各位共同見證江蘇與香港在科技創新合作方面又一重要樞紐的誕生。 &nbsp; 人才是創新科技發展的最大資本。人才興，則產業興；教育強，則人才強。國家創新科技發展一日千里，早已在國際舞台上舉足輕重。要培育承先啓後、引領創科發展的高",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
       "title": "數個泳灘懸掛紅旗",
       "url": "https://www.info.gov.hk/gia/general/202611/14/P2026111400284.htm",
       "publishedAt": "2026-11-14T01:51:48.000Z",
@@ -25345,22 +25367,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300485.htm",
       "publishedAt": "2026-11-13T09:00:00.000Z",
       "excerpt": "下稿代香港金融管理局發出︰ 香港金融管理局（金管局）今日（十一月十三日）公布外匯基金在二○二六年十月底的主要分析帳目。 &nbsp; 在十月份，外匯基金的境外資產增加570億港元，至36,330億港元。 &nbsp; 貨幣基礎為20,947億港元，包括負債證明書、政府發行的流通紙幣及硬幣、銀行體系結餘，以及已發行外匯基金票據及債券。 &nbsp; 外匯基金對香港私營部門的債權總額為4,278億港元。 &nbsp; 對外負債總額為1,403億港元。 &nbsp; 金管局按照國際貨幣基金組織的數據公布特殊標準（特殊標準），公布外匯基金分析帳目。這些帳目即特殊標準所稱的「中央銀行分析帳目」（附件）。",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "衞生署署長與中國藥品檢定研究院代表團會面 深化藥品規管及檢測合作（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300446.htm",
-      "publishedAt": "2026-11-13T08:45:00.000Z",
-      "excerpt": "衞生署署長林文健醫生今日（十一月十三日）與訪港的中國藥品檢定研究院（中檢院）院長安撫東及其率領的代表團會面，雙方同意在藥品監管、信息數智化工作及生物製品檢測專業能力建設等多個範疇，進一步加強合作和交流。 &nbsp; 林文健醫生說：「《香港特別行政區經濟和社會發展第一個五年規劃（2026&mdash;2030年）》（《香港第一個五年規劃》）全面、主動對接國家『十五五』規劃，明確指出香港要推動中醫藥實現全方位、高質量和高水平發展。行政長官二○二六年《施政報告》與之一脈相承，提出多項推動中醫藥發展的具體政策措施，包括善用衞生署政府中藥檢測中心，制定國際中醫藥標準，成為中醫藥走向世界的橋頭堡。我期待",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "日本京都府禽肉及禽類產品暫停進口",
-      "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300460.htm",
-      "publishedAt": "2026-11-13T08:42:00.000Z",
-      "excerpt": "食物環境衞生署食物安全中心（中心）今日（十一月十三日）宣布，因應日本農林水產省通報，指日本京都府爆發高致病性H5禽流感，中心即時指示業界暫停從該地區進口禽肉及禽類產品（包括禽蛋），以保障本港公眾健康。&nbsp; 中心發言人說，根據政府統計處的資料，本港今年首九個月從日本進口約一千零三十公噸冷藏禽肉及約二億四千九百九十四萬隻禽蛋。&nbsp; 發言人說：「中心已就事件聯絡日本當局，並會繼續密切留意世界動物衞生組織及有關當局發出關於爆發禽流感的消息，因應當地疫情發展，採取適當行動。」&nbsp;",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

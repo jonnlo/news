@@ -2,12 +2,21 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-15",
-  "generatedAt": "2026-11-14T22:17:12.450Z",
-  "collectedAt": "2026-11-14T22:17:12.450Z",
+  "generatedAt": "2026-11-14T23:00:32.495Z",
+  "collectedAt": "2026-11-14T23:00:32.495Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 75,
+  "sourceErrors": [
+    {
+      "source": "Asian Review of Books",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Dense Discovery",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -196,7 +205,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50496602"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +374,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +543,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +712,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +881,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1050,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1149,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Slashdot",
@@ -1148,6 +1157,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Manjaro Linux Moves Toward Independent Community Governance",
+          "url": "https://linux.slashdot.org/story/26/11/14/2236207/manjaro-linux-moves-toward-independent-community-governance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-14T22:37:00.000Z",
+          "excerpt": "Arch-based Manjaro Linux \"has announced that Manjaro Project e.V. is now officially registered as a non-profit in Germany,\" reports Linuxiac, \"and is therefore a legally separate entity from the commercial Manjaro GmbH &amp; Co. KG... after months of internal wrangling over who was in charge of the ",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "EFF Criticizes US Government's Use of AI For Evaluating Senior Health Insurance Requests",
           "url": "https://yro.slashdot.org/story/26/11/14/0641233/eff-criticizes-us-governments-use-of-ai-for-evaluating-senior-health-insurance-requests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1273,18 +1291,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Microsoft's Global Outage May Be Worse Than Amazon's Or Crowdstrike's, Expert Says",
-          "url": "https://tech.slashdot.org/story/26/11/13/1936221/microsofts-global-outage-may-be-worse-than-amazons-or-crowdstrikes-expert-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-13T20:00:00.000Z",
-          "excerpt": "An anonymous reader quotes a report from Ars Technica: A global outage taking down a wide range of Microsoft 365 services remains ongoing Friday morning. The outage started midday Thursday, impacting users of Microsoft email, cloud, and AI services. Microsoft has documented the full list of services",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Techmeme",
@@ -1458,7 +1467,7 @@
           "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1475,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How to get better results from Google Gemini",
+          "url": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
+          "publishedAt": "2026-11-14T22:15:00.000Z",
+          "excerpt": "These tips and tricks will help you prompt Gemini better.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Honor Magic8 Pro vs. Magic9 Pro Max: What's been upgraded?",
+          "url": "https://www.engadget.com/2307825/honor-magic-8-pro-vs-9-pro-upgrade-comparison/",
+          "publishedAt": "2026-11-14T22:00:00.000Z",
+          "excerpt": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Here's when a dedicated graphics card is worth it",
           "url": "https://www.engadget.com/2312688/when-dedicated-graphics-card-worth-it/",
@@ -1627,27 +1654,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Samsung may be getting rid of another One UI feature",
-          "url": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
-          "publishedAt": "2026-11-14T17:30:00.000Z",
-          "excerpt": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
-          "url": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough/",
-          "publishedAt": "2026-11-14T17:15:00.000Z",
-          "excerpt": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1664,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Small nuclear reactors could soon power the next generation of AI data centers — modular reactors could soon power Dow Texas chemical plant",
+          "url": "https://www.techradar.com/pro/small-nuclear-reactors-could-soon-power-the-next-generation-of-ai-data-centers",
+          "publishedAt": "2026-11-14T22:35:00.000Z",
+          "excerpt": "X-energy secures approval for four nuclear reactors in Texas as developers pursue nuclear electricity for increasingly power-hungry AI infrastructure.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Yandex users may have lost their data for good following Ukraine strikes — Russian tech giant confirms 2.84% of customer data is gone forever",
           "url": "https://www.techradar.com/pro/yandex-users-may-have-lost-their-data-for-good-following-ukraine-strikes-russian-tech-giant-confirms-2-84-of-customer-data-is-gone-forever",
@@ -1683,19 +1701,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
-          "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
+          "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
+          "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
           "publishedAt": "2026-11-14T18:00:00.000Z",
-          "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
+          "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
-          "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
+          "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
+          "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
           "publishedAt": "2026-11-14T18:00:00.000Z",
-          "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
+          "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1755,19 +1773,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
-          "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
+          "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
+          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
           "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
+          "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
-          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
+          "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
+          "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
           "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
+          "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1825,18 +1843,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Skip the novelty mugs — a trained barista’s guide to the best coffee gifts under $50",
-          "url": "https://www.techradar.com/home/coffee-machines/no-novelty-mugs-allowed-im-a-trained-barista-and-ive-picked-18-genuinely-great-gifts-under-usd50-worth-buying-for-the-coffee-lover-in-your-life",
-          "publishedAt": "2026-11-14T13:00:00.000Z",
-          "excerpt": "Show you understand the home barista in your life with a thoughtful gift they'll use daily — and they might even make you a cup to say thanks.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2034,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2196,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2385,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2529,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Creative Bloq",
@@ -2709,7 +2718,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2927,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3096,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3265,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3354,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3523,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3692,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3881,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4061,7 +4070,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Atlantic",
@@ -4250,7 +4259,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The New Yorker",
@@ -4439,7 +4448,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4577,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "IndieWire",
@@ -4673,7 +4682,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4871,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5060,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5229,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5398,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5527,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5626,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5815,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6004,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "n+1",
@@ -6184,7 +6193,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Rest of World",
@@ -6289,7 +6298,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6467,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6636,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6805,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6974,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7163,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7332,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7501,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,6 +7630,7 @@
           "category": "Books"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
     },
     {
@@ -7790,7 +7800,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7969,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8158,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8327,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8496,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8685,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8854,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9023,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9112,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9301,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9490,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9679,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9848,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10017,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10186,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10375,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10544,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10713,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10922,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11131,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Waxy",
@@ -11350,7 +11360,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "MetaFilter",
@@ -11422,7 +11432,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11611,7 +11621,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Dense Discovery",
@@ -11820,6 +11830,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
     },
     {
@@ -11828,6 +11839,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "長者日優惠懶人包｜今日免費坐巴士港鐵 海洋公園等景點免費入場",
+          "url": "https://hk01.com/sns/article/60410534",
+          "publishedAt": "2026-11-14T22:45:47.000Z",
+          "excerpt": "長者日2026今日（15日）舉行，65歲或以上長者可持樂悠咭或長者八達通，免費乘搭港鐵、九巴及城巴等公共交通工具，亦可免費遊覽山頂纜車及海洋公園等景點。各類長者優惠一覽。 「⻑者⽇2026」 公共交通優惠資格及使⽤⽅法。（社聯文件截圖） 交通優惠 【1】港鐵、輕鐵及港鐵巴士 65歲或以上長者使用「樂悠咭」、長者八達通或個人八達通拍卡，系統會自動將車資設定為0元。優惠不適用於機場快綫、東鐵綫往來羅湖及落馬洲站的過境車程，以及高速鐵路。乘搭東鐵綫頭等車廂，仍須支付頭等額外費。 【2】九巴及龍運巴士 65歲或以上長者 上車時直接拍「樂悠咭」或長者八達通，車資自動設為0元。九巴免費路線不包括P960、",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "76歲婦接82歲患癌男同事回家照料 同住14年不收租 日常開支AA制",
           "url": "https://hk01.com/sns/article/60410507",
@@ -11901,22 +11920,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "李尚正因《玻璃之城》考港大：理想與現實的超大落差",
-          "url": "https://hk01.com/sns/article/60410788",
-          "publishedAt": "2026-11-14T19:00:15.000Z",
-          "excerpt": "",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "旺角兩的士迎頭相撞撼交通燈 6人受傷 警不排除其中一車衝燈",
-          "url": "https://hk01.com/sns/article/60410891",
-          "publishedAt": "2026-11-14T18:21:03.000Z",
-          "excerpt": "旺角發生車禍。今日（15日）凌晨1時許，一輛載有兩名男乘客的市區的士沿洗衣街往太子方向行駛，另一輛載有兩名男乘客的市區的士則沿聯運街駛入弼街，往大角咀方向行駛，駛至洗衣街和弼街交界，兩車迎頭相撞，繼而猛衝撞毀鐵欄和一支交通燈，交通燈頭亦跌落行人路。途經駕駛人士擔心司機被困車內，於是報案。 兩名男司機和4名乘客均受輕傷，在場接受治理，由救護車送往廣華醫院接受治理，警方正調查車禍原因，不排除其中一輛的士衝燈。 就現場所見，兩車車頭嚴重損毀，其中一車車頭冚摺起，路旁鐵欄被撞至變形微凹。 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "BIGBANG｜警連續第二晚土瓜灣戒備 大批車改九龍城渡輪碼頭上客",
           "url": "https://hk01.com/sns/article/60410876",
           "publishedAt": "2026-11-14T15:15:03.000Z",
@@ -11957,6 +11960,14 @@
           "category": "Hong Kong"
         },
         {
+          "title": "姓「屎」點改名？父母崩潰 祖母加1字即變文雅 老師激讚改得好",
+          "url": "https://hk01.com/sns/article/60410855",
+          "publishedAt": "2026-11-14T12:26:46.000Z",
+          "excerpt": "父母替子女改名是一門學問，隨即影響孩子一生。內地有名姓屎男子，自小因姓氏而被取笑，到他替女兒改名時，與妻子感到非常苦惱，深怕女兒將來也面對被取笑的遭遇，不料祖母出手，想到一個既簡單又文雅名字，成功扭轉孫女將來的人生。 內地男因姓「屎」自小被人取笑，因此十分緊張替子女改名的事，怕他們會重蹈覆轍。（《小偷家族》劇照） 屎爸爸從小被同學取笑 綜合內地媒體報道 ，內地有男子指自己因為姓「屎」，十分罕有，自小成為同儕間的笑柄，常被同學以諧音字取笑。 成為爸爸的屎男，與妻子感到十分苦惱，因為他們要為女兒改名，又擔心女兒會步他後塵，因名字遭同學取笑，於是絞盡腦汁想改個好名字，但一直沒有好主意。直至祖母出手，",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "葵涌石蔭路綠Van七旬男司機上客期間突暈倒 昏迷送院搶救後不治",
           "url": "https://hk01.com/sns/article/60410840",
           "publishedAt": "2026-11-14T11:12:07.000Z",
@@ -11989,7 +12000,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "有線新聞",
@@ -12158,7 +12169,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Now 新聞",
@@ -12327,7 +12338,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12496,7 +12507,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12665,7 +12676,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "South China Morning Post",
@@ -12834,7 +12845,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13003,7 +13014,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T22:17:12.450Z"
+      "lastSuccessfulAt": "2026-11-14T23:00:32.495Z"
     }
   ],
   "stories": [
@@ -14078,6 +14089,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Manjaro Linux Moves Toward Independent Community Governance",
+      "url": "https://linux.slashdot.org/story/26/11/14/2236207/manjaro-linux-moves-toward-independent-community-governance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-14T22:37:00.000Z",
+      "excerpt": "Arch-based Manjaro Linux \"has announced that Manjaro Project e.V. is now officially registered as a non-profit in Germany,\" reports Linuxiac, \"and is therefore a legally separate entity from the commercial Manjaro GmbH &amp; Co. KG... after months of internal wrangling over who was in charge of the ",
+      "source": "Slashdot",
+      "category": "Technology",
+      "sourceRole": "community"
+    },
+    {
       "title": "EFF Criticizes US Government's Use of AI For Evaluating Senior Health Insurance Requests",
       "url": "https://yro.slashdot.org/story/26/11/14/0641233/eff-criticizes-us-governments-use-of-ai-for-evaluating-senior-health-insurance-requests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
       "publishedAt": "2026-11-14T21:00:00.000Z",
@@ -14199,15 +14219,6 @@
       "url": "https://tech.slashdot.org/story/26/11/13/2033218/mozilla-to-shut-down-solo-deleting-users-websites-and-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
       "publishedAt": "2026-11-13T21:00:00.000Z",
       "excerpt": "Mozilla is shutting down Solo, its AI-powered website builder and hosting service, on November 30. A notice on the Soloist.ai homepage reads: \"We've made the difficult decision to close Solo. We have appreciated all of your support building and growing this product, and the feedback we've received f",
-      "source": "Slashdot",
-      "category": "Technology",
-      "sourceRole": "community"
-    },
-    {
-      "title": "Microsoft's Global Outage May Be Worse Than Amazon's Or Crowdstrike's, Expert Says",
-      "url": "https://tech.slashdot.org/story/26/11/13/1936221/microsofts-global-outage-may-be-worse-than-amazons-or-crowdstrikes-expert-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-13T20:00:00.000Z",
-      "excerpt": "An anonymous reader quotes a report from Ars Technica: A global outage taking down a wide range of Microsoft 365 services remains ongoing Friday morning. The outage started midday Thursday, impacting users of Microsoft email, cloud, and AI services. Microsoft has documented the full list of services",
       "source": "Slashdot",
       "category": "Technology",
       "sourceRole": "community"
@@ -14378,6 +14389,24 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
+      "title": "How to get better results from Google Gemini",
+      "url": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
+      "publishedAt": "2026-11-14T22:15:00.000Z",
+      "excerpt": "These tips and tricks will help you prompt Gemini better.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Honor Magic8 Pro vs. Magic9 Pro Max: What's been upgraded?",
+      "url": "https://www.engadget.com/2307825/honor-magic-8-pro-vs-9-pro-upgrade-comparison/",
+      "publishedAt": "2026-11-14T22:00:00.000Z",
+      "excerpt": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Here's when a dedicated graphics card is worth it",
       "url": "https://www.engadget.com/2312688/when-dedicated-graphics-card-worth-it/",
       "publishedAt": "2026-11-14T21:45:00.000Z",
@@ -14540,20 +14569,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Samsung may be getting rid of another One UI feature",
-      "url": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
-      "publishedAt": "2026-11-14T17:30:00.000Z",
-      "excerpt": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
-      "url": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough/",
-      "publishedAt": "2026-11-14T17:15:00.000Z",
-      "excerpt": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
-      "source": "Engadget",
+      "title": "Small nuclear reactors could soon power the next generation of AI data centers — modular reactors could soon power Dow Texas chemical plant",
+      "url": "https://www.techradar.com/pro/small-nuclear-reactors-could-soon-power-the-next-generation-of-ai-data-centers",
+      "publishedAt": "2026-11-14T22:35:00.000Z",
+      "excerpt": "X-energy secures approval for four nuclear reactors in Texas as developers pursue nuclear electricity for increasingly power-hungry AI infrastructure.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14585,19 +14605,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
-      "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
+      "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
+      "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
       "publishedAt": "2026-11-14T18:00:00.000Z",
-      "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
+      "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
-      "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
+      "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
+      "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
       "publishedAt": "2026-11-14T18:00:00.000Z",
-      "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
+      "excerpt": "The game show returns with Kate Garraway, Jordan Banjo and Katherine Ryan joining the fun. Here's how to watch Michael McIntyre's The Wheel online from anywhere, and for free in the UK.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14657,19 +14677,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
-      "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
+      "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
+      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
       "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
+      "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
-      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
+      "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
+      "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
       "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
+      "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14724,15 +14744,6 @@
       "url": "https://www.techradar.com/pro/its-sturdy-and-adaptable-and-now-the-sihoo-doro-c300-pro-v2-office-chair-gets-usd70-off-for-black-friday",
       "publishedAt": "2026-11-14T13:00:00.000Z",
       "excerpt": "It’s sturdy and adaptable, and now the Sihoo Doro C300 Pro V2 office chair gets $70 off",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Skip the novelty mugs — a trained barista’s guide to the best coffee gifts under $50",
-      "url": "https://www.techradar.com/home/coffee-machines/no-novelty-mugs-allowed-im-a-trained-barista-and-ive-picked-18-genuinely-great-gifts-under-usd50-worth-buying-for-the-coffee-lover-in-your-life",
-      "publishedAt": "2026-11-14T13:00:00.000Z",
-      "excerpt": "Show you understand the home barista in your life with a thoughtful gift they'll use daily — and they might even make you a cup to say thanks.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -24191,6 +24202,14 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "長者日優惠懶人包｜今日免費坐巴士港鐵 海洋公園等景點免費入場",
+      "url": "https://hk01.com/sns/article/60410534",
+      "publishedAt": "2026-11-14T22:45:47.000Z",
+      "excerpt": "長者日2026今日（15日）舉行，65歲或以上長者可持樂悠咭或長者八達通，免費乘搭港鐵、九巴及城巴等公共交通工具，亦可免費遊覽山頂纜車及海洋公園等景點。各類長者優惠一覽。 「⻑者⽇2026」 公共交通優惠資格及使⽤⽅法。（社聯文件截圖） 交通優惠 【1】港鐵、輕鐵及港鐵巴士 65歲或以上長者使用「樂悠咭」、長者八達通或個人八達通拍卡，系統會自動將車資設定為0元。優惠不適用於機場快綫、東鐵綫往來羅湖及落馬洲站的過境車程，以及高速鐵路。乘搭東鐵綫頭等車廂，仍須支付頭等額外費。 【2】九巴及龍運巴士 65歲或以上長者 上車時直接拍「樂悠咭」或長者八達通，車資自動設為0元。九巴免費路線不包括P960、",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "76歲婦接82歲患癌男同事回家照料 同住14年不收租 日常開支AA制",
       "url": "https://hk01.com/sns/article/60410507",
       "publishedAt": "2026-11-14T22:10:53.000Z",
@@ -24263,22 +24282,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "李尚正因《玻璃之城》考港大：理想與現實的超大落差",
-      "url": "https://hk01.com/sns/article/60410788",
-      "publishedAt": "2026-11-14T19:00:15.000Z",
-      "excerpt": "",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "旺角兩的士迎頭相撞撼交通燈 6人受傷 警不排除其中一車衝燈",
-      "url": "https://hk01.com/sns/article/60410891",
-      "publishedAt": "2026-11-14T18:21:03.000Z",
-      "excerpt": "旺角發生車禍。今日（15日）凌晨1時許，一輛載有兩名男乘客的市區的士沿洗衣街往太子方向行駛，另一輛載有兩名男乘客的市區的士則沿聯運街駛入弼街，往大角咀方向行駛，駛至洗衣街和弼街交界，兩車迎頭相撞，繼而猛衝撞毀鐵欄和一支交通燈，交通燈頭亦跌落行人路。途經駕駛人士擔心司機被困車內，於是報案。 兩名男司機和4名乘客均受輕傷，在場接受治理，由救護車送往廣華醫院接受治理，警方正調查車禍原因，不排除其中一輛的士衝燈。 就現場所見，兩車車頭嚴重損毀，其中一車車頭冚摺起，路旁鐵欄被撞至變形微凹。 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴重損毀，其中一車車頭冚摺起。（陳永武攝） 兩車車頭嚴",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "BIGBANG｜警連續第二晚土瓜灣戒備 大批車改九龍城渡輪碼頭上客",
       "url": "https://hk01.com/sns/article/60410876",
       "publishedAt": "2026-11-14T15:15:03.000Z",
@@ -24315,6 +24318,14 @@
       "url": "https://hk01.com/sns/article/60410834",
       "publishedAt": "2026-11-14T12:27:44.000Z",
       "excerpt": "韓國天團BIGBANG為慶祝出道20周年，正舉辦世界巡迴演唱會，香港站從昨日（13日）起在啟德主場館舉行4場演唱會，票價由699元至3,099元不等，「黃牛黨」趁機斂財。 今日（14日）為演唱會第二日開鑼、亦是首次遇上周末，記者在啟德主場館外中央廣場視察，由開場前至開場後1小時，仍然見到有為數不少的「黃牛黨」在場兜售門票，未能購票的女粉絲則蜂擁而上圍著「黃牛黨」，問價後爽快取出電話「掃碼」支付。據悉，有關門票原價899元，被抬價至1,600元；2,099元的門票則被炒至3,000元。開場後更有「黃牛」更向放蛇的《香港01》記者直言，前期利潤已「拉勻」成本，拒絕輕易劈價散貨。 不少未能購票的女粉",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "姓「屎」點改名？父母崩潰 祖母加1字即變文雅 老師激讚改得好",
+      "url": "https://hk01.com/sns/article/60410855",
+      "publishedAt": "2026-11-14T12:26:46.000Z",
+      "excerpt": "父母替子女改名是一門學問，隨即影響孩子一生。內地有名姓屎男子，自小因姓氏而被取笑，到他替女兒改名時，與妻子感到非常苦惱，深怕女兒將來也面對被取笑的遭遇，不料祖母出手，想到一個既簡單又文雅名字，成功扭轉孫女將來的人生。 內地男因姓「屎」自小被人取笑，因此十分緊張替子女改名的事，怕他們會重蹈覆轍。（《小偷家族》劇照） 屎爸爸從小被同學取笑 綜合內地媒體報道 ，內地有男子指自己因為姓「屎」，十分罕有，自小成為同儕間的笑柄，常被同學以諧音字取笑。 成為爸爸的屎男，與妻子感到十分苦惱，因為他們要為女兒改名，又擔心女兒會步他後塵，因名字遭同學取笑，於是絞盡腦汁想改個好名字，但一直沒有好主意。直至祖母出手，",
       "source": "香港01",
       "category": "Hong Kong"
     },

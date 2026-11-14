@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-15",
-  "generatedAt": "2026-11-14T19:17:11.954Z",
-  "collectedAt": "2026-11-14T19:17:11.954Z",
+  "generatedAt": "2026-11-14T20:17:20.654Z",
+  "collectedAt": "2026-11-14T20:17:20.654Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -25,24 +30,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50499723"
         },
         {
-          "title": "The VHDL standard's float package gets sqrt(2) wrong",
-          "url": "https://github.com/lmtlssss/speedrunpapi/tree/main/hardware/audit/ieee-float-pkg",
-          "publishedAt": "2026-11-14T17:58:58.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50499188"
-        },
-        {
-          "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-          "publishedAt": "2026-11-14T17:51:13.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50499114"
-        },
-        {
           "title": "US IRS free online tax filing open source repo",
           "url": "https://github.com/IRS-Public/direct-file",
           "publishedAt": "2026-11-14T17:48:20.000Z",
@@ -50,6 +37,15 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50499083"
+        },
+        {
+          "title": "The 'europoors' rants reflect an American insecurity",
+          "url": "https://davekeating.substack.com/p/the-europoors-rants-reflect-an-american",
+          "publishedAt": "2026-11-14T17:45:35.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50499041"
         },
         {
           "title": "A Family Tree of Software Job Titles",
@@ -68,15 +64,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
-        },
-        {
-          "title": "A short history of the honey trap",
-          "url": "https://engelsbergideas.com/notebook/a-short-history-of-the-honey-trap/",
-          "publishedAt": "2026-11-14T16:46:31.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50498437"
         },
         {
           "title": "Creating a self booting ZIP archive",
@@ -122,6 +109,15 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
+        },
+        {
+          "title": "Demystifying phone unlocking tools: A technical overview",
+          "url": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/",
+          "publishedAt": "2026-11-14T14:44:28.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50497416"
         },
         {
           "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
@@ -194,9 +190,18 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50496811"
+        },
+        {
+          "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+          "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+          "publishedAt": "2026-11-14T12:45:45.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50496602"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Verge",
@@ -204,6 +209,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+          "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+          "publishedAt": "2026-11-14T19:47:40.000Z",
+          "excerpt": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 w",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Work to replace old copper wire led to the FAA’s ground stop",
           "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
@@ -355,17 +368,9 @@
           "excerpt": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated thi",
           "source": "The Verge",
           "category": "Technology"
-        },
-        {
-          "title": "The best early Black Friday deals you can already shop",
-          "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-          "publishedAt": "2026-11-13T15:49:27.000Z",
-          "excerpt": "The countdown to Black Friday is on, and the discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessar",
-          "source": "The Verge",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "TechCrunch",
@@ -880,6 +885,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+          "publishedAt": "2026-11-14T20:04:44.000Z",
+          "excerpt": "Even Elon Musk said the monthly fee is \"too high.\"",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
         {
           "title": "Got an iPhone Duo? These 9 settings make it easier to use",
           "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
@@ -1031,17 +1044,9 @@
           "excerpt": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-          "publishedAt": "2026-11-12T21:27:10.000Z",
-          "excerpt": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Slashdot",
@@ -1148,6 +1153,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Hundreds of Fake Accounts Defended Jensen Huang On Social Media",
+          "url": "https://tech.slashdot.org/story/26/11/14/0529218/hundreds-of-fake-accounts-defended-jensen-huang-on-social-media?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-14T20:00:00.000Z",
+          "excerpt": "The Washington Post reports on something peculiar about support for Nvidia CEO Jensen Huang online after he'd told the world he'd been unfaithful to his wife (before reports of his second extramarital affair): Joining the chorus online were voices of seemingly everyday people: a chef, a stock trader",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Amazon Expands Drone Deliveries, and Gets Noise Complaints. 'Like a Swarm of Bees'",
           "url": "https://tech.slashdot.org/story/26/11/14/0755210/amazon-expands-drone-deliveries-and-gets-noise-complaints-like-a-swarm-of-bees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1273,18 +1287,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Advocacy Groups Sue AI Giants to Freeze New Models, Warning of 'Catastrophic' Risks",
-          "url": "https://news.slashdot.org/story/26/11/13/1734203/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-13T18:00:00.000Z",
-          "excerpt": "A coalition of online safety and consumer advocacy groups has sued five of the world's leading artificial intelligence companies, asking a California judge to halt the development and deployment of new AI models until the companies can address what the plaintiffs describe as potentially \"catastrophi",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia (Katie Tarasov/CNBC)",
+          "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+          "publishedAt": "2026-11-14T19:55:01.000Z",
+          "excerpt": "Katie Tarasov / CNBC : Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider &ldquo;the potential return of Jensen Huang&rdquo;; they own $2.13B in Nvidia &nbsp; &mdash;&nbsp; Two major Nvidia shareholders are calling on the board of directors to weigh all opti",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261114/p18#a261114p18",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed (Lauren Edmonds/Business Insider)",
           "url": "https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11",
@@ -1327,7 +1343,7 @@
         },
         {
           "title": "Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a \"faulty router\" (Joseph Pisani/Wall Street Journal)",
-          "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f",
+          "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f?st=zB6eBf",
           "publishedAt": "2026-11-14T17:15:29.000Z",
           "excerpt": "Joseph Pisani / Wall Street Journal : Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a &ldquo;faulty router&rdquo; &nbsp; &mdash;&nbsp; Work at a single remote location caused instability that led authorities t",
           "source": "Techmeme",
@@ -1381,10 +1397,10 @@
           "discoveryChannel": "curator:Techmeme"
         },
         {
-          "title": "How the Swiss city of Lugano is trying to reinvent itself as a crypto hub to boost its economy by launching its own token LVGA, partnering with Tether, and more (Financial Times)",
+          "title": "The Swiss city of Lugano is trying to reinvent itself as a crypto hub and boost its economy by launching its own token LVGA, partnering with Tether, and more (Financial Times)",
           "url": "https://www.ft.com/content/a1bcce14-c326-488f-b736-6e831b0fb6cf?accessToken=zwAAAaHY_bdnkdOhvM4UwyZIj9O3Nm6DGw-2zw.MEUCIQCBXyHHNsgOjjEJ2PQjkcLjJSExdRJKNtibv8XGeKew_QIgU17k6hYW9xMvFN1Fc5T7EBfD6P1hSQhzaIHiqP7qYxg&sharetype=gift&token=638a9a7e-087a-40eb-8ef9-e66519a5dbe7",
           "publishedAt": "2026-11-14T12:05:01.000Z",
-          "excerpt": "Financial Times : How the Swiss city of Lugano is trying to reinvent itself as a crypto hub to boost its economy by launching its own token LVGA, partnering with Tether, and more &nbsp; &mdash;&nbsp; Lugano bets digital assets and a joint venture with the stablecoin giant can boost its economy, but ",
+          "excerpt": "Financial Times : The Swiss city of Lugano is trying to reinvent itself as a crypto hub and boost its economy by launching its own token LVGA, partnering with Tether, and more &nbsp; &mdash;&nbsp; Lugano bets digital assets and a joint venture with the stablecoin giant can boost its economy, but som",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261114/p9#a261114p9",
@@ -1445,20 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261114/p4#a261114p4",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A (Chris Metinko/Axios)",
-          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software",
-          "publishedAt": "2026-11-14T06:30:09.000Z",
-          "excerpt": "Chris Metinko / Axios : Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A &nbsp; &mdash;&nbsp; Luminal, a search compiler and inference cloud provider, raised a $25 million Series A led by Standard",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p3#a261114p3",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1471,42 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Change these Fitbit Edge settings for a better experience",
+          "url": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
+          "publishedAt": "2026-11-14T20:00:00.000Z",
+          "excerpt": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How much did home internet cost in 2001 vs 2026?",
+          "url": "https://www.engadget.com/2311774/home-internet-2001-vs-2026-cost/",
+          "publishedAt": "2026-11-14T19:45:00.000Z",
+          "excerpt": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "That key left of '1' on many keyboards is actually crucial for programmers",
+          "url": "https://www.engadget.com/2309616/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/",
+          "publishedAt": "2026-11-14T19:30:00.000Z",
+          "excerpt": "The humble tilde has many uses.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How to make your Nintendo Switch 2 battery last longer",
+          "url": "https://www.engadget.com/2312052/how-to-make-switch-2-battery-last-longer/",
+          "publishedAt": "2026-11-14T19:15:00.000Z",
+          "excerpt": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "5 excellent free Apple Watch apps every owner should know about",
           "url": "https://www.engadget.com/2311959/free-apple-watch-apps/",
@@ -1609,45 +1650,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Smart glasses could replace your monitor but they shouldn't — here's why",
-          "url": "https://www.engadget.com/2311266/smart-glasses-replace-monitor-why-not/",
-          "publishedAt": "2026-11-14T15:15:00.000Z",
-          "excerpt": "Smart glasses could one day replace your desk setup with a screen that follows you anywhere. Before you make the switch, there are a few things to consider.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The weird reasons why your ethernet cable might be slower than your Wi-Fi",
-          "url": "https://www.engadget.com/2311140/reason-why-ethernet-cable-slower-than-wifi/",
-          "publishedAt": "2026-11-14T15:00:00.000Z",
-          "excerpt": "It could be hardware, software or something else entirely.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Your iPhone has a built-in barometer — Here's how to use it",
-          "url": "https://www.engadget.com/2311121/iphone-barometric-pressure-app-and-how-it-works/",
-          "publishedAt": "2026-11-14T14:45:00.000Z",
-          "excerpt": "The iPhone's barometer is easy to overlook, but it's one of several sensors working behind the scenes every day, collecting data most users haven't seen.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Which Android Phones Are Most Similar To The OnePlus 16?",
-          "url": "https://www.engadget.com/2311107/android-phones-most-similar-oneplus-16/",
-          "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "While the OnePlus 16 isn't available in the US or Europe, there are lots of good alternatives.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "TechRadar",
@@ -1674,15 +1679,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
-          "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
-          "publishedAt": "2026-11-14T18:00:00.000Z",
-          "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
           "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
           "publishedAt": "2026-11-14T18:00:00.000Z",
@@ -1692,19 +1688,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Austria vs Ireland: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture",
-          "url": "https://www.techradar.com/entertainment/football/watch-austria-vs-ireland-free-live-nations-league-2026-27",
-          "publishedAt": "2026-11-14T17:10:00.000Z",
-          "excerpt": "How you can watch Austria vs Ireland in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
+          "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
+          "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
+          "publishedAt": "2026-11-14T18:00:00.000Z",
+          "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels",
-          "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
-          "publishedAt": "2026-11-14T17:00:00.000Z",
-          "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
+          "title": "How to watch Austria vs Ireland: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture, team news",
+          "url": "https://www.techradar.com/entertainment/football/watch-austria-vs-ireland-free-live-nations-league-2026-27",
+          "publishedAt": "2026-11-14T17:10:00.000Z",
+          "excerpt": "How you can watch Austria vs Ireland in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1728,6 +1724,15 @@
           "sourceRole": "publisher"
         },
         {
+          "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels, team news",
+          "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
+          "publishedAt": "2026-11-14T17:00:00.000Z",
+          "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "FlexiSpot's E7 Pro standing desk has prices starting from just $399.99 in the Black Friday sale",
           "url": "https://www.techradar.com/pro/flexispots-e7-pro-standing-desk-has-prices-starting-from-just-usd399-99-in-the-black-friday-sale",
           "publishedAt": "2026-11-14T15:10:00.000Z",
@@ -1746,19 +1751,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
-          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
+          "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
+          "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
           "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
+          "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
-          "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
+          "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
+          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
           "publishedAt": "2026-11-14T14:30:00.000Z",
-          "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
+          "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1836,7 +1841,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2381,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2525,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Creative Bloq",
@@ -2691,15 +2696,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How I created this ninja puppet scene inspired by Naruto",
-          "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
-          "publishedAt": "2026-11-12T07:00:00.000Z",
-          "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "The toy company Tomy has a new logo, and people are baffled",
           "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
           "publishedAt": "2026-11-12T07:00:00.000Z",
@@ -2707,9 +2703,18 @@
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
+        },
+        {
+          "title": "How I created this ninja puppet scene inspired by Naruto",
+          "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+          "publishedAt": "2026-11-12T07:00:00.000Z",
+          "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2923,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3092,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3261,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3350,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3519,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3688,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3877,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3880,6 +3885,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Air Travel Chaos Continues After FAA Ground Stop: As It Happened",
+          "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-14T17:42:00.000Z",
+          "excerpt": "Upgrade work by an FAA contractor triggered the systemwide collapse.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Olivia Wilde Gets Why People Keep Asking About Don’t Worry Darling",
+          "url": "http://www.vulture.com/article/olivia-wilde-dont-worry-darling-reflection.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-14T17:32:28.000Z",
+          "excerpt": "Even if it’s the “least interesting thing about” her.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Man Sleeping With a Gooner",
+          "url": "http://www.thecut.com/article/new-sex-diaries-story-the-man-sleeping-with-a-gooner.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-14T17:18:49.000Z",
+          "excerpt": "In this week’s story, a 25-year-old in Atlanta is faced with competing fetishes.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "What Would It Take for Me to Start Tracking My Kids’ Locations?",
           "url": "http://www.thecut.com/article/what-would-it-take-for-me-to-start-tracking-my-kids.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -3903,15 +3935,6 @@
           "url": "http://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
           "publishedAt": "2026-11-14T10:00:00.000Z",
           "excerpt": "Can you name a Zooey Deschanel movie with double letters in the title?",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "FAA Lifts Crippling Ground Stop: Live Updates",
-          "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-14T04:54:00.000Z",
-          "excerpt": "Everything is still a mess though. Here’s the latest.",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4041,27 +4064,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Best-in-Class Rain Boots, a Very Cute Lamp, and More Excellent Deals",
-          "url": "http://www.thecut.com/article/sale-hunter-material-kitchen-naadam.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-13T19:58:13.000Z",
-          "excerpt": "Including a cozy Outdoor Voices fleece, home décor from Ban.do, and La Roche-Posay lotion.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Avril Lavigne Has Welcomed a Pop-Punk Baby",
-          "url": "http://www.thecut.com/article/avril-lavigne-has-welcomed-a-pop-punk-baby.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-13T19:34:57.000Z",
-          "excerpt": "And she’s already invested in tiny checkered Vans.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Atlantic",
@@ -4250,7 +4255,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The New Yorker",
@@ -4439,7 +4444,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4573,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "IndieWire",
@@ -4585,7 +4590,7 @@
           "category": "Culture"
         },
         {
-          "title": "After ‘Bitter Christmas,’ Pedro Almodóvar Might Be Done with English-Language Movies",
+          "title": "After Returning to Spanish with ‘Bitter Christmas,’ Pedro Almodóvar Might Be Done with English-Language Movies",
           "url": "https://www.indiewire.com/features/interviews/pedro-almodovar-interview-bitter-christmas-1235227376/",
           "publishedAt": "2026-11-13T23:42:00.000Z",
           "excerpt": "Stealing stories from your friends is part of the creative process, he said. \"There is not any law that creates the limits of the autofiction.\"",
@@ -4673,7 +4678,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4867,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5056,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5225,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5394,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5523,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5622,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5811,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6000,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "n+1",
@@ -6184,6 +6189,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
     },
     {
@@ -6289,7 +6295,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6464,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6633,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6802,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6971,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7160,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7329,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7498,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,7 +7627,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Five Books",
@@ -7790,7 +7796,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7965,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8154,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8323,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8492,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8681,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8850,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9019,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9108,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9297,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9486,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9675,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9844,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10013,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10182,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10371,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10540,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10709,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10918,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11127,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Waxy",
@@ -11350,7 +11356,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "MetaFilter",
@@ -11431,7 +11437,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11620,7 +11626,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Dense Discovery",
@@ -11829,7 +11835,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "香港01",
@@ -11838,10 +11844,42 @@
       "count": 20,
       "stories": [
         {
+          "title": "車Cam｜觀塘女童衝出馬路 Cam車司機立即響號 網民：遲早一鑊",
+          "url": "https://hk01.com/sns/article/60410895",
+          "publishedAt": "2026-11-14T20:13:01.000Z",
+          "excerpt": "Facebook群組「車cam L（香港群組）」流傳一段「車Cam」，顯示昨日（14日）中午12時許，Cam車沿觀塘協和街右轉入月華街時，一名女童本身站在馬路，以為無車經過，於是衝出馬路，相信想前往對面行人路，Cam車司機立即響號，女童立即避車。事件中，無人受傷。 帖主表示「要教好小朋友過馬路」，許多網民亦留言「妹妹望都唔望，真係遲早一鑊」、「啲大人都係咁上下㗎咋」。 運輸署《道路使用者守則》 訂明6項基本過馬路守則，包括選擇安全的過路地點、站定觀察交通情況、留意來車方向及速度，以及確定安全後才直線橫過馬路。署方提醒，即使使用行人過路處，亦應小心觀察四周，切勿以為駕駛者必定會減速或停車讓路。行",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "李尚正的大學生活社交：讀大學不交朋友談戀愛就白讀了",
+          "url": "https://hk01.com/sns/article/60410790",
+          "publishedAt": "2026-11-14T20:00:45.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "旺角鬧市人來人往 藍衣男當眾小便 網民批：報警捉人啦｜有片",
+          "url": "https://hk01.com/sns/article/60410894",
+          "publishedAt": "2026-11-14T19:19:12.000Z",
+          "excerpt": "Facebook群組「車cam L（香港群組）」昨日（14日）瘋傳一段影片，一名身穿藍色短袖上衣、黑色長褲的男子，站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊，藍衣男雙目緊閉，臉部通紅，不排除事前飲過酒。 現場食肆燈火通明，人來人往，包括婦孺經過現場，眾人分別望了一眼便離開，甚至一臉愕然。 男子站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊。（Facebook群組「車cam L（香港群組）」影片截圖） 帖主將片中男子私隱部位打格，但沒有交代到拍攝日期和時間，許多網民留言指「人渣」、「報警，銳眼可以捉人啦」、「同狗無分別」、「做乜",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "李尚正因《玻璃之城》考港大：理想與現實的超大落差",
           "url": "https://hk01.com/sns/article/60410788",
           "publishedAt": "2026-11-14T19:00:15.000Z",
           "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "招聘高薪司機詐騙！首日裝備4000公升水辭職反賠¥2.5萬 警拘18人",
+          "url": "https://hk01.com/sns/article/60410277",
+          "publishedAt": "2026-11-14T18:57:40.000Z",
+          "excerpt": "求職陷阱層出不窮！上海有詐騙集團以「月入過萬、公司配車」為餌，誘騙求職者簽訂苛刻的租車合約，有受害司機應徵後首天要裝卸4,000公升（即4噸）飲用水，苦幹6小時僅獲140人民幣（約164港元），要求辭職時更反被索取巨額違約金，最終倒貼逾2.5萬人民幣（約3萬港元）。當地公安近日搗破該集團，拘捕18人，涉案金額高達300多萬人民幣（約352萬港元）。 該公司的招聘信息。（網上影片截圖） 報稱日薪¥800 租車押金等預繳¥11300 據央視 《法治在線》 報道，2026年3月，貨車司機沈先生在上海嘉定區應徵1間物流公司的貨運司機，招聘廣告聲稱由公司配車、包住宿，日入約800人民幣（約940港元）、",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11886,38 +11924,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "美交通部長：全國停飛因更換舊銅線所致 已請求國會撥款改善系統",
-          "url": "https://hk01.com/sns/article/60410890",
-          "publishedAt": "2026-11-14T17:29:32.000Z",
-          "excerpt": "美國交通部長達菲（Sean Duffy）11月14日（周六）在記者會上表示，全國停飛因更換舊銅線工作所致，並重申美國的電信系統「極其老舊」。達菲稱，政府不認為這是一宗網絡攻擊事件，但調查仍在進行中，且他已再次請求國會撥款改善空中交通管制系統。 綜合外媒報道，達菲稱，技術供應商L3Harris正在進行維護工作，將銅線更換為光纖。而政府目前正在調查問題是由L3Harris的「不稱職」造成的，還是由設備故障造成的。 2026年11月14日，美國交通部長達菲（Sean Duffy）在華盛頓特區交通部舉行的新聞發布會上發表講話。（Reuters） 達菲表示，正在維修的路由器開始向其他空中交通管制系統發送",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "台慶｜司儀大合照驚見一人被遮樣 麥美恩似成功逃離「雪櫃」",
-          "url": "https://hk01.com/sns/article/60410874",
-          "publishedAt": "2026-11-14T17:00:32.000Z",
-          "excerpt": "無綫年度盛事《萬千星輝賀台慶》將於本月19日隆重舉行，每年的司儀陣容都備受網民及觀眾關注。日前無綫釋出最新司儀陣容，由「鎮台之寶」汪明荃（阿姐）率領陳貝兒、黃翠如等12位猛將坐鎮。不過，在最新曝光的一張大合照中，竟然有一位女司儀的靚樣被離奇遮蓋，引來一眾網民瘋狂競猜到底這位「神秘人」是誰。 司儀大合照驚見一人被遮樣。（IG＠kirbysau） 馮盈盈連續兩年No Show靜待公司派Job 去年同樣缺席台慶的馮盈盈（FYY）就預告今年會繼續「No Show」。盈盈昨日出席活動時解釋，因為台慶翌日要應付考試，為爭取時間溫書，早於一年前已向公司請假，並慶幸獲公司體諒。事實上，盈盈早前連無綫節目巡禮亦",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "李尚正談教師家庭背景：父母開明從不逼迫讀書",
-          "url": "https://hk01.com/sns/article/60410785",
-          "publishedAt": "2026-11-14T17:00:16.000Z",
-          "excerpt": "",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "余文樂45歲生日甩婚變陰霾生活超愜意 恢復單身獲好友慶生不寂寞",
-          "url": "https://hk01.com/sns/article/60410847",
-          "publishedAt": "2026-11-14T16:30:31.000Z",
-          "excerpt": "男星余文樂在宣布離婚後迎來首個生日，正式踏入45歲大關。雖然恢復單身，但向來人緣極佳的他一點也不寂寞，連日來獲一眾好友輪流為他慶祝，心情大靚。從曝光的慶生照可見，身穿灰藍色T恤的余文樂狀態輕鬆自在，穩坐C位與五位男女好友開心合照，桌上更擺放了兩個精緻蛋糕及美酒，氣氛相當融洽。 余文樂離婚後首個生日不寂寞。（IG@lok666） 45歲獲好友連環慶生切「滾燙45章」蛋糕。（IG@lok666） 蛋糕造型好用心。（IG@lok666） 《頭文字D》宿敵陳冠希罕見互動掀回憶殺 事業與生活步入新階段的同時，余文樂昔日的經典代表作《頭文字D》近日亦意外掀起全網「回憶殺」。事緣周杰倫在社交平台分享與余文樂",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "BIGBANG｜警連續第二晚土瓜灣戒備 大批車改九龍城渡輪碼頭上客",
           "url": "https://hk01.com/sns/article/60410876",
           "publishedAt": "2026-11-14T15:15:03.000Z",
@@ -11930,14 +11936,6 @@
           "url": "https://hk01.com/sns/article/60410883",
           "publishedAt": "2026-11-14T14:59:53.000Z",
           "excerpt": "英偉達（Nvidia、NVDA，又名輝達）創辦人黃仁勳（Jensen Huang）爆出婚外情醜聞後，辭去行政總裁等職務，路透社11月14日曝光數張黃仁勳與婚外情女主角黃樂（Alice Huang）2024年在台北國際電腦展上的照片，可見兩人搭肩攬腰。 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "漁護署巡查觀塘小西灣海旁未發現狗主違規 11.21續巡視其他地點",
-          "url": "https://hk01.com/sns/article/60410881",
-          "publishedAt": "2026-11-14T14:59:02.000Z",
-          "excerpt": "漁護署今日（14日）分別派員到小西灣海濱花園及觀塘海濱花園一帶，進行妥善控制狗隻巡查及執法行動。巡查期間，未有發現任何畜養人於公眾地方未有以狗帶牽引大型狗隻。漁護署將於下周六（21日）繼續在其他地點進行妥善控制狗隻巡查及執法行動。 漁護署今日（14日）分別派員到小西灣海濱花園及觀塘海濱花園一帶進行妥善控制狗隻巡查及執法行動。巡查期間，未有發現任何畜養人於公眾地方未有以狗帶牽引大型狗隻。(漁護署提供) 如未按要求妥善控制狗隻 即時執法不作預先警告 漁護署人員巡查期間，向公眾派發傳單，提醒狗隻畜養人於公眾地方須妥善控制狗隻，20公斤或以上的狗隻更必須以不長於2米的狗帶牽引，以保障公眾及動物安全。 ",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11996,9 +11994,17 @@
           "excerpt": "再有小學六年級呈分試需要重考。元朗官立小學有家長向《香港01》反映，六年級中文科閱讀卷涉「抄考」舊試卷，有三篇文章與校內數年前測驗試卷一樣，有關試卷早年已流出，坊間有補習社用作操練。校方於試後一周發出通告，確認「部分篇章及題型與過往曾出現之評估篇章相似」，並將收緊擬題機制 ，嚴格規定不能重用篇章。 教育局回覆查詢指，已接獲有關學校的通報，已要求學校嚴肅跟進及妥善處理，就事件提交詳細調查報告及改善措施。 元朗官立小學有老師抄舊襲試卷，導致六年級生需要重考呈分試。（元朗官立小學校網） 質疑小六教師「抄考」歷年試卷 坊間補習社曾用作訓練題 元朗官立小學六年級於上周五（6日）應考呈分試，其中文科閱讀卷",
           "source": "香港01",
           "category": "Hong Kong"
+        },
+        {
+          "title": "黃仁勳出軌｜張家輝偷食言論瘋傳 「呢個咩罪名呀，都係衰鹹濕」",
+          "url": "https://hk01.com/sns/article/60410755",
+          "publishedAt": "2026-11-14T07:25:32.000Z",
+          "excerpt": "張家輝今日（14/11）出席《大娛樂騷》記者會。上星期，英偉達行政總裁黃仁勳（Jensen Huang）於11月8日，向員工發電郵承認出軌，而女主角是中國籍女子黃樂（又名Alice Huang），事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌誘惑的回應也翻Hit。有網民指他是先知，亦特別清醒，但他不覺得自己特別有見地︰「呢個係咩罪名呀，都係衰鹹濕，成日以為無人知，尤其你愛得熱烈就唔記得有冇人知。」 黃仁勳出軌｜張家輝曾剖白偷食代價大 「所有嘢要換晒唔襟計喎」 英偉達行政總裁黃仁勳承認出軌，事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌",
+          "source": "香港01",
+          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "有線新聞",
@@ -12167,7 +12173,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Now 新聞",
@@ -12336,7 +12342,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12505,7 +12511,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12674,7 +12680,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "South China Morning Post",
@@ -12843,7 +12849,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13012,7 +13018,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-14T19:17:11.954Z"
+      "lastSuccessfulAt": "2026-11-14T20:17:20.654Z"
     }
   ],
   "stories": [
@@ -13026,24 +13032,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50499723"
     },
     {
-      "title": "The VHDL standard's float package gets sqrt(2) wrong",
-      "url": "https://github.com/lmtlssss/speedrunpapi/tree/main/hardware/audit/ieee-float-pkg",
-      "publishedAt": "2026-11-14T17:58:58.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50499188"
-    },
-    {
-      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-      "publishedAt": "2026-11-14T17:51:13.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50499114"
-    },
-    {
       "title": "US IRS free online tax filing open source repo",
       "url": "https://github.com/IRS-Public/direct-file",
       "publishedAt": "2026-11-14T17:48:20.000Z",
@@ -13051,6 +13039,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499083"
+    },
+    {
+      "title": "The 'europoors' rants reflect an American insecurity",
+      "url": "https://davekeating.substack.com/p/the-europoors-rants-reflect-an-american",
+      "publishedAt": "2026-11-14T17:45:35.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50499041"
     },
     {
       "title": "A Family Tree of Software Job Titles",
@@ -13069,15 +13066,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
-    },
-    {
-      "title": "A short history of the honey trap",
-      "url": "https://engelsbergideas.com/notebook/a-short-history-of-the-honey-trap/",
-      "publishedAt": "2026-11-14T16:46:31.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50498437"
     },
     {
       "title": "Creating a self booting ZIP archive",
@@ -13123,6 +13111,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
+    },
+    {
+      "title": "Demystifying phone unlocking tools: A technical overview",
+      "url": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/",
+      "publishedAt": "2026-11-14T14:44:28.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497416"
     },
     {
       "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
@@ -13195,6 +13192,23 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50496811"
+    },
+    {
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "publishedAt": "2026-11-14T12:45:45.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50496602"
+    },
+    {
+      "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+      "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+      "publishedAt": "2026-11-14T19:47:40.000Z",
+      "excerpt": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 w",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
       "title": "Work to replace old copper wire led to the FAA’s ground stop",
@@ -13345,14 +13359,6 @@
       "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
       "publishedAt": "2026-11-13T16:00:00.000Z",
       "excerpt": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated thi",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "The best early Black Friday deals you can already shop",
-      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "publishedAt": "2026-11-13T15:49:27.000Z",
-      "excerpt": "The countdown to Black Friday is on, and the discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessar",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13837,6 +13843,14 @@
       "category": "Technology"
     },
     {
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+      "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+      "publishedAt": "2026-11-14T20:04:44.000Z",
+      "excerpt": "Even Elon Musk said the monthly fee is \"too high.\"",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Got an iPhone Duo? These 9 settings make it easier to use",
       "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
       "publishedAt": "2026-11-14T18:00:00.000Z",
@@ -13989,14 +14003,6 @@
       "category": "Technology"
     },
     {
-      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "publishedAt": "2026-11-12T21:27:10.000Z",
-      "excerpt": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "title": "Jensen Huang struggled to reach Beijing’s chip policymakers, FT says",
       "url": "https://thenextweb.com/news/jensen-huang-struggled-to-reach-beijings-chip-policymakers-ft-says",
       "publishedAt": "2026-11-14T15:34:04.000Z",
@@ -14085,6 +14091,15 @@
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
+    },
+    {
+      "title": "Hundreds of Fake Accounts Defended Jensen Huang On Social Media",
+      "url": "https://tech.slashdot.org/story/26/11/14/0529218/hundreds-of-fake-accounts-defended-jensen-huang-on-social-media?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "excerpt": "The Washington Post reports on something peculiar about support for Nvidia CEO Jensen Huang online after he'd told the world he'd been unfaithful to his wife (before reports of his second extramarital affair): Joining the chorus online were voices of seemingly everyday people: a chef, a stock trader",
+      "source": "Slashdot",
+      "category": "Technology",
+      "sourceRole": "community"
     },
     {
       "title": "Amazon Expands Drone Deliveries, and Gets Noise Complaints. 'Like a Swarm of Bees'",
@@ -14213,13 +14228,15 @@
       "sourceRole": "community"
     },
     {
-      "title": "Advocacy Groups Sue AI Giants to Freeze New Models, Warning of 'Catastrophic' Risks",
-      "url": "https://news.slashdot.org/story/26/11/13/1734203/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-13T18:00:00.000Z",
-      "excerpt": "A coalition of online safety and consumer advocacy groups has sued five of the world's leading artificial intelligence companies, asking a California judge to halt the development and deployment of new AI models until the companies can address what the plaintiffs describe as potentially \"catastrophi",
-      "source": "Slashdot",
+      "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia (Katie Tarasov/CNBC)",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "publishedAt": "2026-11-14T19:55:01.000Z",
+      "excerpt": "Katie Tarasov / CNBC : Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider &ldquo;the potential return of Jensen Huang&rdquo;; they own $2.13B in Nvidia &nbsp; &mdash;&nbsp; Two major Nvidia shareholders are calling on the board of directors to weigh all opti",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261114/p18#a261114p18",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed (Lauren Edmonds/Business Insider)",
@@ -14256,7 +14273,7 @@
     },
     {
       "title": "Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a \"faulty router\" (Joseph Pisani/Wall Street Journal)",
-      "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f",
+      "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f?st=zB6eBf",
       "publishedAt": "2026-11-14T17:15:29.000Z",
       "excerpt": "Joseph Pisani / Wall Street Journal : Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a &ldquo;faulty router&rdquo; &nbsp; &mdash;&nbsp; Work at a single remote location caused instability that led authorities t",
       "source": "Techmeme",
@@ -14310,10 +14327,10 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "How the Swiss city of Lugano is trying to reinvent itself as a crypto hub to boost its economy by launching its own token LVGA, partnering with Tether, and more (Financial Times)",
+      "title": "The Swiss city of Lugano is trying to reinvent itself as a crypto hub and boost its economy by launching its own token LVGA, partnering with Tether, and more (Financial Times)",
       "url": "https://www.ft.com/content/a1bcce14-c326-488f-b736-6e831b0fb6cf?accessToken=zwAAAaHY_bdnkdOhvM4UwyZIj9O3Nm6DGw-2zw.MEUCIQCBXyHHNsgOjjEJ2PQjkcLjJSExdRJKNtibv8XGeKew_QIgU17k6hYW9xMvFN1Fc5T7EBfD6P1hSQhzaIHiqP7qYxg&sharetype=gift&token=638a9a7e-087a-40eb-8ef9-e66519a5dbe7",
       "publishedAt": "2026-11-14T12:05:01.000Z",
-      "excerpt": "Financial Times : How the Swiss city of Lugano is trying to reinvent itself as a crypto hub to boost its economy by launching its own token LVGA, partnering with Tether, and more &nbsp; &mdash;&nbsp; Lugano bets digital assets and a joint venture with the stablecoin giant can boost its economy, but ",
+      "excerpt": "Financial Times : The Swiss city of Lugano is trying to reinvent itself as a crypto hub and boost its economy by launching its own token LVGA, partnering with Tether, and more &nbsp; &mdash;&nbsp; Lugano bets digital assets and a joint venture with the stablecoin giant can boost its economy, but som",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261114/p9#a261114p9",
@@ -14376,15 +14393,40 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A (Chris Metinko/Axios)",
-      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software",
-      "publishedAt": "2026-11-14T06:30:09.000Z",
-      "excerpt": "Chris Metinko / Axios : Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A &nbsp; &mdash;&nbsp; Luminal, a search compiler and inference cloud provider, raised a $25 million Series A led by Standard",
-      "source": "Techmeme",
+      "title": "Change these Fitbit Edge settings for a better experience",
+      "url": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "excerpt": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p3#a261114p3",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How much did home internet cost in 2001 vs 2026?",
+      "url": "https://www.engadget.com/2311774/home-internet-2001-vs-2026-cost/",
+      "publishedAt": "2026-11-14T19:45:00.000Z",
+      "excerpt": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "That key left of '1' on many keyboards is actually crucial for programmers",
+      "url": "https://www.engadget.com/2309616/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/",
+      "publishedAt": "2026-11-14T19:30:00.000Z",
+      "excerpt": "The humble tilde has many uses.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How to make your Nintendo Switch 2 battery last longer",
+      "url": "https://www.engadget.com/2312052/how-to-make-switch-2-battery-last-longer/",
+      "publishedAt": "2026-11-14T19:15:00.000Z",
+      "excerpt": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "5 excellent free Apple Watch apps every owner should know about",
@@ -14531,42 +14573,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Smart glasses could replace your monitor but they shouldn't — here's why",
-      "url": "https://www.engadget.com/2311266/smart-glasses-replace-monitor-why-not/",
-      "publishedAt": "2026-11-14T15:15:00.000Z",
-      "excerpt": "Smart glasses could one day replace your desk setup with a screen that follows you anywhere. Before you make the switch, there are a few things to consider.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The weird reasons why your ethernet cable might be slower than your Wi-Fi",
-      "url": "https://www.engadget.com/2311140/reason-why-ethernet-cable-slower-than-wifi/",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "excerpt": "It could be hardware, software or something else entirely.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Your iPhone has a built-in barometer — Here's how to use it",
-      "url": "https://www.engadget.com/2311121/iphone-barometric-pressure-app-and-how-it-works/",
-      "publishedAt": "2026-11-14T14:45:00.000Z",
-      "excerpt": "The iPhone's barometer is easy to overlook, but it's one of several sensors working behind the scenes every day, collecting data most users haven't seen.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Which Android Phones Are Most Similar To The OnePlus 16?",
-      "url": "https://www.engadget.com/2311107/android-phones-most-similar-oneplus-16/",
-      "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "While the OnePlus 16 isn't available in the US or Europe, there are lots of good alternatives.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "'It’s time to retire the stereotype that gaming is a waste of time': Logitech is giving workers the day off to play video games — just as GTA VI is set to launch",
       "url": "https://www.techradar.com/pro/its-time-to-retire-the-stereotype-that-gaming-is-a-waste-of-time-logitech-is-giving-workers-the-day-off-to-play-video-games-just-as-gta-vi-is-set-to-launch",
       "publishedAt": "2026-11-14T19:05:00.000Z",
@@ -14585,15 +14591,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
-      "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
-      "publishedAt": "2026-11-14T18:00:00.000Z",
-      "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "How to watch Michael McIntyre's The Wheel season 7 for free — stream from anywhere",
       "url": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-michael-mcintyres-the-wheel-season-7",
       "publishedAt": "2026-11-14T18:00:00.000Z",
@@ -14603,19 +14600,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Austria vs Ireland: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture",
-      "url": "https://www.techradar.com/entertainment/football/watch-austria-vs-ireland-free-live-nations-league-2026-27",
-      "publishedAt": "2026-11-14T17:10:00.000Z",
-      "excerpt": "How you can watch Austria vs Ireland in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
+      "title": "This game-changing app has unlocked my iPhone Duo's coding potential",
+      "url": "https://www.techradar.com/phones/iphone/the-iphone-duo-has-transformed-how-i-code-with-my-mac-and-this-game-changing-app-unlocked-its-productivity-potential",
+      "publishedAt": "2026-11-14T18:00:00.000Z",
+      "excerpt": "Using the iPhone Duo with Cursor and Astropad Workbench has transformed my ability to code on the go.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels",
-      "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
-      "publishedAt": "2026-11-14T17:00:00.000Z",
-      "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
+      "title": "How to watch Austria vs Ireland: FREE live streams, TV channels & kick-off time for Nations League 2026/27 fixture, team news",
+      "url": "https://www.techradar.com/entertainment/football/watch-austria-vs-ireland-free-live-nations-league-2026-27",
+      "publishedAt": "2026-11-14T17:10:00.000Z",
+      "excerpt": "How you can watch Austria vs Ireland in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14639,6 +14636,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "How to watch Ireland vs Fiji for FREE: Nations Championship 2026 live streams & TV channels, team news",
+      "url": "https://www.techradar.com/entertainment/rugby/watch-ireland-vs-fiji-nations-championship-2026-free",
+      "publishedAt": "2026-11-14T17:00:00.000Z",
+      "excerpt": "All the ways to watch Ireland vs Fiji live streams online – including for FREE – as Men in Green target the Nations Championship 2026 final.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "FlexiSpot's E7 Pro standing desk has prices starting from just $399.99 in the Black Friday sale",
       "url": "https://www.techradar.com/pro/flexispots-e7-pro-standing-desk-has-prices-starting-from-just-usd399-99-in-the-black-friday-sale",
       "publishedAt": "2026-11-14T15:10:00.000Z",
@@ -14657,19 +14663,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
-      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
+      "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
+      "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
       "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
+      "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Norway vs Wales: FREE live streams, team news, TV channels & kick-off time for Nations League 2026/27 fixture",
-      "url": "https://www.techradar.com/entertainment/football/watch-norway-vs-wales-nations-league-2026-27-free",
+      "title": "'Sharp and futuristic': I rode Honda's first full-sized electric motorcycle",
+      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/sharp-and-futuristic-i-rode-hondas-first-full-sized-electric-motorcycle-the-wn7-sets-a-new-benchmark-but-i-still-didnt-feel-the-spark",
       "publishedAt": "2026-11-14T14:30:00.000Z",
-      "excerpt": "How you can watch Norway vs Wales in the Nations League for free online from anywhere in the world, with TV channels, kick-off time included.",
+      "excerpt": "The Honda WN7 proves that electric motorcycles are getting serious, but I struggled to make a connection after my ride.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15557,19 +15563,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How I created this ninja puppet scene inspired by Naruto",
-      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+      "title": "The toy company Tomy has a new logo, and people are baffled",
+      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
+      "excerpt": "The new design is all about play.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
     },
     {
-      "title": "The toy company Tomy has a new logo, and people are baffled",
-      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+      "title": "How I created this ninja puppet scene inspired by Naruto",
+      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "The new design is all about play.",
+      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16675,6 +16681,33 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Air Travel Chaos Continues After FAA Ground Stop: As It Happened",
+      "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-14T17:42:00.000Z",
+      "excerpt": "Upgrade work by an FAA contractor triggered the systemwide collapse.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Olivia Wilde Gets Why People Keep Asking About Don’t Worry Darling",
+      "url": "http://www.vulture.com/article/olivia-wilde-dont-worry-darling-reflection.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-14T17:32:28.000Z",
+      "excerpt": "Even if it’s the “least interesting thing about” her.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Man Sleeping With a Gooner",
+      "url": "http://www.thecut.com/article/new-sex-diaries-story-the-man-sleeping-with-a-gooner.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-14T17:18:49.000Z",
+      "excerpt": "In this week’s story, a 25-year-old in Atlanta is faced with competing fetishes.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "What Would It Take for Me to Start Tracking My Kids’ Locations?",
       "url": "http://www.thecut.com/article/what-would-it-take-for-me-to-start-tracking-my-kids.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-14T12:00:30.000Z",
@@ -16697,15 +16730,6 @@
       "url": "http://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-14T10:00:00.000Z",
       "excerpt": "Can you name a Zooey Deschanel movie with double letters in the title?",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "FAA Lifts Crippling Ground Stop: Live Updates",
-      "url": "http://nymag.com/intelligencer/article/faa-grounds-all-us-flights-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-14T04:54:00.000Z",
-      "excerpt": "Everything is still a mess though. Here’s the latest.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16832,24 +16856,6 @@
       "url": "http://www.vulture.com/article/taylor-swift-is-campaigning-correctly-in-2027-oscars-run.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-13T20:00:27.000Z",
       "excerpt": "So far, the star has been able to stick to the script.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Best-in-Class Rain Boots, a Very Cute Lamp, and More Excellent Deals",
-      "url": "http://www.thecut.com/article/sale-hunter-material-kitchen-naadam.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-13T19:58:13.000Z",
-      "excerpt": "Including a cozy Outdoor Voices fleece, home décor from Ban.do, and La Roche-Posay lotion.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Avril Lavigne Has Welcomed a Pop-Punk Baby",
-      "url": "http://www.thecut.com/article/avril-lavigne-has-welcomed-a-pop-punk-baby.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-13T19:34:57.000Z",
-      "excerpt": "And she’s already invested in tiny checkered Vans.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17343,7 +17349,7 @@
       "category": "Culture"
     },
     {
-      "title": "After ‘Bitter Christmas,’ Pedro Almodóvar Might Be Done with English-Language Movies",
+      "title": "After Returning to Spanish with ‘Bitter Christmas,’ Pedro Almodóvar Might Be Done with English-Language Movies",
       "url": "https://www.indiewire.com/features/interviews/pedro-almodovar-interview-bitter-christmas-1235227376/",
       "publishedAt": "2026-11-13T23:42:00.000Z",
       "excerpt": "Stealing stories from your friends is part of the creative process, he said. \"There is not any law that creates the limits of the autofiction.\"",
@@ -24209,10 +24215,42 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "車Cam｜觀塘女童衝出馬路 Cam車司機立即響號 網民：遲早一鑊",
+      "url": "https://hk01.com/sns/article/60410895",
+      "publishedAt": "2026-11-14T20:13:01.000Z",
+      "excerpt": "Facebook群組「車cam L（香港群組）」流傳一段「車Cam」，顯示昨日（14日）中午12時許，Cam車沿觀塘協和街右轉入月華街時，一名女童本身站在馬路，以為無車經過，於是衝出馬路，相信想前往對面行人路，Cam車司機立即響號，女童立即避車。事件中，無人受傷。 帖主表示「要教好小朋友過馬路」，許多網民亦留言「妹妹望都唔望，真係遲早一鑊」、「啲大人都係咁上下㗎咋」。 運輸署《道路使用者守則》 訂明6項基本過馬路守則，包括選擇安全的過路地點、站定觀察交通情況、留意來車方向及速度，以及確定安全後才直線橫過馬路。署方提醒，即使使用行人過路處，亦應小心觀察四周，切勿以為駕駛者必定會減速或停車讓路。行",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "李尚正的大學生活社交：讀大學不交朋友談戀愛就白讀了",
+      "url": "https://hk01.com/sns/article/60410790",
+      "publishedAt": "2026-11-14T20:00:45.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "旺角鬧市人來人往 藍衣男當眾小便 網民批：報警捉人啦｜有片",
+      "url": "https://hk01.com/sns/article/60410894",
+      "publishedAt": "2026-11-14T19:19:12.000Z",
+      "excerpt": "Facebook群組「車cam L（香港群組）」昨日（14日）瘋傳一段影片，一名身穿藍色短袖上衣、黑色長褲的男子，站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊，藍衣男雙目緊閉，臉部通紅，不排除事前飲過酒。 現場食肆燈火通明，人來人往，包括婦孺經過現場，眾人分別望了一眼便離開，甚至一臉愕然。 男子站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊。（Facebook群組「車cam L（香港群組）」影片截圖） 帖主將片中男子私隱部位打格，但沒有交代到拍攝日期和時間，許多網民留言指「人渣」、「報警，銳眼可以捉人啦」、「同狗無分別」、「做乜",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "李尚正因《玻璃之城》考港大：理想與現實的超大落差",
       "url": "https://hk01.com/sns/article/60410788",
       "publishedAt": "2026-11-14T19:00:15.000Z",
       "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "招聘高薪司機詐騙！首日裝備4000公升水辭職反賠¥2.5萬 警拘18人",
+      "url": "https://hk01.com/sns/article/60410277",
+      "publishedAt": "2026-11-14T18:57:40.000Z",
+      "excerpt": "求職陷阱層出不窮！上海有詐騙集團以「月入過萬、公司配車」為餌，誘騙求職者簽訂苛刻的租車合約，有受害司機應徵後首天要裝卸4,000公升（即4噸）飲用水，苦幹6小時僅獲140人民幣（約164港元），要求辭職時更反被索取巨額違約金，最終倒貼逾2.5萬人民幣（約3萬港元）。當地公安近日搗破該集團，拘捕18人，涉案金額高達300多萬人民幣（約352萬港元）。 該公司的招聘信息。（網上影片截圖） 報稱日薪¥800 租車押金等預繳¥11300 據央視 《法治在線》 報道，2026年3月，貨車司機沈先生在上海嘉定區應徵1間物流公司的貨運司機，招聘廣告聲稱由公司配車、包住宿，日入約800人民幣（約940港元）、",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24257,38 +24295,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "美交通部長：全國停飛因更換舊銅線所致 已請求國會撥款改善系統",
-      "url": "https://hk01.com/sns/article/60410890",
-      "publishedAt": "2026-11-14T17:29:32.000Z",
-      "excerpt": "美國交通部長達菲（Sean Duffy）11月14日（周六）在記者會上表示，全國停飛因更換舊銅線工作所致，並重申美國的電信系統「極其老舊」。達菲稱，政府不認為這是一宗網絡攻擊事件，但調查仍在進行中，且他已再次請求國會撥款改善空中交通管制系統。 綜合外媒報道，達菲稱，技術供應商L3Harris正在進行維護工作，將銅線更換為光纖。而政府目前正在調查問題是由L3Harris的「不稱職」造成的，還是由設備故障造成的。 2026年11月14日，美國交通部長達菲（Sean Duffy）在華盛頓特區交通部舉行的新聞發布會上發表講話。（Reuters） 達菲表示，正在維修的路由器開始向其他空中交通管制系統發送",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "台慶｜司儀大合照驚見一人被遮樣 麥美恩似成功逃離「雪櫃」",
-      "url": "https://hk01.com/sns/article/60410874",
-      "publishedAt": "2026-11-14T17:00:32.000Z",
-      "excerpt": "無綫年度盛事《萬千星輝賀台慶》將於本月19日隆重舉行，每年的司儀陣容都備受網民及觀眾關注。日前無綫釋出最新司儀陣容，由「鎮台之寶」汪明荃（阿姐）率領陳貝兒、黃翠如等12位猛將坐鎮。不過，在最新曝光的一張大合照中，竟然有一位女司儀的靚樣被離奇遮蓋，引來一眾網民瘋狂競猜到底這位「神秘人」是誰。 司儀大合照驚見一人被遮樣。（IG＠kirbysau） 馮盈盈連續兩年No Show靜待公司派Job 去年同樣缺席台慶的馮盈盈（FYY）就預告今年會繼續「No Show」。盈盈昨日出席活動時解釋，因為台慶翌日要應付考試，為爭取時間溫書，早於一年前已向公司請假，並慶幸獲公司體諒。事實上，盈盈早前連無綫節目巡禮亦",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "李尚正談教師家庭背景：父母開明從不逼迫讀書",
-      "url": "https://hk01.com/sns/article/60410785",
-      "publishedAt": "2026-11-14T17:00:16.000Z",
-      "excerpt": "",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "余文樂45歲生日甩婚變陰霾生活超愜意 恢復單身獲好友慶生不寂寞",
-      "url": "https://hk01.com/sns/article/60410847",
-      "publishedAt": "2026-11-14T16:30:31.000Z",
-      "excerpt": "男星余文樂在宣布離婚後迎來首個生日，正式踏入45歲大關。雖然恢復單身，但向來人緣極佳的他一點也不寂寞，連日來獲一眾好友輪流為他慶祝，心情大靚。從曝光的慶生照可見，身穿灰藍色T恤的余文樂狀態輕鬆自在，穩坐C位與五位男女好友開心合照，桌上更擺放了兩個精緻蛋糕及美酒，氣氛相當融洽。 余文樂離婚後首個生日不寂寞。（IG@lok666） 45歲獲好友連環慶生切「滾燙45章」蛋糕。（IG@lok666） 蛋糕造型好用心。（IG@lok666） 《頭文字D》宿敵陳冠希罕見互動掀回憶殺 事業與生活步入新階段的同時，余文樂昔日的經典代表作《頭文字D》近日亦意外掀起全網「回憶殺」。事緣周杰倫在社交平台分享與余文樂",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "BIGBANG｜警連續第二晚土瓜灣戒備 大批車改九龍城渡輪碼頭上客",
       "url": "https://hk01.com/sns/article/60410876",
       "publishedAt": "2026-11-14T15:15:03.000Z",
@@ -24301,14 +24307,6 @@
       "url": "https://hk01.com/sns/article/60410883",
       "publishedAt": "2026-11-14T14:59:53.000Z",
       "excerpt": "英偉達（Nvidia、NVDA，又名輝達）創辦人黃仁勳（Jensen Huang）爆出婚外情醜聞後，辭去行政總裁等職務，路透社11月14日曝光數張黃仁勳與婚外情女主角黃樂（Alice Huang）2024年在台北國際電腦展上的照片，可見兩人搭肩攬腰。 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "漁護署巡查觀塘小西灣海旁未發現狗主違規 11.21續巡視其他地點",
-      "url": "https://hk01.com/sns/article/60410881",
-      "publishedAt": "2026-11-14T14:59:02.000Z",
-      "excerpt": "漁護署今日（14日）分別派員到小西灣海濱花園及觀塘海濱花園一帶，進行妥善控制狗隻巡查及執法行動。巡查期間，未有發現任何畜養人於公眾地方未有以狗帶牽引大型狗隻。漁護署將於下周六（21日）繼續在其他地點進行妥善控制狗隻巡查及執法行動。 漁護署今日（14日）分別派員到小西灣海濱花園及觀塘海濱花園一帶進行妥善控制狗隻巡查及執法行動。巡查期間，未有發現任何畜養人於公眾地方未有以狗帶牽引大型狗隻。(漁護署提供) 如未按要求妥善控制狗隻 即時執法不作預先警告 漁護署人員巡查期間，向公眾派發傳單，提醒狗隻畜養人於公眾地方須妥善控制狗隻，20公斤或以上的狗隻更必須以不長於2米的狗帶牽引，以保障公眾及動物安全。 ",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24365,6 +24363,14 @@
       "url": "https://hk01.com/sns/article/60410771",
       "publishedAt": "2026-11-14T08:58:34.000Z",
       "excerpt": "再有小學六年級呈分試需要重考。元朗官立小學有家長向《香港01》反映，六年級中文科閱讀卷涉「抄考」舊試卷，有三篇文章與校內數年前測驗試卷一樣，有關試卷早年已流出，坊間有補習社用作操練。校方於試後一周發出通告，確認「部分篇章及題型與過往曾出現之評估篇章相似」，並將收緊擬題機制 ，嚴格規定不能重用篇章。 教育局回覆查詢指，已接獲有關學校的通報，已要求學校嚴肅跟進及妥善處理，就事件提交詳細調查報告及改善措施。 元朗官立小學有老師抄舊襲試卷，導致六年級生需要重考呈分試。（元朗官立小學校網） 質疑小六教師「抄考」歷年試卷 坊間補習社曾用作訓練題 元朗官立小學六年級於上周五（6日）應考呈分試，其中文科閱讀卷",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "黃仁勳出軌｜張家輝偷食言論瘋傳 「呢個咩罪名呀，都係衰鹹濕」",
+      "url": "https://hk01.com/sns/article/60410755",
+      "publishedAt": "2026-11-14T07:25:32.000Z",
+      "excerpt": "張家輝今日（14/11）出席《大娛樂騷》記者會。上星期，英偉達行政總裁黃仁勳（Jensen Huang）於11月8日，向員工發電郵承認出軌，而女主角是中國籍女子黃樂（又名Alice Huang），事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌誘惑的回應也翻Hit。有網民指他是先知，亦特別清醒，但他不覺得自己特別有見地︰「呢個係咩罪名呀，都係衰鹹濕，成日以為無人知，尤其你愛得熱烈就唔記得有冇人知。」 黃仁勳出軌｜張家輝曾剖白偷食代價大 「所有嘢要換晒唔襟計喎」 英偉達行政總裁黃仁勳承認出軌，事件震驚全球。隨後，網民尋回張家輝於2009年接受鄭丹瑞訪問時，回應面對出軌",
       "source": "香港01",
       "category": "Hong Kong"
     },

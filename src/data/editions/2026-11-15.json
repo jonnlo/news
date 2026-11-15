@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T06:17:15.068Z",
-  "collectedAt": "2026-11-15T06:17:15.068Z",
+  "generatedAt": "2026-11-15T07:17:16.475Z",
+  "collectedAt": "2026-11-15T07:17:16.475Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,6 +20,15 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Kiri – The Modern Container Runtime",
+          "url": "https://runkiri.com/",
+          "publishedAt": "2026-11-15T04:40:41.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50504077"
+        },
         {
           "title": "Show HN: Gawain – Require type hints on all Python variables",
           "url": "https://github.com/matheuzgomes/gawain",
@@ -32,24 +46,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50503930"
-        },
-        {
-          "title": "Osint Case Studies",
-          "url": "https://osintsearch.org/blog/osint-case-studies",
-          "publishedAt": "2026-11-15T03:33:41.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50503731"
-        },
-        {
-          "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
-          "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-          "publishedAt": "2026-11-15T03:05:54.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50503588"
         },
         {
           "title": "My favourite modern NES games",
@@ -86,15 +82,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50502839"
-        },
-        {
-          "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
-          "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-          "publishedAt": "2026-11-14T22:26:30.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50501631"
         },
         {
           "title": "How did Woz write the Apple 1 BASIC before building the computer?",
@@ -151,6 +138,15 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
         },
         {
+          "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+          "url": "https://gitlab.com/snipedbywifi/terminactory",
+          "publishedAt": "2026-11-14T14:05:54.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50497132"
+        },
+        {
           "title": "KDE: The documentary [video]",
           "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
           "publishedAt": "2026-11-14T13:43:28.000Z",
@@ -194,9 +190,18 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50483431"
+        },
+        {
+          "title": "The Evolving Story of How Chemistry Became Biology",
+          "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+          "publishedAt": "2026-11-13T11:55:19.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50482222"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,61 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy (Chris Miller/Financial Times)",
+          "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+          "publishedAt": "2026-11-15T07:01:35.000Z",
+          "excerpt": "Chris Miller / Financial Times : A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy &nbsp; &mdash;&nbsp; The chip company has only itself to blame for a long list of adversaries&nbsp; &mdash;&n",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261115/p6#a261115p6",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed (Alex Konrad/Upstarts Media)",
+          "url": "https://www.upstartsmedia.com/p/nidus-ai-robotics-raises-30m",
+          "publishedAt": "2026-11-15T06:50:01.000Z",
+          "excerpt": "Alex Konrad / Upstarts Media : Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed &nbsp; &mdash;&nbsp; The startup backed by Kleiner Perkins and Costanoa says it's reached &ldquo;seven figures&rdquo; i",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261115/p5#a261115p5",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying \"we also want to support the future's Nvidia\" (Cheng Ting-Fang/Nikkei Asia)",
+          "url": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm",
+          "publishedAt": "2026-11-15T06:45:46.000Z",
+          "excerpt": "Cheng Ting-Fang / Nikkei Asia : TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying &ldquo;we also want to support the future's Nvidia&rdquo; &nbsp; &mdash;&nbsp; TOKYO &mdash; Taiwan Semiconductor Manufacturing Co. plans to use a new $500",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261115/p4#a261115p4",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)",
+          "url": "https://tech.eu/2026/11/12/nebuly-raises-21m-series-a-to-turn-ai-investments-into-measurable-results/",
+          "publishedAt": "2026-11-15T06:40:02.000Z",
+          "excerpt": "Tamara Djurickovic / Tech.eu : Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A &nbsp; &mdash;&nbsp; Nebuly develops a platform that helps enterprises measure the business value of AI agents by ",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261115/p3#a261115p3",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Nvidia insiders say Jensen Huang was prone to wild office tantrums, which a source says some employees were surprised hadn't leaked before his public downfall (Thomas Barrabi/New York Post)",
+          "url": "https://nypost.com/2026/11/14/business/how-ex-nvidia-ceo-jensen-huang-threw-tantrums-in-the-office-dressed-down-tech-execs-i-hope-you-die/",
+          "publishedAt": "2026-11-15T06:20:01.000Z",
+          "excerpt": "Thomas Barrabi / New York Post : Nvidia insiders say Jensen Huang was prone to wild office tantrums, which a source says some employees were surprised hadn't leaked before his public downfall &nbsp; &mdash;&nbsp; Ousted Nvidia CEO Jensen Huang was prone to wild temper tantrums at the office, accordi",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261115/p2#a261115p2",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions (Wall Street Journal)",
           "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d?st=geQhk5",
@@ -1401,64 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261114/p15#a261114p15",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a \"faulty router\" (Joseph Pisani/Wall Street Journal)",
-          "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f?st=zB6eBf",
-          "publishedAt": "2026-11-14T17:15:29.000Z",
-          "excerpt": "Joseph Pisani / Wall Street Journal : Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a &ldquo;faulty router&rdquo; &nbsp; &mdash;&nbsp; Work at a single remote location caused instability that led authorities t",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p14#a261114p14",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a \"bitcoin treasury,\" as its shares are down 60+% this year (Financial Times)",
-          "url": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0",
-          "publishedAt": "2026-11-14T16:35:01.000Z",
-          "excerpt": "Financial Times : Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a &ldquo;bitcoin treasury,&rdquo; as its shares are down 60+% this year &nbsp; &mdash;&nbsp; Plunge in shares and cryptocurrency prices could force Truth Social owner to sell assets o",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p13#a261114p13",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Tesla's Cybercab Autonomy Subscription agreement states the vehicles will only work inside Tesla-enabled geofences, which the company can change at any time (Fred Lambert/Electrek)",
-          "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
-          "publishedAt": "2026-11-14T16:01:26.000Z",
-          "excerpt": "Fred Lambert / Electrek : Tesla's Cybercab Autonomy Subscription agreement states the vehicles will only work inside Tesla-enabled geofences, which the company can change at any time &nbsp; &mdash;&nbsp; Tesla has posted the agreement that comes with its $29,990 Cybercab, and it's even worse than th",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p12#a261114p12",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Italy's data protection agency fines Meta €805M for allegedly accessing Android users' photos and videos without their consent or informing them (Reuters)",
-          "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-          "publishedAt": "2026-11-14T15:10:02.000Z",
-          "excerpt": "Reuters : Italy's data protection agency fines Meta &euro;805M for allegedly accessing Android users' photos and videos without their consent or informing them &nbsp; &mdash;&nbsp; Italy's data protection agency said on Saturday it had fined Meta Platforms (META.O) &euro;805 million ($887 million) &",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p11#a261114p11",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms (Washington Post)",
-          "url": "https://www.washingtonpost.com/technology/2026/11/13/behind-jensen-huangs-spy-scandal-shadow-war-trumps-ear-china/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzk0NTQ2MDAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzk1OTI4Mzk5LCJpYXQiOjE3OTQ1NDYwMDAsImp0aSI6ImI3ZWU0NWY4LWZiNmUtNGEzNy04NDk2LWEzYzkyM2I2MWEzMyIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMTEvMTMvYmVoaW5kLWplbnNlbi1odWFuZ3Mtc3B5LXNjYW5kYWwtc2hhZG93LXdhci10cnVtcHMtZWFyLWNoaW5hLyJ9.ckMTm0VCdUHrBcpi8_jACBIApqua-_4ZjYBg-GL0JYY&itid=gfta",
-          "publishedAt": "2026-11-14T14:30:23.000Z",
-          "excerpt": "Washington Post : How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms &nbsp; &mdash;&nbsp; Rubio's intervention helped topple one of Washington's most influential corporate voices on China, gi",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p10#a261114p10",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1652,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "TechRadar",
@@ -1683,19 +1688,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Women's Rugby League World Cup 2026 final — it's *FREE*",
-          "url": "https://www.techradar.com/entertainment/how-to-watch-womens-rugby-league-world-cup-2026-final-free",
+          "title": "How to watch The Chosen season 6 online – stream the biblical epic from anywhere for free",
+          "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-chosen-season-6",
           "publishedAt": "2026-11-15T03:00:00.000Z",
-          "excerpt": "Here's how you can stream the final match of the Women's Rugby League World Cup 2026 for free from anywhere in the world.",
+          "excerpt": "The biblical series is now heading towards the final 24 hours of Jesus Christ's life. Here's how to watch The Chosen season 6 online with Prime, from anywhere.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch The Chosen season 6 online – stream the biblical epic from anywhere for free",
-          "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-chosen-season-6",
+          "title": "How to watch Women's Rugby League World Cup 2026 final — it's *FREE*",
+          "url": "https://www.techradar.com/entertainment/how-to-watch-womens-rugby-league-world-cup-2026-final-free",
           "publishedAt": "2026-11-15T03:00:00.000Z",
-          "excerpt": "The biblical series is now heading towards the final 24 hours of Jesus Christ's life. Here's how to watch The Chosen season 6 online with Prime, from anywhere.",
+          "excerpt": "Here's how you can stream the final match of the Women's Rugby League World Cup 2026 for free from anywhere in the world.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1836,7 +1841,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2381,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2525,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Creative Bloq",
@@ -2709,7 +2714,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2923,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3092,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3261,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3350,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3519,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3688,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3877,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4061,7 +4066,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Atlantic",
@@ -4250,7 +4255,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The New Yorker",
@@ -4430,16 +4435,16 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The Lasting Influence of John Berger",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
           "publishedAt": "2026-11-09T11:00:00.000Z",
-          "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+          "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4573,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "IndieWire",
@@ -4673,7 +4678,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4867,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5056,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5225,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5394,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5523,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5622,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5811,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6000,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "n+1",
@@ -6184,6 +6189,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
     },
     {
@@ -6289,7 +6295,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6464,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6633,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6802,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6971,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7160,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7329,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7498,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,7 +7627,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Five Books",
@@ -7790,7 +7796,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7965,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8154,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8323,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8492,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8681,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8683,6 +8689,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Swan, No. 6 (Hilma af Klint) by Victoria Chang",
+          "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1731711/the-swan-no-6-hilma-af-klint",
+          "publishedAt": "2026-11-15T06:00:00.000Z",
+          "excerpt": "Two swans turn into four swans. As if each swan yearned for time but time just multiplied into other swans. In a moment, everything will try to be red, and it will look like fall again. The trees take care of their own salvation , wrote Charles Wright. But we keep cutting them down while they are kn",
+          "source": "Poetry Foundation",
+          "category": "Literature"
+        },
         {
           "title": "Chorus Attempting to Interpret Unearthed Fragments of Their Play by Carolina Ebeid",
           "url": "https://www.poetryfoundation.org/poetrymagazine/poems/150298/chorus-attempting-to-interpret-unearthed-fragments-of-their-play",
@@ -8804,18 +8818,18 @@
           "category": "Literature"
         },
         {
-          "title": "Ghost Sightings at the Redmont Hotel by Paul Alexander",
-          "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826447/ghost-sightings-at-the-redmont-hotel",
-          "publishedAt": "2026-10-30T05:00:00.000Z",
-          "excerpt": "Sitting in the rooftop bar at happy hour, I see the lights of Birmingham&nbsp; glowing against a hazy December sky. On an evening like this one in 1952, Hank Williams checked into a second-floor room —so drunk a hotel down the street&nbsp; refused to admit him—after arriving in his powder-blue Cadil",
-          "source": "Poetry Foundation",
-          "category": "Literature"
-        },
-        {
           "title": "Le Tombeau des Lutteurs by Kathleen Rooney",
           "url": "https://www.poetryfoundation.org/poetrymagazine/poems/92031/le-tombeau-des-lutteurs",
           "publishedAt": "2026-10-30T05:00:00.000Z",
           "excerpt": "It is a tragedy, yes, but a confusing one. What happened to the wrestlers and where have they gone? Loulou the Pomeranian would love to know. Outdoors the hills are buried in snow, but inside a rose, a rose full-blown, a roomful of rose. The bloom and its shadow overtaking the space. The bloom propo",
+          "source": "Poetry Foundation",
+          "category": "Literature"
+        },
+        {
+          "title": "Ghost Sightings at the Redmont Hotel by Paul Alexander",
+          "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826447/ghost-sightings-at-the-redmont-hotel",
+          "publishedAt": "2026-10-30T05:00:00.000Z",
+          "excerpt": "Sitting in the rooftop bar at happy hour, I see the lights of Birmingham&nbsp; glowing against a hazy December sky. On an evening like this one in 1952, Hank Williams checked into a second-floor room —so drunk a hotel down the street&nbsp; refused to admit him—after arriving in his powder-blue Cadil",
           "source": "Poetry Foundation",
           "category": "Literature"
         },
@@ -8834,17 +8848,9 @@
           "excerpt": "I just ball the fitted sheet into a wad and throw it at the closet. It’s fine. It does not matter. There’s a painting I love by Podkowiński called Frenzy of Exultations in which a woman clings in adoration to a deranged-looking horse. The horse’s nostrils are huge and foam is slipping from its mouth",
           "source": "Poetry Foundation",
           "category": "Literature"
-        },
-        {
-          "title": "Sylvia Plath as an Old Story Title for Learning to Fight Depression Where the Semiotics Simply Suggest That a Garden Illustrates Peace as a Foreshadow Rather Than as a Vivid Depiction of an Ancestral Society of Sad Mothers & Helpless Fathers by Nome Emeka Patrick",
-          "url": "https://www.poetryfoundation.org/poetrymagazine/poems/152117/sylvia-plath-as-an-old-story-title-for-learning-to-fight-depression-where-the-semiotics-simply-suggest-that-a-garden-illustrates-peace-as-a-foreshadow-rather-than-as-a-vivid-depiction-of-an-ancestral-society",
-          "publishedAt": "2026-10-27T05:00:00.000Z",
-          "excerpt": "Tell it this way: depression is the 30cm nail driving into the walls. If you ever read about Plath, ever kept a lantern from dying, ever tended a garden it grew so wild to swallow god, ever kept dressing the fire in your bones, then you must know about grief, possibly how to end it. Maami once stood",
-          "source": "Poetry Foundation",
-          "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9019,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9108,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9297,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9486,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9675,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9844,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10013,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10182,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10371,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10540,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10709,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10918,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11127,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Waxy",
@@ -11350,13 +11356,13 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 7,
+      "count": 6,
       "stories": [
         {
           "title": "Paul Simon on the 59th Street Bridge Song: \"I loathe that song\"",
@@ -11411,18 +11417,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "NeoPups",
-          "url": "https://www.metafilter.com/215163/NeoPups",
-          "publishedAt": "2026-11-14T06:58:16.000Z",
-          "excerpt": "If you enjoyed NeoPets back in during their ascendance, you'll probably fall in love with Dog Online . You may enjoy it even if you've never heard of a Neo or a Pet. You can farm, and fish, and cook, and trade, and explore dungeons, and solve puzzles, and play an action game, and collect customizati",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11611,7 +11608,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Dense Discovery",
@@ -11820,7 +11817,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "香港01",
@@ -11828,6 +11825,86 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "《衛蘭 OUT OF FRAME 》香港站首場圓滿完成：呢度先係我屋企",
+          "url": "https://hk01.com/sns/article/60410992",
+          "publishedAt": "2026-11-15T07:12:01.000Z",
+          "excerpt": "《衛蘭 OUT OF FRAME 世界巡迴演唱會》香港站首場演出昨晚(14日)於紅館圓滿完成，紅館後台一片花海，當中包括前老闆黎明，他的花籃上不單止擺滿了零食，更附上金句：「Good Show，Good Luck，Show前唔好食，Show後馬上食。」另外張學友、容祖兒、張敬軒、莫文蔚、古巨基、張柏芝、梁詠琪、陳慧琳、楊千嬅、丁子高、方力申、炎明熹、王祖藍、李亞男等也有送來花籃給 Janice 打氣。親臨紅館現場支持Janice 的藝人及歌手包括蔡思貝、王君馨、鍾舒漫、泳兒、黃建東、朱芸篇、雲浩影、黃淑蔓、Winka@COLLAR、 洪嘉豪、梁思浩、應昌佑等，他們及全場歌迷一起為 Janice",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "上海58歲漢性侵上門推拿技師 曾轉帳¥2000辯稱嫖資判囚三年半",
+          "url": "https://hk01.com/sns/article/60410974",
+          "publishedAt": "2026-11-15T07:06:36.000Z",
+          "excerpt": "近日，上海青浦法院公布了一宗性侵案件判決。58歲男子潘某通過網絡預約服務人員上門提供中式推拿服務，期間潘某強行與其發生性關係。事發後，女子為保留證據，打開手機錄音功能，向對方索要2000元（人民幣，下同）體檢費用，隨後立即報警。涉案男子在庭審中辯稱雙方屬於有償嫖娼關係，但被法院駁回，最終法院以強姦罪判處潘某有期徒刑三年六個月。 加鐘服務後遭強暴 據內媒《天眼新聞》報道，判決書顯示，2025年12月28日，潘某通過某APP預約服務人員於當日下午上門提供中式推拿服務。在加鐘期間，潘某的手開始觸碰受害人某甲，某甲明確拒絕說「不要」，後潘某將某甲壓在身體下面，對其親臉、摸胸，在沒有做任何防護措施的情況",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "南京5大必買手信｜¥5吃現烤茉莉花餅 金陵十二釵禮盒糕點顏值高",
+          "url": "https://hk01.com/sns/article/60410180",
+          "publishedAt": "2026-11-15T07:04:33.000Z",
+          "excerpt": "去南京旅遊，除了吃喝玩樂，最讓人頭痛的就是：「到底要帶什麼伴手禮回家？」不管是送朋友、送家人，還是自己想買些有紀念價值的東西，「南京必備伴手禮」絕對是你出發前一定會查的關鍵字。這座歷史悠久的城市，其實藏了很多有特色的美食和地方特產，不只好吃、好看，還超有南京味！這次我們幫大家整理出5大到南京必買的伴手禮推薦，不踩雷、又有面子，出門玩也能買得聰明又開心！ 中國南京介紹 南京是中華人民共和國江蘇省的省會，簡稱「寧」，又有金陵、建鄴、建康等別稱。作為長三角核心城市，南京在中國歷史文化中佔有重要地位，被稱為六朝古都。 南京在中國歷史文化中佔有重要地位，被稱為六朝古都。（小紅書@潘小雨愛攝影） 這座城市",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "地球之友｜全球氣溫持續飆升 人類還有機會「退燒」嗎？",
+          "url": "https://hk01.com/sns/article/60410027",
+          "publishedAt": "2026-11-15T07:00:44.000Z",
+          "excerpt": "地球之友｜洪藹誠博士 第31次《聯合國氣候變化框架公約》締約方大會（COP31）剛於2026年11月9日在土耳其安塔利亞開幕。會議召開前，聯合國環境規劃署（UNEP）於10月中發布《2026年排放差距報告：回返點》（Emissions Gap Report 2026: The point of return）。報告指出，人類已失去將全球升溫限制在1.5°C且無超越或僅有有限超越的機會。然而，這並意味着《巴黎協定》目標完全失效；關鍵在於各國能否立即採取更快速、更深入且持續的減排行動，以降低升溫峰值、縮短超越1.5°C的時間，並力求在本世紀末前將全球升溫拉回至1.5°C或以下。 全球溫室氣體排放尚",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "胃潰瘍｜空腹飲咖啡食辣會胃痛？醫生拆解4大傷胃迷思 揭2大元兇",
+          "url": "https://hk01.com/sns/article/60407842",
+          "publishedAt": "2026-11-15T07:00:35.000Z",
+          "excerpt": "空腹喝黑咖啡、吃辣、喝檸檬水或冰飲後胃不舒服，常讓人擔心是否傷胃。台灣重症醫師黃軒指出，這些飲食通常不會單獨造成胃潰瘍，但仍可能讓部分人出現胃痛、火燒心或腹瀉等症狀。反覆胃痛不應只怪罪食物，應找出真正病因。 黃軒表示，胃部具有胃黏膜上皮、富含重碳酸根的中和層，以及豐富的微血管循環，能形成保護屏障，避免胃酸傷害胃壁。他整理出4種常被認為傷胃的飲食迷思： 1. 吃辣會傷胃？ 辣椒素能刺激感覺傳入神經，促使胃黏膜釋放抑酸訊號、增加黏膜血流量及黏液分泌。小型人體研究也觀察到特定劑量辣椒素可能具有胃黏膜保護作用，但不代表日常吃辣能加固胃壁或治療胃病，部分人仍可能出現胃痛、火燒心或腹瀉。 相關文章： 食辣",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "綜藝《後會友期》熱潮蔓延KPOP！網民票選十大最遺憾走散偶像名單",
+          "url": "https://hk01.com/sns/article/60410758",
+          "publishedAt": "2026-11-15T07:00:07.000Z",
+          "excerpt": "如果昔日反目成仇、形同陌路的偶像組合能夠重新同台對質，會是怎樣的震撼畫面？近期內地串流平台芒果TV的友誼紀實真人騷《後會友期》爆紅，節目主打昔日舊友重逢並解開心結，掀起一陣「世紀破冰」風潮。這股熱潮迅速蔓延至K-pop（韓國流行音樂）圈，勾起大批粉絲的集體回憶。網民紛紛列出心目中的「最遺憾名單」，盤點出10對最希望能在節目中破冰對談的韓國娛樂圈前隊友及摯友： 近期內地串流平台芒果TV的友誼紀實真人騷《後會友期》爆紅，節目主打昔日舊友重逢並解開心結，掀起一陣「世紀破冰」風潮。（微博@後會友期） 《後會友期》這股熱潮迅速蔓延至K-pop（韓國流行音樂）圈，勾起大批粉絲的集體回憶。（網上圖片） 1.",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "瑪麗醫院壞𨋢涉3工師程簽發安全 1人已停牌 2人待調查後決定",
+          "url": "https://hk01.com/sns/article/60410991",
+          "publishedAt": "2026-11-15T06:47:44.000Z",
+          "excerpt": "瑪麗醫院新大樓升降機早前被揭發接連故障及𨋢槽傾斜等問題，當時28部升降機僅4部可運作。發展局本月11日向立法會提交調查報告，報告揭發28部升降機大多由已被停牌、判處160小時社服令的註冊升降機工程師簽發「安全證書」，另有兩名註冊升降機工程師分別簽發一部升降機的「安全證書」。 《香港01》早前向機電署查詢會否控告另外兩名簽發安全證書的升降機工程師，署方於最新回覆稱現階段不便透露更多資料，並指現正進行調查，將視乎結果決定下一步行動，包括召開紀律審裁委員會及作出懲處。 8月12日記者到瑪麗醫院「臨床大樓1」視察，發現大樓內大部份升降機均被鋼板或膠圍欄圍封暫停使用。（資料圖片） 瑪麗醫院「臨床大樓1",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "珍惜生命｜藍田廣田邨32歲男自縊 家人報案惜太遲",
+          "url": "https://hk01.com/sns/article/60410990",
+          "publishedAt": "2026-11-15T06:46:44.000Z",
+          "excerpt": "今日（15日）上午11時08分，一名男子在藍田廣田邨廣靖樓單位上吊，家人發現報警求助。人員接報到場，消防將事主解下，惟32歲姓李男子當場被證實死亡。經初步調查，事主以一條皮帶上吊。警方於現場沒有檢獲遺書。 廣靖樓。（資料圖片） 求助網站和熱線： 即睇3分鐘情緒自救法 呼吸間即可放鬆身心 「情緒通」精神健康支援熱線及WhatsApp ：18111 香港撒瑪利亞防止自殺會熱線：23892222 醫院管理局精神健康專線：24667350 東華三院芷若園熱線︰18281 撒瑪利亞會熱線︰28960000 社會福利署熱線︰23432255 生命熱線：23820000 明愛向晴熱線﹕18288 【不要放棄",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "天文台下調周五周六市區氣溫至最低16度 「小雪」前夕一區僅12度",
+          "url": "https://hk01.com/sns/article/60410987",
+          "publishedAt": "2026-11-15T06:46:30.000Z",
+          "excerpt": "【香港天文台／HKO／明天的天氣／東北季候風／冷鋒／小雪／寒冷】天文台上周四（12日）在「天氣隨筆」專欄提到，西風槽將北方的冷空氣向南推送，下周中後期華南沿岸氣溫將再度降至20度以下，天文台由當日起不斷下調氣溫預測，至今早（15日）最新預測繼續大幅下調，料周五（20日）及周六（21日、廿四節氣「小雪」前夕）市區氣溫（即尖沙咀天文台總部）最低16度。 天文台自動分區天氣預報顯示，周六凌晨本港氣溫降至最低，其中打鼓嶺低見12度，即已達到天文台定義寒冷天氣（12度或以下）的門檻。另外上周二（10日）早上天文台尖沙咀總部一度錄得17.5度，創入秋以來最低（天文台將9月至11月劃分為秋季），即周五或周六",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "宏福苑大火一周年｜大埔教堂今辦彌撒 主題重新改為火災周年祈禱",
+          "url": "https://hk01.com/sns/article/60410975",
+          "publishedAt": "2026-11-15T06:33:12.000Z",
+          "excerpt": "造成168人死亡的大埔宏福苑火災本月26日滿一周年，大埔聖母無玷之心堂原定今日（15日）舉行追思彌撒悼念宏福苑死者，期間有傳教堂被警方「關心」，其後該堂更換彌撒主題，抽走宏福苑字眼，改為「為全年已亡的兄弟姊妹」祈禱。其後天主教香港教區主教周守仁樞機發信，籲請各堂區在11月26日，為宏福苑的亡者奉獻彌撒。 據堂區今日（15日）的最新佈告，彌撒主題重新改為「2026年亡者暨宏福苑火災周年」祈禱。 大埔聖母無玷之心堂。（大埔聖母無玷之心堂 Immaculate Heart Of Mary Church FB） 天主教香港教區主教周守仁樞機。（資料圖片） 天主教香港教區主教周守仁樞機上周五（13日）向",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "Pokémon GO活動數十人聚集尖東 看中街頭多「道館」捉「鋁鋼龍」",
           "url": "https://hk01.com/sns/article/60410979",
@@ -11845,66 +11922,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "李龍基自爆家財耗盡需重新起步 昔日七層物業去向早已曝光",
-          "url": "https://hk01.com/sns/article/60410970",
-          "publishedAt": "2026-11-15T06:04:01.000Z",
-          "excerpt": "李龍基近日出席《EYT友好會聯歡晚宴》接受訪問時，並未否認在這段感情中「家財耗盡」的傳聞。針對積蓄所剩無幾、戶口需要「由頭來過」的說法，基哥以豁達態度回應，表示對錢財不甚敏感，並指出當中的開支「有好多錢係我自己使嘅，亦有好多錢係大家一齊使嘅」。他表明目前心態是重新起步，認為錢財屬身外物，現階段最重要是身體健康，並強調只要「有飯開、有工開」即可。 李龍基坦承錢財盡耗「重新做人」 。（盧振輝攝） 促清家當劃清界線 在生活細節上，李龍基正採取實際行動與前未婚妻王青霞（Chris）劃清界線。他透露女方目前仍有衣物及化妝品等私人物品遺留在其寓所，故已主動聯絡對方，要求她安排速遞公司將物品全數取走。同時，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃仁勳辭職｜愛女黃敏珊遭爆「難相處」 英偉達內部不滿其空降",
-          "url": "https://hk01.com/sns/article/60410947",
-          "publishedAt": "2026-11-15T06:00:31.000Z",
-          "excerpt": "英偉達（Nvidia，又稱輝達）創辦人黃仁勳婚外情連環爆，又涉入間諜疑雲，風波持續延燒！英偉達日前宣布，黃仁勳辭去行政總裁職務，由財務總監克雷斯（Colette Kress）擔任臨時執行長。隨着黃仁勳垮台，英偉達內部越來越多內幕被爆料，多位前員工和現任員工表示，黃仁勳愛女黃敏珊（Madison Huang）很難相處，也不滿她空降高層。 英偉達前、現員工不滿黃仁勳管理方式如封建制度 《金融時報》（Financial Times） 報道，英偉達領導層更迭、董事會與外部律師的調查，揭開公司內部政治與管理的神秘面紗。 黃仁勳女兒黃敏珊（Madison Huang）（Nvidia） 一名消息人士表示，黃",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃大仙下邨火警｜八旬女死者獨居 單位有大量雜物 堆疊至天花板",
-          "url": "https://hk01.com/sns/article/60410973",
-          "publishedAt": "2026-11-15T05:58:23.000Z",
-          "excerpt": "黃大仙下邨龍光樓今（15日）早發生奪命火警，一個5樓單位起火及冒出濃煙，消防員到場開喉將火救熄後，在起火單位內客廳發現一具燒焦女屍。消防處代表指，死者獨居，單位內有大量雜物，包括尼龍袋、膠袋及膠樽等，又形容雜物堆積高度由1.2米直至天花板。消防處補充，單位內設有神位，亦不排除為火警成因之一，相信火警無可疑，正循煙頭及香燭冥鏹意外燃燒雜物的方向調查。 黃大仙警區軍裝巡邏小隊第四隊督察朱顯揚（左）及消防處高級消防隊長陳振維（中）召開記者會交代詳情。（鄭嘉惠攝） 消防處高級消防隊長陳振維交代案情指，消防處於今早8時45分接獲報告，指黃大仙下邨龍光樓一個低層單位發生一級火警。消防人員於8時50分到場，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港演出突取消曲目 鋼琴家王羽佳反駁主辦方：演出數周前已通知",
-          "url": "https://hk01.com/sns/article/60410972",
-          "publishedAt": "2026-11-15T05:56:02.000Z",
-          "excerpt": "鋼琴家王羽佳於上周一（9日）起一連兩晚，與馬勒室樂團在香港文化中心音樂廳演出。惟上周二（10日）樂團突然取消最後一首曲目，王羽佳全晚在台上時間只有不足20分鐘，主辦方隨後透過電郵公布安排全額退款，並解釋音樂家基於「藝術考量」，決定於整個亞洲巡演節目中抽起曲目。 王羽佳在社交網站發文指，事前已就演出曲目改動通知主辦方，而非臨時變動，又指是主辦方單方面決定不事前告知觀眾。 鋼琴家王羽佳。（飛躍演奏香港網站） 觀眾投訴大會取消最後一曲目：好突然完咗又冇encore 該音樂會為「飛躍演奏香港二十周年」樂季節目，今次香港站是王羽佳與馬勒室樂團合作亞洲巡演的首站。11月10日原定演奏的4首曲目，包括浦羅哥",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "維港泳腰斬｜未落水泳手呻白吹風2小時 游10分鐘上岸泳手稱諒解",
-          "url": "https://hk01.com/sns/article/60410966",
-          "publishedAt": "2026-11-15T05:31:24.000Z",
-          "excerpt": "「維港泳2026」今日（15日）早上舉行。賽事最後一組「優悠組」第四組大批泳手未下水，賽事便宣告取消。有到場後未有機會下水的泳手表示極度不滿，語帶諷刺地「多謝」主辦方「畀咗個季候風我哋，吹咗兩個鐘西北風」；不過，有泳手下水僅游了10分鐘被召上岸，諒解因水流湍急腰斬賽事。 大會安排旅遊巴接載部分泳手從起點的灣仔到終點的尖沙咀。（湯致遠攝） 水流湍急腰斬維港泳 旅遊巴接載泳手到終點 「維港泳2026」活動尾聲，當「優悠組」第四組大批泳手未下水之際，主辦方泳總段決定取消賽事，原因是水流湍急。大會其後安排旅遊巴接載部分泳手，從起點灣仔到終點尖沙咀，並提供錫紙，讓他們披在身上保暖。 大會提供錫紙，讓泳手",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "常春藤名校食安風暴：哥大飯堂驚現「鼠糞霉變」 留學生如何自保",
-          "url": "https://hk01.com/sns/article/60409264",
-          "publishedAt": "2026-11-15T05:30:30.000Z",
-          "excerpt": "哥大（Columbia University）最火的食堂，一天要刷掉上千張餐卡。9月9日上午，一隊人刷卡進了Lerner Hall三樓，他們不是來吃飯的。 紐約市健康與心理衛生局的檢查員，把這個食堂從備餐區到儲物架翻了一遍，最後開出一張33分的違規單。五天後，另一隊人走進Faculty House，拿到41分。 這兩張分數單一直沒有對外。直到10月30日，哥大校報《Columbia Daily Spectator》通過資訊公開申請把它拿到並公開，全校學生才知道：自己每天排隊打飯的地方，分數已經高到可以直接領一張C。 美國哥倫比亞大學。（Columbia University） 這個分數到底意味",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "維港泳｜泳手憶水流急：「游極都去唔到」 大批人無法完賽需上船",
-          "url": "https://hk01.com/sns/article/60410971",
-          "publishedAt": "2026-11-15T05:29:43.000Z",
-          "excerpt": "年度活動「維港泳2026」今日（15日）早上舉行。賽事最後一組「優悠組」第四組大批參加者未下水，賽事取消。有第一組的泳手指，到終點附近時水流突然變急，被推到近天星碼頭附近，要逆流前往終點，大批選手無法完賽。他又表示，期間感覺「游極都去唔到」，雖最終仍順利完賽，但感覺「游1,000米好似游咗3,000米咁」。 不少選手無法逆流，最終被要求上船，岸邊亦有大批未能掙脫水流的泳手滯留。（受訪者提供） 不少選手無法逆流，最終被要求上船，乘坐旅遊巴前往終點領回行李。（受訪者提供） 不少選手無法逆流，最終被要求上船，乘坐旅遊巴前往終點領回行李。（受訪者提供） 天星碼頭岸邊逼爆 花半小時始離開 第一組的林先生",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "黃大仙下邨火警｜客廳發現女焦屍 循煙頭及香燭燒雜物方向調查",
           "url": "https://hk01.com/sns/article/60410951",
           "publishedAt": "2026-11-15T04:49:56.000Z",
-          "excerpt": "黃大仙下邨龍光樓今（15日）早發生奪命火警，一個低層單位起火及冒出濃煙，消防員到場開喉將火救熄後，在起火單位內發現一具女屍。警方與消防將於下午1時召開記者會交代案情，《香港01》屆時會現場直播。 涉事單位外牆熏黑。（鄭嘉惠攝） 消防員射水灌救。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 涉事單位熏黑。（馬耀文攝） 消防到場救援。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 警方協助居民離開。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 消防到場救援。",
+          "excerpt": "黃大仙下邨今（15日）早發生奪命火警，龍光樓5樓一個單位起火及冒出濃煙，消防員到場開喉將火救熄後，在起火單位內發現一具燒焦女屍。消防表示，死者獨居，而單位內有大量雜物，雜物堆積高度由1.2米直至天花板。單位內亦設有神位，不排除為火警成因之一。消防相信火警無可疑，正循煙頭及香燭冥鏹意外燃燒雜物的方向調查。 黃大仙警區軍裝巡邏小隊第四隊督察朱顯揚（左）及消防處高級消防隊長陳振維（中）召開記者會交代詳情。（鄭嘉惠攝） 消防處高級消防隊長陳振維交代案情指，消防處於今早8時45分接獲報告，指黃大仙下邨龍光樓5樓一單位發生一級火警。消防人員於8時50分到場，出動一條喉及一隊煙帽隊灌救，火警於9時16分被救",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11963,33 +11984,9 @@
           "excerpt": "第31屆亞洲電視大獎（Asian Television Awards, ATA）昨晚在胡志明市舉行、張家輝憑《絕命法官》奪得《亞洲電視大獎》《最佳男主角》，獎項分別有張嘉益、白宇、楊旭文、張家輝、張軒睿、山崎賢人、尹正、章宇等男演員角逐，張家輝得獎後上台以英文致詞，他說：「I would like to say ，thank you to investors and my production team for their support and trust in me. and also, I like to thank the Judges of the Asian Television ",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "馬斯克：沒有黃仁勳許多關鍵交易將失敗 僅有口頭承諾無書面合約",
-          "url": "https://hk01.com/sns/article/60410885",
-          "publishedAt": "2026-11-14T16:14:37.000Z",
-          "excerpt": "世界首富馬斯克（Elon Musk）11月13日（周五）在社交平台X發文表示，黃仁勳在英偉達時期出色地管理供應鏈，但其中許多交易只是與黃仁勳握手達成的，並非正式合約。他稱，如果沒有黃仁勳，至少部分關鍵交易將會告吹。 馬斯克還稱，「如果黃仁勳向我保證計算資源的交付，或者我要求加速某些組件的運行，他總是能兌現承諾。當然，我們之後也會擬定採購訂單，但我從未懷疑過訂單無法完成。」 If Jensen gave me his word about compute delivery or I asked for components to be accelerated, he always came th",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "BIGBANG丨內地女被指叫白牌車上新聞 拍片否認：我有司機沒犯法",
-          "url": "https://hk01.com/sns/article/60410858",
-          "publishedAt": "2026-11-14T16:02:25.000Z",
-          "excerpt": "韓國天團BIGBANG睽違9年再度於香港合體，11月13日在啟德體育園主場館舉行首場演唱會。不過完騷後，啟德場館附近街頭卻發生一段小插曲。多間傳媒報道警方在現場截查跨境車輛，目標是打擊非法跨境白牌車，其中一段新聞片段拍攝到一身名牌、打扮斯文的內地女生，疑似因等車太久，情緒激動地責罵司機遲遲未到。有關片段在社交平台上瘋傳並惹來熱議，不少人都直指該名女生顧用非法跨境白牌車。《香港01》聯絡上事件女主角李小姐講述事件經過，她指當時正與公司司機講電話，並非白牌車司機，不滿有關報道疑斷章取義，她強調：「我是遵紀守法的好公民！」 在now新聞的有關影片中，李小姐氣場強悍地對著電話另一方說：「發給你，你過來",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃仁勳出軌｜與女主角黃樂再有舊照曝光 台北電腦展上搭肩攬腰",
-          "url": "https://hk01.com/sns/article/60410883",
-          "publishedAt": "2026-11-14T14:59:53.000Z",
-          "excerpt": "英偉達（Nvidia、NVDA，又名輝達）創辦人黃仁勳（Jensen Huang）爆出婚外情醜聞後，辭去行政總裁等職務，路透社11月14日曝光數張黃仁勳與婚外情女主角黃樂（Alice Huang）2024年在台北國際電腦展上的照片，可見兩人搭肩攬腰。 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "有線新聞",
@@ -12158,7 +12155,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Now 新聞",
@@ -12327,7 +12324,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12496,7 +12493,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12504,6 +12501,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "黃大仙一單位火警八旬婦燒傷不治 消防估計雜物起火不涉刑事成分",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877882-20261115.htm",
+          "publishedAt": "2026-11-15T06:19:29.000Z",
+          "excerpt": "黃大仙下邨龍光樓一個低層單位早上發生火警，一名80歲女住戶全身多處燒傷、現場證實死亡。初步調查顯示火警由雜物起火引致，現階段無證據涉及刑事成分，案件交由黃大仙警區刑事調查隊跟進。 消防處早上近9時接報，指單位發生火警，到場後大約半小時內將火救熄，並在單位距離門口大約兩米的客廳位置發現一具燒焦屍體。火警期間大約300名住戶自行疏散，一名住在高層單位的65歲女子逃生期間吸入濃煙不適，送往伊利沙伯醫院治理，消防又接獲兩宗住戶求助個案，已帶到安全位置，沒有受傷。 消防處高級消防隊長陳振維表示，死者獨居，消防在起火單位發現大量雜物，初步調查相信火警無可疑，將從煙頭或香燭冥鏹意外燃燒雜物方向調查，消防測試",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "周一鳴冀國際刑警大會通過「銀色通告」 採預防措施打擊非法資金",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877881-20261115.htm",
+          "publishedAt": "2026-11-15T06:12:58.000Z",
+          "excerpt": "國際刑警大會將於本月底首次在香港舉行。警務處處長周一鳴表示，3年籌備工作已經接近尾聲，希望會議的參與者可以感受到香港的活力。 周一鳴出席一個電視節目，指今年已為國際刑警大會進行了約十次綵排及演練，有信心成功舉行會議。國際刑警去年展開先導計劃，推出「銀色通告」針對非法資金流向，個別國家或地區如檢獲犯罪得益，並通過國際刑警發出「銀色通告」，其他國家或地區可預先採取應對措施。周一鳴表示，本港今年初亦參加了先導計劃，相信「銀色通告」有助打擊電騙罪案，希望通告在稍後的大會上獲通過，並可以「大派用場」。 早前有緬北的詐騙集團被瓦解，周一鳴說，目前詐騙集團仍然集中在東盟地區，但亦有部分遷移至中東及非洲等，需",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "陳茂波稱本港金融貿易由「量」累積 朝「值」深度提升",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1877879-20261115.htm",
@@ -12647,25 +12660,9 @@
           "excerpt": "據了解，香港迪士尼樂園偵測到公司電腦系統有異常活動，1.7萬個二維碼在網上票務系統中懷疑被盜取，已就事件報警，並停止網上票務運作。 警方表示，昨日接獲一間公司報案，指懷疑有網絡事件。經初步調查，案件暫列「有犯罪或不誠實意圖而取用電腦」，交由大嶼山警區重案組跟進，暫未有人被捕。 香港迪士尼樂園回覆查詢時表示，發現網絡事件後已經報警，並即時採取跟進及防護措拖。樂園強烈建議旅客，應直接從樂園官方渠道或透過合作旅行社及平台購買樂園門票，切勿光顧不可靠來源的賣家，免招不便及經濟損失。如有懷疑，應立即尋求警方協助。 樂園已加強入場時門票核實程序，並將盡快通知個人資料私隱專員公署。 樂園官方網站正進行系統維",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "香港迪士尼樂園發現網絡事件 警方暫列不誠實意圖而取用電腦",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877832-20261114.htm",
-          "publishedAt": "2026-11-14T11:53:49.000Z",
-          "excerpt": "香港迪士尼樂園昨日發現網絡事件，已經報警，並即時採取跟進及防護措施。樂園強烈建議旅客，應直接從樂園官方渠道或透過合作旅行社及平台購買樂園門票，切勿光顧不可靠來源的賣家，免招不便及經濟損失。如有懷疑，應立即尋求警方協助。 樂園已加强入場時門票核實程序，並將盡快通知個人資料私隱專員公署。 警方回覆查詢表示，昨日接獲一間公司報案，指懷疑有網絡事件。經初步調查，案件暫列「有犯罪或不誠實意圖而取用電腦」，交由大嶼山警區重案組跟進，暫未有人被捕。 編輯：鍾慧儀",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "截至傍晚6時 16班來往美國與香港航班取消或延誤",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877831-20261114.htm",
-          "publishedAt": "2026-11-14T11:29:34.000Z",
-          "excerpt": "美國聯邦航空管理局一度下令全美所有航班停飛，停飛令維持約4小時後解除。本港機管局表示，今日原定有16班航班由美國抵港，以及17班航班由香港出發前往美國。截至晚上6時，全日有3班由美國抵港的航班取消、6班航班延誤；離港前往美國有2班航班取消、5班航班延誤。 機管局指，美國相關航空交通限制已經解除，但預計今明兩日來往美國及香港的航班將受到一定程度影響，呼籲旅客留意航空公司的最新公布。 編輯：鍾慧儀",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "South China Morning Post",
@@ -12673,6 +12670,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Hong Kong taxi driver arrested after 2 Britons hit by cab in Wan Chai",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374476/hong-kong-taxi-driver-arrested-after-2-britons-hit-cab-wan-chai",
+          "publishedAt": "2026-11-15T06:57:04.000Z",
+          "excerpt": "Hong Kong police have arrested a cabby for dangerous driving after his taxi allegedly hit two British nationals who were crossing the road in Wan Chai. Police said on Sunday that the incident happened at 1.39am, when the victims – a 65-year-old man and a 58-year-old woman – were crossing the road ne",
+          "source": "South China Morning Post",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "700 swimmers left stranded after strong currents force early end to Victoria Harbour Race",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3374475/700-swimmers-left-stranded-after-strong-currents-force-early-end-victoria-harbour-race",
+          "publishedAt": "2026-11-15T06:54:57.000Z",
+          "excerpt": "The Victoria Harbour Race on Sunday ended in chaos and disappointment for almost 800 swimmers, after organisers cancelled the final waves of amateur competitors and even pulled some from the water with the finish line in sight. With the 10.30am cut-off time fast approaching, the fourth batch of leis",
+          "source": "South China Morning Post",
+          "category": "Hong Kong"
+        },
         {
           "title": "Hong Kong must expand trade, not wait for ‘luck’ as AI exports could slow: commerce chief",
           "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374472/hong-kong-must-expand-trade-not-wait-luck-ai-exports-could-slow-commerce-chief",
@@ -12816,25 +12829,9 @@
           "excerpt": "Hong Kong’s construction industry is facing mounting public scrutiny following a string of scandals involving substandard work, defective installations and questionable maintenance practices. From malfunctioning hospital lifts and missing fire-safety components in lift door frames to defective colum",
           "source": "South China Morning Post",
           "category": "Hong Kong"
-        },
-        {
-          "title": "Hong Kong nature reserve samples test positive for ‘highly pathogenic’ bird flu virus",
-          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374391/hong-kong-nature-reserve-samples-test-positive-highly-pathogenic-bird-flu-virus",
-          "publishedAt": "2026-11-13T13:21:51.000Z",
-          "excerpt": "Two environmental samples taken from Hong Kong’s Mai Po nature reserve have tested positive for the “highly pathogenic” H5 avian flu virus, the Agriculture, Fisheries and Conservation Department (AFCD) has said. A department spokesman said that a research team from the University of Hong Kong’s Scho",
-          "source": "South China Morning Post",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "Hong Kong nursery ordered to submit report after boy’s mystery head injury",
-          "url": "https://www.scmp.com/news/hong-kong/education/article/3374385/hong-kong-nursery-ordered-submit-report-after-boys-mystery-head-injury",
-          "publishedAt": "2026-11-13T12:57:04.000Z",
-          "excerpt": "Hong Kong education authorities have ordered a nursery in Kowloon Tong to submit a report after it allegedly failed to explain why a two-year-old pupil had a large bump on the back of his head after classes. The Education Bureau said it was highly concerned about the incident at Cannan Kindergarten ",
-          "source": "South China Morning Post",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13003,10 +13000,19 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T06:17:15.068Z"
+      "lastSuccessfulAt": "2026-11-15T07:17:16.475Z"
     }
   ],
   "stories": [
+    {
+      "title": "Kiri – The Modern Container Runtime",
+      "url": "https://runkiri.com/",
+      "publishedAt": "2026-11-15T04:40:41.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50504077"
+    },
     {
       "title": "Show HN: Gawain – Require type hints on all Python variables",
       "url": "https://github.com/matheuzgomes/gawain",
@@ -13024,24 +13030,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50503930"
-    },
-    {
-      "title": "Osint Case Studies",
-      "url": "https://osintsearch.org/blog/osint-case-studies",
-      "publishedAt": "2026-11-15T03:33:41.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50503731"
-    },
-    {
-      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
-      "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-      "publishedAt": "2026-11-15T03:05:54.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50503588"
     },
     {
       "title": "My favourite modern NES games",
@@ -13078,15 +13066,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50502839"
-    },
-    {
-      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
-      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-      "publishedAt": "2026-11-14T22:26:30.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50501631"
     },
     {
       "title": "How did Woz write the Apple 1 BASIC before building the computer?",
@@ -13143,6 +13122,15 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
     },
     {
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "publishedAt": "2026-11-14T14:05:54.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497132"
+    },
+    {
       "title": "KDE: The documentary [video]",
       "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
       "publishedAt": "2026-11-14T13:43:28.000Z",
@@ -13186,6 +13174,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50483431"
+    },
+    {
+      "title": "The Evolving Story of How Chemistry Became Biology",
+      "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+      "publishedAt": "2026-11-13T11:55:19.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50482222"
     },
     {
       "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
@@ -14213,6 +14210,61 @@
       "sourceRole": "community"
     },
     {
+      "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy (Chris Miller/Financial Times)",
+      "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+      "publishedAt": "2026-11-15T07:01:35.000Z",
+      "excerpt": "Chris Miller / Financial Times : A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy &nbsp; &mdash;&nbsp; The chip company has only itself to blame for a long list of adversaries&nbsp; &mdash;&n",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261115/p6#a261115p6",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed (Alex Konrad/Upstarts Media)",
+      "url": "https://www.upstartsmedia.com/p/nidus-ai-robotics-raises-30m",
+      "publishedAt": "2026-11-15T06:50:01.000Z",
+      "excerpt": "Alex Konrad / Upstarts Media : Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed &nbsp; &mdash;&nbsp; The startup backed by Kleiner Perkins and Costanoa says it's reached &ldquo;seven figures&rdquo; i",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261115/p5#a261115p5",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying \"we also want to support the future's Nvidia\" (Cheng Ting-Fang/Nikkei Asia)",
+      "url": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm",
+      "publishedAt": "2026-11-15T06:45:46.000Z",
+      "excerpt": "Cheng Ting-Fang / Nikkei Asia : TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying &ldquo;we also want to support the future's Nvidia&rdquo; &nbsp; &mdash;&nbsp; TOKYO &mdash; Taiwan Semiconductor Manufacturing Co. plans to use a new $500",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261115/p4#a261115p4",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A (Tamara Djurickovic/Tech.eu)",
+      "url": "https://tech.eu/2026/11/12/nebuly-raises-21m-series-a-to-turn-ai-investments-into-measurable-results/",
+      "publishedAt": "2026-11-15T06:40:02.000Z",
+      "excerpt": "Tamara Djurickovic / Tech.eu : Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A &nbsp; &mdash;&nbsp; Nebuly develops a platform that helps enterprises measure the business value of AI agents by ",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261115/p3#a261115p3",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Nvidia insiders say Jensen Huang was prone to wild office tantrums, which a source says some employees were surprised hadn't leaked before his public downfall (Thomas Barrabi/New York Post)",
+      "url": "https://nypost.com/2026/11/14/business/how-ex-nvidia-ceo-jensen-huang-threw-tantrums-in-the-office-dressed-down-tech-execs-i-hope-you-die/",
+      "publishedAt": "2026-11-15T06:20:01.000Z",
+      "excerpt": "Thomas Barrabi / New York Post : Nvidia insiders say Jensen Huang was prone to wild office tantrums, which a source says some employees were surprised hadn't leaked before his public downfall &nbsp; &mdash;&nbsp; Ousted Nvidia CEO Jensen Huang was prone to wild temper tantrums at the office, accordi",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261115/p2#a261115p2",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions (Wall Street Journal)",
       "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d?st=geQhk5",
       "publishedAt": "2026-11-15T05:55:03.000Z",
@@ -14319,61 +14371,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261114/p15#a261114p15",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a \"faulty router\" (Joseph Pisani/Wall Street Journal)",
-      "url": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f?st=zB6eBf",
-      "publishedAt": "2026-11-14T17:15:29.000Z",
-      "excerpt": "Joseph Pisani / Wall Street Journal : Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a &ldquo;faulty router&rdquo; &nbsp; &mdash;&nbsp; Work at a single remote location caused instability that led authorities t",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p14#a261114p14",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a \"bitcoin treasury,\" as its shares are down 60+% this year (Financial Times)",
-      "url": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0",
-      "publishedAt": "2026-11-14T16:35:01.000Z",
-      "excerpt": "Financial Times : Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a &ldquo;bitcoin treasury,&rdquo; as its shares are down 60+% this year &nbsp; &mdash;&nbsp; Plunge in shares and cryptocurrency prices could force Truth Social owner to sell assets o",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p13#a261114p13",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Tesla's Cybercab Autonomy Subscription agreement states the vehicles will only work inside Tesla-enabled geofences, which the company can change at any time (Fred Lambert/Electrek)",
-      "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
-      "publishedAt": "2026-11-14T16:01:26.000Z",
-      "excerpt": "Fred Lambert / Electrek : Tesla's Cybercab Autonomy Subscription agreement states the vehicles will only work inside Tesla-enabled geofences, which the company can change at any time &nbsp; &mdash;&nbsp; Tesla has posted the agreement that comes with its $29,990 Cybercab, and it's even worse than th",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p12#a261114p12",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Italy's data protection agency fines Meta €805M for allegedly accessing Android users' photos and videos without their consent or informing them (Reuters)",
-      "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-      "publishedAt": "2026-11-14T15:10:02.000Z",
-      "excerpt": "Reuters : Italy's data protection agency fines Meta &euro;805M for allegedly accessing Android users' photos and videos without their consent or informing them &nbsp; &mdash;&nbsp; Italy's data protection agency said on Saturday it had fined Meta Platforms (META.O) &euro;805 million ($887 million) &",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p11#a261114p11",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms (Washington Post)",
-      "url": "https://www.washingtonpost.com/technology/2026/11/13/behind-jensen-huangs-spy-scandal-shadow-war-trumps-ear-china/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzk0NTQ2MDAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzk1OTI4Mzk5LCJpYXQiOjE3OTQ1NDYwMDAsImp0aSI6ImI3ZWU0NWY4LWZiNmUtNGEzNy04NDk2LWEzYzkyM2I2MWEzMyIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMTEvMTMvYmVoaW5kLWplbnNlbi1odWFuZ3Mtc3B5LXNjYW5kYWwtc2hhZG93LXdhci10cnVtcHMtZWFyLWNoaW5hLyJ9.ckMTm0VCdUHrBcpi8_jACBIApqua-_4ZjYBg-GL0JYY&itid=gfta",
-      "publishedAt": "2026-11-14T14:30:23.000Z",
-      "excerpt": "Washington Post : How Marco Rubio helped topple Jensen Huang; source: Rubio used a CIA report about Alice Huang to write his own, recasting CIA reporting in more assertive terms &nbsp; &mdash;&nbsp; Rubio's intervention helped topple one of Washington's most influential corporate voices on China, gi",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p10#a261114p10",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14585,19 +14582,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Women's Rugby League World Cup 2026 final — it's *FREE*",
-      "url": "https://www.techradar.com/entertainment/how-to-watch-womens-rugby-league-world-cup-2026-final-free",
+      "title": "How to watch The Chosen season 6 online – stream the biblical epic from anywhere for free",
+      "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-chosen-season-6",
       "publishedAt": "2026-11-15T03:00:00.000Z",
-      "excerpt": "Here's how you can stream the final match of the Women's Rugby League World Cup 2026 for free from anywhere in the world.",
+      "excerpt": "The biblical series is now heading towards the final 24 hours of Jesus Christ's life. Here's how to watch The Chosen season 6 online with Prime, from anywhere.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch The Chosen season 6 online – stream the biblical epic from anywhere for free",
-      "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-chosen-season-6",
+      "title": "How to watch Women's Rugby League World Cup 2026 final — it's *FREE*",
+      "url": "https://www.techradar.com/entertainment/how-to-watch-womens-rugby-league-world-cup-2026-final-free",
       "publishedAt": "2026-11-15T03:00:00.000Z",
-      "excerpt": "The biblical series is now heading towards the final 24 hours of Jesus Christ's life. Here's how to watch The Chosen season 6 online with Prime, from anywhere.",
+      "excerpt": "Here's how you can stream the final match of the Women's Rugby League World Cup 2026 for free from anywhere in the world.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -17197,10 +17194,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Lasting Influence of John Berger",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
       "publishedAt": "2026-11-09T11:00:00.000Z",
-      "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+      "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -21208,6 +21205,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "The Swan, No. 6 (Hilma af Klint) by Victoria Chang",
+      "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1731711/the-swan-no-6-hilma-af-klint",
+      "publishedAt": "2026-11-15T06:00:00.000Z",
+      "excerpt": "Two swans turn into four swans. As if each swan yearned for time but time just multiplied into other swans. In a moment, everything will try to be red, and it will look like fall again. The trees take care of their own salvation , wrote Charles Wright. But we keep cutting them down while they are kn",
+      "source": "Poetry Foundation",
+      "category": "Literature"
+    },
+    {
       "title": "Chorus Attempting to Interpret Unearthed Fragments of Their Play by Carolina Ebeid",
       "url": "https://www.poetryfoundation.org/poetrymagazine/poems/150298/chorus-attempting-to-interpret-unearthed-fragments-of-their-play",
       "publishedAt": "2026-11-14T06:00:00.000Z",
@@ -21328,18 +21333,18 @@
       "category": "Literature"
     },
     {
-      "title": "Ghost Sightings at the Redmont Hotel by Paul Alexander",
-      "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826447/ghost-sightings-at-the-redmont-hotel",
-      "publishedAt": "2026-10-30T05:00:00.000Z",
-      "excerpt": "Sitting in the rooftop bar at happy hour, I see the lights of Birmingham&nbsp; glowing against a hazy December sky. On an evening like this one in 1952, Hank Williams checked into a second-floor room —so drunk a hotel down the street&nbsp; refused to admit him—after arriving in his powder-blue Cadil",
-      "source": "Poetry Foundation",
-      "category": "Literature"
-    },
-    {
       "title": "Le Tombeau des Lutteurs by Kathleen Rooney",
       "url": "https://www.poetryfoundation.org/poetrymagazine/poems/92031/le-tombeau-des-lutteurs",
       "publishedAt": "2026-10-30T05:00:00.000Z",
       "excerpt": "It is a tragedy, yes, but a confusing one. What happened to the wrestlers and where have they gone? Loulou the Pomeranian would love to know. Outdoors the hills are buried in snow, but inside a rose, a rose full-blown, a roomful of rose. The bloom and its shadow overtaking the space. The bloom propo",
+      "source": "Poetry Foundation",
+      "category": "Literature"
+    },
+    {
+      "title": "Ghost Sightings at the Redmont Hotel by Paul Alexander",
+      "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826447/ghost-sightings-at-the-redmont-hotel",
+      "publishedAt": "2026-10-30T05:00:00.000Z",
+      "excerpt": "Sitting in the rooftop bar at happy hour, I see the lights of Birmingham&nbsp; glowing against a hazy December sky. On an evening like this one in 1952, Hank Williams checked into a second-floor room —so drunk a hotel down the street&nbsp; refused to admit him—after arriving in his powder-blue Cadil",
       "source": "Poetry Foundation",
       "category": "Literature"
     },
@@ -21356,14 +21361,6 @@
       "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826407/all-my-little-things-are-very-special-in-the-sunlight-ive-had-a-little-drink",
       "publishedAt": "2026-10-28T05:00:00.000Z",
       "excerpt": "I just ball the fitted sheet into a wad and throw it at the closet. It’s fine. It does not matter. There’s a painting I love by Podkowiński called Frenzy of Exultations in which a woman clings in adoration to a deranged-looking horse. The horse’s nostrils are huge and foam is slipping from its mouth",
-      "source": "Poetry Foundation",
-      "category": "Literature"
-    },
-    {
-      "title": "Sylvia Plath as an Old Story Title for Learning to Fight Depression Where the Semiotics Simply Suggest That a Garden Illustrates Peace as a Foreshadow Rather Than as a Vivid Depiction of an Ancestral Society of Sad Mothers & Helpless Fathers by Nome Emeka Patrick",
-      "url": "https://www.poetryfoundation.org/poetrymagazine/poems/152117/sylvia-plath-as-an-old-story-title-for-learning-to-fight-depression-where-the-semiotics-simply-suggest-that-a-garden-illustrates-peace-as-a-foreshadow-rather-than-as-a-vivid-depiction-of-an-ancestral-society",
-      "publishedAt": "2026-10-27T05:00:00.000Z",
-      "excerpt": "Tell it this way: depression is the 30cm nail driving into the walls. If you ever read about Plath, ever kept a lantern from dying, ever tended a garden it grew so wild to swallow god, ever kept dressing the fire in your bones, then you must know about grief, possibly how to end it. Maami once stood",
       "source": "Poetry Foundation",
       "category": "Literature"
     },
@@ -23802,15 +23799,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "NeoPups",
-      "url": "https://www.metafilter.com/215163/NeoPups",
-      "publishedAt": "2026-11-14T06:58:16.000Z",
-      "excerpt": "If you enjoyed NeoPets back in during their ascendance, you'll probably fall in love with Dog Online . You may enjoy it even if you've never heard of a Neo or a Pet. You can farm, and fish, and cook, and trade, and explore dungeons, and solve puzzles, and play an action game, and collect customizati",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "Can Network Science Transform Health and Nutrition?",
       "url": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
       "publishedAt": "2026-11-12T19:40:54.000Z",
@@ -24191,6 +24179,86 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "《衛蘭 OUT OF FRAME 》香港站首場圓滿完成：呢度先係我屋企",
+      "url": "https://hk01.com/sns/article/60410992",
+      "publishedAt": "2026-11-15T07:12:01.000Z",
+      "excerpt": "《衛蘭 OUT OF FRAME 世界巡迴演唱會》香港站首場演出昨晚(14日)於紅館圓滿完成，紅館後台一片花海，當中包括前老闆黎明，他的花籃上不單止擺滿了零食，更附上金句：「Good Show，Good Luck，Show前唔好食，Show後馬上食。」另外張學友、容祖兒、張敬軒、莫文蔚、古巨基、張柏芝、梁詠琪、陳慧琳、楊千嬅、丁子高、方力申、炎明熹、王祖藍、李亞男等也有送來花籃給 Janice 打氣。親臨紅館現場支持Janice 的藝人及歌手包括蔡思貝、王君馨、鍾舒漫、泳兒、黃建東、朱芸篇、雲浩影、黃淑蔓、Winka@COLLAR、 洪嘉豪、梁思浩、應昌佑等，他們及全場歌迷一起為 Janice",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "上海58歲漢性侵上門推拿技師 曾轉帳¥2000辯稱嫖資判囚三年半",
+      "url": "https://hk01.com/sns/article/60410974",
+      "publishedAt": "2026-11-15T07:06:36.000Z",
+      "excerpt": "近日，上海青浦法院公布了一宗性侵案件判決。58歲男子潘某通過網絡預約服務人員上門提供中式推拿服務，期間潘某強行與其發生性關係。事發後，女子為保留證據，打開手機錄音功能，向對方索要2000元（人民幣，下同）體檢費用，隨後立即報警。涉案男子在庭審中辯稱雙方屬於有償嫖娼關係，但被法院駁回，最終法院以強姦罪判處潘某有期徒刑三年六個月。 加鐘服務後遭強暴 據內媒《天眼新聞》報道，判決書顯示，2025年12月28日，潘某通過某APP預約服務人員於當日下午上門提供中式推拿服務。在加鐘期間，潘某的手開始觸碰受害人某甲，某甲明確拒絕說「不要」，後潘某將某甲壓在身體下面，對其親臉、摸胸，在沒有做任何防護措施的情況",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "南京5大必買手信｜¥5吃現烤茉莉花餅 金陵十二釵禮盒糕點顏值高",
+      "url": "https://hk01.com/sns/article/60410180",
+      "publishedAt": "2026-11-15T07:04:33.000Z",
+      "excerpt": "去南京旅遊，除了吃喝玩樂，最讓人頭痛的就是：「到底要帶什麼伴手禮回家？」不管是送朋友、送家人，還是自己想買些有紀念價值的東西，「南京必備伴手禮」絕對是你出發前一定會查的關鍵字。這座歷史悠久的城市，其實藏了很多有特色的美食和地方特產，不只好吃、好看，還超有南京味！這次我們幫大家整理出5大到南京必買的伴手禮推薦，不踩雷、又有面子，出門玩也能買得聰明又開心！ 中國南京介紹 南京是中華人民共和國江蘇省的省會，簡稱「寧」，又有金陵、建鄴、建康等別稱。作為長三角核心城市，南京在中國歷史文化中佔有重要地位，被稱為六朝古都。 南京在中國歷史文化中佔有重要地位，被稱為六朝古都。（小紅書@潘小雨愛攝影） 這座城市",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "地球之友｜全球氣溫持續飆升 人類還有機會「退燒」嗎？",
+      "url": "https://hk01.com/sns/article/60410027",
+      "publishedAt": "2026-11-15T07:00:44.000Z",
+      "excerpt": "地球之友｜洪藹誠博士 第31次《聯合國氣候變化框架公約》締約方大會（COP31）剛於2026年11月9日在土耳其安塔利亞開幕。會議召開前，聯合國環境規劃署（UNEP）於10月中發布《2026年排放差距報告：回返點》（Emissions Gap Report 2026: The point of return）。報告指出，人類已失去將全球升溫限制在1.5°C且無超越或僅有有限超越的機會。然而，這並意味着《巴黎協定》目標完全失效；關鍵在於各國能否立即採取更快速、更深入且持續的減排行動，以降低升溫峰值、縮短超越1.5°C的時間，並力求在本世紀末前將全球升溫拉回至1.5°C或以下。 全球溫室氣體排放尚",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "胃潰瘍｜空腹飲咖啡食辣會胃痛？醫生拆解4大傷胃迷思 揭2大元兇",
+      "url": "https://hk01.com/sns/article/60407842",
+      "publishedAt": "2026-11-15T07:00:35.000Z",
+      "excerpt": "空腹喝黑咖啡、吃辣、喝檸檬水或冰飲後胃不舒服，常讓人擔心是否傷胃。台灣重症醫師黃軒指出，這些飲食通常不會單獨造成胃潰瘍，但仍可能讓部分人出現胃痛、火燒心或腹瀉等症狀。反覆胃痛不應只怪罪食物，應找出真正病因。 黃軒表示，胃部具有胃黏膜上皮、富含重碳酸根的中和層，以及豐富的微血管循環，能形成保護屏障，避免胃酸傷害胃壁。他整理出4種常被認為傷胃的飲食迷思： 1. 吃辣會傷胃？ 辣椒素能刺激感覺傳入神經，促使胃黏膜釋放抑酸訊號、增加黏膜血流量及黏液分泌。小型人體研究也觀察到特定劑量辣椒素可能具有胃黏膜保護作用，但不代表日常吃辣能加固胃壁或治療胃病，部分人仍可能出現胃痛、火燒心或腹瀉。 相關文章： 食辣",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "綜藝《後會友期》熱潮蔓延KPOP！網民票選十大最遺憾走散偶像名單",
+      "url": "https://hk01.com/sns/article/60410758",
+      "publishedAt": "2026-11-15T07:00:07.000Z",
+      "excerpt": "如果昔日反目成仇、形同陌路的偶像組合能夠重新同台對質，會是怎樣的震撼畫面？近期內地串流平台芒果TV的友誼紀實真人騷《後會友期》爆紅，節目主打昔日舊友重逢並解開心結，掀起一陣「世紀破冰」風潮。這股熱潮迅速蔓延至K-pop（韓國流行音樂）圈，勾起大批粉絲的集體回憶。網民紛紛列出心目中的「最遺憾名單」，盤點出10對最希望能在節目中破冰對談的韓國娛樂圈前隊友及摯友： 近期內地串流平台芒果TV的友誼紀實真人騷《後會友期》爆紅，節目主打昔日舊友重逢並解開心結，掀起一陣「世紀破冰」風潮。（微博@後會友期） 《後會友期》這股熱潮迅速蔓延至K-pop（韓國流行音樂）圈，勾起大批粉絲的集體回憶。（網上圖片） 1.",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "瑪麗醫院壞𨋢涉3工師程簽發安全 1人已停牌 2人待調查後決定",
+      "url": "https://hk01.com/sns/article/60410991",
+      "publishedAt": "2026-11-15T06:47:44.000Z",
+      "excerpt": "瑪麗醫院新大樓升降機早前被揭發接連故障及𨋢槽傾斜等問題，當時28部升降機僅4部可運作。發展局本月11日向立法會提交調查報告，報告揭發28部升降機大多由已被停牌、判處160小時社服令的註冊升降機工程師簽發「安全證書」，另有兩名註冊升降機工程師分別簽發一部升降機的「安全證書」。 《香港01》早前向機電署查詢會否控告另外兩名簽發安全證書的升降機工程師，署方於最新回覆稱現階段不便透露更多資料，並指現正進行調查，將視乎結果決定下一步行動，包括召開紀律審裁委員會及作出懲處。 8月12日記者到瑪麗醫院「臨床大樓1」視察，發現大樓內大部份升降機均被鋼板或膠圍欄圍封暫停使用。（資料圖片） 瑪麗醫院「臨床大樓1",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "珍惜生命｜藍田廣田邨32歲男自縊 家人報案惜太遲",
+      "url": "https://hk01.com/sns/article/60410990",
+      "publishedAt": "2026-11-15T06:46:44.000Z",
+      "excerpt": "今日（15日）上午11時08分，一名男子在藍田廣田邨廣靖樓單位上吊，家人發現報警求助。人員接報到場，消防將事主解下，惟32歲姓李男子當場被證實死亡。經初步調查，事主以一條皮帶上吊。警方於現場沒有檢獲遺書。 廣靖樓。（資料圖片） 求助網站和熱線： 即睇3分鐘情緒自救法 呼吸間即可放鬆身心 「情緒通」精神健康支援熱線及WhatsApp ：18111 香港撒瑪利亞防止自殺會熱線：23892222 醫院管理局精神健康專線：24667350 東華三院芷若園熱線︰18281 撒瑪利亞會熱線︰28960000 社會福利署熱線︰23432255 生命熱線：23820000 明愛向晴熱線﹕18288 【不要放棄",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "天文台下調周五周六市區氣溫至最低16度 「小雪」前夕一區僅12度",
+      "url": "https://hk01.com/sns/article/60410987",
+      "publishedAt": "2026-11-15T06:46:30.000Z",
+      "excerpt": "【香港天文台／HKO／明天的天氣／東北季候風／冷鋒／小雪／寒冷】天文台上周四（12日）在「天氣隨筆」專欄提到，西風槽將北方的冷空氣向南推送，下周中後期華南沿岸氣溫將再度降至20度以下，天文台由當日起不斷下調氣溫預測，至今早（15日）最新預測繼續大幅下調，料周五（20日）及周六（21日、廿四節氣「小雪」前夕）市區氣溫（即尖沙咀天文台總部）最低16度。 天文台自動分區天氣預報顯示，周六凌晨本港氣溫降至最低，其中打鼓嶺低見12度，即已達到天文台定義寒冷天氣（12度或以下）的門檻。另外上周二（10日）早上天文台尖沙咀總部一度錄得17.5度，創入秋以來最低（天文台將9月至11月劃分為秋季），即周五或周六",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "宏福苑大火一周年｜大埔教堂今辦彌撒 主題重新改為火災周年祈禱",
+      "url": "https://hk01.com/sns/article/60410975",
+      "publishedAt": "2026-11-15T06:33:12.000Z",
+      "excerpt": "造成168人死亡的大埔宏福苑火災本月26日滿一周年，大埔聖母無玷之心堂原定今日（15日）舉行追思彌撒悼念宏福苑死者，期間有傳教堂被警方「關心」，其後該堂更換彌撒主題，抽走宏福苑字眼，改為「為全年已亡的兄弟姊妹」祈禱。其後天主教香港教區主教周守仁樞機發信，籲請各堂區在11月26日，為宏福苑的亡者奉獻彌撒。 據堂區今日（15日）的最新佈告，彌撒主題重新改為「2026年亡者暨宏福苑火災周年」祈禱。 大埔聖母無玷之心堂。（大埔聖母無玷之心堂 Immaculate Heart Of Mary Church FB） 天主教香港教區主教周守仁樞機。（資料圖片） 天主教香港教區主教周守仁樞機上周五（13日）向",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "Pokémon GO活動數十人聚集尖東 看中街頭多「道館」捉「鋁鋼龍」",
       "url": "https://hk01.com/sns/article/60410979",
       "publishedAt": "2026-11-15T06:10:56.000Z",
@@ -24207,66 +24275,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "李龍基自爆家財耗盡需重新起步 昔日七層物業去向早已曝光",
-      "url": "https://hk01.com/sns/article/60410970",
-      "publishedAt": "2026-11-15T06:04:01.000Z",
-      "excerpt": "李龍基近日出席《EYT友好會聯歡晚宴》接受訪問時，並未否認在這段感情中「家財耗盡」的傳聞。針對積蓄所剩無幾、戶口需要「由頭來過」的說法，基哥以豁達態度回應，表示對錢財不甚敏感，並指出當中的開支「有好多錢係我自己使嘅，亦有好多錢係大家一齊使嘅」。他表明目前心態是重新起步，認為錢財屬身外物，現階段最重要是身體健康，並強調只要「有飯開、有工開」即可。 李龍基坦承錢財盡耗「重新做人」 。（盧振輝攝） 促清家當劃清界線 在生活細節上，李龍基正採取實際行動與前未婚妻王青霞（Chris）劃清界線。他透露女方目前仍有衣物及化妝品等私人物品遺留在其寓所，故已主動聯絡對方，要求她安排速遞公司將物品全數取走。同時，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃仁勳辭職｜愛女黃敏珊遭爆「難相處」 英偉達內部不滿其空降",
-      "url": "https://hk01.com/sns/article/60410947",
-      "publishedAt": "2026-11-15T06:00:31.000Z",
-      "excerpt": "英偉達（Nvidia，又稱輝達）創辦人黃仁勳婚外情連環爆，又涉入間諜疑雲，風波持續延燒！英偉達日前宣布，黃仁勳辭去行政總裁職務，由財務總監克雷斯（Colette Kress）擔任臨時執行長。隨着黃仁勳垮台，英偉達內部越來越多內幕被爆料，多位前員工和現任員工表示，黃仁勳愛女黃敏珊（Madison Huang）很難相處，也不滿她空降高層。 英偉達前、現員工不滿黃仁勳管理方式如封建制度 《金融時報》（Financial Times） 報道，英偉達領導層更迭、董事會與外部律師的調查，揭開公司內部政治與管理的神秘面紗。 黃仁勳女兒黃敏珊（Madison Huang）（Nvidia） 一名消息人士表示，黃",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃大仙下邨火警｜八旬女死者獨居 單位有大量雜物 堆疊至天花板",
-      "url": "https://hk01.com/sns/article/60410973",
-      "publishedAt": "2026-11-15T05:58:23.000Z",
-      "excerpt": "黃大仙下邨龍光樓今（15日）早發生奪命火警，一個5樓單位起火及冒出濃煙，消防員到場開喉將火救熄後，在起火單位內客廳發現一具燒焦女屍。消防處代表指，死者獨居，單位內有大量雜物，包括尼龍袋、膠袋及膠樽等，又形容雜物堆積高度由1.2米直至天花板。消防處補充，單位內設有神位，亦不排除為火警成因之一，相信火警無可疑，正循煙頭及香燭冥鏹意外燃燒雜物的方向調查。 黃大仙警區軍裝巡邏小隊第四隊督察朱顯揚（左）及消防處高級消防隊長陳振維（中）召開記者會交代詳情。（鄭嘉惠攝） 消防處高級消防隊長陳振維交代案情指，消防處於今早8時45分接獲報告，指黃大仙下邨龍光樓一個低層單位發生一級火警。消防人員於8時50分到場，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港演出突取消曲目 鋼琴家王羽佳反駁主辦方：演出數周前已通知",
-      "url": "https://hk01.com/sns/article/60410972",
-      "publishedAt": "2026-11-15T05:56:02.000Z",
-      "excerpt": "鋼琴家王羽佳於上周一（9日）起一連兩晚，與馬勒室樂團在香港文化中心音樂廳演出。惟上周二（10日）樂團突然取消最後一首曲目，王羽佳全晚在台上時間只有不足20分鐘，主辦方隨後透過電郵公布安排全額退款，並解釋音樂家基於「藝術考量」，決定於整個亞洲巡演節目中抽起曲目。 王羽佳在社交網站發文指，事前已就演出曲目改動通知主辦方，而非臨時變動，又指是主辦方單方面決定不事前告知觀眾。 鋼琴家王羽佳。（飛躍演奏香港網站） 觀眾投訴大會取消最後一曲目：好突然完咗又冇encore 該音樂會為「飛躍演奏香港二十周年」樂季節目，今次香港站是王羽佳與馬勒室樂團合作亞洲巡演的首站。11月10日原定演奏的4首曲目，包括浦羅哥",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "維港泳腰斬｜未落水泳手呻白吹風2小時 游10分鐘上岸泳手稱諒解",
-      "url": "https://hk01.com/sns/article/60410966",
-      "publishedAt": "2026-11-15T05:31:24.000Z",
-      "excerpt": "「維港泳2026」今日（15日）早上舉行。賽事最後一組「優悠組」第四組大批泳手未下水，賽事便宣告取消。有到場後未有機會下水的泳手表示極度不滿，語帶諷刺地「多謝」主辦方「畀咗個季候風我哋，吹咗兩個鐘西北風」；不過，有泳手下水僅游了10分鐘被召上岸，諒解因水流湍急腰斬賽事。 大會安排旅遊巴接載部分泳手從起點的灣仔到終點的尖沙咀。（湯致遠攝） 水流湍急腰斬維港泳 旅遊巴接載泳手到終點 「維港泳2026」活動尾聲，當「優悠組」第四組大批泳手未下水之際，主辦方泳總段決定取消賽事，原因是水流湍急。大會其後安排旅遊巴接載部分泳手，從起點灣仔到終點尖沙咀，並提供錫紙，讓他們披在身上保暖。 大會提供錫紙，讓泳手",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "常春藤名校食安風暴：哥大飯堂驚現「鼠糞霉變」 留學生如何自保",
-      "url": "https://hk01.com/sns/article/60409264",
-      "publishedAt": "2026-11-15T05:30:30.000Z",
-      "excerpt": "哥大（Columbia University）最火的食堂，一天要刷掉上千張餐卡。9月9日上午，一隊人刷卡進了Lerner Hall三樓，他們不是來吃飯的。 紐約市健康與心理衛生局的檢查員，把這個食堂從備餐區到儲物架翻了一遍，最後開出一張33分的違規單。五天後，另一隊人走進Faculty House，拿到41分。 這兩張分數單一直沒有對外。直到10月30日，哥大校報《Columbia Daily Spectator》通過資訊公開申請把它拿到並公開，全校學生才知道：自己每天排隊打飯的地方，分數已經高到可以直接領一張C。 美國哥倫比亞大學。（Columbia University） 這個分數到底意味",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "維港泳｜泳手憶水流急：「游極都去唔到」 大批人無法完賽需上船",
-      "url": "https://hk01.com/sns/article/60410971",
-      "publishedAt": "2026-11-15T05:29:43.000Z",
-      "excerpt": "年度活動「維港泳2026」今日（15日）早上舉行。賽事最後一組「優悠組」第四組大批參加者未下水，賽事取消。有第一組的泳手指，到終點附近時水流突然變急，被推到近天星碼頭附近，要逆流前往終點，大批選手無法完賽。他又表示，期間感覺「游極都去唔到」，雖最終仍順利完賽，但感覺「游1,000米好似游咗3,000米咁」。 不少選手無法逆流，最終被要求上船，岸邊亦有大批未能掙脫水流的泳手滯留。（受訪者提供） 不少選手無法逆流，最終被要求上船，乘坐旅遊巴前往終點領回行李。（受訪者提供） 不少選手無法逆流，最終被要求上船，乘坐旅遊巴前往終點領回行李。（受訪者提供） 天星碼頭岸邊逼爆 花半小時始離開 第一組的林先生",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "黃大仙下邨火警｜客廳發現女焦屍 循煙頭及香燭燒雜物方向調查",
       "url": "https://hk01.com/sns/article/60410951",
       "publishedAt": "2026-11-15T04:49:56.000Z",
-      "excerpt": "黃大仙下邨龍光樓今（15日）早發生奪命火警，一個低層單位起火及冒出濃煙，消防員到場開喉將火救熄後，在起火單位內發現一具女屍。警方與消防將於下午1時召開記者會交代案情，《香港01》屆時會現場直播。 涉事單位外牆熏黑。（鄭嘉惠攝） 消防員射水灌救。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 現場煙味濃烈，街坊紛紛掩住口鼻。（鄭嘉惠攝） 涉事單位熏黑。（馬耀文攝） 消防到場救援。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 警方協助居民離開。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 消防到場救援。",
+      "excerpt": "黃大仙下邨今（15日）早發生奪命火警，龍光樓5樓一個單位起火及冒出濃煙，消防員到場開喉將火救熄後，在起火單位內發現一具燒焦女屍。消防表示，死者獨居，而單位內有大量雜物，雜物堆積高度由1.2米直至天花板。單位內亦設有神位，不排除為火警成因之一。消防相信火警無可疑，正循煙頭及香燭冥鏹意外燃燒雜物的方向調查。 黃大仙警區軍裝巡邏小隊第四隊督察朱顯揚（左）及消防處高級消防隊長陳振維（中）召開記者會交代詳情。（鄭嘉惠攝） 消防處高級消防隊長陳振維交代案情指，消防處於今早8時45分接獲報告，指黃大仙下邨龍光樓5樓一單位發生一級火警。消防人員於8時50分到場，出動一條喉及一隊煙帽隊灌救，火警於9時16分被救",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24323,30 +24335,6 @@
       "url": "https://hk01.com/sns/article/60410889",
       "publishedAt": "2026-11-14T17:46:07.000Z",
       "excerpt": "第31屆亞洲電視大獎（Asian Television Awards, ATA）昨晚在胡志明市舉行、張家輝憑《絕命法官》奪得《亞洲電視大獎》《最佳男主角》，獎項分別有張嘉益、白宇、楊旭文、張家輝、張軒睿、山崎賢人、尹正、章宇等男演員角逐，張家輝得獎後上台以英文致詞，他說：「I would like to say ，thank you to investors and my production team for their support and trust in me. and also, I like to thank the Judges of the Asian Television ",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "馬斯克：沒有黃仁勳許多關鍵交易將失敗 僅有口頭承諾無書面合約",
-      "url": "https://hk01.com/sns/article/60410885",
-      "publishedAt": "2026-11-14T16:14:37.000Z",
-      "excerpt": "世界首富馬斯克（Elon Musk）11月13日（周五）在社交平台X發文表示，黃仁勳在英偉達時期出色地管理供應鏈，但其中許多交易只是與黃仁勳握手達成的，並非正式合約。他稱，如果沒有黃仁勳，至少部分關鍵交易將會告吹。 馬斯克還稱，「如果黃仁勳向我保證計算資源的交付，或者我要求加速某些組件的運行，他總是能兌現承諾。當然，我們之後也會擬定採購訂單，但我從未懷疑過訂單無法完成。」 If Jensen gave me his word about compute delivery or I asked for components to be accelerated, he always came th",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "BIGBANG丨內地女被指叫白牌車上新聞 拍片否認：我有司機沒犯法",
-      "url": "https://hk01.com/sns/article/60410858",
-      "publishedAt": "2026-11-14T16:02:25.000Z",
-      "excerpt": "韓國天團BIGBANG睽違9年再度於香港合體，11月13日在啟德體育園主場館舉行首場演唱會。不過完騷後，啟德場館附近街頭卻發生一段小插曲。多間傳媒報道警方在現場截查跨境車輛，目標是打擊非法跨境白牌車，其中一段新聞片段拍攝到一身名牌、打扮斯文的內地女生，疑似因等車太久，情緒激動地責罵司機遲遲未到。有關片段在社交平台上瘋傳並惹來熱議，不少人都直指該名女生顧用非法跨境白牌車。《香港01》聯絡上事件女主角李小姐講述事件經過，她指當時正與公司司機講電話，並非白牌車司機，不滿有關報道疑斷章取義，她強調：「我是遵紀守法的好公民！」 在now新聞的有關影片中，李小姐氣場強悍地對著電話另一方說：「發給你，你過來",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃仁勳出軌｜與女主角黃樂再有舊照曝光 台北電腦展上搭肩攬腰",
-      "url": "https://hk01.com/sns/article/60410883",
-      "publishedAt": "2026-11-14T14:59:53.000Z",
-      "excerpt": "英偉達（Nvidia、NVDA，又名輝達）創辦人黃仁勳（Jensen Huang）爆出婚外情醜聞後，辭去行政總裁等職務，路透社11月14日曝光數張黃仁勳與婚外情女主角黃樂（Alice Huang）2024年在台北國際電腦展上的照片，可見兩人搭肩攬腰。 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社2026年11月14日曝光數張黃仁勳與婚外情女主角黃樂2024年在台北國際電腦展上的照片（Reuters） 路透社",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24831,6 +24819,22 @@
       "category": "Hong Kong"
     },
     {
+      "title": "黃大仙一單位火警八旬婦燒傷不治 消防估計雜物起火不涉刑事成分",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877882-20261115.htm",
+      "publishedAt": "2026-11-15T06:19:29.000Z",
+      "excerpt": "黃大仙下邨龍光樓一個低層單位早上發生火警，一名80歲女住戶全身多處燒傷、現場證實死亡。初步調查顯示火警由雜物起火引致，現階段無證據涉及刑事成分，案件交由黃大仙警區刑事調查隊跟進。 消防處早上近9時接報，指單位發生火警，到場後大約半小時內將火救熄，並在單位距離門口大約兩米的客廳位置發現一具燒焦屍體。火警期間大約300名住戶自行疏散，一名住在高層單位的65歲女子逃生期間吸入濃煙不適，送往伊利沙伯醫院治理，消防又接獲兩宗住戶求助個案，已帶到安全位置，沒有受傷。 消防處高級消防隊長陳振維表示，死者獨居，消防在起火單位發現大量雜物，初步調查相信火警無可疑，將從煙頭或香燭冥鏹意外燃燒雜物方向調查，消防測試",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "周一鳴冀國際刑警大會通過「銀色通告」 採預防措施打擊非法資金",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877881-20261115.htm",
+      "publishedAt": "2026-11-15T06:12:58.000Z",
+      "excerpt": "國際刑警大會將於本月底首次在香港舉行。警務處處長周一鳴表示，3年籌備工作已經接近尾聲，希望會議的參與者可以感受到香港的活力。 周一鳴出席一個電視節目，指今年已為國際刑警大會進行了約十次綵排及演練，有信心成功舉行會議。國際刑警去年展開先導計劃，推出「銀色通告」針對非法資金流向，個別國家或地區如檢獲犯罪得益，並通過國際刑警發出「銀色通告」，其他國家或地區可預先採取應對措施。周一鳴表示，本港今年初亦參加了先導計劃，相信「銀色通告」有助打擊電騙罪案，希望通告在稍後的大會上獲通過，並可以「大派用場」。 早前有緬北的詐騙集團被瓦解，周一鳴說，目前詐騙集團仍然集中在東盟地區，但亦有部分遷移至中東及非洲等，需",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "陳茂波稱本港金融貿易由「量」累積 朝「值」深度提升",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1877879-20261115.htm",
       "publishedAt": "2026-11-15T05:31:17.000Z",
@@ -24975,19 +24979,19 @@
       "category": "Hong Kong"
     },
     {
-      "title": "香港迪士尼樂園發現網絡事件 警方暫列不誠實意圖而取用電腦",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877832-20261114.htm",
-      "publishedAt": "2026-11-14T11:53:49.000Z",
-      "excerpt": "香港迪士尼樂園昨日發現網絡事件，已經報警，並即時採取跟進及防護措施。樂園強烈建議旅客，應直接從樂園官方渠道或透過合作旅行社及平台購買樂園門票，切勿光顧不可靠來源的賣家，免招不便及經濟損失。如有懷疑，應立即尋求警方協助。 樂園已加强入場時門票核實程序，並將盡快通知個人資料私隱專員公署。 警方回覆查詢表示，昨日接獲一間公司報案，指懷疑有網絡事件。經初步調查，案件暫列「有犯罪或不誠實意圖而取用電腦」，交由大嶼山警區重案組跟進，暫未有人被捕。 編輯：鍾慧儀",
-      "source": "香港電台中文本地新聞",
+      "title": "Hong Kong taxi driver arrested after 2 Britons hit by cab in Wan Chai",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374476/hong-kong-taxi-driver-arrested-after-2-britons-hit-cab-wan-chai",
+      "publishedAt": "2026-11-15T06:57:04.000Z",
+      "excerpt": "Hong Kong police have arrested a cabby for dangerous driving after his taxi allegedly hit two British nationals who were crossing the road in Wan Chai. Police said on Sunday that the incident happened at 1.39am, when the victims – a 65-year-old man and a 58-year-old woman – were crossing the road ne",
+      "source": "South China Morning Post",
       "category": "Hong Kong"
     },
     {
-      "title": "截至傍晚6時 16班來往美國與香港航班取消或延誤",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877831-20261114.htm",
-      "publishedAt": "2026-11-14T11:29:34.000Z",
-      "excerpt": "美國聯邦航空管理局一度下令全美所有航班停飛，停飛令維持約4小時後解除。本港機管局表示，今日原定有16班航班由美國抵港，以及17班航班由香港出發前往美國。截至晚上6時，全日有3班由美國抵港的航班取消、6班航班延誤；離港前往美國有2班航班取消、5班航班延誤。 機管局指，美國相關航空交通限制已經解除，但預計今明兩日來往美國及香港的航班將受到一定程度影響，呼籲旅客留意航空公司的最新公布。 編輯：鍾慧儀",
-      "source": "香港電台中文本地新聞",
+      "title": "700 swimmers left stranded after strong currents force early end to Victoria Harbour Race",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3374475/700-swimmers-left-stranded-after-strong-currents-force-early-end-victoria-harbour-race",
+      "publishedAt": "2026-11-15T06:54:57.000Z",
+      "excerpt": "The Victoria Harbour Race on Sunday ended in chaos and disappointment for almost 800 swimmers, after organisers cancelled the final waves of amateur competitors and even pulled some from the water with the finish line in sight. With the 10.30am cut-off time fast approaching, the fourth batch of leis",
+      "source": "South China Morning Post",
       "category": "Hong Kong"
     },
     {
@@ -25131,22 +25135,6 @@
       "url": "https://www.scmp.com/news/hong-kong/article/3374396/bad-year-hong-kong-construction-6-scandals-shocked-city",
       "publishedAt": "2026-11-13T14:08:09.000Z",
       "excerpt": "Hong Kong’s construction industry is facing mounting public scrutiny following a string of scandals involving substandard work, defective installations and questionable maintenance practices. From malfunctioning hospital lifts and missing fire-safety components in lift door frames to defective colum",
-      "source": "South China Morning Post",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "Hong Kong nature reserve samples test positive for ‘highly pathogenic’ bird flu virus",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374391/hong-kong-nature-reserve-samples-test-positive-highly-pathogenic-bird-flu-virus",
-      "publishedAt": "2026-11-13T13:21:51.000Z",
-      "excerpt": "Two environmental samples taken from Hong Kong’s Mai Po nature reserve have tested positive for the “highly pathogenic” H5 avian flu virus, the Agriculture, Fisheries and Conservation Department (AFCD) has said. A department spokesman said that a research team from the University of Hong Kong’s Scho",
-      "source": "South China Morning Post",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "Hong Kong nursery ordered to submit report after boy’s mystery head injury",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3374385/hong-kong-nursery-ordered-submit-report-after-boys-mystery-head-injury",
-      "publishedAt": "2026-11-13T12:57:04.000Z",
-      "excerpt": "Hong Kong education authorities have ordered a nursery in Kowloon Tong to submit a report after it allegedly failed to explain why a two-year-old pupil had a large bump on the back of his head after classes. The Education Bureau said it was highly concerned about the incident at Cannan Kindergarten ",
       "source": "South China Morning Post",
       "category": "Hong Kong"
     },

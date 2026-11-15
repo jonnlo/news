@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-16",
-  "generatedAt": "2026-11-15T17:46:20.599Z",
-  "collectedAt": "2026-11-15T17:46:20.599Z",
+  "generatedAt": "2026-11-15T18:17:11.442Z",
+  "collectedAt": "2026-11-15T18:17:11.442Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,33 +20,6 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
-        {
-          "title": "What Picasso taught me about building AI Agents",
-          "url": "https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/",
-          "publishedAt": "2026-11-15T16:16:26.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50508076"
-        },
-        {
-          "title": "The Atheist Bible",
-          "url": "https://suchanek.name/texts/atheism/",
-          "publishedAt": "2026-11-15T16:05:53.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50507989"
-        },
-        {
-          "title": "'Duffy Lied': Controllers Refute Transportation Secretary's Ground Stop Story",
-          "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation",
-          "publishedAt": "2026-11-15T15:45:42.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50507791"
-        },
         {
           "title": "Emacs Is My Browser",
           "url": "https://joshblais.com/blog/emacs-as-my-browser/",
@@ -68,6 +46,15 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50507206"
+        },
+        {
+          "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+          "url": "https://github.com/db-branch/db-branch",
+          "publishedAt": "2026-11-15T13:50:51.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50506940"
         },
         {
           "title": "Things That Turbo Pascal Is Smaller Than (2011)",
@@ -194,9 +181,27 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
+        },
+        {
+          "title": "PyPI's redesigned project pages with clearer security signals are now live",
+          "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+          "publishedAt": "2026-11-14T15:40:52.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50497892"
+        },
+        {
+          "title": "Semicircle Packing",
+          "url": "https://rorz.io/writing/semicircle-packing",
+          "publishedAt": "2026-11-13T14:42:57.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50484234"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Techmeme",
@@ -1458,7 +1463,7 @@
           "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1471,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Don't throw away your old TV - Here's what to do instead",
+          "url": "https://www.engadget.com/2313763/dont-throw-away-your-old-tv-without-checking-first/",
+          "publishedAt": "2026-11-15T18:00:00.000Z",
+          "excerpt": "Your used TV could be well-qualified for a new job, and if it is time to retire the ol' telly, you'll want to make sure you do so the right way.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Open-ear vs. in-ear earbuds: Which is actually better for your ears?",
+          "url": "https://www.engadget.com/2313761/open-ear-vs-in-ear-earbuds-which-is-better/",
+          "publishedAt": "2026-11-15T17:45:00.000Z",
+          "excerpt": "Open-ear and in-ear earbuds are designed differently, but those differences can have a bigger impact on daily listening than many people realize.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Italy orders Meta to pay $887M for not obtaining specific consent over user photos",
           "url": "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/",
@@ -1627,27 +1650,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The right way to transfer your Spotify playlists and songs to Apple Music",
-          "url": "https://www.engadget.com/2311090/how-to-transfer-spotify-playlist-songs-to-apple-music/",
-          "publishedAt": "2026-11-15T13:15:00.000Z",
-          "excerpt": "Learn how to transfer Spotify playlists to Apple Music on iPhone, iPad, Android or the web, and what you need before you move your songs over.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Troubleshooting a black screen on your MacBook is easier than you think",
-          "url": "https://www.engadget.com/2313043/troubleshoot-macbook-black-screen-issues/",
-          "publishedAt": "2026-11-15T01:30:00.000Z",
-          "excerpt": "A black screen on your MacBook can feel like the end of the world, but don't panic: there are several easy troubleshooting steps to try first.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1660,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The iPhone 18 Pro's C2 modem has transformed my terrible signal",
+          "url": "https://www.techradar.com/phones/iphone/the-iphone-18-pros-c2-modem-has-transformed-my-terrible-signal-and-im-not-the-only-one-whos-noticed-the-benefits",
+          "publishedAt": "2026-11-15T18:00:00.000Z",
+          "excerpt": "Apple's new C2 modem has made the iPhone 18 Pro feel like a much bigger upgrade than I expected.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "How to watch Belgium vs Italy for FREE: TV channels & kick-off time for Nations League 2026/27 fixture",
           "url": "https://www.techradar.com/entertainment/football/belgium-vs-italy-free-nations-league-2026-27",
@@ -1825,18 +1839,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "How to watch ATP Finals 2026 for FREE: Live Streams & TV Channels for Men's Tennis, Schedule, Preview, Day 1 Order of Play",
-          "url": "https://www.techradar.com/entertainment/tennis/atp-finals-2026-free-mens-tennis",
-          "publishedAt": "2026-11-15T05:00:00.000Z",
-          "excerpt": "Watch streams from the ATP Finlas 2026, including free trial options, as Zverev and Alcaraz lead the field – tennis TV channels, broadcasters and streams.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2381,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2525,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Creative Bloq",
@@ -2709,7 +2714,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2923,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3092,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3261,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3350,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3519,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3688,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3877,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4061,7 +4066,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Atlantic",
@@ -4079,19 +4084,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Investigate Trump Like a Mob Boss",
-          "url": "https://www.theatlantic.com/ideas/2026/11/trump-investigation-strategy/689427/?utm_source=feed",
+          "title": "The Only Thing Nathan Fielder Won’t Show",
+          "url": "https://www.theatlantic.com/ideas/2026/11/holmes-documentary-journalistic-ethics/689350/?utm_source=feed",
           "publishedAt": "2026-11-15T12:00:00.000Z",
-          "excerpt": "Democrats will be tempted to go directly after Trump. They should focus first on the misconduct of those around him.",
+          "excerpt": "Why shouldn’t the subject of a documentary get paid?",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "The Only Thing Nathan Fielder Won’t Show",
-          "url": "https://www.theatlantic.com/ideas/2026/11/holmes-documentary-journalistic-ethics/689350/?utm_source=feed",
+          "title": "Investigate Trump Like a Mob Boss",
+          "url": "https://www.theatlantic.com/ideas/2026/11/trump-investigation-strategy/689427/?utm_source=feed",
           "publishedAt": "2026-11-15T12:00:00.000Z",
-          "excerpt": "Why shouldn’t the subject of a documentary get paid?",
+          "excerpt": "Democrats will be tempted to go directly after Trump. They should focus first on the misconduct of those around him.",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4250,7 +4255,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The New Yorker",
@@ -4439,7 +4444,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4573,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "IndieWire",
@@ -4673,7 +4678,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4867,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5056,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5225,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5394,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5523,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5622,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5811,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6000,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "n+1",
@@ -6184,6 +6189,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
     },
     {
@@ -6289,7 +6295,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6464,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6633,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6802,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6971,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7160,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7329,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7498,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,7 +7627,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Five Books",
@@ -7790,7 +7796,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7965,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8154,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8323,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8492,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8681,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8850,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9019,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9108,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9297,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9486,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9675,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9844,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10013,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10182,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Psyche",
@@ -10203,19 +10209,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Eye on the mark",
-          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+          "title": "Eye on the mark",
+          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10266,19 +10272,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to take notes that actually help you learn",
-          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+          "title": "Who am I if I don’t run?",
+          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Who am I if I don’t run?",
-          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+          "title": "How to take notes that actually help you learn",
+          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10365,7 +10371,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10540,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10709,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10918,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11127,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Waxy",
@@ -11350,13 +11356,13 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 12,
+      "count": 11,
       "stories": [
         {
           "title": "The owner would say hook-and-loop fastener.",
@@ -11456,18 +11462,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "The Longest Day",
-          "url": "https://www.metafilter.com/215166/The-Longest-Day",
-          "publishedAt": "2026-11-14T17:55:58.000Z",
-          "excerpt": "On Wednesday, November 18 at 5:16:07 a.m. EST, Voyager 1 will be one light-day from Earth : about 16.1 billion miles (25.9 billion km), the distance light covers in 24 hours. It will be the first human-made object to get that far. A command sent to it will take a day to arrive, and the reply will ta",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11656,7 +11653,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Dense Discovery",
@@ -11865,7 +11862,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "香港01",
@@ -11873,6 +11870,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "李尚正談建築系的無奈：沒錢買材料模型只能熬夜親手砌",
+          "url": "https://hk01.com/sns/article/60410799",
+          "publishedAt": "2026-11-15T18:00:07.000Z",
+          "excerpt": "",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "港人有樣睇？小紅書列「港人骨子裏4大特質」讚：恰到好處的體面",
           "url": "https://hk01.com/sns/article/60410577",
@@ -11942,14 +11947,6 @@
           "url": "https://hk01.com/sns/article/60411088",
           "publishedAt": "2026-11-15T15:55:59.000Z",
           "excerpt": "「百億富三代」鍾培生（Derek）今年3月在淺水灣大宅以電影級規格打造《進擊的巨人》場景，向莊雅婷（Angel）成功求婚，轟動全城。兩人於同年7月迎來愛女，升格為新手父母。兩人在現實生活中愛得甜蜜，也時常在社交平台放閃。日前鍾培生分享一段晚上11點炒飯給莊雅婷食的片段，完美展現愛妻號風範！ 「百億富四代」鍾培生與太太莊雅婷出雙入對。（葉志明、盧振輝 攝） 鍾培生莊雅婷現實中時常放閃。（小紅書） 鍾培生11點炒飯予莊雅婷醫肚 鍾培生在Instagram分享影片。他透露：「老婆肚餓，11點幾話想食炒飯，整個XO醬鮑魚五香肉丁蛋炒飯！」鍾培生用力炒飯，有模有樣，更直言：「啱啱好屋企有隔夜飯，因為夠鑊",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "陳山聰揭伍詠薇心理狀況 爆與陳敏之私下關係：前幾日通完電話",
-          "url": "https://hk01.com/sns/article/60411080",
-          "publishedAt": "2026-11-15T15:45:06.000Z",
-          "excerpt": "藝人陳山聰與胡定欣今日（15日）一同出席馬拉松活動並接受傳媒訪問，談及好友伍詠薇近期在好友陳敏之的節目中提及自己有情緒問題，陳山聰坦言並不知情，但力證對方現時狀態良好。 藝人陳山聰與胡定欣今日（15日）一同出席馬拉松活動並接受傳媒訪問。(胡凱欣 攝) 頻密聯絡大派定心丸 飯敘陪傾偈解心結 被問到伍姑娘的情緒狀況時，陳山聰直言：「佢上個節目我都唔知添，我冇睇添！」但他向大家大派定心丸，透露兩人最近曾一起出埠工作：「我上兩個月同佢去馬來西亞做嘢，佢都ok啊！」 對於被指伍姑娘可能只是表面開心、自己一個人的時候卻會不快樂，陳山聰亦十分理解地回應：「咁梗係會啦，所以我哋間中都會同敏之同佢一齊食飯，食飯",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12034,7 +12031,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "有線新聞",
@@ -12203,7 +12200,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Now 新聞",
@@ -12372,7 +12369,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12541,7 +12538,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12710,7 +12707,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "South China Morning Post",
@@ -12879,7 +12876,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13048,37 +13045,10 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T17:46:20.599Z"
+      "lastSuccessfulAt": "2026-11-15T18:17:11.442Z"
     }
   ],
   "stories": [
-    {
-      "title": "What Picasso taught me about building AI Agents",
-      "url": "https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/",
-      "publishedAt": "2026-11-15T16:16:26.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50508076"
-    },
-    {
-      "title": "The Atheist Bible",
-      "url": "https://suchanek.name/texts/atheism/",
-      "publishedAt": "2026-11-15T16:05:53.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50507989"
-    },
-    {
-      "title": "'Duffy Lied': Controllers Refute Transportation Secretary's Ground Stop Story",
-      "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation",
-      "publishedAt": "2026-11-15T15:45:42.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50507791"
-    },
     {
       "title": "Emacs Is My Browser",
       "url": "https://joshblais.com/blog/emacs-as-my-browser/",
@@ -13105,6 +13075,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50507206"
+    },
+    {
+      "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+      "url": "https://github.com/db-branch/db-branch",
+      "publishedAt": "2026-11-15T13:50:51.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50506940"
     },
     {
       "title": "Things That Turbo Pascal Is Smaller Than (2011)",
@@ -13231,6 +13210,24 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50499017"
+    },
+    {
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "publishedAt": "2026-11-14T15:40:52.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497892"
+    },
+    {
+      "title": "Semicircle Packing",
+      "url": "https://rorz.io/writing/semicircle-packing",
+      "publishedAt": "2026-11-13T14:42:57.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50484234"
     },
     {
       "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
@@ -14423,6 +14420,24 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
+      "title": "Don't throw away your old TV - Here's what to do instead",
+      "url": "https://www.engadget.com/2313763/dont-throw-away-your-old-tv-without-checking-first/",
+      "publishedAt": "2026-11-15T18:00:00.000Z",
+      "excerpt": "Your used TV could be well-qualified for a new job, and if it is time to retire the ol' telly, you'll want to make sure you do so the right way.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Open-ear vs. in-ear earbuds: Which is actually better for your ears?",
+      "url": "https://www.engadget.com/2313761/open-ear-vs-in-ear-earbuds-which-is-better/",
+      "publishedAt": "2026-11-15T17:45:00.000Z",
+      "excerpt": "Open-ear and in-ear earbuds are designed differently, but those differences can have a bigger impact on daily listening than many people realize.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Italy orders Meta to pay $887M for not obtaining specific consent over user photos",
       "url": "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos/",
       "publishedAt": "2026-11-15T17:44:06.000Z",
@@ -14585,20 +14600,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The right way to transfer your Spotify playlists and songs to Apple Music",
-      "url": "https://www.engadget.com/2311090/how-to-transfer-spotify-playlist-songs-to-apple-music/",
-      "publishedAt": "2026-11-15T13:15:00.000Z",
-      "excerpt": "Learn how to transfer Spotify playlists to Apple Music on iPhone, iPad, Android or the web, and what you need before you move your songs over.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Troubleshooting a black screen on your MacBook is easier than you think",
-      "url": "https://www.engadget.com/2313043/troubleshoot-macbook-black-screen-issues/",
-      "publishedAt": "2026-11-15T01:30:00.000Z",
-      "excerpt": "A black screen on your MacBook can feel like the end of the world, but don't panic: there are several easy troubleshooting steps to try first.",
-      "source": "Engadget",
+      "title": "The iPhone 18 Pro's C2 modem has transformed my terrible signal",
+      "url": "https://www.techradar.com/phones/iphone/the-iphone-18-pros-c2-modem-has-transformed-my-terrible-signal-and-im-not-the-only-one-whos-noticed-the-benefits",
+      "publishedAt": "2026-11-15T18:00:00.000Z",
+      "excerpt": "Apple's new C2 modem has made the iPhone 18 Pro feel like a much bigger upgrade than I expected.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14769,15 +14775,6 @@
       "url": "https://www.techradar.com/entertainment/cricket/watch-south-africa-vs-bangladesh-2026-1st-test-free",
       "publishedAt": "2026-11-15T05:00:00.000Z",
       "excerpt": "All the ways to watch the South Africa vs Bangladesh 2026 first Test for free from anywhere in the world, as Temba Bavuma's men look to continue their Test dominance.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How to watch ATP Finals 2026 for FREE: Live Streams & TV Channels for Men's Tennis, Schedule, Preview, Day 1 Order of Play",
-      "url": "https://www.techradar.com/entertainment/tennis/atp-finals-2026-free-mens-tennis",
-      "publishedAt": "2026-11-15T05:00:00.000Z",
-      "excerpt": "Watch streams from the ATP Finlas 2026, including free trial options, as Zverev and Alcaraz lead the field – tennis TV channels, broadcasters and streams.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -16900,19 +16897,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Investigate Trump Like a Mob Boss",
-      "url": "https://www.theatlantic.com/ideas/2026/11/trump-investigation-strategy/689427/?utm_source=feed",
+      "title": "The Only Thing Nathan Fielder Won’t Show",
+      "url": "https://www.theatlantic.com/ideas/2026/11/holmes-documentary-journalistic-ethics/689350/?utm_source=feed",
       "publishedAt": "2026-11-15T12:00:00.000Z",
-      "excerpt": "Democrats will be tempted to go directly after Trump. They should focus first on the misconduct of those around him.",
+      "excerpt": "Why shouldn’t the subject of a documentary get paid?",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "The Only Thing Nathan Fielder Won’t Show",
-      "url": "https://www.theatlantic.com/ideas/2026/11/holmes-documentary-journalistic-ethics/689350/?utm_source=feed",
+      "title": "Investigate Trump Like a Mob Boss",
+      "url": "https://www.theatlantic.com/ideas/2026/11/trump-investigation-strategy/689427/?utm_source=feed",
       "publishedAt": "2026-11-15T12:00:00.000Z",
-      "excerpt": "Why shouldn’t the subject of a documentary get paid?",
+      "excerpt": "Democrats will be tempted to go directly after Trump. They should focus first on the misconduct of those around him.",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22691,19 +22688,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Eye on the mark",
-      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+      "title": "Eye on the mark",
+      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -22754,19 +22751,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to take notes that actually help you learn",
-      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "title": "Who am I if I don’t run?",
+      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Who am I if I don’t run?",
-      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "title": "How to take notes that actually help you learn",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -23892,15 +23889,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "The Longest Day",
-      "url": "https://www.metafilter.com/215166/The-Longest-Day",
-      "publishedAt": "2026-11-14T17:55:58.000Z",
-      "excerpt": "On Wednesday, November 18 at 5:16:07 a.m. EST, Voyager 1 will be one light-day from Earth : about 16.1 billion miles (25.9 billion km), the distance light covers in 24 hours. It will be the first human-made object to get that far. A command sent to it will take a day to arrive, and the reply will ta",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "Can Network Science Transform Health and Nutrition?",
       "url": "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112/",
       "publishedAt": "2026-11-12T19:40:54.000Z",
@@ -24281,6 +24269,14 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "李尚正談建築系的無奈：沒錢買材料模型只能熬夜親手砌",
+      "url": "https://hk01.com/sns/article/60410799",
+      "publishedAt": "2026-11-15T18:00:07.000Z",
+      "excerpt": "",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "港人有樣睇？小紅書列「港人骨子裏4大特質」讚：恰到好處的體面",
       "url": "https://hk01.com/sns/article/60410577",
       "publishedAt": "2026-11-15T17:22:44.000Z",
@@ -24349,14 +24345,6 @@
       "url": "https://hk01.com/sns/article/60411088",
       "publishedAt": "2026-11-15T15:55:59.000Z",
       "excerpt": "「百億富三代」鍾培生（Derek）今年3月在淺水灣大宅以電影級規格打造《進擊的巨人》場景，向莊雅婷（Angel）成功求婚，轟動全城。兩人於同年7月迎來愛女，升格為新手父母。兩人在現實生活中愛得甜蜜，也時常在社交平台放閃。日前鍾培生分享一段晚上11點炒飯給莊雅婷食的片段，完美展現愛妻號風範！ 「百億富四代」鍾培生與太太莊雅婷出雙入對。（葉志明、盧振輝 攝） 鍾培生莊雅婷現實中時常放閃。（小紅書） 鍾培生11點炒飯予莊雅婷醫肚 鍾培生在Instagram分享影片。他透露：「老婆肚餓，11點幾話想食炒飯，整個XO醬鮑魚五香肉丁蛋炒飯！」鍾培生用力炒飯，有模有樣，更直言：「啱啱好屋企有隔夜飯，因為夠鑊",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "陳山聰揭伍詠薇心理狀況 爆與陳敏之私下關係：前幾日通完電話",
-      "url": "https://hk01.com/sns/article/60411080",
-      "publishedAt": "2026-11-15T15:45:06.000Z",
-      "excerpt": "藝人陳山聰與胡定欣今日（15日）一同出席馬拉松活動並接受傳媒訪問，談及好友伍詠薇近期在好友陳敏之的節目中提及自己有情緒問題，陳山聰坦言並不知情，但力證對方現時狀態良好。 藝人陳山聰與胡定欣今日（15日）一同出席馬拉松活動並接受傳媒訪問。(胡凱欣 攝) 頻密聯絡大派定心丸 飯敘陪傾偈解心結 被問到伍姑娘的情緒狀況時，陳山聰直言：「佢上個節目我都唔知添，我冇睇添！」但他向大家大派定心丸，透露兩人最近曾一起出埠工作：「我上兩個月同佢去馬來西亞做嘢，佢都ok啊！」 對於被指伍姑娘可能只是表面開心、自己一個人的時候卻會不快樂，陳山聰亦十分理解地回應：「咁梗係會啦，所以我哋間中都會同敏之同佢一齊食飯，食飯",
       "source": "香港01",
       "category": "Hong Kong"
     },

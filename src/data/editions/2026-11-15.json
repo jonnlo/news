@@ -2,12 +2,25 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T01:17:12.293Z",
-  "collectedAt": "2026-11-15T01:17:12.293Z",
+  "generatedAt": "2026-11-15T02:17:20.439Z",
+  "collectedAt": "2026-11-15T02:17:20.439Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 74,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Asian Review of Books",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Dense Discovery",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -50,15 +63,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
-        },
-        {
-          "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
-          "url": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
-          "publishedAt": "2026-11-14T19:23:40.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50499945"
         },
         {
           "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
@@ -194,9 +198,18 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50496051"
+        },
+        {
+          "title": "500 Lines or Less A 3D Modeller",
+          "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+          "publishedAt": "2026-11-13T13:47:42.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50483431"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +378,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +547,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +716,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +885,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1054,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1153,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1297,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1305,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are \"untouchable\" (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-s-jensen-huang-joins-billionaire-tech-titans-cheating-on-their-wives",
+          "publishedAt": "2026-11-15T02:05:01.000Z",
+          "excerpt": "Bloomberg : 23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are &ldquo;untouchable&rdquo; &nbsp; &mdash;&nbsp; As the Nvidia drama unfolds, the tech community adds yet another geek-turned-billionaire to it",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261114/p22#a261114p22",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases (Bloomberg)",
           "url": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
@@ -1445,20 +1469,9 @@
           "sourceUrl": "https://www.techmeme.com/261114/p8#a261114p8",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign (Eleanor Olcott/Financial Times)",
-          "url": "https://www.ft.com/content/3efa9733-fbb4-47c2-83ba-b01e548ef277",
-          "publishedAt": "2026-11-14T07:30:08.000Z",
-          "excerpt": "Eleanor Olcott / Financial Times : Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign &nbsp; &mdash;&nbsp; Former Nvidia chief executive facing intense scrutiny over ties to Beijing&nbsp; &m",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261114/p7#a261114p7",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1660,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1668,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "'You can suddenly float to the 30,000-foot level and understand how it’s all supposed to work together' — Original Mass Effect composer looks back on the 'rewarding' collaborative experience while working on the RPG",
+          "url": "https://www.techradar.com/gaming/you-can-suddenly-float-to-the-30-000-foot-level-and-understand-how-its-all-supposed-to-work-together-original-mass-effect-composer-looks-back-on-the-rewarding-collaborative-experience-while-working-on-the-rpg",
+          "publishedAt": "2026-11-15T02:00:00.000Z",
+          "excerpt": "Original Mass Effect composer Jack Wall has recalled working on BioWare's RPG, describing the collaborative project as a \"rewarding\" experience.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Today I learned why wind farms paint one turbine blade black",
+          "url": "https://www.techradar.com/pro/today-i-learned-why-wind-farms-paint-one-turbine-blade-black",
+          "publishedAt": "2026-11-15T01:25:00.000Z",
+          "excerpt": "A Norwegian trial cut bird deaths by about 72% with one black blade but a Dutch follow-up experiment found no effect, so newer offshore farms are now trying red.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "007 First Light composers reveal their inspirations for the game’s soundtrack — ‘Our mission we set ourselves was to give the franchise a gentle nudge into the modern day, without completely reinventing it’",
           "url": "https://www.techradar.com/gaming/007-first-light-composers-reveal-their-inspirations-for-the-games-soundtrack-our-mission-we-set-ourselves-was-to-give-the-franchise-a-gentle-nudge-into-the-modern-day-without-completely-reinventing-it",
@@ -1816,27 +1847,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "FlexiSpot's E7 Pro standing desk has prices starting from just $399.99 in the Black Friday sale",
-          "url": "https://www.techradar.com/pro/flexispots-e7-pro-standing-desk-has-prices-starting-from-just-usd399-99-in-the-black-friday-sale",
-          "publishedAt": "2026-11-14T15:10:00.000Z",
-          "excerpt": "FlexiSpot's E7 Pro standing desk has prices starting from just $399.99 in the Black Friday sale.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Canva just launched its own AI image generator, so I tested it vs ChatGPT",
-          "url": "https://www.techradar.com/ai-platforms-assistants/canva-claims-its-new-ai-image-generator-is-second-only-to-openai-so-i-put-canva-craft-and-chatgpt-head-to-head-in-5-image-tests-using-their-free-versions-to-see-which-one-really-comes-out-on-top",
-          "publishedAt": "2026-11-14T15:00:00.000Z",
-          "excerpt": "Canva Craft is a new, powerful AI image generator, but how does it compare to ChatGPT?",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2038,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2200,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2389,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2533,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Creative Bloq",
@@ -2691,15 +2704,6 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The toy company Tomy has a new logo, and people are baffled",
-          "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
-          "publishedAt": "2026-11-12T07:00:00.000Z",
-          "excerpt": "The new design is all about play.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
           "title": "How I created this ninja puppet scene inspired by Naruto",
           "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
           "publishedAt": "2026-11-12T07:00:00.000Z",
@@ -2707,9 +2711,18 @@
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
+        },
+        {
+          "title": "The toy company Tomy has a new logo, and people are baffled",
+          "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+          "publishedAt": "2026-11-12T07:00:00.000Z",
+          "excerpt": "The new design is all about play.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2931,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3100,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3269,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3358,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3527,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3696,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3885,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4061,7 +4074,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Atlantic",
@@ -4250,7 +4263,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The New Yorker",
@@ -4430,16 +4443,16 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "The Lasting Influence of John Berger",
-          "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
           "publishedAt": "2026-11-09T11:00:00.000Z",
-          "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+          "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4581,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "IndieWire",
@@ -4673,7 +4686,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4875,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5064,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5233,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5402,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5531,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5630,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5819,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6008,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "n+1",
@@ -6184,6 +6197,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
     },
     {
@@ -6289,7 +6303,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6472,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6641,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6810,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6979,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7168,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7337,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7506,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,6 +7635,7 @@
           "category": "Books"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
     },
     {
@@ -7790,7 +7805,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7974,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8163,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8332,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8501,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8690,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8859,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9028,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9117,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9306,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9495,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9684,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9853,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10022,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10191,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10380,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10549,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10718,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10927,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11136,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Waxy",
@@ -11350,7 +11365,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "MetaFilter",
@@ -11413,7 +11428,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11602,7 +11617,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Dense Discovery",
@@ -11811,6 +11826,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
     },
     {
@@ -11820,98 +11836,122 @@
       "count": 20,
       "stories": [
         {
-          "title": "12星座精神出軌指數排名 水瓶座高達90% 多情雙魚竟跌出三甲",
-          "url": "https://hk01.com/sns/article/60410659",
-          "publishedAt": "2026-11-15T01:10:35.000Z",
-          "excerpt": "人在身邊，心卻早已飛到別人那裏？「偷食」會被人捉個正着，精神出軌（又稱心靈出軌或精神外遇）就難察覺得多，但殺傷力一點也不遜色。台灣命理專家阿谷老師曾經用雷諾曼占卜，為十二星座排出「心靈出軌指數」：冠軍高達90%，最低只有30%。風象星座全部擠進前4名，一向被視為最多情的雙魚座反而跌出前3名。你和另一半排第幾？即看完整排名。 甚麼是心靈出軌？ 心靈出軌又叫精神出軌，意思是伴侶在身體上沒有越軌，感情上卻依賴、寄託在另一個人身上。例如有開心事第一時間想跟對方分享，回到家卻跟伴侶無話可說。這種出軌沒有「證據」可言，往往等到發現的時候，兩人之間早已隔了一道牆。 精神出軌未必涉及身體接觸，卻可能令伴侶將情",
+          "title": "馬克龍警告試圖限制對烏克蘭援助 將為「下一場戰爭」埋隠患",
+          "url": "https://hk01.com/sns/article/60410917",
+          "publishedAt": "2026-11-15T02:04:14.000Z",
+          "excerpt": "法國總統馬克龍（Emmanuel Macron，又譯馬克宏）星期六（11月14日）說，試圖限制對烏克蘭提供援助的國家，實際上是在迫使烏克蘭接受一項「不公正的和平協議」，並警告稱，這將為下一場戰爭埋下隱患。 法新社報道，馬克龍在社交媒體上說：「那些想要限制對烏克蘭援助的人，歸根結底是希望迫使烏克蘭接受不公正的和平，並由此將這種結果強加給整個歐洲。」 「這是一種失敗主義心態，也是下一場戰爭的導火線。法國絕不能採取這樣的立場。」 烏克蘭總統澤連斯基（Volodymyr Zelensky）星期六說，美國曾建議基輔向莫斯科割讓領土，以換取烏克蘭加入北約。 歐洲方面星期五（13日）在都柏林選出五個國家，將",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "黃大仙下邨單位起火 黑煙捲半空煙霧彌漫",
-          "url": "https://hk01.com/sns/article/60410902",
-          "publishedAt": "2026-11-15T01:10:04.000Z",
-          "excerpt": "今日（15日）早上8時47分，警方接獲多人報案求助，指黃大仙下邨龍光樓發生火警，一個單位起火及冒出濃煙，據報一度傳出爆炸聲。消防到場，出動一條喉及一隊煙帽隊灌救。事件中50人須緊急疏散。火警原因有待調查。 黃大仙下邨龍光樓一個單位冒出濃煙。（Alex Ox ChamkinGs/黃大仙區友(黃大仙，新蒲崗，鑽石山，慈雲山......) 影片截圖） 黃大仙下邨龍光樓一個單位冒出濃煙。（Aaron Ng/黃大仙區友(黃大仙，新蒲崗，鑽石山，慈雲山......) 影片截圖）",
+          "title": "港鐵太子站短裙女直播？月台擺腳架惹公憤 港鐵附例最高罰$5000",
+          "url": "https://hk01.com/sns/article/60393452",
+          "publishedAt": "2026-11-15T02:02:56.000Z",
+          "excerpt": "搭港鐵都不忘要直播？本港網絡瘋傳照片，顯示在港鐵站月台範圍，有3名女子拿出手機支架，疑似準備進行直播，其中2名女子身穿短裙，有人仔細調校角度務求拍到「靚樣」，引來大批網民譴責相關行為，直斥「AI都gen唔出咁黐線嘅場景」、「以為廟街唱戲去到港鐵擺檔」，又質疑為何未有職員上前勸阻，「如不制止，個個有樣學樣」。 有3名女子疑在港鐵太子站月台開live直播，網民質疑等同賣藝，好奇為何未有職員「點解無人捉？」。（資料圖片） 3女港鐵月台擺支架 疑開live做直播 該目擊者最先在threads帳號上傳照片 ，顯示在港鐵荃灣線疑太子站的月台上，有3名女子分別身穿紅色連身短裙、紅色短裙、以及紅色上衣，其中2",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "馮志豪｜外地生來港讀書是「求學位」還是「買身份」？",
-          "url": "https://hk01.com/sns/article/60410331",
-          "publishedAt": "2026-11-15T01:00:59.000Z",
-          "excerpt": "馮志豪教授專欄 高等教育的價值，本來在於知識訓練和專業培養。但近年在部分升學中介的包裝之下，一紙大學取錄通知書，愈來愈常被說成通往居留身份的「入場券」。近日有本地專上院校開辦的深造文憑課程，因學生簽證審批未如預期，加上收生安排調整，最終宣布停辦並全額退款。事件曝光後，內地社交媒體隨即出現不少「轉報攻略」，鼓吹受影響學生盡快轉報其他院校，以保住留港學生簽證。這件事表面看是個別課程的安排狀況，實際上反映的，卻是另一個更值得警惕的問題：對某些人來說，來港升學首先不是為了學習，而是為了身份安排。 審慎審批守好簽證防線 這絕對不是小事。香港近年積極推動「留學香港」，也希望發展成為國際專上教育樞紐。非本地",
+          "title": "一個鐵箱改寫全球貿易 1956年58個貨櫃首航 葵涌碼頭險些趕不上",
+          "url": "https://hk01.com/sns/article/60410336",
+          "publishedAt": "2026-11-15T02:02:29.000Z",
+          "excerpt": "歷史奇趣│現代網購商品得以低成本跨國直送，得益於70年前起步的貨櫃運輸。你今日在網上買的衣服、手機、零食，很可能都曾經在一個長方形的鐵箱裏漂洋過海。這種看似平平無奇的貨櫃，用於現代航運其實只有70年歷史。 1956年4月26日，一艘由油輪改裝而成的「Ideal X」號，載着58個金屬貨櫃，由美國紐瓦克港駛往休斯敦，這次航行被視為現代商業貨櫃運輸的重要起點。據估算，貨櫃化令裝船成本大減，減幅逾九成，改變了碼頭工人的命運，亦重塑了全球供應鏈與港口城市興衰，更帶動香港葵涌貨櫃碼頭日後躋身世界前列。 葵涌貨櫃碼頭上密密麻麻的貨櫃，是當年航運革命的產物。（資訊圖片） 美國航運公司美森（Matson）認為",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "APEC深圳｜香蜜湖核心區10大豪宅樓價一文看清 水榭花都成樓王？",
-          "url": "https://hk01.com/sns/article/60410882",
-          "publishedAt": "2026-11-15T01:00:51.000Z",
-          "excerpt": "2026年APEC領導人非正式會議的主會場設於深圳的深圳市國際交流中心，該場館坐落於福田區的香蜜湖片區，前身為香蜜湖度假村。 香蜜湖位於福田中心區與車公廟金融區之間，隨著香蜜湖新金融中心及國際交流中心的落地，該板塊成為深圳罕見同時具備「核心CBD地段＋稀缺湖景公園生態＋國際交往中心＋頂級學區」的超級板塊，與華僑城、深圳灣、前海三個片區共同構成了深圳高端住宅「多足鼎立」的格局，是深圳「老錢」（Old Money）階層的核心聚居區。 福田區香蜜湖周邊連日來已引來大批市民到場圍觀打卡。（盧詩文 攝） 「深圳國際交流中心」屬於香蜜湖片區「一館三中心」的標誌性建築之一。（盧詩文 攝） 根據市場數據統計，",
+          "title": "81校網｜粉嶺、皇后山、打鼓嶺小學名單有甚麼學校？學額有多少？",
+          "url": "https://hk01.com/sns/article/60409210",
+          "publishedAt": "2026-11-15T02:00:42.000Z",
+          "excerpt": "81校網的範圍以北區為主，共有13間學校可供選擇，主要位於在粉嶺、馬尾下及打鼓嶺附近。「01教育」已經於下文為你整合81校網的小學名單、範圍及地圖及81校網屋苑名單，幫助你的子女升讀心儀學校！ 81校網的競爭激烈嗎？學生人數是多少？學額有幾多？ 教育局《學生人數統計報告書》未有根據小學校網分類的學生數字，只有按區議會紀計的數字。參考最新的2025年度《報告書》，在2025年9月於北區就讀本地幼稚園及非本地幼稚園低班（該批學生一般將於2027年9月入讀小一）的學生人數分別為1,763及26人，而81校網學校現正為2027年9月入讀小一的學生，於自行分配學位階段，提供合共667個學額。 立即使用 ",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "隈研吾操刀新福岡縣立美術館 層疊屋簷呼應日本庭園2029年度開館",
-          "url": "https://hk01.com/sns/article/60410436",
-          "publishedAt": "2026-11-15T01:00:43.000Z",
-          "excerpt": "福岡向來是港人遊日熱點，市中心的大濠公園更是散步賞湖的好去處。福岡縣政府決定將福岡縣立美術館由須崎公園遷往大濠公園南側，新館由日本建築大師隈研吾設計，目標於2029年度（2029年4月至2030年3月）開館。這座新館不僅面積比舊館大兩倍，更完美融入周邊的日本庭園景觀，勢必成為文青與建築迷未來的必訪勝地。 原有的福岡縣立美術館位於天神區，自1964年建成至今已超過半世紀，空間與設備逐漸不敷應用，促成了這次的遷館與擴建計劃。新建築樓高四層並設有一層地庫，隈研吾團隊特別採用了層疊屋簷設計，建築體朝向日本庭園的方向逐層遞減高度，以退縮的量體回應庭園的自然尺度。向外延伸的深屋簷不僅豐富了外觀的水平層次，",
+          "title": "長壽食物20大｜可預防心血管疾病認知障礙症！辣椒／咖啡都上榜？",
+          "url": "https://hk01.com/sns/article/60410518",
+          "publishedAt": "2026-11-15T02:00:36.000Z",
+          "excerpt": "食物是人體吸收營養的主要途徑，只要飲食健康，身體很多小毛病都可以改善！外國營養師早前就推介以下20種長壽食物，適量進食的話，能減少患病風險，維持身體健康。今次《香港01》長者生活頻道「01金齡」就會幫大家逐一介紹！ 想食得健康？以下是由外國營養師推薦的長壽食物，涵蓋幾個種類，如：蔬菜、水果、五穀、肉類、主食和其他小食雜糧等，分別有預防癌症、心血管疾病、老人癡呆等病症，幫你把身體保持在年輕狀態。 即看20種由外國營養師推薦的長壽食物： 20種由外國營養師推薦的長壽食物： 綠葉蔬菜 ● 綠葉蔬菜包括：菠菜、羽衣甘藍、火箭菜和羅馬生菜等。 ● 能降低8%患癌風險。 ● 能降低15.8%心血管疾病風險",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "九肚山豪宅玖瓏山繼續蝕！四房戶十年跌價22% 呎價1.25萬",
-          "url": "https://hk01.com/sns/article/60410478",
-          "publishedAt": "2026-11-15T01:00:39.000Z",
-          "excerpt": "【九肚山/玖瓏山/二手樓市/蝕讓】九肚山豪宅屋苑玖瓏山又蝕！該屋苑一伙四房戶以1,890萬元沽出，較10年前買入價帳面貶值22%。 世紀21奇豐物業沙田豪宅分行營業董事莊振耀表示，上述成交個案為玖瓏山月瓏閣B2座中層C室，實用面積1,507平方呎，4房2廳兩套房加工人套房間隔，眺望西面翠綠山景。 原叫價2000萬 劈逾一球獲承接 業主原先放盤開價為2,000萬元，最終大幅減價110萬元成交，終以1,890萬元售出單位，減幅5.5%，實用面積呎價達12,541元。 2016年底買入價2419萬 據了解，原業主早於2016年12月以2,419萬元一手向發展商購入單位，持貨10年至今沽售，賬面大幅損",
+          "title": "下肢水腫｜揭5大原因恐涉心腎肝疾病 附5秒自測出現3種情況別拖",
+          "url": "https://hk01.com/sns/article/60402759",
+          "publishedAt": "2026-11-15T02:00:30.000Z",
+          "excerpt": "忙碌了一整天回到家，脫下襪子赫然發現腳踝被勒出深深一圈凹痕，連鞋子都變得緊繃難穿？多數人常將此現象歸咎於「水喝太多」或「單純水腫」，但台灣營養醫學醫師劉博仁提醒，這極可能是身體主要器官發出的求救訊號，下肢水腫除了生活型態引起外，背後更可能牽涉心、腎、肝及血管等重大疾病。 台灣高醫腎臟內科 蘇威宇醫師 也曾表示，常在門診聽到患者自述腳腫得很厲害，懷疑自己是否單純太累或站太久。蘇威宇醫師指出，許多人發現腳踝或小腿腫脹時，會先想到按摩、熱敷或吃消腫藥，但事實上，腳水腫背後可能隱藏著重要的健康警訊。 相關文章： 水腫｜或與腎、心4大器官有關 亂服利尿食品 隨時未消腫先傷身 8種常見利尿消水腫的好食物（",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "李龍基爆家財耗盡重新起步 催促王青霞搬清家當：一個道歉都冇",
-          "url": "https://hk01.com/sns/article/60409323",
-          "publishedAt": "2026-11-15T01:00:04.000Z",
-          "excerpt": "李龍基日前現身尖沙咀出席《EYT友好會聯歡晚宴》，同場與一眾昔日老友歡聚敘舊。基哥在接受《香港01》訪問時，大方談及與前未婚妻王青霞（Chris）的一段情。受過情傷的他直言現時對女性失去安全感，同時亦回應了關於相戀期間「錢財耗盡」的傳聞，坦言目前一切要「重新來過」，並透露對方至今未曾向他道過一句歉。 李龍基出席EYT聯歡晚宴。（盧振輝攝） 李龍基出席EYT聯歡晚宴。（盧振輝攝） 李龍基剛慶祝75歲生日，造型依然年輕。（盧振輝攝） 情傷打擊未完全平復 坦言對女性築起防線 談及近況與感情狀態，李龍基表示現時正慢慢享受單身生活，但承認這段感情對自己造成極大衝擊，甚至令他對女性產生了心理防線：「暫時真",
+          "title": "夫妻漸行漸遠？專家教每日15分鐘溝通技巧 學會傾聽化解婚姻危機",
+          "url": "https://hk01.com/sns/article/60406735",
+          "publishedAt": "2026-11-15T02:00:24.000Z",
+          "excerpt": "夫妻漸行漸遠，有時不是無話可說，而是說了也感覺不被理解。心理專家提醒，傾聽不只是聽見，更要帶著好奇心提問、不急著反駁或給建議，並確認自己是否理解對方。夫妻可每天安排短暫、不受打擾的對話，重新建立親密感；理解彼此不代表必須認同所有觀點。 一段婚姻走向疏離，不一定是因為發生了什麼驚天動地的大事。有時候，真正讓夫妻漸行漸遠的，是每天看似平凡的對話： 一個人想分享工作的委屈，另一個人卻急著給建議 一個人想說明自己的感受，另一個人立刻反駁「你想太多了」 明明只是希望對方理解自己，最後卻演變成誰對誰錯的爭論。 久而久之，兩個人開始減少交流。即使坐在同一張餐桌前，也只談孩子、家務、帳單與生活安排。那些真正困",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "以色列大選後・三｜內塔尼亞胡政權保衛戰 打伊朗已是箭在弦上？",
-          "url": "https://hk01.com/sns/article/60410877",
-          "publishedAt": "2026-11-15T01:00:03.000Z",
-          "excerpt": "在以色列組閣未明當下，似乎不論政壇與對外動態，都是山雨欲來的煙硝瀰漫。 11月10日以色列新議會宣誓就職時，內塔尼亞胡（Benjamin Netanyahu）再度呼籲組建「民族團結政府」，理由是伊朗威脅迫在眉睫、阿拉伯政黨席位史上最高，且這兩股勢力正準備摧毀以色列。「我這麼說是因為，在這個議會裡，他們正認真討論組建這樣一個狹隘的政府，一個包含恐怖主義支持者、以色列仇恨者或依賴於他們的政府。」 顯然，內塔尼亞胡指的是「變革聯盟」（Change Bloc）手上48席雖不足以組閣，卻可能與19席阿拉伯政黨合作的現實，不論形式究竟是拉姆黨（Ra'am）參與組閣，又或是聯合名單（Joint List）以",
+          "title": "拿綜援的人——是否必須要活出「貧窮的樣子」？",
+          "url": "https://hk01.com/sns/article/60409204",
+          "publishedAt": "2026-11-15T02:00:11.000Z",
+          "excerpt": "江西一個家境清貧的女學生，因為一場演唱會、一次出境紀錄，導致全家的「低保」被取消。香港屯門富泰邨一個綜援家庭，因為擁有迪士尼金卡和幾次旅行紀錄，成為全城聲討的對象。江西女孩的家庭是否真的不再困難？屯門綜援的家庭是否真的濫用了援助？目前都沒有人能給出完整答案，但卻向社會拋出了一個疑問：當制度以「防止濫用」為名，對受助人的消費行為保持高度警惕，那麼監管者究竟是在核查事實，還是在審視一種「不該過得太好」的生活？新加坡的長期援助制度則提供了另一種參照：不設硬性儲蓄門檻、不因某類消費行為停止援助、靈活審視個案條件、核查重心放在申報真實性與整體財務狀況上。把三地制度放在一起，要問的不是誰更嚴或更寬，而是當",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "澤連斯基：美國首次提出烏克蘭割讓頓巴斯 以換取加入北約",
-          "url": "https://hk01.com/sns/article/60410901",
-          "publishedAt": "2026-11-15T00:55:19.000Z",
-          "excerpt": "俄羅斯與烏克蘭經美國斡旋，在阿聯酋首都阿布扎比進行新一輪會談後，烏克蘭總統澤連斯基（Volodymyr Zelensky）11月14日透露，美國談判代表曾提出一項設想，探討烏克蘭是否可能從東部的頓巴斯地區撤軍，以換取加入北約（NATO）的資格。美國方面重申，目前仍在討論多種方案，任何最終協議都必須經雙方共同同意。 路透社引述烏克蘭總統辦公室上週六發布的談話內容報道 ，澤連斯基稱：「美國提出了一個問題：『如果烏克蘭加入北約呢？烏克蘭是否會從頓巴斯撤軍？』這是美方首次提出這樣的想法。」他補充指，他因此相信加入北約的議題已重新回到談判桌上，惟基於俄羅斯總統普京（Vladimir Putin，又譯普丁",
+          "title": "Patrick Sir放低喇沙仔情意結 5歲仔考入國際學校做姚焯菲師弟",
+          "url": "https://hk01.com/sns/article/60409712",
+          "publishedAt": "2026-11-15T02:00:04.000Z",
+          "excerpt": "TVB著名主持人、補習天王Patrick Sir（林溥來）與太太關宛珊婚後育有一子林若嘉（Preemo）。轉眼間Preemo已經5歲，身為傳統名校喇沙書院舊生的Patrick Sir，一直有極深的「喇沙情意結」，起初渴望兒子能繼承衣缽成為「喇沙仔」。不過，在深入了解兒子的性格後，Patrick Sir決定因材施教，毅然放棄傳統名校路線，安排Preemo考入宣道國際學校（CAIS）的Prep班（預備班），正式成為「國民初戀」姚焯菲（Chantel）及多位星二代的同門師弟。 Patrick Sir放低喇沙仔情意結。（截圖） 掙扎於名校情意結 「因材施教」放手一試 Patrick Sir擁有近20年",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "維港泳2026｜4000泳手灣仔出發 父子盼齊衝線 深圳遊客來港參賽",
-          "url": "https://hk01.com/sns/article/60410900",
-          "publishedAt": "2026-11-15T00:54:51.000Z",
-          "excerpt": "「維港泳2026」今早（15日）舉行，近4,000名泳手由灣仔金紫荊廣場公眾碼頭出發，游至位於尖沙咀星光大道的終點，全程約1公里。早上6時多，通往起點的博覽道東沿途已有不少人更衣，氣氛熱烈。其中，有第二度出戰的參與者今次與兒子組「父子檔」。被問及會不會與兒子鬥快，他則笑指「唔會，想一齊衝線」。 維港泳2026今日舉行。（湯致遠攝） 維港泳2026今日舉行。（湯致遠攝） 維港泳2026今日舉行。（湯致遠攝） 鄭小姐（左）表示，完賽後會與其他朋友一起在香港逛逛、吃東西。（湯致遠攝） 深圳選手四時起床到場 今屆賽事設有兩個項目，由競賽組打頭陣，於早上7時半出發，約300名選手爭奪獎項。緊接其後的優悠",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "嘆政府重劇情片輕紀錄片 不寄望獲資助 楊紫燁：我哋自己去做啦",
-          "url": "https://hk01.com/sns/article/60409632",
-          "publishedAt": "2026-11-14T23:07:09.000Z",
-          "excerpt": "首位榮獲奧斯卡最佳紀錄短片獎的華人導演楊紫燁（Ruby Yang），再憑新作《遠山猿歌》獲奧斯卡獎項的競逐資格。近年本港紀錄片漸受大眾關注，亦不乏話題之作，她認為，本地觀眾的口味愈來愈成熟，惟紀錄片出產數量仍然偏少，遠遠未到黃金時代。 8年前，她曾致信時任特首林鄭月娥，希望政府能支持香港紀錄片的發展，將紀錄片納入政府資助、設立恆常放映場地等，惟期望均一一落空。談及有否失望，她認為業界要靈活變通，「如果你等政府去做呢件事，咁你真係唔好等啦，我哋自己去做啦。」 楊紫燁是首位榮獲奧斯卡最佳紀錄短片獎的華人。（湯致遠攝） 昔日去信林鄭爭取政府支持紀錄片 今不寄予希望 近年港產紀錄片逐漸走入主流視野，如",
+          "title": "大城小檔｜昔上海理髮店老闆隱身深水埗 86歲高齡力挺後輩巷仔檔",
+          "url": "https://hk01.com/sns/article/60406825",
+          "publishedAt": "2026-11-15T02:00:04.000Z",
+          "excerpt": "香港地萬家燈火，大舖小店滿佈；但繁華鬧市一角，總見小人物的身影。深水埗大南街一條橫巷，藏着一間不起眼的「麗如理髮」。檔口逼狹、夏日悶熱難耐，只靠掛牆風扇乘涼；在兩張60年歷史舊式理髮大椅「坐鎮」下，客人絡繹不絕。 這間「巷仔檔」藏着兩個靈魂人物，86歲的毛伯伯和年輕數十載的檔主林女士；一個曾經是上海式理髮店的大老闆、一個則是來港打拼了30年後輩。在時代巨輪的推進下，青藍接力，破浪同行，印證了兩代人如何撐起「上海舖」的門面。每一日，毛伯伯雞鳴而起、林女士緊接而返；除了力撐後輩，原因亦很簡單：「（退休）悶到死!」 年屆86歲的毛伯伯，如今在深水埗後巷，力撐後輩林女士所經營的理髮檔。（蔡正邦攝） 昔",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
           "title": "長者日優惠懶人包｜今日免費坐巴士港鐵 海洋公園等景點免費入場",
           "url": "https://hk01.com/sns/article/60410534",
-          "publishedAt": "2026-11-14T22:45:47.000Z",
+          "publishedAt": "2026-11-15T01:32:45.000Z",
           "excerpt": "長者日2026今日（15日）舉行，65歲或以上長者可持樂悠咭或長者八達通，免費乘搭港鐵、九巴及城巴等公共交通工具，亦可免費遊覽山頂纜車及海洋公園等景點。各類長者優惠一覽。 「⻑者⽇2026」 公共交通優惠資格及使⽤⽅法。（社聯文件截圖） 交通優惠 【1】港鐵、輕鐵及港鐵巴士 65歲或以上長者使用「樂悠咭」、長者八達通或個人八達通拍卡，系統會自動將車資設定為0元。優惠不適用於機場快綫、東鐵綫往來羅湖及落馬洲站的過境車程，以及高速鐵路。乘搭東鐵綫頭等車廂，仍須支付頭等額外費。 【2】九巴及龍運巴士 65歲或以上長者 上車時直接拍「樂悠咭」或長者八達通，車資自動設為0元。九巴免費路線不包括P960、",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "中大「全球華文KOL影響力100強」榜單 新傳院長梁海親揭評選準則",
+          "url": "https://hk01.com/sns/article/60410248",
+          "publishedAt": "2026-11-15T01:30:08.000Z",
+          "excerpt": "為發掘並衡量全球華文內容創作者的真實影響力，香港中文大學新聞與傳播學院和香港華夏文化發展基金會合作推出「2026全球華文KOL影響力100強」榜單評選。該榜單將於《首屆全球華人KOL影響力100強高峰論壇》正式發布。《香港01》作為該次活動策略合作夥伴，協助活動順利進行。該次活動將於2026年12月16日到18日在香港中文大學舉辦。 中大新聞傳播學院院長梁海受訪時表示，榜單的核心初衷在於盤點長期缺乏系統性統計的「海外華文自媒體」生態，透過學術視角與透明數據模型，提升華文創作者在國際舞台的能見度，並為華文內容產業建立具公信力的新標竿。榜單涵蓋台灣、馬來西亞、新加坡及香港等華文活躍地區，只要主要使",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "黃大仙下邨單位起火 黑煙捲半空煙霧彌漫 50人緊急疏散",
+          "url": "https://hk01.com/sns/article/60410902",
+          "publishedAt": "2026-11-15T01:10:04.000Z",
+          "excerpt": "今日（15日）早上8時47分，警方接獲多人報案求助，指黃大仙下邨龍光樓發生火警，一個單位起火及冒出濃煙，據報一度傳出爆炸聲。消防到場，出動一條喉及一隊煙帽隊灌救，並於約29分鐘後將火救熄。事件中50人須緊急疏散，無人受傷。人員經初步調查，懷疑因雜物起火肇禍。 消防到場救援。（馬耀文攝） 涉事單位熏黑。（馬耀文攝） 消防到場救援。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 警方協助居民離開。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 消防到場救援。（馬耀文攝） 黃大仙下邨龍光樓一個單位冒出濃煙。（Alex Ox ChamkinGs/黃大仙區友(黃大仙，新蒲崗，鑽石山，慈雲山......) 影片截圖）",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "旺角鬧市人來人往 藍衣男當眾小便 網民批：報警捉人啦｜有片",
+          "url": "https://hk01.com/sns/article/60410894",
+          "publishedAt": "2026-11-14T19:19:12.000Z",
+          "excerpt": "Facebook群組「車cam L（香港群組）」昨日（14日）瘋傳一段影片，一名身穿藍色短袖上衣、黑色長褲的男子，站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊，藍衣男雙目緊閉，臉部通紅，不排除事前飲過酒。 現場食肆燈火通明，人來人往，包括婦孺經過現場，眾人望了一眼便離開，更有小童一臉愕然。 男子站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊。（Facebook群組「車cam L（香港群組）」影片截圖） 帖主將片中男子私隱部位打格，但沒有交代到拍攝日期和時間，許多網民留言指「人渣」、「報警，銳眼可以捉人啦」、「同狗無分別」、「做乜",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "張家輝憑《絕命法官》奪得《亞洲電視大獎》視帝 上台晒流利英文",
+          "url": "https://hk01.com/sns/article/60410889",
+          "publishedAt": "2026-11-14T17:46:07.000Z",
+          "excerpt": "第31屆亞洲電視大獎（Asian Television Awards, ATA）昨晚在胡志明市舉行、張家輝憑《絕命法官》奪得《亞洲電視大獎》《最佳男主角》，獎項分別有張嘉益、白宇、楊旭文、張家輝、張軒睿、山崎賢人、尹正、章宇等男演員角逐，張家輝得獎後上台以英文致詞，他說：「I would like to say ，thank yo u to investors and my production team for their support and trust in me. and also, I like to thank the Judges of the Asian Television",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11924,7 +11964,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "BIGBANG丨內地女被指叫白牌車上新聞 拍片澄清：我有司機沒有犯法",
+          "title": "BIGBANG丨內地女被指叫白牌車上新聞 拍片否認：我有司機沒犯法",
           "url": "https://hk01.com/sns/article/60410858",
           "publishedAt": "2026-11-14T16:02:25.000Z",
           "excerpt": "韓國天團BIGBANG睽違9年再度於香港合體，昨晚（13日）在啟德體育園主場館舉行首場演唱會。不過完騷後，土瓜灣街頭卻發生一段小插曲。有now新聞報道指，大批完場觀眾湧到土瓜灣一帶尋找跨境白牌車，期間一身名牌、打扮斯文的內地女士疑似因等車太久，所以情緒激動，片段在社交平台上瘋傳並惹來熱議。 影片中，該名女士氣場強悍地大吼：「發給你，你過來就行了呀！我們一直站在這裡，你人呢？你不想幹你就直說！」，霸氣十足，之後更上了一架七人車。然而，《香港01》獨家聯絡上這位事件女主角李小姐，她親身拍片受訪，講述事件經過，她覺得有關報道疑斷章取義：「很難過！」 韓國天團BIGBANG來港演出，吸引全城關注！ 昨",
@@ -11948,39 +11988,15 @@
           "category": "Hong Kong"
         },
         {
-          "title": "黃仁勳辭職｜科大校內展示簽名皮褸惹關注 校方：現未有計劃移除",
-          "url": "https://hk01.com/sns/article/60410845",
-          "publishedAt": "2026-11-14T13:06:12.000Z",
-          "excerpt": "英偉達（Nvidia）創始人黃仁勳多段婚外情曝光後，日前辭去行政總裁及董事局成員職務。黃仁勳擁有科大博士學位，2024年他曾向科大贈送已簽名、寫上「HKUST」字樣的黑色皮褸，一直在科大校內作公開展示。隨着黃仁勳的出軌風波愈演愈烈，這件皮褸的「終極去留」近日成為網民關注焦點。科大表示，該件皮褸展品目前仍於校內展示，現階段未有計劃將該展品移除。 黃仁勳將已簽名、寫上「HKUST」字樣的黑色皮褸贈予科大。（科大提供圖片） 黃仁勳日前向全體員工發內部信，承認與被指是中國間諜的華裔女商人黃樂（Alice Huang）存在婚外情，更被揭與公司內部高層存在另一段戀情。黃其後辭任英偉達行政總裁及董事局成員職",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "劉松仁患病後激罕現身白雪仙家聚會 汪明荃曝近況：清減但精神",
-          "url": "https://hk01.com/sns/article/60410853",
-          "publishedAt": "2026-11-14T12:45:41.000Z",
-          "excerpt": "現年77歲的資深視帝劉松仁（松哥）近年屢傳因中風導致行動不便，健康狀況一直備受外界關注。早前他曾罕有開腔談及健康，坦承確實患病但拒絕透露病名，僅呼籲大家對他保持信心，強調自己有能力應付，更直言近幾年是他人生中最自在、最開心的階段。專心休養享受生活的松哥，不時相約圈中老友敘舊。 劉松仁撐拐杖睇戲被網民偶遇。（小紅書） 劉松仁撐拐杖睇戲被偶遇。影片中可見，松哥當日身穿白色長袖恤衫及灰色長褲，戴著眼鏡，右手手持拐杖慢行進場。（小紅書） 汪明荃羅家英探白雪仙喜逢老友 近日汪明荃（阿姐）便在社交平台分享與丈夫羅家英（家英哥）拜訪粵劇名伶白雪仙（仙姐）的合照，竟意外捕獲劉松仁、劉千石及資深製作人陳善之（J",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "中環先施百貨下月初結業正最後倒數 顧客來掃貨、附近上班族不捨",
           "url": "https://hk01.com/sns/article/60410848",
           "publishedAt": "2026-11-14T12:43:09.000Z",
           "excerpt": "本港結業潮未止，零售業正經歷寒冬。先施百貨繼今年初結束開業30載的西九龍中心分店後，位於中環德輔道中李寶椿大廈的先施分店，早前亦公布因租約期滿，計劃於今年第四季結業。原來該店已進入最後倒數，今午（14日）所見，店舖門外貼上「租約期滿 最後倒數23天」的字樣，全店戶外及運動服飾鞋履產品單件可享額外95折。有熟客趕在結業前到店光顧，花費3,000元購服裝；亦有附近上班族花300元超抵價，購入原價逾千的鞋，對店舖結業感不捨，日後會跨區到先施旺角店光顧。 先施百貨中環店約滿後，全港只餘旺角分店，亦意味先施將告別其發跡超過一世紀的中上環根據地。 先施百貨中環德輔道中李寶椿大廈店亦因租約期潮，將於下月結業",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "BIGBANG｜黃牛黨炒飛貴一倍 開場後仍拒減價：十幾分鐘賣十幾張",
-          "url": "https://hk01.com/sns/article/60410834",
-          "publishedAt": "2026-11-14T12:27:44.000Z",
-          "excerpt": "韓國天團BIGBANG為慶祝出道20周年，正舉辦世界巡迴演唱會，香港站從昨日（13日）起在啟德主場館舉行4場演唱會，票價由699元至3,099元不等，「黃牛黨」趁機斂財。 今日（14日）為演唱會第二日開鑼、亦是首次遇上周末，記者在啟德主場館外中央廣場視察，由開場前至開場後1小時，仍然見到有為數不少的「黃牛黨」在場兜售門票，未能購票的女粉絲則蜂擁而上圍著「黃牛黨」，問價後爽快取出電話「掃碼」支付。據悉，有關門票原價899元，被抬價至1,600元；2,099元的門票則被炒至3,000元。開場後更有「黃牛」更向放蛇的《香港01》記者直言，前期利潤已「拉勻」成本，拒絕輕易劈價散貨。 不少未能購票的女粉",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "有線新聞",
@@ -11988,6 +12004,78 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "美伊州乙醇工廠發現炸彈 逾5,000人撤離 FBI展開調查",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523896/%E7%BE%8E%E4%BC%8A%E5%B7%9E%E4%B9%99%E9%86%87%E5%B7%A5%E5%BB%A0%E7%99%BC%E7%8F%BE%E7%82%B8%E5%BD%88-%E9%80%BE5000%E4%BA%BA%E6%92%A4%E9%9B%A2-fbi%E5%B1%95%E9%96%8B%E8%AA%BF%E6%9F%A5",
+          "publishedAt": "2026-11-15T02:07:25.000Z",
+          "excerpt": "【有線新聞】美國伊利諾伊州一間乙醇工廠發現炸彈，方圓近兩公里居民撤離近一天，沒人受傷。 工廠位於伊利諾伊州中部",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "瑞典網球公開賽 費利斯奪冠",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523902/%E7%91%9E%E5%85%B8%E7%B6%B2%E7%90%83%E5%85%AC%E9%96%8B%E8%B3%BD-%E8%B2%BB%E5%88%A9%E6%96%AF%E5%A5%AA%E5%86%A0",
+          "publishedAt": "2026-11-15T02:07:20.000Z",
+          "excerpt": "【有線新聞】瑞典網球公開賽，費利斯奪得冠軍。 啡衫的費利斯面對狄蘭迪，首盤3次破發機會把握2次，先贏6比2。8",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "SpaceX首次成功以機械臂回收星艦主體",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523899/spacex%E9%A6%96%E6%AC%A1%E6%88%90%E5%8A%9F%E4%BB%A5%E6%A9%9F%E6%A2%B0%E8%87%82%E5%9B%9E%E6%94%B6%E6%98%9F%E8%89%A6%E4%B8%BB%E9%AB%94",
+          "publishedAt": "2026-11-15T02:07:17.000Z",
+          "excerpt": "【有線新聞】SpaceX首次成功以機械臂回收星艦上級飛船主體。 花了22.5小時圍繞地球14圈，星艦主體在本港",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美國航空大癱瘓｜全國停飛近5小時 料周日晚復常 交通部長：承包商換光纖引起",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523892/%E7%BE%8E%E5%9C%8B%E8%88%AA%E7%A9%BA%E5%A4%A7%E7%99%B1%E7%98%93-%E5%85%A8%E5%9C%8B%E5%81%9C%E9%A3%9B%E8%BF%915%E5%B0%8F%E6%99%82-%E6%96%99%E5%91%A8%E6%97%A5%E6%99%9A%E5%BE%A9%E5%B8%B8",
+          "publishedAt": "2026-11-15T01:56:06.000Z",
+          "excerpt": "【有線新聞】美國周五航空交通因通訊系統不勝負荷引致故障，全國航班停飛近5小時，預計航班運作周日晚才回復正常。",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "港珠澳大橋半馬｜升格白金級賽 萬人參加創紀錄 天津跑手專程來港：見證祖國昌盛偉大",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523888/%E6%B8%AF%E7%8F%A0%E6%BE%B3%E5%A4%A7%E6%A9%8B%E5%8D%8A%E9%A6%AC-%E5%8D%87%E6%A0%BC%E7%99%BD%E9%87%91%E7%B4%9A%E8%B3%BD-%E8%90%AC%E4%BA%BA%E5%8F%83%E5%8A%A0%E5%89%B5%E7%B4%80%E9%8C%84",
+          "publishedAt": "2026-11-15T01:51:03.000Z",
+          "excerpt": "【有線新聞】港珠澳大橋半馬拉松在清晨開跑，今屆吸引約一萬跑手參加，不少人特意由外地來港參賽。 鳴槍一響，一眾半",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "APEC｜深圳新聞中心啟用 設機械人沖咖啡、免費中醫 體驗非遺麥金畫",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523884/apec-%E6%B7%B1%E5%9C%B3%E6%96%B0%E8%81%9E%E4%B8%AD%E5%BF%83%E5%95%9F%E7%94%A8-%E8%A8%AD%E6%A9%9F%E6%A2%B0%E4%BA%BA%E6%B2%96%E5%92%96%E5%95%A1-%E5%85%8D%E8%B2%BB%E4%B8%AD",
+          "publishedAt": "2026-11-15T01:42:54.000Z",
+          "excerpt": "【有線新聞】APEC領導人非正式會議周三在深圳舉行，新聞中心亦已經啟用接待中外各地記者，主辦方趁機展示深圳科技",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "香港機引入自動噴油機械人 節省三分二工時 機管局：提升精準度",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523881/%E9%A6%99%E6%B8%AF%E6%A9%9F%E5%BC%95%E5%85%A5%E8%87%AA%E5%8B%95%E5%99%B4%E6%B2%B9%E6%A9%9F%E6%A2%B0%E4%BA%BA-%E7%AF%80%E7%9C%81%E4%B8%89%E5%88%86%E4%BA%8C%E5%B7%A5%E6%99%82-%E6%A9%9F",
+          "publishedAt": "2026-11-15T01:41:24.000Z",
+          "excerpt": "【有線新聞】香港國際機場三條跑道每日平均處理約千班航班升降，近期引入「自動噴油機械人」重劃跑道上的標示，機管局",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "旺角凌晨兩的士相撞 五人受傷送院",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523878/%E6%97%BA%E8%A7%92%E5%87%8C%E6%99%A8%E5%85%A9%E7%9A%84%E5%A3%AB%E7%9B%B8%E6%92%9E-%E4%BA%94%E4%BA%BA%E5%8F%97%E5%82%B7%E9%80%81%E9%99%A2",
+          "publishedAt": "2026-11-15T01:36:34.000Z",
+          "excerpt": "【有線新聞】旺角凌晨有兩輛的士相撞，五人受傷。 涉事兩輛的士車頭毀爛，路邊一支交通燈損毀。凌晨一時許，兩輛的士",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "維港泳｜約4,000人參賽 港將冼展霆七度稱王 聶芷彥三度封后",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523875/%E7%B6%AD%E6%B8%AF%E6%B3%B3-%E7%B4%844000%E4%BA%BA%E5%8F%83%E8%B3%BD-%E6%B8%AF%E5%B0%87%E5%86%BC%E5%B1%95%E9%9C%86%E4%B8%83%E5%BA%A6%E7%A8%B1%E7%8E%8B-%E8%81%B6%E8%8A%B7",
+          "publishedAt": "2026-11-15T01:21:08.000Z",
+          "excerpt": "【有線新聞】維港泳早上舉行，約4,000人參賽，兩位香港代表冼展霆、聶芷彥分別奪得競賽組男、女子冠軍。 灣仔金",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "荃灣夾公仔店遭淋油 15歲少年、19歲女子落網",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523872/%E8%8D%83%E7%81%A3%E5%A4%BE%E5%85%AC%E4%BB%94%E5%BA%97%E9%81%AD%E6%B7%8B%E6%B2%B9-15%E6%AD%B2%E5%B0%91%E5%B9%B4-19%E6%AD%B2%E5%A5%B3%E5%AD%90%E8%90%BD%E7%B6%B2",
@@ -12075,81 +12163,9 @@
           "excerpt": "【有線新聞】SpaceX首次嘗試完整回收整個星艦系統，但中途放棄了回收超重型推進器。 升空入軌後超重型推進器分",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "俄烏戰爭｜稱美方首提棄頓巴斯換入北約 澤連斯基：已表明拒絕",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523814/%E4%BF%84%E7%83%8F%E6%88%B0%E7%88%AD-%E7%A8%B1%E7%BE%8E%E6%96%B9%E9%A6%96%E6%8F%90%E6%A3%84%E9%A0%93%E5%B7%B4%E6%96%AF%E6%8F%9B%E5%85%A5%E5%8C%97%E7%B4%84-%E6%BE%A4%E9%80%A3%E6%96%AF",
-          "publishedAt": "2026-11-14T11:40:48.000Z",
-          "excerpt": "【有線新聞】烏克蘭總統澤連斯基透露，美國首次提出烏方可放棄頓巴斯領土，換取加入北約，但他已拒絕。 澤連斯基日前",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "孫東稱政府正全速建國際創科中心 致力為青年人實現創科夢",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523795/%E5%AD%AB%E6%9D%B1%E7%A8%B1%E6%94%BF%E5%BA%9C%E6%AD%A3%E5%85%A8%E9%80%9F%E5%BB%BA%E5%9C%8B%E9%9A%9B%E5%89%B5%E7%A7%91%E4%B8%AD%E5%BF%83-%E8%87%B4%E5%8A%9B%E7%82%BA%E9%9D%92%E5%B9%B4%E4%BA%BA",
-          "publishedAt": "2026-11-14T11:29:27.000Z",
-          "excerpt": "【有線新聞】創新科技及工業局局長孫東出席青年科技人才助學培育計畫，頒獎禮上表示，香港正全速建設國際創新科技中心",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "新皇崗口岸｜有直通巴疑受天雨影響跣軚撞牆 當局擬下周加設防滑物料",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523805/%E6%96%B0%E7%9A%87%E5%B4%97%E5%8F%A3%E5%B2%B8-%E6%9C%89%E7%9B%B4%E9%80%9A%E5%B7%B4%E7%96%91%E5%8F%97%E5%A4%A9%E9%9B%A8%E5%BD%B1%E9%9F%BF%E8%B7%A3%E8%BB%9A%E6%92%9E%E7%89%86-%E7%95%B6",
-          "publishedAt": "2026-11-14T10:34:14.000Z",
-          "excerpt": "【有線新聞】連日下雨，新皇崗口岸聯檢大樓公共交通交匯處疑因路面濕滑，有旅遊巴行駛時出現滑行，更有旅巴碰撞牆壁損",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "迪士尼樂園系統疑遭入侵 1.7萬門票二維碼被盜 園方：已封鎖相關門票",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523807/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%E7%B3%BB%E7%B5%B1%E7%96%91%E9%81%AD%E5%85%A5%E4%BE%B5-1-7%E8%90%AC%E9%96%80%E7%A5%A8%E4%BA%8C%E7%B6%AD%E7%A2%BC%E8%A2%AB%E7%9B%9C",
-          "publishedAt": "2026-11-14T10:32:26.000Z",
-          "excerpt": "【有線新聞】香港迪士尼樂園網上票務系統失竊1.7萬個二維碼，警方暫列有犯罪或不誠實意圖取用電腦案件調查。 據了",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "器官捐贈日｜盧寵茂：逾42.5萬人登記創新高 鼓勵病人勿放棄 籲市民登記捐贈",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523799/%E5%99%A8%E5%AE%98%E6%8D%90%E8%B4%88%E6%97%A5-%E7%9B%A7%E5%AF%B5%E8%8C%82-%E9%80%BE42-5%E8%90%AC%E4%BA%BA%E7%99%BB%E8%A8%98%E5%89%B5%E6%96%B0%E9%AB%98-%E9%BC%93%E5%8B%B5",
-          "publishedAt": "2026-11-14T09:36:52.000Z",
-          "excerpt": "【有線新聞】今天是器官捐贈日，醫務衞生局局長盧寵茂呼籲社會各界加入中央器官捐贈登記名冊。 醫衞局局長盧寵茂、醫",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "牛頭角過路婦捱客貨車撞 頭部受傷送院",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523758/%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%8E%E8%B7%AF%E5%A9%A6%E6%8D%B1%E5%AE%A2%E8%B2%A8%E8%BB%8A%E6%92%9E-%E9%A0%AD%E9%83%A8%E5%8F%97%E5%82%B7%E9%80%81%E9%99%A2",
-          "publishedAt": "2026-11-14T09:32:24.000Z",
-          "excerpt": "【有線新聞】牛頭角有客貨車撞倒途人。 82歲婆婆頭部受傷，由救護車送去伊利沙伯醫院，客貨車右邊車頭凹陷，警員在",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "三隧分流｜陳恒鑌：三隧容量已飽和 倡建第四條過海隧道 小巴業反對加價憂客量減",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523787/%E4%B8%89%E9%9A%A7%E5%88%86%E6%B5%81%E9%99%B3%E6%81%92%E9%91%8C%E4%B8%89%E9%9A%A7%E5%AE%B9%E9%87%8F%E5%B7%B2%E9%A3%BD%E5%92%8C-%E5%80%A1%E5%BB%BA%E7%AC%AC%E5%9B%9B%E6%A2%9D",
-          "publishedAt": "2026-11-14T09:31:54.000Z",
-          "excerpt": "【有線新聞】政府檢視三隧分流成效，不排除未來可能調整隧道費。有議員認為三隧容量已飽和，可能要興建第四條過海隧道",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "單車港將夥學生鬥車 梁穎儀、朱浚瑋均有上陣 李思穎：目標夠分到洛杉磯奧運",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523791/%E5%96%AE%E8%BB%8A%E6%B8%AF%E5%B0%87%E5%A4%A5%E5%AD%B8%E7%94%9F%E9%AC%A5%E8%BB%8A-%E6%A2%81%E7%A9%8E%E5%84%80-%E6%9C%B1%E6%B5%9A%E7%91%8B%E5%9D%87%E6%9C%89%E4%B8%8A%E9%99%A3",
-          "publishedAt": "2026-11-14T09:23:45.000Z",
-          "excerpt": "【有線新聞】場地單車女子中長距離「世一」李思穎聯同一班港隊隊友，跟學生組隊鬥車。 李思穎在內一班港隊車手，分別",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "全美航班一度停飛 機管局指截至今午12時 17班航班延誤或取消 料今明航班仍受影響",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523769/%E5%85%A8%E7%BE%8E%E8%88%AA%E7%8F%AD%E4%B8%80%E5%BA%A6%E5%81%9C%E9%A3%9B-%E6%A9%9F%E7%AE%A1%E5%B1%80%E6%8C%87%E6%88%AA%E8%87%B3%E4%BB%8A%E5%8D%8812%E6%99%82-17%E7%8F%AD%E8%88%AA",
-          "publishedAt": "2026-11-14T08:18:14.000Z",
-          "excerpt": "【有線新聞】香港機管局指，截至中午12時，有17班航班受影響。 機場離港大堂顯示屏顯示有前往洛杉磯的航班取消。",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Now 新聞",
@@ -12157,6 +12173,22 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "本港第三季GDP增5.2% 丘應樺：AI相關產品轉運帶動",
+          "url": "https://news.now.com/home/local/player?newsId=669629",
+          "publishedAt": "2026-11-15T02:07:26.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "維港泳吸引約4000人參加 冼展霆及聶芷彥分別衛冕男女子組冠軍(李馨萍報道)",
+          "url": "https://news.now.com/home/local/player?newsId=669628",
+          "publishedAt": "2026-11-15T02:07:25.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "建管條例修訂擬設電子平台處理委任文書 梁宏正：同步於舊樓及屋苑測試",
           "url": "https://news.now.com/home/local/player?newsId=669619",
@@ -12300,25 +12332,9 @@
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "美國一度實施地面停飛 香港部分來往美國航班受影響",
-          "url": "https://news.now.com/home/local/player?newsId=669590",
-          "publishedAt": "2026-11-14T09:05:25.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "招聘啟事｜Now新聞台誠聘以下職位",
-          "url": "https://news.now.com/home/local/player?newsId=446579",
-          "publishedAt": "2026-11-14T07:40:00.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12326,6 +12342,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How a housing safety disaster was averted, four decades before the Tai Po fire tragedy",
+          "url": "https://hongkongfp.com/2026/11/15/how-a-housing-safety-disaster-was-averted-four-decades-before-the-tai-po-fire-tragedy/",
+          "publishedAt": "2026-11-15T02:00:00.000Z",
+          "excerpt": "According to the Wang Fuk Court fire inquiry, residents of the doomed estate made no fewer than 180 efforts to ward off the danger presented by careless building work. They sent complaints or inquiries to at least five government departments. This was not a success. We must note in particular the La",
+          "source": "Hong Kong Free Press",
+          "category": "Hong Kong"
+        },
         {
           "title": "Spies and silicon chips: Alice Huang’s tangled corporate web",
           "url": "https://hongkongfp.com/2026/11/14/spies-and-silicon-chips-alice-huangs-tangled-corporate-web/",
@@ -12477,17 +12501,9 @@
           "excerpt": "Nvidia’s board is preparing to oust its co-founder and CEO Jensen Huang, US media reported Wednesday, as the chip giant’s chief faces new accusations of infidelity, after revelations he had an affair with a woman accused of spying for China. The tech company’s board was preparing to meet as soon as ",
           "source": "Hong Kong Free Press",
           "category": "Hong Kong"
-        },
-        {
-          "title": "Nearly 30 Japanese porn stars ‘denied Hong Kong entry,’ expo cancelled",
-          "url": "https://hongkongfp.com/2026/11/12/nearly-30-japanese-porn-stars-denied-hong-kong-entry-expo-cancelled/",
-          "publishedAt": "2026-11-12T01:07:56.000Z",
-          "excerpt": "Nearly 30 Japanese porn stars have reportedly been denied entry to Hong Kong, prompting the cancellation of a large-scale, three-day adult entertainment expo. Update: Immigration says 27 Japanese porn stars were not denied entry, as social media posts deleted The Mega Fans Expo 2026, originally set ",
-          "source": "Hong Kong Free Press",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12495,6 +12511,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "丘應樺料AI發展或放緩 香港需發掘新機遇不能「等運到」",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877864-20261115.htm",
+          "publishedAt": "2026-11-15T01:47:13.000Z",
+          "excerpt": "本港9月出口按年升64.9%，創超過40年以來最快單月增速，9月份進口按年亦升57.8%。商務及經濟發展局局長丘應樺形容數字亮麗，他說主要是受人工智能的電子產品貿易帶動影響。 丘應樺出席一個電台節目表示，轉口貿易對香港很重要，形容是壓艙點，因此在國家「十五五」規劃都要求香港鞏固及提升國際貿易中心及國際航空樞紐地位。 他提到本港受全球格局影響，可見到不同國家對AI發展有不同意見，未來AI發展或會放緩，強調香港不能「等運到」，需要自強不息，不斷發掘新機遇。 編輯：汪溟曦",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "維港泳冼展霆及聶芷彥成功衛冕 有深圳旅客參賽感到榮幸",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877860-20261115.htm",
+          "publishedAt": "2026-11-15T01:25:24.000Z",
+          "excerpt": "維港泳2026早上舉行，競賽組早上7時半率先開賽，冼展霆和聶芷彥分別衛冕男子組和女子組冠軍。冼展霆是第七次奪得冠軍，今年以15分35秒完成。他表示，導航浮波放置位置理想，水溫舒適。他自評今年表現合格，因賽前作病，未能以最佳狀態比賽。聶芷彥就以16分55秒奪冠，她形容個人狀態理想，對手實力增強，而現場指示較去年清晰。 有14歲泳手首次參與維港泳，出戰競賽組，強調今次是學習，並非為爭取名次，因此沒有壓力，又說與平時在泳池練習有分別。 有60歲深圳旅客參與優悠組賽事，她形容維港泳賽事特別，能參加屬榮幸，內地很多不同類型戶外比賽都不設水試。亦有參加者表示，去年維港水流較急，今年就游得較輕鬆。 編輯：汪",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "港珠澳大橋（香港段）半馬賽今舉行 林定國冀港辦更多大賽顯實力",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1877858-20261115.htm",
@@ -12638,25 +12670,9 @@
           "excerpt": "一名37歲菲律賓籍外傭涉嫌虐兒被捕，現正被扣留調查。 事發在觀塘協和街33號一個單位，警方於早上8時許接獲一名女子報案，懷疑7歲兒子被女傭不恰當對待而感到鼻痛。 警方到場初步調查，懷疑女傭曾以手掌摑男童面部，他沒有表面傷痕，清醒送往聯合醫院檢查，案件交由觀塘警區刑事調查隊第五隊跟進。 編輯：鍾慧儀",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "盧寵茂呼籲市民支持器官捐贈",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877817-20261114.htm",
-          "publishedAt": "2026-11-14T08:07:59.000Z",
-          "excerpt": "醫務衞生局局長盧寵茂表示，中央器官捐贈名冊至去年已有42萬5千多人登記，創歷史新高。不過，相比本港約750萬人口，只佔不足6%，仍有相當大進步空間，而目前正等候器官捐贈的病人有2千多人，所以需求仍大。 盧寵茂下午在香港兒童醫院，出席由醫務衞生局、衞生署及香港電台合辦的「器官捐贈日2026」推廣活動開幕儀式。 他致辭時表示，去年有37名遺贈者，在離世後將器官捐贈幫助其他人，而每一名遺贈者可以幫助6至7名病人重生。去年就有58個腎移植、29個肝移植、12個心臟移植及6個肺移植，合共有近百名病人受惠，影響到很多病人和家庭的幸福。 他希望，全港仍未透過政府的中央器官捐贈登記名冊進行登記的市民，可以一齊",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "​運輸署呼籲市民提防偽冒汽車安全氣袋召回信息",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1877815-20261114.htm",
-          "publishedAt": "2026-11-14T07:45:40.000Z",
-          "excerpt": "運輸署呼籲市民提高警覺，提防偽冒運輸署的汽車安全氣袋召回信息，切勿誤信非官方途徑訛稱為政府的信息或提供任何個人資料。事件將轉交警方跟進。 發言人澄清，署方與未經授權使用部門名稱的偽冒信件或信息沒有任何關係。署方目前僅於網頁列出由註冊車輛製造商，授權香港代理提供的汽車安全召回資訊。運輸署不會發信通知個別車主安全召回車輛。市民應認清資訊，避免誤墮詐騙陷阱。如有查詢，應直接與有關的授權代理或經銷商聯絡。 市民如接獲不明來歷的信息，切勿登入可疑網站及提供個人資料。如曾就偽冒信息提供個人資料，應與警方聯絡。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "South China Morning Post",
@@ -12664,6 +12680,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Hong Kong sending who’s who delegation of business leaders to Apec CEO Summit",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374452/hong-kong-sending-whos-who-delegation-business-leaders-apec-ceo-summit",
+          "publishedAt": "2026-11-15T02:00:18.000Z",
+          "excerpt": "Hong Kong will send one of its largest-ever delegations to the Apec CEO Summit in Shenzhen on Tuesday and Wednesday, with at least 54 business leaders set to attend, the South China Morning Post has learned. According to a delegation list obtained by the SCMP, the group includes senior executives of",
+          "source": "South China Morning Post",
+          "category": "Hong Kong"
+        },
         {
           "title": "Have you done this before? Hong Kong firefighter recalls mid-air rescue chat",
           "url": "https://www.scmp.com/news/hong-kong/society/article/3374451/have-you-done-hong-kong-firefighter-recalls-mid-air-rescue-chat",
@@ -12815,17 +12839,9 @@
           "excerpt": "Schoolteachers found to be working without new practising certificates will face a maximum penalty a fine of up to HK$50,000 and two years’ imprisonment from the 2028-29 academic year, as Hong Kong authorities tighten requirements for educators. However, short-term supply teachers will be exempted f",
           "source": "South China Morning Post",
           "category": "Hong Kong"
-        },
-        {
-          "title": "Privacy watchdog called after estate proposal to use facial recognition for entry",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3374354/privacy-watchdog-called-after-estate-proposal-use-facial-recognition-entry",
-          "publishedAt": "2026-11-13T09:39:03.000Z",
-          "excerpt": "Hong Kong’s privacy watchdog has launched a compliance check on the use of a proposed facial recognition system at a private housing estate with 8,000 households, after the measure raised privacy concerns among some residents. The Office of the Privacy Commissioner for Personal Data conducted its ch",
-          "source": "South China Morning Post",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12833,6 +12849,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "​珊瑚保育 海洋存珍",
+          "url": "https://www.info.gov.hk/gia/general/202611/15/P2026111300684.htm",
+          "publishedAt": "2026-11-15T02:00:00.000Z",
+          "excerpt": "海洋公園獲環境及自然保育基金資助，今年年初推出珊瑚展覽，並翻新後勤設施，成立珊瑚生態及保育探索中心，成為珊瑚修復和公眾教育的重要場所。展覽開幕至今逾100萬人次參觀。 &nbsp; 《政府新聞網》訪問環境及自然保育基金代表，了解資助的範疇和例子，海洋公園代表則介紹珊瑚展覽的特色，也有參與工作坊的小學生分享所學。 &nbsp; 有關報道今日（十一月十五日）以文字和短片方式上載至 www.news.gov.hk/chi/feature 。",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "粉嶺游泳池暫時關閉",
           "url": "https://www.info.gov.hk/gia/general/202611/15/P2026111500224.htm",
@@ -12984,17 +13008,9 @@
           "excerpt": "衞生署衞生防護中心（中心）今日（十一月十三日）表示，正調查一宗猴痘輸入個案，並強烈建議高風險目標群組人士接種猴痘疫苗。市民亦應提高警覺，避免與懷疑感染猴痘的人士作密切身體接觸。 &nbsp; 個案資料 &mdash;&mdash;&mdash;&mdash; 個案涉及一名34歲男子，他於十一月九日起出現發燒、疲倦和手臂出現皮疹，其後皮疹蔓延至身體多處地方（包括生殖器官、腹部及胸部）。他於十一月十一日到伊利沙伯醫院急症室求診，獲安排留院接受隔離治療，目前情況穩定。他的臨床樣本經中心公共衞生化驗服務處化驗後，證實對猴痘病毒呈陽性反應。 &nbsp; 根據病人提供的資料，他於潛伏期內曾於離港期間與其",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "米埔自然護理區有環境樣本驗出H5禽流感病毒",
-          "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300581.htm",
-          "publishedAt": "2026-11-13T10:25:00.000Z",
-          "excerpt": "漁農自然護理署（漁護署）昨日（十一月十二日）接獲香港大學通知，兩個從米埔自然護理區收集的環境樣本驗出H5高致病性禽流感病毒。 香港大學公共衞生學院研究團隊定期進入護理區收集樣本，並與漁護署合作監測禽流感。研究團隊十一月十一日收集的其中兩個環境樣本確認驗出帶有H5病毒。 漁護署發言人表示，負責協助政府管理護理區的世界自然基金會香港分會已加強清潔及消毒觀鳥屋及浮橋等遊客設施。護理區入口亦設有消毒藥水地墊，供到訪人士消毒鞋底。此外，漁護署正密切監察護理區內雀鳥的情況，並在區内張貼告示提醒公眾注意個人衞生。 收集該樣本的地點三公里範圍內沒有雞場。漁護署已加強禽流感的監控工作，密切留意本地活家禽農場及批",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-15T01:17:12.293Z"
+      "lastSuccessfulAt": "2026-11-15T02:17:20.439Z"
     }
   ],
   "stories": [
@@ -13033,15 +13049,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50500963"
-    },
-    {
-      "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
-      "url": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
-      "publishedAt": "2026-11-14T19:23:40.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50499945"
     },
     {
       "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
@@ -13177,6 +13184,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50496051"
+    },
+    {
+      "title": "500 Lines or Less A 3D Modeller",
+      "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+      "publishedAt": "2026-11-13T13:47:42.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50483431"
     },
     {
       "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
@@ -14204,6 +14220,17 @@
       "sourceRole": "community"
     },
     {
+      "title": "23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are \"untouchable\" (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-s-jensen-huang-joins-billionaire-tech-titans-cheating-on-their-wives",
+      "publishedAt": "2026-11-15T02:05:01.000Z",
+      "excerpt": "Bloomberg : 23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are &ldquo;untouchable&rdquo; &nbsp; &mdash;&nbsp; As the Nvidia drama unfolds, the tech community adds yet another geek-turned-billionaire to it",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261114/p22#a261114p22",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases (Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
       "publishedAt": "2026-11-15T00:05:02.000Z",
@@ -14354,17 +14381,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261114/p8#a261114p8",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign (Eleanor Olcott/Financial Times)",
-      "url": "https://www.ft.com/content/3efa9733-fbb4-47c2-83ba-b01e548ef277",
-      "publishedAt": "2026-11-14T07:30:08.000Z",
-      "excerpt": "Eleanor Olcott / Financial Times : Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign &nbsp; &mdash;&nbsp; Former Nvidia chief executive facing intense scrutiny over ties to Beijing&nbsp; &m",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261114/p7#a261114p7",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14549,6 +14565,24 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "'You can suddenly float to the 30,000-foot level and understand how it’s all supposed to work together' — Original Mass Effect composer looks back on the 'rewarding' collaborative experience while working on the RPG",
+      "url": "https://www.techradar.com/gaming/you-can-suddenly-float-to-the-30-000-foot-level-and-understand-how-its-all-supposed-to-work-together-original-mass-effect-composer-looks-back-on-the-rewarding-collaborative-experience-while-working-on-the-rpg",
+      "publishedAt": "2026-11-15T02:00:00.000Z",
+      "excerpt": "Original Mass Effect composer Jack Wall has recalled working on BioWare's RPG, describing the collaborative project as a \"rewarding\" experience.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Today I learned why wind farms paint one turbine blade black",
+      "url": "https://www.techradar.com/pro/today-i-learned-why-wind-farms-paint-one-turbine-blade-black",
+      "publishedAt": "2026-11-15T01:25:00.000Z",
+      "excerpt": "A Norwegian trial cut bird deaths by about 72% with one black blade but a Dutch follow-up experiment found no effect, so newer offshore farms are now trying red.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "007 First Light composers reveal their inspirations for the game’s soundtrack — ‘Our mission we set ourselves was to give the franchise a gentle nudge into the modern day, without completely reinventing it’",
       "url": "https://www.techradar.com/gaming/007-first-light-composers-reveal-their-inspirations-for-the-games-soundtrack-our-mission-we-set-ourselves-was-to-give-the-franchise-a-gentle-nudge-into-the-modern-day-without-completely-reinventing-it",
       "publishedAt": "2026-11-15T01:00:00.000Z",
@@ -14706,24 +14740,6 @@
       "url": "https://www.techradar.com/entertainment/football/watch-portugal-vs-denmark-nations-league-2026-27-free",
       "publishedAt": "2026-11-14T17:00:00.000Z",
       "excerpt": "How you can watch Portugal vs Denmark in the Nations League for free online from anywhere in the world with TV channels, kick-off time included.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "FlexiSpot's E7 Pro standing desk has prices starting from just $399.99 in the Black Friday sale",
-      "url": "https://www.techradar.com/pro/flexispots-e7-pro-standing-desk-has-prices-starting-from-just-usd399-99-in-the-black-friday-sale",
-      "publishedAt": "2026-11-14T15:10:00.000Z",
-      "excerpt": "FlexiSpot's E7 Pro standing desk has prices starting from just $399.99 in the Black Friday sale.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Canva just launched its own AI image generator, so I tested it vs ChatGPT",
-      "url": "https://www.techradar.com/ai-platforms-assistants/canva-claims-its-new-ai-image-generator-is-second-only-to-openai-so-i-put-canva-craft-and-chatgpt-head-to-head-in-5-image-tests-using-their-free-versions-to-see-which-one-really-comes-out-on-top",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "excerpt": "Canva Craft is a new, powerful AI image generator, but how does it compare to ChatGPT?",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15539,19 +15555,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The toy company Tomy has a new logo, and people are baffled",
-      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+      "title": "How I created this ninja puppet scene inspired by Naruto",
+      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "The new design is all about play.",
+      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
     },
     {
-      "title": "How I created this ninja puppet scene inspired by Naruto",
-      "url": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+      "title": "The toy company Tomy has a new logo, and people are baffled",
+      "url": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
       "publishedAt": "2026-11-12T07:00:00.000Z",
-      "excerpt": "Guilherme Freitastalks us through his process for creating futuristic anime art",
+      "excerpt": "The new design is all about play.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -17188,10 +17204,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Lasting Influence of John Berger",
-      "url": "https://www.newyorker.com/magazine/2026/11/16/john-berger-a-life-tom-overton-book-review",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/16/the-end-of-everything-gloria-dont-speak-shakespeare-at-thirty-almost-animal",
       "publishedAt": "2026-11-09T11:00:00.000Z",
-      "excerpt": "His TV series “Ways of Seeing” popularized a Marxist view of art and made him a star. In his centennial year, his wide-ranging output continues to inspire and infuriate.",
+      "excerpt": "“The End of Everything,” “Gloria Don’t Speak,” “Shakespeare at Thirty,” and “Almost Animal.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -24173,98 +24189,122 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "12星座精神出軌指數排名 水瓶座高達90% 多情雙魚竟跌出三甲",
-      "url": "https://hk01.com/sns/article/60410659",
-      "publishedAt": "2026-11-15T01:10:35.000Z",
-      "excerpt": "人在身邊，心卻早已飛到別人那裏？「偷食」會被人捉個正着，精神出軌（又稱心靈出軌或精神外遇）就難察覺得多，但殺傷力一點也不遜色。台灣命理專家阿谷老師曾經用雷諾曼占卜，為十二星座排出「心靈出軌指數」：冠軍高達90%，最低只有30%。風象星座全部擠進前4名，一向被視為最多情的雙魚座反而跌出前3名。你和另一半排第幾？即看完整排名。 甚麼是心靈出軌？ 心靈出軌又叫精神出軌，意思是伴侶在身體上沒有越軌，感情上卻依賴、寄託在另一個人身上。例如有開心事第一時間想跟對方分享，回到家卻跟伴侶無話可說。這種出軌沒有「證據」可言，往往等到發現的時候，兩人之間早已隔了一道牆。 精神出軌未必涉及身體接觸，卻可能令伴侶將情",
+      "title": "馬克龍警告試圖限制對烏克蘭援助 將為「下一場戰爭」埋隠患",
+      "url": "https://hk01.com/sns/article/60410917",
+      "publishedAt": "2026-11-15T02:04:14.000Z",
+      "excerpt": "法國總統馬克龍（Emmanuel Macron，又譯馬克宏）星期六（11月14日）說，試圖限制對烏克蘭提供援助的國家，實際上是在迫使烏克蘭接受一項「不公正的和平協議」，並警告稱，這將為下一場戰爭埋下隱患。 法新社報道，馬克龍在社交媒體上說：「那些想要限制對烏克蘭援助的人，歸根結底是希望迫使烏克蘭接受不公正的和平，並由此將這種結果強加給整個歐洲。」 「這是一種失敗主義心態，也是下一場戰爭的導火線。法國絕不能採取這樣的立場。」 烏克蘭總統澤連斯基（Volodymyr Zelensky）星期六說，美國曾建議基輔向莫斯科割讓領土，以換取烏克蘭加入北約。 歐洲方面星期五（13日）在都柏林選出五個國家，將",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "黃大仙下邨單位起火 黑煙捲半空煙霧彌漫",
-      "url": "https://hk01.com/sns/article/60410902",
-      "publishedAt": "2026-11-15T01:10:04.000Z",
-      "excerpt": "今日（15日）早上8時47分，警方接獲多人報案求助，指黃大仙下邨龍光樓發生火警，一個單位起火及冒出濃煙，據報一度傳出爆炸聲。消防到場，出動一條喉及一隊煙帽隊灌救。事件中50人須緊急疏散。火警原因有待調查。 黃大仙下邨龍光樓一個單位冒出濃煙。（Alex Ox ChamkinGs/黃大仙區友(黃大仙，新蒲崗，鑽石山，慈雲山......) 影片截圖） 黃大仙下邨龍光樓一個單位冒出濃煙。（Aaron Ng/黃大仙區友(黃大仙，新蒲崗，鑽石山，慈雲山......) 影片截圖）",
+      "title": "港鐵太子站短裙女直播？月台擺腳架惹公憤 港鐵附例最高罰$5000",
+      "url": "https://hk01.com/sns/article/60393452",
+      "publishedAt": "2026-11-15T02:02:56.000Z",
+      "excerpt": "搭港鐵都不忘要直播？本港網絡瘋傳照片，顯示在港鐵站月台範圍，有3名女子拿出手機支架，疑似準備進行直播，其中2名女子身穿短裙，有人仔細調校角度務求拍到「靚樣」，引來大批網民譴責相關行為，直斥「AI都gen唔出咁黐線嘅場景」、「以為廟街唱戲去到港鐵擺檔」，又質疑為何未有職員上前勸阻，「如不制止，個個有樣學樣」。 有3名女子疑在港鐵太子站月台開live直播，網民質疑等同賣藝，好奇為何未有職員「點解無人捉？」。（資料圖片） 3女港鐵月台擺支架 疑開live做直播 該目擊者最先在threads帳號上傳照片 ，顯示在港鐵荃灣線疑太子站的月台上，有3名女子分別身穿紅色連身短裙、紅色短裙、以及紅色上衣，其中2",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "馮志豪｜外地生來港讀書是「求學位」還是「買身份」？",
-      "url": "https://hk01.com/sns/article/60410331",
-      "publishedAt": "2026-11-15T01:00:59.000Z",
-      "excerpt": "馮志豪教授專欄 高等教育的價值，本來在於知識訓練和專業培養。但近年在部分升學中介的包裝之下，一紙大學取錄通知書，愈來愈常被說成通往居留身份的「入場券」。近日有本地專上院校開辦的深造文憑課程，因學生簽證審批未如預期，加上收生安排調整，最終宣布停辦並全額退款。事件曝光後，內地社交媒體隨即出現不少「轉報攻略」，鼓吹受影響學生盡快轉報其他院校，以保住留港學生簽證。這件事表面看是個別課程的安排狀況，實際上反映的，卻是另一個更值得警惕的問題：對某些人來說，來港升學首先不是為了學習，而是為了身份安排。 審慎審批守好簽證防線 這絕對不是小事。香港近年積極推動「留學香港」，也希望發展成為國際專上教育樞紐。非本地",
+      "title": "一個鐵箱改寫全球貿易 1956年58個貨櫃首航 葵涌碼頭險些趕不上",
+      "url": "https://hk01.com/sns/article/60410336",
+      "publishedAt": "2026-11-15T02:02:29.000Z",
+      "excerpt": "歷史奇趣│現代網購商品得以低成本跨國直送，得益於70年前起步的貨櫃運輸。你今日在網上買的衣服、手機、零食，很可能都曾經在一個長方形的鐵箱裏漂洋過海。這種看似平平無奇的貨櫃，用於現代航運其實只有70年歷史。 1956年4月26日，一艘由油輪改裝而成的「Ideal X」號，載着58個金屬貨櫃，由美國紐瓦克港駛往休斯敦，這次航行被視為現代商業貨櫃運輸的重要起點。據估算，貨櫃化令裝船成本大減，減幅逾九成，改變了碼頭工人的命運，亦重塑了全球供應鏈與港口城市興衰，更帶動香港葵涌貨櫃碼頭日後躋身世界前列。 葵涌貨櫃碼頭上密密麻麻的貨櫃，是當年航運革命的產物。（資訊圖片） 美國航運公司美森（Matson）認為",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "APEC深圳｜香蜜湖核心區10大豪宅樓價一文看清 水榭花都成樓王？",
-      "url": "https://hk01.com/sns/article/60410882",
-      "publishedAt": "2026-11-15T01:00:51.000Z",
-      "excerpt": "2026年APEC領導人非正式會議的主會場設於深圳的深圳市國際交流中心，該場館坐落於福田區的香蜜湖片區，前身為香蜜湖度假村。 香蜜湖位於福田中心區與車公廟金融區之間，隨著香蜜湖新金融中心及國際交流中心的落地，該板塊成為深圳罕見同時具備「核心CBD地段＋稀缺湖景公園生態＋國際交往中心＋頂級學區」的超級板塊，與華僑城、深圳灣、前海三個片區共同構成了深圳高端住宅「多足鼎立」的格局，是深圳「老錢」（Old Money）階層的核心聚居區。 福田區香蜜湖周邊連日來已引來大批市民到場圍觀打卡。（盧詩文 攝） 「深圳國際交流中心」屬於香蜜湖片區「一館三中心」的標誌性建築之一。（盧詩文 攝） 根據市場數據統計，",
+      "title": "81校網｜粉嶺、皇后山、打鼓嶺小學名單有甚麼學校？學額有多少？",
+      "url": "https://hk01.com/sns/article/60409210",
+      "publishedAt": "2026-11-15T02:00:42.000Z",
+      "excerpt": "81校網的範圍以北區為主，共有13間學校可供選擇，主要位於在粉嶺、馬尾下及打鼓嶺附近。「01教育」已經於下文為你整合81校網的小學名單、範圍及地圖及81校網屋苑名單，幫助你的子女升讀心儀學校！ 81校網的競爭激烈嗎？學生人數是多少？學額有幾多？ 教育局《學生人數統計報告書》未有根據小學校網分類的學生數字，只有按區議會紀計的數字。參考最新的2025年度《報告書》，在2025年9月於北區就讀本地幼稚園及非本地幼稚園低班（該批學生一般將於2027年9月入讀小一）的學生人數分別為1,763及26人，而81校網學校現正為2027年9月入讀小一的學生，於自行分配學位階段，提供合共667個學額。 立即使用 ",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "隈研吾操刀新福岡縣立美術館 層疊屋簷呼應日本庭園2029年度開館",
-      "url": "https://hk01.com/sns/article/60410436",
-      "publishedAt": "2026-11-15T01:00:43.000Z",
-      "excerpt": "福岡向來是港人遊日熱點，市中心的大濠公園更是散步賞湖的好去處。福岡縣政府決定將福岡縣立美術館由須崎公園遷往大濠公園南側，新館由日本建築大師隈研吾設計，目標於2029年度（2029年4月至2030年3月）開館。這座新館不僅面積比舊館大兩倍，更完美融入周邊的日本庭園景觀，勢必成為文青與建築迷未來的必訪勝地。 原有的福岡縣立美術館位於天神區，自1964年建成至今已超過半世紀，空間與設備逐漸不敷應用，促成了這次的遷館與擴建計劃。新建築樓高四層並設有一層地庫，隈研吾團隊特別採用了層疊屋簷設計，建築體朝向日本庭園的方向逐層遞減高度，以退縮的量體回應庭園的自然尺度。向外延伸的深屋簷不僅豐富了外觀的水平層次，",
+      "title": "長壽食物20大｜可預防心血管疾病認知障礙症！辣椒／咖啡都上榜？",
+      "url": "https://hk01.com/sns/article/60410518",
+      "publishedAt": "2026-11-15T02:00:36.000Z",
+      "excerpt": "食物是人體吸收營養的主要途徑，只要飲食健康，身體很多小毛病都可以改善！外國營養師早前就推介以下20種長壽食物，適量進食的話，能減少患病風險，維持身體健康。今次《香港01》長者生活頻道「01金齡」就會幫大家逐一介紹！ 想食得健康？以下是由外國營養師推薦的長壽食物，涵蓋幾個種類，如：蔬菜、水果、五穀、肉類、主食和其他小食雜糧等，分別有預防癌症、心血管疾病、老人癡呆等病症，幫你把身體保持在年輕狀態。 即看20種由外國營養師推薦的長壽食物： 20種由外國營養師推薦的長壽食物： 綠葉蔬菜 ● 綠葉蔬菜包括：菠菜、羽衣甘藍、火箭菜和羅馬生菜等。 ● 能降低8%患癌風險。 ● 能降低15.8%心血管疾病風險",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "九肚山豪宅玖瓏山繼續蝕！四房戶十年跌價22% 呎價1.25萬",
-      "url": "https://hk01.com/sns/article/60410478",
-      "publishedAt": "2026-11-15T01:00:39.000Z",
-      "excerpt": "【九肚山/玖瓏山/二手樓市/蝕讓】九肚山豪宅屋苑玖瓏山又蝕！該屋苑一伙四房戶以1,890萬元沽出，較10年前買入價帳面貶值22%。 世紀21奇豐物業沙田豪宅分行營業董事莊振耀表示，上述成交個案為玖瓏山月瓏閣B2座中層C室，實用面積1,507平方呎，4房2廳兩套房加工人套房間隔，眺望西面翠綠山景。 原叫價2000萬 劈逾一球獲承接 業主原先放盤開價為2,000萬元，最終大幅減價110萬元成交，終以1,890萬元售出單位，減幅5.5%，實用面積呎價達12,541元。 2016年底買入價2419萬 據了解，原業主早於2016年12月以2,419萬元一手向發展商購入單位，持貨10年至今沽售，賬面大幅損",
+      "title": "下肢水腫｜揭5大原因恐涉心腎肝疾病 附5秒自測出現3種情況別拖",
+      "url": "https://hk01.com/sns/article/60402759",
+      "publishedAt": "2026-11-15T02:00:30.000Z",
+      "excerpt": "忙碌了一整天回到家，脫下襪子赫然發現腳踝被勒出深深一圈凹痕，連鞋子都變得緊繃難穿？多數人常將此現象歸咎於「水喝太多」或「單純水腫」，但台灣營養醫學醫師劉博仁提醒，這極可能是身體主要器官發出的求救訊號，下肢水腫除了生活型態引起外，背後更可能牽涉心、腎、肝及血管等重大疾病。 台灣高醫腎臟內科 蘇威宇醫師 也曾表示，常在門診聽到患者自述腳腫得很厲害，懷疑自己是否單純太累或站太久。蘇威宇醫師指出，許多人發現腳踝或小腿腫脹時，會先想到按摩、熱敷或吃消腫藥，但事實上，腳水腫背後可能隱藏著重要的健康警訊。 相關文章： 水腫｜或與腎、心4大器官有關 亂服利尿食品 隨時未消腫先傷身 8種常見利尿消水腫的好食物（",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "李龍基爆家財耗盡重新起步 催促王青霞搬清家當：一個道歉都冇",
-      "url": "https://hk01.com/sns/article/60409323",
-      "publishedAt": "2026-11-15T01:00:04.000Z",
-      "excerpt": "李龍基日前現身尖沙咀出席《EYT友好會聯歡晚宴》，同場與一眾昔日老友歡聚敘舊。基哥在接受《香港01》訪問時，大方談及與前未婚妻王青霞（Chris）的一段情。受過情傷的他直言現時對女性失去安全感，同時亦回應了關於相戀期間「錢財耗盡」的傳聞，坦言目前一切要「重新來過」，並透露對方至今未曾向他道過一句歉。 李龍基出席EYT聯歡晚宴。（盧振輝攝） 李龍基出席EYT聯歡晚宴。（盧振輝攝） 李龍基剛慶祝75歲生日，造型依然年輕。（盧振輝攝） 情傷打擊未完全平復 坦言對女性築起防線 談及近況與感情狀態，李龍基表示現時正慢慢享受單身生活，但承認這段感情對自己造成極大衝擊，甚至令他對女性產生了心理防線：「暫時真",
+      "title": "夫妻漸行漸遠？專家教每日15分鐘溝通技巧 學會傾聽化解婚姻危機",
+      "url": "https://hk01.com/sns/article/60406735",
+      "publishedAt": "2026-11-15T02:00:24.000Z",
+      "excerpt": "夫妻漸行漸遠，有時不是無話可說，而是說了也感覺不被理解。心理專家提醒，傾聽不只是聽見，更要帶著好奇心提問、不急著反駁或給建議，並確認自己是否理解對方。夫妻可每天安排短暫、不受打擾的對話，重新建立親密感；理解彼此不代表必須認同所有觀點。 一段婚姻走向疏離，不一定是因為發生了什麼驚天動地的大事。有時候，真正讓夫妻漸行漸遠的，是每天看似平凡的對話： 一個人想分享工作的委屈，另一個人卻急著給建議 一個人想說明自己的感受，另一個人立刻反駁「你想太多了」 明明只是希望對方理解自己，最後卻演變成誰對誰錯的爭論。 久而久之，兩個人開始減少交流。即使坐在同一張餐桌前，也只談孩子、家務、帳單與生活安排。那些真正困",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "以色列大選後・三｜內塔尼亞胡政權保衛戰 打伊朗已是箭在弦上？",
-      "url": "https://hk01.com/sns/article/60410877",
-      "publishedAt": "2026-11-15T01:00:03.000Z",
-      "excerpt": "在以色列組閣未明當下，似乎不論政壇與對外動態，都是山雨欲來的煙硝瀰漫。 11月10日以色列新議會宣誓就職時，內塔尼亞胡（Benjamin Netanyahu）再度呼籲組建「民族團結政府」，理由是伊朗威脅迫在眉睫、阿拉伯政黨席位史上最高，且這兩股勢力正準備摧毀以色列。「我這麼說是因為，在這個議會裡，他們正認真討論組建這樣一個狹隘的政府，一個包含恐怖主義支持者、以色列仇恨者或依賴於他們的政府。」 顯然，內塔尼亞胡指的是「變革聯盟」（Change Bloc）手上48席雖不足以組閣，卻可能與19席阿拉伯政黨合作的現實，不論形式究竟是拉姆黨（Ra'am）參與組閣，又或是聯合名單（Joint List）以",
+      "title": "拿綜援的人——是否必須要活出「貧窮的樣子」？",
+      "url": "https://hk01.com/sns/article/60409204",
+      "publishedAt": "2026-11-15T02:00:11.000Z",
+      "excerpt": "江西一個家境清貧的女學生，因為一場演唱會、一次出境紀錄，導致全家的「低保」被取消。香港屯門富泰邨一個綜援家庭，因為擁有迪士尼金卡和幾次旅行紀錄，成為全城聲討的對象。江西女孩的家庭是否真的不再困難？屯門綜援的家庭是否真的濫用了援助？目前都沒有人能給出完整答案，但卻向社會拋出了一個疑問：當制度以「防止濫用」為名，對受助人的消費行為保持高度警惕，那麼監管者究竟是在核查事實，還是在審視一種「不該過得太好」的生活？新加坡的長期援助制度則提供了另一種參照：不設硬性儲蓄門檻、不因某類消費行為停止援助、靈活審視個案條件、核查重心放在申報真實性與整體財務狀況上。把三地制度放在一起，要問的不是誰更嚴或更寬，而是當",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "澤連斯基：美國首次提出烏克蘭割讓頓巴斯 以換取加入北約",
-      "url": "https://hk01.com/sns/article/60410901",
-      "publishedAt": "2026-11-15T00:55:19.000Z",
-      "excerpt": "俄羅斯與烏克蘭經美國斡旋，在阿聯酋首都阿布扎比進行新一輪會談後，烏克蘭總統澤連斯基（Volodymyr Zelensky）11月14日透露，美國談判代表曾提出一項設想，探討烏克蘭是否可能從東部的頓巴斯地區撤軍，以換取加入北約（NATO）的資格。美國方面重申，目前仍在討論多種方案，任何最終協議都必須經雙方共同同意。 路透社引述烏克蘭總統辦公室上週六發布的談話內容報道 ，澤連斯基稱：「美國提出了一個問題：『如果烏克蘭加入北約呢？烏克蘭是否會從頓巴斯撤軍？』這是美方首次提出這樣的想法。」他補充指，他因此相信加入北約的議題已重新回到談判桌上，惟基於俄羅斯總統普京（Vladimir Putin，又譯普丁",
+      "title": "Patrick Sir放低喇沙仔情意結 5歲仔考入國際學校做姚焯菲師弟",
+      "url": "https://hk01.com/sns/article/60409712",
+      "publishedAt": "2026-11-15T02:00:04.000Z",
+      "excerpt": "TVB著名主持人、補習天王Patrick Sir（林溥來）與太太關宛珊婚後育有一子林若嘉（Preemo）。轉眼間Preemo已經5歲，身為傳統名校喇沙書院舊生的Patrick Sir，一直有極深的「喇沙情意結」，起初渴望兒子能繼承衣缽成為「喇沙仔」。不過，在深入了解兒子的性格後，Patrick Sir決定因材施教，毅然放棄傳統名校路線，安排Preemo考入宣道國際學校（CAIS）的Prep班（預備班），正式成為「國民初戀」姚焯菲（Chantel）及多位星二代的同門師弟。 Patrick Sir放低喇沙仔情意結。（截圖） 掙扎於名校情意結 「因材施教」放手一試 Patrick Sir擁有近20年",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "維港泳2026｜4000泳手灣仔出發 父子盼齊衝線 深圳遊客來港參賽",
-      "url": "https://hk01.com/sns/article/60410900",
-      "publishedAt": "2026-11-15T00:54:51.000Z",
-      "excerpt": "「維港泳2026」今早（15日）舉行，近4,000名泳手由灣仔金紫荊廣場公眾碼頭出發，游至位於尖沙咀星光大道的終點，全程約1公里。早上6時多，通往起點的博覽道東沿途已有不少人更衣，氣氛熱烈。其中，有第二度出戰的參與者今次與兒子組「父子檔」。被問及會不會與兒子鬥快，他則笑指「唔會，想一齊衝線」。 維港泳2026今日舉行。（湯致遠攝） 維港泳2026今日舉行。（湯致遠攝） 維港泳2026今日舉行。（湯致遠攝） 鄭小姐（左）表示，完賽後會與其他朋友一起在香港逛逛、吃東西。（湯致遠攝） 深圳選手四時起床到場 今屆賽事設有兩個項目，由競賽組打頭陣，於早上7時半出發，約300名選手爭奪獎項。緊接其後的優悠",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "嘆政府重劇情片輕紀錄片 不寄望獲資助 楊紫燁：我哋自己去做啦",
-      "url": "https://hk01.com/sns/article/60409632",
-      "publishedAt": "2026-11-14T23:07:09.000Z",
-      "excerpt": "首位榮獲奧斯卡最佳紀錄短片獎的華人導演楊紫燁（Ruby Yang），再憑新作《遠山猿歌》獲奧斯卡獎項的競逐資格。近年本港紀錄片漸受大眾關注，亦不乏話題之作，她認為，本地觀眾的口味愈來愈成熟，惟紀錄片出產數量仍然偏少，遠遠未到黃金時代。 8年前，她曾致信時任特首林鄭月娥，希望政府能支持香港紀錄片的發展，將紀錄片納入政府資助、設立恆常放映場地等，惟期望均一一落空。談及有否失望，她認為業界要靈活變通，「如果你等政府去做呢件事，咁你真係唔好等啦，我哋自己去做啦。」 楊紫燁是首位榮獲奧斯卡最佳紀錄短片獎的華人。（湯致遠攝） 昔日去信林鄭爭取政府支持紀錄片 今不寄予希望 近年港產紀錄片逐漸走入主流視野，如",
+      "title": "大城小檔｜昔上海理髮店老闆隱身深水埗 86歲高齡力挺後輩巷仔檔",
+      "url": "https://hk01.com/sns/article/60406825",
+      "publishedAt": "2026-11-15T02:00:04.000Z",
+      "excerpt": "香港地萬家燈火，大舖小店滿佈；但繁華鬧市一角，總見小人物的身影。深水埗大南街一條橫巷，藏着一間不起眼的「麗如理髮」。檔口逼狹、夏日悶熱難耐，只靠掛牆風扇乘涼；在兩張60年歷史舊式理髮大椅「坐鎮」下，客人絡繹不絕。 這間「巷仔檔」藏着兩個靈魂人物，86歲的毛伯伯和年輕數十載的檔主林女士；一個曾經是上海式理髮店的大老闆、一個則是來港打拼了30年後輩。在時代巨輪的推進下，青藍接力，破浪同行，印證了兩代人如何撐起「上海舖」的門面。每一日，毛伯伯雞鳴而起、林女士緊接而返；除了力撐後輩，原因亦很簡單：「（退休）悶到死!」 年屆86歲的毛伯伯，如今在深水埗後巷，力撐後輩林女士所經營的理髮檔。（蔡正邦攝） 昔",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
       "title": "長者日優惠懶人包｜今日免費坐巴士港鐵 海洋公園等景點免費入場",
       "url": "https://hk01.com/sns/article/60410534",
-      "publishedAt": "2026-11-14T22:45:47.000Z",
+      "publishedAt": "2026-11-15T01:32:45.000Z",
       "excerpt": "長者日2026今日（15日）舉行，65歲或以上長者可持樂悠咭或長者八達通，免費乘搭港鐵、九巴及城巴等公共交通工具，亦可免費遊覽山頂纜車及海洋公園等景點。各類長者優惠一覽。 「⻑者⽇2026」 公共交通優惠資格及使⽤⽅法。（社聯文件截圖） 交通優惠 【1】港鐵、輕鐵及港鐵巴士 65歲或以上長者使用「樂悠咭」、長者八達通或個人八達通拍卡，系統會自動將車資設定為0元。優惠不適用於機場快綫、東鐵綫往來羅湖及落馬洲站的過境車程，以及高速鐵路。乘搭東鐵綫頭等車廂，仍須支付頭等額外費。 【2】九巴及龍運巴士 65歲或以上長者 上車時直接拍「樂悠咭」或長者八達通，車資自動設為0元。九巴免費路線不包括P960、",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "中大「全球華文KOL影響力100強」榜單 新傳院長梁海親揭評選準則",
+      "url": "https://hk01.com/sns/article/60410248",
+      "publishedAt": "2026-11-15T01:30:08.000Z",
+      "excerpt": "為發掘並衡量全球華文內容創作者的真實影響力，香港中文大學新聞與傳播學院和香港華夏文化發展基金會合作推出「2026全球華文KOL影響力100強」榜單評選。該榜單將於《首屆全球華人KOL影響力100強高峰論壇》正式發布。《香港01》作為該次活動策略合作夥伴，協助活動順利進行。該次活動將於2026年12月16日到18日在香港中文大學舉辦。 中大新聞傳播學院院長梁海受訪時表示，榜單的核心初衷在於盤點長期缺乏系統性統計的「海外華文自媒體」生態，透過學術視角與透明數據模型，提升華文創作者在國際舞台的能見度，並為華文內容產業建立具公信力的新標竿。榜單涵蓋台灣、馬來西亞、新加坡及香港等華文活躍地區，只要主要使",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "黃大仙下邨單位起火 黑煙捲半空煙霧彌漫 50人緊急疏散",
+      "url": "https://hk01.com/sns/article/60410902",
+      "publishedAt": "2026-11-15T01:10:04.000Z",
+      "excerpt": "今日（15日）早上8時47分，警方接獲多人報案求助，指黃大仙下邨龍光樓發生火警，一個單位起火及冒出濃煙，據報一度傳出爆炸聲。消防到場，出動一條喉及一隊煙帽隊灌救，並於約29分鐘後將火救熄。事件中50人須緊急疏散，無人受傷。人員經初步調查，懷疑因雜物起火肇禍。 消防到場救援。（馬耀文攝） 涉事單位熏黑。（馬耀文攝） 消防到場救援。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 警方協助居民離開。（馬耀文攝） 居民緊急疏散。（馬耀文攝） 消防到場救援。（馬耀文攝） 黃大仙下邨龍光樓一個單位冒出濃煙。（Alex Ox ChamkinGs/黃大仙區友(黃大仙，新蒲崗，鑽石山，慈雲山......) 影片截圖）",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "旺角鬧市人來人往 藍衣男當眾小便 網民批：報警捉人啦｜有片",
+      "url": "https://hk01.com/sns/article/60410894",
+      "publishedAt": "2026-11-14T19:19:12.000Z",
+      "excerpt": "Facebook群組「車cam L（香港群組）」昨日（14日）瘋傳一段影片，一名身穿藍色短袖上衣、黑色長褲的男子，站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊，藍衣男雙目緊閉，臉部通紅，不排除事前飲過酒。 現場食肆燈火通明，人來人往，包括婦孺經過現場，眾人望了一眼便離開，更有小童一臉愕然。 男子站在旺角山東街和砵蘭街交界行人路路邊，當眾露械小便，射向上址一個黃色消防栓旁邊。（Facebook群組「車cam L（香港群組）」影片截圖） 帖主將片中男子私隱部位打格，但沒有交代到拍攝日期和時間，許多網民留言指「人渣」、「報警，銳眼可以捉人啦」、「同狗無分別」、「做乜",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "張家輝憑《絕命法官》奪得《亞洲電視大獎》視帝 上台晒流利英文",
+      "url": "https://hk01.com/sns/article/60410889",
+      "publishedAt": "2026-11-14T17:46:07.000Z",
+      "excerpt": "第31屆亞洲電視大獎（Asian Television Awards, ATA）昨晚在胡志明市舉行、張家輝憑《絕命法官》奪得《亞洲電視大獎》《最佳男主角》，獎項分別有張嘉益、白宇、楊旭文、張家輝、張軒睿、山崎賢人、尹正、章宇等男演員角逐，張家輝得獎後上台以英文致詞，他說：「I would like to say ，thank yo u to investors and my production team for their support and trust in me. and also, I like to thank the Judges of the Asian Television",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24277,7 +24317,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "BIGBANG丨內地女被指叫白牌車上新聞 拍片澄清：我有司機沒有犯法",
+      "title": "BIGBANG丨內地女被指叫白牌車上新聞 拍片否認：我有司機沒犯法",
       "url": "https://hk01.com/sns/article/60410858",
       "publishedAt": "2026-11-14T16:02:25.000Z",
       "excerpt": "韓國天團BIGBANG睽違9年再度於香港合體，昨晚（13日）在啟德體育園主場館舉行首場演唱會。不過完騷後，土瓜灣街頭卻發生一段小插曲。有now新聞報道指，大批完場觀眾湧到土瓜灣一帶尋找跨境白牌車，期間一身名牌、打扮斯文的內地女士疑似因等車太久，所以情緒激動，片段在社交平台上瘋傳並惹來熱議。 影片中，該名女士氣場強悍地大吼：「發給你，你過來就行了呀！我們一直站在這裡，你人呢？你不想幹你就直說！」，霸氣十足，之後更上了一架七人車。然而，《香港01》獨家聯絡上這位事件女主角李小姐，她親身拍片受訪，講述事件經過，她覺得有關報道疑斷章取義：「很難過！」 韓國天團BIGBANG來港演出，吸引全城關注！ 昨",
@@ -24301,22 +24341,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "黃仁勳辭職｜科大校內展示簽名皮褸惹關注 校方：現未有計劃移除",
-      "url": "https://hk01.com/sns/article/60410845",
-      "publishedAt": "2026-11-14T13:06:12.000Z",
-      "excerpt": "英偉達（Nvidia）創始人黃仁勳多段婚外情曝光後，日前辭去行政總裁及董事局成員職務。黃仁勳擁有科大博士學位，2024年他曾向科大贈送已簽名、寫上「HKUST」字樣的黑色皮褸，一直在科大校內作公開展示。隨着黃仁勳的出軌風波愈演愈烈，這件皮褸的「終極去留」近日成為網民關注焦點。科大表示，該件皮褸展品目前仍於校內展示，現階段未有計劃將該展品移除。 黃仁勳將已簽名、寫上「HKUST」字樣的黑色皮褸贈予科大。（科大提供圖片） 黃仁勳日前向全體員工發內部信，承認與被指是中國間諜的華裔女商人黃樂（Alice Huang）存在婚外情，更被揭與公司內部高層存在另一段戀情。黃其後辭任英偉達行政總裁及董事局成員職",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "劉松仁患病後激罕現身白雪仙家聚會 汪明荃曝近況：清減但精神",
-      "url": "https://hk01.com/sns/article/60410853",
-      "publishedAt": "2026-11-14T12:45:41.000Z",
-      "excerpt": "現年77歲的資深視帝劉松仁（松哥）近年屢傳因中風導致行動不便，健康狀況一直備受外界關注。早前他曾罕有開腔談及健康，坦承確實患病但拒絕透露病名，僅呼籲大家對他保持信心，強調自己有能力應付，更直言近幾年是他人生中最自在、最開心的階段。專心休養享受生活的松哥，不時相約圈中老友敘舊。 劉松仁撐拐杖睇戲被網民偶遇。（小紅書） 劉松仁撐拐杖睇戲被偶遇。影片中可見，松哥當日身穿白色長袖恤衫及灰色長褲，戴著眼鏡，右手手持拐杖慢行進場。（小紅書） 汪明荃羅家英探白雪仙喜逢老友 近日汪明荃（阿姐）便在社交平台分享與丈夫羅家英（家英哥）拜訪粵劇名伶白雪仙（仙姐）的合照，竟意外捕獲劉松仁、劉千石及資深製作人陳善之（J",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "中環先施百貨下月初結業正最後倒數 顧客來掃貨、附近上班族不捨",
       "url": "https://hk01.com/sns/article/60410848",
       "publishedAt": "2026-11-14T12:43:09.000Z",
@@ -24325,11 +24349,75 @@
       "category": "Hong Kong"
     },
     {
-      "title": "BIGBANG｜黃牛黨炒飛貴一倍 開場後仍拒減價：十幾分鐘賣十幾張",
-      "url": "https://hk01.com/sns/article/60410834",
-      "publishedAt": "2026-11-14T12:27:44.000Z",
-      "excerpt": "韓國天團BIGBANG為慶祝出道20周年，正舉辦世界巡迴演唱會，香港站從昨日（13日）起在啟德主場館舉行4場演唱會，票價由699元至3,099元不等，「黃牛黨」趁機斂財。 今日（14日）為演唱會第二日開鑼、亦是首次遇上周末，記者在啟德主場館外中央廣場視察，由開場前至開場後1小時，仍然見到有為數不少的「黃牛黨」在場兜售門票，未能購票的女粉絲則蜂擁而上圍著「黃牛黨」，問價後爽快取出電話「掃碼」支付。據悉，有關門票原價899元，被抬價至1,600元；2,099元的門票則被炒至3,000元。開場後更有「黃牛」更向放蛇的《香港01》記者直言，前期利潤已「拉勻」成本，拒絕輕易劈價散貨。 不少未能購票的女粉",
-      "source": "香港01",
+      "title": "美伊州乙醇工廠發現炸彈 逾5,000人撤離 FBI展開調查",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523896/%E7%BE%8E%E4%BC%8A%E5%B7%9E%E4%B9%99%E9%86%87%E5%B7%A5%E5%BB%A0%E7%99%BC%E7%8F%BE%E7%82%B8%E5%BD%88-%E9%80%BE5000%E4%BA%BA%E6%92%A4%E9%9B%A2-fbi%E5%B1%95%E9%96%8B%E8%AA%BF%E6%9F%A5",
+      "publishedAt": "2026-11-15T02:07:25.000Z",
+      "excerpt": "【有線新聞】美國伊利諾伊州一間乙醇工廠發現炸彈，方圓近兩公里居民撤離近一天，沒人受傷。 工廠位於伊利諾伊州中部",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "瑞典網球公開賽 費利斯奪冠",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523902/%E7%91%9E%E5%85%B8%E7%B6%B2%E7%90%83%E5%85%AC%E9%96%8B%E8%B3%BD-%E8%B2%BB%E5%88%A9%E6%96%AF%E5%A5%AA%E5%86%A0",
+      "publishedAt": "2026-11-15T02:07:20.000Z",
+      "excerpt": "【有線新聞】瑞典網球公開賽，費利斯奪得冠軍。 啡衫的費利斯面對狄蘭迪，首盤3次破發機會把握2次，先贏6比2。8",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "SpaceX首次成功以機械臂回收星艦主體",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523899/spacex%E9%A6%96%E6%AC%A1%E6%88%90%E5%8A%9F%E4%BB%A5%E6%A9%9F%E6%A2%B0%E8%87%82%E5%9B%9E%E6%94%B6%E6%98%9F%E8%89%A6%E4%B8%BB%E9%AB%94",
+      "publishedAt": "2026-11-15T02:07:17.000Z",
+      "excerpt": "【有線新聞】SpaceX首次成功以機械臂回收星艦上級飛船主體。 花了22.5小時圍繞地球14圈，星艦主體在本港",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美國航空大癱瘓｜全國停飛近5小時 料周日晚復常 交通部長：承包商換光纖引起",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523892/%E7%BE%8E%E5%9C%8B%E8%88%AA%E7%A9%BA%E5%A4%A7%E7%99%B1%E7%98%93-%E5%85%A8%E5%9C%8B%E5%81%9C%E9%A3%9B%E8%BF%915%E5%B0%8F%E6%99%82-%E6%96%99%E5%91%A8%E6%97%A5%E6%99%9A%E5%BE%A9%E5%B8%B8",
+      "publishedAt": "2026-11-15T01:56:06.000Z",
+      "excerpt": "【有線新聞】美國周五航空交通因通訊系統不勝負荷引致故障，全國航班停飛近5小時，預計航班運作周日晚才回復正常。",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "港珠澳大橋半馬｜升格白金級賽 萬人參加創紀錄 天津跑手專程來港：見證祖國昌盛偉大",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523888/%E6%B8%AF%E7%8F%A0%E6%BE%B3%E5%A4%A7%E6%A9%8B%E5%8D%8A%E9%A6%AC-%E5%8D%87%E6%A0%BC%E7%99%BD%E9%87%91%E7%B4%9A%E8%B3%BD-%E8%90%AC%E4%BA%BA%E5%8F%83%E5%8A%A0%E5%89%B5%E7%B4%80%E9%8C%84",
+      "publishedAt": "2026-11-15T01:51:03.000Z",
+      "excerpt": "【有線新聞】港珠澳大橋半馬拉松在清晨開跑，今屆吸引約一萬跑手參加，不少人特意由外地來港參賽。 鳴槍一響，一眾半",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "APEC｜深圳新聞中心啟用 設機械人沖咖啡、免費中醫 體驗非遺麥金畫",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523884/apec-%E6%B7%B1%E5%9C%B3%E6%96%B0%E8%81%9E%E4%B8%AD%E5%BF%83%E5%95%9F%E7%94%A8-%E8%A8%AD%E6%A9%9F%E6%A2%B0%E4%BA%BA%E6%B2%96%E5%92%96%E5%95%A1-%E5%85%8D%E8%B2%BB%E4%B8%AD",
+      "publishedAt": "2026-11-15T01:42:54.000Z",
+      "excerpt": "【有線新聞】APEC領導人非正式會議周三在深圳舉行，新聞中心亦已經啟用接待中外各地記者，主辦方趁機展示深圳科技",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "香港機引入自動噴油機械人 節省三分二工時 機管局：提升精準度",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523881/%E9%A6%99%E6%B8%AF%E6%A9%9F%E5%BC%95%E5%85%A5%E8%87%AA%E5%8B%95%E5%99%B4%E6%B2%B9%E6%A9%9F%E6%A2%B0%E4%BA%BA-%E7%AF%80%E7%9C%81%E4%B8%89%E5%88%86%E4%BA%8C%E5%B7%A5%E6%99%82-%E6%A9%9F",
+      "publishedAt": "2026-11-15T01:41:24.000Z",
+      "excerpt": "【有線新聞】香港國際機場三條跑道每日平均處理約千班航班升降，近期引入「自動噴油機械人」重劃跑道上的標示，機管局",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "旺角凌晨兩的士相撞 五人受傷送院",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523878/%E6%97%BA%E8%A7%92%E5%87%8C%E6%99%A8%E5%85%A9%E7%9A%84%E5%A3%AB%E7%9B%B8%E6%92%9E-%E4%BA%94%E4%BA%BA%E5%8F%97%E5%82%B7%E9%80%81%E9%99%A2",
+      "publishedAt": "2026-11-15T01:36:34.000Z",
+      "excerpt": "【有線新聞】旺角凌晨有兩輛的士相撞，五人受傷。 涉事兩輛的士車頭毀爛，路邊一支交通燈損毀。凌晨一時許，兩輛的士",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "維港泳｜約4,000人參賽 港將冼展霆七度稱王 聶芷彥三度封后",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523875/%E7%B6%AD%E6%B8%AF%E6%B3%B3-%E7%B4%844000%E4%BA%BA%E5%8F%83%E8%B3%BD-%E6%B8%AF%E5%B0%87%E5%86%BC%E5%B1%95%E9%9C%86%E4%B8%83%E5%BA%A6%E7%A8%B1%E7%8E%8B-%E8%81%B6%E8%8A%B7",
+      "publishedAt": "2026-11-15T01:21:08.000Z",
+      "excerpt": "【有線新聞】維港泳早上舉行，約4,000人參賽，兩位香港代表冼展霆、聶芷彥分別奪得競賽組男、女子冠軍。 灣仔金",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24421,75 +24509,19 @@
       "category": "Hong Kong"
     },
     {
-      "title": "俄烏戰爭｜稱美方首提棄頓巴斯換入北約 澤連斯基：已表明拒絕",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523814/%E4%BF%84%E7%83%8F%E6%88%B0%E7%88%AD-%E7%A8%B1%E7%BE%8E%E6%96%B9%E9%A6%96%E6%8F%90%E6%A3%84%E9%A0%93%E5%B7%B4%E6%96%AF%E6%8F%9B%E5%85%A5%E5%8C%97%E7%B4%84-%E6%BE%A4%E9%80%A3%E6%96%AF",
-      "publishedAt": "2026-11-14T11:40:48.000Z",
-      "excerpt": "【有線新聞】烏克蘭總統澤連斯基透露，美國首次提出烏方可放棄頓巴斯領土，換取加入北約，但他已拒絕。 澤連斯基日前",
-      "source": "有線新聞",
+      "title": "本港第三季GDP增5.2% 丘應樺：AI相關產品轉運帶動",
+      "url": "https://news.now.com/home/local/player?newsId=669629",
+      "publishedAt": "2026-11-15T02:07:26.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "孫東稱政府正全速建國際創科中心 致力為青年人實現創科夢",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523795/%E5%AD%AB%E6%9D%B1%E7%A8%B1%E6%94%BF%E5%BA%9C%E6%AD%A3%E5%85%A8%E9%80%9F%E5%BB%BA%E5%9C%8B%E9%9A%9B%E5%89%B5%E7%A7%91%E4%B8%AD%E5%BF%83-%E8%87%B4%E5%8A%9B%E7%82%BA%E9%9D%92%E5%B9%B4%E4%BA%BA",
-      "publishedAt": "2026-11-14T11:29:27.000Z",
-      "excerpt": "【有線新聞】創新科技及工業局局長孫東出席青年科技人才助學培育計畫，頒獎禮上表示，香港正全速建設國際創新科技中心",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "新皇崗口岸｜有直通巴疑受天雨影響跣軚撞牆 當局擬下周加設防滑物料",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523805/%E6%96%B0%E7%9A%87%E5%B4%97%E5%8F%A3%E5%B2%B8-%E6%9C%89%E7%9B%B4%E9%80%9A%E5%B7%B4%E7%96%91%E5%8F%97%E5%A4%A9%E9%9B%A8%E5%BD%B1%E9%9F%BF%E8%B7%A3%E8%BB%9A%E6%92%9E%E7%89%86-%E7%95%B6",
-      "publishedAt": "2026-11-14T10:34:14.000Z",
-      "excerpt": "【有線新聞】連日下雨，新皇崗口岸聯檢大樓公共交通交匯處疑因路面濕滑，有旅遊巴行駛時出現滑行，更有旅巴碰撞牆壁損",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "迪士尼樂園系統疑遭入侵 1.7萬門票二維碼被盜 園方：已封鎖相關門票",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523807/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%E7%B3%BB%E7%B5%B1%E7%96%91%E9%81%AD%E5%85%A5%E4%BE%B5-1-7%E8%90%AC%E9%96%80%E7%A5%A8%E4%BA%8C%E7%B6%AD%E7%A2%BC%E8%A2%AB%E7%9B%9C",
-      "publishedAt": "2026-11-14T10:32:26.000Z",
-      "excerpt": "【有線新聞】香港迪士尼樂園網上票務系統失竊1.7萬個二維碼，警方暫列有犯罪或不誠實意圖取用電腦案件調查。 據了",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "器官捐贈日｜盧寵茂：逾42.5萬人登記創新高 鼓勵病人勿放棄 籲市民登記捐贈",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523799/%E5%99%A8%E5%AE%98%E6%8D%90%E8%B4%88%E6%97%A5-%E7%9B%A7%E5%AF%B5%E8%8C%82-%E9%80%BE42-5%E8%90%AC%E4%BA%BA%E7%99%BB%E8%A8%98%E5%89%B5%E6%96%B0%E9%AB%98-%E9%BC%93%E5%8B%B5",
-      "publishedAt": "2026-11-14T09:36:52.000Z",
-      "excerpt": "【有線新聞】今天是器官捐贈日，醫務衞生局局長盧寵茂呼籲社會各界加入中央器官捐贈登記名冊。 醫衞局局長盧寵茂、醫",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "牛頭角過路婦捱客貨車撞 頭部受傷送院",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523758/%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%8E%E8%B7%AF%E5%A9%A6%E6%8D%B1%E5%AE%A2%E8%B2%A8%E8%BB%8A%E6%92%9E-%E9%A0%AD%E9%83%A8%E5%8F%97%E5%82%B7%E9%80%81%E9%99%A2",
-      "publishedAt": "2026-11-14T09:32:24.000Z",
-      "excerpt": "【有線新聞】牛頭角有客貨車撞倒途人。 82歲婆婆頭部受傷，由救護車送去伊利沙伯醫院，客貨車右邊車頭凹陷，警員在",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "三隧分流｜陳恒鑌：三隧容量已飽和 倡建第四條過海隧道 小巴業反對加價憂客量減",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523787/%E4%B8%89%E9%9A%A7%E5%88%86%E6%B5%81%E9%99%B3%E6%81%92%E9%91%8C%E4%B8%89%E9%9A%A7%E5%AE%B9%E9%87%8F%E5%B7%B2%E9%A3%BD%E5%92%8C-%E5%80%A1%E5%BB%BA%E7%AC%AC%E5%9B%9B%E6%A2%9D",
-      "publishedAt": "2026-11-14T09:31:54.000Z",
-      "excerpt": "【有線新聞】政府檢視三隧分流成效，不排除未來可能調整隧道費。有議員認為三隧容量已飽和，可能要興建第四條過海隧道",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "單車港將夥學生鬥車 梁穎儀、朱浚瑋均有上陣 李思穎：目標夠分到洛杉磯奧運",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523791/%E5%96%AE%E8%BB%8A%E6%B8%AF%E5%B0%87%E5%A4%A5%E5%AD%B8%E7%94%9F%E9%AC%A5%E8%BB%8A-%E6%A2%81%E7%A9%8E%E5%84%80-%E6%9C%B1%E6%B5%9A%E7%91%8B%E5%9D%87%E6%9C%89%E4%B8%8A%E9%99%A3",
-      "publishedAt": "2026-11-14T09:23:45.000Z",
-      "excerpt": "【有線新聞】場地單車女子中長距離「世一」李思穎聯同一班港隊隊友，跟學生組隊鬥車。 李思穎在內一班港隊車手，分別",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "全美航班一度停飛 機管局指截至今午12時 17班航班延誤或取消 料今明航班仍受影響",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/523769/%E5%85%A8%E7%BE%8E%E8%88%AA%E7%8F%AD%E4%B8%80%E5%BA%A6%E5%81%9C%E9%A3%9B-%E6%A9%9F%E7%AE%A1%E5%B1%80%E6%8C%87%E6%88%AA%E8%87%B3%E4%BB%8A%E5%8D%8812%E6%99%82-17%E7%8F%AD%E8%88%AA",
-      "publishedAt": "2026-11-14T08:18:14.000Z",
-      "excerpt": "【有線新聞】香港機管局指，截至中午12時，有17班航班受影響。 機場離港大堂顯示屏顯示有前往洛杉磯的航班取消。",
-      "source": "有線新聞",
+      "title": "維港泳吸引約4000人參加 冼展霆及聶芷彥分別衛冕男女子組冠軍(李馨萍報道)",
+      "url": "https://news.now.com/home/local/player?newsId=669628",
+      "publishedAt": "2026-11-15T02:07:25.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
@@ -24637,19 +24669,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "美國一度實施地面停飛 香港部分來往美國航班受影響",
-      "url": "https://news.now.com/home/local/player?newsId=669590",
-      "publishedAt": "2026-11-14T09:05:25.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "招聘啟事｜Now新聞台誠聘以下職位",
-      "url": "https://news.now.com/home/local/player?newsId=446579",
-      "publishedAt": "2026-11-14T07:40:00.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
+      "title": "How a housing safety disaster was averted, four decades before the Tai Po fire tragedy",
+      "url": "https://hongkongfp.com/2026/11/15/how-a-housing-safety-disaster-was-averted-four-decades-before-the-tai-po-fire-tragedy/",
+      "publishedAt": "2026-11-15T02:00:00.000Z",
+      "excerpt": "According to the Wang Fuk Court fire inquiry, residents of the doomed estate made no fewer than 180 efforts to ward off the danger presented by careless building work. They sent complaints or inquiries to at least five government departments. This was not a success. We must note in particular the La",
+      "source": "Hong Kong Free Press",
       "category": "Hong Kong"
     },
     {
@@ -24805,11 +24829,19 @@
       "category": "Hong Kong"
     },
     {
-      "title": "Nearly 30 Japanese porn stars ‘denied Hong Kong entry,’ expo cancelled",
-      "url": "https://hongkongfp.com/2026/11/12/nearly-30-japanese-porn-stars-denied-hong-kong-entry-expo-cancelled/",
-      "publishedAt": "2026-11-12T01:07:56.000Z",
-      "excerpt": "Nearly 30 Japanese porn stars have reportedly been denied entry to Hong Kong, prompting the cancellation of a large-scale, three-day adult entertainment expo. Update: Immigration says 27 Japanese porn stars were not denied entry, as social media posts deleted The Mega Fans Expo 2026, originally set ",
-      "source": "Hong Kong Free Press",
+      "title": "丘應樺料AI發展或放緩 香港需發掘新機遇不能「等運到」",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877864-20261115.htm",
+      "publishedAt": "2026-11-15T01:47:13.000Z",
+      "excerpt": "本港9月出口按年升64.9%，創超過40年以來最快單月增速，9月份進口按年亦升57.8%。商務及經濟發展局局長丘應樺形容數字亮麗，他說主要是受人工智能的電子產品貿易帶動影響。 丘應樺出席一個電台節目表示，轉口貿易對香港很重要，形容是壓艙點，因此在國家「十五五」規劃都要求香港鞏固及提升國際貿易中心及國際航空樞紐地位。 他提到本港受全球格局影響，可見到不同國家對AI發展有不同意見，未來AI發展或會放緩，強調香港不能「等運到」，需要自強不息，不斷發掘新機遇。 編輯：汪溟曦",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "維港泳冼展霆及聶芷彥成功衛冕 有深圳旅客參賽感到榮幸",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877860-20261115.htm",
+      "publishedAt": "2026-11-15T01:25:24.000Z",
+      "excerpt": "維港泳2026早上舉行，競賽組早上7時半率先開賽，冼展霆和聶芷彥分別衛冕男子組和女子組冠軍。冼展霆是第七次奪得冠軍，今年以15分35秒完成。他表示，導航浮波放置位置理想，水溫舒適。他自評今年表現合格，因賽前作病，未能以最佳狀態比賽。聶芷彥就以16分55秒奪冠，她形容個人狀態理想，對手實力增強，而現場指示較去年清晰。 有14歲泳手首次參與維港泳，出戰競賽組，強調今次是學習，並非為爭取名次，因此沒有壓力，又說與平時在泳池練習有分別。 有60歲深圳旅客參與優悠組賽事，她形容維港泳賽事特別，能參加屬榮幸，內地很多不同類型戶外比賽都不設水試。亦有參加者表示，去年維港水流較急，今年就游得較輕鬆。 編輯：汪",
+      "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
     {
@@ -24957,19 +24989,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "盧寵茂呼籲市民支持器官捐贈",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877817-20261114.htm",
-      "publishedAt": "2026-11-14T08:07:59.000Z",
-      "excerpt": "醫務衞生局局長盧寵茂表示，中央器官捐贈名冊至去年已有42萬5千多人登記，創歷史新高。不過，相比本港約750萬人口，只佔不足6%，仍有相當大進步空間，而目前正等候器官捐贈的病人有2千多人，所以需求仍大。 盧寵茂下午在香港兒童醫院，出席由醫務衞生局、衞生署及香港電台合辦的「器官捐贈日2026」推廣活動開幕儀式。 他致辭時表示，去年有37名遺贈者，在離世後將器官捐贈幫助其他人，而每一名遺贈者可以幫助6至7名病人重生。去年就有58個腎移植、29個肝移植、12個心臟移植及6個肺移植，合共有近百名病人受惠，影響到很多病人和家庭的幸福。 他希望，全港仍未透過政府的中央器官捐贈登記名冊進行登記的市民，可以一齊",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​運輸署呼籲市民提防偽冒汽車安全氣袋召回信息",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1877815-20261114.htm",
-      "publishedAt": "2026-11-14T07:45:40.000Z",
-      "excerpt": "運輸署呼籲市民提高警覺，提防偽冒運輸署的汽車安全氣袋召回信息，切勿誤信非官方途徑訛稱為政府的信息或提供任何個人資料。事件將轉交警方跟進。 發言人澄清，署方與未經授權使用部門名稱的偽冒信件或信息沒有任何關係。署方目前僅於網頁列出由註冊車輛製造商，授權香港代理提供的汽車安全召回資訊。運輸署不會發信通知個別車主安全召回車輛。市民應認清資訊，避免誤墮詐騙陷阱。如有查詢，應直接與有關的授權代理或經銷商聯絡。 市民如接獲不明來歷的信息，切勿登入可疑網站及提供個人資料。如曾就偽冒信息提供個人資料，應與警方聯絡。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
+      "title": "Hong Kong sending who’s who delegation of business leaders to Apec CEO Summit",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374452/hong-kong-sending-whos-who-delegation-business-leaders-apec-ceo-summit",
+      "publishedAt": "2026-11-15T02:00:18.000Z",
+      "excerpt": "Hong Kong will send one of its largest-ever delegations to the Apec CEO Summit in Shenzhen on Tuesday and Wednesday, with at least 54 business leaders set to attend, the South China Morning Post has learned. According to a delegation list obtained by the SCMP, the group includes senior executives of",
+      "source": "South China Morning Post",
       "category": "Hong Kong"
     },
     {
@@ -25125,11 +25149,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "Privacy watchdog called after estate proposal to use facial recognition for entry",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3374354/privacy-watchdog-called-after-estate-proposal-use-facial-recognition-entry",
-      "publishedAt": "2026-11-13T09:39:03.000Z",
-      "excerpt": "Hong Kong’s privacy watchdog has launched a compliance check on the use of a proposed facial recognition system at a private housing estate with 8,000 households, after the measure raised privacy concerns among some residents. The Office of the Privacy Commissioner for Personal Data conducted its ch",
-      "source": "South China Morning Post",
+      "title": "​珊瑚保育 海洋存珍",
+      "url": "https://www.info.gov.hk/gia/general/202611/15/P2026111300684.htm",
+      "publishedAt": "2026-11-15T02:00:00.000Z",
+      "excerpt": "海洋公園獲環境及自然保育基金資助，今年年初推出珊瑚展覽，並翻新後勤設施，成立珊瑚生態及保育探索中心，成為珊瑚修復和公眾教育的重要場所。展覽開幕至今逾100萬人次參觀。 &nbsp; 《政府新聞網》訪問環境及自然保育基金代表，了解資助的範疇和例子，海洋公園代表則介紹珊瑚展覽的特色，也有參與工作坊的小學生分享所學。 &nbsp; 有關報道今日（十一月十五日）以文字和短片方式上載至 www.news.gov.hk/chi/feature 。",
+      "source": "香港政府新聞公報",
       "category": "Hong Kong"
     },
     {
@@ -25281,14 +25305,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300607.htm",
       "publishedAt": "2026-11-13T10:30:00.000Z",
       "excerpt": "衞生署衞生防護中心（中心）今日（十一月十三日）表示，正調查一宗猴痘輸入個案，並強烈建議高風險目標群組人士接種猴痘疫苗。市民亦應提高警覺，避免與懷疑感染猴痘的人士作密切身體接觸。 &nbsp; 個案資料 &mdash;&mdash;&mdash;&mdash; 個案涉及一名34歲男子，他於十一月九日起出現發燒、疲倦和手臂出現皮疹，其後皮疹蔓延至身體多處地方（包括生殖器官、腹部及胸部）。他於十一月十一日到伊利沙伯醫院急症室求診，獲安排留院接受隔離治療，目前情況穩定。他的臨床樣本經中心公共衞生化驗服務處化驗後，證實對猴痘病毒呈陽性反應。 &nbsp; 根據病人提供的資料，他於潛伏期內曾於離港期間與其",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "米埔自然護理區有環境樣本驗出H5禽流感病毒",
-      "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300581.htm",
-      "publishedAt": "2026-11-13T10:25:00.000Z",
-      "excerpt": "漁農自然護理署（漁護署）昨日（十一月十二日）接獲香港大學通知，兩個從米埔自然護理區收集的環境樣本驗出H5高致病性禽流感病毒。 香港大學公共衞生學院研究團隊定期進入護理區收集樣本，並與漁護署合作監測禽流感。研究團隊十一月十一日收集的其中兩個環境樣本確認驗出帶有H5病毒。 漁護署發言人表示，負責協助政府管理護理區的世界自然基金會香港分會已加強清潔及消毒觀鳥屋及浮橋等遊客設施。護理區入口亦設有消毒藥水地墊，供到訪人士消毒鞋底。此外，漁護署正密切監察護理區內雀鳥的情況，並在區内張貼告示提醒公眾注意個人衞生。 收集該樣本的地點三公里範圍內沒有雞場。漁護署已加強禽流感的監控工作，密切留意本地活家禽農場及批",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

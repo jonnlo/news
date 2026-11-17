@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-18",
-  "generatedAt": "2026-11-17T20:17:13.110Z",
-  "collectedAt": "2026-11-17T20:17:13.110Z",
+  "generatedAt": "2026-11-17T21:17:12.896Z",
+  "collectedAt": "2026-11-17T21:17:12.896Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -196,6 +201,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50532385"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
     },
     {
@@ -204,6 +210,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+          "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+          "publishedAt": "2026-11-17T21:00:55.000Z",
+          "excerpt": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Instagram is helping creators crack down on copycat videos",
+          "url": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+          "publishedAt": "2026-11-17T20:46:31.000Z",
+          "excerpt": "Instagram is beginning to roll out a \"content protection\" feature that lets creators see and review copies of their videos posted to the platform. \"For eligible creators who enroll, content protection is a tool that automatically looks out for visual matches of your original videos, alerts you when ",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Democrats try to figure out how not to get swept away by the blue wave",
+          "url": "https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
+          "publishedAt": "2026-11-17T20:30:00.000Z",
+          "excerpt": "On a harried Saturday afternoon at Denver International Airport, I had the good fortune of sitting just a few feet from Minneapolis Mayor Jacob Frey. It shouldn't have come as a surprise. He, I, and 3,500 or so others had just left \"What's Next,\" a conference organized by Majority Democrats, a group",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Framework’s better couch keyboard is now available for preorder",
           "url": "https://www.theverge.com/tech/1035805/framework-wireless-touchpad-keyboard-preorder-open",
@@ -216,7 +246,7 @@
           "title": "California just banned Waymo from all state freeways",
           "url": "https://www.theverge.com/transportation/1035789/california-dmv-bans-waymo-freeways-construction-zone-safety",
           "publishedAt": "2026-11-17T19:38:05.000Z",
-          "excerpt": "California has pulled the plug on Waymo's driverless freeway rides across the entire state, citing potential safety hazards. In a statement, the California Department of Motor Vehicles said that the ban went into effect on November 11th. The crackdown follows two recent high-profile Bay Area inciden",
+          "excerpt": "California has pulled the plug on Waymo's driverless freeway rides across the entire state, citing potential safety hazards. In a statement, the California Department of Motor Vehicles said that the ban went into effect on November 11th after two recent high-profile Bay Area incidents, in which Waym",
           "source": "The Verge",
           "category": "Technology"
         },
@@ -339,33 +369,9 @@
           "excerpt": "Trmnl, a company best known for its highly customizable E Ink dashboards that can function as anything from a desktop calendar to a stock tracker, has introduced a new display that's also well suited for showing artwork and photos. It's not the company's first color E Ink device, but instead of bein",
           "source": "The Verge",
           "category": "Technology"
-        },
-        {
-          "title": "Get ready for a nationwide emergency alert test at 2:20PM ET today",
-          "url": "https://www.theverge.com/tech/1035257/fema-fcc-emergency-alert-system-test-2026",
-          "publishedAt": "2026-11-17T14:28:24.000Z",
-          "excerpt": "Radio and TV broadcasts will be interrupted for about one minute at 2:20PM ET today while FEMA and the FCC test the country's Emergency Alert System. Unlike recent communications outages, this is a planned interruption that FEMA is required to run every three years. FEMA says today's test includes r",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "The Fire TV Stick 4K Plus is on sale for less than Amazon’s entry-level streamer",
-          "url": "https://www.theverge.com/gadgets/1034612/amazon-fire-tv-stick-4k-plus-black-friday-2026-deal-sale",
-          "publishedAt": "2026-11-17T14:25:07.000Z",
-          "excerpt": "Amazon no longer considers the midrange Fire TV Stick 4K Plus as part of its official lineup following the launch of it latest Fire TV Stick 4K, but that doesn’t mean the streaming device isn’t still good value. In fact, it’s an even more attractive option now that it’s dropped to $29.99 ($40 off) a",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "Windows 11 actually runs better on 8GB of RAM now",
-          "url": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
-          "publishedAt": "2026-11-17T14:00:00.000Z",
-          "excerpt": "As recently as the beginning of the year, 16GB of RAM was common on sub-$800 Windows laptops, which helped compensate for an increasingly bloated-feeling Windows 11. But with the cost of RAM skyrocketing this year, 8GB is once again typical for a starting configuration. The MacBook Neo got away with",
-          "source": "The Verge",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +540,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Ars Technica",
@@ -542,6 +548,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+          "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+          "publishedAt": "2026-11-17T20:32:55.000Z",
+          "excerpt": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+          "source": "Ars Technica",
+          "category": "Technology"
+        },
         {
           "title": "Civilization studio Firaxis Games lays off a third of staff",
           "url": "https://arstechnica.com/gaming/2026/11/civilization-studio-firaxis-games-lays-off-a-third-of-staff/",
@@ -693,17 +707,9 @@
           "excerpt": "International authorities will announce US lost its elimination status Tuesday.",
           "source": "Ars Technica",
           "category": "Technology"
-        },
-        {
-          "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-          "publishedAt": "2026-11-16T14:06:16.000Z",
-          "excerpt": "Huang is weighing a return just days after resigning amid a deepening scandal.",
-          "source": "Ars Technica",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +878,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1047,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Next Web",
@@ -1049,6 +1055,15 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "How to make a great video with an AI agent",
+          "url": "https://thenextweb.com/news/how-to-make-great-video-ai-agent",
+          "publishedAt": "2026-11-17T20:36:12.000Z",
+          "excerpt": "Today, anyone can describe a video in a sentence and get a finished one back from an AI video agent. Getting a good one still comes down to two things: knowing how to ask for it, and having a creative idea worth asking for. If you run a small business or a small team, AI [&hellip;] This story contin",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Promise Robotics raises C$40M for robot factories that build homes",
           "url": "https://thenextweb.com/news/promise-robotics-40m-cad-series-b-robot-homebuilding",
@@ -1129,18 +1144,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "AI models flagged civilians as military targets in tests, Bloomberg reports",
-          "url": "https://thenextweb.com/news/ai-models-flagged-civilians-as-military-targets-in-tests-bloomberg-reports",
-          "publishedAt": "2026-11-17T16:10:29.000Z",
-          "excerpt": "AI models from eight companies often marked civilians, ambulances, surrendering soldiers and a school in Iran as military targets in simulated tests, Bloomberg reported. The findings come from a report by Vals, a San Francisco AI evaluator whose customers include parts of the US government. Anthropi",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Slashdot",
@@ -1148,6 +1154,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Nvidia Stopped Disclosing Singapore Sales As Revenues Hit $104 Billion",
+          "url": "https://news.slashdot.org/story/26/11/17/1942228/nvidia-stopped-disclosing-singapore-sales-as-revenues-hit-104-billion?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-17T21:00:00.000Z",
+          "excerpt": "Nvidia stopped separately disclosing its Singapore sales (source paywalled; alternative source) after changing its geographic revenue reporting methodology from customer billing addresses to headquarters locations, obscuring a business that generated $104 billion in external revenue in 2025, up 72% ",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Highly Classified NSA Network Goes Down",
           "url": "https://news.slashdot.org/story/26/11/17/1954223/highly-classified-nsa-network-goes-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1273,18 +1288,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "SpaceX Catches Starship On the First Try",
-          "url": "https://science.slashdot.org/story/26/11/16/1721247/spacex-catches-starship-on-the-first-try?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-16T18:00:00.000Z",
-          "excerpt": "Over the weekend, SpaceX successfully caught a Starship upper stage returning from orbit for the first time, demonstrating a key piece of its plan for a fully and rapidly reusable launch system. The achievement means SpaceX has now demonstrated tower catches of both Starship stages, though not yet o",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1298,50 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Sources: the US SEC is investigating Nvidia, including whether the company's disclosures misled investors (Wall Street Journal)",
+          "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?st=JDfemd&reflink=article_copyURL_share",
+          "publishedAt": "2026-11-17T21:05:01.000Z",
+          "excerpt": "Wall Street Journal : Sources: the US SEC is investigating Nvidia, including whether the company's disclosures misled investors &nbsp; &mdash;&nbsp; Regulator's civil probe looks at whether company violated investor disclosure laws&nbsp; &mdash;&nbsp; The Securities and Exchange Commission is invest",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261117/p54#a261117p54",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Sources: AppLovin is among companies in talks to acquire ad tech company Criteo, which has a ~$1B market cap after its stock fell 50%+ over the past five years (Milana Vinn/Reuters)",
+          "url": "https://www.reuters.com/legal/transactional/applovin-among-firms-talks-acquire-criteo-sources-say-2026-11-17/",
+          "publishedAt": "2026-11-17T20:45:03.000Z",
+          "excerpt": "Milana Vinn / Reuters : Sources: AppLovin is among companies in talks to acquire ad tech company Criteo, which has a ~$1B market cap after its stock fell 50%+ over the past five years &nbsp; &mdash;&nbsp; US advertising technology firm AppLovin (APP.O) is among the companies in talks to acquire smal",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261117/p53#a261117p53",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Kalshi says the CFTC has ordered it to halt trading on \"mention markets\" tied to what President Trump will say during public events (Bobby Allyn/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/cftc-orders-kalshi-to-take-down-markets-on-trump-s-speeches",
+          "publishedAt": "2026-11-17T20:40:01.000Z",
+          "excerpt": "Bobby Allyn / Bloomberg : Kalshi says the CFTC has ordered it to halt trading on &ldquo;mention markets&rdquo; tied to what President Trump will say during public events &nbsp; &mdash;&nbsp; Federal regulators ordered Kalshi Inc. to halt trading on markets tied to what President Donald Trump will sa",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261117/p52#a261117p52",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Sources: Ramp is in early talks to raise $1B or more led by Coatue and Thrive at a valuation of $70B+, in its third funding round in a year (Kate Clark/Wall Street Journal)",
+          "url": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a",
+          "publishedAt": "2026-11-17T20:35:00.000Z",
+          "excerpt": "Kate Clark / Wall Street Journal : Sources: Ramp is in early talks to raise $1B or more led by Coatue and Thrive at a valuation of $70B+, in its third funding round in a year &nbsp; &mdash;&nbsp; The financing round is the fast-growing company's third fundraise in a year&nbsp; &mdash;&nbsp; Corporat",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261117/p51#a261117p51",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "California bans Waymo robotaxis from freeways after a viral video showed one failing to yield to the highway patrol; Waymo halts freeway service nationwide (Jeremy C. Owens/San Francisco ...)",
           "url": "https://www.bizjournals.com/sanfrancisco/news/2026/11/17/waymo-california-freeway-ban-dmv-chp.html?page=all",
@@ -1315,10 +1365,10 @@
           "discoveryChannel": "curator:Techmeme"
         },
         {
-          "title": "Apple's System Status page shows an outage affecting iCloud sign-in for \"all users\", the App Store, and Apple Music; some users report failed iPhone activations (Sarah Perez/TechCrunch)",
+          "title": "Apple's System Status page shows an outage affecting the App Store, Apple Music, and iCloud sign-in; Apple says an internal update caused \"some outages\" (Sarah Perez/TechCrunch)",
           "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
           "publishedAt": "2026-11-17T19:25:01.000Z",
-          "excerpt": "Sarah Perez / TechCrunch : Apple's System Status page shows an outage affecting iCloud sign-in for &ldquo;all users&rdquo;, the App Store, and Apple Music; some users report failed iPhone activations &nbsp; &mdash;&nbsp; After a recent slew of tech outages, service disruptions, and flight chaos this",
+          "excerpt": "Sarah Perez / TechCrunch : Apple's System Status page shows an outage affecting the App Store, Apple Music, and iCloud sign-in; Apple says an internal update caused &ldquo;some outages&rdquo; &nbsp; &mdash;&nbsp; After a recent slew of tech outages, service disruptions, and flight chaos this week, n",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261117/p48#a261117p48",
@@ -1412,53 +1462,9 @@
           "sourceUrl": "https://www.techmeme.com/261117/p40#a261117p40",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets (Katrina Manson/Bloomberg)",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-17/top-ai-models-regularly-identify-civilians-as-military-targets-in-tests",
-          "publishedAt": "2026-11-17T17:10:00.000Z",
-          "excerpt": "Katrina Manson / Bloomberg : Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets &nbsp; &mdash;&nbsp; Advanced artificial intelligence models in simulated scenarios regularly misidentified civili",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261117/p39#a261117p39",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Source: Nvidia's board is not considering reinstating Huang, after he released a statement saying he \"made serious mistakes\" and fell below \"the standards\" (CNN)",
-          "url": "http://www.cnn.com/2026/11/17/business/jensen-huang-nvidia-ceo-statement",
-          "publishedAt": "2026-11-17T17:00:54.000Z",
-          "excerpt": "CNN : Source: Nvidia's board is not considering reinstating Huang, after he released a statement saying he &ldquo;made serious mistakes&rdquo; and fell below &ldquo;the standards&rdquo; &nbsp; &mdash;&nbsp; Former Nvidia CEO Jensen Huang broke his silence Tuesday, issuing a statement saying he would",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261117/p38#a261117p38",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Sources: Jensen Huang's daughter Madison, a marketing director, helped steer Nvidia's response to Megaspeed scrutiny and temporarily sidelined a top comms exec (Financial Times)",
-          "url": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27",
-          "publishedAt": "2026-11-17T16:30:01.000Z",
-          "excerpt": "Financial Times : Sources: Jensen Huang's daughter Madison, a marketing director, helped steer Nvidia's response to Megaspeed scrutiny and temporarily sidelined a top comms exec &nbsp; &mdash;&nbsp; Daughter and son-in-law come under scrutiny as board launches probe over company's links to Megaspeed",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261117/p37#a261117p37",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Uber and Zipline launch autonomous drone deliveries, starting with Uber Eats customers in Spring, Texas, with plans for 1M deliveries per day by the end of 2029 (Kirsten Korosec/TechCrunch)",
-          "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
-          "publishedAt": "2026-11-17T16:20:01.000Z",
-          "excerpt": "Kirsten Korosec / TechCrunch : Uber and Zipline launch autonomous drone deliveries, starting with Uber Eats customers in Spring, Texas, with plans for 1M deliveries per day by the end of 2029 &nbsp; &mdash;&nbsp; Uber Eats customers in a Houston suburb can now have their food delivered by a Zipline ",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261117/p36#a261117p36",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1472,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "There's a chance your Xbox Series X is plugged into the wrong HDMI port",
+          "url": "https://www.engadget.com/2315403/chance-xbox-series-x-plugged-into-wrong-hdmi-port/",
+          "publishedAt": "2026-11-17T21:00:00.000Z",
+          "excerpt": "Make sure you're getting the most out of your Xbox Series X, starting with a port check.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Google Wallet is launching on iOS",
           "url": "https://www.engadget.com/2319673/google-wallet-is-launching-on-ios/",
@@ -1636,18 +1651,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Xiaomi's 18 Pro series can generate vibe-coded apps for its tiny rear display",
-          "url": "https://www.engadget.com/2319013/xiaomi-18-pro-vibe-coded-apps-launch-hands-on/",
-          "publishedAt": "2026-11-17T14:35:50.000Z",
-          "excerpt": "Xiaomi is back with more Pro phones, featuring second screens, capable cameras and a slick red color.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1661,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How to watch Argentina vs Costa Rica for *FREE* — live stream international friendly online from anywhere",
+          "url": "https://www.techradar.com/entertainment/football/how-to-watch-argentina-vs-costa-rica-for-free-live-stream-international-friendly-online-from-anywhere",
+          "publishedAt": "2026-11-17T21:00:00.000Z",
+          "excerpt": "Here's how you can watch Argentina vs Costa Rica for free from anywhere in the world as they face off in an international friendly.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Calls to return Jensen Huang as Nvidia CEO range from misguided to self-serving, and they have to stop",
+          "url": "https://www.techradar.com/ai-platforms-assistants/please-stop-with-the-myth-of-the-indispensable-tech-ceo-and-let-jensen-huang-go",
+          "publishedAt": "2026-11-17T20:44:11.000Z",
+          "excerpt": "Calls to return Jensen Huang as Nvidia CEO range from misguided to self-serving, and they have to stop. No tech CEO is irreplaceable.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The surprisingly compact Bambu Labs A1 mini drops to $199 in the Black Friday sale",
+          "url": "https://www.techradar.com/pro/the-surprisingly-compact-bambu-labs-a1-mini-drops-to-usd199-in-the-black-friday-sale",
+          "publishedAt": "2026-11-17T20:30:00.000Z",
+          "excerpt": "The surprisingly compact Bambu Labs A1 mini drops to $199 in the Black Friday sale.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "OpenAI just unveiled GPT-6.2 Astra and Sol",
           "url": "https://www.techradar.com/tech/openai-just-launched-gpt-6-2-and-its-powerful-enough-to-recreate-the-whole-of-paris-as-a-virtual-world-you-can-explore-in-your-browser",
@@ -1728,19 +1761,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Hungary vs Northern Ireland: Free Streams & TV Channels",
-          "url": "https://www.techradar.com/entertainment/football/watch-hungary-vs-northern-ireland-free",
+          "title": "007 First Light composers speak on what it’s like to adapt huge IPs for games like Alien: Isolation and IOI’s Bond — ‘We approach every project in our own way, whether it is a well-known property or not’",
+          "url": "https://www.techradar.com/gaming/007-first-light-composers-speak-on-what-its-like-to-adapt-huge-ips-for-games-like-alien-isolation-and-iois-bond-we-approach-every-project-in-our-own-way-whether-it-is-a-well-known-property-or-not",
           "publishedAt": "2026-11-17T17:00:00.000Z",
-          "excerpt": "How you can watch Hungary vs Northern Ireland for free from anywhere in the world with TV channels, kick-off times and a preview for this Nations League B fixture.",
+          "excerpt": "The Flight is now working on Alien: Isolation 2",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "007 First Light composers speak on what it’s like to adapt huge IPs for games like Alien: Isolation and IOI’s Bond — ‘We approach every project in our own way, whether it is a well-known property or not’",
-          "url": "https://www.techradar.com/gaming/007-first-light-composers-speak-on-what-its-like-to-adapt-huge-ips-for-games-like-alien-isolation-and-iois-bond-we-approach-every-project-in-our-own-way-whether-it-is-a-well-known-property-or-not",
+          "title": "How to watch Hungary vs Northern Ireland: Free Streams & TV Channels",
+          "url": "https://www.techradar.com/entertainment/football/watch-hungary-vs-northern-ireland-free",
           "publishedAt": "2026-11-17T17:00:00.000Z",
-          "excerpt": "The Flight is now working on Alien: Isolation 2",
+          "excerpt": "How you can watch Hungary vs Northern Ireland for free from anywhere in the world with TV channels, kick-off times and a preview for this Nations League B fixture.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1807,36 +1840,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Infoblox confirms company and customer data exposed in SharePoint breach",
-          "url": "https://www.techradar.com/pro/security/infoblox-confirms-company-and-customer-data-exposed-in-sharepoint-breach",
-          "publishedAt": "2026-11-17T16:20:00.000Z",
-          "excerpt": "Infoblox says its investigation is ongoing, but it suspects a third-party supply chain attack.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Nvidia reveals new national security and export committee after CEO's exit",
-          "url": "https://www.techradar.com/computing/gpu/nvidia-goes-into-full-damage-limitation-mode-announcing-new-national-security-and-export-committee-which-would-have-been-a-great-idea-a-few-years-ago",
-          "publishedAt": "2026-11-17T16:19:11.000Z",
-          "excerpt": "Nvidia reveals new 'national security and export' committee advised by independent experts, leaving people wondering why this wasn't done before.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "NordPass Business and NordLayer cut costs by an extra 20% for Black Friday",
-          "url": "https://www.techradar.com/pro/nordsecurity-b2b-suite-black-friday-deal-cut-your-companys-security-costs-with-20-percent-off-nordpass-business-and-nordlayer",
-          "publishedAt": "2026-11-17T16:00:00.000Z",
-          "excerpt": "NordPass Business and NordLayer Black Friday sale gives companies 20% off, with bigger savings available when purchasing more licenses.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "9to5Mac",
@@ -1844,6 +1850,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "iOS 27.3’s redesigned Apple Health app requires newer iPhone model",
+          "url": "https://9to5mac.com/2026/11/17/ios-27-3s-redesigned-apple-health-app-requires-newer-iphone-model/",
+          "publishedAt": "2026-11-17T20:19:51.000Z",
+          "excerpt": "iOS 27.3 will introduce an all-new Apple Health experience when it ships next month, but you’ll need an AI-compatible iPhone to get it. Here’s why. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "AirPods Pro 3 keep getting better, here’s what’s new in iOS 27",
           "url": "https://9to5mac.com/2026/11/17/airpods-pro-3-keep-getting-better-heres-whats-new-ios-27/",
@@ -2014,18 +2029,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple Podcasts 2026 Show of the Year is ‘Baby, this is Keke Palmer’",
-          "url": "https://9to5mac.com/2026/11/17/apple-podcasts-2026-show-of-the-year-is-baby-this-is-keke-palmer/",
-          "publishedAt": "2026-11-17T12:15:20.000Z",
-          "excerpt": "Each year, Apple Podcasts names its Show of the Year, and the 2026 winner is Baby, this is Keke Palmer . Apple said the podcast consistently ranked as one of the most popular shows, and praised it for its “exceptional quality and cultural impact” … more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2193,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2382,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2526,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Creative Bloq",
@@ -2709,7 +2715,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2924,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3093,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3262,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3351,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3520,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3689,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Them",
@@ -3692,10 +3698,37 @@
       "count": 20,
       "stories": [
         {
+          "title": "7 Possible Trans Bond Girls Who’d Leave Us Shaken and Stirred",
+          "url": "https://www.them.us/entertainment/tv-and-movies/trans-bond-girls-actresses-list",
+          "publishedAt": "2026-11-17T20:43:31.000Z",
+          "excerpt": "Have you heard? 007 is getting a makeover. On Monday the official James Bond social media accounts revealed that Robert Pattinson would be the next actor to take on the role of super sexy and suave international spy. He’ll be following Daniel Craig’s departure from the franchise in 2021 following th",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Queer Throuple on ‘SLOMW: OC’ Is Sparking a Conversation About Homophobia in Mormonism",
+          "url": "https://www.them.us/entertainment/tv-and-movies/slomw-queer-throuple",
+          "publishedAt": "2026-11-17T20:30:35.000Z",
+          "excerpt": "From episode one, The Secret Lives of Mormon Wives: Orange County has branded itself as the more progressive spin-off of the popular Hulu reality television show about Mormon wives balancing full-time influencing with their religious values. Although Layla Taylor , one of the original cast members o",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "The First Trans Bond Girl? Before Hunter Schafer Rumors, Caroline Cossey Made History in For Your Eyes Only",
           "url": "https://www.them.us/entertainment/tv-and-movies/caroline-cossey-tula-james-bond",
           "publishedAt": "2026-11-17T19:00:47.000Z",
           "excerpt": "Earlier this week, Variety reported that Hunter Schafer would make history as the first transgender Bond girl if she were cast opposite newly announced 007 Robert Pattinson. But the James Bond franchise has a much deeper trans history than that; in fact, nearly two decades before Schafer was born, a",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Traitors: Meet the Celebrities Competing on Season 5",
+          "url": "https://www.them.us/entertainment/tv-and-movies/the-traitors-cast",
+          "publishedAt": "2026-11-17T17:40:00.000Z",
+          "excerpt": "This story originally appeared on Out . Who will be banished from the game? The Emmy-winning reality competition series The Traitors is tapping the top celebrities from every corner of the entertainment industry for season 5. Fan-favorite reality TV contestants like Bianca Del Rio ( RuPaul's Drag Ra",
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -3843,36 +3876,9 @@
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Andrew Scott Says Being a Gay Actor “Isn’t Very Interesting”",
-          "url": "https://www.them.us/entertainment/tv-and-movies/andrew-scott-gay-actor-elsinore",
-          "publishedAt": "2026-11-12T19:34:30.000Z",
-          "excerpt": "Andrew Scott says the fact that he’s a gay actor “isn’t very interesting.” Here’s what he meant by that. The Irish performer, who has received Oscar buzz for his portrayal of a fellow gay actor in Elsinore , discussed the history of queer discrimination in Hollywood in an interview with British Vogu",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Vivian Wilson Says the GOP’s “Trans Kids Bogeyman” Ads Were a Complete Flop",
-          "url": "https://www.them.us/politics/vivian-wilson-midterms-elon-musk",
-          "publishedAt": "2026-11-12T19:01:09.000Z",
-          "excerpt": "The “blue tsunami” of historic Democratic wins during the U.S. midterm elections confirmed what model Vivian Wilson already knew: investing in a transphobic campaign strategy is cheap talk when people can’t pay for groceries or gas. In an article for The Guardian about youth voters, Wilson, a model ",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "In the Year of Heated Rivalry, LGBTQ+ Characters Dropped on TV by 25%",
-          "url": "https://www.them.us/entertainment/tv-and-movies/heated-rivalry-glaad-lgbtq-representation",
-          "publishedAt": "2026-11-12T16:20:04.000Z",
-          "excerpt": "While shows like Heated Rivalry that prominently feature LGBTQ+ characters may seem to be more popular than ever, the most recent year in television continued a downward trend when it came to onscreen representation. According to GLAAD’s annual “ Where We Are on TV ” report, queer and trans on-scree",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4061,7 +4067,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Atlantic",
@@ -4250,7 +4256,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The New Yorker",
@@ -4258,6 +4264,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Radical Intimacies of Ryûsuke Hamaguchi",
+          "url": "https://www.newyorker.com/culture/persons-of-interest/the-radical-intimacies-of-ryusuke-hamaguchi",
+          "publishedAt": "2026-11-17T20:19:06.000Z",
+          "excerpt": "With “All of a Sudden,” the Japanese director confronts the realities of end-of-life care—and the limitations of cinema—with eyes, ears, and arms wide open.",
+          "source": "The New Yorker",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Women Train and Find Sisterhood in “Super Afghan Gym”",
           "url": "https://www.newyorker.com/culture/screening-room/women-train-and-find-sisterhood-in-super-afghan-gym",
@@ -4428,18 +4443,9 @@
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "How Sombr Went from TikTok to Madison Square Garden",
-          "url": "https://www.newyorker.com/culture/goings-on/how-sombr-went-from-tiktok-to-madison-square-garden",
-          "publishedAt": "2026-11-13T11:00:00.000Z",
-          "excerpt": "Also: the legacy of Merce Cunningham, Lauren Ambrose in a new play by Nick Payne, early Vincent Price, and more.",
-          "source": "The New Yorker",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Hyperallergic",
@@ -4447,6 +4453,22 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Olivia Reavey's Impromptu Sensuality",
+          "url": "https://hyperallergic.com/olivia-reaveys-impromptu-sensuality/",
+          "publishedAt": "2026-11-17T21:15:03.000Z",
+          "excerpt": "Everything is a treasured scrap for Reavey to pull from in her unorthodox black-and-white photography.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
+        {
+          "title": "Meet Natalie White, Photography’s Giant Polaroid Whisperer",
+          "url": "https://hyperallergic.com/meet-natalie-white-photographys-giant-polaroid-whisperer/",
+          "publishedAt": "2026-11-17T20:46:59.000Z",
+          "excerpt": "The artist is among the few shooting on the company’s 20x24, creating otherworldly double-exposure self-portraits with a rapidly dwindling stock of nearly 20-year-old film.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
         {
           "title": "MFA, MA, and PhD Programs to Apply for by Early 2027",
           "url": "https://hyperallergic.com/mfa-ma-and-phd-programs-to-apply-for-by-early-2027/",
@@ -4550,25 +4572,9 @@
           "excerpt": "Heirs of the Jewish publisher Samuel Fischer, who once owned the painting, are requesting it be withdrawn from auction.",
           "source": "Hyperallergic",
           "category": "Culture"
-        },
-        {
-          "title": "“Mighty Miniatures” Features Over 300 Tiny Artworks From Indigenous Communities Across the Western Hemisphere",
-          "url": "https://hyperallergic.com/mighty-miniatures-features-over-300-tiny-artworks-from-indigenous-communities-across-the-western-hemisphere/",
-          "publishedAt": "2026-11-16T18:30:00.000Z",
-          "excerpt": "Opening November 21 at the National Museum of the American Indian in New York, this exhibition includes masterpieces created over a span of nearly two centuries.",
-          "source": "Hyperallergic",
-          "category": "Culture"
-        },
-        {
-          "title": "Tate Turns Julio Le Parc Into Instagram Art",
-          "url": "https://hyperallergic.com/tate-turns-julio-le-parc-into-instagram-art/",
-          "publishedAt": "2026-11-16T18:02:14.000Z",
-          "excerpt": "The show elides the artist’s political motivations, instead cheerfully encouraging visitors to “let these mesmerizing works engage your senses.”",
-          "source": "Hyperallergic",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "IndieWire",
@@ -4576,6 +4582,22 @@
       "kind": "rss",
       "count": 12,
       "stories": [
+        {
+          "title": "‘The Further Mis-Adventures of Cliff Booth’ Throws Netflix’s Oscar Campaign a Curveball",
+          "url": "https://www.indiewire.com/awards/predictions/further-mis-adventures-cliff-booth-netflix-oscar-chances-1235228865/",
+          "publishedAt": "2026-11-17T20:53:37.000Z",
+          "excerpt": "Of course Netflix has to campaign a film with this much built-in Oscars pedigree, but is that distracting the studio from supporting the viable awards contenders it already has?",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
+          "title": "How ‘Paper Tiger’ Evolved When Jeremy Strong and Anne Hathaway Couldn’t Reprise Their ‘Armageddon Time’ Roles",
+          "url": "https://www.indiewire.com/features/interviews/paper-tiger-sequel-armageddon-time-1235228811/",
+          "publishedAt": "2026-11-17T20:20:13.000Z",
+          "excerpt": "James Gray discusses recasting his parents with Miles Teller and Scarlett Johansson, his father’s death, and shifting from memoir to crime thriller with “Paper Tiger.”",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
         {
           "title": "Sean Connery Wasn’t the First James Bond: Meet Barry Nelson in the ‘Casino Royale’ You’ve Never Seen",
           "url": "https://www.indiewire.com/features/commentary/first-james-bond-wasnt-sean-connery-meet-barry-nelson-1235228676/",
@@ -4655,25 +4677,9 @@
           "excerpt": "The extended version of the mega blockbuster opens December 4, and tickets go on sale November 19.",
           "source": "IndieWire",
           "category": "Culture"
-        },
-        {
-          "title": "‘Minotaur’ Review: Andrey Zvyagintsev’s Riveting Comeback Remakes Claude Chabrol and ‘Unfaithful’ for a Hopeless Wartime Russia",
-          "url": "https://www.indiewire.com/criticism/movies/minotaur-movie-review-andrey-zvyagintsev-1235194820/",
-          "publishedAt": "2026-11-16T21:45:18.000Z",
-          "excerpt": "We've seen this story before, and we know where it's going, but the \"Loveless\" and \"Leviathan\" director repositions the cliches of adultery thrillers into his own gloomy register to engrossing, icily exacting results.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "Cary Grant, Clint Eastwood, and Christian Bale: The Stars Who Almost Played James Bond",
-          "url": "https://www.indiewire.com/features/commentary/james-bond-actors-who-turned-down-rejected-007-1235228381/",
-          "publishedAt": "2026-11-16T21:30:00.000Z",
-          "excerpt": "Since \"Dr. No\" began the series in 1962, some of the world's biggest stars have been considered for 007 — we look at the most famous contenders who turned down or were rejected for the role.",
-          "source": "IndieWire",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4868,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5057,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5226,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5395,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5524,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5623,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5812,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6001,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "n+1",
@@ -6184,7 +6190,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Rest of World",
@@ -6289,7 +6295,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6464,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6633,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6802,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6971,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Colossal",
@@ -6973,6 +6979,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Colossal Guide for Creative Gifts",
+          "url": "https://www.thisiscolossal.com/2026/11/colossal-gift-guide-2026/",
+          "publishedAt": "2026-11-17T21:05:30.000Z",
+          "excerpt": "Master the art of creative gifting. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article The Colossal Guide for Creative Gifts appeared first on Colossal .",
+          "source": "Colossal",
+          "category": "Arts",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Esoteric Rituals Meet K-Pop in a Stop-Motion Music Video for Balming Tiger’s ‘Janjan’",
           "url": "https://www.thisiscolossal.com/2026/11/esoteric-rituals-meet-k-pop-in-a-stop-motion-music-video-for-balming-tigers-janjan/",
@@ -7143,18 +7158,9 @@
           "source": "Colossal",
           "category": "Arts",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "An Animated Film Made in Excel Sums Up the Pointless Impulse to Create",
-          "url": "https://www.thisiscolossal.com/2026/11/maria-tomazou-i-made-a-film-in-excel/",
-          "publishedAt": "2026-11-05T19:25:40.000Z",
-          "excerpt": "Just because something doesn't have a purpose doesn't mean it isn't worth doing. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article An Animated Film Made in Excel Sums Up the Pointless Impu",
-          "source": "Colossal",
-          "category": "Arts",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7329,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7331,6 +7337,78 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Rights Report: Week of November 16, 2026",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101789-rights-report-week-of-november-16-2026.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "Beyoncé’s BeyGOOD Gives $50,000 to D.C. Teen Literacy and Publishing Nonprofit",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101799-beygood-gives-50-000-to-d-c-teen-literacy-and-publishing-nonprofit.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "Ransom Riggs’s ‘Miss Peregrine’ Marks 15 Years Inside a Time Loop",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101798-ransom-riggs-s-miss-peregrine-s-home-for-peculiar-children-marks-15-years.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "Someone You Should Know: William Johnson, PEN America",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101795-someone-you-should-know-william-johnson-pen-america.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "2026 Shanghai International Children’s Book Fair: A Brief Look at the Chinese Children’s Book Market",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101794-2026-shanghai-international-children-s-book-fair-a-brief-look-at-the-chinese-children-s-book-market.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "2026 Shanghai International Children’s Book Fair: Exhibitors Look for New Market Opportunities",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101793-2026-shanghai-international-children-s-book-fair-exhibitors-look-for-new-market-opportunities.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "Newbery Honoree Soontornvat Returns to Familiar World in New Fantasy",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101791-first-look-take-to-the-sky-by-christina-soontornvat.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "Gideon Sterer on His Banner Year, and What Comes Next",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101790-gideon-sterer-on-his-banner-year-and-what-comes-next.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
+        {
+          "title": "‘This Is a Tour’: On the Road with Daniel Nayeri",
+          "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101785-this-is-a-tour-on-the-road-with-daniel-nayeri.html",
+          "publishedAt": "2026-11-17T05:00:00.000Z",
+          "excerpt": "",
+          "source": "Publishers Weekly",
+          "category": "Books"
+        },
         {
           "title": "Advent Devotionals Feature Faith and Imagination",
           "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101787-advent-devotionals-feature-faith-and-imagination.html",
@@ -7418,81 +7496,9 @@
           "excerpt": "",
           "source": "Publishers Weekly",
           "category": "Books"
-        },
-        {
-          "title": "This Week’s Bestsellers: November 16, 2026",
-          "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101778-this-week-s-bestsellers-november-16-2026.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "PW Talks with Armando Montes de Santiago",
-          "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101776-pw-talks-with-armando-montes-de-santiago.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "With the Guadalajara International Book Fair kicking off on November 28, Armando Montes De Santiago is busy. The fair’s director of exhibitors, the professionals’ program, and the rights center also oversees its fellowship program, which each year invites a select group of publishers from non-Spanis",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "Must-See at FIL",
-          "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101775-must-see-at-fil.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "From deep dives into the spanish publishing industry to the ongoing presence of ai, here’s our programming picks.",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "Guadalajara at 40",
-          "url": "http://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/101774-guadalajara-at-40.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "Director Marisol Schulz Manau says FIL is continuing to grow as the fair celebrates its anniversary with a robust program.",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "How ‘God AI’ by Toby Walsh Got Made",
-          "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101773-how-god-ai-by-toby-walsh-got-made.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "An inside look at the publication process for the computer scientist and author’s latest book.",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "Nick Hornby Bets on the Beautiful Game",
-          "url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101772-nick-hornby-bets-on-the-beautiful-game.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "In his latest novel, the author explores soccer, sports betting, and what can really change a person’s life.",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "Blood and Brotherhood: PW Talks with Aaron Philip Clark",
-          "url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101771-blood-and-brotherhood-pw-talks-with-aaron-philip-clark.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "Silicon Valley’s Rose-Tinted Glasses: PW Talks with David Karpf",
-          "url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101770-silicon-valley-s-rose-tinted-glasses-pw-talks-with-david-karpf.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "",
-          "source": "Publishers Weekly",
-          "category": "Books"
-        },
-        {
-          "title": "PW Talks With Don Gorman, Rocky Mountain Books",
-          "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101769-pw-talks-with-don-gorman-rocky-mountain-books.html",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "excerpt": "The publisher at the western Canadian house is charting a course for adventure in the company’s 50th year.",
-          "source": "Publishers Weekly",
-          "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,7 +7627,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Five Books",
@@ -7790,7 +7796,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7965,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8154,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8323,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8492,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8681,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8850,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9019,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9108,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9297,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9486,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9675,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9844,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10013,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10182,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10371,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10540,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10709,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Kottke",
@@ -10711,6 +10717,16 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "An Inconvenient Life",
+          "url": "https://kottke.org/26/11/an-inconvenient-life",
+          "publishedAt": "2026-11-17T20:41:00.000Z",
+          "excerpt": "Lyndsay Rush , who describes herself as a “part-time poet, full-time dingdong”, goes by the handle of @maryoliversdrunkcousin on Instagram . Her forthcoming collection of poems is called Microdosing Hope (out in March 2027). I liked this one she shared recently, called An Inconvenient Life: I want a",
+          "source": "Kottke",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Kottke"
+        },
         {
           "title": "Trailer for a new documentary on Jean-Michel Basquiat....",
           "url": "https://kottke.org/26/11/0049996-trailer-for-a-new-documen",
@@ -10900,19 +10916,9 @@
           "category": "Discover",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Kottke"
-        },
-        {
-          "title": "Solving the Feynman restaurant problem, i.e. how many...",
-          "url": "https://kottke.org/26/11/0049960-solving-the-feynman-resta",
-          "publishedAt": "2026-11-13T21:02:00.000Z",
-          "excerpt": "Solving the Feynman restaurant problem , i.e. how many dishes should you sample at a restaurant to find your favorite one? “Once you settle on a dish, the best strategy is to order it on every remaining visit.”",
-          "source": "Kottke",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11127,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Waxy",
@@ -11350,13 +11356,13 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 14,
+      "count": 13,
       "stories": [
         {
           "title": "stunning pieces of art made entirely from the roots of plants",
@@ -11474,18 +11480,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "Filmstrip Art",
-          "url": "https://www.metafilter.com/215191/Filmstrip-Art",
-          "publishedAt": "2026-11-16T20:38:33.000Z",
-          "excerpt": "Brian Dewan ( wikipedia ) is an upstate NY artist and musician ( previously ) who, with his cousin ( previously ) make electronic musical instruments ( previously ), like the Swarmatron . He's also known for his shrines (that's one on the cover of They Might Be Giants' Lincoln ). So much previously,",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11674,7 +11671,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Dense Discovery",
@@ -11883,7 +11880,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "香港01",
@@ -11891,6 +11888,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "車Cam｜輪椅男誤闖啟德隧道逆線行駛 車輛減慢車速扭軚避開",
+          "url": "https://hk01.com/sns/article/60411993",
+          "publishedAt": "2026-11-17T21:02:02.000Z",
+          "excerpt": "Facebook群組「車cam L（香港群組）」昨日流傳一段「車Cam」，顯示同日晚上10時31分左右，Cam車沿啟德隧道快線往土瓜灣方向行駛，駛近出口時，車Cam拍下右邊路肩出現一名坐電動輪椅的男子，對方戴帽和身穿綠色上衣，沿隧道牆邊緩慢逆線行駛。前方的士一度煞車和向左微扭，Cam主亦減慢車速，繼而扭軚避開，輪椅男若無其事，繼續逆線慢駛，片段便結束。 一名坐電動輪椅的男子沿隧道牆邊緩慢逆線行駛，前方的士一度煞車和向左微扭。（Facebook群組「車cam L（香港群組）」影片截圖） 帖主表示「嚇X屎」，許多網民表示「見鬼」、「識行一定行隧道」。 根據運輸署《道路使用者守則》， 行人不得進入隧",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "蘋果iCloud和App Store等服務中斷 公司稱內部系統更新引起",
+          "url": "https://hk01.com/sns/article/60411995",
+          "publishedAt": "2026-11-17T21:00:30.000Z",
+          "excerpt": "數千名用戶於11月17日向Downdetector報告稱，蘋果（Apple）多項應用程式出現故障。全球數千名用戶報告服務中斷，包括無法登入iCloud帳戶、 App Store無法下載程式等。蘋果官方系統狀態（System Status）頁面顯示，iCloud、 App Store及AppleCare服務出現問題。蘋果發言人隨後證實，故障是由內部系統更新所引起，並強調並非遭受網絡攻擊，多數系統已陸續恢復運作。 2026年11月17日，蘋果官方系統狀態頁面，其iCloud及AppleCare 服務出現問題，App Store故障則已修復。（蘋果網站截圖） 2026年11月17日，蘋果官方系統狀態",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "伊朗指美軍空襲格什姆島 路透：導彈發射場為目標",
+          "url": "https://hk01.com/sns/article/60411992",
+          "publishedAt": "2026-11-17T20:23:04.000Z",
+          "excerpt": "伊朗11月17日再次出動無人機襲擊駐巴林美軍的雷達系統，這已是伊方短短5天內第3度向巴林發動突襲；作為報復，美軍於同日向伊朗發動新一輪空襲。伊朗傳媒報道，南部格什姆島（Qeshm Island）當日傳出爆炸聲並竄起濃煙。 Reportedly footage from this morning of an American strike(s) on Iranian air defenses near northern Qeshm Island, sending smoke rising over the Strait of Hormuz. Avoid wars without any defi",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "李尚正《西遊降魔篇》被逼全裸：深陷拍攝現場的「感情詐騙」",
           "url": "https://hk01.com/sns/article/60410815",
@@ -11948,14 +11969,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "李尚正談星爺公司的新人：年輕一代敢於直接質疑「不好笑」",
-          "url": "https://hk01.com/sns/article/60410813",
-          "publishedAt": "2026-11-17T18:00:27.000Z",
-          "excerpt": "",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "BIGBANG演唱會｜高仿門票符合快達票3大防偽特徵 照紫光燈也中招",
           "url": "https://hk01.com/sns/article/60411348",
           "publishedAt": "2026-11-17T17:49:11.000Z",
@@ -11964,26 +11977,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "北角途人舉報毒品快餐車 疑犯遭按地制服 警拘兩男",
-          "url": "https://hk01.com/sns/article/60411987",
-          "publishedAt": "2026-11-17T17:39:12.000Z",
-          "excerpt": "北角發現「毒品快餐車」。昨晚（17日）9時許，警方接獲途人報案指，見到一輛私家車泊在丹拿道18號對開，懷疑車上有兩人吸毒。警員到場調查，發現懷疑毒品，當場拘捕兩人，警方將案件列作「販運危險藥物」，通知緝毒犬到場搜車，正點算毒品重量和價值。 根據網上圖片，其中一張圖片顯示警方將其中一人按地制服，其餘照片顯示總共有兩人雙手被手銬反鎖，其中一人黑布蒙頭，警方封鎖現場調查。 警方將其中一人按地制服。（Facebook群組「北角有樂」圖片） 其中一人黑布蒙頭。（Facebook群組「北角有樂」圖片） 總共有兩人雙手被手銬反鎖。（Facebook群組「北角有樂」圖片）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "珀麗灣沙灘現老鼠藥 專家斥危害小童健康 管理處稱已提醒承辦商",
           "url": "https://hk01.com/sns/article/60411883",
           "publishedAt": "2026-11-17T16:37:06.000Z",
           "excerpt": "近日有網民在社交平台發文指，懷疑珀麗灣管理處外判的清潔公司，派員到沙灘撒上紅色顆粒老鼠藥。有居民向《香港01》反映，自從9月份起屋苑內的小鳥數量大幅減少，也曾目擊清潔工在沙灘上撒老鼠藥，懷疑部份雀鳥因進食老鼠藥後中毒身亡，又指屋苑花圃放有多塊黏鼠板，間中看到雀鳥黏在板上死亡，因此已就事件向警方、食環署、漁護署等部門報案。 滅蟲專家任永強形容，在沙灘投撒老鼠藥「非常不專業」，並非正常滅鼠操作，因老鼠喜歡有食物、水源、陰暗的地方，沙灘非老鼠出沒之處，若小動物誤吃或導致食物中毒，若小童在地面玩耍時誤碰，將手部放進口中，更會危害人類健康。 涉事管理處周二（17日）回應《香港01》表示，現時屋苑及商場範",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "荃灣新之城「青春無限」3部日式貼紙相機正移除 店員稱相紙停產",
-          "url": "https://hk01.com/sns/article/60411884",
-          "publishedAt": "2026-11-17T15:50:19.000Z",
-          "excerpt": "貼紙相是多代港人的青春回憶，隨着韓式「人生四格」貼紙相機興起，日式美顏貼紙相機的風潮大不如前。目前仍提供日式貼紙相機的商戶，只剩下位於荃灣新之城的「青春無限貼紙城」。近日網傳該店的日式貼紙相機正被移除，《香港01》記者今日（17日）到店觀察，發現店家確實正在移除中，有店員解釋供應商已停產相紙，強調舖頭繼續營業。 有年輕人到店拍貼紙相，笑說日式貼紙相「夠MK」，期望能夠獲得保留，為消費者提供韓式貼紙相機外的選擇。 目前仍提供日式貼紙相機、只剩下荃灣一間分店的「青春無限貼紙城」，近日有3台日式貼紙相機被拆走，有店員解釋供應商已停產相紙。（任葆穎攝） 主打日式貼紙相「青春無限貼紙城」僅餘荃灣新之城店",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12044,15 +12041,15 @@
           "category": "Hong Kong"
         },
         {
-          "title": "藍田啟田邨火｜長毛貓房內昏迷 救援人員CPR救20分鐘惜未能救回",
-          "url": "https://hk01.com/sns/article/60411797",
-          "publishedAt": "2026-11-17T08:42:43.000Z",
-          "excerpt": "藍田啟田邨啟旺樓一單位今午（17日）起火，兩人吸入濃煙不適送院。救援人員亦在該單位救出一隻昏迷長毛貓，牠即場接受心肺復蘇（CPR）急救逾20分鐘後，由愛護動物協會人員送交獸醫搶救。現場所見，人員為貓咪戴上氧氣罩，之後再送入氧氣箱送院。涉事貓隻為一隻成年雄性英國長毛貓。 愛協表示，愛協督察於現場將貓隻帶走，並在送往灣仔中心途中持續為牠提供氧氣。惟貓隻送抵中心並交由獸醫檢查時，證實已經死亡。獸醫其後已為貓隻進行檢查。貓隻屍體現存在青衣中心等候主人安排認領。 藍田啟田邨啟旺樓一單位大火，救援人員救出一隻昏迷貓咪，為牠戴上氧氣罩協助呼吸，最終不治。 協助救援的香港守望者服務團（HKGV）表示，涉事長毛",
+          "title": "中大醫院45歲女遭誤切卵巢 醫院指醫生高度專注所致 將按例懲處",
+          "url": "https://hk01.com/sns/article/60411900",
+          "publishedAt": "2026-11-17T10:23:14.000Z",
+          "excerpt": "衞生署昨日（16日）公布今年9月錄得兩宗私營醫療機構呈報的醫療風險警示事件，其中一宗為香港中文大學醫院為45歲女病人進行切除子宮及雙側輸卵管手術時，不慎切錯雙側卵巢，目前病人情況穩定。 中大醫院今午（17日）發聲明稱，對事件深表痛心及遺憾，再次對病人及其家屬致以最深切的慰問與誠摯歉意，並向公眾致歉；又指調查結果顯示，涉事醫生在手術期間因高度專注於處理當下的臨床步驟，出現短暫的認知盲點，未能貫徹執行原定保留卵巢的手術方案，該醫生承認錯誤，院方會嚴肅跟進該名醫生的個人責任，並會根據人事條例對該醫生作出處分。 香港中文大學醫院有女病人被誤切雙側卵巢。（資料圖片／賴卓盈攝） 衞生署於9月接獲2宗私營醫",
           "source": "香港01",
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "有線新聞",
@@ -12221,7 +12218,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Now 新聞",
@@ -12390,7 +12387,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12559,7 +12556,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12728,7 +12725,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "South China Morning Post",
@@ -12897,7 +12894,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13066,7 +13063,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-17T20:17:13.110Z"
+      "lastSuccessfulAt": "2026-11-17T21:17:12.896Z"
     }
   ],
   "stories": [
@@ -13251,6 +13248,30 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50532385"
     },
     {
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "publishedAt": "2026-11-17T21:00:55.000Z",
+      "excerpt": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Instagram is helping creators crack down on copycat videos",
+      "url": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+      "publishedAt": "2026-11-17T20:46:31.000Z",
+      "excerpt": "Instagram is beginning to roll out a \"content protection\" feature that lets creators see and review copies of their videos posted to the platform. \"For eligible creators who enroll, content protection is a tool that automatically looks out for visual matches of your original videos, alerts you when ",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Democrats try to figure out how not to get swept away by the blue wave",
+      "url": "https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
+      "publishedAt": "2026-11-17T20:30:00.000Z",
+      "excerpt": "On a harried Saturday afternoon at Denver International Airport, I had the good fortune of sitting just a few feet from Minneapolis Mayor Jacob Frey. It shouldn't have come as a surprise. He, I, and 3,500 or so others had just left \"What's Next,\" a conference organized by Majority Democrats, a group",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
       "title": "Framework’s better couch keyboard is now available for preorder",
       "url": "https://www.theverge.com/tech/1035805/framework-wireless-touchpad-keyboard-preorder-open",
       "publishedAt": "2026-11-17T19:38:42.000Z",
@@ -13262,7 +13283,7 @@
       "title": "California just banned Waymo from all state freeways",
       "url": "https://www.theverge.com/transportation/1035789/california-dmv-bans-waymo-freeways-construction-zone-safety",
       "publishedAt": "2026-11-17T19:38:05.000Z",
-      "excerpt": "California has pulled the plug on Waymo's driverless freeway rides across the entire state, citing potential safety hazards. In a statement, the California Department of Motor Vehicles said that the ban went into effect on November 11th. The crackdown follows two recent high-profile Bay Area inciden",
+      "excerpt": "California has pulled the plug on Waymo's driverless freeway rides across the entire state, citing potential safety hazards. In a statement, the California Department of Motor Vehicles said that the ban went into effect on November 11th after two recent high-profile Bay Area incidents, in which Waym",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13383,30 +13404,6 @@
       "url": "https://www.theverge.com/tech/1035258/trmnl-e-ink-spectra-6-frame-dashboard-display-poster-photos",
       "publishedAt": "2026-11-17T14:49:21.000Z",
       "excerpt": "Trmnl, a company best known for its highly customizable E Ink dashboards that can function as anything from a desktop calendar to a stock tracker, has introduced a new display that's also well suited for showing artwork and photos. It's not the company's first color E Ink device, but instead of bein",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Get ready for a nationwide emergency alert test at 2:20PM ET today",
-      "url": "https://www.theverge.com/tech/1035257/fema-fcc-emergency-alert-system-test-2026",
-      "publishedAt": "2026-11-17T14:28:24.000Z",
-      "excerpt": "Radio and TV broadcasts will be interrupted for about one minute at 2:20PM ET today while FEMA and the FCC test the country's Emergency Alert System. Unlike recent communications outages, this is a planned interruption that FEMA is required to run every three years. FEMA says today's test includes r",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "The Fire TV Stick 4K Plus is on sale for less than Amazon’s entry-level streamer",
-      "url": "https://www.theverge.com/gadgets/1034612/amazon-fire-tv-stick-4k-plus-black-friday-2026-deal-sale",
-      "publishedAt": "2026-11-17T14:25:07.000Z",
-      "excerpt": "Amazon no longer considers the midrange Fire TV Stick 4K Plus as part of its official lineup following the launch of it latest Fire TV Stick 4K, but that doesn’t mean the streaming device isn’t still good value. In fact, it’s an even more attractive option now that it’s dropped to $29.99 ($40 off) a",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Windows 11 actually runs better on 8GB of RAM now",
-      "url": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
-      "publishedAt": "2026-11-17T14:00:00.000Z",
-      "excerpt": "As recently as the beginning of the year, 16GB of RAM was common on sub-$800 Windows laptops, which helped compensate for an increasingly bloated-feeling Windows 11. But with the cost of RAM skyrocketing this year, 8GB is once again typical for a starting configuration. The MacBook Neo got away with",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13571,6 +13568,14 @@
       "category": "Technology"
     },
     {
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+      "publishedAt": "2026-11-17T20:32:55.000Z",
+      "excerpt": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+      "source": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "title": "Civilization studio Firaxis Games lays off a third of staff",
       "url": "https://arstechnica.com/gaming/2026/11/civilization-studio-firaxis-games-lays-off-a-third-of-staff/",
       "publishedAt": "2026-11-17T19:45:25.000Z",
@@ -13719,14 +13724,6 @@
       "url": "https://arstechnica.com/health/2026/11/us-now-comfortable-with-children-dying-of-measles-as-death-toll-hits-10/",
       "publishedAt": "2026-11-16T16:39:29.000Z",
       "excerpt": "International authorities will announce US lost its elimination status Tuesday.",
-      "source": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-      "publishedAt": "2026-11-16T14:06:16.000Z",
-      "excerpt": "Huang is weighing a return just days after resigning amid a deepening scandal.",
       "source": "Ars Technica",
       "category": "Technology"
     },
@@ -14051,6 +14048,15 @@
       "category": "Technology"
     },
     {
+      "title": "How to make a great video with an AI agent",
+      "url": "https://thenextweb.com/news/how-to-make-great-video-ai-agent",
+      "publishedAt": "2026-11-17T20:36:12.000Z",
+      "excerpt": "Today, anyone can describe a video in a sentence and get a finished one back from an AI video agent. Getting a good one still comes down to two things: knowing how to ask for it, and having a creative idea worth asking for. If you run a small business or a small team, AI [&hellip;] This story contin",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Promise Robotics raises C$40M for robot factories that build homes",
       "url": "https://thenextweb.com/news/promise-robotics-40m-cad-series-b-robot-homebuilding",
       "publishedAt": "2026-11-17T19:45:16.000Z",
@@ -14132,13 +14138,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "AI models flagged civilians as military targets in tests, Bloomberg reports",
-      "url": "https://thenextweb.com/news/ai-models-flagged-civilians-as-military-targets-in-tests-bloomberg-reports",
-      "publishedAt": "2026-11-17T16:10:29.000Z",
-      "excerpt": "AI models from eight companies often marked civilians, ambulances, surrendering soldiers and a school in Iran as military targets in simulated tests, Bloomberg reported. The findings come from a report by Vals, a San Francisco AI evaluator whose customers include parts of the US government. Anthropi",
-      "source": "The Next Web",
+      "title": "Nvidia Stopped Disclosing Singapore Sales As Revenues Hit $104 Billion",
+      "url": "https://news.slashdot.org/story/26/11/17/1942228/nvidia-stopped-disclosing-singapore-sales-as-revenues-hit-104-billion?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "excerpt": "Nvidia stopped separately disclosing its Singapore sales (source paywalled; alternative source) after changing its geographic revenue reporting methodology from customer billing addresses to headquarters locations, obscuring a business that generated $104 billion in external revenue in 2025, up 72% ",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "Highly Classified NSA Network Goes Down",
@@ -14267,13 +14273,48 @@
       "sourceRole": "community"
     },
     {
-      "title": "SpaceX Catches Starship On the First Try",
-      "url": "https://science.slashdot.org/story/26/11/16/1721247/spacex-catches-starship-on-the-first-try?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-16T18:00:00.000Z",
-      "excerpt": "Over the weekend, SpaceX successfully caught a Starship upper stage returning from orbit for the first time, demonstrating a key piece of its plan for a fully and rapidly reusable launch system. The achievement means SpaceX has now demonstrated tower catches of both Starship stages, though not yet o",
-      "source": "Slashdot",
+      "title": "Sources: the US SEC is investigating Nvidia, including whether the company's disclosures misled investors (Wall Street Journal)",
+      "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?st=JDfemd&reflink=article_copyURL_share",
+      "publishedAt": "2026-11-17T21:05:01.000Z",
+      "excerpt": "Wall Street Journal : Sources: the US SEC is investigating Nvidia, including whether the company's disclosures misled investors &nbsp; &mdash;&nbsp; Regulator's civil probe looks at whether company violated investor disclosure laws&nbsp; &mdash;&nbsp; The Securities and Exchange Commission is invest",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261117/p54#a261117p54",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Sources: AppLovin is among companies in talks to acquire ad tech company Criteo, which has a ~$1B market cap after its stock fell 50%+ over the past five years (Milana Vinn/Reuters)",
+      "url": "https://www.reuters.com/legal/transactional/applovin-among-firms-talks-acquire-criteo-sources-say-2026-11-17/",
+      "publishedAt": "2026-11-17T20:45:03.000Z",
+      "excerpt": "Milana Vinn / Reuters : Sources: AppLovin is among companies in talks to acquire ad tech company Criteo, which has a ~$1B market cap after its stock fell 50%+ over the past five years &nbsp; &mdash;&nbsp; US advertising technology firm AppLovin (APP.O) is among the companies in talks to acquire smal",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261117/p53#a261117p53",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Kalshi says the CFTC has ordered it to halt trading on \"mention markets\" tied to what President Trump will say during public events (Bobby Allyn/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/cftc-orders-kalshi-to-take-down-markets-on-trump-s-speeches",
+      "publishedAt": "2026-11-17T20:40:01.000Z",
+      "excerpt": "Bobby Allyn / Bloomberg : Kalshi says the CFTC has ordered it to halt trading on &ldquo;mention markets&rdquo; tied to what President Trump will say during public events &nbsp; &mdash;&nbsp; Federal regulators ordered Kalshi Inc. to halt trading on markets tied to what President Donald Trump will sa",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261117/p52#a261117p52",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Sources: Ramp is in early talks to raise $1B or more led by Coatue and Thrive at a valuation of $70B+, in its third funding round in a year (Kate Clark/Wall Street Journal)",
+      "url": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a",
+      "publishedAt": "2026-11-17T20:35:00.000Z",
+      "excerpt": "Kate Clark / Wall Street Journal : Sources: Ramp is in early talks to raise $1B or more led by Coatue and Thrive at a valuation of $70B+, in its third funding round in a year &nbsp; &mdash;&nbsp; The financing round is the fast-growing company's third fundraise in a year&nbsp; &mdash;&nbsp; Corporat",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261117/p51#a261117p51",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "California bans Waymo robotaxis from freeways after a viral video showed one failing to yield to the highway patrol; Waymo halts freeway service nationwide (Jeremy C. Owens/San Francisco ...)",
@@ -14298,10 +14339,10 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Apple's System Status page shows an outage affecting iCloud sign-in for \"all users\", the App Store, and Apple Music; some users report failed iPhone activations (Sarah Perez/TechCrunch)",
+      "title": "Apple's System Status page shows an outage affecting the App Store, Apple Music, and iCloud sign-in; Apple says an internal update caused \"some outages\" (Sarah Perez/TechCrunch)",
       "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
       "publishedAt": "2026-11-17T19:25:01.000Z",
-      "excerpt": "Sarah Perez / TechCrunch : Apple's System Status page shows an outage affecting iCloud sign-in for &ldquo;all users&rdquo;, the App Store, and Apple Music; some users report failed iPhone activations &nbsp; &mdash;&nbsp; After a recent slew of tech outages, service disruptions, and flight chaos this",
+      "excerpt": "Sarah Perez / TechCrunch : Apple's System Status page shows an outage affecting the App Store, Apple Music, and iCloud sign-in; Apple says an internal update caused &ldquo;some outages&rdquo; &nbsp; &mdash;&nbsp; After a recent slew of tech outages, service disruptions, and flight chaos this week, n",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261117/p48#a261117p48",
@@ -14397,48 +14438,13 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets (Katrina Manson/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-17/top-ai-models-regularly-identify-civilians-as-military-targets-in-tests",
-      "publishedAt": "2026-11-17T17:10:00.000Z",
-      "excerpt": "Katrina Manson / Bloomberg : Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets &nbsp; &mdash;&nbsp; Advanced artificial intelligence models in simulated scenarios regularly misidentified civili",
-      "source": "Techmeme",
+      "title": "There's a chance your Xbox Series X is plugged into the wrong HDMI port",
+      "url": "https://www.engadget.com/2315403/chance-xbox-series-x-plugged-into-wrong-hdmi-port/",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "excerpt": "Make sure you're getting the most out of your Xbox Series X, starting with a port check.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261117/p39#a261117p39",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Source: Nvidia's board is not considering reinstating Huang, after he released a statement saying he \"made serious mistakes\" and fell below \"the standards\" (CNN)",
-      "url": "http://www.cnn.com/2026/11/17/business/jensen-huang-nvidia-ceo-statement",
-      "publishedAt": "2026-11-17T17:00:54.000Z",
-      "excerpt": "CNN : Source: Nvidia's board is not considering reinstating Huang, after he released a statement saying he &ldquo;made serious mistakes&rdquo; and fell below &ldquo;the standards&rdquo; &nbsp; &mdash;&nbsp; Former Nvidia CEO Jensen Huang broke his silence Tuesday, issuing a statement saying he would",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261117/p38#a261117p38",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Sources: Jensen Huang's daughter Madison, a marketing director, helped steer Nvidia's response to Megaspeed scrutiny and temporarily sidelined a top comms exec (Financial Times)",
-      "url": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27",
-      "publishedAt": "2026-11-17T16:30:01.000Z",
-      "excerpt": "Financial Times : Sources: Jensen Huang's daughter Madison, a marketing director, helped steer Nvidia's response to Megaspeed scrutiny and temporarily sidelined a top comms exec &nbsp; &mdash;&nbsp; Daughter and son-in-law come under scrutiny as board launches probe over company's links to Megaspeed",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261117/p37#a261117p37",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Uber and Zipline launch autonomous drone deliveries, starting with Uber Eats customers in Spring, Texas, with plans for 1M deliveries per day by the end of 2029 (Kirsten Korosec/TechCrunch)",
-      "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
-      "publishedAt": "2026-11-17T16:20:01.000Z",
-      "excerpt": "Kirsten Korosec / TechCrunch : Uber and Zipline launch autonomous drone deliveries, starting with Uber Eats customers in Spring, Texas, with plans for 1M deliveries per day by the end of 2029 &nbsp; &mdash;&nbsp; Uber Eats customers in a Houston suburb can now have their food delivered by a Zipline ",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261117/p36#a261117p36",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
       "title": "Google Wallet is launching on iOS",
@@ -14612,11 +14618,29 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Xiaomi's 18 Pro series can generate vibe-coded apps for its tiny rear display",
-      "url": "https://www.engadget.com/2319013/xiaomi-18-pro-vibe-coded-apps-launch-hands-on/",
-      "publishedAt": "2026-11-17T14:35:50.000Z",
-      "excerpt": "Xiaomi is back with more Pro phones, featuring second screens, capable cameras and a slick red color.",
-      "source": "Engadget",
+      "title": "How to watch Argentina vs Costa Rica for *FREE* — live stream international friendly online from anywhere",
+      "url": "https://www.techradar.com/entertainment/football/how-to-watch-argentina-vs-costa-rica-for-free-live-stream-international-friendly-online-from-anywhere",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "excerpt": "Here's how you can watch Argentina vs Costa Rica for free from anywhere in the world as they face off in an international friendly.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Calls to return Jensen Huang as Nvidia CEO range from misguided to self-serving, and they have to stop",
+      "url": "https://www.techradar.com/ai-platforms-assistants/please-stop-with-the-myth-of-the-indispensable-tech-ceo-and-let-jensen-huang-go",
+      "publishedAt": "2026-11-17T20:44:11.000Z",
+      "excerpt": "Calls to return Jensen Huang as Nvidia CEO range from misguided to self-serving, and they have to stop. No tech CEO is irreplaceable.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The surprisingly compact Bambu Labs A1 mini drops to $199 in the Black Friday sale",
+      "url": "https://www.techradar.com/pro/the-surprisingly-compact-bambu-labs-a1-mini-drops-to-usd199-in-the-black-friday-sale",
+      "publishedAt": "2026-11-17T20:30:00.000Z",
+      "excerpt": "The surprisingly compact Bambu Labs A1 mini drops to $199 in the Black Friday sale.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14693,19 +14717,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Hungary vs Northern Ireland: Free Streams & TV Channels",
-      "url": "https://www.techradar.com/entertainment/football/watch-hungary-vs-northern-ireland-free",
+      "title": "007 First Light composers speak on what it’s like to adapt huge IPs for games like Alien: Isolation and IOI’s Bond — ‘We approach every project in our own way, whether it is a well-known property or not’",
+      "url": "https://www.techradar.com/gaming/007-first-light-composers-speak-on-what-its-like-to-adapt-huge-ips-for-games-like-alien-isolation-and-iois-bond-we-approach-every-project-in-our-own-way-whether-it-is-a-well-known-property-or-not",
       "publishedAt": "2026-11-17T17:00:00.000Z",
-      "excerpt": "How you can watch Hungary vs Northern Ireland for free from anywhere in the world with TV channels, kick-off times and a preview for this Nations League B fixture.",
+      "excerpt": "The Flight is now working on Alien: Isolation 2",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "007 First Light composers speak on what it’s like to adapt huge IPs for games like Alien: Isolation and IOI’s Bond — ‘We approach every project in our own way, whether it is a well-known property or not’",
-      "url": "https://www.techradar.com/gaming/007-first-light-composers-speak-on-what-its-like-to-adapt-huge-ips-for-games-like-alien-isolation-and-iois-bond-we-approach-every-project-in-our-own-way-whether-it-is-a-well-known-property-or-not",
+      "title": "How to watch Hungary vs Northern Ireland: Free Streams & TV Channels",
+      "url": "https://www.techradar.com/entertainment/football/watch-hungary-vs-northern-ireland-free",
       "publishedAt": "2026-11-17T17:00:00.000Z",
-      "excerpt": "The Flight is now working on Alien: Isolation 2",
+      "excerpt": "How you can watch Hungary vs Northern Ireland for free from anywhere in the world with TV channels, kick-off times and a preview for this Nations League B fixture.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14774,29 +14798,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Infoblox confirms company and customer data exposed in SharePoint breach",
-      "url": "https://www.techradar.com/pro/security/infoblox-confirms-company-and-customer-data-exposed-in-sharepoint-breach",
-      "publishedAt": "2026-11-17T16:20:00.000Z",
-      "excerpt": "Infoblox says its investigation is ongoing, but it suspects a third-party supply chain attack.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Nvidia reveals new national security and export committee after CEO's exit",
-      "url": "https://www.techradar.com/computing/gpu/nvidia-goes-into-full-damage-limitation-mode-announcing-new-national-security-and-export-committee-which-would-have-been-a-great-idea-a-few-years-ago",
-      "publishedAt": "2026-11-17T16:19:11.000Z",
-      "excerpt": "Nvidia reveals new 'national security and export' committee advised by independent experts, leaving people wondering why this wasn't done before.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "NordPass Business and NordLayer cut costs by an extra 20% for Black Friday",
-      "url": "https://www.techradar.com/pro/nordsecurity-b2b-suite-black-friday-deal-cut-your-companys-security-costs-with-20-percent-off-nordpass-business-and-nordlayer",
-      "publishedAt": "2026-11-17T16:00:00.000Z",
-      "excerpt": "NordPass Business and NordLayer Black Friday sale gives companies 20% off, with bigger savings available when purchasing more licenses.",
-      "source": "TechRadar",
+      "title": "iOS 27.3’s redesigned Apple Health app requires newer iPhone model",
+      "url": "https://9to5mac.com/2026/11/17/ios-27-3s-redesigned-apple-health-app-requires-newer-iphone-model/",
+      "publishedAt": "2026-11-17T20:19:51.000Z",
+      "excerpt": "iOS 27.3 will introduce an all-new Apple Health experience when it ships next month, but you’ll need an AI-compatible iPhone to get it. Here’s why. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14967,15 +14973,6 @@
       "url": "https://9to5mac.com/2026/11/17/face-unlock-is-a-good-compromise-for-the-iphone-duo-now-lets-have-it-for-the-mac/",
       "publishedAt": "2026-11-17T13:23:14.000Z",
       "excerpt": "When Apple first announced Face ID , the company talked a great deal about how secure the system is, contrasting it to the far less secure image-based facial unlock systems used by the likes of Google and Samsung. Fast-forward to 2026, and Apple is itself now offering that less secure approach as an",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple Podcasts 2026 Show of the Year is ‘Baby, this is Keke Palmer’",
-      "url": "https://9to5mac.com/2026/11/17/apple-podcasts-2026-show-of-the-year-is-baby-this-is-keke-palmer/",
-      "publishedAt": "2026-11-17T12:15:20.000Z",
-      "excerpt": "Each year, Apple Podcasts names its Show of the Year, and the 2026 winner is Baby, this is Keke Palmer . Apple said the podcast consistently ranked as one of the most popular shows, and praised it for its “exceptional quality and cultural impact” … more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -16549,10 +16546,37 @@
       "category": "Design"
     },
     {
+      "title": "7 Possible Trans Bond Girls Who’d Leave Us Shaken and Stirred",
+      "url": "https://www.them.us/entertainment/tv-and-movies/trans-bond-girls-actresses-list",
+      "publishedAt": "2026-11-17T20:43:31.000Z",
+      "excerpt": "Have you heard? 007 is getting a makeover. On Monday the official James Bond social media accounts revealed that Robert Pattinson would be the next actor to take on the role of super sexy and suave international spy. He’ll be following Daniel Craig’s departure from the franchise in 2021 following th",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Queer Throuple on ‘SLOMW: OC’ Is Sparking a Conversation About Homophobia in Mormonism",
+      "url": "https://www.them.us/entertainment/tv-and-movies/slomw-queer-throuple",
+      "publishedAt": "2026-11-17T20:30:35.000Z",
+      "excerpt": "From episode one, The Secret Lives of Mormon Wives: Orange County has branded itself as the more progressive spin-off of the popular Hulu reality television show about Mormon wives balancing full-time influencing with their religious values. Although Layla Taylor , one of the original cast members o",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "The First Trans Bond Girl? Before Hunter Schafer Rumors, Caroline Cossey Made History in For Your Eyes Only",
       "url": "https://www.them.us/entertainment/tv-and-movies/caroline-cossey-tula-james-bond",
       "publishedAt": "2026-11-17T19:00:47.000Z",
       "excerpt": "Earlier this week, Variety reported that Hunter Schafer would make history as the first transgender Bond girl if she were cast opposite newly announced 007 Robert Pattinson. But the James Bond franchise has a much deeper trans history than that; in fact, nearly two decades before Schafer was born, a",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The Traitors: Meet the Celebrities Competing on Season 5",
+      "url": "https://www.them.us/entertainment/tv-and-movies/the-traitors-cast",
+      "publishedAt": "2026-11-17T17:40:00.000Z",
+      "excerpt": "This story originally appeared on Out . Who will be banished from the game? The Emmy-winning reality competition series The Traitors is tapping the top celebrities from every corner of the entertainment industry for season 5. Fan-favorite reality TV contestants like Bianca Del Rio ( RuPaul's Drag Ra",
       "source": "Them",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -16697,33 +16721,6 @@
       "url": "https://www.them.us/entertainment/tv-and-movies/wicker-4dx-experience-movie-theater",
       "publishedAt": "2026-11-13T15:43:46.000Z",
       "excerpt": "We all wanted the same thing. By we, I mean, the people who filed into the Regal Times Square’s 4DX theater on an unassuming Tuesday afternoon. I can’t say we came to this place for magic, because that’s an AMC thing, and I’m a Regal Unlimited girlie, but we did come here to be given the simulated s",
-      "source": "Them",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Andrew Scott Says Being a Gay Actor “Isn’t Very Interesting”",
-      "url": "https://www.them.us/entertainment/tv-and-movies/andrew-scott-gay-actor-elsinore",
-      "publishedAt": "2026-11-12T19:34:30.000Z",
-      "excerpt": "Andrew Scott says the fact that he’s a gay actor “isn’t very interesting.” Here’s what he meant by that. The Irish performer, who has received Oscar buzz for his portrayal of a fellow gay actor in Elsinore , discussed the history of queer discrimination in Hollywood in an interview with British Vogu",
-      "source": "Them",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Vivian Wilson Says the GOP’s “Trans Kids Bogeyman” Ads Were a Complete Flop",
-      "url": "https://www.them.us/politics/vivian-wilson-midterms-elon-musk",
-      "publishedAt": "2026-11-12T19:01:09.000Z",
-      "excerpt": "The “blue tsunami” of historic Democratic wins during the U.S. midterm elections confirmed what model Vivian Wilson already knew: investing in a transphobic campaign strategy is cheap talk when people can’t pay for groceries or gas. In an article for The Guardian about youth voters, Wilson, a model ",
-      "source": "Them",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "In the Year of Heated Rivalry, LGBTQ+ Characters Dropped on TV by 25%",
-      "url": "https://www.them.us/entertainment/tv-and-movies/heated-rivalry-glaad-lgbtq-representation",
-      "publishedAt": "2026-11-12T16:20:04.000Z",
-      "excerpt": "While shows like Heated Rivalry that prominently feature LGBTQ+ characters may seem to be more popular than ever, the most recent year in television continued a downward trend when it came to onscreen representation. According to GLAAD’s annual “ Where We Are on TV ” report, queer and trans on-scree",
       "source": "Them",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17089,6 +17086,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "The Radical Intimacies of Ryûsuke Hamaguchi",
+      "url": "https://www.newyorker.com/culture/persons-of-interest/the-radical-intimacies-of-ryusuke-hamaguchi",
+      "publishedAt": "2026-11-17T20:19:06.000Z",
+      "excerpt": "With “All of a Sudden,” the Japanese director confronts the realities of end-of-life care—and the limitations of cinema—with eyes, ears, and arms wide open.",
+      "source": "The New Yorker",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Women Train and Find Sisterhood in “Super Afghan Gym”",
       "url": "https://www.newyorker.com/culture/screening-room/women-train-and-find-sisterhood-in-super-afghan-gym",
       "publishedAt": "2026-11-17T11:00:00.000Z",
@@ -17260,13 +17266,20 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How Sombr Went from TikTok to Madison Square Garden",
-      "url": "https://www.newyorker.com/culture/goings-on/how-sombr-went-from-tiktok-to-madison-square-garden",
-      "publishedAt": "2026-11-13T11:00:00.000Z",
-      "excerpt": "Also: the legacy of Merce Cunningham, Lauren Ambrose in a new play by Nick Payne, early Vincent Price, and more.",
-      "source": "The New Yorker",
-      "category": "Culture",
-      "sourceRole": "publisher"
+      "title": "Olivia Reavey's Impromptu Sensuality",
+      "url": "https://hyperallergic.com/olivia-reaveys-impromptu-sensuality/",
+      "publishedAt": "2026-11-17T21:15:03.000Z",
+      "excerpt": "Everything is a treasured scrap for Reavey to pull from in her unorthodox black-and-white photography.",
+      "source": "Hyperallergic",
+      "category": "Culture"
+    },
+    {
+      "title": "Meet Natalie White, Photography’s Giant Polaroid Whisperer",
+      "url": "https://hyperallergic.com/meet-natalie-white-photographys-giant-polaroid-whisperer/",
+      "publishedAt": "2026-11-17T20:46:59.000Z",
+      "excerpt": "The artist is among the few shooting on the company’s 20x24, creating otherworldly double-exposure self-portraits with a rapidly dwindling stock of nearly 20-year-old film.",
+      "source": "Hyperallergic",
+      "category": "Culture"
     },
     {
       "title": "MFA, MA, and PhD Programs to Apply for by Early 2027",
@@ -17373,19 +17386,19 @@
       "category": "Culture"
     },
     {
-      "title": "“Mighty Miniatures” Features Over 300 Tiny Artworks From Indigenous Communities Across the Western Hemisphere",
-      "url": "https://hyperallergic.com/mighty-miniatures-features-over-300-tiny-artworks-from-indigenous-communities-across-the-western-hemisphere/",
-      "publishedAt": "2026-11-16T18:30:00.000Z",
-      "excerpt": "Opening November 21 at the National Museum of the American Indian in New York, this exhibition includes masterpieces created over a span of nearly two centuries.",
-      "source": "Hyperallergic",
+      "title": "‘The Further Mis-Adventures of Cliff Booth’ Throws Netflix’s Oscar Campaign a Curveball",
+      "url": "https://www.indiewire.com/awards/predictions/further-mis-adventures-cliff-booth-netflix-oscar-chances-1235228865/",
+      "publishedAt": "2026-11-17T20:53:37.000Z",
+      "excerpt": "Of course Netflix has to campaign a film with this much built-in Oscars pedigree, but is that distracting the studio from supporting the viable awards contenders it already has?",
+      "source": "IndieWire",
       "category": "Culture"
     },
     {
-      "title": "Tate Turns Julio Le Parc Into Instagram Art",
-      "url": "https://hyperallergic.com/tate-turns-julio-le-parc-into-instagram-art/",
-      "publishedAt": "2026-11-16T18:02:14.000Z",
-      "excerpt": "The show elides the artist’s political motivations, instead cheerfully encouraging visitors to “let these mesmerizing works engage your senses.”",
-      "source": "Hyperallergic",
+      "title": "How ‘Paper Tiger’ Evolved When Jeremy Strong and Anne Hathaway Couldn’t Reprise Their ‘Armageddon Time’ Roles",
+      "url": "https://www.indiewire.com/features/interviews/paper-tiger-sequel-armageddon-time-1235228811/",
+      "publishedAt": "2026-11-17T20:20:13.000Z",
+      "excerpt": "James Gray discusses recasting his parents with Miles Teller and Scarlett Johansson, his father’s death, and shifting from memoir to crime thriller with “Paper Tiger.”",
+      "source": "IndieWire",
       "category": "Culture"
     },
     {
@@ -17465,22 +17478,6 @@
       "url": "https://www.indiewire.com/news/breaking-news/spider-man-brand-new-day-returning-theaters-extended-cut-1235228526/",
       "publishedAt": "2026-11-16T23:37:56.000Z",
       "excerpt": "The extended version of the mega blockbuster opens December 4, and tickets go on sale November 19.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "‘Minotaur’ Review: Andrey Zvyagintsev’s Riveting Comeback Remakes Claude Chabrol and ‘Unfaithful’ for a Hopeless Wartime Russia",
-      "url": "https://www.indiewire.com/criticism/movies/minotaur-movie-review-andrey-zvyagintsev-1235194820/",
-      "publishedAt": "2026-11-16T21:45:18.000Z",
-      "excerpt": "We've seen this story before, and we know where it's going, but the \"Loveless\" and \"Leviathan\" director repositions the cliches of adultery thrillers into his own gloomy register to engrossing, icily exacting results.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "Cary Grant, Clint Eastwood, and Christian Bale: The Stars Who Almost Played James Bond",
-      "url": "https://www.indiewire.com/features/commentary/james-bond-actors-who-turned-down-rejected-007-1235228381/",
-      "publishedAt": "2026-11-16T21:30:00.000Z",
-      "excerpt": "Since \"Dr. No\" began the series in 1962, some of the world's biggest stars have been considered for 007 — we look at the most famous contenders who turned down or were rejected for the role.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -19651,6 +19648,15 @@
       "category": "Arts"
     },
     {
+      "title": "The Colossal Guide for Creative Gifts",
+      "url": "https://www.thisiscolossal.com/2026/11/colossal-gift-guide-2026/",
+      "publishedAt": "2026-11-17T21:05:30.000Z",
+      "excerpt": "Master the art of creative gifting. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article The Colossal Guide for Creative Gifts appeared first on Colossal .",
+      "source": "Colossal",
+      "category": "Arts",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Esoteric Rituals Meet K-Pop in a Stop-Motion Music Video for Balming Tiger’s ‘Janjan’",
       "url": "https://www.thisiscolossal.com/2026/11/esoteric-rituals-meet-k-pop-in-a-stop-motion-music-video-for-balming-tigers-janjan/",
       "publishedAt": "2026-11-17T19:26:31.000Z",
@@ -19822,15 +19828,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "An Animated Film Made in Excel Sums Up the Pointless Impulse to Create",
-      "url": "https://www.thisiscolossal.com/2026/11/maria-tomazou-i-made-a-film-in-excel/",
-      "publishedAt": "2026-11-05T19:25:40.000Z",
-      "excerpt": "Just because something doesn't have a purpose doesn't mean it isn't worth doing. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article An Animated Film Made in Excel Sums Up the Pointless Impu",
-      "source": "Colossal",
-      "category": "Arts",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "Why is Fox News obsessed with the WNBA?",
       "url": "https://pudding.cool/2026/11/wnba-politics",
       "publishedAt": "2026-11-12T05:00:00.000Z",
@@ -19991,6 +19988,78 @@
       "category": "Arts"
     },
     {
+      "title": "Rights Report: Week of November 16, 2026",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101789-rights-report-week-of-november-16-2026.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "Beyoncé’s BeyGOOD Gives $50,000 to D.C. Teen Literacy and Publishing Nonprofit",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101799-beygood-gives-50-000-to-d-c-teen-literacy-and-publishing-nonprofit.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "Ransom Riggs’s ‘Miss Peregrine’ Marks 15 Years Inside a Time Loop",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101798-ransom-riggs-s-miss-peregrine-s-home-for-peculiar-children-marks-15-years.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "Someone You Should Know: William Johnson, PEN America",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101795-someone-you-should-know-william-johnson-pen-america.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "2026 Shanghai International Children’s Book Fair: A Brief Look at the Chinese Children’s Book Market",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101794-2026-shanghai-international-children-s-book-fair-a-brief-look-at-the-chinese-children-s-book-market.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "2026 Shanghai International Children’s Book Fair: Exhibitors Look for New Market Opportunities",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101793-2026-shanghai-international-children-s-book-fair-exhibitors-look-for-new-market-opportunities.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "Newbery Honoree Soontornvat Returns to Familiar World in New Fantasy",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101791-first-look-take-to-the-sky-by-christina-soontornvat.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "Gideon Sterer on His Banner Year, and What Comes Next",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101790-gideon-sterer-on-his-banner-year-and-what-comes-next.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
+      "title": "‘This Is a Tour’: On the Road with Daniel Nayeri",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101785-this-is-a-tour-on-the-road-with-daniel-nayeri.html",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "excerpt": "",
+      "source": "Publishers Weekly",
+      "category": "Books"
+    },
+    {
       "title": "Advent Devotionals Feature Faith and Imagination",
       "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101787-advent-devotionals-feature-faith-and-imagination.html",
       "publishedAt": "2026-11-17T05:00:00.000Z",
@@ -20075,78 +20144,6 @@
       "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101767-nyt-nypl-announce-best-illustrated-children-s-books-of-2026.html",
       "publishedAt": "2026-11-14T05:00:00.000Z",
       "excerpt": "",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "This Week’s Bestsellers: November 16, 2026",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101778-this-week-s-bestsellers-november-16-2026.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "PW Talks with Armando Montes de Santiago",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101776-pw-talks-with-armando-montes-de-santiago.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "With the Guadalajara International Book Fair kicking off on November 28, Armando Montes De Santiago is busy. The fair’s director of exhibitors, the professionals’ program, and the rights center also oversees its fellowship program, which each year invites a select group of publishers from non-Spanis",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "Must-See at FIL",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101775-must-see-at-fil.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "From deep dives into the spanish publishing industry to the ongoing presence of ai, here’s our programming picks.",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "Guadalajara at 40",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/101774-guadalajara-at-40.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "Director Marisol Schulz Manau says FIL is continuing to grow as the fair celebrates its anniversary with a robust program.",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "How ‘God AI’ by Toby Walsh Got Made",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101773-how-god-ai-by-toby-walsh-got-made.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "An inside look at the publication process for the computer scientist and author’s latest book.",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "Nick Hornby Bets on the Beautiful Game",
-      "url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101772-nick-hornby-bets-on-the-beautiful-game.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "In his latest novel, the author explores soccer, sports betting, and what can really change a person’s life.",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "Blood and Brotherhood: PW Talks with Aaron Philip Clark",
-      "url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101771-blood-and-brotherhood-pw-talks-with-aaron-philip-clark.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "Silicon Valley’s Rose-Tinted Glasses: PW Talks with David Karpf",
-      "url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101770-silicon-valley-s-rose-tinted-glasses-pw-talks-with-david-karpf.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "",
-      "source": "Publishers Weekly",
-      "category": "Books"
-    },
-    {
-      "title": "PW Talks With Don Gorman, Rocky Mountain Books",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101769-pw-talks-with-don-gorman-rocky-mountain-books.html",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "excerpt": "The publisher at the western Canadian house is charting a course for adventure in the company’s 50th year.",
       "source": "Publishers Weekly",
       "category": "Books"
     },
@@ -23191,6 +23188,16 @@
       "category": "Philosophy"
     },
     {
+      "title": "An Inconvenient Life",
+      "url": "https://kottke.org/26/11/an-inconvenient-life",
+      "publishedAt": "2026-11-17T20:41:00.000Z",
+      "excerpt": "Lyndsay Rush , who describes herself as a “part-time poet, full-time dingdong”, goes by the handle of @maryoliversdrunkcousin on Instagram . Her forthcoming collection of poems is called Microdosing Hope (out in March 2027). I liked this one she shared recently, called An Inconvenient Life: I want a",
+      "source": "Kottke",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Kottke"
+    },
+    {
       "title": "Trailer for a new documentary on Jean-Michel Basquiat....",
       "url": "https://kottke.org/26/11/0049996-trailer-for-a-new-documen",
       "publishedAt": "2026-11-17T19:56:00.000Z",
@@ -23375,16 +23382,6 @@
       "url": "https://kottke.org/26/11/a-literary-map-of-the-united-states",
       "publishedAt": "2026-11-13T21:48:00.000Z",
       "excerpt": "From Big Think and Pop Charts, A Literary Map of America that “highlights the real and imagined settings of hundreds of books”. Frank Jacobs takes a closer look at some of the imaginary places on the map , including Sleepy Hollow, Lake Wobegon, Brokeback Mountain, and F. Scott Fitzgerald’s East Egg ",
-      "source": "Kottke",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Kottke"
-    },
-    {
-      "title": "Solving the Feynman restaurant problem, i.e. how many...",
-      "url": "https://kottke.org/26/11/0049960-solving-the-feynman-resta",
-      "publishedAt": "2026-11-13T21:02:00.000Z",
-      "excerpt": "Solving the Feynman restaurant problem , i.e. how many dishes should you sample at a restaurant to find your favorite one? “Once you settle on a dish, the best strategy is to order it on every remaining visit.”",
       "source": "Kottke",
       "category": "Discover",
       "sourceRole": "curator",
@@ -23928,15 +23925,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "Filmstrip Art",
-      "url": "https://www.metafilter.com/215191/Filmstrip-Art",
-      "publishedAt": "2026-11-16T20:38:33.000Z",
-      "excerpt": "Brian Dewan ( wikipedia ) is an upstate NY artist and musician ( previously ) who, with his cousin ( previously ) make electronic musical instruments ( previously ), like the Swarmatron . He's also known for his shrines (that's one on the cover of They Might Be Giants' Lincoln ). So much previously,",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
       "url": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
       "publishedAt": "2026-11-16T15:15:33.000Z",
@@ -24317,6 +24305,30 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "車Cam｜輪椅男誤闖啟德隧道逆線行駛 車輛減慢車速扭軚避開",
+      "url": "https://hk01.com/sns/article/60411993",
+      "publishedAt": "2026-11-17T21:02:02.000Z",
+      "excerpt": "Facebook群組「車cam L（香港群組）」昨日流傳一段「車Cam」，顯示同日晚上10時31分左右，Cam車沿啟德隧道快線往土瓜灣方向行駛，駛近出口時，車Cam拍下右邊路肩出現一名坐電動輪椅的男子，對方戴帽和身穿綠色上衣，沿隧道牆邊緩慢逆線行駛。前方的士一度煞車和向左微扭，Cam主亦減慢車速，繼而扭軚避開，輪椅男若無其事，繼續逆線慢駛，片段便結束。 一名坐電動輪椅的男子沿隧道牆邊緩慢逆線行駛，前方的士一度煞車和向左微扭。（Facebook群組「車cam L（香港群組）」影片截圖） 帖主表示「嚇X屎」，許多網民表示「見鬼」、「識行一定行隧道」。 根據運輸署《道路使用者守則》， 行人不得進入隧",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "蘋果iCloud和App Store等服務中斷 公司稱內部系統更新引起",
+      "url": "https://hk01.com/sns/article/60411995",
+      "publishedAt": "2026-11-17T21:00:30.000Z",
+      "excerpt": "數千名用戶於11月17日向Downdetector報告稱，蘋果（Apple）多項應用程式出現故障。全球數千名用戶報告服務中斷，包括無法登入iCloud帳戶、 App Store無法下載程式等。蘋果官方系統狀態（System Status）頁面顯示，iCloud、 App Store及AppleCare服務出現問題。蘋果發言人隨後證實，故障是由內部系統更新所引起，並強調並非遭受網絡攻擊，多數系統已陸續恢復運作。 2026年11月17日，蘋果官方系統狀態頁面，其iCloud及AppleCare 服務出現問題，App Store故障則已修復。（蘋果網站截圖） 2026年11月17日，蘋果官方系統狀態",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "伊朗指美軍空襲格什姆島 路透：導彈發射場為目標",
+      "url": "https://hk01.com/sns/article/60411992",
+      "publishedAt": "2026-11-17T20:23:04.000Z",
+      "excerpt": "伊朗11月17日再次出動無人機襲擊駐巴林美軍的雷達系統，這已是伊方短短5天內第3度向巴林發動突襲；作為報復，美軍於同日向伊朗發動新一輪空襲。伊朗傳媒報道，南部格什姆島（Qeshm Island）當日傳出爆炸聲並竄起濃煙。 Reportedly footage from this morning of an American strike(s) on Iranian air defenses near northern Qeshm Island, sending smoke rising over the Strait of Hormuz. Avoid wars without any defi",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "李尚正《西遊降魔篇》被逼全裸：深陷拍攝現場的「感情詐騙」",
       "url": "https://hk01.com/sns/article/60410815",
       "publishedAt": "2026-11-17T20:00:40.000Z",
@@ -24373,14 +24385,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "李尚正談星爺公司的新人：年輕一代敢於直接質疑「不好笑」",
-      "url": "https://hk01.com/sns/article/60410813",
-      "publishedAt": "2026-11-17T18:00:27.000Z",
-      "excerpt": "",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "BIGBANG演唱會｜高仿門票符合快達票3大防偽特徵 照紫光燈也中招",
       "url": "https://hk01.com/sns/article/60411348",
       "publishedAt": "2026-11-17T17:49:11.000Z",
@@ -24389,26 +24393,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "北角途人舉報毒品快餐車 疑犯遭按地制服 警拘兩男",
-      "url": "https://hk01.com/sns/article/60411987",
-      "publishedAt": "2026-11-17T17:39:12.000Z",
-      "excerpt": "北角發現「毒品快餐車」。昨晚（17日）9時許，警方接獲途人報案指，見到一輛私家車泊在丹拿道18號對開，懷疑車上有兩人吸毒。警員到場調查，發現懷疑毒品，當場拘捕兩人，警方將案件列作「販運危險藥物」，通知緝毒犬到場搜車，正點算毒品重量和價值。 根據網上圖片，其中一張圖片顯示警方將其中一人按地制服，其餘照片顯示總共有兩人雙手被手銬反鎖，其中一人黑布蒙頭，警方封鎖現場調查。 警方將其中一人按地制服。（Facebook群組「北角有樂」圖片） 其中一人黑布蒙頭。（Facebook群組「北角有樂」圖片） 總共有兩人雙手被手銬反鎖。（Facebook群組「北角有樂」圖片）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "珀麗灣沙灘現老鼠藥 專家斥危害小童健康 管理處稱已提醒承辦商",
       "url": "https://hk01.com/sns/article/60411883",
       "publishedAt": "2026-11-17T16:37:06.000Z",
       "excerpt": "近日有網民在社交平台發文指，懷疑珀麗灣管理處外判的清潔公司，派員到沙灘撒上紅色顆粒老鼠藥。有居民向《香港01》反映，自從9月份起屋苑內的小鳥數量大幅減少，也曾目擊清潔工在沙灘上撒老鼠藥，懷疑部份雀鳥因進食老鼠藥後中毒身亡，又指屋苑花圃放有多塊黏鼠板，間中看到雀鳥黏在板上死亡，因此已就事件向警方、食環署、漁護署等部門報案。 滅蟲專家任永強形容，在沙灘投撒老鼠藥「非常不專業」，並非正常滅鼠操作，因老鼠喜歡有食物、水源、陰暗的地方，沙灘非老鼠出沒之處，若小動物誤吃或導致食物中毒，若小童在地面玩耍時誤碰，將手部放進口中，更會危害人類健康。 涉事管理處周二（17日）回應《香港01》表示，現時屋苑及商場範",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "荃灣新之城「青春無限」3部日式貼紙相機正移除 店員稱相紙停產",
-      "url": "https://hk01.com/sns/article/60411884",
-      "publishedAt": "2026-11-17T15:50:19.000Z",
-      "excerpt": "貼紙相是多代港人的青春回憶，隨着韓式「人生四格」貼紙相機興起，日式美顏貼紙相機的風潮大不如前。目前仍提供日式貼紙相機的商戶，只剩下位於荃灣新之城的「青春無限貼紙城」。近日網傳該店的日式貼紙相機正被移除，《香港01》記者今日（17日）到店觀察，發現店家確實正在移除中，有店員解釋供應商已停產相紙，強調舖頭繼續營業。 有年輕人到店拍貼紙相，笑說日式貼紙相「夠MK」，期望能夠獲得保留，為消費者提供韓式貼紙相機外的選擇。 目前仍提供日式貼紙相機、只剩下荃灣一間分店的「青春無限貼紙城」，近日有3台日式貼紙相機被拆走，有店員解釋供應商已停產相紙。（任葆穎攝） 主打日式貼紙相「青春無限貼紙城」僅餘荃灣新之城店",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24469,10 +24457,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "藍田啟田邨火｜長毛貓房內昏迷 救援人員CPR救20分鐘惜未能救回",
-      "url": "https://hk01.com/sns/article/60411797",
-      "publishedAt": "2026-11-17T08:42:43.000Z",
-      "excerpt": "藍田啟田邨啟旺樓一單位今午（17日）起火，兩人吸入濃煙不適送院。救援人員亦在該單位救出一隻昏迷長毛貓，牠即場接受心肺復蘇（CPR）急救逾20分鐘後，由愛護動物協會人員送交獸醫搶救。現場所見，人員為貓咪戴上氧氣罩，之後再送入氧氣箱送院。涉事貓隻為一隻成年雄性英國長毛貓。 愛協表示，愛協督察於現場將貓隻帶走，並在送往灣仔中心途中持續為牠提供氧氣。惟貓隻送抵中心並交由獸醫檢查時，證實已經死亡。獸醫其後已為貓隻進行檢查。貓隻屍體現存在青衣中心等候主人安排認領。 藍田啟田邨啟旺樓一單位大火，救援人員救出一隻昏迷貓咪，為牠戴上氧氣罩協助呼吸，最終不治。 協助救援的香港守望者服務團（HKGV）表示，涉事長毛",
+      "title": "中大醫院45歲女遭誤切卵巢 醫院指醫生高度專注所致 將按例懲處",
+      "url": "https://hk01.com/sns/article/60411900",
+      "publishedAt": "2026-11-17T10:23:14.000Z",
+      "excerpt": "衞生署昨日（16日）公布今年9月錄得兩宗私營醫療機構呈報的醫療風險警示事件，其中一宗為香港中文大學醫院為45歲女病人進行切除子宮及雙側輸卵管手術時，不慎切錯雙側卵巢，目前病人情況穩定。 中大醫院今午（17日）發聲明稱，對事件深表痛心及遺憾，再次對病人及其家屬致以最深切的慰問與誠摯歉意，並向公眾致歉；又指調查結果顯示，涉事醫生在手術期間因高度專注於處理當下的臨床步驟，出現短暫的認知盲點，未能貫徹執行原定保留卵巢的手術方案，該醫生承認錯誤，院方會嚴肅跟進該名醫生的個人責任，並會根據人事條例對該醫生作出處分。 香港中文大學醫院有女病人被誤切雙側卵巢。（資料圖片／賴卓盈攝） 衞生署於9月接獲2宗私營醫",
       "source": "香港01",
       "category": "Hong Kong"
     },

@@ -2,12 +2,25 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T04:17:13.759Z",
-  "collectedAt": "2026-11-18T04:17:13.759Z",
+  "generatedAt": "2026-11-18T04:27:44.077Z",
+  "collectedAt": "2026-11-18T04:27:44.077Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 74,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Asian Review of Books",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Dense Discovery",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -196,7 +209,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50535885"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +378,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "WIRED",
@@ -470,6 +483,14 @@
           "category": "Technology"
         },
         {
+          "title": "Congratulations to WIRED’s Class of 2026",
+          "url": "https://www.wired.com/story/wired-yearbook-2026/",
+          "publishedAt": "2026-11-17T11:00:00.000Z",
+          "excerpt": "This past year was, frankly, crazy. For our inaugural WIRED Yearbook, we celebrate the people, inventions, and viral moments that made it a little more bearable—and are already defining the future.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
           "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
           "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
           "publishedAt": "2026-11-17T11:00:00.000Z",
@@ -502,14 +523,6 @@
           "category": "Technology"
         },
         {
-          "title": "Congratulations to WIRED’s Class of 2026",
-          "url": "https://www.wired.com/story/wired-yearbook-2026/",
-          "publishedAt": "2026-11-17T11:00:00.000Z",
-          "excerpt": "This past year was, frankly, crazy. For our inaugural WIRED Yearbook, we celebrate the people, inventions, and viral moments that made it a little more bearable—and are already defining the future.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
           "title": "How a Bunch of YouTube Auteurs Are Reinventing Hollywood",
           "url": "https://www.wired.com/story/wired-yearbook-2026-youtube-directors/",
           "publishedAt": "2026-11-17T11:00:00.000Z",
@@ -534,7 +547,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +716,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +885,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1054,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1153,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1297,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Techmeme",
@@ -1458,7 +1471,7 @@
           "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1660,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "TechRadar",
@@ -1773,19 +1786,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch The Circle season 8 online from anywhere – stream the social media competition now",
-          "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-circle-season-8",
+          "title": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon ahead of Black Friday",
+          "url": "https://www.techradar.com/pro/the-kamrui-pinova-p2-is-an-affordable-compact-pc-thats-now-usd40-cheaper-at-amazon-ahead-of-black-friday",
           "publishedAt": "2026-11-17T22:00:00.000Z",
-          "excerpt": "Our guide explains how to watch The Circle season 8 online and stream the social media competition from anywhere in the world.",
+          "excerpt": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon ahead of Black Friday",
-          "url": "https://www.techradar.com/pro/the-kamrui-pinova-p2-is-an-affordable-compact-pc-thats-now-usd40-cheaper-at-amazon-ahead-of-black-friday",
+          "title": "How to watch The Circle season 8 online from anywhere – stream the social media competition now",
+          "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-circle-season-8",
           "publishedAt": "2026-11-17T22:00:00.000Z",
-          "excerpt": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon.",
+          "excerpt": "Our guide explains how to watch The Circle season 8 online and stream the social media competition from anywhere in the world.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1836,7 +1849,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2038,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Humanist Review",
@@ -2187,7 +2200,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "It’s Nice That",
@@ -2376,7 +2389,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Fast Company",
@@ -2520,7 +2533,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Creative Bloq",
@@ -2709,7 +2722,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Sidebar",
@@ -2918,7 +2931,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Creative Boom",
@@ -3087,7 +3100,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3256,7 +3269,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Creative Independent",
@@ -3345,7 +3358,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3514,7 +3527,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "A List Apart",
@@ -3683,7 +3696,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Them",
@@ -3872,7 +3885,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4061,7 +4074,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Atlantic",
@@ -4250,7 +4263,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The New Yorker",
@@ -4439,7 +4452,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Hyperallergic",
@@ -4568,7 +4581,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "IndieWire",
@@ -4673,7 +4686,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Vox",
@@ -4862,7 +4875,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5051,7 +5064,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Conversation",
@@ -5220,7 +5233,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Pew Research Center",
@@ -5389,7 +5402,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "404 Media",
@@ -5518,7 +5531,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Undark",
@@ -5617,7 +5630,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5806,7 +5819,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Noema",
@@ -5995,7 +6008,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "n+1",
@@ -6184,6 +6197,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
     },
     {
@@ -6289,7 +6303,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Quietus",
@@ -6458,7 +6472,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "BFI",
@@ -6627,7 +6641,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6796,7 +6810,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6965,7 +6979,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Colossal",
@@ -7154,7 +7168,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Pudding",
@@ -7323,7 +7337,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7492,7 +7506,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7621,6 +7635,7 @@
           "category": "Books"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
     },
     {
@@ -7790,7 +7805,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Book Marks",
@@ -7959,7 +7974,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "London Review of Books",
@@ -8148,7 +8163,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Millions",
@@ -8317,7 +8332,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Literary Hub",
@@ -8486,7 +8501,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Rumpus",
@@ -8675,7 +8690,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8844,7 +8859,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Electric Literature",
@@ -9013,7 +9028,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Paris Review",
@@ -9102,7 +9117,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Offing",
@@ -9291,7 +9306,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Words Without Borders",
@@ -9480,7 +9495,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Mekong Review",
@@ -9669,7 +9684,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "The Marginalian",
@@ -9838,7 +9853,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Daily Nous",
@@ -10007,7 +10022,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Aeon",
@@ -10176,7 +10191,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Psyche",
@@ -10365,7 +10380,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Tricycle",
@@ -10534,7 +10549,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10703,7 +10718,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Kottke",
@@ -10912,7 +10927,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Longreads",
@@ -11121,7 +11136,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Waxy",
@@ -11350,7 +11365,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "MetaFilter",
@@ -11458,7 +11473,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11647,7 +11662,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Dense Discovery",
@@ -11856,6 +11871,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
     },
     {
@@ -11864,6 +11880,38 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "APEC深圳｜習近平籲建灣區經濟聯盟 李家超：助力國家引領合作",
+          "url": "https://hk01.com/sns/article/60412142",
+          "publishedAt": "2026-11-18T04:22:09.000Z",
+          "excerpt": "2026年亞太經合組織（APEC）工商領導人峰會今日（11月18日）早上在深圳開幕，國家主席習近平表示，中方支持成立世界灣區經濟合作聯盟，深化各灣區交流互動，探索亞太經濟合作新路徑。行政長官李家超回應指，香港會在國家堅強後盾下，繼續發揮自身優勢及灣區優勢，堅持在開放中與各方深度融合、共同發展，助力國家成為引領亞太合作的中堅力量。 行政長官李家超在深圳出席亞太經合組織工商領導人峰會。（政府新聞處) 習近平對促進亞太共同繁榮提出四點建議 習近平為工商領導人峰會發表主旨演講，表示今次中國第三次擔任亞太經合組織東道主，中方願同各方一道，堅定信心、勇毅前行，攜手建設亞太共同體，促進亞太共同繁榮。他提出四",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "領展放售民生區5個停車場、長沙灣商場 估值5.1億 涉373個車位",
+          "url": "https://hk01.com/sns/article/60412136",
+          "publishedAt": "2026-11-18T04:21:47.000Z",
+          "excerpt": "領展房產基金（0823）再度放售旗下一籃子民生區停車場及商場物業。仲量聯行及高力香港承業主委託為聯合獨家代理出售一籃子收租物業組合，該組合由五個分別位於黃大仙、葵涌及紅磡的停車場，以及一項位處長沙灣核心地段的零售物業組成。據悉，該批停車場位於黃大仙下邨、葵涌葵康苑及紅磡邨等。 該一籃子收租物業組合總樓面面積約30,780 平方呎，而五個停車場合共提供約373 個車位，位處成熟民生社區，泊車需求長期穩健。商場及停車場整個組合於2026 年3 月的估價約5.1 億元。 涵蓋停車場及街舖零售物業 該組合涵蓋停車場及街舖零售兩大資產類別。仲量聯行香港資本市場部主管陳國章表示，停車場資產一向被視為抗跌性",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "羽毛球香港賽︱謝影雪夥17歲禹智睿 32強力戰僅負世界第9印尼組合",
+          "url": "https://hk01.com/sns/article/60412108",
+          "publishedAt": "2026-11-18T04:19:29.000Z",
+          "excerpt": "港隊「大師姐」謝影雪夥拍17歲禹智睿，出戰香港羽毛球公開賽，二人成功突破外圍賽，晉身主賽圈，32強面對世界排名第9的印尼組合施雅拿維（Amri Syahnawi）／馬華（Nita Violina Marwah），雙方合演一場精彩激戰。 羽毛球香港賽︱謝影雪夥17歲禹智睿突破外圍賽，亮相主賽圈。（資料圖片／夏家朗攝） 今年香港賽移師啟德體藝館，謝影雪終一嘗在啟德出戰的滋味，老拍檔鄧俊文重創仍在養傷下，帶領首戰賽事的17歲小師弟禹智睿上場，吸收實戰經驗。 羽毛球香港賽︱17歲的禹智睿首戰香港賽。（資料圖片／夏家朗攝） 就算未有太多共同練習機會，二人面對實力強大的對手，在主場之利下表現神勇。首局初段",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "河南理髮師靠碎髮畫關公項羽爆紅 網民：被理髮耽誤的畫家｜有片",
+          "url": "https://hk01.com/sns/article/60412113",
+          "publishedAt": "2026-11-18T04:17:16.000Z",
+          "excerpt": "河南漯河一名37歲理髮師華志杰，不靠畫布和畫紙，專在地板上用顧客剪下的碎髮作畫，題材涵蓋關公、項羽等歷史人物及長城、迎客松等山水。作品曝光後驚呆不少顧客，更有網民笑稱他是「被理髮耽誤的畫家」。 河南漯河一名37歲理髮師華志杰，專在地板上用顧客剪下的碎髮作畫。（抖音截圖） 河南漯河一名37歲理髮師華志杰，專在地板上用顧客剪下的碎髮作畫。（抖音截圖） 1989年出生的華志杰在源匯區經營一家美髮店，自幼熱愛繪畫及歷史人物，但從未系統學過畫畫，純屬個人愛好。(抖音截圖） 尖尾梳作畫筆 電剪精雕五官 據《百姓關注》，1989年出生的華志杰在源匯區經營一家美髮店，自幼熱愛繪畫及歷史人物，但從未系統學過畫畫",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "換季｜日專家警告衣櫃收納3禁忌 一直在養霉菌 乾洗膠袋是元兇?",
           "url": "https://hk01.com/sns/article/60412133",
@@ -11913,38 +11961,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "2026 普惠ESG大獎 表彰中小企科創方案 推動務實減碳與普惠共融",
-          "url": "https://hk01.com/sns/article/60410313",
-          "publishedAt": "2026-11-18T04:00:15.000Z",
-          "excerpt": "由 ESG公會（The ESG Consortium，簡稱ESGC） 舉行的「2026 普惠ESG大獎」11月12日於灣仔皇朝會圓滿舉行。是次典禮匯聚逾100位來自法定機構、大型地產發展商、銀行界及中小企科創領袖，共同見證五家脫穎而出的得獎企業，實踐「動態前行，締造影響；平衡共融，實踐普惠」的核心理念。 典禮榮幸邀請到市區重建局（URA）行政總監蔡宏興先生（Mr. Donald Choi, JP）擔任主禮嘉賓並發表主題演講。蔡先生深入分享可持續市區更新的願景，指出靈活且具成本效益的創新科技，能有效融入舊區重建與樓宇復修工程，在提升環境效益的同時，為市民建構更宜居、更具韌性的共融社區。 表揚五大",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "小米Xiaomi 18 Pro Max評測｜實用AI背屏+ 2億長焦+電量實測",
-          "url": "https://hk01.com/sns/article/60411676",
-          "publishedAt": "2026-11-18T04:00:12.000Z",
-          "excerpt": "小米Xiaomi 18 Pro Max評測｜小米終於香港推出的年度旗艦 Xiaomi 18 Pro系列，首次將備受矚目的創新動態 AI 背屏帶到國際與香港市場。這塊巧妙嵌入機背鏡頭模組區域的副螢幕，並非單純用來顯示時間的裝飾品，而是深度融合了影像創作與生成式AI人工智能的核心交互中心。從 2 億像素 Leica 主鏡頭進行高清自拍、雙面即時取景預覽，到利用文字指令即時生成專屬背屏小程式及 29 種語言雙向面對面翻譯，小米Xiaomi 18 Pro 徹底改寫了手機背面的實用價值。記者提早了入手港版小米Xiaomi 18 Pro Max，第一時間為大家帶來深入上手實測，全面檢視這塊 AI 背屏與旗",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "雲南野菌雞湯餵愛犬出事！狗狗中毒致幻狂刨地 網民揭湯匙惹的禍",
-          "url": "https://hk01.com/sns/article/60408963",
-          "publishedAt": "2026-11-18T04:00:03.000Z",
-          "excerpt": "網友分享一段影片，語重心長地告誡大家：千萬不要給狗吃野生菇菌！至於原因，是這樣的……前不久，她收到了雲南朋友寄來的野菌，一打開箱子，那個香味直衝天靈蓋。狗子聞著味就來了……眼睛一眨不眨地盯著野菌，特別激動，想吃的心到達了頂峰。 網友尋思著好東西也給狗子試下味道，於是她又切了幾塊雞肉，給燉了鍋雞湯。雞湯的味道一定十分鮮美，很快就被愛犬一掃而空。正當網友感嘆自己廚神附體時，不出意外的話，意外發生了…… ►毛孩子有IG了，來追蹤我們吧！ 前不久，她收到了雲南朋友寄來的野菌，一打開箱子，那個香味直衝天靈蓋。（抖音＠露米超能吃） 狗狗：我好像吃完看見我過世長輩了 前不久，她收到了雲南朋友寄來的菌子，一打",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "俄羅斯軍用運輸機墜毀西伯利亞 機上19人全數罹難",
-          "url": "https://hk01.com/sns/article/60412090",
-          "publishedAt": "2026-11-18T03:55:53.000Z",
-          "excerpt": "俄羅斯當地時間11月17日晚發生空難，一架安-12（An-12）軍用運輸機於西伯利亞克麥羅沃州（Kemerovo Oblast）墜毀，機上19人全數罹難。 英國廣播公司（BBC）引述俄羅斯官媒報道， 俄羅斯國防部聲明表示，失事軍機在執行例行飛行任務時墜毀在西伯利亞無人地區，初步判斷原因為機械故障。 從網上流傳的一段監視器畫面顯示，疑似拍下了飛機墜毀的瞬間；遠處可見一個發光物體從空中落下，隨後發生爆炸，將天空照亮，但由於墜機地點距離過遠，無法看清墜毀過程。該片段其後已獲核實為真。 19 people died in the crash of a military An-12 aircraft i",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "西醫洪裕德醉駕撞車罪成後遲申報 醫委會裁專業失德發警告信",
           "url": "https://hk01.com/sns/article/60412089",
           "publishedAt": "2026-11-18T03:53:32.000Z",
@@ -11965,14 +11981,6 @@
           "url": "https://hk01.com/sns/article/60412030",
           "publishedAt": "2026-11-18T03:40:06.000Z",
           "excerpt": "荃灣昨日（17日）傍晚發生偷拍疑雲，一名女子報案指在港鐵荃灣站近綠楊坊懷疑被人偷拍，惟警員檢查涉案男子手提電話內的照片後，未發現不雅照片，案件改列「誤會」處理。 不過事件有新進展，今日（18日）凌晨4時許，女事主在社交平台上傳一段影片，拍攝到涉案紅衣男子在質問下慌張地刪除手機相簿內的片段，女事主再以700字長文講述事發經過，澄清事件並非「誤會」，紅衣男確實有拍攝到其身體，只是沒涉及私密部位，對方亦有道歉。 有人凌晨時分於網上發長文澄清偷拍一事確有發生，非一場誤會。（Threads截圖） 女事主在社交平台threads發表逾700字的文章，開首即自稱為「荃灣地鐵站偷拍事發嘅當事人」，意欲澄清事件",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "2026公廁選舉｜3830萬鯉魚門天價公廁奪金 通州街公廁急需改善",
-          "url": "https://hk01.com/sns/article/60412050",
-          "publishedAt": "2026-11-18T02:44:55.000Z",
-          "excerpt": "11月19日是「世界廁所日」，香港廁所協會今日（18日）公布「2026香港最佳公廁選舉」結果。金獎由鯉魚門（嶺南新村）公廁獲得，該公廁於今年完成重建啟用，造價達3,830萬元。協會形容整體設計簡約時尚，衛生水平非常高，是「六星級公廁」。急待改善廁所則包括深水埗通州街公廁、元朗大橋村公廁、荃灣柴灣角公廁。 協會又認為，目前本港公廁仍有男女比例失衡、女士輪候情況嚴重、廁所設施老化等問題，建議增加女廁比例、加強維修及管理、引入智慧公廁設施。 鯉魚門（嶺南新村）公廁。(食環署影片截圖) 鯉魚門嶺南新村公廁被評美觀大方 達六星級 「最佳公廁選舉」旨在表揚管理優良、設施完善及具創新元素的優質公廁，同時推動",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12023,9 +12031,17 @@
           "excerpt": "荃灣今日（17日）傍晚發生偷拍疑雲。傍晚6時46分左右，警方接獲一名女子報案，指在港鐵荃灣站近綠楊坊一帶懷疑被人偷拍。網上流傳片段顯示，涉事男子在現場被兩名熱心男途人當場截獲並合力制服，片段末段見到有軍裝警員到場調查。 不過警員經調查及檢查涉案男子手提電話內的照片後，並未發現不雅照片，將案件改列「誤會」。據知，涉案男子手機中有多張街拍，以及事主與友人的半身照片。該男子聲稱在街拍期間無意間拍攝到事主，他最終在警方監督下刪除相關照片。 涉案男子（紅衣者）在現場被兩名男途人合力截獲並制服。（threads grace._.0216） 片段顯示，有蓋行人天橋上有大批市民聚集圍觀及舉機拍攝，亦有港鐵職員",
           "source": "香港01",
           "category": "Hong Kong"
+        },
+        {
+          "title": "香港中學生海邊活春宮！完事後女生1舉動震撼 網民斥：行為離譜",
+          "url": "https://hk01.com/sns/article/60411495",
+          "publishedAt": "2026-11-17T12:57:13.000Z",
+          "excerpt": "【活春宮／不雅影片／ #聽海浪】公共地方不應作出猥褻行為！本港社交平台Threads及多個網上討論區近日流傳1段「中學生海邊活春宮」影片，顯示土瓜灣海心公園海心亭有一對穿上校服的男女，當眾作出性行為動作；男方完事後，女生1舉動更震撼。 影片引來網民嘩然，有人聲稱認出涉事男女所穿校服，疑為香港某中學校服，批評2人行為離譜，呼籲報警。 警方指，九龍城警區刑事支援隊人員經深入調查後，今日（17日）拘捕1名17歲少年，涉嫌「向年齡在十六歲以下的兒童作出猥褻行為」。被捕人現正被扣留調查。 據了解，案中男女2024年起已是情侶，事發於半年前，被不知名人士拍下影片後，近日影片在網上被公開，警方介入調查後拘捕",
+          "source": "香港01",
+          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "有線新聞",
@@ -12033,6 +12049,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "APEC｜國泰林紹波：冀措施助互通亞太旅客 擬未來十年增逾百航點",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/524887/apec-%E5%9C%8B%E6%B3%B0%E6%9E%97%E7%B4%B9%E6%B3%A2-%E5%86%80%E6%8E%AA%E6%96%BD%E5%8A%A9%E4%BA%92%E9%80%9A%E4%BA%9E%E5%A4%AA%E6%97%85%E5%AE%A2-%E6%93%AC%E6%9C%AA%E4%BE%86",
+          "publishedAt": "2026-11-18T04:26:06.000Z",
+          "excerpt": "【有線新聞】國泰行政總裁林紹波說，希望透過APEC峰會倡議措施，讓亞太地區旅客互通做得更好，又計劃未來十年將航",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "APEC｜普京致辭稱預期俄中美三方峰會具巨大潛在好處",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525035/apec-%E6%99%AE%E4%BA%AC%E8%87%B4%E8%BE%AD%E7%A8%B1%E9%A0%90%E6%9C%9F%E4%BF%84%E4%B8%AD%E7%BE%8E%E4%B8%89%E6%96%B9%E5%B3%B0%E6%9C%83%E5%85%B7%E5%B7%A8%E5%A4%A7%E6%BD%9B%E5%9C%A8%E5%A5%BD",
+          "publishedAt": "2026-11-18T04:24:17.000Z",
+          "excerpt": "【有線新聞】俄羅斯總統普京在APEC工商領導人峰會特別致辭，稱預期俄中美三方峰會會產生巨大潛在好處。 普京講話",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "APEC領導人非正式會議受關注 國台辦：幫助台商台企在大陸更好發展",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/525030/apec%E9%A0%98%E5%B0%8E%E4%BA%BA%E9%9D%9E%E6%AD%A3%E5%BC%8F%E6%9C%83%E8%AD%B0%E5%8F%97%E9%97%9C%E6%B3%A8-%E5%9C%8B%E5%8F%B0%E8%BE%A6-%E5%B9%AB%E5%8A%A9%E5%8F%B0%E5%95%86%E5%8F%B0",
@@ -12176,25 +12208,9 @@
           "excerpt": "【有線新聞】Anthropic公開招股，據報市場需求強勁，多個現有股東計劃加碼投資或提高招股價。 彭博引述消息",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "APEC｜工商領導人峰會合照",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/524950/apec-%E5%B7%A5%E5%95%86%E9%A0%98%E5%B0%8E%E4%BA%BA%E5%B3%B0%E6%9C%83%E5%90%88%E7%85%A7",
-          "publishedAt": "2026-11-18T02:09:42.000Z",
-          "excerpt": "",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "神舟二十四號近日擇機發射",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/524947/%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%99%9F%E8%BF%91%E6%97%A5%E6%93%87%E6%A9%9F%E7%99%BC%E5%B0%84",
-          "publishedAt": "2026-11-18T01:49:12.000Z",
-          "excerpt": "【有線新聞】神舟二十四號船箭組合體已轉運至發射區，計劃近日擇機發射。 中國載人航天工程辦公室指，目前發射場設施",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Now 新聞",
@@ -12363,7 +12379,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12532,7 +12548,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12541,7 +12557,31 @@
       "count": 20,
       "stories": [
         {
-          "title": "議政四方｜林振昇倡考慮密閉空間作業等工程 納入呈報機制",
+          "title": "港股半日跌266點 京東系股份急挫",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878268-20261118.htm",
+          "publishedAt": "2026-11-18T04:16:46.000Z",
+          "excerpt": "港股臨近中午跌幅擴大，恒生指數中午報23241點，跌266點，跌幅1.1%，主板成交額約869億元。 科技指數報3702點，跌近1.5%。 京東系在業績後大幅下挫，京東集團半日跌約8%，京東健康跌近18%，是表現最差兩隻恒指及科指成份股；京東物流跌逾4%。 網上醫療平台、醫藥股跌幅較大，內房及金融股亦跌，重磅股友邦及滙控跌近2%或以上。 ATMXJ其餘股份跌近1%或以上。 內地3大油股逆市升近1%或以上，公用及電信股普遍靠穩。新奧能源升逾4%，是表現最好藍籌股。 編輯：宋家樑",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳APEC｜李家超稱對習近平演講感鼓舞 本港續發揮灣區優勢",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878269-20261118.htm",
+          "publishedAt": "2026-11-18T04:14:29.000Z",
+          "excerpt": "行政長官李家超表示，國家主席習近平在深圳出席2026年亞太經合組織工商領導人峰會開幕式並發表主旨演講，他感到十分振奮和鼓舞，香港作為APEC成員經濟體，長期擔當著重要的區域經貿與合作樞紐，是世界上最具競爭力的經濟體之一，一直堅定支持自由貿易和多邊主義，積極通過亞太經合組織的平台，持續深化國際交往合作。香港與其他APEC成員經濟體的貿易往來，更佔香港外貿總值高達87%。 正在深圳出席會議的李家超，在社交專頁表示，香港與深圳同屬粵港澳大灣區城市。正如主席習近平指出，大灣區經濟具有鮮明的開放性、協同性和外溢性。香港作為全球最開放的國際城市之一，可作為全球工商界進入大灣區及內地發展的跳板，亦會繼續通過",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "議政四方｜吳永嘉倡電影發展基金資助AI短劇製作",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878266-20261118.htm",
+          "publishedAt": "2026-11-18T04:11:39.000Z",
+          "excerpt": "經民聯立法會議員吳永嘉表示，受串流平台和市民北上消費影響，本港去年戲院總入場人次和全年總票房分別按年下跌超過一成，戲院數目亦較疫情前減少。他期望政府可以透過現正進行的全面檢討，將「電影發展基金」的資助上限提高，以推動電影業發展，同時落實《施政報告》提出的「電影＋旅遊」措施。 吳永嘉在立法會大會提出書面質詢，關注支援香港電影業發展，他在本台節目《議政四方》建議政府，除了提高「電影發展基金」的資助上限和融資比例，同時因應近年人工智能短劇的製作盛行，基金可考慮納入資助範圍，吸引更多人入行發展。 《施政報告》提出，文創處設立「境外電影拍攝支援組」，吳永嘉認為，支援組除了為境外拍攝團隊提供場地協助外，亦",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "議政四方｜林振昇倡考慮吊棚等工程納入呈報機制",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1878264-20261118.htm",
           "publishedAt": "2026-11-18T04:07:18.000Z",
           "excerpt": "建造業的致命工業意外數目和每千名工人意外率，均是各行業之中最高。在立法會大會上，勞聯選委界立法會議員林振昇提出口頭質詢，關注涉及裝修及維修工程的致命意外數目，以及勞工處就小型建築工程的法定呈報。林振昇表示，現時小型工程毋須呈報，政府無法巡查。他表示，政府幾年前曾建議修例，擴大呈報範圍，當時有小型工程承辦商關注會否加重工作負擔，他建議可透過簡化申報表格，或是以電子方式呈報，令申報過程更簡單。 林振昇接受本台《議政四方》訪問時又表示，如果將一定比例的小型工程納入呈報，對加強工地安全意識有幫助。他又認為，可以善用科技，例如勞工處近年用無人機巡查和執法，反映有成效，相信可以節省巡查所需的人手。 政府幾",
@@ -12675,33 +12715,9 @@
           "excerpt": "韓國男團BIGBANG在啟德主場館舉行四場演唱會，今晚最後一場。警方拘捕一名涉嫌售賣「黃牛票」的女子。 警方在社交平台表示，今日在啟德體育園一帶展開連串打擊「黃牛票」行動，一名便衣警員拘捕一名涉嫌以高於門票面值的價格兜售當晚演唱會兩張門票的女子，而主辦方在接報後已將涉案門票作廢處理。 警方強調，會持續加強執法行動打擊「黃牛票」活動，並呼籲市民透過正規渠道購票，避免助長炒作行為或因購買無效門票而遭受損失。 編輯：鍾慧儀",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "警方拘17歲少年涉猥褻16歲以下兒童 教育局高度關注",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878183-20261117.htm",
-          "publishedAt": "2026-11-17T14:13:26.000Z",
-          "excerpt": "警方拘捕一名17歲少年，涉嫌猥褻16歲以下兒童。 社交平台近日流傳一對年輕男女在土瓜灣海心公園海邊的影片，當中有人身穿校服。警方表示，九龍城警區刑事支援隊人員經深入調查後，拘捕一名17歲男童，涉嫌「向年齡在十六歲以下的兒童作出猥褻行為」。被捕人現正被扣留調查。 教育局發言人表示，對事件極度關注，已即時聯絡學校，知悉學校正嚴肅跟進有關事件，並會為有需要的學生提供輔導和支援。教育局已提醒學校需加強建立學生的正確價值觀及行為，會繼續與學校保持聯繫，以提供適切意見及支援。 教育局重申，一直重視學生的性教育，今年4月公布的《價值觀教育課程架構》繼續將性教育列為學校應持續加強關注的重點之一。教育局持續透過",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "深圳APEC｜新界北列臨時禁飛區 非華裔男子涉操作無人機被捕",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878182-20261117.htm",
-          "publishedAt": "2026-11-17T13:59:49.000Z",
-          "excerpt": "一名40歲非華裔男子涉嫌在未獲授權下，於警務處處長就2026年亞太區經濟合作組織相關會議設立的臨時限制飛行區，操作小型無人機拍攝，涉嫌違反《小型無人機令》被捕。 警方表示，新界北總區機動部隊人員，在元朗南生圍巡邏期間，發現有關男子在未獲授權下於禁飛區內操作小型無人機拍攝。 警方再次提醒市民，本周二凌晨起，直至本周五晚上11時59分，整個新界北部空域均列為臨時限制飛行區，不得進行飛行活動，包括無人機、滑翔傘、飛艇、風箏、繫留氣球，及放飛大量氣球；在同一時段，除政府飛行服務隊外，所有直升機及小型飛機不得在設立的全港臨時限制飛行區範圍內進行任何飛行活動。",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "一名本地船長及五名內地過港漁工涉用蛇籠捕魚被落案控告",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878179-20261117.htm",
-          "publishedAt": "2026-11-17T13:24:50.000Z",
-          "excerpt": "漁護署控告一名本地船長及五名內地過港漁工，涉嫌在沙洲附近水域一艘本地船隻上使用蛇籠捕魚。六人涉嫌違反《漁業保護條例》，已被落案控告，案件將於明日在屯門裁判法院提堂。 漁護署人員昨晚約八時，在有關水域截停一艘涉嫌使用蛇籠捕魚的本地船隻調查，漁護署人員從船上檢取一批絞轆。 漁護署表示，任何人士在本港水域使用船隻捕魚時，船隻必須根據《漁業保護條例》登記及按其本地漁船登記證明書上所列出的捕魚方法捕魚。本地漁船登記證明書有關浸籠部分的登記條件亦指明任何摺疊式浸籠不得以任何方式與另一浸籠連接，或其任何一面伸展後的長度不得超過五米。 漁護署發言人強調，一直致力打擊香港水域的非法捕魚活動。 編輯：鍾慧儀",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "South China Morning Post",
@@ -12870,7 +12886,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12878,6 +12894,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "立法會二題：防止利用電話卡進行詐騙",
+          "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800295.htm",
+          "publishedAt": "2026-11-18T04:25:00.000Z",
+          "excerpt": "以下是今日（十一月十八日）在立法會會議上陳文宜議員的提問和署理商務及經濟發展局局長陳百里博士的答覆： &nbsp; 問題： &nbsp; 據報有人以不同方式將已登記的電話智能卡交予詐騙集團。由於租借或售賣電話卡不屬罪行，電話卡登記人可藉不知情作辯解，逃避詐騙刑責。就此，政府可否告知本會： &nbsp; （一）有否研究已實名登記電話卡流入詐騙集團的常見方法，並評估證明電話卡登記人干犯詐騙罪行的舉證門檻及可行方案； &nbsp; （二）鑑於政府去年表示，會於本年就打擊不當使用電話卡向本會提交條例草案，有關的進度為何；會否在立法前推出行政措施堵塞相關漏洞，例如要求電訊商核查短期大量登記電話卡或頻繁轉",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "立法會十七題：寵物通關便利化",
           "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800254.htm",
@@ -12959,7 +12983,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "財政司司長出席「投資中國·選擇陝西」優勢產業資本香港懇談會致辭（只有中文）（附圖）",
+          "title": "財政司司長出席「投資中國·選擇陝西」優勢產業資本香港懇談會致辭（只有中文）（附圖 ／短片）",
           "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800246.htm",
           "publishedAt": "2026-11-18T02:45:00.000Z",
           "excerpt": "以下是財政司司長陳茂波今日（十一月十八日）出席「投資中國&middot;選擇陝西」優勢產業資本香港懇談會的致辭： 尊敬的趙剛省長（陝西省省長）、葉牛平市長（西安市市長）、尊敬的張勇副主任（中央人民政府駐香港特別行政區聯絡辦公室副主任），各位嘉賓、各位朋友： 大家早上好！很高興出席今天的懇談會。首先，容許我代表香港特區政府，對遠道而來的趙剛省長、葉牛平市長和陝西省代表團，表示最熱烈的歡迎，也向長期以來支持和推動陝港合作的各界朋友，致以最衷心感謝！ 當前，國家正深入推進落實「十五五」規劃，為各地發揮所長、深化合作開拓更廣闊的空間。習近平主席指出：「『十五五』時期，必須把因地制宜發展新質生產力擺在更",
@@ -13029,17 +13053,9 @@
           "excerpt": "以下是文化體育及旅遊局局長羅淑佩今日（十一月十七日）出席閃爍尖東耀香江亮燈儀式2026的致辭全文： 田兆源先生（東尖沙咀地產發展商聯會董事）、麥美娟局長（民政及青年事務局局長）、林建岳博士（香港旅遊發展局（旅發局）主席）、 姚柏良議員（立法會議員）、江旻憓議員（立法會議員）、各位嘉賓、各位朋友： 大家晚上好。我和大家一樣都很高興出席閃爍尖東耀香江2026的亮燈儀式。每年尖東璀璨的燈飾亮起，就代表聖誕及新年快將來臨。這些繽紛悅目的燈飾照耀維港，多年來已成為香港冬日節慶的標誌性風景。尖東的節日燈飾深受市民和旅客的喜愛，亦陪伴香港人超過四十年。年輕的時候，我們會來觀看燈飾，是一個很大的節目；年紀再大",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "挪威和美國部分地區禽肉及禽類產品暫停進口",
-          "url": "https://www.info.gov.hk/gia/general/202611/17/P2026111700482.htm",
-          "publishedAt": "2026-11-17T11:25:50.000Z",
-          "excerpt": "食物環境衞生署食物安全中心（中心）今日（十一月十七日）宣布，因應世界動物衞生組織通報，指挪威和美國部分地區爆發高致病性H5N1禽流感，中心即時指示業界暫停從有關地區進口禽肉及禽類產品（包括禽蛋），以保障本港公眾健康。&nbsp; 有關地區為：&nbsp; 挪威&nbsp; &mdash;&mdash;&nbsp; （一）阿克斯胡斯郡&nbsp; 阿格德爾郡&nbsp; （二）Vennesla Municipality&nbsp; 美國&nbsp; &mdash;&mdash;&nbsp; 加利福尼亞州&nbsp; （三）史丹尼斯勞斯縣&nbsp; 愛荷華州&nbsp; （四）Sac縣&nbsp",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-18T04:17:13.759Z"
+      "lastSuccessfulAt": "2026-11-18T04:27:44.077Z"
     }
   ],
   "stories": [
@@ -13480,6 +13496,14 @@
       "category": "Technology"
     },
     {
+      "title": "Congratulations to WIRED’s Class of 2026",
+      "url": "https://www.wired.com/story/wired-yearbook-2026/",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "excerpt": "This past year was, frankly, crazy. For our inaugural WIRED Yearbook, we celebrate the people, inventions, and viral moments that made it a little more bearable—and are already defining the future.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
       "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
       "publishedAt": "2026-11-17T11:00:00.000Z",
@@ -13508,14 +13532,6 @@
       "url": "https://www.wired.com/story/wired-yearbook-2026-ms-rachel/",
       "publishedAt": "2026-11-17T11:00:00.000Z",
       "excerpt": "Throughout the past year, the children’s entertainer has called for grown-ups to do more to stand up for children everywhere, from ICE detention centers to Gaza.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Congratulations to WIRED’s Class of 2026",
-      "url": "https://www.wired.com/story/wired-yearbook-2026/",
-      "publishedAt": "2026-11-17T11:00:00.000Z",
-      "excerpt": "This past year was, frankly, crazy. For our inaugural WIRED Yearbook, we celebrate the people, inventions, and viral moments that made it a little more bearable—and are already defining the future.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14711,19 +14727,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch The Circle season 8 online from anywhere – stream the social media competition now",
-      "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-circle-season-8",
+      "title": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon ahead of Black Friday",
+      "url": "https://www.techradar.com/pro/the-kamrui-pinova-p2-is-an-affordable-compact-pc-thats-now-usd40-cheaper-at-amazon-ahead-of-black-friday",
       "publishedAt": "2026-11-17T22:00:00.000Z",
-      "excerpt": "Our guide explains how to watch The Circle season 8 online and stream the social media competition from anywhere in the world.",
+      "excerpt": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon ahead of Black Friday",
-      "url": "https://www.techradar.com/pro/the-kamrui-pinova-p2-is-an-affordable-compact-pc-thats-now-usd40-cheaper-at-amazon-ahead-of-black-friday",
+      "title": "How to watch The Circle season 8 online from anywhere – stream the social media competition now",
+      "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-circle-season-8",
       "publishedAt": "2026-11-17T22:00:00.000Z",
-      "excerpt": "The KAMRUI Pinova P2 is an affordable, compact PC that’s now $40 cheaper at Amazon.",
+      "excerpt": "Our guide explains how to watch The Circle season 8 online and stream the social media competition from anywhere in the world.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -24263,6 +24279,38 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "APEC深圳｜習近平籲建灣區經濟聯盟 李家超：助力國家引領合作",
+      "url": "https://hk01.com/sns/article/60412142",
+      "publishedAt": "2026-11-18T04:22:09.000Z",
+      "excerpt": "2026年亞太經合組織（APEC）工商領導人峰會今日（11月18日）早上在深圳開幕，國家主席習近平表示，中方支持成立世界灣區經濟合作聯盟，深化各灣區交流互動，探索亞太經濟合作新路徑。行政長官李家超回應指，香港會在國家堅強後盾下，繼續發揮自身優勢及灣區優勢，堅持在開放中與各方深度融合、共同發展，助力國家成為引領亞太合作的中堅力量。 行政長官李家超在深圳出席亞太經合組織工商領導人峰會。（政府新聞處) 習近平對促進亞太共同繁榮提出四點建議 習近平為工商領導人峰會發表主旨演講，表示今次中國第三次擔任亞太經合組織東道主，中方願同各方一道，堅定信心、勇毅前行，攜手建設亞太共同體，促進亞太共同繁榮。他提出四",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "領展放售民生區5個停車場、長沙灣商場 估值5.1億 涉373個車位",
+      "url": "https://hk01.com/sns/article/60412136",
+      "publishedAt": "2026-11-18T04:21:47.000Z",
+      "excerpt": "領展房產基金（0823）再度放售旗下一籃子民生區停車場及商場物業。仲量聯行及高力香港承業主委託為聯合獨家代理出售一籃子收租物業組合，該組合由五個分別位於黃大仙、葵涌及紅磡的停車場，以及一項位處長沙灣核心地段的零售物業組成。據悉，該批停車場位於黃大仙下邨、葵涌葵康苑及紅磡邨等。 該一籃子收租物業組合總樓面面積約30,780 平方呎，而五個停車場合共提供約373 個車位，位處成熟民生社區，泊車需求長期穩健。商場及停車場整個組合於2026 年3 月的估價約5.1 億元。 涵蓋停車場及街舖零售物業 該組合涵蓋停車場及街舖零售兩大資產類別。仲量聯行香港資本市場部主管陳國章表示，停車場資產一向被視為抗跌性",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "羽毛球香港賽︱謝影雪夥17歲禹智睿 32強力戰僅負世界第9印尼組合",
+      "url": "https://hk01.com/sns/article/60412108",
+      "publishedAt": "2026-11-18T04:19:29.000Z",
+      "excerpt": "港隊「大師姐」謝影雪夥拍17歲禹智睿，出戰香港羽毛球公開賽，二人成功突破外圍賽，晉身主賽圈，32強面對世界排名第9的印尼組合施雅拿維（Amri Syahnawi）／馬華（Nita Violina Marwah），雙方合演一場精彩激戰。 羽毛球香港賽︱謝影雪夥17歲禹智睿突破外圍賽，亮相主賽圈。（資料圖片／夏家朗攝） 今年香港賽移師啟德體藝館，謝影雪終一嘗在啟德出戰的滋味，老拍檔鄧俊文重創仍在養傷下，帶領首戰賽事的17歲小師弟禹智睿上場，吸收實戰經驗。 羽毛球香港賽︱17歲的禹智睿首戰香港賽。（資料圖片／夏家朗攝） 就算未有太多共同練習機會，二人面對實力強大的對手，在主場之利下表現神勇。首局初段",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "河南理髮師靠碎髮畫關公項羽爆紅 網民：被理髮耽誤的畫家｜有片",
+      "url": "https://hk01.com/sns/article/60412113",
+      "publishedAt": "2026-11-18T04:17:16.000Z",
+      "excerpt": "河南漯河一名37歲理髮師華志杰，不靠畫布和畫紙，專在地板上用顧客剪下的碎髮作畫，題材涵蓋關公、項羽等歷史人物及長城、迎客松等山水。作品曝光後驚呆不少顧客，更有網民笑稱他是「被理髮耽誤的畫家」。 河南漯河一名37歲理髮師華志杰，專在地板上用顧客剪下的碎髮作畫。（抖音截圖） 河南漯河一名37歲理髮師華志杰，專在地板上用顧客剪下的碎髮作畫。（抖音截圖） 1989年出生的華志杰在源匯區經營一家美髮店，自幼熱愛繪畫及歷史人物，但從未系統學過畫畫，純屬個人愛好。(抖音截圖） 尖尾梳作畫筆 電剪精雕五官 據《百姓關注》，1989年出生的華志杰在源匯區經營一家美髮店，自幼熱愛繪畫及歷史人物，但從未系統學過畫畫",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "換季｜日專家警告衣櫃收納3禁忌 一直在養霉菌 乾洗膠袋是元兇?",
       "url": "https://hk01.com/sns/article/60412133",
       "publishedAt": "2026-11-18T04:08:40.000Z",
@@ -24311,38 +24359,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "2026 普惠ESG大獎 表彰中小企科創方案 推動務實減碳與普惠共融",
-      "url": "https://hk01.com/sns/article/60410313",
-      "publishedAt": "2026-11-18T04:00:15.000Z",
-      "excerpt": "由 ESG公會（The ESG Consortium，簡稱ESGC） 舉行的「2026 普惠ESG大獎」11月12日於灣仔皇朝會圓滿舉行。是次典禮匯聚逾100位來自法定機構、大型地產發展商、銀行界及中小企科創領袖，共同見證五家脫穎而出的得獎企業，實踐「動態前行，締造影響；平衡共融，實踐普惠」的核心理念。 典禮榮幸邀請到市區重建局（URA）行政總監蔡宏興先生（Mr. Donald Choi, JP）擔任主禮嘉賓並發表主題演講。蔡先生深入分享可持續市區更新的願景，指出靈活且具成本效益的創新科技，能有效融入舊區重建與樓宇復修工程，在提升環境效益的同時，為市民建構更宜居、更具韌性的共融社區。 表揚五大",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "小米Xiaomi 18 Pro Max評測｜實用AI背屏+ 2億長焦+電量實測",
-      "url": "https://hk01.com/sns/article/60411676",
-      "publishedAt": "2026-11-18T04:00:12.000Z",
-      "excerpt": "小米Xiaomi 18 Pro Max評測｜小米終於香港推出的年度旗艦 Xiaomi 18 Pro系列，首次將備受矚目的創新動態 AI 背屏帶到國際與香港市場。這塊巧妙嵌入機背鏡頭模組區域的副螢幕，並非單純用來顯示時間的裝飾品，而是深度融合了影像創作與生成式AI人工智能的核心交互中心。從 2 億像素 Leica 主鏡頭進行高清自拍、雙面即時取景預覽，到利用文字指令即時生成專屬背屏小程式及 29 種語言雙向面對面翻譯，小米Xiaomi 18 Pro 徹底改寫了手機背面的實用價值。記者提早了入手港版小米Xiaomi 18 Pro Max，第一時間為大家帶來深入上手實測，全面檢視這塊 AI 背屏與旗",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "雲南野菌雞湯餵愛犬出事！狗狗中毒致幻狂刨地 網民揭湯匙惹的禍",
-      "url": "https://hk01.com/sns/article/60408963",
-      "publishedAt": "2026-11-18T04:00:03.000Z",
-      "excerpt": "網友分享一段影片，語重心長地告誡大家：千萬不要給狗吃野生菇菌！至於原因，是這樣的……前不久，她收到了雲南朋友寄來的野菌，一打開箱子，那個香味直衝天靈蓋。狗子聞著味就來了……眼睛一眨不眨地盯著野菌，特別激動，想吃的心到達了頂峰。 網友尋思著好東西也給狗子試下味道，於是她又切了幾塊雞肉，給燉了鍋雞湯。雞湯的味道一定十分鮮美，很快就被愛犬一掃而空。正當網友感嘆自己廚神附體時，不出意外的話，意外發生了…… ►毛孩子有IG了，來追蹤我們吧！ 前不久，她收到了雲南朋友寄來的野菌，一打開箱子，那個香味直衝天靈蓋。（抖音＠露米超能吃） 狗狗：我好像吃完看見我過世長輩了 前不久，她收到了雲南朋友寄來的菌子，一打",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "俄羅斯軍用運輸機墜毀西伯利亞 機上19人全數罹難",
-      "url": "https://hk01.com/sns/article/60412090",
-      "publishedAt": "2026-11-18T03:55:53.000Z",
-      "excerpt": "俄羅斯當地時間11月17日晚發生空難，一架安-12（An-12）軍用運輸機於西伯利亞克麥羅沃州（Kemerovo Oblast）墜毀，機上19人全數罹難。 英國廣播公司（BBC）引述俄羅斯官媒報道， 俄羅斯國防部聲明表示，失事軍機在執行例行飛行任務時墜毀在西伯利亞無人地區，初步判斷原因為機械故障。 從網上流傳的一段監視器畫面顯示，疑似拍下了飛機墜毀的瞬間；遠處可見一個發光物體從空中落下，隨後發生爆炸，將天空照亮，但由於墜機地點距離過遠，無法看清墜毀過程。該片段其後已獲核實為真。 19 people died in the crash of a military An-12 aircraft i",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "西醫洪裕德醉駕撞車罪成後遲申報 醫委會裁專業失德發警告信",
       "url": "https://hk01.com/sns/article/60412089",
       "publishedAt": "2026-11-18T03:53:32.000Z",
@@ -24363,14 +24379,6 @@
       "url": "https://hk01.com/sns/article/60412030",
       "publishedAt": "2026-11-18T03:40:06.000Z",
       "excerpt": "荃灣昨日（17日）傍晚發生偷拍疑雲，一名女子報案指在港鐵荃灣站近綠楊坊懷疑被人偷拍，惟警員檢查涉案男子手提電話內的照片後，未發現不雅照片，案件改列「誤會」處理。 不過事件有新進展，今日（18日）凌晨4時許，女事主在社交平台上傳一段影片，拍攝到涉案紅衣男子在質問下慌張地刪除手機相簿內的片段，女事主再以700字長文講述事發經過，澄清事件並非「誤會」，紅衣男確實有拍攝到其身體，只是沒涉及私密部位，對方亦有道歉。 有人凌晨時分於網上發長文澄清偷拍一事確有發生，非一場誤會。（Threads截圖） 女事主在社交平台threads發表逾700字的文章，開首即自稱為「荃灣地鐵站偷拍事發嘅當事人」，意欲澄清事件",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "2026公廁選舉｜3830萬鯉魚門天價公廁奪金 通州街公廁急需改善",
-      "url": "https://hk01.com/sns/article/60412050",
-      "publishedAt": "2026-11-18T02:44:55.000Z",
-      "excerpt": "11月19日是「世界廁所日」，香港廁所協會今日（18日）公布「2026香港最佳公廁選舉」結果。金獎由鯉魚門（嶺南新村）公廁獲得，該公廁於今年完成重建啟用，造價達3,830萬元。協會形容整體設計簡約時尚，衛生水平非常高，是「六星級公廁」。急待改善廁所則包括深水埗通州街公廁、元朗大橋村公廁、荃灣柴灣角公廁。 協會又認為，目前本港公廁仍有男女比例失衡、女士輪候情況嚴重、廁所設施老化等問題，建議增加女廁比例、加強維修及管理、引入智慧公廁設施。 鯉魚門（嶺南新村）公廁。(食環署影片截圖) 鯉魚門嶺南新村公廁被評美觀大方 達六星級 「最佳公廁選舉」旨在表揚管理優良、設施完善及具創新元素的優質公廁，同時推動",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24420,6 +24428,30 @@
       "publishedAt": "2026-11-17T13:32:09.000Z",
       "excerpt": "荃灣今日（17日）傍晚發生偷拍疑雲。傍晚6時46分左右，警方接獲一名女子報案，指在港鐵荃灣站近綠楊坊一帶懷疑被人偷拍。網上流傳片段顯示，涉事男子在現場被兩名熱心男途人當場截獲並合力制服，片段末段見到有軍裝警員到場調查。 不過警員經調查及檢查涉案男子手提電話內的照片後，並未發現不雅照片，將案件改列「誤會」。據知，涉案男子手機中有多張街拍，以及事主與友人的半身照片。該男子聲稱在街拍期間無意間拍攝到事主，他最終在警方監督下刪除相關照片。 涉案男子（紅衣者）在現場被兩名男途人合力截獲並制服。（threads grace._.0216） 片段顯示，有蓋行人天橋上有大批市民聚集圍觀及舉機拍攝，亦有港鐵職員",
       "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "香港中學生海邊活春宮！完事後女生1舉動震撼 網民斥：行為離譜",
+      "url": "https://hk01.com/sns/article/60411495",
+      "publishedAt": "2026-11-17T12:57:13.000Z",
+      "excerpt": "【活春宮／不雅影片／ #聽海浪】公共地方不應作出猥褻行為！本港社交平台Threads及多個網上討論區近日流傳1段「中學生海邊活春宮」影片，顯示土瓜灣海心公園海心亭有一對穿上校服的男女，當眾作出性行為動作；男方完事後，女生1舉動更震撼。 影片引來網民嘩然，有人聲稱認出涉事男女所穿校服，疑為香港某中學校服，批評2人行為離譜，呼籲報警。 警方指，九龍城警區刑事支援隊人員經深入調查後，今日（17日）拘捕1名17歲少年，涉嫌「向年齡在十六歲以下的兒童作出猥褻行為」。被捕人現正被扣留調查。 據了解，案中男女2024年起已是情侶，事發於半年前，被不知名人士拍下影片後，近日影片在網上被公開，警方介入調查後拘捕",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "APEC｜國泰林紹波：冀措施助互通亞太旅客 擬未來十年增逾百航點",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/524887/apec-%E5%9C%8B%E6%B3%B0%E6%9E%97%E7%B4%B9%E6%B3%A2-%E5%86%80%E6%8E%AA%E6%96%BD%E5%8A%A9%E4%BA%92%E9%80%9A%E4%BA%9E%E5%A4%AA%E6%97%85%E5%AE%A2-%E6%93%AC%E6%9C%AA%E4%BE%86",
+      "publishedAt": "2026-11-18T04:26:06.000Z",
+      "excerpt": "【有線新聞】國泰行政總裁林紹波說，希望透過APEC峰會倡議措施，讓亞太地區旅客互通做得更好，又計劃未來十年將航",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "APEC｜普京致辭稱預期俄中美三方峰會具巨大潛在好處",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525035/apec-%E6%99%AE%E4%BA%AC%E8%87%B4%E8%BE%AD%E7%A8%B1%E9%A0%90%E6%9C%9F%E4%BF%84%E4%B8%AD%E7%BE%8E%E4%B8%89%E6%96%B9%E5%B3%B0%E6%9C%83%E5%85%B7%E5%B7%A8%E5%A4%A7%E6%BD%9B%E5%9C%A8%E5%A5%BD",
+      "publishedAt": "2026-11-18T04:24:17.000Z",
+      "excerpt": "【有線新聞】俄羅斯總統普京在APEC工商領導人峰會特別致辭，稱預期俄中美三方峰會會產生巨大潛在好處。 普京講話",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24563,22 +24595,6 @@
       "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/524964/%E6%93%9A%E5%A0%B1anthropic%E5%85%AC%E9%96%8B%E6%8B%9B%E8%82%A1%E5%A4%9A%E5%80%8B%E7%8F%BE%E6%9C%89%E8%82%A1%E6%9D%B1%E8%A8%88%E5%8A%83%E5%8A%A0%E7%A2%BC%E6%8A%95%E8%B3%87",
       "publishedAt": "2026-11-18T02:34:45.000Z",
       "excerpt": "【有線新聞】Anthropic公開招股，據報市場需求強勁，多個現有股東計劃加碼投資或提高招股價。 彭博引述消息",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "APEC｜工商領導人峰會合照",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/524950/apec-%E5%B7%A5%E5%95%86%E9%A0%98%E5%B0%8E%E4%BA%BA%E5%B3%B0%E6%9C%83%E5%90%88%E7%85%A7",
-      "publishedAt": "2026-11-18T02:09:42.000Z",
-      "excerpt": "",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "神舟二十四號近日擇機發射",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/524947/%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%99%9F%E8%BF%91%E6%97%A5%E6%93%87%E6%A9%9F%E7%99%BC%E5%B0%84",
-      "publishedAt": "2026-11-18T01:49:12.000Z",
-      "excerpt": "【有線新聞】神舟二十四號船箭組合體已轉運至發射區，計劃近日擇機發射。 中國載人航天工程辦公室指，目前發射場設施",
       "source": "有線新聞",
       "category": "Hong Kong"
     },
@@ -24903,7 +24919,31 @@
       "category": "Hong Kong"
     },
     {
-      "title": "議政四方｜林振昇倡考慮密閉空間作業等工程 納入呈報機制",
+      "title": "港股半日跌266點 京東系股份急挫",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878268-20261118.htm",
+      "publishedAt": "2026-11-18T04:16:46.000Z",
+      "excerpt": "港股臨近中午跌幅擴大，恒生指數中午報23241點，跌266點，跌幅1.1%，主板成交額約869億元。 科技指數報3702點，跌近1.5%。 京東系在業績後大幅下挫，京東集團半日跌約8%，京東健康跌近18%，是表現最差兩隻恒指及科指成份股；京東物流跌逾4%。 網上醫療平台、醫藥股跌幅較大，內房及金融股亦跌，重磅股友邦及滙控跌近2%或以上。 ATMXJ其餘股份跌近1%或以上。 內地3大油股逆市升近1%或以上，公用及電信股普遍靠穩。新奧能源升逾4%，是表現最好藍籌股。 編輯：宋家樑",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳APEC｜李家超稱對習近平演講感鼓舞 本港續發揮灣區優勢",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878269-20261118.htm",
+      "publishedAt": "2026-11-18T04:14:29.000Z",
+      "excerpt": "行政長官李家超表示，國家主席習近平在深圳出席2026年亞太經合組織工商領導人峰會開幕式並發表主旨演講，他感到十分振奮和鼓舞，香港作為APEC成員經濟體，長期擔當著重要的區域經貿與合作樞紐，是世界上最具競爭力的經濟體之一，一直堅定支持自由貿易和多邊主義，積極通過亞太經合組織的平台，持續深化國際交往合作。香港與其他APEC成員經濟體的貿易往來，更佔香港外貿總值高達87%。 正在深圳出席會議的李家超，在社交專頁表示，香港與深圳同屬粵港澳大灣區城市。正如主席習近平指出，大灣區經濟具有鮮明的開放性、協同性和外溢性。香港作為全球最開放的國際城市之一，可作為全球工商界進入大灣區及內地發展的跳板，亦會繼續通過",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "議政四方｜吳永嘉倡電影發展基金資助AI短劇製作",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878266-20261118.htm",
+      "publishedAt": "2026-11-18T04:11:39.000Z",
+      "excerpt": "經民聯立法會議員吳永嘉表示，受串流平台和市民北上消費影響，本港去年戲院總入場人次和全年總票房分別按年下跌超過一成，戲院數目亦較疫情前減少。他期望政府可以透過現正進行的全面檢討，將「電影發展基金」的資助上限提高，以推動電影業發展，同時落實《施政報告》提出的「電影＋旅遊」措施。 吳永嘉在立法會大會提出書面質詢，關注支援香港電影業發展，他在本台節目《議政四方》建議政府，除了提高「電影發展基金」的資助上限和融資比例，同時因應近年人工智能短劇的製作盛行，基金可考慮納入資助範圍，吸引更多人入行發展。 《施政報告》提出，文創處設立「境外電影拍攝支援組」，吳永嘉認為，支援組除了為境外拍攝團隊提供場地協助外，亦",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "議政四方｜林振昇倡考慮吊棚等工程納入呈報機制",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878264-20261118.htm",
       "publishedAt": "2026-11-18T04:07:18.000Z",
       "excerpt": "建造業的致命工業意外數目和每千名工人意外率，均是各行業之中最高。在立法會大會上，勞聯選委界立法會議員林振昇提出口頭質詢，關注涉及裝修及維修工程的致命意外數目，以及勞工處就小型建築工程的法定呈報。林振昇表示，現時小型工程毋須呈報，政府無法巡查。他表示，政府幾年前曾建議修例，擴大呈報範圍，當時有小型工程承辦商關注會否加重工作負擔，他建議可透過簡化申報表格，或是以電子方式呈報，令申報過程更簡單。 林振昇接受本台《議政四方》訪問時又表示，如果將一定比例的小型工程納入呈報，對加強工地安全意識有幫助。他又認為，可以善用科技，例如勞工處近年用無人機巡查和執法，反映有成效，相信可以節省巡查所需的人手。 政府幾",
@@ -25035,30 +25075,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878185-20261117.htm",
       "publishedAt": "2026-11-17T14:23:39.000Z",
       "excerpt": "韓國男團BIGBANG在啟德主場館舉行四場演唱會，今晚最後一場。警方拘捕一名涉嫌售賣「黃牛票」的女子。 警方在社交平台表示，今日在啟德體育園一帶展開連串打擊「黃牛票」行動，一名便衣警員拘捕一名涉嫌以高於門票面值的價格兜售當晚演唱會兩張門票的女子，而主辦方在接報後已將涉案門票作廢處理。 警方強調，會持續加強執法行動打擊「黃牛票」活動，並呼籲市民透過正規渠道購票，避免助長炒作行為或因購買無效門票而遭受損失。 編輯：鍾慧儀",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "警方拘17歲少年涉猥褻16歲以下兒童 教育局高度關注",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878183-20261117.htm",
-      "publishedAt": "2026-11-17T14:13:26.000Z",
-      "excerpt": "警方拘捕一名17歲少年，涉嫌猥褻16歲以下兒童。 社交平台近日流傳一對年輕男女在土瓜灣海心公園海邊的影片，當中有人身穿校服。警方表示，九龍城警區刑事支援隊人員經深入調查後，拘捕一名17歲男童，涉嫌「向年齡在十六歲以下的兒童作出猥褻行為」。被捕人現正被扣留調查。 教育局發言人表示，對事件極度關注，已即時聯絡學校，知悉學校正嚴肅跟進有關事件，並會為有需要的學生提供輔導和支援。教育局已提醒學校需加強建立學生的正確價值觀及行為，會繼續與學校保持聯繫，以提供適切意見及支援。 教育局重申，一直重視學生的性教育，今年4月公布的《價值觀教育課程架構》繼續將性教育列為學校應持續加強關注的重點之一。教育局持續透過",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳APEC｜新界北列臨時禁飛區 非華裔男子涉操作無人機被捕",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878182-20261117.htm",
-      "publishedAt": "2026-11-17T13:59:49.000Z",
-      "excerpt": "一名40歲非華裔男子涉嫌在未獲授權下，於警務處處長就2026年亞太區經濟合作組織相關會議設立的臨時限制飛行區，操作小型無人機拍攝，涉嫌違反《小型無人機令》被捕。 警方表示，新界北總區機動部隊人員，在元朗南生圍巡邏期間，發現有關男子在未獲授權下於禁飛區內操作小型無人機拍攝。 警方再次提醒市民，本周二凌晨起，直至本周五晚上11時59分，整個新界北部空域均列為臨時限制飛行區，不得進行飛行活動，包括無人機、滑翔傘、飛艇、風箏、繫留氣球，及放飛大量氣球；在同一時段，除政府飛行服務隊外，所有直升機及小型飛機不得在設立的全港臨時限制飛行區範圍內進行任何飛行活動。",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "一名本地船長及五名內地過港漁工涉用蛇籠捕魚被落案控告",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878179-20261117.htm",
-      "publishedAt": "2026-11-17T13:24:50.000Z",
-      "excerpt": "漁護署控告一名本地船長及五名內地過港漁工，涉嫌在沙洲附近水域一艘本地船隻上使用蛇籠捕魚。六人涉嫌違反《漁業保護條例》，已被落案控告，案件將於明日在屯門裁判法院提堂。 漁護署人員昨晚約八時，在有關水域截停一艘涉嫌使用蛇籠捕魚的本地船隻調查，漁護署人員從船上檢取一批絞轆。 漁護署表示，任何人士在本港水域使用船隻捕魚時，船隻必須根據《漁業保護條例》登記及按其本地漁船登記證明書上所列出的捕魚方法捕魚。本地漁船登記證明書有關浸籠部分的登記條件亦指明任何摺疊式浸籠不得以任何方式與另一浸籠連接，或其任何一面伸展後的長度不得超過五米。 漁護署發言人強調，一直致力打擊香港水域的非法捕魚活動。 編輯：鍾慧儀",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -25223,6 +25239,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "立法會二題：防止利用電話卡進行詐騙",
+      "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800295.htm",
+      "publishedAt": "2026-11-18T04:25:00.000Z",
+      "excerpt": "以下是今日（十一月十八日）在立法會會議上陳文宜議員的提問和署理商務及經濟發展局局長陳百里博士的答覆： &nbsp; 問題： &nbsp; 據報有人以不同方式將已登記的電話智能卡交予詐騙集團。由於租借或售賣電話卡不屬罪行，電話卡登記人可藉不知情作辯解，逃避詐騙刑責。就此，政府可否告知本會： &nbsp; （一）有否研究已實名登記電話卡流入詐騙集團的常見方法，並評估證明電話卡登記人干犯詐騙罪行的舉證門檻及可行方案； &nbsp; （二）鑑於政府去年表示，會於本年就打擊不當使用電話卡向本會提交條例草案，有關的進度為何；會否在立法前推出行政措施堵塞相關漏洞，例如要求電訊商核查短期大量登記電話卡或頻繁轉",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
       "title": "立法會十七題：寵物通關便利化",
       "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800254.htm",
       "publishedAt": "2026-11-18T04:05:00.000Z",
@@ -25303,7 +25327,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "財政司司長出席「投資中國·選擇陝西」優勢產業資本香港懇談會致辭（只有中文）（附圖）",
+      "title": "財政司司長出席「投資中國·選擇陝西」優勢產業資本香港懇談會致辭（只有中文）（附圖 ／短片）",
       "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800246.htm",
       "publishedAt": "2026-11-18T02:45:00.000Z",
       "excerpt": "以下是財政司司長陳茂波今日（十一月十八日）出席「投資中國&middot;選擇陝西」優勢產業資本香港懇談會的致辭： 尊敬的趙剛省長（陝西省省長）、葉牛平市長（西安市市長）、尊敬的張勇副主任（中央人民政府駐香港特別行政區聯絡辦公室副主任），各位嘉賓、各位朋友： 大家早上好！很高興出席今天的懇談會。首先，容許我代表香港特區政府，對遠道而來的趙剛省長、葉牛平市長和陝西省代表團，表示最熱烈的歡迎，也向長期以來支持和推動陝港合作的各界朋友，致以最衷心感謝！ 當前，國家正深入推進落實「十五五」規劃，為各地發揮所長、深化合作開拓更廣闊的空間。習近平主席指出：「『十五五』時期，必須把因地制宜發展新質生產力擺在更",
@@ -25371,14 +25395,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/17/P2026111700631.htm",
       "publishedAt": "2026-11-17T11:34:00.000Z",
       "excerpt": "以下是文化體育及旅遊局局長羅淑佩今日（十一月十七日）出席閃爍尖東耀香江亮燈儀式2026的致辭全文： 田兆源先生（東尖沙咀地產發展商聯會董事）、麥美娟局長（民政及青年事務局局長）、林建岳博士（香港旅遊發展局（旅發局）主席）、 姚柏良議員（立法會議員）、江旻憓議員（立法會議員）、各位嘉賓、各位朋友： 大家晚上好。我和大家一樣都很高興出席閃爍尖東耀香江2026的亮燈儀式。每年尖東璀璨的燈飾亮起，就代表聖誕及新年快將來臨。這些繽紛悅目的燈飾照耀維港，多年來已成為香港冬日節慶的標誌性風景。尖東的節日燈飾深受市民和旅客的喜愛，亦陪伴香港人超過四十年。年輕的時候，我們會來觀看燈飾，是一個很大的節目；年紀再大",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "挪威和美國部分地區禽肉及禽類產品暫停進口",
-      "url": "https://www.info.gov.hk/gia/general/202611/17/P2026111700482.htm",
-      "publishedAt": "2026-11-17T11:25:50.000Z",
-      "excerpt": "食物環境衞生署食物安全中心（中心）今日（十一月十七日）宣布，因應世界動物衞生組織通報，指挪威和美國部分地區爆發高致病性H5N1禽流感，中心即時指示業界暫停從有關地區進口禽肉及禽類產品（包括禽蛋），以保障本港公眾健康。&nbsp; 有關地區為：&nbsp; 挪威&nbsp; &mdash;&mdash;&nbsp; （一）阿克斯胡斯郡&nbsp; 阿格德爾郡&nbsp; （二）Vennesla Municipality&nbsp; 美國&nbsp; &mdash;&mdash;&nbsp; 加利福尼亞州&nbsp; （三）史丹尼斯勞斯縣&nbsp; 愛荷華州&nbsp; （四）Sac縣&nbsp",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

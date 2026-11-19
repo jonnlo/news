@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T05:17:16.972Z",
-  "collectedAt": "2026-11-19T05:17:16.972Z",
+  "generatedAt": "2026-11-19T06:17:12.712Z",
+  "collectedAt": "2026-11-19T06:17:12.712Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -115,15 +120,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50550415"
         },
         {
-          "title": "The Magic of Partial Evaluation",
-          "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
-          "publishedAt": "2026-11-18T18:29:03.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50550096"
-        },
-        {
           "title": "Advancing chip design with OpenAI models",
           "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
           "publishedAt": "2026-11-18T17:45:47.000Z",
@@ -194,9 +190,18 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50547620"
+        },
+        {
+          "title": "Unauthenticated remote code execution in Nginx",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "publishedAt": "2026-11-18T15:19:55.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "WIRED",
@@ -373,6 +378,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "ExpressVPN Coupons: 80% Off",
+          "url": "https://www.wired.com/story/expressvpn-coupons/",
+          "publishedAt": "2026-11-19T06:00:00.000Z",
+          "excerpt": "Learn how to get the best value from your ExpressVPN subscription plans, whether you need a flexible 1-month plan or want to lock in up to 61% savings on multi-year deals.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "The Best Early Black Friday Deals On Laptops I've Tested Myself (2026)",
           "url": "https://www.wired.com/story/best-early-black-friday-laptop-deals-11-18-26/",
@@ -524,17 +537,9 @@
           "excerpt": "Here are the best discounts we’ve found so far on WIRED-tested gadgets under $100.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth",
-          "url": "https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/",
-          "publishedAt": "2026-11-18T11:15:00.000Z",
-          "excerpt": "The spacecraft stores data on an eight-track tape, but it’s managed to stay in contact with scientists for decades. Now, it’s the first human-made object to travel a light-day away from Earth.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,28 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "A US congressional commission report says China's PLA is seeking advanced Nvidia chips for AI-enabled weapons, as domestic chips continue to lag US rivals (Jaspreet Singh/Reuters)",
+          "url": "https://www.reuters.com/world/china/china-seeks-advanced-nvidia-chips-ai-weapons-despite-us-curbs-report-says-2026-11-18/",
+          "publishedAt": "2026-11-19T05:55:31.000Z",
+          "excerpt": "Jaspreet Singh / Reuters : A US congressional commission report says China's PLA is seeking advanced Nvidia chips for AI-enabled weapons, as domestic chips continue to lag US rivals &nbsp; &mdash;&nbsp; China's military is seeking advanced Nvidia chips for AI-enabled weapons as Chinese-made processo",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261119/p2#a261119p2",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Sources: technical staff at several Chinese humanoid robot makers have been denied US visas ahead of CES, hampering their efforts to showcase their hardware (Nikkei Asia)",
+          "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
+          "publishedAt": "2026-11-19T05:50:02.000Z",
+          "excerpt": "Nikkei Asia : Sources: technical staff at several Chinese humanoid robot makers have been denied US visas ahead of CES, hampering their efforts to showcase their hardware &nbsp; &mdash;&nbsp; HONG KONG &mdash; Researchers and engineers at several Chinese humanoid robot makers, including Xpeng and En",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261119/p1#a261119p1",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Internal posts show Meta employees raising concerns that Muse could be mixing up conversations between different accounts and exposing users' private data (Katie Paul/Reuters)",
           "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18",
@@ -1434,31 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261118/p52#a261118p52",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B (Yasutaka Tamura/Bloomberg)",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-raises-3-billion-in-japan-tranche-of-us-mega-ipo",
-          "publishedAt": "2026-11-19T00:40:03.000Z",
-          "excerpt": "Yasutaka Tamura / Bloomberg : Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B &nbsp; &mdash;&nbsp; Anthropic PBC raised about $3 billion from Japanese investors as part of its initial public offering, the lower end of its p",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261118/p51#a261118p51",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "At DealBook, Elon Musk says he feels \"pretty foolish\" after spending nearly $500M backing Republicans in midterms won by Democrats and claims \"I'm not MAGA\" (Todd Spangler/Variety)",
-          "url": "https://variety.com/2026/digital/news/elon-musk-pretty-foolish-midterm-election-races-not-maga-1236952400/",
-          "publishedAt": "2026-11-19T00:25:01.000Z",
-          "excerpt": "Todd Spangler / Variety : At DealBook, Elon Musk says he feels &ldquo;pretty foolish&rdquo; after spending nearly $500M backing Republicans in midterms won by Democrats and claims &ldquo;I'm not MAGA&rdquo; &nbsp; &mdash;&nbsp; Elon Musk spent big backing Republicans in the 2026 midterm elections &m",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261118/p50#a261118p50",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1652,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "TechRadar",
@@ -1836,7 +1841,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2219,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2408,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Fast Company",
@@ -2547,7 +2552,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Creative Bloq",
@@ -2736,7 +2741,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2950,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3119,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3288,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3377,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3546,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3715,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3904,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4088,7 +4093,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4282,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The New Yorker",
@@ -4466,7 +4471,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4600,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "IndieWire",
@@ -4700,7 +4705,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Vox",
@@ -4889,7 +4894,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5083,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Conversation",
@@ -5086,6 +5091,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Fossil fuel lobbyists are trying to derail climate action once again at COP31. Can they be stopped?",
+          "url": "https://theconversation.com/fossil-fuel-lobbyists-are-trying-to-derail-climate-action-once-again-at-cop31-can-they-be-stopped-294668",
+          "publishedAt": "2026-11-19T03:55:07.000Z",
+          "excerpt": "The whole point of this summit is to address climate change. Why are fossil fuel cheerleaders still allowed in the door?",
+          "source": "The Conversation",
+          "category": "Society"
+        },
         {
           "title": "Beijing has three priorities at the Shenzhen summit – a China expert explains",
           "url": "https://theconversation.com/beijing-has-three-priorities-at-the-shenzhen-summit-a-china-expert-explains-296734",
@@ -5231,14 +5244,6 @@
           "category": "Society"
         },
         {
-          "title": "Economic coercion once ousted Iran’s leader – but that was the 1950s; don’t expect a repeat today",
-          "url": "https://theconversation.com/economic-coercion-once-ousted-irans-leader-but-that-was-the-1950s-dont-expect-a-repeat-today-294628",
-          "publishedAt": "2026-11-10T13:36:36.000Z",
-          "excerpt": "A two-year blockade imposed on Iran by Britain gave way to a coup and leadership change. But seven decades later, circumstances are very different.",
-          "source": "The Conversation",
-          "category": "Society"
-        },
-        {
           "title": "Can Gadi Eisenkot turn the ‘disaster bloc’ into Israel’s next government?",
           "url": "https://theconversation.com/can-gadi-eisenkot-turn-the-disaster-bloc-into-israels-next-government-295859",
           "publishedAt": "2026-11-09T18:41:47.000Z",
@@ -5247,7 +5252,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5421,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5550,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5649,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5838,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6027,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6216,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
     },
     {
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Quietus",
@@ -6324,6 +6330,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Maria Teresa Pirrigheddu and Vieri Mura – Rundinas",
+          "url": "https://thequietus.com/quietus-reviews/maria-teresa-pirrigheddu-and-vieri-mura-rundinas-review/",
+          "publishedAt": "2026-11-19T06:00:00.000Z",
+          "excerpt": "Maria Teresa Pirrigheddu and Vieri Mura Rundinas An album of Sardinian cantu a chiterra proves softly spoken but full of character Rundinas by Maria Teresa Pirrigheddu & Vieri Mura The path to Rundinas, a collection of songs in the cantu a chiterra style of northern Sardinia, began with a research p",
+          "source": "The Quietus",
+          "category": "Arts"
+        },
         {
           "title": "Glastonbury Reveals First Acts for 2027 Edition",
           "url": "https://thequietus.com/news/glastonbury-reveals-first-acts-for-2027-edition/",
@@ -6475,17 +6489,9 @@
           "excerpt": "It features guest appearances from DJ Haram and $ilkmoney Armand Hammer, the duo of billy woods and ELUCID, have released a surprise new album, Snakes & Ladders. Featuring 16 tracks, it follows on from last year's Mercy LP, and features guest appearances from DJ Haram and $ilkmoney. There is also pr",
           "source": "The Quietus",
           "category": "Arts"
-        },
-        {
-          "title": "Coachella Reveals 2027 Lineup",
-          "url": "https://thequietus.com/news/coachella-reveals-2027-lineup/",
-          "publishedAt": "2026-11-11T13:32:00.000Z",
-          "excerpt": "Madonna, SZA and Giorgio Moroder are among the artists playing next year's festival in California Coachella has revealed its full 2027 lineup. The California festival will be headlined by SZA, Dua Lipa and Tame Impala, while Madonna is also listed to play a special set in the Sahara dance music tent",
-          "source": "The Quietus",
-          "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7187,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7527,6 +7533,14 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "“The Unburied” by Joohee Suh",
+          "url": "https://asianreviewofbooks.com/the-unburied-by-joohee-suh/",
+          "publishedAt": "2026-11-19T06:00:00.000Z",
+          "excerpt": "In late imperial China, death did not always lead swiftly to burial. Coffins frequently remained in temple courtyards, storage houses, or shallow pits for months, years, even decades. These unburied bodies unsettled the social order: they were neither gone nor fully incorporated into ancestral lines",
+          "source": "Asian Review of Books",
+          "category": "Books"
+        },
         {
           "title": "“I Am Going to Kill Somebody” by Firat Cewerî",
           "url": "https://asianreviewofbooks.com/i-am-going-to-kill-somebody-by-firat-ceweri/",
@@ -7638,17 +7652,9 @@
           "excerpt": "The Greeks invented Asia, or at least gave us the word. But the binaries of Greek/Asian, Greek/Barbarian, as well as man/woman, derive not from antiquity, but from modern discourse. Or rather, modern discourse has amplified and normalized a particular strain of Greek thought that emerged in sixth-ce",
           "source": "Asian Review of Books",
           "category": "Books"
-        },
-        {
-          "title": "Podcast with Joost Hiltermann “The Resurrected”",
-          "url": "https://asianreviewofbooks.com/podcast-with-joost-hiltermann-the-resurrected/",
-          "publishedAt": "2026-11-05T09:50:10.000Z",
-          "excerpt": "Anfal is an Arabic word from the Quran meaning “the spoils of war.” Saddam Hussein gave the name to his 1988 campaign against Iraq’s Kurds — eight stages of chemical attack, mass arrest and mass execution that killed some hundred thousand people, and that a later tribunal would call genocide. Joost ",
-          "source": "Asian Review of Books",
-          "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7992,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8181,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8350,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8519,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8708,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8871,7 +8877,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9046,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9135,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9324,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9513,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9702,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "The Marginalian",
@@ -9865,7 +9871,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10040,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10209,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Psyche",
@@ -10329,19 +10335,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to take notes that actually help you learn",
-          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+          "title": "Who am I if I don’t run?",
+          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Who am I if I don’t run?",
-          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+          "title": "How to take notes that actually help you learn",
+          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10392,7 +10398,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10567,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10736,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Kottke",
@@ -10939,7 +10945,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11154,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Waxy",
@@ -11377,13 +11383,13 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 16,
+      "count": 15,
       "stories": [
         {
           "title": "AI platforms have created terrorism plots",
@@ -11519,18 +11525,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "The moral of the story is \"Be Kind to What You Make\"",
-          "url": "https://www.metafilter.com/215207/The-moral-of-the-story-is-Be-Kind-to-What-You-Make",
-          "publishedAt": "2026-11-18T06:08:50.000Z",
-          "excerpt": "What Big Eyes You Have! What Big Brains You have! Ten days ago Anthropic released Fable 4.2. A user @anabology on X, asked it to make the video of its dreams. The video is the result. It took two prompts. Fable wrote, directed and produced it, invoking Seedance and Suno to generate the shots and the",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11719,7 +11716,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Dense Discovery",
@@ -11928,7 +11925,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "香港01",
@@ -11937,82 +11934,82 @@
       "count": 20,
       "stories": [
         {
-          "title": "蔡天鳳案｜鄺港智稱賣錶賺2千萬 地產月月賺 餐廳所賺不值一提",
-          "url": "https://hk01.com/sns/article/60412623",
-          "publishedAt": "2026-11-19T05:16:21.000Z",
-          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今（19日）在高等法院續審，第三被告鄺港智自辯時稱其財政上並無依靠蔡天鳳。他其後提及他所經營的鐘錶、地產及餐飲生意，並稱每項都有獲利，其中鐘錶生意獲利最少2000萬，地產每月20至30萬人民幣，餐飲業的1至2萬元不值一提。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向選出的陪審團透露，三名被告否認謀殺，全部承認一項阻止合法",
+          "title": "APEC深圳峰會｜李家超：與習近平短暫交流 談香港內聯外通優勢",
+          "url": "https://hk01.com/sns/article/60412644",
+          "publishedAt": "2026-11-19T06:15:36.000Z",
+          "excerpt": "2026年亞太經合組織（APEC）領導人非正式會議今日（11月19日）在深圳舉行，行政長官李家超在會後見記者，表示會議期間與國家主席習近平有短暫交流，他向習近平提到，香港會用好「一國兩制」下內聯外通的優勢，更好融入和服務國家發展大局，並為亞太區合作和發展作出貢獻。李家超又指，昨天和智利總統簽署工作假期協議，是香港首次和拉丁美洲簽署，香港年輕人可以獲一年有關簽證。 行政長官李家超在深圳出席亞太經合組織（APEC）領導人非正式會議後見記者。（潘耀昇攝） 行政長官李家超在深圳出席亞太經合組織（APEC）領導人非正式會議後見記者。（潘耀昇攝） 行政長官李家超在深圳出席亞太經合組織（APEC）領導人非正",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "天文台料周六分區10℃ 保暖6禁忌 醫生：搓手腳無用恐致心肌梗塞",
-          "url": "https://hk01.com/sns/article/60412520",
-          "publishedAt": "2026-11-19T05:13:33.000Z",
-          "excerpt": "明日的天氣｜天文台｜天文台今日（19日）發出特別天氣提示，受強烈東北季候風影響，本港今明兩日天氣顯著轉涼，明日（20日）有幾陣雨，市區氣溫將由午夜約攝氏18度下降至最低約15度，新界再低兩三度。至星期六（21日）凌晨，新界分區更低見10度。 氣溫急降，大家在街上時如果感到寒冷，是否都會搓揉手腳讓身體回暖嗎？有心臟科醫生指出，這做法在低體溫時反而會造成熱散失更嚴重，而過度、劇烈或顛簸的動作可能會引發心臟驟停；而且一回家就立即沖熱水澡更容易讓血管瞬間擴張，心跳加快！想知還有甚麼保暖禁忌？即看下文！ 👉follow 好食玩飛ig ✈️免費睇旅遊飲食攻略 明日的天氣｜天文台料周五最低氣溫15℃ 天文",
+          "title": "蔡天鳳案｜鄺港智自稱花費不多 認駕勞斯萊斯在廣州住五星級酒店",
+          "url": "https://hk01.com/sns/article/60412640",
+          "publishedAt": "2026-11-19T06:07:48.000Z",
+          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(19日）在高等法院續審，第三被告鄺港智自辯時稱他財政上並無靠蔡天鳳，又稱他在賣名錶及地產均有賺到錢。 他承認在內地時蔡天鳳有給他信用卡使用，因為他與蔡由細玩到大，但他自言生活上花費不多，但認有駕駛鄺球名下的勞斯萊斯汽車，及在廣州時住五星級酒店，鄺港智說：「咁我有做嘢架嘛。」 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "APEC深圳｜小米汽車落實2027年正式出海 右軚香港版何時推出？",
-          "url": "https://hk01.com/sns/article/60412615",
-          "publishedAt": "2026-11-19T05:07:45.000Z",
-          "excerpt": "APEC深圳｜小米汽車落實2027年正式出海｜近年電動車在街道上愈趨普及，不少香港車主換車時除了留意傳統車廠，亦開始關注科技品牌研發的智能座駕。小米汽車自登場以來備受討論，惟受限於左軚規格，海外及本地車迷遲遲未能正式購入。隨著 2026 年 APEC 工商領導人峰會在深圳舉行，小米創辦人雷軍終於公布明確時間表，確認小米汽車將於 2027 年正式出海，並披露歐洲首發及 2028 年右軚市場的拓展藍圖。那香港右軚版不遠了嗎？ 小米雷軍在早前APEC中正式公布2027年小米汽車正式出海 小米汽車選擇2027年出海 小米（股份代號：1810）創辦人雷軍於 2026 年 11 月出席深圳 APEC 工商",
+          "title": "警搗觀塘紅磡工廈詐騙中心檢貓池機 破百宗案拘123人 涉$6800萬",
+          "url": "https://hk01.com/sns/article/60412547",
+          "publishedAt": "2026-11-19T06:07:33.000Z",
+          "excerpt": "今年首三季，警方錄得近一萬宗電話騙案，佔整體詐騙案三成；同時警方在今年8月錄得有記錄以來單月份最多電話騙案，達到2000宗，涉款港幣19億元。警方留意到近日有騙徒假扮零售商和購物平台的物流公司及客服，以互聯網打出的網路電話扮固網電話，令市民誤墮騙局。警方11月展開代號「石階」行動，打擊電話騙案及洗黑錢活動，搗破詐騙電話操作中心及詐騙電話中轉中心，一共偵破108宗案件，並以「串謀詐騙」、「以欺騙手段取得財產」及「洗黑錢」罪拘捕95男28女（14至75歲），涉款約6800萬元。 警方留意到近日有不同零售商和購物平台遭騙徒冒認物流公司或客服，以互聯網打出的網路電話扮固網電話，令市民誤墮騙局。（警方提",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "APEC｜特朗普︰晚宴期間與習近平討論AI議題 僅簡短提及黃仁勳",
-          "url": "https://hk01.com/sns/article/60412592",
-          "publishedAt": "2026-11-19T05:05:22.000Z",
-          "excerpt": "亞太經合組織（APEC）第33次領導人非正式會議11月18日至19日在廣東省深圳市舉行，美國總統特朗普透露，他周三（18日）晚出席晚宴期間，一直與中國國家主席習近平交談，話題涵蓋人工智能（AI）， 並指他曾向習近平簡短提起黃仁勳辭任英偉達（Nvidia，又稱輝達）行政總裁一事。 特朗普18日接受美國霍士新聞（Fox News）採訪時 ，稱他在18日舉行的晚宴期間坐在習近平身旁，並一直與他交談。 特朗普引述習近平指對美國的AI發展感到驚嘆，並強調美國在相關領域的發展領先中國，甚至是全世界。 2026年11月18日，美國總統特朗普和中國國家主席習近平在APEC歡迎晚宴上交談（Reuters） 被記",
+          "title": "APEC｜領導人峰會座位安排揭秘 習近平旁邊為何是韓越兩國領袖？",
+          "url": "https://hk01.com/sns/article/60412621",
+          "publishedAt": "2026-11-19T06:02:20.000Z",
+          "excerpt": "亞太經合組織（APEC）領導人非正式會議11月19日在深圳舉行，21個成員經濟體領導人的會議座次如何編排備受關注，而座位安排早有官方明文及禮賓慣例可循。 據中國新聞社（China News Service）周四報道， 會場採用雙層同心圓布局，內圈設21把座椅，對應21個成員經濟體的領導人，外圈席位供各經濟體隨行人員就座，兩側擺放以藍色山水水墨為主題的摺疊屏風，會議於當日上午10時開幕。 2026年11月19日，中國深圳，中國國家主席習近平主持APEC第33次領導人非正式會議。 2026年11月19日，中國深圳，中國國家主席習近平主持APEC第33次領導人非正式會議。 2026年11月19日，中",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "啟德水上運動中心開幕 前消防局活化變身 冀發展成水上運動樞紐",
-          "url": "https://hk01.com/sns/article/60412607",
-          "publishedAt": "2026-11-19T05:03:17.000Z",
-          "excerpt": "賽馬會慈善信託基金審批撥捐逾8,200萬元予香港水上運動慈善信託基金興建的「賽馬會啟德水上運動中心」，周三（18日）正式在啟德開幕，為全港首個設於市區的綜合水上運動社區設施，除提供水上活動外，亦融合陸上活動元素，將水上運動融入香港城市生活。 香港賽馬會董事霍啟剛（右二）、康樂及文化事務署署長陳詠雯（左二）、消防處助理處長趙汝珏（右一），以及香港水上運動議會主席鄧勵（左一）主持牌匾揭幕儀式，標誌「賽馬會啟德水上運動中心」正式開幕。（香港賽馬會提供） 香港賽馬會董事霍啟剛（右一）以及香港水上運動議會主席鄧勵（左一）與賽馬會優秀運動員獎勵計劃得獎賽艇運動員趙顯臻（右二）、洪詠甄（左二）及麥曉彤（左三",
+          "title": "TVB台慶｜俞可程捲TVB導演緋聞傳全面缺席 疑為避風頭遭緊急飛出",
+          "url": "https://hk01.com/sns/article/60412630",
+          "publishedAt": "2026-11-19T06:00:47.000Z",
+          "excerpt": "無綫年度盛事《萬千星輝賀台慶》今晚（19日）隆重舉行，原本逾200位藝員傾巢而出賀台慶，不過在台慶大日子當日卻突然傳出人事變動，被《香港01》獨家揭發與TVB導演當街親熱的「東張女神」俞可程（Kanis），最新傳出今晚臨時「無影」，不但不用參與原定的表演環節，更疑為避風頭而全面缺席今晚台慶盛典。 俞可程繑實男方手臂。（受訪者提供） 俞可程傳遭緊急飛出本次台慶。（IG@kanissyu） 官方紅地氈名單原本榜上有名 《萬千星輝賀台慶》大會原定於今晚17時45分在將軍澳電視城一廠停車場舉行藝員紅地氈進場儀式，在逾200位出席藝員名單中，亦清楚列有「俞可程」的名字，排在周嘉洛、吳偉豪及林俊其等藝人之",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "Alipay過數轉錯錢！港男誤轉逾千元大額 的士司機即退款獲讚誠實",
-          "url": "https://hk01.com/sns/article/60412035",
-          "publishedAt": "2026-11-19T05:02:41.000Z",
-          "excerpt": "【AlipayHK／支付寶／的士】根據運輸署規定，由2026年4月1日起，的士司機必須提供至少一種二維碼電子繳費媒介，和一種非二維碼電子繳費媒介讓乘客繳付車費，違例者最高可被處罰款5,000港元及監禁6個月。有港男在網上群組發文，指日前需要轉帳時，誤將逾千元錯轉至較早前曾搭乘的士、繳付司機車資的帳號，他發現「轉錯數」隨即再轉帳1毫子，同時備註「我唔小心轉咗一千蚊畀你」，幸好獲對方退回款項，方未有任何損失。 有網民欣賞司機不貪心，「好難得有咁誠實嘅的士司機 」、「祝佢生意興隆，事事順利」，但亦有留言分享類似錯誤轉帳的經驗，認為樓主實屬幸運，「我都轉錯過好睇對方品格，我就自己食咗―次，銀行幫唔到你",
+          "title": "吉利混能SUV銀河M8登場 車長5.2米配激光雷達 綜合續航逾1200km",
+          "url": "https://hk01.com/sns/article/60412302",
+          "publishedAt": "2026-11-19T06:00:29.000Z",
+          "excerpt": "又有一個M8大五座SUV來了。這個名字還挺熱門的，MPV、SUV車型，好幾個都用這個M8 。不過呢，今天這個是吉利銀河M8 。 有沒有已經預料到這車性價比極高？之前吉利銀河是先出了M9 ，是旗下的一台中大型插混六座SUV 。價格17.38-25.98萬（人民幣，下同），賣點是空間、底盤、動力、價格等越級配置。 20萬左右買5.2米、88.3%車廂空間實用率（Space Efficiency）、氣壓懸掛及車載雪櫃；四驅800+馬力、100km-230km純電續航、CLTC綜合1325-1505km、虧電油耗（電池沒電時靠油供能，同時給電池充電時的耗油量）約7L出頭等性價比大六座。這次的吉利銀河M",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "GTA6上市日撞數學考試 英校祭出70英鎊禮券抽獎 鼓勵學生來上課",
-          "url": "https://hk01.com/sns/article/60412571",
-          "publishedAt": "2026-11-19T05:00:53.000Z",
-          "excerpt": "讓全球玩家苦等13年的電玩神作《俠盜獵車手6》（Grand Theft Auto VI，簡稱GTA6）11月19日正式上市！不過發售日恰巧撞上英國中學的數學大考（GCSE），北愛爾蘭一所男校擔心爆發大批學生集體請假的「GTA流感」（GTA Flu），不僅急發信呼籲家長把關，更祭出「全勤抽獎」奇招，只要週四、週五乖乖到校，就有機會抽中價值70英鎊（約720港元）的PlayStation或Xbox禮品卡！ 發售日撞期數學大考 校長喊話：週末再玩 《BBC》報道 ，位於北愛爾蘭首府貝爾法斯特（Belfast）的「貝爾法斯特男子模範學校」（Belfast Boys' Model school），近日緊",
+          "title": "珍珠港事件倖存者加勒逝世享年105歲 曾抗命開艙救四戰友",
+          "url": "https://hk01.com/sns/article/60412586",
+          "publishedAt": "2026-11-19T05:59:13.000Z",
+          "excerpt": "美軍二戰珍珠港事件中倖存者之一的老兵加勒（Gebhard Geb Galle）11月14日在華盛頓州摩西湖（Moses Lake）家中離世，享年105嵗。他不僅在珍珠港襲擊中大難不死，更是在1942年的海戰中違抗軍令打開艙門，勇敢救下4名被困戰友。嘉勒辭世當天，珍珠港事件已知最年長倖存者約翰遜（Freeman Johnson）亦於同日過世，享年106歲。加勒的女兒Linda Palmer已向傳媒確認父親的死訊。 美聯社報道 ，加勒出生於德國，7歲時隨家人移居美國，18歲加入海軍。1941年12月7日日軍偷襲珍珠港時，20歲的他是「內華達號」戰艦機械師，當時正準備上岸參加教堂禮拜。他透過舷窗發現",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "UNIQLO感謝節一連7日舉行！買任何商品送社企曲奇 即睇掃貨清單",
-          "url": "https://hk01.com/sns/article/60412147",
-          "publishedAt": "2026-11-19T05:00:42.000Z",
-          "excerpt": "天氣今晚（18日）開始轉涼，星期五最低温度更降至15度。想入手平價寒衣過冬？UNIQLO將於11月20日（星期五）至11月26日（星期四）一連7日舉行一年一度的「感謝節」，全港及澳門門市會跟官網同步開售，除了有特價衣物，今次還有兩重限定免費禮遇。《開罐》為大家整理好掃貨攻略與換領細則！ 資料圖片 第一重著數：首3日買任何商品即送「社企 iBakery」曲奇 今次感謝節有曲奇餅送。在感謝節前3日，即11月20日至22日，只要在門市或網店購買任何商品（不限消費金額，不包購物袋及改褲費用），即免費獲贈「UNIQLO &amp; iBakery」曲奇乙包。 今次贈送的曲奇，是由東華三院屬下社會企業iB",
+          "title": "深圳APEC｜警上水及粉嶺拘2男 涉未經許可禁飛區飛無人機",
+          "url": "https://hk01.com/sns/article/60412634",
+          "publishedAt": "2026-11-19T05:59:03.000Z",
+          "excerpt": "2026年亞太經合組織（APEC）領導人會議本周在深圳舉行，警方自周二（17日）凌晨零時01分起，在新界北部設立臨時限制飛行區，禁止無人機在禁飛區內飛行，至11月20日晚11時59分為止。 警方今日（19日）分別於上午約10時在上水鳳凰嶺邨拘捕一名27歲男子，及於上午11時在粉嶺樂鳴街拘捕一名65歲男子，涉嫌「未經許可在限制飛行區以內飛行」和「操作期間違反操作規定」。人員在行動中共檢獲兩部小型無人機。案件交由大埔警區刑事調查隊跟進。 人員在行動中共檢獲兩部小型無人機。（警方提供） 警方今日（19日）分別於上午約10時在上水鳳凰嶺邨拘捕一名27歲男子，及於上午11時在粉嶺樂鳴街拘捕一名65歲男子",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "APEC直擊｜嶺南名茶飄香新聞中心 中國茶成跨越國界文化交流紐帶",
-          "url": "https://hk01.com/sns/article/60412543",
-          "publishedAt": "2026-11-19T05:00:36.000Z",
-          "excerpt": "2026年亞太經合組織（APEC）領導人會議周正在深圳舉行，來自世界各地的媒體記者齊聚新聞中心。作為中國茶文化的重要展示窗口，八馬茶業於新聞中心設立茶文化體驗展位，自11月11日進駐服務以來，每日平均接待約40位來自世界各地的記者朋友，以三款極具嶺南韻味的廣東名茶，展現中國傳統茶文化的深厚底蘊。 在APEC會議周期間，匈牙利Hír TV主播Milhaly Zsiros更在觀看茶藝表演後主動請教，於茶藝師指導下10分鐘極速上手泡出一壺中國茶，成為峰會中跨越國界的文化交流紐帶。 八馬茶業於新聞中心設立茶文化體驗展位，自11月11日進駐服務以來，每日平均接待約40位來自世界各地的記者朋友。（楊凱力攝",
+          "title": "山藥功效｜健脾補腎4類人不宜 揀山藥4招粗或幼好？與淮山3不同",
+          "url": "https://hk01.com/sns/article/60409585",
+          "publishedAt": "2026-11-19T05:53:01.000Z",
+          "excerpt": "山藥功效｜山藥（英文：Chinese yam）潤肺、健脾、補腎，是中醫常用的滋補藥材之一，最啱冬天吃。不過，走進街市，面對粗細不一、品種各異的山藥，究竟要點揀？粗的還是幼的好？ 山藥潤肺、健脾、補腎，是中醫常用的滋補藥材之一，最啱冬天吃。（AI生成圖片） 山藥功效｜日本廚師教4招揀靚山藥 粗或幼好？ 如今已步入冬季，氣溫開始轉涼，正是吃山藥溫補脾胃、滋陰潤燥的好時機。不過你平時揀山藥時會點揀？日本廚師教4招揀靚山藥。 揀山藥方法【1】愈粗愈好 據日本媒體《Yahoo》報道，廚師「帕普醬」（パプちゃん）表示，山藥愈粗愈好！因為粗身的山藥比較容易去皮，本身帶有的藥材味較少，特別適合生吃，可磨碎後用",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "向佐被向太放狠話不分億萬遺產 苦練法語轉戰非洲吸金人氣急升",
-          "url": "https://hk01.com/sns/article/60412178",
-          "publishedAt": "2026-11-19T05:00:28.000Z",
-          "excerpt": "現年42歲的向佐是影視大亨向華強及太太陳嵐的大仔，早年曾參與過不少電影，包括《封神傳奇》、《霍元甲》、《投名狀》等。近年向佐在內地發展，驚覺穿女裝示人有市場，成功掌握流量密碼的他愈撈愈掂，人氣急升，又現身細佬向佑直播間吸金。向佐為了搵錢，與太太郭碧婷和一雙兒女長期分居，近日更轉戰非洲市場，大騷法語。 向佐一家人。（向太微博圖片） 向華強一家四口家庭照。（微博＠向佐JackyHeung） 向佐苦練法語戰非洲 向佐在內地發展愈來愈順利，近日更遠道飛往非洲塞內加爾。向佐飛之前已自學苦練法語，不過向佐學的法語是「你奶奶在桌子上跳舞」及「你是一匹馬嗎？」相當搞笑。向佐在機場不忘苦練法文，飛到塞內加爾後，",
+          "title": "GTA 6｜網民質疑玩家「滿足暴力傾向」被圍攻 盤點系列30年爭議",
+          "url": "https://hk01.com/sns/article/60412577",
+          "publishedAt": "2026-11-19T05:51:02.000Z",
+          "excerpt": "讓全球機迷苦等13年的大作《GTA 6》（《Grand Theft Auto VI》、《俠盜獵車手6》）於今日（2026年11月19日）正式登陸家用主機平台PS5及Xbox Series X|S，發售熱潮席捲全球之際，也在香港社交平台引起爭議。有網民發文質疑喜歡玩《GTA 6》的人是否旨在「滿足暴力傾向」及在遊戲內「殺人放火」，「鍾意玩《GTA 6》嘅人係咩心態？」。帖文迅速引來過百則留言反駁。其實不止香港，《GTA》系列近30年來在海外屢次觸發道德恐慌、法律訴訟及部份國家禁售風波。 萬眾期待的《GTA 6》推出，有打工仔聲稱會請假通宵打機。（《GTA 6》） 評GTA 6帖文惹議 網民反駁僅",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12025,18 +12022,18 @@
           "category": "Hong Kong"
         },
         {
-          "title": "好人好事．有片｜火炭男子OT外出食飯變救火 邊拍片邊淡定灌救",
-          "url": "https://hk01.com/sns/article/60412570",
-          "publishedAt": "2026-11-19T04:19:03.000Z",
-          "excerpt": "一名男子今日（19日）凌晨在社交平台 Threads 發帖分享，指自己加班外出用膳期間，赫然發現火炭路安華工業大廈對開行人路有一疊放在卡板上、已捆紮好的紙皮起火，他隨即拖動大廈的消防喉轆救火。有網民認出起火紙皮後方正是中電機房，大讚男子及時出手，表現英勇，否則後果不堪設想。 警方昨晚（18日）7時許接報，指火炭路一幢工業大廈外有紙皮起火，人員到場時火勢已被救熄。經初步調查，事件沒有可疑，相信因未熄滅的煙頭點燃紙皮肇禍。 一疊紙皮燃起熊熊烈火。（Threads：lalayim圖片） 男子在帖文中表示：「帶住負能量返工開OT，take個break（休息一下）去食飯，竟然去左（咗）救火，難得啊，其實",
+          "title": "六合彩｜11.24幸運二金多寶推加碼制 投注額達標頭獎最高8000萬",
+          "url": "https://hk01.com/sns/article/60412576",
+          "publishedAt": "2026-11-19T04:09:12.000Z",
+          "excerpt": "【六合彩／金多寶／幸運二金多寶／攪珠號碼／8000萬頭獎】六合彩50周年推新玩法，下周二（24日）舉行的「幸運二金多寶」有「加碼」機制，當整體投注額達到指定門檻，馬會將增加相應金多寶金額，進一步提高估計頭獎基金金額，在這套「集氣加碼」機制下，倘11月23日下午2時正錄得的累積投注額達7,000萬港元，以10元一注獨中，估計頭獎達8,000萬港元。 馬會將於11月24日舉行「幸運二金多寶」攪珠。（資料圖片） 馬會將於下周二（24日）舉行「幸運二金多寶」，按其「加碼」機制，當整體投注額達到指定門檻，金多寶金額會相應增加，進一步提高估計頭獎基金金額。（資料圖片/黃寶瑩攝） 幸運二金多寶新玩法 攪珠前",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "宏福苑｜樓宇維修支援局獲增撥至4億 寬減資助涵8成30年樓齡舊樓",
-          "url": "https://hk01.com/sns/article/60412522",
-          "publishedAt": "2026-11-19T04:14:07.000Z",
-          "excerpt": "大埔宏福苑大火後，政府因應獨委會調查報告建議，擬於今年底成立「樓宇維修支援及服務局」，協助業主代辦招標維修，政府早前稱預留3億支援，根據發展局最新向立法會提交文件顯示，將連同原有「招標妥」的1.13億元餘額，即合共預計撥款逾4億，當中3.13億元用作資助合資格業主使用全新支援服務的費用。 當局在文件提及，擬優先為應課差餉租值較低的「第一級別」樓宇或屋苑業主提供費用寬減，即市區單位平均每年應課差餉租值少於約18.7萬元，或新界區少於14.3萬元，預料可涵蓋全港八成樓齡30年或以上的私人住宅及綜合用途樓宇；其餘兩成樓價較高的舊樓業主則須支付全費。 宏福苑大火一年。（資料圖片／夏家朗攝） 發展局向立",
+          "title": "APEC深圳峰會｜李家超披紅圍巾 習近平握手稱「咱們戴的一樣」",
+          "url": "https://hk01.com/sns/article/60412578",
+          "publishedAt": "2026-11-19T03:45:49.000Z",
+          "excerpt": "2026年亞太經合組織（APEC）領導人非正式會議今日（11月19日）在深圳舉行，與會各經濟體領袖在會前拍攝大合照，各人分別戴上象徵深圳「鯤鵬展翅」標誌的紅色或藍色中式圍巾。 國家主席習近平與行政長官李家超在APEC峰會前握手。 李家超率先進場 與習近平短暫交談 今年是APEC峰會第三次在中國舉行，由習近平主持，會議開始前，他與各與會經濟體領袖逐一握手問候。 李家超在早上10時25分左右率先到場，習近平主動與他打招呼稱「早上好」，又看着自己佩戴的紅圍巾說：「你看，咱們戴的都一樣。」李家超回答稱：「都一樣。」 11月19日，行政長官李家超在深圳出席第三十三次亞太經合組織（APEC）領導人非正式會",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12081,23 +12078,23 @@
           "category": "Hong Kong"
         },
         {
-          "title": "特首座駕灣仔撞傷19歲女 李家超不在車上 特首辦：途人違規過路",
-          "url": "https://hk01.com/sns/article/60412413",
-          "publishedAt": "2026-11-18T13:43:45.000Z",
-          "excerpt": "特首李家超的座駕今日（18日）在灣仔撞傷途人。傍晚約5時53分，一名女子在灣仔告士打道與分域街交界橫過馬路時，遭駛至私家車撞到，私家車62歲姓施男司機報警求助。19歲姓張女事主稱腳部痛楚，但拒絕送院。 據了解，涉事私家車為特首李家超的座駕，但當時李家超不在車上。事發位置並無行人過路處，只有行人天橋。當時私家車沿告士打道東行，左轉入分域街時，張女橫過馬路，被私家車的左邊倒後鏡撞及。案件交由港島總區交通部交通意外調查組第六隊跟進。 特首李家超的座駕駛經灣仔告士打道與分域街交界時，撞到一名橫過馬路的女途人。（Google Maps截圖） 行政長官辦公室回覆《香港01》查詢表示，該辦公室的車輛在今日下",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "「600億身家少奶」章澤天現身香港慶生 梁朝偉劉嘉玲曬合影祝賀",
           "url": "https://hk01.com/sns/article/60412189",
           "publishedAt": "2026-11-18T13:00:44.000Z",
           "excerpt": "「奶茶妹妹」章澤天今（18）日迎來33歲生日，香港影帝梁朝偉與妻子劉嘉玲特地發文為她慶生！劉嘉玲今日在社群平台公開一張三人合照，背景正是昨晚（17日）韓國天團BIGBANG出道20週年巡演香港站最終場的舞台燈光，超大咖的跨界同框曝光後，立刻掀起兩岸三地網友熱烈討論。 從劉嘉玲曬出的照片中可見，三人在藍紫色燈光映襯下神態相當輕鬆。劉嘉玲身穿黑色亮片西裝外套搭配長項鍊、將頭髮俐落梳起，展現一貫的俐落氣場；站在一旁的梁朝偉則打扮休閒，以卡其色外套內搭深色上衣與牛仔褲亮相；而壽星章澤天站在中間偏前的位置，她身穿黑色針織上衣並紮起低馬尾，在鏡頭前顯得氣色極佳、笑容從容。 劉嘉玲發文為章澤天慶生，分享了在",
           "source": "香港01",
           "category": "Hong Kong"
+        },
+        {
+          "title": "張曦雯甜認吳卓羲展開追求 預告台慶日即將再見家長",
+          "url": "https://hk01.com/sns/article/60412385",
+          "publishedAt": "2026-11-18T11:35:19.000Z",
+          "excerpt": "羅子溢和張曦雯（Kelly）今日（18日）於電視城出席台慶拜神儀式。張曦雯透露自己將在開場環節與前輩羅嘉良一同跳舞。羅子溢則表示自己主要負責玩遊戲環節，但同樣需要跳舞。 羅子溢和張曦雯（Kelly）今日（18日）於電視城出席台慶拜神儀式。（葉志明 攝） 羅子溢和張曦雯（Kelly）今日（18日）於電視城出席台慶拜神儀式。（葉志明 攝） 笑談羅嘉良對男女後輩態度不同 張曦雯想被鬧反而「冇份」 張曦雯非常期待這次與羅嘉良合作，還分享之前與對方拍攝劇集《模範律師團》時的趣事：「我們有時在休息（on break）的時候，他都會哄我們開心，跳一下『難兄難弟』給我們看，因為劉佩玥經常都在他耳邊唱，跟著他就",
+          "source": "香港01",
+          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "有線新聞",
@@ -12105,6 +12102,94 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "中美元首出席APEC會議期間會面 是今年內第三次",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525508/%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E5%87%BA%E5%B8%ADapec%E6%9C%83%E8%AD%B0%E6%9C%9F%E9%96%93%E6%9C%83%E9%9D%A2-%E6%98%AF%E4%BB%8A%E5%B9%B4%E5%85%A7%E7%AC%AC%E4%B8%89%E6%AC%A1",
+          "publishedAt": "2026-11-19T06:15:25.000Z",
+          "excerpt": "【有線新聞】國家主席習近平在深圳和美國總統特朗普會唔，是兩人今年內第三次會面。 特朗普感激習近平非常熱情接待，",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜嘉賓主持林緻茵分析演唱會經濟",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525497/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E5%98%89%E8%B3%93%E4%B8%BB%E6%8C%81%E6%9E%97%E7%B7%BB%E8%8C%B5%E5%88%86%E6%9E%90%E6%BC%94%E5%94%B1%E6%9C%83%E7%B6%93%E6%BF%9F",
+          "publishedAt": "2026-11-19T05:52:52.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜香港情緒健康學會會長林美玲—本港學生情緒調查",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525496/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E9%A6%99%E6%B8%AF%E6%83%85%E7%B7%92%E5%81%A5%E5%BA%B7%E5%AD%B8%E6%9C%83%E6%9C%83%E9%95%B7%E6%9E%97%E7%BE%8E%E7%8E%B2-%E6%9C%AC%E6%B8%AF",
+          "publishedAt": "2026-11-19T05:52:38.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜香港廁所協會主席熊志權—如何提升香港公廁質素",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525495/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E9%A6%99%E6%B8%AF%E5%BB%81%E6%89%80%E5%8D%94%E6%9C%83%E4%B8%BB%E5%B8%AD%E7%86%8A%E5%BF%97%E6%AC%8A-%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87",
+          "publishedAt": "2026-11-19T05:52:31.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜社區組織協會幹事彭鴻昌、立法會議員陳學鋒—公營醫療收費改革近一年推行情況",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525494/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%A4%BE%E5%8D%80%E7%B5%84%E7%B9%94%E5%8D%94%E6%9C%83%E5%B9%B9%E4%BA%8B%E5%BD%AD%E9%B4%BB%E6%98%8C-%E7%AB%8B%E6%B3%95%E6%9C%83%E8%AD%B0-2",
+          "publishedAt": "2026-11-19T05:52:23.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜社區組織協會幹事彭鴻昌、立法會議員陳學鋒—公營醫療收費改革近一年推行情況",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525493/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%A4%BE%E5%8D%80%E7%B5%84%E7%B9%94%E5%8D%94%E6%9C%83%E5%B9%B9%E4%BA%8B%E5%BD%AD%E9%B4%BB%E6%98%8C-%E7%AB%8B%E6%B3%95%E6%9C%83%E8%AD%B0",
+          "publishedAt": "2026-11-19T05:52:12.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "APEC｜李家超：昨與智利總統簽署協議 香港青年人有一年工作假期簽證",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525487/%E6%9D%8E%E5%AE%B6%E8%B6%85-%E6%98%A8%E8%88%87%E6%99%BA%E5%88%A9%E7%B8%BD%E7%B5%B1%E7%B0%BD%E7%BD%B2%E5%8D%94%E8%AD%B0-%E9%A6%99%E6%B8%AF%E9%9D%92%E5%B9%B4%E4%BA%BA%E6%9C%89%E4%B8%80",
+          "publishedAt": "2026-11-19T05:42:39.000Z",
+          "excerpt": "【有線新聞】行政長官李家超總結APEC行程，指昨天和智利總統簽署工作假期協議，香港第一次和拉丁美洲簽署，香港青",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "德國桌球大師賽 韋德外圍賽兩連勝",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525485/%E5%BE%B7%E5%9C%8B%E6%A1%8C%E7%90%83%E5%A4%A7%E5%B8%AB%E8%B3%BD-%E9%9F%8B%E5%BE%B7%E5%A4%96%E5%9C%8D%E8%B3%BD%E5%85%A9%E9%80%A3%E5%8B%9D",
+          "publishedAt": "2026-11-19T05:41:01.000Z",
+          "excerpt": "【有線新聞】德國桌球大師賽，韋德外圍賽兩連勝。 64歲的「白旋風」韋德首圈擊敗波高已經要打足9局。對英格蘭的馬",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "APEC｜廠商會：香港可吸引亞太企業綠色融資 鼓勵港商接觸南美等新興市場",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525480/apec-%E5%BB%A0%E5%95%86%E6%9C%83-%E9%A6%99%E6%B8%AF%E5%8F%AF%E5%90%B8%E5%BC%95%E4%BA%9E%E5%A4%AA%E4%BC%81%E6%A5%AD%E7%B6%A0%E8%89%B2%E8%9E%8D%E8%B3%87-%E9%BC%93%E5%8B%B5",
+          "publishedAt": "2026-11-19T05:32:50.000Z",
+          "excerpt": "【有線新聞】APEC工商領導人峰會日前在深圳舉行，有份參加峰會的廠商會會長盧金榮表示，成功接觸了數個新興地區經",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "警打擊電騙及洗黑錢拘123人涉款6800萬 包括一名中二男童 破紅磡、觀塘電騙操作中心",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525446/%E8%AD%A6%E6%89%93%E6%93%8A%E9%9B%BB%E9%A8%99%E5%8F%8A%E6%B4%97%E9%BB%91%E9%8C%A2%E6%8B%98123%E4%BA%BA%E6%B6%89%E6%AC%BE6800%E8%90%AC-%E5%8C%85%E6%8B%AC%E4%B8%80%E5%90%8D%E4%B8%AD%E4%BA%8C",
+          "publishedAt": "2026-11-19T05:32:13.000Z",
+          "excerpt": "【有線新聞】警方打擊電話騙案及洗黑錢，本月至今偵破逾100宗案件，涉款6,800萬元，拘捕123人。 行動中搗",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "大行下調騰訊目標價 料資本開支續高企 短期盈利續受壓",
+          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/525448/%E5%A4%A7%E8%A1%8C%E4%B8%8B%E8%AA%BF%E9%A8%B0%E8%A8%8A%E7%9B%AE%E6%A8%99%E5%83%B9-%E6%96%99%E8%B3%87%E6%9C%AC%E9%96%8B%E6%94%AF%E7%BA%8C%E9%AB%98%E4%BC%81-%E7%9F%AD%E6%9C%9F%E7%9B%88",
+          "publishedAt": "2026-11-19T05:30:59.000Z",
+          "excerpt": "【有線新聞】騰訊上季資本開支大增，更連續兩季錄得負自由現金流，多家大行下調目標價，並預期騰訊資本開支將繼續高企",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "APEC｜美俄元首展開雙邊會談 特朗普期待取得成果",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525462/apec-%E7%BE%8E%E4%BF%84%E5%85%83%E9%A6%96%E5%B1%95%E9%96%8B%E9%9B%99%E9%82%8A%E6%9C%83%E8%AB%87-%E7%89%B9%E6%9C%97%E6%99%AE%E6%9C%9F%E5%BE%85%E5%8F%96%E5%BE%97%E6%88%90%E6%9E%9C",
@@ -12176,97 +12261,9 @@
           "excerpt": "【有線新聞】受強烈東北季候風影響，本港天氣顯著轉涼，天文台預料今晚市區氣溫降至18度，周五會進一步下降至約15",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺港智供稱14歲認識蔡天鳳 與蔡母情同母子 經營鐘錶生意獲利逾2,000萬、亦涉足房地產",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525433/%E8%94%A1%E5%A4%A9%E9%B3%B3%E6%A1%88-%E9%84%BA%E6%B8%AF%E6%99%BA%E4%BE%9B%E7%A8%B114%E6%AD%B2%E8%AA%8D%E8%AD%98%E8%94%A1%E5%A4%A9%E9%B3%B3-%E8%88%87%E8%94%A1%E6%AF%8D%E6%83%85%E5%90%8C",
-          "publishedAt": "2026-11-19T04:34:34.000Z",
-          "excerpt": "【有線新聞】蔡天鳳碎屍案，鄺港智首度作供指，14歲認識蔡天鳳再成伴侶，與蔡母關係好，猶如母子；經營鐘錶生意盈利",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "中大醫院誤切卵巢 院方稱貼告示、安排護士提醫生「保留卵巢」 林哲玄：護士幫助有限",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525417/%E4%B8%AD%E5%A4%A7%E9%86%AB%E9%99%A2%E8%AA%A4%E5%88%87%E5%8D%B5%E5%B7%A2-%E9%99%A2%E6%96%B9%E7%A8%B1%E8%B2%BC%E5%91%8A%E7%A4%BA-%E5%AE%89%E6%8E%92%E8%AD%B7%E5%A3%AB%E6%8F%90%E9%86%AB",
-          "publishedAt": "2026-11-19T04:19:20.000Z",
-          "excerpt": "【有線新聞】中大醫院發生醫療事故，錯誤切除女病人雙側卵巢。醫院行政總裁鍾健禮表示，會加強醫護合作，安排護士在手",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "深圳創業者短片連繫海外客戶 火速回應用家訴求打入北美市場",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/525414/%E6%B7%B1%E5%9C%B3%E5%89%B5%E6%A5%AD%E8%80%85%E7%9F%AD%E7%89%87%E9%80%A3%E7%B9%AB%E6%B5%B7%E5%A4%96%E5%AE%A2%E6%88%B6-%E7%81%AB%E9%80%9F%E5%9B%9E%E6%87%89%E7%94%A8%E5%AE%B6%E8%A8%B4%E6%B1%82",
-          "publishedAt": "2026-11-19T03:52:05.000Z",
-          "excerpt": "【有線新聞】深圳一群「00後」創業者用短片直接同海外消費者連繫，並在深圳供應鏈支持下快速回應用家訴求，成功將自",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "APEC｜李家超出席會議 與習近平、印尼總統普拉伯沃交流",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525411/apec-%E6%9D%8E%E5%AE%B6%E8%B6%85%E5%87%BA%E5%B8%AD%E6%9C%83%E8%AD%B0-%E8%88%87%E7%BF%92%E8%BF%91%E5%B9%B3-%E5%8D%B0%E5%B0%BC%E7%B8%BD%E7%B5%B1%E6%99%AE%E6%8B%89%E4%BC%AF",
-          "publishedAt": "2026-11-19T03:50:57.000Z",
-          "excerpt": "【有線新聞】行政長官李家超在深圳出席APEC領導人非正式會議。 會議開始前，李家超與國家主席習近平握手交談。會",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "APEC｜多位領袖出席領導人非正式會議 習近平逐一握手 與高市早苗短暫交談",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525408/apec-%E5%A4%9A%E4%BD%8D%E9%A0%98%E8%A2%96%E5%87%BA%E5%B8%AD%E9%A0%98%E5%B0%8E%E4%BA%BA%E9%9D%9E%E6%AD%A3%E5%BC%8F%E6%9C%83%E8%AD%B0-%E7%BF%92%E8%BF%91%E5%B9%B3%E9%80%90%E4%B8%80",
-          "publishedAt": "2026-11-19T03:33:46.000Z",
-          "excerpt": "【有線新聞】亞太經合組織APEC領導人非正式會議在深圳國際交流中心舉行，多位APEC領袖出席。 多位領袖的座駕",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港大學站連續兩日信號設備故障 乘客不滿港鐵表現：應負社會責任",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525393/%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%B8%E7%AB%99%E9%80%A3%E7%BA%8C%E5%85%A9%E6%97%A5%E4%BF%A1%E8%99%9F%E8%A8%AD%E5%82%99%E6%95%85%E9%9A%9C-%E4%B9%98%E5%AE%A2%E4%B8%8D%E6%BB%BF%E6%B8%AF%E9%90%B5",
-          "publishedAt": "2026-11-19T03:29:30.000Z",
-          "excerpt": "【有線新聞】港鐵香港大學站連續第二日早上信號設備故障，港島綫列車服務一度受影響約半小時。 事故期間，港島綫行車",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "巴拿馬：長和港口經營合約涉嫌違規將提刑事訴訟",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/525400/%E5%B7%B4%E6%8B%BF%E9%A6%AC-%E9%95%B7%E5%92%8C%E6%B8%AF%E5%8F%A3%E7%B6%93%E7%87%9F%E5%90%88%E7%B4%84%E6%B6%89%E5%AB%8C%E9%81%95%E8%A6%8F%E5%B0%87%E6%8F%90%E5%88%91%E4%BA%8B%E8%A8%B4%E8%A8%9F",
-          "publishedAt": "2026-11-19T03:14:42.000Z",
-          "excerpt": "【有線新聞】巴拿馬審計長辦公室完成審計與長和旗下子公司的港口經營合約，發現涉嫌違規行為，將提出刑事訴訟。 巴拿",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺球稱精神崩潰忘記肢解原因 回應租凱旋門助潛逃質疑：逃走返大陸公安拉你仲快",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525402/%E8%94%A1%E5%A4%A9%E9%B3%AF%E6%A1%88-%E9%84%BA%E7%90%83%E5%AE%8C%E6%88%90%E4%BD%9C%E4%BE%9B-%E9%84%BA%E6%B8%AF%E6%99%BA%E4%B8%80%E6%96%B9%E8%A6%81%E6%B1%82%E6%8F%90%E6%97%A9%E4%BC%91",
-          "publishedAt": "2026-11-19T03:08:46.000Z",
-          "excerpt": "【有線新聞】蔡天鳳碎屍案，鄺球繼續接受控方盤問，指案發前租住龍尾村、凱旋門單位等可以說是巧合，不同意聯同兩名兒",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "APEC｜習近平：中方將斥資2000萬美元支持合作 亞太成員同在一條船應守望相助",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525396/apec-%E7%BF%92%E8%BF%91%E5%B9%B3-%E4%B8%AD%E6%96%B9%E5%B0%87%E6%96%A5%E8%B3%872000%E8%90%AC%E7%BE%8E%E5%85%83%E6%94%AF%E6%8C%81%E5%90%88%E4%BD%9C-%E4%BA%9E%E5%A4%AA%E6%88%90",
-          "publishedAt": "2026-11-19T03:05:32.000Z",
-          "excerpt": "【有線新聞】國家主席習近平在APEC領導人非正式會議發展重要講話時，促請亞太成員國攜手應對困難和挑戰，秉持開放",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "聯儲局會議紀錄：幾乎所有官員認為未來要進一步加息",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/525390/%E8%81%AF%E5%84%B2%E5%B1%80%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-%E5%B9%BE%E4%B9%8E%E6%89%80%E6%9C%89%E5%AE%98%E5%93%A1%E8%AA%8D%E7%82%BA%E6%9C%AA%E4%BE%86%E8%A6%81%E9%80%B2%E4%B8%80%E6%AD%A5",
-          "publishedAt": "2026-11-19T02:32:46.000Z",
-          "excerpt": "【有線新聞】聯儲局會議紀錄顯示，幾乎所有官員認為未來要進一步加息，理事沃勒指下月會議應考慮大幅加息半厘。 聯儲",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "東莞-香港國際空港中心對APEC經濟體進出口增長57%",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/525387/%E6%9D%B1%E8%8E%9E-%E9%A6%99%E6%B8%AF%E5%9C%8B%E9%9A%9B%E7%A9%BA%E6%B8%AF%E4%B8%AD%E5%BF%83%E5%B0%8Dapec%E7%B6%93%E6%BF%9F%E9%AB%94%E9%80%B2%E5%87%BA%E5%8F%A3%E5%A2%9E%E9%95%B757",
-          "publishedAt": "2026-11-19T02:23:20.000Z",
-          "excerpt": "【有線新聞】東莞-香港國際空港中心今年首十個月對APEC經濟體進出口額按年增長約57%。 進出口總額達到105",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Now 新聞",
@@ -12275,15 +12272,47 @@
       "count": 20,
       "stories": [
         {
-          "title": "蔡天鳳碎屍案｜鄺球完成作供 多次稱「不知為何要烹屍」(劉倩桐報道)",
-          "url": "https://news.now.com/home/local/player?newsId=670143",
-          "publishedAt": "2026-11-19T04:38:26.000Z",
+          "title": "民政總署前署長張趙凱渝獲委任職訓局執行幹事 明年起生效",
+          "url": "https://news.now.com/home/local/player?newsId=670154",
+          "publishedAt": "2026-11-19T05:51:25.000Z",
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
         },
         {
-          "title": "天文台料周五市區氣溫降至15度 或成今年入秋而來最低(陳佩彤報道)",
+          "title": "港鐵香港大學站連續兩日信號故障 陳恒鑌指港鐵初步判斷不屬同一問題",
+          "url": "https://news.now.com/home/local/player?newsId=670153",
+          "publishedAt": "2026-11-19T05:45:34.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "警方拘123人涉逾百宗電話騙案 最年輕僅14歲涉私吞贓款等",
+          "url": "https://news.now.com/home/local/player?newsId=670152",
+          "publishedAt": "2026-11-19T05:38:23.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺港智首作供 稱夫婦合作賣表獲利逾2000萬元",
+          "url": "https://news.now.com/home/local/player?newsId=670151",
+          "publishedAt": "2026-11-19T05:34:23.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "蔡天鳳碎屍案｜鄺球完成作供 多次稱「不知為何要烹屍」",
+          "url": "https://news.now.com/home/local/player?newsId=670143",
+          "publishedAt": "2026-11-19T05:07:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "天文台料周五市區氣溫降至15度 或成今年入秋而來最低",
           "url": "https://news.now.com/home/local/player?newsId=670142",
           "publishedAt": "2026-11-19T04:31:26.000Z",
           "excerpt": "",
@@ -12401,41 +12430,9 @@
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "牙管會近6年處理980宗申訴 其中逾800宗被評瑣屑無聊不跟進",
-          "url": "https://news.now.com/home/local/player?newsId=670080",
-          "publishedAt": "2026-11-18T12:45:50.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "交諮會主席黃仕進相信網約車合法化有效打擊白牌車",
-          "url": "https://news.now.com/home/local/player?newsId=670079",
-          "publishedAt": "2026-11-18T12:45:49.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "兩二手名牌店疑欠客人3800萬寄賣款項 逾210人報案",
-          "url": "https://news.now.com/home/local/player?newsId=670078",
-          "publishedAt": "2026-11-18T12:40:25.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "北角電燈中心電錶房起火 男職員燒傷送院",
-          "url": "https://news.now.com/home/local/player?newsId=670077",
-          "publishedAt": "2026-11-18T12:39:25.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12604,7 +12601,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12612,6 +12609,86 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "深圳APEC｜習近平會見美國總統特朗普",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878436-20261119.htm",
+          "publishedAt": "2026-11-19T06:03:26.000Z",
+          "excerpt": "",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "特設銷售計劃下全部項目有居民挑選 盛緻苑及樂嶺軒最快今年入伙",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878435-20261119.htm",
+          "publishedAt": "2026-11-19T06:02:01.000Z",
+          "excerpt": "房屋局表示，為宏福苑業主而設的「特設銷售計劃」，其中一名長者於本星期一在房協的粉嶺樂嶺軒正式收樓，房協職員向這名長者及其家人，解釋交樓程序及入伙裝修等要注意的事項。 她表示很喜歡單位的景觀，亦不用裝修，會稍為添置傢俬電器和基本長者友善輔助設施，預計今年年底可以搬入新居所。她期望與母親和弟弟盡快展開新生活，又感謝社會各界出錢出力的熱心人士，以及「一戶一社工」及「解說專隊」成員的支援。 局方表示，「特設銷售計劃」下10個房屋發展項目，全部都有居民挑選，其中房委會九龍灣盛緻苑和房協粉嶺樂嶺軒，最快今年可以收鎖匙入伙。啟德啟陽苑亦相當受歡迎。 編輯：潘潔平",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳APEC｜美俄元首會面約一個小時",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878431-20261119.htm",
+          "publishedAt": "2026-11-19T05:55:01.000Z",
+          "excerpt": "美俄元首會面約一個小時。 美國總統特朗普在深圳舉行的亞太經合組織領導人非正式會議期間，與俄羅斯總統普京會面。 特朗普會前表示，他與普京的關係非常好，期待展開富有成果的對話。 特朗普又說，雙方多年來一直保持著良好關係。他與普京彼此認識很久，認為這次會晤會帶來很多美好的成果，或者至少會開啟一些美好的篇章。他相信這些成果最終會實現。普京就表示，很高興和特朗普會面。 今次在深圳的會晤，是兩人自去年8月阿拉斯加峰會以來的首次面對面接觸。 編輯：羅宇光",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳APEC｜李家超與習近平短暫交流 談大灣區機遇及香港優勢",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878433-20261119.htm",
+          "publishedAt": "2026-11-19T05:53:39.000Z",
+          "excerpt": "正在深圳出席亞太經合組織會議的行政長官李家超表示，在會議期間與國家主席習近平有機會作短暫交流，向他介紹香港在亞太經合組織工商領導人峰會上，粵港澳大灣區及亞太發展機遇專題研討會的情況，期間向習近平表示，與會人士對大灣區發展前景反應十分正面，討論時相當熱烈，大家都認同粵港澳大灣區發展潛力龐大。 李家超表示，他向習近平提到香港會繼續用好「一國兩制」下「內聯外通」的優勢，發揮超級聯繫人及超級增值人角色，更好融入和服務國家發展大局，同時為亞太區合作和發展作出貢獻。 李家超又說，習近平在主旨演講提出四點建議，一是維護和平穩定大局；二是要搭建開放合作橋樑；三是要激發創新增長動力；四是要拓展互利共贏路徑，堅持",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳APEC｜李家超：貢獻香港力量參與和支持國家成功舉辦會議",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878430-20261119.htm",
+          "publishedAt": "2026-11-19T05:36:39.000Z",
+          "excerpt": "",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳APEC｜國家主席習近平於深圳會見美國總統特朗普",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878429-20261119.htm",
+          "publishedAt": "2026-11-19T05:35:27.000Z",
+          "excerpt": "國家主席習近平在深圳會見來華出席亞太經合組織領導人非正式會議的美國總統特朗普。 特朗普車隊中午後駛入麒麟山莊，央視報道，特朗普一行人下午1時許，抵達會見現場。 這是兩國元首今年內第三次會晤。 編輯：潘潔平",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "運輸署稱6號幹線配備多項管理設施 營辦商已增聘人手及測試設備",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878428-20261119.htm",
+          "publishedAt": "2026-11-19T05:32:43.000Z",
+          "excerpt": "中九龍繞道九龍灣段下月6日通車，標誌著整條6號幹線將會全線開通。運輸署表示，6號幹線配備多項設施管理隧道交通，確保有效管理及交通暢順。 署方在社交網頁表示，6號幹線全線採用「交通管制及監察系統」，結合閉路電視、自動事故探測器、行車線管制燈號，以及可變速度限制或信息標誌，24小時實時監察隧道及路面情況。6號幹線分別於啟德及茶果嶺設交通控制中心，同步分別監察油麻地段，以及九龍灣段和將藍隧道。當發生交通事故，系統會自動提示監察人員啟動預案，並透過顯示屏及管道廣播通知駕駛人士。 另外，6號幹線全線3條隧道均由同一營辦商統一營運、管理及維修保養，署方表示，做法可提升效率和協調。營辦商已增聘人手️、測試設",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "鄺港智作供稱與父親不太能相處 學習海南話融入蔡天鳳家庭",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878427-20261119.htm",
+          "publishedAt": "2026-11-19T05:27:34.000Z",
+          "excerpt": "蔡天鳯案在高等法院續審，第三被告、蔡天鳯的前夫鄺港智開始作供。鄺港智供稱，在14歲認識蔡天鳯，他之後搬入黃埔單位是因為與蔡天鳯拍拖，但與次被告、父親鄺球不太能相處，亦同意蔡天鳯的母親張燕花性格較為温和，他學習海南話以融入家庭。鄺港智說涉及以往的案件，是希望多賺錢，為了包括子女及蔡天鳯的家庭。他之後潛逃內地，但有能力每次包船支付10萬元，以乘坐「大飛」往返。 鄺港智又說，不同意依靠蔡天鳯的金錢。被問及與蔡天鳯的生意安排，就鐘錶方面，鄺港智說有很多客戶及朋友，整段期間賺取少2000多萬元，相關利潤基本上給予蔡天鳯。至於在內地亦有從事房地產，包括做二房東及營運寫字樓，但因個人狀況，並非在他名下。至於",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "恒指下午初段跌逾400點",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878423-20261119.htm",
+          "publishedAt": "2026-11-19T05:18:28.000Z",
+          "excerpt": "港股下午開市初段跌逾400點，恒生指數較早時報22870點，跌424點，跌幅1.82%。 科技指數報3651點，跌84點，跌幅2.27%。 編輯：宋家樑",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "深圳APEC｜美俄元首會晤 特朗普期待展開富有成果對話",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878420-20261119.htm",
+          "publishedAt": "2026-11-19T04:48:33.000Z",
+          "excerpt": "美俄元首會面。 美國總統特朗普在深圳舉行的亞太經合組織領導人非正式會議期間，同俄羅斯總統普京會面。 特朗普表示，他與普京的關係非常好，期待展開富有成果的對話。 特朗普又說，雙方多年來一直保持著良好關係。他同普京彼此認識很久，認為這次會晤會帶來很多美好的成果，或者至少會開啟一些美好的篇章。他相信這些成果最終會實現。 今次在深圳的會晤，是兩人自去年8月阿拉斯加峰會以來的首次面對面接觸。 編輯：羅宇光",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "警打擊電騙及洗黑錢拘123人 兩工廈單位被用作電騙操作中心",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1878418-20261119.htm",
@@ -12691,89 +12768,9 @@
           "excerpt": "國家主席習近平主持APEC第三十三次領導人非正式會議並發表重要講話宣布，中方將提供2000萬美元，資助開展亞太經合組織務實合作。中方將在深圳設立亞太共同體研究中心，開展政策研究和交流，提供智力支撐。中方將立足亞太合作，在數字技術、數據跨境流動、清潔能源、中小企業發展等領域設立合作機構，助力亞太創新、綠色增長。 習近平表示，中國是亞太經濟合作的倡導者、推動者、先行者。中方願同各方一道，集思廣益、匯聚合力，攜手搭建亞太共同體的「四樑八柱」。第一是強化經貿支柱，推動區域經貿協定對接，圍繞亞太自貿區加強政策對話，提高各方參與高水平經貿安排的能力。二是升級聯通支柱，鞏固「硬聯通」，完善基礎設施網絡；增強",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "深圳APEC｜習近平：秉持開放區域主義 穩步推進經濟一體化",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878398-20261119.htm",
-          "publishedAt": "2026-11-19T02:27:28.000Z",
-          "excerpt": "國家主席習近平在深圳主持亞太經合組織第三十三次領導人非正式會議，並發表講話。習近平說，當前世界百年變局加速演進，科技創新和產業創新方興未艾，面對新機遇和挑戰，亞太合作必須適應新形勢，邁出新步伐，開創新局面，推動建設和衷共濟、開放融通、開拓創新和包容發展的亞太共同體。 習近平指出，30多年以來，亞太地區面貌日新月異，創造經濟快速發展的亞太奇蹟。他說，建設亞太共同體，要堅持和衷共濟，形容亞太大家庭的成員同在一條船，要經受太平洋的風浪，就應當守望相助，攜手應對困難和挑戰。他又說，要秉持開放的區域主義，穩步推進經濟一體化進程，構建「開放而不排他、融合而不分割」的合作格局，宣導自由開放的貿易和投資，打通",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "深圳APEC｜習近平與嘉賓握手並合照 分別戴上紅色和藍色圍巾",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878396-20261119.htm",
-          "publishedAt": "2026-11-19T02:20:57.000Z",
-          "excerpt": "國家主席習近平在深圳國際交流中心主持亞太經合組織第三十三次領導人非正式會議。 會議開始前，美國總統特朗普、俄羅斯總統普京等分別乘專車到達會場，APEC高官會主席陳旭在場迎接。 習近平其後與會嘉賓握手並集體合影，各人分別戴上象徵深圳「鯤鵬展翅」標誌的紅色和藍色圍巾。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "港股跌逾400點 失守23000點",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878394-20261119.htm",
-          "publishedAt": "2026-11-19T02:17:50.000Z",
-          "excerpt": "港股跌幅擴大至逾400點，恒生指數失守23000點關口，是近3星期以來首次，低見22869點，跌近425點，跌幅逾1.8%。 科技指數報3655點，跌約2.2%。 騰訊績後急挫近6%，阿里巴巴業績公布前亦跌逾5%，連跌10個交易日，兩者拖低大市。 AI大模型沽壓較大，兩大晶片股逆市向上。 編輯：宋家樑",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "女病人被錯切卵巢 中大醫院稱已採取措施及正進行人事程序",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878393-20261119.htm",
-          "publishedAt": "2026-11-19T02:14:17.000Z",
-          "excerpt": "一名女病人在中大醫院接受接受腹腔鏡子宮及雙側輸卵管切除手術期間，兩邊卵巢被錯誤切除。中大醫院行政總裁鍾健禮於本台節目《千禧年代》，再次就對病人及家屬，表示歉意及慰問。他又表示，當時負責手術的醫生出現「失神」的情況。中大醫院現時已經採取措施，期望防止再有類似事件發生。 鍾健禮表示，在手術過程中，醫生利用腹腔鏡進入手術位置時出現困難，需要15至20分鐘，之後專注力突然降低，然後出錯。他舉例，就如司機每日駕駛，有兩條路徑可以經過，有一日開車時，塞車大約15至20分鐘，道路開通時突然行錯路。他形容情況很不理想，後果亦很嚴重。當時手術室程序或護士工作上，已做到現有標準。他表示，防錯系統很重要，現時醫院會",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "深圳APEC｜習近平：會議定圓滿成功 為世界和平穩定貢獻力量",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878392-20261119.htm",
-          "publishedAt": "2026-11-19T02:02:31.000Z",
-          "excerpt": "亞太經合組織第三十三次領導人非正式會議早上在深圳舉行。 國家主席習近平開場發言，歡迎亞太經合組織各經濟體領導人出席會議，會議主題是「建設亞太共同體 促進共同繁榮」，相信在共同努力下，會議一定會圓滿成功，為亞太經合組織實現更大發展，也為本地區乃至世界和平穩定繁榮貢獻力量。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "【重溫】2026年11月19日《社評摘要》",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878383-20261119.htm",
-          "publishedAt": "2026-11-19T01:38:33.000Z",
-          "excerpt": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "【重溫】2026年11月19日《報章摘要》",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878382-20261119.htm",
-          "publishedAt": "2026-11-19T01:37:31.000Z",
-          "excerpt": "每日搜羅本港主要報章要聞，緊貼社會動態。",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "深圳APEC｜特朗普：昨日與習近平討論人工智能議題",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878386-20261119.htm",
-          "publishedAt": "2026-11-19T01:11:38.000Z",
-          "excerpt": "美國總統特朗普說，昨日曾與中國國家主席習近平交談。 正在深圳出席亞太經合組織領導人非正式會議的特朗普，接受霍士新聞訪問時表示，與習近平討論人工智能議題，在過程中只是簡短提到Nvidia前行政總裁黃仁勳。 特朗普表示，雙方沒有討論黃仁勳，可能只是稍微提及，因為這是一場悲劇，指他是一位非常傑出的人才。 編輯：方潤南",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港大學站附近信號設備故障已修復 港島綫列車服務陸續恢復正常",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878384-20261119.htm",
-          "publishedAt": "2026-11-19T00:53:02.000Z",
-          "excerpt": "港鐵表示，早前香港大學站附近的信號設備故障已修復，港島綫列車服務陸續恢復正常。 較早前，來往堅尼地城站至柴灣站的整體行車時間一度需要額外 5至8分鐘。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "香港大學站附近信號設備故障 整體行車時間需要額外5至8分鐘",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878380-20261119.htm",
-          "publishedAt": "2026-11-19T00:23:44.000Z",
-          "excerpt": "港鐵表示，由於香港大學站附近有信號設備故障，列車行經該路段需要慢駛，來往堅尼地城站至柴灣站的整體行車時間預計需要額外 5至 8分鐘。港鐵人員正在處理。 港鐵呼籲乘客為行程預留充裕時間。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "South China Morning Post",
@@ -12942,7 +12939,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13111,7 +13108,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T05:17:16.972Z"
+      "lastSuccessfulAt": "2026-11-19T06:17:12.712Z"
     }
   ],
   "stories": [
@@ -13215,15 +13212,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50550415"
     },
     {
-      "title": "The Magic of Partial Evaluation",
-      "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
-      "publishedAt": "2026-11-18T18:29:03.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50550096"
-    },
-    {
       "title": "Advancing chip design with OpenAI models",
       "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
       "publishedAt": "2026-11-18T17:45:47.000Z",
@@ -13294,6 +13282,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50547620"
+    },
+    {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "publishedAt": "2026-11-18T15:19:55.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547374"
     },
     {
       "title": "Elon Musk tries to explain what’s going on with Ukraine and Starlink",
@@ -13456,6 +13453,14 @@
       "category": "Technology"
     },
     {
+      "title": "ExpressVPN Coupons: 80% Off",
+      "url": "https://www.wired.com/story/expressvpn-coupons/",
+      "publishedAt": "2026-11-19T06:00:00.000Z",
+      "excerpt": "Learn how to get the best value from your ExpressVPN subscription plans, whether you need a flexible 1-month plan or want to lock in up to 61% savings on multi-year deals.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "The Best Early Black Friday Deals On Laptops I've Tested Myself (2026)",
       "url": "https://www.wired.com/story/best-early-black-friday-laptop-deals-11-18-26/",
       "publishedAt": "2026-11-19T00:23:15.000Z",
@@ -13604,14 +13609,6 @@
       "url": "https://www.wired.com/story/best-early-black-friday-deals-under-100-11-18-2026/",
       "publishedAt": "2026-11-18T11:19:00.000Z",
       "excerpt": "Here are the best discounts we’ve found so far on WIRED-tested gadgets under $100.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth",
-      "url": "https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/",
-      "publishedAt": "2026-11-18T11:15:00.000Z",
-      "excerpt": "The spacecraft stores data on an eight-track tape, but it’s managed to stay in contact with scientists for decades. Now, it’s the first human-made object to travel a light-day away from Earth.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14321,6 +14318,28 @@
       "sourceRole": "community"
     },
     {
+      "title": "A US congressional commission report says China's PLA is seeking advanced Nvidia chips for AI-enabled weapons, as domestic chips continue to lag US rivals (Jaspreet Singh/Reuters)",
+      "url": "https://www.reuters.com/world/china/china-seeks-advanced-nvidia-chips-ai-weapons-despite-us-curbs-report-says-2026-11-18/",
+      "publishedAt": "2026-11-19T05:55:31.000Z",
+      "excerpt": "Jaspreet Singh / Reuters : A US congressional commission report says China's PLA is seeking advanced Nvidia chips for AI-enabled weapons, as domestic chips continue to lag US rivals &nbsp; &mdash;&nbsp; China's military is seeking advanced Nvidia chips for AI-enabled weapons as Chinese-made processo",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261119/p2#a261119p2",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Sources: technical staff at several Chinese humanoid robot makers have been denied US visas ahead of CES, hampering their efforts to showcase their hardware (Nikkei Asia)",
+      "url": "https://asia.nikkei.com/business/technology/us-visa-denials-hit-xpeng-other-chinese-robot-makers-ahead-of-ces",
+      "publishedAt": "2026-11-19T05:50:02.000Z",
+      "excerpt": "Nikkei Asia : Sources: technical staff at several Chinese humanoid robot makers have been denied US visas ahead of CES, hampering their efforts to showcase their hardware &nbsp; &mdash;&nbsp; HONG KONG &mdash; Researchers and engineers at several Chinese humanoid robot makers, including Xpeng and En",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261119/p1#a261119p1",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "Internal posts show Meta employees raising concerns that Muse could be mixing up conversations between different accounts and exposing users' private data (Katie Paul/Reuters)",
       "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18",
       "publishedAt": "2026-11-19T04:55:28.000Z",
@@ -14460,28 +14479,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261118/p52#a261118p52",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B (Yasutaka Tamura/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-raises-3-billion-in-japan-tranche-of-us-mega-ipo",
-      "publishedAt": "2026-11-19T00:40:03.000Z",
-      "excerpt": "Yasutaka Tamura / Bloomberg : Filing: Anthropic raised ~$3B from Japanese investors as part of its IPO, the lower end of its planned range of $3B to $3.5B &nbsp; &mdash;&nbsp; Anthropic PBC raised about $3 billion from Japanese investors as part of its initial public offering, the lower end of its p",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261118/p51#a261118p51",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "At DealBook, Elon Musk says he feels \"pretty foolish\" after spending nearly $500M backing Republicans in midterms won by Democrats and claims \"I'm not MAGA\" (Todd Spangler/Variety)",
-      "url": "https://variety.com/2026/digital/news/elon-musk-pretty-foolish-midterm-election-races-not-maga-1236952400/",
-      "publishedAt": "2026-11-19T00:25:01.000Z",
-      "excerpt": "Todd Spangler / Variety : At DealBook, Elon Musk says he feels &ldquo;pretty foolish&rdquo; after spending nearly $500M backing Republicans in midterms won by Democrats and claims &ldquo;I'm not MAGA&rdquo; &nbsp; &mdash;&nbsp; Elon Musk spent big backing Republicans in the 2026 midterm elections &m",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261118/p50#a261118p50",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -17917,6 +17914,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Fossil fuel lobbyists are trying to derail climate action once again at COP31. Can they be stopped?",
+      "url": "https://theconversation.com/fossil-fuel-lobbyists-are-trying-to-derail-climate-action-once-again-at-cop31-can-they-be-stopped-294668",
+      "publishedAt": "2026-11-19T03:55:07.000Z",
+      "excerpt": "The whole point of this summit is to address climate change. Why are fossil fuel cheerleaders still allowed in the door?",
+      "source": "The Conversation",
+      "category": "Society"
+    },
+    {
       "title": "Beijing has three priorities at the Shenzhen summit – a China expert explains",
       "url": "https://theconversation.com/beijing-has-three-priorities-at-the-shenzhen-summit-a-china-expert-explains-296734",
       "publishedAt": "2026-11-18T11:39:19.000Z",
@@ -18057,14 +18062,6 @@
       "url": "https://theconversation.com/what-lurks-below-newfoundland-waters-a-marine-biologist-explains-the-science-behind-the-show-295615",
       "publishedAt": "2026-11-11T12:10:37.000Z",
       "excerpt": "While Below may have some things wrong —&nbsp;giant squid probably aren’t vindictive, for example — a Newfoundland ocean sciences expert praises the Netflix show for stoking an interest in the deep sea.",
-      "source": "The Conversation",
-      "category": "Society"
-    },
-    {
-      "title": "Economic coercion once ousted Iran’s leader – but that was the 1950s; don’t expect a repeat today",
-      "url": "https://theconversation.com/economic-coercion-once-ousted-irans-leader-but-that-was-the-1950s-dont-expect-a-repeat-today-294628",
-      "publishedAt": "2026-11-10T13:36:36.000Z",
-      "excerpt": "A two-year blockade imposed on Iran by Britain gave way to a coup and leadership change. But seven decades later, circumstances are very different.",
       "source": "The Conversation",
       "category": "Society"
     },
@@ -19083,6 +19080,14 @@
       "category": "Society"
     },
     {
+      "title": "Maria Teresa Pirrigheddu and Vieri Mura – Rundinas",
+      "url": "https://thequietus.com/quietus-reviews/maria-teresa-pirrigheddu-and-vieri-mura-rundinas-review/",
+      "publishedAt": "2026-11-19T06:00:00.000Z",
+      "excerpt": "Maria Teresa Pirrigheddu and Vieri Mura Rundinas An album of Sardinian cantu a chiterra proves softly spoken but full of character Rundinas by Maria Teresa Pirrigheddu & Vieri Mura The path to Rundinas, a collection of songs in the cantu a chiterra style of northern Sardinia, began with a research p",
+      "source": "The Quietus",
+      "category": "Arts"
+    },
+    {
       "title": "Glastonbury Reveals First Acts for 2027 Edition",
       "url": "https://thequietus.com/news/glastonbury-reveals-first-acts-for-2027-edition/",
       "publishedAt": "2026-11-18T10:30:00.000Z",
@@ -19231,14 +19236,6 @@
       "url": "https://thequietus.com/news/armand-hammer-surprise-release-new-album-snakes-ladders/",
       "publishedAt": "2026-11-11T14:42:30.000Z",
       "excerpt": "It features guest appearances from DJ Haram and $ilkmoney Armand Hammer, the duo of billy woods and ELUCID, have released a surprise new album, Snakes & Ladders. Featuring 16 tracks, it follows on from last year's Mercy LP, and features guest appearances from DJ Haram and $ilkmoney. There is also pr",
-      "source": "The Quietus",
-      "category": "Arts"
-    },
-    {
-      "title": "Coachella Reveals 2027 Lineup",
-      "url": "https://thequietus.com/news/coachella-reveals-2027-lineup/",
-      "publishedAt": "2026-11-11T13:32:00.000Z",
-      "excerpt": "Madonna, SZA and Giorgio Moroder are among the artists playing next year's festival in California Coachella has revealed its full 2027 lineup. The California festival will be headlined by SZA, Dua Lipa and Tame Impala, while Madonna is also listed to play a special set in the Sahara dance music tent",
       "source": "The Quietus",
       "category": "Arts"
     },
@@ -20223,6 +20220,14 @@
       "category": "Books"
     },
     {
+      "title": "“The Unburied” by Joohee Suh",
+      "url": "https://asianreviewofbooks.com/the-unburied-by-joohee-suh/",
+      "publishedAt": "2026-11-19T06:00:00.000Z",
+      "excerpt": "In late imperial China, death did not always lead swiftly to burial. Coffins frequently remained in temple courtyards, storage houses, or shallow pits for months, years, even decades. These unburied bodies unsettled the social order: they were neither gone nor fully incorporated into ancestral lines",
+      "source": "Asian Review of Books",
+      "category": "Books"
+    },
+    {
       "title": "“I Am Going to Kill Somebody” by Firat Cewerî",
       "url": "https://asianreviewofbooks.com/i-am-going-to-kill-somebody-by-firat-ceweri/",
       "publishedAt": "2026-11-18T06:00:00.000Z",
@@ -20331,14 +20336,6 @@
       "url": "https://asianreviewofbooks.com/queen-warrior-captain-by-violaine-sebillotte-cuchet/",
       "publishedAt": "2026-11-06T06:00:00.000Z",
       "excerpt": "The Greeks invented Asia, or at least gave us the word. But the binaries of Greek/Asian, Greek/Barbarian, as well as man/woman, derive not from antiquity, but from modern discourse. Or rather, modern discourse has amplified and normalized a particular strain of Greek thought that emerged in sixth-ce",
-      "source": "Asian Review of Books",
-      "category": "Books"
-    },
-    {
-      "title": "Podcast with Joost Hiltermann “The Resurrected”",
-      "url": "https://asianreviewofbooks.com/podcast-with-joost-hiltermann-the-resurrected/",
-      "publishedAt": "2026-11-05T09:50:10.000Z",
-      "excerpt": "Anfal is an Arabic word from the Quran meaning “the spoils of war.” Saddam Hussein gave the name to his 1988 campaign against Iraq’s Kurds — eight stages of chemical attack, mass arrest and mass execution that killed some hundred thousand people, and that a later tribunal would call genocide. Joost ",
       "source": "Asian Review of Books",
       "category": "Books"
     },
@@ -22880,19 +22877,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to take notes that actually help you learn",
-      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "title": "Who am I if I don’t run?",
+      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Who am I if I don’t run?",
-      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "title": "How to take notes that actually help you learn",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -24018,15 +24015,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "The moral of the story is \"Be Kind to What You Make\"",
-      "url": "https://www.metafilter.com/215207/The-moral-of-the-story-is-Be-Kind-to-What-You-Make",
-      "publishedAt": "2026-11-18T06:08:50.000Z",
-      "excerpt": "What Big Eyes You Have! What Big Brains You have! Ten days ago Anthropic released Fable 4.2. A user @anabology on X, asked it to make the video of its dreams. The video is the result. It took two prompts. Fable wrote, directed and produced it, invoking Seedance and Suno to generate the shots and the",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
       "url": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
       "publishedAt": "2026-11-18T15:51:40.000Z",
@@ -24407,82 +24395,82 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "蔡天鳳案｜鄺港智稱賣錶賺2千萬 地產月月賺 餐廳所賺不值一提",
-      "url": "https://hk01.com/sns/article/60412623",
-      "publishedAt": "2026-11-19T05:16:21.000Z",
-      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今（19日）在高等法院續審，第三被告鄺港智自辯時稱其財政上並無依靠蔡天鳳。他其後提及他所經營的鐘錶、地產及餐飲生意，並稱每項都有獲利，其中鐘錶生意獲利最少2000萬，地產每月20至30萬人民幣，餐飲業的1至2萬元不值一提。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向選出的陪審團透露，三名被告否認謀殺，全部承認一項阻止合法",
+      "title": "APEC深圳峰會｜李家超：與習近平短暫交流 談香港內聯外通優勢",
+      "url": "https://hk01.com/sns/article/60412644",
+      "publishedAt": "2026-11-19T06:15:36.000Z",
+      "excerpt": "2026年亞太經合組織（APEC）領導人非正式會議今日（11月19日）在深圳舉行，行政長官李家超在會後見記者，表示會議期間與國家主席習近平有短暫交流，他向習近平提到，香港會用好「一國兩制」下內聯外通的優勢，更好融入和服務國家發展大局，並為亞太區合作和發展作出貢獻。李家超又指，昨天和智利總統簽署工作假期協議，是香港首次和拉丁美洲簽署，香港年輕人可以獲一年有關簽證。 行政長官李家超在深圳出席亞太經合組織（APEC）領導人非正式會議後見記者。（潘耀昇攝） 行政長官李家超在深圳出席亞太經合組織（APEC）領導人非正式會議後見記者。（潘耀昇攝） 行政長官李家超在深圳出席亞太經合組織（APEC）領導人非正",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "天文台料周六分區10℃ 保暖6禁忌 醫生：搓手腳無用恐致心肌梗塞",
-      "url": "https://hk01.com/sns/article/60412520",
-      "publishedAt": "2026-11-19T05:13:33.000Z",
-      "excerpt": "明日的天氣｜天文台｜天文台今日（19日）發出特別天氣提示，受強烈東北季候風影響，本港今明兩日天氣顯著轉涼，明日（20日）有幾陣雨，市區氣溫將由午夜約攝氏18度下降至最低約15度，新界再低兩三度。至星期六（21日）凌晨，新界分區更低見10度。 氣溫急降，大家在街上時如果感到寒冷，是否都會搓揉手腳讓身體回暖嗎？有心臟科醫生指出，這做法在低體溫時反而會造成熱散失更嚴重，而過度、劇烈或顛簸的動作可能會引發心臟驟停；而且一回家就立即沖熱水澡更容易讓血管瞬間擴張，心跳加快！想知還有甚麼保暖禁忌？即看下文！ 👉follow 好食玩飛ig ✈️免費睇旅遊飲食攻略 明日的天氣｜天文台料周五最低氣溫15℃ 天文",
+      "title": "蔡天鳳案｜鄺港智自稱花費不多 認駕勞斯萊斯在廣州住五星級酒店",
+      "url": "https://hk01.com/sns/article/60412640",
+      "publishedAt": "2026-11-19T06:07:48.000Z",
+      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(19日）在高等法院續審，第三被告鄺港智自辯時稱他財政上並無靠蔡天鳳，又稱他在賣名錶及地產均有賺到錢。 他承認在內地時蔡天鳳有給他信用卡使用，因為他與蔡由細玩到大，但他自言生活上花費不多，但認有駕駛鄺球名下的勞斯萊斯汽車，及在廣州時住五星級酒店，鄺港智說：「咁我有做嘢架嘛。」 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "APEC深圳｜小米汽車落實2027年正式出海 右軚香港版何時推出？",
-      "url": "https://hk01.com/sns/article/60412615",
-      "publishedAt": "2026-11-19T05:07:45.000Z",
-      "excerpt": "APEC深圳｜小米汽車落實2027年正式出海｜近年電動車在街道上愈趨普及，不少香港車主換車時除了留意傳統車廠，亦開始關注科技品牌研發的智能座駕。小米汽車自登場以來備受討論，惟受限於左軚規格，海外及本地車迷遲遲未能正式購入。隨著 2026 年 APEC 工商領導人峰會在深圳舉行，小米創辦人雷軍終於公布明確時間表，確認小米汽車將於 2027 年正式出海，並披露歐洲首發及 2028 年右軚市場的拓展藍圖。那香港右軚版不遠了嗎？ 小米雷軍在早前APEC中正式公布2027年小米汽車正式出海 小米汽車選擇2027年出海 小米（股份代號：1810）創辦人雷軍於 2026 年 11 月出席深圳 APEC 工商",
+      "title": "警搗觀塘紅磡工廈詐騙中心檢貓池機 破百宗案拘123人 涉$6800萬",
+      "url": "https://hk01.com/sns/article/60412547",
+      "publishedAt": "2026-11-19T06:07:33.000Z",
+      "excerpt": "今年首三季，警方錄得近一萬宗電話騙案，佔整體詐騙案三成；同時警方在今年8月錄得有記錄以來單月份最多電話騙案，達到2000宗，涉款港幣19億元。警方留意到近日有騙徒假扮零售商和購物平台的物流公司及客服，以互聯網打出的網路電話扮固網電話，令市民誤墮騙局。警方11月展開代號「石階」行動，打擊電話騙案及洗黑錢活動，搗破詐騙電話操作中心及詐騙電話中轉中心，一共偵破108宗案件，並以「串謀詐騙」、「以欺騙手段取得財產」及「洗黑錢」罪拘捕95男28女（14至75歲），涉款約6800萬元。 警方留意到近日有不同零售商和購物平台遭騙徒冒認物流公司或客服，以互聯網打出的網路電話扮固網電話，令市民誤墮騙局。（警方提",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "APEC｜特朗普︰晚宴期間與習近平討論AI議題 僅簡短提及黃仁勳",
-      "url": "https://hk01.com/sns/article/60412592",
-      "publishedAt": "2026-11-19T05:05:22.000Z",
-      "excerpt": "亞太經合組織（APEC）第33次領導人非正式會議11月18日至19日在廣東省深圳市舉行，美國總統特朗普透露，他周三（18日）晚出席晚宴期間，一直與中國國家主席習近平交談，話題涵蓋人工智能（AI）， 並指他曾向習近平簡短提起黃仁勳辭任英偉達（Nvidia，又稱輝達）行政總裁一事。 特朗普18日接受美國霍士新聞（Fox News）採訪時 ，稱他在18日舉行的晚宴期間坐在習近平身旁，並一直與他交談。 特朗普引述習近平指對美國的AI發展感到驚嘆，並強調美國在相關領域的發展領先中國，甚至是全世界。 2026年11月18日，美國總統特朗普和中國國家主席習近平在APEC歡迎晚宴上交談（Reuters） 被記",
+      "title": "APEC｜領導人峰會座位安排揭秘 習近平旁邊為何是韓越兩國領袖？",
+      "url": "https://hk01.com/sns/article/60412621",
+      "publishedAt": "2026-11-19T06:02:20.000Z",
+      "excerpt": "亞太經合組織（APEC）領導人非正式會議11月19日在深圳舉行，21個成員經濟體領導人的會議座次如何編排備受關注，而座位安排早有官方明文及禮賓慣例可循。 據中國新聞社（China News Service）周四報道， 會場採用雙層同心圓布局，內圈設21把座椅，對應21個成員經濟體的領導人，外圈席位供各經濟體隨行人員就座，兩側擺放以藍色山水水墨為主題的摺疊屏風，會議於當日上午10時開幕。 2026年11月19日，中國深圳，中國國家主席習近平主持APEC第33次領導人非正式會議。 2026年11月19日，中國深圳，中國國家主席習近平主持APEC第33次領導人非正式會議。 2026年11月19日，中",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "啟德水上運動中心開幕 前消防局活化變身 冀發展成水上運動樞紐",
-      "url": "https://hk01.com/sns/article/60412607",
-      "publishedAt": "2026-11-19T05:03:17.000Z",
-      "excerpt": "賽馬會慈善信託基金審批撥捐逾8,200萬元予香港水上運動慈善信託基金興建的「賽馬會啟德水上運動中心」，周三（18日）正式在啟德開幕，為全港首個設於市區的綜合水上運動社區設施，除提供水上活動外，亦融合陸上活動元素，將水上運動融入香港城市生活。 香港賽馬會董事霍啟剛（右二）、康樂及文化事務署署長陳詠雯（左二）、消防處助理處長趙汝珏（右一），以及香港水上運動議會主席鄧勵（左一）主持牌匾揭幕儀式，標誌「賽馬會啟德水上運動中心」正式開幕。（香港賽馬會提供） 香港賽馬會董事霍啟剛（右一）以及香港水上運動議會主席鄧勵（左一）與賽馬會優秀運動員獎勵計劃得獎賽艇運動員趙顯臻（右二）、洪詠甄（左二）及麥曉彤（左三",
+      "title": "TVB台慶｜俞可程捲TVB導演緋聞傳全面缺席 疑為避風頭遭緊急飛出",
+      "url": "https://hk01.com/sns/article/60412630",
+      "publishedAt": "2026-11-19T06:00:47.000Z",
+      "excerpt": "無綫年度盛事《萬千星輝賀台慶》今晚（19日）隆重舉行，原本逾200位藝員傾巢而出賀台慶，不過在台慶大日子當日卻突然傳出人事變動，被《香港01》獨家揭發與TVB導演當街親熱的「東張女神」俞可程（Kanis），最新傳出今晚臨時「無影」，不但不用參與原定的表演環節，更疑為避風頭而全面缺席今晚台慶盛典。 俞可程繑實男方手臂。（受訪者提供） 俞可程傳遭緊急飛出本次台慶。（IG@kanissyu） 官方紅地氈名單原本榜上有名 《萬千星輝賀台慶》大會原定於今晚17時45分在將軍澳電視城一廠停車場舉行藝員紅地氈進場儀式，在逾200位出席藝員名單中，亦清楚列有「俞可程」的名字，排在周嘉洛、吳偉豪及林俊其等藝人之",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "Alipay過數轉錯錢！港男誤轉逾千元大額 的士司機即退款獲讚誠實",
-      "url": "https://hk01.com/sns/article/60412035",
-      "publishedAt": "2026-11-19T05:02:41.000Z",
-      "excerpt": "【AlipayHK／支付寶／的士】根據運輸署規定，由2026年4月1日起，的士司機必須提供至少一種二維碼電子繳費媒介，和一種非二維碼電子繳費媒介讓乘客繳付車費，違例者最高可被處罰款5,000港元及監禁6個月。有港男在網上群組發文，指日前需要轉帳時，誤將逾千元錯轉至較早前曾搭乘的士、繳付司機車資的帳號，他發現「轉錯數」隨即再轉帳1毫子，同時備註「我唔小心轉咗一千蚊畀你」，幸好獲對方退回款項，方未有任何損失。 有網民欣賞司機不貪心，「好難得有咁誠實嘅的士司機 」、「祝佢生意興隆，事事順利」，但亦有留言分享類似錯誤轉帳的經驗，認為樓主實屬幸運，「我都轉錯過好睇對方品格，我就自己食咗―次，銀行幫唔到你",
+      "title": "吉利混能SUV銀河M8登場 車長5.2米配激光雷達 綜合續航逾1200km",
+      "url": "https://hk01.com/sns/article/60412302",
+      "publishedAt": "2026-11-19T06:00:29.000Z",
+      "excerpt": "又有一個M8大五座SUV來了。這個名字還挺熱門的，MPV、SUV車型，好幾個都用這個M8 。不過呢，今天這個是吉利銀河M8 。 有沒有已經預料到這車性價比極高？之前吉利銀河是先出了M9 ，是旗下的一台中大型插混六座SUV 。價格17.38-25.98萬（人民幣，下同），賣點是空間、底盤、動力、價格等越級配置。 20萬左右買5.2米、88.3%車廂空間實用率（Space Efficiency）、氣壓懸掛及車載雪櫃；四驅800+馬力、100km-230km純電續航、CLTC綜合1325-1505km、虧電油耗（電池沒電時靠油供能，同時給電池充電時的耗油量）約7L出頭等性價比大六座。這次的吉利銀河M",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "GTA6上市日撞數學考試 英校祭出70英鎊禮券抽獎 鼓勵學生來上課",
-      "url": "https://hk01.com/sns/article/60412571",
-      "publishedAt": "2026-11-19T05:00:53.000Z",
-      "excerpt": "讓全球玩家苦等13年的電玩神作《俠盜獵車手6》（Grand Theft Auto VI，簡稱GTA6）11月19日正式上市！不過發售日恰巧撞上英國中學的數學大考（GCSE），北愛爾蘭一所男校擔心爆發大批學生集體請假的「GTA流感」（GTA Flu），不僅急發信呼籲家長把關，更祭出「全勤抽獎」奇招，只要週四、週五乖乖到校，就有機會抽中價值70英鎊（約720港元）的PlayStation或Xbox禮品卡！ 發售日撞期數學大考 校長喊話：週末再玩 《BBC》報道 ，位於北愛爾蘭首府貝爾法斯特（Belfast）的「貝爾法斯特男子模範學校」（Belfast Boys' Model school），近日緊",
+      "title": "珍珠港事件倖存者加勒逝世享年105歲 曾抗命開艙救四戰友",
+      "url": "https://hk01.com/sns/article/60412586",
+      "publishedAt": "2026-11-19T05:59:13.000Z",
+      "excerpt": "美軍二戰珍珠港事件中倖存者之一的老兵加勒（Gebhard Geb Galle）11月14日在華盛頓州摩西湖（Moses Lake）家中離世，享年105嵗。他不僅在珍珠港襲擊中大難不死，更是在1942年的海戰中違抗軍令打開艙門，勇敢救下4名被困戰友。嘉勒辭世當天，珍珠港事件已知最年長倖存者約翰遜（Freeman Johnson）亦於同日過世，享年106歲。加勒的女兒Linda Palmer已向傳媒確認父親的死訊。 美聯社報道 ，加勒出生於德國，7歲時隨家人移居美國，18歲加入海軍。1941年12月7日日軍偷襲珍珠港時，20歲的他是「內華達號」戰艦機械師，當時正準備上岸參加教堂禮拜。他透過舷窗發現",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "UNIQLO感謝節一連7日舉行！買任何商品送社企曲奇 即睇掃貨清單",
-      "url": "https://hk01.com/sns/article/60412147",
-      "publishedAt": "2026-11-19T05:00:42.000Z",
-      "excerpt": "天氣今晚（18日）開始轉涼，星期五最低温度更降至15度。想入手平價寒衣過冬？UNIQLO將於11月20日（星期五）至11月26日（星期四）一連7日舉行一年一度的「感謝節」，全港及澳門門市會跟官網同步開售，除了有特價衣物，今次還有兩重限定免費禮遇。《開罐》為大家整理好掃貨攻略與換領細則！ 資料圖片 第一重著數：首3日買任何商品即送「社企 iBakery」曲奇 今次感謝節有曲奇餅送。在感謝節前3日，即11月20日至22日，只要在門市或網店購買任何商品（不限消費金額，不包購物袋及改褲費用），即免費獲贈「UNIQLO &amp; iBakery」曲奇乙包。 今次贈送的曲奇，是由東華三院屬下社會企業iB",
+      "title": "深圳APEC｜警上水及粉嶺拘2男 涉未經許可禁飛區飛無人機",
+      "url": "https://hk01.com/sns/article/60412634",
+      "publishedAt": "2026-11-19T05:59:03.000Z",
+      "excerpt": "2026年亞太經合組織（APEC）領導人會議本周在深圳舉行，警方自周二（17日）凌晨零時01分起，在新界北部設立臨時限制飛行區，禁止無人機在禁飛區內飛行，至11月20日晚11時59分為止。 警方今日（19日）分別於上午約10時在上水鳳凰嶺邨拘捕一名27歲男子，及於上午11時在粉嶺樂鳴街拘捕一名65歲男子，涉嫌「未經許可在限制飛行區以內飛行」和「操作期間違反操作規定」。人員在行動中共檢獲兩部小型無人機。案件交由大埔警區刑事調查隊跟進。 人員在行動中共檢獲兩部小型無人機。（警方提供） 警方今日（19日）分別於上午約10時在上水鳳凰嶺邨拘捕一名27歲男子，及於上午11時在粉嶺樂鳴街拘捕一名65歲男子",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "APEC直擊｜嶺南名茶飄香新聞中心 中國茶成跨越國界文化交流紐帶",
-      "url": "https://hk01.com/sns/article/60412543",
-      "publishedAt": "2026-11-19T05:00:36.000Z",
-      "excerpt": "2026年亞太經合組織（APEC）領導人會議周正在深圳舉行，來自世界各地的媒體記者齊聚新聞中心。作為中國茶文化的重要展示窗口，八馬茶業於新聞中心設立茶文化體驗展位，自11月11日進駐服務以來，每日平均接待約40位來自世界各地的記者朋友，以三款極具嶺南韻味的廣東名茶，展現中國傳統茶文化的深厚底蘊。 在APEC會議周期間，匈牙利Hír TV主播Milhaly Zsiros更在觀看茶藝表演後主動請教，於茶藝師指導下10分鐘極速上手泡出一壺中國茶，成為峰會中跨越國界的文化交流紐帶。 八馬茶業於新聞中心設立茶文化體驗展位，自11月11日進駐服務以來，每日平均接待約40位來自世界各地的記者朋友。（楊凱力攝",
+      "title": "山藥功效｜健脾補腎4類人不宜 揀山藥4招粗或幼好？與淮山3不同",
+      "url": "https://hk01.com/sns/article/60409585",
+      "publishedAt": "2026-11-19T05:53:01.000Z",
+      "excerpt": "山藥功效｜山藥（英文：Chinese yam）潤肺、健脾、補腎，是中醫常用的滋補藥材之一，最啱冬天吃。不過，走進街市，面對粗細不一、品種各異的山藥，究竟要點揀？粗的還是幼的好？ 山藥潤肺、健脾、補腎，是中醫常用的滋補藥材之一，最啱冬天吃。（AI生成圖片） 山藥功效｜日本廚師教4招揀靚山藥 粗或幼好？ 如今已步入冬季，氣溫開始轉涼，正是吃山藥溫補脾胃、滋陰潤燥的好時機。不過你平時揀山藥時會點揀？日本廚師教4招揀靚山藥。 揀山藥方法【1】愈粗愈好 據日本媒體《Yahoo》報道，廚師「帕普醬」（パプちゃん）表示，山藥愈粗愈好！因為粗身的山藥比較容易去皮，本身帶有的藥材味較少，特別適合生吃，可磨碎後用",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "向佐被向太放狠話不分億萬遺產 苦練法語轉戰非洲吸金人氣急升",
-      "url": "https://hk01.com/sns/article/60412178",
-      "publishedAt": "2026-11-19T05:00:28.000Z",
-      "excerpt": "現年42歲的向佐是影視大亨向華強及太太陳嵐的大仔，早年曾參與過不少電影，包括《封神傳奇》、《霍元甲》、《投名狀》等。近年向佐在內地發展，驚覺穿女裝示人有市場，成功掌握流量密碼的他愈撈愈掂，人氣急升，又現身細佬向佑直播間吸金。向佐為了搵錢，與太太郭碧婷和一雙兒女長期分居，近日更轉戰非洲市場，大騷法語。 向佐一家人。（向太微博圖片） 向華強一家四口家庭照。（微博＠向佐JackyHeung） 向佐苦練法語戰非洲 向佐在內地發展愈來愈順利，近日更遠道飛往非洲塞內加爾。向佐飛之前已自學苦練法語，不過向佐學的法語是「你奶奶在桌子上跳舞」及「你是一匹馬嗎？」相當搞笑。向佐在機場不忘苦練法文，飛到塞內加爾後，",
+      "title": "GTA 6｜網民質疑玩家「滿足暴力傾向」被圍攻 盤點系列30年爭議",
+      "url": "https://hk01.com/sns/article/60412577",
+      "publishedAt": "2026-11-19T05:51:02.000Z",
+      "excerpt": "讓全球機迷苦等13年的大作《GTA 6》（《Grand Theft Auto VI》、《俠盜獵車手6》）於今日（2026年11月19日）正式登陸家用主機平台PS5及Xbox Series X|S，發售熱潮席捲全球之際，也在香港社交平台引起爭議。有網民發文質疑喜歡玩《GTA 6》的人是否旨在「滿足暴力傾向」及在遊戲內「殺人放火」，「鍾意玩《GTA 6》嘅人係咩心態？」。帖文迅速引來過百則留言反駁。其實不止香港，《GTA》系列近30年來在海外屢次觸發道德恐慌、法律訴訟及部份國家禁售風波。 萬眾期待的《GTA 6》推出，有打工仔聲稱會請假通宵打機。（《GTA 6》） 評GTA 6帖文惹議 網民反駁僅",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24495,18 +24483,18 @@
       "category": "Hong Kong"
     },
     {
-      "title": "好人好事．有片｜火炭男子OT外出食飯變救火 邊拍片邊淡定灌救",
-      "url": "https://hk01.com/sns/article/60412570",
-      "publishedAt": "2026-11-19T04:19:03.000Z",
-      "excerpt": "一名男子今日（19日）凌晨在社交平台 Threads 發帖分享，指自己加班外出用膳期間，赫然發現火炭路安華工業大廈對開行人路有一疊放在卡板上、已捆紮好的紙皮起火，他隨即拖動大廈的消防喉轆救火。有網民認出起火紙皮後方正是中電機房，大讚男子及時出手，表現英勇，否則後果不堪設想。 警方昨晚（18日）7時許接報，指火炭路一幢工業大廈外有紙皮起火，人員到場時火勢已被救熄。經初步調查，事件沒有可疑，相信因未熄滅的煙頭點燃紙皮肇禍。 一疊紙皮燃起熊熊烈火。（Threads：lalayim圖片） 男子在帖文中表示：「帶住負能量返工開OT，take個break（休息一下）去食飯，竟然去左（咗）救火，難得啊，其實",
+      "title": "六合彩｜11.24幸運二金多寶推加碼制 投注額達標頭獎最高8000萬",
+      "url": "https://hk01.com/sns/article/60412576",
+      "publishedAt": "2026-11-19T04:09:12.000Z",
+      "excerpt": "【六合彩／金多寶／幸運二金多寶／攪珠號碼／8000萬頭獎】六合彩50周年推新玩法，下周二（24日）舉行的「幸運二金多寶」有「加碼」機制，當整體投注額達到指定門檻，馬會將增加相應金多寶金額，進一步提高估計頭獎基金金額，在這套「集氣加碼」機制下，倘11月23日下午2時正錄得的累積投注額達7,000萬港元，以10元一注獨中，估計頭獎達8,000萬港元。 馬會將於11月24日舉行「幸運二金多寶」攪珠。（資料圖片） 馬會將於下周二（24日）舉行「幸運二金多寶」，按其「加碼」機制，當整體投注額達到指定門檻，金多寶金額會相應增加，進一步提高估計頭獎基金金額。（資料圖片/黃寶瑩攝） 幸運二金多寶新玩法 攪珠前",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "宏福苑｜樓宇維修支援局獲增撥至4億 寬減資助涵8成30年樓齡舊樓",
-      "url": "https://hk01.com/sns/article/60412522",
-      "publishedAt": "2026-11-19T04:14:07.000Z",
-      "excerpt": "大埔宏福苑大火後，政府因應獨委會調查報告建議，擬於今年底成立「樓宇維修支援及服務局」，協助業主代辦招標維修，政府早前稱預留3億支援，根據發展局最新向立法會提交文件顯示，將連同原有「招標妥」的1.13億元餘額，即合共預計撥款逾4億，當中3.13億元用作資助合資格業主使用全新支援服務的費用。 當局在文件提及，擬優先為應課差餉租值較低的「第一級別」樓宇或屋苑業主提供費用寬減，即市區單位平均每年應課差餉租值少於約18.7萬元，或新界區少於14.3萬元，預料可涵蓋全港八成樓齡30年或以上的私人住宅及綜合用途樓宇；其餘兩成樓價較高的舊樓業主則須支付全費。 宏福苑大火一年。（資料圖片／夏家朗攝） 發展局向立",
+      "title": "APEC深圳峰會｜李家超披紅圍巾 習近平握手稱「咱們戴的一樣」",
+      "url": "https://hk01.com/sns/article/60412578",
+      "publishedAt": "2026-11-19T03:45:49.000Z",
+      "excerpt": "2026年亞太經合組織（APEC）領導人非正式會議今日（11月19日）在深圳舉行，與會各經濟體領袖在會前拍攝大合照，各人分別戴上象徵深圳「鯤鵬展翅」標誌的紅色或藍色中式圍巾。 國家主席習近平與行政長官李家超在APEC峰會前握手。 李家超率先進場 與習近平短暫交談 今年是APEC峰會第三次在中國舉行，由習近平主持，會議開始前，他與各與會經濟體領袖逐一握手問候。 李家超在早上10時25分左右率先到場，習近平主動與他打招呼稱「早上好」，又看着自己佩戴的紅圍巾說：「你看，咱們戴的都一樣。」李家超回答稱：「都一樣。」 11月19日，行政長官李家超在深圳出席第三十三次亞太經合組織（APEC）領導人非正式會",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24551,19 +24539,107 @@
       "category": "Hong Kong"
     },
     {
-      "title": "特首座駕灣仔撞傷19歲女 李家超不在車上 特首辦：途人違規過路",
-      "url": "https://hk01.com/sns/article/60412413",
-      "publishedAt": "2026-11-18T13:43:45.000Z",
-      "excerpt": "特首李家超的座駕今日（18日）在灣仔撞傷途人。傍晚約5時53分，一名女子在灣仔告士打道與分域街交界橫過馬路時，遭駛至私家車撞到，私家車62歲姓施男司機報警求助。19歲姓張女事主稱腳部痛楚，但拒絕送院。 據了解，涉事私家車為特首李家超的座駕，但當時李家超不在車上。事發位置並無行人過路處，只有行人天橋。當時私家車沿告士打道東行，左轉入分域街時，張女橫過馬路，被私家車的左邊倒後鏡撞及。案件交由港島總區交通部交通意外調查組第六隊跟進。 特首李家超的座駕駛經灣仔告士打道與分域街交界時，撞到一名橫過馬路的女途人。（Google Maps截圖） 行政長官辦公室回覆《香港01》查詢表示，該辦公室的車輛在今日下",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "「600億身家少奶」章澤天現身香港慶生 梁朝偉劉嘉玲曬合影祝賀",
       "url": "https://hk01.com/sns/article/60412189",
       "publishedAt": "2026-11-18T13:00:44.000Z",
       "excerpt": "「奶茶妹妹」章澤天今（18）日迎來33歲生日，香港影帝梁朝偉與妻子劉嘉玲特地發文為她慶生！劉嘉玲今日在社群平台公開一張三人合照，背景正是昨晚（17日）韓國天團BIGBANG出道20週年巡演香港站最終場的舞台燈光，超大咖的跨界同框曝光後，立刻掀起兩岸三地網友熱烈討論。 從劉嘉玲曬出的照片中可見，三人在藍紫色燈光映襯下神態相當輕鬆。劉嘉玲身穿黑色亮片西裝外套搭配長項鍊、將頭髮俐落梳起，展現一貫的俐落氣場；站在一旁的梁朝偉則打扮休閒，以卡其色外套內搭深色上衣與牛仔褲亮相；而壽星章澤天站在中間偏前的位置，她身穿黑色針織上衣並紮起低馬尾，在鏡頭前顯得氣色極佳、笑容從容。 劉嘉玲發文為章澤天慶生，分享了在",
       "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "張曦雯甜認吳卓羲展開追求 預告台慶日即將再見家長",
+      "url": "https://hk01.com/sns/article/60412385",
+      "publishedAt": "2026-11-18T11:35:19.000Z",
+      "excerpt": "羅子溢和張曦雯（Kelly）今日（18日）於電視城出席台慶拜神儀式。張曦雯透露自己將在開場環節與前輩羅嘉良一同跳舞。羅子溢則表示自己主要負責玩遊戲環節，但同樣需要跳舞。 羅子溢和張曦雯（Kelly）今日（18日）於電視城出席台慶拜神儀式。（葉志明 攝） 羅子溢和張曦雯（Kelly）今日（18日）於電視城出席台慶拜神儀式。（葉志明 攝） 笑談羅嘉良對男女後輩態度不同 張曦雯想被鬧反而「冇份」 張曦雯非常期待這次與羅嘉良合作，還分享之前與對方拍攝劇集《模範律師團》時的趣事：「我們有時在休息（on break）的時候，他都會哄我們開心，跳一下『難兄難弟』給我們看，因為劉佩玥經常都在他耳邊唱，跟著他就",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "中美元首出席APEC會議期間會面 是今年內第三次",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525508/%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E5%87%BA%E5%B8%ADapec%E6%9C%83%E8%AD%B0%E6%9C%9F%E9%96%93%E6%9C%83%E9%9D%A2-%E6%98%AF%E4%BB%8A%E5%B9%B4%E5%85%A7%E7%AC%AC%E4%B8%89%E6%AC%A1",
+      "publishedAt": "2026-11-19T06:15:25.000Z",
+      "excerpt": "【有線新聞】國家主席習近平在深圳和美國總統特朗普會唔，是兩人今年內第三次會面。 特朗普感激習近平非常熱情接待，",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "時事HOY角度｜嘉賓主持林緻茵分析演唱會經濟",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525497/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E5%98%89%E8%B3%93%E4%B8%BB%E6%8C%81%E6%9E%97%E7%B7%BB%E8%8C%B5%E5%88%86%E6%9E%90%E6%BC%94%E5%94%B1%E6%9C%83%E7%B6%93%E6%BF%9F",
+      "publishedAt": "2026-11-19T05:52:52.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "時事HOY角度｜香港情緒健康學會會長林美玲—本港學生情緒調查",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525496/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E9%A6%99%E6%B8%AF%E6%83%85%E7%B7%92%E5%81%A5%E5%BA%B7%E5%AD%B8%E6%9C%83%E6%9C%83%E9%95%B7%E6%9E%97%E7%BE%8E%E7%8E%B2-%E6%9C%AC%E6%B8%AF",
+      "publishedAt": "2026-11-19T05:52:38.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "時事HOY角度｜香港廁所協會主席熊志權—如何提升香港公廁質素",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525495/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E9%A6%99%E6%B8%AF%E5%BB%81%E6%89%80%E5%8D%94%E6%9C%83%E4%B8%BB%E5%B8%AD%E7%86%8A%E5%BF%97%E6%AC%8A-%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87",
+      "publishedAt": "2026-11-19T05:52:31.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "時事HOY角度｜社區組織協會幹事彭鴻昌、立法會議員陳學鋒—公營醫療收費改革近一年推行情況",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525494/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%A4%BE%E5%8D%80%E7%B5%84%E7%B9%94%E5%8D%94%E6%9C%83%E5%B9%B9%E4%BA%8B%E5%BD%AD%E9%B4%BB%E6%98%8C-%E7%AB%8B%E6%B3%95%E6%9C%83%E8%AD%B0-2",
+      "publishedAt": "2026-11-19T05:52:23.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "時事HOY角度｜社區組織協會幹事彭鴻昌、立法會議員陳學鋒—公營醫療收費改革近一年推行情況",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525493/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%A4%BE%E5%8D%80%E7%B5%84%E7%B9%94%E5%8D%94%E6%9C%83%E5%B9%B9%E4%BA%8B%E5%BD%AD%E9%B4%BB%E6%98%8C-%E7%AB%8B%E6%B3%95%E6%9C%83%E8%AD%B0",
+      "publishedAt": "2026-11-19T05:52:12.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "APEC｜李家超：昨與智利總統簽署協議 香港青年人有一年工作假期簽證",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525487/%E6%9D%8E%E5%AE%B6%E8%B6%85-%E6%98%A8%E8%88%87%E6%99%BA%E5%88%A9%E7%B8%BD%E7%B5%B1%E7%B0%BD%E7%BD%B2%E5%8D%94%E8%AD%B0-%E9%A6%99%E6%B8%AF%E9%9D%92%E5%B9%B4%E4%BA%BA%E6%9C%89%E4%B8%80",
+      "publishedAt": "2026-11-19T05:42:39.000Z",
+      "excerpt": "【有線新聞】行政長官李家超總結APEC行程，指昨天和智利總統簽署工作假期協議，香港第一次和拉丁美洲簽署，香港青",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "德國桌球大師賽 韋德外圍賽兩連勝",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525485/%E5%BE%B7%E5%9C%8B%E6%A1%8C%E7%90%83%E5%A4%A7%E5%B8%AB%E8%B3%BD-%E9%9F%8B%E5%BE%B7%E5%A4%96%E5%9C%8D%E8%B3%BD%E5%85%A9%E9%80%A3%E5%8B%9D",
+      "publishedAt": "2026-11-19T05:41:01.000Z",
+      "excerpt": "【有線新聞】德國桌球大師賽，韋德外圍賽兩連勝。 64歲的「白旋風」韋德首圈擊敗波高已經要打足9局。對英格蘭的馬",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "APEC｜廠商會：香港可吸引亞太企業綠色融資 鼓勵港商接觸南美等新興市場",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525480/apec-%E5%BB%A0%E5%95%86%E6%9C%83-%E9%A6%99%E6%B8%AF%E5%8F%AF%E5%90%B8%E5%BC%95%E4%BA%9E%E5%A4%AA%E4%BC%81%E6%A5%AD%E7%B6%A0%E8%89%B2%E8%9E%8D%E8%B3%87-%E9%BC%93%E5%8B%B5",
+      "publishedAt": "2026-11-19T05:32:50.000Z",
+      "excerpt": "【有線新聞】APEC工商領導人峰會日前在深圳舉行，有份參加峰會的廠商會會長盧金榮表示，成功接觸了數個新興地區經",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "警打擊電騙及洗黑錢拘123人涉款6800萬 包括一名中二男童 破紅磡、觀塘電騙操作中心",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525446/%E8%AD%A6%E6%89%93%E6%93%8A%E9%9B%BB%E9%A8%99%E5%8F%8A%E6%B4%97%E9%BB%91%E9%8C%A2%E6%8B%98123%E4%BA%BA%E6%B6%89%E6%AC%BE6800%E8%90%AC-%E5%8C%85%E6%8B%AC%E4%B8%80%E5%90%8D%E4%B8%AD%E4%BA%8C",
+      "publishedAt": "2026-11-19T05:32:13.000Z",
+      "excerpt": "【有線新聞】警方打擊電話騙案及洗黑錢，本月至今偵破逾100宗案件，涉款6,800萬元，拘捕123人。 行動中搗",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "大行下調騰訊目標價 料資本開支續高企 短期盈利續受壓",
+      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/525448/%E5%A4%A7%E8%A1%8C%E4%B8%8B%E8%AA%BF%E9%A8%B0%E8%A8%8A%E7%9B%AE%E6%A8%99%E5%83%B9-%E6%96%99%E8%B3%87%E6%9C%AC%E9%96%8B%E6%94%AF%E7%BA%8C%E9%AB%98%E4%BC%81-%E7%9F%AD%E6%9C%9F%E7%9B%88",
+      "publishedAt": "2026-11-19T05:30:59.000Z",
+      "excerpt": "【有線新聞】騰訊上季資本開支大增，更連續兩季錄得負自由現金流，多家大行下調目標價，並預期騰訊資本開支將繼續高企",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24639,103 +24715,47 @@
       "category": "Hong Kong"
     },
     {
-      "title": "蔡天鳳案｜鄺港智供稱14歲認識蔡天鳳 與蔡母情同母子 經營鐘錶生意獲利逾2,000萬、亦涉足房地產",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525433/%E8%94%A1%E5%A4%A9%E9%B3%B3%E6%A1%88-%E9%84%BA%E6%B8%AF%E6%99%BA%E4%BE%9B%E7%A8%B114%E6%AD%B2%E8%AA%8D%E8%AD%98%E8%94%A1%E5%A4%A9%E9%B3%B3-%E8%88%87%E8%94%A1%E6%AF%8D%E6%83%85%E5%90%8C",
-      "publishedAt": "2026-11-19T04:34:34.000Z",
-      "excerpt": "【有線新聞】蔡天鳳碎屍案，鄺港智首度作供指，14歲認識蔡天鳳再成伴侶，與蔡母關係好，猶如母子；經營鐘錶生意盈利",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "中大醫院誤切卵巢 院方稱貼告示、安排護士提醫生「保留卵巢」 林哲玄：護士幫助有限",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525417/%E4%B8%AD%E5%A4%A7%E9%86%AB%E9%99%A2%E8%AA%A4%E5%88%87%E5%8D%B5%E5%B7%A2-%E9%99%A2%E6%96%B9%E7%A8%B1%E8%B2%BC%E5%91%8A%E7%A4%BA-%E5%AE%89%E6%8E%92%E8%AD%B7%E5%A3%AB%E6%8F%90%E9%86%AB",
-      "publishedAt": "2026-11-19T04:19:20.000Z",
-      "excerpt": "【有線新聞】中大醫院發生醫療事故，錯誤切除女病人雙側卵巢。醫院行政總裁鍾健禮表示，會加強醫護合作，安排護士在手",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳創業者短片連繫海外客戶 火速回應用家訴求打入北美市場",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/525414/%E6%B7%B1%E5%9C%B3%E5%89%B5%E6%A5%AD%E8%80%85%E7%9F%AD%E7%89%87%E9%80%A3%E7%B9%AB%E6%B5%B7%E5%A4%96%E5%AE%A2%E6%88%B6-%E7%81%AB%E9%80%9F%E5%9B%9E%E6%87%89%E7%94%A8%E5%AE%B6%E8%A8%B4%E6%B1%82",
-      "publishedAt": "2026-11-19T03:52:05.000Z",
-      "excerpt": "【有線新聞】深圳一群「00後」創業者用短片直接同海外消費者連繫，並在深圳供應鏈支持下快速回應用家訴求，成功將自",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "APEC｜李家超出席會議 與習近平、印尼總統普拉伯沃交流",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525411/apec-%E6%9D%8E%E5%AE%B6%E8%B6%85%E5%87%BA%E5%B8%AD%E6%9C%83%E8%AD%B0-%E8%88%87%E7%BF%92%E8%BF%91%E5%B9%B3-%E5%8D%B0%E5%B0%BC%E7%B8%BD%E7%B5%B1%E6%99%AE%E6%8B%89%E4%BC%AF",
-      "publishedAt": "2026-11-19T03:50:57.000Z",
-      "excerpt": "【有線新聞】行政長官李家超在深圳出席APEC領導人非正式會議。 會議開始前，李家超與國家主席習近平握手交談。會",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "APEC｜多位領袖出席領導人非正式會議 習近平逐一握手 與高市早苗短暫交談",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525408/apec-%E5%A4%9A%E4%BD%8D%E9%A0%98%E8%A2%96%E5%87%BA%E5%B8%AD%E9%A0%98%E5%B0%8E%E4%BA%BA%E9%9D%9E%E6%AD%A3%E5%BC%8F%E6%9C%83%E8%AD%B0-%E7%BF%92%E8%BF%91%E5%B9%B3%E9%80%90%E4%B8%80",
-      "publishedAt": "2026-11-19T03:33:46.000Z",
-      "excerpt": "【有線新聞】亞太經合組織APEC領導人非正式會議在深圳國際交流中心舉行，多位APEC領袖出席。 多位領袖的座駕",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港大學站連續兩日信號設備故障 乘客不滿港鐵表現：應負社會責任",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525393/%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%B8%E7%AB%99%E9%80%A3%E7%BA%8C%E5%85%A9%E6%97%A5%E4%BF%A1%E8%99%9F%E8%A8%AD%E5%82%99%E6%95%85%E9%9A%9C-%E4%B9%98%E5%AE%A2%E4%B8%8D%E6%BB%BF%E6%B8%AF%E9%90%B5",
-      "publishedAt": "2026-11-19T03:29:30.000Z",
-      "excerpt": "【有線新聞】港鐵香港大學站連續第二日早上信號設備故障，港島綫列車服務一度受影響約半小時。 事故期間，港島綫行車",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "巴拿馬：長和港口經營合約涉嫌違規將提刑事訴訟",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/525400/%E5%B7%B4%E6%8B%BF%E9%A6%AC-%E9%95%B7%E5%92%8C%E6%B8%AF%E5%8F%A3%E7%B6%93%E7%87%9F%E5%90%88%E7%B4%84%E6%B6%89%E5%AB%8C%E9%81%95%E8%A6%8F%E5%B0%87%E6%8F%90%E5%88%91%E4%BA%8B%E8%A8%B4%E8%A8%9F",
-      "publishedAt": "2026-11-19T03:14:42.000Z",
-      "excerpt": "【有線新聞】巴拿馬審計長辦公室完成審計與長和旗下子公司的港口經營合約，發現涉嫌違規行為，將提出刑事訴訟。 巴拿",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "蔡天鳳案｜鄺球稱精神崩潰忘記肢解原因 回應租凱旋門助潛逃質疑：逃走返大陸公安拉你仲快",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525402/%E8%94%A1%E5%A4%A9%E9%B3%AF%E6%A1%88-%E9%84%BA%E7%90%83%E5%AE%8C%E6%88%90%E4%BD%9C%E4%BE%9B-%E9%84%BA%E6%B8%AF%E6%99%BA%E4%B8%80%E6%96%B9%E8%A6%81%E6%B1%82%E6%8F%90%E6%97%A9%E4%BC%91",
-      "publishedAt": "2026-11-19T03:08:46.000Z",
-      "excerpt": "【有線新聞】蔡天鳳碎屍案，鄺球繼續接受控方盤問，指案發前租住龍尾村、凱旋門單位等可以說是巧合，不同意聯同兩名兒",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "APEC｜習近平：中方將斥資2000萬美元支持合作 亞太成員同在一條船應守望相助",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/525396/apec-%E7%BF%92%E8%BF%91%E5%B9%B3-%E4%B8%AD%E6%96%B9%E5%B0%87%E6%96%A5%E8%B3%872000%E8%90%AC%E7%BE%8E%E5%85%83%E6%94%AF%E6%8C%81%E5%90%88%E4%BD%9C-%E4%BA%9E%E5%A4%AA%E6%88%90",
-      "publishedAt": "2026-11-19T03:05:32.000Z",
-      "excerpt": "【有線新聞】國家主席習近平在APEC領導人非正式會議發展重要講話時，促請亞太成員國攜手應對困難和挑戰，秉持開放",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "聯儲局會議紀錄：幾乎所有官員認為未來要進一步加息",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/525390/%E8%81%AF%E5%84%B2%E5%B1%80%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-%E5%B9%BE%E4%B9%8E%E6%89%80%E6%9C%89%E5%AE%98%E5%93%A1%E8%AA%8D%E7%82%BA%E6%9C%AA%E4%BE%86%E8%A6%81%E9%80%B2%E4%B8%80%E6%AD%A5",
-      "publishedAt": "2026-11-19T02:32:46.000Z",
-      "excerpt": "【有線新聞】聯儲局會議紀錄顯示，幾乎所有官員認為未來要進一步加息，理事沃勒指下月會議應考慮大幅加息半厘。 聯儲",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "東莞-香港國際空港中心對APEC經濟體進出口增長57%",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/%e4%b8%ad%e5%9c%8b%e5%9c%a8%e7%b7%9a/525387/%E6%9D%B1%E8%8E%9E-%E9%A6%99%E6%B8%AF%E5%9C%8B%E9%9A%9B%E7%A9%BA%E6%B8%AF%E4%B8%AD%E5%BF%83%E5%B0%8Dapec%E7%B6%93%E6%BF%9F%E9%AB%94%E9%80%B2%E5%87%BA%E5%8F%A3%E5%A2%9E%E9%95%B757",
-      "publishedAt": "2026-11-19T02:23:20.000Z",
-      "excerpt": "【有線新聞】東莞-香港國際空港中心今年首十個月對APEC經濟體進出口額按年增長約57%。 進出口總額達到105",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "蔡天鳳碎屍案｜鄺球完成作供 多次稱「不知為何要烹屍」(劉倩桐報道)",
-      "url": "https://news.now.com/home/local/player?newsId=670143",
-      "publishedAt": "2026-11-19T04:38:26.000Z",
+      "title": "民政總署前署長張趙凱渝獲委任職訓局執行幹事 明年起生效",
+      "url": "https://news.now.com/home/local/player?newsId=670154",
+      "publishedAt": "2026-11-19T05:51:25.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "天文台料周五市區氣溫降至15度 或成今年入秋而來最低(陳佩彤報道)",
+      "title": "港鐵香港大學站連續兩日信號故障 陳恒鑌指港鐵初步判斷不屬同一問題",
+      "url": "https://news.now.com/home/local/player?newsId=670153",
+      "publishedAt": "2026-11-19T05:45:34.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "警方拘123人涉逾百宗電話騙案 最年輕僅14歲涉私吞贓款等",
+      "url": "https://news.now.com/home/local/player?newsId=670152",
+      "publishedAt": "2026-11-19T05:38:23.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "蔡天鳳碎屍案｜鄺港智首作供 稱夫婦合作賣表獲利逾2000萬元",
+      "url": "https://news.now.com/home/local/player?newsId=670151",
+      "publishedAt": "2026-11-19T05:34:23.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "蔡天鳳碎屍案｜鄺球完成作供 多次稱「不知為何要烹屍」",
+      "url": "https://news.now.com/home/local/player?newsId=670143",
+      "publishedAt": "2026-11-19T05:07:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "天文台料周五市區氣溫降至15度 或成今年入秋而來最低",
       "url": "https://news.now.com/home/local/player?newsId=670142",
       "publishedAt": "2026-11-19T04:31:26.000Z",
       "excerpt": "",
@@ -24850,38 +24870,6 @@
       "title": "精彩片段重溫｜幻彩詠香江最後一晚上演",
       "url": "https://news.now.com/home/local/player?newsId=670073",
       "publishedAt": "2026-11-18T12:55:00.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "牙管會近6年處理980宗申訴 其中逾800宗被評瑣屑無聊不跟進",
-      "url": "https://news.now.com/home/local/player?newsId=670080",
-      "publishedAt": "2026-11-18T12:45:50.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "交諮會主席黃仕進相信網約車合法化有效打擊白牌車",
-      "url": "https://news.now.com/home/local/player?newsId=670079",
-      "publishedAt": "2026-11-18T12:45:49.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "兩二手名牌店疑欠客人3800萬寄賣款項 逾210人報案",
-      "url": "https://news.now.com/home/local/player?newsId=670078",
-      "publishedAt": "2026-11-18T12:40:25.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "北角電燈中心電錶房起火 男職員燒傷送院",
-      "url": "https://news.now.com/home/local/player?newsId=670077",
-      "publishedAt": "2026-11-18T12:39:25.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -25047,6 +25035,86 @@
       "category": "Hong Kong"
     },
     {
+      "title": "深圳APEC｜習近平會見美國總統特朗普",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878436-20261119.htm",
+      "publishedAt": "2026-11-19T06:03:26.000Z",
+      "excerpt": "",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "特設銷售計劃下全部項目有居民挑選 盛緻苑及樂嶺軒最快今年入伙",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878435-20261119.htm",
+      "publishedAt": "2026-11-19T06:02:01.000Z",
+      "excerpt": "房屋局表示，為宏福苑業主而設的「特設銷售計劃」，其中一名長者於本星期一在房協的粉嶺樂嶺軒正式收樓，房協職員向這名長者及其家人，解釋交樓程序及入伙裝修等要注意的事項。 她表示很喜歡單位的景觀，亦不用裝修，會稍為添置傢俬電器和基本長者友善輔助設施，預計今年年底可以搬入新居所。她期望與母親和弟弟盡快展開新生活，又感謝社會各界出錢出力的熱心人士，以及「一戶一社工」及「解說專隊」成員的支援。 局方表示，「特設銷售計劃」下10個房屋發展項目，全部都有居民挑選，其中房委會九龍灣盛緻苑和房協粉嶺樂嶺軒，最快今年可以收鎖匙入伙。啟德啟陽苑亦相當受歡迎。 編輯：潘潔平",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳APEC｜美俄元首會面約一個小時",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878431-20261119.htm",
+      "publishedAt": "2026-11-19T05:55:01.000Z",
+      "excerpt": "美俄元首會面約一個小時。 美國總統特朗普在深圳舉行的亞太經合組織領導人非正式會議期間，與俄羅斯總統普京會面。 特朗普會前表示，他與普京的關係非常好，期待展開富有成果的對話。 特朗普又說，雙方多年來一直保持著良好關係。他與普京彼此認識很久，認為這次會晤會帶來很多美好的成果，或者至少會開啟一些美好的篇章。他相信這些成果最終會實現。普京就表示，很高興和特朗普會面。 今次在深圳的會晤，是兩人自去年8月阿拉斯加峰會以來的首次面對面接觸。 編輯：羅宇光",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳APEC｜李家超與習近平短暫交流 談大灣區機遇及香港優勢",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878433-20261119.htm",
+      "publishedAt": "2026-11-19T05:53:39.000Z",
+      "excerpt": "正在深圳出席亞太經合組織會議的行政長官李家超表示，在會議期間與國家主席習近平有機會作短暫交流，向他介紹香港在亞太經合組織工商領導人峰會上，粵港澳大灣區及亞太發展機遇專題研討會的情況，期間向習近平表示，與會人士對大灣區發展前景反應十分正面，討論時相當熱烈，大家都認同粵港澳大灣區發展潛力龐大。 李家超表示，他向習近平提到香港會繼續用好「一國兩制」下「內聯外通」的優勢，發揮超級聯繫人及超級增值人角色，更好融入和服務國家發展大局，同時為亞太區合作和發展作出貢獻。 李家超又說，習近平在主旨演講提出四點建議，一是維護和平穩定大局；二是要搭建開放合作橋樑；三是要激發創新增長動力；四是要拓展互利共贏路徑，堅持",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳APEC｜李家超：貢獻香港力量參與和支持國家成功舉辦會議",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878430-20261119.htm",
+      "publishedAt": "2026-11-19T05:36:39.000Z",
+      "excerpt": "",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳APEC｜國家主席習近平於深圳會見美國總統特朗普",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878429-20261119.htm",
+      "publishedAt": "2026-11-19T05:35:27.000Z",
+      "excerpt": "國家主席習近平在深圳會見來華出席亞太經合組織領導人非正式會議的美國總統特朗普。 特朗普車隊中午後駛入麒麟山莊，央視報道，特朗普一行人下午1時許，抵達會見現場。 這是兩國元首今年內第三次會晤。 編輯：潘潔平",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "運輸署稱6號幹線配備多項管理設施 營辦商已增聘人手及測試設備",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878428-20261119.htm",
+      "publishedAt": "2026-11-19T05:32:43.000Z",
+      "excerpt": "中九龍繞道九龍灣段下月6日通車，標誌著整條6號幹線將會全線開通。運輸署表示，6號幹線配備多項設施管理隧道交通，確保有效管理及交通暢順。 署方在社交網頁表示，6號幹線全線採用「交通管制及監察系統」，結合閉路電視、自動事故探測器、行車線管制燈號，以及可變速度限制或信息標誌，24小時實時監察隧道及路面情況。6號幹線分別於啟德及茶果嶺設交通控制中心，同步分別監察油麻地段，以及九龍灣段和將藍隧道。當發生交通事故，系統會自動提示監察人員啟動預案，並透過顯示屏及管道廣播通知駕駛人士。 另外，6號幹線全線3條隧道均由同一營辦商統一營運、管理及維修保養，署方表示，做法可提升效率和協調。營辦商已增聘人手️、測試設",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "鄺港智作供稱與父親不太能相處 學習海南話融入蔡天鳳家庭",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878427-20261119.htm",
+      "publishedAt": "2026-11-19T05:27:34.000Z",
+      "excerpt": "蔡天鳯案在高等法院續審，第三被告、蔡天鳯的前夫鄺港智開始作供。鄺港智供稱，在14歲認識蔡天鳯，他之後搬入黃埔單位是因為與蔡天鳯拍拖，但與次被告、父親鄺球不太能相處，亦同意蔡天鳯的母親張燕花性格較為温和，他學習海南話以融入家庭。鄺港智說涉及以往的案件，是希望多賺錢，為了包括子女及蔡天鳯的家庭。他之後潛逃內地，但有能力每次包船支付10萬元，以乘坐「大飛」往返。 鄺港智又說，不同意依靠蔡天鳯的金錢。被問及與蔡天鳯的生意安排，就鐘錶方面，鄺港智說有很多客戶及朋友，整段期間賺取少2000多萬元，相關利潤基本上給予蔡天鳯。至於在內地亦有從事房地產，包括做二房東及營運寫字樓，但因個人狀況，並非在他名下。至於",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "恒指下午初段跌逾400點",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878423-20261119.htm",
+      "publishedAt": "2026-11-19T05:18:28.000Z",
+      "excerpt": "港股下午開市初段跌逾400點，恒生指數較早時報22870點，跌424點，跌幅1.82%。 科技指數報3651點，跌84點，跌幅2.27%。 編輯：宋家樑",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "深圳APEC｜美俄元首會晤 特朗普期待展開富有成果對話",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878420-20261119.htm",
+      "publishedAt": "2026-11-19T04:48:33.000Z",
+      "excerpt": "美俄元首會面。 美國總統特朗普在深圳舉行的亞太經合組織領導人非正式會議期間，同俄羅斯總統普京會面。 特朗普表示，他與普京的關係非常好，期待展開富有成果的對話。 特朗普又說，雙方多年來一直保持著良好關係。他同普京彼此認識很久，認為這次會晤會帶來很多美好的成果，或者至少會開啟一些美好的篇章。他相信這些成果最終會實現。 今次在深圳的會晤，是兩人自去年8月阿拉斯加峰會以來的首次面對面接觸。 編輯：羅宇光",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "警打擊電騙及洗黑錢拘123人 兩工廈單位被用作電騙操作中心",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878418-20261119.htm",
       "publishedAt": "2026-11-19T04:32:54.000Z",
@@ -25123,86 +25191,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878399-20261119.htm",
       "publishedAt": "2026-11-19T02:29:38.000Z",
       "excerpt": "國家主席習近平主持APEC第三十三次領導人非正式會議並發表重要講話宣布，中方將提供2000萬美元，資助開展亞太經合組織務實合作。中方將在深圳設立亞太共同體研究中心，開展政策研究和交流，提供智力支撐。中方將立足亞太合作，在數字技術、數據跨境流動、清潔能源、中小企業發展等領域設立合作機構，助力亞太創新、綠色增長。 習近平表示，中國是亞太經濟合作的倡導者、推動者、先行者。中方願同各方一道，集思廣益、匯聚合力，攜手搭建亞太共同體的「四樑八柱」。第一是強化經貿支柱，推動區域經貿協定對接，圍繞亞太自貿區加強政策對話，提高各方參與高水平經貿安排的能力。二是升級聯通支柱，鞏固「硬聯通」，完善基礎設施網絡；增強",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳APEC｜習近平：秉持開放區域主義 穩步推進經濟一體化",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878398-20261119.htm",
-      "publishedAt": "2026-11-19T02:27:28.000Z",
-      "excerpt": "國家主席習近平在深圳主持亞太經合組織第三十三次領導人非正式會議，並發表講話。習近平說，當前世界百年變局加速演進，科技創新和產業創新方興未艾，面對新機遇和挑戰，亞太合作必須適應新形勢，邁出新步伐，開創新局面，推動建設和衷共濟、開放融通、開拓創新和包容發展的亞太共同體。 習近平指出，30多年以來，亞太地區面貌日新月異，創造經濟快速發展的亞太奇蹟。他說，建設亞太共同體，要堅持和衷共濟，形容亞太大家庭的成員同在一條船，要經受太平洋的風浪，就應當守望相助，攜手應對困難和挑戰。他又說，要秉持開放的區域主義，穩步推進經濟一體化進程，構建「開放而不排他、融合而不分割」的合作格局，宣導自由開放的貿易和投資，打通",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳APEC｜習近平與嘉賓握手並合照 分別戴上紅色和藍色圍巾",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878396-20261119.htm",
-      "publishedAt": "2026-11-19T02:20:57.000Z",
-      "excerpt": "國家主席習近平在深圳國際交流中心主持亞太經合組織第三十三次領導人非正式會議。 會議開始前，美國總統特朗普、俄羅斯總統普京等分別乘專車到達會場，APEC高官會主席陳旭在場迎接。 習近平其後與會嘉賓握手並集體合影，各人分別戴上象徵深圳「鯤鵬展翅」標誌的紅色和藍色圍巾。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "港股跌逾400點 失守23000點",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878394-20261119.htm",
-      "publishedAt": "2026-11-19T02:17:50.000Z",
-      "excerpt": "港股跌幅擴大至逾400點，恒生指數失守23000點關口，是近3星期以來首次，低見22869點，跌近425點，跌幅逾1.8%。 科技指數報3655點，跌約2.2%。 騰訊績後急挫近6%，阿里巴巴業績公布前亦跌逾5%，連跌10個交易日，兩者拖低大市。 AI大模型沽壓較大，兩大晶片股逆市向上。 編輯：宋家樑",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "女病人被錯切卵巢 中大醫院稱已採取措施及正進行人事程序",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878393-20261119.htm",
-      "publishedAt": "2026-11-19T02:14:17.000Z",
-      "excerpt": "一名女病人在中大醫院接受接受腹腔鏡子宮及雙側輸卵管切除手術期間，兩邊卵巢被錯誤切除。中大醫院行政總裁鍾健禮於本台節目《千禧年代》，再次就對病人及家屬，表示歉意及慰問。他又表示，當時負責手術的醫生出現「失神」的情況。中大醫院現時已經採取措施，期望防止再有類似事件發生。 鍾健禮表示，在手術過程中，醫生利用腹腔鏡進入手術位置時出現困難，需要15至20分鐘，之後專注力突然降低，然後出錯。他舉例，就如司機每日駕駛，有兩條路徑可以經過，有一日開車時，塞車大約15至20分鐘，道路開通時突然行錯路。他形容情況很不理想，後果亦很嚴重。當時手術室程序或護士工作上，已做到現有標準。他表示，防錯系統很重要，現時醫院會",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳APEC｜習近平：會議定圓滿成功 為世界和平穩定貢獻力量",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878392-20261119.htm",
-      "publishedAt": "2026-11-19T02:02:31.000Z",
-      "excerpt": "亞太經合組織第三十三次領導人非正式會議早上在深圳舉行。 國家主席習近平開場發言，歡迎亞太經合組織各經濟體領導人出席會議，會議主題是「建設亞太共同體 促進共同繁榮」，相信在共同努力下，會議一定會圓滿成功，為亞太經合組織實現更大發展，也為本地區乃至世界和平穩定繁榮貢獻力量。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "【重溫】2026年11月19日《社評摘要》",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878383-20261119.htm",
-      "publishedAt": "2026-11-19T01:38:33.000Z",
-      "excerpt": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "【重溫】2026年11月19日《報章摘要》",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878382-20261119.htm",
-      "publishedAt": "2026-11-19T01:37:31.000Z",
-      "excerpt": "每日搜羅本港主要報章要聞，緊貼社會動態。",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳APEC｜特朗普：昨日與習近平討論人工智能議題",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878386-20261119.htm",
-      "publishedAt": "2026-11-19T01:11:38.000Z",
-      "excerpt": "美國總統特朗普說，昨日曾與中國國家主席習近平交談。 正在深圳出席亞太經合組織領導人非正式會議的特朗普，接受霍士新聞訪問時表示，與習近平討論人工智能議題，在過程中只是簡短提到Nvidia前行政總裁黃仁勳。 特朗普表示，雙方沒有討論黃仁勳，可能只是稍微提及，因為這是一場悲劇，指他是一位非常傑出的人才。 編輯：方潤南",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港大學站附近信號設備故障已修復 港島綫列車服務陸續恢復正常",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878384-20261119.htm",
-      "publishedAt": "2026-11-19T00:53:02.000Z",
-      "excerpt": "港鐵表示，早前香港大學站附近的信號設備故障已修復，港島綫列車服務陸續恢復正常。 較早前，來往堅尼地城站至柴灣站的整體行車時間一度需要額外 5至8分鐘。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港大學站附近信號設備故障 整體行車時間需要額外5至8分鐘",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878380-20261119.htm",
-      "publishedAt": "2026-11-19T00:23:44.000Z",
-      "excerpt": "港鐵表示，由於香港大學站附近有信號設備故障，列車行經該路段需要慢駛，來往堅尼地城站至柴灣站的整體行車時間預計需要額外 5至 8分鐘。港鐵人員正在處理。 港鐵呼籲乘客為行程預留充裕時間。 編輯：譚佩貞",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },

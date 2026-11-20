@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-20",
-  "generatedAt": "2026-11-19T23:17:17.023Z",
-  "collectedAt": "2026-11-19T23:17:17.023Z",
+  "generatedAt": "2026-11-20T00:17:19.302Z",
+  "collectedAt": "2026-11-20T00:17:19.302Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -16,7 +21,16 @@
       "count": 20,
       "stories": [
         {
-          "title": "Court: 4th Amendment Doesn't Cover AI-Generated 'Probable Cause'",
+          "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+          "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+          "publishedAt": "2026-11-19T23:32:11.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50568082"
+        },
+        {
+          "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
           "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
           "publishedAt": "2026-11-19T22:56:59.000Z",
           "excerpt": "",
@@ -142,24 +156,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50561170"
         },
         {
-          "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
-          "url": "https://maccus.fr/en/cooling-overtaking-heating/",
-          "publishedAt": "2026-11-19T14:57:14.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50560955"
-        },
-        {
-          "title": "Everything you need to survive and rebuild society",
-          "url": "https://lastbook.org/",
-          "publishedAt": "2026-11-19T14:47:18.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50560822"
-        },
-        {
           "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
           "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
           "publishedAt": "2026-11-19T13:18:11.000Z",
@@ -194,9 +190,18 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50558533"
+        },
+        {
+          "title": "What's New in PHP 8.6",
+          "url": "https://www.php.net/releases/8.6/en.php",
+          "publishedAt": "2026-11-19T09:27:15.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50557870"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "WIRED",
@@ -374,7 +379,7 @@
       "count": 20,
       "stories": [
         {
-          "title": "Dudes Online Are So Mad That ‘GTA VI’ Makes Them Respect Women",
+          "title": "Dudes Online Are So Mad That ‘Grand Theft Auto 6’ Makes Them Respect Women",
           "url": "https://www.wired.com/story/dudes-online-are-so-mad-that-gta-vi-makes-them-respect-women/",
           "publishedAt": "2026-11-19T23:12:17.000Z",
           "excerpt": "Much to the dismay of right-wing streamers, being a thoughtful boyfriend is key to the game’s storyline.",
@@ -430,18 +435,18 @@
           "category": "Technology"
         },
         {
-          "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-          "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-          "publishedAt": "2026-11-19T12:00:00.000Z",
-          "excerpt": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
           "title": "Voyager Is a Light-Day Away. Here’s How Far That Really Is",
           "url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
           "publishedAt": "2026-11-19T12:00:00.000Z",
           "excerpt": "The distance and forces shaping the venerable craft’s trajectory are mind-boggling reminders of the vastness of space.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+          "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+          "publishedAt": "2026-11-19T12:00:00.000Z",
+          "excerpt": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth.",
           "source": "WIRED",
           "category": "Technology"
         },
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "TechCrunch",
@@ -880,6 +885,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+          "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+          "publishedAt": "2026-11-19T23:37:56.000Z",
+          "excerpt": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
         {
           "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
           "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
@@ -1031,17 +1044,9 @@
           "excerpt": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-          "publishedAt": "2026-11-18T23:17:28.000Z",
-          "excerpt": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Techmeme",
@@ -1458,7 +1463,7 @@
           "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1471,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Job posting seemingly confirms Apple is working on its own AI agent for coding and other tasks",
+          "url": "https://www.engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/",
+          "publishedAt": "2026-11-20T00:03:22.000Z",
+          "excerpt": "Apple is is hiring a senior engineering manager to build \"capable, reliable and safe\" agentic tools.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The GTA 6 star system says a lot more than just your Wanted level",
+          "url": "https://www.engadget.com/2322564/gta-6-wanted-level-star-system-details/",
+          "publishedAt": "2026-11-19T23:28:22.000Z",
+          "excerpt": "Just committing a robbery doesn't necessarily mean your Wanted level will rise.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Leaked images may show Motorola's answer to the iPhone Duo",
           "url": "https://www.engadget.com/2322557/leaked-images-may-show-motorolas-answer-to-the-iphone-duo/",
@@ -1627,27 +1650,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Canva will let users switch off most generative AI",
-          "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/",
-          "publishedAt": "2026-11-19T12:30:00.000Z",
-          "excerpt": "Canva is rolling out new settings to purge most generative AI from its app.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "DOJ accuses Russian national of spying on and harassing Palantir employees",
-          "url": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
-          "publishedAt": "2026-11-19T10:33:59.000Z",
-          "excerpt": "The DOJ says the Russian national was ordered to spy on Palantir over Ukraine's use of its software for wartime purposes.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1660,51 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How Rockstar's animation makes GTA 6 a fully living and breathing world",
+          "url": "https://www.techradar.com/gaming/there-are-close-to-a-thousand-animation-sets-for-ambient-activities-how-rockstars-gameplay-animation-makes-gta-6-a-fully-living-and-breathing-world-from-breathtaking-foot-chases-to-details-like-how-characters-open-a-door",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "excerpt": "Red Dead Redemption 2 had an 'appropriate slower heartbeat', but the BPM is seriously cranked up with the feel and pace of the animation in GTA 6.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "NYT Strands hints and answers for Friday, November 20 (game #992)",
+          "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-20-november-2026",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Quordle hints and answers for Friday, November 20 (game #1761)",
+          "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-20-november-2026",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "NYT Connections hints and answers for Friday, November 20 (game #1258)",
+          "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-20-november-2026",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "'Intel’s commitment to the HPC community is grounded in a pragmatic reality': Intel affirms its backing for the next generation of high-powered computing to push the boundaries of AI",
+          "url": "https://www.techradar.com/pro/intels-commitment-to-the-hpc-community-is-grounded-in-a-pragmatic-reality-intel-affirms-its-backing-for-the-next-generation-of-high-powered-computing-to-push-the-boundaries-of-ai",
+          "publishedAt": "2026-11-19T23:45:00.000Z",
+          "excerpt": "Intel is developing next-generation Xeon processors, AI accelerators, optical networking, and quantum computing technologies while maintaining software compatibility across scientific computing environments.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Today I learned 21 humanoid robots ran a half marathon alongside humans",
           "url": "https://www.techradar.com/pro/today-i-learned-21-humanoid-robots-ran-a-half-marathon-alongside-humans",
@@ -1789,54 +1839,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "NordPass Premium is 55% off this Black Friday with our money-off code",
-          "url": "https://www.techradar.com/pro/nordpass-premium-is-52-percent-off-for-black-friday-pay-just-usd40-16-with-our-exclusive-code-for-two-years-of-password-protection-plus-four-extra-months-for-free",
-          "publishedAt": "2026-11-19T16:40:00.000Z",
-          "excerpt": "Get NordPass Premium for just $40.16 this Black Friday with our exclusive code, saving 55% and getting four extra months free.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The gift that changes everything",
-          "url": "https://www.techradar.com/computing/laptops/the-gift-that-changes-everything",
-          "publishedAt": "2026-11-19T16:28:02.000Z",
-          "excerpt": "Discover the HP OmniBook3 and more Snapdragon powered PCs worth adding to your wishlist",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Sansui's 32-inch 240Hz curved gaming monitor is just $169.99 at Amazon",
-          "url": "https://www.techradar.com/pro/sansuis-32-inch-curved-creative-monitor-packs-a-240hz-refresh-rate-and-freesync-support-for-just-usd259-99",
-          "publishedAt": "2026-11-19T16:23:32.000Z",
-          "excerpt": "Sansui's $169.99 curved monitor delivers a 240Hz refresh rate on a huge 32-inch screen.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Lenovo's business-friendly ThinkPad T14 Gen 7 is $600 off in the Black Friday laptop sale",
-          "url": "https://www.techradar.com/pro/lenovos-business-friendly-thinkpad-t14-gen-7-is-usd600-off-in-the-black-friday-laptop-sale",
-          "publishedAt": "2026-11-19T16:14:20.000Z",
-          "excerpt": "Lenovo's ThinkPad T14 Gen 7 is perfectly specced for business. Our hardware editor swears by ThinkPads, and the $600 Black Friday discount sweetens the deal.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "AI finds 'internet breaker' security flaws in NGINX — open source technology responsible for running hundreds of millions of websites has decades-old issues which can be hijacked to steal data",
-          "url": "https://www.techradar.com/pro/security/ai-finds-internet-breaker-security-flaws-in-nginx-open-source-technology-responsible-for-running-hundreds-of-millions-of-websites-has-decades-old-issues-which-can-be-hijacked-to-steal-data",
-          "publishedAt": "2026-11-19T16:05:00.000Z",
-          "excerpt": "PHP, Java and Apache are now joined by NGINX.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "9to5Mac",
@@ -1844,6 +1849,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "LiberNovo’s Black Friday sale takes up to 42% off ergonomic chairs",
+          "url": "https://9to5mac.com/2026/11/19/libernovos-black-friday-sale-takes-up-to-42-off-ergonomic-chairs/",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "excerpt": "You can spend plenty of time getting your Mac, display, and desk just right. But what about the chair you use every day? Between typing, taking video calls, and leaning back to watch something, your position changes throughout the day. Your chair should be able to keep up. That’s the idea behind Lib",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "OpenAI begins testing dots with ChatGPT Plus users, expands Business access",
+          "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/",
+          "publishedAt": "2026-11-19T23:47:30.000Z",
+          "excerpt": "Following its launch for ChatGPT Pro, Business Premium, and Enterprise users, OpenAI is now beginning to test ChatGPT dot with a small number of ChatGPT Plus subscribers. Here are the details. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "macOS 27.3 public beta 2 now available, here’s everything new",
           "url": "https://9to5mac.com/2026/11/19/macos-27-3-public-beta-2-now-available-heres-everything-new/",
@@ -1872,7 +1895,7 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Apple TV launches 50% off Black Friday deal: $6.99/month for 6 months",
+          "title": "Apple TV is now $6.99/month (50% off) for Black Friday, details here",
           "url": "https://9to5mac.com/2026/11/19/apple-tv-launches-50-off-black-friday-deal-6-99-month-for-6-months/",
           "publishedAt": "2026-11-19T21:55:07.000Z",
           "excerpt": "Apple TV has just launched a Black Friday deal that lets new and returning subscribers get the service for just $6.99/month for up to six months. Here are the details. more…",
@@ -2005,27 +2028,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple TV will stream all-female racing series F1 Academy starting next year",
-          "url": "https://9to5mac.com/2026/11/19/apple-tv-f1-academy-stream-next-year/",
-          "publishedAt": "2026-11-19T16:10:21.000Z",
-          "excerpt": "Apple is coming up to the end of its first year as the exclusive broadcaster of Formula 1 in the United States, with the deal set to continue through 2031. So far, it seems to be going well for all parties involved. In a sign of that relationship strengthening, the company announced it is expanding ",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "iPadOS 27.3: Three new features coming to your iPad",
-          "url": "https://9to5mac.com/2026/11/19/ipados-27-3-three-new-features-coming-to-your-ipad/",
-          "publishedAt": "2026-11-19T16:09:55.000Z",
-          "excerpt": "iPadOS 27.3 is now in beta and will launch to all users next month , here are three new features it introduces for iPad. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2219,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2408,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Fast Company",
@@ -2413,7 +2418,7 @@
       "stories": [
         {
           "title": "The success KPIs nonprofits get right",
-          "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-11-12T19:14:00.000Z",
           "excerpt": "When purpose is clear, money is the means, not the primary destination.",
           "source": "Fast Company",
@@ -2422,7 +2427,7 @@
         },
         {
           "title": "Innovation starts at the edges",
-          "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-11-06T13:00:00.000Z",
           "excerpt": "Start by asking who has been left out of the design.",
           "source": "Fast Company",
@@ -2431,7 +2436,7 @@
         },
         {
           "title": "Could AI give older creatives a second act?",
-          "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-11-01T05:00:00.000Z",
           "excerpt": "In fields that favor the young, the AI era may actually position more seasoned professionals favorably.",
           "source": "Fast Company",
@@ -2440,7 +2445,7 @@
         },
         {
           "title": "3 design principles in the AI age",
-          "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-10-27T12:00:00.000Z",
           "excerpt": "Iteration, feedback, and connecting the dots are important with or without AI use.",
           "source": "Fast Company",
@@ -2449,7 +2454,7 @@
         },
         {
           "title": "It doesn’t matter if your brand’s visual identity looks good",
-          "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-09-23T12:00:00.000Z",
           "excerpt": "The advantage now goes to brands that mean something and give people a reason to care.",
           "source": "Fast Company",
@@ -2458,7 +2463,7 @@
         },
         {
           "title": "The creative economy’s greatest competitive advantage",
-          "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-08-12T12:00:00.000Z",
           "excerpt": "The classroom experience provides space to take risks, sharpen critical thinking, and deepen cultural fluency.",
           "source": "Fast Company",
@@ -2467,7 +2472,7 @@
         },
         {
           "title": "What should the future look like? Inside the tech-funded program to create a new aesthetic",
-          "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-08-12T09:00:00.000Z",
           "excerpt": "Billionaire Stripe CEO Patrick Collison and libertarian economist Tyler Cowen have created a grant program to replace modernism—and define a new look for the 21st century.",
           "source": "Fast Company",
@@ -2476,7 +2481,7 @@
         },
         {
           "title": "Designing for the edges improves the center",
-          "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-07-17T12:00:00.000Z",
           "excerpt": "When products work for people with the most constraints, they tend to work better for everyone.",
           "source": "Fast Company",
@@ -2485,7 +2490,7 @@
         },
         {
           "title": "People thought this MLB hat had a defect. It’s actually a clever hidden reference",
-          "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-07-15T10:00:00.000Z",
           "excerpt": "An exclusive Phillies All-Star Game hat features a graphic that history buffs will recognize.",
           "source": "Fast Company",
@@ -2494,7 +2499,7 @@
         },
         {
           "title": "Design history, as told through 125 objects",
-          "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-07-13T10:00:00.000Z",
           "excerpt": "Cooper Hewitt’s new permanent collection exhibition is meant to be a conversation starter.",
           "source": "Fast Company",
@@ -2503,7 +2508,7 @@
         },
         {
           "title": "5 trends in design right now",
-          "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-07-07T16:43:24.000Z",
           "excerpt": "What the 5th annual iF Design Trend Report found that may surprise you.",
           "source": "Fast Company",
@@ -2512,7 +2517,7 @@
         },
         {
           "title": "Here’s one thing AI can’t do",
-          "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-06-24T21:23:31.000Z",
           "excerpt": "Fast Company creative director Mike Schnaidt breaks down the design process behind the magazine’s latest cover.",
           "source": "Fast Company",
@@ -2521,7 +2526,7 @@
         },
         {
           "title": "Use AI to augment design, not replace it",
-          "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-06-01T18:02:00.000Z",
           "excerpt": "The growing push toward full automation is a mistake.",
           "source": "Fast Company",
@@ -2530,7 +2535,7 @@
         },
         {
           "title": "Minted spent two decades building an artist-led business. Now it’s experimenting with letting AI in",
-          "url": "https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-05-29T10:00:00.000Z",
           "excerpt": "The stationery store where people can buy original designs from artists is launching an experiment to allow customers to use AI to add custom elements to their orders.",
           "source": "Fast Company",
@@ -2539,7 +2544,7 @@
         },
         {
           "title": "The power of live, work, play communities is human connection",
-          "url": "https://www.fastcompany.com/91549869/the-power-of-live-work-play-communities-is-human-connection?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11192026",
+          "url": "https://www.fastcompany.com/91549869/the-power-of-live-work-play-communities-is-human-connection?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11202026",
           "publishedAt": "2026-05-28T13:56:37.000Z",
           "excerpt": "What if your city is the experience?",
           "source": "Fast Company",
@@ -2547,7 +2552,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Creative Bloq",
@@ -2736,7 +2741,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2950,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3119,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3288,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3377,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3546,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3715,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3904,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3908,19 +3913,19 @@
       "count": 20,
       "stories": [
         {
-          "title": "The Furious, Festive Scene at the 2026 National Book Awards",
-          "url": "http://www.vulture.com/article/national-book-awards-2026-recap.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-19T22:15:44.000Z",
-          "excerpt": "“I mourn the reunions that might have happened, the friendships that might have bloomed in this room.”",
+          "title": "Anthropic Cashes In: Live Updates of Bonkers IPO",
+          "url": "http://nymag.com/intelligencer/article/anthropic-cashes-in-live-ipo-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-19T23:05:00.000Z",
+          "excerpt": "The first AI-generated IPO is here, billionaires are growing on Nasdaq trees, and we’re keeping track of it all with a handmade liveblog.",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Anthropic Cashes In: Live Updates of Bonkers IPO",
-          "url": "http://nymag.com/intelligencer/article/anthropic-cashes-in-live-ipo-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-19T21:47:00.000Z",
-          "excerpt": "The first AI-generated IPO is here, billionaires are growing on Nasdaq trees, and we’re keeping track of it all with a handmade liveblog.",
+          "title": "The Furious, Festive Scene at the 2026 National Book Awards",
+          "url": "http://www.vulture.com/article/national-book-awards-2026-recap.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-19T22:15:44.000Z",
+          "excerpt": "“I mourn the reunions that might have happened, the friendships that might have bloomed in this room.”",
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4088,7 +4093,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4282,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The New Yorker",
@@ -4466,7 +4471,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4600,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "IndieWire",
@@ -4700,7 +4705,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Vox",
@@ -4889,7 +4894,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5083,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5252,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5421,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5550,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5649,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5838,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6027,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6216,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
     },
     {
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6491,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7187,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7654,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7992,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8181,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8350,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8519,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8708,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8871,7 +8877,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9046,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9135,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9324,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9513,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9702,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "The Marginalian",
@@ -9865,7 +9871,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10040,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10209,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Psyche",
@@ -10266,19 +10272,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Eye on the mark",
-          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+          "title": "Eye on the mark",
+          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10392,7 +10398,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10567,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10736,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Kottke",
@@ -10939,7 +10945,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11154,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Waxy",
@@ -11377,7 +11383,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "MetaFilter",
@@ -11557,7 +11563,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11746,7 +11752,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Dense Discovery",
@@ -11955,7 +11961,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "香港01",
@@ -11964,10 +11970,74 @@
       "count": 20,
       "stories": [
         {
-          "title": "印尼幼童爬6米「巨蟒滑梯」 家長站旁舉機拍 網民怒轟專家警告",
-          "url": "https://hk01.com/sns/article/60412018",
-          "publishedAt": "2026-11-19T23:10:29.000Z",
-          "excerpt": "把致命猛獸當遊樂場設施，隨時鬧出人命！印尼西爪哇省近日流傳1段驚險影片，數名幼童竟將1條長達6米（約20英尺）的網紋蟒當成臨時滑梯，輪流爬上蛇身順勢滑落，甚至直接坐在蛇背上嬉戲。令人譁然的是，身旁數名成年人未有上前制止，反而舉起手機興奮拍攝全程。影片隨即惹來網上熱議，網民怒轟家長嚴重失職：「難道不怕哪天孩子在蛇肚子裏玩？！」 數名幼童竟將1條長達6米（約20英尺）的網紋蟒當成臨時滑梯，輪流爬上蛇身順勢滑落，甚至直接坐在蛇背上嬉戲。（IG@israhma125_） 數名幼童竟將1條長達6米（約20英尺）的網紋蟒當成臨時滑梯，輪流爬上蛇身順勢滑落，甚至直接坐在蛇背上嬉戲。（IG@israhma12",
+          "title": "紐約69歲華婦遇祈福黨 哭訴遭騙17萬美元財物：那是我的畢生積蓄",
+          "url": "https://hk01.com/sns/article/60399414",
+          "publishedAt": "2026-11-20T00:10:54.000Z",
+          "excerpt": "美國紐約布魯克林發生「祈福黨」詐騙案。當地1名69歲華裔婆婆在街頭遭騙徒以尋找「老中醫」為由搭訕，其間被對方強行擁抱及握手後感到頭暈，隨即喪失警覺。騙徒隨後以「祈福祛病」為由，誘騙婆婆回家取出17萬美元（約133萬港元）現金及大批金飾，然後換取祈福袋子。婆婆返家後打開袋子一看，驚覺財物已慘遭調包成衛生紙、礦泉水及粉末，哭訴痛失畢生積蓄。案件目前仍在調查中，當地華人社團特別提醒民眾，切勿輕信陌生人，以免落入詐騙陷阱。 陳女士憶述，2025年10月25日中午，她在布魯克林西12街附近遇到2名戴口罩及帽子的女子，對方用粵語搭訕，詢問附近1名醫術高明的老中醫在哪裏。（AI生成圖片） 擁抱握手後即感頭暈",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "甘比訪問｜人生如針織無需補針 日睡最多4小時︰瞓覺係嘥時間！",
+          "url": "https://hk01.com/sns/article/60412365",
+          "publishedAt": "2026-11-20T00:02:28.000Z",
+          "excerpt": "華置CEO、「大劉」劉鑾雄太太甘比（陳凱韻）近日推出自家針織時裝品牌 KUUKee ，大收旺場。如果說其設計的作品講究「手作溫度」，甘比看自己的人生，也像一件一針一線織成的針織品。 由基層記者到華置CEO、香港女富豪，再到針織好手、時裝品牌創辦人，她接受《香港01》訪問時說，每一個階段都很享受，自然而為，「唔需要補針，因為過咗去你點補都冇用；呢一刻我會補針﹙的話﹚，就係再勤力啲！」對於今時今日的成功，她直言無法解釋，但會將「勤力」放在最前；談作息，她坦言目前每天只睡2至4小時，因為「覺得瞓覺係嘥時間」。而說到底還是那句：「冇勤力你就咩都唔得！」 基層記者做起，做過娛樂版，訪問過不同的人；後來做",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "九肚山豪宅玖瓏山三房1120萬蝕沽 7個月劈價160萬 12年貶值4%",
+          "url": "https://hk01.com/sns/article/60412566",
+          "publishedAt": "2026-11-20T00:00:51.000Z",
+          "excerpt": "【九肚山／玖瓏山／二手樓市／蝕讓】二手樓市轉旺，惟市場仍有屋苑需蝕讓離場。當中沙田九肚山豪宅玖瓏山一伙三房單位，7個月內劈價160萬元，最新以1,120萬元沽出，上手業主持貨至今12年，帳面輕微蝕讓49.47萬元或約4.2%離場。 傲瓏閣三房7個月劈價160萬 美聯物業分行高級營業經理張銘新表示，是次成交為沙田九肚山豪宅玖瓏山傲瓏閣3座高層D室，實用面積約946平方呎，屬三房間隔，附有豪華裝修，單位最初在今年4月以1,280萬元叫價放盤，最終7個月劈價160萬元，終以1,120萬元沽出，呎價約11,839元，屬市價成交。 持貨12年輕微帳輸4.2% 至於新買家為區內上車客，是次購入單位作自住。",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "甘比訪問｜手袋常備辣椒油？華置CEO創KUUKee 安全感一件衫搞掂",
+          "url": "https://hk01.com/sns/article/60412269",
+          "publishedAt": "2026-11-20T00:00:39.000Z",
+          "excerpt": "一個時裝品牌創辦人，最緊張的竟然不是潮流剪裁、布料質地，而是衫袋夠不夠多、電話紙巾卡有沒有位放？甘比（陳凱韻）以華置CEO、「大劉」劉鑾雄太太為人熟悉，近日多了一個身份——針織時裝品牌 KUUKee 創辦人。 俗語話「衣如其人」，更何況是一個人自己創立的時裝品牌？認識甘比，倒不如由一件衫說起。身居高位、丈夫家財萬貫，卻沒有高不可攀的架子。她接受《香港01》訪問時，沒有大談時尚理論，講的都是生活裡的「安全感」與「開心」：衫要「colorful」、要實用、要令穿戴者心情好。從衫要衫袋，講到出街食飯自備辣椒油，這位老闆的「玩味」原來很貼地。 俗語話「衣如其人」，更何況是自己創立的時裝品牌？認識甘比，",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "家居用電禁忌 | 拆解家居漏電「隱形殺手」 必學4步觸電急救法！",
+          "url": "https://hk01.com/sns/article/60412551",
+          "publishedAt": "2026-11-20T00:00:27.000Z",
+          "excerpt": "家居用電禁忌 | 許多人認為只要留在室內，就能完全與觸電危機絕緣。但極端天氣引發的雨水倒灌，加上電線老化與濕手操作電器等壞習慣，正令現代家居淪為漏電現場。根據醫學分析，人體在潮濕狀態下的電阻會急劇下降，一旦接觸漏電設備，極易引發致命的心室顫動。面對防不勝防的觸電風險，專家強烈建議市民除了定期淘汰殘舊電器外，必須全面檢查家中的漏電斷路器（RCD）是否符合30毫安的跳掣標準，並在浴室及廚房等高危區域升級防水防觸電插座，從硬件源頭截斷漏電殺手。 濕手拔插頭隨時在死亡邊緣遊走！ 颱風暴雨後水浸漏電成隱形殺手？喉管滲水與社區電網外洩危機 在全球氣候變化的背景下，極端天氣成為威脅家居用電安全的最大變數。當",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "流浪乳牛貓中暑 好心人用冰塊兼噴水急救 下秒直接收養結局超暖",
+          "url": "https://hk01.com/sns/article/60378404",
+          "publishedAt": "2026-11-20T00:00:27.000Z",
+          "excerpt": "最近，刷到了個很有愛又有趣的救貓小故事，拿來分享給大家。前不久，一位博主放狗的時候發現車底下有一隻像小狗喘的乳牛貓，因為從來都沒有見過小貓這個樣子，她直覺不正常。於是，博主立刻將狗狗送回了家，並立刻拿了碗水下樓，尋思讓小貓喝口水緩緩。 但小貓的狀態很差，好不容易從車底下出來卻癱軟在地，持續喘着粗氣，還控制不住流口水，博主給牠倒水也不喝。她查了一下，懷疑小貓是中暑，但不確定，便拍下小貓的影片，並聯繫寵物醫院的醫生，希望能夠得到幫助。 ►毛孩子有IG了，來追蹤我們吧！ 好心人用冰塊兼噴水急救中暑小貓： 前不久，一位博主遛狗的時候發現車底下有一隻小狗喘的乳牛貓，因為從來都沒有見過小貓這個樣子，她直覺",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "保溫瓶裝豆漿30分鐘菌爆30倍！專家揭入樽3禁忌中藥都錯！清洗3步",
+          "url": "https://hk01.com/sns/article/60412805",
+          "publishedAt": "2026-11-20T00:00:26.000Z",
+          "excerpt": "保溫瓶使用｜秋冬季節，不少人都愛隨身攜帶保溫瓶（英文：Thermos / Insulated bottle）出街，把熱咖啡、鮮奶，甚至中藥倒入保溫杯，一飲就是大半天，以為熱飲暖胃補身，沒想到卻是超級細菌的溫床。究竟什麼適宜放入保溫瓶？如何清潔保溫瓶才對？ 危險溫度攝氏4度至60度：豆漿30分鐘細菌爆增30倍 隨著時間流逝，當熱飲溫度降至攝氏60度以下，便正式踏入細菌最活躍的溫床。 據香港食物安全中心（CFS） 明確警告，攝氏4度至60度屬於「危險溫度範圍」。在這個區間內，奶類及高蛋白質飲品中的沙門氏菌與大腸桿菌，每20分鐘就會激增一倍。如果你把一杯熱拿鐵放在保溫瓶半天，吞下肚的細菌量絕對超乎想",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "【今日當年】陳嘉桓橫店慘遭強吻 陳浩民拖臨盆妻痛哭三鞠躬道歉",
+          "url": "https://hk01.com/sns/article/60412715",
+          "publishedAt": "2026-11-20T00:00:17.000Z",
+          "excerpt": "時光飛逝，當年今日的娛樂圈，你還記得多少？全新專欄【今日當年】每天為你解鎖記憶密碼，回顧歷史上的今天發生過的娛樂大事件。無論是轟動全城的八卦頭條，還是改寫星途的關鍵時刻，我們都將與你一起穿梭時空，見證娛樂圈的時代變遷。 將日曆翻到2011年11月20日，香港演藝圈爆發了震驚中港兩地的「橫店狼吻事件」。當年19歲的女星陳嘉桓在內地橫店拍攝電影期間，於宵夜聚會上遭同場的男星陳浩民與馬德鐘輪流強吻及攬抱非禮。事件的發展並非單一日子發生，而是由事發、曝光到各方表態及報警，經歷了為期數天的戲劇性發酵，成為了當年香港娛樂圈最具爭議的社會新聞。 陳嘉桓在內地橫店拍攝電影期間，於宵夜聚會上遭同場的男星陳浩民與",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "外勞來港任麻雀館接待人工近18K 日企11小時+單休 網民：好辛苦",
+          "url": "https://hk01.com/sns/article/60412502",
+          "publishedAt": "2026-11-20T00:00:01.000Z",
+          "excerpt": "近年不少內地人士透過輸入勞工計劃來港工作，薪酬待遇與工作環境亦備受關注。近日有來自珠海的女外勞發文，分享自己在香港任職麻雀館接待員的首份糧單，扣除10%住宿費後淨袋$17,963，不過當她透露每日工時長達11小時、全程需站立且單休後，隨即引來大批網民熱議。 小紅書截圖 扣除10%住宿費實收$17,963 該名外勞網民在 小紅書 發文，透露自己在香港任職麻雀館接待員，最近終於出糧。她公開實際收入數字，指合約底薪扣除10%住宿費後，淨到手實數為$17,963，並強調「冇任何加班費、冇獎金，淨係合同薪資扣住宿，同當初面試講嘅一樣，冇縮水」。 據香港勞工處「補充勞工優化計劃」規定，僱主給予外勞的工資不",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11992,54 +12062,6 @@
           "url": "https://hk01.com/sns/article/60412848",
           "publishedAt": "2026-11-19T23:00:44.000Z",
           "excerpt": "太子集團被指於柬埔寨經營詐騙園區，涉多宗跨國洗黑錢案件，美國財政部11月5日發布第三輪制裁名單，包含四名人士及41間公司，當中涉香港人及6間香港公司。 其中，被指是太子集團核心成員的邱用 （QIU Yong），在香港及澳門經營酒業生意，在港持有的六間公司均被制裁，包括兩間持牌放債公司。另外，邱用的私人助理、香港人趙夢瑤 （ZHAO Mengyao）亦被制裁。 【太子集團陳志調查・專頁】 【01偵查YouTube Playlist】 2026年11月，美國財政部針對太子集團施加第三輪制裁，名單包括（左起）太子集團核心成員邱用（QIU Yong）、香港人趙夢瑤（ZHAO Mengyao）、集團關聯",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "持續進修基金學車2027｜認可駕校收費比較！拆解資助計算及中伏位",
-          "url": "https://hk01.com/sns/article/60411768",
-          "publishedAt": "2026-11-19T23:00:41.000Z",
-          "excerpt": "考車牌是很多人的人生目標清單之一，但學車費用至少一、兩萬元，很多人都會考慮使用政府資助的持續進修基金（CEF）報讀駕駛課程學車考車牌，以獲得課程學費發還。持續進修基金可以提供最高HK$25,000上限的資助，以私家車駕駛證書為例，學費隨時可以低至HK$4,232！「01教育」已經為各位有意報讀駕駛證書課程的讀者整理資料，比較各間駕駛學校獲得持續進修基金認可的駕駛課程，並列出學費、課程時數、課程長度、中伏位、發還款項流程等。 持續進修基金可以Claim幾多學車資助？ 根據 持續進修基金 網頁資料，持續進修基金設有兩個共付比率，學員必須承擔部份學費。首HK$10,000資助會獲得基金資助80%學費",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "馬德鐘機場候機被捕獲型佬造型網民誤以為機師 親切舉動獲讚貼地",
-          "url": "https://hk01.com/sns/article/60412829",
-          "publishedAt": "2026-11-19T23:00:35.000Z",
-          "excerpt": "現年58歲的視帝「馬神」馬德鐘，1993年因拍攝廣告被發掘入行後，曾是無綫千禧年代的當家小生之一。他在2011年一度離巢北上發展，近年以部頭合約形式回歸，憑《跳躍生命線》勇奪視帝寶座。他今年初再度宣布離開TVB，馬德鐘否認息影，又指與TVB關係良好，並非不歡而散。近日有網民捕獲馬德鐘在香港國際機場候機，一身型佬造型勁被誤以為是飛機師。 馬德鐘當年憑《跳躍生命線》奪得視帝殊榮。（TVB） 馬德鐘多年來一直保養得宜。（IG/@joema_tak_chung） 今年初再度宣布離開TVB，並積極在內地發展，更於4月舉行了演唱會。（IG/@joema_tak_chung） 有網民誤以為馬德鐘係型爆機師 ",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "AI教育共享｜由「思+」出發 以AI點亮無限可能",
-          "url": "https://hk01.com/sns/article/60412285",
-          "publishedAt": "2026-11-19T23:00:35.000Z",
-          "excerpt": "文：香港教師會李興貴中學STEAM教育主任黃廷峰老師 香港教師會李興貴中學推動人工智能教育 培育創新人才貢獻社會 在人工智能急速發展的時代，教育不再只停留於知識傳授，更重視啟發學生思考、創作與實踐。香港教師會李興貴中學一直深信，每一位學生都擁有獨特才華與無限潛能。學校透過「思+設計與科技創意室」，為學生打造一個融合人工智能、設計思維、科技創意與價值教育的學習空間，讓同學敢於突破框架，盡情發揮創意，成就屬於自己的「infinity」無限可能。 （作者提供） 「思」，代表思考，是學生追求知識、探索世界的第一步；「+」，則象徵加強、連結與成長。學校期望學生不但在學業上精益求精，更能在創作與協作過程中",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "來稿｜對接歐洲金融外交 搶佔亞洲黃金樞紐",
-          "url": "https://hk01.com/sns/article/60412628",
-          "publishedAt": "2026-11-19T23:00:31.000Z",
-          "excerpt": "來稿作者：邵天虹 11月17日，財經事務及庫務局局長許正宇在德國法蘭克福出席第29屆歐洲金融周的第12屆綠色金融論壇，展開為期六日、涵蓋德國、盧森堡及比利時的訪問行程。與同期在深圳舉行的亞太經合組織（APEC）工商領導人峰會相呼應，港府近期對外推廣的重點，正由『聯通世界』走向更具體的制度對接與金融基建合作。 從許正宇的演講與雙邊會晤，結合市場數據與區域競爭現況來看，香港向歐洲金融界推進的實務合作主要圍繞兩大主軸。 第一，可持續金融：以標準接軌降低跨境投資摩擦，碳市場仍待放量。 在亞洲綠色債券發行端，香港具備穩固的先發優勢。根據香港立法會財經事務委員會文件，2024年在香港安排發行的綠色及可持續",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "屯門珀居屋仔蝕53%銀主賤賣 昔日豪宅業主淪破產收場｜多圖",
-          "url": "https://hk01.com/sns/article/60412328",
-          "publishedAt": "2026-11-19T23:00:12.000Z",
-          "excerpt": "【屯門/二手樓/銀主盤/洋房】銀主盤市場錄得洋房大幅折讓成交。屯門珀居一幢遭接管洋房，最新以3,520萬元易手。而原業主有著一連串的財務悲歌，其於2018年豪擲7,516萬元風光入市，至近年向財務公司加按借貸，最終更被接管單位兼遭法庭頒令破產。單位亦於過去8年間，價貶3,996萬元或約53%。 涉及屯門冠發街珀居單號屋，實用面積2,788平方呎，原則三房間隔，並連約1,988平方呎花園及928平方呎天台。單位原本叫價4,000萬元，議價後以3,520萬元售出。 資料顯示，原業主於2018年以7,516萬元購入上述物業，當時成交呎價為26,958元。至今年年中，該業主向財務公司加按借貸。 ↓↓屯",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "AI影片經常變臉？日本免費圖庫實測 直接下載近1500張可商用PNG",
-          "url": "https://hk01.com/sns/article/60412538",
-          "publishedAt": "2026-11-19T23:00:01.000Z",
-          "excerpt": "AI模特兒臉部資料庫是日本創作者「あぎ」開發的免費圖庫，收錄893張AI生成的正面臉部圖與606張造型圖，以CC0授權提供，不用註冊就能下載原尺寸PNG，用來固定AI角色與影片的臉。 用AI做角色圖或短影片，最讓人頭痛的就是臉。同一個角色，換一張圖、換一段影片，臉就變成另一個人，很難保持固定。常見的解法是準備一張固定的臉部參考圖，丟進各種AI工具的角色參考或臉部參考功能，但自己要生出一批品質穩定的臉並不容易，網路上現成的人像素材又常有肖像權疑慮，如果有類似需求，接下來要推薦的免費圖庫你一定會喜歡。 「AI模特兒臉部資料庫」中的圖片，都是由AI生成的虛構人物，並非真實存在的人。（AIモデル顔デー",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12084,6 +12106,14 @@
           "category": "Hong Kong"
         },
         {
+          "title": "有片｜深圳灣東濱隧道車禍涉多輛粵港貨車 林寶堅尼SUV嚴重損毀",
+          "url": "https://hk01.com/sns/article/60412867",
+          "publishedAt": "2026-11-19T12:36:06.000Z",
+          "excerpt": "深圳灣東濱隧道發生車禍。今日（19日）網上流傳影片可見，隧道內有多架車相撞，包括多輛粵港兩地牌貨車。片段亦可見，「車陣」中有一輛橙色林寶堅尼Urus SUV橫亘路面，其車頭嚴重損毀，車頭蓋扭曲摺起，泵把脫落，碎片四散一地。目擊者拍片形容該林寶堅尼「前後都扁晒」；亦指另一輛黑色私家車同樣「扁晒」。 片段引起網民熱議，有人戲謔林寶堅尼變「公司三文治」、「咦，蛋牛治喎！」；亦有人揣測車禍因由，「個個咁CUT線遲早嘅事。」、「乜料呀？直路都炒到咁？」、「林寶冇爛呀，非常硬！」 深圳灣東濱隧道內發生車禍，包括多輛粵港兩地牌貨車；一輛橙色林寶堅尼Urus SUV橫亘路中，車頭嚴重損毀。（FB/地板友 Fl",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "TVB台慶2026紅地氈三｜花旦們出場 陳自瑤極性感僅用蝴蝶結遮胸",
           "url": "https://hk01.com/sns/article/60412837",
           "publishedAt": "2026-11-19T10:48:26.000Z",
@@ -12098,33 +12128,9 @@
           "excerpt": "香港醫學會前會長、行醫多年的腎科專科醫生蔡堅，其位於黃大仙中心的診所日前貼出因「租約問題」，已於本月17日停診。蔡堅向《香港01》表示，該舖位租金太貴，月租達8萬元，自稱「做唔住」，加上已屆78歲高齡，難再多處奔波，未來將在屬於自置物業的旺角太子診所繼續看診，為病人服務。 接近八旬的名醫蔡堅近年仍一周六天奔波太子及黃大仙兩間診所看症，更為兼顧病人及自己的需要，不斷進修，早前報讀糖尿相關課程及考獲老人醫學文憑。（資料圖片） 現年78歲的名醫蔡堅，近年仍固定每星期6日，於其太子及黃大仙兩間診所兩邊奔走，為病人看症，更為兼顧病人及自己的需要，不斷進修，早前報讀糖尿病症相關課程及考獲老人醫學文憑。 他",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺港智稱多年感情謀財害命無可能 官問對象指譚還是蔡",
-          "url": "https://hk01.com/sns/article/60412742",
-          "publishedAt": "2026-11-19T08:37:18.000Z",
-          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(19日）在高等法院續審，鄺港智之前提及被蔡發現交了女友後，便與女友Ivy分手，之後被迫回港湊仔。 鄺港智又稱二人有十多年感情，是「老夫老妻」，沒有仇恨，謀財害命的計劃根本無可能。法官祁彥輝即問鄺所指多年感情的對象，是指蔡還是譚方駿，鄺即澄清是蔡。 鄺港智又形容蔡的性格剛烈，他習慣了被罵，形容蔡似Angry bird，法官一度不知甚麼是Angry bird，律師們即用平板搜尋向法官展示。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺港智：譚方駿本身是喜歡我的 指譚曾買米線示愛",
-          "url": "https://hk01.com/sns/article/60412683",
-          "publishedAt": "2026-11-19T07:11:31.000Z",
-          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），今（15日）在高等法院續審。鄺港智自辯時解釋蔡與譚方駿成婚原因時指：「其實Christopher（譚方駿）本身係鍾意我嘅。」 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向選出的陪審團透露，三名被告否認謀殺，全部承認一項阻止合法埋葬屍體罪。 第三被告鄺港智，他是蔡天鳳的前夫。(資料圖片) 譚方駿。(朱棨新攝) 蔡天鳳。（網上圖片)",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺港智指蔡為錢下嫁譚方駿 形容三人關係複雜但可接受",
-          "url": "https://hk01.com/sns/article/60412660",
-          "publishedAt": "2026-11-19T06:42:16.000Z",
-          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(19日）在高等法院續審，第三被告鄺港智談及與蔡天鳳及譚方駿的關係，他用「complicated(複雜)」來形容，承認知蔡及譚一起時有少少不開心，但也祝福他們，又指蔡曾對他稱，選擇與譚一起是為了錢，又稱因為他們三人真係好好，所以覺得可以接受。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向選出的陪審團透露，三名被告否認謀殺",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "有線新聞",
@@ -12293,7 +12299,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Now 新聞",
@@ -12301,6 +12307,30 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "採訪日誌｜立法會交通事務委員會檢討隧道分時段收費成效／北角社區客廳開幕",
+          "url": "https://news.now.com/home/local/player?newsId=670238",
+          "publishedAt": "2026-11-19T23:39:39.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "智利工作假期計劃 孫玉菡預計明年較早時間推行",
+          "url": "https://news.now.com/home/local/player?newsId=670236",
+          "publishedAt": "2026-11-19T23:32:39.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "晨早新聞重點｜美股下挫 道指跌逾1000點／習近平形容中俄美會談具開創性意義",
+          "url": "https://news.now.com/home/local/player?newsId=670229",
+          "publishedAt": "2026-11-19T23:16:39.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "天氣報告｜密雲有幾陣雨 氣溫進一步下降至14度",
           "url": "https://news.now.com/home/local/player?newsId=670228",
@@ -12436,33 +12466,9 @@
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "香港大學港鐵站連續兩日信號故障 港島綫行車一度受阻",
-          "url": "https://news.now.com/home/local/player?newsId=670177",
-          "publishedAt": "2026-11-19T08:27:32.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "樂嶺軒首位宏福苑業主正式收樓",
-          "url": "https://news.now.com/home/local/player?newsId=670176",
-          "publishedAt": "2026-11-19T08:21:33.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "李家超出席APEC活動 與習近平短暫交流",
-          "url": "https://news.now.com/home/local/player?newsId=670175",
-          "publishedAt": "2026-11-19T08:21:33.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12470,6 +12476,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Hong Kong man found guilty of murdering yoga instructor ex-girlfriend in luxury hotel room",
+          "url": "https://hongkongfp.com/2026/11/20/hong-kong-man-found-guilty-of-murdering-yoga-instructor-ex-girlfriend-in-luxury-hotel-room/",
+          "publishedAt": "2026-11-19T23:45:00.000Z",
+          "excerpt": "A Hong Kong man has been found guilty of murdering his ex-girlfriend, more than four years after she was found dead in a bathtub in a luxury hotel room. Alex Lo, 32, was convicted at the High Court on Thursday, the 14th day of his trial, after the seven-member jury – comprising five men and […]",
+          "source": "Hong Kong Free Press",
+          "category": "Hong Kong"
+        },
         {
           "title": "Trump says summit with Xi, Putin ‘making history’",
           "url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
@@ -12621,17 +12635,9 @@
           "excerpt": "Hong Kong’s privacy watchdog has launched a compliance check into a property management firm’s plan to implement a facial recognition system at a residential estate after the initiative raised privacy concerns among residents. The Office of the Privacy Commissioner for Personal Data (PCPD) issued th",
           "source": "Hong Kong Free Press",
           "category": "Hong Kong"
-        },
-        {
-          "title": "China says Xi, Trump, Putin to discuss ‘world peace’ at Shenzhen summit",
-          "url": "https://hongkongfp.com/2026/11/17/china-says-xi-trump-putin-to-discuss-world-peace-at-shenzhen-summit/",
-          "publishedAt": "2026-11-17T01:31:51.000Z",
-          "excerpt": "The leaders of China, Russia and the United States will discuss “world peace” when they hold their first trilateral summit in Shenzhen this week, Beijing said on Monday. Presidents Xi Jinping, Donald Trump and Vladimir Putin are due to meet in the southern Chinese city on Thursday on the sidelines o",
-          "source": "Hong Kong Free Press",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12800,7 +12806,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "South China Morning Post",
@@ -12969,7 +12975,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13138,12 +13144,21 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-19T23:17:17.023Z"
+      "lastSuccessfulAt": "2026-11-20T00:17:19.302Z"
     }
   ],
   "stories": [
     {
-      "title": "Court: 4th Amendment Doesn't Cover AI-Generated 'Probable Cause'",
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+      "publishedAt": "2026-11-19T23:32:11.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50568082"
+    },
+    {
+      "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
       "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
       "publishedAt": "2026-11-19T22:56:59.000Z",
       "excerpt": "",
@@ -13269,24 +13284,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50561170"
     },
     {
-      "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
-      "url": "https://maccus.fr/en/cooling-overtaking-heating/",
-      "publishedAt": "2026-11-19T14:57:14.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50560955"
-    },
-    {
-      "title": "Everything you need to survive and rebuild society",
-      "url": "https://lastbook.org/",
-      "publishedAt": "2026-11-19T14:47:18.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50560822"
-    },
-    {
       "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
       "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
       "publishedAt": "2026-11-19T13:18:11.000Z",
@@ -13321,6 +13318,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50558533"
+    },
+    {
+      "title": "What's New in PHP 8.6",
+      "url": "https://www.php.net/releases/8.6/en.php",
+      "publishedAt": "2026-11-19T09:27:15.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50557870"
     },
     {
       "title": "Apple is hiring engineers to build its own AI agent",
@@ -13483,7 +13489,7 @@
       "category": "Technology"
     },
     {
-      "title": "Dudes Online Are So Mad That ‘GTA VI’ Makes Them Respect Women",
+      "title": "Dudes Online Are So Mad That ‘Grand Theft Auto 6’ Makes Them Respect Women",
       "url": "https://www.wired.com/story/dudes-online-are-so-mad-that-gta-vi-makes-them-respect-women/",
       "publishedAt": "2026-11-19T23:12:17.000Z",
       "excerpt": "Much to the dismay of right-wing streamers, being a thoughtful boyfriend is key to the game’s storyline.",
@@ -13539,18 +13545,18 @@
       "category": "Technology"
     },
     {
-      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "excerpt": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
       "title": "Voyager Is a Light-Day Away. Here’s How Far That Really Is",
       "url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
       "publishedAt": "2026-11-19T12:00:00.000Z",
       "excerpt": "The distance and forces shaping the venerable craft’s trajectory are mind-boggling reminders of the vastness of space.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "excerpt": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -13963,6 +13969,14 @@
       "category": "Technology"
     },
     {
+      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "publishedAt": "2026-11-19T23:37:56.000Z",
+      "excerpt": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
       "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
       "publishedAt": "2026-11-19T22:33:26.000Z",
@@ -14111,14 +14125,6 @@
       "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
       "publishedAt": "2026-11-18T23:25:17.000Z",
       "excerpt": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
-      "source": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "publishedAt": "2026-11-18T23:17:28.000Z",
-      "excerpt": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
       "source": "TechCrunch",
       "category": "Technology"
     },
@@ -14513,6 +14519,24 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
+      "title": "Job posting seemingly confirms Apple is working on its own AI agent for coding and other tasks",
+      "url": "https://www.engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/",
+      "publishedAt": "2026-11-20T00:03:22.000Z",
+      "excerpt": "Apple is is hiring a senior engineering manager to build \"capable, reliable and safe\" agentic tools.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The GTA 6 star system says a lot more than just your Wanted level",
+      "url": "https://www.engadget.com/2322564/gta-6-wanted-level-star-system-details/",
+      "publishedAt": "2026-11-19T23:28:22.000Z",
+      "excerpt": "Just committing a robbery doesn't necessarily mean your Wanted level will rise.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Leaked images may show Motorola's answer to the iPhone Duo",
       "url": "https://www.engadget.com/2322557/leaked-images-may-show-motorolas-answer-to-the-iphone-duo/",
       "publishedAt": "2026-11-19T23:13:40.000Z",
@@ -14675,20 +14699,47 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Canva will let users switch off most generative AI",
-      "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/",
-      "publishedAt": "2026-11-19T12:30:00.000Z",
-      "excerpt": "Canva is rolling out new settings to purge most generative AI from its app.",
-      "source": "Engadget",
+      "title": "How Rockstar's animation makes GTA 6 a fully living and breathing world",
+      "url": "https://www.techradar.com/gaming/there-are-close-to-a-thousand-animation-sets-for-ambient-activities-how-rockstars-gameplay-animation-makes-gta-6-a-fully-living-and-breathing-world-from-breathtaking-foot-chases-to-details-like-how-characters-open-a-door",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "excerpt": "Red Dead Redemption 2 had an 'appropriate slower heartbeat', but the BPM is seriously cranked up with the feel and pace of the animation in GTA 6.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "DOJ accuses Russian national of spying on and harassing Palantir employees",
-      "url": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
-      "publishedAt": "2026-11-19T10:33:59.000Z",
-      "excerpt": "The DOJ says the Russian national was ordered to spy on Palantir over Ukraine's use of its software for wartime purposes.",
-      "source": "Engadget",
+      "title": "NYT Strands hints and answers for Friday, November 20 (game #992)",
+      "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-20-november-2026",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Quordle hints and answers for Friday, November 20 (game #1761)",
+      "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-20-november-2026",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "NYT Connections hints and answers for Friday, November 20 (game #1258)",
+      "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-20-november-2026",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "'Intel’s commitment to the HPC community is grounded in a pragmatic reality': Intel affirms its backing for the next generation of high-powered computing to push the boundaries of AI",
+      "url": "https://www.techradar.com/pro/intels-commitment-to-the-hpc-community-is-grounded-in-a-pragmatic-reality-intel-affirms-its-backing-for-the-next-generation-of-high-powered-computing-to-push-the-boundaries-of-ai",
+      "publishedAt": "2026-11-19T23:45:00.000Z",
+      "excerpt": "Intel is developing next-generation Xeon processors, AI accelerators, optical networking, and quantum computing technologies while maintaining software compatibility across scientific computing environments.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14828,47 +14879,20 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "NordPass Premium is 55% off this Black Friday with our money-off code",
-      "url": "https://www.techradar.com/pro/nordpass-premium-is-52-percent-off-for-black-friday-pay-just-usd40-16-with-our-exclusive-code-for-two-years-of-password-protection-plus-four-extra-months-for-free",
-      "publishedAt": "2026-11-19T16:40:00.000Z",
-      "excerpt": "Get NordPass Premium for just $40.16 this Black Friday with our exclusive code, saving 55% and getting four extra months free.",
-      "source": "TechRadar",
+      "title": "LiberNovo’s Black Friday sale takes up to 42% off ergonomic chairs",
+      "url": "https://9to5mac.com/2026/11/19/libernovos-black-friday-sale-takes-up-to-42-off-ergonomic-chairs/",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "excerpt": "You can spend plenty of time getting your Mac, display, and desk just right. But what about the chair you use every day? Between typing, taking video calls, and leaning back to watch something, your position changes throughout the day. Your chair should be able to keep up. That’s the idea behind Lib",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "The gift that changes everything",
-      "url": "https://www.techradar.com/computing/laptops/the-gift-that-changes-everything",
-      "publishedAt": "2026-11-19T16:28:02.000Z",
-      "excerpt": "Discover the HP OmniBook3 and more Snapdragon powered PCs worth adding to your wishlist",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Sansui's 32-inch 240Hz curved gaming monitor is just $169.99 at Amazon",
-      "url": "https://www.techradar.com/pro/sansuis-32-inch-curved-creative-monitor-packs-a-240hz-refresh-rate-and-freesync-support-for-just-usd259-99",
-      "publishedAt": "2026-11-19T16:23:32.000Z",
-      "excerpt": "Sansui's $169.99 curved monitor delivers a 240Hz refresh rate on a huge 32-inch screen.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Lenovo's business-friendly ThinkPad T14 Gen 7 is $600 off in the Black Friday laptop sale",
-      "url": "https://www.techradar.com/pro/lenovos-business-friendly-thinkpad-t14-gen-7-is-usd600-off-in-the-black-friday-laptop-sale",
-      "publishedAt": "2026-11-19T16:14:20.000Z",
-      "excerpt": "Lenovo's ThinkPad T14 Gen 7 is perfectly specced for business. Our hardware editor swears by ThinkPads, and the $600 Black Friday discount sweetens the deal.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "AI finds 'internet breaker' security flaws in NGINX — open source technology responsible for running hundreds of millions of websites has decades-old issues which can be hijacked to steal data",
-      "url": "https://www.techradar.com/pro/security/ai-finds-internet-breaker-security-flaws-in-nginx-open-source-technology-responsible-for-running-hundreds-of-millions-of-websites-has-decades-old-issues-which-can-be-hijacked-to-steal-data",
-      "publishedAt": "2026-11-19T16:05:00.000Z",
-      "excerpt": "PHP, Java and Apache are now joined by NGINX.",
-      "source": "TechRadar",
+      "title": "OpenAI begins testing dots with ChatGPT Plus users, expands Business access",
+      "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/",
+      "publishedAt": "2026-11-19T23:47:30.000Z",
+      "excerpt": "Following its launch for ChatGPT Pro, Business Premium, and Enterprise users, OpenAI is now beginning to test ChatGPT dot with a small number of ChatGPT Plus subscribers. Here are the details. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14900,7 +14924,7 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Apple TV launches 50% off Black Friday deal: $6.99/month for 6 months",
+      "title": "Apple TV is now $6.99/month (50% off) for Black Friday, details here",
       "url": "https://9to5mac.com/2026/11/19/apple-tv-launches-50-off-black-friday-deal-6-99-month-for-6-months/",
       "publishedAt": "2026-11-19T21:55:07.000Z",
       "excerpt": "Apple TV has just launched a Black Friday deal that lets new and returning subscribers get the service for just $6.99/month for up to six months. Here are the details. more…",
@@ -15030,24 +15054,6 @@
       "url": "https://9to5mac.com/2026/11/19/halide-3-4-adds-a-bigger-viewfinder-and-fill-flash-for-iphone-duo/",
       "publishedAt": "2026-11-19T17:00:00.000Z",
       "excerpt": "Halide 3.4 is out today as the latest update to the pro camera app. The update adds several new features, including a larger viewfinder for iPhone Duo and more. The new Halide update also lets you use the outer screen on iPhone Duo as a live preview or a fill flash. It brings back a few camera tools",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple TV will stream all-female racing series F1 Academy starting next year",
-      "url": "https://9to5mac.com/2026/11/19/apple-tv-f1-academy-stream-next-year/",
-      "publishedAt": "2026-11-19T16:10:21.000Z",
-      "excerpt": "Apple is coming up to the end of its first year as the exclusive broadcaster of Formula 1 in the United States, with the deal set to continue through 2031. So far, it seems to be going well for all parties involved. In a sign of that relationship strengthening, the company announced it is expanding ",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "iPadOS 27.3: Three new features coming to your iPad",
-      "url": "https://9to5mac.com/2026/11/19/ipados-27-3-three-new-features-coming-to-your-ipad/",
-      "publishedAt": "2026-11-19T16:09:55.000Z",
-      "excerpt": "iPadOS 27.3 is now in beta and will launch to all users next month , here are three new features it introduces for iPad. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15414,7 +15420,7 @@
     },
     {
       "title": "The success KPIs nonprofits get right",
-      "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-11-12T19:14:00.000Z",
       "excerpt": "When purpose is clear, money is the means, not the primary destination.",
       "source": "Fast Company",
@@ -15423,7 +15429,7 @@
     },
     {
       "title": "Innovation starts at the edges",
-      "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-11-06T13:00:00.000Z",
       "excerpt": "Start by asking who has been left out of the design.",
       "source": "Fast Company",
@@ -15432,7 +15438,7 @@
     },
     {
       "title": "Could AI give older creatives a second act?",
-      "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-11-01T05:00:00.000Z",
       "excerpt": "In fields that favor the young, the AI era may actually position more seasoned professionals favorably.",
       "source": "Fast Company",
@@ -15441,7 +15447,7 @@
     },
     {
       "title": "3 design principles in the AI age",
-      "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-10-27T12:00:00.000Z",
       "excerpt": "Iteration, feedback, and connecting the dots are important with or without AI use.",
       "source": "Fast Company",
@@ -15450,7 +15456,7 @@
     },
     {
       "title": "It doesn’t matter if your brand’s visual identity looks good",
-      "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "excerpt": "The advantage now goes to brands that mean something and give people a reason to care.",
       "source": "Fast Company",
@@ -15459,7 +15465,7 @@
     },
     {
       "title": "The creative economy’s greatest competitive advantage",
-      "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-08-12T12:00:00.000Z",
       "excerpt": "The classroom experience provides space to take risks, sharpen critical thinking, and deepen cultural fluency.",
       "source": "Fast Company",
@@ -15468,7 +15474,7 @@
     },
     {
       "title": "What should the future look like? Inside the tech-funded program to create a new aesthetic",
-      "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-08-12T09:00:00.000Z",
       "excerpt": "Billionaire Stripe CEO Patrick Collison and libertarian economist Tyler Cowen have created a grant program to replace modernism—and define a new look for the 21st century.",
       "source": "Fast Company",
@@ -15477,7 +15483,7 @@
     },
     {
       "title": "Designing for the edges improves the center",
-      "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-07-17T12:00:00.000Z",
       "excerpt": "When products work for people with the most constraints, they tend to work better for everyone.",
       "source": "Fast Company",
@@ -15486,7 +15492,7 @@
     },
     {
       "title": "People thought this MLB hat had a defect. It’s actually a clever hidden reference",
-      "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "excerpt": "An exclusive Phillies All-Star Game hat features a graphic that history buffs will recognize.",
       "source": "Fast Company",
@@ -15495,7 +15501,7 @@
     },
     {
       "title": "Design history, as told through 125 objects",
-      "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-07-13T10:00:00.000Z",
       "excerpt": "Cooper Hewitt’s new permanent collection exhibition is meant to be a conversation starter.",
       "source": "Fast Company",
@@ -15504,7 +15510,7 @@
     },
     {
       "title": "5 trends in design right now",
-      "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-07-07T16:43:24.000Z",
       "excerpt": "What the 5th annual iF Design Trend Report found that may surprise you.",
       "source": "Fast Company",
@@ -15513,7 +15519,7 @@
     },
     {
       "title": "Here’s one thing AI can’t do",
-      "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-06-24T21:23:31.000Z",
       "excerpt": "Fast Company creative director Mike Schnaidt breaks down the design process behind the magazine’s latest cover.",
       "source": "Fast Company",
@@ -15522,7 +15528,7 @@
     },
     {
       "title": "Use AI to augment design, not replace it",
-      "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-06-01T18:02:00.000Z",
       "excerpt": "The growing push toward full automation is a mistake.",
       "source": "Fast Company",
@@ -15531,7 +15537,7 @@
     },
     {
       "title": "Minted spent two decades building an artist-led business. Now it’s experimenting with letting AI in",
-      "url": "https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91545814/minted-spent-two-decades-building-an-artist-led-business-now-its-experimenting-with-letting-ai-in?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-05-29T10:00:00.000Z",
       "excerpt": "The stationery store where people can buy original designs from artists is launching an experiment to allow customers to use AI to add custom elements to their orders.",
       "source": "Fast Company",
@@ -15540,7 +15546,7 @@
     },
     {
       "title": "The power of live, work, play communities is human connection",
-      "url": "https://www.fastcompany.com/91549869/the-power-of-live-work-play-communities-is-human-connection?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11192026",
+      "url": "https://www.fastcompany.com/91549869/the-power-of-live-work-play-communities-is-human-connection?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11202026",
       "publishedAt": "2026-05-28T13:56:37.000Z",
       "excerpt": "What if your city is the experience?",
       "source": "Fast Company",
@@ -16828,19 +16834,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Furious, Festive Scene at the 2026 National Book Awards",
-      "url": "http://www.vulture.com/article/national-book-awards-2026-recap.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-19T22:15:44.000Z",
-      "excerpt": "“I mourn the reunions that might have happened, the friendships that might have bloomed in this room.”",
+      "title": "Anthropic Cashes In: Live Updates of Bonkers IPO",
+      "url": "http://nymag.com/intelligencer/article/anthropic-cashes-in-live-ipo-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-19T23:05:00.000Z",
+      "excerpt": "The first AI-generated IPO is here, billionaires are growing on Nasdaq trees, and we’re keeping track of it all with a handmade liveblog.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Anthropic Cashes In: Live Updates of Bonkers IPO",
-      "url": "http://nymag.com/intelligencer/article/anthropic-cashes-in-live-ipo-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-19T21:47:00.000Z",
-      "excerpt": "The first AI-generated IPO is here, billionaires are growing on Nasdaq trees, and we’re keeping track of it all with a handmade liveblog.",
+      "title": "The Furious, Festive Scene at the 2026 National Book Awards",
+      "url": "http://www.vulture.com/article/national-book-awards-2026-recap.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-19T22:15:44.000Z",
+      "excerpt": "“I mourn the reunions that might have happened, the friendships that might have bloomed in this room.”",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22844,19 +22850,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Eye on the mark",
-      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+      "title": "Eye on the mark",
+      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -24461,10 +24467,74 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "印尼幼童爬6米「巨蟒滑梯」 家長站旁舉機拍 網民怒轟專家警告",
-      "url": "https://hk01.com/sns/article/60412018",
-      "publishedAt": "2026-11-19T23:10:29.000Z",
-      "excerpt": "把致命猛獸當遊樂場設施，隨時鬧出人命！印尼西爪哇省近日流傳1段驚險影片，數名幼童竟將1條長達6米（約20英尺）的網紋蟒當成臨時滑梯，輪流爬上蛇身順勢滑落，甚至直接坐在蛇背上嬉戲。令人譁然的是，身旁數名成年人未有上前制止，反而舉起手機興奮拍攝全程。影片隨即惹來網上熱議，網民怒轟家長嚴重失職：「難道不怕哪天孩子在蛇肚子裏玩？！」 數名幼童竟將1條長達6米（約20英尺）的網紋蟒當成臨時滑梯，輪流爬上蛇身順勢滑落，甚至直接坐在蛇背上嬉戲。（IG@israhma125_） 數名幼童竟將1條長達6米（約20英尺）的網紋蟒當成臨時滑梯，輪流爬上蛇身順勢滑落，甚至直接坐在蛇背上嬉戲。（IG@israhma12",
+      "title": "紐約69歲華婦遇祈福黨 哭訴遭騙17萬美元財物：那是我的畢生積蓄",
+      "url": "https://hk01.com/sns/article/60399414",
+      "publishedAt": "2026-11-20T00:10:54.000Z",
+      "excerpt": "美國紐約布魯克林發生「祈福黨」詐騙案。當地1名69歲華裔婆婆在街頭遭騙徒以尋找「老中醫」為由搭訕，其間被對方強行擁抱及握手後感到頭暈，隨即喪失警覺。騙徒隨後以「祈福祛病」為由，誘騙婆婆回家取出17萬美元（約133萬港元）現金及大批金飾，然後換取祈福袋子。婆婆返家後打開袋子一看，驚覺財物已慘遭調包成衛生紙、礦泉水及粉末，哭訴痛失畢生積蓄。案件目前仍在調查中，當地華人社團特別提醒民眾，切勿輕信陌生人，以免落入詐騙陷阱。 陳女士憶述，2025年10月25日中午，她在布魯克林西12街附近遇到2名戴口罩及帽子的女子，對方用粵語搭訕，詢問附近1名醫術高明的老中醫在哪裏。（AI生成圖片） 擁抱握手後即感頭暈",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "甘比訪問｜人生如針織無需補針 日睡最多4小時︰瞓覺係嘥時間！",
+      "url": "https://hk01.com/sns/article/60412365",
+      "publishedAt": "2026-11-20T00:02:28.000Z",
+      "excerpt": "華置CEO、「大劉」劉鑾雄太太甘比（陳凱韻）近日推出自家針織時裝品牌 KUUKee ，大收旺場。如果說其設計的作品講究「手作溫度」，甘比看自己的人生，也像一件一針一線織成的針織品。 由基層記者到華置CEO、香港女富豪，再到針織好手、時裝品牌創辦人，她接受《香港01》訪問時說，每一個階段都很享受，自然而為，「唔需要補針，因為過咗去你點補都冇用；呢一刻我會補針﹙的話﹚，就係再勤力啲！」對於今時今日的成功，她直言無法解釋，但會將「勤力」放在最前；談作息，她坦言目前每天只睡2至4小時，因為「覺得瞓覺係嘥時間」。而說到底還是那句：「冇勤力你就咩都唔得！」 基層記者做起，做過娛樂版，訪問過不同的人；後來做",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "九肚山豪宅玖瓏山三房1120萬蝕沽 7個月劈價160萬 12年貶值4%",
+      "url": "https://hk01.com/sns/article/60412566",
+      "publishedAt": "2026-11-20T00:00:51.000Z",
+      "excerpt": "【九肚山／玖瓏山／二手樓市／蝕讓】二手樓市轉旺，惟市場仍有屋苑需蝕讓離場。當中沙田九肚山豪宅玖瓏山一伙三房單位，7個月內劈價160萬元，最新以1,120萬元沽出，上手業主持貨至今12年，帳面輕微蝕讓49.47萬元或約4.2%離場。 傲瓏閣三房7個月劈價160萬 美聯物業分行高級營業經理張銘新表示，是次成交為沙田九肚山豪宅玖瓏山傲瓏閣3座高層D室，實用面積約946平方呎，屬三房間隔，附有豪華裝修，單位最初在今年4月以1,280萬元叫價放盤，最終7個月劈價160萬元，終以1,120萬元沽出，呎價約11,839元，屬市價成交。 持貨12年輕微帳輸4.2% 至於新買家為區內上車客，是次購入單位作自住。",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "甘比訪問｜手袋常備辣椒油？華置CEO創KUUKee 安全感一件衫搞掂",
+      "url": "https://hk01.com/sns/article/60412269",
+      "publishedAt": "2026-11-20T00:00:39.000Z",
+      "excerpt": "一個時裝品牌創辦人，最緊張的竟然不是潮流剪裁、布料質地，而是衫袋夠不夠多、電話紙巾卡有沒有位放？甘比（陳凱韻）以華置CEO、「大劉」劉鑾雄太太為人熟悉，近日多了一個身份——針織時裝品牌 KUUKee 創辦人。 俗語話「衣如其人」，更何況是一個人自己創立的時裝品牌？認識甘比，倒不如由一件衫說起。身居高位、丈夫家財萬貫，卻沒有高不可攀的架子。她接受《香港01》訪問時，沒有大談時尚理論，講的都是生活裡的「安全感」與「開心」：衫要「colorful」、要實用、要令穿戴者心情好。從衫要衫袋，講到出街食飯自備辣椒油，這位老闆的「玩味」原來很貼地。 俗語話「衣如其人」，更何況是自己創立的時裝品牌？認識甘比，",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "家居用電禁忌 | 拆解家居漏電「隱形殺手」 必學4步觸電急救法！",
+      "url": "https://hk01.com/sns/article/60412551",
+      "publishedAt": "2026-11-20T00:00:27.000Z",
+      "excerpt": "家居用電禁忌 | 許多人認為只要留在室內，就能完全與觸電危機絕緣。但極端天氣引發的雨水倒灌，加上電線老化與濕手操作電器等壞習慣，正令現代家居淪為漏電現場。根據醫學分析，人體在潮濕狀態下的電阻會急劇下降，一旦接觸漏電設備，極易引發致命的心室顫動。面對防不勝防的觸電風險，專家強烈建議市民除了定期淘汰殘舊電器外，必須全面檢查家中的漏電斷路器（RCD）是否符合30毫安的跳掣標準，並在浴室及廚房等高危區域升級防水防觸電插座，從硬件源頭截斷漏電殺手。 濕手拔插頭隨時在死亡邊緣遊走！ 颱風暴雨後水浸漏電成隱形殺手？喉管滲水與社區電網外洩危機 在全球氣候變化的背景下，極端天氣成為威脅家居用電安全的最大變數。當",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "流浪乳牛貓中暑 好心人用冰塊兼噴水急救 下秒直接收養結局超暖",
+      "url": "https://hk01.com/sns/article/60378404",
+      "publishedAt": "2026-11-20T00:00:27.000Z",
+      "excerpt": "最近，刷到了個很有愛又有趣的救貓小故事，拿來分享給大家。前不久，一位博主放狗的時候發現車底下有一隻像小狗喘的乳牛貓，因為從來都沒有見過小貓這個樣子，她直覺不正常。於是，博主立刻將狗狗送回了家，並立刻拿了碗水下樓，尋思讓小貓喝口水緩緩。 但小貓的狀態很差，好不容易從車底下出來卻癱軟在地，持續喘着粗氣，還控制不住流口水，博主給牠倒水也不喝。她查了一下，懷疑小貓是中暑，但不確定，便拍下小貓的影片，並聯繫寵物醫院的醫生，希望能夠得到幫助。 ►毛孩子有IG了，來追蹤我們吧！ 好心人用冰塊兼噴水急救中暑小貓： 前不久，一位博主遛狗的時候發現車底下有一隻小狗喘的乳牛貓，因為從來都沒有見過小貓這個樣子，她直覺",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "保溫瓶裝豆漿30分鐘菌爆30倍！專家揭入樽3禁忌中藥都錯！清洗3步",
+      "url": "https://hk01.com/sns/article/60412805",
+      "publishedAt": "2026-11-20T00:00:26.000Z",
+      "excerpt": "保溫瓶使用｜秋冬季節，不少人都愛隨身攜帶保溫瓶（英文：Thermos / Insulated bottle）出街，把熱咖啡、鮮奶，甚至中藥倒入保溫杯，一飲就是大半天，以為熱飲暖胃補身，沒想到卻是超級細菌的溫床。究竟什麼適宜放入保溫瓶？如何清潔保溫瓶才對？ 危險溫度攝氏4度至60度：豆漿30分鐘細菌爆增30倍 隨著時間流逝，當熱飲溫度降至攝氏60度以下，便正式踏入細菌最活躍的溫床。 據香港食物安全中心（CFS） 明確警告，攝氏4度至60度屬於「危險溫度範圍」。在這個區間內，奶類及高蛋白質飲品中的沙門氏菌與大腸桿菌，每20分鐘就會激增一倍。如果你把一杯熱拿鐵放在保溫瓶半天，吞下肚的細菌量絕對超乎想",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "【今日當年】陳嘉桓橫店慘遭強吻 陳浩民拖臨盆妻痛哭三鞠躬道歉",
+      "url": "https://hk01.com/sns/article/60412715",
+      "publishedAt": "2026-11-20T00:00:17.000Z",
+      "excerpt": "時光飛逝，當年今日的娛樂圈，你還記得多少？全新專欄【今日當年】每天為你解鎖記憶密碼，回顧歷史上的今天發生過的娛樂大事件。無論是轟動全城的八卦頭條，還是改寫星途的關鍵時刻，我們都將與你一起穿梭時空，見證娛樂圈的時代變遷。 將日曆翻到2011年11月20日，香港演藝圈爆發了震驚中港兩地的「橫店狼吻事件」。當年19歲的女星陳嘉桓在內地橫店拍攝電影期間，於宵夜聚會上遭同場的男星陳浩民與馬德鐘輪流強吻及攬抱非禮。事件的發展並非單一日子發生，而是由事發、曝光到各方表態及報警，經歷了為期數天的戲劇性發酵，成為了當年香港娛樂圈最具爭議的社會新聞。 陳嘉桓在內地橫店拍攝電影期間，於宵夜聚會上遭同場的男星陳浩民與",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "外勞來港任麻雀館接待人工近18K 日企11小時+單休 網民：好辛苦",
+      "url": "https://hk01.com/sns/article/60412502",
+      "publishedAt": "2026-11-20T00:00:01.000Z",
+      "excerpt": "近年不少內地人士透過輸入勞工計劃來港工作，薪酬待遇與工作環境亦備受關注。近日有來自珠海的女外勞發文，分享自己在香港任職麻雀館接待員的首份糧單，扣除10%住宿費後淨袋$17,963，不過當她透露每日工時長達11小時、全程需站立且單休後，隨即引來大批網民熱議。 小紅書截圖 扣除10%住宿費實收$17,963 該名外勞網民在 小紅書 發文，透露自己在香港任職麻雀館接待員，最近終於出糧。她公開實際收入數字，指合約底薪扣除10%住宿費後，淨到手實數為$17,963，並強調「冇任何加班費、冇獎金，淨係合同薪資扣住宿，同當初面試講嘅一樣，冇縮水」。 據香港勞工處「補充勞工優化計劃」規定，僱主給予外勞的工資不",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24489,54 +24559,6 @@
       "url": "https://hk01.com/sns/article/60412848",
       "publishedAt": "2026-11-19T23:00:44.000Z",
       "excerpt": "太子集團被指於柬埔寨經營詐騙園區，涉多宗跨國洗黑錢案件，美國財政部11月5日發布第三輪制裁名單，包含四名人士及41間公司，當中涉香港人及6間香港公司。 其中，被指是太子集團核心成員的邱用 （QIU Yong），在香港及澳門經營酒業生意，在港持有的六間公司均被制裁，包括兩間持牌放債公司。另外，邱用的私人助理、香港人趙夢瑤 （ZHAO Mengyao）亦被制裁。 【太子集團陳志調查・專頁】 【01偵查YouTube Playlist】 2026年11月，美國財政部針對太子集團施加第三輪制裁，名單包括（左起）太子集團核心成員邱用（QIU Yong）、香港人趙夢瑤（ZHAO Mengyao）、集團關聯",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "持續進修基金學車2027｜認可駕校收費比較！拆解資助計算及中伏位",
-      "url": "https://hk01.com/sns/article/60411768",
-      "publishedAt": "2026-11-19T23:00:41.000Z",
-      "excerpt": "考車牌是很多人的人生目標清單之一，但學車費用至少一、兩萬元，很多人都會考慮使用政府資助的持續進修基金（CEF）報讀駕駛課程學車考車牌，以獲得課程學費發還。持續進修基金可以提供最高HK$25,000上限的資助，以私家車駕駛證書為例，學費隨時可以低至HK$4,232！「01教育」已經為各位有意報讀駕駛證書課程的讀者整理資料，比較各間駕駛學校獲得持續進修基金認可的駕駛課程，並列出學費、課程時數、課程長度、中伏位、發還款項流程等。 持續進修基金可以Claim幾多學車資助？ 根據 持續進修基金 網頁資料，持續進修基金設有兩個共付比率，學員必須承擔部份學費。首HK$10,000資助會獲得基金資助80%學費",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "馬德鐘機場候機被捕獲型佬造型網民誤以為機師 親切舉動獲讚貼地",
-      "url": "https://hk01.com/sns/article/60412829",
-      "publishedAt": "2026-11-19T23:00:35.000Z",
-      "excerpt": "現年58歲的視帝「馬神」馬德鐘，1993年因拍攝廣告被發掘入行後，曾是無綫千禧年代的當家小生之一。他在2011年一度離巢北上發展，近年以部頭合約形式回歸，憑《跳躍生命線》勇奪視帝寶座。他今年初再度宣布離開TVB，馬德鐘否認息影，又指與TVB關係良好，並非不歡而散。近日有網民捕獲馬德鐘在香港國際機場候機，一身型佬造型勁被誤以為是飛機師。 馬德鐘當年憑《跳躍生命線》奪得視帝殊榮。（TVB） 馬德鐘多年來一直保養得宜。（IG/@joema_tak_chung） 今年初再度宣布離開TVB，並積極在內地發展，更於4月舉行了演唱會。（IG/@joema_tak_chung） 有網民誤以為馬德鐘係型爆機師 ",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "AI教育共享｜由「思+」出發 以AI點亮無限可能",
-      "url": "https://hk01.com/sns/article/60412285",
-      "publishedAt": "2026-11-19T23:00:35.000Z",
-      "excerpt": "文：香港教師會李興貴中學STEAM教育主任黃廷峰老師 香港教師會李興貴中學推動人工智能教育 培育創新人才貢獻社會 在人工智能急速發展的時代，教育不再只停留於知識傳授，更重視啟發學生思考、創作與實踐。香港教師會李興貴中學一直深信，每一位學生都擁有獨特才華與無限潛能。學校透過「思+設計與科技創意室」，為學生打造一個融合人工智能、設計思維、科技創意與價值教育的學習空間，讓同學敢於突破框架，盡情發揮創意，成就屬於自己的「infinity」無限可能。 （作者提供） 「思」，代表思考，是學生追求知識、探索世界的第一步；「+」，則象徵加強、連結與成長。學校期望學生不但在學業上精益求精，更能在創作與協作過程中",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "來稿｜對接歐洲金融外交 搶佔亞洲黃金樞紐",
-      "url": "https://hk01.com/sns/article/60412628",
-      "publishedAt": "2026-11-19T23:00:31.000Z",
-      "excerpt": "來稿作者：邵天虹 11月17日，財經事務及庫務局局長許正宇在德國法蘭克福出席第29屆歐洲金融周的第12屆綠色金融論壇，展開為期六日、涵蓋德國、盧森堡及比利時的訪問行程。與同期在深圳舉行的亞太經合組織（APEC）工商領導人峰會相呼應，港府近期對外推廣的重點，正由『聯通世界』走向更具體的制度對接與金融基建合作。 從許正宇的演講與雙邊會晤，結合市場數據與區域競爭現況來看，香港向歐洲金融界推進的實務合作主要圍繞兩大主軸。 第一，可持續金融：以標準接軌降低跨境投資摩擦，碳市場仍待放量。 在亞洲綠色債券發行端，香港具備穩固的先發優勢。根據香港立法會財經事務委員會文件，2024年在香港安排發行的綠色及可持續",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "屯門珀居屋仔蝕53%銀主賤賣 昔日豪宅業主淪破產收場｜多圖",
-      "url": "https://hk01.com/sns/article/60412328",
-      "publishedAt": "2026-11-19T23:00:12.000Z",
-      "excerpt": "【屯門/二手樓/銀主盤/洋房】銀主盤市場錄得洋房大幅折讓成交。屯門珀居一幢遭接管洋房，最新以3,520萬元易手。而原業主有著一連串的財務悲歌，其於2018年豪擲7,516萬元風光入市，至近年向財務公司加按借貸，最終更被接管單位兼遭法庭頒令破產。單位亦於過去8年間，價貶3,996萬元或約53%。 涉及屯門冠發街珀居單號屋，實用面積2,788平方呎，原則三房間隔，並連約1,988平方呎花園及928平方呎天台。單位原本叫價4,000萬元，議價後以3,520萬元售出。 資料顯示，原業主於2018年以7,516萬元購入上述物業，當時成交呎價為26,958元。至今年年中，該業主向財務公司加按借貸。 ↓↓屯",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "AI影片經常變臉？日本免費圖庫實測 直接下載近1500張可商用PNG",
-      "url": "https://hk01.com/sns/article/60412538",
-      "publishedAt": "2026-11-19T23:00:01.000Z",
-      "excerpt": "AI模特兒臉部資料庫是日本創作者「あぎ」開發的免費圖庫，收錄893張AI生成的正面臉部圖與606張造型圖，以CC0授權提供，不用註冊就能下載原尺寸PNG，用來固定AI角色與影片的臉。 用AI做角色圖或短影片，最讓人頭痛的就是臉。同一個角色，換一張圖、換一段影片，臉就變成另一個人，很難保持固定。常見的解法是準備一張固定的臉部參考圖，丟進各種AI工具的角色參考或臉部參考功能，但自己要生出一批品質穩定的臉並不容易，網路上現成的人像素材又常有肖像權疑慮，如果有類似需求，接下來要推薦的免費圖庫你一定會喜歡。 「AI模特兒臉部資料庫」中的圖片，都是由AI生成的虛構人物，並非真實存在的人。（AIモデル顔デー",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24581,6 +24603,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "有片｜深圳灣東濱隧道車禍涉多輛粵港貨車 林寶堅尼SUV嚴重損毀",
+      "url": "https://hk01.com/sns/article/60412867",
+      "publishedAt": "2026-11-19T12:36:06.000Z",
+      "excerpt": "深圳灣東濱隧道發生車禍。今日（19日）網上流傳影片可見，隧道內有多架車相撞，包括多輛粵港兩地牌貨車。片段亦可見，「車陣」中有一輛橙色林寶堅尼Urus SUV橫亘路面，其車頭嚴重損毀，車頭蓋扭曲摺起，泵把脫落，碎片四散一地。目擊者拍片形容該林寶堅尼「前後都扁晒」；亦指另一輛黑色私家車同樣「扁晒」。 片段引起網民熱議，有人戲謔林寶堅尼變「公司三文治」、「咦，蛋牛治喎！」；亦有人揣測車禍因由，「個個咁CUT線遲早嘅事。」、「乜料呀？直路都炒到咁？」、「林寶冇爛呀，非常硬！」 深圳灣東濱隧道內發生車禍，包括多輛粵港兩地牌貨車；一輛橙色林寶堅尼Urus SUV橫亘路中，車頭嚴重損毀。（FB/地板友 Fl",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "TVB台慶2026紅地氈三｜花旦們出場 陳自瑤極性感僅用蝴蝶結遮胸",
       "url": "https://hk01.com/sns/article/60412837",
       "publishedAt": "2026-11-19T10:48:26.000Z",
@@ -24593,30 +24623,6 @@
       "url": "https://hk01.com/sns/article/60412755",
       "publishedAt": "2026-11-19T09:32:07.000Z",
       "excerpt": "香港醫學會前會長、行醫多年的腎科專科醫生蔡堅，其位於黃大仙中心的診所日前貼出因「租約問題」，已於本月17日停診。蔡堅向《香港01》表示，該舖位租金太貴，月租達8萬元，自稱「做唔住」，加上已屆78歲高齡，難再多處奔波，未來將在屬於自置物業的旺角太子診所繼續看診，為病人服務。 接近八旬的名醫蔡堅近年仍一周六天奔波太子及黃大仙兩間診所看症，更為兼顧病人及自己的需要，不斷進修，早前報讀糖尿相關課程及考獲老人醫學文憑。（資料圖片） 現年78歲的名醫蔡堅，近年仍固定每星期6日，於其太子及黃大仙兩間診所兩邊奔走，為病人看症，更為兼顧病人及自己的需要，不斷進修，早前報讀糖尿病症相關課程及考獲老人醫學文憑。 他",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "蔡天鳳案｜鄺港智稱多年感情謀財害命無可能 官問對象指譚還是蔡",
-      "url": "https://hk01.com/sns/article/60412742",
-      "publishedAt": "2026-11-19T08:37:18.000Z",
-      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(19日）在高等法院續審，鄺港智之前提及被蔡發現交了女友後，便與女友Ivy分手，之後被迫回港湊仔。 鄺港智又稱二人有十多年感情，是「老夫老妻」，沒有仇恨，謀財害命的計劃根本無可能。法官祁彥輝即問鄺所指多年感情的對象，是指蔡還是譚方駿，鄺即澄清是蔡。 鄺港智又形容蔡的性格剛烈，他習慣了被罵，形容蔡似Angry bird，法官一度不知甚麼是Angry bird，律師們即用平板搜尋向法官展示。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "蔡天鳳案｜鄺港智：譚方駿本身是喜歡我的 指譚曾買米線示愛",
-      "url": "https://hk01.com/sns/article/60412683",
-      "publishedAt": "2026-11-19T07:11:31.000Z",
-      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），今（15日）在高等法院續審。鄺港智自辯時解釋蔡與譚方駿成婚原因時指：「其實Christopher（譚方駿）本身係鍾意我嘅。」 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向選出的陪審團透露，三名被告否認謀殺，全部承認一項阻止合法埋葬屍體罪。 第三被告鄺港智，他是蔡天鳳的前夫。(資料圖片) 譚方駿。(朱棨新攝) 蔡天鳳。（網上圖片)",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "蔡天鳳案｜鄺港智指蔡為錢下嫁譚方駿 形容三人關係複雜但可接受",
-      "url": "https://hk01.com/sns/article/60412660",
-      "publishedAt": "2026-11-19T06:42:16.000Z",
-      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(19日）在高等法院續審，第三被告鄺港智談及與蔡天鳳及譚方駿的關係，他用「complicated(複雜)」來形容，承認知蔡及譚一起時有少少不開心，但也祝福他們，又指蔡曾對他稱，選擇與譚一起是為了錢，又稱因為他們三人真係好好，所以覺得可以接受。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至23日阻止合法埋葬蔡天鳳的屍體。法官早前向選出的陪審團透露，三名被告否認謀殺",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24781,6 +24787,30 @@
       "category": "Hong Kong"
     },
     {
+      "title": "採訪日誌｜立法會交通事務委員會檢討隧道分時段收費成效／北角社區客廳開幕",
+      "url": "https://news.now.com/home/local/player?newsId=670238",
+      "publishedAt": "2026-11-19T23:39:39.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "智利工作假期計劃 孫玉菡預計明年較早時間推行",
+      "url": "https://news.now.com/home/local/player?newsId=670236",
+      "publishedAt": "2026-11-19T23:32:39.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "晨早新聞重點｜美股下挫 道指跌逾1000點／習近平形容中俄美會談具開創性意義",
+      "url": "https://news.now.com/home/local/player?newsId=670229",
+      "publishedAt": "2026-11-19T23:16:39.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "天氣報告｜密雲有幾陣雨 氣溫進一步下降至14度",
       "url": "https://news.now.com/home/local/player?newsId=670228",
       "publishedAt": "2026-11-19T23:12:39.000Z",
@@ -24917,27 +24947,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "香港大學港鐵站連續兩日信號故障 港島綫行車一度受阻",
-      "url": "https://news.now.com/home/local/player?newsId=670177",
-      "publishedAt": "2026-11-19T08:27:32.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "樂嶺軒首位宏福苑業主正式收樓",
-      "url": "https://news.now.com/home/local/player?newsId=670176",
-      "publishedAt": "2026-11-19T08:21:33.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "李家超出席APEC活動 與習近平短暫交流",
-      "url": "https://news.now.com/home/local/player?newsId=670175",
-      "publishedAt": "2026-11-19T08:21:33.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
+      "title": "Hong Kong man found guilty of murdering yoga instructor ex-girlfriend in luxury hotel room",
+      "url": "https://hongkongfp.com/2026/11/20/hong-kong-man-found-guilty-of-murdering-yoga-instructor-ex-girlfriend-in-luxury-hotel-room/",
+      "publishedAt": "2026-11-19T23:45:00.000Z",
+      "excerpt": "A Hong Kong man has been found guilty of murdering his ex-girlfriend, more than four years after she was found dead in a bathtub in a luxury hotel room. Alex Lo, 32, was convicted at the High Court on Thursday, the 14th day of his trial, after the seven-member jury – comprising five men and […]",
+      "source": "Hong Kong Free Press",
       "category": "Hong Kong"
     },
     {
@@ -25089,14 +25103,6 @@
       "url": "https://hongkongfp.com/2026/11/17/hong-kong-privacy-watchdog-launches-compliance-check-over-facial-recognition-system-at-lam-tin-estate/",
       "publishedAt": "2026-11-17T03:34:18.000Z",
       "excerpt": "Hong Kong’s privacy watchdog has launched a compliance check into a property management firm’s plan to implement a facial recognition system at a residential estate after the initiative raised privacy concerns among residents. The Office of the Privacy Commissioner for Personal Data (PCPD) issued th",
-      "source": "Hong Kong Free Press",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "China says Xi, Trump, Putin to discuss ‘world peace’ at Shenzhen summit",
-      "url": "https://hongkongfp.com/2026/11/17/china-says-xi-trump-putin-to-discuss-world-peace-at-shenzhen-summit/",
-      "publishedAt": "2026-11-17T01:31:51.000Z",
-      "excerpt": "The leaders of China, Russia and the United States will discuss “world peace” when they hold their first trilateral summit in Shenzhen this week, Beijing said on Monday. Presidents Xi Jinping, Donald Trump and Vladimir Putin are due to meet in the southern Chinese city on Thursday on the sidelines o",
       "source": "Hong Kong Free Press",
       "category": "Hong Kong"
     },

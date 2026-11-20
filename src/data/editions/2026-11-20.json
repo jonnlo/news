@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T12:58:47.516Z",
-  "collectedAt": "2026-11-20T12:58:47.516Z",
+  "generatedAt": "2026-11-20T13:17:16.486Z",
+  "collectedAt": "2026-11-20T13:17:16.486Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -196,6 +201,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50561508"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
     },
     {
@@ -365,7 +371,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "WIRED",
@@ -373,6 +379,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Birdfy Gifts I’d Buy for Backyard Birders",
+          "url": "https://www.wired.com/story/best-birdfy-gifts-2026/",
+          "publishedAt": "2026-11-20T13:00:00.000Z",
+          "excerpt": "After more than two years of testing smart bird feeders, these are the picks I’d give others, including a simple camera feeder and a nest box that let me watch chickadees raise their young.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
+          "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
+          "publishedAt": "2026-11-20T13:00:00.000Z",
+          "excerpt": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "Best Robot Vacuum Early Black Friday Deals from Roborock (2026)",
           "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
@@ -516,25 +538,9 @@
           "excerpt": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "21 Best Home Entertainment Gifts (2026): TVs, Lights, and More",
-          "url": "https://www.wired.com/story/best-home-entertainment-gifts-2026/",
-          "publishedAt": "2026-11-19T12:00:00.000Z",
-          "excerpt": "Because staying home can actually mean having the time of your life, whether alone or with friends.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
-          "title": "Voyager Is a Light-Day Away. Here’s How Far That Really Is",
-          "url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
-          "publishedAt": "2026-11-19T12:00:00.000Z",
-          "excerpt": "The distance and forces shaping the venerable craft’s trajectory are mind-boggling reminders of the vastness of space.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +709,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +878,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1047,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Next Web",
@@ -1049,6 +1055,15 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "Anthropic shares fall more than 10% on day two as the AI sell-off spreads",
+          "url": "https://thenextweb.com/news/anthropic-shares-fall-day-two-greenshoe-119-5bn-ark-invest",
+          "publishedAt": "2026-11-20T13:06:35.000Z",
+          "excerpt": "Anthropic shares fell more than 10% in premarket trading on Friday, as of 7:25am in New York, Bloomberg’s Carmen Reinicke and Sangmi Cha reported. The stock rose as much as 39% on Thursday before closing 17% up, its first day of trading. The fall came as the underwriters exercised their over-allotme",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "California subpoenas Nvidia over whether chips or secrets reached China",
           "url": "https://thenextweb.com/news/california-bonta-subpoena-nvidia-china-chips-investors",
@@ -1129,18 +1144,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Everful raises $48.5M for AI agents that source products from factories",
-          "url": "https://thenextweb.com/news/everful-48-5m-series-a-ai-sourcing-global-commerce",
-          "publishedAt": "2026-11-19T19:21:20.000Z",
-          "excerpt": "San Francisco startup Everful has raised a $48.5M Series A led by Vertex Ventures Southeast Asia & India and January Capital. Its AI agents find and vet factories and manage orders for retailers and brands, and it says it is on track for $100M in annualised revenue by year-end. Everful, a San Franci",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1290,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1298,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Uber quietly launched Uber Kids as a pilot in three US cities for kids as young as 10, building on its teen ride-hailing service for those aged 13 to 17 (Kirsten Korosec/TechCrunch)",
+          "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+          "publishedAt": "2026-11-20T13:10:02.000Z",
+          "excerpt": "Kirsten Korosec / TechCrunch : Uber quietly launched Uber Kids as a pilot in three US cities for kids as young as 10, building on its teen ride-hailing service for those aged 13 to 17 &nbsp; &mdash;&nbsp; Uber has opened its ride-hailing service to children as young as 10 in three U.S. cities as the",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261120/p13#a261120p13",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "How Jensen Huang used humiliation in his management style for decades; Huang's behavior once led to a settlement with an exec who said he \"terrorized\" staff (New York Times)",
           "url": "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html",
@@ -1445,20 +1462,9 @@
           "sourceUrl": "https://www.techmeme.com/261119/p60#a261119p60",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Docs: as of May 2026, the Commerce Dept. had approved sales of 879K+ Nvidia H200 and AMD MI325X chips to Chinese companies, including some with military links (CNBC)",
-          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
-          "publishedAt": "2026-11-20T02:55:01.000Z",
-          "excerpt": "CNBC : Docs: as of May 2026, the Commerce Dept. had approved sales of 879K+ Nvidia H200 and AMD MI325X chips to Chinese companies, including some with military links &nbsp; &mdash;&nbsp; The subagency of the Commerce Department that regulates and enforces exports approved the sale of more than 879,0",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261119/p59#a261119p59",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1653,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1661,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "'The Internet of Agents is the next shift': Wipro tells us why the next wave of AI agents could boost your business more than ever",
+          "url": "https://www.techradar.com/pro/the-internet-of-agents-is-the-next-shift-wipro-tells-us-why-the-next-wave-of-ai-agents-could-boost-your-business-more-than-ever",
+          "publishedAt": "2026-11-20T13:00:00.000Z",
+          "excerpt": "Wipro lays out what the the \"Internet of Agents\" can do for your business.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "It's been the worst week of major outages for 13 years, but don't blame AI",
           "url": "https://www.techradar.com/computing/cyber-security/yes-its-been-the-worst-week-of-major-outages-for-13-years-but-ai-cyberattacks-arent-to-blame-heres-whats-happening",
@@ -1825,18 +1840,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "'Public lands belong in public hands': New bill looks to ban new data centers being built on US federal land — meaning national parks could be safe for now",
-          "url": "https://www.techradar.com/pro/public-lands-belong-in-public-hands-new-bill-looks-to-ban-new-data-centers-being-built-on-us-federal-land-meaning-national-parks-could-be-safe-for-now",
-          "publishedAt": "2026-11-20T02:05:00.000Z",
-          "excerpt": "A new congressional bill seeks to prohibit data center construction on federally managed properties, protecting public lands, forests, wildlife, and watersheds.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2031,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2220,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2409,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Fast Company",
@@ -2547,7 +2553,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Creative Bloq",
@@ -2555,6 +2561,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "These 8BitDo Tomb Raider controllers have made me rethink collectable gaming hardware",
+          "url": "https://www.creativebloq.com/news/these-8bitdo-tomb-raider-controllers-have-made-me-rethink-collectable-gaming-hardware",
+          "publishedAt": "2026-11-20T13:00:00.000Z",
+          "excerpt": "8BitDo’s Tomb Raider 30th Anniversary Ultimate 3 and Pro 3 are collectables you’ll actually want to use, and the unboxing alone is a treat.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
         {
           "title": "How this watercolour artist broke free from neat borders",
           "url": "https://www.creativebloq.com/features/how-this-watercolour-artist-broke-free-from-neat-borders",
@@ -2725,18 +2740,9 @@
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Forget Apple EarPods, these white wired earphones sound better and at $19 are 50% off",
-          "url": "https://www.creativebloq.com/deals/forget-apple-earpods-these-white-wired-earphones-sound-better-and-at-usd19-are-50-percent-off",
-          "publishedAt": "2026-11-19T10:05:03.000Z",
-          "excerpt": "Down from $40, the Sennheiser CX 80U are an excellent early Black Friday deal.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2951,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3120,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3289,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3378,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3547,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3716,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3905,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3907,6 +3913,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Is The Altruists All True-ish?",
+          "url": "http://www.vulture.com/article/the-altruists-fact-vs-fiction.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-20T12:00:14.000Z",
+          "excerpt": "Showrunner Graham Moore fact-checks himself to explain the series’ biggest departures from the record.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Novelist Colson Whitehead’s Trophy-Filled Trophy Co-op",
           "url": "http://www.curbed.com/article/colson-whitehead-selling-upper-west-side-pre-war-co-op-west-end-ave.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -4077,18 +4092,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "But Seriously, Who Bought Phil Collins’s Used Suspenders?",
-          "url": "http://www.vulture.com/article/but-seriously-who-bought-phil-collins-used-suspenders.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-19T23:03:53.000Z",
-          "excerpt": "His archive auction was the most entertaining livestream of the year.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4283,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The New Yorker",
@@ -4466,7 +4472,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4601,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "IndieWire",
@@ -4700,7 +4706,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Vox",
@@ -4713,15 +4719,6 @@
           "url": "https://www.vox.com/future-perfect/511432/foie-gras-fire-hudson-valley",
           "publishedAt": "2026-11-20T12:00:00.000Z",
           "excerpt": "Early Thursday morning in upstate New York, a fire broke out at Hudson Valley Foie Gras — the largest US producer of foie gras. French for “fatty liver,” foie gras is a delicacy product that’s made by force-feeding ducks in the final weeks of their lives. The fire destroyed multiple barns, and while",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Teachers are reeling from an existential crisis. You’re probably feeling it too.",
-          "url": "https://www.vox.com/life/511380/teachers-existential-crisis-work-identity",
-          "publishedAt": "2026-11-20T12:00:00.000Z",
-          "excerpt": "Braxton Wimbley was crying every day. Her fifth year of elementary school teaching at a public school in Indiana was, by far, her hardest. It was 2022, the first full academic year without Covid restrictions, and her fourth-graders’ social skills were “pretty much nonexistent,” she told Vox. “Becaus",
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4887,9 +4884,18 @@
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
+        },
+        {
+          "title": "How science informs author Emily St. John Mandel’s fiction",
+          "url": "https://www.vox.com/podcasts/509975/emily-st-john-mandel-exit-party-science-fiction",
+          "publishedAt": "2026-11-12T20:45:00.000Z",
+          "excerpt": "The world is full of unanswered questions and strange ideas. Do parallel universes exist? What would it look like if a pandemic wiped out life as we know it? Is time travel possible? I host the science podcast Unexplainable, where we often speak to scientists about their attempts to puzzle through l",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5084,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5253,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5422,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5551,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5650,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5839,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6028,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "n+1",
@@ -6211,7 +6217,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Rest of World",
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6491,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7187,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7654,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Book Marks",
@@ -7978,7 +7984,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "London Review of Books",
@@ -8167,7 +8173,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Millions",
@@ -8336,7 +8342,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Literary Hub",
@@ -8505,7 +8511,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Rumpus",
@@ -8694,7 +8700,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8863,7 +8869,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Electric Literature",
@@ -9032,7 +9038,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Paris Review",
@@ -9040,6 +9046,14 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "Decency and Tradition: Colm Tóibín on Thomas Mann and Fatherland",
+          "url": "https://www.theparisreview.org/blog/2026/11/20/fatherland-colm-toibin-on-thomas-mann/",
+          "publishedAt": "2026-11-20T13:00:45.000Z",
+          "excerpt": "Mann was a luftmensch of a patriarch, impassively observing his own drift through time in the moments when he was not absorbed by his craft.",
+          "source": "The Paris Review",
+          "category": "Literature"
+        },
         {
           "title": "Helen Garner Will Receive Our 2027 Hadada Award",
           "url": "https://www.theparisreview.org/blog/2026/11/17/helen-garner-will-receive-our-2027-hadada-award/",
@@ -9111,17 +9125,9 @@
           "excerpt": "“ ‘So this is a big election for you in Italy?’ I asked her. ‘Oh my God!’ she cried, admonishing me. ‘That is an understatement!’ ”",
           "source": "The Paris Review",
           "category": "Literature"
-        },
-        {
-          "title": "Campaign Literature: Election Day 2026",
-          "url": "https://www.theparisreview.org/blog/2026/11/03/campaign-literature-election-day-midterms/",
-          "publishedAt": "2026-11-03T15:00:41.000Z",
-          "excerpt": "A selection of Election Day reading from The Paris Review archive.",
-          "source": "The Paris Review",
-          "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Offing",
@@ -9310,7 +9316,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Words Without Borders",
@@ -9499,7 +9505,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Mekong Review",
@@ -9688,7 +9694,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "The Marginalian",
@@ -9857,7 +9863,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Daily Nous",
@@ -10026,7 +10032,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Aeon",
@@ -10195,7 +10201,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Psyche",
@@ -10384,7 +10390,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Tricycle",
@@ -10553,7 +10559,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10722,7 +10728,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Kottke",
@@ -10931,7 +10937,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Longreads",
@@ -11140,7 +11146,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Waxy",
@@ -11369,7 +11375,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "MetaFilter",
@@ -11549,7 +11555,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11738,7 +11744,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Dense Discovery",
@@ -11947,7 +11953,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "香港01",
@@ -11956,74 +11962,74 @@
       "count": 20,
       "stories": [
         {
+          "title": "陳淽菁年邁母髖關節重創急需開刀 昔日母曾祈求折壽20年救血癌女",
+          "url": "https://hk01.com/sns/article/60413242",
+          "publishedAt": "2026-11-20T13:15:15.000Z",
+          "excerpt": "現年57歲的藝人陳淽菁（前名陳芷菁）近年淡出幕前繁華，而生活絕非外界想像般寫意。她自身早前才因淚管閉塞問題兩度進出手術室捱刀，私底下更一直默默肩負起照料年邁雙親的沉重擔子。日前，她在社交平台心痛披露高齡母親的最新健康狀況，指媽媽多年來飽受「長短腳」問題折磨，病情已惡化。經醫生詳細診斷後，證實其母親的髖關節已出現嚴重損耗，必須於短期內接受開刀手術方能根治，令為人子女的她憂心不已。 陳淽菁（右）媽媽病情已惡化，急需手術。（FB@陳淽菁） 同住的繼父同樣患有認知障礙症。（IG@astridtcchan） 陳淽菁心酸拍片承諾：到兒女陪你慢慢走 面對即將迎來的手術硬仗，向來孝順的陳淽菁特意在網上上載短片",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "馬鞍山富寶花園停水｜管理處：各座食水陸續恢復 續安排修鹹水管",
+          "url": "https://hk01.com/sns/article/60413306",
+          "publishedAt": "2026-11-20T13:07:12.000Z",
+          "excerpt": "馬鞍山富寶花園今日（20日）鹹水管、淡水管同時爆裂，全部12座共4,200戶的沖廁水及食水全面中斷。《香港01》記者晚上到場視察，發現有過百名居民冒寒排長龍取水，人龍一求達至少50米。有居住逾30年的居民形容，是次為屋苑入伙以來最大規模的停水事件。 至晚上8時許，有現場消息指，屋苑第1至7座已經恢復供水。富寶花園管理處發出通告交代「最新安排」，指食水喉管經搶修後，各住宅大樓的食水供應已陸續恢復；至於沖廁水喉管現階段仍未完成維修，進展有待進一步通知。 根據富寶花園管理處最新通告，食水喉管經搶修後，住宅大樓的食水供應現已陸續恢復；至於沖廁水喉管，現階段仍未完成維修，恢復時間有待進一步通知。 居民憂",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "全球20億人感染弓形蟲病！專家中招證無藥根治 感染途徑症狀一覽",
+          "url": "https://hk01.com/sns/article/60373927",
+          "publishedAt": "2026-11-20T13:02:42.000Z",
+          "excerpt": "雖然弓形蟲病很常見，但一直被大眾忽略。英國科學期刊《皇家學會報告B》報告顯示，估計全世界約有20億人受感染，連澳洲寄生蟲專家亦曾被感染，他直言目前並無有效疫苗或根治藥物，藥物更令他全身起皮疹，嚴重副作用逼得他不得不半途停藥。 貓科動物是剛地弓形蟲唯一能進行有性繁殖的最終宿主，隨貓糞排出的卵囊會污染水源與土壤，但養貓並非散播這種寄生蟲的罪魁禍首，澳洲全民公共衛生官方平台Healthdirect的數據顯示，人類染病的最主要途徑是食用未煮熟的肉類。 貓科動物是弓形蟲唯一能進行有性繁殖的最終宿主，隨貓糞排出的卵囊會污染水源與土壤，但人類感染弓形蟲的主要途徑是吃下未經煮熟的肉類，因此養貓並非罪魁禍首。（",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "NASA確認航行者1號抵達「1光日」 自1977年發射至今49年",
+          "url": "https://hk01.com/sns/article/60413259",
+          "publishedAt": "2026-11-20T13:02:02.000Z",
+          "excerpt": "美國太空總署（NASA）確認其已飛行49年、著名的的深空探測器「航行者1號」（Voyager 1）於香港時間11月18日下午6時16分到達距離地球約「1光日」（one light-day）處，成為首個到達距離地球1光日的人造物體。 Oh, how you shined! To everyone who raised a light or lit up a landmark to celebrate Voyager’s Light-Day, thank you for shining bright with us. https://t.co/RkT2UohH8Z — NASA Solar Sys",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "山下智久出道30週年爆秘聞 怕演藝圈朝不保夕 拍戲不睡搏入名校",
+          "url": "https://hk01.com/sns/article/60413053",
+          "publishedAt": "2026-11-20T13:00:14.000Z",
+          "excerpt": "日本男星山下智久今年迎來出道30週年，從童星時期便踏入演藝圈的他，年輕時不僅要兼顧演藝工作，還一邊準備升學考試，最後順利考進明治大學。外界過去多認為他出道早、人氣高，演藝事業一路順遂，沒想到他近日上節目談起當年選擇升學的原因，坦言其實是因為對未來感到不安，甚至曾考慮畢業後找一般工作，真實心境讓主持人相當意外。 山下智久日前登上日本TBS電視台節目《A-Studio＋》，與主持人笑福亭鶴瓶、藤谷太輔聊起求學往事。笑福亭鶴瓶對於他在演藝工作如此繁忙的情況下，仍能完成高中學業並考上大學，忍不住讚嘆：「一般人要上大學都很不容易了。」山下則透露，當初決定進入明治大學就讀，其實有著現實考量。 山下智久（I",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "灣仔菲林明道女子捱的士撞 面部流血疑一度昏迷 送院救治",
+          "url": "https://hk01.com/sns/article/60413307",
+          "publishedAt": "2026-11-20T13:00:10.000Z",
+          "excerpt": "灣仔今日（20日）發生嚴重車禍。晚上近8時半，一輛的士在菲林明道交界撞倒一名女途人，女途人臉部披血，疑失去意識。救援人員趕至，發現傷者仍有知覺，即場為她包紥，之後將她送往瑪麗醫院救治。現場所見，她臉上有紗布、下巴有血跡，並要戴上頭部固定器。警方正調查意外成因。 現場消息指，涉事的士由軒尼詩道西行，右轉入菲林明道時，懷疑有人在行人過路處「衝紅公仔」，遭的士右邊車頭撞到。現場相片顯示，傷者一度倒卧馬路上，有救護員檢查其傷勢。的士右邊車頭燈外爛爆裂。 涉事司機在場協助警員調查。（梁偉權攝） 消息指，的士由軒尼詩道西行右轉入菲林明道，撞到傷者。（梁偉權攝） 的士右邊車頭燈罩損毁。（梁偉權攝） 的士男司",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "今日新聞8分鐘｜男小巴站抽筋昏迷不治｜周慧賢案 前男友囚終身",
+          "url": "https://hk01.com/sns/article/60413253",
+          "publishedAt": "2026-11-20T13:00:10.000Z",
+          "excerpt": "荔枝角青山道嘉名工廠大廈火警 火光熊熊 1人不適送院 今日（20日）上午10時34分，荔枝角青山道688至690號嘉名工廠大廈發生火警。多人致電報警，消防員接報到場灌救，於約15分鐘後將火救熄。 事件中，約64人自行疏散，包括38男26女，有人帶着籠物匆匆走火警。其間一名姓鄭39歲男租戶因吸入濃煙不適，由救護車送往明愛醫院治理。人員經初步調查，相信是拖板短路肇禍，現階段並無證據顯示案件涉及刑事成分；火警期間通州西街與永康街封閉。 蔡天鳳案｜看01報道始知蔡被分屍 鄺港智：好驚囉唔知佢咁樣處理 名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(20",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "建築物條例修訂｜嚴重僭建拒清拆再犯罰款增至60萬 晾衫架等豁免",
+          "url": "https://hk01.com/sns/article/60413274",
+          "publishedAt": "2026-11-20T12:59:42.000Z",
+          "excerpt": "政府建議修訂《建築物條例》，其中包括增加僭建相關罰則。針對性質嚴重的僭建物，例如紅山半島僭建地庫，不遵辦清拆令的最高罰則提高至30萬元及監禁兩年；如再次定罪，罰則提高至60萬元及監禁兩年。另外，當局建議2028年中起，購入本身已有嚴重僭建的物業，即屬犯罪，最高可處30萬元罰款及監禁2年。 至於小型僭建，例如晾衫架、冷氣機支架，當局建議納入「指定豁免工程」，並放寬現有的豁免要求，又或容許檢核證明安全後保留。局方發言人指，政府人手只是放寬的其中一個考慮因素，強調當局考慮過後，認為現行政策合理性可改善。 政府建議修訂《建築物條例》，其中包括增加僭建相關罰則。(香港01記者攝） 業主不遵辦清拆令再次定",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "林恬兒私照外洩風波再升級 發聲明斥私隱受嚴重侵犯已正式報警",
           "url": "https://hk01.com/sns/article/60413309",
           "publishedAt": "2026-11-20T12:57:34.000Z",
           "excerpt": "已故富商林百欣孫女、麗新集團主席林建岳與前妻謝玲玲的長女林恬兒（Emily），今年8月傳出與何柱國兒子何正德（Kent）12年婚姻觸礁。近日小紅書流出林恬兒與JW（王灝兒）舊愛、前卓悅太子爺葉韋彤（Tarzan）的面貼面合照，有指該照片原存於林恬兒私人iCloud帳戶且早已刪除，懷疑涉及未經授權存取，林恬兒遂透過律師向前夫何正德發出律師信要求交代。對此，何正德今日（20日）發出嚴正聲明否認指控，而林恬兒其後亦發出聲明，宣布已正式報警處理。 林恬兒與何正德曾經恩愛。（IG@emilylam.ho） 今年8月有網民在Threads爆料，直擊何正德於加拿大溫哥華與一名長髮墨鏡女互動親密。（影片截圖）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "美媒：以色列美國考慮短期內再攻擊伊朗 以方冀聯手行動",
-          "url": "https://hk01.com/sns/article/60413301",
-          "publishedAt": "2026-11-20T12:52:49.000Z",
-          "excerpt": "美媒11月20日引述知情人士指，以色列與美國正考慮短期內對伊朗發動新一波襲擊，以色列軍方已為應對與伊朗之間的新一輪衝突作好準備。 美國哥倫比亞廣播公司（CBS）引述知情人士指，以軍處於最高防禦戒備狀態，以因應伊朗可能發動的任何攻勢，又指伊朗迅速重建製造彈道導彈的能力，以及把軍事與核設施轉移至地下的進度，都讓內塔尼亞胡政府擔憂。 報道稱，內塔尼亞胡政府傾向與美國聯手展開新一波軍事行動，但知情人士稱，目前尚不清楚美國總統特朗普（Donald Trump）是否有意下令採取新軍事行動，或是若有意的話會採取何種形式。戰爭議題是導致美國共和黨在中期選舉失利的一個關鍵因素，美國民眾對此極不歡迎。 圖為202",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "霍建華《急診室的奇蹟》衝Netflix冠軍！被問過氣自嘲有紅過嗎？",
-          "url": "https://hk01.com/sns/article/60413216",
-          "publishedAt": "2026-11-20T12:45:52.000Z",
-          "excerpt": "46歲台灣男星霍建華近日為宣傳新劇接受串流平台Netflix訪問，被問及「最紅時期是否已過去」時笑言「我有紅過嗎？」，盡顯從容。與此同時，他與楊謹華主演的醫療劇《急診室的奇蹟》（Miracles of the ER）上架後迅速登上台灣熱播榜冠軍，並打入香港及泰國榜單第5位，在話題與收視上雙雙報捷。從昔日收視保證到如今以寫實醫療劇再掀熱話，霍建華用作品實力回應外界議論。 46歲台灣男星霍建華近日接受串流平台Netflix訪問，被問及「最紅時期是否已過去」時笑言「我有紅過嗎？」，盡顯從容。（《真相垃圾桶》節目截圖） 霍建華與楊謹華主演的醫療劇《急診室的奇蹟》（Miracles of the ER）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "馬鞍山富寶花園停水｜百人冒寒排隊取水 居民不滿每人限取一水袋",
-          "url": "https://hk01.com/sns/article/60413295",
-          "publishedAt": "2026-11-20T12:44:41.000Z",
-          "excerpt": "馬鞍山富寶花園今日（20日）鹹水管、淡水管同時爆裂，全部12座共4,200戶的沖廁水及食水全面中斷。水務署出動水車及水箱為居民供水，亦派出「供水特攻隊」 於取水點協助居民取水，並主動為有需要的居民送上水袋及樽裝水。 《香港01》記者晚上到場視察，發現其中一輛水車位置在屋苑第4座對開，現場約有過百名居民冒寒排長龍取水，人龍至少達50米。有居住逾30年的居民形容，是次為屋苑入伙以來最大規模的停水事件；又對取水安排頗有微言，批評現場派發水袋採取「按人頭計算」的限制，每人每次僅獲發一個水袋，做法極浪費時間。 至晚上8時許，現場消息指，屋苑第1至7座已經恢復供水。 李先生對於現場安排頗有微言，他指現場派",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "寒冷天氣警告｜菜檔生意額飆升 女士棄買肥牛打邊爐改吃健康食材",
-          "url": "https://hk01.com/sns/article/60413288",
-          "publishedAt": "2026-11-20T12:43:19.000Z",
-          "excerpt": "【寒冷天氣警告】天文台今日（20日）早上11時15分發出寒冷天氣警告，天文台尖沙咀總部錄得最低氣溫12.7度，是入秋以來的最低紀錄。不少市民下午到九龍城街市準備打邊爐材料「圍爐取暖」，有菜檔表示生意額較平時升幾成，有市民指因天氣變冷，將一連兩日打邊爐，也有女士棄買打邊爐必吃的肥牛，將選購健康食材以管理身形。 寒冷天氣警告正生效，不少市民今午（20日）到街市購買火鍋材料。（梁鵬威攝） 天文台尖沙咀總部錄得最低氣溫12.7度，是入秋以來的最低紀錄，新界地區最低氣溫更低於12度。寒冷天氣正適合打邊爐，不少市民今午（20日）便到街市購買火鍋材料。 菜檔︰今日生意額較平時升幾成 九龍城街市「明記蔬菜」負",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "APEC紅藍圍巾領導人自由選色 5千米布料可製萬條最終嚴選42條",
-          "url": "https://hk01.com/sns/article/60413276",
-          "publishedAt": "2026-11-20T12:30:59.000Z",
-          "excerpt": "亞太經合組織（APEC）領導人非正式會議19日在深圳開幕，各經濟體領導人披上紅藍兩色絲綢圍巾合影，款式顏色全由領導人自行挑選佩戴。製作團隊透露，為確保圍巾完美無瑕，前後準備了5000米布料，按常規可製作10000條圍巾，最終經嚴格篩選只留下42條供峰會使用。 亞太經合組織（APEC）領導人非正式會議19日在深圳開幕，各經濟體領導人披上紅藍兩色絲綢圍巾合影。（路透社） 綜合新華社和上海廣播電視台消息，此次兩款圍巾分別以宋錦、香雲紗為面料，均為100%桑蠶絲，長180厘米、寬32厘米。兩款圍巾從設計到製作歷時近一年。圍巾分為紅、藍兩款，紅色款以廣東佛山順德特有的「香雲紗」為主料，為此團隊專門研製了",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "伍詠薇爆圈中好友開天價車馬費上節目 網民疑起底係好閨蜜袁詠儀",
-          "url": "https://hk01.com/sns/article/60413124",
-          "publishedAt": "2026-11-20T12:30:25.000Z",
-          "excerpt": "伍詠薇近日作客陳敏之網台節目《 Chi Chat 》，大爆早前主持《九運會客室》第二季期間，主動提供好友名單邀約嘉賓，豈料一位相識多年的圈中女性好友得悉主持人是她後，竟透過經理人開出遠超常規的「天價車馬費」，令她深感不被尊重並怒斥對方侮辱幕後。訪問曝光後掀起全城「緝兇」，網民根據她今年兩輯節目均未見昔日閨蜜袁詠儀夫婦捧場、加上兩人近年公開交集銳減等線索，紛紛猜測真兇正是與她相識逾30載的閨蜜袁詠儀。 伍詠薇作客契妹陳敏之的YouTube網台節目《Chi Chat》。（YouTube@《Chi Chat》） 伍詠薇大爆《九運會客室》秘聞。（YouTube@《Chi Chat》） 1994年拍戲由",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "海關搗酒店製毒工場及住宅分銷中心 檢$160萬大麻毒品拘3人",
-          "url": "https://hk01.com/sns/article/60413291",
-          "publishedAt": "2026-11-20T12:29:08.000Z",
-          "excerpt": "香港海關昨日（19日）採取反毒品行動，於荃灣一酒店房間及屯門一住宅單位，搗破一個製毒工場及一個毒品分銷中心，檢獲約24公斤懷疑大麻糖、大麻花及逾千支大麻油煙彈，總市值約160萬港元。 行動中兩男一女被捕，當中兩名男子均承認每月收取2萬港元作為販毒報酬。3人已被落案起訴，明日（21日）在沙田裁判法院提堂。 販毒集團刻意挑選酒店製毒，再將半製成品轉運至市區分銷。（梁偉權攝） 海關檢1,148支懷疑大麻油煙彈。（梁偉權攝） 海關檢獲大批大麻毒品。（梁偉權攝） 海關檢獲3.6公斤懷疑大麻油。（梁偉權攝） 整個行動合共檢獲約3.7公斤懷疑大麻花。（梁偉權攝） 海關檢獲一批懷疑毒品包裝及製毒工具。（梁偉權",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "墨西哥總統辛鮑姆訪深圳出席APEC IG發片點名感謝中方女保鏢守護",
-          "url": "https://hk01.com/sns/article/60413293",
-          "publishedAt": "2026-11-20T12:23:17.000Z",
-          "excerpt": "墨西哥總統辛鮑姆早前在深圳出席亞太經合組織第三十三次領導人非正式會議。11月20日，辛鮑姆發影片感謝在深圳期間中方女保鏢的守護。 在 Instagram 查看这篇帖子 Claudia Sheinbaum Pardo (@claudia_shein) 分享的帖子 據內媒《中國新聞網》報道，11月16日，辛鮑姆乘機抵達深圳。她抵達深圳後，中國女保鏢貼身保護，並於她參加各項活動時在近處守護。 辛鮑姆抵達深圳後，中國女保鏢貼身保護，並於她參加各項活動時在近處守護。（中新社） 辛鮑姆抵達深圳後，中國女保鏢貼身保護，並於她參加各項活動時在近處守護。（中新社） 辛鮑姆抵達深圳後，中國女保鏢貼身保護，並於她參",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12040,14 +12046,6 @@
           "url": "https://hk01.com/sns/article/60413294",
           "publishedAt": "2026-11-20T12:05:38.000Z",
           "excerpt": "【寒冷天氣警告】天文台今日（20日）早上11時15分發出寒冷天氣警告，天文台尖沙咀總部錄得最低氣溫12.7度，是入秋以來的最低紀錄。天寒地凍，與氣溫相關的店舖都大受歡迎，《香港01》記者到葵芳新都會廣場所見，火鍋店「一鍋堂」晚上約7時大排長龍，共有185枱顧客正等待入座，其中兩人枱需輪候114組顧客。另一邊廂，日本連鎖服裝店Uniqlo有不少顧客正在選購禦寒衣物。 寒冷天氣警告生效，葵芳新都會廣場火鍋店「一鍋堂」晚上約7時大排長龍。（譚皚璧攝） 寒冷天氣警告生效，葵芳新都會廣場火鍋店「一鍋堂」晚上約7時大排長龍。（譚皚璧攝） 取籌機顯示，兩人枱需輪候114桌。（譚皚璧攝） 寒冷天氣警告及強烈季",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃仁勳辭職｜中國企業申請進口344萬枚先進晶片 港科大申1.2萬枚",
-          "url": "https://hk01.com/sns/article/60413286",
-          "publishedAt": "2026-11-20T11:42:37.000Z",
-          "excerpt": "美國眾議院外交事務委員會11月19日公開晶片出口許可數據，披露特朗普政府自2025年12月至2026年5月的半年內，各企業曾申請向中國出口超過340萬枚，NVIDIA（輝達 / 英偉達）及AMD（超微半導體）的先進人工智能（AI）晶片，最終美國商務部批准出口87.9萬枚，但狀態為未出貨。 申請最多的是阿里巴巴94.9萬枚，騰訊申請15萬枚，而香港科技大學亦申請進口12,240枚NVIDIA晶片。 text { font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', sans-serif; } 中國機構申請進口 美國先進AI晶片",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12114,9 +12112,17 @@
           "excerpt": "無綫電視（TVB）年度盛事《萬千星輝賀台慶》於昨晚圓滿結束，全晚的高潮環節之一「台慶大抽獎」備受矚目，不過當中的抽獎過程卻在網絡上引發了一陣關於公平性的討論。 黃劍文不在場需重抽 在抽獎環節初期，大會首先抽出的幸運兒是藝人黃劍文。然而，由於黃劍文當時 太肚餓去了「醫肚」 並不在現場，未能即時上台領獎，其後在再抽出一名得獎者之後，黃劍文仍未現身，隨即按照一般抽獎慣例宣佈該次結果作廢，並即場進行重抽，將機會改發給其他在場的藝員。 TVB台慶2026｜黃劍文食雞髀失10萬眼泛淚光 羨慕肥媽地位超然 黃劍文食雞髀失10萬未算最慘 重溫歷屆台慶5大爆笑抽獎烏龍 黃劍文缺席需重抽。（節目截圖） 肥媽不在場",
           "source": "香港01",
           "category": "Hong Kong"
+        },
+        {
+          "title": "葵芳新都會小巴站男子暈倒 救援人員跪地接力心外壓 惜送院不治",
+          "url": "https://hk01.com/sns/article/60412862",
+          "publishedAt": "2026-11-19T12:04:52.000Z",
+          "excerpt": "葵芳有人暈倒不治。今日（19日）晚上約7時18分，新都會廣場對開小巴站有一名男子疑抽筋暈倒，陷入昏迷，同行女朋友見狀報案；37歲姓徐男事主由救護車送往仁濟醫院搶救後，證實不治；其死因有待驗屍後確定。據悉，兩人當時正在車站侯車。 網上片段可見，穿深色短褲的男事主倒臥在小巴站行人路邊，多名救援人員跪地施救，輪流為事主進行心外壓。人員其後為事主戴上氧氣罩，將他抬上擔架床；多名警員亦趕抵協助，惜最終事與願違。 多名救援人員跪地施救，輪流為事主進行心外壓，惜事主送院後終不治。（Facebook 香港交通及突發事故報料區 Tony Li） 現場為葵芳新都會廣場對開小巴站。（Facebook 香港交通及突發",
+          "source": "香港01",
+          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "有線新聞",
@@ -12285,7 +12291,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Now 新聞",
@@ -12454,7 +12460,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12623,7 +12629,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12631,6 +12637,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "北角社區客廳開幕 陳國基稱充分展現政商民三方通力合作力量",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878640-20261120.htm",
+          "publishedAt": "2026-11-20T12:46:38.000Z",
+          "excerpt": "位於北角城市花園商場的北角社區客廳開幕，政務司司長陳國基在開幕禮致辭時表示，社區客廳一間接一間投入服務，充分展現政、商、民三方通力合作的力量，為劏房戶開拓更多生活空間，送上更貼心的支援服務。 陳國基說，北角社區客廳實用面積約2400平方呎，預計可服務270個劏房戶，全年服務43000人次。他在社區客廳與幾位母親交談，她們反映社區客廳對其幫助很大。 陳國基說，東區是港島最多劏房的地區，繼去年三月筲箕灣社區客廳投入服務後，今日開幕的北角社區客廳，可以更進一步為區內有需要的市民服務。他又指，鼓勵社區客廳善用空間和居民網絡，並與地區商戶、企業合作引入資源，讓居民由受助者成為貢獻者，讓社區客廳扎根社區、",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "食環署持續打擊鼠患 針對核查全港逾千個位置捕獲161隻活鼠",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1878638-20261120.htm",
@@ -12782,17 +12796,9 @@
           "excerpt": "港股連跌4日，跌至逾1年半新低。恒生指數曾跌逾530點，低見22307點，收市報22410點，跌430點，跌幅1.89%。主板成交額近2703億元。 科技指數曾跌近5%，收市重上3500點關口，但仍創兩年低位，報3511點，跌幅3.78%。 ATMXJ大多向下，跌幅介乎近1%至3%，但阿里巴巴業績好過市場預期，股價逆市升逾3%收市，是表現最好恒指及科指成份股。 快手及網易公布業績後，分別大跌逾11%和近18%，是表現最差兩隻恒指成份股。 晶片及AI相關股份跌幅較大，智譜、MINIMAX、華虹跌逾7%至逾10%。 醫藥股亦向下，翰森、信達生物、藥明生物跌逾5%至逾6%。 重磅金融股受壓，滙控跌約",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "《北部都會區發展條例》刊憲",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878602-20261120.htm",
-          "publishedAt": "2026-11-20T08:15:13.000Z",
-          "excerpt": "《北部都會區發展條例》今日刊憲。 當局表示，北部都會區將以大學城、創科、產業和宜居宜業宜遊為發展布局，是香港深度參與粵港澳大灣區建設，以及主動融入和服務國家發展大局的主平台，亦是推動香港經濟轉型和發展新質生產力的戰略引擎。 《條例》經立法會11月12日三讀通過，對香港主動對接國家「十五五」規劃及落實《香港第一個五年規劃》具有重要意義。 《條例》為多項便利措施提供法律基礎，涵蓋城市規劃、收地補償、建築工程審批、噪音管制和便利跨境流動，提速加快發展建設，助力企業落戶北都。發展局和相關政策局正為落實相關便利措施敲定首批附屬法例，計劃明年一月提交立法會審議，目標於第一季生效。 編輯：鍾慧儀",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "South China Morning Post",
@@ -12800,6 +12806,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Beijing’s Hong Kong point man hopes CUHK-Shenzhen uses ‘unique strengths’ in GBA growth",
+          "url": "https://www.scmp.com/news/hong-kong/politics/article/3375276/beijings-hong-kong-point-man-hopes-cuhk-shenzhen-uses-unique-strengths-gba-growth",
+          "publishedAt": "2026-11-20T13:14:15.000Z",
+          "excerpt": "Beijing’s point man on Hong Kong affairs visited the Shenzhen campus of the Chinese University of Hong Kong (CUHK), calling on the institution to leverage its unique strengths while serving the development of the Greater Bay Area. Xia Baolong, director of the Hong Kong and Macau Affairs Office, paid",
+          "source": "South China Morning Post",
+          "category": "Hong Kong"
+        },
         {
           "title": "Tai Po fire: memorial events for victims won’t be blocked, Eric Chan says",
           "url": "https://www.scmp.com/news/hong-kong/society/article/3375267/tai-po-fire-memorial-events-victims-wont-be-blocked-eric-chan-says",
@@ -12951,17 +12965,9 @@
           "excerpt": "Children aged three to five accounted for the largest share of victims among 216 suspected child abuse cases recorded over the past financial year by a Hong Kong group, which attributed the trend to heavy pressure on parents and insufficient parenting skills. Physical abuse made up about half of the",
           "source": "South China Morning Post",
           "category": "Hong Kong"
-        },
-        {
-          "title": "Abby Choi’s ex-husband tells trial of love triangle, romance and sex until her death",
-          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375105/abby-chois-ex-husband-tells-trial-love-triangle-romance-and-sex-until-her-death",
-          "publishedAt": "2026-11-19T12:48:42.000Z",
-          "excerpt": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has told a court they were in a “complicated” relationship, noting that they had remained romantically and sexually involved after their divorce and up until her death. Alex Kwong Kong-chi on Thursday described a triangular relationship betwe",
-          "source": "South China Morning Post",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13130,7 +13136,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-20T12:58:47.516Z"
+      "lastSuccessfulAt": "2026-11-20T13:17:16.486Z"
     }
   ],
   "stories": [
@@ -13475,6 +13481,22 @@
       "category": "Technology"
     },
     {
+      "title": "The Birdfy Gifts I’d Buy for Backyard Birders",
+      "url": "https://www.wired.com/story/best-birdfy-gifts-2026/",
+      "publishedAt": "2026-11-20T13:00:00.000Z",
+      "excerpt": "After more than two years of testing smart bird feeders, these are the picks I’d give others, including a simple camera feeder and a nest box that let me watch chickadees raise their young.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
+      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
+      "publishedAt": "2026-11-20T13:00:00.000Z",
+      "excerpt": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "Best Robot Vacuum Early Black Friday Deals from Roborock (2026)",
       "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
       "publishedAt": "2026-11-20T12:15:00.000Z",
@@ -13615,22 +13637,6 @@
       "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
       "publishedAt": "2026-11-19T17:00:00.000Z",
       "excerpt": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "21 Best Home Entertainment Gifts (2026): TVs, Lights, and More",
-      "url": "https://www.wired.com/story/best-home-entertainment-gifts-2026/",
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "excerpt": "Because staying home can actually mean having the time of your life, whether alone or with friends.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Voyager Is a Light-Day Away. Here’s How Far That Really Is",
-      "url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "excerpt": "The distance and forces shaping the venerable craft’s trajectory are mind-boggling reminders of the vastness of space.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14115,6 +14121,15 @@
       "category": "Technology"
     },
     {
+      "title": "Anthropic shares fall more than 10% on day two as the AI sell-off spreads",
+      "url": "https://thenextweb.com/news/anthropic-shares-fall-day-two-greenshoe-119-5bn-ark-invest",
+      "publishedAt": "2026-11-20T13:06:35.000Z",
+      "excerpt": "Anthropic shares fell more than 10% in premarket trading on Friday, as of 7:25am in New York, Bloomberg’s Carmen Reinicke and Sangmi Cha reported. The stock rose as much as 39% on Thursday before closing 17% up, its first day of trading. The fall came as the underwriters exercised their over-allotme",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "California subpoenas Nvidia over whether chips or secrets reached China",
       "url": "https://thenextweb.com/news/california-bonta-subpoena-nvidia-china-chips-investors",
       "publishedAt": "2026-11-20T10:42:27.000Z",
@@ -14191,15 +14206,6 @@
       "url": "https://thenextweb.com/news/microsoft-office-in-copilot-nadella-ignite-agi-pilled",
       "publishedAt": "2026-11-19T19:38:17.000Z",
       "excerpt": "Microsoft has built Word, Excel and PowerPoint into Copilot. Chief executive Satya Nadella called Copilot “the new operating system for work” at Ignite in San Francisco on Tuesday. Office in Copilot is now generally available, according to Microsoft’s Ignite news page. So is Home, which brings Chat ",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Everful raises $48.5M for AI agents that source products from factories",
-      "url": "https://thenextweb.com/news/everful-48-5m-series-a-ai-sourcing-global-commerce",
-      "publishedAt": "2026-11-19T19:21:20.000Z",
-      "excerpt": "San Francisco startup Everful has raised a $48.5M Series A led by Vertex Ventures Southeast Asia & India and January Capital. Its AI agents find and vet factories and manage orders for retailers and brands, and it says it is on track for $100M in annualised revenue by year-end. Everful, a San Franci",
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14338,6 +14344,17 @@
       "source": "Slashdot",
       "category": "Technology",
       "sourceRole": "community"
+    },
+    {
+      "title": "Uber quietly launched Uber Kids as a pilot in three US cities for kids as young as 10, building on its teen ride-hailing service for those aged 13 to 17 (Kirsten Korosec/TechCrunch)",
+      "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+      "publishedAt": "2026-11-20T13:10:02.000Z",
+      "excerpt": "Kirsten Korosec / TechCrunch : Uber quietly launched Uber Kids as a pilot in three US cities for kids as young as 10, building on its teen ride-hailing service for those aged 13 to 17 &nbsp; &mdash;&nbsp; Uber has opened its ride-hailing service to children as young as 10 in three U.S. cities as the",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261120/p13#a261120p13",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "How Jensen Huang used humiliation in his management style for decades; Huang's behavior once led to a settlement with an exec who said he \"terrorized\" staff (New York Times)",
@@ -14490,17 +14507,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261119/p60#a261119p60",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Docs: as of May 2026, the Commerce Dept. had approved sales of 879K+ Nvidia H200 and AMD MI325X chips to Chinese companies, including some with military links (CNBC)",
-      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
-      "publishedAt": "2026-11-20T02:55:01.000Z",
-      "excerpt": "CNBC : Docs: as of May 2026, the Commerce Dept. had approved sales of 879K+ Nvidia H200 and AMD MI325X chips to Chinese companies, including some with military links &nbsp; &mdash;&nbsp; The subagency of the Commerce Department that regulates and enforces exports approved the sale of more than 879,0",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261119/p59#a261119p59",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14685,6 +14691,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "'The Internet of Agents is the next shift': Wipro tells us why the next wave of AI agents could boost your business more than ever",
+      "url": "https://www.techradar.com/pro/the-internet-of-agents-is-the-next-shift-wipro-tells-us-why-the-next-wave-of-ai-agents-could-boost-your-business-more-than-ever",
+      "publishedAt": "2026-11-20T13:00:00.000Z",
+      "excerpt": "Wipro lays out what the the \"Internet of Agents\" can do for your business.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "It's been the worst week of major outages for 13 years, but don't blame AI",
       "url": "https://www.techradar.com/computing/cyber-security/yes-its-been-the-worst-week-of-major-outages-for-13-years-but-ai-cyberattacks-arent-to-blame-heres-whats-happening",
       "publishedAt": "2026-11-20T12:56:08.000Z",
@@ -14851,15 +14866,6 @@
       "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-yellowjackets-season-4",
       "publishedAt": "2026-11-20T03:00:00.000Z",
       "excerpt": "Here's how to watch Yellowjackets season 4 online from anywhere, as the survivors struggle to accept their heroes' welcome to Wisayok, New Jersey.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "'Public lands belong in public hands': New bill looks to ban new data centers being built on US federal land — meaning national parks could be safe for now",
-      "url": "https://www.techradar.com/pro/public-lands-belong-in-public-hands-new-bill-looks-to-ban-new-data-centers-being-built-on-us-federal-land-meaning-national-parks-could-be-safe-for-now",
-      "publishedAt": "2026-11-20T02:05:00.000Z",
-      "excerpt": "A new congressional bill seeks to prohibit data center construction on federally managed properties, protecting public lands, forests, wildlife, and watersheds.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15540,6 +15546,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "These 8BitDo Tomb Raider controllers have made me rethink collectable gaming hardware",
+      "url": "https://www.creativebloq.com/news/these-8bitdo-tomb-raider-controllers-have-made-me-rethink-collectable-gaming-hardware",
+      "publishedAt": "2026-11-20T13:00:00.000Z",
+      "excerpt": "8BitDo’s Tomb Raider 30th Anniversary Ultimate 3 and Pro 3 are collectables you’ll actually want to use, and the unboxing alone is a treat.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "How this watercolour artist broke free from neat borders",
       "url": "https://www.creativebloq.com/features/how-this-watercolour-artist-broke-free-from-neat-borders",
       "publishedAt": "2026-11-20T12:00:00.000Z",
@@ -15706,15 +15721,6 @@
       "url": "https://www.creativebloq.com/news/brands-hilariously-react-to-robert-pattinson-as-bond-from-subway-to-the-uk-government",
       "publishedAt": "2026-11-19T10:32:04.000Z",
       "excerpt": "Pattinson has even been given a headliner slot at Glastonbury.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Forget Apple EarPods, these white wired earphones sound better and at $19 are 50% off",
-      "url": "https://www.creativebloq.com/deals/forget-apple-earpods-these-white-wired-earphones-sound-better-and-at-usd19-are-50-percent-off",
-      "publishedAt": "2026-11-19T10:05:03.000Z",
-      "excerpt": "Down from $40, the Sennheiser CX 80U are an excellent early Black Friday deal.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -16820,6 +16826,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Is The Altruists All True-ish?",
+      "url": "http://www.vulture.com/article/the-altruists-fact-vs-fiction.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-20T12:00:14.000Z",
+      "excerpt": "Showrunner Graham Moore fact-checks himself to explain the series’ biggest departures from the record.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Novelist Colson Whitehead’s Trophy-Filled Trophy Co-op",
       "url": "http://www.curbed.com/article/colson-whitehead-selling-upper-west-side-pre-war-co-op-west-end-ave.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-20T12:00:14.000Z",
@@ -16986,15 +17001,6 @@
       "url": "http://nymag.com/intelligencer/article/anthropic-cashes-in-live-ipo-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-19T23:05:00.000Z",
       "excerpt": "Our running account of the first big AI IPO, which minted a bunch of new billionaires and thousands of new millionaires.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "But Seriously, Who Bought Phil Collins’s Used Suspenders?",
-      "url": "http://www.vulture.com/article/but-seriously-who-bought-phil-collins-used-suspenders.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-19T23:03:53.000Z",
-      "excerpt": "His archive auction was the most entertaining livestream of the year.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17585,15 +17591,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Teachers are reeling from an existential crisis. You’re probably feeling it too.",
-      "url": "https://www.vox.com/life/511380/teachers-existential-crisis-work-identity",
-      "publishedAt": "2026-11-20T12:00:00.000Z",
-      "excerpt": "Braxton Wimbley was crying every day. Her fifth year of elementary school teaching at a public school in Indiana was, by far, her hardest. It was 2022, the first full academic year without Covid restrictions, and her fourth-graders’ social skills were “pretty much nonexistent,” she told Vox. “Becaus",
-      "source": "Vox",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "Gen Z is getting nostalgic for the Obama era — with an asterisk",
       "url": "https://www.vox.com/politics/511328/gen-z-whimz-nostalgia-obama-midterms-hope-change",
       "publishedAt": "2026-11-20T11:30:00.000Z",
@@ -17751,6 +17748,15 @@
       "url": "https://www.vox.com/technology/510152/online-gambling-table-tennis-sports-parlays",
       "publishedAt": "2026-11-13T11:00:00.000Z",
       "excerpt": "If you were living in Colorado in May and bet on sports online, you’d statistically have been most likely to bet on professional basketball. Next on the list was baseball. The third-most wagered sport? Table tennis. Colorado is almost certainly not an outlier. Table tennis occupies a similarly high ",
+      "source": "Vox",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How science informs author Emily St. John Mandel’s fiction",
+      "url": "https://www.vox.com/podcasts/509975/emily-st-john-mandel-exit-party-science-fiction",
+      "publishedAt": "2026-11-12T20:45:00.000Z",
+      "excerpt": "The world is full of unanswered questions and strange ideas. Do parallel universes exist? What would it look like if a pandemic wiped out life as we know it? Is time travel possible? I host the science podcast Unexplainable, where we often speak to scientists about their attempts to puzzle through l",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -21674,6 +21680,14 @@
       "category": "Literature"
     },
     {
+      "title": "Decency and Tradition: Colm Tóibín on Thomas Mann and Fatherland",
+      "url": "https://www.theparisreview.org/blog/2026/11/20/fatherland-colm-toibin-on-thomas-mann/",
+      "publishedAt": "2026-11-20T13:00:45.000Z",
+      "excerpt": "Mann was a luftmensch of a patriarch, impassively observing his own drift through time in the moments when he was not absorbed by his craft.",
+      "source": "The Paris Review",
+      "category": "Literature"
+    },
+    {
       "title": "Helen Garner Will Receive Our 2027 Hadada Award",
       "url": "https://www.theparisreview.org/blog/2026/11/17/helen-garner-will-receive-our-2027-hadada-award/",
       "publishedAt": "2026-11-17T16:05:35.000Z",
@@ -21742,14 +21756,6 @@
       "url": "https://www.theparisreview.org/blog/2026/11/06/election-night-texas-james-talarico/",
       "publishedAt": "2026-11-06T14:00:17.000Z",
       "excerpt": "“ ‘So this is a big election for you in Italy?’ I asked her. ‘Oh my God!’ she cried, admonishing me. ‘That is an understatement!’ ”",
-      "source": "The Paris Review",
-      "category": "Literature"
-    },
-    {
-      "title": "Campaign Literature: Election Day 2026",
-      "url": "https://www.theparisreview.org/blog/2026/11/03/campaign-literature-election-day-midterms/",
-      "publishedAt": "2026-11-03T15:00:41.000Z",
-      "excerpt": "A selection of Election Day reading from The Paris Review archive.",
       "source": "The Paris Review",
       "category": "Literature"
     },
@@ -24445,74 +24451,74 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "陳淽菁年邁母髖關節重創急需開刀 昔日母曾祈求折壽20年救血癌女",
+      "url": "https://hk01.com/sns/article/60413242",
+      "publishedAt": "2026-11-20T13:15:15.000Z",
+      "excerpt": "現年57歲的藝人陳淽菁（前名陳芷菁）近年淡出幕前繁華，而生活絕非外界想像般寫意。她自身早前才因淚管閉塞問題兩度進出手術室捱刀，私底下更一直默默肩負起照料年邁雙親的沉重擔子。日前，她在社交平台心痛披露高齡母親的最新健康狀況，指媽媽多年來飽受「長短腳」問題折磨，病情已惡化。經醫生詳細診斷後，證實其母親的髖關節已出現嚴重損耗，必須於短期內接受開刀手術方能根治，令為人子女的她憂心不已。 陳淽菁（右）媽媽病情已惡化，急需手術。（FB@陳淽菁） 同住的繼父同樣患有認知障礙症。（IG@astridtcchan） 陳淽菁心酸拍片承諾：到兒女陪你慢慢走 面對即將迎來的手術硬仗，向來孝順的陳淽菁特意在網上上載短片",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "馬鞍山富寶花園停水｜管理處：各座食水陸續恢復 續安排修鹹水管",
+      "url": "https://hk01.com/sns/article/60413306",
+      "publishedAt": "2026-11-20T13:07:12.000Z",
+      "excerpt": "馬鞍山富寶花園今日（20日）鹹水管、淡水管同時爆裂，全部12座共4,200戶的沖廁水及食水全面中斷。《香港01》記者晚上到場視察，發現有過百名居民冒寒排長龍取水，人龍一求達至少50米。有居住逾30年的居民形容，是次為屋苑入伙以來最大規模的停水事件。 至晚上8時許，有現場消息指，屋苑第1至7座已經恢復供水。富寶花園管理處發出通告交代「最新安排」，指食水喉管經搶修後，各住宅大樓的食水供應已陸續恢復；至於沖廁水喉管現階段仍未完成維修，進展有待進一步通知。 根據富寶花園管理處最新通告，食水喉管經搶修後，住宅大樓的食水供應現已陸續恢復；至於沖廁水喉管，現階段仍未完成維修，恢復時間有待進一步通知。 居民憂",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "全球20億人感染弓形蟲病！專家中招證無藥根治 感染途徑症狀一覽",
+      "url": "https://hk01.com/sns/article/60373927",
+      "publishedAt": "2026-11-20T13:02:42.000Z",
+      "excerpt": "雖然弓形蟲病很常見，但一直被大眾忽略。英國科學期刊《皇家學會報告B》報告顯示，估計全世界約有20億人受感染，連澳洲寄生蟲專家亦曾被感染，他直言目前並無有效疫苗或根治藥物，藥物更令他全身起皮疹，嚴重副作用逼得他不得不半途停藥。 貓科動物是剛地弓形蟲唯一能進行有性繁殖的最終宿主，隨貓糞排出的卵囊會污染水源與土壤，但養貓並非散播這種寄生蟲的罪魁禍首，澳洲全民公共衛生官方平台Healthdirect的數據顯示，人類染病的最主要途徑是食用未煮熟的肉類。 貓科動物是弓形蟲唯一能進行有性繁殖的最終宿主，隨貓糞排出的卵囊會污染水源與土壤，但人類感染弓形蟲的主要途徑是吃下未經煮熟的肉類，因此養貓並非罪魁禍首。（",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "NASA確認航行者1號抵達「1光日」 自1977年發射至今49年",
+      "url": "https://hk01.com/sns/article/60413259",
+      "publishedAt": "2026-11-20T13:02:02.000Z",
+      "excerpt": "美國太空總署（NASA）確認其已飛行49年、著名的的深空探測器「航行者1號」（Voyager 1）於香港時間11月18日下午6時16分到達距離地球約「1光日」（one light-day）處，成為首個到達距離地球1光日的人造物體。 Oh, how you shined! To everyone who raised a light or lit up a landmark to celebrate Voyager’s Light-Day, thank you for shining bright with us. https://t.co/RkT2UohH8Z — NASA Solar Sys",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "山下智久出道30週年爆秘聞 怕演藝圈朝不保夕 拍戲不睡搏入名校",
+      "url": "https://hk01.com/sns/article/60413053",
+      "publishedAt": "2026-11-20T13:00:14.000Z",
+      "excerpt": "日本男星山下智久今年迎來出道30週年，從童星時期便踏入演藝圈的他，年輕時不僅要兼顧演藝工作，還一邊準備升學考試，最後順利考進明治大學。外界過去多認為他出道早、人氣高，演藝事業一路順遂，沒想到他近日上節目談起當年選擇升學的原因，坦言其實是因為對未來感到不安，甚至曾考慮畢業後找一般工作，真實心境讓主持人相當意外。 山下智久日前登上日本TBS電視台節目《A-Studio＋》，與主持人笑福亭鶴瓶、藤谷太輔聊起求學往事。笑福亭鶴瓶對於他在演藝工作如此繁忙的情況下，仍能完成高中學業並考上大學，忍不住讚嘆：「一般人要上大學都很不容易了。」山下則透露，當初決定進入明治大學就讀，其實有著現實考量。 山下智久（I",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "灣仔菲林明道女子捱的士撞 面部流血疑一度昏迷 送院救治",
+      "url": "https://hk01.com/sns/article/60413307",
+      "publishedAt": "2026-11-20T13:00:10.000Z",
+      "excerpt": "灣仔今日（20日）發生嚴重車禍。晚上近8時半，一輛的士在菲林明道交界撞倒一名女途人，女途人臉部披血，疑失去意識。救援人員趕至，發現傷者仍有知覺，即場為她包紥，之後將她送往瑪麗醫院救治。現場所見，她臉上有紗布、下巴有血跡，並要戴上頭部固定器。警方正調查意外成因。 現場消息指，涉事的士由軒尼詩道西行，右轉入菲林明道時，懷疑有人在行人過路處「衝紅公仔」，遭的士右邊車頭撞到。現場相片顯示，傷者一度倒卧馬路上，有救護員檢查其傷勢。的士右邊車頭燈外爛爆裂。 涉事司機在場協助警員調查。（梁偉權攝） 消息指，的士由軒尼詩道西行右轉入菲林明道，撞到傷者。（梁偉權攝） 的士右邊車頭燈罩損毁。（梁偉權攝） 的士男司",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "今日新聞8分鐘｜男小巴站抽筋昏迷不治｜周慧賢案 前男友囚終身",
+      "url": "https://hk01.com/sns/article/60413253",
+      "publishedAt": "2026-11-20T13:00:10.000Z",
+      "excerpt": "荔枝角青山道嘉名工廠大廈火警 火光熊熊 1人不適送院 今日（20日）上午10時34分，荔枝角青山道688至690號嘉名工廠大廈發生火警。多人致電報警，消防員接報到場灌救，於約15分鐘後將火救熄。 事件中，約64人自行疏散，包括38男26女，有人帶着籠物匆匆走火警。其間一名姓鄭39歲男租戶因吸入濃煙不適，由救護車送往明愛醫院治理。人員經初步調查，相信是拖板短路肇禍，現階段並無證據顯示案件涉及刑事成分；火警期間通州西街與永康街封閉。 蔡天鳳案｜看01報道始知蔡被分屍 鄺港智：好驚囉唔知佢咁樣處理 名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），今(20",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "建築物條例修訂｜嚴重僭建拒清拆再犯罰款增至60萬 晾衫架等豁免",
+      "url": "https://hk01.com/sns/article/60413274",
+      "publishedAt": "2026-11-20T12:59:42.000Z",
+      "excerpt": "政府建議修訂《建築物條例》，其中包括增加僭建相關罰則。針對性質嚴重的僭建物，例如紅山半島僭建地庫，不遵辦清拆令的最高罰則提高至30萬元及監禁兩年；如再次定罪，罰則提高至60萬元及監禁兩年。另外，當局建議2028年中起，購入本身已有嚴重僭建的物業，即屬犯罪，最高可處30萬元罰款及監禁2年。 至於小型僭建，例如晾衫架、冷氣機支架，當局建議納入「指定豁免工程」，並放寬現有的豁免要求，又或容許檢核證明安全後保留。局方發言人指，政府人手只是放寬的其中一個考慮因素，強調當局考慮過後，認為現行政策合理性可改善。 政府建議修訂《建築物條例》，其中包括增加僭建相關罰則。(香港01記者攝） 業主不遵辦清拆令再次定",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "林恬兒私照外洩風波再升級 發聲明斥私隱受嚴重侵犯已正式報警",
       "url": "https://hk01.com/sns/article/60413309",
       "publishedAt": "2026-11-20T12:57:34.000Z",
       "excerpt": "已故富商林百欣孫女、麗新集團主席林建岳與前妻謝玲玲的長女林恬兒（Emily），今年8月傳出與何柱國兒子何正德（Kent）12年婚姻觸礁。近日小紅書流出林恬兒與JW（王灝兒）舊愛、前卓悅太子爺葉韋彤（Tarzan）的面貼面合照，有指該照片原存於林恬兒私人iCloud帳戶且早已刪除，懷疑涉及未經授權存取，林恬兒遂透過律師向前夫何正德發出律師信要求交代。對此，何正德今日（20日）發出嚴正聲明否認指控，而林恬兒其後亦發出聲明，宣布已正式報警處理。 林恬兒與何正德曾經恩愛。（IG@emilylam.ho） 今年8月有網民在Threads爆料，直擊何正德於加拿大溫哥華與一名長髮墨鏡女互動親密。（影片截圖）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "美媒：以色列美國考慮短期內再攻擊伊朗 以方冀聯手行動",
-      "url": "https://hk01.com/sns/article/60413301",
-      "publishedAt": "2026-11-20T12:52:49.000Z",
-      "excerpt": "美媒11月20日引述知情人士指，以色列與美國正考慮短期內對伊朗發動新一波襲擊，以色列軍方已為應對與伊朗之間的新一輪衝突作好準備。 美國哥倫比亞廣播公司（CBS）引述知情人士指，以軍處於最高防禦戒備狀態，以因應伊朗可能發動的任何攻勢，又指伊朗迅速重建製造彈道導彈的能力，以及把軍事與核設施轉移至地下的進度，都讓內塔尼亞胡政府擔憂。 報道稱，內塔尼亞胡政府傾向與美國聯手展開新一波軍事行動，但知情人士稱，目前尚不清楚美國總統特朗普（Donald Trump）是否有意下令採取新軍事行動，或是若有意的話會採取何種形式。戰爭議題是導致美國共和黨在中期選舉失利的一個關鍵因素，美國民眾對此極不歡迎。 圖為202",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "霍建華《急診室的奇蹟》衝Netflix冠軍！被問過氣自嘲有紅過嗎？",
-      "url": "https://hk01.com/sns/article/60413216",
-      "publishedAt": "2026-11-20T12:45:52.000Z",
-      "excerpt": "46歲台灣男星霍建華近日為宣傳新劇接受串流平台Netflix訪問，被問及「最紅時期是否已過去」時笑言「我有紅過嗎？」，盡顯從容。與此同時，他與楊謹華主演的醫療劇《急診室的奇蹟》（Miracles of the ER）上架後迅速登上台灣熱播榜冠軍，並打入香港及泰國榜單第5位，在話題與收視上雙雙報捷。從昔日收視保證到如今以寫實醫療劇再掀熱話，霍建華用作品實力回應外界議論。 46歲台灣男星霍建華近日接受串流平台Netflix訪問，被問及「最紅時期是否已過去」時笑言「我有紅過嗎？」，盡顯從容。（《真相垃圾桶》節目截圖） 霍建華與楊謹華主演的醫療劇《急診室的奇蹟》（Miracles of the ER）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "馬鞍山富寶花園停水｜百人冒寒排隊取水 居民不滿每人限取一水袋",
-      "url": "https://hk01.com/sns/article/60413295",
-      "publishedAt": "2026-11-20T12:44:41.000Z",
-      "excerpt": "馬鞍山富寶花園今日（20日）鹹水管、淡水管同時爆裂，全部12座共4,200戶的沖廁水及食水全面中斷。水務署出動水車及水箱為居民供水，亦派出「供水特攻隊」 於取水點協助居民取水，並主動為有需要的居民送上水袋及樽裝水。 《香港01》記者晚上到場視察，發現其中一輛水車位置在屋苑第4座對開，現場約有過百名居民冒寒排長龍取水，人龍至少達50米。有居住逾30年的居民形容，是次為屋苑入伙以來最大規模的停水事件；又對取水安排頗有微言，批評現場派發水袋採取「按人頭計算」的限制，每人每次僅獲發一個水袋，做法極浪費時間。 至晚上8時許，現場消息指，屋苑第1至7座已經恢復供水。 李先生對於現場安排頗有微言，他指現場派",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "寒冷天氣警告｜菜檔生意額飆升 女士棄買肥牛打邊爐改吃健康食材",
-      "url": "https://hk01.com/sns/article/60413288",
-      "publishedAt": "2026-11-20T12:43:19.000Z",
-      "excerpt": "【寒冷天氣警告】天文台今日（20日）早上11時15分發出寒冷天氣警告，天文台尖沙咀總部錄得最低氣溫12.7度，是入秋以來的最低紀錄。不少市民下午到九龍城街市準備打邊爐材料「圍爐取暖」，有菜檔表示生意額較平時升幾成，有市民指因天氣變冷，將一連兩日打邊爐，也有女士棄買打邊爐必吃的肥牛，將選購健康食材以管理身形。 寒冷天氣警告正生效，不少市民今午（20日）到街市購買火鍋材料。（梁鵬威攝） 天文台尖沙咀總部錄得最低氣溫12.7度，是入秋以來的最低紀錄，新界地區最低氣溫更低於12度。寒冷天氣正適合打邊爐，不少市民今午（20日）便到街市購買火鍋材料。 菜檔︰今日生意額較平時升幾成 九龍城街市「明記蔬菜」負",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "APEC紅藍圍巾領導人自由選色 5千米布料可製萬條最終嚴選42條",
-      "url": "https://hk01.com/sns/article/60413276",
-      "publishedAt": "2026-11-20T12:30:59.000Z",
-      "excerpt": "亞太經合組織（APEC）領導人非正式會議19日在深圳開幕，各經濟體領導人披上紅藍兩色絲綢圍巾合影，款式顏色全由領導人自行挑選佩戴。製作團隊透露，為確保圍巾完美無瑕，前後準備了5000米布料，按常規可製作10000條圍巾，最終經嚴格篩選只留下42條供峰會使用。 亞太經合組織（APEC）領導人非正式會議19日在深圳開幕，各經濟體領導人披上紅藍兩色絲綢圍巾合影。（路透社） 綜合新華社和上海廣播電視台消息，此次兩款圍巾分別以宋錦、香雲紗為面料，均為100%桑蠶絲，長180厘米、寬32厘米。兩款圍巾從設計到製作歷時近一年。圍巾分為紅、藍兩款，紅色款以廣東佛山順德特有的「香雲紗」為主料，為此團隊專門研製了",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "伍詠薇爆圈中好友開天價車馬費上節目 網民疑起底係好閨蜜袁詠儀",
-      "url": "https://hk01.com/sns/article/60413124",
-      "publishedAt": "2026-11-20T12:30:25.000Z",
-      "excerpt": "伍詠薇近日作客陳敏之網台節目《 Chi Chat 》，大爆早前主持《九運會客室》第二季期間，主動提供好友名單邀約嘉賓，豈料一位相識多年的圈中女性好友得悉主持人是她後，竟透過經理人開出遠超常規的「天價車馬費」，令她深感不被尊重並怒斥對方侮辱幕後。訪問曝光後掀起全城「緝兇」，網民根據她今年兩輯節目均未見昔日閨蜜袁詠儀夫婦捧場、加上兩人近年公開交集銳減等線索，紛紛猜測真兇正是與她相識逾30載的閨蜜袁詠儀。 伍詠薇作客契妹陳敏之的YouTube網台節目《Chi Chat》。（YouTube@《Chi Chat》） 伍詠薇大爆《九運會客室》秘聞。（YouTube@《Chi Chat》） 1994年拍戲由",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "海關搗酒店製毒工場及住宅分銷中心 檢$160萬大麻毒品拘3人",
-      "url": "https://hk01.com/sns/article/60413291",
-      "publishedAt": "2026-11-20T12:29:08.000Z",
-      "excerpt": "香港海關昨日（19日）採取反毒品行動，於荃灣一酒店房間及屯門一住宅單位，搗破一個製毒工場及一個毒品分銷中心，檢獲約24公斤懷疑大麻糖、大麻花及逾千支大麻油煙彈，總市值約160萬港元。 行動中兩男一女被捕，當中兩名男子均承認每月收取2萬港元作為販毒報酬。3人已被落案起訴，明日（21日）在沙田裁判法院提堂。 販毒集團刻意挑選酒店製毒，再將半製成品轉運至市區分銷。（梁偉權攝） 海關檢1,148支懷疑大麻油煙彈。（梁偉權攝） 海關檢獲大批大麻毒品。（梁偉權攝） 海關檢獲3.6公斤懷疑大麻油。（梁偉權攝） 整個行動合共檢獲約3.7公斤懷疑大麻花。（梁偉權攝） 海關檢獲一批懷疑毒品包裝及製毒工具。（梁偉權",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "墨西哥總統辛鮑姆訪深圳出席APEC IG發片點名感謝中方女保鏢守護",
-      "url": "https://hk01.com/sns/article/60413293",
-      "publishedAt": "2026-11-20T12:23:17.000Z",
-      "excerpt": "墨西哥總統辛鮑姆早前在深圳出席亞太經合組織第三十三次領導人非正式會議。11月20日，辛鮑姆發影片感謝在深圳期間中方女保鏢的守護。 在 Instagram 查看这篇帖子 Claudia Sheinbaum Pardo (@claudia_shein) 分享的帖子 據內媒《中國新聞網》報道，11月16日，辛鮑姆乘機抵達深圳。她抵達深圳後，中國女保鏢貼身保護，並於她參加各項活動時在近處守護。 辛鮑姆抵達深圳後，中國女保鏢貼身保護，並於她參加各項活動時在近處守護。（中新社） 辛鮑姆抵達深圳後，中國女保鏢貼身保護，並於她參加各項活動時在近處守護。（中新社） 辛鮑姆抵達深圳後，中國女保鏢貼身保護，並於她參",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24529,14 +24535,6 @@
       "url": "https://hk01.com/sns/article/60413294",
       "publishedAt": "2026-11-20T12:05:38.000Z",
       "excerpt": "【寒冷天氣警告】天文台今日（20日）早上11時15分發出寒冷天氣警告，天文台尖沙咀總部錄得最低氣溫12.7度，是入秋以來的最低紀錄。天寒地凍，與氣溫相關的店舖都大受歡迎，《香港01》記者到葵芳新都會廣場所見，火鍋店「一鍋堂」晚上約7時大排長龍，共有185枱顧客正等待入座，其中兩人枱需輪候114組顧客。另一邊廂，日本連鎖服裝店Uniqlo有不少顧客正在選購禦寒衣物。 寒冷天氣警告生效，葵芳新都會廣場火鍋店「一鍋堂」晚上約7時大排長龍。（譚皚璧攝） 寒冷天氣警告生效，葵芳新都會廣場火鍋店「一鍋堂」晚上約7時大排長龍。（譚皚璧攝） 取籌機顯示，兩人枱需輪候114桌。（譚皚璧攝） 寒冷天氣警告及強烈季",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃仁勳辭職｜中國企業申請進口344萬枚先進晶片 港科大申1.2萬枚",
-      "url": "https://hk01.com/sns/article/60413286",
-      "publishedAt": "2026-11-20T11:42:37.000Z",
-      "excerpt": "美國眾議院外交事務委員會11月19日公開晶片出口許可數據，披露特朗普政府自2025年12月至2026年5月的半年內，各企業曾申請向中國出口超過340萬枚，NVIDIA（輝達 / 英偉達）及AMD（超微半導體）的先進人工智能（AI）晶片，最終美國商務部批准出口87.9萬枚，但狀態為未出貨。 申請最多的是阿里巴巴94.9萬枚，騰訊申請15萬枚，而香港科技大學亦申請進口12,240枚NVIDIA晶片。 text { font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', sans-serif; } 中國機構申請進口 美國先進AI晶片",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24601,6 +24599,14 @@
       "url": "https://hk01.com/sns/article/60412896",
       "publishedAt": "2026-11-19T14:01:00.000Z",
       "excerpt": "無綫電視（TVB）年度盛事《萬千星輝賀台慶》於昨晚圓滿結束，全晚的高潮環節之一「台慶大抽獎」備受矚目，不過當中的抽獎過程卻在網絡上引發了一陣關於公平性的討論。 黃劍文不在場需重抽 在抽獎環節初期，大會首先抽出的幸運兒是藝人黃劍文。然而，由於黃劍文當時 太肚餓去了「醫肚」 並不在現場，未能即時上台領獎，其後在再抽出一名得獎者之後，黃劍文仍未現身，隨即按照一般抽獎慣例宣佈該次結果作廢，並即場進行重抽，將機會改發給其他在場的藝員。 TVB台慶2026｜黃劍文食雞髀失10萬眼泛淚光 羨慕肥媽地位超然 黃劍文食雞髀失10萬未算最慘 重溫歷屆台慶5大爆笑抽獎烏龍 黃劍文缺席需重抽。（節目截圖） 肥媽不在場",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "葵芳新都會小巴站男子暈倒 救援人員跪地接力心外壓 惜送院不治",
+      "url": "https://hk01.com/sns/article/60412862",
+      "publishedAt": "2026-11-19T12:04:52.000Z",
+      "excerpt": "葵芳有人暈倒不治。今日（19日）晚上約7時18分，新都會廣場對開小巴站有一名男子疑抽筋暈倒，陷入昏迷，同行女朋友見狀報案；37歲姓徐男事主由救護車送往仁濟醫院搶救後，證實不治；其死因有待驗屍後確定。據悉，兩人當時正在車站侯車。 網上片段可見，穿深色短褲的男事主倒臥在小巴站行人路邊，多名救援人員跪地施救，輪流為事主進行心外壓。人員其後為事主戴上氧氣罩，將他抬上擔架床；多名警員亦趕抵協助，惜最終事與願違。 多名救援人員跪地施救，輪流為事主進行心外壓，惜事主送院後終不治。（Facebook 香港交通及突發事故報料區 Tony Li） 現場為葵芳新都會廣場對開小巴站。（Facebook 香港交通及突發",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -25085,6 +25091,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "北角社區客廳開幕 陳國基稱充分展現政商民三方通力合作力量",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878640-20261120.htm",
+      "publishedAt": "2026-11-20T12:46:38.000Z",
+      "excerpt": "位於北角城市花園商場的北角社區客廳開幕，政務司司長陳國基在開幕禮致辭時表示，社區客廳一間接一間投入服務，充分展現政、商、民三方通力合作的力量，為劏房戶開拓更多生活空間，送上更貼心的支援服務。 陳國基說，北角社區客廳實用面積約2400平方呎，預計可服務270個劏房戶，全年服務43000人次。他在社區客廳與幾位母親交談，她們反映社區客廳對其幫助很大。 陳國基說，東區是港島最多劏房的地區，繼去年三月筲箕灣社區客廳投入服務後，今日開幕的北角社區客廳，可以更進一步為區內有需要的市民服務。他又指，鼓勵社區客廳善用空間和居民網絡，並與地區商戶、企業合作引入資源，讓居民由受助者成為貢獻者，讓社區客廳扎根社區、",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "食環署持續打擊鼠患 針對核查全港逾千個位置捕獲161隻活鼠",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878638-20261120.htm",
       "publishedAt": "2026-11-20T12:20:09.000Z",
@@ -25237,11 +25251,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "《北部都會區發展條例》刊憲",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878602-20261120.htm",
-      "publishedAt": "2026-11-20T08:15:13.000Z",
-      "excerpt": "《北部都會區發展條例》今日刊憲。 當局表示，北部都會區將以大學城、創科、產業和宜居宜業宜遊為發展布局，是香港深度參與粵港澳大灣區建設，以及主動融入和服務國家發展大局的主平台，亦是推動香港經濟轉型和發展新質生產力的戰略引擎。 《條例》經立法會11月12日三讀通過，對香港主動對接國家「十五五」規劃及落實《香港第一個五年規劃》具有重要意義。 《條例》為多項便利措施提供法律基礎，涵蓋城市規劃、收地補償、建築工程審批、噪音管制和便利跨境流動，提速加快發展建設，助力企業落戶北都。發展局和相關政策局正為落實相關便利措施敲定首批附屬法例，計劃明年一月提交立法會審議，目標於第一季生效。 編輯：鍾慧儀",
-      "source": "香港電台中文本地新聞",
+      "title": "Beijing’s Hong Kong point man hopes CUHK-Shenzhen uses ‘unique strengths’ in GBA growth",
+      "url": "https://www.scmp.com/news/hong-kong/politics/article/3375276/beijings-hong-kong-point-man-hopes-cuhk-shenzhen-uses-unique-strengths-gba-growth",
+      "publishedAt": "2026-11-20T13:14:15.000Z",
+      "excerpt": "Beijing’s point man on Hong Kong affairs visited the Shenzhen campus of the Chinese University of Hong Kong (CUHK), calling on the institution to leverage its unique strengths while serving the development of the Greater Bay Area. Xia Baolong, director of the Hong Kong and Macau Affairs Office, paid",
+      "source": "South China Morning Post",
       "category": "Hong Kong"
     },
     {
@@ -25393,14 +25407,6 @@
       "url": "https://www.scmp.com/news/hong-kong/society/article/3375107/children-aged-3-5-account-largest-share-suspected-abuse-victims-ngo",
       "publishedAt": "2026-11-19T13:10:03.000Z",
       "excerpt": "Children aged three to five accounted for the largest share of victims among 216 suspected child abuse cases recorded over the past financial year by a Hong Kong group, which attributed the trend to heavy pressure on parents and insufficient parenting skills. Physical abuse made up about half of the",
-      "source": "South China Morning Post",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "Abby Choi’s ex-husband tells trial of love triangle, romance and sex until her death",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375105/abby-chois-ex-husband-tells-trial-love-triangle-romance-and-sex-until-her-death",
-      "publishedAt": "2026-11-19T12:48:42.000Z",
-      "excerpt": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has told a court they were in a “complicated” relationship, noting that they had remained romantically and sexually involved after their divorce and up until her death. Alex Kwong Kong-chi on Thursday described a triangular relationship betwe",
       "source": "South China Morning Post",
       "category": "Hong Kong"
     },

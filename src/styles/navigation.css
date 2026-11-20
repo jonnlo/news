@@ -543,6 +543,20 @@ body:has(.source-navigation-page .source-picker:modal) {
     background: var(--ground);
   }
 
+  .source-navigation-page .topic-bar .filters {
+    /* Let scrolled chips reach the viewport edge while retaining the resting content inset. */
+    margin-inline-start: calc(50% - 50vw);
+    padding-inline-start: calc(50vw - 50% + 1px);
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+  }
+
+  .source-navigation-page .topic-bar .filters::-webkit-scrollbar {
+    display: none;
+  }
+
   .source-navigation-page .topic-bar .filter {
     height: 36px;
     font-size: 14px;

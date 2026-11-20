@@ -180,6 +180,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     }
     let selectedTopic = 'All';
     let scrollTopic: string | undefined;
+    let topicJumpInProgress = false;
 
     function highlightTopic(topic: string) {
       filters.forEach((filter) => {
@@ -214,15 +215,18 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       updateScrollTopic();
     }
 
-    function revealActiveChip() {
+    function revealChip(chip = topicBar?.querySelector<HTMLElement>('.filter.active'), animate = false) {
       const row = topicBar?.querySelector<HTMLElement>('.filters');
-      const active = topicBar?.querySelector<HTMLElement>('.filter.active');
-      if (!row || !active) return;
+      if (!row || !chip || row.scrollWidth <= row.clientWidth) return;
       const rowRect = row.getBoundingClientRect();
-      const chipRect = active.getBoundingClientRect();
-      const inset = 16;
-      if (chipRect.left < rowRect.left + inset) row.scrollLeft += chipRect.left - rowRect.left - inset;
-      else if (chipRect.right > rowRect.right - inset) row.scrollLeft += chipRect.right - rowRect.right + inset;
+      const chipRect = chip.getBoundingClientRect();
+      const inset = 24;
+      let delta = 0;
+      if (chipRect.left < rowRect.left + inset) delta = chipRect.left - rowRect.left - inset;
+      else if (chipRect.right > rowRect.right - inset) delta = chipRect.right - rowRect.right + inset;
+      const left = Math.max(0, Math.min(row.scrollWidth - row.clientWidth, row.scrollLeft + delta));
+      if (Math.abs(left - row.scrollLeft) < 1) return;
+      row.scrollTo({ left, behavior: animate && !reducedStoryMotion.matches ? 'smooth' : 'instant' });
     }
 
     function updateScrollTopic() {
@@ -236,7 +240,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       if (scrollTopic === topic) return;
       scrollTopic = topic;
       highlightTopic(topic);
-      revealActiveChip();
+      if (!topicJumpInProgress) revealChip();
     }
 
     function topicFromUrl() {
@@ -275,6 +279,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 
       highlightTopic(selectedTopic);
       updateGroups();
+      revealChip(button, updateUrl);
     }
 
     document.addEventListener('source-category-reset', () => {
@@ -403,7 +408,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
           cancelGesture();
           return;
         }
-        if (!mobile.matches || gesture || event.touches.length !== 1) return;
+        if (gesture || event.touches.length !== 1) return;
         const touch = event.changedTouches[0];
         if (!touch) return;
         gesture = {
@@ -559,10 +564,17 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     window.addEventListener('resize', refreshStoryHeights);
     document.fonts.ready.then(refreshStoryHeights);
 
-    function jumpToMobileTopic(topic: string) {
+    function jumpToMobileTopic(topic: string, animate = false) {
       const target = topicTargets.get(topic);
       if (target || topic === 'All') {
-        document.dispatchEvent(new CustomEvent('mobile-category-jump', { detail: target ?? null }));
+        // The jump synchronously updates the active topic; reveal it once, with the requested motion.
+        topicJumpInProgress = true;
+        try {
+          document.dispatchEvent(new CustomEvent('mobile-category-jump', { detail: target ?? null }));
+        } finally {
+          topicJumpInProgress = false;
+        }
+        revealChip(filters.find((filter) => filter.dataset.filter === topic), animate);
       }
     }
 
@@ -597,11 +609,17 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       }
     }
 
-    filters.forEach((button) => button.addEventListener('click', () => {
-      const topic = button.dataset.filter ?? 'All';
-      if (mobile.matches) jumpToMobileTopic(topic);
-      else selectTopic(topic, true);
-    }));
+    filters.forEach((button) => {
+      button.addEventListener('click', () => {
+        const topic = button.dataset.filter ?? 'All';
+        if (mobile.matches) {
+          jumpToMobileTopic(topic, true);
+        } else selectTopic(topic, true);
+      });
+      button.addEventListener('focus', () => {
+        if (button.matches(':focus-visible')) revealChip(button, true);
+      });
+    });
     let scrollPending = false;
     window.addEventListener('scroll', () => {
       if (scrollPending) return;
@@ -618,8 +636,12 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
     });
     if (topicBar) new ResizeObserver(updateScrollTopic).observe(topicBar);
     mobile.addEventListener('change', () => syncCategoryMode(true));
-    window.addEventListener('resize', () => syncStickyVisibility(true));
-    document.fonts.ready.then(() => syncStickyVisibility(true));
+    function refreshTopicBar() {
+      syncStickyVisibility(true);
+      revealChip();
+    }
+    window.addEventListener('resize', refreshTopicBar);
+    document.fonts.ready.then(refreshTopicBar);
     window.addEventListener('popstate', () => {
       if (!mobile.matches) selectTopic(topicFromUrl(), false);
     });

@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "test:browser": "node scripts/browser-check.mjs",
     "collect": "node scripts/collect.mjs",
     "collect:local": "npm run collect -- --output=src/data/local-editions",
     "compare-rankings": "node scripts/compare-rankings.mjs",

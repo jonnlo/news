@@ -143,7 +143,7 @@
   display: flex;
   flex: 1 1 0;
   min-width: 0;
-  height: 44px;
+  min-height: max(44px, calc(1.5em + 20px));
   align-items: stretch;
   gap: 4px;
   padding: 0;
@@ -177,9 +177,9 @@
   display: block;
   overflow: hidden;
   width: 100%;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.7142857;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -278,7 +278,7 @@ body:has(.source-navigation-page .source-picker:modal) {
 
 .source-navigation-page .picker-header h2 {
   margin: 0;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -.01em;
@@ -308,6 +308,7 @@ body:has(.source-navigation-page .source-picker:modal) {
 
 .source-navigation-page .picker-results {
   min-height: 0;
+  container-type: inline-size;
   overflow-y: auto;
   flex: 1 1 auto;
   padding: 0 22px 20px;
@@ -321,7 +322,7 @@ body:has(.source-navigation-page .source-picker:modal) {
   gap: 12px;
   margin: 8px 12px 0;
   color: var(--muted-copy);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.4;
 }
 
@@ -369,18 +370,19 @@ body:has(.source-navigation-page .source-picker:modal) {
 
 .source-navigation-page .picker-topic h3 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
   margin: 0 0 6px;
   padding-inline: 8px;
   color: var(--muted-copy);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
 .source-navigation-page .picker-topic-count {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 400;
   white-space: nowrap;
 }
@@ -389,6 +391,13 @@ body:has(.source-navigation-page .source-picker:modal) {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2px 8px;
+}
+
+/* Keep source names readable when a larger default font narrows the list. */
+@container (max-width: 18rem) {
+  .source-navigation-page .picker-topic-sources {
+    grid-template-columns: 1fr;
+  }
 }
 
 .source-navigation-page .picker-source {
@@ -430,14 +439,14 @@ body:has(.source-navigation-page .source-picker:modal) {
 
 .source-navigation-page .picker-source-name {
   overflow-wrap: anywhere;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 550;
   white-space: normal;
 }
 
 .source-navigation-page .picker-source-age {
   color: var(--faint-copy);
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: right;
   white-space: nowrap;
 }
@@ -448,7 +457,7 @@ body:has(.source-navigation-page .source-picker:modal) {
   }
 
   .source-navigation-page .topic-bar .filter {
-    height: 32px;
+    min-height: max(32px, calc(1em + 16px));
   }
 
   .source-navigation-page:has(.source-navigator) {
@@ -477,6 +486,30 @@ body:has(.source-navigation-page .source-picker:modal) {
     max-height: min(84dvh, 760px);
     margin: 0;
     border-bottom: 0;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .source-navigation-page .source-picker {
+      translate: 0 100%;
+      transition-property: translate, display, overlay;
+      transition-duration: 180ms;
+      transition-timing-function: cubic-bezier(.22, 1, .36, 1);
+      /* Separate from the shorthand so older browsers retain entry motion. */
+      transition-behavior: allow-discrete;
+    }
+
+    .source-navigation-page .source-picker[open] {
+      translate: 0;
+      transition-duration: 240ms;
+
+      @starting-style {
+        translate: 0 100%;
+      }
+    }
+
+    .source-navigation-page .source-picker.is-swipe-dismissed {
+      transition: none;
+    }
   }
 
   .source-navigation-page .picker-sheet {
@@ -558,14 +591,14 @@ body:has(.source-navigation-page .source-picker:modal) {
   }
 
   .source-navigation-page .topic-bar .filter {
-    height: 36px;
-    font-size: 14px;
+    min-height: max(36px, calc(1em + 16px));
+    font-size: 0.875rem;
   }
 
   .source-navigation-page .desktop-source-search {
     display: inline-flex;
     width: auto;
-    height: 36px;
+    min-height: max(36px, calc(1.5em + 14px));
     flex: 0 0 auto;
     align-items: center;
     justify-content: center;

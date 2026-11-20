@@ -43,7 +43,7 @@ const newestPublishedAt = (group: SourceCollection) => {
     </div>
   </div>
 
-  <dialog id="source-picker" class="source-picker" aria-labelledby="source-picker-title">
+  <dialog id="source-picker" class="source-picker" closedby="any" aria-labelledby="source-picker-title">
     <div class="picker-sheet">
       <div class="picker-grabber" aria-hidden="true"></div>
       <header class="picker-header">
@@ -179,6 +179,11 @@ const newestPublishedAt = (group: SourceCollection) => {
     const pickerTitle = nav.querySelector<HTMLElement>('#source-picker-title')!;
     const results = nav.querySelector<HTMLElement>('[data-picker-results]')!;
     const sourceButtons = [...nav.querySelectorAll<HTMLButtonElement>('[data-picker-source]')];
+    const groupsById = new Map(allGroups.map((group) => [group.id, group]));
+    const buttonsById = new Map(sourceButtons.map((button) => [button.dataset.sourceId, button]));
+    const topicBar = document.querySelector<HTMLElement>('.topic-bar');
+    sourceButtons.forEach((button) => button.setAttribute('aria-pressed', 'false'));
+    let selectedSourceButton: HTMLButtonElement | undefined;
     let visibleGroups: HTMLElement[] = [];
     let current: HTMLElement | undefined;
     let explicitlySelected = false;
@@ -192,11 +197,6 @@ const newestPublishedAt = (group: SourceCollection) => {
 
     function refreshVisible() {
       visibleGroups = allGroups.filter((group) => !group.hidden);
-      sourceButtons.forEach((button) => {
-        const group = allGroups.find((item) => item.id === button.dataset.sourceId);
-        button.classList.toggle('is-current', group === current);
-        button.setAttribute('aria-pressed', String(group === current));
-      });
       if (!visibleGroups.includes(current!)) current = visibleGroups[0];
       if (!visibleGroups.length) current = undefined;
       updateControls();
@@ -204,19 +204,23 @@ const newestPublishedAt = (group: SourceCollection) => {
 
     function updateControls() {
       const previous = previousSource();
+      const nextTarget = nextSource();
+      const previousLabel = previous && previous === current ? 'Back to source top' : 'Previous source';
       updateSourceLabel();
-      prev.disabled = !previous;
-      prev.setAttribute('aria-label', previous && previous === current ? 'Back to source top' : 'Previous source');
-      next.disabled = !nextSource();
-      sourceButtons.forEach((button) => {
-        const group = allGroups.find((item) => item.id === button.dataset.sourceId);
-        button.classList.toggle('is-current', group === current);
-        button.setAttribute('aria-pressed', String(group === current));
-      });
+      if (prev.disabled !== !previous) prev.disabled = !previous;
+      if (prev.getAttribute('aria-label') !== previousLabel) prev.setAttribute('aria-label', previousLabel);
+      if (next.disabled !== !nextTarget) next.disabled = !nextTarget;
+      const selected = current ? buttonsById.get(current.id) : undefined;
+      if (selected !== selectedSourceButton) {
+        selectedSourceButton?.classList.remove('is-current');
+        selectedSourceButton?.setAttribute('aria-pressed', 'false');
+        selected?.classList.add('is-current');
+        selected?.setAttribute('aria-pressed', 'true');
+        selectedSourceButton = selected;
+      }
     }
 
     function stickyOffset(inset = 12) {
-      const topicBar = document.querySelector<HTMLElement>('.topic-bar');
       if (mobileDock.matches) return mobileTopicBarHeight(topicBar) + inset;
       return (topicBar?.getBoundingClientRect().height ?? 0) + 12;
     }
@@ -309,20 +313,8 @@ const newestPublishedAt = (group: SourceCollection) => {
     function openPicker(event: Event) {
       opener = event.currentTarget as HTMLButtonElement;
       refreshVisible();
-      if (!dialog.open) {
-        dialog.showModal();
-        if (window.matchMedia('(max-width: 640px)').matches
-          && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          const openingAnimation = dialog.animate(
-            [{ transform: 'translateY(100%)' }, { transform: 'translateY(0)' }],
-            { duration: 240, easing: 'cubic-bezier(.22, 1, .36, 1)' },
-          );
-          sheetAnimation = openingAnimation;
-          openingAnimation.onfinish = () => {
-            if (sheetAnimation === openingAnimation) sheetAnimation = undefined;
-          };
-        }
-      }
+      dialog.classList.remove('is-swipe-dismissed');
+      if (!dialog.open) dialog.showModal();
       sourceSwitcher.setAttribute('aria-expanded', 'true');
       requestAnimationFrame(() => {
         pickerTitle.focus({ preventScroll: true });
@@ -357,7 +349,11 @@ const newestPublishedAt = (group: SourceCollection) => {
       sheetTouch = undefined;
       const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const finish = () => {
-        if (dismiss && dialog.open) dialog.close();
+        if (dismiss && dialog.open) {
+          // The gesture has already animated the exit; don't replay the CSS exit.
+          dialog.classList.add('is-swipe-dismissed');
+          dialog.close();
+        }
         dialog.style.removeProperty('transform');
         sheetAnimation = undefined;
         sheetDistance = 0;
@@ -374,7 +370,7 @@ const newestPublishedAt = (group: SourceCollection) => {
     }
 
     dialog.addEventListener('touchstart', (event) => {
-      if (!window.matchMedia('(max-width: 640px)').matches || sheetAnimation || event.touches.length !== 1) return;
+      if (!mobileDock.matches || sheetAnimation || dialog.getAnimations().length || event.touches.length !== 1) return;
       const inList = event.target instanceof Node && results.contains(event.target);
       if (inList && results.scrollTop > 1) return;
       const touch = event.touches[0];
@@ -426,9 +422,14 @@ const newestPublishedAt = (group: SourceCollection) => {
         event.stopImmediatePropagation();
       }
     }, { capture: true });
-    dialog.addEventListener('click', (event) => {
-      if (event.target === dialog) dialog.close();
-    });
+    if (!('closedBy' in HTMLDialogElement.prototype)) {
+      dialog.addEventListener('click', (event) => {
+        if (event.target !== dialog) return;
+        const bounds = dialog.getBoundingClientRect();
+        if (event.clientX < bounds.left || event.clientX > bounds.right
+          || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+      });
+    }
     dialog.addEventListener('close', () => {
       sourceSwitcher.setAttribute('aria-expanded', 'false');
       sheetAnimation?.cancel();
@@ -449,7 +450,7 @@ const newestPublishedAt = (group: SourceCollection) => {
       }
     });
     sourceButtons.forEach((button) => button.addEventListener('click', () => {
-      const group = allGroups.find((item) => item.id === button.dataset.sourceId);
+      const group = groupsById.get(button.dataset.sourceId!);
       if (group?.hidden) {
         choosingFilteredSource = true;
         document.dispatchEvent(new CustomEvent('source-category-reset'));
@@ -473,14 +474,29 @@ const newestPublishedAt = (group: SourceCollection) => {
       if (pendingTarget && visibleGroups.includes(pendingTarget)) return;
       const threshold = mobileDock.matches
         ? stickyOffset() + 24
-        : (document.querySelector<HTMLElement>('.topic-bar')?.getBoundingClientRect().height ?? 0) + 36;
-      let anchor = visibleGroups[0];
-      for (const group of visibleGroups) {
-        if (group.getBoundingClientRect().top > threshold) break;
-        anchor = group;
+        : (topicBar?.getBoundingClientRect().height ?? 0) + 36;
+      // Grid auto-placement preserves row order. Read only the search path and
+      // adjacent row; keeping measurements local avoids stale heights after paging.
+      const tops = new Map<number, number>();
+      const topAt = (index: number) => {
+        if (!tops.has(index)) tops.set(index, visibleGroups[index].getBoundingClientRect().top);
+        return tops.get(index)!;
+      };
+      let low = 0;
+      let high = visibleGroups.length;
+      while (low < high) {
+        const middle = (low + high) >>> 1;
+        if (topAt(middle) <= threshold) low = middle + 1;
+        else high = middle;
       }
-      const anchorTop = anchor.getBoundingClientRect().top;
-      const row = visibleGroups.filter((group) => Math.abs(group.getBoundingClientRect().top - anchorTop) < 28);
+      const anchorIndex = Math.max(0, low - 1);
+      const anchor = visibleGroups[anchorIndex];
+      const anchorTop = topAt(anchorIndex);
+      let rowStart = anchorIndex;
+      let rowEnd = anchorIndex + 1;
+      while (rowStart > 0 && Math.abs(topAt(rowStart - 1) - anchorTop) < 28) rowStart--;
+      while (rowEnd < visibleGroups.length && Math.abs(topAt(rowEnd) - anchorTop) < 28) rowEnd++;
+      const row = visibleGroups.slice(rowStart, rowEnd);
       if (explicitlySelected && current && row.includes(current)) {
         // Preserve a deliberate choice while its desktop row remains current.
       } else {

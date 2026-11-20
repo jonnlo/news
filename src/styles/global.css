@@ -2,25 +2,25 @@
 
 :root {
   --site-font-stack: "Inter Variable", Inter, "PingFang HK", "PingFang SC", "PingFang TC", "Hiragino Sans", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans CJK TC", system-ui, sans-serif;
-  --story-font-size: 16px;
+  --story-font-size: 1rem;
   --story-card-padding: 8px 12px;
   --story-row-block-padding: 8px;
   --story-marker-gutter: calc(0.72em + 10px);
   font-family: var(--site-font-stack);
-  color-scheme: light;
+  color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --ground: oklch(95.0% 0.8% 230.0);
-  --surface: oklch(100.0% 0.0% 0.0);
-  --raised: oklch(91.9% 0.0% 0.0);
-  --rule: oklch(86.4% 0.0% 0.0);
+  --ground: light-dark(oklch(95.0% 0.8% 230.0), oklch(16.0% 0.8% 230.0));
+  --surface: light-dark(oklch(100.0% 0.0% 0.0), oklch(21.6% 1.5% 121.9));
+  --raised: light-dark(oklch(91.9% 0.0% 0.0), oklch(26.6% 1.9% 118.3));
+  --rule: light-dark(oklch(86.4% 0.0% 0.0), oklch(32.6% 2.6% 114.7));
   --ui-radius: 3px;
-  --text: oklch(24.4% 0.0% 0.0);
-  --muted-copy: oklch(47.8% 0.0% 0.0);
-  --faint-copy: oklch(55.6% 0.0% 0.0);
-  --wordmark-copy: oklch(43.1% 0.0% 0.0);
+  --text: light-dark(oklch(24.4% 0.0% 0.0), oklch(96.7% 1.7% 97.3));
+  --muted-copy: light-dark(oklch(47.8% 0.0% 0.0), oklch(80.3% 2.8% 100.9));
+  --faint-copy: light-dark(oklch(55.6% 0.0% 0.0), oklch(68.8% 2.9% 100.9));
+  --wordmark-copy: light-dark(oklch(43.1% 0.0% 0.0), oklch(73.4% 2.5% 100.0));
   --theme-accent: oklch(46.3% 15.7% 338.1);
-  --theme-accent-text: var(--theme-accent);
+  --theme-accent-text: light-dark(var(--theme-accent), oklch(73.8% 12.6% 343.9));
   --theme-accent-foreground: oklch(100.0% 0.0% 0.0);
 
   --background: var(--ground);
@@ -36,25 +36,18 @@
   --muted: var(--raised);
   --muted-foreground: var(--muted-copy);
   --border: var(--rule);
-  --input: oklch(83.3% 0.0% 0.0);
-  --ring: oklch(50.3% 0.0% 0.0);
+  --input: light-dark(oklch(83.3% 0.0% 0.0), oklch(39.1% 2.9% 113.5));
+  --ring: light-dark(oklch(50.3% 0.0% 0.0), oklch(75.8% 3.0% 84.6));
   --outline: var(--ring);
   --radius: 0.625rem;
 }
 
 .dark {
   color-scheme: dark;
-  --ground: oklch(16.0% 0.8% 230.0);
-  --surface: oklch(21.6% 1.5% 121.9);
-  --raised: oklch(26.6% 1.9% 118.3);
-  --rule: oklch(32.6% 2.6% 114.7);
-  --text: oklch(96.7% 1.7% 97.3);
-  --muted-copy: oklch(80.3% 2.8% 100.9);
-  --faint-copy: oklch(68.8% 2.9% 100.9);
-  --wordmark-copy: oklch(73.4% 2.5% 100.0);
-  --theme-accent-text: oklch(73.8% 12.6% 343.9);
-  --input: oklch(39.1% 2.9% 113.5);
-  --ring: oklch(75.8% 3.0% 84.6);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
 }
 
 @theme inline {
@@ -85,20 +78,17 @@
     min-width: 320px;
     font-family: var(--font-sans);
     background: var(--ground);
-    color-scheme: light;
-  }
-
-  html.dark {
-    color-scheme: dark;
   }
 
   body {
     @apply bg-background text-foreground;
+    /* The site root owns the scheme; override Starwind's light-only body default. */
+    color-scheme: inherit;
     min-width: 320px;
     min-height: 100vh;
     margin: 0;
     font-family: var(--site-font-stack);
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.5;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -114,23 +104,20 @@
   }
 }
 
-html.pointer-mode :focus-visible {
-  outline: none !important;
-  box-shadow: none !important;
-}
-
 .masthead {
   width: 100%;
-  height: 78px;
+  min-height: 78px;
   padding-top: 16px;
 }
 
 .masthead-inner {
   width: calc(100% - 48px);
   max-width: 1520px;
-  height: 100%;
+  min-height: 62px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
   align-items: center;
   justify-content: space-between;
 }
@@ -140,11 +127,13 @@ html.pointer-mode :focus-visible {
   display: flex;
   align-items: center;
   gap: 18px;
+  margin-inline-start: auto;
 }
 
 .wordmark {
+  max-width: 100%;
   color: var(--wordmark-copy);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -161,7 +150,7 @@ html.pointer-mode :focus-visible {
   border-radius: 50%;
   background: transparent;
   color: var(--muted-copy);
-  font-size: 12px;
+  font-size: 0.75rem;
   transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
 }
 
@@ -215,7 +204,7 @@ html.pointer-mode :focus-visible {
 
 .page-heading h1 {
   margin-top: 8px;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 600;
 }
@@ -235,13 +224,15 @@ html.pointer-mode :focus-visible {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  height: 30px;
+  /* Override the Button variant's fixed height while retaining its default size. */
+  height: auto;
+  min-height: max(30px, calc(1em + 16px));
   padding: 0 12px;
   border: 1px solid var(--rule);
   border-radius: var(--ui-radius);
   background: transparent;
   color: var(--muted-copy);
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1;
   cursor: pointer;
   transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
@@ -303,20 +294,20 @@ html.pointer-mode :focus-visible {
   gap: 6px;
   margin: 0;
   color: var(--faint-copy);
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.4;
 }
 
 .story-age {
   flex: 0 0 auto;
   color: var(--faint-copy);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.4;
   font-variant-numeric: tabular-nums;
 }
 
 .story-title > .story-age {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: right;
   white-space: nowrap;
 }
@@ -432,7 +423,7 @@ html.pointer-mode :focus-visible {
 .empty-state,
 .empty-panel {
   color: var(--muted-copy);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .empty-state {
@@ -448,7 +439,7 @@ html.pointer-mode :focus-visible {
 .empty-panel h2 {
   margin: 0;
   color: var(--text);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -459,7 +450,7 @@ html.pointer-mode :focus-visible {
 .back-link {
   flex: 0 0 auto;
   color: var(--muted-copy);
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .back-link:hover,
@@ -475,7 +466,7 @@ html.pointer-mode :focus-visible {
   padding-top: 15px;
   border-top: 1px solid var(--rule);
   color: var(--faint-copy);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .page-footer a {
@@ -484,12 +475,16 @@ html.pointer-mode :focus-visible {
 
 @media (max-width: 640px) {
   :root {
-    --story-font-size: 15px;
+    --story-font-size: 0.9375rem;
     --story-row-block-padding: 5px;
   }
 
   .masthead {
-    height: 74px;
+    min-height: 74px;
+  }
+
+  .masthead-inner {
+    min-height: 58px;
   }
 
   .masthead-inner,
@@ -517,11 +512,11 @@ html.pointer-mode :focus-visible {
   }
 
   .page-heading h1 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .filter {
-    height: 34px;
+    min-height: max(34px, calc(1em + 16px));
   }
 
   .story-list {
@@ -535,7 +530,7 @@ html.pointer-mode :focus-visible {
 
   .story-meta {
     gap: 6px 8px;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .story-marker {
@@ -578,7 +573,7 @@ html.pointer-mode :focus-visible {
 
 .site-blurb {
   margin: 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: normal;
@@ -587,14 +582,14 @@ html.pointer-mode :focus-visible {
 .site-description {
   margin: 0;
   color: var(--text);
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.5;
 }
 
 .last-updated {
   margin: 8px 0 0;
   color: var(--muted-copy);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.4;
 }
 
@@ -772,7 +767,7 @@ html.pointer-mode :focus-visible {
   align-items: center;
   gap: 12px;
   margin: 0;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.01em;
@@ -789,7 +784,7 @@ html.pointer-mode :focus-visible {
   height: calc(1cap - 2px);
   border-radius: 2px;
   background: var(--theme-accent-text);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .source-tab-label a {
@@ -812,7 +807,7 @@ html.pointer-mode :focus-visible {
   margin: 0;
   padding: 12px 0;
   color: var(--muted-copy);
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .source-list > .empty-state {

@@ -25,6 +25,10 @@ npm run build
 
 With `npm run dev` running, open `http://localhost:4321/` for the site or `http://localhost:4321/keystatic` to edit categories, sources, and the About page. In Keystatic, choose **About page** to edit the formatted page copy. Keystatic saves these edits to the project files.
 
+Run `npm run test:browser` against the running dev server for Chromium checks of theme preferences, source navigation, pagination, modal focus and dismissal, swipe cancellation, and text scaling. To check a production preview, set `BROWSER_TEST_URL` to its origin (for example, `BROWSER_TEST_URL=http://localhost:4322 npm run test:browser`). Set `BROWSER_TEST_SCREENSHOTS` to a directory to save desktop/mobile screenshots in both themes, including enlarged text.
+
+The theme follows the system unless a saved light or dark preference overrides it. Toggling back to the system's current theme restores automatic switching; changes synchronize across open tabs.
+
 To fetch headlines for development, double-click **Fetch News for Dev.command** on macOS or run `npm run collect:local`. The collector saves snapshots in the Git-ignored `src/data/local-editions/` folder. The dev site shows the newest dated edition and prefers the local snapshot when both have the same Hong Kong date. Reload the page after the fetch finishes. Use `npm run collect` when you intend to refresh the edition under `src/data/editions/`.
 
 On mobile, category chips jump to the first source in each topic and **All** returns to the start of the feed. The pinned bar follows the category as you scroll. The bottom source switcher jumps to individual publishers and steps through the full feed. On desktop, the sticky category bar filters the grid. The source picker includes all publishers, and choosing one outside the desktop filter switches to **All** before jumping to it. A category link opens at that topic on mobile and filters the grid on desktop. The `/navigation/` preview URL also opens this view.

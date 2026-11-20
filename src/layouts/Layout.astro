@@ -14,6 +14,8 @@ const imageAlt = 'one more tab. on a white file-tab card against a gray backgrou
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="text-scale" content="scale" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:type" content="website" />
@@ -44,11 +46,13 @@ const imageAlt = 'one more tab. on a white file-tab card against a gray backgrou
           'width=device-width, initial-scale=1, viewport-fit=cover',
         );
       }
-      try {
-        if (localStorage.getItem('daily-brief-theme') === 'dark') {
-          document.documentElement.classList.add('dark');
-        }
-      } catch {}
+      let savedTheme;
+      try { savedTheme = localStorage.getItem('daily-brief-theme'); } catch {}
+      if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+      const initiallyDark = savedTheme === 'dark'
+        || (savedTheme !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.classList.toggle('dark', initiallyDark);
+      document.querySelector('meta[name="theme-color"]')?.setAttribute('content', initiallyDark ? '#10110f' : '#ededed');
     </script>
   </head>
   <body>
@@ -57,14 +61,14 @@ const imageAlt = 'one more tab. on a white file-tab card against a gray backgrou
       const themeToggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
       const themeColor = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
       const root = document.documentElement;
-
-      document.addEventListener('pointerdown', () => root.classList.add('pointer-mode'), true);
-      document.addEventListener('keydown', (event) => {
-        if (event.key === 'Tab') root.classList.remove('pointer-mode');
-      }, true);
+      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
+      let preference = root.dataset.theme;
 
       function syncThemeControl() {
-        const isDark = document.documentElement.classList.contains('dark');
+        const isDark = preference === 'dark' || (preference !== 'light' && systemTheme.matches);
+        root.classList.toggle('dark', isDark);
+        if (preference) root.dataset.theme = preference;
+        else delete root.dataset.theme;
         themeToggle?.setAttribute('aria-pressed', String(isDark));
         themeToggle?.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
         themeColor?.setAttribute('content', isDark ? '#10110f' : '#ededed');
@@ -72,10 +76,20 @@ const imageAlt = 'one more tab. on a white file-tab card against a gray backgrou
 
       syncThemeControl();
       themeToggle?.addEventListener('click', () => {
-        const isDark = document.documentElement.classList.toggle('dark');
+        const target = root.classList.contains('dark') ? 'light' : 'dark';
+        // Toggling back to the system's current scheme restores automatic mode.
+        preference = target === (systemTheme.matches ? 'dark' : 'light') ? undefined : target;
         try {
-          localStorage.setItem('daily-brief-theme', isDark ? 'dark' : 'light');
+          if (preference) localStorage.setItem('daily-brief-theme', preference);
+          else localStorage.removeItem('daily-brief-theme');
         } catch {}
+        syncThemeControl();
+      });
+      systemTheme.addEventListener('change', syncThemeControl);
+      window.addEventListener('storage', (event) => {
+        if (event.key !== 'daily-brief-theme' && event.key !== null) return;
+        const value = event.key === null ? null : event.newValue;
+        preference = value === 'light' || value === 'dark' ? value : undefined;
         syncThemeControl();
       });
     </script>

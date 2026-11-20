@@ -62,6 +62,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
 <Layout title="One More Tab – Links Worth Opening" description={siteDescription}>
   <SiteHeader active="latest" />
   <main class="page-shell latest-page source-navigation-page">
+    <h1 class="sr-only">Latest headlines</h1>
     <section class="latest-heading" aria-label="About this collection">
       <div class="site-intro">
         <p class="site-blurb">What's happening, and a little more.</p>
@@ -314,6 +315,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       const nextHeight = hidden
         ? state.pageHeights.get(nextPage) ?? pageHeight(newPanel)
         : pageHeight(newPanel);
+      const viewportWidth = state.viewport.clientWidth;
       if (!hidden) state.pageHeights.set(nextPage, nextHeight);
       const documentTop = viewportRect.top + window.scrollY;
       const wasAbove = !hidden && viewportRect.height > 0 && viewportRect.bottom <= 0;
@@ -341,7 +343,7 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
         else button.removeAttribute('aria-current');
       });
       state.viewport.style.height = `${nextHeight}px`;
-      state.track.style.setProperty('--story-track-x', nextPage === 1 ? '0px' : `${-state.viewport.clientWidth}px`);
+      state.track.style.setProperty('--story-track-x', nextPage === 1 ? '0px' : `${-viewportWidth}px`);
       if (!animate || reducedStoryMotion.matches) {
         state.viewport.classList.add('is-immediate');
         void state.viewport.offsetHeight;
@@ -634,7 +636,17 @@ const siteDescription = `What's happening, and a little more. No algorithms. Jus
       syncStickyVisibility();
       updateScrollTopic();
     });
-    if (topicBar) new ResizeObserver(updateScrollTopic).observe(topicBar);
+    let rootFontSize = getComputedStyle(document.documentElement).fontSize;
+    if (topicBar) new ResizeObserver(() => {
+      const nextFontSize = getComputedStyle(document.documentElement).fontSize;
+      if (nextFontSize !== rootFontSize) {
+        rootFontSize = nextFontSize;
+        // Descendant rem values can still reflect the previous style pass inside
+        // the observer delivery. Measure on the next frame after they resolve.
+        requestAnimationFrame(refreshStoryHeights);
+      }
+      updateScrollTopic();
+    }).observe(topicBar);
     mobile.addEventListener('change', () => syncCategoryMode(true));
     function refreshTopicBar() {
       syncStickyVisibility(true);

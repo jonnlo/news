@@ -203,9 +203,10 @@ const newestPublishedAt = (group: SourceCollection) => {
     }
 
     function updateControls() {
-      const index = current ? visibleGroups.indexOf(current) : -1;
+      const previous = previousSource();
       updateSourceLabel();
-      prev.disabled = index <= 0;
+      prev.disabled = !previous;
+      prev.setAttribute('aria-label', previous && previous === current ? 'Back to source top' : 'Previous source');
       next.disabled = !nextSource();
       sourceButtons.forEach((button) => {
         const group = allGroups.find((item) => item.id === button.dataset.sourceId);
@@ -224,6 +225,14 @@ const newestPublishedAt = (group: SourceCollection) => {
       const top = group.getBoundingClientRect().top + window.scrollY - stickyOffset(mobileDock.matches ? 8 : 12);
       const pinTop = mobileDock.matches && topicSlot ? Math.ceil(topicSlot.getBoundingClientRect().top + window.scrollY) : 0;
       return Math.max(0, pinTop, top);
+    }
+
+    function previousSource() {
+      if (current && mobileDock.matches && window.scrollY - sourceScrollTop(current) > 24) {
+        return current;
+      }
+      const index = current ? visibleGroups.indexOf(current) : -1;
+      return index > 0 ? visibleGroups[index - 1] : undefined;
     }
 
     function nextSource() {
@@ -451,8 +460,8 @@ const newestPublishedAt = (group: SourceCollection) => {
       if (group) jumpTo(group, true, true);
     }));
     prev.addEventListener('click', () => {
-      const index = current ? visibleGroups.indexOf(current) : -1;
-      if (index > 0) jumpTo(visibleGroups[index - 1]);
+      const target = previousSource();
+      if (target && target !== pendingTarget) jumpTo(target);
     });
     next.addEventListener('click', () => {
       const target = nextSource();

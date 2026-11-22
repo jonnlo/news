@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-22",
-  "generatedAt": "2026-11-21T23:22:53.011Z",
-  "collectedAt": "2026-11-21T23:22:53.011Z",
+  "generatedAt": "2026-11-22T00:17:18.703Z",
+  "collectedAt": "2026-11-22T00:17:18.703Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,6 +20,15 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "International UN talks on controlling use of autonomous weapons collapse",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+          "publishedAt": "2026-11-21T23:10:21.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50594564"
+        },
         {
           "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
           "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
@@ -185,18 +199,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
-        },
-        {
-          "title": "We promoted developers into architects without informing them",
-          "url": "https://manidoraisamy.com/developer-to-architect.html",
-          "publishedAt": "2026-11-20T18:17:51.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50579331"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches \"zero espionage\" executive girlfriends (Wired)",
+          "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+          "publishedAt": "2026-11-22T00:10:02.000Z",
+          "excerpt": "Wired : Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches &ldquo;zero espionage&rdquo; executive girlfriends &nbsp; &mdash;&nbsp; The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech wo",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261121/p11#a261121p11",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under \"ZDR\" policies, and saw \"privacy\" often broken, keys stolen (Dan Goodin/Ars Technica)",
           "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
@@ -1445,20 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261120/p42#a261120p42",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers (Wall Street Journal)",
-          "url": "https://www.wsj.com/business/retail/wonder-explores-sale-of-food-delivery-business-grubhub-3c80c830?st=D3FY3c&reflink=desktopwebshare_permalink",
-          "publishedAt": "2026-11-20T23:20:00.000Z",
-          "excerpt": "Wall Street Journal : Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers &nbsp; &mdash;&nbsp; Bankers have been in contact with Walmart, Target, Kroger and other retailers about a potential ",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261120/p41#a261120p41",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1471,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "This is the best type of wireless earbuds for audio output",
+          "url": "https://www.engadget.com/2319289/wireless-earbuds-type-best-for-audio-output/",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "excerpt": "Comfort, price and aesthetics obviously impact what we put on our ears, but if sound fidelity is your priority, this kind of wireless earbud is the best choice.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How to calibrate your 3D printer (and why you should)",
+          "url": "https://www.engadget.com/2310980/how-to-calibrate-3d-printer-why-should/",
+          "publishedAt": "2026-11-21T23:45:00.000Z",
+          "excerpt": "Your 3D printer might not need replacing just because its prints keep failing. A few calibration checks could solve the problem and improve print quality.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Building your own mini PC is harder than you would think",
+          "url": "https://www.engadget.com/2319272/build-mini-pc-cost-harder-than-expected/",
+          "publishedAt": "2026-11-21T23:30:00.000Z",
+          "excerpt": "Mini PCs are appealing for their small footprint, but there are some things you should consider before you commit to building your own.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Six products and services Google discontinued in 2026",
           "url": "https://www.engadget.com/2319181/google-products-services-discontinued-2026/",
@@ -1618,36 +1650,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Which car has the largest infotainment touchscreen?",
-          "url": "https://www.engadget.com/2318759/largest-car-infotainment-touchscreen/",
-          "publishedAt": "2026-11-21T19:00:00.000Z",
-          "excerpt": "Most modern cars will have some kind of infotainment touchscreen, though not all are created equal. One car, in particular, rules the roost for sheer size.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Six simple Raspberry Pi projects for beginners",
-          "url": "https://www.engadget.com/2318530/simple-raspberry-pi-projects-for-beginners/",
-          "publishedAt": "2026-11-21T18:45:00.000Z",
-          "excerpt": "Stop leaving your Pi projects unfinished with these six accessible ideas.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How to use a solar panel to charge your phone",
-          "url": "https://www.engadget.com/2318512/how-to-use-solar-panel-charge-phone/",
-          "publishedAt": "2026-11-21T18:30:00.000Z",
-          "excerpt": "Can sunlight really charge your phone? Learn how portable solar chargers work and which features to look for before your next camping trip or blackout.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1660,42 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Quordle hints and answers for Sunday, November 22 (game #1763)",
+          "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-22-november-2026",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "NYT Strands hints and answers for Sunday, November 22 (game #994)",
+          "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-22-november-2026",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "NYT Connections hints and answers for Sunday, November 22 (game #1260)",
+          "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-22-november-2026",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Smuggling AI into a national exam room: A South Korean candidate used a pinhole camera and concealed earpiece to score 159/160 before turning himself in",
+          "url": "https://www.techradar.com/pro/smuggling-ai-into-a-national-exam-room-a-south-korean-candidate-used-a-pinhole-camera-and-concealed-earpiece-to-score-159-160-before-turning-himself-in",
+          "publishedAt": "2026-11-21T23:35:00.000Z",
+          "excerpt": "A South Korean candidate allegedly used miniature cameras, smartphones, and artificial intelligence to cheat across professional examinations, scoring 159 out of 160.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Future generations of AI systems will continue to accelerate': New report claims that by 2030, the world could generate approximately 317 billion AI tokens every second",
           "url": "https://www.techradar.com/pro/future-generations-of-ai-systems-will-continue-to-accelerate-new-report-claims-that-by-2030-the-world-could-generate-approximately-317-billion-ai-tokens-every-second",
@@ -1798,45 +1839,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "OpenAI claims AI agents now complete nearly half of two-to-four-hour research tasks on their own — but says 'humans are still central to AI development'",
-          "url": "https://www.techradar.com/pro/openai-claims-ai-agents-now-complete-nearly-half-of-two-to-four-hour-research-tasks-on-their-own-but-says-humans-are-still-central-to-ai-development",
-          "publishedAt": "2026-11-21T14:15:00.000Z",
-          "excerpt": "OpenAI reports rising autonomous research performance, increased spending on coding agents, and persistent limitations that keep human researchers closely involved",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Amazon just released one of the best Android tablets this year, and now it's massively discounted in the early Black Friday deals",
-          "url": "https://www.techradar.com/seasonal-sales/amazon-just-released-one-of-the-best-android-tablets-this-year-and-now-its-massively-discounted-in-early-black-friday-deals",
-          "publishedAt": "2026-11-21T14:08:50.000Z",
-          "excerpt": "Surprisingly svelte, performant and affordable, too, Amazon's Alexa Tablets make for some of the best deals I've seen ahead of Black Friday",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How to watch Italy vs Fiji for FREE: Nations Championship 2026 live streams & TV channels",
-          "url": "https://www.techradar.com/entertainment/rugby/watch-italy-vs-fiji-free-nations-championship-2026",
-          "publishedAt": "2026-11-21T14:00:00.000Z",
-          "excerpt": "All the ways to watch Italy vs Fiji live streams online – including for FREE – with both sides looking for their first win of the 2026 Nations Championship.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "I compared Krovatar's 4K Blu-ray player with the Panasonic DP-UB820 — here’s what I learned",
-          "url": "https://www.techradar.com/televisions/blu-ray/i-tested-krovatars-4k-blu-ray-player-against-the-panasonic-dp-ub820",
-          "publishedAt": "2026-11-21T14:00:00.000Z",
-          "excerpt": "A new 4K Blu-ray player has arrived on the scene: how does the Krovatar KBU-300 compare to the Panasonic DP-UB820?",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2219,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2408,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Fast Company",
@@ -2413,7 +2418,7 @@
       "stories": [
         {
           "title": "The future of live entertainment",
-          "url": "https://www.fastcompany.com/91645236/the-future-of-live-entertainment?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91645236/the-future-of-live-entertainment?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-11-20T20:16:00.000Z",
           "excerpt": "Put down your phones: We’re on the precipice of a cultural renaissance.",
           "source": "Fast Company",
@@ -2422,7 +2427,7 @@
         },
         {
           "title": "The hidden human intelligence of design",
-          "url": "https://www.fastcompany.com/91645198/the-hidden-human-intelligence-of-design?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91645198/the-hidden-human-intelligence-of-design?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-11-20T19:29:47.000Z",
           "excerpt": "As in many professions, human empathy, expertise, and judgment drive real-world outcomes.",
           "source": "Fast Company",
@@ -2431,7 +2436,7 @@
         },
         {
           "title": "The success KPIs nonprofits get right",
-          "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-11-12T19:14:00.000Z",
           "excerpt": "When purpose is clear, money is the means, not the primary destination.",
           "source": "Fast Company",
@@ -2440,7 +2445,7 @@
         },
         {
           "title": "Innovation starts at the edges",
-          "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-11-06T13:00:00.000Z",
           "excerpt": "Start by asking who has been left out of the design.",
           "source": "Fast Company",
@@ -2449,7 +2454,7 @@
         },
         {
           "title": "Could AI give older creatives a second act?",
-          "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-11-01T05:00:00.000Z",
           "excerpt": "In fields that favor the young, the AI era may actually position more seasoned professionals favorably.",
           "source": "Fast Company",
@@ -2458,7 +2463,7 @@
         },
         {
           "title": "3 design principles in the AI age",
-          "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-10-27T12:00:00.000Z",
           "excerpt": "Iteration, feedback, and connecting the dots are important with or without AI use.",
           "source": "Fast Company",
@@ -2467,7 +2472,7 @@
         },
         {
           "title": "It doesn’t matter if your brand’s visual identity looks good",
-          "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-09-23T12:00:00.000Z",
           "excerpt": "The advantage now goes to brands that mean something and give people a reason to care.",
           "source": "Fast Company",
@@ -2476,7 +2481,7 @@
         },
         {
           "title": "The creative economy’s greatest competitive advantage",
-          "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-08-12T12:00:00.000Z",
           "excerpt": "The classroom experience provides space to take risks, sharpen critical thinking, and deepen cultural fluency.",
           "source": "Fast Company",
@@ -2485,7 +2490,7 @@
         },
         {
           "title": "What should the future look like? Inside the tech-funded program to create a new aesthetic",
-          "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-08-12T09:00:00.000Z",
           "excerpt": "Billionaire Stripe CEO Patrick Collison and libertarian economist Tyler Cowen have created a grant program to replace modernism—and define a new look for the 21st century.",
           "source": "Fast Company",
@@ -2494,7 +2499,7 @@
         },
         {
           "title": "Designing for the edges improves the center",
-          "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-07-17T12:00:00.000Z",
           "excerpt": "When products work for people with the most constraints, they tend to work better for everyone.",
           "source": "Fast Company",
@@ -2503,7 +2508,7 @@
         },
         {
           "title": "People thought this MLB hat had a defect. It’s actually a clever hidden reference",
-          "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-07-15T10:00:00.000Z",
           "excerpt": "An exclusive Phillies All-Star Game hat features a graphic that history buffs will recognize.",
           "source": "Fast Company",
@@ -2512,7 +2517,7 @@
         },
         {
           "title": "Design history, as told through 125 objects",
-          "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-07-13T10:00:00.000Z",
           "excerpt": "Cooper Hewitt’s new permanent collection exhibition is meant to be a conversation starter.",
           "source": "Fast Company",
@@ -2521,7 +2526,7 @@
         },
         {
           "title": "5 trends in design right now",
-          "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-07-07T16:43:24.000Z",
           "excerpt": "What the 5th annual iF Design Trend Report found that may surprise you.",
           "source": "Fast Company",
@@ -2530,7 +2535,7 @@
         },
         {
           "title": "Here’s one thing AI can’t do",
-          "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-06-24T21:23:31.000Z",
           "excerpt": "Fast Company creative director Mike Schnaidt breaks down the design process behind the magazine’s latest cover.",
           "source": "Fast Company",
@@ -2539,7 +2544,7 @@
         },
         {
           "title": "Use AI to augment design, not replace it",
-          "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11212026",
+          "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11222026",
           "publishedAt": "2026-06-01T18:02:00.000Z",
           "excerpt": "The growing push toward full automation is a mistake.",
           "source": "Fast Company",
@@ -2547,7 +2552,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Creative Bloq",
@@ -2736,7 +2741,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2950,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3119,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3288,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3377,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3546,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3715,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3904,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4088,7 +4093,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4282,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The New Yorker",
@@ -4349,19 +4354,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Have Yourself a Kitschy Little Christmas",
-          "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
+          "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
+          "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
           "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "Leave your good taste at the door.",
+          "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
-          "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
+          "title": "Have Yourself a Kitschy Little Christmas",
+          "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
           "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
+          "excerpt": "Leave your good taste at the door.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4466,7 +4471,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4600,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "IndieWire",
@@ -4603,6 +4608,14 @@
       "kind": "rss",
       "count": 12,
       "stories": [
+        {
+          "title": "If There’s Generative AI in ‘The Mis-Adventures of Cliff Booth,’ It’s Not the First Time David Fincher’s Used It",
+          "url": "https://www.indiewire.com/features/craft/generative-ai-tools-david-fincher-cliff-booth-1235229866/",
+          "publishedAt": "2026-11-21T23:45:00.000Z",
+          "excerpt": "It was also used in the 4K Remaster of \"Se7en\" to bring the film as close as possible to the original print.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
         {
           "title": "Trump Renews Backing for Federal Film Tax Credit as Lawmakers Push for Year-End Passage",
           "url": "https://www.indiewire.com/news/breaking-news/trump-says-federal-film-tax-credit-will-pass-congress-1235229851/",
@@ -4690,17 +4703,9 @@
           "excerpt": "The veteran screenwriter reflected on his first big hit in front of a packed crowd at the Academy Museum.",
           "source": "IndieWire",
           "category": "Culture"
-        },
-        {
-          "title": "Short Film ‘Lightning Bug’ Gives Stage and Screen Legend Lois Smith One of Her Greatest Roles — Watch It Here",
-          "url": "https://www.indiewire.com/features/interviews/short-film-lightning-bug-lois-smith-greatest-role-1235229661/",
-          "publishedAt": "2026-11-20T15:31:58.000Z",
-          "excerpt": "IndieWire debuts the premiere of an Oscar-eligible short from Zane Pais.",
-          "source": "IndieWire",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Vox",
@@ -4889,7 +4894,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5083,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5252,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5421,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5550,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5649,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5838,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6027,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6216,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
     },
     {
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6491,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7187,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7654,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7992,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8181,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8350,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8519,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8708,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8871,7 +8877,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9046,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9135,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9324,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9513,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9702,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "The Marginalian",
@@ -9865,7 +9871,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10040,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10209,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Psyche",
@@ -10392,7 +10398,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10567,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10736,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Kottke",
@@ -10939,7 +10945,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11154,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Waxy",
@@ -11377,14 +11383,23 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 8,
+      "count": 9,
       "stories": [
+        {
+          "title": "What If You Could Actually Know What Your Judge Did Last Summer?",
+          "url": "https://www.metafilter.com/215259/What-If-You-Could-Actually-Know-What-Your-Judge-Did-Last-Summer",
+          "publishedAt": "2026-11-21T23:33:53.000Z",
+          "excerpt": "A 35-time arrestee, a defiant police department, and the case for an AI-powered transparency revolution. Found via MeFi Projects.",
+          "source": "MetaFilter",
+          "category": "Discover",
+          "sourceRole": "community"
+        },
         {
           "title": "As farm fuel costs rise, clear solar might offer a solution",
           "url": "https://www.metafilter.com/215258/As-farm-fuel-costs-rise-clear-solar-might-offer-a-solution",
@@ -11458,7 +11473,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11647,7 +11662,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Dense Discovery",
@@ -11856,7 +11871,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "香港01",
@@ -11864,6 +11879,62 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "澳洲摩天輪驚魂！員工熄燈早退 2遊客被困36米高空近2小時",
+          "url": "https://hk01.com/sns/article/60412352",
+          "publishedAt": "2026-11-22T00:10:30.000Z",
+          "excerpt": "搭摩天輪賞夜景，轎廂升至最高點時突然全場熄燈兼停機，瞬間變「高空驚魂」！澳洲珀斯（Perth）日前發生一宗罕見的摩天輪受困事故。2名遊客當晚乘坐天鵝河畔的觀景摩天輪時，升至最高點後全場燈光熄滅、機器停止運作，由於操作員疑未清點人數便提早下班，導致2人被困於36米高空近2小時。受困者最終以手機電筒向地面閃燈求救，由消防員到場並聯繫營辦商重新開機，始能安全脫險。 2名遊客當晚乘坐天鵝河畔的觀景摩天輪時，由於操作員疑未清點人數便提早下班，導致2人被困於36米高空近2小時。（網上影片截圖） 摩天輪升至最高點 燈滅機停高空驚魂 據 《1News》 報道，事發於2026年11月14日晚，涉事的SkyVis",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "林志鵬｜北部都會區距離「樂業之都」還差幾步？",
+          "url": "https://hk01.com/sns/article/60412154",
+          "publishedAt": "2026-11-22T00:00:44.000Z",
+          "excerpt": "來稿作者：林志鵬 北部都會區承載着香港產業轉型與改善民生的雙重期望。發展局11月4日表示，北都全面發展後，預計提供超過50萬個新增職位。這個長遠規劃數字令人期待，但對居民而言，更切身的問題是：哪些工作會先來？自己能否勝任？何時可以少花一小時搭車，多一點時間陪伴家人？北都要成為「樂業之都」，關鍵在於把產業發展帶來的機會，轉化為居民有能力、有條件把握的工作。 職住平衡應從配套入手 這也是職住平衡的實際意義。民建聯今年9月公布的北都職住平衡問卷，在610份有效回覆中，有47%受訪者表示單程通勤超過一小時。這項調查雖不能代表所有居民，卻反映出部分家庭每天承受的時間成本。漫長通勤壓縮了休息、進修與照顧家",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "西貢橋咀擬劃海岸公園 旅客日後捉蟹屬違法 東西兩岸海域禁捕魚",
+          "url": "https://hk01.com/sns/article/60413387",
+          "publishedAt": "2026-11-22T00:00:29.000Z",
+          "excerpt": "漁護署建議將橋咀東西兩側的珊瑚區，包括連島沙洲指定為海岸公園，爭取在2027年中前完成法定程序。現時橋咀洲每逢節假日，便有部份旅客挖掘海螺、海膽、螃蟹等海岸生物，惟因當地不屬於海岸公園，執行人員較難引用《海岸公園條例》，向破壞環境的旅客提出檢控。 漁護署助理署長（漁業及海洋護理）朱振華指，若橋咀成為海岸公園，東邊及西邊水域將禁止捕魚。對於環保團體批評橋咀洲海岸公園的擬定範圍，覆蓋海域不足，他回應指︰「我哋有咁多海島、咁多唔同嘅生境，冇可能所有地方都劃成保護區，呢個係不切實際。」 現時深受市民及旅客歡迎的橋咀洲，不屬於海岸公園。（漁護署FB圖片） 現時深受市民及旅客歡迎的橋咀洲，不屬於海岸公園。",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "氣候暖化造成珊瑚嚴重白化危機 學者警告搽防曬霜落水成二次傷害",
+          "url": "https://hk01.com/sns/article/60413410",
+          "publishedAt": "2026-11-22T00:00:25.000Z",
+          "excerpt": "由漁護署主辦、海洋公園協辦的「珊瑚白化與修復區域專題研討會」上周三至周五（18至20日）舉行，匯聚了來自全球的珊瑚專家，討論珊瑚白化與修復問題。 本港2022及2024年曾因海水太熱，珊瑚出現嚴重白化。漁護署助理署長（漁業及海洋護理）朱振華指，今年夏天雖然同樣高溫，但珊瑚狀況良好，惟珊瑚白化主因是氣候變化，個別地區難以應對，所以希望透過研討會「撞啲新嘢出嚟」。 有中大學者表示，獲校方批出資金成立全港首個珊瑚學院基地；浸大學者則警告，珊瑚白化後更為敏感，若人們塗抹防曬霜後，在有白化珊瑚的海域下水，將會進一步損害珊瑚的健康。 氣候暖化將導致珊瑚白化，成為全球珊瑚專家關注的問題。（中大圖片） 由漁護",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "住民宿獲提醒「貓咪會開門」！深夜真有毛孩闖入 網笑：技師踩奶",
+          "url": "https://hk01.com/sns/article/60378757",
+          "publishedAt": "2026-11-22T00:00:19.000Z",
+          "excerpt": "話說，有的小貓真的很聰明誒！最近，博主@Thearas 出去旅行，訂了一家民宿。辦理入住的時候，民宿老闆突然很擔憂地問他：「我家小貓會開門，也許會打擾到您，不知道您是否介意？」 博主不介意，也沒太當一回事。結果晚上正準備休息的時候，小貓就這樣水靈靈地開門進來了哈哈哈。 ►毛孩子有IG了，來追蹤我們吧！ 來看貓咪是怎麼開門「騷擾」客人的： 最近，博主@Thearas 出去旅行，定了一家民宿。（小紅書@Thearas） 辦理入住的時候，民宿老闆突然很擔憂地問他：「我家小貓會開門，也許會打擾到您，不知道您是否介意？」（小紅書@Thearas） 博主不介意，也沒太當一回事。結果晚上正準備休息的時候，小",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "胃酸倒流｜長者長期服藥易胃酸倒流 4種食物護胃1種更防大腸癌",
+          "url": "https://hk01.com/sns/article/60413270",
+          "publishedAt": "2026-11-22T00:00:10.000Z",
+          "excerpt": "胃酸倒流是指胃液倒流進入食道，而且會反吐酸水、胸口灼熱、疼痛或不適等。長者長期用藥，如一些消炎止痛藥或鎮靜劑，都會大大增加胃酸倒流的風險，那可以進食哪些食物紓緩胃酸倒流？今次《香港01》長者生活頻道「01金齡」就會為大家介紹4大養胃食物。 現時有12%人口有胃酸倒流的問題，近年更有年輕化趨勢。（AI生成圖片） 胃酸倒流是什麼？ 根據本地研究推算，本港約有12%人口（近97萬人）受此病困擾，近年更有年輕化趨勢。胃酸倒流是指胃內的食物和胃酸倒流至食道，當胃部與食道之間的下食道括約肌不能發揮作用，胃酸就會倒流至食道。食道的黏膜十分脆弱，無法抵擋胃酸而遭侵蝕，從而令胸口灼痛。如果得不到合適的治療，有機",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "放鬆一下（下）｜知薇",
+          "url": "https://hk01.com/sns/article/60413494",
+          "publishedAt": "2026-11-21T23:57:36.000Z",
+          "excerpt": "知薇上次分享意識到，自己需要在生活工作各個層面都要「再放鬆D」，本次就與各位讀者繼續剖析：為何放鬆會好些？如何變得更放鬆？ 為何放鬆會好些？ 且分為兩個方面：能量流動，周邊感知。 1. 能量流動 篤信和研習能量了一段時間，知薇深切體會到，世上成事就人，離不開能量的流動。你越放鬆，就能輔助好的能量流動得更絲滑，進而成事更順利；你越緊張，就不僅影響好能量的流動，甚至助長了負能量的產生和流動，進而成事不足、敗事有餘。 2. 周邊感知 各位讀者都熟悉，成事講求「天時地利人和」，若我們選好時機，能量流動屬於地利，接下來就要看如何做到「人和」了。經過多年觀察體會，知薇發現，我們每個人都喜歡與能讓自己放鬆快",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "聲沙逾兩周未癒患喉癌？43歲男煙酒不離手確診 醫揭4大傷喉習慣",
           "url": "https://hk01.com/sns/article/60410471",
@@ -11889,58 +11960,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "「羞花」楊玉環從道士到貴妃 馬嵬坡為何成絕路？｜四大美人之四",
-          "url": "https://hk01.com/sns/article/60411583",
-          "publishedAt": "2026-11-21T22:10:53.000Z",
-          "excerpt": "歷史上形象豐滿的楊玉環最受寵時，遠方的鮮荔枝可以由驛騎接力送進宮中，她的姊妹獲封夫人，家族成員相繼顯貴。到了馬嵬坡，同一個楊氏家族卻成為兵變的目標，而一直寵愛她的唐玄宗，也未能保住她的性命。在這兩個場景之間，她經歷過三重身分：壽王妃、女道士，以及皇帝的貴妃。她與玄宗的故事，遠比「皇帝遇見絕色女子」複雜。至於她「肥胖」的形象，歷史上有沒有明確記載？ 接前回： 「沉魚」西施助越滅吳後下落成謎 泛舟還是沉江？｜四大美人之一 「落雁」王昭君非漢朝公主？出塞喪夫為何不得返鄉｜四大美人之二 「閉月」貂蟬連環計 如何改寫董卓之死與呂布命運｜四大美人之三 楊玉環得到玄宗寵愛，後來受冊為貴妃。（AI生成圖片） ",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "灣仔財記辣蟹冒煙起火 消防撲熄無人傷 不排除點蚊香肇禍",
-          "url": "https://hk01.com/sns/article/60413562",
-          "publishedAt": "2026-11-21T22:08:36.000Z",
-          "excerpt": "灣仔發生火警。今日（22日）凌晨4時53分，警方接報指，謝斐道404至406號地下一間辣蟹店冒煙起火，一度傳出爆炸聲，消防接報到場，同日凌晨5時31分將火撲熄，消防經調查後，相信點蚊香引致火警，起火原因沒有可疑。事件中，無人受傷，毋須疏散。 就現場所見，涉事辣蟹店是財記辣蟹，起火時未有營業，火警後店舖落地玻璃疑因火警而碎裂，碎片散落一地，消防員及警員在場調查，負責人聞訊到場了解。 財記辣蟹開業逾20年，主打避風塘炒辣蟹及各式海鮮小炒，是許多食客品嚐避風塘炒蟹的心水，在區內具有一定知名度，曾獲飲食雜誌推介。 火警後店舖落地玻璃疑因火警而碎裂，碎片散落一地。（李家傑攝） 火警後店舖落地玻璃疑因火警",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "小雪天氣｜今日多雲 稍後有一兩陣微雨 預料周三氣溫跌至16度",
           "url": "https://hk01.com/sns/article/60413556",
           "publishedAt": "2026-11-21T22:02:00.000Z",
           "excerpt": "今日（22日）是二十四節氣「小雪」，天文台表示，大致多雲，稍後有一兩陣微雨。氣溫徘徊在23度左右，最高紫外線指數大約是4，強度屬於中等，吹和緩至清勁偏東風，離岸及高地間中吹強風。天文台展望，明日（本周一/23日）多雲，初時風勢仍然頗大，本周中期轉吹偏北風，天氣轉涼及有幾陣雨。 圖為截至11月22日清晨5時40分，天文台顯示各區氣溫。（天文台網頁圖片） 偏東氣流影響華南沿岸 氣溫略為回升 天文台表示，一股清勁至強風程度的偏東氣流會在今明兩日（22日和23日）影響華南沿岸，該區雲量增多，氣溫略為回升。預料東北季候風會在後日（本周二/24日）抵達華南沿岸，本周中期該區氣溫下降及有幾陣雨。季候風會在本",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "巴林民用工業設施遭伊朗襲擊起火 政府指防空系統攔截多次攻擊",
-          "url": "https://hk01.com/sns/article/60413563",
-          "publishedAt": "2026-11-21T21:49:38.000Z",
-          "excerpt": "巴林11月21日（周六）表示，伊朗發動的攻擊擊中一處民間工業設施，引發火災，但未造成人員傷亡。與此同時，伊朗革命衛隊聲稱，他們針對該國境內的美軍據點發動導彈與無人機攻擊，巴林是美國海軍第五艦隊的駐紮地。 路透社報道，巴林內政部在社交平台X上發文表示，民防部隊正致力於控制該工業設施的火勢。當局並未提供該設施的地點或性質等細節。 巴林內政部起初發布警報，指因存在潛在威脅，呼籲居民前往最近的安全地點避難，但未說明具體情況。隨後，當局宣布解除警報，但不久後又發布了第二次警報。 BREAKING: Bahrain says an Iranian attack hit a civilian industr",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "警東九龍設路障扣留2車 2司機分別涉不小心駕駛和醉駕被捕",
-          "url": "https://hk01.com/sns/article/60413561",
-          "publishedAt": "2026-11-21T21:12:36.000Z",
-          "excerpt": "警方表示，東九龍總區交通部執行及管制組人員昨日（21日）在區內展開代號「火炬」的行動，打擊非法賽車及酒後駕駛，並在多個地點設置路障，截查非法改裝車輛及向司機進行酒精呼氣測試。 行動中，警員共向超過300名司機進行酒精呼氣測試，並拘捕兩名36歲和48歲本地男子，分別涉嫌「不小心駕駛」及「酒後駕駛」。該兩名被捕人已獲准保釋，下月下旬向警方報到。同時，警員於行動中檢驗13輛私家車，其中兩輛被扣留作進一步檢驗。 警方拖走涉事車輛調查。（警方提供） 警方呼籲駕駛人士切勿以身試法。酒後駕駛及非法賽車屬嚴重罪行，一經定罪，除會被罰款外，亦可能被判入獄。警方會加強執法，打擊酒後駕駛及非法賽車，並透過交通執法，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "俄羅斯導彈侵犯波蘭領空 北約秘書長呂特指將捍衛波蘭每一寸領土",
-          "url": "https://hk01.com/sns/article/60413559",
-          "publishedAt": "2026-11-21T20:08:41.000Z",
-          "excerpt": "北約秘書長馬克·呂特（Mark Rutte）在華沙表示，北約將保衛波蘭每一寸領土。此前一天，波蘭稱俄羅斯有三個物體——極可能是兩枚導彈和一架無人機，侵犯波蘭領空。 波蘭通訊社（PAP）11月21日（周六）報道，呂特表示，「我可以保證，北約將保衛波蘭的每一寸領土。」呂特指出，北約歐洲部隊指揮官格林凱維奇（Alexus Grynkewich）將採取一切必要措施，識別任何針對防禦與嚇阻能力的威脅，並在必要時進行適當調整。 北約秘書長、荷蘭前首相呂特（Mark Rutte）2026年2月12日在布魯塞爾出席活動（Reuters） 在俄烏戰爭期間，無人機屢次闖入北約東翼國家的領空，這加劇俄羅斯與西方軍事",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "江美儀與周潤發合作美髮廣告：發哥親切自我介紹驚呆新人",
-          "url": "https://hk01.com/sns/article/60413462",
-          "publishedAt": "2026-11-21T20:00:05.000Z",
-          "excerpt": "",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11961,10 +11984,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "車Cam｜太古城5車衝斑馬線 途人讓路 Cam主停車批評：危險駕駛",
-          "url": "https://hk01.com/sns/article/60413546",
-          "publishedAt": "2026-11-21T16:04:07.000Z",
-          "excerpt": "Facebook群組「車cam L（香港群組）」前日（20日）流傳一段車Cam，長約20秒，現場是太古太豐路往太古城道方向、海天花園恒天閣對開斑馬線，當日中午12時許，左方有一名男途人撐傘準備前往對面行人路，但Cam車前方一輛客貨車和鄰線另一輛藍色私家車無視途人，沒有停車，繼續衝斑馬線，由於Cam車依例停車，所以男途人可以過馬路，同時揮手致謝，但鄰線再有一輛黑色私家車趁男途人尚未走近，「把握機會」照衝，後方一輛車隊的士「有樣學樣」，和男途人距離極近，男途人被迫停步，之後才繼續過馬路。 左方再有一名女途人撐傘準備過馬路，鄰線一輛電單車無視女途人，鐵騎士見到男途人走上對面行人路後，繼續開車，Cam",
+          "title": "方力申渡海泳至澳門｜約8.5小時橫渡珠江口 多圖看清35公里歷程",
+          "url": "https://hk01.com/sns/article/60413544",
+          "publishedAt": "2026-11-21T15:31:27.000Z",
+          "excerpt": "藝人方力申挑戰由香港渡海泳至澳門，以為特殊需要的小朋友籌款。他11月21日早上9時起步，由香港大嶼山最西面的雞翼角出發，橫渡珠江口游往澳門黑沙海灘，全長35公里，他最終以8小時37分24秒完成，在下午約5時半到達終點，較預期快約20分鐘，更打破歷年港澳渡海泳的紀錄，獲得健力士記錄認可。多圖看清方力申整個壯舉歷程。 ▼方力申大澳坐船往雞翼角出發▼ 「方力申港澳慈善游2026」11月21日舉行，圖為方力申準備出發。（大會提供） 「方力申港澳慈善游2026」11月21日舉行，圖為後援人員。（大會提供） 「方力申港澳慈善游2026」11月21日舉行，為有特殊需要的小朋友籌款。（大會提供) 「方力申港澳",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12001,14 +12024,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "方力申破紀錄完成35公里港澳橫渡 坦言凍到震：真係迴光反照",
-          "url": "https://hk01.com/sns/article/60413503",
-          "publishedAt": "2026-11-21T10:29:26.000Z",
-          "excerpt": "前香港奧運泳手暨凝動大使方力申（Alex）領銜的「凝動全城 破浪傳承：方力申港澳慈善游2026」今日（21日）正式展開！方力申於清晨8時53分由香港大嶼山雞翼角下水，挑戰橫渡長達35公里的港澳公海海域，力求刷新港澳橫渡最快紀錄。根據大會最新消息及官方 YouTube直播 實況顯示，方力申經過連番奮力破浪後，在下午5時半到達終點，以8小時37分24秒完成，不但較預期快約20分鐘，更打破歷年紀錄。而慈善游至今籌得超過800萬元。 方力申（Alex）挑戰35公里港澳橫渡。（大會提供） 方力申於清晨8時53分由香港大嶼山雞翼角下水。（大會提供） 為慈善出力！（大會提供） 下水前，方力申臉部塗上白色防曬",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "方力申渡海泳至澳門｜破紀錄約8.5小時完成35公里 籌逾800萬善款",
           "url": "https://hk01.com/sns/article/60413484",
           "publishedAt": "2026-11-21T09:59:53.000Z",
@@ -12025,7 +12040,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "有線新聞",
@@ -12194,7 +12209,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Now 新聞",
@@ -12203,7 +12218,7 @@
       "count": 20,
       "stories": [
         {
-          "title": "宏福苑大火近一周年 孫玉菡稱一戶一社工未有退場打算",
+          "title": "大鳴大放｜宏福苑大火近一周年 孫玉菡稱一戶一社工未有退場打算",
           "url": "https://news.now.com/home/local/player?newsId=670456",
           "publishedAt": "2026-11-21T23:05:03.000Z",
           "excerpt": "",
@@ -12363,7 +12378,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12532,7 +12547,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12701,7 +12716,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "South China Morning Post",
@@ -12709,6 +12724,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Hong Kong’s Election Committee race: how voting works and new candidates to watch",
+          "url": "https://www.scmp.com/news/hong-kong/politics/article/3375344/hong-kongs-election-committee-race-how-voting-works-and-new-candidates-watch",
+          "publishedAt": "2026-11-22T00:00:23.000Z",
+          "excerpt": "Hong Kong goes to the polls on Sunday for some 5,700 eligible voters to choose members of the powerful Election Committee, a 1,500-strong electoral college that will nominate candidates and elect the city leader in next year’s chief executive race, as well as nominate candidates and elect legislator",
+          "source": "South China Morning Post",
+          "category": "Hong Kong"
+        },
         {
           "title": "Xi’s bay-area vision offers scope for cooperation despite US, Tokyo hurdles: analysts",
           "url": "https://www.scmp.com/news/hong-kong/politics/article/3375348/xis-bay-area-vision-offers-scope-cooperation-despite-us-tokyo-hurdles-analysts",
@@ -12860,17 +12883,9 @@
           "excerpt": "The Hong Kong University of Science and Technology (HKUST) marks its 35th anniversary this year, having established itself as one of Asia’s most highly ranked universities with a reputation built around research excellence, entrepreneurship, innovation and national development. Behind this success i",
           "source": "South China Morning Post",
           "category": "Hong Kong"
-        },
-        {
-          "title": "Waiting time for Hong Kong public housing at 10-year low",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3375226/hong-kongs-waiting-time-public-housing-its-shortest-more-10-years",
-          "publishedAt": "2026-11-20T10:11:47.000Z",
-          "excerpt": "The waiting time for Hong Kong’s public housing fell to its lowest level in a decade in the 12 months to end-September, dropping to 4.4 years from 4.8 years at the end of the previous quarter. The Housing Bureau said on Friday that for general applications, composite waiting times – which cover stan",
-          "source": "South China Morning Post",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13039,10 +13054,19 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-21T23:22:53.011Z"
+      "lastSuccessfulAt": "2026-11-22T00:17:18.703Z"
     }
   ],
   "stories": [
+    {
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "publishedAt": "2026-11-21T23:10:21.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50594564"
+    },
     {
       "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
       "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
@@ -13213,15 +13237,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50579568"
-    },
-    {
-      "title": "We promoted developers into architects without informing them",
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
-      "publishedAt": "2026-11-20T18:17:51.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50579331"
     },
     {
       "title": "Amazon is complaining about NYC Council on shipping labels, too",
@@ -14249,6 +14264,17 @@
       "sourceRole": "community"
     },
     {
+      "title": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches \"zero espionage\" executive girlfriends (Wired)",
+      "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+      "publishedAt": "2026-11-22T00:10:02.000Z",
+      "excerpt": "Wired : Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches &ldquo;zero espionage&rdquo; executive girlfriends &nbsp; &mdash;&nbsp; The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech wo",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261121/p11#a261121p11",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under \"ZDR\" policies, and saw \"privacy\" often broken, keys stolen (Dan Goodin/Ars Technica)",
       "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "publishedAt": "2026-11-21T20:10:02.000Z",
@@ -14403,15 +14429,31 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers (Wall Street Journal)",
-      "url": "https://www.wsj.com/business/retail/wonder-explores-sale-of-food-delivery-business-grubhub-3c80c830?st=D3FY3c&reflink=desktopwebshare_permalink",
-      "publishedAt": "2026-11-20T23:20:00.000Z",
-      "excerpt": "Wall Street Journal : Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers &nbsp; &mdash;&nbsp; Bankers have been in contact with Walmart, Target, Kroger and other retailers about a potential ",
-      "source": "Techmeme",
+      "title": "This is the best type of wireless earbuds for audio output",
+      "url": "https://www.engadget.com/2319289/wireless-earbuds-type-best-for-audio-output/",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "excerpt": "Comfort, price and aesthetics obviously impact what we put on our ears, but if sound fidelity is your priority, this kind of wireless earbud is the best choice.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261120/p41#a261120p41",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How to calibrate your 3D printer (and why you should)",
+      "url": "https://www.engadget.com/2310980/how-to-calibrate-3d-printer-why-should/",
+      "publishedAt": "2026-11-21T23:45:00.000Z",
+      "excerpt": "Your 3D printer might not need replacing just because its prints keep failing. A few calibration checks could solve the problem and improve print quality.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Building your own mini PC is harder than you would think",
+      "url": "https://www.engadget.com/2319272/build-mini-pc-cost-harder-than-expected/",
+      "publishedAt": "2026-11-21T23:30:00.000Z",
+      "excerpt": "Mini PCs are appealing for their small footprint, but there are some things you should consider before you commit to building your own.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Six products and services Google discontinued in 2026",
@@ -14567,29 +14609,38 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Which car has the largest infotainment touchscreen?",
-      "url": "https://www.engadget.com/2318759/largest-car-infotainment-touchscreen/",
-      "publishedAt": "2026-11-21T19:00:00.000Z",
-      "excerpt": "Most modern cars will have some kind of infotainment touchscreen, though not all are created equal. One car, in particular, rules the roost for sheer size.",
-      "source": "Engadget",
+      "title": "Quordle hints and answers for Sunday, November 22 (game #1763)",
+      "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-22-november-2026",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "Six simple Raspberry Pi projects for beginners",
-      "url": "https://www.engadget.com/2318530/simple-raspberry-pi-projects-for-beginners/",
-      "publishedAt": "2026-11-21T18:45:00.000Z",
-      "excerpt": "Stop leaving your Pi projects unfinished with these six accessible ideas.",
-      "source": "Engadget",
+      "title": "NYT Strands hints and answers for Sunday, November 22 (game #994)",
+      "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-22-november-2026",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to use a solar panel to charge your phone",
-      "url": "https://www.engadget.com/2318512/how-to-use-solar-panel-charge-phone/",
-      "publishedAt": "2026-11-21T18:30:00.000Z",
-      "excerpt": "Can sunlight really charge your phone? Learn how portable solar chargers work and which features to look for before your next camping trip or blackout.",
-      "source": "Engadget",
+      "title": "NYT Connections hints and answers for Sunday, November 22 (game #1260)",
+      "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-22-november-2026",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Smuggling AI into a national exam room: A South Korean candidate used a pinhole camera and concealed earpiece to score 159/160 before turning himself in",
+      "url": "https://www.techradar.com/pro/smuggling-ai-into-a-national-exam-room-a-south-korean-candidate-used-a-pinhole-camera-and-concealed-earpiece-to-score-159-160-before-turning-himself-in",
+      "publishedAt": "2026-11-21T23:35:00.000Z",
+      "excerpt": "A South Korean candidate allegedly used miniature cameras, smartphones, and artificial intelligence to cheat across professional examinations, scoring 159 out of 160.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14733,42 +14784,6 @@
       "url": "https://www.techradar.com/entertainment/football/sevilla-vs-real-betis-la-liga-2026-27",
       "publishedAt": "2026-11-21T14:30:00.000Z",
       "excerpt": "We'll show you how to watch Sevilla vs Real Betis live streams from anywhere in the world as Seville's Gran Derbi lights up La Liga 2026/27.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "OpenAI claims AI agents now complete nearly half of two-to-four-hour research tasks on their own — but says 'humans are still central to AI development'",
-      "url": "https://www.techradar.com/pro/openai-claims-ai-agents-now-complete-nearly-half-of-two-to-four-hour-research-tasks-on-their-own-but-says-humans-are-still-central-to-ai-development",
-      "publishedAt": "2026-11-21T14:15:00.000Z",
-      "excerpt": "OpenAI reports rising autonomous research performance, increased spending on coding agents, and persistent limitations that keep human researchers closely involved",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Amazon just released one of the best Android tablets this year, and now it's massively discounted in the early Black Friday deals",
-      "url": "https://www.techradar.com/seasonal-sales/amazon-just-released-one-of-the-best-android-tablets-this-year-and-now-its-massively-discounted-in-early-black-friday-deals",
-      "publishedAt": "2026-11-21T14:08:50.000Z",
-      "excerpt": "Surprisingly svelte, performant and affordable, too, Amazon's Alexa Tablets make for some of the best deals I've seen ahead of Black Friday",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How to watch Italy vs Fiji for FREE: Nations Championship 2026 live streams & TV channels",
-      "url": "https://www.techradar.com/entertainment/rugby/watch-italy-vs-fiji-free-nations-championship-2026",
-      "publishedAt": "2026-11-21T14:00:00.000Z",
-      "excerpt": "All the ways to watch Italy vs Fiji live streams online – including for FREE – with both sides looking for their first win of the 2026 Nations Championship.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "I compared Krovatar's 4K Blu-ray player with the Panasonic DP-UB820 — here’s what I learned",
-      "url": "https://www.techradar.com/televisions/blu-ray/i-tested-krovatars-4k-blu-ray-player-against-the-panasonic-dp-ub820",
-      "publishedAt": "2026-11-21T14:00:00.000Z",
-      "excerpt": "A new 4K Blu-ray player has arrived on the scene: how does the Krovatar KBU-300 compare to the Panasonic DP-UB820?",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15315,7 +15330,7 @@
     },
     {
       "title": "The future of live entertainment",
-      "url": "https://www.fastcompany.com/91645236/the-future-of-live-entertainment?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91645236/the-future-of-live-entertainment?utm_source=postup&utm_medium=email&utm_campaign=design&position=1&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-11-20T20:16:00.000Z",
       "excerpt": "Put down your phones: We’re on the precipice of a cultural renaissance.",
       "source": "Fast Company",
@@ -15324,7 +15339,7 @@
     },
     {
       "title": "The hidden human intelligence of design",
-      "url": "https://www.fastcompany.com/91645198/the-hidden-human-intelligence-of-design?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91645198/the-hidden-human-intelligence-of-design?utm_source=postup&utm_medium=email&utm_campaign=design&position=2&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-11-20T19:29:47.000Z",
       "excerpt": "As in many professions, human empathy, expertise, and judgment drive real-world outcomes.",
       "source": "Fast Company",
@@ -15333,7 +15348,7 @@
     },
     {
       "title": "The success KPIs nonprofits get right",
-      "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91641357/the-success-kpis-nonprofits-get-right?utm_source=postup&utm_medium=email&utm_campaign=design&position=3&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-11-12T19:14:00.000Z",
       "excerpt": "When purpose is clear, money is the means, not the primary destination.",
       "source": "Fast Company",
@@ -15342,7 +15357,7 @@
     },
     {
       "title": "Innovation starts at the edges",
-      "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91636400/innovation-starts-at-the-edges?utm_source=postup&utm_medium=email&utm_campaign=design&position=4&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-11-06T13:00:00.000Z",
       "excerpt": "Start by asking who has been left out of the design.",
       "source": "Fast Company",
@@ -15351,7 +15366,7 @@
     },
     {
       "title": "Could AI give older creatives a second act?",
-      "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91633136/could-ai-give-older-creatives-a-second-act?utm_source=postup&utm_medium=email&utm_campaign=design&position=5&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-11-01T05:00:00.000Z",
       "excerpt": "In fields that favor the young, the AI era may actually position more seasoned professionals favorably.",
       "source": "Fast Company",
@@ -15360,7 +15375,7 @@
     },
     {
       "title": "3 design principles in the AI age",
-      "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91629505/3-design-principles-in-the-ai-age?utm_source=postup&utm_medium=email&utm_campaign=design&position=6&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-10-27T12:00:00.000Z",
       "excerpt": "Iteration, feedback, and connecting the dots are important with or without AI use.",
       "source": "Fast Company",
@@ -15369,7 +15384,7 @@
     },
     {
       "title": "It doesn’t matter if your brand’s visual identity looks good",
-      "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91609811/it-doesnt-matter-if-your-brands-visual-identity-looks-good?utm_source=postup&utm_medium=email&utm_campaign=design&position=7&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "excerpt": "The advantage now goes to brands that mean something and give people a reason to care.",
       "source": "Fast Company",
@@ -15378,7 +15393,7 @@
     },
     {
       "title": "The creative economy’s greatest competitive advantage",
-      "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91588491/the-creative-economys-greatest-competitive-advantage?utm_source=postup&utm_medium=email&utm_campaign=design&position=8&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-08-12T12:00:00.000Z",
       "excerpt": "The classroom experience provides space to take risks, sharpen critical thinking, and deepen cultural fluency.",
       "source": "Fast Company",
@@ -15387,7 +15402,7 @@
     },
     {
       "title": "What should the future look like? Inside the tech-funded program to create a new aesthetic",
-      "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91581814/what-should-the-future-look-like-inside-the-tech-funded-program-to-create-a-new-aesthetic?utm_source=postup&utm_medium=email&utm_campaign=design&position=9&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-08-12T09:00:00.000Z",
       "excerpt": "Billionaire Stripe CEO Patrick Collison and libertarian economist Tyler Cowen have created a grant program to replace modernism—and define a new look for the 21st century.",
       "source": "Fast Company",
@@ -15396,7 +15411,7 @@
     },
     {
       "title": "Designing for the edges improves the center",
-      "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91574333/designing-for-the-edges-improves-the-center?utm_source=postup&utm_medium=email&utm_campaign=design&position=10&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-07-17T12:00:00.000Z",
       "excerpt": "When products work for people with the most constraints, they tend to work better for everyone.",
       "source": "Fast Company",
@@ -15405,7 +15420,7 @@
     },
     {
       "title": "People thought this MLB hat had a defect. It’s actually a clever hidden reference",
-      "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91573343/phillies-mlb-hat-liberty-bell?utm_source=postup&utm_medium=email&utm_campaign=design&position=11&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "excerpt": "An exclusive Phillies All-Star Game hat features a graphic that history buffs will recognize.",
       "source": "Fast Company",
@@ -15414,7 +15429,7 @@
     },
     {
       "title": "Design history, as told through 125 objects",
-      "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91571436/cooper-hewitt-permanent-collection-galleries-design-across-time?utm_source=postup&utm_medium=email&utm_campaign=design&position=12&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-07-13T10:00:00.000Z",
       "excerpt": "Cooper Hewitt’s new permanent collection exhibition is meant to be a conversation starter.",
       "source": "Fast Company",
@@ -15423,7 +15438,7 @@
     },
     {
       "title": "5 trends in design right now",
-      "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91570208/5-trends-in-design-right-now?utm_source=postup&utm_medium=email&utm_campaign=design&position=13&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-07-07T16:43:24.000Z",
       "excerpt": "What the 5th annual iF Design Trend Report found that may surprise you.",
       "source": "Fast Company",
@@ -15432,7 +15447,7 @@
     },
     {
       "title": "Here’s one thing AI can’t do",
-      "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91564745/heres-one-thing-ai-cant-do?utm_source=postup&utm_medium=email&utm_campaign=design&position=14&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-06-24T21:23:31.000Z",
       "excerpt": "Fast Company creative director Mike Schnaidt breaks down the design process behind the magazine’s latest cover.",
       "source": "Fast Company",
@@ -15441,7 +15456,7 @@
     },
     {
       "title": "Use AI to augment design, not replace it",
-      "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11212026",
+      "url": "https://www.fastcompany.com/91551054/use-ai-to-augment-design-not-replace-it?utm_source=postup&utm_medium=email&utm_campaign=design&position=15&partner=newsletter&campaign_date=11222026",
       "publishedAt": "2026-06-01T18:02:00.000Z",
       "excerpt": "The growing push toward full automation is a mistake.",
       "source": "Fast Company",
@@ -17152,19 +17167,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Have Yourself a Kitschy Little Christmas",
-      "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
+      "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
+      "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
       "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "Leave your good taste at the door.",
+      "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
-      "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
+      "title": "Have Yourself a Kitschy Little Christmas",
+      "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
       "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
+      "excerpt": "Leave your good taste at the door.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17389,6 +17404,14 @@
       "category": "Culture"
     },
     {
+      "title": "If There’s Generative AI in ‘The Mis-Adventures of Cliff Booth,’ It’s Not the First Time David Fincher’s Used It",
+      "url": "https://www.indiewire.com/features/craft/generative-ai-tools-david-fincher-cliff-booth-1235229866/",
+      "publishedAt": "2026-11-21T23:45:00.000Z",
+      "excerpt": "It was also used in the 4K Remaster of \"Se7en\" to bring the film as close as possible to the original print.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
       "title": "Trump Renews Backing for Federal Film Tax Credit as Lawmakers Push for Year-End Passage",
       "url": "https://www.indiewire.com/news/breaking-news/trump-says-federal-film-tax-credit-will-pass-congress-1235229851/",
       "publishedAt": "2026-11-21T00:51:53.000Z",
@@ -17473,14 +17496,6 @@
       "url": "https://www.indiewire.com/features/interviews/walter-hill-on-sam-peckinpah-steve-mcqueen-the-getaway-1235229598/",
       "publishedAt": "2026-11-20T16:04:05.000Z",
       "excerpt": "The veteran screenwriter reflected on his first big hit in front of a packed crowd at the Academy Museum.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "Short Film ‘Lightning Bug’ Gives Stage and Screen Legend Lois Smith One of Her Greatest Roles — Watch It Here",
-      "url": "https://www.indiewire.com/features/interviews/short-film-lightning-bug-lois-smith-greatest-role-1235229661/",
-      "publishedAt": "2026-11-20T15:31:58.000Z",
-      "excerpt": "IndieWire debuts the premiere of an Oscar-eligible short from Zane Pais.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -23811,6 +23826,15 @@
       "discoveryChannel": "curator:Waxy"
     },
     {
+      "title": "What If You Could Actually Know What Your Judge Did Last Summer?",
+      "url": "https://www.metafilter.com/215259/What-If-You-Could-Actually-Know-What-Your-Judge-Did-Last-Summer",
+      "publishedAt": "2026-11-21T23:33:53.000Z",
+      "excerpt": "A 35-time arrestee, a defiant police department, and the case for an AI-powered transparency revolution. Found via MeFi Projects.",
+      "source": "MetaFilter",
+      "category": "Discover",
+      "sourceRole": "community"
+    },
+    {
       "title": "As farm fuel costs rise, clear solar might offer a solution",
       "url": "https://www.metafilter.com/215258/As-farm-fuel-costs-rise-clear-solar-might-offer-a-solution",
       "publishedAt": "2026-11-21T20:20:19.000Z",
@@ -24263,6 +24287,62 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "澳洲摩天輪驚魂！員工熄燈早退 2遊客被困36米高空近2小時",
+      "url": "https://hk01.com/sns/article/60412352",
+      "publishedAt": "2026-11-22T00:10:30.000Z",
+      "excerpt": "搭摩天輪賞夜景，轎廂升至最高點時突然全場熄燈兼停機，瞬間變「高空驚魂」！澳洲珀斯（Perth）日前發生一宗罕見的摩天輪受困事故。2名遊客當晚乘坐天鵝河畔的觀景摩天輪時，升至最高點後全場燈光熄滅、機器停止運作，由於操作員疑未清點人數便提早下班，導致2人被困於36米高空近2小時。受困者最終以手機電筒向地面閃燈求救，由消防員到場並聯繫營辦商重新開機，始能安全脫險。 2名遊客當晚乘坐天鵝河畔的觀景摩天輪時，由於操作員疑未清點人數便提早下班，導致2人被困於36米高空近2小時。（網上影片截圖） 摩天輪升至最高點 燈滅機停高空驚魂 據 《1News》 報道，事發於2026年11月14日晚，涉事的SkyVis",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "林志鵬｜北部都會區距離「樂業之都」還差幾步？",
+      "url": "https://hk01.com/sns/article/60412154",
+      "publishedAt": "2026-11-22T00:00:44.000Z",
+      "excerpt": "來稿作者：林志鵬 北部都會區承載着香港產業轉型與改善民生的雙重期望。發展局11月4日表示，北都全面發展後，預計提供超過50萬個新增職位。這個長遠規劃數字令人期待，但對居民而言，更切身的問題是：哪些工作會先來？自己能否勝任？何時可以少花一小時搭車，多一點時間陪伴家人？北都要成為「樂業之都」，關鍵在於把產業發展帶來的機會，轉化為居民有能力、有條件把握的工作。 職住平衡應從配套入手 這也是職住平衡的實際意義。民建聯今年9月公布的北都職住平衡問卷，在610份有效回覆中，有47%受訪者表示單程通勤超過一小時。這項調查雖不能代表所有居民，卻反映出部分家庭每天承受的時間成本。漫長通勤壓縮了休息、進修與照顧家",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "西貢橋咀擬劃海岸公園 旅客日後捉蟹屬違法 東西兩岸海域禁捕魚",
+      "url": "https://hk01.com/sns/article/60413387",
+      "publishedAt": "2026-11-22T00:00:29.000Z",
+      "excerpt": "漁護署建議將橋咀東西兩側的珊瑚區，包括連島沙洲指定為海岸公園，爭取在2027年中前完成法定程序。現時橋咀洲每逢節假日，便有部份旅客挖掘海螺、海膽、螃蟹等海岸生物，惟因當地不屬於海岸公園，執行人員較難引用《海岸公園條例》，向破壞環境的旅客提出檢控。 漁護署助理署長（漁業及海洋護理）朱振華指，若橋咀成為海岸公園，東邊及西邊水域將禁止捕魚。對於環保團體批評橋咀洲海岸公園的擬定範圍，覆蓋海域不足，他回應指︰「我哋有咁多海島、咁多唔同嘅生境，冇可能所有地方都劃成保護區，呢個係不切實際。」 現時深受市民及旅客歡迎的橋咀洲，不屬於海岸公園。（漁護署FB圖片） 現時深受市民及旅客歡迎的橋咀洲，不屬於海岸公園。",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "氣候暖化造成珊瑚嚴重白化危機 學者警告搽防曬霜落水成二次傷害",
+      "url": "https://hk01.com/sns/article/60413410",
+      "publishedAt": "2026-11-22T00:00:25.000Z",
+      "excerpt": "由漁護署主辦、海洋公園協辦的「珊瑚白化與修復區域專題研討會」上周三至周五（18至20日）舉行，匯聚了來自全球的珊瑚專家，討論珊瑚白化與修復問題。 本港2022及2024年曾因海水太熱，珊瑚出現嚴重白化。漁護署助理署長（漁業及海洋護理）朱振華指，今年夏天雖然同樣高溫，但珊瑚狀況良好，惟珊瑚白化主因是氣候變化，個別地區難以應對，所以希望透過研討會「撞啲新嘢出嚟」。 有中大學者表示，獲校方批出資金成立全港首個珊瑚學院基地；浸大學者則警告，珊瑚白化後更為敏感，若人們塗抹防曬霜後，在有白化珊瑚的海域下水，將會進一步損害珊瑚的健康。 氣候暖化將導致珊瑚白化，成為全球珊瑚專家關注的問題。（中大圖片） 由漁護",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "住民宿獲提醒「貓咪會開門」！深夜真有毛孩闖入 網笑：技師踩奶",
+      "url": "https://hk01.com/sns/article/60378757",
+      "publishedAt": "2026-11-22T00:00:19.000Z",
+      "excerpt": "話說，有的小貓真的很聰明誒！最近，博主@Thearas 出去旅行，訂了一家民宿。辦理入住的時候，民宿老闆突然很擔憂地問他：「我家小貓會開門，也許會打擾到您，不知道您是否介意？」 博主不介意，也沒太當一回事。結果晚上正準備休息的時候，小貓就這樣水靈靈地開門進來了哈哈哈。 ►毛孩子有IG了，來追蹤我們吧！ 來看貓咪是怎麼開門「騷擾」客人的： 最近，博主@Thearas 出去旅行，定了一家民宿。（小紅書@Thearas） 辦理入住的時候，民宿老闆突然很擔憂地問他：「我家小貓會開門，也許會打擾到您，不知道您是否介意？」（小紅書@Thearas） 博主不介意，也沒太當一回事。結果晚上正準備休息的時候，小",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "胃酸倒流｜長者長期服藥易胃酸倒流 4種食物護胃1種更防大腸癌",
+      "url": "https://hk01.com/sns/article/60413270",
+      "publishedAt": "2026-11-22T00:00:10.000Z",
+      "excerpt": "胃酸倒流是指胃液倒流進入食道，而且會反吐酸水、胸口灼熱、疼痛或不適等。長者長期用藥，如一些消炎止痛藥或鎮靜劑，都會大大增加胃酸倒流的風險，那可以進食哪些食物紓緩胃酸倒流？今次《香港01》長者生活頻道「01金齡」就會為大家介紹4大養胃食物。 現時有12%人口有胃酸倒流的問題，近年更有年輕化趨勢。（AI生成圖片） 胃酸倒流是什麼？ 根據本地研究推算，本港約有12%人口（近97萬人）受此病困擾，近年更有年輕化趨勢。胃酸倒流是指胃內的食物和胃酸倒流至食道，當胃部與食道之間的下食道括約肌不能發揮作用，胃酸就會倒流至食道。食道的黏膜十分脆弱，無法抵擋胃酸而遭侵蝕，從而令胸口灼痛。如果得不到合適的治療，有機",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "放鬆一下（下）｜知薇",
+      "url": "https://hk01.com/sns/article/60413494",
+      "publishedAt": "2026-11-21T23:57:36.000Z",
+      "excerpt": "知薇上次分享意識到，自己需要在生活工作各個層面都要「再放鬆D」，本次就與各位讀者繼續剖析：為何放鬆會好些？如何變得更放鬆？ 為何放鬆會好些？ 且分為兩個方面：能量流動，周邊感知。 1. 能量流動 篤信和研習能量了一段時間，知薇深切體會到，世上成事就人，離不開能量的流動。你越放鬆，就能輔助好的能量流動得更絲滑，進而成事更順利；你越緊張，就不僅影響好能量的流動，甚至助長了負能量的產生和流動，進而成事不足、敗事有餘。 2. 周邊感知 各位讀者都熟悉，成事講求「天時地利人和」，若我們選好時機，能量流動屬於地利，接下來就要看如何做到「人和」了。經過多年觀察體會，知薇發現，我們每個人都喜歡與能讓自己放鬆快",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "聲沙逾兩周未癒患喉癌？43歲男煙酒不離手確診 醫揭4大傷喉習慣",
       "url": "https://hk01.com/sns/article/60410471",
       "publishedAt": "2026-11-21T23:20:40.000Z",
@@ -24287,58 +24367,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "「羞花」楊玉環從道士到貴妃 馬嵬坡為何成絕路？｜四大美人之四",
-      "url": "https://hk01.com/sns/article/60411583",
-      "publishedAt": "2026-11-21T22:10:53.000Z",
-      "excerpt": "歷史上形象豐滿的楊玉環最受寵時，遠方的鮮荔枝可以由驛騎接力送進宮中，她的姊妹獲封夫人，家族成員相繼顯貴。到了馬嵬坡，同一個楊氏家族卻成為兵變的目標，而一直寵愛她的唐玄宗，也未能保住她的性命。在這兩個場景之間，她經歷過三重身分：壽王妃、女道士，以及皇帝的貴妃。她與玄宗的故事，遠比「皇帝遇見絕色女子」複雜。至於她「肥胖」的形象，歷史上有沒有明確記載？ 接前回： 「沉魚」西施助越滅吳後下落成謎 泛舟還是沉江？｜四大美人之一 「落雁」王昭君非漢朝公主？出塞喪夫為何不得返鄉｜四大美人之二 「閉月」貂蟬連環計 如何改寫董卓之死與呂布命運｜四大美人之三 楊玉環得到玄宗寵愛，後來受冊為貴妃。（AI生成圖片） ",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "灣仔財記辣蟹冒煙起火 消防撲熄無人傷 不排除點蚊香肇禍",
-      "url": "https://hk01.com/sns/article/60413562",
-      "publishedAt": "2026-11-21T22:08:36.000Z",
-      "excerpt": "灣仔發生火警。今日（22日）凌晨4時53分，警方接報指，謝斐道404至406號地下一間辣蟹店冒煙起火，一度傳出爆炸聲，消防接報到場，同日凌晨5時31分將火撲熄，消防經調查後，相信點蚊香引致火警，起火原因沒有可疑。事件中，無人受傷，毋須疏散。 就現場所見，涉事辣蟹店是財記辣蟹，起火時未有營業，火警後店舖落地玻璃疑因火警而碎裂，碎片散落一地，消防員及警員在場調查，負責人聞訊到場了解。 財記辣蟹開業逾20年，主打避風塘炒辣蟹及各式海鮮小炒，是許多食客品嚐避風塘炒蟹的心水，在區內具有一定知名度，曾獲飲食雜誌推介。 火警後店舖落地玻璃疑因火警而碎裂，碎片散落一地。（李家傑攝） 火警後店舖落地玻璃疑因火警",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "小雪天氣｜今日多雲 稍後有一兩陣微雨 預料周三氣溫跌至16度",
       "url": "https://hk01.com/sns/article/60413556",
       "publishedAt": "2026-11-21T22:02:00.000Z",
       "excerpt": "今日（22日）是二十四節氣「小雪」，天文台表示，大致多雲，稍後有一兩陣微雨。氣溫徘徊在23度左右，最高紫外線指數大約是4，強度屬於中等，吹和緩至清勁偏東風，離岸及高地間中吹強風。天文台展望，明日（本周一/23日）多雲，初時風勢仍然頗大，本周中期轉吹偏北風，天氣轉涼及有幾陣雨。 圖為截至11月22日清晨5時40分，天文台顯示各區氣溫。（天文台網頁圖片） 偏東氣流影響華南沿岸 氣溫略為回升 天文台表示，一股清勁至強風程度的偏東氣流會在今明兩日（22日和23日）影響華南沿岸，該區雲量增多，氣溫略為回升。預料東北季候風會在後日（本周二/24日）抵達華南沿岸，本周中期該區氣溫下降及有幾陣雨。季候風會在本",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "巴林民用工業設施遭伊朗襲擊起火 政府指防空系統攔截多次攻擊",
-      "url": "https://hk01.com/sns/article/60413563",
-      "publishedAt": "2026-11-21T21:49:38.000Z",
-      "excerpt": "巴林11月21日（周六）表示，伊朗發動的攻擊擊中一處民間工業設施，引發火災，但未造成人員傷亡。與此同時，伊朗革命衛隊聲稱，他們針對該國境內的美軍據點發動導彈與無人機攻擊，巴林是美國海軍第五艦隊的駐紮地。 路透社報道，巴林內政部在社交平台X上發文表示，民防部隊正致力於控制該工業設施的火勢。當局並未提供該設施的地點或性質等細節。 巴林內政部起初發布警報，指因存在潛在威脅，呼籲居民前往最近的安全地點避難，但未說明具體情況。隨後，當局宣布解除警報，但不久後又發布了第二次警報。 BREAKING: Bahrain says an Iranian attack hit a civilian industr",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "警東九龍設路障扣留2車 2司機分別涉不小心駕駛和醉駕被捕",
-      "url": "https://hk01.com/sns/article/60413561",
-      "publishedAt": "2026-11-21T21:12:36.000Z",
-      "excerpt": "警方表示，東九龍總區交通部執行及管制組人員昨日（21日）在區內展開代號「火炬」的行動，打擊非法賽車及酒後駕駛，並在多個地點設置路障，截查非法改裝車輛及向司機進行酒精呼氣測試。 行動中，警員共向超過300名司機進行酒精呼氣測試，並拘捕兩名36歲和48歲本地男子，分別涉嫌「不小心駕駛」及「酒後駕駛」。該兩名被捕人已獲准保釋，下月下旬向警方報到。同時，警員於行動中檢驗13輛私家車，其中兩輛被扣留作進一步檢驗。 警方拖走涉事車輛調查。（警方提供） 警方呼籲駕駛人士切勿以身試法。酒後駕駛及非法賽車屬嚴重罪行，一經定罪，除會被罰款外，亦可能被判入獄。警方會加強執法，打擊酒後駕駛及非法賽車，並透過交通執法，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "俄羅斯導彈侵犯波蘭領空 北約秘書長呂特指將捍衛波蘭每一寸領土",
-      "url": "https://hk01.com/sns/article/60413559",
-      "publishedAt": "2026-11-21T20:08:41.000Z",
-      "excerpt": "北約秘書長馬克·呂特（Mark Rutte）在華沙表示，北約將保衛波蘭每一寸領土。此前一天，波蘭稱俄羅斯有三個物體——極可能是兩枚導彈和一架無人機，侵犯波蘭領空。 波蘭通訊社（PAP）11月21日（周六）報道，呂特表示，「我可以保證，北約將保衛波蘭的每一寸領土。」呂特指出，北約歐洲部隊指揮官格林凱維奇（Alexus Grynkewich）將採取一切必要措施，識別任何針對防禦與嚇阻能力的威脅，並在必要時進行適當調整。 北約秘書長、荷蘭前首相呂特（Mark Rutte）2026年2月12日在布魯塞爾出席活動（Reuters） 在俄烏戰爭期間，無人機屢次闖入北約東翼國家的領空，這加劇俄羅斯與西方軍事",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "江美儀與周潤發合作美髮廣告：發哥親切自我介紹驚呆新人",
-      "url": "https://hk01.com/sns/article/60413462",
-      "publishedAt": "2026-11-21T20:00:05.000Z",
-      "excerpt": "",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24359,10 +24391,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "車Cam｜太古城5車衝斑馬線 途人讓路 Cam主停車批評：危險駕駛",
-      "url": "https://hk01.com/sns/article/60413546",
-      "publishedAt": "2026-11-21T16:04:07.000Z",
-      "excerpt": "Facebook群組「車cam L（香港群組）」前日（20日）流傳一段車Cam，長約20秒，現場是太古太豐路往太古城道方向、海天花園恒天閣對開斑馬線，當日中午12時許，左方有一名男途人撐傘準備前往對面行人路，但Cam車前方一輛客貨車和鄰線另一輛藍色私家車無視途人，沒有停車，繼續衝斑馬線，由於Cam車依例停車，所以男途人可以過馬路，同時揮手致謝，但鄰線再有一輛黑色私家車趁男途人尚未走近，「把握機會」照衝，後方一輛車隊的士「有樣學樣」，和男途人距離極近，男途人被迫停步，之後才繼續過馬路。 左方再有一名女途人撐傘準備過馬路，鄰線一輛電單車無視女途人，鐵騎士見到男途人走上對面行人路後，繼續開車，Cam",
+      "title": "方力申渡海泳至澳門｜約8.5小時橫渡珠江口 多圖看清35公里歷程",
+      "url": "https://hk01.com/sns/article/60413544",
+      "publishedAt": "2026-11-21T15:31:27.000Z",
+      "excerpt": "藝人方力申挑戰由香港渡海泳至澳門，以為特殊需要的小朋友籌款。他11月21日早上9時起步，由香港大嶼山最西面的雞翼角出發，橫渡珠江口游往澳門黑沙海灘，全長35公里，他最終以8小時37分24秒完成，在下午約5時半到達終點，較預期快約20分鐘，更打破歷年港澳渡海泳的紀錄，獲得健力士記錄認可。多圖看清方力申整個壯舉歷程。 ▼方力申大澳坐船往雞翼角出發▼ 「方力申港澳慈善游2026」11月21日舉行，圖為方力申準備出發。（大會提供） 「方力申港澳慈善游2026」11月21日舉行，圖為後援人員。（大會提供） 「方力申港澳慈善游2026」11月21日舉行，為有特殊需要的小朋友籌款。（大會提供) 「方力申港澳",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24395,14 +24427,6 @@
       "url": "https://hk01.com/sns/article/60413488",
       "publishedAt": "2026-11-21T10:51:48.000Z",
       "excerpt": "樂施會毅行者2026由周五（20日）起一連三日舉行，藝人周潤發今日（21日）率領一眾跑友出戰新增的「樂施會50周年限定版」20公里賽事，並以6小時23分的成績順利完成。 發哥賽後表示20公里賽「非常好玩」，沿途大吃朱古力及穀物能量波補充體力，惟大帽山下山路段長達7至8公里，不斷落斜對膝蓋頗為吃力。被問到下次會否挑戰100公里正式賽事，他則指「千祈唔好咁搞」，又指100公里賽事「辛苦到不得了」。 毅行者2026由11月20日起一連三日舉行，藝人周潤發在11月21日率領一眾戰友出戰新增的「樂施會50周年限定版」20公里賽事。（毅行者提供圖片） 周潤發與一班戰友挑戰樂施毅行者新增的20公里賽事，以6",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "方力申破紀錄完成35公里港澳橫渡 坦言凍到震：真係迴光反照",
-      "url": "https://hk01.com/sns/article/60413503",
-      "publishedAt": "2026-11-21T10:29:26.000Z",
-      "excerpt": "前香港奧運泳手暨凝動大使方力申（Alex）領銜的「凝動全城 破浪傳承：方力申港澳慈善游2026」今日（21日）正式展開！方力申於清晨8時53分由香港大嶼山雞翼角下水，挑戰橫渡長達35公里的港澳公海海域，力求刷新港澳橫渡最快紀錄。根據大會最新消息及官方 YouTube直播 實況顯示，方力申經過連番奮力破浪後，在下午5時半到達終點，以8小時37分24秒完成，不但較預期快約20分鐘，更打破歷年紀錄。而慈善游至今籌得超過800萬元。 方力申（Alex）挑戰35公里港澳橫渡。（大會提供） 方力申於清晨8時53分由香港大嶼山雞翼角下水。（大會提供） 為慈善出力！（大會提供） 下水前，方力申臉部塗上白色防曬",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24583,7 +24607,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "宏福苑大火近一周年 孫玉菡稱一戶一社工未有退場打算",
+      "title": "大鳴大放｜宏福苑大火近一周年 孫玉菡稱一戶一社工未有退場打算",
       "url": "https://news.now.com/home/local/player?newsId=670456",
       "publishedAt": "2026-11-21T23:05:03.000Z",
       "excerpt": "",
@@ -25063,6 +25087,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "Hong Kong’s Election Committee race: how voting works and new candidates to watch",
+      "url": "https://www.scmp.com/news/hong-kong/politics/article/3375344/hong-kongs-election-committee-race-how-voting-works-and-new-candidates-watch",
+      "publishedAt": "2026-11-22T00:00:23.000Z",
+      "excerpt": "Hong Kong goes to the polls on Sunday for some 5,700 eligible voters to choose members of the powerful Election Committee, a 1,500-strong electoral college that will nominate candidates and elect the city leader in next year’s chief executive race, as well as nominate candidates and elect legislator",
+      "source": "South China Morning Post",
+      "category": "Hong Kong"
+    },
+    {
       "title": "Xi’s bay-area vision offers scope for cooperation despite US, Tokyo hurdles: analysts",
       "url": "https://www.scmp.com/news/hong-kong/politics/article/3375348/xis-bay-area-vision-offers-scope-cooperation-despite-us-tokyo-hurdles-analysts",
       "publishedAt": "2026-11-21T22:30:05.000Z",
@@ -25211,14 +25243,6 @@
       "url": "https://www.scmp.com/native/news/hong-kong/education/topics/hkust-35-vision-impact/article/3373243/hkust-turns-35-year-old-vision-impact-future-regional-innovation",
       "publishedAt": "2026-11-20T10:32:11.000Z",
       "excerpt": "The Hong Kong University of Science and Technology (HKUST) marks its 35th anniversary this year, having established itself as one of Asia’s most highly ranked universities with a reputation built around research excellence, entrepreneurship, innovation and national development. Behind this success i",
-      "source": "South China Morning Post",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "Waiting time for Hong Kong public housing at 10-year low",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3375226/hong-kongs-waiting-time-public-housing-its-shortest-more-10-years",
-      "publishedAt": "2026-11-20T10:11:47.000Z",
-      "excerpt": "The waiting time for Hong Kong’s public housing fell to its lowest level in a decade in the 12 months to end-September, dropping to 4.4 years from 4.8 years at the end of the previous quarter. The Housing Bureau said on Friday that for general applications, composite waiting times – which cover stan",
       "source": "South China Morning Post",
       "category": "Hong Kong"
     },

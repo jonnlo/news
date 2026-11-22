@@ -2,12 +2,21 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T11:17:18.211Z",
-  "collectedAt": "2026-11-22T11:17:18.211Z",
+  "generatedAt": "2026-11-22T12:17:18.649Z",
+  "collectedAt": "2026-11-22T12:17:18.649Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 75,
+  "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    },
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -196,6 +205,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50583028"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
     },
     {
@@ -365,7 +375,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "WIRED",
@@ -373,6 +383,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "8 Best Travel Adapters (2026): 20+ Models Tested",
+          "url": "https://www.wired.com/gallery/best-travel-adapters/",
+          "publishedAt": "2026-11-22T12:00:00.000Z",
+          "excerpt": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and chargers that I’ve tested myself.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+          "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
+          "publishedAt": "2026-11-22T11:30:00.000Z",
+          "excerpt": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "Best Gifts for Mom (2026): Digital Wall Calendars, Better Bags, Personalized Jewelry, and More",
           "url": "https://www.wired.com/story/best-gifts-for-moms-2026/",
@@ -516,25 +542,9 @@
           "excerpt": "Pura fragrances are 20 percent off, and diffusers are 30 percent off through December 6. Here’s what I’d buy after having tested three generations of Pura devices.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "The Birdfy Gifts I’d Buy for Backyard Birders",
-          "url": "https://www.wired.com/story/best-birdfy-gifts-2026/",
-          "publishedAt": "2026-11-20T13:00:00.000Z",
-          "excerpt": "After more than two years of testing smart bird feeders, these are the picks I’d give others, including a simple camera feeder and a nest box that let me watch chickadees raise their young.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
-          "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
-          "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
-          "publishedAt": "2026-11-20T13:00:00.000Z",
-          "excerpt": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Ars Technica",
@@ -542,6 +552,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+          "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+          "publishedAt": "2026-11-22T12:07:41.000Z",
+          "excerpt": "GLP-1 drugs could cut food demand enough to free farmland larger than Italy.",
+          "source": "Ars Technica",
+          "category": "Technology"
+        },
         {
           "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
           "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
@@ -693,17 +711,9 @@
           "excerpt": "Amazon now uses its shopping platform for political purposes.",
           "source": "Ars Technica",
           "category": "Technology"
-        },
-        {
-          "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
-          "url": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
-          "publishedAt": "2026-11-19T21:19:12.000Z",
-          "excerpt": "Expert called MAHA's spending \"pretty unusual\" for a PAC.",
-          "source": "Ars Technica",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +882,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1051,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1150,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1294,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Techmeme",
@@ -1458,7 +1468,7 @@
           "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1657,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1665,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "'Listening to the people doing the work matters alongside the numbers': Dropbox head tells us why your business needs to be bold in taking the next steps in its AI journey",
+          "url": "https://www.techradar.com/pro/listening-to-the-people-doing-the-work-matters-alongside-the-numbers-dropbox-head-tells-us-why-your-business-needs-to-be-bold-in-taking-the-next-steps-in-its-ai-journey",
+          "publishedAt": "2026-11-22T12:00:00.000Z",
+          "excerpt": "Dropbox tells us how your business can achieve real outcomes using AI.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "I tested three 5-star OLED TVs from LG and Samsung — here’s my pick for Black Friday",
+          "url": "https://www.techradar.com/televisions/i-tested-three-new-5-star-oled-tvs-from-lg-and-samsung-side-by-side-and-i-know-which-is-my-top-pick-for-black-friday-2026",
+          "publishedAt": "2026-11-22T12:00:00.000Z",
+          "excerpt": "Which of the new OLED TVs from LG and Samsung will be the highlight of Black Friday? I tested my top 3 picks side by side to find out.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "AirPods Max 2, Technics EAH-A1000, B&W Px8 S2 or Nothing Headphone (a): there's only one set of cans I'd buy for Black Friday",
           "url": "https://www.techradar.com/audio/wireless-headphones/i-tested-four-of-the-best-wireless-noise-canceling-headphones-in-2026-and-theres-only-one-pair-id-buy-on-black-friday",
@@ -1701,19 +1729,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to watch Burnley vs Blackburn: FREE live streams, TV channels & kick-off time for EFL Championship 2026/27 fixture",
-          "url": "https://www.techradar.com/entertainment/football/burnley-vs-blackburn-free-efl-championship-2026-27",
+          "title": "Feeling the fear? Workers with Monday morning meetings are increasingly working weekends just to prepare",
+          "url": "https://www.techradar.com/pro/feeling-the-fear-workers-with-monday-morning-meetings-are-increasingly-working-weekends-just-to-prepare",
           "publishedAt": "2026-11-22T09:00:00.000Z",
-          "excerpt": "How you can watch Burnley vs Blackburn in the EFL Championship 2026/27 for free online from anywhere in the world with TV channels, kick-off time included.",
+          "excerpt": "The weekend is ending with anxiety when meetings are scheduled for Monday mornings, as a new survey suggests employees are spending their Sundays preparing for confabs.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
         },
         {
-          "title": "Feeling the fear? Workers with Monday morning meetings are increasingly working weekends just to prepare",
-          "url": "https://www.techradar.com/pro/feeling-the-fear-workers-with-monday-morning-meetings-are-increasingly-working-weekends-just-to-prepare",
+          "title": "How to watch Burnley vs Blackburn: FREE live streams, TV channels & kick-off time for EFL Championship 2026/27 fixture",
+          "url": "https://www.techradar.com/entertainment/football/burnley-vs-blackburn-free-efl-championship-2026-27",
           "publishedAt": "2026-11-22T09:00:00.000Z",
-          "excerpt": "The weekend is ending with anxiety when meetings are scheduled for Monday mornings, as a new survey suggests employees are spending their Sundays preparing for confabs.",
+          "excerpt": "How you can watch Burnley vs Blackburn in the EFL Championship 2026/27 for free online from anywhere in the world with TV channels, kick-off time included.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1816,27 +1844,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Days after Nvidia CEO Jensen Huang resigned, journalists unearth covert influence operation using right-wing outlets to promote Nvidia AI chip export to...China",
-          "url": "https://www.techradar.com/pro/days-after-nvidia-ceo-resigned-journalists-unearth-covert-influence-operation-using-right-wing-outlets-to-promote-nvidia-ai-chip-export-to-china",
-          "publishedAt": "2026-11-21T19:15:00.000Z",
-          "excerpt": "An investigation uncovered an alleged influence campaign involving over 80 influencers promoting Nvidia chip exports to China, reaching approximately 14 million followers.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "As GTA VI arrives, McAfee warns of new malware-as-a-service targeting gamers and its own customers alike",
-          "url": "https://www.techradar.com/pro/security/as-gta-vi-arrives-mcafee-warns-of-new-malware-as-a-service-targeting-gamers-and-its-own-customers-alike",
-          "publishedAt": "2026-11-21T18:05:00.000Z",
-          "excerpt": "Marsalek handed out free malware to wannabe hackers, then quietly copied everything they stole to its own server.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2035,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2224,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2413,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Fast Company",
@@ -2547,7 +2557,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Creative Bloq",
@@ -2555,6 +2565,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "“It’s not meant to replace your creativity”: Adobe’s AI pitch hasn’t changed in two years, but the tools have",
+          "url": "https://www.creativebloq.com/features/its-not-meant-to-replace-your-creativity-adobes-ai-pitch-hasnt-changed-in-two-years-but-the-tools-have",
+          "publishedAt": "2026-11-22T12:00:00.000Z",
+          "excerpt": "Vice President Deepa Subramaniam discusses the empowerment of creative choice.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Rockstar spent months on one detail in GTA 6: Lucia opening a door with her hip",
           "url": "https://www.creativebloq.com/news/rockstar-spent-months-on-one-detail-in-gta-6-lucia-opening-a-door-with-her-hip",
@@ -2725,18 +2744,9 @@
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The best GTA 6 brand reactions, from Mercedes Benz to... Huggies?",
-          "url": "https://www.creativebloq.com/news/the-best-gta-6-brand-reactions-from-mercedes-benz-to-huggies",
-          "publishedAt": "2026-11-20T06:00:00.000Z",
-          "excerpt": "The brands that made an effort stood out.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2955,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3124,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3293,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3382,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3551,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3720,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3909,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4088,7 +4098,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4287,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The New Yorker",
@@ -4403,19 +4413,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Have Yourself a Kitschy Little Christmas",
-          "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
+          "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
+          "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
           "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "Leave your good taste at the door.",
+          "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
-          "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
+          "title": "Have Yourself a Kitschy Little Christmas",
+          "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
           "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
+          "excerpt": "Leave your good taste at the door.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4466,7 +4476,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4605,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "IndieWire",
@@ -4700,7 +4710,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Vox",
@@ -4708,6 +4718,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Adults are buying more toys than ever. You should too.",
+          "url": "https://www.vox.com/explain-it-to-me/511306/kidults-toy-industry-play-brain-benefits",
+          "publishedAt": "2026-11-22T12:00:00.000Z",
+          "excerpt": "Recently, I was out doing some window shopping with one of my friends. We checked out some of our usual places — a makeup store, a clothing store — but the place where my friend’s eyes really lit up was a toy store. There were floor-to-ceiling displays of Labubus and Funko Pops, Jellycats that looke",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "America’s most visited national park right now is inside GTA VI",
           "url": "https://www.vox.com/down-to-earth/511310/grand-theft-auto-release-birdwatching-nature",
@@ -4878,18 +4897,9 @@
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Why online gamblers are obsessed with table tennis",
-          "url": "https://www.vox.com/technology/510152/online-gambling-table-tennis-sports-parlays",
-          "publishedAt": "2026-11-13T11:00:00.000Z",
-          "excerpt": "If you were living in Colorado in May and bet on sports online, you’d statistically have been most likely to bet on professional basketball. Next on the list was baseball. The third-most wagered sport? Table tennis. Colorado is almost certainly not an outlier. Table tennis occupies a similarly high ",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5088,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5257,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5426,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5555,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5654,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5843,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6032,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6221,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
     },
     {
@@ -6316,7 +6327,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6496,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6665,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6834,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +7003,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7361,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7530,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7659,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7828,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7997,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8186,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8355,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8524,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8713,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8871,7 +8882,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9051,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9140,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9329,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9518,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9707,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "The Marginalian",
@@ -9865,7 +9876,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10045,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10214,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Psyche",
@@ -10275,19 +10286,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Eye on the mark",
-          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+          "title": "Eye on the mark",
+          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10338,19 +10349,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How to take notes that actually help you learn",
-          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+          "title": "Who am I if I don’t run?",
+          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Who am I if I don’t run?",
-          "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+          "title": "How to take notes that actually help you learn",
+          "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
           "publishedAt": "2026-11-05T11:00:00.000Z",
-          "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+          "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10392,7 +10403,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10572,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10741,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Kottke",
@@ -10939,7 +10950,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11159,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Waxy",
@@ -11377,14 +11388,23 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 7,
+      "count": 8,
       "stories": [
+        {
+          "title": "The most sand",
+          "url": "https://www.metafilter.com/215262/The-most-sand",
+          "publishedAt": "2026-11-22T11:46:41.000Z",
+          "excerpt": "Push grains with your finger, tilt your phone to make them slide, or shake to scatter them. Play in your browser on phones, tablets and desktops.",
+          "source": "MetaFilter",
+          "category": "Discover",
+          "sourceRole": "community"
+        },
         {
           "title": "They call it Film, but nobody's recorded on actual film in years...",
           "url": "https://www.metafilter.com/215261/They-call-it-Film-but-nobodys-recorded-on-actual-film-in-years",
@@ -11449,7 +11469,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11638,7 +11658,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Dense Discovery",
@@ -11847,7 +11867,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "香港01",
@@ -11856,90 +11876,98 @@
       "count": 20,
       "stories": [
         {
-          "title": "金馬獎2026即時更新｜跟兒子齊奪最佳音效 杜篤之︰最高興的一次",
-          "url": "https://hk01.com/sns/article/60413721",
-          "publishedAt": "2026-11-22T11:12:43.000Z",
-          "excerpt": "《第63屆金馬獎頒獎典禮》今晚（11/22）於臺北流行音樂中心正式舉行。本屆匯聚來自各地的優秀華語電影作品，由《狂忘警探》入圍11項、《女孩》入圍10項領跑，《雙囍》與《善男信女》則各獲9項提名，競爭相當激烈。《香港01》會為大家全程作即時報道各個獎項花落誰家。 柯煒林擔任今屆金馬獎主持，更特別為香港演打氣︰「香港隊，加油！」（金馬直播截圖） 18:55 最佳剪輯由《雙囍》的陳俊宏奪得。 最佳剪輯由《雙囍》的陳俊宏套得。（金馬直播截圖） 18:59 最佳劇情短片由《三隻小豬》的仲錦妮奪得。 《三隻小豬》導演仲錦妮未有到來，由劇組人員代領。（金馬直播截圖） 19:05 最佳音效由《狂忘警探》的杜",
+          "title": "跑步︱莊司暘南京馬拉松2小時18分完成 香港男子全馬歷代第三快",
+          "url": "https://hk01.com/sns/article/60413690",
+          "publishedAt": "2026-11-22T12:13:59.000Z",
+          "excerpt": "香港長跑好手莊司暘在南京馬拉松傳來喜訊，以2小時18分26秒成績完賽，成為本地歷來第四位全馬跑進2小20分鐘內的跑手，亦是歷來第三最快的成績。 莊司暘南京馬拉松以2小時18分完成，寫下香港男子全馬歷代第三快成績。 26歲的莊司暘，3年前與訓練夥伴兼好友張耀樑雙雙首度入選港隊，出戰韓國大邱國際馬拉松。兩人繼那一年渣馬後，在韓國攜手再創個人最佳成績（PB）。司暘一直朝着全馬2小時20分鐘以下的成績邁進，這些年來歷盡起起跌跌，今次終能在南京達到，他的多年恩師陳家豪透露，司暘取得佳績後哭着跟他說了句：「終住得咗，多謝你」，家豪亦為對方感到很開心，「睇住佢大，中間經歷過高高低低，而且全馬訓練跟比賽成績常",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "金馬獎2026｜柯煒林唱陳奕迅《今天等我來》 擠出酒粒向舒淇示愛",
-          "url": "https://hk01.com/sns/article/60413731",
-          "publishedAt": "2026-11-22T11:07:42.000Z",
-          "excerpt": "《第63屆金馬獎頒獎典禮》今晚（11/22）於臺北流行音樂中心正式舉行。本屆匯聚來自各地的優秀華語電影作品，由《狂忘警探》入圍11項、《女孩》入圍10項領跑，《雙囍》與《善男信女》則各獲9項提名，競爭相當激烈。今屆大會司儀是香港演員柯煒林，他先在台上用多種語言向來自各地候選人問好。 柯煒林特別向香港演員打氣︰「香港隊加酒！」（金馬直播截圖） 舒淇也打趣回應。（金馬直播截圖） 介紹到舒淇導演時，他就表示面紅耳熱，又立即擠出酒粒，暗示自己跟馮德倫一樣有酒粒。（金馬直播截圖） 而去到舒淇導演時，他就表示面紅耳熱，又立即擠出酒粒，暗示自己跟馮德倫一樣有酒粒。去到尾聲，柯煒林更初試啼聲，唱出陳奕迅的《今",
+          "title": "選委會選舉｜1宗選舉投訴 陸啟康：有人唔知點解會收到選舉廣告",
+          "url": "https://hk01.com/sns/article/60413742",
+          "publishedAt": "2026-11-22T12:11:51.000Z",
+          "excerpt": "選委會選舉今日（11月22日）傍晚6時結束，5640人投票，投票率98.79%。1115個候選人競逐982個選舉產生的席位。14個界別分組的投票率100%。選管會主席陸啟康在選舉結束後表示，對投票率感鼓舞，認為投票數字反映香港選舉制度越來越成熟，相信能在合理時間內完成點票。他又提到，共接獲1宗與選舉有關的投訴，涉及選舉廣告，「有人投訴唔知點解會收到選舉廣告」，有關單位正處理。 選委會選舉投票結束後，將在設於會展的中央票站統一點票。（林彥汛攝） 2026年11月22日，選委會選舉結束，票箱運送到設於香港會議展覽中心的中央點票站點票。（林彥汛攝） 陸啟康：對98.79%投票率感鼓舞 反映選制越來越",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "何文田京士柏山單位遇竊 女住戶失兩戒指及現金 共值逾$24萬",
-          "url": "https://hk01.com/sns/article/60413710",
-          "publishedAt": "2026-11-22T11:03:05.000Z",
-          "excerpt": "何文田發生盜竊案。今日（22日）上午10時59分，警方接獲46歲姓黃女子報案，指其京士柏山道78號京士柏山6座寓所內，有兩枚分別約值20萬及4.5萬元的戒指，及約2,000元現金不翼而飛。 警方經初步調查，將案件列「盜竊」，交由油尖警區刑事調查隊第九隊跟進，暫未有人被捕。 油麻地京士柏山道78號一單位遇竊，暫未有人被捕。（Google Maps截圖）",
+          "title": "范鴻齡不續任醫管局主席未官宣 內部已舉辦歡送活動｜政壇諸事町",
+          "url": "https://hk01.com/sns/article/60413740",
+          "publishedAt": "2026-11-22T12:02:57.000Z",
+          "excerpt": "打破法定組織非官方成員「六年任期」慣例的醫管局主席范鴻齡，任期下周一（11月30日）結束。《香港01》上月獨家報道，72歲的保險界「老行尊」、行政會議成員陳健波料接掌醫管局。官方至今未公布78歲的范鴻齡不再續任，不過醫管局上周已為范鴻齡舉辦歡送活動。聽聞，醫管局的人事任命最快本周初公布。 醫院管理局主席范鴻齡。（梁鵬威攝） 范鴻齡打破「六年任期」慣例 第七年出任醫管局主席 范鴻齡2019年12月1日起獲委任為醫管局主席，原本任期2年。他其後獲續任三次，分別在2021年、2023年、2026年。去年委任范鴻齡時表明只有一年任期，即11月30日結束。話雖如此，范鴻齡已打破法定組織非官方成員「六年任",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "四川忠貓連守亡主墓地20天 風雨無阻拒離開 姪子感動收養備貓窩",
-          "url": "https://hk01.com/sns/article/60413363",
-          "publishedAt": "2026-11-22T11:02:31.000Z",
-          "excerpt": "動物通靈重情，長情守候令人動容！四川日前發生1宗令人動容的忠寵熱話。四川1名老翁上月不幸因病離世，留下1隻生前朝夕相伴逾5年的黑白花貓。在亡主入土為安後，這隻通人性的小貓竟然連續20天風雨無阻在墓地旁安靜趴伏守候，直至天黑才默默返家。老翁的姪子深受震撼，決定接手照顧貓咪。 小貓連續20日跑到亡主墓前默默守候，不願離開。（「後浪視頻」影片·截圖） 小貓連續20日跑到亡主墓前默默守候，不願離開。（「後浪視頻」影片·截圖） 小貓連續20日跑到亡主墓前默默守候，不願離開。（「後浪視頻」影片·截圖） 忠貓日夜守候亡主墳前 大雨不阻思念 據內地傳媒 「後浪視頻」 報道，當地1名余姓男子的叔叔上月因病離世，",
+          "title": "野狼變家犬？內蒙古救助站狼群搖尾討食 網民嘆「狼性文化」不再",
+          "url": "https://hk01.com/sns/article/60413581",
+          "publishedAt": "2026-11-22T12:02:18.000Z",
+          "excerpt": "野狼向人類搖尾討食如家犬，再度引發公眾對野生動物投餵界線的討論。近日網上流傳1段拍攝於內蒙古錫林郭勒盟烏拉蓋野狼谷景區的影片，顯示野生動物拯救中心（內地稱「救助站」）工作人員走近狼群準備餵食時，群狼竟紛紛上前搖尾巴，連原本低頭進食的野狼亦放下食物趨前。片段廣傳後，不少網民聯想到早前爆紅的青海可可西里「網紅狼」，打趣「狗對狼來說是一種『職業選擇』」。 不過，中科院成都生物研究所研究員戴強提醒，人為投餵易令野生動物產生依賴，即使表面溫順亦難保沒有攻擊性，公眾應保持安全距離；曾於內蒙古保護站任義工半年的祝佳琪則指，狼隻只會對長期以平等心態照料的專業人員放下戒備，絕非遊客隨手投餵能相提並論。 群狼一邊",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "美國報告稱AUKUS協議將致美軍潛艇規模縮減 澳洲防長反駁",
-          "url": "https://hk01.com/sns/article/60413685",
-          "publishedAt": "2026-11-22T11:01:12.000Z",
-          "excerpt": "澳洲國防部長馬爾斯（Richard Marles）星期日（11月22日）對美國國會預算辦公室的一份報告提出批評。報告稱，澳英美三邊安全夥伴關係（AUKUS）協議將導致美國海軍可用的攻擊型潛艇數量減少。 路透社報道， 馬爾斯在談及美國國會預算辦公室時說：「他們錯了。」 預算辦公室本月發布的報告指出，向澳洲出售維珍尼亞級潛艇，可能導致美國海軍攻擊型潛艇部隊的規模縮減，這一影響可能持續至2060年。 根據AUKUS，從明年起，由美國指揮的維珍尼亞級潛艇將進駐澳洲；從2030年前後開始，美國將向澳洲出售數艘維珍尼亞級潛艇。此外，英國和澳洲還將共同建造一種新型AUKUS核動力潛艇。 2025年5月31日",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "郭政鴻62歲生日獲佘詩曼苗僑偉到賀 圈外靚老婆激罕露面搶盡焦點",
-          "url": "https://hk01.com/sns/article/60413615",
-          "publishedAt": "2026-11-22T11:00:57.000Z",
-          "excerpt": "剛於本月18日迎來62歲生日的郭政鴻，一如往年在小紅書貼出生日飯局短片分享喜悅。向來在圈中人緣極佳的他，今年壽宴依舊星光熠熠，獲佘詩曼、苗僑偉、吳卓羲、陶大宇、陳山聰與兒子Jaco、胡炯龍及梁靖琪等一眾視帝視后級好友抽空到賀，眾人更特意送上寫有「南拳王 DEREK」字樣的3D立體拳王蛋糕祝壽；然而在一片明星大合照之中，全場焦點卻被一位極少在鏡頭前曝光的神秘嘉賓搶盡！ 郭政鴻日前迎來62歲生日。（小紅書@郭政鴻） 完全睇唔出已經62歲。（小紅書@郭政鴻） 吳卓羲攬到郭政鴻實一實。（小紅書@郭政鴻） 搭晒膊頭，真係好兄弟。（小紅書@郭政鴻） 圈外靚老婆激罕露面 而這位搶去全場視帝視后風頭的，正是向",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉・持續更新｜點票料午夜前完成 各界別結果陸續出爐",
+          "title": "選委會選舉・持續更新｜料午夜前完成點票 陸啟康：望大家唔使捱",
           "url": "https://hk01.com/sns/article/60413715",
-          "publishedAt": "2026-11-22T11:00:52.000Z",
+          "publishedAt": "2026-11-22T12:00:52.000Z",
           "excerpt": "選舉委員會界別分組選舉今日（11月22日）傍晚6時結束，5640人投票，投票率98.79%。1115個候選人競逐982個選舉產生的席位。14個界別分組的投票率100%，包括工程界、漁農界、基層社團、法律界、會計界、酒店界、進出口界、工業界（第一）、工業界（第二）、香港僱主聯合會、建築、測量、都市規劃及園境界、商界（第一）、商界（第三）、科技創新界。 點票工作料午夜前完成，選舉管理委員會主席陸啟之後將會見傳媒總結選舉。 2026年11月22日，選委會選舉結束，票箱運送到設於香港會議展覽中心的中央點票站點票。（林彥汛攝） 【18:30】票箱陸續抵達灣仔會展的中央點票站，選管會主席陸啟康、政制及內地",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "iPhone Duo人臉解鎖存漏洞 缺3D感測硬件 用一張相片輕鬆破解",
-          "url": "https://hk01.com/sns/article/60412812",
-          "publishedAt": "2026-11-22T11:00:43.000Z",
-          "excerpt": "蘋果已向iPhone Duo釋出了iOS 27.3 Beta 2開發者測試版，新增了一項基於前置鏡頭的人臉解鎖功能。雖然iPhone Duo並沒有配備Face ID所需的TrueDepth硬件，但用家現在也可以通過外屏幕鏡頭識別人臉，快速解鎖手機。 對於用家來說，這項功能主要提升的是日常使用便利性，可以減少反覆使用側邊指紋解鎖的次數。不過，它的安全性卻無法與Face ID相提並論。 日前有科技達人發布實測影片稱，僅憑一張相片就成功解鎖了iPhone Duo。（X@Saurav_DJ47） iPhone Duo用一張相片就能破解人臉解鎖： 有科技達人發布實測影片稱，僅憑一張照片就成功解鎖了iPh",
+          "title": "碧咸大仔Brooklyn夫婦見鏡頭立即拖手 網民質疑恩愛都是裝出來",
+          "url": "https://hk01.com/sns/article/60413656",
+          "publishedAt": "2026-11-22T12:00:40.000Z",
+          "excerpt": "萬人迷碧咸（David Beckham）自年初陷入家變危機，大仔Brooklyn發6頁聲明表明與父母及弟妹割席，事件引起全球關注。如今家變發生近1年仍沒有好轉，而Brooklyn與百億千金愛妻Nicola Peltz的一舉一動成為外界關注。 碧咸今年6月正式在荷里活星光大道留名，全家總動員前來力撐，獨欠Brooklyn夫婦。（IG/@davidbeckham） Brooklyn與太太Nicola Peltz去年8月結婚3年，並舉辦誓言更新儀式，不過沒有邀請父親碧咸一家人，家庭正式決裂。（IG圖片） Nicola Peltz與Brooklyn經常在社交平台放閃。（IG圖片） Brooklyn夫婦",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "15歲少年推改裝電雞入酒店房充電突爆燃釀5死 未達刑責年齡免訴",
-          "url": "https://hk01.com/sns/article/60413680",
-          "publishedAt": "2026-11-22T11:00:16.000Z",
-          "excerpt": "今年7月6日，河南鄭州惠濟區一間酒店發生火災，導致5死1傷。11月20日，河南鄭州消防發佈事故調查報告，認定事故是一名15歲少年將一輛經非法改裝的電動單車（電雞）違規帶入樓宇充電，過程中底盤電池包與台階發生磕碰，最終導致鋰電池熱失控爆燃所致。由於涉案前後兩任車主均為未滿16歲的未成年人，調查組建議對二人不予追究刑事責任。 一輛經非法改裝的電雞在酒店房内充電爆炸。（豆包AI圖） 據河南鄭州「鄭州消防」微信公眾號消息，2026年7月6日上午7時51分，鄭州市惠濟區北三環和昌瓏悅小區凱繽悅旅館酒店628室起火，過火面積約15平方米，直接經濟損失高達530.75萬元人民幣。 經查，涉事電動電單車最初由",
+          "title": "來稿｜全球養老制度大比拼：亞洲三甲花落誰家？",
+          "url": "https://hk01.com/sns/article/60413043",
+          "publishedAt": "2026-11-22T12:00:20.000Z",
+          "excerpt": "來稿作者：陳文坪 新加坡公積金（CPF）制度給人民退休生活提供有力支撐。在低利率年份，CPF的退休戶頭存款利率都是高於銀行存款利率，確保利率比通貨膨脹來得高或持平。CPF除了作為退休養老金外，還可以用來購買房屋、提供高等學府教育費、醫藥保險等等。 新港馬退休養老制度亞洲三甲 國際諮詢公司達信（Marsh）、特許金融分析師協會（CFA Institute）及澳大利亞蒙納士大學商學院，10月20日聯合發布2026年全球養老金指數報告。亞洲國家/地區中，新加坡以82分，位居亞洲之首；香港以71.2分排名第二，獲評B級；馬來西亞以61.1分排名第三，獲評C+級別。 新、港是發達經濟體，又是國際/區域金",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "頂級富豪會吃Buffet嗎？餐廳員工揭自助餐「有錢人吃法」 網傻眼",
-          "url": "https://hk01.com/sns/article/60412338",
-          "publishedAt": "2026-11-22T11:00:06.000Z",
-          "excerpt": "台灣自助餐（buffet）餐廳選擇豐富，一名女網友好奇，頂級富豪是否會選擇自助餐餐廳用餐？沒想到貼文引來不少人分享親身經歷。有人透露，認識的富豪家庭甚至會直接包月，把自助餐當成日常晚餐；也有餐廳前員工表示，曾看過富豪、貴婦到店裡用餐，卻不是忙著夾取各種餐點，而是悠閒喝咖啡、吃沙拉（沙律）和甜品，待約半小時就離開。 這名女網友在社群平台「Threads」表示 ，近期和老公討論，身價10億（台幣，下同）資產以上階級的人，會去自助餐餐廳用餐嗎？老公認為富豪應該還是會去，但她則認為不會，也想不到這些富豪會在什麼情況下前往？ 延伸閱讀： 自助餐絕對不會吃哪些食物？ 即睇網民點名十多種Buffet食量殺手",
+          "title": "今日娛樂熱話｜谷婭溦曾志偉關係匪淺｜方力申獲世界紀錄認證",
+          "url": "https://hk01.com/sns/article/60413729",
+          "publishedAt": "2026-11-22T12:00:08.000Z",
+          "excerpt": "",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "Omart MegaBox開幕人龍跨6層 現場劃8區分流 市民稱未見混亂",
-          "url": "https://hk01.com/sns/article/60413724",
-          "publishedAt": "2026-11-22T10:47:08.000Z",
-          "excerpt": "Omart今日（22日）於九龍灣MegaBox開幕，自今早十時起開幕前，已有不少市民排隊等候入場購物，更由商場12樓大排長龍至17樓，現「打蛇餅」情形。今日更有網民發文稱現場安排十分混亂，指自己欲搭電梯離開時被指插隊。 記者今日約下午5時到場觀察排隊情況，人龍依然由12樓排至17樓，但現場亦有分區安排，並由工作人員分批安排等候人士入場，有市民認為人流管制頗為妥善，亦未見現場有混亂情況。 Omart門外大排長龍，由12樓排至17樓。（呂婉盈攝） Omart開幕 現6層長龍 現場劃分8個排隊區 本地倉儲式超市Omart今日於九龍灣MegaBox正式開幕，吸引不少人入場購物。自今早十時前，已有大批市",
+          "title": "向太認郭碧婷手握「兩張王牌」唔敢兇 尊重新抱意願絕不催生",
+          "url": "https://hk01.com/sns/article/60413686",
+          "publishedAt": "2026-11-22T11:45:26.000Z",
+          "excerpt": "向華強太太陳嵐（向太）向來對兒媳婦郭碧婷愛錫有加，兩婆媳關係融洽。近日向太於個人社交平台發布短片，圍繞婆媳相處、家庭邊界及育兒理念等話題分享個人觀點，片中她不僅坦言對郭碧婷「發不了脾氣」，更表示對方生不生第三胎全由她自己作主。 向太的兒子向佐與郭碧婷育有一子一女。（向太微博圖片） 向太毫不猶豫企郭碧婷嗰邊 在快問快答環節中，被問到若兒子向佐與新抱郭碧婷同時打電話「告狀」會先接聽誰的來電，向太秒答：「我會先接媳婦的！」她解釋，郭碧婷是嫁過來的，理應更需要幫襯；至於兒子則是「自己人」，就算得罪一下亦無所謂。 向太爆如果郭碧婷同向佐開戰一定幫郭碧婷。（小紅書＠向太Tiffany） 向太更直言，新抱沒",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美股暴跌市場恐慌 AI狂飆進入轉折點了嗎？｜點經",
+          "url": "https://hk01.com/sns/article/60413735",
+          "publishedAt": "2026-11-22T11:41:22.000Z",
+          "excerpt": "剛過去的周五11月20日美股暴跌。三大指數均大跌，道指跌逾1.9%，標普500收跌3.7%，納指收跌約5.3%。半導體股遭血洗，費城半導體指數重挫約10.7%，英偉達（Nvidia）跌逾14%，美光科技（Micron）跌近14%，⁠SK海力士跌超過13%。美股七姐妹均下跌，其中特斯拉（Tesla）跌逾7%。剛上市的Anthropic沒能倖免，收跌8.5%，盤中一度跌至83.05美元，險些跌破招股價。 剛過去的這一周，納指累計下跌10%，創2020年3月以來的最大單周跌幅。距離10月高點已下跌18.4%。英偉達在這一周累計下跌22.92%，創2008年10月以來最大單周跌幅，距離歷史高點下跌47",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "俞可程爆戀TVB導演火速復工拍《東張》 林盛斌揭台慶避風頭內幕",
+          "url": "https://hk01.com/sns/article/60413734",
+          "publishedAt": "2026-11-22T11:35:14.000Z",
+          "excerpt": "憑藉《東張西望》成功入屋的俞可程（Kanis），憑甜美外貌及傲人身材獲封為新一代「東張女神」，近年備受無綫力捧，有指原定在台慶上有份表演。然而，自《香港01》獨家爆疑與TVB綜藝科高級導演、負責《魔音女團》的鄭韜畧（Marcus）在街頭舉止親暱、當街親熱的畫面後，事件在網上引發熱議，亦令其女神形象大受考驗。 由於Kanis在節目中一直大賣「單身人設」，緋聞曝光後她突然全面缺席《萬千星輝賀台慶》，連原本有份演出的環節亦被抽起，一度惹來觸怒高層「被雪藏」的疑雲。不過最新消息指，Kanis已經火速復工！ 外界盛傳她有份參與的戀愛真人騷《女神配對計劃2》亦受牽連。（IG@kanissyu） 俞可程近日",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "石修新抱林佑蔚化身性感兔女郎 電梯大堂着透視裝狂扭蛇腰派福利",
+          "url": "https://hk01.com/sns/article/60413631",
+          "publishedAt": "2026-11-22T11:30:59.000Z",
+          "excerpt": "石修的兒子陳宇琛於2017年與前有線電視主播林佑蔚（Camille）步入婚姻殿堂，婚後兩人育有可愛女兒陳翎（Luna）。雖然已升呢做人母，但轉型為KOL的林佑蔚私下作風向來大膽，毫不吝嗇在社交平台大騷零贅肉好身材，頻頻上載靚相及熱舞影片，成為網民眼中的「索爆人妻」。 石修的兒子陳宇琛於2017年與前有線電視主播林佑蔚步入婚姻殿堂，婚後兩人育有一女。（IG@itscamilleadeline） 透視裝配兔耳造型騷火辣身材 近日，林佑蔚再度於社交網派發福利，分享一段在電梯大堂拍攝的跳舞短片。片中的她頭戴白色毛絨兔耳頭飾，換上一襲極具貼身剪裁的純白色無袖連身短褲，腰間更巧妙加入透視薄紗設計，再配搭一",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11968,10 +11996,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "海關機場破兩販毒案 保鑣行李藏大麻花 內地男棄行李再入境被擒",
-          "url": "https://hk01.com/sns/article/60413708",
-          "publishedAt": "2026-11-22T10:16:33.000Z",
-          "excerpt": "香港海關一連兩日（20及21日）在香港國際機場，先後偵破兩宗涉及航空旅客行李藏毒的案件，行動中共檢獲37.3公斤懷疑大麻花，估計市值約800萬港元，並拘捕包括一名英國籍及一名內地男子。兩名被捕人士已各被控一項販運危險藥物罪，案件將於明日（23日）在西九龍裁判法院提堂。 海關毒品調查科調查主任何珏嵐交代案情。(林振華攝) 海關人員前日（20日）在香港國際機場進行反毒品行動期間，鎖定一名由泰國曼谷飛抵本港、並準備轉機前往英國倫敦的非本地男子進行清關。該名男子當時攜帶兩件寄艙行李及一件手提行李。海關人員透過X光影像掃描系統檢查時，發現其寄艙行李內收藏的物品形態相近，且密度非常平均，與一般旅客攜帶的物",
+          "title": "寶勒巷車禍有片｜多名傷者倒地途人上前協助 救護員為一人心外壓",
+          "url": "https://hk01.com/sns/article/60413672",
+          "publishedAt": "2026-11-22T09:03:56.000Z",
+          "excerpt": "尖沙咀寶勒巷今日（22日）發生嚴重車禍。下午2時28分，警方接獲報案，指上址有一輛私家車懷疑失控剷上行人路，並撞倒4名途人，其中一人陷入昏迷，送院搶救惟終證不治。有目擊者向記者憶述，事發時聽到「乒鈴𠾴唥」的巨響，認為私家車車速甚快，更有人目擊男司機及女乘客在事發後神情呆滯，然後「施施然」逃去。消息稱，警方在柯士甸道近德信學校對面，截停並拘捕一名38歲男子，涉嫌「危險駕駛」及「醉酒駕駛」。 根據多條網上片段所見，事發後涉事私家車擱在行人路上，車頭撞向欄杆。而行人路上則有多名傷者倒地，情況一片混亂。片段所見，有兩名傷者頭部出血，其中一人已無反應，頭部則壓住一條相信是鐵欄部件的金屬物。多名途人上前",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12006,17 +12034,9 @@
           "excerpt": "今日（22日）下午2時29分，警方接獲報案指，尖沙咀寶勒巷3-7A號有一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一名傷重不治。涉事私家車司機棄車逃去。《香港01》獲得一段閉路電視片段，拍攝到有兩名途人迅速閃入一間食肆，避過一劫；有一人被撞倒地無知覺。 事主被撞後倒地不省人事。(讀者提供片段截圖) 《香港01》獲得一段閉路電視片段，由車禍現場附近一間食店的鏡頭所拍攝。事發一刻，有一男一女途人突然衝入食店中，未及半秒已見到一輛私家車的車影在食肆門口閃過，可謂相當驚險。他們兩人雖避過一劫，但私家車駛過後，卻見到一名人士疑被撞及，倒地的同時亦連同雜物向前衝，該名事主已毫無知覺。 ",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "尖沙咀寶勒巷私家車失控剷行人路撞地舖 釀1死3傷 司機棄車逃走",
-          "url": "https://hk01.com/sns/article/60413642",
-          "publishedAt": "2026-11-22T06:53:58.000Z",
-          "excerpt": "今日（22日）下午2時29分，警方接獲報案指，尖沙咀寶勒巷3-7A號有一輛私家車懷疑失控衝上行人路，並撞到一間地舖。據報有多人受傷，而涉事私家車司機棄車逃去。救援人員接報趕赴現場，發現4名傷者，其中一名男傷者陷入昏迷，由救護車送往伊利沙伯醫院搶救，惟最終證實死亡，事件造成1死3傷。警方正調查事故成因，並追緝涉事司機下落。消息稱，警方在現場截獲一名男子，懷疑與案有關。 現場所見，私家車撞毀路邊鐵欄及單車，行人路一片狼藉。有傷者倒卧路上，救護員即場為傷者包紮及治理。 現場至少4人受傷，救護員正為一名傷者包紮。（馬耀文攝） 現場至少4人受傷，救護員正為傷者治理及包紮。（馬耀文攝） 現場至少4人受傷，",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "有線新聞",
@@ -12024,6 +12044,46 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "澳門賽車 19歲中村紀庵FR世界盃封王 雲達連特奪GT世界盃冠軍",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526586/%E6%BE%B3%E9%96%80%E8%B3%BD%E8%BB%8A-19%E6%AD%B2%E4%B8%AD%E6%9D%91%E7%B4%80%E5%BA%B5fr%E4%B8%96%E7%95%8C%E7%9B%83%E5%B0%81%E7%8E%8B-%E9%9B%B2%E9%81%94%E9%80%A3%E7%89%B9%E5%A5%AAgt",
+          "publishedAt": "2026-11-22T12:14:11.000Z",
+          "excerpt": "【有線新聞】澳門賽車壓軸重頭戲FR世界盃，英國車手中村紀庵贏得冠軍。 排第2、阿根廷的高拿吉遲遲未能起步。頭位",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "選委會選舉｜社福界候選人黃萬成",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526588/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E7%A4%BE%E7%A6%8F%E7%95%8C%E5%80%99%E9%81%B8%E4%BA%BA%E9%BB%83%E8%90%AC%E6%88%90",
+          "publishedAt": "2026-11-22T11:59:02.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "選委會選舉｜陸啟康：投票率逾98%感鼓舞 證選制操作愈趨成熟 另收一宗與選舉廣告有關投訴",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526577/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E9%99%B8%E5%95%9F%E5%BA%B7-%E6%8A%95%E7%A5%A8%E7%8E%87%E9%80%BE98%E6%84%9F%E9%BC%93%E8%88%9E-%E8%AD%89%E9%81%B8%E5%88%B6%E6%93%8D",
+          "publishedAt": "2026-11-22T11:29:22.000Z",
+          "excerpt": "【有線新聞】選管會主席陸啟康表示對投票率超過98%感到鼓舞，相信點票在合理時間完成。 陸啟康：「我們選管會是不",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "寶勒巷車禍｜涉事司機被押返現場重組案情 警犬助搜證",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526574/%E5%AF%B6%E5%8B%92%E5%B7%B7%E8%BB%8A%E7%A6%8D-%E6%B6%89%E4%BA%8B%E5%8F%B8%E6%A9%9F%E8%A2%AB%E6%8A%BC%E8%BF%94%E7%8F%BE%E5%A0%B4%E9%87%8D%E7%B5%84%E6%A1%88%E6%83%85-%E8%AD%A6%E7%8A%AC",
+          "publishedAt": "2026-11-22T11:28:01.000Z",
+          "excerpt": "【有線新聞】司機黑布蒙頭、鎖上手銬，傍晚由警方押解返回寶勒巷現場重組案情。 去到私家車旁邊打開車門講述情況，警",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "神舟二十四號發射在即 黎家盈、神廿三乘組籌備交接 空間站首迎巴基斯坦航天員",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526595/%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%99%9F%E7%99%BC%E5%B0%84%E5%9C%A8%E5%8D%B3-%E9%BB%8E%E5%AE%B6%E7%9B%88-%E7%A5%9E%E5%BB%BF%E4%B8%89%E4%B9%98%E7%B5%84%E7%B1%8C%E5%82%99",
+          "publishedAt": "2026-11-22T11:14:47.000Z",
+          "excerpt": "【有線新聞】神舟二十四號快將發射升空之際，正在太空執勤、神廿三乘組的香港航天員黎家盈及兩名拍檔亦加緊準備交接等",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "選委會選舉｜票箱運抵會展中央點票站 陸啟康、謝小華倒票",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526570/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E7%A5%A8%E7%AE%B1%E9%81%8B%E6%8A%B5%E6%9C%83%E5%B1%95%E4%B8%AD%E5%A4%AE%E9%BB%9E%E7%A5%A8%E7%AB%99-%E9%99%B8%E5%95%9F%E5%BA%B7",
@@ -12143,49 +12203,9 @@
           "excerpt": "【有線新聞 】馬會為兩屆馬王「浪漫勇士」舉行榮休歡送儀式。 大批馬迷前來歡送「浪漫勇士」，形容牠有不屈不撓的精",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "尖沙咀寶勒巷私家車剷上行人路 釀1死3傷 司機被捕",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526497/%E5%B0%96%E6%B2%99%E5%92%80%E5%AF%B6%E5%8B%92%E5%B7%B7%E7%A7%81%E5%AE%B6%E8%BB%8A%E5%89%B7%E4%B8%8A%E8%A1%8C%E4%BA%BA%E8%B7%AF%E9%87%801%E6%AD%BB3%E5%82%B7",
-          "publishedAt": "2026-11-22T06:50:05.000Z",
-          "excerpt": "【有線新聞】尖沙咀有私家車剷上行人路，一死三傷，警方拘捕司機。 涉事私家車剷上行人路，撞倒多名途人，路面留下血",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "波蘭指俄導彈、無人機侵犯領空 北約秘書長誓言捍衛每寸領土",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526490/%E6%B3%A2%E8%98%AD%E6%8C%87%E4%BF%84%E5%B0%8E%E5%BD%88-%E7%84%A1%E4%BA%BA%E6%A9%9F%E4%BE%B5%E7%8A%AF%E9%A0%98%E7%A9%BA-%E5%8C%97%E7%B4%84%E7%A7%98%E6%9B%B8%E9%95%B7%E8%AA%93%E8%A8%80",
-          "publishedAt": "2026-11-22T06:37:16.000Z",
-          "excerpt": "【有線新聞】波蘭指控俄羅斯以導彈和無人機侵犯領空，北約秘書長呂特承諾保衛波蘭每寸領土。俄羅斯一艘被指與軍方有關",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "APEC｜習近平倡設世界灣區聯盟 陳茂波：港具獨特優勢能作積極貢獻",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526483/apec-%E7%BF%92%E8%BF%91%E5%B9%B3%E5%80%A1%E8%A8%AD%E4%B8%96%E7%95%8C%E7%81%A3%E5%8D%80%E8%81%AF%E7%9B%9F-%E9%99%B3%E8%8C%82%E6%B3%A2-%E6%B8%AF%E5%85%B7%E7%8D%A8%E7%89%B9",
-          "publishedAt": "2026-11-22T06:30:00.000Z",
-          "excerpt": "【有線新聞】在深圳舉行APEC峰會已經結束，財政司司長陳茂波表示，今次APEC其中一個亮點是國家主席習近平提出",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "南美球會盃｜小保加2比0擊敗明尼路 第三度封王",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526472/%E5%8D%97%E7%BE%8E%E7%90%83%E6%9C%83%E7%9B%83-%E5%B0%8F%E4%BF%9D%E5%8A%A02%E6%AF%940%E6%93%8A%E6%95%97%E6%98%8E%E5%B0%BC%E8%B7%AF-%E7%AC%AC%E4%B8%89%E5%BA%A6%E5%B0%81%E7%8E%8B",
-          "publishedAt": "2026-11-22T05:38:29.000Z",
-          "excerpt": "【有線新聞】南美球會盃決賽，小保加以2比0擊敗明尼路，第3度封王。 黃褲的小保加3分鐘幾乎收大禮，門將脫手，美",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉｜譚耀宗、李慧琼稱對今屆投票率有信心",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526460/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E8%AD%9A%E8%80%80%E5%AE%97-%E6%9D%8E%E6%85%A7%E7%90%BC%E7%A8%B1%E5%B0%8D%E4%BB%8A%E5%B1%86%E6%8A%95%E7%A5%A8%E7%8E%87%E6%9C%89%E4%BF%A1",
-          "publishedAt": "2026-11-22T04:51:10.000Z",
-          "excerpt": "【有線新聞】全國港澳研究會顧問譚耀宗和立法會主席李慧琼都對今屆投票率有信心。 位於荃灣體育館的票站，有選民到場",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Now 新聞",
@@ -12193,6 +12213,30 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "一語千金 - 港好創科｜專訪螞蟻數科區塊鏈業務總裁邊卓群(二)",
+          "url": "https://news.now.com/home/local/player?newsId=670476",
+          "publishedAt": "2026-11-22T12:03:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "一語千金 - 港好創科｜專訪螞蟻數科區塊鏈業務總裁邊卓群(一)",
+          "url": "https://news.now.com/home/local/player?newsId=670475",
+          "publishedAt": "2026-11-22T12:02:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "「愛達．花城號」南沙啟航 港人專程北上體驗國產郵輪 明年設19條香港母港航線",
+          "url": "https://news.now.com/home/local/player?newsId=670517",
+          "publishedAt": "2026-11-22T11:20:25.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "選委會選舉｜陸啟康與謝小華於灣仔中央點票站倒票",
           "url": "https://news.now.com/home/local/player?newsId=670514",
@@ -12202,7 +12246,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "寶勒巷私家車剷行人路一人死亡 據悉司機棄車逃去後被捕(容裕礽報道)",
+          "title": "寶勒巷私家車剷行人路一人死亡 據悉司機棄車逃去後被捕",
           "url": "https://news.now.com/home/local/player?newsId=670513",
           "publishedAt": "2026-11-22T11:05:25.000Z",
           "excerpt": "",
@@ -12328,33 +12372,9 @@
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "深圳APEC｜陳茂波：香港內聯外通優勢 在世界灣區合作具獨特價值",
-          "url": "https://news.now.com/home/local/player?newsId=670489",
-          "publishedAt": "2026-11-22T04:27:24.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "孫玉菡：AI等因素令僱主較少聘年輕人 明年推兩計劃助青年就業",
-          "url": "https://news.now.com/home/local/player?newsId=670487",
-          "publishedAt": "2026-11-22T04:21:33.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉｜選管會主席陸啟康：暫未接獲投訴 有信心合理時間內完成點票",
-          "url": "https://news.now.com/home/local/player?newsId=670486",
-          "publishedAt": "2026-11-22T04:13:34.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12523,7 +12543,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12531,6 +12551,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "【重溫】2026年11月22日新聞天地",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878798-20261122.htm",
+          "publishedAt": "2026-11-22T11:45:36.000Z",
+          "excerpt": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "陸啟康對投票率逾98%感鼓舞 證明本港選舉制度操作越趨成熟",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878802-20261122.htm",
+          "publishedAt": "2026-11-22T11:26:31.000Z",
+          "excerpt": "選委會界別分組選舉投票結束，選管會主席陸啟康表示，有超過5600名投票人投票，投票率超過98%，所有票箱已經運送到位於會展的中央點票站進行點票，相信選舉結果不用很久便會陸續公布。 陸啟康表示，不評論投票率，但對於投票數字感到鼓舞，亦證明本港選舉制度的操作越來越成熟，選管會欣然樂見。 截至下午6時，選管會收到一宗涉及選舉廣告的投訴。陸啟康說，投訴人指稱不知道為何會收到選舉廣告，選管會正在處理。 編輯：黃佩珊",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "孫玉菡料明年上半年推行與智利工作假期計劃",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1878793-20261122.htm",
@@ -12674,25 +12710,9 @@
           "excerpt": "尖沙咀下午發生交通意外，初步有4人受傷，包括一名傷者昏迷。 現場是寶勒巷6號對開，下午近2時半，警方接報指，一輛私家車懷疑剷上行人路，初步有4人受傷。 編輯：譚佩貞",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "麥美娟：選舉氣氛熾熱 選民重視和投入選舉",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878775-20261122.htm",
-          "publishedAt": "2026-11-22T06:30:59.000Z",
-          "excerpt": "民政及青年事務局局長麥美娟巡視港灣道體育館投票站後表示，以自己曾經參與多次選舉的經驗而言，今次選舉氣氛熾熱，每名候選人和助選團都爭取選民認識和支持，但難得地有秩序進行選舉工程，體現本港優質民主發展。 她指出，今次選舉有民政系統、地區三會成員，均積極參與選舉，選民亦重視和投入選舉，明白到手上一票對本港未來發展的重要，呼籲合資格選民在下午6時前投票。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會界別分組選舉 截至下午2時投票率93.55%",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878774-20261122.htm",
-          "publishedAt": "2026-11-22T06:17:24.000Z",
-          "excerpt": "選舉委員會界別分組一般選舉早上9時開始投票。截至下午2時，投票率93.55%，5341名選民投票。 多個界別的投票率都達到100%，包括商界（第三）、科技創新界、工業界（第一）、會計界，及法律界。 投票率最低是金融界，有69.12%，47人已投票，界別選民人數有68人。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "South China Morning Post",
@@ -12861,7 +12881,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12869,6 +12889,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "衞生防護中心調查一宗侵入性腦膜炎雙球菌感染個案",
+          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200568.htm",
+          "publishedAt": "2026-11-22T12:05:52.000Z",
+          "excerpt": "衞生署衞生防護中心（中心）今日（十一月二十二日）正調查一宗侵入性腦膜炎雙球菌感染個案。中心提醒市民應時刻注意個人和環境衞生，以減低被傳染這種嚴重疾病的風險。 &nbsp; 個案涉及一名有長期病患的七十四歲男子。他於十一月十九日開始出現發燒及全身乏力，翌日（十一月二十日）到私家診所求診，同日情況惡化，被帶到廣華醫院急症室求診及入院治療，目前情況穩定。他的腦脊液樣本經化驗後，證實對腦膜炎雙球菌呈陽性反應，臨床診斷為腦膜炎。 &nbsp; 初步調查顯示，病人潛伏期內沒有外遊，他的家庭成員暫時沒有出現病徵，並已獲派發預防性藥物。中心正繼續進行調查，初步調查顯示上述個案屬散發個案。 侵入性腦膜炎雙球菌感",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "選舉委員會界別分組一般選舉中央點票站（包括新聞中心）公眾人士區域只餘少量入場名額",
+          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200562.htm",
+          "publishedAt": "2026-11-22T11:48:00.000Z",
+          "excerpt": "下稿代選舉管理委員會發出： 電台及電視台當值宣布員注意，請立即播出下列特別報告，並作多次重播： 二○二六年選舉委員會界別分組一般選舉設於灣仔香港會議展覽中心的中央點票站（包括新聞中心）內的公眾人士區域只餘少量入場名額。 若公眾人士區域已經滿座，公眾人士將不能進入中央點票站。 公眾人士可於選舉網站（ www.elections.gov.hk ）瀏覽是次選舉的資訊。如有查詢，請致電2891 1001或3720 6132。",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "「亞裔藝采+2026」今日舉行 展示三十個國家和地區多元民族風采（附圖）",
+          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200306.htm",
+          "publishedAt": "2026-11-22T11:26:45.000Z",
+          "excerpt": "&nbsp; &nbsp; &nbsp; 由文化體育及旅遊局（文體旅局）呈獻、康樂及文化事務署（康文署）策劃的「亞藝無疆」藝術節2026，今日（十一月二十二日）下午在香港文化中心露天廣場及大堂舉行「亞裔藝采+2026」戶外嘉年華，獲多個駐港總領事館及駐港海外文化機構鼎力支持。約30個「一帶一路」國家和地區透過民族音樂、舞蹈、手工藝和特色小食等，呈現多元文化風貌，吸引超過33 000名市民和旅客參加。 &nbsp; 文體旅局局長羅淑佩在藝術節典禮致辭時表示，「亞藝無疆」藝術節一直致力為香港提供藝術交流平台，並為觀眾帶來豐富多樣的節目，展現亞洲及「一帶一路」國家和地區的文化魅力與多元面貌。藝術節今",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "選舉委員會界別分組一般選舉投票率臨時數字",
           "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200488.htm",
@@ -13004,33 +13048,9 @@
           "excerpt": "二○二六年選舉委員會界別分組一般選舉截至今日（十一月二十二日）上午十時的投票率如下： &nbsp; 界別分組 投票人人數 累積投票人數 累積投票率（%） 第一界別 飲食界 142 29 20.42% 商界（第一） 22 9 40.91% 商界（第二） 99 16 16.16% 商界（第三） 113 111 98.23% 香港僱主聯合會 22 8 36.36% 金融界 68 27 39.71% 金融服務界 183 50 27.32% 酒店界 79 27 34.18% 進出口界 57 17 29.82% 工業界（第一） 30 17 56.67% 工業界（第二） 101 22 21.78% 保險界 ",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "香港海關偵破一宗毒品案件並檢獲約七百萬元懷疑冰毒（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200205.htm",
-          "publishedAt": "2026-11-22T02:10:00.000Z",
-          "excerpt": "香港海關於十一月十八日在葵涌海關大樓驗貨場檢獲約十五公斤懷疑冰毒，估計市值約七百萬元。 海關透過風險評估，於當日在葵涌海關驗貨場檢查一批從墨西哥到港，報稱載有塑膠容器模具的海運拼裝貨物。經查驗後，海關人員於一個金屬模具內發現該批懷疑冰毒。跟進調查後，海關人員採取監控遞送行動，於昨日（十一月二十一日）在葵涌拘捕一名四十一歲收貨男子。 案件仍在調查中，該名被捕男子現正保釋候查。 根據《危險藥物條例》，販運危險藥物屬嚴重罪行，一經定罪，最高可被判罰款五百萬元及終身監禁。 市民可致電海關二十四小時熱線182 8080，或透過舉報罪案專用電郵帳戶（ crimereport@customs.gov.hk ",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "數個泳灘懸掛紅旗",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200203.htm",
-          "publishedAt": "2026-11-22T02:03:25.000Z",
-          "excerpt": "電台及電視台當值宣布員注意： 請盡快播出下列特別報告： 游泳人士請注意：康樂及文化事務署今日（十一月二十二日）宣布，由於大浪關係，港島南區的赤柱正灘泳灘及大浪灣泳灘；西貢區的銀線灣泳灘及清水灣第二灣泳灘已懸掛紅旗，顯示在該處游泳會有危險，市民請勿在該處游泳。",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "黃色火災危險警告",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200118.htm",
-          "publishedAt": "2026-11-21T22:01:00.000Z",
-          "excerpt": "電台、電視台當值宣布員注意： 為大眾安全起見，請播放下列警告： 火災危險警告 天文台今日（十一月二十二日）已發出黃色火災危險警告，表示火警容易發生，市民應小心防火，郊遊人士亦應小心防止山火。 &nbsp;",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-22T11:17:18.211Z"
+      "lastSuccessfulAt": "2026-11-22T12:17:18.649Z"
     }
   ],
   "stories": [
@@ -13375,6 +13395,22 @@
       "category": "Technology"
     },
     {
+      "title": "8 Best Travel Adapters (2026): 20+ Models Tested",
+      "url": "https://www.wired.com/gallery/best-travel-adapters/",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "excerpt": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and chargers that I’ve tested myself.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+      "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
+      "publishedAt": "2026-11-22T11:30:00.000Z",
+      "excerpt": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "Best Gifts for Mom (2026): Digital Wall Calendars, Better Bags, Personalized Jewelry, and More",
       "url": "https://www.wired.com/story/best-gifts-for-moms-2026/",
       "publishedAt": "2026-11-22T11:02:00.000Z",
@@ -13519,19 +13555,11 @@
       "category": "Technology"
     },
     {
-      "title": "The Birdfy Gifts I’d Buy for Backyard Birders",
-      "url": "https://www.wired.com/story/best-birdfy-gifts-2026/",
-      "publishedAt": "2026-11-20T13:00:00.000Z",
-      "excerpt": "After more than two years of testing smart bird feeders, these are the picks I’d give others, including a simple camera feeder and a nest box that let me watch chickadees raise their young.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
-      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
-      "publishedAt": "2026-11-20T13:00:00.000Z",
-      "excerpt": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
-      "source": "WIRED",
+      "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+      "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+      "publishedAt": "2026-11-22T12:07:41.000Z",
+      "excerpt": "GLP-1 drugs could cut food demand enough to free farmland larger than Italy.",
+      "source": "Ars Technica",
       "category": "Technology"
     },
     {
@@ -13683,14 +13711,6 @@
       "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
       "publishedAt": "2026-11-19T22:16:37.000Z",
       "excerpt": "Amazon now uses its shopping platform for political purposes.",
-      "source": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
-      "url": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
-      "publishedAt": "2026-11-19T21:19:12.000Z",
-      "excerpt": "Expert called MAHA's spending \"pretty unusual\" for a PAC.",
       "source": "Ars Technica",
       "category": "Technology"
     },
@@ -14585,6 +14605,24 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "'Listening to the people doing the work matters alongside the numbers': Dropbox head tells us why your business needs to be bold in taking the next steps in its AI journey",
+      "url": "https://www.techradar.com/pro/listening-to-the-people-doing-the-work-matters-alongside-the-numbers-dropbox-head-tells-us-why-your-business-needs-to-be-bold-in-taking-the-next-steps-in-its-ai-journey",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "excerpt": "Dropbox tells us how your business can achieve real outcomes using AI.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "I tested three 5-star OLED TVs from LG and Samsung — here’s my pick for Black Friday",
+      "url": "https://www.techradar.com/televisions/i-tested-three-new-5-star-oled-tvs-from-lg-and-samsung-side-by-side-and-i-know-which-is-my-top-pick-for-black-friday-2026",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "excerpt": "Which of the new OLED TVs from LG and Samsung will be the highlight of Black Friday? I tested my top 3 picks side by side to find out.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "AirPods Max 2, Technics EAH-A1000, B&W Px8 S2 or Nothing Headphone (a): there's only one set of cans I'd buy for Black Friday",
       "url": "https://www.techradar.com/audio/wireless-headphones/i-tested-four-of-the-best-wireless-noise-canceling-headphones-in-2026-and-theres-only-one-pair-id-buy-on-black-friday",
       "publishedAt": "2026-11-22T11:00:00.000Z",
@@ -14630,19 +14668,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to watch Burnley vs Blackburn: FREE live streams, TV channels & kick-off time for EFL Championship 2026/27 fixture",
-      "url": "https://www.techradar.com/entertainment/football/burnley-vs-blackburn-free-efl-championship-2026-27",
+      "title": "Feeling the fear? Workers with Monday morning meetings are increasingly working weekends just to prepare",
+      "url": "https://www.techradar.com/pro/feeling-the-fear-workers-with-monday-morning-meetings-are-increasingly-working-weekends-just-to-prepare",
       "publishedAt": "2026-11-22T09:00:00.000Z",
-      "excerpt": "How you can watch Burnley vs Blackburn in the EFL Championship 2026/27 for free online from anywhere in the world with TV channels, kick-off time included.",
+      "excerpt": "The weekend is ending with anxiety when meetings are scheduled for Monday mornings, as a new survey suggests employees are spending their Sundays preparing for confabs.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "Feeling the fear? Workers with Monday morning meetings are increasingly working weekends just to prepare",
-      "url": "https://www.techradar.com/pro/feeling-the-fear-workers-with-monday-morning-meetings-are-increasingly-working-weekends-just-to-prepare",
+      "title": "How to watch Burnley vs Blackburn: FREE live streams, TV channels & kick-off time for EFL Championship 2026/27 fixture",
+      "url": "https://www.techradar.com/entertainment/football/burnley-vs-blackburn-free-efl-championship-2026-27",
       "publishedAt": "2026-11-22T09:00:00.000Z",
-      "excerpt": "The weekend is ending with anxiety when meetings are scheduled for Monday mornings, as a new survey suggests employees are spending their Sundays preparing for confabs.",
+      "excerpt": "How you can watch Burnley vs Blackburn in the EFL Championship 2026/27 for free online from anywhere in the world with TV channels, kick-off time included.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14742,24 +14780,6 @@
       "url": "https://www.techradar.com/gaming/as-we-mourn-bioware-its-the-perfect-time-to-revisit-baldurs-gate",
       "publishedAt": "2026-11-21T20:00:00.000Z",
       "excerpt": "Baldur’s Gate might be intimidating in 2026, but it still proves why BioWare is the grandfather of modern RPGs.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Days after Nvidia CEO Jensen Huang resigned, journalists unearth covert influence operation using right-wing outlets to promote Nvidia AI chip export to...China",
-      "url": "https://www.techradar.com/pro/days-after-nvidia-ceo-resigned-journalists-unearth-covert-influence-operation-using-right-wing-outlets-to-promote-nvidia-ai-chip-export-to-china",
-      "publishedAt": "2026-11-21T19:15:00.000Z",
-      "excerpt": "An investigation uncovered an alleged influence campaign involving over 80 influencers promoting Nvidia chip exports to China, reaching approximately 14 million followers.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "As GTA VI arrives, McAfee warns of new malware-as-a-service targeting gamers and its own customers alike",
-      "url": "https://www.techradar.com/pro/security/as-gta-vi-arrives-mcafee-warns-of-new-malware-as-a-service-targeting-gamers-and-its-own-customers-alike",
-      "publishedAt": "2026-11-21T18:05:00.000Z",
-      "excerpt": "Marsalek handed out free malware to wannabe hackers, then quietly copied everything they stole to its own server.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15440,6 +15460,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "“It’s not meant to replace your creativity”: Adobe’s AI pitch hasn’t changed in two years, but the tools have",
+      "url": "https://www.creativebloq.com/features/its-not-meant-to-replace-your-creativity-adobes-ai-pitch-hasnt-changed-in-two-years-but-the-tools-have",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "excerpt": "Vice President Deepa Subramaniam discusses the empowerment of creative choice.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Rockstar spent months on one detail in GTA 6: Lucia opening a door with her hip",
       "url": "https://www.creativebloq.com/news/rockstar-spent-months-on-one-detail-in-gta-6-lucia-opening-a-door-with-her-hip",
       "publishedAt": "2026-11-22T11:00:00.000Z",
@@ -15606,15 +15635,6 @@
       "url": "https://www.creativebloq.com/deals/the-easiest-craft-laser-machine-to-use-is-at-a-record-low-price",
       "publishedAt": "2026-11-20T07:00:00.000Z",
       "excerpt": "xTool M2's price has nose-dived from $699 to $474.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The best GTA 6 brand reactions, from Mercedes Benz to... Huggies?",
-      "url": "https://www.creativebloq.com/news/the-best-gta-6-brand-reactions-from-mercedes-benz-to-huggies",
-      "publishedAt": "2026-11-20T06:00:00.000Z",
-      "excerpt": "The brands that made an effort stood out.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -17197,19 +17217,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Have Yourself a Kitschy Little Christmas",
-      "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
+      "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
+      "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
       "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "Leave your good taste at the door.",
+      "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
-      "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
+      "title": "Have Yourself a Kitschy Little Christmas",
+      "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
       "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
+      "excerpt": "Leave your good taste at the door.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17476,6 +17496,15 @@
       "category": "Culture"
     },
     {
+      "title": "Adults are buying more toys than ever. You should too.",
+      "url": "https://www.vox.com/explain-it-to-me/511306/kidults-toy-industry-play-brain-benefits",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "excerpt": "Recently, I was out doing some window shopping with one of my friends. We checked out some of our usual places — a makeup store, a clothing store — but the place where my friend’s eyes really lit up was a toy store. There were floor-to-ceiling displays of Labubus and Funko Pops, Jellycats that looke",
+      "source": "Vox",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "America’s most visited national park right now is inside GTA VI",
       "url": "https://www.vox.com/down-to-earth/511310/grand-theft-auto-release-birdwatching-nature",
       "publishedAt": "2026-11-20T15:35:21.000Z",
@@ -17642,15 +17671,6 @@
       "url": "https://www.vox.com/podcasts/510722/openai-chris-lehane-data-center-rebrand-2026-midterms-regulation",
       "publishedAt": "2026-11-13T17:35:00.000Z",
       "excerpt": "Republicans weren’t the only big losers in last week’s midterms: Across the country, voters also backed restrictions on data centers and elected candidates promising tougher oversight of AI companies. Out of 41 local ballot initiatives limiting the data center buildout, 40 of them passed, according ",
-      "source": "Vox",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Why online gamblers are obsessed with table tennis",
-      "url": "https://www.vox.com/technology/510152/online-gambling-table-tennis-sports-parlays",
-      "publishedAt": "2026-11-13T11:00:00.000Z",
-      "excerpt": "If you were living in Colorado in May and bet on sports online, you’d statistically have been most likely to bet on professional basketball. Next on the list was baseball. The third-most wagered sport? Table tennis. Colorado is almost certainly not an outlier. Table tennis occupies a similarly high ",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22745,19 +22765,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Eye on the mark",
-      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+      "title": "Eye on the mark",
+      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -22808,19 +22828,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to take notes that actually help you learn",
-      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
+      "title": "Who am I if I don’t run?",
+      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
+      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Who am I if I don’t run?",
-      "url": "https://psyche.co/notes-to-self/the-perils-of-stopping-an-activity-that-forms-your-identity",
+      "title": "How to take notes that actually help you learn",
+      "url": "https://psyche.co/guides/how-to-take-notes-that-actually-help-you-learn",
       "publishedAt": "2026-11-05T11:00:00.000Z",
-      "excerpt": "When an ankle injury put the brakes on my running habit, I had to rethink the wisdom of tying my identity to an activity - by Richard Fisher Read on Psyche",
+      "excerpt": "If you want to remember and understand, copying isn’t enough. An expert on learning shares how to make notes work for you - by Cynthia Nebel Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -23802,6 +23822,15 @@
       "discoveryChannel": "curator:Waxy"
     },
     {
+      "title": "The most sand",
+      "url": "https://www.metafilter.com/215262/The-most-sand",
+      "publishedAt": "2026-11-22T11:46:41.000Z",
+      "excerpt": "Push grains with your finger, tilt your phone to make them slide, or shake to scatter them. Play in your browser on phones, tablets and desktops.",
+      "source": "MetaFilter",
+      "category": "Discover",
+      "sourceRole": "community"
+    },
+    {
       "title": "They call it Film, but nobody's recorded on actual film in years...",
       "url": "https://www.metafilter.com/215261/They-call-it-Film-but-nobodys-recorded-on-actual-film-in-years",
       "publishedAt": "2026-11-22T04:06:26.000Z",
@@ -24245,90 +24274,98 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "金馬獎2026即時更新｜跟兒子齊奪最佳音效 杜篤之︰最高興的一次",
-      "url": "https://hk01.com/sns/article/60413721",
-      "publishedAt": "2026-11-22T11:12:43.000Z",
-      "excerpt": "《第63屆金馬獎頒獎典禮》今晚（11/22）於臺北流行音樂中心正式舉行。本屆匯聚來自各地的優秀華語電影作品，由《狂忘警探》入圍11項、《女孩》入圍10項領跑，《雙囍》與《善男信女》則各獲9項提名，競爭相當激烈。《香港01》會為大家全程作即時報道各個獎項花落誰家。 柯煒林擔任今屆金馬獎主持，更特別為香港演打氣︰「香港隊，加油！」（金馬直播截圖） 18:55 最佳剪輯由《雙囍》的陳俊宏奪得。 最佳剪輯由《雙囍》的陳俊宏套得。（金馬直播截圖） 18:59 最佳劇情短片由《三隻小豬》的仲錦妮奪得。 《三隻小豬》導演仲錦妮未有到來，由劇組人員代領。（金馬直播截圖） 19:05 最佳音效由《狂忘警探》的杜",
+      "title": "跑步︱莊司暘南京馬拉松2小時18分完成 香港男子全馬歷代第三快",
+      "url": "https://hk01.com/sns/article/60413690",
+      "publishedAt": "2026-11-22T12:13:59.000Z",
+      "excerpt": "香港長跑好手莊司暘在南京馬拉松傳來喜訊，以2小時18分26秒成績完賽，成為本地歷來第四位全馬跑進2小20分鐘內的跑手，亦是歷來第三最快的成績。 莊司暘南京馬拉松以2小時18分完成，寫下香港男子全馬歷代第三快成績。 26歲的莊司暘，3年前與訓練夥伴兼好友張耀樑雙雙首度入選港隊，出戰韓國大邱國際馬拉松。兩人繼那一年渣馬後，在韓國攜手再創個人最佳成績（PB）。司暘一直朝着全馬2小時20分鐘以下的成績邁進，這些年來歷盡起起跌跌，今次終能在南京達到，他的多年恩師陳家豪透露，司暘取得佳績後哭着跟他說了句：「終住得咗，多謝你」，家豪亦為對方感到很開心，「睇住佢大，中間經歷過高高低低，而且全馬訓練跟比賽成績常",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "金馬獎2026｜柯煒林唱陳奕迅《今天等我來》 擠出酒粒向舒淇示愛",
-      "url": "https://hk01.com/sns/article/60413731",
-      "publishedAt": "2026-11-22T11:07:42.000Z",
-      "excerpt": "《第63屆金馬獎頒獎典禮》今晚（11/22）於臺北流行音樂中心正式舉行。本屆匯聚來自各地的優秀華語電影作品，由《狂忘警探》入圍11項、《女孩》入圍10項領跑，《雙囍》與《善男信女》則各獲9項提名，競爭相當激烈。今屆大會司儀是香港演員柯煒林，他先在台上用多種語言向來自各地候選人問好。 柯煒林特別向香港演員打氣︰「香港隊加酒！」（金馬直播截圖） 舒淇也打趣回應。（金馬直播截圖） 介紹到舒淇導演時，他就表示面紅耳熱，又立即擠出酒粒，暗示自己跟馮德倫一樣有酒粒。（金馬直播截圖） 而去到舒淇導演時，他就表示面紅耳熱，又立即擠出酒粒，暗示自己跟馮德倫一樣有酒粒。去到尾聲，柯煒林更初試啼聲，唱出陳奕迅的《今",
+      "title": "選委會選舉｜1宗選舉投訴 陸啟康：有人唔知點解會收到選舉廣告",
+      "url": "https://hk01.com/sns/article/60413742",
+      "publishedAt": "2026-11-22T12:11:51.000Z",
+      "excerpt": "選委會選舉今日（11月22日）傍晚6時結束，5640人投票，投票率98.79%。1115個候選人競逐982個選舉產生的席位。14個界別分組的投票率100%。選管會主席陸啟康在選舉結束後表示，對投票率感鼓舞，認為投票數字反映香港選舉制度越來越成熟，相信能在合理時間內完成點票。他又提到，共接獲1宗與選舉有關的投訴，涉及選舉廣告，「有人投訴唔知點解會收到選舉廣告」，有關單位正處理。 選委會選舉投票結束後，將在設於會展的中央票站統一點票。（林彥汛攝） 2026年11月22日，選委會選舉結束，票箱運送到設於香港會議展覽中心的中央點票站點票。（林彥汛攝） 陸啟康：對98.79%投票率感鼓舞 反映選制越來越",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "何文田京士柏山單位遇竊 女住戶失兩戒指及現金 共值逾$24萬",
-      "url": "https://hk01.com/sns/article/60413710",
-      "publishedAt": "2026-11-22T11:03:05.000Z",
-      "excerpt": "何文田發生盜竊案。今日（22日）上午10時59分，警方接獲46歲姓黃女子報案，指其京士柏山道78號京士柏山6座寓所內，有兩枚分別約值20萬及4.5萬元的戒指，及約2,000元現金不翼而飛。 警方經初步調查，將案件列「盜竊」，交由油尖警區刑事調查隊第九隊跟進，暫未有人被捕。 油麻地京士柏山道78號一單位遇竊，暫未有人被捕。（Google Maps截圖）",
+      "title": "范鴻齡不續任醫管局主席未官宣 內部已舉辦歡送活動｜政壇諸事町",
+      "url": "https://hk01.com/sns/article/60413740",
+      "publishedAt": "2026-11-22T12:02:57.000Z",
+      "excerpt": "打破法定組織非官方成員「六年任期」慣例的醫管局主席范鴻齡，任期下周一（11月30日）結束。《香港01》上月獨家報道，72歲的保險界「老行尊」、行政會議成員陳健波料接掌醫管局。官方至今未公布78歲的范鴻齡不再續任，不過醫管局上周已為范鴻齡舉辦歡送活動。聽聞，醫管局的人事任命最快本周初公布。 醫院管理局主席范鴻齡。（梁鵬威攝） 范鴻齡打破「六年任期」慣例 第七年出任醫管局主席 范鴻齡2019年12月1日起獲委任為醫管局主席，原本任期2年。他其後獲續任三次，分別在2021年、2023年、2026年。去年委任范鴻齡時表明只有一年任期，即11月30日結束。話雖如此，范鴻齡已打破法定組織非官方成員「六年任",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "四川忠貓連守亡主墓地20天 風雨無阻拒離開 姪子感動收養備貓窩",
-      "url": "https://hk01.com/sns/article/60413363",
-      "publishedAt": "2026-11-22T11:02:31.000Z",
-      "excerpt": "動物通靈重情，長情守候令人動容！四川日前發生1宗令人動容的忠寵熱話。四川1名老翁上月不幸因病離世，留下1隻生前朝夕相伴逾5年的黑白花貓。在亡主入土為安後，這隻通人性的小貓竟然連續20天風雨無阻在墓地旁安靜趴伏守候，直至天黑才默默返家。老翁的姪子深受震撼，決定接手照顧貓咪。 小貓連續20日跑到亡主墓前默默守候，不願離開。（「後浪視頻」影片·截圖） 小貓連續20日跑到亡主墓前默默守候，不願離開。（「後浪視頻」影片·截圖） 小貓連續20日跑到亡主墓前默默守候，不願離開。（「後浪視頻」影片·截圖） 忠貓日夜守候亡主墳前 大雨不阻思念 據內地傳媒 「後浪視頻」 報道，當地1名余姓男子的叔叔上月因病離世，",
+      "title": "野狼變家犬？內蒙古救助站狼群搖尾討食 網民嘆「狼性文化」不再",
+      "url": "https://hk01.com/sns/article/60413581",
+      "publishedAt": "2026-11-22T12:02:18.000Z",
+      "excerpt": "野狼向人類搖尾討食如家犬，再度引發公眾對野生動物投餵界線的討論。近日網上流傳1段拍攝於內蒙古錫林郭勒盟烏拉蓋野狼谷景區的影片，顯示野生動物拯救中心（內地稱「救助站」）工作人員走近狼群準備餵食時，群狼竟紛紛上前搖尾巴，連原本低頭進食的野狼亦放下食物趨前。片段廣傳後，不少網民聯想到早前爆紅的青海可可西里「網紅狼」，打趣「狗對狼來說是一種『職業選擇』」。 不過，中科院成都生物研究所研究員戴強提醒，人為投餵易令野生動物產生依賴，即使表面溫順亦難保沒有攻擊性，公眾應保持安全距離；曾於內蒙古保護站任義工半年的祝佳琪則指，狼隻只會對長期以平等心態照料的專業人員放下戒備，絕非遊客隨手投餵能相提並論。 群狼一邊",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "美國報告稱AUKUS協議將致美軍潛艇規模縮減 澳洲防長反駁",
-      "url": "https://hk01.com/sns/article/60413685",
-      "publishedAt": "2026-11-22T11:01:12.000Z",
-      "excerpt": "澳洲國防部長馬爾斯（Richard Marles）星期日（11月22日）對美國國會預算辦公室的一份報告提出批評。報告稱，澳英美三邊安全夥伴關係（AUKUS）協議將導致美國海軍可用的攻擊型潛艇數量減少。 路透社報道， 馬爾斯在談及美國國會預算辦公室時說：「他們錯了。」 預算辦公室本月發布的報告指出，向澳洲出售維珍尼亞級潛艇，可能導致美國海軍攻擊型潛艇部隊的規模縮減，這一影響可能持續至2060年。 根據AUKUS，從明年起，由美國指揮的維珍尼亞級潛艇將進駐澳洲；從2030年前後開始，美國將向澳洲出售數艘維珍尼亞級潛艇。此外，英國和澳洲還將共同建造一種新型AUKUS核動力潛艇。 2025年5月31日",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "郭政鴻62歲生日獲佘詩曼苗僑偉到賀 圈外靚老婆激罕露面搶盡焦點",
-      "url": "https://hk01.com/sns/article/60413615",
-      "publishedAt": "2026-11-22T11:00:57.000Z",
-      "excerpt": "剛於本月18日迎來62歲生日的郭政鴻，一如往年在小紅書貼出生日飯局短片分享喜悅。向來在圈中人緣極佳的他，今年壽宴依舊星光熠熠，獲佘詩曼、苗僑偉、吳卓羲、陶大宇、陳山聰與兒子Jaco、胡炯龍及梁靖琪等一眾視帝視后級好友抽空到賀，眾人更特意送上寫有「南拳王 DEREK」字樣的3D立體拳王蛋糕祝壽；然而在一片明星大合照之中，全場焦點卻被一位極少在鏡頭前曝光的神秘嘉賓搶盡！ 郭政鴻日前迎來62歲生日。（小紅書@郭政鴻） 完全睇唔出已經62歲。（小紅書@郭政鴻） 吳卓羲攬到郭政鴻實一實。（小紅書@郭政鴻） 搭晒膊頭，真係好兄弟。（小紅書@郭政鴻） 圈外靚老婆激罕露面 而這位搶去全場視帝視后風頭的，正是向",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會選舉・持續更新｜點票料午夜前完成 各界別結果陸續出爐",
+      "title": "選委會選舉・持續更新｜料午夜前完成點票 陸啟康：望大家唔使捱",
       "url": "https://hk01.com/sns/article/60413715",
-      "publishedAt": "2026-11-22T11:00:52.000Z",
+      "publishedAt": "2026-11-22T12:00:52.000Z",
       "excerpt": "選舉委員會界別分組選舉今日（11月22日）傍晚6時結束，5640人投票，投票率98.79%。1115個候選人競逐982個選舉產生的席位。14個界別分組的投票率100%，包括工程界、漁農界、基層社團、法律界、會計界、酒店界、進出口界、工業界（第一）、工業界（第二）、香港僱主聯合會、建築、測量、都市規劃及園境界、商界（第一）、商界（第三）、科技創新界。 點票工作料午夜前完成，選舉管理委員會主席陸啟之後將會見傳媒總結選舉。 2026年11月22日，選委會選舉結束，票箱運送到設於香港會議展覽中心的中央點票站點票。（林彥汛攝） 【18:30】票箱陸續抵達灣仔會展的中央點票站，選管會主席陸啟康、政制及內地",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "iPhone Duo人臉解鎖存漏洞 缺3D感測硬件 用一張相片輕鬆破解",
-      "url": "https://hk01.com/sns/article/60412812",
-      "publishedAt": "2026-11-22T11:00:43.000Z",
-      "excerpt": "蘋果已向iPhone Duo釋出了iOS 27.3 Beta 2開發者測試版，新增了一項基於前置鏡頭的人臉解鎖功能。雖然iPhone Duo並沒有配備Face ID所需的TrueDepth硬件，但用家現在也可以通過外屏幕鏡頭識別人臉，快速解鎖手機。 對於用家來說，這項功能主要提升的是日常使用便利性，可以減少反覆使用側邊指紋解鎖的次數。不過，它的安全性卻無法與Face ID相提並論。 日前有科技達人發布實測影片稱，僅憑一張相片就成功解鎖了iPhone Duo。（X@Saurav_DJ47） iPhone Duo用一張相片就能破解人臉解鎖： 有科技達人發布實測影片稱，僅憑一張照片就成功解鎖了iPh",
+      "title": "碧咸大仔Brooklyn夫婦見鏡頭立即拖手 網民質疑恩愛都是裝出來",
+      "url": "https://hk01.com/sns/article/60413656",
+      "publishedAt": "2026-11-22T12:00:40.000Z",
+      "excerpt": "萬人迷碧咸（David Beckham）自年初陷入家變危機，大仔Brooklyn發6頁聲明表明與父母及弟妹割席，事件引起全球關注。如今家變發生近1年仍沒有好轉，而Brooklyn與百億千金愛妻Nicola Peltz的一舉一動成為外界關注。 碧咸今年6月正式在荷里活星光大道留名，全家總動員前來力撐，獨欠Brooklyn夫婦。（IG/@davidbeckham） Brooklyn與太太Nicola Peltz去年8月結婚3年，並舉辦誓言更新儀式，不過沒有邀請父親碧咸一家人，家庭正式決裂。（IG圖片） Nicola Peltz與Brooklyn經常在社交平台放閃。（IG圖片） Brooklyn夫婦",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "15歲少年推改裝電雞入酒店房充電突爆燃釀5死 未達刑責年齡免訴",
-      "url": "https://hk01.com/sns/article/60413680",
-      "publishedAt": "2026-11-22T11:00:16.000Z",
-      "excerpt": "今年7月6日，河南鄭州惠濟區一間酒店發生火災，導致5死1傷。11月20日，河南鄭州消防發佈事故調查報告，認定事故是一名15歲少年將一輛經非法改裝的電動單車（電雞）違規帶入樓宇充電，過程中底盤電池包與台階發生磕碰，最終導致鋰電池熱失控爆燃所致。由於涉案前後兩任車主均為未滿16歲的未成年人，調查組建議對二人不予追究刑事責任。 一輛經非法改裝的電雞在酒店房内充電爆炸。（豆包AI圖） 據河南鄭州「鄭州消防」微信公眾號消息，2026年7月6日上午7時51分，鄭州市惠濟區北三環和昌瓏悅小區凱繽悅旅館酒店628室起火，過火面積約15平方米，直接經濟損失高達530.75萬元人民幣。 經查，涉事電動電單車最初由",
+      "title": "來稿｜全球養老制度大比拼：亞洲三甲花落誰家？",
+      "url": "https://hk01.com/sns/article/60413043",
+      "publishedAt": "2026-11-22T12:00:20.000Z",
+      "excerpt": "來稿作者：陳文坪 新加坡公積金（CPF）制度給人民退休生活提供有力支撐。在低利率年份，CPF的退休戶頭存款利率都是高於銀行存款利率，確保利率比通貨膨脹來得高或持平。CPF除了作為退休養老金外，還可以用來購買房屋、提供高等學府教育費、醫藥保險等等。 新港馬退休養老制度亞洲三甲 國際諮詢公司達信（Marsh）、特許金融分析師協會（CFA Institute）及澳大利亞蒙納士大學商學院，10月20日聯合發布2026年全球養老金指數報告。亞洲國家/地區中，新加坡以82分，位居亞洲之首；香港以71.2分排名第二，獲評B級；馬來西亞以61.1分排名第三，獲評C+級別。 新、港是發達經濟體，又是國際/區域金",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "頂級富豪會吃Buffet嗎？餐廳員工揭自助餐「有錢人吃法」 網傻眼",
-      "url": "https://hk01.com/sns/article/60412338",
-      "publishedAt": "2026-11-22T11:00:06.000Z",
-      "excerpt": "台灣自助餐（buffet）餐廳選擇豐富，一名女網友好奇，頂級富豪是否會選擇自助餐餐廳用餐？沒想到貼文引來不少人分享親身經歷。有人透露，認識的富豪家庭甚至會直接包月，把自助餐當成日常晚餐；也有餐廳前員工表示，曾看過富豪、貴婦到店裡用餐，卻不是忙著夾取各種餐點，而是悠閒喝咖啡、吃沙拉（沙律）和甜品，待約半小時就離開。 這名女網友在社群平台「Threads」表示 ，近期和老公討論，身價10億（台幣，下同）資產以上階級的人，會去自助餐餐廳用餐嗎？老公認為富豪應該還是會去，但她則認為不會，也想不到這些富豪會在什麼情況下前往？ 延伸閱讀： 自助餐絕對不會吃哪些食物？ 即睇網民點名十多種Buffet食量殺手",
+      "title": "今日娛樂熱話｜谷婭溦曾志偉關係匪淺｜方力申獲世界紀錄認證",
+      "url": "https://hk01.com/sns/article/60413729",
+      "publishedAt": "2026-11-22T12:00:08.000Z",
+      "excerpt": "",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "Omart MegaBox開幕人龍跨6層 現場劃8區分流 市民稱未見混亂",
-      "url": "https://hk01.com/sns/article/60413724",
-      "publishedAt": "2026-11-22T10:47:08.000Z",
-      "excerpt": "Omart今日（22日）於九龍灣MegaBox開幕，自今早十時起開幕前，已有不少市民排隊等候入場購物，更由商場12樓大排長龍至17樓，現「打蛇餅」情形。今日更有網民發文稱現場安排十分混亂，指自己欲搭電梯離開時被指插隊。 記者今日約下午5時到場觀察排隊情況，人龍依然由12樓排至17樓，但現場亦有分區安排，並由工作人員分批安排等候人士入場，有市民認為人流管制頗為妥善，亦未見現場有混亂情況。 Omart門外大排長龍，由12樓排至17樓。（呂婉盈攝） Omart開幕 現6層長龍 現場劃分8個排隊區 本地倉儲式超市Omart今日於九龍灣MegaBox正式開幕，吸引不少人入場購物。自今早十時前，已有大批市",
+      "title": "向太認郭碧婷手握「兩張王牌」唔敢兇 尊重新抱意願絕不催生",
+      "url": "https://hk01.com/sns/article/60413686",
+      "publishedAt": "2026-11-22T11:45:26.000Z",
+      "excerpt": "向華強太太陳嵐（向太）向來對兒媳婦郭碧婷愛錫有加，兩婆媳關係融洽。近日向太於個人社交平台發布短片，圍繞婆媳相處、家庭邊界及育兒理念等話題分享個人觀點，片中她不僅坦言對郭碧婷「發不了脾氣」，更表示對方生不生第三胎全由她自己作主。 向太的兒子向佐與郭碧婷育有一子一女。（向太微博圖片） 向太毫不猶豫企郭碧婷嗰邊 在快問快答環節中，被問到若兒子向佐與新抱郭碧婷同時打電話「告狀」會先接聽誰的來電，向太秒答：「我會先接媳婦的！」她解釋，郭碧婷是嫁過來的，理應更需要幫襯；至於兒子則是「自己人」，就算得罪一下亦無所謂。 向太爆如果郭碧婷同向佐開戰一定幫郭碧婷。（小紅書＠向太Tiffany） 向太更直言，新抱沒",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美股暴跌市場恐慌 AI狂飆進入轉折點了嗎？｜點經",
+      "url": "https://hk01.com/sns/article/60413735",
+      "publishedAt": "2026-11-22T11:41:22.000Z",
+      "excerpt": "剛過去的周五11月20日美股暴跌。三大指數均大跌，道指跌逾1.9%，標普500收跌3.7%，納指收跌約5.3%。半導體股遭血洗，費城半導體指數重挫約10.7%，英偉達（Nvidia）跌逾14%，美光科技（Micron）跌近14%，⁠SK海力士跌超過13%。美股七姐妹均下跌，其中特斯拉（Tesla）跌逾7%。剛上市的Anthropic沒能倖免，收跌8.5%，盤中一度跌至83.05美元，險些跌破招股價。 剛過去的這一周，納指累計下跌10%，創2020年3月以來的最大單周跌幅。距離10月高點已下跌18.4%。英偉達在這一周累計下跌22.92%，創2008年10月以來最大單周跌幅，距離歷史高點下跌47",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "俞可程爆戀TVB導演火速復工拍《東張》 林盛斌揭台慶避風頭內幕",
+      "url": "https://hk01.com/sns/article/60413734",
+      "publishedAt": "2026-11-22T11:35:14.000Z",
+      "excerpt": "憑藉《東張西望》成功入屋的俞可程（Kanis），憑甜美外貌及傲人身材獲封為新一代「東張女神」，近年備受無綫力捧，有指原定在台慶上有份表演。然而，自《香港01》獨家爆疑與TVB綜藝科高級導演、負責《魔音女團》的鄭韜畧（Marcus）在街頭舉止親暱、當街親熱的畫面後，事件在網上引發熱議，亦令其女神形象大受考驗。 由於Kanis在節目中一直大賣「單身人設」，緋聞曝光後她突然全面缺席《萬千星輝賀台慶》，連原本有份演出的環節亦被抽起，一度惹來觸怒高層「被雪藏」的疑雲。不過最新消息指，Kanis已經火速復工！ 外界盛傳她有份參與的戀愛真人騷《女神配對計劃2》亦受牽連。（IG@kanissyu） 俞可程近日",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "石修新抱林佑蔚化身性感兔女郎 電梯大堂着透視裝狂扭蛇腰派福利",
+      "url": "https://hk01.com/sns/article/60413631",
+      "publishedAt": "2026-11-22T11:30:59.000Z",
+      "excerpt": "石修的兒子陳宇琛於2017年與前有線電視主播林佑蔚（Camille）步入婚姻殿堂，婚後兩人育有可愛女兒陳翎（Luna）。雖然已升呢做人母，但轉型為KOL的林佑蔚私下作風向來大膽，毫不吝嗇在社交平台大騷零贅肉好身材，頻頻上載靚相及熱舞影片，成為網民眼中的「索爆人妻」。 石修的兒子陳宇琛於2017年與前有線電視主播林佑蔚步入婚姻殿堂，婚後兩人育有一女。（IG@itscamilleadeline） 透視裝配兔耳造型騷火辣身材 近日，林佑蔚再度於社交網派發福利，分享一段在電梯大堂拍攝的跳舞短片。片中的她頭戴白色毛絨兔耳頭飾，換上一襲極具貼身剪裁的純白色無袖連身短褲，腰間更巧妙加入透視薄紗設計，再配搭一",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24357,10 +24394,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "海關機場破兩販毒案 保鑣行李藏大麻花 內地男棄行李再入境被擒",
-      "url": "https://hk01.com/sns/article/60413708",
-      "publishedAt": "2026-11-22T10:16:33.000Z",
-      "excerpt": "香港海關一連兩日（20及21日）在香港國際機場，先後偵破兩宗涉及航空旅客行李藏毒的案件，行動中共檢獲37.3公斤懷疑大麻花，估計市值約800萬港元，並拘捕包括一名英國籍及一名內地男子。兩名被捕人士已各被控一項販運危險藥物罪，案件將於明日（23日）在西九龍裁判法院提堂。 海關毒品調查科調查主任何珏嵐交代案情。(林振華攝) 海關人員前日（20日）在香港國際機場進行反毒品行動期間，鎖定一名由泰國曼谷飛抵本港、並準備轉機前往英國倫敦的非本地男子進行清關。該名男子當時攜帶兩件寄艙行李及一件手提行李。海關人員透過X光影像掃描系統檢查時，發現其寄艙行李內收藏的物品形態相近，且密度非常平均，與一般旅客攜帶的物",
+      "title": "寶勒巷車禍有片｜多名傷者倒地途人上前協助 救護員為一人心外壓",
+      "url": "https://hk01.com/sns/article/60413672",
+      "publishedAt": "2026-11-22T09:03:56.000Z",
+      "excerpt": "尖沙咀寶勒巷今日（22日）發生嚴重車禍。下午2時28分，警方接獲報案，指上址有一輛私家車懷疑失控剷上行人路，並撞倒4名途人，其中一人陷入昏迷，送院搶救惟終證不治。有目擊者向記者憶述，事發時聽到「乒鈴𠾴唥」的巨響，認為私家車車速甚快，更有人目擊男司機及女乘客在事發後神情呆滯，然後「施施然」逃去。消息稱，警方在柯士甸道近德信學校對面，截停並拘捕一名38歲男子，涉嫌「危險駕駛」及「醉酒駕駛」。 根據多條網上片段所見，事發後涉事私家車擱在行人路上，車頭撞向欄杆。而行人路上則有多名傷者倒地，情況一片混亂。片段所見，有兩名傷者頭部出血，其中一人已無反應，頭部則壓住一條相信是鐵欄部件的金屬物。多名途人上前",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24397,11 +24434,43 @@
       "category": "Hong Kong"
     },
     {
-      "title": "尖沙咀寶勒巷私家車失控剷行人路撞地舖 釀1死3傷 司機棄車逃走",
-      "url": "https://hk01.com/sns/article/60413642",
-      "publishedAt": "2026-11-22T06:53:58.000Z",
-      "excerpt": "今日（22日）下午2時29分，警方接獲報案指，尖沙咀寶勒巷3-7A號有一輛私家車懷疑失控衝上行人路，並撞到一間地舖。據報有多人受傷，而涉事私家車司機棄車逃去。救援人員接報趕赴現場，發現4名傷者，其中一名男傷者陷入昏迷，由救護車送往伊利沙伯醫院搶救，惟最終證實死亡，事件造成1死3傷。警方正調查事故成因，並追緝涉事司機下落。消息稱，警方在現場截獲一名男子，懷疑與案有關。 現場所見，私家車撞毀路邊鐵欄及單車，行人路一片狼藉。有傷者倒卧路上，救護員即場為傷者包紮及治理。 現場至少4人受傷，救護員正為一名傷者包紮。（馬耀文攝） 現場至少4人受傷，救護員正為傷者治理及包紮。（馬耀文攝） 現場至少4人受傷，",
-      "source": "香港01",
+      "title": "澳門賽車 19歲中村紀庵FR世界盃封王 雲達連特奪GT世界盃冠軍",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526586/%E6%BE%B3%E9%96%80%E8%B3%BD%E8%BB%8A-19%E6%AD%B2%E4%B8%AD%E6%9D%91%E7%B4%80%E5%BA%B5fr%E4%B8%96%E7%95%8C%E7%9B%83%E5%B0%81%E7%8E%8B-%E9%9B%B2%E9%81%94%E9%80%A3%E7%89%B9%E5%A5%AAgt",
+      "publishedAt": "2026-11-22T12:14:11.000Z",
+      "excerpt": "【有線新聞】澳門賽車壓軸重頭戲FR世界盃，英國車手中村紀庵贏得冠軍。 排第2、阿根廷的高拿吉遲遲未能起步。頭位",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "選委會選舉｜社福界候選人黃萬成",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526588/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E7%A4%BE%E7%A6%8F%E7%95%8C%E5%80%99%E9%81%B8%E4%BA%BA%E9%BB%83%E8%90%AC%E6%88%90",
+      "publishedAt": "2026-11-22T11:59:02.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "選委會選舉｜陸啟康：投票率逾98%感鼓舞 證選制操作愈趨成熟 另收一宗與選舉廣告有關投訴",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526577/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E9%99%B8%E5%95%9F%E5%BA%B7-%E6%8A%95%E7%A5%A8%E7%8E%87%E9%80%BE98%E6%84%9F%E9%BC%93%E8%88%9E-%E8%AD%89%E9%81%B8%E5%88%B6%E6%93%8D",
+      "publishedAt": "2026-11-22T11:29:22.000Z",
+      "excerpt": "【有線新聞】選管會主席陸啟康表示對投票率超過98%感到鼓舞，相信點票在合理時間完成。 陸啟康：「我們選管會是不",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "寶勒巷車禍｜涉事司機被押返現場重組案情 警犬助搜證",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526574/%E5%AF%B6%E5%8B%92%E5%B7%B7%E8%BB%8A%E7%A6%8D-%E6%B6%89%E4%BA%8B%E5%8F%B8%E6%A9%9F%E8%A2%AB%E6%8A%BC%E8%BF%94%E7%8F%BE%E5%A0%B4%E9%87%8D%E7%B5%84%E6%A1%88%E6%83%85-%E8%AD%A6%E7%8A%AC",
+      "publishedAt": "2026-11-22T11:28:01.000Z",
+      "excerpt": "【有線新聞】司機黑布蒙頭、鎖上手銬，傍晚由警方押解返回寶勒巷現場重組案情。 去到私家車旁邊打開車門講述情況，警",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "神舟二十四號發射在即 黎家盈、神廿三乘組籌備交接 空間站首迎巴基斯坦航天員",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526595/%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%99%9F%E7%99%BC%E5%B0%84%E5%9C%A8%E5%8D%B3-%E9%BB%8E%E5%AE%B6%E7%9B%88-%E7%A5%9E%E5%BB%BF%E4%B8%89%E4%B9%98%E7%B5%84%E7%B1%8C%E5%82%99",
+      "publishedAt": "2026-11-22T11:14:47.000Z",
+      "excerpt": "【有線新聞】神舟二十四號快將發射升空之際，正在太空執勤、神廿三乘組的香港航天員黎家盈及兩名拍檔亦加緊準備交接等",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24525,43 +24594,27 @@
       "category": "Hong Kong"
     },
     {
-      "title": "尖沙咀寶勒巷私家車剷上行人路 釀1死3傷 司機被捕",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526497/%E5%B0%96%E6%B2%99%E5%92%80%E5%AF%B6%E5%8B%92%E5%B7%B7%E7%A7%81%E5%AE%B6%E8%BB%8A%E5%89%B7%E4%B8%8A%E8%A1%8C%E4%BA%BA%E8%B7%AF%E9%87%801%E6%AD%BB3%E5%82%B7",
-      "publishedAt": "2026-11-22T06:50:05.000Z",
-      "excerpt": "【有線新聞】尖沙咀有私家車剷上行人路，一死三傷，警方拘捕司機。 涉事私家車剷上行人路，撞倒多名途人，路面留下血",
-      "source": "有線新聞",
+      "title": "一語千金 - 港好創科｜專訪螞蟻數科區塊鏈業務總裁邊卓群(二)",
+      "url": "https://news.now.com/home/local/player?newsId=670476",
+      "publishedAt": "2026-11-22T12:03:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "波蘭指俄導彈、無人機侵犯領空 北約秘書長誓言捍衛每寸領土",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526490/%E6%B3%A2%E8%98%AD%E6%8C%87%E4%BF%84%E5%B0%8E%E5%BD%88-%E7%84%A1%E4%BA%BA%E6%A9%9F%E4%BE%B5%E7%8A%AF%E9%A0%98%E7%A9%BA-%E5%8C%97%E7%B4%84%E7%A7%98%E6%9B%B8%E9%95%B7%E8%AA%93%E8%A8%80",
-      "publishedAt": "2026-11-22T06:37:16.000Z",
-      "excerpt": "【有線新聞】波蘭指控俄羅斯以導彈和無人機侵犯領空，北約秘書長呂特承諾保衛波蘭每寸領土。俄羅斯一艘被指與軍方有關",
-      "source": "有線新聞",
+      "title": "一語千金 - 港好創科｜專訪螞蟻數科區塊鏈業務總裁邊卓群(一)",
+      "url": "https://news.now.com/home/local/player?newsId=670475",
+      "publishedAt": "2026-11-22T12:02:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "APEC｜習近平倡設世界灣區聯盟 陳茂波：港具獨特優勢能作積極貢獻",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526483/apec-%E7%BF%92%E8%BF%91%E5%B9%B3%E5%80%A1%E8%A8%AD%E4%B8%96%E7%95%8C%E7%81%A3%E5%8D%80%E8%81%AF%E7%9B%9F-%E9%99%B3%E8%8C%82%E6%B3%A2-%E6%B8%AF%E5%85%B7%E7%8D%A8%E7%89%B9",
-      "publishedAt": "2026-11-22T06:30:00.000Z",
-      "excerpt": "【有線新聞】在深圳舉行APEC峰會已經結束，財政司司長陳茂波表示，今次APEC其中一個亮點是國家主席習近平提出",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "南美球會盃｜小保加2比0擊敗明尼路 第三度封王",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526472/%E5%8D%97%E7%BE%8E%E7%90%83%E6%9C%83%E7%9B%83-%E5%B0%8F%E4%BF%9D%E5%8A%A02%E6%AF%940%E6%93%8A%E6%95%97%E6%98%8E%E5%B0%BC%E8%B7%AF-%E7%AC%AC%E4%B8%89%E5%BA%A6%E5%B0%81%E7%8E%8B",
-      "publishedAt": "2026-11-22T05:38:29.000Z",
-      "excerpt": "【有線新聞】南美球會盃決賽，小保加以2比0擊敗明尼路，第3度封王。 黃褲的小保加3分鐘幾乎收大禮，門將脫手，美",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會選舉｜譚耀宗、李慧琼稱對今屆投票率有信心",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526460/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E8%AD%9A%E8%80%80%E5%AE%97-%E6%9D%8E%E6%85%A7%E7%90%BC%E7%A8%B1%E5%B0%8D%E4%BB%8A%E5%B1%86%E6%8A%95%E7%A5%A8%E7%8E%87%E6%9C%89%E4%BF%A1",
-      "publishedAt": "2026-11-22T04:51:10.000Z",
-      "excerpt": "【有線新聞】全國港澳研究會顧問譚耀宗和立法會主席李慧琼都對今屆投票率有信心。 位於荃灣體育館的票站，有選民到場",
-      "source": "有線新聞",
+      "title": "「愛達．花城號」南沙啟航 港人專程北上體驗國產郵輪 明年設19條香港母港航線",
+      "url": "https://news.now.com/home/local/player?newsId=670517",
+      "publishedAt": "2026-11-22T11:20:25.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
@@ -24573,7 +24626,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "寶勒巷私家車剷行人路一人死亡 據悉司機棄車逃去後被捕(容裕礽報道)",
+      "title": "寶勒巷私家車剷行人路一人死亡 據悉司機棄車逃去後被捕",
       "url": "https://news.now.com/home/local/player?newsId=670513",
       "publishedAt": "2026-11-22T11:05:25.000Z",
       "excerpt": "",
@@ -24696,30 +24749,6 @@
       "title": "選委會選舉截至12時投票率過8成",
       "url": "https://news.now.com/home/local/player?newsId=670490",
       "publishedAt": "2026-11-22T05:03:00.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "深圳APEC｜陳茂波：香港內聯外通優勢 在世界灣區合作具獨特價值",
-      "url": "https://news.now.com/home/local/player?newsId=670489",
-      "publishedAt": "2026-11-22T04:27:24.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "孫玉菡：AI等因素令僱主較少聘年輕人 明年推兩計劃助青年就業",
-      "url": "https://news.now.com/home/local/player?newsId=670487",
-      "publishedAt": "2026-11-22T04:21:33.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會選舉｜選管會主席陸啟康：暫未接獲投訴 有信心合理時間內完成點票",
-      "url": "https://news.now.com/home/local/player?newsId=670486",
-      "publishedAt": "2026-11-22T04:13:34.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -24885,6 +24914,22 @@
       "category": "Hong Kong"
     },
     {
+      "title": "【重溫】2026年11月22日新聞天地",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878798-20261122.htm",
+      "publishedAt": "2026-11-22T11:45:36.000Z",
+      "excerpt": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "陸啟康對投票率逾98%感鼓舞 證明本港選舉制度操作越趨成熟",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878802-20261122.htm",
+      "publishedAt": "2026-11-22T11:26:31.000Z",
+      "excerpt": "選委會界別分組選舉投票結束，選管會主席陸啟康表示，有超過5600名投票人投票，投票率超過98%，所有票箱已經運送到位於會展的中央點票站進行點票，相信選舉結果不用很久便會陸續公布。 陸啟康表示，不評論投票率，但對於投票數字感到鼓舞，亦證明本港選舉制度的操作越來越成熟，選管會欣然樂見。 截至下午6時，選管會收到一宗涉及選舉廣告的投訴。陸啟康說，投訴人指稱不知道為何會收到選舉廣告，選管會正在處理。 編輯：黃佩珊",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "孫玉菡料明年上半年推行與智利工作假期計劃",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878793-20261122.htm",
       "publishedAt": "2026-11-22T10:54:32.000Z",
@@ -25025,22 +25070,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878776-20261122.htm",
       "publishedAt": "2026-11-22T06:56:03.000Z",
       "excerpt": "尖沙咀下午發生交通意外，初步有4人受傷，包括一名傷者昏迷。 現場是寶勒巷6號對開，下午近2時半，警方接報指，一輛私家車懷疑剷上行人路，初步有4人受傷。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "麥美娟：選舉氣氛熾熱 選民重視和投入選舉",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878775-20261122.htm",
-      "publishedAt": "2026-11-22T06:30:59.000Z",
-      "excerpt": "民政及青年事務局局長麥美娟巡視港灣道體育館投票站後表示，以自己曾經參與多次選舉的經驗而言，今次選舉氣氛熾熱，每名候選人和助選團都爭取選民認識和支持，但難得地有秩序進行選舉工程，體現本港優質民主發展。 她指出，今次選舉有民政系統、地區三會成員，均積極參與選舉，選民亦重視和投入選舉，明白到手上一票對本港未來發展的重要，呼籲合資格選民在下午6時前投票。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會界別分組選舉 截至下午2時投票率93.55%",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878774-20261122.htm",
-      "publishedAt": "2026-11-22T06:17:24.000Z",
-      "excerpt": "選舉委員會界別分組一般選舉早上9時開始投票。截至下午2時，投票率93.55%，5341名選民投票。 多個界別的投票率都達到100%，包括商界（第三）、科技創新界、工業界（第一）、會計界，及法律界。 投票率最低是金融界，有69.12%，47人已投票，界別選民人數有68人。 編輯：譚佩貞",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -25205,6 +25234,30 @@
       "category": "Hong Kong"
     },
     {
+      "title": "衞生防護中心調查一宗侵入性腦膜炎雙球菌感染個案",
+      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200568.htm",
+      "publishedAt": "2026-11-22T12:05:52.000Z",
+      "excerpt": "衞生署衞生防護中心（中心）今日（十一月二十二日）正調查一宗侵入性腦膜炎雙球菌感染個案。中心提醒市民應時刻注意個人和環境衞生，以減低被傳染這種嚴重疾病的風險。 &nbsp; 個案涉及一名有長期病患的七十四歲男子。他於十一月十九日開始出現發燒及全身乏力，翌日（十一月二十日）到私家診所求診，同日情況惡化，被帶到廣華醫院急症室求診及入院治療，目前情況穩定。他的腦脊液樣本經化驗後，證實對腦膜炎雙球菌呈陽性反應，臨床診斷為腦膜炎。 &nbsp; 初步調查顯示，病人潛伏期內沒有外遊，他的家庭成員暫時沒有出現病徵，並已獲派發預防性藥物。中心正繼續進行調查，初步調查顯示上述個案屬散發個案。 侵入性腦膜炎雙球菌感",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "選舉委員會界別分組一般選舉中央點票站（包括新聞中心）公眾人士區域只餘少量入場名額",
+      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200562.htm",
+      "publishedAt": "2026-11-22T11:48:00.000Z",
+      "excerpt": "下稿代選舉管理委員會發出： 電台及電視台當值宣布員注意，請立即播出下列特別報告，並作多次重播： 二○二六年選舉委員會界別分組一般選舉設於灣仔香港會議展覽中心的中央點票站（包括新聞中心）內的公眾人士區域只餘少量入場名額。 若公眾人士區域已經滿座，公眾人士將不能進入中央點票站。 公眾人士可於選舉網站（ www.elections.gov.hk ）瀏覽是次選舉的資訊。如有查詢，請致電2891 1001或3720 6132。",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "「亞裔藝采+2026」今日舉行 展示三十個國家和地區多元民族風采（附圖）",
+      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200306.htm",
+      "publishedAt": "2026-11-22T11:26:45.000Z",
+      "excerpt": "&nbsp; &nbsp; &nbsp; 由文化體育及旅遊局（文體旅局）呈獻、康樂及文化事務署（康文署）策劃的「亞藝無疆」藝術節2026，今日（十一月二十二日）下午在香港文化中心露天廣場及大堂舉行「亞裔藝采+2026」戶外嘉年華，獲多個駐港總領事館及駐港海外文化機構鼎力支持。約30個「一帶一路」國家和地區透過民族音樂、舞蹈、手工藝和特色小食等，呈現多元文化風貌，吸引超過33 000名市民和旅客參加。 &nbsp; 文體旅局局長羅淑佩在藝術節典禮致辭時表示，「亞藝無疆」藝術節一直致力為香港提供藝術交流平台，並為觀眾帶來豐富多樣的節目，展現亞洲及「一帶一路」國家和地區的文化魅力與多元面貌。藝術節今",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
       "title": "選舉委員會界別分組一般選舉投票率臨時數字",
       "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200488.htm",
       "publishedAt": "2026-11-22T10:18:00.000Z",
@@ -25337,30 +25390,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200233.htm",
       "publishedAt": "2026-11-22T02:25:00.000Z",
       "excerpt": "二○二六年選舉委員會界別分組一般選舉截至今日（十一月二十二日）上午十時的投票率如下： &nbsp; 界別分組 投票人人數 累積投票人數 累積投票率（%） 第一界別 飲食界 142 29 20.42% 商界（第一） 22 9 40.91% 商界（第二） 99 16 16.16% 商界（第三） 113 111 98.23% 香港僱主聯合會 22 8 36.36% 金融界 68 27 39.71% 金融服務界 183 50 27.32% 酒店界 79 27 34.18% 進出口界 57 17 29.82% 工業界（第一） 30 17 56.67% 工業界（第二） 101 22 21.78% 保險界 ",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "香港海關偵破一宗毒品案件並檢獲約七百萬元懷疑冰毒（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200205.htm",
-      "publishedAt": "2026-11-22T02:10:00.000Z",
-      "excerpt": "香港海關於十一月十八日在葵涌海關大樓驗貨場檢獲約十五公斤懷疑冰毒，估計市值約七百萬元。 海關透過風險評估，於當日在葵涌海關驗貨場檢查一批從墨西哥到港，報稱載有塑膠容器模具的海運拼裝貨物。經查驗後，海關人員於一個金屬模具內發現該批懷疑冰毒。跟進調查後，海關人員採取監控遞送行動，於昨日（十一月二十一日）在葵涌拘捕一名四十一歲收貨男子。 案件仍在調查中，該名被捕男子現正保釋候查。 根據《危險藥物條例》，販運危險藥物屬嚴重罪行，一經定罪，最高可被判罰款五百萬元及終身監禁。 市民可致電海關二十四小時熱線182 8080，或透過舉報罪案專用電郵帳戶（ crimereport@customs.gov.hk ",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "數個泳灘懸掛紅旗",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200203.htm",
-      "publishedAt": "2026-11-22T02:03:25.000Z",
-      "excerpt": "電台及電視台當值宣布員注意： 請盡快播出下列特別報告： 游泳人士請注意：康樂及文化事務署今日（十一月二十二日）宣布，由於大浪關係，港島南區的赤柱正灘泳灘及大浪灣泳灘；西貢區的銀線灣泳灘及清水灣第二灣泳灘已懸掛紅旗，顯示在該處游泳會有危險，市民請勿在該處游泳。",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "黃色火災危險警告",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200118.htm",
-      "publishedAt": "2026-11-21T22:01:00.000Z",
-      "excerpt": "電台、電視台當值宣布員注意： 為大眾安全起見，請播放下列警告： 火災危險警告 天文台今日（十一月二十二日）已發出黃色火災危險警告，表示火警容易發生，市民應小心防火，郊遊人士亦應小心防止山火。 &nbsp;",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

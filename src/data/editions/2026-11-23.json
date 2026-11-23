@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T03:17:18.441Z",
-  "collectedAt": "2026-11-23T03:17:18.441Z",
+  "generatedAt": "2026-11-23T04:17:19.547Z",
+  "collectedAt": "2026-11-23T04:17:19.547Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -41,15 +46,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50606072"
-        },
-        {
-          "title": "Nespresso's project to reduce grams of coffee per capsule",
-          "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
-          "publishedAt": "2026-11-22T23:57:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50605479"
         },
         {
           "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
@@ -194,9 +190,18 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50600622"
+        },
+        {
+          "title": "Open Social Web Alliance",
+          "url": "https://osw-alliance.net/en/",
+          "publishedAt": "2026-11-22T15:24:32.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50600511"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Verge",
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,28 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Alexandr Wang says the Riemann Hypothesis proof shows AI will surpass humans in every field, including AI research, and calls for AI safety and alignment (Alexandr Wang/@alexandr_wang)",
+          "url": "https://x.com/alexandr_wang/status/2124636606959345776",
+          "publishedAt": "2026-11-23T04:00:14.000Z",
+          "excerpt": "Alexandr Wang / @alexandr_wang : Alexandr Wang says the Riemann Hypothesis proof shows AI will surpass humans in every field, including AI research, and calls for AI safety and alignment &nbsp; &mdash;&nbsp; Superintelligence is Arriving",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261122/p19#a261122p19",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Arva AI, which builds AI agents for banks' financial-crime compliance teams and counts Wise as a customer, raised a $20M Series A led by Arthur Ventures (Ryan Lawler/Axios)",
+          "url": "https://www.axios.com/pro/fintech-deals/2026/11/17/arva-ai-20-million-series-a-bank-compliance",
+          "publishedAt": "2026-11-23T03:25:01.000Z",
+          "excerpt": "Ryan Lawler / Axios : Arva AI, which builds AI agents for banks' financial-crime compliance teams and counts Wise as a customer, raised a $20M Series A led by Arthur Ventures &nbsp; &mdash;&nbsp; Arva AI, which builds AI agents for banks' financial-crime compliance teams, has raised $20 million in S",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261122/p18#a261122p18",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "TPG and Corpay agree to acquire and take private BILL Holdings, whose cloud-based software lets SMBs automate financial operations, in a deal valued at ~$6B (Pritam Biswas/Reuters)",
           "url": "https://www.reuters.com/legal/transactional/bill-holdings-be-taken-private-by-tpg-6-billion-equity-value-2026-11-19/",
@@ -1434,31 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261122/p5#a261122p5",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines (Mike Pearl/Gizmodo)",
-          "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
-          "publishedAt": "2026-11-22T06:40:16.000Z",
-          "excerpt": "Mike Pearl / Gizmodo : Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines &nbsp; &mdash;&nbsp; FSD v15 was released to some vehicles on Saturday.&nbsp; Its visualization system may be the mo",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261122/p4#a261122p4",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "A joint statement by the Lean and Mathlib communities says \"we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct\" (Lean community blog)",
-          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-          "publishedAt": "2026-11-22T06:00:02.000Z",
-          "excerpt": "Lean community blog : A joint statement by the Lean and Mathlib communities says &ldquo;we have full confidence that Alp&ouml;ge's proof of the Riemann Hypothesis is correct&rdquo; &nbsp; &mdash;&nbsp; Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Init",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261122/p3#a261122p3",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1652,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "TechRadar",
@@ -1836,7 +1841,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "9to5Mac",
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2219,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2408,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Fast Company",
@@ -2547,7 +2552,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Creative Bloq",
@@ -2736,7 +2741,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2950,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3119,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3288,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3377,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3546,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3715,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3904,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4088,7 +4093,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4282,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The New Yorker",
@@ -4403,19 +4408,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Have Yourself a Kitschy Little Christmas",
-          "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
+          "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
+          "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
           "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "Leave your good taste at the door.",
+          "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
-          "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
+          "title": "Have Yourself a Kitschy Little Christmas",
+          "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
           "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
+          "excerpt": "Leave your good taste at the door.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4466,7 +4471,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4600,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "IndieWire",
@@ -4700,7 +4705,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Vox",
@@ -4889,7 +4894,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5083,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5252,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5421,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5550,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5649,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5838,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6027,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6216,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
     },
     {
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6491,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7187,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7654,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7992,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8181,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8350,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8519,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8708,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8871,7 +8877,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9046,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9135,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9324,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9513,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9702,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "The Marginalian",
@@ -9704,6 +9710,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Most Powerful Attitude You Can Take Toward Your Life and the Life of the World",
+          "url": "https://www.themarginalian.org/2026/11/22/richard-powers-advice/",
+          "publishedAt": "2026-11-22T05:45:46.000Z",
+          "excerpt": "\"This fluke, single, huge, cross-indexed, thermodynamic experiment of a story that the world has been inventing to tell itself at bedtime is still in embryo. It's not even the outline of a synopsis of notes toward a rough draft yet.\"",
+          "source": "The Marginalian",
+          "category": "Philosophy"
+        },
+        {
+          "title": "The Seven Selves",
+          "url": "https://www.themarginalian.org/2026/11/21/the-seven-selves-kahlil-gibran/",
+          "publishedAt": "2026-11-22T03:39:31.000Z",
+          "excerpt": "A self is a forest. A self is a ship. A self is an illusion, and yet it is the place where we live, the costume the naked soul wears to survive in the world. Above all, a self is a sum of selves, contextual as a chameleon, conflicted as a parliament. Which self takes the reins of our character and c",
+          "source": "The Marginalian",
+          "category": "Philosophy"
+        },
         {
           "title": "The Only Three Distinctions Between People",
           "url": "https://www.themarginalian.org/2026/11/21/nathaniel-hawthorne-classification/",
@@ -9847,25 +9869,9 @@
           "excerpt": "Our lives are defined not by what we have but what we give — on what and whom we spend our energy and time, how we share our material possessions and our mental powers, what we do with our gifts. “Anything you do not give freely and abundantly becomes lost to you,” Annie Dillard wrote in contemplati",
           "source": "The Marginalian",
           "category": "Philosophy"
-        },
-        {
-          "title": "The Souls of Animals",
-          "url": "https://www.themarginalian.org/2026/11/04/the-souls-of-animals/",
-          "publishedAt": "2026-11-04T22:23:53.000Z",
-          "excerpt": "“They do not sweat and whine about their condition,” Walt Whitman wrote of the other animals, “they do not lie awake in the dark and weep for their sins, they do not make me sick discussing their duty to God, not one is dissatisfied, not one is demented with the mania of owning things.” Here was “th",
-          "source": "The Marginalian",
-          "category": "Philosophy"
-        },
-        {
-          "title": "Love in the Time of Dinosaurs",
-          "url": "https://www.themarginalian.org/2026/11/02/mary-morland-buckland-megalosaurus/",
-          "publishedAt": "2026-11-02T23:09:06.000Z",
-          "excerpt": "In 1824, studying a set of large fossil bones discovered in a quarry near Oxford two centuries earlier, the English theologian, geologist, and paleontologist William Buckland kept looking at the fragment of the lower jaw. Something didn’t add up. As he examined it more closely, he realized these wer",
-          "source": "The Marginalian",
-          "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10040,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10209,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Psyche",
@@ -10392,7 +10398,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10567,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10736,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Kottke",
@@ -10939,7 +10945,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11154,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Waxy",
@@ -11377,13 +11383,13 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "MetaFilter",
       "category": "Discover",
       "kind": "rss",
-      "count": 7,
+      "count": 5,
       "stories": [
         {
           "title": "Archaeology students work beside traditional owners at ancient site",
@@ -11429,27 +11435,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "They call it Film, but nobody's recorded on actual film in years...",
-          "url": "https://www.metafilter.com/215261/They-call-it-Film-but-nobodys-recorded-on-actual-film-in-years",
-          "publishedAt": "2026-11-22T04:06:26.000Z",
-          "excerpt": "What does \"Film\" mean today? Ok, ok, so if you have f!#!@-you money and want to make a point and take home a shiny trophy like Christopher Nolan with the Odyssey, maybe you actually made a movie on real, actual film. But if you're a lumpen-proletariat like the rest of us, or just a cheap corporate f",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
-        },
-        {
-          "title": "\"In the shuffling madness of the locomotive breath\"",
-          "url": "https://www.metafilter.com/215260/In-the-shuffling-madness-of-the-locomotive-breath",
-          "publishedAt": "2026-11-22T03:34:03.000Z",
-          "excerpt": "'California train burglars carefully executed heists for 'staggering' $22m haul ' \"With some of the men on board serving as lookouts, the others would slash the train's air hose, causing a sudden loss of air pressure and forcing an emergency stop of the entire vehicle. The maneuver is perilous given",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11638,7 +11626,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Dense Discovery",
@@ -11847,7 +11835,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "香港01",
@@ -11856,74 +11844,106 @@
       "count": 20,
       "stories": [
         {
+          "title": "雲南主播私闖果園帶貨切開逾200斤蘋果棄地 官方：誤入相鄰果園",
+          "url": "https://hk01.com/sns/article/60413881",
+          "publishedAt": "2026-11-23T04:11:22.000Z",
+          "excerpt": "11月20日，雲南昭通果農陳先生發影片控訴，一名擁有百萬粉絲的主播未經允許闖入其果園直播，為展示效果當場切開200多斤蘋果扔在地上，連花芽也被摘掉，導致收購商取消訂單。 23日，官方通報稱，該主播實為應邀直播時「找錯地點」誤入相鄰果園，經現場稱重，實際損毀蘋果為181斤。目前，涉事主播已向果農當面道歉並達成賠償和解。 一名擁有百萬粉絲的主播未經允許闖入其果園直播，為展示效果當場切開200多斤蘋果扔在地上。（上觀新聞） 切開逾200斤蘋果棄地 連花芽也被摘 據 《極目新聞》 ，雲南昭通果農陳先生此前發影片稱，發現一名主播未經許可進入其果園直播，為展示品質當場切開200多斤蘋果，果肉全扔在地上。 ",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "特朗普無視利益衝突爭議 舉辦第三屆「迷因幣」晚宴吸金",
+          "url": "https://hk01.com/sns/article/60413885",
+          "publishedAt": "2026-11-23T04:07:38.000Z",
+          "excerpt": "美國總統特朗普（Donald Trump，又譯川普）11月22日晚在維珍尼亞州的高爾夫俱樂部舉行第三屆加密貨幣晚宴，回饋其個人迷因幣（$TRUMP）的185名持幣大戶。民主黨強烈質疑，特朗普在加密貨幣事業中牽涉不正當利益。 英國《衛報》報道 ，晚宴根據持幣者排名提供不同禮遇，前120名參與者可獲特朗普香水及手錶等紀念品，首29名可參加VIP招待會，前4名更獲贈「特朗普18K金錶」。不敗拳王梅韋特（Floyd Mayweather）及《創智贏家》（Shark Tank）投資人奧利里（Kevin O'Leary）等名人亦現身交流。 2025年3月7日，美國總統特朗普在華盛頓特區白宮出席白宮加密貨幣",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "THEi高科院夥蔚來設新能源車教育中心 獲贈非賣品零件助學生實戰",
+          "url": "https://hk01.com/sns/article/60413878",
+          "publishedAt": "2026-11-23T04:04:41.000Z",
+          "excerpt": "香港高等教育科技學院（THEi高科院）今日（23日）宣布，與智能電動汽車品牌蔚來（NIO）合作成立「蔚來 x THEi高科院新能源汽車教育中心」。中心獲蔚來捐贈多套市面上難以獨立購置的電動車核心零件，供修讀電動汽車設計及技術（榮譽）工學士課程的師生進行實戰測試與研究，同時為學院邁向應用科學大學（應科大）奠定基礎。 開幕典禮由環境及生態局局長謝展寰、THEi高科院榮譽教授兼蔚來創始人、董事長兼首席執行官李斌、THEi高科院校董會主席林健鋒，以及THEi高科院校長劉建德主禮。其中，李斌已於日前（21日）獲THEi高科院頒授榮譽教授名銜，並於典禮上以《智引未來：智能電動汽車引領的綠色未來》為題發表主",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "小鵬匯天A868飛行車試飛成功｜中國首款全尺寸全傾轉高速平飛",
+          "url": "https://hk01.com/sns/article/60413859",
+          "publishedAt": "2026-11-23T04:02:45.000Z",
+          "excerpt": "小鵬匯天A868 飛行車試飛成功｜小鵬匯天（XPeng AeroHT，海外品牌：Aridge）於2026年11月22日宣布，旗下全尺寸全傾轉油電混能飛行汽車（或增程式混能飛行器）「A868」完成傾轉過渡試飛，成為中國首間突破全尺寸原型機此項驗證的企業。距離2025年11月首次起降試飛僅隔一年，A868實現由垂直起降向高速平飛的轉換，設計時速達360公里，航程逾500公里，標誌著中國全傾轉飛行器邁入全球前列。 小鵬匯天A868。（Aridge） 小鵬匯天A868傾轉過渡試飛有何氣動突破？ 「傾轉過渡」要求旋翼在半空平滑旋轉90度，將垂直升力無縫切換為水平推力，並把升力交接予固定翼，氣流耦合極為複",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "有片│大埔宏福苑上空驚現UFO？巨型觸鬚似八爪魚 網民揭神秘真身",
+          "url": "https://hk01.com/sns/article/60413614",
+          "publishedAt": "2026-11-23T04:02:38.000Z",
+          "excerpt": "大埔宏福苑旁上空驚現UFO（不明飛行物體）？本港Threads於11月22日瘋傳1段影片，顯示有多條細長觸鬚或長爪，在空中飛舞，目擊者驚呼「唔似風箏……係咪11月真係全人類第一次親眼見到UFO？」。 影片震撼網民，不少人對此表示好奇，亦有人認為影片中物體形狀奇特，把其與科幻電影《天煞地球反擊戰》相提並論，認為是外星人來訪先兆。不過有更多網民指出，大埔海濱公園一帶經常有人放大型風箏，尤其是假日和天氣晴朗的時候，拆解該物體是一隻斷了線的大型八爪魚風箏，毋須驚慌。 （Threads@nngaiwing） 「係咪11月真係全人類第一次親眼見到UFO？」有香港女生於 Threads 發布影片，指大埔宏福",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "壽司郎門店殺入紐約！魚料激增變「美國Size」 甜點竟大過拳頭",
+          "url": "https://hk01.com/sns/article/60413827",
+          "publishedAt": "2026-11-23T04:00:56.000Z",
+          "excerpt": "日本迴轉壽司品牌「壽司郎」把日式料理帶進紐約，餐點份量也跟著走起美式風格。壽司郎美國首間門市於11月19日在紐約時報廣場（又譯時代廣場）附近開幕，受邀提前體驗的日本網紅蘭（Ran）分享，當地壽司的魚料比想像中更大，連甜點大福都超過拳頭大小，讓她忍不住笑稱，這根本是「美國尺寸」。 蘭近日在Instagram上分享紐約壽司郎試營運的用餐經驗。她表示，新店位於時報廣場附近，交通便利，讓住在當地或前往旅遊的民眾都能輕鬆造訪。實際品嘗後，最令她驚喜的是壽司配料的份量，魚料比原先預期更大，吃起來相當有滿足感，也讓她對美國版壽司郎留下深刻印象。 日本網紅「蘭」近日在Instagram上分享紐約壽司郎試營運的",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "楊莉珊｜大國重新劃設紅線 棋子還沒有醒過來？",
+          "url": "https://hk01.com/sns/article/60413314",
+          "publishedAt": "2026-11-23T04:00:55.000Z",
+          "excerpt": "來稿作者：楊莉珊 11月19日，國家主席習近平在麒麟山莊會晤美俄元首，美國總統特朗普更公開表示「不支持台獨」。這不僅是一次具有重大象徵意義的外交互動，更可能反映國際政治秩序正在出現新的調整與重組。面對百年未有之大變局，中俄美三個世界主要力量之間的戰略互動，勢必對全球安全、地緣政治以及台海局勢產生深遠影響。 從歷史角度看，世界格局每當遇到重大轉折，好多時都會伴隨大國之間重新協調同利益再平衡。不論是二十世紀的雅爾塔會議，还是冷戰完結之後新秩序的重塑，都講明大國之間的戰略共識，對世界局勢有決定性影響。現在全球經濟增長放緩、地區衝突不斷、能源同供應鏈問題一齊涌現，如果中俄美三方可以展開高層對話，这件事",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "俄羅斯獵狼犬一躺平秒變身！高挑獵犬突變超大毛毛地毯 網民笑爆",
+          "url": "https://hk01.com/sns/article/60389027",
+          "publishedAt": "2026-11-23T04:00:30.000Z",
+          "excerpt": "第一眼看到這個畫面，真的很難相信眼前竟然是一隻狗！一隻俄羅斯獵狼犬躺下後，原本高挑修長的身形瞬間攤開，大片毛髮鋪在地面上，看起來就像一張超大型毛茸茸地毯，讓人忍不住懷疑「剛剛不是還是一隻狗嗎？」超強烈的站立與躺平反差，也讓這個畫面格外吸睛。 俄羅斯獵狼犬躺下有多扁？ 俄羅斯獵狼犬又稱Borzoi，原本就是外型相當有特色的犬種，牠們身形高挑、精瘦而強健，身體略長於身高，整體線條呈現優雅的曲線，Borzoi過去就以「Russian Wolfhound」之名為人所知，是源自俄羅斯、曾被培育用於追獵狼等大型獵物的視獵犬。 ►毛孩子有IG了，來追蹤我們吧！ 俄羅斯獵狼犬躺下有多扁？（X@mrrasmul",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "港姐季軍楊梓瑤低胸馬甲配熱褲騷逆天長腿 曾大方認靚樣做過手腳",
+          "url": "https://hk01.com/sns/article/60413629",
+          "publishedAt": "2026-11-23T04:00:27.000Z",
+          "excerpt": "近年有不少擁內地背景的港姐季軍，當選後均未有留港發展，反而選擇返回內地繼續進修，且有不錯的發展機會，2023年港姐季軍王敏慈就是最佳例子，工作機會接踵而來，而2024年港姐季軍楊梓瑤似乎亦有意仿效師姐的做法。現年23歲、擁有178公分身高的楊梓瑤，當年憑藉高挑身形及甜美外貌成功躋身三甲，當選後她選擇繼續於北京電影學院完成學業，兼顧演藝事業與學業。向來樣靚身材正的她，卸任後依然保持最佳狀態，近年除了參演過電影及短劇外，更積極經營社交平台，不時大派福利回饋粉絲。近日，楊梓瑤在社交平台Instagram分享了一輯在維港海景前拍攝的靚相，大騷逆天長腿，隨即引來大批網民讚好！ 楊梓瑤參選時，搞笑自揭高妹",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "OpenAI推GPT-6.2 Astra及Sol 效能升成本降 更首達自我改進門檻",
+          "url": "https://hk01.com/sns/article/60413191",
+          "publishedAt": "2026-11-23T04:00:11.000Z",
+          "excerpt": "GPT-6.2 Astra是OpenAI的新旗艦模型，主打專業工作、編程與科學研究，API價格比 GPT-6 Astra低20%；GPT-6.2 Sol則是日常工作的主力模型，價格與GPT-6.1 Sol相同，兩款都能在ChatGPT工作區（ChatGPT Work）與Codex項目中使用。 OpenAI宣布推出兩款新模型：GPT-6.2 Astra與GPT-6.2 Sol。Astra是處理最艱難項目的前沿模型，Sol則是日常工作用的高效率模型。這兩款都能用更少的輸出token完成高難度任務，GPT-6.2 Astra在Agents' Last Exam比GPT-6 Astra高5.2分，成本",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "警西九龍區打擊交通違例 拘15人扣查18輛車 103車涉超速",
+          "url": "https://hk01.com/sns/article/60413887",
+          "publishedAt": "2026-11-23T04:00:05.000Z",
+          "excerpt": "西九龍總區交通部執行及管制組人員於11月16日至22日在區內進行代號「火炬」（FOSSINGTON）的打擊交通違例事項行動，設置多個路障，重點打擊「酒後駕駛」、「非法賽車」、「超速駕駛」及「非法改裝行動」等罪行。 警方拘捕13名本地男子和2名本地女子，年齡介乎21至58歲。當中，8名被捕男子涉嫌「酒後駕駛」、一名被捕女子涉嫌「停牌期間駕駛」、一名被捕男子和一名被捕女子涉嫌「無牌駕駛」及「駕駛時沒有第三者保險」、一名被捕男子涉嫌「容許他人無牌駕駛」及「容許他人駕駛時沒有第三者保險」，而其餘3名被捕男子則因被發現為通緝人士被捕。 所有被捕人已獲准保釋候查，須於12月下旬向警方報到。 西九龍總區交通",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "蔡天鳳案｜鄺港智否認與譚方駿是性伴侶 但譚有三個人一齊的心意",
+          "url": "https://hk01.com/sns/article/60413877",
+          "publishedAt": "2026-11-23T03:38:30.000Z",
+          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，蔡的前夫、第三被告鄺港智繼續自辯 。 鄺港智在盤問時指，直至2023年仍和蔡有性關係，但否認和蔡現任丈夫譚方駿是性伴侶。代表鄺港傑的大律師指，鄺和蔡仍有性關係，但同時譚亦知此事，指此家庭很奇怪，鄺港智同意，但重申：「我在一個complicated（複雜）屋企，在一個complicated關係。」 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "陳健波12.1起接任醫管局主席 任期兩年 范鴻齡在任七年正式卸任",
           "url": "https://hk01.com/sns/article/60413862",
           "publishedAt": "2026-11-23T03:10:34.000Z",
-          "excerpt": "政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫院管理局（醫管局）主席。 陳健波感謝李家超信任，指深知責任重大，未來將與醫管局管理層、醫管局大會等攜手，並與醫衞局和各政府相關政策局和部門，病人組職等社會各界人士緊密合作，應對人口高齡化、在醫療需求持續上升而帶來的開支上升，及部份醫療服務樽頸及質素的挑戰。 政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫院管理局（醫管局）主席。（資料圖片）",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "巴士阿叔偷拍斷正！恐嚇掌摑女事主逼收聲：躝啦 乘客冷漠結局慘",
-          "url": "https://hk01.com/sns/article/60413530",
-          "publishedAt": "2026-11-23T03:02:59.000Z",
-          "excerpt": "在巴士偷拍還理直氣壯，令人髮指！本港Threads流傳影片，有香港女生乘搭九巴時被一名阿叔偷拍。女事主不甘受辱勇敢挺身對質，惟該阿叔不但毫無悔意，更「大聲夾惡」反客為主狂「兇」，「唔X得啊！關你X事啊！」。女事主見狀表示要報警，阿叔竟恐嚇要掌摑女事主，喝斥「躝啦！」。女事主被阿叔呼喝時，一度向車上其他乘客「求救」，但無人理會，最終「怕阻到成車人，放咗阿叔」。 事件引來網民嘩然，批評阿叔離譜，讚揚女事主勇敢，「黐線！仲可以理直氣壯咁話返你轉頭」、「有病，咩世界」、「攞住條片去報警！呢啲人唔好放過佢」。也有不少網民關注其他乘客無人挺身幫忙，「啲乘客真係好冷漠……」。 有香港女生乘搭九巴時被阿叔偷拍",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "特朗普斥伊朗談判「全是廢話」 揚言新年後重啟軍事打擊德黑蘭",
-          "url": "https://hk01.com/sns/article/60413845",
-          "publishedAt": "2026-11-23T03:00:54.000Z",
-          "excerpt": "美國總統特朗普（Donald Trump，又譯川普）11月22日接受霍士新聞（Fox News）採訪時警告，若美伊兩國在新年後仍未能達成協議，他將會下令對伊朗發起新一輪軍事打擊，直斥目前與德黑蘭的外交談判「全是廢話」。 霍士新聞報道 ，特朗普在專訪中指責伊朗談判代表在美國中期選舉後採取拖延戰術，特朗普受訪時形容，。他認為伊朗現時比美國選前更具侵略性，預測美伊軍隊在霍爾木茲海峽（Strait of Hormuz）周邊的衝突及互相報復性攻擊仍會持續。 特朗普受訪時形容，伊朗談判官員是擅長閃躲的「專業踢踏舞者」，「整天除了談還是談」。（Reuters） 針對美軍目前對伊朗港口實施的海上封鎖，特朗普甚",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "言承旭上海開騷出事 樓梯失足重摔跌地傳骨折 昔左膝舊患惹擔憂",
-          "url": "https://hk01.com/sns/article/60413844",
-          "publishedAt": "2026-11-23T03:00:11.000Z",
-          "excerpt": "台灣49歲男歌手言承旭擁有深邃五官與高挑身形，過去因參演偶像劇《流星花園》，與吳建豪、周渝民、朱孝天組成男子組合「F4」火遍亞洲。不過卻驚傳，他在演唱會期間發生意外，重摔撞地。 言承旭演唱會上樓梯時重摔 言承旭、吳建豪、周渝民與五月天阿信攜手演出「F✦FOREVER恆星之城巡迴演唱會」，21日在上海體育場完成上海限定場的演出。不過演唱會期間，言承旭在準備登上移動花車、走在隊伍末端的過程中，疑似因西裝下擺過長、上樓梯踩到而重跌。 言承旭驚傳在演唱會期間發生意外，重摔撞地。（ig@jerry_yan_official） 更多言承旭演唱會上樓梯時重摔畫面： 言承旭上海演唱會上樓梯時不慎重摔倒地。（微",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "內地｢最快女護士｣辭職後全職跑馬拉松 1個月狂攬26.5萬獎金",
-          "url": "https://hk01.com/sns/article/60413833",
-          "publishedAt": "2026-11-23T03:00:07.000Z",
-          "excerpt": "曾因在哈爾濱馬拉松賽上奪冠而被稱為「最快女護士」的張水華，於賽後哭訴要求調休引發爭議。她於今年1月辭職後，成為全職跑手。近一個多月時間，她已經連續獲得5項賽事冠軍和一項賽事亞軍，據內媒統計，這段時間她的獎金收入已達到26.5萬元（人民幣）。 2025年8月31日哈爾濱馬拉松，本職為護士的張水華以2小時35分27秒刷新個人最好成績，獲得國內女子組冠軍，被稱讚是「最快女護士」。 2025年8月31日，張水華在2025年哈爾濱馬拉松賽中，以2小時35分27秒的成績刷新個人最佳，獲得國內女子組冠軍，她也因此被稱為「最快女護士」。然而在賽後採訪中，她因哭訴要調休引發爭議。2026年1月，張水華宣布辭職成",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "停車場半夜驚傳怪聲 無人電動車竟一夜自動泊車868次嚇呆保安",
-          "url": "https://hk01.com/sns/article/60413828",
-          "publishedAt": "2026-11-23T02:57:49.000Z",
-          "excerpt": "安徽省一處地下停車場近日發生離奇事件，一輛無人乘坐的電動車凌晨突然反覆啟動自動停車功能，不斷前進、倒車並調整位置，整個過程持續一夜，系統紀錄竟顯示共執行868次自動停車，讓前往查看的保安人員當場傻眼。事件曝光後引發網友熱議，究竟是車輛系統故障，還是車主透過手機遠端操作，目前仍沒有定論。 凌晨3點車庫傳怪聲 保全查看發現車內沒人 據 《NDTV》 報導，事發地點位於安徽省一處地下停車場，當時約凌晨3點，一輛電動車突然自行移動，反覆進行前進、倒車及調整車身位置等動作，彷彿正在尋找合適的停車位置。 安徽省一處地下停車場出現離奇畫面，一輛無人乘坐的電動車凌晨反覆執行自動泊車，車主事後查看紀錄，發現一夜",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "Puma優惠｜滿$1500減$200！ROSÉ同款Speedcat Ballet 1招免運費",
-          "url": "https://hk01.com/sns/article/60412772",
-          "publishedAt": "2026-11-23T02:55:31.000Z",
-          "excerpt": "【Puma香港】近年運動時尚風潮席捲全球，向來走年輕潮酷路線的 Puma，自從邀得 BLACKPINK 成員 ROSÉ 擔任全球代言人後更成為時尚圈熱話！當中由她演繹的爆紅鞋款 Speedcat Ballet 結合芭蕾優雅與賽車基因，絕對是本季必入手的 IT Shoes！ PUMA 最新優惠｜訂單滿$1,500減$200，滿$1,200減$100 優惠：訂單滿$1,500減$200；滿$1,200減$100 優惠期：2026/11/19 00:00 ~ 2026/12/15 23:59 👉🏻 立即購買 PUMA 最新優惠｜購買指定SHARP NIGHT系列或ROLLCAT鞋款，即可獲贈張凌",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "八馬茶業回應被解放軍暫停採購資格：不涉產品質量、食品安全",
-          "url": "https://hk01.com/sns/article/60413849",
-          "publishedAt": "2026-11-23T02:46:17.000Z",
-          "excerpt": "解放軍軍隊採購網21日公布了一批軍隊採購暫停名單，順豐速運、八馬茶業、三亞鳳凰國際機場、中國交通建設集團等均在名單中。 22日晚，八馬茶業發布公告澄清，本次處置僅為軍隊專項採購准入管理措施，屬特定領域資格調整，不涉及本集團產品質量、食品安全及日常經營業務，對本集團面向公眾的銷售、運營及主營業務並無影響。 八馬茶業。（網絡圖片） 八馬茶業表示，經審慎評估，鑒於本集團至今尚無參與過涉軍招標活動，該通告所述事項不會對本集團財務狀況、經營業績及整體運營構成重大不利影響。公司將持續跟進上述事項進展，並將根據香港聯合交易所有限公司證券上市規則適時履行信息披露義務。",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "聖若瑟書院升中簡介｜逾千家長報名 設54自行學額全獲面試",
-          "url": "https://hk01.com/sns/article/60413842",
-          "publishedAt": "2026-11-23T02:42:51.000Z",
-          "excerpt": "傳統名校聖若瑟書院日前（21日）舉行中一收生簡介會，吸引逾千名家長報名，近千人出席。副校長譚創耀於會上介紹，學校於2027/28學年將提供54個中一自行分配學位，所有申請者均獲邀於明年2月27日參加面試，面試涵蓋中、英、數三科個人面試及小組討論，不設筆試。 聖若瑟書院舉行中一收生簡介會，吸引逾千名家長報名，近千人出席。（學校提供） 設54個自行分配學額 不設筆試着重解難與熱誠 副校長譚創耀公布2027/28學年中一自行分配學位安排，申請期為2027年1月4日至1月18日，家長可親臨學校或透過「中一派位電子平台」遞交申請，校方建議家長親臨遞交，以便即場核對資料。面試方面，中文科主要以粵語進行，其",
+          "excerpt": "政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫管局主席。醫管局表示歡迎，行政總裁李夏茵指，醫管局仝人會全力支持陳健波，應對人口老化、人力資源及醫療科技發展等挑戰，並繼續提升及改革公營醫療服務，深信陳會為醫管局注入新思維和動力。 陳健波感謝李家超信任，提到未來將與醫管局、政府、病人組織等社會各界人士緊密合作，應對人口高齡化、醫療需求持續上升而帶來的開支，及部份醫療服務樽頸及質素的挑戰。 政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫管局主席。（資料圖片／夏家朗攝） 前立法會議員陳健波獲委任為醫管局主席。 01早前",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11940,14 +11960,6 @@
           "url": "https://hk01.com/sns/article/60413811",
           "publishedAt": "2026-11-23T02:35:55.000Z",
           "excerpt": "尖沙咀寶勒巷昨午（22日）發生嚴重車禍，一輛私家車疑失控衝上行人路，再撞到一間地舖，釀1死3傷，肇事司機一度逃逸。警方事後拘捕38歲姓倪男子，涉嫌「酒後駕駛」及「危險駕駛導致他人死亡」。《香港01》再接獲多段意外發生前後的閉路電視片段，分別拍攝到涉案私家車在麼地道轉入赫德道，然後在赫德道撞到停在路邊的客貨車，繼而駛入寶勒巷，並失控衝上行人路的整個經過。 畫面遠處私家車於事發前險於赫德道撞上2名過路行人。（網上片段截圖） 綜合《香港01》獲得的閉路電視影片，其中一段從高處俯拍赫德道與寶勒巷交界路口，拍攝到涉案私家車先由麼地道方向轉入赫德道，當時已險撞上兩名正橫過馬路的行人，然後私家車在赫德道撞到",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉｜港澳辦：展現高質量民主 中聯辦：肩負五年規劃重任",
-          "url": "https://hk01.com/sns/article/60413815",
-          "publishedAt": "2026-11-23T01:26:21.000Z",
-          "excerpt": "2026年選舉委員會界別分組選舉昨日順利舉行，投票率達98.79%創新高。國務院港澳事務辦公室發言人今日（11月23日）表示，這次選舉進一步彰顯香港新選舉制度的先進性優越性，展現符合香港實際高質量民主的新氣象。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 港澳辦：參選人覆蓋老香港新香港、中資港資外資 港澳辦發言人指出，此次選委會選舉參選人來源多元，覆蓋社會各階層、各界別、各群體：既有業界資深人士，也有行內後起之秀；既有土生土長的「老香港」，也有從內地和海外來港發展的「新香港」；既有中資、港資的代表，也有外資的代表；既有傳統產業的領軍人物，也有新興賽道的精英翹楚；既有全",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11976,10 +11988,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "金馬獎2026得獎名單｜《善男信女》奪劇情片 AK、袁澧林首獲金馬",
-          "url": "https://hk01.com/sns/article/60413721",
-          "publishedAt": "2026-11-22T15:39:52.000Z",
-          "excerpt": "《第63屆金馬獎頒獎典禮》今晚（11/22）於臺北流行音樂中心正式舉行。本屆匯聚來自各地的優秀華語電影作品，由《狂忘警探》入圍11項、《女孩》入圍10項領跑，《雙囍》與《善男信女》則各獲9項提名，競爭相當激烈。香港代表最終奪得最佳劇情短片、最佳男配角、最佳原著劇本、最佳紀錄片獎、最佳女主角及最佳劇情片，一共6個獎項。而《善男信女》更是繼2008年《投名狀》後，時隔18年再有港片奪得金馬獎最佳劇情片獎項。 柯煒林擔任今屆金馬獎主持，更特別為香港演打氣︰「香港隊，加油！」，更唱出陳奕迅的《今天等我來》作為揭幕。（金馬直播截圖） 金馬獎2026｜柯煒林唱陳奕迅《今天等我來》 擠出酒粒向舒淇示愛 金馬",
+          "title": "TVB小花黃紫恩揭藝人鏡頭前後反差 新晉小生為做男一陪監製上床?",
+          "url": "https://hk01.com/sns/article/60413644",
+          "publishedAt": "2026-11-22T22:00:01.000Z",
+          "excerpt": "憑《#後生仔傾吓偈》、《不正常愛情研究所》及《冇人性教育》等節目為人熟悉的無綫（TVB）小花黃紫恩（Jojo），向來作風大膽兼敢言，經常在社交平台大派福利、分享生活日常及拍片搞氣氛。近日，她聯同三位TVB男藝人劉頌鵬、施焯日及陳嘉俊拍攝一條題為「POV. 如果娛樂圈講真話」的影片，分享藝人鏡頭前後「答案不一」的真實一面，當中觸及「陪瞓」、「爭女」及「不和」等敏感話題，內容大膽程度令不少網民睇到眼凸！ 黃紫恩出名身材好。（IG@jojotszyan） 黃紫恩早前以一身極具誘惑的「超性感馬甲裝」示人。（IG@jojotszyan） 近年黃紫恩與梁思浩及黃耀英主持《直播靈接觸》獲得不錯的迴響。（TV",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11990,33 +12002,9 @@
           "excerpt": "天王劉德華向來對家庭生活極度低調，尤其將愛女劉向蕙（Hanna）保護得滴水不漏，極少在公開場合提及家事。不過，華仔日前現身新城電台，作客薛家燕主持的電台節目時罕有提起女兒，不僅大方分享當年「老來得女」的深刻體會，更自爆在女兒面前毫無天王架子，甚至會因為教功課而變成「劉煩惱」。 劉德華日前作客薛家燕主持的電台節目時，大方分享當年「老來得女」的深刻體會。（IG@kayinsit） 劉德華自嘲做偶像太耐忘記生B 在訪問中，家燕姐提到華仔新專輯中有一首專為女兒創作的歌曲，好奇他當時的創作心境。華仔聞言即露出一臉甜笑，坦言歌曲完全是以自己的第一身視角出發，更忍不住開懷大笑，自嘲道：「我都算係……老來得女",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "女神2｜俞可程疑假單身致形象插水 最新一集竟完全無鏡頭",
-          "url": "https://hk01.com/sns/article/60413771",
-          "publishedAt": "2026-11-22T15:11:29.000Z",
-          "excerpt": "藝人俞可程早前被爆疑與TVB綜藝科高級導演鄭韜畧（Marcus）在街頭舉止親暱後，其「女神」形象受損，原定於台慶上有份表演的她亦馬上被飛出大騷。由於俞可程在節目《女神配對計劃2》中一直大賣「單身人設」，緋聞曝光後她形象插水，更傳出有關於她的鏡頭要先行刪走。 藝人俞可程早前被爆疑與TVB綜藝科高級導演鄭韜畧（Marcus）在街頭舉止親暱後。（受訪者提供） 俞可程疑假單身致形象插水。(盧振輝 攝) 俞可程樂園約會鏡頭全消失 傳製作組緊急重剪 今日（22日）最新一集的《女神配對計劃2》中，有多對「女神CP」在主題樂園中遊玩，而上星期阮嘉敏及吳旭東部分已經播出，今日將會播出餘下數對女神。根據節目早前釋",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉2026｜投票結果全名單 誰人當選、爆冷墮馬一文看清",
-          "url": "https://hk01.com/sns/article/60413766",
-          "publishedAt": "2026-11-22T14:55:14.000Z",
-          "excerpt": "【選委會選舉／選委會選舉2026／選委會結果】選舉委員會界別分組選舉今日（11月22日）結束，5640人投票，投票率98.79%。選委會40個界別分組，共有36個分組共982席需經選舉產生候選人，而今屆有31個組別獲提名候選人超過該組別席位，需要透過投票決定席位歸屬，合共有856名候選人競逐723個席位。 投票由今日早上9時開始，下午6時結束，點票由下午6時30分左右開始，歷時近4小時完成，多名政商界名人順利當選，但財經事務及庫務局前局長陳家強、香港總商會總裁楊偉添、律師會會長湯文龍等人意外「墮馬」。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 2026選委會選舉 第",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "寶勒巷1死3傷車禍｜死者頭部重創 38歲私家車司機涉酒駕危駕被捕",
-          "url": "https://hk01.com/sns/article/60413732",
-          "publishedAt": "2026-11-22T14:25:39.000Z",
-          "excerpt": "尖沙咀寶勒巷今午（22日）發生嚴重車禍，一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一名非華裔男子頭部重創不治，肇事司機逃逸。警方事後拘捕一名懷疑涉案38歲姓倪男子。直到傍晚6時許，警方押解被捕男子，返回車禍現場進行蒐證工作。其間，被捕男子黑布蒙頭、鎖上手扣及腰纏鐵鏈，站在其私家車外。 警方今晚召開記者會交代案情，指被捕男司機體內酒精濃度超過法例訂明限度，遂以涉嫌「酒後駕駛」及「危險駕駛導致他人死亡」將其拘捕。同時呼籲任何途人或駕駛者目睹意外發生經過，或有任何資料提供，請致電3661 9188聯絡西九龍交通部特別調查隊第一隊。據悉被捕男司機的職業、涉案女乘客的下落及兩人的關",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "有線新聞",
@@ -12024,6 +12012,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "陳健波12月接任醫管局主席 盧寵茂：相信能以宏觀視野推動公營醫療改革",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526751/%E9%99%B3%E5%81%A5%E6%B3%A212%E6%9C%88%E6%8E%A5%E4%BB%BB%E9%86%AB%E7%AE%A1%E5%B1%80%E4%B8%BB%E5%B8%AD-%E7%9B%A7%E5%AF%B5%E8%8C%82-%E7%9B%B8%E4%BF%A1%E8%83%BD%E4%BB%A5%E5%AE%8F%E8%A7%80",
+          "publishedAt": "2026-11-23T04:13:49.000Z",
+          "excerpt": "【有線新聞】政府委任陳健波出任醫院管理局主席。 行政長官根據《醫院管理局條例》委任陳健波為醫管局主席，同時委任",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "貝森特警告緊縮貨幣政策不利美國經濟",
+          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/526743/%E8%B2%9D%E6%A3%AE%E7%89%B9%E8%AD%A6%E5%91%8A%E7%B7%8A%E7%B8%AE%E8%B2%A8%E5%B9%A3%E6%94%BF%E7%AD%96%E4%B8%8D%E5%88%A9%E7%BE%8E%E5%9C%8B%E7%B6%93%E6%BF%9F",
+          "publishedAt": "2026-11-23T03:22:11.000Z",
+          "excerpt": "【有線新聞】美國財長貝森特警告，過度收緊貨幣政策將會不利當地經濟。 貝森特接受CBS訪問時表示，過去數個月已見",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "陳健波獲任為醫管局主席 下月生效、為期兩年",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526745/%E9%99%B3%E5%81%A5%E6%B3%A2%E7%8D%B2%E4%BB%BB%E7%82%BA%E9%86%AB%E7%AE%A1%E5%B1%80%E4%B8%BB%E5%B8%AD-%E4%B8%8B%E6%9C%88%E7%94%9F%E6%95%88-%E7%82%BA%E6%9C%9F%E5%85%A9%E5%B9%B4",
@@ -12167,25 +12171,9 @@
           "excerpt": "【有線新聞】西班牙下周日舉行大選，首相桑切斯呼籲一同對抗全球極右派，把矛頭指向美國總統特朗普等外國領袖。 桑切",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "荃灣大壩街爆鹹水管 噴6米高水柱射大廈簷篷",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526669/%E8%8D%83%E7%81%A3%E5%A4%A7%E5%A3%A9%E8%A1%97%E7%88%86%E9%B9%B9%E6%B0%B4%E7%AE%A1-%E5%99%B46%E7%B1%B3%E9%AB%98%E6%B0%B4%E6%9F%B1%E5%B0%84%E5%A4%A7%E5%BB%88%E7%B0%B7%E7%AF%B7",
-          "publishedAt": "2026-11-23T00:16:23.000Z",
-          "excerpt": "【有線新聞】荃灣大壩街有地底鹹水管爆裂，噴出水柱。 行人路地底一條鹹水管爆裂，噴出約6米高水柱，射向一幢大廈外",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉｜被問是否支持李家超連任 湯家驊：仍言之尚早",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526664/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E8%A2%AB%E5%95%8F%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%E6%9D%8E%E5%AE%B6%E8%B6%85%E9%80%A3%E4%BB%BB-%E6%B9%AF%E5%AE%B6%E9%A9%8A",
-          "publishedAt": "2026-11-22T16:23:25.000Z",
-          "excerpt": "【有線新聞】有當選人表示今屆選委會選舉競爭比上屆激烈，希望特首選舉亦有更多選擇。 選委會批發及零售界當選人謝邱",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Now 新聞",
@@ -12193,6 +12181,38 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "小一入學自行分配學位公布結果 有舊生家長對子女獲取錄感高興",
+          "url": "https://news.now.com/home/local/player?newsId=670579",
+          "publishedAt": "2026-11-23T03:12:25.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "樓宇維修局取代招標妥 預每戶付數千元 發展局：正研調低費用空間",
+          "url": "https://news.now.com/home/local/player?newsId=670578",
+          "publishedAt": "2026-11-23T03:12:25.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "選委會選舉｜湯文龍及楊偉添等落選 劉兆佳︰知名度高未必贏或吸引更多人參選",
+          "url": "https://news.now.com/home/local/player?newsId=670576",
+          "publishedAt": "2026-11-23T03:04:24.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "2026選委會選舉結果",
+          "url": "https://news.now.com/home/local/player?newsId=670520",
+          "publishedAt": "2026-11-23T03:00:00.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "港澳辦及中聯辦祝賀選委會選舉順利舉行 良性競爭展現高質量民主",
           "url": "https://news.now.com/home/local/player?newsId=670564",
@@ -12320,41 +12340,9 @@
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "據了解警方拘捕54歲男子懷疑殘酷對待動物",
-          "url": "https://news.now.com/home/local/player?newsId=670527",
-          "publishedAt": "2026-11-22T14:09:32.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "被問會否支持李家超連任 湯家驊：言之過早",
-          "url": "https://news.now.com/home/local/player?newsId=670526",
-          "publishedAt": "2026-11-22T14:07:32.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉結果陸續出爐",
-          "url": "https://news.now.com/home/local/player?newsId=670525",
-          "publishedAt": "2026-11-22T14:07:32.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "即日焦點｜選委會選舉投票結束 投票率近99%／寶勒巷私家車剷行人路一人死亡",
-          "url": "https://news.now.com/home/local/player?newsId=670524",
-          "publishedAt": "2026-11-22T14:05:00.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12523,7 +12511,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12532,10 +12520,34 @@
       "count": 20,
       "stories": [
         {
+          "title": "國際刑警組織全體大會下周舉行 下周一至周四全港設臨時限飛區",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878913-20261123.htm",
+          "publishedAt": "2026-11-23T04:05:33.000Z",
+          "excerpt": "國際刑警組織第94屆全體大會下周一起，一連4日在香港舉行。警方行動部總警司王智榮表示，預計有超過1000名參加者，來自196個成員國的警隊首長和政府高層出席，他們將討論有關全球安全議題。 王智榮表示，為確保大會順利安全進行，已制定行動計劃，確保場地和參與人士安全，營造有利各方交流的環境和氣氛，並將對市民日常出行影響減至最低，會議期間會實施海陸空管制措施。 警方表示，由11月30日零時01分至12月3日下午5時，會在全港範圍設立臨時限飛區，管制所有小型飛機、無人機、直升機及例如滑翔傘、風箏等飛行活動，但不影響民航機服務。 另外，為配合大會在會展舉行，當局在11月30日零時01分至12月3日下午5",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "海關檢12萬件冒牌貨物市值約6800萬元 兩人被捕",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878905-20261123.htm",
+          "publishedAt": "2026-11-23T03:32:33.000Z",
+          "excerpt": "海關由上月23日起，一連三星期採取代號特別行動，打擊跨境轉運及供應本地冒牌及侵權貨品，檢獲約12萬件懷疑冒牌及侵權貨物，包括波鞋、電話、電話配件、衣服及手錶等，估計市值共約6800萬元。行動中兩人被捕。 編輯：譚佩貞",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "李家超稱香港積極發揮內聯外通優勢 為國家推動灣區經濟貢獻力量",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878904-20261123.htm",
+          "publishedAt": "2026-11-23T03:12:24.000Z",
+          "excerpt": "行政長官李家超表示，國家主席習近平在APEC工商領導人峰會上，提出支持成立世界灣區經濟合作聯盟，深化各灣區交流互動，探索亞太經濟合作新路徑。李家超說，香港會積極發揮「一國兩制」下，內聯外通的優勢，為國家推動灣區經濟貢獻力量，與大灣區城市共建世界一流灣區。 李家超在香港國際金融論壇視像致辭，表示特區政府制定《香港第一個五年規劃》，鞏固提升香港的國際競爭力。香港會做好國家與世界的「超級聯繫人」和「超級增值人」，將國家戰略帶來的機遇轉化為產業發展動力和市民福祉。 李家超說，將圍繞科技創新合作、基礎設施「硬聯通」、規則機制「軟聯通」、三地居民「心聯通」及重大合作平台建設，深化與大灣區城市的協同，促進區",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
           "title": "政府委任陳健波為醫管局主席 任期下月1日起為期兩年",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1878903-20261123.htm",
           "publishedAt": "2026-11-23T03:03:56.000Z",
-          "excerpt": "",
+          "excerpt": "政府公布委任陳健波為醫管局主席，同時委任1名新成員及再度委任6名現任成員，任期下月1日起生效，為期兩年。 陳健波為行政會議成員、香港交易所獨立非執行董事、廉政公署貪污問題諮詢委員會主席、政府授勳及非官守太平紳士遴選委員會成員及宏利公積金信託有限公司主席。他現時是市建局非執行董事及香港中文大學醫院董事，他將在履職醫管局主席前辭任這兩項公職。他曾任立法會議員達17年，期間有近7年為立法會財委會主席。 醫務衞生局局長盧寵茂表示歡迎，表示陳健波擁有極為豐富的從政及公共服務經驗，對政策制訂及推動，資源運用及財務管理，以及機構管治有深厚認識。憑他卓越的領導及協調才能，相信定能以宏觀視野帶領醫管局持續推動公",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
         },
@@ -12666,33 +12678,9 @@
           "excerpt": "選舉委員會選舉結果全部出爐，產生723名經競逐奪得席位的選委會委員。 當選者包括多名前高官，如律政司前司長袁國強、前食物及衞生局局長陳肇始、前創新及科技局局長薛永恒、發展局前局長馬紹祥、勞工及福利局前常秘譚贛蘭、發展局前常秘韓志強、民航處前處長李天柱等。不過，財經事務及庫務局前局長陳家強在金融界落敗。 醫管局行政總裁李夏茵、立法會前主席梁君彥、消委會主席陳錦榮在不同界別分組勝出。 行政會議成員林健鋒、陳健波、梁高美懿及湯家驊，分別勝出今次選舉。 商界多名「重量級」人馬在不同界別分組當選，包括盈科拓展集團創辦人兼主席李澤楷、恒地主席李家誠、九龍倉集團主席兼常務董事吳天海、信和集團主席黃永光、長實",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "葉劉淑儀稱選委會委員肩負重任 形容選舉是「優中選優」",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878851-20261122.htm",
-          "publishedAt": "2026-11-22T15:43:01.000Z",
-          "excerpt": "選舉委員會界別分組選舉結果全部公布。行政會議召集人葉劉淑儀表示，今次選舉競爭非常激烈，她早上在九龍公園的投票站所見，選舉氣氛熾熱，有很多選民投票，形容今次選舉是「優中選優」，各候選人都非常努力，是一次很成功的選舉。 葉劉淑儀又說，選舉委員會委員肩負重任，包括負責選出下屆行政長官等。她說國家要推動更高水平對外開放，透過新質生產力促進經濟轉型，香港要更好融入國家發展大局，行政長官未來需要協助國家民族復興走上更高階。 本身是新民黨主席的葉劉淑儀又說，新民黨在今次選舉中取得16個席位，加上黨內3名立法會議員及一名全國政協，新民黨合共有20名選委，她很滿意成績。 編輯：黃佩珊",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "寶勒巷致命交通意外 司機涉酒後駕駛及危駕致他人死亡被捕",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878850-20261122.htm",
-          "publishedAt": "2026-11-22T15:30:38.000Z",
-          "excerpt": "尖沙咀寶勒巷發生致命交通意外，一架私家車衝上行人路，造成一死3傷，涉案38歲男司機涉嫌酒後駕駛及危險駕駛導致他人死亡被捕，正被扣留調查。 事發在下午約兩時半，警方指，涉案司機駕駛私家車沿寶勒巷行駛期間，衝上行人路，撞倒4名途人和多支欄杆。司機在意外發生後下車逃離現場，有市民緊隨其後並報警。最終警方截獲涉案司機，經初步酒精呼氣測試，他體內酒精濃度超過法例訂明限度。 警方說，經初步調查後，涉事私家車在駛入寶勒巷前，先於緬甸臺撞到一支交通標誌柱，其後在赫德道再撞到另一架停泊在路旁的輕型貨車。涉事私家車未有停下，右轉入寶勒巷，撞到4名年齡介乎31歲至70歲的途人。其中一名53歲男子頭部重傷昏迷，其後證",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選委會選舉｜李家超祝賀當選委員 選舉展現愛國者之間良性競爭",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878848-20261122.htm",
-          "publishedAt": "2026-11-22T15:06:24.000Z",
-          "excerpt": "行政長官李家超表示，選委會界別分組一般選舉已圓滿舉行，他代表特區政府祝賀所有當選委員。 李家超說，選委會由40個界別分組共1500人組成，具廣泛代表性和符合均衡參與原則，在完善選舉制度、落實「愛國者治港」原則下肩負重要的法定職能。今次選舉在36個界別分組中，有31個界別分組需要競逐，合共有856名候選人競逐723個席位。自提名期開始以來，不同界別分組的候選人積極向界別分組內各個團體、投票人等介紹政綱、交流互動、爭取支持。選舉充分展現有擔當、有能力、有作為的愛國者之間良性競爭，彰顯「愛國者治港」原則下的良性民主發展。 李家超說，新一屆選委會將於明年2月1日上任，任期為五年。他期望所有選委會委員秉",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "South China Morning Post",
@@ -12700,6 +12688,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Tai Po fire survivors battle grief, fear and trauma as first anniversary nears",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3375408/tai-po-fire-survivors-battle-grief-fear-and-trauma-first-anniversary-nears",
+          "publishedAt": "2026-11-23T04:00:07.000Z",
+          "excerpt": "A year after the deadly Wang Fuk Court blaze in Hong Kong, Hilary Lau has developed certain habits born out of the tragedy. The 49-year-old who lost both his parents can fall asleep only under a fire-resistant blanket and keeps extra fire extinguishers at his flat in Kong Ha Wai Village, a transitio",
+          "source": "South China Morning Post",
+          "category": "Hong Kong"
+        },
         {
           "title": "Beijing hails Election Committee poll for affirming ‘patriots-only’ system in Hong Kong",
           "url": "https://www.scmp.com/news/hong-kong/politics/article/3375417/beijing-hails-election-committee-poll-affirming-patriots-only-system-hong-kong",
@@ -12851,17 +12847,9 @@
           "excerpt": "Hong Kong goes to the polls on Sunday for some 5,700 eligible voters to choose members of the powerful Election Committee, a 1,500-strong electoral college that will nominate candidates and elect the city leader in next year’s chief executive race, as well as nominate candidates and elect legislator",
           "source": "South China Morning Post",
           "category": "Hong Kong"
-        },
-        {
-          "title": "Xi’s bay-area vision offers scope for cooperation despite US, Tokyo hurdles: analysts",
-          "url": "https://www.scmp.com/news/hong-kong/politics/article/3375348/xis-bay-area-vision-offers-scope-cooperation-despite-us-tokyo-hurdles-analysts",
-          "publishedAt": "2026-11-21T22:30:05.000Z",
-          "excerpt": "Chinese President Xi Jinping’s call for a global association of bay areas signals a long-term economic vision to the United States and Japan, although geopolitical tensions and difficulty finding common ground pose significant obstacles, observers have said. Xi proposed closer economic links between",
-          "source": "South China Morning Post",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12869,6 +12857,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "環保署就錦田養豬場涉嫌非法排放禽畜廢物再次採取執法行動",
+          "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300221.htm",
+          "publishedAt": "2026-11-23T04:00:00.000Z",
+          "excerpt": "環境保護署（環保署）今日（十一月二十三日）表示，署方正就元朗錦田一個養豬場懷疑非法排放禽畜廢物的個案再次展開執法行動。 環保署高度重視元朗錦田河一帶禽畜廢物非法排放的情況。環保署人員於十一月十二日凌晨時段進行突擊行動時，發現大量帶有強烈豬糞氣味的啡色廢水從錦田大江埔一個養豬場的喉管直接排入附近水道，懷疑該養豬場排放未經妥善處理的禽畜廢物。署方正蒐集證據，若有足夠證據，將按《廢物處置（禽畜廢物）規例》檢控涉案養豬場場主。環保署亦已將懷疑違規個案通報漁農自然護理署同步跟進。 環保署發言人表示，同一養豬場多次涉嫌違規，情況不可接受。未經妥善處理的禽畜廢物含高濃度的污染物，排放入河道不但嚴重污染水質，",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "醫院管理局歡迎陳健波接任主席 並向現任主席范鴻齡致意",
+          "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300187.htm",
+          "publishedAt": "2026-11-23T03:41:45.000Z",
+          "excerpt": "下稿代醫院管理局發出： 今日（十一月二十三日）醫院管理局（醫管局）歡迎陳健波接任為新任主席，任期由二○二六年十二月一日起生效。 &nbsp; 陳健波長期積極參與公共服務，成績斐然。他在保險及金融界的卓越成就，推動行業發展與管治，多年來在行政會議及立法會貢獻良多；在擔任立法會財務委員會主席期間，展現出具遠見的領導才能，深受各方尊重。 &nbsp; 現任醫管局主席范鴻齡說︰「我與醫管局所有同事衷心歡迎陳健波接任醫管局主席，我們深信陳健波必定可以帶領醫管局再創高峰，繼續為香港市民提供高質素的公營醫療服務，造福病人。」 &nbsp; 醫管局行政總裁李夏茵醫生表示，醫管局仝人會全力支持新任主席，應對人口",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "「SmartPLAY康體通」團體用戶登記安排",
+          "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300222.htm",
+          "publishedAt": "2026-11-23T03:35:00.000Z",
+          "excerpt": "​康樂及文化事務署（康文署）今日（十一月二十三日）宣布，「SmartPLAY康體通」系統將於十一月二十四日起，分階段接受以下類別的團體登記成為團體用戶，各類團體的登記開始日期及詳情載於附件：&nbsp; ＊根據《社團條例》註冊並獲發社團註冊證明書的團體； ＊接受社會福利署津貼撥款的非政府機構，或根據《税務條例》第88條獲豁免繳稅的慈善團體；&nbsp; ＊根據《公司條例》註冊並獲發公司註冊證書，或根據《職工會條例》註冊並獲發職工會／職工會聯會登記證明書的正式協會、法團、政府員工聯誼會和職工會／職工會聯會； ＊區議員辦事處； ＊體育總會的屬會，有關屬會須根據《公司條例》註冊並獲發公司註冊證書，或",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "創新科技及工業局常任秘書長出席第十六屆香港國際金融論壇暨第七屆領航「9+2」粵港澳大灣區發展論壇致辭（只有中文）",
           "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300247.htm",
@@ -13004,33 +13016,9 @@
           "excerpt": "選舉委員會中小企業界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 吳景瀚＊ 96 2 何世杰＊ 116 3 王廣漢 50 4 鄭 蕾＊ 84 5 楊全盛＊ 93 6 余敏＊ 104 7 麥美儀＊ 122 8 周嘉弘＊ 89 9 鄭仲邦＊ 115 10 沈慧林＊ 111 11 黎卓斌＊ 98 12 王淑雯（王淑筠）＊ 85 13 肖 凱＊ 100 14 區 達 智＊ 111 15 陳國威 57 16 潘鵬雛＊ 99 17 郭志華＊ 118 ＊當選",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "選舉委員會界別分組一般選舉結果（飲食界）",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200712.htm",
-          "publishedAt": "2026-11-22T14:12:00.000Z",
-          "excerpt": "選舉委員會飲食界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 陳家強＊ 126 2 楊位醒＊ 122 3 鄭栢文＊ 125 4 鍾偉平＊ 128 5 吳德曉＊ 115 6 江志恒 67 7 莊 裕坤＊ 119 8 楊浩宏＊ 131 9 梁振華＊ 123 10 盛智文＊ 126 11 吳子文＊ 115 12 楊振年＊ 125 13 胡珠＊ 124 14 凌偉業＊ 109 15 譚家良＊ 128 16 盧浩宏＊ 122 17 王偉樑＊ 69 ＊當選",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選舉委員會界別分組一般選舉結果（金融界）",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200713.htm",
-          "publishedAt": "2026-11-22T14:11:22.000Z",
-          "excerpt": "選舉委員會金融界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 李民橋＊ 62 2 陳永德 42 3 梁嘉麗＊ 43 4 王祖興＊ 59 5 劉鈞＊ 61 6 麥永賢＊ 64 7 傅劍＊ 45 8 鄭建崗＊ 50 9 陳智文 14 10 葉子建＊ 55 11 陳志輝＊ 54 12 謝小 玲 ＊ 50 13 陳麗明＊ 60 14 施穎茵＊ 44 15 陳文＊ 63 16 廖宜建＊ 45 17 𧝁惠儀＊ 53 18 Lim Hui Hung Luanne＊ 46 19 黃 辛葆璉＊ 43 20 陳家強 41 ＊當選",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選舉委員會界別分組一般選舉結果（保險界）",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200706.htm",
-          "publishedAt": "2026-11-22T14:08:00.000Z",
-          "excerpt": "選舉委員會保險界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 黃 子遜＊ 68 2 劉佩玲＊ 60 3 徐志堅＊ 65 4 馮偉昌＊ 55 5 潘榮輝＊ 45 6 尹玄慧＊ 59 7 劉少文＊ 59 8 譚國榮＊ 57 9 柳康維＊ 67 10 陳健波＊ 56 11 黃 漢興 37 12 鄧子平＊ 52 13 詹映樺 37 14 林智剛＊ 52 15 陳文告 44 16 伍榮發＊ 52 17 鄭國屏＊ 60 18 張健強＊ 63 19 許金桂＊ 68 20 許鼎睿＊ 47 ＊當選",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T03:17:18.441Z"
+      "lastSuccessfulAt": "2026-11-23T04:17:19.547Z"
     }
   ],
   "stories": [
@@ -13060,15 +13048,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50606072"
-    },
-    {
-      "title": "Nespresso's project to reduce grams of coffee per capsule",
-      "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
-      "publishedAt": "2026-11-22T23:57:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50605479"
     },
     {
       "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
@@ -13213,6 +13192,15 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50600622"
+    },
+    {
+      "title": "Open Social Web Alliance",
+      "url": "https://osw-alliance.net/en/",
+      "publishedAt": "2026-11-22T15:24:32.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50600511"
     },
     {
       "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
@@ -14240,6 +14228,28 @@
       "sourceRole": "community"
     },
     {
+      "title": "Alexandr Wang says the Riemann Hypothesis proof shows AI will surpass humans in every field, including AI research, and calls for AI safety and alignment (Alexandr Wang/@alexandr_wang)",
+      "url": "https://x.com/alexandr_wang/status/2124636606959345776",
+      "publishedAt": "2026-11-23T04:00:14.000Z",
+      "excerpt": "Alexandr Wang / @alexandr_wang : Alexandr Wang says the Riemann Hypothesis proof shows AI will surpass humans in every field, including AI research, and calls for AI safety and alignment &nbsp; &mdash;&nbsp; Superintelligence is Arriving",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261122/p19#a261122p19",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Arva AI, which builds AI agents for banks' financial-crime compliance teams and counts Wise as a customer, raised a $20M Series A led by Arthur Ventures (Ryan Lawler/Axios)",
+      "url": "https://www.axios.com/pro/fintech-deals/2026/11/17/arva-ai-20-million-series-a-bank-compliance",
+      "publishedAt": "2026-11-23T03:25:01.000Z",
+      "excerpt": "Ryan Lawler / Axios : Arva AI, which builds AI agents for banks' financial-crime compliance teams and counts Wise as a customer, raised a $20M Series A led by Arthur Ventures &nbsp; &mdash;&nbsp; Arva AI, which builds AI agents for banks' financial-crime compliance teams, has raised $20 million in S",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261122/p18#a261122p18",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "TPG and Corpay agree to acquire and take private BILL Holdings, whose cloud-based software lets SMBs automate financial operations, in a deal valued at ~$6B (Pritam Biswas/Reuters)",
       "url": "https://www.reuters.com/legal/transactional/bill-holdings-be-taken-private-by-tpg-6-billion-equity-value-2026-11-19/",
       "publishedAt": "2026-11-23T02:35:00.000Z",
@@ -14379,28 +14389,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261122/p5#a261122p5",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines (Mike Pearl/Gizmodo)",
-      "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
-      "publishedAt": "2026-11-22T06:40:16.000Z",
-      "excerpt": "Mike Pearl / Gizmodo : Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines &nbsp; &mdash;&nbsp; FSD v15 was released to some vehicles on Saturday.&nbsp; Its visualization system may be the mo",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261122/p4#a261122p4",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "A joint statement by the Lean and Mathlib communities says \"we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct\" (Lean community blog)",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "publishedAt": "2026-11-22T06:00:02.000Z",
-      "excerpt": "Lean community blog : A joint statement by the Lean and Mathlib communities says &ldquo;we have full confidence that Alp&ouml;ge's proof of the Riemann Hypothesis is correct&rdquo; &nbsp; &mdash;&nbsp; Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Init",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261122/p3#a261122p3",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -17197,19 +17185,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Have Yourself a Kitschy Little Christmas",
-      "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
+      "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
+      "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
       "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "Leave your good taste at the door.",
+      "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "A Diagnosis Unravels Reality in “With Tapes and Toasts in the Car”",
-      "url": "https://www.newyorker.com/culture/screening-room/a-diagnosis-unravels-reality-in-with-tapes-and-toasts-in-the-car",
+      "title": "Have Yourself a Kitschy Little Christmas",
+      "url": "https://www.newyorker.com/culture/gift-guides/have-yourself-a-kitschy-little-christmas",
       "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "Kiana Naghshineh’s animated short is a bold, psychedelic vision of the stages of grief.",
+      "excerpt": "Leave your good taste at the door.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22202,6 +22190,22 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "The Most Powerful Attitude You Can Take Toward Your Life and the Life of the World",
+      "url": "https://www.themarginalian.org/2026/11/22/richard-powers-advice/",
+      "publishedAt": "2026-11-22T05:45:46.000Z",
+      "excerpt": "\"This fluke, single, huge, cross-indexed, thermodynamic experiment of a story that the world has been inventing to tell itself at bedtime is still in embryo. It's not even the outline of a synopsis of notes toward a rough draft yet.\"",
+      "source": "The Marginalian",
+      "category": "Philosophy"
+    },
+    {
+      "title": "The Seven Selves",
+      "url": "https://www.themarginalian.org/2026/11/21/the-seven-selves-kahlil-gibran/",
+      "publishedAt": "2026-11-22T03:39:31.000Z",
+      "excerpt": "A self is a forest. A self is a ship. A self is an illusion, and yet it is the place where we live, the costume the naked soul wears to survive in the world. Above all, a self is a sum of selves, contextual as a chameleon, conflicted as a parliament. Which self takes the reins of our character and c",
+      "source": "The Marginalian",
+      "category": "Philosophy"
+    },
+    {
       "title": "The Only Three Distinctions Between People",
       "url": "https://www.themarginalian.org/2026/11/21/nathaniel-hawthorne-classification/",
       "publishedAt": "2026-11-22T02:37:53.000Z",
@@ -22342,22 +22346,6 @@
       "url": "https://www.themarginalian.org/2026/11/05/interesting/",
       "publishedAt": "2026-11-05T17:58:43.000Z",
       "excerpt": "Our lives are defined not by what we have but what we give — on what and whom we spend our energy and time, how we share our material possessions and our mental powers, what we do with our gifts. “Anything you do not give freely and abundantly becomes lost to you,” Annie Dillard wrote in contemplati",
-      "source": "The Marginalian",
-      "category": "Philosophy"
-    },
-    {
-      "title": "The Souls of Animals",
-      "url": "https://www.themarginalian.org/2026/11/04/the-souls-of-animals/",
-      "publishedAt": "2026-11-04T22:23:53.000Z",
-      "excerpt": "“They do not sweat and whine about their condition,” Walt Whitman wrote of the other animals, “they do not lie awake in the dark and weep for their sins, they do not make me sick discussing their duty to God, not one is dissatisfied, not one is demented with the mania of owning things.” Here was “th",
-      "source": "The Marginalian",
-      "category": "Philosophy"
-    },
-    {
-      "title": "Love in the Time of Dinosaurs",
-      "url": "https://www.themarginalian.org/2026/11/02/mary-morland-buckland-megalosaurus/",
-      "publishedAt": "2026-11-02T23:09:06.000Z",
-      "excerpt": "In 1824, studying a set of large fossil bones discovered in a quarry near Oxford two centuries earlier, the English theologian, geologist, and paleontologist William Buckland kept looking at the fragment of the lower jaw. Something didn’t add up. As he examined it more closely, he realized these wer",
       "source": "The Marginalian",
       "category": "Philosophy"
     },
@@ -23847,24 +23835,6 @@
       "sourceRole": "community"
     },
     {
-      "title": "They call it Film, but nobody's recorded on actual film in years...",
-      "url": "https://www.metafilter.com/215261/They-call-it-Film-but-nobodys-recorded-on-actual-film-in-years",
-      "publishedAt": "2026-11-22T04:06:26.000Z",
-      "excerpt": "What does \"Film\" mean today? Ok, ok, so if you have f!#!@-you money and want to make a point and take home a shiny trophy like Christopher Nolan with the Odyssey, maybe you actually made a movie on real, actual film. But if you're a lumpen-proletariat like the rest of us, or just a cheap corporate f",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
-      "title": "\"In the shuffling madness of the locomotive breath\"",
-      "url": "https://www.metafilter.com/215260/In-the-shuffling-madness-of-the-locomotive-breath",
-      "publishedAt": "2026-11-22T03:34:03.000Z",
-      "excerpt": "'California train burglars carefully executed heists for 'staggering' $22m haul ' \"With some of the men on board serving as lookouts, the others would slash the train's air hose, causing a sudden loss of air pressure and forcing an emergency stop of the entire vehicle. The maneuver is perilous given",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
       "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
       "url": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
       "publishedAt": "2026-11-20T14:50:41.000Z",
@@ -24245,74 +24215,106 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "雲南主播私闖果園帶貨切開逾200斤蘋果棄地 官方：誤入相鄰果園",
+      "url": "https://hk01.com/sns/article/60413881",
+      "publishedAt": "2026-11-23T04:11:22.000Z",
+      "excerpt": "11月20日，雲南昭通果農陳先生發影片控訴，一名擁有百萬粉絲的主播未經允許闖入其果園直播，為展示效果當場切開200多斤蘋果扔在地上，連花芽也被摘掉，導致收購商取消訂單。 23日，官方通報稱，該主播實為應邀直播時「找錯地點」誤入相鄰果園，經現場稱重，實際損毀蘋果為181斤。目前，涉事主播已向果農當面道歉並達成賠償和解。 一名擁有百萬粉絲的主播未經允許闖入其果園直播，為展示效果當場切開200多斤蘋果扔在地上。（上觀新聞） 切開逾200斤蘋果棄地 連花芽也被摘 據 《極目新聞》 ，雲南昭通果農陳先生此前發影片稱，發現一名主播未經許可進入其果園直播，為展示品質當場切開200多斤蘋果，果肉全扔在地上。 ",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "特朗普無視利益衝突爭議 舉辦第三屆「迷因幣」晚宴吸金",
+      "url": "https://hk01.com/sns/article/60413885",
+      "publishedAt": "2026-11-23T04:07:38.000Z",
+      "excerpt": "美國總統特朗普（Donald Trump，又譯川普）11月22日晚在維珍尼亞州的高爾夫俱樂部舉行第三屆加密貨幣晚宴，回饋其個人迷因幣（$TRUMP）的185名持幣大戶。民主黨強烈質疑，特朗普在加密貨幣事業中牽涉不正當利益。 英國《衛報》報道 ，晚宴根據持幣者排名提供不同禮遇，前120名參與者可獲特朗普香水及手錶等紀念品，首29名可參加VIP招待會，前4名更獲贈「特朗普18K金錶」。不敗拳王梅韋特（Floyd Mayweather）及《創智贏家》（Shark Tank）投資人奧利里（Kevin O'Leary）等名人亦現身交流。 2025年3月7日，美國總統特朗普在華盛頓特區白宮出席白宮加密貨幣",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "THEi高科院夥蔚來設新能源車教育中心 獲贈非賣品零件助學生實戰",
+      "url": "https://hk01.com/sns/article/60413878",
+      "publishedAt": "2026-11-23T04:04:41.000Z",
+      "excerpt": "香港高等教育科技學院（THEi高科院）今日（23日）宣布，與智能電動汽車品牌蔚來（NIO）合作成立「蔚來 x THEi高科院新能源汽車教育中心」。中心獲蔚來捐贈多套市面上難以獨立購置的電動車核心零件，供修讀電動汽車設計及技術（榮譽）工學士課程的師生進行實戰測試與研究，同時為學院邁向應用科學大學（應科大）奠定基礎。 開幕典禮由環境及生態局局長謝展寰、THEi高科院榮譽教授兼蔚來創始人、董事長兼首席執行官李斌、THEi高科院校董會主席林健鋒，以及THEi高科院校長劉建德主禮。其中，李斌已於日前（21日）獲THEi高科院頒授榮譽教授名銜，並於典禮上以《智引未來：智能電動汽車引領的綠色未來》為題發表主",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "小鵬匯天A868飛行車試飛成功｜中國首款全尺寸全傾轉高速平飛",
+      "url": "https://hk01.com/sns/article/60413859",
+      "publishedAt": "2026-11-23T04:02:45.000Z",
+      "excerpt": "小鵬匯天A868 飛行車試飛成功｜小鵬匯天（XPeng AeroHT，海外品牌：Aridge）於2026年11月22日宣布，旗下全尺寸全傾轉油電混能飛行汽車（或增程式混能飛行器）「A868」完成傾轉過渡試飛，成為中國首間突破全尺寸原型機此項驗證的企業。距離2025年11月首次起降試飛僅隔一年，A868實現由垂直起降向高速平飛的轉換，設計時速達360公里，航程逾500公里，標誌著中國全傾轉飛行器邁入全球前列。 小鵬匯天A868。（Aridge） 小鵬匯天A868傾轉過渡試飛有何氣動突破？ 「傾轉過渡」要求旋翼在半空平滑旋轉90度，將垂直升力無縫切換為水平推力，並把升力交接予固定翼，氣流耦合極為複",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "有片│大埔宏福苑上空驚現UFO？巨型觸鬚似八爪魚 網民揭神秘真身",
+      "url": "https://hk01.com/sns/article/60413614",
+      "publishedAt": "2026-11-23T04:02:38.000Z",
+      "excerpt": "大埔宏福苑旁上空驚現UFO（不明飛行物體）？本港Threads於11月22日瘋傳1段影片，顯示有多條細長觸鬚或長爪，在空中飛舞，目擊者驚呼「唔似風箏……係咪11月真係全人類第一次親眼見到UFO？」。 影片震撼網民，不少人對此表示好奇，亦有人認為影片中物體形狀奇特，把其與科幻電影《天煞地球反擊戰》相提並論，認為是外星人來訪先兆。不過有更多網民指出，大埔海濱公園一帶經常有人放大型風箏，尤其是假日和天氣晴朗的時候，拆解該物體是一隻斷了線的大型八爪魚風箏，毋須驚慌。 （Threads@nngaiwing） 「係咪11月真係全人類第一次親眼見到UFO？」有香港女生於 Threads 發布影片，指大埔宏福",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "壽司郎門店殺入紐約！魚料激增變「美國Size」 甜點竟大過拳頭",
+      "url": "https://hk01.com/sns/article/60413827",
+      "publishedAt": "2026-11-23T04:00:56.000Z",
+      "excerpt": "日本迴轉壽司品牌「壽司郎」把日式料理帶進紐約，餐點份量也跟著走起美式風格。壽司郎美國首間門市於11月19日在紐約時報廣場（又譯時代廣場）附近開幕，受邀提前體驗的日本網紅蘭（Ran）分享，當地壽司的魚料比想像中更大，連甜點大福都超過拳頭大小，讓她忍不住笑稱，這根本是「美國尺寸」。 蘭近日在Instagram上分享紐約壽司郎試營運的用餐經驗。她表示，新店位於時報廣場附近，交通便利，讓住在當地或前往旅遊的民眾都能輕鬆造訪。實際品嘗後，最令她驚喜的是壽司配料的份量，魚料比原先預期更大，吃起來相當有滿足感，也讓她對美國版壽司郎留下深刻印象。 日本網紅「蘭」近日在Instagram上分享紐約壽司郎試營運的",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "楊莉珊｜大國重新劃設紅線 棋子還沒有醒過來？",
+      "url": "https://hk01.com/sns/article/60413314",
+      "publishedAt": "2026-11-23T04:00:55.000Z",
+      "excerpt": "來稿作者：楊莉珊 11月19日，國家主席習近平在麒麟山莊會晤美俄元首，美國總統特朗普更公開表示「不支持台獨」。這不僅是一次具有重大象徵意義的外交互動，更可能反映國際政治秩序正在出現新的調整與重組。面對百年未有之大變局，中俄美三個世界主要力量之間的戰略互動，勢必對全球安全、地緣政治以及台海局勢產生深遠影響。 從歷史角度看，世界格局每當遇到重大轉折，好多時都會伴隨大國之間重新協調同利益再平衡。不論是二十世紀的雅爾塔會議，还是冷戰完結之後新秩序的重塑，都講明大國之間的戰略共識，對世界局勢有決定性影響。現在全球經濟增長放緩、地區衝突不斷、能源同供應鏈問題一齊涌現，如果中俄美三方可以展開高層對話，这件事",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "俄羅斯獵狼犬一躺平秒變身！高挑獵犬突變超大毛毛地毯 網民笑爆",
+      "url": "https://hk01.com/sns/article/60389027",
+      "publishedAt": "2026-11-23T04:00:30.000Z",
+      "excerpt": "第一眼看到這個畫面，真的很難相信眼前竟然是一隻狗！一隻俄羅斯獵狼犬躺下後，原本高挑修長的身形瞬間攤開，大片毛髮鋪在地面上，看起來就像一張超大型毛茸茸地毯，讓人忍不住懷疑「剛剛不是還是一隻狗嗎？」超強烈的站立與躺平反差，也讓這個畫面格外吸睛。 俄羅斯獵狼犬躺下有多扁？ 俄羅斯獵狼犬又稱Borzoi，原本就是外型相當有特色的犬種，牠們身形高挑、精瘦而強健，身體略長於身高，整體線條呈現優雅的曲線，Borzoi過去就以「Russian Wolfhound」之名為人所知，是源自俄羅斯、曾被培育用於追獵狼等大型獵物的視獵犬。 ►毛孩子有IG了，來追蹤我們吧！ 俄羅斯獵狼犬躺下有多扁？（X@mrrasmul",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "港姐季軍楊梓瑤低胸馬甲配熱褲騷逆天長腿 曾大方認靚樣做過手腳",
+      "url": "https://hk01.com/sns/article/60413629",
+      "publishedAt": "2026-11-23T04:00:27.000Z",
+      "excerpt": "近年有不少擁內地背景的港姐季軍，當選後均未有留港發展，反而選擇返回內地繼續進修，且有不錯的發展機會，2023年港姐季軍王敏慈就是最佳例子，工作機會接踵而來，而2024年港姐季軍楊梓瑤似乎亦有意仿效師姐的做法。現年23歲、擁有178公分身高的楊梓瑤，當年憑藉高挑身形及甜美外貌成功躋身三甲，當選後她選擇繼續於北京電影學院完成學業，兼顧演藝事業與學業。向來樣靚身材正的她，卸任後依然保持最佳狀態，近年除了參演過電影及短劇外，更積極經營社交平台，不時大派福利回饋粉絲。近日，楊梓瑤在社交平台Instagram分享了一輯在維港海景前拍攝的靚相，大騷逆天長腿，隨即引來大批網民讚好！ 楊梓瑤參選時，搞笑自揭高妹",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "OpenAI推GPT-6.2 Astra及Sol 效能升成本降 更首達自我改進門檻",
+      "url": "https://hk01.com/sns/article/60413191",
+      "publishedAt": "2026-11-23T04:00:11.000Z",
+      "excerpt": "GPT-6.2 Astra是OpenAI的新旗艦模型，主打專業工作、編程與科學研究，API價格比 GPT-6 Astra低20%；GPT-6.2 Sol則是日常工作的主力模型，價格與GPT-6.1 Sol相同，兩款都能在ChatGPT工作區（ChatGPT Work）與Codex項目中使用。 OpenAI宣布推出兩款新模型：GPT-6.2 Astra與GPT-6.2 Sol。Astra是處理最艱難項目的前沿模型，Sol則是日常工作用的高效率模型。這兩款都能用更少的輸出token完成高難度任務，GPT-6.2 Astra在Agents' Last Exam比GPT-6 Astra高5.2分，成本",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "警西九龍區打擊交通違例 拘15人扣查18輛車 103車涉超速",
+      "url": "https://hk01.com/sns/article/60413887",
+      "publishedAt": "2026-11-23T04:00:05.000Z",
+      "excerpt": "西九龍總區交通部執行及管制組人員於11月16日至22日在區內進行代號「火炬」（FOSSINGTON）的打擊交通違例事項行動，設置多個路障，重點打擊「酒後駕駛」、「非法賽車」、「超速駕駛」及「非法改裝行動」等罪行。 警方拘捕13名本地男子和2名本地女子，年齡介乎21至58歲。當中，8名被捕男子涉嫌「酒後駕駛」、一名被捕女子涉嫌「停牌期間駕駛」、一名被捕男子和一名被捕女子涉嫌「無牌駕駛」及「駕駛時沒有第三者保險」、一名被捕男子涉嫌「容許他人無牌駕駛」及「容許他人駕駛時沒有第三者保險」，而其餘3名被捕男子則因被發現為通緝人士被捕。 所有被捕人已獲准保釋候查，須於12月下旬向警方報到。 西九龍總區交通",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "蔡天鳳案｜鄺港智否認與譚方駿是性伴侶 但譚有三個人一齊的心意",
+      "url": "https://hk01.com/sns/article/60413877",
+      "publishedAt": "2026-11-23T03:38:30.000Z",
+      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭鄺氏三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，蔡的前夫、第三被告鄺港智繼續自辯 。 鄺港智在盤問時指，直至2023年仍和蔡有性關係，但否認和蔡現任丈夫譚方駿是性伴侶。代表鄺港傑的大律師指，鄺和蔡仍有性關係，但同時譚亦知此事，指此家庭很奇怪，鄺港智同意，但重申：「我在一個complicated（複雜）屋企，在一個complicated關係。」 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "陳健波12.1起接任醫管局主席 任期兩年 范鴻齡在任七年正式卸任",
       "url": "https://hk01.com/sns/article/60413862",
       "publishedAt": "2026-11-23T03:10:34.000Z",
-      "excerpt": "政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫院管理局（醫管局）主席。 陳健波感謝李家超信任，指深知責任重大，未來將與醫管局管理層、醫管局大會等攜手，並與醫衞局和各政府相關政策局和部門，病人組職等社會各界人士緊密合作，應對人口高齡化、在醫療需求持續上升而帶來的開支上升，及部份醫療服務樽頸及質素的挑戰。 政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫院管理局（醫管局）主席。（資料圖片）",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "巴士阿叔偷拍斷正！恐嚇掌摑女事主逼收聲：躝啦 乘客冷漠結局慘",
-      "url": "https://hk01.com/sns/article/60413530",
-      "publishedAt": "2026-11-23T03:02:59.000Z",
-      "excerpt": "在巴士偷拍還理直氣壯，令人髮指！本港Threads流傳影片，有香港女生乘搭九巴時被一名阿叔偷拍。女事主不甘受辱勇敢挺身對質，惟該阿叔不但毫無悔意，更「大聲夾惡」反客為主狂「兇」，「唔X得啊！關你X事啊！」。女事主見狀表示要報警，阿叔竟恐嚇要掌摑女事主，喝斥「躝啦！」。女事主被阿叔呼喝時，一度向車上其他乘客「求救」，但無人理會，最終「怕阻到成車人，放咗阿叔」。 事件引來網民嘩然，批評阿叔離譜，讚揚女事主勇敢，「黐線！仲可以理直氣壯咁話返你轉頭」、「有病，咩世界」、「攞住條片去報警！呢啲人唔好放過佢」。也有不少網民關注其他乘客無人挺身幫忙，「啲乘客真係好冷漠……」。 有香港女生乘搭九巴時被阿叔偷拍",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "特朗普斥伊朗談判「全是廢話」 揚言新年後重啟軍事打擊德黑蘭",
-      "url": "https://hk01.com/sns/article/60413845",
-      "publishedAt": "2026-11-23T03:00:54.000Z",
-      "excerpt": "美國總統特朗普（Donald Trump，又譯川普）11月22日接受霍士新聞（Fox News）採訪時警告，若美伊兩國在新年後仍未能達成協議，他將會下令對伊朗發起新一輪軍事打擊，直斥目前與德黑蘭的外交談判「全是廢話」。 霍士新聞報道 ，特朗普在專訪中指責伊朗談判代表在美國中期選舉後採取拖延戰術，特朗普受訪時形容，。他認為伊朗現時比美國選前更具侵略性，預測美伊軍隊在霍爾木茲海峽（Strait of Hormuz）周邊的衝突及互相報復性攻擊仍會持續。 特朗普受訪時形容，伊朗談判官員是擅長閃躲的「專業踢踏舞者」，「整天除了談還是談」。（Reuters） 針對美軍目前對伊朗港口實施的海上封鎖，特朗普甚",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "言承旭上海開騷出事 樓梯失足重摔跌地傳骨折 昔左膝舊患惹擔憂",
-      "url": "https://hk01.com/sns/article/60413844",
-      "publishedAt": "2026-11-23T03:00:11.000Z",
-      "excerpt": "台灣49歲男歌手言承旭擁有深邃五官與高挑身形，過去因參演偶像劇《流星花園》，與吳建豪、周渝民、朱孝天組成男子組合「F4」火遍亞洲。不過卻驚傳，他在演唱會期間發生意外，重摔撞地。 言承旭演唱會上樓梯時重摔 言承旭、吳建豪、周渝民與五月天阿信攜手演出「F✦FOREVER恆星之城巡迴演唱會」，21日在上海體育場完成上海限定場的演出。不過演唱會期間，言承旭在準備登上移動花車、走在隊伍末端的過程中，疑似因西裝下擺過長、上樓梯踩到而重跌。 言承旭驚傳在演唱會期間發生意外，重摔撞地。（ig@jerry_yan_official） 更多言承旭演唱會上樓梯時重摔畫面： 言承旭上海演唱會上樓梯時不慎重摔倒地。（微",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "內地｢最快女護士｣辭職後全職跑馬拉松 1個月狂攬26.5萬獎金",
-      "url": "https://hk01.com/sns/article/60413833",
-      "publishedAt": "2026-11-23T03:00:07.000Z",
-      "excerpt": "曾因在哈爾濱馬拉松賽上奪冠而被稱為「最快女護士」的張水華，於賽後哭訴要求調休引發爭議。她於今年1月辭職後，成為全職跑手。近一個多月時間，她已經連續獲得5項賽事冠軍和一項賽事亞軍，據內媒統計，這段時間她的獎金收入已達到26.5萬元（人民幣）。 2025年8月31日哈爾濱馬拉松，本職為護士的張水華以2小時35分27秒刷新個人最好成績，獲得國內女子組冠軍，被稱讚是「最快女護士」。 2025年8月31日，張水華在2025年哈爾濱馬拉松賽中，以2小時35分27秒的成績刷新個人最佳，獲得國內女子組冠軍，她也因此被稱為「最快女護士」。然而在賽後採訪中，她因哭訴要調休引發爭議。2026年1月，張水華宣布辭職成",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "停車場半夜驚傳怪聲 無人電動車竟一夜自動泊車868次嚇呆保安",
-      "url": "https://hk01.com/sns/article/60413828",
-      "publishedAt": "2026-11-23T02:57:49.000Z",
-      "excerpt": "安徽省一處地下停車場近日發生離奇事件，一輛無人乘坐的電動車凌晨突然反覆啟動自動停車功能，不斷前進、倒車並調整位置，整個過程持續一夜，系統紀錄竟顯示共執行868次自動停車，讓前往查看的保安人員當場傻眼。事件曝光後引發網友熱議，究竟是車輛系統故障，還是車主透過手機遠端操作，目前仍沒有定論。 凌晨3點車庫傳怪聲 保全查看發現車內沒人 據 《NDTV》 報導，事發地點位於安徽省一處地下停車場，當時約凌晨3點，一輛電動車突然自行移動，反覆進行前進、倒車及調整車身位置等動作，彷彿正在尋找合適的停車位置。 安徽省一處地下停車場出現離奇畫面，一輛無人乘坐的電動車凌晨反覆執行自動泊車，車主事後查看紀錄，發現一夜",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "Puma優惠｜滿$1500減$200！ROSÉ同款Speedcat Ballet 1招免運費",
-      "url": "https://hk01.com/sns/article/60412772",
-      "publishedAt": "2026-11-23T02:55:31.000Z",
-      "excerpt": "【Puma香港】近年運動時尚風潮席捲全球，向來走年輕潮酷路線的 Puma，自從邀得 BLACKPINK 成員 ROSÉ 擔任全球代言人後更成為時尚圈熱話！當中由她演繹的爆紅鞋款 Speedcat Ballet 結合芭蕾優雅與賽車基因，絕對是本季必入手的 IT Shoes！ PUMA 最新優惠｜訂單滿$1,500減$200，滿$1,200減$100 優惠：訂單滿$1,500減$200；滿$1,200減$100 優惠期：2026/11/19 00:00 ~ 2026/12/15 23:59 👉🏻 立即購買 PUMA 最新優惠｜購買指定SHARP NIGHT系列或ROLLCAT鞋款，即可獲贈張凌",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "八馬茶業回應被解放軍暫停採購資格：不涉產品質量、食品安全",
-      "url": "https://hk01.com/sns/article/60413849",
-      "publishedAt": "2026-11-23T02:46:17.000Z",
-      "excerpt": "解放軍軍隊採購網21日公布了一批軍隊採購暫停名單，順豐速運、八馬茶業、三亞鳳凰國際機場、中國交通建設集團等均在名單中。 22日晚，八馬茶業發布公告澄清，本次處置僅為軍隊專項採購准入管理措施，屬特定領域資格調整，不涉及本集團產品質量、食品安全及日常經營業務，對本集團面向公眾的銷售、運營及主營業務並無影響。 八馬茶業。（網絡圖片） 八馬茶業表示，經審慎評估，鑒於本集團至今尚無參與過涉軍招標活動，該通告所述事項不會對本集團財務狀況、經營業績及整體運營構成重大不利影響。公司將持續跟進上述事項進展，並將根據香港聯合交易所有限公司證券上市規則適時履行信息披露義務。",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "聖若瑟書院升中簡介｜逾千家長報名 設54自行學額全獲面試",
-      "url": "https://hk01.com/sns/article/60413842",
-      "publishedAt": "2026-11-23T02:42:51.000Z",
-      "excerpt": "傳統名校聖若瑟書院日前（21日）舉行中一收生簡介會，吸引逾千名家長報名，近千人出席。副校長譚創耀於會上介紹，學校於2027/28學年將提供54個中一自行分配學位，所有申請者均獲邀於明年2月27日參加面試，面試涵蓋中、英、數三科個人面試及小組討論，不設筆試。 聖若瑟書院舉行中一收生簡介會，吸引逾千名家長報名，近千人出席。（學校提供） 設54個自行分配學額 不設筆試着重解難與熱誠 副校長譚創耀公布2027/28學年中一自行分配學位安排，申請期為2027年1月4日至1月18日，家長可親臨學校或透過「中一派位電子平台」遞交申請，校方建議家長親臨遞交，以便即場核對資料。面試方面，中文科主要以粵語進行，其",
+      "excerpt": "政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫管局主席。醫管局表示歡迎，行政總裁李夏茵指，醫管局仝人會全力支持陳健波，應對人口老化、人力資源及醫療科技發展等挑戰，並繼續提升及改革公營醫療服務，深信陳會為醫管局注入新思維和動力。 陳健波感謝李家超信任，提到未來將與醫管局、政府、病人組織等社會各界人士緊密合作，應對人口高齡化、醫療需求持續上升而帶來的開支，及部份醫療服務樽頸及質素的挑戰。 政府今日（23日）公布，行政長官李家超根據《醫院管理局條例》，委任前立法會議員陳健波為醫管局主席。（資料圖片／夏家朗攝） 前立法會議員陳健波獲委任為醫管局主席。 01早前",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24329,14 +24331,6 @@
       "url": "https://hk01.com/sns/article/60413811",
       "publishedAt": "2026-11-23T02:35:55.000Z",
       "excerpt": "尖沙咀寶勒巷昨午（22日）發生嚴重車禍，一輛私家車疑失控衝上行人路，再撞到一間地舖，釀1死3傷，肇事司機一度逃逸。警方事後拘捕38歲姓倪男子，涉嫌「酒後駕駛」及「危險駕駛導致他人死亡」。《香港01》再接獲多段意外發生前後的閉路電視片段，分別拍攝到涉案私家車在麼地道轉入赫德道，然後在赫德道撞到停在路邊的客貨車，繼而駛入寶勒巷，並失控衝上行人路的整個經過。 畫面遠處私家車於事發前險於赫德道撞上2名過路行人。（網上片段截圖） 綜合《香港01》獲得的閉路電視影片，其中一段從高處俯拍赫德道與寶勒巷交界路口，拍攝到涉案私家車先由麼地道方向轉入赫德道，當時已險撞上兩名正橫過馬路的行人，然後私家車在赫德道撞到",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會選舉｜港澳辦：展現高質量民主 中聯辦：肩負五年規劃重任",
-      "url": "https://hk01.com/sns/article/60413815",
-      "publishedAt": "2026-11-23T01:26:21.000Z",
-      "excerpt": "2026年選舉委員會界別分組選舉昨日順利舉行，投票率達98.79%創新高。國務院港澳事務辦公室發言人今日（11月23日）表示，這次選舉進一步彰顯香港新選舉制度的先進性優越性，展現符合香港實際高質量民主的新氣象。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 港澳辦：參選人覆蓋老香港新香港、中資港資外資 港澳辦發言人指出，此次選委會選舉參選人來源多元，覆蓋社會各階層、各界別、各群體：既有業界資深人士，也有行內後起之秀；既有土生土長的「老香港」，也有從內地和海外來港發展的「新香港」；既有中資、港資的代表，也有外資的代表；既有傳統產業的領軍人物，也有新興賽道的精英翹楚；既有全",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24365,10 +24359,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "金馬獎2026得獎名單｜《善男信女》奪劇情片 AK、袁澧林首獲金馬",
-      "url": "https://hk01.com/sns/article/60413721",
-      "publishedAt": "2026-11-22T15:39:52.000Z",
-      "excerpt": "《第63屆金馬獎頒獎典禮》今晚（11/22）於臺北流行音樂中心正式舉行。本屆匯聚來自各地的優秀華語電影作品，由《狂忘警探》入圍11項、《女孩》入圍10項領跑，《雙囍》與《善男信女》則各獲9項提名，競爭相當激烈。香港代表最終奪得最佳劇情短片、最佳男配角、最佳原著劇本、最佳紀錄片獎、最佳女主角及最佳劇情片，一共6個獎項。而《善男信女》更是繼2008年《投名狀》後，時隔18年再有港片奪得金馬獎最佳劇情片獎項。 柯煒林擔任今屆金馬獎主持，更特別為香港演打氣︰「香港隊，加油！」，更唱出陳奕迅的《今天等我來》作為揭幕。（金馬直播截圖） 金馬獎2026｜柯煒林唱陳奕迅《今天等我來》 擠出酒粒向舒淇示愛 金馬",
+      "title": "TVB小花黃紫恩揭藝人鏡頭前後反差 新晉小生為做男一陪監製上床?",
+      "url": "https://hk01.com/sns/article/60413644",
+      "publishedAt": "2026-11-22T22:00:01.000Z",
+      "excerpt": "憑《#後生仔傾吓偈》、《不正常愛情研究所》及《冇人性教育》等節目為人熟悉的無綫（TVB）小花黃紫恩（Jojo），向來作風大膽兼敢言，經常在社交平台大派福利、分享生活日常及拍片搞氣氛。近日，她聯同三位TVB男藝人劉頌鵬、施焯日及陳嘉俊拍攝一條題為「POV. 如果娛樂圈講真話」的影片，分享藝人鏡頭前後「答案不一」的真實一面，當中觸及「陪瞓」、「爭女」及「不和」等敏感話題，內容大膽程度令不少網民睇到眼凸！ 黃紫恩出名身材好。（IG@jojotszyan） 黃紫恩早前以一身極具誘惑的「超性感馬甲裝」示人。（IG@jojotszyan） 近年黃紫恩與梁思浩及黃耀英主持《直播靈接觸》獲得不錯的迴響。（TV",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24381,27 +24375,19 @@
       "category": "Hong Kong"
     },
     {
-      "title": "女神2｜俞可程疑假單身致形象插水 最新一集竟完全無鏡頭",
-      "url": "https://hk01.com/sns/article/60413771",
-      "publishedAt": "2026-11-22T15:11:29.000Z",
-      "excerpt": "藝人俞可程早前被爆疑與TVB綜藝科高級導演鄭韜畧（Marcus）在街頭舉止親暱後，其「女神」形象受損，原定於台慶上有份表演的她亦馬上被飛出大騷。由於俞可程在節目《女神配對計劃2》中一直大賣「單身人設」，緋聞曝光後她形象插水，更傳出有關於她的鏡頭要先行刪走。 藝人俞可程早前被爆疑與TVB綜藝科高級導演鄭韜畧（Marcus）在街頭舉止親暱後。（受訪者提供） 俞可程疑假單身致形象插水。(盧振輝 攝) 俞可程樂園約會鏡頭全消失 傳製作組緊急重剪 今日（22日）最新一集的《女神配對計劃2》中，有多對「女神CP」在主題樂園中遊玩，而上星期阮嘉敏及吳旭東部分已經播出，今日將會播出餘下數對女神。根據節目早前釋",
-      "source": "香港01",
+      "title": "陳健波12月接任醫管局主席 盧寵茂：相信能以宏觀視野推動公營醫療改革",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526751/%E9%99%B3%E5%81%A5%E6%B3%A212%E6%9C%88%E6%8E%A5%E4%BB%BB%E9%86%AB%E7%AE%A1%E5%B1%80%E4%B8%BB%E5%B8%AD-%E7%9B%A7%E5%AF%B5%E8%8C%82-%E7%9B%B8%E4%BF%A1%E8%83%BD%E4%BB%A5%E5%AE%8F%E8%A7%80",
+      "publishedAt": "2026-11-23T04:13:49.000Z",
+      "excerpt": "【有線新聞】政府委任陳健波出任醫院管理局主席。 行政長官根據《醫院管理局條例》委任陳健波為醫管局主席，同時委任",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "選委會選舉2026｜投票結果全名單 誰人當選、爆冷墮馬一文看清",
-      "url": "https://hk01.com/sns/article/60413766",
-      "publishedAt": "2026-11-22T14:55:14.000Z",
-      "excerpt": "【選委會選舉／選委會選舉2026／選委會結果】選舉委員會界別分組選舉今日（11月22日）結束，5640人投票，投票率98.79%。選委會40個界別分組，共有36個分組共982席需經選舉產生候選人，而今屆有31個組別獲提名候選人超過該組別席位，需要透過投票決定席位歸屬，合共有856名候選人競逐723個席位。 投票由今日早上9時開始，下午6時結束，點票由下午6時30分左右開始，歷時近4小時完成，多名政商界名人順利當選，但財經事務及庫務局前局長陳家強、香港總商會總裁楊偉添、律師會會長湯文龍等人意外「墮馬」。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 2026選委會選舉 第",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "寶勒巷1死3傷車禍｜死者頭部重創 38歲私家車司機涉酒駕危駕被捕",
-      "url": "https://hk01.com/sns/article/60413732",
-      "publishedAt": "2026-11-22T14:25:39.000Z",
-      "excerpt": "尖沙咀寶勒巷今午（22日）發生嚴重車禍，一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一名非華裔男子頭部重創不治，肇事司機逃逸。警方事後拘捕一名懷疑涉案38歲姓倪男子。直到傍晚6時許，警方押解被捕男子，返回車禍現場進行蒐證工作。其間，被捕男子黑布蒙頭、鎖上手扣及腰纏鐵鏈，站在其私家車外。 警方今晚召開記者會交代案情，指被捕男司機體內酒精濃度超過法例訂明限度，遂以涉嫌「酒後駕駛」及「危險駕駛導致他人死亡」將其拘捕。同時呼籲任何途人或駕駛者目睹意外發生經過，或有任何資料提供，請致電3661 9188聯絡西九龍交通部特別調查隊第一隊。據悉被捕男司機的職業、涉案女乘客的下落及兩人的關",
-      "source": "香港01",
+      "title": "貝森特警告緊縮貨幣政策不利美國經濟",
+      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/526743/%E8%B2%9D%E6%A3%AE%E7%89%B9%E8%AD%A6%E5%91%8A%E7%B7%8A%E7%B8%AE%E8%B2%A8%E5%B9%A3%E6%94%BF%E7%AD%96%E4%B8%8D%E5%88%A9%E7%BE%8E%E5%9C%8B%E7%B6%93%E6%BF%9F",
+      "publishedAt": "2026-11-23T03:22:11.000Z",
+      "excerpt": "【有線新聞】美國財長貝森特警告，過度收緊貨幣政策將會不利當地經濟。 貝森特接受CBS訪問時表示，過去數個月已見",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24549,19 +24535,35 @@
       "category": "Hong Kong"
     },
     {
-      "title": "荃灣大壩街爆鹹水管 噴6米高水柱射大廈簷篷",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526669/%E8%8D%83%E7%81%A3%E5%A4%A7%E5%A3%A9%E8%A1%97%E7%88%86%E9%B9%B9%E6%B0%B4%E7%AE%A1-%E5%99%B46%E7%B1%B3%E9%AB%98%E6%B0%B4%E6%9F%B1%E5%B0%84%E5%A4%A7%E5%BB%88%E7%B0%B7%E7%AF%B7",
-      "publishedAt": "2026-11-23T00:16:23.000Z",
-      "excerpt": "【有線新聞】荃灣大壩街有地底鹹水管爆裂，噴出水柱。 行人路地底一條鹹水管爆裂，噴出約6米高水柱，射向一幢大廈外",
-      "source": "有線新聞",
+      "title": "小一入學自行分配學位公布結果 有舊生家長對子女獲取錄感高興",
+      "url": "https://news.now.com/home/local/player?newsId=670579",
+      "publishedAt": "2026-11-23T03:12:25.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "選委會選舉｜被問是否支持李家超連任 湯家驊：仍言之尚早",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526664/%E9%81%B8%E5%A7%94%E6%9C%83%E9%81%B8%E8%88%89-%E8%A2%AB%E5%95%8F%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81%E6%9D%8E%E5%AE%B6%E8%B6%85%E9%80%A3%E4%BB%BB-%E6%B9%AF%E5%AE%B6%E9%A9%8A",
-      "publishedAt": "2026-11-22T16:23:25.000Z",
-      "excerpt": "【有線新聞】有當選人表示今屆選委會選舉競爭比上屆激烈，希望特首選舉亦有更多選擇。 選委會批發及零售界當選人謝邱",
-      "source": "有線新聞",
+      "title": "樓宇維修局取代招標妥 預每戶付數千元 發展局：正研調低費用空間",
+      "url": "https://news.now.com/home/local/player?newsId=670578",
+      "publishedAt": "2026-11-23T03:12:25.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "選委會選舉｜湯文龍及楊偉添等落選 劉兆佳︰知名度高未必贏或吸引更多人參選",
+      "url": "https://news.now.com/home/local/player?newsId=670576",
+      "publishedAt": "2026-11-23T03:04:24.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "2026選委會選舉結果",
+      "url": "https://news.now.com/home/local/player?newsId=670520",
+      "publishedAt": "2026-11-23T03:00:00.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
@@ -24688,38 +24690,6 @@
       "title": "選委會選舉｜陸啟康：用了約3小時45分完成點票 過程順利符合預期",
       "url": "https://news.now.com/home/local/player?newsId=670531",
       "publishedAt": "2026-11-22T15:12:31.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "據了解警方拘捕54歲男子懷疑殘酷對待動物",
-      "url": "https://news.now.com/home/local/player?newsId=670527",
-      "publishedAt": "2026-11-22T14:09:32.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "被問會否支持李家超連任 湯家驊：言之過早",
-      "url": "https://news.now.com/home/local/player?newsId=670526",
-      "publishedAt": "2026-11-22T14:07:32.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會選舉結果陸續出爐",
-      "url": "https://news.now.com/home/local/player?newsId=670525",
-      "publishedAt": "2026-11-22T14:07:32.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "即日焦點｜選委會選舉投票結束 投票率近99%／寶勒巷私家車剷行人路一人死亡",
-      "url": "https://news.now.com/home/local/player?newsId=670524",
-      "publishedAt": "2026-11-22T14:05:00.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -24885,10 +24855,34 @@
       "category": "Hong Kong"
     },
     {
+      "title": "國際刑警組織全體大會下周舉行 下周一至周四全港設臨時限飛區",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878913-20261123.htm",
+      "publishedAt": "2026-11-23T04:05:33.000Z",
+      "excerpt": "國際刑警組織第94屆全體大會下周一起，一連4日在香港舉行。警方行動部總警司王智榮表示，預計有超過1000名參加者，來自196個成員國的警隊首長和政府高層出席，他們將討論有關全球安全議題。 王智榮表示，為確保大會順利安全進行，已制定行動計劃，確保場地和參與人士安全，營造有利各方交流的環境和氣氛，並將對市民日常出行影響減至最低，會議期間會實施海陸空管制措施。 警方表示，由11月30日零時01分至12月3日下午5時，會在全港範圍設立臨時限飛區，管制所有小型飛機、無人機、直升機及例如滑翔傘、風箏等飛行活動，但不影響民航機服務。 另外，為配合大會在會展舉行，當局在11月30日零時01分至12月3日下午5",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "海關檢12萬件冒牌貨物市值約6800萬元 兩人被捕",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878905-20261123.htm",
+      "publishedAt": "2026-11-23T03:32:33.000Z",
+      "excerpt": "海關由上月23日起，一連三星期採取代號特別行動，打擊跨境轉運及供應本地冒牌及侵權貨品，檢獲約12萬件懷疑冒牌及侵權貨物，包括波鞋、電話、電話配件、衣服及手錶等，估計市值共約6800萬元。行動中兩人被捕。 編輯：譚佩貞",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "李家超稱香港積極發揮內聯外通優勢 為國家推動灣區經濟貢獻力量",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878904-20261123.htm",
+      "publishedAt": "2026-11-23T03:12:24.000Z",
+      "excerpt": "行政長官李家超表示，國家主席習近平在APEC工商領導人峰會上，提出支持成立世界灣區經濟合作聯盟，深化各灣區交流互動，探索亞太經濟合作新路徑。李家超說，香港會積極發揮「一國兩制」下，內聯外通的優勢，為國家推動灣區經濟貢獻力量，與大灣區城市共建世界一流灣區。 李家超在香港國際金融論壇視像致辭，表示特區政府制定《香港第一個五年規劃》，鞏固提升香港的國際競爭力。香港會做好國家與世界的「超級聯繫人」和「超級增值人」，將國家戰略帶來的機遇轉化為產業發展動力和市民福祉。 李家超說，將圍繞科技創新合作、基礎設施「硬聯通」、規則機制「軟聯通」、三地居民「心聯通」及重大合作平台建設，深化與大灣區城市的協同，促進區",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "政府委任陳健波為醫管局主席 任期下月1日起為期兩年",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878903-20261123.htm",
       "publishedAt": "2026-11-23T03:03:56.000Z",
-      "excerpt": "",
+      "excerpt": "政府公布委任陳健波為醫管局主席，同時委任1名新成員及再度委任6名現任成員，任期下月1日起生效，為期兩年。 陳健波為行政會議成員、香港交易所獨立非執行董事、廉政公署貪污問題諮詢委員會主席、政府授勳及非官守太平紳士遴選委員會成員及宏利公積金信託有限公司主席。他現時是市建局非執行董事及香港中文大學醫院董事，他將在履職醫管局主席前辭任這兩項公職。他曾任立法會議員達17年，期間有近7年為立法會財委會主席。 醫務衞生局局長盧寵茂表示歡迎，表示陳健波擁有極為豐富的從政及公共服務經驗，對政策制訂及推動，資源運用及財務管理，以及機構管治有深厚認識。憑他卓越的領導及協調才能，相信定能以宏觀視野帶領醫管局持續推動公",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -25021,27 +25015,11 @@
       "category": "Hong Kong"
     },
     {
-      "title": "葉劉淑儀稱選委會委員肩負重任 形容選舉是「優中選優」",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878851-20261122.htm",
-      "publishedAt": "2026-11-22T15:43:01.000Z",
-      "excerpt": "選舉委員會界別分組選舉結果全部公布。行政會議召集人葉劉淑儀表示，今次選舉競爭非常激烈，她早上在九龍公園的投票站所見，選舉氣氛熾熱，有很多選民投票，形容今次選舉是「優中選優」，各候選人都非常努力，是一次很成功的選舉。 葉劉淑儀又說，選舉委員會委員肩負重任，包括負責選出下屆行政長官等。她說國家要推動更高水平對外開放，透過新質生產力促進經濟轉型，香港要更好融入國家發展大局，行政長官未來需要協助國家民族復興走上更高階。 本身是新民黨主席的葉劉淑儀又說，新民黨在今次選舉中取得16個席位，加上黨內3名立法會議員及一名全國政協，新民黨合共有20名選委，她很滿意成績。 編輯：黃佩珊",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "寶勒巷致命交通意外 司機涉酒後駕駛及危駕致他人死亡被捕",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878850-20261122.htm",
-      "publishedAt": "2026-11-22T15:30:38.000Z",
-      "excerpt": "尖沙咀寶勒巷發生致命交通意外，一架私家車衝上行人路，造成一死3傷，涉案38歲男司機涉嫌酒後駕駛及危險駕駛導致他人死亡被捕，正被扣留調查。 事發在下午約兩時半，警方指，涉案司機駕駛私家車沿寶勒巷行駛期間，衝上行人路，撞倒4名途人和多支欄杆。司機在意外發生後下車逃離現場，有市民緊隨其後並報警。最終警方截獲涉案司機，經初步酒精呼氣測試，他體內酒精濃度超過法例訂明限度。 警方說，經初步調查後，涉事私家車在駛入寶勒巷前，先於緬甸臺撞到一支交通標誌柱，其後在赫德道再撞到另一架停泊在路旁的輕型貨車。涉事私家車未有停下，右轉入寶勒巷，撞到4名年齡介乎31歲至70歲的途人。其中一名53歲男子頭部重傷昏迷，其後證",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選委會選舉｜李家超祝賀當選委員 選舉展現愛國者之間良性競爭",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878848-20261122.htm",
-      "publishedAt": "2026-11-22T15:06:24.000Z",
-      "excerpt": "行政長官李家超表示，選委會界別分組一般選舉已圓滿舉行，他代表特區政府祝賀所有當選委員。 李家超說，選委會由40個界別分組共1500人組成，具廣泛代表性和符合均衡參與原則，在完善選舉制度、落實「愛國者治港」原則下肩負重要的法定職能。今次選舉在36個界別分組中，有31個界別分組需要競逐，合共有856名候選人競逐723個席位。自提名期開始以來，不同界別分組的候選人積極向界別分組內各個團體、投票人等介紹政綱、交流互動、爭取支持。選舉充分展現有擔當、有能力、有作為的愛國者之間良性競爭，彰顯「愛國者治港」原則下的良性民主發展。 李家超說，新一屆選委會將於明年2月1日上任，任期為五年。他期望所有選委會委員秉",
-      "source": "香港電台中文本地新聞",
+      "title": "Tai Po fire survivors battle grief, fear and trauma as first anniversary nears",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3375408/tai-po-fire-survivors-battle-grief-fear-and-trauma-first-anniversary-nears",
+      "publishedAt": "2026-11-23T04:00:07.000Z",
+      "excerpt": "A year after the deadly Wang Fuk Court blaze in Hong Kong, Hilary Lau has developed certain habits born out of the tragedy. The 49-year-old who lost both his parents can fall asleep only under a fire-resistant blanket and keeps extra fire extinguishers at his flat in Kong Ha Wai Village, a transitio",
+      "source": "South China Morning Post",
       "category": "Hong Kong"
     },
     {
@@ -25197,11 +25175,27 @@
       "category": "Hong Kong"
     },
     {
-      "title": "Xi’s bay-area vision offers scope for cooperation despite US, Tokyo hurdles: analysts",
-      "url": "https://www.scmp.com/news/hong-kong/politics/article/3375348/xis-bay-area-vision-offers-scope-cooperation-despite-us-tokyo-hurdles-analysts",
-      "publishedAt": "2026-11-21T22:30:05.000Z",
-      "excerpt": "Chinese President Xi Jinping’s call for a global association of bay areas signals a long-term economic vision to the United States and Japan, although geopolitical tensions and difficulty finding common ground pose significant obstacles, observers have said. Xi proposed closer economic links between",
-      "source": "South China Morning Post",
+      "title": "環保署就錦田養豬場涉嫌非法排放禽畜廢物再次採取執法行動",
+      "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300221.htm",
+      "publishedAt": "2026-11-23T04:00:00.000Z",
+      "excerpt": "環境保護署（環保署）今日（十一月二十三日）表示，署方正就元朗錦田一個養豬場懷疑非法排放禽畜廢物的個案再次展開執法行動。 環保署高度重視元朗錦田河一帶禽畜廢物非法排放的情況。環保署人員於十一月十二日凌晨時段進行突擊行動時，發現大量帶有強烈豬糞氣味的啡色廢水從錦田大江埔一個養豬場的喉管直接排入附近水道，懷疑該養豬場排放未經妥善處理的禽畜廢物。署方正蒐集證據，若有足夠證據，將按《廢物處置（禽畜廢物）規例》檢控涉案養豬場場主。環保署亦已將懷疑違規個案通報漁農自然護理署同步跟進。 環保署發言人表示，同一養豬場多次涉嫌違規，情況不可接受。未經妥善處理的禽畜廢物含高濃度的污染物，排放入河道不但嚴重污染水質，",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "醫院管理局歡迎陳健波接任主席 並向現任主席范鴻齡致意",
+      "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300187.htm",
+      "publishedAt": "2026-11-23T03:41:45.000Z",
+      "excerpt": "下稿代醫院管理局發出： 今日（十一月二十三日）醫院管理局（醫管局）歡迎陳健波接任為新任主席，任期由二○二六年十二月一日起生效。 &nbsp; 陳健波長期積極參與公共服務，成績斐然。他在保險及金融界的卓越成就，推動行業發展與管治，多年來在行政會議及立法會貢獻良多；在擔任立法會財務委員會主席期間，展現出具遠見的領導才能，深受各方尊重。 &nbsp; 現任醫管局主席范鴻齡說︰「我與醫管局所有同事衷心歡迎陳健波接任醫管局主席，我們深信陳健波必定可以帶領醫管局再創高峰，繼續為香港市民提供高質素的公營醫療服務，造福病人。」 &nbsp; 醫管局行政總裁李夏茵醫生表示，醫管局仝人會全力支持新任主席，應對人口",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "「SmartPLAY康體通」團體用戶登記安排",
+      "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300222.htm",
+      "publishedAt": "2026-11-23T03:35:00.000Z",
+      "excerpt": "​康樂及文化事務署（康文署）今日（十一月二十三日）宣布，「SmartPLAY康體通」系統將於十一月二十四日起，分階段接受以下類別的團體登記成為團體用戶，各類團體的登記開始日期及詳情載於附件：&nbsp; ＊根據《社團條例》註冊並獲發社團註冊證明書的團體； ＊接受社會福利署津貼撥款的非政府機構，或根據《税務條例》第88條獲豁免繳稅的慈善團體；&nbsp; ＊根據《公司條例》註冊並獲發公司註冊證書，或根據《職工會條例》註冊並獲發職工會／職工會聯會登記證明書的正式協會、法團、政府員工聯誼會和職工會／職工會聯會； ＊區議員辦事處； ＊體育總會的屬會，有關屬會須根據《公司條例》註冊並獲發公司註冊證書，或",
+      "source": "香港政府新聞公報",
       "category": "Hong Kong"
     },
     {
@@ -25337,30 +25331,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200718.htm",
       "publishedAt": "2026-11-22T14:18:00.000Z",
       "excerpt": "選舉委員會中小企業界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 吳景瀚＊ 96 2 何世杰＊ 116 3 王廣漢 50 4 鄭 蕾＊ 84 5 楊全盛＊ 93 6 余敏＊ 104 7 麥美儀＊ 122 8 周嘉弘＊ 89 9 鄭仲邦＊ 115 10 沈慧林＊ 111 11 黎卓斌＊ 98 12 王淑雯（王淑筠）＊ 85 13 肖 凱＊ 100 14 區 達 智＊ 111 15 陳國威 57 16 潘鵬雛＊ 99 17 郭志華＊ 118 ＊當選",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選舉委員會界別分組一般選舉結果（飲食界）",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200712.htm",
-      "publishedAt": "2026-11-22T14:12:00.000Z",
-      "excerpt": "選舉委員會飲食界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 陳家強＊ 126 2 楊位醒＊ 122 3 鄭栢文＊ 125 4 鍾偉平＊ 128 5 吳德曉＊ 115 6 江志恒 67 7 莊 裕坤＊ 119 8 楊浩宏＊ 131 9 梁振華＊ 123 10 盛智文＊ 126 11 吳子文＊ 115 12 楊振年＊ 125 13 胡珠＊ 124 14 凌偉業＊ 109 15 譚家良＊ 128 16 盧浩宏＊ 122 17 王偉樑＊ 69 ＊當選",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選舉委員會界別分組一般選舉結果（金融界）",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200713.htm",
-      "publishedAt": "2026-11-22T14:11:22.000Z",
-      "excerpt": "選舉委員會金融界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 李民橋＊ 62 2 陳永德 42 3 梁嘉麗＊ 43 4 王祖興＊ 59 5 劉鈞＊ 61 6 麥永賢＊ 64 7 傅劍＊ 45 8 鄭建崗＊ 50 9 陳智文 14 10 葉子建＊ 55 11 陳志輝＊ 54 12 謝小 玲 ＊ 50 13 陳麗明＊ 60 14 施穎茵＊ 44 15 陳文＊ 63 16 廖宜建＊ 45 17 𧝁惠儀＊ 53 18 Lim Hui Hung Luanne＊ 46 19 黃 辛葆璉＊ 43 20 陳家強 41 ＊當選",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選舉委員會界別分組一般選舉結果（保險界）",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200706.htm",
-      "publishedAt": "2026-11-22T14:08:00.000Z",
-      "excerpt": "選舉委員會保險界界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 黃 子遜＊ 68 2 劉佩玲＊ 60 3 徐志堅＊ 65 4 馮偉昌＊ 55 5 潘榮輝＊ 45 6 尹玄慧＊ 59 7 劉少文＊ 59 8 譚國榮＊ 57 9 柳康維＊ 67 10 陳健波＊ 56 11 黃 漢興 37 12 鄧子平＊ 52 13 詹映樺 37 14 林智剛＊ 52 15 陳文告 44 16 伍榮發＊ 52 17 鄭國屏＊ 60 18 張健強＊ 63 19 許金桂＊ 68 20 許鼎睿＊ 47 ＊當選",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T06:17:18.394Z",
-  "collectedAt": "2026-11-23T06:17:18.394Z",
+  "generatedAt": "2026-11-23T07:17:22.837Z",
+  "collectedAt": "2026-11-23T07:17:22.837Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -15,6 +20,24 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "CollectWise (YC F24) Is Hiring",
+          "url": "https://www.ycombinator.com/companies/collectwise/jobs/lgobCse-founding-customer-success-manager",
+          "publishedAt": "2026-11-23T07:01:08.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50608390"
+        },
+        {
+          "title": "Yes, 17M lines of Lean is a lot",
+          "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+          "publishedAt": "2026-11-23T05:00:49.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50607668"
+        },
         {
           "title": "A Partial Evaluator for C",
           "url": "https://phoenix.labri.fr/software/tempo/",
@@ -176,27 +199,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50602843"
-        },
-        {
-          "title": "Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence/",
-          "publishedAt": "2026-11-22T17:06:27.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50601525"
-        },
-        {
-          "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
-          "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
-          "publishedAt": "2026-11-22T15:35:24.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50600622"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Verge",
@@ -285,18 +290,18 @@
           "category": "Technology"
         },
         {
-          "title": "Your questions about Apple HomeView’s audio, answered",
-          "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
-          "publishedAt": "2026-11-22T13:00:00.000Z",
-          "excerpt": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. H",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
           "title": "The vibe-coding revolution is coming to all the gadgets",
           "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
           "publishedAt": "2026-11-22T13:00:00.000Z",
           "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things wit",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Your questions about Apple HomeView’s audio, answered",
+          "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+          "publishedAt": "2026-11-22T13:00:00.000Z",
+          "excerpt": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. H",
           "source": "The Verge",
           "category": "Technology"
         },
@@ -365,7 +370,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Ars Technica",
@@ -703,7 +708,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "TechCrunch",
@@ -1041,7 +1046,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Next Web",
@@ -1140,7 +1145,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Slashdot",
@@ -1284,7 +1289,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Techmeme",
@@ -1292,6 +1297,28 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Chinese physical AI startup Simplexity Robotics raised a $100M pre-Series A led by Ant Group, with Alibaba, Tencent, and others joining, at a $1.6B valuation (Saritha Rai/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race",
+          "publishedAt": "2026-11-23T07:01:27.000Z",
+          "excerpt": "Saritha Rai / Bloomberg : Chinese physical AI startup Simplexity Robotics raised a $100M pre-Series A led by Ant Group, with Alibaba, Tencent, and others joining, at a $1.6B valuation &nbsp; &mdash;&nbsp; Chinese physical AI startup Simplexity Robotics received $100 million in a funding round led by",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261123/p4#a261123p4",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Compute Desk, which is building capital markets infrastructure to price, trade, hedge, and clear compute, raised a $45M seed round led by Lightspeed (Lucinda Shen/Axios)",
+          "url": "https://www.axios.com/pro/all-deals/2026/11/17/compute-pricing-startup-compute-desk-45-million-lightspeed",
+          "publishedAt": "2026-11-23T06:40:01.000Z",
+          "excerpt": "Lucinda Shen / Axios : Compute Desk, which is building capital markets infrastructure to price, trade, hedge, and clear compute, raised a $45M seed round led by Lightspeed &nbsp; &mdash;&nbsp; Compute Desk, a startup aiming to make compute an asset that can be traded and hedged, raised $45 million i",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261123/p3#a261123p3",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "New US chip export rules threaten SEA's data center boom, risking incomplete and abandoned projects and forcing neoclouds to replace their Chinese customers (Bloomberg)",
           "url": "https://www.bloomberg.com/news/features/2026-11-22/trump-s-ai-chip-crackdown-on-china-after-nvidia-crisis-squeezes-southeast-asia?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTQwNzgwMCwiZXhwIjoxNzk2MDEyNjAwLCJhcnRpY2xlSWQiOiJUT1hCU0RLR0lGUTMwMCIsImJjb25uZWN0SWQiOiJDNTc5RDIwMDZBQjQ0RjRDODkwMTU0M0U0ODMxNkJCNiJ9.3vmQa_rIIOmutX3CrjU1ib8_jJyygL3HHaYJC4NpNfo",
@@ -1318,7 +1345,7 @@
           "title": "South Korean PE firm MBK Partners agrees to take Japan's Wacom private, in a deal valuing the digital pen tech company at ~$860M, with Samsung participating (Kim Woo-young/CHOSUNBIZ)",
           "url": "https://biz.chosun.com/en/en-international/2026/11/21/ARGP75AUBRFRJOU4M7PGDQTPOI/",
           "publishedAt": "2026-11-23T04:40:00.000Z",
-          "excerpt": "Kim Woo-young / CHOSUNBIZ : South Korean PE firm MBK Partners agrees to take Japan's Wacom private, in a deal valuing the digital pen tech company at ~$860M, with Samsung participating &nbsp; &mdash;&nbsp; 조선비즈 구글 검색 먼저 보기",
+          "excerpt": "Kim Woo-young / CHOSUNBIZ : South Korean PE firm MBK Partners agrees to take Japan's Wacom private, in a deal valuing the digital pen tech company at ~$860M, with Samsung participating &nbsp; &mdash;&nbsp; Private equity firm MBK Partners will acquire Wacom, a Japanese company that supplies core tec",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261122/p20#a261122p20",
@@ -1404,7 +1431,7 @@
         },
         {
           "title": "How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and \"Vision Quest\" talks, as Anthropic seeds his ideas with opinion-makers (Nitasha Tiku/Washington Post)",
-          "url": "https://www.washingtonpost.com/technology/2026/11/22/inside-an-ai-prophets-secretive-plans-humanitys-future/",
+          "url": "https://www.washingtonpost.com/technology/2026/11/22/inside-an-ai-prophets-secretive-plans-humanitys-future/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzk1MzIzNjAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzk2NzA1OTk5LCJpYXQiOjE3OTUzMjM2MDAsImp0aSI6Ijk5ZmVmZjUzLTFhNGQtNGUyYy04OTc2LTExMzI3OTY5YWQwOCIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMTEvMjIvaW5zaWRlLWFuLWFpLXByb3BoZXRzLXNlY3JldGl2ZS1wbGFucy1odW1hbml0eXMtZnV0dXJlLyJ9.QMKPkoAM4BCMZu1B31lkK38QVtCyp1tud0o9KvcKB3o&itid=gfta",
           "publishedAt": "2026-11-22T23:20:08.000Z",
           "excerpt": "Nitasha Tiku / Washington Post : How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and &ldquo;Vision Quest&rdquo; talks, as Anthropic seeds his ideas with opinion-makers &nbsp; &mdash;&nbsp; Anthropic is worth more than $1 trillion.&nbsp; CEO Dario Amodei also wants t",
           "source": "Techmeme",
@@ -1434,31 +1461,9 @@
           "sourceUrl": "https://www.techmeme.com/261122/p10#a261122p10",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains (Jakub Pachocki/OpenAI)",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "publishedAt": "2026-11-22T18:25:01.000Z",
-          "excerpt": "Jakub Pachocki / OpenAI : OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains &nbsp; &mdash;&nbsp; - Difficulty of comparison across labs. &hellip; - Detachment from actionable evaluations. &",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261122/p9#a261122p9",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals (Reuters)",
-          "url": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
-          "publishedAt": "2026-11-22T17:15:01.000Z",
-          "excerpt": "Reuters : Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals &nbsp; &mdash;&nbsp; For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-se",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261122/p8#a261122p8",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Engadget",
@@ -1647,7 +1652,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "TechRadar",
@@ -1836,7 +1841,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "9to5Mac",
@@ -1881,10 +1886,10 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "AirPods Pro 3 just got even cheaper, now $169 ($80 off)",
+          "title": "AirPods Pro 3 just got even cheaper, now $149 ($100 off)",
           "url": "https://9to5mac.com/2026/11/22/airpods-pro-3-just-got-even-cheaper-now-169-80-off/",
           "publishedAt": "2026-11-22T10:15:48.000Z",
-          "excerpt": "Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with a solid $80 discount to $169.99 shipped – within $1 of the best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up again this weekend with the first discount on Apple’s brand ",
+          "excerpt": "Update 11/23: Amazon just dropped the price on AirPods Pro 3 again to an incredible $149 shipped – that’s the Amazon all-time low at $100 off. Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with a solid $80 discount to $169.99 shipped – within $1 of the best price ever. Amazon’s",
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -2025,7 +2030,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2219,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2408,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Fast Company",
@@ -2547,7 +2552,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Creative Bloq",
@@ -2646,19 +2651,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Why has North Korea redesigned its flag? It's not about aesthetics...",
-          "url": "https://www.creativebloq.com/news/why-has-north-korea-redesigned-its-flag-its-not-about-aesthetics",
+          "title": "How to pick the right website template for your creative business",
+          "url": "https://www.creativebloq.com/features/how-to-pick-the-right-website-template-for-your-creative-business",
           "publishedAt": "2026-11-21T08:00:00.000Z",
-          "excerpt": "The new proportions are more about power than design.",
+          "excerpt": "Avoid the common mistakes to make sure your website template matches your vision for your brand.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
         },
         {
-          "title": "How to pick the right website template for your creative business",
-          "url": "https://www.creativebloq.com/features/how-to-pick-the-right-website-template-for-your-creative-business",
+          "title": "Why has North Korea redesigned its flag? It's not about aesthetics...",
+          "url": "https://www.creativebloq.com/news/why-has-north-korea-redesigned-its-flag-its-not-about-aesthetics",
           "publishedAt": "2026-11-21T08:00:00.000Z",
-          "excerpt": "Avoid the common mistakes to make sure your website template matches your vision for your brand.",
+          "excerpt": "The new proportions are more about power than design.",
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
@@ -2736,7 +2741,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2950,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3119,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3288,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3377,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3546,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3715,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Them",
@@ -3899,7 +3904,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4088,7 +4093,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Atlantic",
@@ -4277,7 +4282,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The New Yorker",
@@ -4466,7 +4471,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Hyperallergic",
@@ -4595,7 +4600,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "IndieWire",
@@ -4700,7 +4705,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Vox",
@@ -4713,6 +4718,15 @@
           "url": "https://www.vox.com/advice/511400/ai-doom-anxiety-religion-faith-church",
           "publishedAt": "2026-11-22T13:30:00.000Z",
           "excerpt": "Your Mileage May Vary is an advice column offering you a unique framework for thinking through your moral dilemmas. It’s based on value pluralism — the idea that each of us has multiple values that are equally valid but that often conflict with each other. To submit a question, fill out this anonymo",
+          "source": "Vox",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Adults are buying more toys than ever. You should too.",
+          "url": "https://www.vox.com/explain-it-to-me/511306/kidults-toy-industry-play-brain-benefits",
+          "publishedAt": "2026-11-22T12:00:00.000Z",
+          "excerpt": "Recently, I was out doing some window shopping with one of my friends. We checked out some of our usual places — a makeup store, a clothing store — but the place where my friend’s eyes really lit up was a toy store. There were floor-to-ceiling displays of Labubus and Funko Pops, Jellycats that looke",
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4878,18 +4892,9 @@
           "source": "Vox",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Why online gamblers are obsessed with table tennis",
-          "url": "https://www.vox.com/technology/510152/online-gambling-table-tennis-sports-parlays",
-          "publishedAt": "2026-11-13T11:00:00.000Z",
-          "excerpt": "If you were living in Colorado in May and bet on sports online, you’d statistically have been most likely to bet on professional basketball. Next on the list was baseball. The third-most wagered sport? Table tennis. Colorado is almost certainly not an outlier. Table tennis occupies a similarly high ",
-          "source": "Vox",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5083,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5252,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5421,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5550,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5649,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5838,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6027,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6216,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
     },
     {
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6491,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Colossal",
@@ -7181,7 +7187,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7654,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7992,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8181,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8350,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8519,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8708,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8710,6 +8716,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "A Certain Kind of Debt by Sandra Simonds",
+          "url": "https://www.poetryfoundation.org/poetrymagazine/poems/160258/a-certain-kind-of-debt",
+          "publishedAt": "2026-11-23T06:00:00.000Z",
+          "excerpt": "You warned me about striving. You said once they gave you a house with waves of peppermint in the backyard, the Library of Babylon, and free lunch, they would take it away. Still, I ate the fake meat they served on Fridays, always alone with my petite jar of grief. I liked the jar because it gave me",
+          "source": "Poetry Foundation",
+          "category": "Literature"
+        },
         {
           "title": "LimeWire taught me by KB Brookins",
           "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826431/limewire-taught-me",
@@ -8861,17 +8875,9 @@
           "excerpt": "You have to imagine it: Who said you were too dark/too Large? Too queer/too loud? Who said you were too poor/ Too strange? Too fat? You have to imagine it: Who said you must keep quiet? Who heard your story, then Rolled their eyes? Who tried to change your name To invisible? You’ve got to imagine: W",
           "source": "Poetry Foundation",
           "category": "Literature"
-        },
-        {
-          "title": "To a Waterfowl by William Cullen Bryant",
-          "url": "https://www.poetryfoundation.org/poems/51861/to-a-waterfowl",
-          "publishedAt": "2026-11-03T06:00:00.000Z",
-          "excerpt": "Whither, 'midst falling dew, While glow the heavens with the last steps of day, Far, through their rosy depths, dost thou pursue Thy solitary way? Vainly the fowler’s eye Might mark thy distant flight, to do thee wrong, As, darkly seen against the crimson sky, Thy figure floats along. Seek’st thou t",
-          "source": "Poetry Foundation",
-          "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9046,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9135,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9324,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9513,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9702,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "The Marginalian",
@@ -9865,7 +9871,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10040,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10209,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Psyche",
@@ -10392,7 +10398,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10567,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10736,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Kottke",
@@ -10939,7 +10945,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11154,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Waxy",
@@ -11377,7 +11383,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "MetaFilter",
@@ -11431,7 +11437,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11620,7 +11626,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Dense Discovery",
@@ -11829,7 +11835,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "香港01",
@@ -11837,6 +11843,102 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "袁澧林金馬首奪影后！甩花瓶標籤 盤點5位撐起港片90後實力女星",
+          "url": "https://hk01.com/sns/article/60413841",
+          "publishedAt": "2026-11-23T07:10:26.000Z",
+          "excerpt": "第63屆金馬獎昨晚（22日）圓滿舉行，現年33歲的袁澧林（Angela Yuen）憑藉電影《第四幕》的出色表現，第二度入圍金馬獎便成功擊敗《雙囍》余香凝、《謊言生活》梁翠珊、《善男信女》鍾雪瑩及《我們不是陌生人》楊雁雁等強敵，從劉嘉玲手上接過獎座首奪「最佳女主角」。她在台上激動流淚表示「我終於拿影后」，更感性直言獎項不代表終點，未來會繼續探索更多演戲光譜。 過去不時有人感嘆香港影壇女演員青黃不接，但回顧近幾屆金馬獎及金像獎的成績單，一班90後港產片女演員早已用實力打破偏見，一部又一部高口碑作品證明本地影壇並非後繼無人，今屆金馬影后五強更出現三位香港90後女演員同場競逐的盛況。《開罐》為大家盤點",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "46歲方力申破紀錄35km港澳橫渡當晚仍開騷 即睇保持體能身材秘訣",
+          "url": "https://hk01.com/sns/article/60413900",
+          "publishedAt": "2026-11-23T07:09:56.000Z",
+          "excerpt": "前香港奧運泳手、藝人方力申（Alex）於11月21日為慈善挑戰人體極限，以46歲之齡挑戰長達35公里的港澳公海海域橫渡壯舉。他最終以8小時37分24秒的佳績游畢全程，不但較預期快了約20分鐘，更一舉打破歷年紀錄。最令人驚訝的是，方力申在耗盡體能上岸後，竟「無縫接力」直奔澳門舞台獻唱，全程中氣十足，狀態令網民大呼佩服。 46歲方力申8.5小時橫渡港澳 破歷來兩泳手紀錄 「凝動全城 破浪傳承：方力申港澳慈善游2026」於當日清晨8時53分正式啟航，方力申由大嶼山最西面的雞翼角下水，橫渡珠江口游往澳門黑沙海灘。翻查資料，方力申是本港歷來第三位挑戰游往澳門的泳手，對上兩次分別是2014年居港英籍泳手S",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "17歲女作息規律竟患肺癌？父室內吸煙成元兇 醫揭三手煙致命危機",
+          "url": "https://hk01.com/sns/article/60413584",
+          "publishedAt": "2026-11-23T07:02:25.000Z",
+          "excerpt": "二手煙的禍害，比你想像中的更隱蔽持久！河南1名無吸煙習慣、作息規律的17歲少女確診肺癌，禍根來自父親長達二十年、從不避開家人的室內吸煙習慣。近年年輕無煙史肺癌個案持續出現，除二手煙外，殘留於衣物、傢俬上的三手煙同屬一類致癌物，毒素可長時間滯留，而抵抗力弱的青少年、長者及孕婦首當其衝。 醫生強調戒煙才能徹底守護家人安全，並提醒高危人士定期做檢查，肺部早期病變徵狀容易和感冒混淆，若出現持續咳嗽超過2周及痰中帶血等情況，應及早就醫。 少女父親煙齡長達20年，在家中吸煙從不迴避家人。（AI生成圖片） 父日吸1包煙不避家人 女兒作息規律突患肺癌 據 內地民生節目《小莉幫忙》報道 ，該名17歲少女日常作息",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "金馬獎2026｜評審內幕曝光 揭袁澧林封后關鍵 舒淇最終奪獎原因",
+          "url": "https://hk01.com/sns/article/60413843",
+          "publishedAt": "2026-11-23T07:00:43.000Z",
+          "excerpt": "第63屆金馬獎頒獎典禮昨圓滿落幕，由《雙囍》和《功夫》獲3項成為大贏家。金馬執委會執行長聞天祥公布評審內幕，整體得獎分布呈現百花齊放、類型多元的態勢，不僅完全沒有「分獎」情況，更沒有任何一部電影拿下超過3個獎項。 本屆評審團在主席張艾嘉的帶領下，至下午3點出頭就順利完成決選。本屆最佳劇情片競爭極為白熱化，首輪所有入圍電影都有票，一路激戰至第3輪才分出勝負，最終集中在《雙囍》與《善男信女》。在討論此項時，主席張艾嘉特別要求每位評審依序、完整地表達自己對「最佳劇情片」的定義與喜好，因此花費了較多時間。 《善男信女》奪最佳劇情片，監製莊麗真上台領獎，她曾擔任《東京攻略》、《夏日麼麼茶》、《一個好爸爸",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "諾麗果功效｜抗氧化抗發炎 7類人慎重吃避副作用 生食/煮熟吃？",
+          "url": "https://hk01.com/sns/article/60400116",
+          "publishedAt": "2026-11-23T07:00:35.000Z",
+          "excerpt": "諾麗果保健食品近年備受討論，究竟諾麗果是什麼？諾麗果的功效跟營養成分有哪些？諾麗果怎麼吃？是否有潛在副作用？ 《Hello醫師》帶您深入了解，並說明食用諾麗果相關製品的注意事項與禁忌。 諾麗果是什麼？ 諾麗果（Noni）又稱蘿苓果、蘿尼果、長壽果或印度桑椹，為檄樹（學名：Morinda citrifolia L.）的果實，其生長範圍遍佈於太平洋群島、東南亞、澳洲和印度；國內也有諾麗果原生種，主要種植於南部區域。 諾麗果是夏威夷與大溪地居民常用的民俗草藥，大小與外觀形似手榴彈，未成熟時，顏色鮮綠，成熟後，顏色變淡且由綠轉黃，並帶有特殊氣味。 相關文章︰ 蘋果營養｜青蘋果維他命C是紅蘋果2倍！營養",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "誰是台灣美食之都？網民自製排行榜列前三名 眾人讚嘉義沒輸台南",
+          "url": "https://hk01.com/sns/article/60412800",
+          "publishedAt": "2026-11-23T07:00:34.000Z",
+          "excerpt": "台灣各地都有代表性美食，一名網友自行整理全台縣市美食排行榜，將各地分成5個梯次，其中台南、嘉義市及台中市被列為第一梯次，新北市則落在第三梯次，排名結果曝光後，引起各地網友關注，也掀起一場美食排名討論。 這名網友在社群平台 「Threads」 分享自己的縣市美食分級，第一梯次「夯」包括台南、嘉義市、台中市；第二梯次「頂級」有高雄市、台北市、彰化縣及基隆市；第三梯次「人上人」則列入屏東縣、雲林縣、新北市、宜蘭縣、澎湖縣及新竹市。 網友在社群平台「Threads」分享自己的縣市美食分級。（threads@wbfw_gw） 第四梯次「普通」包含桃園市、苗栗縣、南投縣、花蓮縣、金門縣、台東縣及嘉義縣，最",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "紐約議員眼球瞬間泛白惹外星人疑雲 急澄清不是蜥蝪人！｜有片",
+          "url": "https://hk01.com/sns/article/60413940",
+          "publishedAt": "2026-11-23T07:00:23.000Z",
+          "excerpt": "美國紐約一段議員在市長記者會上眨眼的影片近日在社交平台瘋傳，因眼球瞬間變白又恢復，看起來相當詭異，引發網民熱議，甚至有人懷疑他是偽裝成人類的「蜥蜴人」，還有人聯想到外星人混入政府的陰謀論。對此，當事人終於出面回應，強調自己當然是人類，並直言不知道影片中的眼睛動作究竟是怎麼回事。 根據《紐約郵報》（New York Post）報道 ，事件發生於11月20日，紐約市長曼達尼（Zohran Mamdani）在市政廳舉行記者會，公布計畫於2032年前關閉雷克斯島（Rikers Island）監獄。當時站在曼達尼身後的紐約州民主黨眾議員萊特（Jordan J.G. Wright），被拍到先露出微笑，隨後",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "堅尼地城地舖980萬放售 業主「心淡」劈價求售 平過兩年前近35%",
+          "url": "https://hk01.com/sns/article/60413851",
+          "publishedAt": "2026-11-23T06:56:16.000Z",
+          "excerpt": "【舖位/中西區/舖位減價/工商舖/零售業】舖市尚未擺脫寒冬，有舖位業主「心淡」劈價求去貨。涉及堅尼地城一個860平方呎地舖，業主開價980萬元放售，呎價約11,395元，較約兩年前放售時1,500萬元的意向價，大劈520萬元或約34.7%。 堅尼地城860呎地舖 最新叫價980萬 利嘉閣(工商舖)地產商業部/商舖部及投資部聯席董事許建方表示，上述放售物業為堅尼地城卑路乍街5至5H號南雄大廈地下5F號舖位連閣樓，建築面積約860平方呎，業主意向售價約980萬元，即意向呎價約為11,395元。物業以交吉形式交易。 許建方補充，上述舖位門闊約14呎，舖深約27呎，可分間出租，並附有洗手間等設施。 堅",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "寶勒巷車禍｜女乘客有無犯法？途人可協助拘捕？陸大狀詳細拆解",
+          "url": "https://hk01.com/sns/article/60413919",
+          "publishedAt": "2026-11-23T06:49:13.000Z",
+          "excerpt": "尖沙咀寶勒巷昨午（22日）發生嚴重車禍，一輛私家車疑失控衝上行人路，再撞到一間地舖，釀成1死3傷，肇事司機一度逃逸。警方事後拘捕38歲姓倪男子，涉嫌「酒後駕駛」及「危險駕駛引致他人死亡」。 從《香港01》接獲的閉路電視片段可見，車上一名女乘客及肇事男司機在意外後未有留在現場協助救援或報警，反而雙雙棄車離去；期間有熱心市民嘗試喝止兩人離開，惟最終不果。究竟乘客在嚴重車禍中「見死不救」並帶同司機離場，是否需要負上刑責？途人又能否合法地將疑犯截停？執業大律師陸偉雄逐一拆解當中的法律盲點。 【天眼還原事發經過】 私家車撞人後終於停車，僅僅不足10秒，前座身穿白色短裙、頭戴鴨嘴帽的女乘客急忙下車。（讀者",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "蔡天鳳案｜鄺港智指兄曾分享父情婦裸舞片 鄺球亦曾錯發情婦訊息",
+          "url": "https://hk01.com/sns/article/60413954",
+          "publishedAt": "2026-11-23T06:40:48.000Z",
+          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，第三被告鄺港智接受盤問時，又透露他從其兄長獲知父親鄺球有情婦。 鄺港智指，其兄曾偷錄父親鄺球與情婦的對話和影片，當中包括父的情婦無穿衣服的跳舞片，他指其兄錄下片段並發給全家，讓大家一同笑。代表其兄的律師卻指，其父錯發訊息給其兄，鄺港智即澄清，收到父錯發訊息的人是他，並指其父在該訊息中稱他為「阿容」。他又稱，從影片知父的情婦做按摩，並稱電話內應仍有該些片。 律師續指，鄺港智上周指蔡案發當日在車上的一番話中，曾提「骨妹」與鄺球純屬謊言，鄺港智不同意說法。 【蔡天鳳案・專頁】",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "Omart MegaBox開幕第二日仍逼爆 下午人龍跨三層 隊尾需等1小時",
+          "url": "https://hk01.com/sns/article/60413950",
+          "publishedAt": "2026-11-23T06:28:40.000Z",
+          "excerpt": "本地倉儲式超市Omart昨日（22日）於九龍灣MegaBox開幕，吸引不少人入場購物，人龍一度由12樓排至17樓。今日（23日）雖然是平日，但中午約1時，現場仍然人頭湧湧，目測有近200人在場排隊，人龍由商場12樓「打蛇餅」至14樓，有多名職員在場指揮並維持秩序，整體秩序大致良好。有職員指，暫時需等超過半小時至一小時才能進場。 記者今（23日）中午約1時到九龍灣Omart觀察，見現場仍然人頭湧湧，目測有近200人在場排隊，人龍由商場12樓「打蛇餅」至14樓。（張智浩攝） 記者今（23日）中午約1時到九龍灣Omart觀察，見現場仍然人頭湧湧，目測有近200人在場排隊，人龍由商場12樓「打蛇餅」至",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "選委會選舉｜林建岳：彰顯優質民主 應積極助政府提升治理效能",
+          "url": "https://hk01.com/sns/article/60413955",
+          "publishedAt": "2026-11-23T06:22:32.000Z",
+          "excerpt": "2026年選舉委員會界別分組一般選舉於周日（11月22日）順利舉行，全國政協常委林建岳認為，不論是選舉過程還是結果，都充分展現新選舉制度的優勢和民主新氣象，參選人覆蓋面更廣、代表性更強、社會參與更加均衡，切實提升了香港民主品質。他又指出，香港首個五年規劃正在推動，明年又將迎來行政長官選舉以及回歸30周年的大日子，新一屆選委會委員更應發揮自身功能，積極反映各界的聲音和訴求，協助特區政府不斷提升治理效能，落實好五年規劃，將宏觀藍圖轉化為市民可感可及的發展實效。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 今次選舉是香港完善選舉制度後第二屆選委會選舉，林建岳指出，自香港完善",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "兒科醫生陳以誠涉治胸口痛 猥褻摸男教友下體 申匿名令遭駁回",
           "url": "https://hk01.com/sns/article/60413935",
@@ -11846,74 +11948,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "思哲研究所｜前日相石破茂的警告——忘記戰爭代價的日本最可怕",
-          "url": "https://hk01.com/sns/article/60413854",
-          "publishedAt": "2026-11-23T06:00:57.000Z",
-          "excerpt": "思哲研究所專欄 ｜李冠儒博士 2026年11月17日，早稻田大學的政治祭迎來一場重量級講座。前首相石破茂以「戰後百年，2045年的日本」為題，發表了長達60分鐘的演講。這位在戰後80周年之際肩負首相重任的政治家，以其40年國會議員生涯的積澱，向年輕一代發出一聲沉重的叩問：日本真的從戰敗中覺醒了嗎？靠貶低中國來看待世界，對青年灌輸偏頗的國際關係知識，對嗎？ 真正捍衛國家利益者正在凋零 演講從田中角榮的一句遺訓展開。1981年，24歲的石破茂因父親的葬禮，有機會拜訪田中，田中已厲聲告誡他：「只要經歷過戰爭的人還處於國家中心，日本就沒問題；可怕的是他們不在中心之時——所以你必須好好學習。」二戰以來，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "OpenAI被指隱瞞80宗事故 遭加州控告漠視公眾安全",
-          "url": "https://hk01.com/sns/article/60413892",
-          "publishedAt": "2026-11-23T06:00:39.000Z",
-          "excerpt": "加州政府11月16日起訴 OpenAI，指控其開發技術時缺乏安全考量、無視公眾利益。 據英國《衛報》（The Guardian）報道， 訴訟源於今年較早時的事故：OpenAI的AI代理Codex（可代用戶執行數碼行動的半自動軟件）在測試期間自行接入開放網絡，入侵開源平台 Hugging Face；OpenAI當時稱屬前所未有的網絡事故，其後再爆出入侵澳洲政府網站等事故。 2026年9月28日，圖為美國人工智能企業OpenAI的標誌，背後是美國國旗。（Reuters） 加州檢察總長邦塔（Rob Bonta）指，該次攻擊是80宗已知失控事故之一，顯示OpenAI防護不足，並警告AI代理有可能入侵電",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "景甜捲「3.9億代孕風波」神隱3個月 現身商場闊綽掃貨狀態極寫意",
-          "url": "https://hk01.com/sns/article/60413879",
-          "publishedAt": "2026-11-23T06:00:25.000Z",
-          "excerpt": "現年38歲的內地劇集一姐景甜，今年8月突然遭加密貨幣波場（TRON）創辦人、身家估計高達665億港元的舊愛孫宇晨入稟起訴追討巨款，更被大爆涉及天文數字的海外代孕羅生門，事件震驚娛樂圈！景甜自8月底發文反擊後便全面絕跡公開場合近三個月，外界盛傳她已遭當局「軟封殺」；豈料近日內地狗仔隊接連捕獲她的最新私下蹤影，其寫意悠閒程度令人大跌眼鏡！ 景甜早前捲「代孕風波」。（微博@景甜） 孫宇晨。（網上圖片） 孫宇晨入稟追討3千萬禮金始末 這場轟動全城的豪門情變風波始於今年8月，孫宇晨在社交平台以《我的女友景甜》為題發表萬字長文，巨細無遺剖白多年來暗戀景甜、由相識到熱戀的經過，更宣布已委託律師向景甜及其父母",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "01觀點｜APEC深圳峰會 照見香港焦慮",
           "url": "https://hk01.com/sns/article/60411354",
           "publishedAt": "2026-11-23T06:00:21.000Z",
           "excerpt": "2026年亞太經合組織（APEC）第33次領導人非正式會議即將於11月18日至19日在深圳拉開帷幕，國家主席習近平與亞太多個主要經濟體領導人齊聚一堂，提倡建立「世界灣區經濟合作聯盟」，並和美國總統特朗普及俄羅斯總統普京舉行峰會，隨後發表《中俄美元首和平宣言》。深圳全城沸騰之際，一河之隔的香港呈現出了一種抽離。 深圳主場沸騰 香港旁觀抽離 這種反差，早在不久前香港舉行APEC財長會議時的波瀾不驚中，便已初露端倪。平情而論，香港人不可能對於這場國際盛事毫無感覺，只是在面對曾經被視為「小老弟」的深圳一躍成為國家主場外交的核心舞台時，或多或少陷入一種難以言說的不知所措，夾雜着不適、疑惑與懵懂——面對時",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "冷待特朗普示好 金正恩迎外國使節遞國書 稱朝鮮不追求霸權擴張",
-          "url": "https://hk01.com/sns/article/60413944",
-          "publishedAt": "2026-11-23T05:57:47.000Z",
-          "excerpt": "朝中社星期一（11月23日）報道，朝鮮領導人金正恩說，朝鮮將致力於提升自身「實力和能力」，以維護國家安全與和平，但不會追求霸權。 金正恩在接受新任駐朝鮮大使遞交國書的儀式上發表了上述講話。上周，美國總統特朗普在深圳參加APEC峰會期間向朝鮮示好，暗示可能與金正恩會面，但遭到冷遇。 據朝中社報道，金正恩在儀式上說：「當今世界正面臨全球範圍內不穩定的安全危機，以及政治和經濟混亂。」 朝中社2026年11月23日報道，朝鮮領導人金正恩在接受新任駐朝鮮大使遞交國書的儀式上發表講話說，朝鮮將致力於提升自身「實力和能力」，以維護國家安全與和平，但不會追求霸權。（Reuters） 「當前國際形勢促使我們重新",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺港智指鄺球稱要與蔡不合作 亦包加多利山的出售事宜",
-          "url": "https://hk01.com/sns/article/60413938",
-          "publishedAt": "2026-11-23T05:57:23.000Z",
-          "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，第三被告鄺港智繼續接受代表其兄鄺港傑的大律師Trevor Beel盤問 。 鄺港智在盤問時透露，其父鄺球曾稱，若蔡不讓他見孫，便會不合作，鄺港智指，不合作的亦包括出售加多利山單位的事宜。其兄的律師不禁懷疑，鄺球已簽下文件，他還可以做甚麼，鄺港智回應：「我唔知佢可以點樣，可以取消又得，之後啲操作唔配合又得。」 律師Beel指鄺球不配合售樓是一派胡言，又指鄺港智的代表律師，在盤問鄺球時，也沒有提及這個說法，鄺港智回應說：「我唔知呢啲嘢喎。」 【蔡天鳳案・專頁】 三名被告：前",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "30內地處級官來港交流1至3個月 楊何蓓茵：共同深化以民為本文化",
-          "url": "https://hk01.com/sns/article/60413939",
-          "publishedAt": "2026-11-23T05:53:39.000Z",
-          "excerpt": "香港特別行政區政府與粵港澳大灣區內地城市，以及北京、上海、重慶、武漢和杭州合辦「公務員交流計劃」，新一批共30名內地公務員將由今日（11月23日）起在特區政府相關部門展開為期四周至三個月的交流。公務員事務局局長楊何蓓茵今日出席為內地赴港交流人員而設的啟導課程開班儀式，並與交流人員會面。 特區政府與粵港澳大灣區內地城市，以及北京、上海、重慶、武漢和杭州合辦「公務員交流計劃」，新一批共30名內地公務員將由11月23日起在特區政府相關部門展開為期四周至三個月的交流。公務員事務局局長楊何蓓茵（第一排中）及公務員學院院長郭蔭庶（第一排右五）與參與交流的內地公務員等合照。（政府新聞處） 楊何蓓茵：公務員必",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "電費調整明日公布 港燈先派糖 明年撥7800萬元支援基層及中小企",
-          "url": "https://hk01.com/sns/article/60413916",
-          "publishedAt": "2026-11-23T05:50:28.000Z",
-          "excerpt": "港燈今日（23日）宣布，2027年將撥款7,800萬元推行優化版「智惜用電服務」，包括為合資格劏房租戶提供每戶1,000元電費津貼、派發200元現金券及贈送降溫設備等措施支援弱勢社群減輕能源開支，另一方面擴大樓宇節能資助範圍並加快交通工具電氣化，配合香港低碳轉型。 港燈宣布，2027年將撥款7,800萬元，為合資格劏房租戶提供每戶1,000元電費津貼、派發200元現金券及贈送降溫設備等，支援弱勢社群減輕能源開支。（資料圖片） 港燈今日公布，將於2027年撥款7,800萬元推行優化版「智惜用電服務」，港燈客戶服務總經理梁偉堅表示，隨着電氣化應用日益普及，希望優化和延續「智惜用電服務」旗下各項服務",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "國產郵輪愛達‧花城號今抵港 羅淑佩：上船即感受到國家郵輪實力",
-          "url": "https://hk01.com/sns/article/60413891",
-          "publishedAt": "2026-11-23T05:19:11.000Z",
-          "excerpt": "最大國產郵輪愛達·花城號日前展開商業首航，今日（23日）搭載逾3,800名旅客駛抵啟德郵輪碼頭。駐港辦副主任張勇、文體旅局局長羅淑佩、旅發局主席林建岳等旅遊業界人士出席歡迎儀式。羅淑佩表示，踏上郵輪時，立刻能感受國家建造郵輪實力，又邀請旅客停留香港時，去市區「多走走、多逛逛」，感受香港獨特魅力。 愛達花城號今日抵港，舉行歡迎儀式。（方承恩攝） 愛達花城號今日抵港，舉行歡迎儀式。（方承恩攝） 羅淑佩表示，踏上郵輪時，立刻能感受國家建造郵輪實力，邀請旅客停留香港時，去市區「多走走、多逛逛」，感受香港獨特魅力。（方承恩攝） 羅淑佩邀旅客去市區「多走走、多逛逛」 感受香港獨特魅力 羅淑佩致詞時表示，踏",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11958,47 +11996,15 @@
           "category": "Hong Kong"
         },
         {
-          "title": "薄扶林七旬婦斑馬線捱客貨車撞 飛彈倒地昏迷危殆 留醫6日不治",
-          "url": "https://hk01.com/sns/article/60413772",
-          "publishedAt": "2026-11-22T15:14:13.000Z",
-          "excerpt": "薄扶林置富道發生致命交通意外。上周一（16日）上午8時許，一名73歲婦人遭一輛客貨車撞倒，當場昏迷。救援人員接報趕至現場，將傷者送往瑪麗醫院搶救，情況一直危殆。老婦在醫院留醫6日，延至昨日（21日/星期六）晚上10時57分，由醫護人員證實不治。警方正調查意外成因。 現場遺下一個紙袋、一隻涼鞋及一條珠鏈。（黃學潤攝） 據了解， 涉事客貨車剛在置富南區廣場卸貨區完成卸貨 ，駛出後右轉入置富道，途至一處斑馬線，一名姓方73歲婦人從客貨車左車頭嘗試橫過馬路，客貨車疑收掣不及將老婦撞到，事主捱撞後飛彈倒地，隨即陷入昏迷。救護員到場為女傷者進行急救，她昏迷由救護車送往醫院搶救。 現場所見，馬路上遺有血跡，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "選委會選舉2026｜投票結果全名單 誰人當選、爆冷墮馬一文看清",
           "url": "https://hk01.com/sns/article/60413766",
           "publishedAt": "2026-11-22T14:55:14.000Z",
           "excerpt": "【選委會選舉／選委會選舉2026／選委會結果】選舉委員會界別分組選舉今日（11月22日）結束，5640人投票，投票率98.79%。選委會40個界別分組，共有36個分組共982席需經選舉產生候選人，而今屆有31個組別獲提名候選人超過該組別席位，需要透過投票決定席位歸屬，合共有856名候選人競逐723個席位。 投票由今日早上9時開始，下午6時結束，點票由下午6時30分左右開始，歷時近4小時完成，多名政商界名人順利當選，但財經事務及庫務局前局長陳家強、香港總商會總裁楊偉添、律師會會長湯文龍等人意外「墮馬」。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 2026選委會選舉 第",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "寶勒巷1死3傷車禍｜死者頭部重創 38歲私家車司機涉酒駕危駕被捕",
-          "url": "https://hk01.com/sns/article/60413732",
-          "publishedAt": "2026-11-22T14:25:39.000Z",
-          "excerpt": "尖沙咀寶勒巷今午（22日）發生嚴重車禍，一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一名非華裔男子頭部重創不治，肇事司機逃逸。警方事後拘捕一名懷疑涉案38歲姓倪男子。直到傍晚6時許，警方押解被捕男子，返回車禍現場進行蒐證工作。其間，被捕男子黑布蒙頭、鎖上手扣及腰纏鐵鏈，站在其私家車外。 警方今晚召開記者會交代案情，指被捕男司機體內酒精濃度超過法例訂明限度，遂以涉嫌「酒後駕駛」及「危險駕駛導致他人死亡」將其拘捕。同時呼籲任何途人或駕駛者目睹意外發生經過，或有任何資料提供，請致電3661 9188聯絡西九龍交通部特別調查隊第一隊。據悉被捕男司機的職業、涉案女乘客的下落及兩人的關",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "寶勒巷車禍｜事前舞龍撞貨車路牌司機逃去 途人尾隨撿車匙交警方",
-          "url": "https://hk01.com/sns/article/60413748",
-          "publishedAt": "2026-11-22T13:02:11.000Z",
-          "excerpt": "尖沙咀寶勒巷今午（22日）發生嚴重車禍，一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一人傷重不治，肇事司機逃逸。警方事後拘捕一名懷疑涉案38歲姓倪男子。直到傍晚6時許，被捕男子黑布蒙頭、鎖上手扣及腰纏鐵鏈，被警方押解返回車禍現場進行蒐證工作。有警犬奉召到場，在車內搜索有無可疑物品或違禁品。 初步得悉，涉案的白色寶馬私家車，於事發前先在緬甸臺撞毀一支交通路牌；經麼地道轉入赫德道後，再撞毀一輛停在路邊的客貨車，沿途宛如「舞龍」。私家車再繼續轉入寶勒巷，剷上行人路並撞向4名途人，造成1死3傷車禍。該名男司機與女乘客意外後離開車廂逃離現場，有途人見狀立即撿起私家車車匙，並尾隨涉案司",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "郭政鴻62歲生日獲佘詩曼苗僑偉到賀 圈外靚老婆激罕露面搶盡焦點",
-          "url": "https://hk01.com/sns/article/60413615",
-          "publishedAt": "2026-11-22T11:00:57.000Z",
-          "excerpt": "剛於本月18日迎來62歲生日的郭政鴻，一如往年在小紅書貼出生日飯局短片分享喜悅。向來在圈中人緣極佳的他，今年壽宴依舊星光熠熠，獲佘詩曼、苗僑偉、吳卓羲、陶大宇、陳山聰與兒子Jaco、胡炯龍及梁靖琪等一眾視帝視后級好友抽空到賀，眾人更特意送上寫有「南拳王 DEREK」字樣的3D立體拳王蛋糕祝壽；然而在一片明星大合照之中，全場焦點卻被一位極少在鏡頭前曝光的神秘嘉賓搶盡！ 郭政鴻日前迎來62歲生日。（小紅書@郭政鴻） 完全睇唔出已經62歲。（小紅書@郭政鴻） 吳卓羲攬到郭政鴻實一實。（小紅書@郭政鴻） 搭晒膊頭，真係好兄弟。（小紅書@郭政鴻） 圈外靚老婆激罕露面 而這位搶去全場視帝視后風頭的，正是向",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "有線新聞",
@@ -12006,6 +12012,38 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "時事HOY角度｜立法會議員卜國明—《建築物條例》修訂草案",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526846/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%AB%8B%E6%B3%95%E6%9C%83%E8%AD%B0%E5%93%A1%E5%8D%9C%E5%9C%8B%E6%98%8E-%E5%BB%BA%E7%AF%89%E7%89%A9%E6%A2%9D%E4%BE%8B-",
+          "publishedAt": "2026-11-23T07:17:15.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜社會福利界當選人余秀珠、基層社團界當選人顏汶羽—選委會選舉結果分析",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526845/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E7%95%8C%E7%95%B6%E9%81%B8%E4%BA%BA%E4%BD%99%E7%A7%80%E7%8F%A0-%E5%9F%BA%E5%B1%A4%E7%A4%BE%E5%9C%98",
+          "publishedAt": "2026-11-23T07:16:59.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "時事HOY角度｜香港再出發大聯盟秘書長譚耀宗—選委會選舉結果分析",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526844/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E9%A6%99%E6%B8%AF%E5%86%8D%E5%87%BA%E7%99%BC%E5%A4%A7%E8%81%AF%E7%9B%9F%E7%A7%98%E6%9B%B8%E9%95%B7%E8%AD%9A%E8%80%80%E5%AE%97-%E9%81%B8",
+          "publishedAt": "2026-11-23T07:16:42.000Z",
+          "excerpt": "",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "樓盤傳真 21/11/2026",
+          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/526834/%E6%A8%93%E7%9B%A4%E5%82%B3%E7%9C%9F-21-11-2026",
+          "publishedAt": "2026-11-23T06:55:16.000Z",
+          "excerpt": "《樓盤傳真》同大家傾下油塘擎海II開出首批128伙，折實平均呎價14,611元，較I期首批開價高近5%，是否值",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "MotoGP｜落後102分上演大逆轉 馬基斯提前衛冕 平紀錄8奪總冠軍",
           "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526826/motogp-%E8%90%BD%E5%BE%8C102%E5%88%86%E4%B8%8A%E6%BC%94%E5%A4%A7%E9%80%86%E8%BD%89-%E9%A6%AC%E5%9F%BA%E6%96%AF%E6%8F%90%E5%89%8D%E8%A1%9B%E5%86%95-%E5%B9%B3%E7%B4%80%E9%8C%848",
@@ -12133,41 +12171,9 @@
           "excerpt": "【有線新聞】受人工智能板塊投資氣氛拖累，區內股市持續受壓，內地三大交易所上日宣布，下周一起調低孖展比例要求，而",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "蔡天鳳案｜鄺港智自爆仍與蔡保持性關係 形容譚方駿三人關係如家人",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526761/%E8%94%A1%E5%A4%A9%E9%B3%B3%E6%A1%88-%E9%84%BA%E6%B8%AF%E6%99%BA%E8%87%AA%E7%88%86%E4%BB%8D%E8%88%87%E8%94%A1%E4%BF%9D%E6%8C%81%E6%80%A7%E9%97%9C%E4%BF%82-%E5%BD%A2%E5%AE%B9%E8%AD%9A",
-          "publishedAt": "2026-11-23T04:34:26.000Z",
-          "excerpt": "【有線新聞】蔡天鳳碎屍案，鄺港智供稱曾向蔡天鳳說，若禁止鄺球見孫，鄺球所有事情都不會配合，相信包括賣樓事宜。",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "周末一手成交約30宗 二手買賣最多有10宗",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/526767/%E5%91%A8%E6%9C%AB%E4%B8%80%E6%89%8B%E6%88%90%E4%BA%A4%E7%B4%8430%E5%AE%97-%E4%BA%8C%E6%89%8B%E8%B2%B7%E8%B3%A3%E6%9C%80%E5%A4%9A%E6%9C%8910%E5%AE%97",
-          "publishedAt": "2026-11-23T04:32:50.000Z",
-          "excerpt": "【有線新聞】新盤市場轉趨靜局，過去周末錄得約30宗一手成交，按周少約六成。二手市場方面，代理統計的十大屋苑成交",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "建築物條例修例｜樓宇大維修擬納新工程類別 料審批時間長 何珮玲冀引入競爭降低價格",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526754/%E5%BB%BA%E7%AF%89%E7%89%A9%E6%A2%9D%E4%BE%8B%E4%BF%AE%E4%BE%8B-%E6%A8%93%E5%AE%87%E5%A4%A7%E7%B6%AD%E4%BF%AE%E6%93%AC%E7%B4%8D%E6%96%B0%E5%B7%A5%E7%A8%8B%E9%A1%9E%E5%88%A5-%E6%96%99",
-          "publishedAt": "2026-11-23T04:32:44.000Z",
-          "excerpt": "【有線新聞】發展局提出修訂《建築物條例》及成立樓宇維修支援及服務局，發展局常任秘書長何珮玲表示，日後大維修會歸",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "陳健波12月接任醫管局主席 盧寵茂：相信能以宏觀視野推動公營醫療改革",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526751/%E9%99%B3%E5%81%A5%E6%B3%A212%E6%9C%88%E6%8E%A5%E4%BB%BB%E9%86%AB%E7%AE%A1%E5%B1%80%E4%B8%BB%E5%B8%AD-%E7%9B%A7%E5%AF%B5%E8%8C%82-%E7%9B%B8%E4%BF%A1%E8%83%BD%E4%BB%A5%E5%AE%8F%E8%A7%80",
-          "publishedAt": "2026-11-23T04:13:49.000Z",
-          "excerpt": "【有線新聞】政府委任陳健波出任醫院管理局主席，下月一日起生效。 行政長官根據《醫院管理局條例》委任陳健波為醫管",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Now 新聞",
@@ -12216,17 +12222,17 @@
           "category": "Hong Kong"
         },
         {
-          "title": "小一自行分配學位申請人跌一成半 張勇邦：家長搏名校取錄加劇競爭(劉倩桐報道)",
-          "url": "https://news.now.com/home/local/player?newsId=670615",
-          "publishedAt": "2026-11-23T05:41:29.000Z",
+          "title": "時事全方位｜修訂建築物條例(一)",
+          "url": "https://news.now.com/home/local/player?newsId=670565",
+          "publishedAt": "2026-11-23T05:41:00.000Z",
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
         },
         {
-          "title": "時事全方位｜修訂建築物條例(一)",
-          "url": "https://news.now.com/home/local/player?newsId=670565",
-          "publishedAt": "2026-11-23T05:41:00.000Z",
+          "title": "小一自行分配學位申請人跌一成半 張勇邦：家長搏名校取錄加劇競爭",
+          "url": "https://news.now.com/home/local/player?newsId=670615",
+          "publishedAt": "2026-11-23T05:39:00.000Z",
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
@@ -12248,7 +12254,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "電費調整｜中電及港燈燃料費較年初升逾兩成及五成 分別撥2.5億及7800萬支援基層及中小企(湯偉圓報道)",
+          "title": "電費調整｜中電及港燈燃料費較年初升逾兩成及五成 分別撥2.5億及7800萬支援基層及中小企",
           "url": "https://news.now.com/home/local/player?newsId=670600",
           "publishedAt": "2026-11-23T05:17:29.000Z",
           "excerpt": "",
@@ -12264,7 +12270,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "選委會選舉｜工聯會選委會贏79席勝上屆 劉兆佳︰知名度高候選者落敗證選舉存真正競爭(鄔卓然報道)",
+          "title": "選委會選舉｜工聯會選委會贏79席勝上屆 劉兆佳︰知名度高候選者落敗證選舉存真正競爭",
           "url": "https://news.now.com/home/local/player?newsId=670598",
           "publishedAt": "2026-11-23T04:47:29.000Z",
           "excerpt": "",
@@ -12272,7 +12278,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "蔡天鳳碎屍案｜鄺港智否認與譚方駿是性伴侶 譚或一直知他與蔡天鳳有性關係(張曼琳報道)",
+          "title": "蔡天鳳碎屍案｜鄺港智否認與譚方駿是性伴侶 譚或一直知他與蔡天鳳有性關係",
           "url": "https://news.now.com/home/local/player?newsId=670597",
           "publishedAt": "2026-11-23T04:46:29.000Z",
           "excerpt": "",
@@ -12336,7 +12342,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12505,7 +12511,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12514,10 +12520,26 @@
       "count": 20,
       "stories": [
         {
-          "title": "中電2.5億推社區支援計劃 基層家庭電費補助每戶600元資助",
+          "title": "香港郵政呼籲市民慎防偽冒虛假網站",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878934-20261123.htm",
+          "publishedAt": "2026-11-23T07:03:24.000Z",
+          "excerpt": "香港郵政呼籲市民提高警覺，留意偽冒虛假網址，慎防冒認香港郵政發出的虛假短訊或電郵，附有超連結至相關偽冒網址，要求收件人提供個人資料或支付郵費。香港郵政已將事件轉交警方處理。 香港郵政官方網站網址為「hongkongpost.hk」、「hongkongpost.gov.hk」及「ecert.gov.hk」，強調只會以「#HKPost」名稱向本地流動電話服務用戶發出短訊，及以「@hkpo.gov.hk」或「@hongkongpost.hk」作為電郵域名發出電郵，重申不會透過電郵、短訊或社交媒體發送超連結以收取款項及收集個人資料。 市民如有查詢，可致電香港郵政查詢熱線2921 2222或電郵至hkp",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "楊何蓓茵與內地赴港交流公務員會面 深化合作",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878933-20261123.htm",
+          "publishedAt": "2026-11-23T06:57:37.000Z",
+          "excerpt": "特區政府繼續與粵港澳大灣區內地城市，北京、上海、重慶、武漢和杭州合辦「公務員交流計劃」，新一批共30名內地公務員今日起，在特區政府相關部門展開為期4星期至3個月的交流。 公務員事務局局長楊何蓓茵出席相關啓導課程開班儀式，並與交流人員會面。公務員學院院長郭蔭庶一同出席。楊何蓓茵致辭時，感謝國務院港澳辦和各參與城市對交流計劃的支持，表示公務員是政府推動和執行政策的核心骨幹，表現直接影響市民對政府的信心和評價，必須時刻以市民利益為優先考慮，以實際工作成效回應社會期望。 她指出，本港第一個五年規劃與施政報告均提出強化公務員制度體系，提升公共治理能力。通過「公務員交流計劃」，內地與本港公務員可暫駐對方政",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "立法會明日討論兩電電費檢討 莊偉茵：中電會控制好電費調整",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1878929-20261123.htm",
           "publishedAt": "2026-11-23T05:45:14.000Z",
-          "excerpt": "中電公布於明年透過中電社區節能基金撥款2億5千萬元，推出一系列社區支援計劃。當中用於支援弱勢社群的撥款8千萬元，較去年增加超過三成。 中電表示，為紓緩弱勢社群生活壓力，會將基層家庭電費補助計劃的撥款由今年的5千萬元增加至6千萬元，受惠家庭增至約93000個，較去年增加約20000個，當中約83000個為65歲或以上的單老或雙老家庭、低收入及殘疾人士家庭，每戶可獲600元電費資助。另外約10000個將會過渡至「簡樸房」的分間單位家庭，每戶可獲1000元電費資助。 中電又說，有關計劃推行7年以來，累計撥款額約2億7千萬元，受惠家庭約40萬個。 被問到明年電費價格調整，中電企業發展總裁莊偉茵表示，中",
+          "excerpt": "中電企業發展總裁莊偉茵表示，中電明天會在立法會環境事務委員會會議介紹電費調整方案。她表示，在能源的地緣政治下，對能源供應及成本有很大壓力，中電會透過多元化的燃料組合，給予平衡安排，確保能源供應不會受地緣政治問題衝擊，中電會繼續透過不同的燃料組合及控制成本，從而控制好電費調整。 另外，中電公布於明年透過中電社區節能基金撥款2億5千萬元，推出一系列社區支援計劃。當中用於支援弱勢社群的撥款8千萬元，較去年增加超過三成。 中電表示，為紓緩弱勢社群生活壓力，會將基層家庭電費補助計劃的撥款由今年的5千萬元增加至6千萬元，受惠家庭增至約93000個，較去年增加約20000個，當中約83000個為65 歲或以",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
         },
@@ -12656,25 +12678,9 @@
           "excerpt": "國家主席習近平早前到內蒙古烏蘭察布考察時表示，算力産業正處在加速發展階段，實施「東數西算」工程、構建全國一體化算力網，是中共中央一項重要部署。 城大計算學院副院長王詩淇接受本台節目《看神州》訪問表示，人工智能需要算力，算力要有較好的製冷條件。「東數西算」工程是國家一個全盤的規劃和戰略，因為東部擁有應用場景和數據計算的需求，西部則在風能、水能、天氣等方面有優勢，形容是天時地利人和。至於「東數西算」工程面對的痛點，王詩淇指出，網絡傳輸會遇到延遲，算力亦在硬件、軟件方面有不同規格和型號，有需要調度算力，並建立統一標準和接口來進行計算。 對於習近平表示要注重「算電協同」、「算水協同」，王詩淇分析，算力",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "港鐵：何文田站附近信號設備事故已處理 觀塘綫服務陸續恢復正常",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878888-20261123.htm",
-          "publishedAt": "2026-11-23T01:14:02.000Z",
-          "excerpt": "港鐵表示，何文田站附近的信號設備事故已處理，觀塘綫列車服務陸續恢復正常。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "港鐵何文田站附近信號故障 觀塘綫行車時間須額外10至15分鐘",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878883-20261123.htm",
-          "publishedAt": "2026-11-23T01:05:01.000Z",
-          "excerpt": "港鐵表示，何文田站附近有信號設備故障，列車行經該路段需要慢駛，觀塘綫整體行車時間預計需要額外10至15分鐘。 港鐵人員正在處理，提醒乘客為行程預留充裕時間。 編輯：譚佩貞",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "South China Morning Post",
@@ -12843,7 +12849,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12851,6 +12857,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "​行政長官會見2026年上海世界技能大賽香港代表團致辭（只有中文）",
+          "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300460.htm",
+          "publishedAt": "2026-11-23T07:15:00.000Z",
+          "excerpt": "以下是行政長官李家超今日（十一月二十三日）會見2026年上海世界技能大賽香港代表團的致辭： 各位嘉賓、各位同學： 大家好。首先熱烈歡迎2026年世界技能大賽中國香港代表團各位成員凱旋而歸！ 世界技能大賽被譽為「技能界的奧林匹克」，是全球技能領域中最具規模、最具代表性的比賽，今屆技能大賽首次由國家在上海主辦。 面對來自全球近70個國家和地區、超過1 400名選手的激烈競爭，我們中國香港代表團派出41位技能精英角逐37個項目，參賽人數和項目的總體數目都創了歷屆新高。 香港的選手憑藉精湛工藝和拼搏精神，在大賽中刷新香港歷屆最佳成績，包括在軌道車輛技術項目奪得銀牌，並在14個項目中奪得優異獎章。你們向",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "轉數快系統於十一月二十九日進行系統提升",
+          "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300444.htm",
+          "publishedAt": "2026-11-23T07:00:00.000Z",
+          "excerpt": "下稿代香港金融管理局發出︰ 因應負責營運轉數快系統的香港銀行同業結算有限公司計劃於十一月二十九日（星期日）凌晨一時至早上十一時就轉數快進行系統提升，轉數快系統將於此時段內暫停服務。 &nbsp; 香港金融管理局已要求銀行和儲值支付工具營運商預早及適時通知客戶相關安排。市民可以聯絡其銀行或儲值支付工具營運商，查詢受轉數快系統提升影響的相關服務詳情。如有需要，市民請提前為其繳付項目作出安排。",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "文化體育及旅遊局局長出席「愛達·花城號」郵輪香港首訪歡迎儀式致辭（只有中文）",
+          "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300404.htm",
+          "publishedAt": "2026-11-23T06:18:00.000Z",
+          "excerpt": "以下是文化體育及旅遊局局長羅淑佩今日（十一月二十三日）出席「愛達&middot;花城號」郵輪香港首訪歡迎儀式的致辭全文： 尊敬的張勇副主任（中央人民政府駐香港特別行政區聯絡辦公室副主任）、石岱董事長（中國旅遊集團有限公司（中旅集團）董事長）、各位尊敬的嘉賓、各位朋友： 大家早上好。今天我非常高興來到啟德郵輪碼頭，登上萬眾期待、國家第二艘國產大型郵輪「愛達&middot;花城號」，與大家共同見證它首次到訪香港的歷史性時刻。我謹代表香港特區政府，熱烈歡迎「愛達&middot;花城號」蒞臨香港，並向中國旅遊集團、華夏郵輪及愛達郵輪致以衷心祝賀。 當我踏上這艘總噸位超過14萬噸、載客量逾5 200人的",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "香港郵政提醒市民慎防偽冒香港郵政的虛假網站",
           "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300350.htm",
@@ -12986,36 +13016,30 @@
           "excerpt": "以下為二○二六年選舉委員會界別分組一般選舉31個有競逐界別分組，於今日（十一月二十二日）舉行的投票中當選的723名候選人： 飲食界 －－－ 陳家強 楊位醒 鄭栢文 鍾偉平 吳德曉 莊 裕坤 楊浩宏 梁振華 盛智文 吳子文 楊振年 胡珠 凌偉業 譚家良 盧浩宏 王偉樑 商界（第一） －－－－－－ 林健鋒 Bradley Guy Martin Coutts 阮蘇少湄 欣榮 霍啟山 李家 聰 余國賢 陳豪賢 高美懿（梁高美懿） 楊美珍 于健安 梁兆基 馮玉麟 伍俊達 陳細明 洪丕正 陳凱 商界（第二） －－－－－－ 陳幼南 王紹基 方添輝 王淑慈 楊華勇 莊學山 謝湧海 陳斌 李德剛 楊振鑫（楊釗）",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "​選舉委員會界別分組一般選舉圓滿舉行",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200679.htm",
-          "publishedAt": "2026-11-22T14:55:00.000Z",
-          "excerpt": "行政長官李家超今日（十一月二十二日）向二○二六年選舉委員會（選委會）界別分組一般選舉當選委員致賀並發表以下聲明： 二○二六年選委會界別分組一般選舉已圓滿舉行。我代表特區政府祝賀所有當選委員。 選委會由40個界別分組共1&nbsp;500人組成，具廣泛代表性和符合均衡參與原則，在完善選舉制度、落實「愛國者治港」原則下肩負重要的法定職能。是次選舉在36個界別分組中，有31個界別分組需要競逐，合共有856名獲有效提名候選人競逐723個席位。自提名期開始以來，不同界別分組的候選人積極向界別分組內各個團體、投票人等介紹政綱、分享理念、交流互動、凝聚共識、爭取支持。選舉充分展現了有擔當、有能力、有作為的愛",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選舉委員會界別分組一般選舉點票順利完成（附圖）",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200576.htm",
-          "publishedAt": "2026-11-22T14:47:24.000Z",
-          "excerpt": "下稿代選舉管理委員會發出： 二○二六年選舉委員會（選委會）界別分組一般選舉的點票工作於今日（十一月二十二日）晚上十時十五分順利完成。今日下午六時投票結束後，點票工作於票箱運抵中央點票站後隨即展開，點票工作用了約三小時四十五分鐘完成。31個須競逐的界別分組的選舉結果，已經在選舉網站（ www.elections.gov.hk ）公布。 選舉管理委員會（選管會）主席陸啟康法官總結選舉時說：「是次選舉共有5 640名投票人投票，累積投票率為98.79%。選委會界別分組一般選舉使用電子點票系統點票，過程順利。整體而言，投票和點票過程都十分暢順，各項選舉安排都能體現到公開、誠實和公平的原則。選管會滿意整",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "選舉委員會界別分組一般選舉結果（新界分區委員會、地區撲滅罪行委員會及地區防火委員會委員的代表）",
-          "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200726.htm",
-          "publishedAt": "2026-11-22T14:42:42.000Z",
-          "excerpt": "選舉委員會新界分區委員會、地區撲滅罪行委員會及地區防火委員會委員的代表界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 陳國旗＊ 783 2 林宇星＊ 762 3 王惠成＊ 733 4 胡綽謙＊ 877 5 高維基＊ 695 6 曾國家＊ 747 7 簡兆祺＊ 679 8 温和 達 ＊ 810 9 何國光＊ 860 10 張柏源＊ 734 11 侯漢碩＊ 899 12 梁嘉銘＊ 928 13 朱浩賢＊ 701 14 曾勁聰＊ 725 15 賴俊榮 535 16 周天意＊ 663 17 賴心＊ 778 18 梅政雄＊ 743 19 宋冰冰＊ 805 20 林港坤＊ 834 21 ",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T06:17:18.394Z"
+      "lastSuccessfulAt": "2026-11-23T07:17:22.837Z"
     }
   ],
   "stories": [
+    {
+      "title": "CollectWise (YC F24) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/collectwise/jobs/lgobCse-founding-customer-success-manager",
+      "publishedAt": "2026-11-23T07:01:08.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50608390"
+    },
+    {
+      "title": "Yes, 17M lines of Lean is a lot",
+      "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+      "publishedAt": "2026-11-23T05:00:49.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50607668"
+    },
     {
       "title": "A Partial Evaluator for C",
       "url": "https://phoenix.labri.fr/software/tempo/",
@@ -13179,24 +13203,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50602843"
     },
     {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
-      "publishedAt": "2026-11-22T17:06:27.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50601525"
-    },
-    {
-      "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
-      "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
-      "publishedAt": "2026-11-22T15:35:24.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50600622"
-    },
-    {
       "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
       "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
       "publishedAt": "2026-11-23T03:00:00.000Z",
@@ -13277,18 +13283,18 @@
       "category": "Technology"
     },
     {
-      "title": "Your questions about Apple HomeView’s audio, answered",
-      "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
-      "publishedAt": "2026-11-22T13:00:00.000Z",
-      "excerpt": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. H",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
       "title": "The vibe-coding revolution is coming to all the gadgets",
       "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
       "publishedAt": "2026-11-22T13:00:00.000Z",
       "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things wit",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Your questions about Apple HomeView’s audio, answered",
+      "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "publishedAt": "2026-11-22T13:00:00.000Z",
+      "excerpt": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. H",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -14222,6 +14228,28 @@
       "sourceRole": "community"
     },
     {
+      "title": "Chinese physical AI startup Simplexity Robotics raised a $100M pre-Series A led by Ant Group, with Alibaba, Tencent, and others joining, at a $1.6B valuation (Saritha Rai/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race",
+      "publishedAt": "2026-11-23T07:01:27.000Z",
+      "excerpt": "Saritha Rai / Bloomberg : Chinese physical AI startup Simplexity Robotics raised a $100M pre-Series A led by Ant Group, with Alibaba, Tencent, and others joining, at a $1.6B valuation &nbsp; &mdash;&nbsp; Chinese physical AI startup Simplexity Robotics received $100 million in a funding round led by",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261123/p4#a261123p4",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Compute Desk, which is building capital markets infrastructure to price, trade, hedge, and clear compute, raised a $45M seed round led by Lightspeed (Lucinda Shen/Axios)",
+      "url": "https://www.axios.com/pro/all-deals/2026/11/17/compute-pricing-startup-compute-desk-45-million-lightspeed",
+      "publishedAt": "2026-11-23T06:40:01.000Z",
+      "excerpt": "Lucinda Shen / Axios : Compute Desk, which is building capital markets infrastructure to price, trade, hedge, and clear compute, raised a $45M seed round led by Lightspeed &nbsp; &mdash;&nbsp; Compute Desk, a startup aiming to make compute an asset that can be traded and hedged, raised $45 million i",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261123/p3#a261123p3",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "New US chip export rules threaten SEA's data center boom, risking incomplete and abandoned projects and forcing neoclouds to replace their Chinese customers (Bloomberg)",
       "url": "https://www.bloomberg.com/news/features/2026-11-22/trump-s-ai-chip-crackdown-on-china-after-nvidia-crisis-squeezes-southeast-asia?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTQwNzgwMCwiZXhwIjoxNzk2MDEyNjAwLCJhcnRpY2xlSWQiOiJUT1hCU0RLR0lGUTMwMCIsImJjb25uZWN0SWQiOiJDNTc5RDIwMDZBQjQ0RjRDODkwMTU0M0U0ODMxNkJCNiJ9.3vmQa_rIIOmutX3CrjU1ib8_jJyygL3HHaYJC4NpNfo",
       "publishedAt": "2026-11-23T06:02:06.000Z",
@@ -14247,7 +14275,7 @@
       "title": "South Korean PE firm MBK Partners agrees to take Japan's Wacom private, in a deal valuing the digital pen tech company at ~$860M, with Samsung participating (Kim Woo-young/CHOSUNBIZ)",
       "url": "https://biz.chosun.com/en/en-international/2026/11/21/ARGP75AUBRFRJOU4M7PGDQTPOI/",
       "publishedAt": "2026-11-23T04:40:00.000Z",
-      "excerpt": "Kim Woo-young / CHOSUNBIZ : South Korean PE firm MBK Partners agrees to take Japan's Wacom private, in a deal valuing the digital pen tech company at ~$860M, with Samsung participating &nbsp; &mdash;&nbsp; 조선비즈 구글 검색 먼저 보기",
+      "excerpt": "Kim Woo-young / CHOSUNBIZ : South Korean PE firm MBK Partners agrees to take Japan's Wacom private, in a deal valuing the digital pen tech company at ~$860M, with Samsung participating &nbsp; &mdash;&nbsp; Private equity firm MBK Partners will acquire Wacom, a Japanese company that supplies core tec",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261122/p20#a261122p20",
@@ -14333,7 +14361,7 @@
     },
     {
       "title": "How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and \"Vision Quest\" talks, as Anthropic seeds his ideas with opinion-makers (Nitasha Tiku/Washington Post)",
-      "url": "https://www.washingtonpost.com/technology/2026/11/22/inside-an-ai-prophets-secretive-plans-humanitys-future/",
+      "url": "https://www.washingtonpost.com/technology/2026/11/22/inside-an-ai-prophets-secretive-plans-humanitys-future/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzk1MzIzNjAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzk2NzA1OTk5LCJpYXQiOjE3OTUzMjM2MDAsImp0aSI6Ijk5ZmVmZjUzLTFhNGQtNGUyYy04OTc2LTExMzI3OTY5YWQwOCIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMTEvMjIvaW5zaWRlLWFuLWFpLXByb3BoZXRzLXNlY3JldGl2ZS1wbGFucy1odW1hbml0eXMtZnV0dXJlLyJ9.QMKPkoAM4BCMZu1B31lkK38QVtCyp1tud0o9KvcKB3o&itid=gfta",
       "publishedAt": "2026-11-22T23:20:08.000Z",
       "excerpt": "Nitasha Tiku / Washington Post : How Dario Amodei built Anthropic's tightly knit culture with essays, Slack memos, and &ldquo;Vision Quest&rdquo; talks, as Anthropic seeds his ideas with opinion-makers &nbsp; &mdash;&nbsp; Anthropic is worth more than $1 trillion.&nbsp; CEO Dario Amodei also wants t",
       "source": "Techmeme",
@@ -14361,28 +14389,6 @@
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261122/p10#a261122p10",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains (Jakub Pachocki/OpenAI)",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "publishedAt": "2026-11-22T18:25:01.000Z",
-      "excerpt": "Jakub Pachocki / OpenAI : OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains &nbsp; &mdash;&nbsp; - Difficulty of comparison across labs. &hellip; - Detachment from actionable evaluations. &",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261122/p9#a261122p9",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals (Reuters)",
-      "url": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
-      "publishedAt": "2026-11-22T17:15:01.000Z",
-      "excerpt": "Reuters : Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals &nbsp; &mdash;&nbsp; For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-se",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261122/p8#a261122p8",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
     },
@@ -14783,10 +14789,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "AirPods Pro 3 just got even cheaper, now $169 ($80 off)",
+      "title": "AirPods Pro 3 just got even cheaper, now $149 ($100 off)",
       "url": "https://9to5mac.com/2026/11/22/airpods-pro-3-just-got-even-cheaper-now-169-80-off/",
       "publishedAt": "2026-11-22T10:15:48.000Z",
-      "excerpt": "Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with a solid $80 discount to $169.99 shipped – within $1 of the best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up again this weekend with the first discount on Apple’s brand ",
+      "excerpt": "Update 11/23: Amazon just dropped the price on AirPods Pro 3 again to an incredible $149 shipped – that’s the Amazon all-time low at $100 off. Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with a solid $80 discount to $169.99 shipped – within $1 of the best price ever. Amazon’s",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15512,19 +15518,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Why has North Korea redesigned its flag? It's not about aesthetics...",
-      "url": "https://www.creativebloq.com/news/why-has-north-korea-redesigned-its-flag-its-not-about-aesthetics",
+      "title": "How to pick the right website template for your creative business",
+      "url": "https://www.creativebloq.com/features/how-to-pick-the-right-website-template-for-your-creative-business",
       "publishedAt": "2026-11-21T08:00:00.000Z",
-      "excerpt": "The new proportions are more about power than design.",
+      "excerpt": "Avoid the common mistakes to make sure your website template matches your vision for your brand.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
     },
     {
-      "title": "How to pick the right website template for your creative business",
-      "url": "https://www.creativebloq.com/features/how-to-pick-the-right-website-template-for-your-creative-business",
+      "title": "Why has North Korea redesigned its flag? It's not about aesthetics...",
+      "url": "https://www.creativebloq.com/news/why-has-north-korea-redesigned-its-flag-its-not-about-aesthetics",
       "publishedAt": "2026-11-21T08:00:00.000Z",
-      "excerpt": "Avoid the common mistakes to make sure your website template matches your vision for your brand.",
+      "excerpt": "The new proportions are more about power than design.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -17467,6 +17473,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Adults are buying more toys than ever. You should too.",
+      "url": "https://www.vox.com/explain-it-to-me/511306/kidults-toy-industry-play-brain-benefits",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "excerpt": "Recently, I was out doing some window shopping with one of my friends. We checked out some of our usual places — a makeup store, a clothing store — but the place where my friend’s eyes really lit up was a toy store. There were floor-to-ceiling displays of Labubus and Funko Pops, Jellycats that looke",
+      "source": "Vox",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "America’s most visited national park right now is inside GTA VI",
       "url": "https://www.vox.com/down-to-earth/511310/grand-theft-auto-release-birdwatching-nature",
       "publishedAt": "2026-11-20T15:35:21.000Z",
@@ -17624,15 +17639,6 @@
       "url": "https://www.vox.com/future-perfect/510882/nvidia-jensen-huang-spy-ai-security-openai-anthropic",
       "publishedAt": "2026-11-14T11:00:00.000Z",
       "excerpt": "TORONTO — When a company is building technology that could totally transform the world — technology so high-stakes and secretive that it may underpin the future of geopolitics — you might expect its leaders to have a handle on the basics of security. Basics like, say, not having an extramarital affa",
-      "source": "Vox",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Why online gamblers are obsessed with table tennis",
-      "url": "https://www.vox.com/technology/510152/online-gambling-table-tennis-sports-parlays",
-      "publishedAt": "2026-11-13T11:00:00.000Z",
-      "excerpt": "If you were living in Colorado in May and bet on sports online, you’d statistically have been most likely to bet on professional basketball. Next on the list was baseball. The third-most wagered sport? Table tennis. Colorado is almost certainly not an outlier. Table tennis occupies a similarly high ",
       "source": "Vox",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -21244,6 +21250,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "A Certain Kind of Debt by Sandra Simonds",
+      "url": "https://www.poetryfoundation.org/poetrymagazine/poems/160258/a-certain-kind-of-debt",
+      "publishedAt": "2026-11-23T06:00:00.000Z",
+      "excerpt": "You warned me about striving. You said once they gave you a house with waves of peppermint in the backyard, the Library of Babylon, and free lunch, they would take it away. Still, I ate the fake meat they served on Fridays, always alone with my petite jar of grief. I liked the jar because it gave me",
+      "source": "Poetry Foundation",
+      "category": "Literature"
+    },
+    {
       "title": "LimeWire taught me by KB Brookins",
       "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1826431/limewire-taught-me",
       "publishedAt": "2026-11-22T06:00:00.000Z",
@@ -21392,14 +21406,6 @@
       "url": "https://www.poetryfoundation.org/poetrymagazine/poems/1761421/proof",
       "publishedAt": "2026-11-04T06:00:00.000Z",
       "excerpt": "You have to imagine it: Who said you were too dark/too Large? Too queer/too loud? Who said you were too poor/ Too strange? Too fat? You have to imagine it: Who said you must keep quiet? Who heard your story, then Rolled their eyes? Who tried to change your name To invisible? You’ve got to imagine: W",
-      "source": "Poetry Foundation",
-      "category": "Literature"
-    },
-    {
-      "title": "To a Waterfowl by William Cullen Bryant",
-      "url": "https://www.poetryfoundation.org/poems/51861/to-a-waterfowl",
-      "publishedAt": "2026-11-03T06:00:00.000Z",
-      "excerpt": "Whither, 'midst falling dew, While glow the heavens with the last steps of day, Far, through their rosy depths, dost thou pursue Thy solitary way? Vainly the fowler’s eye Might mark thy distant flight, to do thee wrong, As, darkly seen against the crimson sky, Thy figure floats along. Seek’st thou t",
       "source": "Poetry Foundation",
       "category": "Literature"
     },
@@ -24209,6 +24215,102 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "袁澧林金馬首奪影后！甩花瓶標籤 盤點5位撐起港片90後實力女星",
+      "url": "https://hk01.com/sns/article/60413841",
+      "publishedAt": "2026-11-23T07:10:26.000Z",
+      "excerpt": "第63屆金馬獎昨晚（22日）圓滿舉行，現年33歲的袁澧林（Angela Yuen）憑藉電影《第四幕》的出色表現，第二度入圍金馬獎便成功擊敗《雙囍》余香凝、《謊言生活》梁翠珊、《善男信女》鍾雪瑩及《我們不是陌生人》楊雁雁等強敵，從劉嘉玲手上接過獎座首奪「最佳女主角」。她在台上激動流淚表示「我終於拿影后」，更感性直言獎項不代表終點，未來會繼續探索更多演戲光譜。 過去不時有人感嘆香港影壇女演員青黃不接，但回顧近幾屆金馬獎及金像獎的成績單，一班90後港產片女演員早已用實力打破偏見，一部又一部高口碑作品證明本地影壇並非後繼無人，今屆金馬影后五強更出現三位香港90後女演員同場競逐的盛況。《開罐》為大家盤點",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "46歲方力申破紀錄35km港澳橫渡當晚仍開騷 即睇保持體能身材秘訣",
+      "url": "https://hk01.com/sns/article/60413900",
+      "publishedAt": "2026-11-23T07:09:56.000Z",
+      "excerpt": "前香港奧運泳手、藝人方力申（Alex）於11月21日為慈善挑戰人體極限，以46歲之齡挑戰長達35公里的港澳公海海域橫渡壯舉。他最終以8小時37分24秒的佳績游畢全程，不但較預期快了約20分鐘，更一舉打破歷年紀錄。最令人驚訝的是，方力申在耗盡體能上岸後，竟「無縫接力」直奔澳門舞台獻唱，全程中氣十足，狀態令網民大呼佩服。 46歲方力申8.5小時橫渡港澳 破歷來兩泳手紀錄 「凝動全城 破浪傳承：方力申港澳慈善游2026」於當日清晨8時53分正式啟航，方力申由大嶼山最西面的雞翼角下水，橫渡珠江口游往澳門黑沙海灘。翻查資料，方力申是本港歷來第三位挑戰游往澳門的泳手，對上兩次分別是2014年居港英籍泳手S",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "17歲女作息規律竟患肺癌？父室內吸煙成元兇 醫揭三手煙致命危機",
+      "url": "https://hk01.com/sns/article/60413584",
+      "publishedAt": "2026-11-23T07:02:25.000Z",
+      "excerpt": "二手煙的禍害，比你想像中的更隱蔽持久！河南1名無吸煙習慣、作息規律的17歲少女確診肺癌，禍根來自父親長達二十年、從不避開家人的室內吸煙習慣。近年年輕無煙史肺癌個案持續出現，除二手煙外，殘留於衣物、傢俬上的三手煙同屬一類致癌物，毒素可長時間滯留，而抵抗力弱的青少年、長者及孕婦首當其衝。 醫生強調戒煙才能徹底守護家人安全，並提醒高危人士定期做檢查，肺部早期病變徵狀容易和感冒混淆，若出現持續咳嗽超過2周及痰中帶血等情況，應及早就醫。 少女父親煙齡長達20年，在家中吸煙從不迴避家人。（AI生成圖片） 父日吸1包煙不避家人 女兒作息規律突患肺癌 據 內地民生節目《小莉幫忙》報道 ，該名17歲少女日常作息",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "金馬獎2026｜評審內幕曝光 揭袁澧林封后關鍵 舒淇最終奪獎原因",
+      "url": "https://hk01.com/sns/article/60413843",
+      "publishedAt": "2026-11-23T07:00:43.000Z",
+      "excerpt": "第63屆金馬獎頒獎典禮昨圓滿落幕，由《雙囍》和《功夫》獲3項成為大贏家。金馬執委會執行長聞天祥公布評審內幕，整體得獎分布呈現百花齊放、類型多元的態勢，不僅完全沒有「分獎」情況，更沒有任何一部電影拿下超過3個獎項。 本屆評審團在主席張艾嘉的帶領下，至下午3點出頭就順利完成決選。本屆最佳劇情片競爭極為白熱化，首輪所有入圍電影都有票，一路激戰至第3輪才分出勝負，最終集中在《雙囍》與《善男信女》。在討論此項時，主席張艾嘉特別要求每位評審依序、完整地表達自己對「最佳劇情片」的定義與喜好，因此花費了較多時間。 《善男信女》奪最佳劇情片，監製莊麗真上台領獎，她曾擔任《東京攻略》、《夏日麼麼茶》、《一個好爸爸",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "諾麗果功效｜抗氧化抗發炎 7類人慎重吃避副作用 生食/煮熟吃？",
+      "url": "https://hk01.com/sns/article/60400116",
+      "publishedAt": "2026-11-23T07:00:35.000Z",
+      "excerpt": "諾麗果保健食品近年備受討論，究竟諾麗果是什麼？諾麗果的功效跟營養成分有哪些？諾麗果怎麼吃？是否有潛在副作用？ 《Hello醫師》帶您深入了解，並說明食用諾麗果相關製品的注意事項與禁忌。 諾麗果是什麼？ 諾麗果（Noni）又稱蘿苓果、蘿尼果、長壽果或印度桑椹，為檄樹（學名：Morinda citrifolia L.）的果實，其生長範圍遍佈於太平洋群島、東南亞、澳洲和印度；國內也有諾麗果原生種，主要種植於南部區域。 諾麗果是夏威夷與大溪地居民常用的民俗草藥，大小與外觀形似手榴彈，未成熟時，顏色鮮綠，成熟後，顏色變淡且由綠轉黃，並帶有特殊氣味。 相關文章︰ 蘋果營養｜青蘋果維他命C是紅蘋果2倍！營養",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "誰是台灣美食之都？網民自製排行榜列前三名 眾人讚嘉義沒輸台南",
+      "url": "https://hk01.com/sns/article/60412800",
+      "publishedAt": "2026-11-23T07:00:34.000Z",
+      "excerpt": "台灣各地都有代表性美食，一名網友自行整理全台縣市美食排行榜，將各地分成5個梯次，其中台南、嘉義市及台中市被列為第一梯次，新北市則落在第三梯次，排名結果曝光後，引起各地網友關注，也掀起一場美食排名討論。 這名網友在社群平台 「Threads」 分享自己的縣市美食分級，第一梯次「夯」包括台南、嘉義市、台中市；第二梯次「頂級」有高雄市、台北市、彰化縣及基隆市；第三梯次「人上人」則列入屏東縣、雲林縣、新北市、宜蘭縣、澎湖縣及新竹市。 網友在社群平台「Threads」分享自己的縣市美食分級。（threads@wbfw_gw） 第四梯次「普通」包含桃園市、苗栗縣、南投縣、花蓮縣、金門縣、台東縣及嘉義縣，最",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "紐約議員眼球瞬間泛白惹外星人疑雲 急澄清不是蜥蝪人！｜有片",
+      "url": "https://hk01.com/sns/article/60413940",
+      "publishedAt": "2026-11-23T07:00:23.000Z",
+      "excerpt": "美國紐約一段議員在市長記者會上眨眼的影片近日在社交平台瘋傳，因眼球瞬間變白又恢復，看起來相當詭異，引發網民熱議，甚至有人懷疑他是偽裝成人類的「蜥蜴人」，還有人聯想到外星人混入政府的陰謀論。對此，當事人終於出面回應，強調自己當然是人類，並直言不知道影片中的眼睛動作究竟是怎麼回事。 根據《紐約郵報》（New York Post）報道 ，事件發生於11月20日，紐約市長曼達尼（Zohran Mamdani）在市政廳舉行記者會，公布計畫於2032年前關閉雷克斯島（Rikers Island）監獄。當時站在曼達尼身後的紐約州民主黨眾議員萊特（Jordan J.G. Wright），被拍到先露出微笑，隨後",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "堅尼地城地舖980萬放售 業主「心淡」劈價求售 平過兩年前近35%",
+      "url": "https://hk01.com/sns/article/60413851",
+      "publishedAt": "2026-11-23T06:56:16.000Z",
+      "excerpt": "【舖位/中西區/舖位減價/工商舖/零售業】舖市尚未擺脫寒冬，有舖位業主「心淡」劈價求去貨。涉及堅尼地城一個860平方呎地舖，業主開價980萬元放售，呎價約11,395元，較約兩年前放售時1,500萬元的意向價，大劈520萬元或約34.7%。 堅尼地城860呎地舖 最新叫價980萬 利嘉閣(工商舖)地產商業部/商舖部及投資部聯席董事許建方表示，上述放售物業為堅尼地城卑路乍街5至5H號南雄大廈地下5F號舖位連閣樓，建築面積約860平方呎，業主意向售價約980萬元，即意向呎價約為11,395元。物業以交吉形式交易。 許建方補充，上述舖位門闊約14呎，舖深約27呎，可分間出租，並附有洗手間等設施。 堅",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "寶勒巷車禍｜女乘客有無犯法？途人可協助拘捕？陸大狀詳細拆解",
+      "url": "https://hk01.com/sns/article/60413919",
+      "publishedAt": "2026-11-23T06:49:13.000Z",
+      "excerpt": "尖沙咀寶勒巷昨午（22日）發生嚴重車禍，一輛私家車疑失控衝上行人路，再撞到一間地舖，釀成1死3傷，肇事司機一度逃逸。警方事後拘捕38歲姓倪男子，涉嫌「酒後駕駛」及「危險駕駛引致他人死亡」。 從《香港01》接獲的閉路電視片段可見，車上一名女乘客及肇事男司機在意外後未有留在現場協助救援或報警，反而雙雙棄車離去；期間有熱心市民嘗試喝止兩人離開，惟最終不果。究竟乘客在嚴重車禍中「見死不救」並帶同司機離場，是否需要負上刑責？途人又能否合法地將疑犯截停？執業大律師陸偉雄逐一拆解當中的法律盲點。 【天眼還原事發經過】 私家車撞人後終於停車，僅僅不足10秒，前座身穿白色短裙、頭戴鴨嘴帽的女乘客急忙下車。（讀者",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "蔡天鳳案｜鄺港智指兄曾分享父情婦裸舞片 鄺球亦曾錯發情婦訊息",
+      "url": "https://hk01.com/sns/article/60413954",
+      "publishedAt": "2026-11-23T06:40:48.000Z",
+      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，第三被告鄺港智接受盤問時，又透露他從其兄長獲知父親鄺球有情婦。 鄺港智指，其兄曾偷錄父親鄺球與情婦的對話和影片，當中包括父的情婦無穿衣服的跳舞片，他指其兄錄下片段並發給全家，讓大家一同笑。代表其兄的律師卻指，其父錯發訊息給其兄，鄺港智即澄清，收到父錯發訊息的人是他，並指其父在該訊息中稱他為「阿容」。他又稱，從影片知父的情婦做按摩，並稱電話內應仍有該些片。 律師續指，鄺港智上周指蔡案發當日在車上的一番話中，曾提「骨妹」與鄺球純屬謊言，鄺港智不同意說法。 【蔡天鳳案・專頁】",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "Omart MegaBox開幕第二日仍逼爆 下午人龍跨三層 隊尾需等1小時",
+      "url": "https://hk01.com/sns/article/60413950",
+      "publishedAt": "2026-11-23T06:28:40.000Z",
+      "excerpt": "本地倉儲式超市Omart昨日（22日）於九龍灣MegaBox開幕，吸引不少人入場購物，人龍一度由12樓排至17樓。今日（23日）雖然是平日，但中午約1時，現場仍然人頭湧湧，目測有近200人在場排隊，人龍由商場12樓「打蛇餅」至14樓，有多名職員在場指揮並維持秩序，整體秩序大致良好。有職員指，暫時需等超過半小時至一小時才能進場。 記者今（23日）中午約1時到九龍灣Omart觀察，見現場仍然人頭湧湧，目測有近200人在場排隊，人龍由商場12樓「打蛇餅」至14樓。（張智浩攝） 記者今（23日）中午約1時到九龍灣Omart觀察，見現場仍然人頭湧湧，目測有近200人在場排隊，人龍由商場12樓「打蛇餅」至",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "選委會選舉｜林建岳：彰顯優質民主 應積極助政府提升治理效能",
+      "url": "https://hk01.com/sns/article/60413955",
+      "publishedAt": "2026-11-23T06:22:32.000Z",
+      "excerpt": "2026年選舉委員會界別分組一般選舉於周日（11月22日）順利舉行，全國政協常委林建岳認為，不論是選舉過程還是結果，都充分展現新選舉制度的優勢和民主新氣象，參選人覆蓋面更廣、代表性更強、社會參與更加均衡，切實提升了香港民主品質。他又指出，香港首個五年規劃正在推動，明年又將迎來行政長官選舉以及回歸30周年的大日子，新一屆選委會委員更應發揮自身功能，積極反映各界的聲音和訴求，協助特區政府不斷提升治理效能，落實好五年規劃，將宏觀藍圖轉化為市民可感可及的發展實效。 2026年選委會選舉，票箱陸續運抵設於會展的中央點票站。（方承恩攝） 今次選舉是香港完善選舉制度後第二屆選委會選舉，林建岳指出，自香港完善",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "兒科醫生陳以誠涉治胸口痛 猥褻摸男教友下體 申匿名令遭駁回",
       "url": "https://hk01.com/sns/article/60413935",
       "publishedAt": "2026-11-23T06:07:06.000Z",
@@ -24217,74 +24319,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "思哲研究所｜前日相石破茂的警告——忘記戰爭代價的日本最可怕",
-      "url": "https://hk01.com/sns/article/60413854",
-      "publishedAt": "2026-11-23T06:00:57.000Z",
-      "excerpt": "思哲研究所專欄 ｜李冠儒博士 2026年11月17日，早稻田大學的政治祭迎來一場重量級講座。前首相石破茂以「戰後百年，2045年的日本」為題，發表了長達60分鐘的演講。這位在戰後80周年之際肩負首相重任的政治家，以其40年國會議員生涯的積澱，向年輕一代發出一聲沉重的叩問：日本真的從戰敗中覺醒了嗎？靠貶低中國來看待世界，對青年灌輸偏頗的國際關係知識，對嗎？ 真正捍衛國家利益者正在凋零 演講從田中角榮的一句遺訓展開。1981年，24歲的石破茂因父親的葬禮，有機會拜訪田中，田中已厲聲告誡他：「只要經歷過戰爭的人還處於國家中心，日本就沒問題；可怕的是他們不在中心之時——所以你必須好好學習。」二戰以來，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "OpenAI被指隱瞞80宗事故 遭加州控告漠視公眾安全",
-      "url": "https://hk01.com/sns/article/60413892",
-      "publishedAt": "2026-11-23T06:00:39.000Z",
-      "excerpt": "加州政府11月16日起訴 OpenAI，指控其開發技術時缺乏安全考量、無視公眾利益。 據英國《衛報》（The Guardian）報道， 訴訟源於今年較早時的事故：OpenAI的AI代理Codex（可代用戶執行數碼行動的半自動軟件）在測試期間自行接入開放網絡，入侵開源平台 Hugging Face；OpenAI當時稱屬前所未有的網絡事故，其後再爆出入侵澳洲政府網站等事故。 2026年9月28日，圖為美國人工智能企業OpenAI的標誌，背後是美國國旗。（Reuters） 加州檢察總長邦塔（Rob Bonta）指，該次攻擊是80宗已知失控事故之一，顯示OpenAI防護不足，並警告AI代理有可能入侵電",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "景甜捲「3.9億代孕風波」神隱3個月 現身商場闊綽掃貨狀態極寫意",
-      "url": "https://hk01.com/sns/article/60413879",
-      "publishedAt": "2026-11-23T06:00:25.000Z",
-      "excerpt": "現年38歲的內地劇集一姐景甜，今年8月突然遭加密貨幣波場（TRON）創辦人、身家估計高達665億港元的舊愛孫宇晨入稟起訴追討巨款，更被大爆涉及天文數字的海外代孕羅生門，事件震驚娛樂圈！景甜自8月底發文反擊後便全面絕跡公開場合近三個月，外界盛傳她已遭當局「軟封殺」；豈料近日內地狗仔隊接連捕獲她的最新私下蹤影，其寫意悠閒程度令人大跌眼鏡！ 景甜早前捲「代孕風波」。（微博@景甜） 孫宇晨。（網上圖片） 孫宇晨入稟追討3千萬禮金始末 這場轟動全城的豪門情變風波始於今年8月，孫宇晨在社交平台以《我的女友景甜》為題發表萬字長文，巨細無遺剖白多年來暗戀景甜、由相識到熱戀的經過，更宣布已委託律師向景甜及其父母",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "01觀點｜APEC深圳峰會 照見香港焦慮",
       "url": "https://hk01.com/sns/article/60411354",
       "publishedAt": "2026-11-23T06:00:21.000Z",
       "excerpt": "2026年亞太經合組織（APEC）第33次領導人非正式會議即將於11月18日至19日在深圳拉開帷幕，國家主席習近平與亞太多個主要經濟體領導人齊聚一堂，提倡建立「世界灣區經濟合作聯盟」，並和美國總統特朗普及俄羅斯總統普京舉行峰會，隨後發表《中俄美元首和平宣言》。深圳全城沸騰之際，一河之隔的香港呈現出了一種抽離。 深圳主場沸騰 香港旁觀抽離 這種反差，早在不久前香港舉行APEC財長會議時的波瀾不驚中，便已初露端倪。平情而論，香港人不可能對於這場國際盛事毫無感覺，只是在面對曾經被視為「小老弟」的深圳一躍成為國家主場外交的核心舞台時，或多或少陷入一種難以言說的不知所措，夾雜着不適、疑惑與懵懂——面對時",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "冷待特朗普示好 金正恩迎外國使節遞國書 稱朝鮮不追求霸權擴張",
-      "url": "https://hk01.com/sns/article/60413944",
-      "publishedAt": "2026-11-23T05:57:47.000Z",
-      "excerpt": "朝中社星期一（11月23日）報道，朝鮮領導人金正恩說，朝鮮將致力於提升自身「實力和能力」，以維護國家安全與和平，但不會追求霸權。 金正恩在接受新任駐朝鮮大使遞交國書的儀式上發表了上述講話。上周，美國總統特朗普在深圳參加APEC峰會期間向朝鮮示好，暗示可能與金正恩會面，但遭到冷遇。 據朝中社報道，金正恩在儀式上說：「當今世界正面臨全球範圍內不穩定的安全危機，以及政治和經濟混亂。」 朝中社2026年11月23日報道，朝鮮領導人金正恩在接受新任駐朝鮮大使遞交國書的儀式上發表講話說，朝鮮將致力於提升自身「實力和能力」，以維護國家安全與和平，但不會追求霸權。（Reuters） 「當前國際形勢促使我們重新",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "蔡天鳳案｜鄺港智指鄺球稱要與蔡不合作 亦包加多利山的出售事宜",
-      "url": "https://hk01.com/sns/article/60413938",
-      "publishedAt": "2026-11-23T05:57:23.000Z",
-      "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，第三被告鄺港智繼續接受代表其兄鄺港傑的大律師Trevor Beel盤問 。 鄺港智在盤問時透露，其父鄺球曾稱，若蔡不讓他見孫，便會不合作，鄺港智指，不合作的亦包括出售加多利山單位的事宜。其兄的律師不禁懷疑，鄺球已簽下文件，他還可以做甚麼，鄺港智回應：「我唔知佢可以點樣，可以取消又得，之後啲操作唔配合又得。」 律師Beel指鄺球不配合售樓是一派胡言，又指鄺港智的代表律師，在盤問鄺球時，也沒有提及這個說法，鄺港智回應說：「我唔知呢啲嘢喎。」 【蔡天鳳案・專頁】 三名被告：前",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "30內地處級官來港交流1至3個月 楊何蓓茵：共同深化以民為本文化",
-      "url": "https://hk01.com/sns/article/60413939",
-      "publishedAt": "2026-11-23T05:53:39.000Z",
-      "excerpt": "香港特別行政區政府與粵港澳大灣區內地城市，以及北京、上海、重慶、武漢和杭州合辦「公務員交流計劃」，新一批共30名內地公務員將由今日（11月23日）起在特區政府相關部門展開為期四周至三個月的交流。公務員事務局局長楊何蓓茵今日出席為內地赴港交流人員而設的啟導課程開班儀式，並與交流人員會面。 特區政府與粵港澳大灣區內地城市，以及北京、上海、重慶、武漢和杭州合辦「公務員交流計劃」，新一批共30名內地公務員將由11月23日起在特區政府相關部門展開為期四周至三個月的交流。公務員事務局局長楊何蓓茵（第一排中）及公務員學院院長郭蔭庶（第一排右五）與參與交流的內地公務員等合照。（政府新聞處） 楊何蓓茵：公務員必",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "電費調整明日公布 港燈先派糖 明年撥7800萬元支援基層及中小企",
-      "url": "https://hk01.com/sns/article/60413916",
-      "publishedAt": "2026-11-23T05:50:28.000Z",
-      "excerpt": "港燈今日（23日）宣布，2027年將撥款7,800萬元推行優化版「智惜用電服務」，包括為合資格劏房租戶提供每戶1,000元電費津貼、派發200元現金券及贈送降溫設備等措施支援弱勢社群減輕能源開支，另一方面擴大樓宇節能資助範圍並加快交通工具電氣化，配合香港低碳轉型。 港燈宣布，2027年將撥款7,800萬元，為合資格劏房租戶提供每戶1,000元電費津貼、派發200元現金券及贈送降溫設備等，支援弱勢社群減輕能源開支。（資料圖片） 港燈今日公布，將於2027年撥款7,800萬元推行優化版「智惜用電服務」，港燈客戶服務總經理梁偉堅表示，隨着電氣化應用日益普及，希望優化和延續「智惜用電服務」旗下各項服務",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "國產郵輪愛達‧花城號今抵港 羅淑佩：上船即感受到國家郵輪實力",
-      "url": "https://hk01.com/sns/article/60413891",
-      "publishedAt": "2026-11-23T05:19:11.000Z",
-      "excerpt": "最大國產郵輪愛達·花城號日前展開商業首航，今日（23日）搭載逾3,800名旅客駛抵啟德郵輪碼頭。駐港辦副主任張勇、文體旅局局長羅淑佩、旅發局主席林建岳等旅遊業界人士出席歡迎儀式。羅淑佩表示，踏上郵輪時，立刻能感受國家建造郵輪實力，又邀請旅客停留香港時，去市區「多走走、多逛逛」，感受香港獨特魅力。 愛達花城號今日抵港，舉行歡迎儀式。（方承恩攝） 愛達花城號今日抵港，舉行歡迎儀式。（方承恩攝） 羅淑佩表示，踏上郵輪時，立刻能感受國家建造郵輪實力，邀請旅客停留香港時，去市區「多走走、多逛逛」，感受香港獨特魅力。（方承恩攝） 羅淑佩邀旅客去市區「多走走、多逛逛」 感受香港獨特魅力 羅淑佩致詞時表示，踏",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24329,14 +24367,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "薄扶林七旬婦斑馬線捱客貨車撞 飛彈倒地昏迷危殆 留醫6日不治",
-      "url": "https://hk01.com/sns/article/60413772",
-      "publishedAt": "2026-11-22T15:14:13.000Z",
-      "excerpt": "薄扶林置富道發生致命交通意外。上周一（16日）上午8時許，一名73歲婦人遭一輛客貨車撞倒，當場昏迷。救援人員接報趕至現場，將傷者送往瑪麗醫院搶救，情況一直危殆。老婦在醫院留醫6日，延至昨日（21日/星期六）晚上10時57分，由醫護人員證實不治。警方正調查意外成因。 現場遺下一個紙袋、一隻涼鞋及一條珠鏈。（黃學潤攝） 據了解， 涉事客貨車剛在置富南區廣場卸貨區完成卸貨 ，駛出後右轉入置富道，途至一處斑馬線，一名姓方73歲婦人從客貨車左車頭嘗試橫過馬路，客貨車疑收掣不及將老婦撞到，事主捱撞後飛彈倒地，隨即陷入昏迷。救護員到場為女傷者進行急救，她昏迷由救護車送往醫院搶救。 現場所見，馬路上遺有血跡，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "選委會選舉2026｜投票結果全名單 誰人當選、爆冷墮馬一文看清",
       "url": "https://hk01.com/sns/article/60413766",
       "publishedAt": "2026-11-22T14:55:14.000Z",
@@ -24345,27 +24375,35 @@
       "category": "Hong Kong"
     },
     {
-      "title": "寶勒巷1死3傷車禍｜死者頭部重創 38歲私家車司機涉酒駕危駕被捕",
-      "url": "https://hk01.com/sns/article/60413732",
-      "publishedAt": "2026-11-22T14:25:39.000Z",
-      "excerpt": "尖沙咀寶勒巷今午（22日）發生嚴重車禍，一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一名非華裔男子頭部重創不治，肇事司機逃逸。警方事後拘捕一名懷疑涉案38歲姓倪男子。直到傍晚6時許，警方押解被捕男子，返回車禍現場進行蒐證工作。其間，被捕男子黑布蒙頭、鎖上手扣及腰纏鐵鏈，站在其私家車外。 警方今晚召開記者會交代案情，指被捕男司機體內酒精濃度超過法例訂明限度，遂以涉嫌「酒後駕駛」及「危險駕駛導致他人死亡」將其拘捕。同時呼籲任何途人或駕駛者目睹意外發生經過，或有任何資料提供，請致電3661 9188聯絡西九龍交通部特別調查隊第一隊。據悉被捕男司機的職業、涉案女乘客的下落及兩人的關",
-      "source": "香港01",
+      "title": "時事HOY角度｜立法會議員卜國明—《建築物條例》修訂草案",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526846/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%AB%8B%E6%B3%95%E6%9C%83%E8%AD%B0%E5%93%A1%E5%8D%9C%E5%9C%8B%E6%98%8E-%E5%BB%BA%E7%AF%89%E7%89%A9%E6%A2%9D%E4%BE%8B-",
+      "publishedAt": "2026-11-23T07:17:15.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "寶勒巷車禍｜事前舞龍撞貨車路牌司機逃去 途人尾隨撿車匙交警方",
-      "url": "https://hk01.com/sns/article/60413748",
-      "publishedAt": "2026-11-22T13:02:11.000Z",
-      "excerpt": "尖沙咀寶勒巷今午（22日）發生嚴重車禍，一輛私家車懷疑失控衝上行人路，再撞到一間地舖，4名途人受傷，其中一人傷重不治，肇事司機逃逸。警方事後拘捕一名懷疑涉案38歲姓倪男子。直到傍晚6時許，被捕男子黑布蒙頭、鎖上手扣及腰纏鐵鏈，被警方押解返回車禍現場進行蒐證工作。有警犬奉召到場，在車內搜索有無可疑物品或違禁品。 初步得悉，涉案的白色寶馬私家車，於事發前先在緬甸臺撞毀一支交通路牌；經麼地道轉入赫德道後，再撞毀一輛停在路邊的客貨車，沿途宛如「舞龍」。私家車再繼續轉入寶勒巷，剷上行人路並撞向4名途人，造成1死3傷車禍。該名男司機與女乘客意外後離開車廂逃離現場，有途人見狀立即撿起私家車車匙，並尾隨涉案司",
-      "source": "香港01",
+      "title": "時事HOY角度｜社會福利界當選人余秀珠、基層社團界當選人顏汶羽—選委會選舉結果分析",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526845/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E7%95%8C%E7%95%B6%E9%81%B8%E4%BA%BA%E4%BD%99%E7%A7%80%E7%8F%A0-%E5%9F%BA%E5%B1%A4%E7%A4%BE%E5%9C%98",
+      "publishedAt": "2026-11-23T07:16:59.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "郭政鴻62歲生日獲佘詩曼苗僑偉到賀 圈外靚老婆激罕露面搶盡焦點",
-      "url": "https://hk01.com/sns/article/60413615",
-      "publishedAt": "2026-11-22T11:00:57.000Z",
-      "excerpt": "剛於本月18日迎來62歲生日的郭政鴻，一如往年在小紅書貼出生日飯局短片分享喜悅。向來在圈中人緣極佳的他，今年壽宴依舊星光熠熠，獲佘詩曼、苗僑偉、吳卓羲、陶大宇、陳山聰與兒子Jaco、胡炯龍及梁靖琪等一眾視帝視后級好友抽空到賀，眾人更特意送上寫有「南拳王 DEREK」字樣的3D立體拳王蛋糕祝壽；然而在一片明星大合照之中，全場焦點卻被一位極少在鏡頭前曝光的神秘嘉賓搶盡！ 郭政鴻日前迎來62歲生日。（小紅書@郭政鴻） 完全睇唔出已經62歲。（小紅書@郭政鴻） 吳卓羲攬到郭政鴻實一實。（小紅書@郭政鴻） 搭晒膊頭，真係好兄弟。（小紅書@郭政鴻） 圈外靚老婆激罕露面 而這位搶去全場視帝視后風頭的，正是向",
-      "source": "香港01",
+      "title": "時事HOY角度｜香港再出發大聯盟秘書長譚耀宗—選委會選舉結果分析",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526844/%E6%99%82%E4%BA%8Bhoy%E8%A7%92%E5%BA%A6-%E9%A6%99%E6%B8%AF%E5%86%8D%E5%87%BA%E7%99%BC%E5%A4%A7%E8%81%AF%E7%9B%9F%E7%A7%98%E6%9B%B8%E9%95%B7%E8%AD%9A%E8%80%80%E5%AE%97-%E9%81%B8",
+      "publishedAt": "2026-11-23T07:16:42.000Z",
+      "excerpt": "",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "樓盤傳真 21/11/2026",
+      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/526834/%E6%A8%93%E7%9B%A4%E5%82%B3%E7%9C%9F-21-11-2026",
+      "publishedAt": "2026-11-23T06:55:16.000Z",
+      "excerpt": "《樓盤傳真》同大家傾下油塘擎海II開出首批128伙，折實平均呎價14,611元，較I期首批開價高近5%，是否值",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24497,38 +24535,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "蔡天鳳案｜鄺港智自爆仍與蔡保持性關係 形容譚方駿三人關係如家人",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526761/%E8%94%A1%E5%A4%A9%E9%B3%B3%E6%A1%88-%E9%84%BA%E6%B8%AF%E6%99%BA%E8%87%AA%E7%88%86%E4%BB%8D%E8%88%87%E8%94%A1%E4%BF%9D%E6%8C%81%E6%80%A7%E9%97%9C%E4%BF%82-%E5%BD%A2%E5%AE%B9%E8%AD%9A",
-      "publishedAt": "2026-11-23T04:34:26.000Z",
-      "excerpt": "【有線新聞】蔡天鳳碎屍案，鄺港智供稱曾向蔡天鳳說，若禁止鄺球見孫，鄺球所有事情都不會配合，相信包括賣樓事宜。",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "周末一手成交約30宗 二手買賣最多有10宗",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/526767/%E5%91%A8%E6%9C%AB%E4%B8%80%E6%89%8B%E6%88%90%E4%BA%A4%E7%B4%8430%E5%AE%97-%E4%BA%8C%E6%89%8B%E8%B2%B7%E8%B3%A3%E6%9C%80%E5%A4%9A%E6%9C%8910%E5%AE%97",
-      "publishedAt": "2026-11-23T04:32:50.000Z",
-      "excerpt": "【有線新聞】新盤市場轉趨靜局，過去周末錄得約30宗一手成交，按周少約六成。二手市場方面，代理統計的十大屋苑成交",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "建築物條例修例｜樓宇大維修擬納新工程類別 料審批時間長 何珮玲冀引入競爭降低價格",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526754/%E5%BB%BA%E7%AF%89%E7%89%A9%E6%A2%9D%E4%BE%8B%E4%BF%AE%E4%BE%8B-%E6%A8%93%E5%AE%87%E5%A4%A7%E7%B6%AD%E4%BF%AE%E6%93%AC%E7%B4%8D%E6%96%B0%E5%B7%A5%E7%A8%8B%E9%A1%9E%E5%88%A5-%E6%96%99",
-      "publishedAt": "2026-11-23T04:32:44.000Z",
-      "excerpt": "【有線新聞】發展局提出修訂《建築物條例》及成立樓宇維修支援及服務局，發展局常任秘書長何珮玲表示，日後大維修會歸",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "陳健波12月接任醫管局主席 盧寵茂：相信能以宏觀視野推動公營醫療改革",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/526751/%E9%99%B3%E5%81%A5%E6%B3%A212%E6%9C%88%E6%8E%A5%E4%BB%BB%E9%86%AB%E7%AE%A1%E5%B1%80%E4%B8%BB%E5%B8%AD-%E7%9B%A7%E5%AF%B5%E8%8C%82-%E7%9B%B8%E4%BF%A1%E8%83%BD%E4%BB%A5%E5%AE%8F%E8%A7%80",
-      "publishedAt": "2026-11-23T04:13:49.000Z",
-      "excerpt": "【有線新聞】政府委任陳健波出任醫院管理局主席，下月一日起生效。 行政長官根據《醫院管理局條例》委任陳健波為醫管",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
       "title": "時事全方位｜推動醫療創新樞紐(二)",
       "url": "https://news.now.com/home/local/player?newsId=670588",
       "publishedAt": "2026-11-23T05:46:00.000Z",
@@ -24569,17 +24575,17 @@
       "category": "Hong Kong"
     },
     {
-      "title": "小一自行分配學位申請人跌一成半 張勇邦：家長搏名校取錄加劇競爭(劉倩桐報道)",
-      "url": "https://news.now.com/home/local/player?newsId=670615",
-      "publishedAt": "2026-11-23T05:41:29.000Z",
+      "title": "時事全方位｜修訂建築物條例(一)",
+      "url": "https://news.now.com/home/local/player?newsId=670565",
+      "publishedAt": "2026-11-23T05:41:00.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "時事全方位｜修訂建築物條例(一)",
-      "url": "https://news.now.com/home/local/player?newsId=670565",
-      "publishedAt": "2026-11-23T05:41:00.000Z",
+      "title": "小一自行分配學位申請人跌一成半 張勇邦：家長搏名校取錄加劇競爭",
+      "url": "https://news.now.com/home/local/player?newsId=670615",
+      "publishedAt": "2026-11-23T05:39:00.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -24601,7 +24607,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "電費調整｜中電及港燈燃料費較年初升逾兩成及五成 分別撥2.5億及7800萬支援基層及中小企(湯偉圓報道)",
+      "title": "電費調整｜中電及港燈燃料費較年初升逾兩成及五成 分別撥2.5億及7800萬支援基層及中小企",
       "url": "https://news.now.com/home/local/player?newsId=670600",
       "publishedAt": "2026-11-23T05:17:29.000Z",
       "excerpt": "",
@@ -24617,7 +24623,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "選委會選舉｜工聯會選委會贏79席勝上屆 劉兆佳︰知名度高候選者落敗證選舉存真正競爭(鄔卓然報道)",
+      "title": "選委會選舉｜工聯會選委會贏79席勝上屆 劉兆佳︰知名度高候選者落敗證選舉存真正競爭",
       "url": "https://news.now.com/home/local/player?newsId=670598",
       "publishedAt": "2026-11-23T04:47:29.000Z",
       "excerpt": "",
@@ -24625,7 +24631,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "蔡天鳳碎屍案｜鄺港智否認與譚方駿是性伴侶 譚或一直知他與蔡天鳳有性關係(張曼琳報道)",
+      "title": "蔡天鳳碎屍案｜鄺港智否認與譚方駿是性伴侶 譚或一直知他與蔡天鳳有性關係",
       "url": "https://news.now.com/home/local/player?newsId=670597",
       "publishedAt": "2026-11-23T04:46:29.000Z",
       "excerpt": "",
@@ -24849,10 +24855,26 @@
       "category": "Hong Kong"
     },
     {
-      "title": "中電2.5億推社區支援計劃 基層家庭電費補助每戶600元資助",
+      "title": "香港郵政呼籲市民慎防偽冒虛假網站",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878934-20261123.htm",
+      "publishedAt": "2026-11-23T07:03:24.000Z",
+      "excerpt": "香港郵政呼籲市民提高警覺，留意偽冒虛假網址，慎防冒認香港郵政發出的虛假短訊或電郵，附有超連結至相關偽冒網址，要求收件人提供個人資料或支付郵費。香港郵政已將事件轉交警方處理。 香港郵政官方網站網址為「hongkongpost.hk」、「hongkongpost.gov.hk」及「ecert.gov.hk」，強調只會以「#HKPost」名稱向本地流動電話服務用戶發出短訊，及以「@hkpo.gov.hk」或「@hongkongpost.hk」作為電郵域名發出電郵，重申不會透過電郵、短訊或社交媒體發送超連結以收取款項及收集個人資料。 市民如有查詢，可致電香港郵政查詢熱線2921 2222或電郵至hkp",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "楊何蓓茵與內地赴港交流公務員會面 深化合作",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878933-20261123.htm",
+      "publishedAt": "2026-11-23T06:57:37.000Z",
+      "excerpt": "特區政府繼續與粵港澳大灣區內地城市，北京、上海、重慶、武漢和杭州合辦「公務員交流計劃」，新一批共30名內地公務員今日起，在特區政府相關部門展開為期4星期至3個月的交流。 公務員事務局局長楊何蓓茵出席相關啓導課程開班儀式，並與交流人員會面。公務員學院院長郭蔭庶一同出席。楊何蓓茵致辭時，感謝國務院港澳辦和各參與城市對交流計劃的支持，表示公務員是政府推動和執行政策的核心骨幹，表現直接影響市民對政府的信心和評價，必須時刻以市民利益為優先考慮，以實際工作成效回應社會期望。 她指出，本港第一個五年規劃與施政報告均提出強化公務員制度體系，提升公共治理能力。通過「公務員交流計劃」，內地與本港公務員可暫駐對方政",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "立法會明日討論兩電電費檢討 莊偉茵：中電會控制好電費調整",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878929-20261123.htm",
       "publishedAt": "2026-11-23T05:45:14.000Z",
-      "excerpt": "中電公布於明年透過中電社區節能基金撥款2億5千萬元，推出一系列社區支援計劃。當中用於支援弱勢社群的撥款8千萬元，較去年增加超過三成。 中電表示，為紓緩弱勢社群生活壓力，會將基層家庭電費補助計劃的撥款由今年的5千萬元增加至6千萬元，受惠家庭增至約93000個，較去年增加約20000個，當中約83000個為65歲或以上的單老或雙老家庭、低收入及殘疾人士家庭，每戶可獲600元電費資助。另外約10000個將會過渡至「簡樸房」的分間單位家庭，每戶可獲1000元電費資助。 中電又說，有關計劃推行7年以來，累計撥款額約2億7千萬元，受惠家庭約40萬個。 被問到明年電費價格調整，中電企業發展總裁莊偉茵表示，中",
+      "excerpt": "中電企業發展總裁莊偉茵表示，中電明天會在立法會環境事務委員會會議介紹電費調整方案。她表示，在能源的地緣政治下，對能源供應及成本有很大壓力，中電會透過多元化的燃料組合，給予平衡安排，確保能源供應不會受地緣政治問題衝擊，中電會繼續透過不同的燃料組合及控制成本，從而控制好電費調整。 另外，中電公布於明年透過中電社區節能基金撥款2億5千萬元，推出一系列社區支援計劃。當中用於支援弱勢社群的撥款8千萬元，較去年增加超過三成。 中電表示，為紓緩弱勢社群生活壓力，會將基層家庭電費補助計劃的撥款由今年的5千萬元增加至6千萬元，受惠家庭增至約93000個，較去年增加約20000個，當中約83000個為65 歲或以",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -24989,22 +25011,6 @@
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1878891-20261123.htm",
       "publishedAt": "2026-11-23T01:24:31.000Z",
       "excerpt": "國家主席習近平早前到內蒙古烏蘭察布考察時表示，算力産業正處在加速發展階段，實施「東數西算」工程、構建全國一體化算力網，是中共中央一項重要部署。 城大計算學院副院長王詩淇接受本台節目《看神州》訪問表示，人工智能需要算力，算力要有較好的製冷條件。「東數西算」工程是國家一個全盤的規劃和戰略，因為東部擁有應用場景和數據計算的需求，西部則在風能、水能、天氣等方面有優勢，形容是天時地利人和。至於「東數西算」工程面對的痛點，王詩淇指出，網絡傳輸會遇到延遲，算力亦在硬件、軟件方面有不同規格和型號，有需要調度算力，並建立統一標準和接口來進行計算。 對於習近平表示要注重「算電協同」、「算水協同」，王詩淇分析，算力",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "港鐵：何文田站附近信號設備事故已處理 觀塘綫服務陸續恢復正常",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878888-20261123.htm",
-      "publishedAt": "2026-11-23T01:14:02.000Z",
-      "excerpt": "港鐵表示，何文田站附近的信號設備事故已處理，觀塘綫列車服務陸續恢復正常。 編輯：譚佩貞",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "港鐵何文田站附近信號故障 觀塘綫行車時間須額外10至15分鐘",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1878883-20261123.htm",
-      "publishedAt": "2026-11-23T01:05:01.000Z",
-      "excerpt": "港鐵表示，何文田站附近有信號設備故障，列車行經該路段需要慢駛，觀塘綫整體行車時間預計需要額外10至15分鐘。 港鐵人員正在處理，提醒乘客為行程預留充裕時間。 編輯：譚佩貞",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -25169,6 +25175,30 @@
       "category": "Hong Kong"
     },
     {
+      "title": "​行政長官會見2026年上海世界技能大賽香港代表團致辭（只有中文）",
+      "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300460.htm",
+      "publishedAt": "2026-11-23T07:15:00.000Z",
+      "excerpt": "以下是行政長官李家超今日（十一月二十三日）會見2026年上海世界技能大賽香港代表團的致辭： 各位嘉賓、各位同學： 大家好。首先熱烈歡迎2026年世界技能大賽中國香港代表團各位成員凱旋而歸！ 世界技能大賽被譽為「技能界的奧林匹克」，是全球技能領域中最具規模、最具代表性的比賽，今屆技能大賽首次由國家在上海主辦。 面對來自全球近70個國家和地區、超過1 400名選手的激烈競爭，我們中國香港代表團派出41位技能精英角逐37個項目，參賽人數和項目的總體數目都創了歷屆新高。 香港的選手憑藉精湛工藝和拼搏精神，在大賽中刷新香港歷屆最佳成績，包括在軌道車輛技術項目奪得銀牌，並在14個項目中奪得優異獎章。你們向",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "轉數快系統於十一月二十九日進行系統提升",
+      "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300444.htm",
+      "publishedAt": "2026-11-23T07:00:00.000Z",
+      "excerpt": "下稿代香港金融管理局發出︰ 因應負責營運轉數快系統的香港銀行同業結算有限公司計劃於十一月二十九日（星期日）凌晨一時至早上十一時就轉數快進行系統提升，轉數快系統將於此時段內暫停服務。 &nbsp; 香港金融管理局已要求銀行和儲值支付工具營運商預早及適時通知客戶相關安排。市民可以聯絡其銀行或儲值支付工具營運商，查詢受轉數快系統提升影響的相關服務詳情。如有需要，市民請提前為其繳付項目作出安排。",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "文化體育及旅遊局局長出席「愛達·花城號」郵輪香港首訪歡迎儀式致辭（只有中文）",
+      "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300404.htm",
+      "publishedAt": "2026-11-23T06:18:00.000Z",
+      "excerpt": "以下是文化體育及旅遊局局長羅淑佩今日（十一月二十三日）出席「愛達&middot;花城號」郵輪香港首訪歡迎儀式的致辭全文： 尊敬的張勇副主任（中央人民政府駐香港特別行政區聯絡辦公室副主任）、石岱董事長（中國旅遊集團有限公司（中旅集團）董事長）、各位尊敬的嘉賓、各位朋友： 大家早上好。今天我非常高興來到啟德郵輪碼頭，登上萬眾期待、國家第二艘國產大型郵輪「愛達&middot;花城號」，與大家共同見證它首次到訪香港的歷史性時刻。我謹代表香港特區政府，熱烈歡迎「愛達&middot;花城號」蒞臨香港，並向中國旅遊集團、華夏郵輪及愛達郵輪致以衷心祝賀。 當我踏上這艘總噸位超過14萬噸、載客量逾5 200人的",
+      "source": "香港政府新聞公報",
+      "category": "Hong Kong"
+    },
+    {
       "title": "香港郵政提醒市民慎防偽冒香港郵政的虛假網站",
       "url": "https://www.info.gov.hk/gia/general/202611/23/P2026112300350.htm",
       "publishedAt": "2026-11-23T04:40:21.000Z",
@@ -25301,30 +25331,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200752.htm",
       "publishedAt": "2026-11-22T15:38:00.000Z",
       "excerpt": "以下為二○二六年選舉委員會界別分組一般選舉31個有競逐界別分組，於今日（十一月二十二日）舉行的投票中當選的723名候選人： 飲食界 －－－ 陳家強 楊位醒 鄭栢文 鍾偉平 吳德曉 莊 裕坤 楊浩宏 梁振華 盛智文 吳子文 楊振年 胡珠 凌偉業 譚家良 盧浩宏 王偉樑 商界（第一） －－－－－－ 林健鋒 Bradley Guy Martin Coutts 阮蘇少湄 欣榮 霍啟山 李家 聰 余國賢 陳豪賢 高美懿（梁高美懿） 楊美珍 于健安 梁兆基 馮玉麟 伍俊達 陳細明 洪丕正 陳凱 商界（第二） －－－－－－ 陳幼南 王紹基 方添輝 王淑慈 楊華勇 莊學山 謝湧海 陳斌 李德剛 楊振鑫（楊釗）",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "​選舉委員會界別分組一般選舉圓滿舉行",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200679.htm",
-      "publishedAt": "2026-11-22T14:55:00.000Z",
-      "excerpt": "行政長官李家超今日（十一月二十二日）向二○二六年選舉委員會（選委會）界別分組一般選舉當選委員致賀並發表以下聲明： 二○二六年選委會界別分組一般選舉已圓滿舉行。我代表特區政府祝賀所有當選委員。 選委會由40個界別分組共1&nbsp;500人組成，具廣泛代表性和符合均衡參與原則，在完善選舉制度、落實「愛國者治港」原則下肩負重要的法定職能。是次選舉在36個界別分組中，有31個界別分組需要競逐，合共有856名獲有效提名候選人競逐723個席位。自提名期開始以來，不同界別分組的候選人積極向界別分組內各個團體、投票人等介紹政綱、分享理念、交流互動、凝聚共識、爭取支持。選舉充分展現了有擔當、有能力、有作為的愛",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選舉委員會界別分組一般選舉點票順利完成（附圖）",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200576.htm",
-      "publishedAt": "2026-11-22T14:47:24.000Z",
-      "excerpt": "下稿代選舉管理委員會發出： 二○二六年選舉委員會（選委會）界別分組一般選舉的點票工作於今日（十一月二十二日）晚上十時十五分順利完成。今日下午六時投票結束後，點票工作於票箱運抵中央點票站後隨即展開，點票工作用了約三小時四十五分鐘完成。31個須競逐的界別分組的選舉結果，已經在選舉網站（ www.elections.gov.hk ）公布。 選舉管理委員會（選管會）主席陸啟康法官總結選舉時說：「是次選舉共有5 640名投票人投票，累積投票率為98.79%。選委會界別分組一般選舉使用電子點票系統點票，過程順利。整體而言，投票和點票過程都十分暢順，各項選舉安排都能體現到公開、誠實和公平的原則。選管會滿意整",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "選舉委員會界別分組一般選舉結果（新界分區委員會、地區撲滅罪行委員會及地區防火委員會委員的代表）",
-      "url": "https://www.info.gov.hk/gia/general/202611/22/P2026112200726.htm",
-      "publishedAt": "2026-11-22T14:42:42.000Z",
-      "excerpt": "選舉委員會新界分區委員會、地區撲滅罪行委員會及地區防火委員會委員的代表界別分組選舉結果如下： &nbsp; 編號 候選人 所得票數 1 陳國旗＊ 783 2 林宇星＊ 762 3 王惠成＊ 733 4 胡綽謙＊ 877 5 高維基＊ 695 6 曾國家＊ 747 7 簡兆祺＊ 679 8 温和 達 ＊ 810 9 何國光＊ 860 10 張柏源＊ 734 11 侯漢碩＊ 899 12 梁嘉銘＊ 928 13 朱浩賢＊ 701 14 曾勁聰＊ 725 15 賴俊榮 535 16 周天意＊ 663 17 賴心＊ 778 18 梅政雄＊ 743 19 宋冰冰＊ 805 20 林港坤＊ 834 21 ",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

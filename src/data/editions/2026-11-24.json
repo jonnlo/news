@@ -2,12 +2,17 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-24",
-  "generatedAt": "2026-11-23T20:17:20.386Z",
-  "collectedAt": "2026-11-23T20:17:20.386Z",
+  "generatedAt": "2026-11-23T21:17:22.188Z",
+  "collectedAt": "2026-11-23T21:17:22.188Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 77,
-  "sourceErrors": [],
+  "sourcesUpdated": 76,
+  "sourceErrors": [
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    }
+  ],
   "sources": [
     {
       "name": "Hacker News",
@@ -16,7 +21,25 @@
       "count": 20,
       "stories": [
         {
-          "title": "\"Per ARM's Request, This Site Will Be Discontinued on 4 December 2026\"",
+          "title": "Wikipedia Has Hidden Doors",
+          "url": "https://cardcatalogforlife.substack.com/p/wikipedia-has-hidden-doors-heres",
+          "publishedAt": "2026-11-23T21:09:14.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50619335"
+        },
+        {
+          "title": "The horse made the state",
+          "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+          "publishedAt": "2026-11-23T20:59:12.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50619186"
+        },
+        {
+          "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
           "url": "https://arm.jonpalmisc.com/",
           "publishedAt": "2026-11-23T19:17:55.000Z",
           "excerpt": "",
@@ -52,7 +75,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50615481"
         },
         {
-          "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+          "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
           "url": "https://twitter.com/ylecun/status/2124550037912920090",
           "publishedAt": "2026-11-23T17:07:26.000Z",
           "excerpt": "",
@@ -142,6 +165,15 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50610318"
         },
         {
+          "title": "Show HN: Hermit CRM – Free open-source CRM for solopreneurs",
+          "url": "https://hermitcrm.io/",
+          "publishedAt": "2026-11-23T10:09:02.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50609708"
+        },
+        {
           "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
           "url": "https://z.ai/blog/glm-5.4",
           "publishedAt": "2026-11-23T10:06:43.000Z",
@@ -160,15 +192,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50609579"
         },
         {
-          "title": "Yes, 17M lines of Lean is a lot",
-          "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
-          "publishedAt": "2026-11-23T05:00:49.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50607668"
-        },
-        {
           "title": "XNU Linux: Full OS X GUI Userspace on Linux",
           "url": "https://github.com/AFK-surf/xnulinux",
           "publishedAt": "2026-11-23T03:49:24.000Z",
@@ -176,27 +199,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50607261"
-        },
-        {
-          "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-          "url": "https://spelunkr.tv",
-          "publishedAt": "2026-11-23T01:13:51.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
-        },
-        {
-          "title": "Nespresso's project to reduce grams of coffee per capsule",
-          "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
-          "publishedAt": "2026-11-22T23:57:45.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50605479"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Verge",
@@ -204,6 +209,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "AI data centers throw another wrench into chaotic UN climate talks",
+          "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+          "publishedAt": "2026-11-23T21:09:37.000Z",
+          "excerpt": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Apple renews Ted Lasso for season 5",
+          "url": "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+          "publishedAt": "2026-11-23T20:56:00.000Z",
+          "excerpt": "One of Apple's biggest shows is sticking around for at least one more season. The streamer announced today that Ted Lasso has been renewed for a fifth season on Apple TV, after what the company calls a \"record-breaking season four debut.\" There are currently no details about the new season nor when ",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Claude AI can review pull requests and ship fixes on its own now",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
@@ -216,7 +237,7 @@
           "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
           "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
           "publishedAt": "2026-11-23T19:58:27.000Z",
-          "excerpt": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the co-founder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned a",
+          "excerpt": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the cofounder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned as",
           "source": "The Verge",
           "category": "Technology"
         },
@@ -224,7 +245,7 @@
           "title": "How Jensen Huang ended up as Nvidia CEO again",
           "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
           "publishedAt": "2026-11-23T19:57:18.000Z",
-          "excerpt": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago co-founded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfa",
+          "excerpt": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfai",
           "source": "The Verge",
           "category": "Technology"
         },
@@ -317,18 +338,18 @@
           "category": "Technology"
         },
         {
-          "title": "The Verge’s favorite holiday gifts that cost $50 or less",
-          "url": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
-          "publishedAt": "2026-11-23T15:00:00.000Z",
-          "excerpt": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes be challenging to shop for - caught between affordable accessories and big-ticket items - there's ple",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
           "title": "How one router caused the worst ground stop since 9/11",
           "url": "https://www.theverge.com/podcast/1039215/faa-ground-stop-cause-trump-elon-musk-doge-airlines-safety",
           "publishedAt": "2026-11-23T15:00:00.000Z",
           "excerpt": "Today I’m talking with Darryl Campbell, a freelance journalist, aviation expert, and author of the book Fatal Abstraction: Why the Managerial Class Loses Control of Software. Darryl covers aviation and the FAA, and earlier this month, when the US suffered a sudden nationwide ground stop on air trave",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "The Verge’s favorite holiday gifts that cost $50 or less",
+          "url": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
+          "publishedAt": "2026-11-23T15:00:00.000Z",
+          "excerpt": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes be challenging to shop for - caught between affordable accessories and big-ticket items - there's ple",
           "source": "The Verge",
           "category": "Technology"
         },
@@ -347,25 +368,9 @@
           "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NV",
           "source": "The Verge",
           "category": "Technology"
-        },
-        {
-          "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
-          "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
-          "publishedAt": "2026-11-23T14:00:00.000Z",
-          "excerpt": "In an age of streaming shows designed to appeal to distracted viewers, Blade Runner 2099 can feel like a welcome anachronism. The Amazon series is slow and methodical, just like the movies it follows, as it delves deep into moral ambiguity. It is very Blade Runner, in that it both feels true to the ",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "Amazon is taking orders for the Moto Tag 3 before it’s even been announced",
-          "url": "https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak",
-          "publishedAt": "2026-11-23T13:09:32.000Z",
-          "excerpt": "Motorola's unannounced Moto Tag 3 has been listed for sale online, just five months after the Moto Tag 2 went on sale in the US, and before any official announcement of a follow-up. The listing on Amazon UK was spotted by X user @matteventu, and shows the tracker in a \"Pantone Lucent White\" color op",
-          "source": "The Verge",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "WIRED",
@@ -534,7 +539,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Ars Technica",
@@ -542,6 +547,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
+          "url": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
+          "publishedAt": "2026-11-23T20:34:51.000Z",
+          "excerpt": "\"I would ask you to please reach out to Roscosmos directly.\"",
+          "source": "Ars Technica",
+          "category": "Technology"
+        },
         {
           "title": "Surveillance pricing uses our personal data to make us pay more",
           "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
@@ -693,17 +706,9 @@
           "excerpt": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
           "source": "Ars Technica",
           "category": "Technology"
-        },
-        {
-          "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
-          "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
-          "publishedAt": "2026-11-20T19:52:59.000Z",
-          "excerpt": "CTIA said jamming test showed \"interference... up to two and a half miles away.\"",
-          "source": "Ars Technica",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "MIT Technology Review",
@@ -872,7 +877,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "TechCrunch",
@@ -880,6 +885,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+          "publishedAt": "2026-11-23T20:38:53.000Z",
+          "excerpt": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
         {
           "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
           "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
@@ -1031,17 +1044,9 @@
           "excerpt": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Can a TV be too large? An investigation",
-          "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
-          "publishedAt": "2026-11-22T15:00:00.000Z",
-          "excerpt": "Can a TV be too large? This writer's recent upgrade to a 65-inch OLED came with some unexpected challenges.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Next Web",
@@ -1049,6 +1054,15 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "Anthropic can now watch for Claude misuse without keeping firms’ data",
+          "url": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
+          "publishedAt": "2026-11-23T21:07:38.000Z",
+          "excerpt": "Anthropic has opened Enterprise Frontier Safeguards in public beta, letting it scan for misuse across many Claude requests while companies keep their data in their own cloud storage. It answers enterprise pushback over the 30-day retention Anthropic introduced with Fable 5. Anthropic has opened a ne",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "DeepMind’s AI agents found cheaper quantum algorithms, and proved them",
           "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
@@ -1129,18 +1143,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Anthropic kept IPO bankers off OpenAI work for six months, Reuters reports",
-          "url": "https://thenextweb.com/news/anthropic-ipo-bankers-four-person-teams-rivals-reuters",
-          "publishedAt": "2026-11-23T16:46:24.000Z",
-          "excerpt": "Anthropic’s shares were flat on Monday, its third day of trading, CNBC reported. Most big tech stocks rebounded, and Nvidia jumped 30% after it reinstated Jensen Huang. New details show how tightly Anthropic ran the listing. Echo Wang and Milana Vinn of Reuters reported them on Sunday, citing severa",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Slashdot",
@@ -1148,6 +1153,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Jensen Huang Says He'll Be a 'Better CEO' As Staff Applauds His Return",
+          "url": "https://slashdot.org/story/26/11/23/216201/jensen-huang-says-hell-be-a-better-ceo-as-staff-applauds-his-return?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-23T21:07:00.000Z",
+          "excerpt": "Nvidia CEO Jensen Huang received a standing ovation from employees upon returning to the company's headquarters Monday, less than two weeks after resigning amid revelations of extramarital affairs, including one involving an alleged Chinese spy. \"Thank you all for the second chances. I'm gonna be a ",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "CrowdStrike to Buy Zscaler In $44 Billion Deal",
           "url": "https://slashdot.org/story/26/11/23/1845255/crowdstrike-to-buy-zscaler-in-44-billion-deal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1273,18 +1287,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "How Does GTA 6 Depict Electric Cars?",
-          "url": "https://games.slashdot.org/story/26/11/22/0457218/how-does-gta-6-depict-electric-cars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-22T17:34:00.000Z",
-          "excerpt": "Grand Theft Auto 6 as seen by the EV news site Electrek: GTA works as a mirror. In 2013, the EV was a punchline: a Tesla parody that overheated if you drove it too fast. In 2026, it's just another car in Vice City traffic, and the joke is on the guy in the pickup parked in the charging stall. That's",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Techmeme",
@@ -1436,10 +1441,10 @@
           "discoveryChannel": "curator:Techmeme"
         },
         {
-          "title": "US lawmakers criticize Nvidia's decision to reinstate Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China (David Shepardson/Reuters)",
+          "title": "US lawmakers from both parties criticize Nvidia for reinstating Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China (Reuters)",
           "url": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/",
           "publishedAt": "2026-11-23T16:25:02.000Z",
-          "excerpt": "David Shepardson / Reuters : US lawmakers criticize Nvidia's decision to reinstate Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China &nbsp; &mdash;&nbsp; US lawmakers from both parties offered sharp criticism on Monday of Nvidia's (NVDA.O) decision to rein",
+          "excerpt": "Reuters : US lawmakers from both parties criticize Nvidia for reinstating Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China &nbsp; &mdash;&nbsp; US lawmakers from both parties sharply criticized Nvidia's (NVDA.O) decision to reinstate Jensen Huang as CEO &",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261123/p27#a261123p27",
@@ -1458,7 +1463,7 @@
           "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Engadget",
@@ -1466,6 +1471,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Your older, discontinued AirTags can still serve a purpose",
+          "url": "https://www.engadget.com/2320290/discontinued-airtags-still-serve-purpose/",
+          "publishedAt": "2026-11-23T21:00:00.000Z",
+          "excerpt": "Apple has moved on from the original AirTag, but you don't have to. Find out how your old trackers can still earn their keep at home and on the go.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "New leaks reveal the iPhone 18e will have a redesigned camera plateau",
+          "url": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
+          "publishedAt": "2026-11-23T20:57:55.000Z",
+          "excerpt": "We've also got further confirmation the iPhone Air 2 will have a second camera lens.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "GTA 6 player gets social ban on PSN after sending a photo of in-game nudity",
+          "url": "https://www.engadget.com/2325800/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/",
+          "publishedAt": "2026-11-23T20:46:23.000Z",
+          "excerpt": "Apparently just because it's in the game doesn't mean sharing \"obscene\" content is okay.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Grand Theft Auto 6 is really about the death of the American Dream",
           "url": "https://www.engadget.com/2325713/grand-theft-auto/",
@@ -1618,36 +1650,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "How to pair your Bluetooth headphones to your Windows PC",
-          "url": "https://www.engadget.com/2320151/how-to-pair-bluetooth-headphones-windows-pc/",
-          "publishedAt": "2026-11-23T14:45:00.000Z",
-          "excerpt": "Connecting a pair of Bluetooth headphones to a Windows PC isn't as simple as plugging into a headphone socket, but it's still quite straightforward.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately",
-          "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
-          "publishedAt": "2026-11-23T14:16:53.000Z",
-          "excerpt": "So much for the board not intending to bring him back.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "5 underrated Apple Watch shortcuts you can set up in minutes",
-          "url": "https://www.engadget.com/2319938/underrated-apple-watch-shortcuts-quick-setup/",
-          "publishedAt": "2026-11-23T14:15:00.000Z",
-          "excerpt": "From late nights out to long drives, these five underrated Apple Watch shortcuts take only minutes to set up and can make your days much easier.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "TechRadar",
@@ -1655,6 +1660,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "This Black Friday 1TB Cloud Backup storage 2 year discount deal is 85% off making it just $3.29 per month — and it also includes a VPN, antivirus, secure browser, and 5GB eSIM data for free",
+          "url": "https://www.techradar.com/pro/this-black-friday-1tb-cloud-backup-storage-2-year-discount-deal-is-85-percent-off-making-it-just-usd3-29-per-month-and-it-also-includes-a-vpn-antivirus-secure-browser-and-5gb-esim-data-for-free",
+          "publishedAt": "2026-11-23T21:00:00.000Z",
+          "excerpt": "This two year deal is the cheapest software combo I've seen, and is an essential for any cyber pro looking for a Black Friday deal on cloud storage, antivirus, and a VPN.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "This security company is offering $10,000 to anyone able to hack its AI agent protection tool",
+          "url": "https://www.techradar.com/pro/security/this-security-company-is-offering-usd10-000-to-anyone-able-to-hack-its-ai-agent-protection-tool",
+          "publishedAt": "2026-11-23T20:25:00.000Z",
+          "excerpt": "Cato Networks is challenging white hat hackers to compromise its new AI agent monitoring tool - and offering $10,000 for the first three successful hacks.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "I've tested more gaming laptops and PC gaming handhelds than I can count — here's how to buy a great new machine, to beat the RAM crisis and GPU price despair",
           "url": "https://www.techradar.com/computing/gaming-laptops/ive-tested-more-gaming-laptops-and-pc-gaming-handhelds-than-i-can-count",
@@ -1816,27 +1839,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The best Black Friday espresso machine deals: Breville, De'Longhi, and Smeg",
-          "url": "https://www.techradar.com/seasonal-sales/black-friday-espresso-machine-deals-2026-nov-23",
-          "publishedAt": "2026-11-23T16:39:20.000Z",
-          "excerpt": "I'm a certified barista, and I've hand-picked all this year's best Black Friday deals on quality espresso machines from big brands you can trust.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "'Some people get so excited about ‘free’ software that they forget the risks': New report finds rush to develop software faster with AI is creating a costly new problem",
-          "url": "https://www.techradar.com/pro/some-people-get-so-excited-about-free-software-that-they-forget-the-risks-new-report-finds-rush-to-develop-software-faster-with-ai-is-creating-a-costly-new-problem",
-          "publishedAt": "2026-11-23T16:05:00.000Z",
-          "excerpt": "AI promises to make building your own apps far easier and cheaper, but you lose a lot of the protections software vendors give you.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "9to5Mac",
@@ -1844,6 +1849,51 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Kodak SlideTag is a $35 AirTag alternative with an E-Ink display for your photos",
+          "url": "https://9to5mac.com/2026/11/23/kodak-slidetag-e-ink-iphone-tracker-airtag/",
+          "publishedAt": "2026-11-23T21:05:00.000Z",
+          "excerpt": "Offering support for iPhone and Android’s tracking networks, the new Kodak SlideTag offers the neat added functionality over an AirTag of being able to show your photos and more on an E-Ink display. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Apple announces Ted Lasso season 5 is coming",
+          "url": "https://9to5mac.com/2026/11/23/apple-announces-ted-lasso-season-5-is-coming/",
+          "publishedAt": "2026-11-23T21:01:24.000Z",
+          "excerpt": "Apple TV ( now $6.99/month for limited time ) has just announced that Ted Lasso will return for season 5. Here are the details. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Anthropic launches new Claude Ship feature for builders",
+          "url": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/",
+          "publishedAt": "2026-11-23T20:32:31.000Z",
+          "excerpt": "Anthropic is launching a new tool for builders called Claude Ship. The new AI feature allows Claude to “review pull requests, fix them, and approve the ones that a team’s policy allows.” more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Apple Watch SE 3 vs Series 12: Which should you buy this holiday season?",
+          "url": "https://9to5mac.com/2026/11/23/apple-watch-se-3-vs-series-12-which-should-you-buy-this-holiday-season/",
+          "publishedAt": "2026-11-23T20:26:50.000Z",
+          "excerpt": "The holiday shopping season is here, and Apple Watch is always a popular gift. Apple’s lineup includes the affordable Apple Watch SE 3 and the more advanced Apple Watch Series 12. Here’s how those two Apple Watch models stack up… Apple Watch SE 3 GPS 40mm: from $179 (Reg. $249) Apple Watch SE 3 GPS ",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "MacBook Neo gets rare $100 price drop for Black Friday [Updated]",
+          "url": "https://9to5mac.com/2026/11/23/macbook-neo-gets-rare-50-price-drop-in-early-black-friday-deal/",
+          "publishedAt": "2026-11-23T20:21:20.000Z",
+          "excerpt": "Update, November 23 : The Citrus MacBook Neo with 256GB of storage has dropped even further. It’s now $100 off, sitting at $599 . This one will probably sell out fast, so don’t wait ! The rest of the MacBook Neo lineup is still $50 off. The most affordable current-generation MacBook you can get unde",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "HBO Max, Peacock, Apple TV, more: Here are the best Black Friday deals",
           "url": "https://9to5mac.com/2026/11/23/hbo-max-peacock-apple-tv-more-here-are-the-best-black-friday-deals/",
@@ -1978,54 +2028,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Newest Apple Watch Series 12 and Ultra 4 now $100 off for Black Friday, more from just $179",
-          "url": "https://9to5mac.com/2026/11/23/best-apple-watch-black-friday-deals-2/",
-          "publishedAt": "2026-11-23T13:02:41.000Z",
-          "excerpt": "Day 5 of the Amazon Black Friday sale is on fire with an insane $100 off AirPods Pro 3 and over $300 off M5 MacBook Air , but the Apple Watch deals just got a whole lot better too. You’ll now find Apple Watch Series 12 down even lower, with new all-time lows at $100 off and deals starting from $299 ",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "As Apple works on AI agent features, banks are already blocking them",
-          "url": "https://9to5mac.com/2026/11/23/as-apple-works-on-ai-agent-features-banks-are-already-blocking-them/",
-          "publishedAt": "2026-11-23T12:55:35.000Z",
-          "excerpt": "One of the most dramatic shifts in the AI landscape is the emergence of intelligent agents that can use iPhone and Mac apps in order to carry out tasks on our behalf. We can already use third-party chatbots in this way, and we know Apple is working hard to turn Siri AI into an agent. However, before",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Five recent tech outages were not due to AI; the next round will be",
-          "url": "https://9to5mac.com/2026/11/23/five-recent-tech-outages-were-not-due-to-ai-the-next-round-will-be/",
-          "publishedAt": "2026-11-23T12:06:58.000Z",
-          "excerpt": "Five major tech outages in quick succession earlier this month led to speculation that they were connected, with some inevitably believing them to be AI-related. That wasn’t the case, but the US Director of National Intelligence is one of a number of experts warning that we should expect AI-powered ",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "AirPods Pro 3 hit new all-time low price, now $149 ($100 off)",
-          "url": "https://9to5mac.com/2026/11/23/airpods-pro-3-just-got-even-cheaper-now-169-80-off/",
-          "publishedAt": "2026-11-23T12:02:05.000Z",
-          "excerpt": "Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with an incredible $100 discount to $149 shipped – their best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up today with the first discount on Apple’s brand new OLED iPad mini ,",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
-          "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections/",
-          "publishedAt": "2026-11-22T22:02:43.000Z",
-          "excerpt": "9to5Mac is brought to you by Tello Mobile. Switching to Tello Mobile can bring the cost of your plan down to as little as $5 a month, or an unlimited plan for just $25 a month, all on America’s largest 5G network. See all of the available plans at tello.com . iOS 27 includes a really clever new feat",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Humanist Review",
@@ -2214,7 +2219,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "It’s Nice That",
@@ -2403,7 +2408,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Fast Company",
@@ -2547,7 +2552,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Creative Bloq",
@@ -2736,7 +2741,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Sidebar",
@@ -2945,7 +2950,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Creative Boom",
@@ -3114,7 +3119,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3283,7 +3288,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Creative Independent",
@@ -3372,7 +3377,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3541,7 +3546,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "A List Apart",
@@ -3710,7 +3715,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Them",
@@ -3718,6 +3723,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Wachowskis Want to Take ‘The Matrix’ Back From Warner Bros.",
+          "url": "https://www.them.us/entertainment/tv-and-movies/matrix-rights-wachowski-sisters",
+          "publishedAt": "2026-11-23T19:37:11.000Z",
+          "excerpt": "Prolific directors Lilly and Lana Wachowski want to reclaim The Matrix series from Warner Bros., as Puck originally reported, with sources saying the sisters officially informed the film and television giant that they wish to exercise their right to creative copyright termination. If the Wachowski s",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "GLAAD Launches Campaign Urging Meta to Stop Censoring LGBTQ+ Accounts",
           "url": "https://www.them.us/news/meta-censorship-lgbtq-accounts",
@@ -3888,18 +3902,9 @@
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Wyoming Trans Woman Takes Plea Deal After Drawing Gun on Former Patriot Front Member Who Shoved Her",
-          "url": "https://www.them.us/news/rihanna-kelver-wyoming-plea-deal",
-          "publishedAt": "2026-11-19T20:45:23.000Z",
-          "excerpt": "This story originally appeared on The Advocate . A transgender woman in Wyoming will avoid jail time and keep her gun rights under a plea deal after she was charged with pulling a gun on a man who had shoved her to the ground. She says she acted in self-defense. Rihanna Kelver pleaded no contest thi",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3907,6 +3912,51 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Hugh Jackman Finally Sells His Perry Street Triplex",
+          "url": "http://www.curbed.com/article/hugh-jackman-perry-street-triplex-apartment-sale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-23T20:36:14.000Z",
+          "excerpt": "The actor’s West Village apartment, which he still owned with his ex-wife, was designed by Richard Meier, inside and out.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Trump Shouts About Corrupt Huang Intervention From the Rooftops",
+          "url": "http://nymag.com/intelligencer/article/trump-huang-reinstated-nvidia-truth-social.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-23T20:12:40.000Z",
+          "excerpt": "From a 50-minute CNBC interview to his wild Truth Social posts, Trump let absolutely everyone know he got Jensen Huang reinstated as Nvidia CEO.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Russell Brand’s Wife Is Sorry for Sharing His Message on YouTube",
+          "url": "http://www.thecut.com/article/russell-brands-wife-is-sorry-for-sharing-his-message.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-23T19:43:23.000Z",
+          "excerpt": "Laura Brand sparked an investigation after reading a letter her husband wrote from prison following his sexual-assault conviction.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Vance Wants Credit for Reinstating Huang, Too",
+          "url": "http://nymag.com/intelligencer/article/jd-vance-wants-credit-for-reinstating-huang-too.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-23T19:11:00.000Z",
+          "excerpt": "He helped Trump make this happen, according to somebody telling reporters he helped Trump make this happen.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How The Gilded Age Staged Pirates of Penzance",
+          "url": "http://www.vulture.com/article/the-gilded-age-season-4-pirates-of-penzance-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-23T18:40:46.000Z",
+          "excerpt": "Larry Russell’s version of the comic opera is a theatrical hit in the series.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Does Dancing With the Stars Have a Voting Problem?",
           "url": "http://www.vulture.com/article/does-dancing-with-the-stars-have-a-voting-problem.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -4041,54 +4091,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "What Does MoMA’s Merger With Pompidou and M+ Mean for the Art World?",
-          "url": "http://www.vulture.com/article/moma-merger-pompidou-m-art-world.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-23T12:00:09.000Z",
-          "excerpt": "If successful, the move could upend the entrenched insularity at some of the world’s most powerful museums.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Reasonable Person’s Guide to Preparing for the Apocalypse",
-          "url": "http://www.thecut.com/article/a-reasonable-persons-guide-to-preparing-for-the-apocalypse.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-23T12:00:08.000Z",
-          "excerpt": "Don’t panic. Do consider stashing canned beans under the couch.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "‘Why Is That Girl Everywhere?’",
-          "url": "http://www.thecut.com/article/paloma-sandoval-interview-muses-inspirations.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-23T12:00:08.000Z",
-          "excerpt": "Model, radio DJ, and Sabrina Carpenter’s best friend — Paloma Sandoval contains multitudes.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "An Etiquette Guide for Productive Democratic Infighting",
-          "url": "http://nymag.com/intelligencer/article/5-rules-for-productive-democratic-party-infighting.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-23T11:00:13.000Z",
-          "excerpt": "Democrats can and must work through their differences as they seek complete power in 2028, but factional combat doesn’t have to be brutal.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Best Black Friday Deals, According to Cut Editors",
-          "url": "http://www.thecut.com/article/best-black-friday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-23T11:00:13.000Z",
-          "excerpt": "From Amazon, Sephora, Ulta, Walmart, and more.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Atlantic",
@@ -4096,6 +4101,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Economy Is a Hostage Situation",
+          "url": "https://www.theatlantic.com/technology/2026/11/ai-hostage-economy-nvidia-huang/689552/?utm_source=feed",
+          "publishedAt": "2026-11-23T20:30:51.000Z",
+          "excerpt": "America has two choices under Nvidia’s market dominance, and both are bad.",
+          "source": "The Atlantic",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "A Shameless Valley",
           "url": "https://www.theatlantic.com/technology/2026/11/silicon-valley-shameless-nvidia/689549/?utm_source=feed",
@@ -4178,19 +4192,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "We’ll Miss the Assistants When They’re Gone",
-          "url": "https://www.theatlantic.com/ideas/2026/11/executive-assistants-ai-jobs/689531/?utm_source=feed",
+          "title": "Orwell Has Become What He Despised",
+          "url": "https://www.theatlantic.com/ideas/2026/11/george-orwell-trump-authoritarianism/689542/?utm_source=feed",
           "publishedAt": "2026-11-23T12:00:00.000Z",
-          "excerpt": "An ode to the most frustrating, and formative, job in the world",
+          "excerpt": "Trumpists have turned him into jargon.",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Orwell Has Become What He Despised",
-          "url": "https://www.theatlantic.com/ideas/2026/11/george-orwell-trump-authoritarianism/689542/?utm_source=feed",
+          "title": "We’ll Miss the Assistants When They’re Gone",
+          "url": "https://www.theatlantic.com/ideas/2026/11/executive-assistants-ai-jobs/689531/?utm_source=feed",
           "publishedAt": "2026-11-23T12:00:00.000Z",
-          "excerpt": "Trumpists have turned him into jargon.",
+          "excerpt": "An ode to the most frustrating, and formative, job in the world",
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4266,18 +4280,9 @@
           "source": "The Atlantic",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "The Taylor Swift Museum Exhibition Is an SOS Call",
-          "url": "https://www.theatlantic.com/culture/2026/11/taylor-swift-museum-boston/689520/?utm_source=feed",
-          "publishedAt": "2026-11-20T14:00:00.000Z",
-          "excerpt": "Art museums have to get creative right now. They can do better than this.",
-          "source": "The Atlantic",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The New Yorker",
@@ -4295,19 +4300,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "What Happens After We Flush?",
-          "url": "https://www.newyorker.com/magazine/2026/11/30/after-the-flush-nick-kawa-book-review",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
           "publishedAt": "2026-11-23T11:00:00.000Z",
-          "excerpt": "Turning sewage into fertilizer gives human waste a useful second life. What happens to the forever chemicals that come with it?",
+          "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Briefly Noted Book Reviews",
-          "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
+          "title": "What Happens After We Flush?",
+          "url": "https://www.newyorker.com/magazine/2026/11/30/after-the-flush-nick-kawa-book-review",
           "publishedAt": "2026-11-23T11:00:00.000Z",
-          "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
+          "excerpt": "Turning sewage into fertilizer gives human waste a useful second life. What happens to the forever chemicals that come with it?",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4466,7 +4471,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Hyperallergic",
@@ -4474,6 +4479,14 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Something Strange at Maggie Ellis’s Thanksgiving Table",
+          "url": "https://hyperallergic.com/something-strange-at-maggie-elliss-thanksgiving-table/",
+          "publishedAt": "2026-11-23T20:54:21.000Z",
+          "excerpt": "In Ellis's world, you can never be quite sure whether you've stumbled into a dream, a nightmare, or someone else's very strange family gathering.",
+          "source": "Hyperallergic",
+          "category": "Culture"
+        },
         {
           "title": "Orthodox Cleric Wanted in Connection With International Forgery Scheme",
           "url": "https://hyperallergic.com/orthodox-cleric-wanted-in-connection-with-international-forgery-scheme/",
@@ -4585,17 +4598,9 @@
           "excerpt": "“I love that my roommate’s cat, Astrid, whom I appointed as my studio assistant, can always come and join me when I am painting.”",
           "source": "Hyperallergic",
           "category": "Culture"
-        },
-        {
-          "title": "Hilma af Klint Is Rolling in Her Grave",
-          "url": "https://hyperallergic.com/hilma-af-klint-is-rolling-in-her-grave/",
-          "publishedAt": "2026-11-20T11:00:00.000Z",
-          "excerpt": "The Swedish artist’s painting went under the hammer for an obscene amount of money. Plus: Lowery Stokes Sims reviews Richard Powell’s new book on pigment, Blackness, and paint.",
-          "source": "Hyperallergic",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "IndieWire",
@@ -4603,6 +4608,22 @@
       "kind": "rss",
       "count": 12,
       "stories": [
+        {
+          "title": "The Best Visual Effects in ‘Wildwood’ Are the Ones You Can’t See — Watch",
+          "url": "https://www.indiewire.com/features/craft/wildwood-vfx-indiewire-craft-roundtables-1235230006/",
+          "publishedAt": "2026-11-23T21:00:00.000Z",
+          "excerpt": "\"Wildwood\" Head of CG Animation Benoit Dubuc tells IndieWire about the visual effects that are hidden everywhere.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
+          "title": "From ‘Disclosure Day’ to ‘Devil Wears Prada’: Emily Blunt Breaks Down 10 of Her Greatest Movie Moments",
+          "url": "https://www.indiewire.com/awards/consider-this/emily-blunt-breaks-down-oppenheimer-disclosure-day-devil-wears-prada-1235230010/",
+          "publishedAt": "2026-11-23T20:45:00.000Z",
+          "excerpt": "Blunt could land a second Oscar nomination after for her language-spouting weatherwoman in Steven Spielberg's alien adventure. But she's made so many great films.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
         {
           "title": "How Sound Design Helps ‘Minotaur’ Get Away with Murder",
           "url": "https://www.indiewire.com/features/craft/andrey-zvyagintsev-minotaur-sound-design-1235230040/",
@@ -4682,25 +4703,9 @@
           "excerpt": "\"The Last Jedi\" director tells IndieWire he loves the franchise \"more now than I ever have,\" just as projects set after \"The Rise of Skywalker\" move forward under new Lucasfilm chief Dave Filoni.",
           "source": "IndieWire",
           "category": "Culture"
-        },
-        {
-          "title": "Box Office: ‘Hunger Games: Sunrise on the Reaping’ Debuts to Mighty $120 Million, Reviving Lionsgate’s Most Important Franchise",
-          "url": "https://www.indiewire.com/news/box-office/hunger-games-sunrise-on-the-reaping-revives-franchise-1235229881/",
-          "publishedAt": "2026-11-22T16:18:16.000Z",
-          "excerpt": "\"I Play Rocky\" expands with $9.3 million, while Paul Thomas Anderson's \"Cameron Winter at Carnegie Hall\" grosses $162,000 from three locations.",
-          "source": "IndieWire",
-          "category": "Culture"
-        },
-        {
-          "title": "Box Office: A24’s ‘You Can See Everything’ Crosses $100 Million Globally",
-          "url": "https://www.indiewire.com/news/box-office/box-office-you-can-see-everything-crosses-100-million-globally-1235229888/",
-          "publishedAt": "2026-11-22T15:45:54.000Z",
-          "excerpt": "Lance Oppenheim and Nathan Fielder's look at Elizabeth Holmes is the third-highest-grossing domestic release in A24's history.",
-          "source": "IndieWire",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Vox",
@@ -4772,7 +4777,7 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "How Uruguay built a national care system from the ground up",
+          "title": "One small country has a big idea for America’s caregiving crisis",
           "url": "https://www.vox.com/policy/511386/childcare-care-uruguay-build-back-better-paid-leave-families-daycare-families-children-seniors-infrastracture",
           "publishedAt": "2026-11-20T11:00:00.000Z",
           "excerpt": "Imagine a family with two working parents who can drop off their 2-year-old at a neighborhood childcare center for the workday for little to no fee. Their 4-year-old goes to a free public preschool nearby. Across town, the mother’s 82-year-old father, who can no longer bathe or dress himself, is vis",
@@ -4889,7 +4894,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5078,7 +5083,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Conversation",
@@ -5247,7 +5252,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Pew Research Center",
@@ -5416,7 +5421,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "404 Media",
@@ -5545,7 +5550,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Undark",
@@ -5644,7 +5649,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5833,7 +5838,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Noema",
@@ -6022,7 +6027,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "n+1",
@@ -6211,6 +6216,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
     },
     {
@@ -6316,7 +6322,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Quietus",
@@ -6485,7 +6491,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "BFI",
@@ -6654,7 +6660,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6823,7 +6829,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6992,7 +6998,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Colossal",
@@ -7000,6 +7006,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Su Blackwell Enchants with Folkloric Stories That Spring from Vintage Books",
+          "url": "https://www.thisiscolossal.com/2026/11/su-blackwell-vintage-books/",
+          "publishedAt": "2026-11-23T20:33:23.000Z",
+          "excerpt": "The artist's new exhibition roots in nature and the stories we draw from the world around us. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Su Blackwell Enchants with Folkloric Stories",
+          "source": "Colossal",
+          "category": "Arts",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Dance into the Week with an Entirely Hand-Drawn Animation for the Osees",
           "url": "https://www.thisiscolossal.com/2026/11/catherine-lepage-dancing-on-osees/",
@@ -7170,18 +7185,9 @@
           "source": "Colossal",
           "category": "Arts",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Get Up-Close to Cells, Ink, and Insects in the Nikon Small World Photomicrography Contest",
-          "url": "https://www.thisiscolossal.com/2026/11/nikon-small-world-photomicrography-competition-2026-winners/",
-          "publishedAt": "2026-11-12T14:51:12.000Z",
-          "excerpt": "A big stage for itty bitty subject matter. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Get Up-Close to Cells, Ink, and Insects in the Nikon Small World Photomicrography Contest appea",
-          "source": "Colossal",
-          "category": "Arts",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Pudding",
@@ -7350,7 +7356,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7519,7 +7525,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7648,7 +7654,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Five Books",
@@ -7817,7 +7823,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Book Marks",
@@ -7986,7 +7992,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "London Review of Books",
@@ -8175,7 +8181,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Millions",
@@ -8344,7 +8350,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Literary Hub",
@@ -8513,7 +8519,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Rumpus",
@@ -8702,7 +8708,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8871,7 +8877,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Electric Literature",
@@ -9040,7 +9046,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Paris Review",
@@ -9129,7 +9135,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Offing",
@@ -9318,7 +9324,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Words Without Borders",
@@ -9507,7 +9513,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Mekong Review",
@@ -9696,7 +9702,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "The Marginalian",
@@ -9865,7 +9871,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Daily Nous",
@@ -10034,7 +10040,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Aeon",
@@ -10203,7 +10209,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Psyche",
@@ -10392,7 +10398,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Tricycle",
@@ -10561,7 +10567,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10730,7 +10736,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Kottke",
@@ -10738,6 +10744,16 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Directing Genius of Akira Kurosawa Explained",
+          "url": "https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained",
+          "publishedAt": "2026-11-23T20:41:00.000Z",
+          "excerpt": "This video from StudioBinder looks at how Akira Kurosawa made his films. In this video essay, we break down Kurosawa’s filmmaking techniques across Seven Samurai, High and Low, Rashomon, Ikiru, Yojimbo, and more. From dynamic blocking and layered composition to bold movement and weather-driven cinem",
+          "source": "Kottke",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Kottke"
+        },
         {
           "title": "Courtesy of the Smithsonian and the Internet Archive: The...",
           "url": "https://kottke.org/26/11/0050037-the-art-of-knitting-1892",
@@ -10927,19 +10943,9 @@
           "category": "Discover",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Kottke"
-        },
-        {
-          "title": "50 Unforgettable Love Stories, including The Age of...",
-          "url": "https://kottke.org/26/11/0050010-50-unforgettable-love-sto",
-          "publishedAt": "2026-11-19T18:16:00.000Z",
-          "excerpt": "50 Unforgettable Love Stories , including The Age of Innocence, Giovanni’s Room, The Remains of the Day, Normal People, Middlemarch, and Romeo & Juliet.",
-          "source": "Kottke",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Longreads",
@@ -11148,7 +11154,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Waxy",
@@ -11377,7 +11383,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "MetaFilter",
@@ -11458,7 +11464,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11647,7 +11653,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Dense Discovery",
@@ -11655,6 +11661,16 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "DD416 / Adrift in a world of options",
+          "url": "https://www.densediscovery.com/issues/416/",
+          "publishedAt": "2026-11-23T04:47:51.000Z",
+          "excerpt": "Issue 416: Adrift in a world of options – Read the full issue in the archive.",
+          "source": "Dense Discovery",
+          "category": "Discover",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Dense Discovery"
+        },
         {
           "title": "DD415 / MBA: school of profit",
           "url": "https://www.densediscovery.com/issues/415/",
@@ -11844,19 +11860,9 @@
           "category": "Discover",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Dense Discovery"
-        },
-        {
-          "title": "DD396 / On being properly unwell",
-          "url": "https://www.densediscovery.com/issues/396/",
-          "publishedAt": "2026-07-06T07:07:25.000Z",
-          "excerpt": "Issue 396: On being properly unwell – Read the full issue in the archive.",
-          "source": "Dense Discovery",
-          "category": "Discover",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "香港01",
@@ -11864,6 +11870,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "黃仁勳復職｜即日重返公司獲員工歡迎 稱第二次任CEO會做得更好",
+          "url": "https://hk01.com/sns/article/60414192",
+          "publishedAt": "2026-11-23T20:31:59.000Z",
+          "excerpt": "英偉達（Nvidia，又譯輝達）於11月23日戲劇性宣布黃仁勳復任行政總裁後，黃仁勳同日重返公司位於加州聖克拉拉（Santa Clara）的總部，受到員工熱烈歡迎。在此之前，黃仁勳發聲明表示，迫不及待重返工作崗位。他同日亦已將X帳號的個人簡介，重新改回為英偉達創辦人兼CEO。 Scenes from Nvidia headquarters as Jensen comes back. The Nvidia employees wanted him back more than anything. Grateful to the President, everyone in the adminis",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "江美儀經歷《名媛望族》網暴：當年被罵重口味 13年後鹹魚翻身",
           "url": "https://hk01.com/sns/article/60413481",
@@ -11937,14 +11951,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "丁薛祥訪星晤李顯龍 稱兩國應把握正確戰略方向密切協調",
-          "url": "https://hk01.com/sns/article/60414179",
-          "publishedAt": "2026-11-23T16:40:59.000Z",
-          "excerpt": "中共中央政治局常委、國務院副總理丁薛祥訪問新加坡，11月23日與新加坡國務資政李顯龍會面。丁薛祥表示，中國始終堅定不移推進全面深化改革，堅持對外開放，堅持自主創新。在當前複雜動蕩的國際形勢下，雙方應繼續把握正確戰略方向，密切溝通協調，推動兩國合作行穩致遠。 2026年11月23日，中共中央政治局常委、國務院副總理丁薛祥到訪新加坡期間，與新加坡國務資政李顯龍（右）會面。（X@leehsienloong圖片） 丁薛祥表示，當日上午與新加坡副總理顏金勇共同主持中新雙邊合作機制會議，按照兩國領導人戰略引領，探討進一步拓展未來合作的新路徑、新方法。中方秉持以人為本、向上向善的原則，推動人工智能發展，賦能",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "筲箕灣愛東邨愛澤樓中層單位失火冒煙 大批住戶沿後樓梯逃生",
           "url": "https://hk01.com/sns/article/60414162",
           "publishedAt": "2026-11-23T14:48:18.000Z",
@@ -11985,6 +11991,14 @@
           "category": "Hong Kong"
         },
         {
+          "title": "李城璧中學推強制晚間自習 學生批不合理 校方稱應學生反映推行",
+          "url": "https://hk01.com/sns/article/60413168",
+          "publishedAt": "2026-11-23T12:19:12.000Z",
+          "excerpt": "本屆考生正準備應考香港中學文憑考試（DSE），有於保良局李城璧中學就讀的中學生近日向《香港01》表示，校方向家長發通告表示，將為學業成績未達標學生安排強制性晚間自習，時間由下午5時30分至晚上8時30分，未經批准而缺席的學生，將作曠課論。該學生批評相關政策不合理，認為變相是剝奪自主溫習空間，又指學校無安排用餐時間，如要學生「用健康換分數」。 保良局李城璧中學回覆查詢時稱，有部份學生曾反映校外缺乏理想的溫習空間，遂推行晚間自習及學業輔導計劃，又指若學生因不同原因而未能出席，家長可書面通知校方或直接與老師聯繫。教育局發言人則說，得悉事件後已即時聯絡有關學校了解情況，已提醒學校在安排課後輔導或自習時",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "01觀點｜APEC深圳峰會 照見香港焦慮",
           "url": "https://hk01.com/sns/article/60411354",
           "publishedAt": "2026-11-23T12:00:41.000Z",
@@ -12015,17 +12029,9 @@
           "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，第三被告鄺港智接受其父親鄺球的代表律師盤問時，再提及蔡的丈夫譚方駿。 鄺港智被問是否知蔡與譚有否性關係時，鄺說：「你要問佢地啦。」律師進一步問他譚的性取向時，鄺一方面稱：「畀人食花生咁無必要啦。」但又說：「鍾意男多啲。」之後更稱：「九成囉，未必百分百。」更反問律師為何之前不追問譚方駿。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至2",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "大腸癌｜25歲男無便秘確診大腸癌 醫揭長期缺蔬果吃1類食物導致",
-          "url": "https://hk01.com/sns/article/60399480",
-          "publishedAt": "2026-11-23T08:00:33.000Z",
-          "excerpt": "一名25歲電子業工程師因長期上腹痛就醫，檢查發現橫結腸有約5公分腫瘤，確診第二期大腸癌。台灣肝膽腸胃科醫師蕭敦仁指出，患者沒有腹瀉、便秘或血便等典型症狀，平時長期外食、偏好速食且幾乎不吃蔬果，提醒年輕人也不能輕忽腸道健康。 蕭敦仁在節目《健康好生活》表示，患者因上腹部持續隱隱作痛就醫，經超音波掃描發現約5公分異常病灶，再透過電腦斷層確認腫瘤位置與大小，確診為第二期大腸癌。所幸及時接受手術切除，依當時評估，術後暫時無須接受化療。 相關文章： 大腸直腸癌｜大便變細總覺得解不乾淨？7種常見徵兆及早察覺病灶 👇👇👇 大腸直腸癌的常見癥兆（01製圖） 大腸直腸癌的常見癥兆（01製圖） 大腸直腸癌的",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "有線新聞",
@@ -12194,7 +12200,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Now 新聞",
@@ -12363,7 +12369,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12532,7 +12538,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12701,7 +12707,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "South China Morning Post",
@@ -12870,7 +12876,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13039,12 +13045,30 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-23T20:17:20.386Z"
+      "lastSuccessfulAt": "2026-11-23T21:17:22.188Z"
     }
   ],
   "stories": [
     {
-      "title": "\"Per ARM's Request, This Site Will Be Discontinued on 4 December 2026\"",
+      "title": "Wikipedia Has Hidden Doors",
+      "url": "https://cardcatalogforlife.substack.com/p/wikipedia-has-hidden-doors-heres",
+      "publishedAt": "2026-11-23T21:09:14.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50619335"
+    },
+    {
+      "title": "The horse made the state",
+      "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+      "publishedAt": "2026-11-23T20:59:12.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50619186"
+    },
+    {
+      "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "url": "https://arm.jonpalmisc.com/",
       "publishedAt": "2026-11-23T19:17:55.000Z",
       "excerpt": "",
@@ -13080,7 +13104,7 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50615481"
     },
     {
-      "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+      "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "publishedAt": "2026-11-23T17:07:26.000Z",
       "excerpt": "",
@@ -13170,6 +13194,15 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50610318"
     },
     {
+      "title": "Show HN: Hermit CRM – Free open-source CRM for solopreneurs",
+      "url": "https://hermitcrm.io/",
+      "publishedAt": "2026-11-23T10:09:02.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50609708"
+    },
+    {
       "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "url": "https://z.ai/blog/glm-5.4",
       "publishedAt": "2026-11-23T10:06:43.000Z",
@@ -13188,15 +13221,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50609579"
     },
     {
-      "title": "Yes, 17M lines of Lean is a lot",
-      "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
-      "publishedAt": "2026-11-23T05:00:49.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50607668"
-    },
-    {
       "title": "XNU Linux: Full OS X GUI Userspace on Linux",
       "url": "https://github.com/AFK-surf/xnulinux",
       "publishedAt": "2026-11-23T03:49:24.000Z",
@@ -13206,22 +13230,20 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50607261"
     },
     {
-      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-      "url": "https://spelunkr.tv",
-      "publishedAt": "2026-11-23T01:13:51.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50606192"
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "publishedAt": "2026-11-23T21:09:37.000Z",
+      "excerpt": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
-      "title": "Nespresso's project to reduce grams of coffee per capsule",
-      "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
-      "publishedAt": "2026-11-22T23:57:45.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50605479"
+      "title": "Apple renews Ted Lasso for season 5",
+      "url": "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+      "publishedAt": "2026-11-23T20:56:00.000Z",
+      "excerpt": "One of Apple's biggest shows is sticking around for at least one more season. The streamer announced today that Ted Lasso has been renewed for a fifth season on Apple TV, after what the company calls a \"record-breaking season four debut.\" There are currently no details about the new season nor when ",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
       "title": "Claude AI can review pull requests and ship fixes on its own now",
@@ -13235,7 +13257,7 @@
       "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
       "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
       "publishedAt": "2026-11-23T19:58:27.000Z",
-      "excerpt": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the co-founder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned a",
+      "excerpt": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the cofounder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned as",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13243,7 +13265,7 @@
       "title": "How Jensen Huang ended up as Nvidia CEO again",
       "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
       "publishedAt": "2026-11-23T19:57:18.000Z",
-      "excerpt": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago co-founded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfa",
+      "excerpt": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfai",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13336,18 +13358,18 @@
       "category": "Technology"
     },
     {
-      "title": "The Verge’s favorite holiday gifts that cost $50 or less",
-      "url": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
-      "publishedAt": "2026-11-23T15:00:00.000Z",
-      "excerpt": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes be challenging to shop for - caught between affordable accessories and big-ticket items - there's ple",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
       "title": "How one router caused the worst ground stop since 9/11",
       "url": "https://www.theverge.com/podcast/1039215/faa-ground-stop-cause-trump-elon-musk-doge-airlines-safety",
       "publishedAt": "2026-11-23T15:00:00.000Z",
       "excerpt": "Today I’m talking with Darryl Campbell, a freelance journalist, aviation expert, and author of the book Fatal Abstraction: Why the Managerial Class Loses Control of Software. Darryl covers aviation and the FAA, and earlier this month, when the US suffered a sudden nationwide ground stop on air trave",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "The Verge’s favorite holiday gifts that cost $50 or less",
+      "url": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
+      "publishedAt": "2026-11-23T15:00:00.000Z",
+      "excerpt": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes be challenging to shop for - caught between affordable accessories and big-ticket items - there's ple",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13364,22 +13386,6 @@
       "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
       "publishedAt": "2026-11-23T14:04:24.000Z",
       "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NV",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
-      "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
-      "publishedAt": "2026-11-23T14:00:00.000Z",
-      "excerpt": "In an age of streaming shows designed to appeal to distracted viewers, Blade Runner 2099 can feel like a welcome anachronism. The Amazon series is slow and methodical, just like the movies it follows, as it delves deep into moral ambiguity. It is very Blade Runner, in that it both feels true to the ",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Amazon is taking orders for the Moto Tag 3 before it’s even been announced",
-      "url": "https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak",
-      "publishedAt": "2026-11-23T13:09:32.000Z",
-      "excerpt": "Motorola's unannounced Moto Tag 3 has been listed for sale online, just five months after the Moto Tag 2 went on sale in the US, and before any official announcement of a follow-up. The listing on Amazon UK was spotted by X user @matteventu, and shows the tracker in a \"Pantone Lucent White\" color op",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13544,6 +13550,14 @@
       "category": "Technology"
     },
     {
+      "title": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
+      "url": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
+      "publishedAt": "2026-11-23T20:34:51.000Z",
+      "excerpt": "\"I would ask you to please reach out to Roscosmos directly.\"",
+      "source": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "title": "Surveillance pricing uses our personal data to make us pay more",
       "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
       "publishedAt": "2026-11-23T20:11:43.000Z",
@@ -13692,14 +13706,6 @@
       "url": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
       "publishedAt": "2026-11-20T20:26:33.000Z",
       "excerpt": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
-      "source": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
-      "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
-      "publishedAt": "2026-11-20T19:52:59.000Z",
-      "excerpt": "CTIA said jamming test showed \"interference... up to two and a half miles away.\"",
       "source": "Ars Technica",
       "category": "Technology"
     },
@@ -13864,6 +13870,14 @@
       "category": "Technology"
     },
     {
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "publishedAt": "2026-11-23T20:38:53.000Z",
+      "excerpt": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
       "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
       "publishedAt": "2026-11-23T19:31:41.000Z",
@@ -14016,12 +14030,13 @@
       "category": "Technology"
     },
     {
-      "title": "Can a TV be too large? An investigation",
-      "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
-      "publishedAt": "2026-11-22T15:00:00.000Z",
-      "excerpt": "Can a TV be too large? This writer's recent upgrade to a 65-inch OLED came with some unexpected challenges.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "Anthropic can now watch for Claude misuse without keeping firms’ data",
+      "url": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
+      "publishedAt": "2026-11-23T21:07:38.000Z",
+      "excerpt": "Anthropic has opened Enterprise Frontier Safeguards in public beta, letting it scan for misuse across many Claude requests while companies keep their data in their own cloud storage. It answers enterprise pushback over the 30-day retention Anthropic introduced with Fable 5. Anthropic has opened a ne",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "DeepMind’s AI agents found cheaper quantum algorithms, and proved them",
@@ -14105,13 +14120,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Anthropic kept IPO bankers off OpenAI work for six months, Reuters reports",
-      "url": "https://thenextweb.com/news/anthropic-ipo-bankers-four-person-teams-rivals-reuters",
-      "publishedAt": "2026-11-23T16:46:24.000Z",
-      "excerpt": "Anthropic’s shares were flat on Monday, its third day of trading, CNBC reported. Most big tech stocks rebounded, and Nvidia jumped 30% after it reinstated Jensen Huang. New details show how tightly Anthropic ran the listing. Echo Wang and Milana Vinn of Reuters reported them on Sunday, citing severa",
-      "source": "The Next Web",
+      "title": "Jensen Huang Says He'll Be a 'Better CEO' As Staff Applauds His Return",
+      "url": "https://slashdot.org/story/26/11/23/216201/jensen-huang-says-hell-be-a-better-ceo-as-staff-applauds-his-return?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-23T21:07:00.000Z",
+      "excerpt": "Nvidia CEO Jensen Huang received a standing ovation from employees upon returning to the company's headquarters Monday, less than two weeks after resigning amid revelations of extramarital affairs, including one involving an alleged Chinese spy. \"Thank you all for the second chances. I'm gonna be a ",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "CrowdStrike to Buy Zscaler In $44 Billion Deal",
@@ -14235,15 +14250,6 @@
       "url": "https://news.slashdot.org/story/26/11/22/1838218/climate-change-talks-fall-apart-in-final-hours-over-fossil-fuels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
       "publishedAt": "2026-11-22T18:41:00.000Z",
       "excerpt": "NPR reports international climate talks \"broke down in overtime hours, over the main cause of planetary warming &mdash; fossil fuels.\" At Sunday's U.N. climate summit, \"nearly 200 countries failed to reach an agreement on whether they should move away from energy sources like coal and natural gas.\" ",
-      "source": "Slashdot",
-      "category": "Technology",
-      "sourceRole": "community"
-    },
-    {
-      "title": "How Does GTA 6 Depict Electric Cars?",
-      "url": "https://games.slashdot.org/story/26/11/22/0457218/how-does-gta-6-depict-electric-cars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-22T17:34:00.000Z",
-      "excerpt": "Grand Theft Auto 6 as seen by the EV news site Electrek: GTA works as a mirror. In 2013, the EV was a punchline: a Tesla parody that overheated if you drove it too fast. In 2026, it's just another car in Vice City traffic, and the joke is on the guy in the pickup parked in the charging stall. That's",
       "source": "Slashdot",
       "category": "Technology",
       "sourceRole": "community"
@@ -14392,10 +14398,10 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "US lawmakers criticize Nvidia's decision to reinstate Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China (David Shepardson/Reuters)",
+      "title": "US lawmakers from both parties criticize Nvidia for reinstating Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China (Reuters)",
       "url": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/",
       "publishedAt": "2026-11-23T16:25:02.000Z",
-      "excerpt": "David Shepardson / Reuters : US lawmakers criticize Nvidia's decision to reinstate Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China &nbsp; &mdash;&nbsp; US lawmakers from both parties offered sharp criticism on Monday of Nvidia's (NVDA.O) decision to rein",
+      "excerpt": "Reuters : US lawmakers from both parties criticize Nvidia for reinstating Jensen Huang and say Congress must pass legislation to crack down on US chip exports to China &nbsp; &mdash;&nbsp; US lawmakers from both parties sharply criticized Nvidia's (NVDA.O) decision to reinstate Jensen Huang as CEO &",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261123/p27#a261123p27",
@@ -14412,6 +14418,33 @@
       "sourceUrl": "https://www.techmeme.com/261123/p26#a261123p26",
       "sourceRole": "curator",
       "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Your older, discontinued AirTags can still serve a purpose",
+      "url": "https://www.engadget.com/2320290/discontinued-airtags-still-serve-purpose/",
+      "publishedAt": "2026-11-23T21:00:00.000Z",
+      "excerpt": "Apple has moved on from the original AirTag, but you don't have to. Find out how your old trackers can still earn their keep at home and on the go.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "New leaks reveal the iPhone 18e will have a redesigned camera plateau",
+      "url": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
+      "publishedAt": "2026-11-23T20:57:55.000Z",
+      "excerpt": "We've also got further confirmation the iPhone Air 2 will have a second camera lens.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "GTA 6 player gets social ban on PSN after sending a photo of in-game nudity",
+      "url": "https://www.engadget.com/2325800/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/",
+      "publishedAt": "2026-11-23T20:46:23.000Z",
+      "excerpt": "Apparently just because it's in the game doesn't mean sharing \"obscene\" content is okay.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Grand Theft Auto 6 is really about the death of the American Dream",
@@ -14567,29 +14600,20 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How to pair your Bluetooth headphones to your Windows PC",
-      "url": "https://www.engadget.com/2320151/how-to-pair-bluetooth-headphones-windows-pc/",
-      "publishedAt": "2026-11-23T14:45:00.000Z",
-      "excerpt": "Connecting a pair of Bluetooth headphones to a Windows PC isn't as simple as plugging into a headphone socket, but it's still quite straightforward.",
-      "source": "Engadget",
+      "title": "This Black Friday 1TB Cloud Backup storage 2 year discount deal is 85% off making it just $3.29 per month — and it also includes a VPN, antivirus, secure browser, and 5GB eSIM data for free",
+      "url": "https://www.techradar.com/pro/this-black-friday-1tb-cloud-backup-storage-2-year-discount-deal-is-85-percent-off-making-it-just-usd3-29-per-month-and-it-also-includes-a-vpn-antivirus-secure-browser-and-5gb-esim-data-for-free",
+      "publishedAt": "2026-11-23T21:00:00.000Z",
+      "excerpt": "This two year deal is the cheapest software combo I've seen, and is an essential for any cyber pro looking for a Black Friday deal on cloud storage, antivirus, and a VPN.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately",
-      "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
-      "publishedAt": "2026-11-23T14:16:53.000Z",
-      "excerpt": "So much for the board not intending to bring him back.",
-      "source": "Engadget",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "5 underrated Apple Watch shortcuts you can set up in minutes",
-      "url": "https://www.engadget.com/2319938/underrated-apple-watch-shortcuts-quick-setup/",
-      "publishedAt": "2026-11-23T14:15:00.000Z",
-      "excerpt": "From late nights out to long drives, these five underrated Apple Watch shortcuts take only minutes to set up and can make your days much easier.",
-      "source": "Engadget",
+      "title": "This security company is offering $10,000 to anyone able to hack its AI agent protection tool",
+      "url": "https://www.techradar.com/pro/security/this-security-company-is-offering-usd10-000-to-anyone-able-to-hack-its-ai-agent-protection-tool",
+      "publishedAt": "2026-11-23T20:25:00.000Z",
+      "excerpt": "Cato Networks is challenging white hat hackers to compromise its new AI agent monitoring tool - and offering $10,000 for the first three successful hacks.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14756,20 +14780,47 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The best Black Friday espresso machine deals: Breville, De'Longhi, and Smeg",
-      "url": "https://www.techradar.com/seasonal-sales/black-friday-espresso-machine-deals-2026-nov-23",
-      "publishedAt": "2026-11-23T16:39:20.000Z",
-      "excerpt": "I'm a certified barista, and I've hand-picked all this year's best Black Friday deals on quality espresso machines from big brands you can trust.",
-      "source": "TechRadar",
+      "title": "Kodak SlideTag is a $35 AirTag alternative with an E-Ink display for your photos",
+      "url": "https://9to5mac.com/2026/11/23/kodak-slidetag-e-ink-iphone-tracker-airtag/",
+      "publishedAt": "2026-11-23T21:05:00.000Z",
+      "excerpt": "Offering support for iPhone and Android’s tracking networks, the new Kodak SlideTag offers the neat added functionality over an AirTag of being able to show your photos and more on an E-Ink display. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "'Some people get so excited about ‘free’ software that they forget the risks': New report finds rush to develop software faster with AI is creating a costly new problem",
-      "url": "https://www.techradar.com/pro/some-people-get-so-excited-about-free-software-that-they-forget-the-risks-new-report-finds-rush-to-develop-software-faster-with-ai-is-creating-a-costly-new-problem",
-      "publishedAt": "2026-11-23T16:05:00.000Z",
-      "excerpt": "AI promises to make building your own apps far easier and cheaper, but you lose a lot of the protections software vendors give you.",
-      "source": "TechRadar",
+      "title": "Apple announces Ted Lasso season 5 is coming",
+      "url": "https://9to5mac.com/2026/11/23/apple-announces-ted-lasso-season-5-is-coming/",
+      "publishedAt": "2026-11-23T21:01:24.000Z",
+      "excerpt": "Apple TV ( now $6.99/month for limited time ) has just announced that Ted Lasso will return for season 5. Here are the details. more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Anthropic launches new Claude Ship feature for builders",
+      "url": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/",
+      "publishedAt": "2026-11-23T20:32:31.000Z",
+      "excerpt": "Anthropic is launching a new tool for builders called Claude Ship. The new AI feature allows Claude to “review pull requests, fix them, and approve the ones that a team’s policy allows.” more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Apple Watch SE 3 vs Series 12: Which should you buy this holiday season?",
+      "url": "https://9to5mac.com/2026/11/23/apple-watch-se-3-vs-series-12-which-should-you-buy-this-holiday-season/",
+      "publishedAt": "2026-11-23T20:26:50.000Z",
+      "excerpt": "The holiday shopping season is here, and Apple Watch is always a popular gift. Apple’s lineup includes the affordable Apple Watch SE 3 and the more advanced Apple Watch Series 12. Here’s how those two Apple Watch models stack up… Apple Watch SE 3 GPS 40mm: from $179 (Reg. $249) Apple Watch SE 3 GPS ",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "MacBook Neo gets rare $100 price drop for Black Friday [Updated]",
+      "url": "https://9to5mac.com/2026/11/23/macbook-neo-gets-rare-50-price-drop-in-early-black-friday-deal/",
+      "publishedAt": "2026-11-23T20:21:20.000Z",
+      "excerpt": "Update, November 23 : The Citrus MacBook Neo with 256GB of storage has dropped even further. It’s now $100 off, sitting at $599 . This one will probably sell out fast, so don’t wait ! The rest of the MacBook Neo lineup is still $50 off. The most affordable current-generation MacBook you can get unde",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14904,51 +14955,6 @@
       "url": "https://9to5mac.com/2026/11/23/jensen-huang-reinstated-as-ceo-of-nvidia-despite-companys-previous-statement/",
       "publishedAt": "2026-11-23T14:08:12.000Z",
       "excerpt": "Nvidia has announced that disgraced CEO Jensen Huang has been reinstated to the role, effective immediately. The company’s share price jumped more than 30% in response, with the rest of the market also making significant gains. It said that the board voted unanimously in favor of reinstatement despi",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Newest Apple Watch Series 12 and Ultra 4 now $100 off for Black Friday, more from just $179",
-      "url": "https://9to5mac.com/2026/11/23/best-apple-watch-black-friday-deals-2/",
-      "publishedAt": "2026-11-23T13:02:41.000Z",
-      "excerpt": "Day 5 of the Amazon Black Friday sale is on fire with an insane $100 off AirPods Pro 3 and over $300 off M5 MacBook Air , but the Apple Watch deals just got a whole lot better too. You’ll now find Apple Watch Series 12 down even lower, with new all-time lows at $100 off and deals starting from $299 ",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "As Apple works on AI agent features, banks are already blocking them",
-      "url": "https://9to5mac.com/2026/11/23/as-apple-works-on-ai-agent-features-banks-are-already-blocking-them/",
-      "publishedAt": "2026-11-23T12:55:35.000Z",
-      "excerpt": "One of the most dramatic shifts in the AI landscape is the emergence of intelligent agents that can use iPhone and Mac apps in order to carry out tasks on our behalf. We can already use third-party chatbots in this way, and we know Apple is working hard to turn Siri AI into an agent. However, before",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Five recent tech outages were not due to AI; the next round will be",
-      "url": "https://9to5mac.com/2026/11/23/five-recent-tech-outages-were-not-due-to-ai-the-next-round-will-be/",
-      "publishedAt": "2026-11-23T12:06:58.000Z",
-      "excerpt": "Five major tech outages in quick succession earlier this month led to speculation that they were connected, with some inevitably believing them to be AI-related. That wasn’t the case, but the US Director of National Intelligence is one of a number of experts warning that we should expect AI-powered ",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "AirPods Pro 3 hit new all-time low price, now $149 ($100 off)",
-      "url": "https://9to5mac.com/2026/11/23/airpods-pro-3-just-got-even-cheaper-now-169-80-off/",
-      "publishedAt": "2026-11-23T12:02:05.000Z",
-      "excerpt": "Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with an incredible $100 discount to $149 shipped – their best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up today with the first discount on Apple’s brand new OLED iPad mini ,",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
-      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections/",
-      "publishedAt": "2026-11-22T22:02:43.000Z",
-      "excerpt": "9to5Mac is brought to you by Tello Mobile. Switching to Tello Mobile can bring the cost of your plan down to as little as $5 a month, or an unlimited plan for just $25 a month, all on America’s largest 5G network. See all of the available plans at tello.com . iOS 27 includes a really clever new feat",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -16549,6 +16555,15 @@
       "category": "Design"
     },
     {
+      "title": "The Wachowskis Want to Take ‘The Matrix’ Back From Warner Bros.",
+      "url": "https://www.them.us/entertainment/tv-and-movies/matrix-rights-wachowski-sisters",
+      "publishedAt": "2026-11-23T19:37:11.000Z",
+      "excerpt": "Prolific directors Lilly and Lana Wachowski want to reclaim The Matrix series from Warner Bros., as Puck originally reported, with sources saying the sisters officially informed the film and television giant that they wish to exercise their right to creative copyright termination. If the Wachowski s",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "GLAAD Launches Campaign Urging Meta to Stop Censoring LGBTQ+ Accounts",
       "url": "https://www.them.us/news/meta-censorship-lgbtq-accounts",
       "publishedAt": "2026-11-23T18:04:22.000Z",
@@ -16720,11 +16735,47 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Wyoming Trans Woman Takes Plea Deal After Drawing Gun on Former Patriot Front Member Who Shoved Her",
-      "url": "https://www.them.us/news/rihanna-kelver-wyoming-plea-deal",
-      "publishedAt": "2026-11-19T20:45:23.000Z",
-      "excerpt": "This story originally appeared on The Advocate . A transgender woman in Wyoming will avoid jail time and keep her gun rights under a plea deal after she was charged with pulling a gun on a man who had shoved her to the ground. She says she acted in self-defense. Rihanna Kelver pleaded no contest thi",
-      "source": "Them",
+      "title": "Hugh Jackman Finally Sells His Perry Street Triplex",
+      "url": "http://www.curbed.com/article/hugh-jackman-perry-street-triplex-apartment-sale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-23T20:36:14.000Z",
+      "excerpt": "The actor’s West Village apartment, which he still owned with his ex-wife, was designed by Richard Meier, inside and out.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Trump Shouts About Corrupt Huang Intervention From the Rooftops",
+      "url": "http://nymag.com/intelligencer/article/trump-huang-reinstated-nvidia-truth-social.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-23T20:12:40.000Z",
+      "excerpt": "From a 50-minute CNBC interview to his wild Truth Social posts, Trump let absolutely everyone know he got Jensen Huang reinstated as Nvidia CEO.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Russell Brand’s Wife Is Sorry for Sharing His Message on YouTube",
+      "url": "http://www.thecut.com/article/russell-brands-wife-is-sorry-for-sharing-his-message.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-23T19:43:23.000Z",
+      "excerpt": "Laura Brand sparked an investigation after reading a letter her husband wrote from prison following his sexual-assault conviction.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Vance Wants Credit for Reinstating Huang, Too",
+      "url": "http://nymag.com/intelligencer/article/jd-vance-wants-credit-for-reinstating-huang-too.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-23T19:11:00.000Z",
+      "excerpt": "He helped Trump make this happen, according to somebody telling reporters he helped Trump make this happen.",
+      "source": "New York Magazine (Intelligencer)",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How The Gilded Age Staged Pirates of Penzance",
+      "url": "http://www.vulture.com/article/the-gilded-age-season-4-pirates-of-penzance-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-23T18:40:46.000Z",
+      "excerpt": "Larry Russell’s version of the comic opera is a theatrical hit in the series.",
+      "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
     },
@@ -16864,47 +16915,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "What Does MoMA’s Merger With Pompidou and M+ Mean for the Art World?",
-      "url": "http://www.vulture.com/article/moma-merger-pompidou-m-art-world.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-23T12:00:09.000Z",
-      "excerpt": "If successful, the move could upend the entrenched insularity at some of the world’s most powerful museums.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Reasonable Person’s Guide to Preparing for the Apocalypse",
-      "url": "http://www.thecut.com/article/a-reasonable-persons-guide-to-preparing-for-the-apocalypse.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-23T12:00:08.000Z",
-      "excerpt": "Don’t panic. Do consider stashing canned beans under the couch.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "‘Why Is That Girl Everywhere?’",
-      "url": "http://www.thecut.com/article/paloma-sandoval-interview-muses-inspirations.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-23T12:00:08.000Z",
-      "excerpt": "Model, radio DJ, and Sabrina Carpenter’s best friend — Paloma Sandoval contains multitudes.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "An Etiquette Guide for Productive Democratic Infighting",
-      "url": "http://nymag.com/intelligencer/article/5-rules-for-productive-democratic-party-infighting.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-23T11:00:13.000Z",
-      "excerpt": "Democrats can and must work through their differences as they seek complete power in 2028, but factional combat doesn’t have to be brutal.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Best Black Friday Deals, According to Cut Editors",
-      "url": "http://www.thecut.com/article/best-black-friday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-23T11:00:13.000Z",
-      "excerpt": "From Amazon, Sephora, Ulta, Walmart, and more.",
-      "source": "New York Magazine (Intelligencer)",
+      "title": "The Economy Is a Hostage Situation",
+      "url": "https://www.theatlantic.com/technology/2026/11/ai-hostage-economy-nvidia-huang/689552/?utm_source=feed",
+      "publishedAt": "2026-11-23T20:30:51.000Z",
+      "excerpt": "America has two choices under Nvidia’s market dominance, and both are bad.",
+      "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
     },
@@ -16990,19 +17005,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "We’ll Miss the Assistants When They’re Gone",
-      "url": "https://www.theatlantic.com/ideas/2026/11/executive-assistants-ai-jobs/689531/?utm_source=feed",
+      "title": "Orwell Has Become What He Despised",
+      "url": "https://www.theatlantic.com/ideas/2026/11/george-orwell-trump-authoritarianism/689542/?utm_source=feed",
       "publishedAt": "2026-11-23T12:00:00.000Z",
-      "excerpt": "An ode to the most frustrating, and formative, job in the world",
+      "excerpt": "Trumpists have turned him into jargon.",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Orwell Has Become What He Despised",
-      "url": "https://www.theatlantic.com/ideas/2026/11/george-orwell-trump-authoritarianism/689542/?utm_source=feed",
+      "title": "We’ll Miss the Assistants When They’re Gone",
+      "url": "https://www.theatlantic.com/ideas/2026/11/executive-assistants-ai-jobs/689531/?utm_source=feed",
       "publishedAt": "2026-11-23T12:00:00.000Z",
-      "excerpt": "Trumpists have turned him into jargon.",
+      "excerpt": "An ode to the most frustrating, and formative, job in the world",
       "source": "The Atlantic",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17080,15 +17095,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "The Taylor Swift Museum Exhibition Is an SOS Call",
-      "url": "https://www.theatlantic.com/culture/2026/11/taylor-swift-museum-boston/689520/?utm_source=feed",
-      "publishedAt": "2026-11-20T14:00:00.000Z",
-      "excerpt": "Art museums have to get creative right now. They can do better than this.",
-      "source": "The Atlantic",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "What It’s Like to Go Birding in Grand Theft Auto VI",
       "url": "https://www.newyorker.com/culture/the-lede/what-its-like-to-go-birding-in-grand-theft-auto-vi",
       "publishedAt": "2026-11-23T11:00:00.000Z",
@@ -17098,19 +17104,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "What Happens After We Flush?",
-      "url": "https://www.newyorker.com/magazine/2026/11/30/after-the-flush-nick-kawa-book-review",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
       "publishedAt": "2026-11-23T11:00:00.000Z",
-      "excerpt": "Turning sewage into fertilizer gives human waste a useful second life. What happens to the forever chemicals that come with it?",
+      "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Briefly Noted Book Reviews",
-      "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
+      "title": "What Happens After We Flush?",
+      "url": "https://www.newyorker.com/magazine/2026/11/30/after-the-flush-nick-kawa-book-review",
       "publishedAt": "2026-11-23T11:00:00.000Z",
-      "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
+      "excerpt": "Turning sewage into fertilizer gives human waste a useful second life. What happens to the forever chemicals that come with it?",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17269,6 +17275,14 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Something Strange at Maggie Ellis’s Thanksgiving Table",
+      "url": "https://hyperallergic.com/something-strange-at-maggie-elliss-thanksgiving-table/",
+      "publishedAt": "2026-11-23T20:54:21.000Z",
+      "excerpt": "In Ellis's world, you can never be quite sure whether you've stumbled into a dream, a nightmare, or someone else's very strange family gathering.",
+      "source": "Hyperallergic",
+      "category": "Culture"
+    },
+    {
       "title": "Orthodox Cleric Wanted in Connection With International Forgery Scheme",
       "url": "https://hyperallergic.com/orthodox-cleric-wanted-in-connection-with-international-forgery-scheme/",
       "publishedAt": "2026-11-23T19:59:12.000Z",
@@ -17381,11 +17395,19 @@
       "category": "Culture"
     },
     {
-      "title": "Hilma af Klint Is Rolling in Her Grave",
-      "url": "https://hyperallergic.com/hilma-af-klint-is-rolling-in-her-grave/",
-      "publishedAt": "2026-11-20T11:00:00.000Z",
-      "excerpt": "The Swedish artist’s painting went under the hammer for an obscene amount of money. Plus: Lowery Stokes Sims reviews Richard Powell’s new book on pigment, Blackness, and paint.",
-      "source": "Hyperallergic",
+      "title": "The Best Visual Effects in ‘Wildwood’ Are the Ones You Can’t See — Watch",
+      "url": "https://www.indiewire.com/features/craft/wildwood-vfx-indiewire-craft-roundtables-1235230006/",
+      "publishedAt": "2026-11-23T21:00:00.000Z",
+      "excerpt": "\"Wildwood\" Head of CG Animation Benoit Dubuc tells IndieWire about the visual effects that are hidden everywhere.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
+      "title": "From ‘Disclosure Day’ to ‘Devil Wears Prada’: Emily Blunt Breaks Down 10 of Her Greatest Movie Moments",
+      "url": "https://www.indiewire.com/awards/consider-this/emily-blunt-breaks-down-oppenheimer-disclosure-day-devil-wears-prada-1235230010/",
+      "publishedAt": "2026-11-23T20:45:00.000Z",
+      "excerpt": "Blunt could land a second Oscar nomination after for her language-spouting weatherwoman in Steven Spielberg's alien adventure. But she's made so many great films.",
+      "source": "IndieWire",
       "category": "Culture"
     },
     {
@@ -17469,22 +17491,6 @@
       "category": "Culture"
     },
     {
-      "title": "Box Office: ‘Hunger Games: Sunrise on the Reaping’ Debuts to Mighty $120 Million, Reviving Lionsgate’s Most Important Franchise",
-      "url": "https://www.indiewire.com/news/box-office/hunger-games-sunrise-on-the-reaping-revives-franchise-1235229881/",
-      "publishedAt": "2026-11-22T16:18:16.000Z",
-      "excerpt": "\"I Play Rocky\" expands with $9.3 million, while Paul Thomas Anderson's \"Cameron Winter at Carnegie Hall\" grosses $162,000 from three locations.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "Box Office: A24’s ‘You Can See Everything’ Crosses $100 Million Globally",
-      "url": "https://www.indiewire.com/news/box-office/box-office-you-can-see-everything-crosses-100-million-globally-1235229888/",
-      "publishedAt": "2026-11-22T15:45:54.000Z",
-      "excerpt": "Lance Oppenheim and Nathan Fielder's look at Elizabeth Holmes is the third-highest-grossing domestic release in A24's history.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
       "title": "How to talk to kids, according to kids",
       "url": "https://www.vox.com/advice/511543/talking-to-kids-advice-from-children",
       "publishedAt": "2026-11-23T13:00:00.000Z",
@@ -17548,7 +17554,7 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "How Uruguay built a national care system from the ground up",
+      "title": "One small country has a big idea for America’s caregiving crisis",
       "url": "https://www.vox.com/policy/511386/childcare-care-uruguay-build-back-better-paid-leave-families-daycare-families-children-seniors-infrastracture",
       "publishedAt": "2026-11-20T11:00:00.000Z",
       "excerpt": "Imagine a family with two working parents who can drop off their 2-year-old at a neighborhood childcare center for the workday for little to no fee. Their 4-year-old goes to a free public preschool nearby. Across town, the mother’s 82-year-old father, who can no longer bathe or dress himself, is vis",
@@ -19651,6 +19657,15 @@
       "category": "Arts"
     },
     {
+      "title": "Su Blackwell Enchants with Folkloric Stories That Spring from Vintage Books",
+      "url": "https://www.thisiscolossal.com/2026/11/su-blackwell-vintage-books/",
+      "publishedAt": "2026-11-23T20:33:23.000Z",
+      "excerpt": "The artist's new exhibition roots in nature and the stories we draw from the world around us. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Su Blackwell Enchants with Folkloric Stories",
+      "source": "Colossal",
+      "category": "Arts",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Dance into the Week with an Entirely Hand-Drawn Animation for the Osees",
       "url": "https://www.thisiscolossal.com/2026/11/catherine-lepage-dancing-on-osees/",
       "publishedAt": "2026-11-23T15:27:51.000Z",
@@ -19817,15 +19832,6 @@
       "url": "https://www.thisiscolossal.com/2026/11/peter-morris-architects-the-cloud-house-london/",
       "publishedAt": "2026-11-12T18:08:37.000Z",
       "excerpt": "Ten years in the making, \"The Cloud House\" is a whimsical response to its eclectic neighboring architecture. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Peter Morris Architects’ Past",
-      "source": "Colossal",
-      "category": "Arts",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Get Up-Close to Cells, Ink, and Insects in the Nikon Small World Photomicrography Contest",
-      "url": "https://www.thisiscolossal.com/2026/11/nikon-small-world-photomicrography-competition-2026-winners/",
-      "publishedAt": "2026-11-12T14:51:12.000Z",
-      "excerpt": "A big stage for itty bitty subject matter. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Get Up-Close to Cells, Ink, and Insects in the Nikon Small World Photomicrography Contest appea",
       "source": "Colossal",
       "category": "Arts",
       "sourceRole": "publisher"
@@ -23191,6 +23197,16 @@
       "category": "Philosophy"
     },
     {
+      "title": "The Directing Genius of Akira Kurosawa Explained",
+      "url": "https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained",
+      "publishedAt": "2026-11-23T20:41:00.000Z",
+      "excerpt": "This video from StudioBinder looks at how Akira Kurosawa made his films. In this video essay, we break down Kurosawa’s filmmaking techniques across Seven Samurai, High and Low, Rashomon, Ikiru, Yojimbo, and more. From dynamic blocking and layered composition to bold movement and weather-driven cinem",
+      "source": "Kottke",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Kottke"
+    },
+    {
       "title": "Courtesy of the Smithsonian and the Internet Archive: The...",
       "url": "https://kottke.org/26/11/0050037-the-art-of-knitting-1892",
       "publishedAt": "2026-11-23T19:44:00.000Z",
@@ -23375,16 +23391,6 @@
       "url": "https://kottke.org/26/11/0050016-life-feeling-too-expensiv",
       "publishedAt": "2026-11-19T18:58:00.000Z",
       "excerpt": "Life Feeling Too Expensive? “Sober economic assessments don’t necessarily affect how people feel when they’re staring at the skyrocketing costs of the big items needed to achieve a middle-class life.” (Housing, education, health care, child care…)",
-      "source": "Kottke",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Kottke"
-    },
-    {
-      "title": "50 Unforgettable Love Stories, including The Age of...",
-      "url": "https://kottke.org/26/11/0050010-50-unforgettable-love-sto",
-      "publishedAt": "2026-11-19T18:16:00.000Z",
-      "excerpt": "50 Unforgettable Love Stories , including The Age of Innocence, Giovanni’s Room, The Remains of the Day, Normal People, Middlemarch, and Romeo & Juliet.",
       "source": "Kottke",
       "category": "Discover",
       "sourceRole": "curator",
@@ -24063,6 +24069,16 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "DD416 / Adrift in a world of options",
+      "url": "https://www.densediscovery.com/issues/416/",
+      "publishedAt": "2026-11-23T04:47:51.000Z",
+      "excerpt": "Issue 416: Adrift in a world of options – Read the full issue in the archive.",
+      "source": "Dense Discovery",
+      "category": "Discover",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Dense Discovery"
+    },
+    {
       "title": "DD415 / MBA: school of profit",
       "url": "https://www.densediscovery.com/issues/415/",
       "publishedAt": "2026-11-16T04:34:45.000Z",
@@ -24253,14 +24269,12 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "DD396 / On being properly unwell",
-      "url": "https://www.densediscovery.com/issues/396/",
-      "publishedAt": "2026-07-06T07:07:25.000Z",
-      "excerpt": "Issue 396: On being properly unwell – Read the full issue in the archive.",
-      "source": "Dense Discovery",
-      "category": "Discover",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Dense Discovery"
+      "title": "黃仁勳復職｜即日重返公司獲員工歡迎 稱第二次任CEO會做得更好",
+      "url": "https://hk01.com/sns/article/60414192",
+      "publishedAt": "2026-11-23T20:31:59.000Z",
+      "excerpt": "英偉達（Nvidia，又譯輝達）於11月23日戲劇性宣布黃仁勳復任行政總裁後，黃仁勳同日重返公司位於加州聖克拉拉（Santa Clara）的總部，受到員工熱烈歡迎。在此之前，黃仁勳發聲明表示，迫不及待重返工作崗位。他同日亦已將X帳號的個人簡介，重新改回為英偉達創辦人兼CEO。 Scenes from Nvidia headquarters as Jensen comes back. The Nvidia employees wanted him back more than anything. Grateful to the President, everyone in the adminis",
+      "source": "香港01",
+      "category": "Hong Kong"
     },
     {
       "title": "江美儀經歷《名媛望族》網暴：當年被罵重口味 13年後鹹魚翻身",
@@ -24335,14 +24349,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "丁薛祥訪星晤李顯龍 稱兩國應把握正確戰略方向密切協調",
-      "url": "https://hk01.com/sns/article/60414179",
-      "publishedAt": "2026-11-23T16:40:59.000Z",
-      "excerpt": "中共中央政治局常委、國務院副總理丁薛祥訪問新加坡，11月23日與新加坡國務資政李顯龍會面。丁薛祥表示，中國始終堅定不移推進全面深化改革，堅持對外開放，堅持自主創新。在當前複雜動蕩的國際形勢下，雙方應繼續把握正確戰略方向，密切溝通協調，推動兩國合作行穩致遠。 2026年11月23日，中共中央政治局常委、國務院副總理丁薛祥到訪新加坡期間，與新加坡國務資政李顯龍（右）會面。（X@leehsienloong圖片） 丁薛祥表示，當日上午與新加坡副總理顏金勇共同主持中新雙邊合作機制會議，按照兩國領導人戰略引領，探討進一步拓展未來合作的新路徑、新方法。中方秉持以人為本、向上向善的原則，推動人工智能發展，賦能",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "筲箕灣愛東邨愛澤樓中層單位失火冒煙 大批住戶沿後樓梯逃生",
       "url": "https://hk01.com/sns/article/60414162",
       "publishedAt": "2026-11-23T14:48:18.000Z",
@@ -24383,6 +24389,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "李城璧中學推強制晚間自習 學生批不合理 校方稱應學生反映推行",
+      "url": "https://hk01.com/sns/article/60413168",
+      "publishedAt": "2026-11-23T12:19:12.000Z",
+      "excerpt": "本屆考生正準備應考香港中學文憑考試（DSE），有於保良局李城璧中學就讀的中學生近日向《香港01》表示，校方向家長發通告表示，將為學業成績未達標學生安排強制性晚間自習，時間由下午5時30分至晚上8時30分，未經批准而缺席的學生，將作曠課論。該學生批評相關政策不合理，認為變相是剝奪自主溫習空間，又指學校無安排用餐時間，如要學生「用健康換分數」。 保良局李城璧中學回覆查詢時稱，有部份學生曾反映校外缺乏理想的溫習空間，遂推行晚間自習及學業輔導計劃，又指若學生因不同原因而未能出席，家長可書面通知校方或直接與老師聯繫。教育局發言人則說，得悉事件後已即時聯絡有關學校了解情況，已提醒學校在安排課後輔導或自習時",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "01觀點｜APEC深圳峰會 照見香港焦慮",
       "url": "https://hk01.com/sns/article/60411354",
       "publishedAt": "2026-11-23T12:00:41.000Z",
@@ -24411,14 +24425,6 @@
       "url": "https://hk01.com/sns/article/60414035",
       "publishedAt": "2026-11-23T08:46:48.000Z",
       "excerpt": "名媛蔡天鳳（Abby Choi）涉遭前夫鄺港智三父子謀殺肢解案（HCCC 198/2025），案件今(23日）在高等法院續審，第三被告鄺港智接受其父親鄺球的代表律師盤問時，再提及蔡的丈夫譚方駿。 鄺港智被問是否知蔡與譚有否性關係時，鄺說：「你要問佢地啦。」律師進一步問他譚的性取向時，鄺一方面稱：「畀人食花生咁無必要啦。」但又說：「鍾意男多啲。」之後更稱：「九成囉，未必百分百。」更反問律師為何之前不追問譚方駿。 【蔡天鳳案・專頁】 三名被告：前大伯鄺港傑（35歲，司機）、前家翁鄺球（69歲，退休人士）、前夫鄺港智（32歲，無業），三人被控於2023年2月21日，在香港謀殺蔡天鳳，並在同月21至2",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "大腸癌｜25歲男無便秘確診大腸癌 醫揭長期缺蔬果吃1類食物導致",
-      "url": "https://hk01.com/sns/article/60399480",
-      "publishedAt": "2026-11-23T08:00:33.000Z",
-      "excerpt": "一名25歲電子業工程師因長期上腹痛就醫，檢查發現橫結腸有約5公分腫瘤，確診第二期大腸癌。台灣肝膽腸胃科醫師蕭敦仁指出，患者沒有腹瀉、便秘或血便等典型症狀，平時長期外食、偏好速食且幾乎不吃蔬果，提醒年輕人也不能輕忽腸道健康。 蕭敦仁在節目《健康好生活》表示，患者因上腹部持續隱隱作痛就醫，經超音波掃描發現約5公分異常病灶，再透過電腦斷層確認腫瘤位置與大小，確診為第二期大腸癌。所幸及時接受手術切除，依當時評估，術後暫時無須接受化療。 相關文章： 大腸直腸癌｜大便變細總覺得解不乾淨？7種常見徵兆及早察覺病灶 👇👇👇 大腸直腸癌的常見癥兆（01製圖） 大腸直腸癌的常見癥兆（01製圖） 大腸直腸癌的",
       "source": "香港01",
       "category": "Hong Kong"
     },

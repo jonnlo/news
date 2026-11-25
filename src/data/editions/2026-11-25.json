@@ -2,12 +2,16 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T09:17:28.470Z",
-  "collectedAt": "2026-11-25T09:17:28.470Z",
+  "generatedAt": "2026-11-25T10:17:20.632Z",
+  "collectedAt": "2026-11-25T10:17:20.632Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 76,
+  "sourcesUpdated": 75,
   "sourceErrors": [
+    {
+      "source": "Hacker News",
+      "error": "HTTP 502"
+    },
     {
       "source": "Hyperallergic",
       "error": "HTTP 404"
@@ -201,6 +205,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50630809"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
     },
     {
@@ -370,7 +375,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "WIRED",
@@ -378,6 +383,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Best Red-Light Therapy for Hair Growth and Restoration (2026)",
+          "url": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
+          "publishedAt": "2026-11-25T10:01:00.000Z",
+          "excerpt": "Don’t fly to Turkey just yet. Our WIRED testers saw visible hair regrowth with these red-light therapy devices.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
+        {
+          "title": "‘Rejection Will Have Consequences’: Inside Trump’s Demands to Another Chips CEO",
+          "url": "https://www.wired.com/story/inside-trumps-demands-to-another-chips-ceo/",
+          "publishedAt": "2026-11-25T10:00:00.000Z",
+          "excerpt": "Donald Trump’s dealings with Intel reveal yet another a government-led pressure campaign involving a private company, court documents show.",
+          "source": "WIRED",
+          "category": "Technology"
+        },
         {
           "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
           "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
@@ -521,25 +542,9 @@
           "excerpt": "A pair of unsecured databases exposed sensitive information about hundreds of millions of people—including data that could let attackers “own” a victim’s digital life.",
           "source": "WIRED",
           "category": "Technology"
-        },
-        {
-          "title": "Inside the Chinese City Where Furniture Dupes Are Made",
-          "url": "https://www.wired.com/story/foshan-china-dupes-furniture/",
-          "publishedAt": "2026-11-24T11:00:00.000Z",
-          "excerpt": "Across social media, influencers share the fake luxury pieces they got directly from China—for one-tenth the price. Here’s where that viral sofa came from.",
-          "source": "WIRED",
-          "category": "Technology"
-        },
-        {
-          "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
-          "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
-          "publishedAt": "2026-11-24T10:45:00.000Z",
-          "excerpt": "Young people anxious about their futures say they’re increasingly frustrated with their pro-AI parents. They’re worried it’s going to make holiday gatherings very tense.",
-          "source": "WIRED",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Ars Technica",
@@ -708,7 +713,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "MIT Technology Review",
@@ -877,7 +882,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "TechCrunch",
@@ -1046,7 +1051,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Next Web",
@@ -1055,10 +1060,19 @@
       "count": 10,
       "stories": [
         {
-          "title": "EU reportedly plans €50bn tech fund to back AI and quantum firms",
+          "title": "US jury convicts Huawei of trade secret theft and bank fraud",
+          "url": "https://thenextweb.com/news/huawei-convicted-trade-secrets-bank-fraud",
+          "publishedAt": "2026-11-25T10:13:13.000Z",
+          "excerpt": "A federal jury in New York has convicted Huawei of conspiring to steal trade secrets from American companies and of defrauding banks over its business in Iran. The verdict brings an eight-year criminal case against the Chinese telecoms giant close to an end. Jurors in Brooklyn reached their decision",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum",
           "url": "https://thenextweb.com/news/eu-50bn-sovereign-tech-equity-fund-ai-quantum",
           "publishedAt": "2026-11-25T08:54:34.000Z",
-          "excerpt": "The European Union plans to invest up to €50bn in a new fund for European AI and quantum computing companies, the Financial Times reported on Wednesday, citing two officials involved in the discussions. The vehicle, called the Sovereign Tech Equity Fund, would make larger, riskier, and longer-term i",
+          "excerpt": "The European Commission has proposed a €50bn fund that would take direct stakes in European AI and quantum computing companies. The Sovereign Tech Equity Fund was confirmed on Wednesday, hours after the Financial Times first reported the plan, citing two officials. The fund would make larger, riskie",
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1082,10 +1096,10 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "What do we know about the EU Quantum Act ahead of today’s launch",
+          "title": "EU unveils Quantum Act to turn Europe’s research lead into industry",
           "url": "https://thenextweb.com/news/the-eu-quantum-act-todays-launch",
           "publishedAt": "2026-11-25T07:50:56.000Z",
-          "excerpt": "The European Commission presents its long-promised Quantum Act in Strasbourg today, a law meant to turn Europe’s world-class quantum research into companies, factories, and products. Henna Virkkunen, the Commission’s executive vice-president for tech sovereignty, is due to unveil the plan at 10:00 C",
+          "excerpt": "The European Commission presented its long-promised Quantum Act in Strasbourg on Wednesday. The law is meant to turn Europe’s strong quantum research into companies, factories, and products. Henna Virkkunen, the Commission’s tech chief, unveiled the plan after EU commissioners adopted it at their we",
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1134,18 +1148,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "TIDAL will delete 29 million AI-generated songs from its catalogue",
-          "url": "https://thenextweb.com/news/tidal-delete-29-million-ai-generated-songs",
-          "publishedAt": "2026-11-24T17:57:18.000Z",
-          "excerpt": "TIDAL will begin deleting all wholly AI-generated tracks on December 9, about 29 million songs, and expects to reject 80,000 to 85,000 more a day. It had already labelled and demonetised AI music in July, but says 43% of tracks it received in the past 90 days were AI-made. TIDAL will start deleting ",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Slashdot",
@@ -1289,7 +1294,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Techmeme",
@@ -1297,6 +1302,39 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Sources: Meta and Amazon are discussing a potential deal to connect Muse to Amazon, ending Amazon's block; any deal would require a sign-off from both CEOs (Sebastian Herrera/Fortune)",
+          "url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/",
+          "publishedAt": "2026-11-25T10:15:01.000Z",
+          "excerpt": "Sebastian Herrera / Fortune : Sources: Meta and Amazon are discussing a potential deal to connect Muse to Amazon, ending Amazon's block; any deal would require a sign-off from both CEOs &nbsp; &mdash;&nbsp; Amazon and Meta Platforms are in ongoing discussions over a potential deal to connect Meta's ",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261125/p13#a261125p13",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Australia passes the Digital Duty of Care Act, an online safety law that exposes Big Tech to multibillion-dollar fines for failing to prevent foreseeable harms (Rod McGuirk/Associated Press)",
+          "url": "https://apnews.com/article/australia-digital-duty-care-law-tech-harm-b3f044575e9d8106f30a14eee2b89a81",
+          "publishedAt": "2026-11-25T10:05:02.000Z",
+          "excerpt": "Rod McGuirk / Associated Press : Australia passes the Digital Duty of Care Act, an online safety law that exposes Big Tech to multibillion-dollar fines for failing to prevent foreseeable harms &nbsp; &mdash;&nbsp; Australia's Parliament on Wednesday passed online safety laws that could expose tech g",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261125/p12#a261125p12",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
+        {
+          "title": "Walmart says Kalyan Krishnamurthy, CEO of Walmart-owned Flipkart, India's largest online retailer, plans to leave on December 4 and names its CTO as interim CEO (Sankalp Phartiyal/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/flipkart-ceo-to-exit-after-transforming-walmart-s-india-play",
+          "publishedAt": "2026-11-25T09:40:02.000Z",
+          "excerpt": "Sankalp Phartiyal / Bloomberg : Walmart says Kalyan Krishnamurthy, CEO of Walmart-owned Flipkart, India's largest online retailer, plans to leave on December 4 and names its CTO as interim CEO &nbsp; &mdash;&nbsp; Flipkart Chief Executive Officer Kalyan Krishnamurthy, a key architect of the company'",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261125/p11#a261125p11",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "VW's ID. Era 5S sedan, built in China for China with VW's most advanced automated-driving system, reflects China's rise as a source of cutting-edge auto tech (Bloomberg)",
           "url": "https://www.bloomberg.com/news/articles/2026-11-25/vw-s-18-000-self-driving-sedan-shows-how-china-leads-on-car-tech",
@@ -1353,10 +1391,10 @@
           "discoveryChannel": "curator:Techmeme"
         },
         {
-          "title": "OpenAI publishes a preprint claiming to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics (Deedy/@deedydas)",
+          "title": "OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics (Deedy/@deedydas)",
           "url": "https://x.com/deedydas/status/2125445769629204816",
           "publishedAt": "2026-11-25T06:55:01.000Z",
-          "excerpt": "Deedy / @deedydas : OpenAI publishes a preprint claiming to prove that the matrix multiplication exponent (&omega;) is exactly 9/4, addressing a major open problem in mathematics &nbsp; &mdash;&nbsp; OpenAI just dropped a 111-page proof of a 57-year old math problem: the matrix multiplication expone",
+          "excerpt": "Deedy / @deedydas : OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (&omega;) is exactly 9/4, addressing a major open problem in mathematics &nbsp; &mdash;&nbsp; OpenAI just dropped a 111-page proof of a 57-year old math problem: the matrix multiplication exp",
           "source": "Techmeme",
           "category": "Technology",
           "sourceUrl": "https://www.techmeme.com/261125/p5#a261125p5",
@@ -1428,42 +1466,9 @@
           "sourceUrl": "https://www.techmeme.com/261124/p52#a261124p52",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 (Mike Wheatley/SiliconANGLE)",
-          "url": "https://siliconangle.com/2026/11/24/rajiv-ramaswami-to-step-down-as-nutanix-begins-hunt-for-its-next-ceo/",
-          "publishedAt": "2026-11-25T03:15:00.000Z",
-          "excerpt": "Mike Wheatley / SiliconANGLE : Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 &nbsp; &mdash;&nbsp; Rajiv Ramaswami is stepping down from his role as the Chief Executive Officer of Nutanix",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261124/p51#a261124p51",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "HP reports Q4 revenue up 9.3% YoY to $16B, above $15.3B est., gives \"prudent\" fiscal 2027 guidance above estimates, and says AI PCs reached ~60% of shipments (Dina Bass/Bloomberg)",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-24/hp-gives-profit-forecast-signaling-better-handle-on-memory-costs",
-          "publishedAt": "2026-11-25T02:30:02.000Z",
-          "excerpt": "Dina Bass / Bloomberg : HP reports Q4 revenue up 9.3% YoY to $16B, above $15.3B est., gives &ldquo;prudent&rdquo; fiscal 2027 guidance above estimates, and says AI PCs reached ~60% of shipments &nbsp; &mdash;&nbsp; HP Inc. gave a profit forecast for the current year that will likely exceed analysts'",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261124/p50#a261124p50",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "A history professor says GPT-6.2 Astra solved a historical mystery in 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale (Mark Humphries/Generative History)",
-          "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-          "publishedAt": "2026-11-25T02:00:01.000Z",
-          "excerpt": "Mark Humphries / Generative History : A history professor says GPT-6.2 Astra solved a historical mystery in 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale &nbsp; &mdash;&nbsp; There's a growing sense in the AI community that we're approaching an intelligence explo",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261124/p49#a261124p49",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Engadget",
@@ -1471,6 +1476,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "How to watch every 2026 NFL Thanksgiving game on streaming",
+          "url": "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming/",
+          "publishedAt": "2026-11-25T10:00:00.000Z",
+          "excerpt": "Thanksgiving Eve brings a first-ever NFL game, plus three more on Turkey Day. Here's where to stream every matchup in 2026 without missing a snap.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Amazon Autos is coming to the UK in its first expansion outside the US",
+          "url": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
+          "publishedAt": "2026-11-25T09:15:37.000Z",
+          "excerpt": "Amazon Autos will start selling cars in the UK early next year, marking the first time it has expanded outside the US.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Change this Roku TV setting to watch movies how they were filmed",
           "url": "https://www.engadget.com/2321254/change-roku-tv-setting-watch-movies-how-filmed/",
@@ -1632,27 +1655,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Google Maps' Dark Mode is getting even darker",
-          "url": "https://www.engadget.com/2326681/google-maps-dark-mode-is-getting-even-darker/",
-          "publishedAt": "2026-11-24T16:33:28.000Z",
-          "excerpt": "This is part of a forthcoming update that adds new high-visibility options.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Researchers find 3.6 billion usernames, passwords and documents in unsecured databases",
-          "url": "https://www.engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database/",
-          "publishedAt": "2026-11-24T16:15:17.000Z",
-          "excerpt": "The scale of the exposed data underscores how important it is to take steps to stay safe online.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "TechRadar",
@@ -1660,6 +1665,42 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Apple looks set to release (PRODUCT) RED AirPod Max 2 and HomePod mini 2 models very soon",
+          "url": "https://www.techradar.com/audio/wireless-headphones/apple-could-release-a-new-look-for-airpods-max-2-and-homepod-mini-2-very-soon-and-itll-be-a-retro-throwback-for-older-iphone-and-ipod-fans",
+          "publishedAt": "2026-11-25T10:06:53.000Z",
+          "excerpt": "It sounds like Apple is going to use World AIDS day to launch a new PRODUCT (RED) device, for the first time since 2022.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Why agentic AI is no longer a free magic tool",
+          "url": "https://www.techradar.com/pro/why-agentic-ai-is-no-longer-a-free-magic-tool",
+          "publishedAt": "2026-11-25T10:05:50.000Z",
+          "excerpt": "It is powerful modern enterprise infrastructure, and it comes with a price tag to match.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Why a platform-based approach matters for production readiness",
+          "url": "https://www.techradar.com/pro/why-a-platform-based-approach-matters-for-production-readiness",
+          "publishedAt": "2026-11-25T09:58:50.000Z",
+          "excerpt": "Exploring how enterprises can evaluate AI agents across accuracy, reliability, cost, governance and production readiness.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Black Friday PC deals: save on Acer, Dell, HP, and more — including gaming PCs",
+          "url": "https://www.techradar.com/computing/desktop-pcs/black-friday-pc-deals-save-on-acer-dell-hp-and-more-including-gaming-pcs-with-nvidia-5060ti-and-5070-gpu-options",
+          "publishedAt": "2026-11-25T09:24:21.000Z",
+          "excerpt": "We've selected the best Black Friday PC deals to help you find your next desktop, from mini systems to full-on gaming machines.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "The process gap holding back enterprise AI",
           "url": "https://www.techradar.com/pro/the-process-gap-holding-back-enterprise-ai",
@@ -1760,6 +1801,15 @@
           "sourceRole": "publisher"
         },
         {
+          "title": "NYT Connections hints and answers for Wednesday, November 25 (game #1263)",
+          "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-25-november-2026",
+          "publishedAt": "2026-11-25T00:00:00.000Z",
+          "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "Quordle hints and answers for Wednesday, November 25 (game #1766)",
           "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-25-november-2026",
           "publishedAt": "2026-11-25T00:00:00.000Z",
@@ -1773,15 +1823,6 @@
           "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-25-november-2026",
           "publishedAt": "2026-11-25T00:00:00.000Z",
           "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "NYT Connections hints and answers for Wednesday, November 25 (game #1263)",
-          "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-25-november-2026",
-          "publishedAt": "2026-11-25T00:00:00.000Z",
-          "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1803,45 +1844,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Ugreen's DH4300 Plus is 'a better NAS than the price would suggest', and it's down to $350 at Amazon for Black Friday",
-          "url": "https://www.techradar.com/pro/ugreens-dh4300-plus-is-a-better-nas-than-the-price-would-suggest-and-its-down-to-usd350-at-amazon-for-black-friday",
-          "publishedAt": "2026-11-24T23:15:27.000Z",
-          "excerpt": "The Ugreen NASync DH4300 Plus is one of our top NAS systems. A beginner-friendly NAS for photo backup, streaming, and file sharing on sale for Black Friday.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "NAND prices could finally be set to fall, in the first bit of good news for component fans for some time — but DRAM is refusing to budge so far",
-          "url": "https://www.techradar.com/pro/nand-prices-could-finally-be-set-to-fall-in-the-first-bit-of-good-news-for-component-fans-for-some-time-but-dram-is-refusing-to-budge-so-far",
-          "publishedAt": "2026-11-24T23:15:00.000Z",
-          "excerpt": "Finally, good news for SSD shoppers - though the DRAM half of the memory crunch isn't budging yet.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "MNN's 15.6-inch portable monitor is $10 off for Black Friday",
-          "url": "https://www.techradar.com/pro/i-found-the-cheapest-portable-monitor-ever-give-your-laptop-a-second-screen-for-under-usd40-this-black-friday-amazon-knocks-20-percent-off-the-15-6-inch-mnn-full-hd-display",
-          "publishedAt": "2026-11-24T22:42:53.000Z",
-          "excerpt": "Amazon's Black Friday sale brings the MNN 15.6-inch portable monitor below $40, with Full HD resolution and single-cable USB-C connectivity for work and play.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "HP HyperX Omen RTX 5070 laptop gets 46% off for Black Friday",
-          "url": "https://www.techradar.com/pro/walmart-slashes-nearly-usd1-100-off-the-hp-hyperx-omen-laptop-for-black-friday-with-ryzen-9-power-and-rtx-5070-graphics",
-          "publishedAt": "2026-11-24T22:33:57.000Z",
-          "excerpt": "This HP HyperX Omen laptop packs a 16-core Ryzen 9 processor and RTX 5070 graphics — and it's 46% off for Black Friday.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "9to5Mac",
@@ -2030,7 +2035,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Humanist Review",
@@ -2219,7 +2224,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "It’s Nice That",
@@ -2227,6 +2232,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Like italics, but backwards: Inside Yury Ostromentsky’s inverted typeface series, Backslanted",
+          "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+          "publishedAt": "2026-11-25T09:00:00.000Z",
+          "excerpt": "The expressive illegibility of these letter experiments are in response to global events that left the designer feeling “overturned”.",
+          "source": "It’s Nice That",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Offcuts, amongst other things, wants you to stop doomscrolling",
+          "url": "https://www.itsnicethat.com/articles/offcuts-magazine-publication-sponsored-content-251126",
+          "publishedAt": "2026-11-25T09:00:00.000Z",
+          "excerpt": "Available only as printed matter, Offcuts’ magazine reports on process and untold stories from across design culture.",
+          "source": "It’s Nice That",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "“I try to think about drawing as a way of remembering”: Abi Tucker’s folkloric art is full of feeling",
+          "url": "https://www.itsnicethat.com/articles/abi-tucker-art-discover-251126",
+          "publishedAt": "2026-11-25T09:00:00.000Z",
+          "excerpt": "This London-based artist does a lot, and we’re all the richer for it. Abi uniquely captures the world around us in a fashion that digs a little deeper than just depiction.",
+          "source": "It’s Nice That",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Silvana Trevale on capturing the wounds, beauty, hardships and hope of Venezuelan youth",
           "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-october-silvana-trivale-241126",
@@ -2241,6 +2273,15 @@
           "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
           "publishedAt": "2026-11-24T09:00:00.000Z",
           "excerpt": "The agency has introduced a standalone V symbol and a bespoke typeface, Visa Sans, developed with Displaay Type Foundry.",
+          "source": "It’s Nice That",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Kokoroko to Marseille Jazz Festival: Luci Pina on turning music notes into pencil strokes",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-october-luci-pina-251126",
+          "publishedAt": "2026-11-24T09:00:00.000Z",
+          "excerpt": "The Leeds-based Illustrator and image-maker Luci Pina took to the Nicer Tuesday’s stage to talk about her artistic practice of paying tribute to Black identities and cultural heritages, how she ended up channelling her colourful illustration practice into Kokoroko’s album art and identities for Mars",
           "source": "It’s Nice That",
           "category": "Design",
           "sourceRole": "publisher"
@@ -2370,45 +2411,9 @@
           "source": "It’s Nice That",
           "category": "Design",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Maria Zilli’s sketches steal brilliant costumes and characters from the theatre of the everyday",
-          "url": "https://www.itsnicethat.com/articles/maria-zilli-illustration-discover-161126",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "excerpt": "Stepping into the artist’s humorous works feels like trying on a rather eccentric pair of shoes.",
-          "source": "It’s Nice That",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Mother Design bats Major League Baseball into the future with five bespoke typefaces",
-          "url": "https://www.itsnicethat.com/articles/mother-design-major-league-baseball-brand-refresh-graphic-design-project-161126",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "excerpt": "Baseball is one of the oldest sports in America, which is why Mother Design have stepped in to revitalise its branding and show what fans stick around for.",
-          "source": "It’s Nice That",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How graphic design makes buying feel like belonging and brands feel like community",
-          "url": "https://www.itsnicethat.com/articles/pov-graphic-design-helped-monetise-loneliness-creative-industry-161126",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "excerpt": "There’s an app for everything now… but in parallel, real-life communities and third spaces have ebbed away. Art director and graphic designer Glikeriya examines how design borrows the familiarity of relationships to sell services, and why designers should take those promises seriously.",
-          "source": "It’s Nice That",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "The Nice List 2026: explore It’s Nice That’s creative gift guide",
-          "url": "https://www.itsnicethat.com/features/the-nice-list-2026-creative-gift-guide-161126",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "excerpt": "Browse products from 73 makers and brands in our annual curated wish list, featuring homeware, books, prints, apparel, accessories, stationery and plenty more lovely things to buy this Christmas.",
-          "source": "It’s Nice That",
-          "category": "Design",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Fast Company",
@@ -2552,7 +2557,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Creative Bloq",
@@ -2560,6 +2565,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "XPPen's Black Friday sale cuts up to 34% off its best drawing tablets, including the new Magic Pro 13",
+          "url": "https://www.creativebloq.com/deals/xppens-black-friday-sale-cuts-up-to-34-percent-off-its-best-drawing-tablets-including-the-new-magic-pro-13",
+          "publishedAt": "2026-11-25T10:00:00.000Z",
+          "excerpt": "I've found all of XPPen's best Black Friday deals, including the Artist Pro 24 (Gen 2) 4K at 34% off.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The AirPods Pro 3 are perfectly designed Bluetooth earphones, and they're now £164 for Black Friday",
+          "url": "https://www.creativebloq.com/deals/the-airpods-pro-3-are-perfectly-designed-bluetooth-earphones-and-theyre-now-gbp164-for-black-friday",
+          "publishedAt": "2026-11-25T09:30:00.000Z",
+          "excerpt": "These things are the most popular Bluetooth earphones in the world for a reason.",
+          "source": "Creative Bloq",
+          "category": "Design",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Master builders, Nintendo Lego sets are now up to 43% off",
           "url": "https://www.creativebloq.com/deals/master-builders-nintendo-lego-sets-are-now-up-to-43-percent-off",
@@ -2721,27 +2744,9 @@
           "source": "Creative Bloq",
           "category": "Design",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "I've found the only Apple Black Friday deals worth knowing about: iPad, MacBook, AirPods, Apple Watch",
-          "url": "https://www.creativebloq.com/news/live/ive-found-the-only-apple-black-friday-deals-worth-knowing-about-ipad-macbook-airpods-apple-watch",
-          "publishedAt": "2026-11-24T08:46:36.000Z",
-          "excerpt": "Not all deals are made equal – but these discounts are the best around.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Can Ray Gunn's early concept art win people over to the movie's divisive style?",
-          "url": "https://www.creativebloq.com/news/the-ray-gunn-art-book-is-free-to-view-online-now",
-          "publishedAt": "2026-11-24T08:00:00.000Z",
-          "excerpt": "The art book is available to view online now.",
-          "source": "Creative Bloq",
-          "category": "Design",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Sidebar",
@@ -2950,7 +2955,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Creative Boom",
@@ -3119,7 +3124,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3288,7 +3293,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Creative Independent",
@@ -3377,7 +3382,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3546,7 +3551,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "A List Apart",
@@ -3715,7 +3720,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Them",
@@ -3904,7 +3909,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4093,7 +4098,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Atlantic",
@@ -4282,7 +4287,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The New Yorker",
@@ -4471,7 +4476,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Hyperallergic",
@@ -4706,7 +4711,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Vox",
@@ -4895,7 +4900,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5084,7 +5089,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Conversation",
@@ -5253,7 +5258,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Pew Research Center",
@@ -5422,7 +5427,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "404 Media",
@@ -5551,7 +5556,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Undark",
@@ -5650,7 +5655,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5839,7 +5844,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Noema",
@@ -6028,7 +6033,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "n+1",
@@ -6217,7 +6222,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Rest of World",
@@ -6322,7 +6327,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Quietus",
@@ -6491,7 +6496,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "BFI",
@@ -6660,7 +6665,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6829,7 +6834,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6998,7 +7003,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Colossal",
@@ -7187,7 +7192,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Pudding",
@@ -7356,7 +7361,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7525,7 +7530,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7654,7 +7659,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Five Books",
@@ -7823,13 +7828,13 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Book Marks",
       "category": "Books",
       "kind": "rss",
-      "count": 20,
+      "count": 18,
       "stories": [
         {
           "title": "The Best Reviewed Books of the Week",
@@ -7974,25 +7979,9 @@
           "excerpt": "Our smorgasbord of sumptuous reviews this week includes Anahid Nersessian on Ashton Politanoff’s Dad Had a Bad Day, Peter Beinart on Akbar Shahid Ahmed’s Crossing the Red Line, Jennifer Wilson on Lars Anderson’s Brady, Sanjena Sathian on Min Jin Lee’s American Hagwon, and Jeff VanderMeer on China Mi",
           "source": "Book Marks",
           "category": "Books"
-        },
-        {
-          "title": "The Best Reviewed Books of the Week",
-          "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-18-2026/",
-          "publishedAt": "2026-09-18T09:45:57.000Z",
-          "excerpt": "Emily St. John Mandel’s Exit Party, Ben Macintyre’s Redwood, Kate Atkinson’s Our Noble Selves, and Naomi Klein & Astra Taylor’s End Times Fascism all feature among the best reviewed books of the week. * Fiction 1. Exit Party by Emily St. John Mandel (Knopf) 16 Rave • 2 Positive • 1 Mixed • 1 Pan […]",
-          "source": "Book Marks",
-          "category": "Books"
-        },
-        {
-          "title": "5 Book Reviews You Need to Read This Week",
-          "url": "https://bookmarks.reviews/5-book-reviews-you-need-to-read-this-week-9-17-2026/",
-          "publishedAt": "2026-09-17T09:45:36.000Z",
-          "excerpt": "Our quintet of quality reviews this week includes Joseph O’Neill on Jared Weisberg’s Profiles in Cowardice, Hua Hsu on Brian Dillon’s Ambivalence, Felipe De La Hoz on Mahmoud Khalil’s No Land to Stand On, Edna Bonhomme on Imani Thompson’s Honey, and Jeremy Gordon on Jon Ronson’s The Castle. * “Say w",
-          "source": "Book Marks",
-          "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "London Review of Books",
@@ -8181,7 +8170,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Millions",
@@ -8350,7 +8339,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Literary Hub",
@@ -8519,7 +8508,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Rumpus",
@@ -8708,7 +8697,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8877,7 +8866,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Electric Literature",
@@ -9046,7 +9035,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Paris Review",
@@ -9135,7 +9124,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Offing",
@@ -9324,7 +9313,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Words Without Borders",
@@ -9513,7 +9502,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Mekong Review",
@@ -9702,7 +9691,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "The Marginalian",
@@ -9871,7 +9860,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Daily Nous",
@@ -10040,7 +10029,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Aeon",
@@ -10209,7 +10198,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Psyche",
@@ -10398,7 +10387,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Tricycle",
@@ -10567,7 +10556,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10736,7 +10725,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Kottke",
@@ -10945,7 +10934,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Longreads",
@@ -11154,7 +11143,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Waxy",
@@ -11383,7 +11372,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "MetaFilter",
@@ -11500,7 +11489,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11689,7 +11678,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Dense Discovery",
@@ -11898,7 +11887,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "香港01",
@@ -11907,114 +11896,114 @@
       "count": 20,
       "stories": [
         {
-          "title": "日本Chiikawa聖誕市集暴雨下成泥沼 粉絲狂呻貼錢買難受｜有片",
-          "url": "https://hk01.com/sns/article/60414907",
-          "publishedAt": "2026-11-25T09:15:23.000Z",
-          "excerpt": "以日本人氣卡通角色Chiikawa為主題的聖誕市集11月24日（周二）在千葉縣豐砂公園開幕，惟在暴雨下場地變得一片泥濘。有粉絲在網上抱怨主辦方安排不周，售賣周邊商品的商店內人潮湧湧，有人形容現場如「戰場」。而周邊商品在開場約4小時後即告售罄，令較晚入場的持票人士未能購買心儀商品。主辦方其後致歉，並宣布於12月4日起將透過官方網店接受商品預訂。 Chiikawa聖誕市集首日即遇上暴雨和周邊產品迅速售罄： 【悲報】ちいかわイベント『ちいかわクリスマスマーケット』、地獄過ぎると話題に ・有料入場も目玉グッズが開場後に即完売 →遅い時間の入場チケを買った客がブチギレ ・グッズ売場で商品の奪い合いが発生",
+          "title": "旺角妹記生滾粥品倘覓址不成 明年初停業 食客暫別招牌銅煲魚粥",
+          "url": "https://hk01.com/sns/article/60414957",
+          "publishedAt": "2026-11-25T10:12:52.000Z",
+          "excerpt": "屹立旺角花園街市政大廈熟食中心逾40年的老字號「妹記生滾粥品」，日前於社交專頁公布最新營業安排。該店稱，為配合花園街熟食中心長達14個月的加裝冷氣及全面翻新工程，現址將如常營業至2027年3月31日。 由於店方尚未落實搬遷方案，若屆時未能覓得合適新址，這間老牌粥店將於明年4月1日起暫時停運，意味這碗以傳統銅煲即叫即煮的魚粥或暫別食客一段時間。 旺角妹記生滾粥品預告停業。（網上截圖） 花園街熟食中心 迎14個月停業期 花園街熟食中心向來是香港平民飲食文化的縮影，匯聚不少街坊老店，惟設施老化問題普遍。中心即將展開加裝冷氣及全面翻新工程，期間需面對長達14個月的停業期。受工程影響，妹記生滾粥品在專頁",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "一線搜查丨回鄉證被綁陌生錢包隨時孭洗黑錢罪？ 林靜莉教6步自查",
-          "url": "https://hk01.com/sns/article/60414807",
-          "publishedAt": "2026-11-25T09:15:17.000Z",
-          "excerpt": "近年港人北上吃喝玩樂已成常態，不少人為方便消費，都會用回鄉證實名認證開通內地電子錢包。不過，HOY TV節目《一線搜查》日前（23日）報道一單極為驚嚇的民生熱話，揭發不少港人的回鄉證疑被盜用，導致微信支付名下無故綁定了多個陌生人錢包！節目主持之一的林靜莉（Jeannie）隨即在IG限時動態拍片，親自教大家點樣檢查同拆解，提醒市民切勿墮入洗黑錢陷阱！ 《一線搜查》一班靚女主持。（ig@jeannie_lam_） 網民揭發不少港人的回鄉證疑被盜用，導致微信支付名下無故綁定了多個陌生人錢包！（《一線搜查》截圖） 網民揭發不少港人的回鄉證疑被盜用，導致微信支付名下無故綁定了多個陌生人錢包！（《一線搜查",
+          "title": "美國客機起飛前急煞通報「貓越獄」 塔台幽默答：祝美好一天喵！",
+          "url": "https://hk01.com/sns/article/60414918",
+          "publishedAt": "2026-11-25T10:08:38.000Z",
+          "excerpt": "美媒11月24日報道，一架從美國波士頓（Boston）出發的達美航空客機上周四（20日）在起飛前遭遇一次不尋常的延誤。機上乘客攜帶的貓咪突然「越獄」，逃出寵物籠在機艙內自由活動，令機長不得不暫停滑行。空中交通控制塔的人員聽到這原因後都忍不住笑聲，並幽默回應：「祝你美好的一天，喵！」（have a good day. Meow！） 美國霍士新聞（Fox News） 及 《紐約郵報》 報道，該客機當日準備飛往佛羅里達州坦帕市（Tampa），事發時飛機正在跑道滑行準備起飛。沒想到飛機滑行途中，機上突然有貓咪跑出寵物籠。 據航空管制即時廣播平台ATC.com上的音訊顯示，機師在起飛前突然透過無線電向控",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "社區藥房服務擴展至共同治理網絡病人 12月起可社區藥房配藥取藥",
-          "url": "https://hk01.com/sns/article/60414927",
-          "publishedAt": "2026-11-25T09:14:13.000Z",
-          "excerpt": "醫務衞生局早前公布推行社區藥房計劃，公立醫院病人能夠在社區的指定藥房覆配藥物。隨下月30日「社區藥物名冊」計劃推出，基層醫療共同治理網絡（共同治理網絡）的病人亦能夠透過社區藥房配藥。 隨下月30日「社區藥物名冊」計劃推出，基層醫療共同治理網絡（共同治理網絡）的病人能夠透過社區藥房配藥。（梁鵬威攝） 社區藥房計劃由基層醫療署推行，透過公私營協作及強化社區藥劑師角色，讓合資格市民在社區內便捷取藥及獲得用藥支援。病人配對安排已於10月底開始。 社區藥房將擴展至全港18區 醫衞局目標：梗有一間喺你左近 計劃正進行第一階段，分別於東區、油尖旺、沙田及元朗，各設立5間社區藥房。醫衞局表示，預計在明年第四季",
+          "title": "獲派公屋屯門三寶連中兩寶！港媽慨嘆：博三派 網民祝派心儀單位",
+          "url": "https://hk01.com/sns/article/60414587",
+          "publishedAt": "2026-11-25T10:02:20.000Z",
+          "excerpt": "輪候公屋最怕連續獲派不合心意的單位！有港媽今年11月24日在Facebook群組「公屋討論區 - 香港facebook群組」發文大呻，自己輪候公屋6年多，「啲小朋友都大晒啦，返工啦」，最近再次收到配屋通知，連同過往紀錄，「第一次派蝴蝶邨低層單位 ，第二次元朗問題單位唔計，今日收到第二派大興邨」， 慨嘆「屯門三寶中兩寶」，所以「要博埋last嗰1次啦」，苦笑「唔知拒絕信點樣寫好呢？」。 坊間俗稱的「屯門三寶」，分別為友愛邨、蝴蝶邨及大興邨，3個屋邨均屬樓齡較高的大型公共屋邨；圖為蝴蝶邨。（資料圖片／黃偉民攝） 坊間俗稱的「屯門三寶」，分別為友愛邨、蝴蝶邨及大興邨，3個屋邨均屬樓齡較高的大型公共屋",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "住屋與移民問題催生不滿 西班牙極右翼受年輕選民追捧",
-          "url": "https://hk01.com/sns/article/60414867",
-          "publishedAt": "2026-11-25T09:12:43.000Z",
-          "excerpt": "西班牙極右翼政黨呼聲黨（Vox）在年輕選民中的支持率持續上升。隨着住房負擔、生活成本和移民問題引發不滿，Vox藉助社交媒體吸引年輕人，可能在11月29日大選後取得歷來最佳成績，並成為組建新政府的關鍵力量。 22歲的學生雨果在母親接受治療的醫院外遭持槍搶劫。他認為襲擊者是四名拉丁美洲移民，並支持Vox提出的「大規模移民回流」主張。他說，工人階級和中產階級社區最直接承受移民帶來的影響。 2026年11月21日，西班牙極右翼政黨Vox領導人阿巴斯卡爾在大選競選集會上發表演說。（Reuters） 《國家報》10月分析的民調數據顯示，Vox在25歲至34歲選民中的支持率接近30%，領先其他政黨。在18歲",
+          "title": "李頴彰｜法國電台「華人間諜論」：高喊自由平等卻按血統定罪？",
+          "url": "https://hk01.com/sns/article/60414309",
+          "publishedAt": "2026-11-25T10:00:44.000Z",
+          "excerpt": "李頴彰律師專欄 法國公共廣播電台Franceinfo於11月13日因一場直播時事節目而陷入輿論風暴。在《Les Informés》（知情者）節目討論中國、半導體產業、科技競爭及國家安全議題期間，兩名受邀嘉賓先後發表極具爭議性的言論。Marie‑Cécile Naves在談及中國間諜問題時表示，整個華人或華裔社群都有可能成為間諜。另一位自稱曾任法國對外安全總局（Direction générale de la sécurité extérieure）人員的評論員Vincent Crouzet則聲稱，每一位中國公民或華裔人士都必須定期向中國匯報。引起廣泛爭議的不僅是有關言論本身，更在於主持人在直播",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "台灣地震｜屏東縣海域發生4.8級地震 台灣測報為極淺層地震",
-          "url": "https://hk01.com/sns/article/60414938",
-          "publishedAt": "2026-11-25T09:11:45.000Z",
-          "excerpt": "據中國地震台網正式測定，今日（11月25日）16時47分在台灣屏東縣海域（北緯21.87度，東經121.47度）發生黎克特制4.8級地震，震源深度20千米。 另據台媒報道，台灣中央氣象署地震測報中心資料顯示，今天下午4時47分台灣東南部海域發生黎克特制5.5級地震，震央在台東縣政府南南東方101.9公里處。台灣測報這起地震深度16.7公里，屬於極淺層地震。這起地震觀測到最大震度為4級，出現在台東縣蘭嶼。 根據氣象署測報資料，震度4級地區為台東縣，震度2級地區為屏東縣、高雄市，震度1級地區為花蓮縣、台南市、嘉義縣、雲林縣、嘉義市、南投縣、彰化縣、台中市。 台灣中央氣象署則測定為黎克特制5.5級地",
+          "title": "WhatsApp iOS Beta測試版推「View Once」 閱讀後即銷毀文字訊息",
+          "url": "https://hk01.com/sns/article/60414880",
+          "publishedAt": "2026-11-25T10:00:33.000Z",
+          "excerpt": "繼兩星期前向Android測試版推送後，WhatsApp現正為iOS Beta 26.45.10.73部分用戶推出「閱後即焚」文字訊息功能。用戶長按傳送鍵即可選擇View Once，收件人閱讀並關閉介面後內容會隨即消失，系統亦會封鎖複製、轉發、截圖及螢幕錄影，進一步保障對話私隱。 繼約兩星期前向Android測試版用戶推出文字版「閱後即焚」功能後，WhatsApp近日亦正式將該項功能擴展至iOS平台。 WhatsApp現正為iOS Beta 26.45.10.73部分用戶推出「閱後即焚」文字訊息功能。（WhatsApp） WhatsApp「View Once」文字訊息功能演示： WhatsAp",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "MPF｜黃仁勳累11月人均蝕逾1.7萬！積金評級：全年或錄負回報",
-          "url": "https://hk01.com/sns/article/60414933",
-          "publishedAt": "2026-11-25T09:11:03.000Z",
-          "excerpt": "積金評級數據顯示，在週一美國股市反彈（由黃仁勳復任英偉達行政總裁所觸發）之前，強積金進入11月最後交易週時錄得約負5.17%的月度投資虧損，按金額計算約為850億港元，以497萬名成員計，即每名成員平均虧損17,108港元。年初至今投資虧損預計達311億港元，即人均虧損5,618港元。 在週一美國股市反彈（由黃仁勳復任英偉達行政總裁所觸發）之前，強積金11月最後交易週時錄得約負5.17%的月度投資虧損，人均虧損17,108港元。（資料圖片） 年初至今人均蝕5618港元 積金評級預計，若此情況持續，將抹去強積金年初至今的全部收益，令系統2026年年初至今回報轉為負1.86%的虧損。以2021年為",
+          "title": "金泰希被嘲發胖身材走樣 罕曬素顏爆肌照反擊 46歲凍齡狀態驚人",
+          "url": "https://hk01.com/sns/article/60414685",
+          "publishedAt": "2026-11-25T10:00:18.000Z",
+          "excerpt": "韓國演員金泰希上月底出席珠寶品牌活動時，因一件金色露肩禮服被部分網友嫌「手臂變肉了」、「是不是胖了」，甚至連造型都被批評不合適。時隔不到半個月，她11日直接在社群平台上傳一段室內健身影片，以素顏加上近距離拍攝的背部與肩臂肌肉線條，強勢回應先前的身材議論。 這波討論的起點，是金泰希上月22日出席首爾江南區一場高級珠寶品牌活動時，選穿了一件金色露肩絲質禮服。當時部分網友在社群上留言批評禮服剪裁不適合她，甚至將矛頭指向她的手臂與肩膀線條，質疑她是否身材管理鬆懈。不過金泰希並未正面回擊，僅在事後於社群上感謝外界關注，並表示未來會更常分享日常。 金泰希上月底出席活動時，因一件金色露肩禮服被部分網友嫌胖了",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "潘國靈逝世｜回顧首部長篇寫托邦專訪：不甘於一種片面的本土寫作",
-          "url": "https://hk01.com/sns/article/39621",
-          "publishedAt": "2026-11-25T09:10:18.000Z",
-          "excerpt": "【藝文編按：香港著名小說家及文化評論人潘國靈於今日（2026年11月25日）不幸辭世，終年56歲，消息令人深感惋惜。潘國靈一生筆耕不輟，將文字視為畢生志業。2016年，他耗時五年、傾盡心血交出首部長篇小說《寫托邦與消失咒》，這不僅是他創作生涯的最高峰與重要里程碑，更深刻叩問了「為何寫作」的終極命題。 當時《香港01》曾為此專訪潘國靈。在訪問中，他坦言寫作是一場「自虐過程」，卻也是「與世界的對抗」；在香港這個視文學為無用之事的城市裡，他依然堅守著「非寫不可的理由」。他對本土文學的期許，從不甘於片面，而是渴望汲取世界文學的養分來轉化出更深層的本土意義。 為悼念這位在香港文壇留下深刻印記的作家，我們",
+          "title": "黃仁勳復職｜換下招牌黑皮衣改穿Dior藍夾克 中國官網多碼售罄",
+          "url": "https://hk01.com/sns/article/60414874",
+          "publishedAt": "2026-11-25T10:00:08.000Z",
+          "excerpt": "NVIDIA（英偉達，台灣譯：輝達）創始人黃仁勳（Jensen Huang）在卸任行政總裁僅11天後，於美國當地時間11月23日正式回歸公司，並獲員工熱烈歡迎。不過，在這場戲劇性的復職風波外，過去黃仁勳身上幾乎形影不離的招牌黑色皮衣消失更引發關注。從照片可見，取而代之的是一件深藍色夾克。 黃仁勳重返英偉達。（Reuters） 招牌黑皮衣消失 改穿逾10萬台幣Dior外套 11月23日，黃仁勳重返位於美國加州聖克拉拉的NVIDIA總部。從公司公布的照片及影片可見，他身穿深藍色拉鍊外套，面帶笑容向員工致意，期間更將手放在胸前，感謝員工支持。 據美國時尚雜誌《GQ》報道，這件外套來自法國奢侈品牌Di",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "秋冬乾咳｜飲雪梨水愈飲愈咳傷脾胃？中醫揭3禁忌＋推5款潤肺湯水",
-          "url": "https://hk01.com/sns/article/60414879",
-          "publishedAt": "2026-11-25T09:09:01.000Z",
-          "excerpt": "天氣轉涼，喉嚨乾痕、半夜乾咳，很多人第一時間就會切兩個雪梨煲水飲。不過，你的咳嗽，你的體質真的可以受得起這碗雪梨水？秋冬空氣乾燥，氣管黏膜水分容易流失，誘發乾咳；但部分乾咳亦可能是由病毒感染、鼻水倒流或胃酸倒流引起。若這時胡亂飲用雪梨水，分分鐘愈飲愈咳。那麼想改善乾咳，有哪些湯水適合，又不怕弄巧反拙？ 雪梨水止咳，小心愈飲愈咳。（iStock） 秋冬湯水｜雪梨性涼 非人人適合 雪梨性涼，確實能清熱生津，但並非人人適合。如果你平時容易 胃脹、手腳冰冷，或者咳出來的是稀白痰 ，狂飲性質偏涼的雪梨水只會直接損傷脾胃陽氣。脾胃運化一旦受阻，體內生出更多痰濕，不但不能養生止咳，還會弄巧反拙。 秋冬湯水｜",
+          "title": "復仇者聯盟5｜最終預告3大解構！全員對抗哨兵 開彩虹橋疑尋洛基",
+          "url": "https://hk01.com/sns/article/60414842",
+          "publishedAt": "2026-11-25T09:45:37.000Z",
+          "excerpt": "Marvel Studios年度超級鉅製《復仇者聯盟5：末日降臨》（Avengers:Doomsday）將於12月16日在香港上映，官方前日（23日）發布最終預告，隨即引起影迷熱議。預告釋出多場關鍵畫面，涵蓋終極反派「末日博士」的動機、新舊英雄陣營交鋒以及片尾伏筆，以下整合最終預告3大焦點線索。 Marvel Studios年度超級鉅製《復仇者聯盟5：末日降臨》（Avengers:Doomsday）將於12月16日在香港上映。（《復仇者聯盟5：末日降臨》海報） 1.末日博士宣戰 英雄家人成目標 預告交代多元宇宙正步向崩解，羅拔唐尼（Robert Downey Jr.）飾演的「末日博士」（Doc",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "平台工作者工傷病假錢倡設三級制 最多發1年 仍較僱員少一半",
-          "url": "https://hk01.com/sns/article/60414921",
-          "publishedAt": "2026-11-25T09:06:25.000Z",
-          "excerpt": "政府擬就外賣員、送貨員等平台工作者設立工傷補償機制，勞福局今日（25日）向立法會提交相關條例草案，當中就工傷病假錢設立三級制，以3個月為回溯期，工時愈長，可獲工傷病假錢時間愈長，其中第3級、工作時數多於385小時，最多可獲發一年工傷病假錢。 草案也訂明，計算平台工作者「意外發生時每月收入」，會考慮其截至意外當日為止最多90日的平均收入，並扣除平台工作者所承擔的成本因素。針對回溯期不足7天的個案，會視作7天計算，且不用扣除平台工作者所承擔的成本因素。 相關草案將於12月9日於立法會首讀及開始二讀辯論。 政府擬就外賣員、送貨員等平台工作者設立工傷補償機制，勞福局今日（25日）向立法會提交相關條例草",
+          "title": "元朗舊樓東昇樓98萬拍賣 4組客搶高66%至163萬沽 7年貶值近1球",
+          "url": "https://hk01.com/sns/article/60414947",
+          "publishedAt": "2026-11-25T09:42:44.000Z",
+          "excerpt": "【物業拍賣／銀主盤／元朗／殘裝】 銀主劈價走貨成功。元朗有樓齡47年的殘裝舊樓東昇樓高層兩房銀主盤，今日（25日）由私人拍賣場以「減價貨」姿態98萬元推出，單位先後經歷兩次推出拍賣，最終今次以163萬元拍賣沽出，四組客搶高65萬元或約66.3%。 先後經歷兩次拍賣 四組客搶至163萬沽 今次成功拍賣沽出單位為元朗東堤街8B號東昇樓4樓C室，實用面積405平方呎，兩房間隔，屬銀主盤。該單位曾在今年8月在另一個私人拍賣場以118萬元推出拍賣，不過未能成功賣出。及後由忠誠拍賣在今日以98萬元推出，單位經歷四組客搶購，最終搶高65萬元或66.3%，以163萬元沽出，平均呎價4,025元。 內籠殘舊！天",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "蔡瑞雪公開閃婚僅1日 夫遭起底黑歷史兼收勒索訊息 凌晨急報警",
-          "url": "https://hk01.com/sns/article/60414761",
-          "publishedAt": "2026-11-25T09:02:15.000Z",
-          "excerpt": "有「北一女神」之稱的30歲台灣藝人蔡瑞雪，昨日（24日）在社交平台宣布已於上月與年長7歲的醫美診所院長蔡沁晁登記結婚，並計劃12月赴芬蘭度蜜月。然而婚訊公布不足24小時，網民隨即翻出男方黑歷史，包括他於2017年任職住院醫生時違規帶2名女性友人進入值班室，以及今年6月曾被指控私接醫美業務並以低價透明質酸冒充高價貨的帖文。 針對相關指控，蔡沁晁於24日深夜在社交平台澄清值班室事件當年已向院方交代。此外，因在通訊軟件收到陌生訊息勒索，蔡沁晁已於今日（25日）凌晨親赴警局報案，目前警方已受理並追查涉案對象。 有「北一女神」之稱的30歲台灣藝人蔡瑞雪，昨日（24日）於社交平台宣布已於上月與年長7歲的醫",
+          "title": "美媒起底黃仁勳緋聞女友黃樂 從湖南軍工小鎮滲透英偉達內幕曝光",
+          "url": "https://hk01.com/sns/article/60414884",
+          "publishedAt": "2026-11-25T09:40:51.000Z",
+          "excerpt": "美媒11月24日報道的調查披露，因與英偉達行政總裁黃仁勳有婚外情而捲入間諜疑雲的黃樂（Alice Huang），出身湖南軍工小鎮，先後任職央視及投資界，最終一步步進入英偉達核心圈。 《紐約時報》報道， 黃樂幼時生活的湖南省湘潭市楠竹山鎮，是中國兵器工業集團（又稱中國北方工業集團，NORINCO）旗下江南工業集團（代號國營282廠）的所在地，該廠專門從事導彈陀螺儀與常規彈藥零組件製造。父親黃國斌曾在生產手榴彈及導彈零件的「國營282廠」擔任文員。 報道指，黃樂修畢護理學校後曾在中國國家電視台工作，2006年赴香港浸會大學修讀傳媒管理碩士，前同學稱她經常曠課，身穿名牌服飾出入。2010年，她與胞姐",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "將軍澳新都城三期錶舖 女顧客與女店東爭執後倒地 警列糾紛調查",
-          "url": "https://hk01.com/sns/article/60414905",
-          "publishedAt": "2026-11-25T09:00:26.000Z",
-          "excerpt": "今日（25日）下午3時左右，將軍澳新都城第三期商場一間錶舖，一名女顧客疑與女店東爭執，有人報稱涉及打鬥。警方到場了解後，相信二人並無動武，將案件列「糾紛」處理。女顧客事後由救護車送院治理，女店東則無恙。 就現場圖片所見，一名身穿粉色外套的女子倒臥在錶舖門外地上，相信是涉事女顧客。錶舖男店員向《香港01》記者表示，二人較早前疑因維修手錶及金錢問題起爭執，但詳情則不便透露。 錶舖女店東與懷疑女顧客爭執，有人倒地。(圖片來源：FB/將軍澳主場) 錶舖女店東與懷疑女顧客爭執，有人倒地。(圖片來源：FB/將軍澳主場) 將軍澳新都城第三期商場一間錶舖，一名女顧客與女店東爭執後倒地。警方調查後相信無人打鬥，",
+          "title": "立會審議追加撥款逾10議員不在席 陳克勤一招救全家｜政壇諸事町",
+          "url": "https://hk01.com/sns/article/60414886",
+          "publishedAt": "2026-11-25T09:38:41.000Z",
+          "excerpt": "正所謂家有一老，如有一寶。作為立法會資深議員之一的民建聯主席陳克勤今日（25日）用一招完美演繹這句說話。事源立法會下午審議《追加撥款(2025-2026年度)條例草案》二讀投票，期間超過10名議員不在席。陳克勤發現後隨即要求記名表決。由於點票鐘響5分鐘，令大部分離席的議員都能趕回會議廳投票。 立法會今午審議《追加撥款(2025-2026年度)條例草案》二讀投票，期間超過10名議員不在席。（立法會直播） 審追加撥款 逾10名議員不在席 今屆立法會新增「出席會議」按鈕，議員投票前均須先按掣以示出席，加上每次投票都會計入投票率，少按一次亦會影響議員的「成績表」。然而，立法會今日審議《追加撥款(202",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "姨丈淫辱留宿13歲姨甥女10分鐘 官斥破壞信任 囚14個月",
-          "url": "https://hk01.com/sns/article/60414925",
-          "publishedAt": "2026-11-25T08:54:37.000Z",
-          "excerpt": "13歲少女在暑假到表姊妹家留宿，在晚上睡覺時卻遭姨丈非禮10分鐘。少女頓時不知所措亦不敢反抗，只不停喊：「媽媽...」最後她把事件記錄在日記上，其母察覺她情緒有異，於是翻看其日記揭發事件。姨丈早前在區域法院承認一項非禮罪(DCCC1686/2025)，案件今（25日）在區域法院判刑。辯方求情指被告已經知錯。 暫委法官林希維判刑時指，事主母親因關係信任被告，但他卻破壞信任犯案，令事主出現情感障礙及創傷後遺症表徵，判被告入獄14個月。 被告L.K.P.（63歲）早前承認一項非禮罪，指他於2025年8月25日，在荃灣某單位猥褻侵犯13歲女童X。 被告LKP在區域法院承認非禮13歲姨甥女，被判囚14個",
+          "title": "七旬醫生涉跑馬地寓所與48歲妻互毆 妻仍留院 明年1.20再訊",
+          "url": "https://hk01.com/sns/article/60414955",
+          "publishedAt": "2026-11-25T09:30:19.000Z",
+          "excerpt": "七旬兒科醫生涉在跑馬地寓所與妻子互毆，夫婦一同被捕。案件今（25日）在東區裁判法院提堂，醫生被控1項襲擊致造成身體傷害罪，其妻則被控普通襲擊罪（ESCC2758/2026）。女被告尚未出院，男醫生則申請押後，以與控方商討以其他方式處理案件，案件於明年1月20日再訊；女被告案則於12月1日或之前再訊。 被告為何世輝（77歲，醫生）及左莉三（48歲，家庭主婦）。何被控於2026年11月24日，在跑馬地樂活道比華利山F座某室襲擊左，而對她造成身體傷害。左則被控於同日同地襲擊何。",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "休班警未跟指示停車釀碰撞 對頭車女司機事後亡 認危駕罰8000元",
-          "url": "https://hk01.com/sns/article/60414906",
-          "publishedAt": "2026-11-25T08:43:02.000Z",
-          "excerpt": "休班警去年聖誕夜駕車在跑馬地摩理臣山道時，未有根據路牌限制而停車，並與另一私家車相撞，車上一名七旬女乘客事後報稱不適自行求醫，留醫後不治。男警今（25日）在東區法院承認1項危險駕駛罪，被判罰款8000元及停牌15個月。 裁判官朱文瀚關注案情何以未有提及女事主離世，最後接納控方指醫療報告未能確立車禍與死因有關。 被告葉嘉豪（31歲），承認於2025年12月25日在跑馬地摩利臣山道（東行）與摩理臣山道（南行）交界危險駕駛一輛私家車。 被告葉嘉豪。(陳曉欣攝) 被告服務警隊11年 辯方求情指，被告品格良好，沒有案底，只有一次交通違例記錄，但辯方指屬不同性質。被告服務警隊11年，表現良好，望法庭判處罰",
+          "title": "校巴撞倒六旬婦令其壓在車底 官稱無超速不代表無危駕 判囚1年",
+          "url": "https://hk01.com/sns/article/60414945",
+          "publishedAt": "2026-11-25T09:25:51.000Z",
+          "excerpt": "校巴兩年前途經斧山道真鐸學校對開時撞倒63歲女途人。女途人被困車底，送院檢查後發現左大腿骨折，事主至今仍行動不便，生活需人照顧及難覓工作。校巴司機早前否認危險駕駛。案件（DCCC813/2025）今（25日）在區域法院裁決及判刑。 暫委法官周燕珠指，被告駕車時沒有超速，不代表他沒有危險駕駛，並認為被告事發時沒有觀察左邊行人路上的動向，左邊車窗亦掛了一塊布簾遮擋視線，未有見到事主的身影，認為其駕駛方式屬危險，裁定他罪成，並判他入獄12個月，停牌2年及須自費參與駕駛改進課程。 被告陳偉明（69歲）被裁定一項危險駕駛引致他人身體受嚴重傷害罪，指他在2024年10月25日，在黃大仙斧山道真鐸學校外危險",
           "source": "香港01",
           "category": "Hong Kong"
         },
         {
-          "title": "審計報告｜違契經營36年地政總署沒發現 修契申請最長29年始完成",
-          "url": "https://hk01.com/sns/article/60414819",
-          "publishedAt": "2026-11-25T08:06:03.000Z",
-          "excerpt": "審計署今日（25日）發布新一份審計報告。其中，地政總署被指在執管違契個案或審批修契申請上均嚴重拖延。截至今年3月底，地政總署有326宗修契申請正在處理，其中213宗、即約六成半個案已處理超過一年，平均歷時5.4年，最長個案達29.1年。另外，有商業機構在私人住宅地段違契營運，但分區地政處在36.2年始發現，處方其後「釘契」，惟兩年後該機構仍照常營業。 （資料圖片） 地契是政府和地段業權人之間的私人契約，列明地段業權人的責任和職責，並載有相關條款及條件，例如契約年期和准許用途。除了其他土地行政工作外，地政處亦負責就違契個案進行執行契約條款工作。 36年無發現違契經營 釘契近兩年仍照常營業 審計署",
+          "title": "有片｜港鐵售票機找贖口遭塞滿薯片 女子取硬幣中伏怒斥缺德",
+          "url": "https://hk01.com/sns/article/60414922",
+          "publishedAt": "2026-11-25T09:20:52.000Z",
+          "excerpt": "有網民在社交平台Threads發文，指使用港鐵售票機購票後，伸手到找贖口拿取硬幣時，竟發現退幣槽內被人塞滿大量薯片，令其硬幣全數沾滿油漬及碎屑，怒斥惡作劇者「薯片都好玩，我啲銀仔全部報廢」。 帖文隨即引起網民熱議，大批網民怒斥涉事者行為極度缺德及噁心，直呼「唔敢想像，打算拎返啲散銀，伸隻手入去一手揸住啲油淋淋既薯片」；但亦有網民笑言硬幣只需清洗即可重用。 不過，帖文未有交待涉事港鐵站及事發時間。《香港01》正向港鐵公司查詢上述事件。 地上亦有薯片碎。（Threads anika_c_8） 帖主用紙巾打開售票機錢幣找贖口，可見地上亦有薯片碎。（Threads anika_c_8） 售票機銀色找贖",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12043,6 +12032,14 @@
           "category": "Hong Kong"
         },
         {
+          "title": "王丹妮羅孝勇三喜臨門 幸福曬BB超聲波合照：點亮我們的三周年",
+          "url": "https://hk01.com/sns/article/60414719",
+          "publishedAt": "2026-11-25T03:16:41.000Z",
+          "excerpt": "王丹妮與丈夫羅孝勇於2020年正式註冊結婚，並在澳洲補辦婚禮。今日（25日）迎來好消息，在社交平台分享與丈夫羅孝勇一起手持BB超聲波的合照，兩人笑容滿面，一同開心迎接家庭新成員的來臨。 王丹妮與丈夫羅孝勇2020年正式註冊結婚，並在澳洲補辦婚禮。（IG圖片） 今日（25日）兩人迎來好消息，分享手持BB超聲波的合照，宣布即將變一家四口。（IG圖片） 王丹妮在社交平台曬出與羅孝勇手持BB超聲波的合照，並留言寫道：「關於愛的所有想像，在這一刻又有了新的形狀。謝謝你如期而至，點亮我們的三周年。從此這個家變成了3+1=4❤️ Today, November 25th, marks the 3rd ann",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "兩電加價．01觀點｜電費上漲陷入結構困局 改革只見頭盤未見主菜",
           "url": "https://hk01.com/sns/article/60414635",
           "publishedAt": "2026-11-25T02:00:22.000Z",
@@ -12057,17 +12054,9 @@
           "excerpt": "前日本知名AV女優、現轉型為DJ的濱崎真緒（藝名：DJ Mao）昨日（24日）在社交媒體表示，當日早上乘搭UO625回香港時將袋放在行李架上，事後發現首飾盒及手錶被盜。 《香港01》聯絡到濱崎真緒的經理人Yami，他憶述事件稱，他與濱崎真緒同行，登機後他將行李放置在行李架上。首飾盒內有8項首飾，包括4隻鑽石戒指、3隻Chrome Hearts戒指及頸鏈，與及一隻自家品牌的手錶，全部不翼而飛，估計共值約15萬港元。《香港01》正就事件向警方及航空公司查詢。 濱崎真緒經理人Yami表示，首飾盒內共有8項首飾，包括4隻鑽石戒指、3隻Chrome Hearts戒指及頸鏈；圖為部份失物。（受訪者提供） ",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "謝瑞麟孫女驚解「天價嫁妝」令人出乎意料 豪門父母視女婿為罪人",
-          "url": "https://hk01.com/sns/article/60414426",
-          "publishedAt": "2026-11-24T22:00:02.000Z",
-          "excerpt": "珠寶大亨謝瑞麟孫女Bethany Tse早前自爆19歲未讀完大學懷孕生子，25歲育有三名子女，而她的老公則是年紀相差9歲的韓國人。雖然身為豪門後代，但Bethany很生性，除了努力讀書完成大學課程外，更與老公移居到加拿大自食其力，不靠父蔭。Bethany早前揭秘豪門父母首次見韓國老公的經歷，日前又再拍片，爆父母送的「天價嫁妝」竟然令人出乎意料！ 謝瑞麟孫女Bethany Tse貼出全家福。（IG@bethany.tse） 謝瑞麟孫女Bethany親解「天價嫁妝」 Bethany日前拍片分享當年結婚細節。她透露第一對結婚戒指竟非在謝瑞麟買，原因是韓國老公是「千古罪人」，她說：「當年我老公喺其他珠",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "有線新聞",
@@ -12075,6 +12064,46 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "審計報告｜消委會處理投訴處理最長超過3年 近四成獲批酬酢開支超支、員工反多過賓客",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527895/%E5%AF%A9%E8%A8%88%E5%A0%B1%E5%91%8A-%E6%B6%88%E5%A7%94%E6%9C%83%E8%99%95%E7%90%86%E6%8A%95%E8%A8%B4%E8%99%95%E7%90%86%E6%9C%80%E9%95%B7%E8%B6%85%E9%81%8E3%E5%B9%B4-%E8%BF%91%E5%9B%9B",
+          "publishedAt": "2026-11-25T10:16:59.000Z",
+          "excerpt": "【有線新聞】審計報告發現，消委會處理投訴及查詢的服務表現不達標，最長處理投訴時間超過3年，有部分酬酢開支超支。",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "審計報告｜大專生學貸款拖欠近萬宗涉款逾1.3億 四成半未展開法律追討 促加快轉介律政司",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527897/%E5%AF%A9%E8%A8%88%E5%A0%B1%E5%91%8A-%E5%A4%A7%E5%B0%88%E7%94%9F%E5%AD%B8%E8%B2%B8%E6%AC%BE%E6%8B%96%E6%AC%A0%E8%BF%91%E8%90%AC%E5%AE%97%E6%B6%89%E6%AC%BE%E9%80%BE1-3%E5%84%84-",
+          "publishedAt": "2026-11-25T10:15:33.000Z",
+          "excerpt": "【有線新聞】審計署報告指，政府多個專上及大專學生資助計劃累計9,500多宗拖欠還款個案，欠款總額超過1.31億",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "美控華為涉伊朗業務及竊取商業機密案10宗罪成 中方堅決反對打壓中國企業",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527879/%E7%BE%8E%E6%8E%A7%E8%8F%AF%E7%82%BA%E6%B6%89%E4%BC%8A%E6%9C%97%E6%A5%AD%E5%8B%99%E5%8F%8A%E7%AB%8A%E5%8F%96%E5%95%86%E6%A5%AD%E6%A9%9F%E5%AF%86%E6%A1%8810%E5%AE%97%E7%BD%AA%E6%88%90-%E4%B8%AD",
+          "publishedAt": "2026-11-25T09:52:48.000Z",
+          "excerpt": "【有線新聞】美國政府控告中國電訊商華為涉及伊朗業務及竊取商業機密案，陪審團裁定華為銀行及電匯欺詐等10項罪名成",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "屯門公路荃灣路青葵公路嚴打超速駕駛 警單日發47張告票",
+          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527878/%E5%B1%AF%E9%96%80%E5%85%AC%E8%B7%AF%E8%8D%83%E7%81%A3%E8%B7%AF%E9%9D%92%E8%91%B5%E5%85%AC%E8%B7%AF%E5%9A%B4%E6%89%93%E8%B6%85%E9%80%9F%E9%A7%95%E9%A7%9B-%E8%AD%A6%E5%96%AE%E6%97%A5%E7%99%BC47",
+          "publishedAt": "2026-11-25T09:46:04.000Z",
+          "excerpt": "新界南交通部執行及管制組今日（11月25日）於屯門公路，利用雷射槍偵測超速駕駛；亦於荃灣路、青葵公路一帶出動警",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "理想汽車第3季虧損按年收窄至3億人民幣",
+          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527872/%E7%90%86%E6%83%B3%E6%B1%BD%E8%BB%8A%E7%AC%AC3%E5%AD%A3%E8%99%A7%E6%90%8D%E6%8C%89%E5%B9%B4%E6%94%B6%E7%AA%84%E8%87%B33%E5%84%84%E4%BA%BA%E6%B0%91%E5%B9%A3",
+          "publishedAt": "2026-11-25T09:23:07.000Z",
+          "excerpt": "【有線新聞】理想汽車第3季虧損按年收窄。 虧損約3億人民幣，收入按年增長5%至288億元，毛利率16.7%，按",
+          "source": "有線新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "據報金融機構嚴密審查數據中心客戶",
           "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527831/%E6%93%9A%E5%A0%B1%E9%87%91%E8%9E%8D%E6%A9%9F%E6%A7%8B%E5%9A%B4%E5%AF%86%E5%AF%A9%E6%9F%A5%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%AE%A2%E6%88%B6",
@@ -12194,49 +12223,9 @@
           "excerpt": "主持：黃健臻 嘉賓：莫灝楠 元宇證券基金經理 收市焦點： 。恒指低開253點報21966點 。國指和科指跌0.",
           "source": "有線新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "宏福苑｜援助基金推新補助涉款6.3億 租金補助則將派至入伙後三個月",
-          "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527774/%E5%AE%8F%E7%A6%8F%E8%8B%91-%E6%8F%B4%E5%8A%A9%E5%9F%BA%E9%87%91%E6%8E%A8%E6%96%B0%E8%A3%9C%E5%8A%A9%E6%B6%89%E6%AC%BE6-3%E5%84%84-%E7%A7%9F%E9%87%91%E8%A3%9C%E5%8A%A9%E5%89%87",
-          "publishedAt": "2026-11-25T08:42:48.000Z",
-          "excerpt": "【有線新聞】大埔宏福苑援助基金推出「新生活支援補助」，向每戶業主及每名死者家屬分別提供30萬元及20萬元補助。",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "財經HOY視野｜美指期貨亞洲向下，今晚美國公布PCE數據",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527785/%E8%B2%A1%E7%B6%93hoy%E8%A6%96%E9%87%8E-%E7%BE%8E%E6%8C%87%E6%9C%9F%E8%B2%A8%E4%BA%9E%E6%B4%B2%E5%90%91%E4%B8%8B-%E4%BB%8A%E6%99%9A%E7%BE%8E%E5%9C%8B%E5%85%AC%E5%B8%83pce%E6%95%B8",
-          "publishedAt": "2026-11-25T08:30:22.000Z",
-          "excerpt": "主持：麥嘉恩 嘉賓主持：天富資產管理環球首席投資總監植耀輝 焦點： ．隔晚美股三大指數表現分化，道指繼續升重返",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "財經HOY視野｜亞洲股市回落，南韓收跌6%、SK海力士股價瀉11%",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527815/%E8%B2%A1%E7%B6%93hoy%E8%A6%96%E9%87%8E-%E4%BA%9E%E6%B4%B2%E8%82%A1%E5%B8%82%E5%9B%9E%E8%90%BD-%E5%8D%97%E9%9F%93%E6%94%B6%E8%B7%8C6-sk%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%82%A1",
-          "publishedAt": "2026-11-25T08:27:39.000Z",
-          "excerpt": "主持：麥嘉恩 嘉賓主持：天富資產管理環球首席投資總監植耀輝 焦點： ．今日區內股市表現，AI拋售潮加劇，美國關",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "匯金天下｜油價亞洲市回軟，金價弱勢持續",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527806/%E5%8C%AF%E9%87%91%E5%A4%A9%E4%B8%8B-%E6%B2%B9%E5%83%B9%E4%BA%9E%E6%B4%B2%E5%B8%82%E5%9B%9E%E8%BB%9F-%E9%87%91%E5%83%B9%E5%BC%B1%E5%8B%A2%E6%8C%81%E7%BA%8C",
-          "publishedAt": "2026-11-25T08:27:37.000Z",
-          "excerpt": "主持：麥嘉恩 嘉賓主持：資深外匯評論員陳健豪 焦點： ．伊朗官媒指，霍爾木茲海峽及周邊地區再有貨船遇襲，油價紐",
-          "source": "有線新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "科腦噏｜英偉達黃仁勳下台後回歸，將如何影響美科技股估值？",
-          "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527782/%E7%A7%91%E8%85%A6%E5%99%8F-%E8%8B%B1%E5%81%89%E9%81%94%E9%BB%83%E4%BB%81%E5%8B%B3%E4%B8%8B%E5%8F%B0%E5%BE%8C%E5%9B%9E%E6%AD%B8-%E5%B0%87%E5%A6%82%E4%BD%95%E5%BD%B1%E9%9F%BF%E7%BE%8E",
-          "publishedAt": "2026-11-25T08:27:26.000Z",
-          "excerpt": "主持：黃健臻 嘉賓主持：易方資本人工智能應用總監王遨研 焦點： ．英偉達黃仁勳下台，震散美國科技股，事隔11日",
-          "source": "有線新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Now 新聞",
@@ -12244,6 +12233,22 @@
       "kind": "nownews",
       "count": 20,
       "stories": [
+        {
+          "title": "李家超探訪宏福苑居民 稱將來不用為維修擔心(楊佩詩報道)",
+          "url": "https://news.now.com/home/local/player?newsId=670933",
+          "publishedAt": "2026-11-25T10:10:43.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "處理大廈管理糾紛三層機制明年將推出 麥美娟：業委會或法團管委會獲同類服務",
+          "url": "https://news.now.com/home/local/player?newsId=670930",
+          "publishedAt": "2026-11-25T09:17:43.000Z",
+          "excerpt": "",
+          "source": "Now 新聞",
+          "category": "Hong Kong"
+        },
         {
           "title": "專上及大專生資助和貸款計劃錄逾九千宗拖欠還款 審計處促加快展開追討",
           "url": "https://news.now.com/home/local/player?newsId=670921",
@@ -12387,25 +12392,9 @@
           "excerpt": "",
           "source": "Now 新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "海關搗本地走私集團檢市值1.4億元私煙 拘捕5人",
-          "url": "https://news.now.com/home/local/player?newsId=670890",
-          "publishedAt": "2026-11-25T05:41:24.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "宏福苑援助基金推新生活補助 麥美娟指另有租金補助支援居民至入伙後三個月",
-          "url": "https://news.now.com/home/local/player?newsId=670889",
-          "publishedAt": "2026-11-25T05:39:24.000Z",
-          "excerpt": "",
-          "source": "Now 新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12574,7 +12563,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12583,10 +12572,18 @@
       "count": 20,
       "stories": [
         {
+          "title": "社區藥物名冊下月30日推出 涵蓋151項藥物",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1879236-20261125.htm",
+          "publishedAt": "2026-11-25T09:20:45.000Z",
+          "excerpt": "醫務衞生局公布，社區藥物名冊下月30日起推出，名冊共涵蓋151項藥物，擴闊至泌尿科、眼科和皮膚科等疾病，新增藥項病人藥費為市價約十分一至三分一。 名冊設三層，第一層非專利藥物為每項每星期2元，第二層專利藥物為每項每星期30元，第三層特別藥物類別暫未引入藥物。約7萬名病人將率先受惠。 當局以一款降血脂藥為例，市價每四星期藥費120元至160元，日後只需8元。若以其中一款糖尿病藥為例，市價每四星期藥費300元至570元，日後將為120元。 當局表示，會為每名共同治理網絡參加者提供每年200元藥費資助，以直接扣減第一層藥物的病人藥費。如果病人長期服用不多於兩項第一層藥物，資助一般足以支付絕大部分、甚",
+          "source": "香港電台中文本地新聞",
+          "category": "Hong Kong"
+        },
+        {
           "title": "港燈下調12月燃料調整費 每度電52.3仙",
           "url": "https://news.rthk.hk/rthk/ch/component/k2/1879232-20261125.htm",
           "publishedAt": "2026-11-25T09:09:02.000Z",
-          "excerpt": "港燈宣布，下月燃料調整費向下調整，由11月的每度電55.1仙，下調至每度電52.3仙。 港燈今年的燃料調整費一度於9月達到全年最高的每度電60.7仙，之後持續下降。 編輯：譚佩貞",
+          "excerpt": "港燈宣布，下月燃料調整費向下調，由11月的每度電55.1仙，下調至每度電52.3仙。 港燈今年的燃料調整費一度於9月達到全年最高的每度電60.7仙，之後持續下降。 編輯：譚佩貞",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
         },
@@ -12733,17 +12730,9 @@
           "excerpt": "文化體育及旅遊局局長羅淑佩表示，局方聯同旅發局及旅遊業界一直推動「盛事+旅遊」策略，在各方盛事帶動下，今年首10個月共有約4580萬人次旅客訪港，按年上升12%。今年首6個月與入境旅遊相關的總消費約1110億元，按年上升11%，預計今年全年相關總消費會升至2380億元。 有議員關注政府會否探討與外國藝人合作推廣香港文化等，羅淑佩表示，加拿大歌手 The Weeknd與歌曲《季候風》的聯乘、韓國男團BIGBANG在演唱會即慶於歌詞中，加入香港美食等，均在網上廣泛流傳。她又說，有向不同主辦單位提議向藝人送紀念品時，送出有關香港非遺、有香港特色的紀念品，以推廣香港文化。 旅遊界議員江旻憓關注有酒店及",
           "source": "香港電台中文本地新聞",
           "category": "Hong Kong"
-        },
-        {
-          "title": "專上及大專學生資助計劃逾9千宗拖欠還款 審計署促加快展開追討",
-          "url": "https://news.rthk.hk/rthk/ch/component/k2/1879188-20261125.htm",
-          "publishedAt": "2026-11-25T04:28:28.000Z",
-          "excerpt": "審計署審查在職家庭及學生資助事務處為專上及大專學生而設的資助計劃工作，截至今年9月底，5項涉及貸款的資助計劃累計有9515宗拖欠還款個案，涉款1億3130萬元，按貸款額計算的拖欠款額比率為4.2%。 截至7月底，在5項資助計劃中，以擴展的免入息審查貸款計劃的累計拖欠還款個數目最多、拖欠款額最大。在約１萬宗拖欠還款個案中，當中45%尚未展開法律追討行動，或並非按破產、個人自願安排和延期還款申請程序處理。審計署分析，有1456宗個案涉及貸款人或彌償人已超過1年沒有作出正面回應；257宗個案是超過5年沒有正面回應。 審計署認為，要加快就拖欠還款個案展開法律追討程序。 另外，審計署表示，在2021/2",
-          "source": "香港電台中文本地新聞",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "South China Morning Post",
@@ -12784,7 +12773,7 @@
           "category": "Hong Kong"
         },
         {
-          "title": "Japanese DJ Mao reports alleged theft of jewellery worth HK$158,000 on flight",
+          "title": "Japanese DJ Mao reports in-flight theft of jewellery worth HK$158,000",
           "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375710/japanese-dj-mao-reports-alleged-theft-jewellery-worth-hk158000-flight",
           "publishedAt": "2026-11-25T06:24:45.000Z",
           "excerpt": "Japanese DJ and former adult video actress Mao Hamasaki has reported the theft of jewellery and a watch worth about HK$158,000 (US$20,150) from her carry-on bag during a flight to Hong Kong, just weeks after she was hospitalised after being drugged in a local nightclub. The 33-year-old Hong Kong res",
@@ -12912,7 +12901,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -12920,6 +12909,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "​立法會十四題：荃灣混凝土廠對附近居民的影響",
+          "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500448.htm",
+          "publishedAt": "2026-11-25T09:23:30.000Z",
+          "excerpt": "​​以下是今日（十一月二十五日）在立法會會議上郭芙蓉議員的提問和署理發展局局長林智文的書面答覆： 問題： 有市民反映，位於荃灣國瑞路一間營運中的混凝土廠，導致附近有不少大型車輛出入，加劇區內交通擠塞問題及帶來道路安全風險，同時亦影響周遭的環境衞生。另一方面，政府計劃在該混凝土廠附近的一幅土地（即前葵涌公立學校校舍原址）興建公營房屋，並預計在二○三○至二○三一年度落成。就此，政府可否告知本會： （一）現時全港仍在營運中的混凝土廠數目、其分布地點、土地契約或租約年期，以及由環境保護署根據《空氣污染管制條例》發出的指明工序牌照屆滿日期； （二）現時政府在審批混凝土廠的牌照續期申請時，各相關部門的權責",
+          "source": "香港政府新聞公報",
+          "category": "Hong Kong"
+        },
         {
           "title": "政府歡迎立法會通過《2026年稅務（修訂）（與航運有關的活動及實物大宗商品交易的稅務寬減）條例草案》",
           "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500387.htm",
@@ -13071,17 +13068,9 @@
           "excerpt": "&nbsp; 以下是教育局局長蔡若蓮博士今日（十一月二十五日）在立法會會議上動議二讀《2026年教育（修訂）條例草案》的發言全文： 主席： 我謹動議二讀《2026年教育（修訂）條例草案》（《條例草案》）。 教師是學生的楷模，是培養學生成長的關鍵人物。政府建議通過《條例草案》，修訂《教育條例》（第279章），以引入執業證明書要求，完善教師註冊機制；以及引入機制處理被裁定干犯危害國家安全罪行（國安罪行）人士的教師註冊事宜，確保所有於香港學校任教的教師均為適合及適當人選，從而維護教師團隊的專業質素。 加強教師隊伍建設、提升教師質量是優質教育發展的基礎。教育局作為負責教師註冊的法定機構，一直積極監管教",
           "source": "香港政府新聞公報",
           "category": "Hong Kong"
-        },
-        {
-          "title": "立法會：醫務衞生局局長就動議二讀《藥物及醫療器械監督管理中心條例草案》發言全文（只有中文）",
-          "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500389.htm",
-          "publishedAt": "2026-11-25T06:54:00.000Z",
-          "excerpt": "以下是醫務衞生局局長盧寵茂教授今日（十一月二十五日）在立法會會議上就動議二讀《藥物及醫療器械監督管理中心條例草案》（《條例草案》）的發言全文： 主席： 我謹動議二讀《藥物及醫療器械監督管理中心條例草案》。 創新藥物及醫療器械發展一日千里。國家在相關領域亦正高速發展。行政長官自二○二三年起，在連續四份《施政報告》中提出推動創新藥械發展的政策及措施建設香港成為國際醫療創新樞紐，與國家「十五五」規劃有關支持創新藥和醫療器械發展的倡議一脈相承。 過去三年，香港正全速推進藥械審批制度改革創新。我們由過往被動的「第二層審批」，快速引入並擴展「1+」新藥審批機制，同時展開了首階段「第一層審批」，目標是於二○",
-          "source": "香港政府新聞公報",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-25T09:17:28.470Z"
+      "lastSuccessfulAt": "2026-11-25T10:17:20.632Z"
     }
   ],
   "stories": [
@@ -13426,6 +13415,22 @@
       "category": "Technology"
     },
     {
+      "title": "Best Red-Light Therapy for Hair Growth and Restoration (2026)",
+      "url": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
+      "publishedAt": "2026-11-25T10:01:00.000Z",
+      "excerpt": "Don’t fly to Turkey just yet. Our WIRED testers saw visible hair regrowth with these red-light therapy devices.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
+      "title": "‘Rejection Will Have Consequences’: Inside Trump’s Demands to Another Chips CEO",
+      "url": "https://www.wired.com/story/inside-trumps-demands-to-another-chips-ceo/",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "excerpt": "Donald Trump’s dealings with Intel reveal yet another a government-led pressure campaign involving a private company, court documents show.",
+      "source": "WIRED",
+      "category": "Technology"
+    },
+    {
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
       "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
       "publishedAt": "2026-11-24T23:39:04.000Z",
@@ -13566,22 +13571,6 @@
       "url": "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online/",
       "publishedAt": "2026-11-24T11:00:00.000Z",
       "excerpt": "A pair of unsecured databases exposed sensitive information about hundreds of millions of people—including data that could let attackers “own” a victim’s digital life.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Inside the Chinese City Where Furniture Dupes Are Made",
-      "url": "https://www.wired.com/story/foshan-china-dupes-furniture/",
-      "publishedAt": "2026-11-24T11:00:00.000Z",
-      "excerpt": "Across social media, influencers share the fake luxury pieces they got directly from China—for one-tenth the price. Here’s where that viral sofa came from.",
-      "source": "WIRED",
-      "category": "Technology"
-    },
-    {
-      "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
-      "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
-      "publishedAt": "2026-11-24T10:45:00.000Z",
-      "excerpt": "Young people anxious about their futures say they’re increasingly frustrated with their pro-AI parents. They’re worried it’s going to make holiday gatherings very tense.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14066,10 +14055,19 @@
       "category": "Technology"
     },
     {
-      "title": "EU reportedly plans €50bn tech fund to back AI and quantum firms",
+      "title": "US jury convicts Huawei of trade secret theft and bank fraud",
+      "url": "https://thenextweb.com/news/huawei-convicted-trade-secrets-bank-fraud",
+      "publishedAt": "2026-11-25T10:13:13.000Z",
+      "excerpt": "A federal jury in New York has convicted Huawei of conspiring to steal trade secrets from American companies and of defrauding banks over its business in Iran. The verdict brings an eight-year criminal case against the Chinese telecoms giant close to an end. Jurors in Brooklyn reached their decision",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum",
       "url": "https://thenextweb.com/news/eu-50bn-sovereign-tech-equity-fund-ai-quantum",
       "publishedAt": "2026-11-25T08:54:34.000Z",
-      "excerpt": "The European Union plans to invest up to €50bn in a new fund for European AI and quantum computing companies, the Financial Times reported on Wednesday, citing two officials involved in the discussions. The vehicle, called the Sovereign Tech Equity Fund, would make larger, riskier, and longer-term i",
+      "excerpt": "The European Commission has proposed a €50bn fund that would take direct stakes in European AI and quantum computing companies. The Sovereign Tech Equity Fund was confirmed on Wednesday, hours after the Financial Times first reported the plan, citing two officials. The fund would make larger, riskie",
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14093,10 +14091,10 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "What do we know about the EU Quantum Act ahead of today’s launch",
+      "title": "EU unveils Quantum Act to turn Europe’s research lead into industry",
       "url": "https://thenextweb.com/news/the-eu-quantum-act-todays-launch",
       "publishedAt": "2026-11-25T07:50:56.000Z",
-      "excerpt": "The European Commission presents its long-promised Quantum Act in Strasbourg today, a law meant to turn Europe’s world-class quantum research into companies, factories, and products. Henna Virkkunen, the Commission’s executive vice-president for tech sovereignty, is due to unveil the plan at 10:00 C",
+      "excerpt": "The European Commission presented its long-promised Quantum Act in Strasbourg on Wednesday. The law is meant to turn Europe’s strong quantum research into companies, factories, and products. Henna Virkkunen, the Commission’s tech chief, unveiled the plan after EU commissioners adopted it at their we",
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14142,15 +14140,6 @@
       "url": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules",
       "publishedAt": "2026-11-24T18:24:54.000Z",
       "excerpt": "Google has made its Workspace MCP servers and CLI generally available and says AI agents must use them instead of existing REST APIs from February 1, 2027. Every call is checked against company policies, sensitive actions need user confirmation, and a new addendum bars AI tools from training on Work",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "TIDAL will delete 29 million AI-generated songs from its catalogue",
-      "url": "https://thenextweb.com/news/tidal-delete-29-million-ai-generated-songs",
-      "publishedAt": "2026-11-24T17:57:18.000Z",
-      "excerpt": "TIDAL will begin deleting all wholly AI-generated tracks on December 9, about 29 million songs, and expects to reject 80,000 to 85,000 more a day. It had already labelled and demonetised AI music in July, but says 43% of tracks it received in the past 90 days were AI-made. TIDAL will start deleting ",
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14291,6 +14280,39 @@
       "sourceRole": "community"
     },
     {
+      "title": "Sources: Meta and Amazon are discussing a potential deal to connect Muse to Amazon, ending Amazon's block; any deal would require a sign-off from both CEOs (Sebastian Herrera/Fortune)",
+      "url": "https://fortune.com/2026/11/25/exclusive-amazon-meta-talks-deal-muse-ai-shopping-agent-blockade/",
+      "publishedAt": "2026-11-25T10:15:01.000Z",
+      "excerpt": "Sebastian Herrera / Fortune : Sources: Meta and Amazon are discussing a potential deal to connect Muse to Amazon, ending Amazon's block; any deal would require a sign-off from both CEOs &nbsp; &mdash;&nbsp; Amazon and Meta Platforms are in ongoing discussions over a potential deal to connect Meta's ",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261125/p13#a261125p13",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Australia passes the Digital Duty of Care Act, an online safety law that exposes Big Tech to multibillion-dollar fines for failing to prevent foreseeable harms (Rod McGuirk/Associated Press)",
+      "url": "https://apnews.com/article/australia-digital-duty-care-law-tech-harm-b3f044575e9d8106f30a14eee2b89a81",
+      "publishedAt": "2026-11-25T10:05:02.000Z",
+      "excerpt": "Rod McGuirk / Associated Press : Australia passes the Digital Duty of Care Act, an online safety law that exposes Big Tech to multibillion-dollar fines for failing to prevent foreseeable harms &nbsp; &mdash;&nbsp; Australia's Parliament on Wednesday passed online safety laws that could expose tech g",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261125/p12#a261125p12",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
+      "title": "Walmart says Kalyan Krishnamurthy, CEO of Walmart-owned Flipkart, India's largest online retailer, plans to leave on December 4 and names its CTO as interim CEO (Sankalp Phartiyal/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/flipkart-ceo-to-exit-after-transforming-walmart-s-india-play",
+      "publishedAt": "2026-11-25T09:40:02.000Z",
+      "excerpt": "Sankalp Phartiyal / Bloomberg : Walmart says Kalyan Krishnamurthy, CEO of Walmart-owned Flipkart, India's largest online retailer, plans to leave on December 4 and names its CTO as interim CEO &nbsp; &mdash;&nbsp; Flipkart Chief Executive Officer Kalyan Krishnamurthy, a key architect of the company'",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261125/p11#a261125p11",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
+    },
+    {
       "title": "VW's ID. Era 5S sedan, built in China for China with VW's most advanced automated-driving system, reflects China's rise as a source of cutting-edge auto tech (Bloomberg)",
       "url": "https://www.bloomberg.com/news/articles/2026-11-25/vw-s-18-000-self-driving-sedan-shows-how-china-leads-on-car-tech",
       "publishedAt": "2026-11-25T07:35:01.000Z",
@@ -14346,10 +14368,10 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "OpenAI publishes a preprint claiming to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics (Deedy/@deedydas)",
+      "title": "OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (ω) is exactly 9/4, addressing a major open problem in mathematics (Deedy/@deedydas)",
       "url": "https://x.com/deedydas/status/2125445769629204816",
       "publishedAt": "2026-11-25T06:55:01.000Z",
-      "excerpt": "Deedy / @deedydas : OpenAI publishes a preprint claiming to prove that the matrix multiplication exponent (&omega;) is exactly 9/4, addressing a major open problem in mathematics &nbsp; &mdash;&nbsp; OpenAI just dropped a 111-page proof of a 57-year old math problem: the matrix multiplication expone",
+      "excerpt": "Deedy / @deedydas : OpenAI publishes a preprint that claims to prove that the matrix multiplication exponent (&omega;) is exactly 9/4, addressing a major open problem in mathematics &nbsp; &mdash;&nbsp; OpenAI just dropped a 111-page proof of a 57-year old math problem: the matrix multiplication exp",
       "source": "Techmeme",
       "category": "Technology",
       "sourceUrl": "https://www.techmeme.com/261125/p5#a261125p5",
@@ -14423,37 +14445,22 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 (Mike Wheatley/SiliconANGLE)",
-      "url": "https://siliconangle.com/2026/11/24/rajiv-ramaswami-to-step-down-as-nutanix-begins-hunt-for-its-next-ceo/",
-      "publishedAt": "2026-11-25T03:15:00.000Z",
-      "excerpt": "Mike Wheatley / SiliconANGLE : Nutanix CEO Rajiv Ramaswami announces plans to step down and become a senior adviser, but will remain as CEO until a successor is named; he joined in late 2020 &nbsp; &mdash;&nbsp; Rajiv Ramaswami is stepping down from his role as the Chief Executive Officer of Nutanix",
-      "source": "Techmeme",
+      "title": "How to watch every 2026 NFL Thanksgiving game on streaming",
+      "url": "https://www.engadget.com/2323102/how-to-watch-every-2026-nfl-thanksgiving-streaming/",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "excerpt": "Thanksgiving Eve brings a first-ever NFL game, plus three more on Turkey Day. Here's where to stream every matchup in 2026 without missing a snap.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261124/p51#a261124p51",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
-      "title": "HP reports Q4 revenue up 9.3% YoY to $16B, above $15.3B est., gives \"prudent\" fiscal 2027 guidance above estimates, and says AI PCs reached ~60% of shipments (Dina Bass/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/hp-gives-profit-forecast-signaling-better-handle-on-memory-costs",
-      "publishedAt": "2026-11-25T02:30:02.000Z",
-      "excerpt": "Dina Bass / Bloomberg : HP reports Q4 revenue up 9.3% YoY to $16B, above $15.3B est., gives &ldquo;prudent&rdquo; fiscal 2027 guidance above estimates, and says AI PCs reached ~60% of shipments &nbsp; &mdash;&nbsp; HP Inc. gave a profit forecast for the current year that will likely exceed analysts'",
-      "source": "Techmeme",
+      "title": "Amazon Autos is coming to the UK in its first expansion outside the US",
+      "url": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
+      "publishedAt": "2026-11-25T09:15:37.000Z",
+      "excerpt": "Amazon Autos will start selling cars in the UK early next year, marking the first time it has expanded outside the US.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261124/p50#a261124p50",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
-    },
-    {
-      "title": "A history professor says GPT-6.2 Astra solved a historical mystery in 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale (Mark Humphries/Generative History)",
-      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-      "publishedAt": "2026-11-25T02:00:01.000Z",
-      "excerpt": "Mark Humphries / Generative History : A history professor says GPT-6.2 Astra solved a historical mystery in 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale &nbsp; &mdash;&nbsp; There's a growing sense in the AI community that we're approaching an intelligence explo",
-      "source": "Techmeme",
-      "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261124/p49#a261124p49",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
       "title": "Change this Roku TV setting to watch movies how they were filmed",
@@ -14618,20 +14625,38 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Google Maps' Dark Mode is getting even darker",
-      "url": "https://www.engadget.com/2326681/google-maps-dark-mode-is-getting-even-darker/",
-      "publishedAt": "2026-11-24T16:33:28.000Z",
-      "excerpt": "This is part of a forthcoming update that adds new high-visibility options.",
-      "source": "Engadget",
+      "title": "Apple looks set to release (PRODUCT) RED AirPod Max 2 and HomePod mini 2 models very soon",
+      "url": "https://www.techradar.com/audio/wireless-headphones/apple-could-release-a-new-look-for-airpods-max-2-and-homepod-mini-2-very-soon-and-itll-be-a-retro-throwback-for-older-iphone-and-ipod-fans",
+      "publishedAt": "2026-11-25T10:06:53.000Z",
+      "excerpt": "It sounds like Apple is going to use World AIDS day to launch a new PRODUCT (RED) device, for the first time since 2022.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "Researchers find 3.6 billion usernames, passwords and documents in unsecured databases",
-      "url": "https://www.engadget.com/2326647/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-database/",
-      "publishedAt": "2026-11-24T16:15:17.000Z",
-      "excerpt": "The scale of the exposed data underscores how important it is to take steps to stay safe online.",
-      "source": "Engadget",
+      "title": "Why agentic AI is no longer a free magic tool",
+      "url": "https://www.techradar.com/pro/why-agentic-ai-is-no-longer-a-free-magic-tool",
+      "publishedAt": "2026-11-25T10:05:50.000Z",
+      "excerpt": "It is powerful modern enterprise infrastructure, and it comes with a price tag to match.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Why a platform-based approach matters for production readiness",
+      "url": "https://www.techradar.com/pro/why-a-platform-based-approach-matters-for-production-readiness",
+      "publishedAt": "2026-11-25T09:58:50.000Z",
+      "excerpt": "Exploring how enterprises can evaluate AI agents across accuracy, reliability, cost, governance and production readiness.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Black Friday PC deals: save on Acer, Dell, HP, and more — including gaming PCs",
+      "url": "https://www.techradar.com/computing/desktop-pcs/black-friday-pc-deals-save-on-acer-dell-hp-and-more-including-gaming-pcs-with-nvidia-5060ti-and-5070-gpu-options",
+      "publishedAt": "2026-11-25T09:24:21.000Z",
+      "excerpt": "We've selected the best Black Friday PC deals to help you find your next desktop, from mini systems to full-on gaming machines.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14735,6 +14760,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "NYT Connections hints and answers for Wednesday, November 25 (game #1263)",
+      "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-25-november-2026",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Quordle hints and answers for Wednesday, November 25 (game #1766)",
       "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-25-november-2026",
       "publishedAt": "2026-11-25T00:00:00.000Z",
@@ -14753,15 +14787,6 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "NYT Connections hints and answers for Wednesday, November 25 (game #1263)",
-      "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-25-november-2026",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
       "title": "I found two Logitech and Razer mechanical keyboards under $100 in the Black Friday sale that make typing at work way more satisfying",
       "url": "https://www.techradar.com/pro/i-found-two-logitech-and-razer-mechanical-keyboards-under-usd100-in-the-black-friday-sale-that-make-typing-at-work-way-more-satisfying",
       "publishedAt": "2026-11-24T23:52:13.000Z",
@@ -14775,42 +14800,6 @@
       "url": "https://www.techradar.com/audio/earbuds-airpods/the-clock-is-ticking-on-these-apple-black-friday-deals-save-on-airpods-airtags-and-apple-pencils-before-midnight",
       "publishedAt": "2026-11-24T23:24:46.000Z",
       "excerpt": "We’ve seen a lot of discounts on a range of Apple products since Amazon kicked off its Black Friday sale, but some further reductions make them even more tempting — but be quick, these deals won’t last long.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Ugreen's DH4300 Plus is 'a better NAS than the price would suggest', and it's down to $350 at Amazon for Black Friday",
-      "url": "https://www.techradar.com/pro/ugreens-dh4300-plus-is-a-better-nas-than-the-price-would-suggest-and-its-down-to-usd350-at-amazon-for-black-friday",
-      "publishedAt": "2026-11-24T23:15:27.000Z",
-      "excerpt": "The Ugreen NASync DH4300 Plus is one of our top NAS systems. A beginner-friendly NAS for photo backup, streaming, and file sharing on sale for Black Friday.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "NAND prices could finally be set to fall, in the first bit of good news for component fans for some time — but DRAM is refusing to budge so far",
-      "url": "https://www.techradar.com/pro/nand-prices-could-finally-be-set-to-fall-in-the-first-bit-of-good-news-for-component-fans-for-some-time-but-dram-is-refusing-to-budge-so-far",
-      "publishedAt": "2026-11-24T23:15:00.000Z",
-      "excerpt": "Finally, good news for SSD shoppers - though the DRAM half of the memory crunch isn't budging yet.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "MNN's 15.6-inch portable monitor is $10 off for Black Friday",
-      "url": "https://www.techradar.com/pro/i-found-the-cheapest-portable-monitor-ever-give-your-laptop-a-second-screen-for-under-usd40-this-black-friday-amazon-knocks-20-percent-off-the-15-6-inch-mnn-full-hd-display",
-      "publishedAt": "2026-11-24T22:42:53.000Z",
-      "excerpt": "Amazon's Black Friday sale brings the MNN 15.6-inch portable monitor below $40, with Full HD resolution and single-cable USB-C connectivity for work and play.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "HP HyperX Omen RTX 5070 laptop gets 46% off for Black Friday",
-      "url": "https://www.techradar.com/pro/walmart-slashes-nearly-usd1-100-off-the-hp-hyperx-omen-laptop-for-black-friday-with-ryzen-9-power-and-rtx-5070-graphics",
-      "publishedAt": "2026-11-24T22:33:57.000Z",
-      "excerpt": "This HP HyperX Omen laptop packs a 16-core Ryzen 9 processor and RTX 5070 graphics — and it's 46% off for Black Friday.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -15176,6 +15165,33 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "Like italics, but backwards: Inside Yury Ostromentsky’s inverted typeface series, Backslanted",
+      "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+      "publishedAt": "2026-11-25T09:00:00.000Z",
+      "excerpt": "The expressive illegibility of these letter experiments are in response to global events that left the designer feeling “overturned”.",
+      "source": "It’s Nice That",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Offcuts, amongst other things, wants you to stop doomscrolling",
+      "url": "https://www.itsnicethat.com/articles/offcuts-magazine-publication-sponsored-content-251126",
+      "publishedAt": "2026-11-25T09:00:00.000Z",
+      "excerpt": "Available only as printed matter, Offcuts’ magazine reports on process and untold stories from across design culture.",
+      "source": "It’s Nice That",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "“I try to think about drawing as a way of remembering”: Abi Tucker’s folkloric art is full of feeling",
+      "url": "https://www.itsnicethat.com/articles/abi-tucker-art-discover-251126",
+      "publishedAt": "2026-11-25T09:00:00.000Z",
+      "excerpt": "This London-based artist does a lot, and we’re all the richer for it. Abi uniquely captures the world around us in a fashion that digs a little deeper than just depiction.",
+      "source": "It’s Nice That",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Silvana Trevale on capturing the wounds, beauty, hardships and hope of Venezuelan youth",
       "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-october-silvana-trivale-241126",
       "publishedAt": "2026-11-24T09:00:00.000Z",
@@ -15189,6 +15205,15 @@
       "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
       "publishedAt": "2026-11-24T09:00:00.000Z",
       "excerpt": "The agency has introduced a standalone V symbol and a bespoke typeface, Visa Sans, developed with Displaay Type Foundry.",
+      "source": "It’s Nice That",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Kokoroko to Marseille Jazz Festival: Luci Pina on turning music notes into pencil strokes",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-october-luci-pina-251126",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "excerpt": "The Leeds-based Illustrator and image-maker Luci Pina took to the Nicer Tuesday’s stage to talk about her artistic practice of paying tribute to Black identities and cultural heritages, how she ended up channelling her colourful illustration practice into Kokoroko’s album art and identities for Mars",
       "source": "It’s Nice That",
       "category": "Design",
       "sourceRole": "publisher"
@@ -15315,42 +15340,6 @@
       "url": "https://www.itsnicethat.com/articles/creative-career-condundrums-if-you-could-jobs-advice-161126",
       "publishedAt": "2026-11-16T11:00:00.000Z",
       "excerpt": "It can be very tough not to compare yourself to others, especially in a creative setting. Now, add the newly appointed position of ‘mother’ to the mix, and the ability to stop comparing your creative achievements to others is more difficult than ever. So where do you go from here? Well, Kat Wong, fo",
-      "source": "It’s Nice That",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Maria Zilli’s sketches steal brilliant costumes and characters from the theatre of the everyday",
-      "url": "https://www.itsnicethat.com/articles/maria-zilli-illustration-discover-161126",
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "excerpt": "Stepping into the artist’s humorous works feels like trying on a rather eccentric pair of shoes.",
-      "source": "It’s Nice That",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Mother Design bats Major League Baseball into the future with five bespoke typefaces",
-      "url": "https://www.itsnicethat.com/articles/mother-design-major-league-baseball-brand-refresh-graphic-design-project-161126",
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "excerpt": "Baseball is one of the oldest sports in America, which is why Mother Design have stepped in to revitalise its branding and show what fans stick around for.",
-      "source": "It’s Nice That",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How graphic design makes buying feel like belonging and brands feel like community",
-      "url": "https://www.itsnicethat.com/articles/pov-graphic-design-helped-monetise-loneliness-creative-industry-161126",
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "excerpt": "There’s an app for everything now… but in parallel, real-life communities and third spaces have ebbed away. Art director and graphic designer Glikeriya examines how design borrows the familiarity of relationships to sell services, and why designers should take those promises seriously.",
-      "source": "It’s Nice That",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "The Nice List 2026: explore It’s Nice That’s creative gift guide",
-      "url": "https://www.itsnicethat.com/features/the-nice-list-2026-creative-gift-guide-161126",
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "excerpt": "Browse products from 73 makers and brands in our annual curated wish list, featuring homeware, books, prints, apparel, accessories, stationery and plenty more lovely things to buy this Christmas.",
       "source": "It’s Nice That",
       "category": "Design",
       "sourceRole": "publisher"
@@ -15487,6 +15476,24 @@
       "publishedAt": "2026-06-01T18:02:00.000Z",
       "excerpt": "The growing push toward full automation is a mistake.",
       "source": "Fast Company",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "XPPen's Black Friday sale cuts up to 34% off its best drawing tablets, including the new Magic Pro 13",
+      "url": "https://www.creativebloq.com/deals/xppens-black-friday-sale-cuts-up-to-34-percent-off-its-best-drawing-tablets-including-the-new-magic-pro-13",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "excerpt": "I've found all of XPPen's best Black Friday deals, including the Artist Pro 24 (Gen 2) 4K at 34% off.",
+      "source": "Creative Bloq",
+      "category": "Design",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "The AirPods Pro 3 are perfectly designed Bluetooth earphones, and they're now £164 for Black Friday",
+      "url": "https://www.creativebloq.com/deals/the-airpods-pro-3-are-perfectly-designed-bluetooth-earphones-and-theyre-now-gbp164-for-black-friday",
+      "publishedAt": "2026-11-25T09:30:00.000Z",
+      "excerpt": "These things are the most popular Bluetooth earphones in the world for a reason.",
+      "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
     },
@@ -15648,24 +15655,6 @@
       "url": "https://www.creativebloq.com/reviews/the-best-headphone-in-the-world-just-got-an-upgrade",
       "publishedAt": "2026-11-24T08:55:00.000Z",
       "excerpt": "The HEDDphone DX is being touted as the HD 650 to HEDD D1's HD 600, but the truth is more interesting.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "I've found the only Apple Black Friday deals worth knowing about: iPad, MacBook, AirPods, Apple Watch",
-      "url": "https://www.creativebloq.com/news/live/ive-found-the-only-apple-black-friday-deals-worth-knowing-about-ipad-macbook-airpods-apple-watch",
-      "publishedAt": "2026-11-24T08:46:36.000Z",
-      "excerpt": "Not all deals are made equal – but these discounts are the best around.",
-      "source": "Creative Bloq",
-      "category": "Design",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Can Ray Gunn's early concept art win people over to the movie's divisive style?",
-      "url": "https://www.creativebloq.com/news/the-ray-gunn-art-book-is-free-to-view-online-now",
-      "publishedAt": "2026-11-24T08:00:00.000Z",
-      "excerpt": "The art book is available to view online now.",
       "source": "Creative Bloq",
       "category": "Design",
       "sourceRole": "publisher"
@@ -20617,22 +20606,6 @@
       "category": "Books"
     },
     {
-      "title": "The Best Reviewed Books of the Week",
-      "url": "https://bookmarks.reviews/the-best-reviewed-books-of-the-week-9-18-2026/",
-      "publishedAt": "2026-09-18T09:45:57.000Z",
-      "excerpt": "Emily St. John Mandel’s Exit Party, Ben Macintyre’s Redwood, Kate Atkinson’s Our Noble Selves, and Naomi Klein & Astra Taylor’s End Times Fascism all feature among the best reviewed books of the week. * Fiction 1. Exit Party by Emily St. John Mandel (Knopf) 16 Rave • 2 Positive • 1 Mixed • 1 Pan […]",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
-      "title": "5 Book Reviews You Need to Read This Week",
-      "url": "https://bookmarks.reviews/5-book-reviews-you-need-to-read-this-week-9-17-2026/",
-      "publishedAt": "2026-09-17T09:45:36.000Z",
-      "excerpt": "Our quintet of quality reviews this week includes Joseph O’Neill on Jared Weisberg’s Profiles in Cowardice, Hua Hsu on Brian Dillon’s Ambivalence, Felipe De La Hoz on Mahmoud Khalil’s No Land to Stand On, Edna Bonhomme on Imani Thompson’s Honey, and Jeremy Gordon on Jon Ronson’s The Castle. * “Say w",
-      "source": "Book Marks",
-      "category": "Books"
-    },
-    {
       "title": "Lydia Davis: Dying, or Doing Something Else",
       "url": "https://www.lrb.co.uk/the-paper/v48/n21/lydia-davis/dying-or-doing-something-else",
       "publishedAt": "2026-11-13T00:00:00.000Z",
@@ -24341,114 +24314,114 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
-      "title": "日本Chiikawa聖誕市集暴雨下成泥沼 粉絲狂呻貼錢買難受｜有片",
-      "url": "https://hk01.com/sns/article/60414907",
-      "publishedAt": "2026-11-25T09:15:23.000Z",
-      "excerpt": "以日本人氣卡通角色Chiikawa為主題的聖誕市集11月24日（周二）在千葉縣豐砂公園開幕，惟在暴雨下場地變得一片泥濘。有粉絲在網上抱怨主辦方安排不周，售賣周邊商品的商店內人潮湧湧，有人形容現場如「戰場」。而周邊商品在開場約4小時後即告售罄，令較晚入場的持票人士未能購買心儀商品。主辦方其後致歉，並宣布於12月4日起將透過官方網店接受商品預訂。 Chiikawa聖誕市集首日即遇上暴雨和周邊產品迅速售罄： 【悲報】ちいかわイベント『ちいかわクリスマスマーケット』、地獄過ぎると話題に ・有料入場も目玉グッズが開場後に即完売 →遅い時間の入場チケを買った客がブチギレ ・グッズ売場で商品の奪い合いが発生",
+      "title": "旺角妹記生滾粥品倘覓址不成 明年初停業 食客暫別招牌銅煲魚粥",
+      "url": "https://hk01.com/sns/article/60414957",
+      "publishedAt": "2026-11-25T10:12:52.000Z",
+      "excerpt": "屹立旺角花園街市政大廈熟食中心逾40年的老字號「妹記生滾粥品」，日前於社交專頁公布最新營業安排。該店稱，為配合花園街熟食中心長達14個月的加裝冷氣及全面翻新工程，現址將如常營業至2027年3月31日。 由於店方尚未落實搬遷方案，若屆時未能覓得合適新址，這間老牌粥店將於明年4月1日起暫時停運，意味這碗以傳統銅煲即叫即煮的魚粥或暫別食客一段時間。 旺角妹記生滾粥品預告停業。（網上截圖） 花園街熟食中心 迎14個月停業期 花園街熟食中心向來是香港平民飲食文化的縮影，匯聚不少街坊老店，惟設施老化問題普遍。中心即將展開加裝冷氣及全面翻新工程，期間需面對長達14個月的停業期。受工程影響，妹記生滾粥品在專頁",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "一線搜查丨回鄉證被綁陌生錢包隨時孭洗黑錢罪？ 林靜莉教6步自查",
-      "url": "https://hk01.com/sns/article/60414807",
-      "publishedAt": "2026-11-25T09:15:17.000Z",
-      "excerpt": "近年港人北上吃喝玩樂已成常態，不少人為方便消費，都會用回鄉證實名認證開通內地電子錢包。不過，HOY TV節目《一線搜查》日前（23日）報道一單極為驚嚇的民生熱話，揭發不少港人的回鄉證疑被盜用，導致微信支付名下無故綁定了多個陌生人錢包！節目主持之一的林靜莉（Jeannie）隨即在IG限時動態拍片，親自教大家點樣檢查同拆解，提醒市民切勿墮入洗黑錢陷阱！ 《一線搜查》一班靚女主持。（ig@jeannie_lam_） 網民揭發不少港人的回鄉證疑被盜用，導致微信支付名下無故綁定了多個陌生人錢包！（《一線搜查》截圖） 網民揭發不少港人的回鄉證疑被盜用，導致微信支付名下無故綁定了多個陌生人錢包！（《一線搜查",
+      "title": "美國客機起飛前急煞通報「貓越獄」 塔台幽默答：祝美好一天喵！",
+      "url": "https://hk01.com/sns/article/60414918",
+      "publishedAt": "2026-11-25T10:08:38.000Z",
+      "excerpt": "美媒11月24日報道，一架從美國波士頓（Boston）出發的達美航空客機上周四（20日）在起飛前遭遇一次不尋常的延誤。機上乘客攜帶的貓咪突然「越獄」，逃出寵物籠在機艙內自由活動，令機長不得不暫停滑行。空中交通控制塔的人員聽到這原因後都忍不住笑聲，並幽默回應：「祝你美好的一天，喵！」（have a good day. Meow！） 美國霍士新聞（Fox News） 及 《紐約郵報》 報道，該客機當日準備飛往佛羅里達州坦帕市（Tampa），事發時飛機正在跑道滑行準備起飛。沒想到飛機滑行途中，機上突然有貓咪跑出寵物籠。 據航空管制即時廣播平台ATC.com上的音訊顯示，機師在起飛前突然透過無線電向控",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "社區藥房服務擴展至共同治理網絡病人 12月起可社區藥房配藥取藥",
-      "url": "https://hk01.com/sns/article/60414927",
-      "publishedAt": "2026-11-25T09:14:13.000Z",
-      "excerpt": "醫務衞生局早前公布推行社區藥房計劃，公立醫院病人能夠在社區的指定藥房覆配藥物。隨下月30日「社區藥物名冊」計劃推出，基層醫療共同治理網絡（共同治理網絡）的病人亦能夠透過社區藥房配藥。 隨下月30日「社區藥物名冊」計劃推出，基層醫療共同治理網絡（共同治理網絡）的病人能夠透過社區藥房配藥。（梁鵬威攝） 社區藥房計劃由基層醫療署推行，透過公私營協作及強化社區藥劑師角色，讓合資格市民在社區內便捷取藥及獲得用藥支援。病人配對安排已於10月底開始。 社區藥房將擴展至全港18區 醫衞局目標：梗有一間喺你左近 計劃正進行第一階段，分別於東區、油尖旺、沙田及元朗，各設立5間社區藥房。醫衞局表示，預計在明年第四季",
+      "title": "獲派公屋屯門三寶連中兩寶！港媽慨嘆：博三派 網民祝派心儀單位",
+      "url": "https://hk01.com/sns/article/60414587",
+      "publishedAt": "2026-11-25T10:02:20.000Z",
+      "excerpt": "輪候公屋最怕連續獲派不合心意的單位！有港媽今年11月24日在Facebook群組「公屋討論區 - 香港facebook群組」發文大呻，自己輪候公屋6年多，「啲小朋友都大晒啦，返工啦」，最近再次收到配屋通知，連同過往紀錄，「第一次派蝴蝶邨低層單位 ，第二次元朗問題單位唔計，今日收到第二派大興邨」， 慨嘆「屯門三寶中兩寶」，所以「要博埋last嗰1次啦」，苦笑「唔知拒絕信點樣寫好呢？」。 坊間俗稱的「屯門三寶」，分別為友愛邨、蝴蝶邨及大興邨，3個屋邨均屬樓齡較高的大型公共屋邨；圖為蝴蝶邨。（資料圖片／黃偉民攝） 坊間俗稱的「屯門三寶」，分別為友愛邨、蝴蝶邨及大興邨，3個屋邨均屬樓齡較高的大型公共屋",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "住屋與移民問題催生不滿 西班牙極右翼受年輕選民追捧",
-      "url": "https://hk01.com/sns/article/60414867",
-      "publishedAt": "2026-11-25T09:12:43.000Z",
-      "excerpt": "西班牙極右翼政黨呼聲黨（Vox）在年輕選民中的支持率持續上升。隨着住房負擔、生活成本和移民問題引發不滿，Vox藉助社交媒體吸引年輕人，可能在11月29日大選後取得歷來最佳成績，並成為組建新政府的關鍵力量。 22歲的學生雨果在母親接受治療的醫院外遭持槍搶劫。他認為襲擊者是四名拉丁美洲移民，並支持Vox提出的「大規模移民回流」主張。他說，工人階級和中產階級社區最直接承受移民帶來的影響。 2026年11月21日，西班牙極右翼政黨Vox領導人阿巴斯卡爾在大選競選集會上發表演說。（Reuters） 《國家報》10月分析的民調數據顯示，Vox在25歲至34歲選民中的支持率接近30%，領先其他政黨。在18歲",
+      "title": "李頴彰｜法國電台「華人間諜論」：高喊自由平等卻按血統定罪？",
+      "url": "https://hk01.com/sns/article/60414309",
+      "publishedAt": "2026-11-25T10:00:44.000Z",
+      "excerpt": "李頴彰律師專欄 法國公共廣播電台Franceinfo於11月13日因一場直播時事節目而陷入輿論風暴。在《Les Informés》（知情者）節目討論中國、半導體產業、科技競爭及國家安全議題期間，兩名受邀嘉賓先後發表極具爭議性的言論。Marie‑Cécile Naves在談及中國間諜問題時表示，整個華人或華裔社群都有可能成為間諜。另一位自稱曾任法國對外安全總局（Direction générale de la sécurité extérieure）人員的評論員Vincent Crouzet則聲稱，每一位中國公民或華裔人士都必須定期向中國匯報。引起廣泛爭議的不僅是有關言論本身，更在於主持人在直播",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "台灣地震｜屏東縣海域發生4.8級地震 台灣測報為極淺層地震",
-      "url": "https://hk01.com/sns/article/60414938",
-      "publishedAt": "2026-11-25T09:11:45.000Z",
-      "excerpt": "據中國地震台網正式測定，今日（11月25日）16時47分在台灣屏東縣海域（北緯21.87度，東經121.47度）發生黎克特制4.8級地震，震源深度20千米。 另據台媒報道，台灣中央氣象署地震測報中心資料顯示，今天下午4時47分台灣東南部海域發生黎克特制5.5級地震，震央在台東縣政府南南東方101.9公里處。台灣測報這起地震深度16.7公里，屬於極淺層地震。這起地震觀測到最大震度為4級，出現在台東縣蘭嶼。 根據氣象署測報資料，震度4級地區為台東縣，震度2級地區為屏東縣、高雄市，震度1級地區為花蓮縣、台南市、嘉義縣、雲林縣、嘉義市、南投縣、彰化縣、台中市。 台灣中央氣象署則測定為黎克特制5.5級地",
+      "title": "WhatsApp iOS Beta測試版推「View Once」 閱讀後即銷毀文字訊息",
+      "url": "https://hk01.com/sns/article/60414880",
+      "publishedAt": "2026-11-25T10:00:33.000Z",
+      "excerpt": "繼兩星期前向Android測試版推送後，WhatsApp現正為iOS Beta 26.45.10.73部分用戶推出「閱後即焚」文字訊息功能。用戶長按傳送鍵即可選擇View Once，收件人閱讀並關閉介面後內容會隨即消失，系統亦會封鎖複製、轉發、截圖及螢幕錄影，進一步保障對話私隱。 繼約兩星期前向Android測試版用戶推出文字版「閱後即焚」功能後，WhatsApp近日亦正式將該項功能擴展至iOS平台。 WhatsApp現正為iOS Beta 26.45.10.73部分用戶推出「閱後即焚」文字訊息功能。（WhatsApp） WhatsApp「View Once」文字訊息功能演示： WhatsAp",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "MPF｜黃仁勳累11月人均蝕逾1.7萬！積金評級：全年或錄負回報",
-      "url": "https://hk01.com/sns/article/60414933",
-      "publishedAt": "2026-11-25T09:11:03.000Z",
-      "excerpt": "積金評級數據顯示，在週一美國股市反彈（由黃仁勳復任英偉達行政總裁所觸發）之前，強積金進入11月最後交易週時錄得約負5.17%的月度投資虧損，按金額計算約為850億港元，以497萬名成員計，即每名成員平均虧損17,108港元。年初至今投資虧損預計達311億港元，即人均虧損5,618港元。 在週一美國股市反彈（由黃仁勳復任英偉達行政總裁所觸發）之前，強積金11月最後交易週時錄得約負5.17%的月度投資虧損，人均虧損17,108港元。（資料圖片） 年初至今人均蝕5618港元 積金評級預計，若此情況持續，將抹去強積金年初至今的全部收益，令系統2026年年初至今回報轉為負1.86%的虧損。以2021年為",
+      "title": "金泰希被嘲發胖身材走樣 罕曬素顏爆肌照反擊 46歲凍齡狀態驚人",
+      "url": "https://hk01.com/sns/article/60414685",
+      "publishedAt": "2026-11-25T10:00:18.000Z",
+      "excerpt": "韓國演員金泰希上月底出席珠寶品牌活動時，因一件金色露肩禮服被部分網友嫌「手臂變肉了」、「是不是胖了」，甚至連造型都被批評不合適。時隔不到半個月，她11日直接在社群平台上傳一段室內健身影片，以素顏加上近距離拍攝的背部與肩臂肌肉線條，強勢回應先前的身材議論。 這波討論的起點，是金泰希上月22日出席首爾江南區一場高級珠寶品牌活動時，選穿了一件金色露肩絲質禮服。當時部分網友在社群上留言批評禮服剪裁不適合她，甚至將矛頭指向她的手臂與肩膀線條，質疑她是否身材管理鬆懈。不過金泰希並未正面回擊，僅在事後於社群上感謝外界關注，並表示未來會更常分享日常。 金泰希上月底出席活動時，因一件金色露肩禮服被部分網友嫌胖了",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "潘國靈逝世｜回顧首部長篇寫托邦專訪：不甘於一種片面的本土寫作",
-      "url": "https://hk01.com/sns/article/39621",
-      "publishedAt": "2026-11-25T09:10:18.000Z",
-      "excerpt": "【藝文編按：香港著名小說家及文化評論人潘國靈於今日（2026年11月25日）不幸辭世，終年56歲，消息令人深感惋惜。潘國靈一生筆耕不輟，將文字視為畢生志業。2016年，他耗時五年、傾盡心血交出首部長篇小說《寫托邦與消失咒》，這不僅是他創作生涯的最高峰與重要里程碑，更深刻叩問了「為何寫作」的終極命題。 當時《香港01》曾為此專訪潘國靈。在訪問中，他坦言寫作是一場「自虐過程」，卻也是「與世界的對抗」；在香港這個視文學為無用之事的城市裡，他依然堅守著「非寫不可的理由」。他對本土文學的期許，從不甘於片面，而是渴望汲取世界文學的養分來轉化出更深層的本土意義。 為悼念這位在香港文壇留下深刻印記的作家，我們",
+      "title": "黃仁勳復職｜換下招牌黑皮衣改穿Dior藍夾克 中國官網多碼售罄",
+      "url": "https://hk01.com/sns/article/60414874",
+      "publishedAt": "2026-11-25T10:00:08.000Z",
+      "excerpt": "NVIDIA（英偉達，台灣譯：輝達）創始人黃仁勳（Jensen Huang）在卸任行政總裁僅11天後，於美國當地時間11月23日正式回歸公司，並獲員工熱烈歡迎。不過，在這場戲劇性的復職風波外，過去黃仁勳身上幾乎形影不離的招牌黑色皮衣消失更引發關注。從照片可見，取而代之的是一件深藍色夾克。 黃仁勳重返英偉達。（Reuters） 招牌黑皮衣消失 改穿逾10萬台幣Dior外套 11月23日，黃仁勳重返位於美國加州聖克拉拉的NVIDIA總部。從公司公布的照片及影片可見，他身穿深藍色拉鍊外套，面帶笑容向員工致意，期間更將手放在胸前，感謝員工支持。 據美國時尚雜誌《GQ》報道，這件外套來自法國奢侈品牌Di",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "秋冬乾咳｜飲雪梨水愈飲愈咳傷脾胃？中醫揭3禁忌＋推5款潤肺湯水",
-      "url": "https://hk01.com/sns/article/60414879",
-      "publishedAt": "2026-11-25T09:09:01.000Z",
-      "excerpt": "天氣轉涼，喉嚨乾痕、半夜乾咳，很多人第一時間就會切兩個雪梨煲水飲。不過，你的咳嗽，你的體質真的可以受得起這碗雪梨水？秋冬空氣乾燥，氣管黏膜水分容易流失，誘發乾咳；但部分乾咳亦可能是由病毒感染、鼻水倒流或胃酸倒流引起。若這時胡亂飲用雪梨水，分分鐘愈飲愈咳。那麼想改善乾咳，有哪些湯水適合，又不怕弄巧反拙？ 雪梨水止咳，小心愈飲愈咳。（iStock） 秋冬湯水｜雪梨性涼 非人人適合 雪梨性涼，確實能清熱生津，但並非人人適合。如果你平時容易 胃脹、手腳冰冷，或者咳出來的是稀白痰 ，狂飲性質偏涼的雪梨水只會直接損傷脾胃陽氣。脾胃運化一旦受阻，體內生出更多痰濕，不但不能養生止咳，還會弄巧反拙。 秋冬湯水｜",
+      "title": "復仇者聯盟5｜最終預告3大解構！全員對抗哨兵 開彩虹橋疑尋洛基",
+      "url": "https://hk01.com/sns/article/60414842",
+      "publishedAt": "2026-11-25T09:45:37.000Z",
+      "excerpt": "Marvel Studios年度超級鉅製《復仇者聯盟5：末日降臨》（Avengers:Doomsday）將於12月16日在香港上映，官方前日（23日）發布最終預告，隨即引起影迷熱議。預告釋出多場關鍵畫面，涵蓋終極反派「末日博士」的動機、新舊英雄陣營交鋒以及片尾伏筆，以下整合最終預告3大焦點線索。 Marvel Studios年度超級鉅製《復仇者聯盟5：末日降臨》（Avengers:Doomsday）將於12月16日在香港上映。（《復仇者聯盟5：末日降臨》海報） 1.末日博士宣戰 英雄家人成目標 預告交代多元宇宙正步向崩解，羅拔唐尼（Robert Downey Jr.）飾演的「末日博士」（Doc",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "平台工作者工傷病假錢倡設三級制 最多發1年 仍較僱員少一半",
-      "url": "https://hk01.com/sns/article/60414921",
-      "publishedAt": "2026-11-25T09:06:25.000Z",
-      "excerpt": "政府擬就外賣員、送貨員等平台工作者設立工傷補償機制，勞福局今日（25日）向立法會提交相關條例草案，當中就工傷病假錢設立三級制，以3個月為回溯期，工時愈長，可獲工傷病假錢時間愈長，其中第3級、工作時數多於385小時，最多可獲發一年工傷病假錢。 草案也訂明，計算平台工作者「意外發生時每月收入」，會考慮其截至意外當日為止最多90日的平均收入，並扣除平台工作者所承擔的成本因素。針對回溯期不足7天的個案，會視作7天計算，且不用扣除平台工作者所承擔的成本因素。 相關草案將於12月9日於立法會首讀及開始二讀辯論。 政府擬就外賣員、送貨員等平台工作者設立工傷補償機制，勞福局今日（25日）向立法會提交相關條例草",
+      "title": "元朗舊樓東昇樓98萬拍賣 4組客搶高66%至163萬沽 7年貶值近1球",
+      "url": "https://hk01.com/sns/article/60414947",
+      "publishedAt": "2026-11-25T09:42:44.000Z",
+      "excerpt": "【物業拍賣／銀主盤／元朗／殘裝】 銀主劈價走貨成功。元朗有樓齡47年的殘裝舊樓東昇樓高層兩房銀主盤，今日（25日）由私人拍賣場以「減價貨」姿態98萬元推出，單位先後經歷兩次推出拍賣，最終今次以163萬元拍賣沽出，四組客搶高65萬元或約66.3%。 先後經歷兩次拍賣 四組客搶至163萬沽 今次成功拍賣沽出單位為元朗東堤街8B號東昇樓4樓C室，實用面積405平方呎，兩房間隔，屬銀主盤。該單位曾在今年8月在另一個私人拍賣場以118萬元推出拍賣，不過未能成功賣出。及後由忠誠拍賣在今日以98萬元推出，單位經歷四組客搶購，最終搶高65萬元或66.3%，以163萬元沽出，平均呎價4,025元。 內籠殘舊！天",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "蔡瑞雪公開閃婚僅1日 夫遭起底黑歷史兼收勒索訊息 凌晨急報警",
-      "url": "https://hk01.com/sns/article/60414761",
-      "publishedAt": "2026-11-25T09:02:15.000Z",
-      "excerpt": "有「北一女神」之稱的30歲台灣藝人蔡瑞雪，昨日（24日）在社交平台宣布已於上月與年長7歲的醫美診所院長蔡沁晁登記結婚，並計劃12月赴芬蘭度蜜月。然而婚訊公布不足24小時，網民隨即翻出男方黑歷史，包括他於2017年任職住院醫生時違規帶2名女性友人進入值班室，以及今年6月曾被指控私接醫美業務並以低價透明質酸冒充高價貨的帖文。 針對相關指控，蔡沁晁於24日深夜在社交平台澄清值班室事件當年已向院方交代。此外，因在通訊軟件收到陌生訊息勒索，蔡沁晁已於今日（25日）凌晨親赴警局報案，目前警方已受理並追查涉案對象。 有「北一女神」之稱的30歲台灣藝人蔡瑞雪，昨日（24日）於社交平台宣布已於上月與年長7歲的醫",
+      "title": "美媒起底黃仁勳緋聞女友黃樂 從湖南軍工小鎮滲透英偉達內幕曝光",
+      "url": "https://hk01.com/sns/article/60414884",
+      "publishedAt": "2026-11-25T09:40:51.000Z",
+      "excerpt": "美媒11月24日報道的調查披露，因與英偉達行政總裁黃仁勳有婚外情而捲入間諜疑雲的黃樂（Alice Huang），出身湖南軍工小鎮，先後任職央視及投資界，最終一步步進入英偉達核心圈。 《紐約時報》報道， 黃樂幼時生活的湖南省湘潭市楠竹山鎮，是中國兵器工業集團（又稱中國北方工業集團，NORINCO）旗下江南工業集團（代號國營282廠）的所在地，該廠專門從事導彈陀螺儀與常規彈藥零組件製造。父親黃國斌曾在生產手榴彈及導彈零件的「國營282廠」擔任文員。 報道指，黃樂修畢護理學校後曾在中國國家電視台工作，2006年赴香港浸會大學修讀傳媒管理碩士，前同學稱她經常曠課，身穿名牌服飾出入。2010年，她與胞姐",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "將軍澳新都城三期錶舖 女顧客與女店東爭執後倒地 警列糾紛調查",
-      "url": "https://hk01.com/sns/article/60414905",
-      "publishedAt": "2026-11-25T09:00:26.000Z",
-      "excerpt": "今日（25日）下午3時左右，將軍澳新都城第三期商場一間錶舖，一名女顧客疑與女店東爭執，有人報稱涉及打鬥。警方到場了解後，相信二人並無動武，將案件列「糾紛」處理。女顧客事後由救護車送院治理，女店東則無恙。 就現場圖片所見，一名身穿粉色外套的女子倒臥在錶舖門外地上，相信是涉事女顧客。錶舖男店員向《香港01》記者表示，二人較早前疑因維修手錶及金錢問題起爭執，但詳情則不便透露。 錶舖女店東與懷疑女顧客爭執，有人倒地。(圖片來源：FB/將軍澳主場) 錶舖女店東與懷疑女顧客爭執，有人倒地。(圖片來源：FB/將軍澳主場) 將軍澳新都城第三期商場一間錶舖，一名女顧客與女店東爭執後倒地。警方調查後相信無人打鬥，",
+      "title": "立會審議追加撥款逾10議員不在席 陳克勤一招救全家｜政壇諸事町",
+      "url": "https://hk01.com/sns/article/60414886",
+      "publishedAt": "2026-11-25T09:38:41.000Z",
+      "excerpt": "正所謂家有一老，如有一寶。作為立法會資深議員之一的民建聯主席陳克勤今日（25日）用一招完美演繹這句說話。事源立法會下午審議《追加撥款(2025-2026年度)條例草案》二讀投票，期間超過10名議員不在席。陳克勤發現後隨即要求記名表決。由於點票鐘響5分鐘，令大部分離席的議員都能趕回會議廳投票。 立法會今午審議《追加撥款(2025-2026年度)條例草案》二讀投票，期間超過10名議員不在席。（立法會直播） 審追加撥款 逾10名議員不在席 今屆立法會新增「出席會議」按鈕，議員投票前均須先按掣以示出席，加上每次投票都會計入投票率，少按一次亦會影響議員的「成績表」。然而，立法會今日審議《追加撥款(202",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "姨丈淫辱留宿13歲姨甥女10分鐘 官斥破壞信任 囚14個月",
-      "url": "https://hk01.com/sns/article/60414925",
-      "publishedAt": "2026-11-25T08:54:37.000Z",
-      "excerpt": "13歲少女在暑假到表姊妹家留宿，在晚上睡覺時卻遭姨丈非禮10分鐘。少女頓時不知所措亦不敢反抗，只不停喊：「媽媽...」最後她把事件記錄在日記上，其母察覺她情緒有異，於是翻看其日記揭發事件。姨丈早前在區域法院承認一項非禮罪(DCCC1686/2025)，案件今（25日）在區域法院判刑。辯方求情指被告已經知錯。 暫委法官林希維判刑時指，事主母親因關係信任被告，但他卻破壞信任犯案，令事主出現情感障礙及創傷後遺症表徵，判被告入獄14個月。 被告L.K.P.（63歲）早前承認一項非禮罪，指他於2025年8月25日，在荃灣某單位猥褻侵犯13歲女童X。 被告LKP在區域法院承認非禮13歲姨甥女，被判囚14個",
+      "title": "七旬醫生涉跑馬地寓所與48歲妻互毆 妻仍留院 明年1.20再訊",
+      "url": "https://hk01.com/sns/article/60414955",
+      "publishedAt": "2026-11-25T09:30:19.000Z",
+      "excerpt": "七旬兒科醫生涉在跑馬地寓所與妻子互毆，夫婦一同被捕。案件今（25日）在東區裁判法院提堂，醫生被控1項襲擊致造成身體傷害罪，其妻則被控普通襲擊罪（ESCC2758/2026）。女被告尚未出院，男醫生則申請押後，以與控方商討以其他方式處理案件，案件於明年1月20日再訊；女被告案則於12月1日或之前再訊。 被告為何世輝（77歲，醫生）及左莉三（48歲，家庭主婦）。何被控於2026年11月24日，在跑馬地樂活道比華利山F座某室襲擊左，而對她造成身體傷害。左則被控於同日同地襲擊何。",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "休班警未跟指示停車釀碰撞 對頭車女司機事後亡 認危駕罰8000元",
-      "url": "https://hk01.com/sns/article/60414906",
-      "publishedAt": "2026-11-25T08:43:02.000Z",
-      "excerpt": "休班警去年聖誕夜駕車在跑馬地摩理臣山道時，未有根據路牌限制而停車，並與另一私家車相撞，車上一名七旬女乘客事後報稱不適自行求醫，留醫後不治。男警今（25日）在東區法院承認1項危險駕駛罪，被判罰款8000元及停牌15個月。 裁判官朱文瀚關注案情何以未有提及女事主離世，最後接納控方指醫療報告未能確立車禍與死因有關。 被告葉嘉豪（31歲），承認於2025年12月25日在跑馬地摩利臣山道（東行）與摩理臣山道（南行）交界危險駕駛一輛私家車。 被告葉嘉豪。(陳曉欣攝) 被告服務警隊11年 辯方求情指，被告品格良好，沒有案底，只有一次交通違例記錄，但辯方指屬不同性質。被告服務警隊11年，表現良好，望法庭判處罰",
+      "title": "校巴撞倒六旬婦令其壓在車底 官稱無超速不代表無危駕 判囚1年",
+      "url": "https://hk01.com/sns/article/60414945",
+      "publishedAt": "2026-11-25T09:25:51.000Z",
+      "excerpt": "校巴兩年前途經斧山道真鐸學校對開時撞倒63歲女途人。女途人被困車底，送院檢查後發現左大腿骨折，事主至今仍行動不便，生活需人照顧及難覓工作。校巴司機早前否認危險駕駛。案件（DCCC813/2025）今（25日）在區域法院裁決及判刑。 暫委法官周燕珠指，被告駕車時沒有超速，不代表他沒有危險駕駛，並認為被告事發時沒有觀察左邊行人路上的動向，左邊車窗亦掛了一塊布簾遮擋視線，未有見到事主的身影，認為其駕駛方式屬危險，裁定他罪成，並判他入獄12個月，停牌2年及須自費參與駕駛改進課程。 被告陳偉明（69歲）被裁定一項危險駕駛引致他人身體受嚴重傷害罪，指他在2024年10月25日，在黃大仙斧山道真鐸學校外危險",
       "source": "香港01",
       "category": "Hong Kong"
     },
     {
-      "title": "審計報告｜違契經營36年地政總署沒發現 修契申請最長29年始完成",
-      "url": "https://hk01.com/sns/article/60414819",
-      "publishedAt": "2026-11-25T08:06:03.000Z",
-      "excerpt": "審計署今日（25日）發布新一份審計報告。其中，地政總署被指在執管違契個案或審批修契申請上均嚴重拖延。截至今年3月底，地政總署有326宗修契申請正在處理，其中213宗、即約六成半個案已處理超過一年，平均歷時5.4年，最長個案達29.1年。另外，有商業機構在私人住宅地段違契營運，但分區地政處在36.2年始發現，處方其後「釘契」，惟兩年後該機構仍照常營業。 （資料圖片） 地契是政府和地段業權人之間的私人契約，列明地段業權人的責任和職責，並載有相關條款及條件，例如契約年期和准許用途。除了其他土地行政工作外，地政處亦負責就違契個案進行執行契約條款工作。 36年無發現違契經營 釘契近兩年仍照常營業 審計署",
+      "title": "有片｜港鐵售票機找贖口遭塞滿薯片 女子取硬幣中伏怒斥缺德",
+      "url": "https://hk01.com/sns/article/60414922",
+      "publishedAt": "2026-11-25T09:20:52.000Z",
+      "excerpt": "有網民在社交平台Threads發文，指使用港鐵售票機購票後，伸手到找贖口拿取硬幣時，竟發現退幣槽內被人塞滿大量薯片，令其硬幣全數沾滿油漬及碎屑，怒斥惡作劇者「薯片都好玩，我啲銀仔全部報廢」。 帖文隨即引起網民熱議，大批網民怒斥涉事者行為極度缺德及噁心，直呼「唔敢想像，打算拎返啲散銀，伸隻手入去一手揸住啲油淋淋既薯片」；但亦有網民笑言硬幣只需清洗即可重用。 不過，帖文未有交待涉事港鐵站及事發時間。《香港01》正向港鐵公司查詢上述事件。 地上亦有薯片碎。（Threads anika_c_8） 帖主用紙巾打開售票機錢幣找贖口，可見地上亦有薯片碎。（Threads anika_c_8） 售票機銀色找贖",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24477,6 +24450,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "王丹妮羅孝勇三喜臨門 幸福曬BB超聲波合照：點亮我們的三周年",
+      "url": "https://hk01.com/sns/article/60414719",
+      "publishedAt": "2026-11-25T03:16:41.000Z",
+      "excerpt": "王丹妮與丈夫羅孝勇於2020年正式註冊結婚，並在澳洲補辦婚禮。今日（25日）迎來好消息，在社交平台分享與丈夫羅孝勇一起手持BB超聲波的合照，兩人笑容滿面，一同開心迎接家庭新成員的來臨。 王丹妮與丈夫羅孝勇2020年正式註冊結婚，並在澳洲補辦婚禮。（IG圖片） 今日（25日）兩人迎來好消息，分享手持BB超聲波的合照，宣布即將變一家四口。（IG圖片） 王丹妮在社交平台曬出與羅孝勇手持BB超聲波的合照，並留言寫道：「關於愛的所有想像，在這一刻又有了新的形狀。謝謝你如期而至，點亮我們的三周年。從此這個家變成了3+1=4❤️ Today, November 25th, marks the 3rd ann",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "兩電加價．01觀點｜電費上漲陷入結構困局 改革只見頭盤未見主菜",
       "url": "https://hk01.com/sns/article/60414635",
       "publishedAt": "2026-11-25T02:00:22.000Z",
@@ -24493,11 +24474,43 @@
       "category": "Hong Kong"
     },
     {
-      "title": "謝瑞麟孫女驚解「天價嫁妝」令人出乎意料 豪門父母視女婿為罪人",
-      "url": "https://hk01.com/sns/article/60414426",
-      "publishedAt": "2026-11-24T22:00:02.000Z",
-      "excerpt": "珠寶大亨謝瑞麟孫女Bethany Tse早前自爆19歲未讀完大學懷孕生子，25歲育有三名子女，而她的老公則是年紀相差9歲的韓國人。雖然身為豪門後代，但Bethany很生性，除了努力讀書完成大學課程外，更與老公移居到加拿大自食其力，不靠父蔭。Bethany早前揭秘豪門父母首次見韓國老公的經歷，日前又再拍片，爆父母送的「天價嫁妝」竟然令人出乎意料！ 謝瑞麟孫女Bethany Tse貼出全家福。（IG@bethany.tse） 謝瑞麟孫女Bethany親解「天價嫁妝」 Bethany日前拍片分享當年結婚細節。她透露第一對結婚戒指竟非在謝瑞麟買，原因是韓國老公是「千古罪人」，她說：「當年我老公喺其他珠",
-      "source": "香港01",
+      "title": "審計報告｜消委會處理投訴處理最長超過3年 近四成獲批酬酢開支超支、員工反多過賓客",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527895/%E5%AF%A9%E8%A8%88%E5%A0%B1%E5%91%8A-%E6%B6%88%E5%A7%94%E6%9C%83%E8%99%95%E7%90%86%E6%8A%95%E8%A8%B4%E8%99%95%E7%90%86%E6%9C%80%E9%95%B7%E8%B6%85%E9%81%8E3%E5%B9%B4-%E8%BF%91%E5%9B%9B",
+      "publishedAt": "2026-11-25T10:16:59.000Z",
+      "excerpt": "【有線新聞】審計報告發現，消委會處理投訴及查詢的服務表現不達標，最長處理投訴時間超過3年，有部分酬酢開支超支。",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "審計報告｜大專生學貸款拖欠近萬宗涉款逾1.3億 四成半未展開法律追討 促加快轉介律政司",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527897/%E5%AF%A9%E8%A8%88%E5%A0%B1%E5%91%8A-%E5%A4%A7%E5%B0%88%E7%94%9F%E5%AD%B8%E8%B2%B8%E6%AC%BE%E6%8B%96%E6%AC%A0%E8%BF%91%E8%90%AC%E5%AE%97%E6%B6%89%E6%AC%BE%E9%80%BE1-3%E5%84%84-",
+      "publishedAt": "2026-11-25T10:15:33.000Z",
+      "excerpt": "【有線新聞】審計署報告指，政府多個專上及大專學生資助計劃累計9,500多宗拖欠還款個案，欠款總額超過1.31億",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "美控華為涉伊朗業務及竊取商業機密案10宗罪成 中方堅決反對打壓中國企業",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527879/%E7%BE%8E%E6%8E%A7%E8%8F%AF%E7%82%BA%E6%B6%89%E4%BC%8A%E6%9C%97%E6%A5%AD%E5%8B%99%E5%8F%8A%E7%AB%8A%E5%8F%96%E5%95%86%E6%A5%AD%E6%A9%9F%E5%AF%86%E6%A1%8810%E5%AE%97%E7%BD%AA%E6%88%90-%E4%B8%AD",
+      "publishedAt": "2026-11-25T09:52:48.000Z",
+      "excerpt": "【有線新聞】美國政府控告中國電訊商華為涉及伊朗業務及竊取商業機密案，陪審團裁定華為銀行及電匯欺詐等10項罪名成",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "屯門公路荃灣路青葵公路嚴打超速駕駛 警單日發47張告票",
+      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527878/%E5%B1%AF%E9%96%80%E5%85%AC%E8%B7%AF%E8%8D%83%E7%81%A3%E8%B7%AF%E9%9D%92%E8%91%B5%E5%85%AC%E8%B7%AF%E5%9A%B4%E6%89%93%E8%B6%85%E9%80%9F%E9%A7%95%E9%A7%9B-%E8%AD%A6%E5%96%AE%E6%97%A5%E7%99%BC47",
+      "publishedAt": "2026-11-25T09:46:04.000Z",
+      "excerpt": "新界南交通部執行及管制組今日（11月25日）於屯門公路，利用雷射槍偵測超速駕駛；亦於荃灣路、青葵公路一帶出動警",
+      "source": "有線新聞",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "理想汽車第3季虧損按年收窄至3億人民幣",
+      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527872/%E7%90%86%E6%83%B3%E6%B1%BD%E8%BB%8A%E7%AC%AC3%E5%AD%A3%E8%99%A7%E6%90%8D%E6%8C%89%E5%B9%B4%E6%94%B6%E7%AA%84%E8%87%B33%E5%84%84%E4%BA%BA%E6%B0%91%E5%B9%A3",
+      "publishedAt": "2026-11-25T09:23:07.000Z",
+      "excerpt": "【有線新聞】理想汽車第3季虧損按年收窄。 虧損約3億人民幣，收入按年增長5%至288億元，毛利率16.7%，按",
+      "source": "有線新聞",
       "category": "Hong Kong"
     },
     {
@@ -24621,43 +24634,19 @@
       "category": "Hong Kong"
     },
     {
-      "title": "宏福苑｜援助基金推新補助涉款6.3億 租金補助則將派至入伙後三個月",
-      "url": "https://www.i-cable.com/%e6%96%b0%e8%81%9e%e8%b3%87%e8%a8%8a/527774/%E5%AE%8F%E7%A6%8F%E8%8B%91-%E6%8F%B4%E5%8A%A9%E5%9F%BA%E9%87%91%E6%8E%A8%E6%96%B0%E8%A3%9C%E5%8A%A9%E6%B6%89%E6%AC%BE6-3%E5%84%84-%E7%A7%9F%E9%87%91%E8%A3%9C%E5%8A%A9%E5%89%87",
-      "publishedAt": "2026-11-25T08:42:48.000Z",
-      "excerpt": "【有線新聞】大埔宏福苑援助基金推出「新生活支援補助」，向每戶業主及每名死者家屬分別提供30萬元及20萬元補助。",
-      "source": "有線新聞",
+      "title": "李家超探訪宏福苑居民 稱將來不用為維修擔心(楊佩詩報道)",
+      "url": "https://news.now.com/home/local/player?newsId=670933",
+      "publishedAt": "2026-11-25T10:10:43.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
-      "title": "財經HOY視野｜美指期貨亞洲向下，今晚美國公布PCE數據",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527785/%E8%B2%A1%E7%B6%93hoy%E8%A6%96%E9%87%8E-%E7%BE%8E%E6%8C%87%E6%9C%9F%E8%B2%A8%E4%BA%9E%E6%B4%B2%E5%90%91%E4%B8%8B-%E4%BB%8A%E6%99%9A%E7%BE%8E%E5%9C%8B%E5%85%AC%E5%B8%83pce%E6%95%B8",
-      "publishedAt": "2026-11-25T08:30:22.000Z",
-      "excerpt": "主持：麥嘉恩 嘉賓主持：天富資產管理環球首席投資總監植耀輝 焦點： ．隔晚美股三大指數表現分化，道指繼續升重返",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "財經HOY視野｜亞洲股市回落，南韓收跌6%、SK海力士股價瀉11%",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527815/%E8%B2%A1%E7%B6%93hoy%E8%A6%96%E9%87%8E-%E4%BA%9E%E6%B4%B2%E8%82%A1%E5%B8%82%E5%9B%9E%E8%90%BD-%E5%8D%97%E9%9F%93%E6%94%B6%E8%B7%8C6-sk%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%82%A1",
-      "publishedAt": "2026-11-25T08:27:39.000Z",
-      "excerpt": "主持：麥嘉恩 嘉賓主持：天富資產管理環球首席投資總監植耀輝 焦點： ．今日區內股市表現，AI拋售潮加劇，美國關",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "匯金天下｜油價亞洲市回軟，金價弱勢持續",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527806/%E5%8C%AF%E9%87%91%E5%A4%A9%E4%B8%8B-%E6%B2%B9%E5%83%B9%E4%BA%9E%E6%B4%B2%E5%B8%82%E5%9B%9E%E8%BB%9F-%E9%87%91%E5%83%B9%E5%BC%B1%E5%8B%A2%E6%8C%81%E7%BA%8C",
-      "publishedAt": "2026-11-25T08:27:37.000Z",
-      "excerpt": "主持：麥嘉恩 嘉賓主持：資深外匯評論員陳健豪 焦點： ．伊朗官媒指，霍爾木茲海峽及周邊地區再有貨船遇襲，油價紐",
-      "source": "有線新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "科腦噏｜英偉達黃仁勳下台後回歸，將如何影響美科技股估值？",
-      "url": "https://www.i-cable.com/%e8%b2%a1%e7%b6%93%e8%b3%87%e8%a8%8a/527782/%E7%A7%91%E8%85%A6%E5%99%8F-%E8%8B%B1%E5%81%89%E9%81%94%E9%BB%83%E4%BB%81%E5%8B%B3%E4%B8%8B%E5%8F%B0%E5%BE%8C%E5%9B%9E%E6%AD%B8-%E5%B0%87%E5%A6%82%E4%BD%95%E5%BD%B1%E9%9F%BF%E7%BE%8E",
-      "publishedAt": "2026-11-25T08:27:26.000Z",
-      "excerpt": "主持：黃健臻 嘉賓主持：易方資本人工智能應用總監王遨研 焦點： ．英偉達黃仁勳下台，震散美國科技股，事隔11日",
-      "source": "有線新聞",
+      "title": "處理大廈管理糾紛三層機制明年將推出 麥美娟：業委會或法團管委會獲同類服務",
+      "url": "https://news.now.com/home/local/player?newsId=670930",
+      "publishedAt": "2026-11-25T09:17:43.000Z",
+      "excerpt": "",
+      "source": "Now 新聞",
       "category": "Hong Kong"
     },
     {
@@ -24800,22 +24789,6 @@
       "title": "審計報告：禁毒處多個資助項目遲交報告 年度帳目平均遲650天",
       "url": "https://news.now.com/home/local/player?newsId=670891",
       "publishedAt": "2026-11-25T05:43:24.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "海關搗本地走私集團檢市值1.4億元私煙 拘捕5人",
-      "url": "https://news.now.com/home/local/player?newsId=670890",
-      "publishedAt": "2026-11-25T05:41:24.000Z",
-      "excerpt": "",
-      "source": "Now 新聞",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "宏福苑援助基金推新生活補助 麥美娟指另有租金補助支援居民至入伙後三個月",
-      "url": "https://news.now.com/home/local/player?newsId=670889",
-      "publishedAt": "2026-11-25T05:39:24.000Z",
       "excerpt": "",
       "source": "Now 新聞",
       "category": "Hong Kong"
@@ -24981,10 +24954,18 @@
       "category": "Hong Kong"
     },
     {
+      "title": "社區藥物名冊下月30日推出 涵蓋151項藥物",
+      "url": "https://news.rthk.hk/rthk/ch/component/k2/1879236-20261125.htm",
+      "publishedAt": "2026-11-25T09:20:45.000Z",
+      "excerpt": "醫務衞生局公布，社區藥物名冊下月30日起推出，名冊共涵蓋151項藥物，擴闊至泌尿科、眼科和皮膚科等疾病，新增藥項病人藥費為市價約十分一至三分一。 名冊設三層，第一層非專利藥物為每項每星期2元，第二層專利藥物為每項每星期30元，第三層特別藥物類別暫未引入藥物。約7萬名病人將率先受惠。 當局以一款降血脂藥為例，市價每四星期藥費120元至160元，日後只需8元。若以其中一款糖尿病藥為例，市價每四星期藥費300元至570元，日後將為120元。 當局表示，會為每名共同治理網絡參加者提供每年200元藥費資助，以直接扣減第一層藥物的病人藥費。如果病人長期服用不多於兩項第一層藥物，資助一般足以支付絕大部分、甚",
+      "source": "香港電台中文本地新聞",
+      "category": "Hong Kong"
+    },
+    {
       "title": "港燈下調12月燃料調整費 每度電52.3仙",
       "url": "https://news.rthk.hk/rthk/ch/component/k2/1879232-20261125.htm",
       "publishedAt": "2026-11-25T09:09:02.000Z",
-      "excerpt": "港燈宣布，下月燃料調整費向下調整，由11月的每度電55.1仙，下調至每度電52.3仙。 港燈今年的燃料調整費一度於9月達到全年最高的每度電60.7仙，之後持續下降。 編輯：譚佩貞",
+      "excerpt": "港燈宣布，下月燃料調整費向下調，由11月的每度電55.1仙，下調至每度電52.3仙。 港燈今年的燃料調整費一度於9月達到全年最高的每度電60.7仙，之後持續下降。 編輯：譚佩貞",
       "source": "香港電台中文本地新聞",
       "category": "Hong Kong"
     },
@@ -25133,14 +25114,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "專上及大專學生資助計劃逾9千宗拖欠還款 審計署促加快展開追討",
-      "url": "https://news.rthk.hk/rthk/ch/component/k2/1879188-20261125.htm",
-      "publishedAt": "2026-11-25T04:28:28.000Z",
-      "excerpt": "審計署審查在職家庭及學生資助事務處為專上及大專學生而設的資助計劃工作，截至今年9月底，5項涉及貸款的資助計劃累計有9515宗拖欠還款個案，涉款1億3130萬元，按貸款額計算的拖欠款額比率為4.2%。 截至7月底，在5項資助計劃中，以擴展的免入息審查貸款計劃的累計拖欠還款個數目最多、拖欠款額最大。在約１萬宗拖欠還款個案中，當中45%尚未展開法律追討行動，或並非按破產、個人自願安排和延期還款申請程序處理。審計署分析，有1456宗個案涉及貸款人或彌償人已超過1年沒有作出正面回應；257宗個案是超過5年沒有正面回應。 審計署認為，要加快就拖欠還款個案展開法律追討程序。 另外，審計署表示，在2021/2",
-      "source": "香港電台中文本地新聞",
-      "category": "Hong Kong"
-    },
-    {
       "title": "Hong Kong tourist spending hits HK$111 billion in first half of 2026",
       "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375740/hong-kong-tourist-spending-hits-hk111-billion-first-half-2026",
       "publishedAt": "2026-11-25T08:27:26.000Z",
@@ -25173,7 +25146,7 @@
       "category": "Hong Kong"
     },
     {
-      "title": "Japanese DJ Mao reports alleged theft of jewellery worth HK$158,000 on flight",
+      "title": "Japanese DJ Mao reports in-flight theft of jewellery worth HK$158,000",
       "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375710/japanese-dj-mao-reports-alleged-theft-jewellery-worth-hk158000-flight",
       "publishedAt": "2026-11-25T06:24:45.000Z",
       "excerpt": "Japanese DJ and former adult video actress Mao Hamasaki has reported the theft of jewellery and a watch worth about HK$158,000 (US$20,150) from her carry-on bag during a flight to Hong Kong, just weeks after she was hospitalised after being drugged in a local nightclub. The 33-year-old Hong Kong res",
@@ -25298,6 +25271,14 @@
       "publishedAt": "2026-11-24T07:15:27.000Z",
       "excerpt": "Hong Kong customs officers have arrested seven people and seized about HK$23 million (US$2.9 million) worth of suspected smuggled controlled drugs, including Viagra, cancer medication and slimming injections, in an operation targeting air parcels. The Customs and Excise Department said on Tuesday it",
       "source": "South China Morning Post",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "​立法會十四題：荃灣混凝土廠對附近居民的影響",
+      "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500448.htm",
+      "publishedAt": "2026-11-25T09:23:30.000Z",
+      "excerpt": "​​以下是今日（十一月二十五日）在立法會會議上郭芙蓉議員的提問和署理發展局局長林智文的書面答覆： 問題： 有市民反映，位於荃灣國瑞路一間營運中的混凝土廠，導致附近有不少大型車輛出入，加劇區內交通擠塞問題及帶來道路安全風險，同時亦影響周遭的環境衞生。另一方面，政府計劃在該混凝土廠附近的一幅土地（即前葵涌公立學校校舍原址）興建公營房屋，並預計在二○三○至二○三一年度落成。就此，政府可否告知本會： （一）現時全港仍在營運中的混凝土廠數目、其分布地點、土地契約或租約年期，以及由環境保護署根據《空氣污染管制條例》發出的指明工序牌照屆滿日期； （二）現時政府在審批混凝土廠的牌照續期申請時，各相關部門的權責",
+      "source": "香港政府新聞公報",
       "category": "Hong Kong"
     },
     {
@@ -25449,14 +25430,6 @@
       "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500401.htm",
       "publishedAt": "2026-11-25T06:55:00.000Z",
       "excerpt": "&nbsp; 以下是教育局局長蔡若蓮博士今日（十一月二十五日）在立法會會議上動議二讀《2026年教育（修訂）條例草案》的發言全文： 主席： 我謹動議二讀《2026年教育（修訂）條例草案》（《條例草案》）。 教師是學生的楷模，是培養學生成長的關鍵人物。政府建議通過《條例草案》，修訂《教育條例》（第279章），以引入執業證明書要求，完善教師註冊機制；以及引入機制處理被裁定干犯危害國家安全罪行（國安罪行）人士的教師註冊事宜，確保所有於香港學校任教的教師均為適合及適當人選，從而維護教師團隊的專業質素。 加強教師隊伍建設、提升教師質量是優質教育發展的基礎。教育局作為負責教師註冊的法定機構，一直積極監管教",
-      "source": "香港政府新聞公報",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "立法會：醫務衞生局局長就動議二讀《藥物及醫療器械監督管理中心條例草案》發言全文（只有中文）",
-      "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500389.htm",
-      "publishedAt": "2026-11-25T06:54:00.000Z",
-      "excerpt": "以下是醫務衞生局局長盧寵茂教授今日（十一月二十五日）在立法會會議上就動議二讀《藥物及醫療器械監督管理中心條例草案》（《條例草案》）的發言全文： 主席： 我謹動議二讀《藥物及醫療器械監督管理中心條例草案》。 創新藥物及醫療器械發展一日千里。國家在相關領域亦正高速發展。行政長官自二○二三年起，在連續四份《施政報告》中提出推動創新藥械發展的政策及措施建設香港成為國際醫療創新樞紐，與國家「十五五」規劃有關支持創新藥和醫療器械發展的倡議一脈相承。 過去三年，香港正全速推進藥械審批制度改革創新。我們由過往被動的「第二層審批」，快速引入並擴展「1+」新藥審批機制，同時展開了首階段「第一層審批」，目標是於二○",
       "source": "香港政府新聞公報",
       "category": "Hong Kong"
     }

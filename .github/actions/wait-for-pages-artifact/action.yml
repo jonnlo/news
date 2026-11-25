@@ -1,0 +1,6 @@
+name: Wait for the Pages artifact
+description: Verify that the current run's uploaded site is visible to the Actions artifact service.
+# The runner supplies artifact service credentials to JavaScript actions.
+runs:
+  using: node24
+  main: index.mjs

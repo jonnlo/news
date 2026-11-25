@@ -44,10 +44,15 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Build static site, generate and validate OG image
         run: npm run build
+      - name: Install the Pages artifact checker
+        working-directory: .github/actions/wait-for-pages-artifact
+        run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Upload complete site including generated og.png
         uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      - name: Wait for the Pages artifact to be visible
+        uses: ./.github/actions/wait-for-pages-artifact
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

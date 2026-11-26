@@ -2,15 +2,23 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-27",
-  "generatedAt": "2026-11-26T21:17:21.060Z",
-  "collectedAt": "2026-11-26T21:17:21.060Z",
+  "generatedAt": "2026-11-26T22:17:21.169Z",
+  "collectedAt": "2026-11-26T22:17:21.169Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 76,
+  "sourcesUpdated": 74,
   "sourceErrors": [
     {
       "source": "Hyperallergic",
       "error": "HTTP 404"
+    },
+    {
+      "source": "Asian Review of Books",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Dense Discovery",
+      "error": "Source returned no recognizable stories"
     }
   ],
   "sources": [
@@ -21,22 +29,40 @@
       "count": 20,
       "stories": [
         {
-          "title": "Nvidia was right to bring back Jensen Huang, writes Sarah Guo",
-          "url": "https://www.economist.com/by-invitation/2026/11/25/nvidia-was-right-to-bring-back-jensen-huang-writes-sarah-guo",
-          "publishedAt": "2026-11-26T20:39:05.000Z",
+          "title": "AI made self-hosting fun again",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "publishedAt": "2026-11-26T21:47:45.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50659532"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
         },
         {
-          "title": "The USA as a Civilizations-esque map",
-          "url": "https://karpathy.ai/usaciv/",
-          "publishedAt": "2026-11-26T19:53:58.000Z",
+          "title": "Denver man traps Waymo robotaxis with cones, eggs them at least 30 times",
+          "url": "https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/",
+          "publishedAt": "2026-11-26T21:16:41.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50659918"
+        },
+        {
+          "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+          "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+          "publishedAt": "2026-11-26T21:08:05.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50659841"
+        },
+        {
+          "title": "Top-cited AI scientists at four US companies compared",
+          "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
+          "publishedAt": "2026-11-26T19:44:31.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50658910"
         },
         {
           "title": "Rvoip 0.5 the complete VoIP stack in Rust",
@@ -66,6 +92,15 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50658191"
         },
         {
+          "title": "IBM gives H-1B, green card holders 3 weeks to relocate from US or leave company",
+          "url": "https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr",
+          "publishedAt": "2026-11-26T18:35:37.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50658170"
+        },
+        {
           "title": "George Whitesides, 1939-2026",
           "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
           "publishedAt": "2026-11-26T18:13:07.000Z",
@@ -93,7 +128,7 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50657530"
         },
         {
-          "title": "AMD Specific Patches for Llama.cpp",
+          "title": "AMD-specific fork of llama.cpp",
           "url": "https://devnull.land/amd-specific-llama-cpp",
           "publishedAt": "2026-11-26T17:11:29.000Z",
           "excerpt": "",
@@ -109,15 +144,6 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50657070"
-        },
-        {
-          "title": "NP_R ≠ PAR_R",
-          "url": "https://github.com/samueleverett01/bss-permanent-separations",
-          "publishedAt": "2026-11-26T16:50:55.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50657059"
         },
         {
           "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
@@ -181,27 +207,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
-        },
-        {
-          "title": "Moat: OpenRouter replacement",
-          "url": "https://commandcode.ai/moat",
-          "publishedAt": "2026-11-26T06:32:48.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50652184"
-        },
-        {
-          "title": "An algebraic quantization of gravity from the null cone",
-          "url": "https://arxiv.org/abs/2611.34924",
-          "publishedAt": "2026-11-26T05:37:51.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50651863"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Verge",
@@ -370,7 +378,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "WIRED",
@@ -531,15 +539,15 @@
           "category": "Technology"
         },
         {
-          "title": "A Journey Through the Absurd Hell of Trump’s Third-Country Deportations",
-          "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/",
+          "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
+          "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
           "publishedAt": "2026-11-25T11:00:00.000Z",
-          "excerpt": "How a Thai-born, US-raised Cambodian refugee ended up a prisoner of Africa’s last absolute monarch.",
+          "excerpt": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
           "source": "WIRED",
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Ars Technica",
@@ -708,7 +716,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "MIT Technology Review",
@@ -877,7 +885,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "TechCrunch",
@@ -1046,7 +1054,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Next Web",
@@ -1054,6 +1062,24 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "TDK will spend $635M to double sensor output for robots and AI data centres",
+          "url": "https://thenextweb.com/news/tdk-635m-tmr-sensors-humanoids-ai-data-centres",
+          "publishedAt": "2026-11-26T21:45:22.000Z",
+          "excerpt": "Japan’s TDK plans to invest $635M to double output of its tunnel magnetoresistance (TMR) sensors by 2031, Bloomberg reported. The sensors, used in iPhones, are now in demand for cars, humanoid robots and AI data centres, and TDK estimates it makes 80% of the world’s supply. Japan’s TDK plans to inve",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Google Play will show some app developers’ home addresses to the world",
+          "url": "https://thenextweb.com/news/google-play-developer-addresses-trader-dsa-worldwide",
+          "publishedAt": "2026-11-26T21:27:14.000Z",
+          "excerpt": "Play Store developers must tell Google by February 1, 2027, whether they are traders under the EU’s Digital Services Act. From March 1, Google will show traders’ contact details worldwide, which for personal accounts means a physical address and phone number. Apple shows them only in the EU. Google ",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Canada adds C$700M to its AI compute fund, favouring home-grown clouds",
           "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
@@ -1125,27 +1151,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Huawei teases an AI memory chip to take on Samsung and SK Hynix",
-          "url": "https://thenextweb.com/news/huawei-hbm-ai-memory-samsung-sk-hynix-isscc",
-          "publishedAt": "2026-11-26T18:28:54.000Z",
-          "excerpt": "Huawei is set to present a high-bandwidth memory design with double the data pin density of chips Samsung and SK Hynix mass-produce, Bloomberg reported. It is unclear how close Huawei is to making it, but home-grown HBM would ease a key gap as China’s foreign stockpiles run low. Huawei has developed",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Volvo starts training humanoid robots for its Belgian car factory",
-          "url": "https://thenextweb.com/news/volvo-humanoid-robots-hexagon-aeon-ghent",
-          "publishedAt": "2026-11-26T18:01:10.000Z",
-          "excerpt": "Volvo Cars has begun training Hexagon Robotics’ AEON humanoid robots at its plant in Ghent, Belgium, the first Volvo factory to try humanoids. A larger pilot is due in the first half of 2027, with the robots joining production from mid-2027. Volvo Cars has started training humanoid robots at its fac",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Slashdot",
@@ -1153,6 +1161,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "S&amp;P Warns Nvidia's Board May Be Compromised",
+          "url": "https://news.slashdot.org/story/26/11/25/2340213/sp-warns-nvidias-board-may-be-compromised?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-26T22:00:00.000Z",
+          "excerpt": "S&amp;P Global Ratings has placed Nvidia's AA credit rating on downgrade watch, warning that Jensen Huang's departure and subsequent reinstatement as CEO exposed weaknesses in the company's corporate governance and board oversight. \"We believe the long tenure of certain board members may have compro",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Australia Passes Tough Legislation Requiring Big Tech to Preempt Foreseeable Harms",
           "url": "https://yro.slashdot.org/story/26/11/25/2326240/australia-passes-tough-legislation-requiring-big-tech-to-preempt-foreseeable-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1278,18 +1295,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Google Wants To Make a 24/7 AI TV Channel. You'll Be the Main Character.",
-          "url": "https://yro.slashdot.org/story/26/11/25/0511227/google-wants-to-make-a-247-ai-tv-channel-youll-be-the-main-character?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-25T16:00:00.000Z",
-          "excerpt": "Longtime Slashdot reader schwit1 shares a report from 404 Media: Google has filed for a patent that would use the information it knows about you to create an AI-generated TV channel full of personalized \"shows\" starring you and featuring customized advertisements. The patent is the latest signal of ",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Techmeme",
@@ -1297,6 +1305,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K (Nathan Grayson/Aftermath)",
+          "url": "https://aftermath.site/n3on-impersonator-ai-prison-260000-dollars-kick-stream/",
+          "publishedAt": "2026-11-26T22:10:01.000Z",
+          "excerpt": "Nathan Grayson / Aftermath : A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K &nbsp; &mdash;&nbsp; What goes around comes around, I suppose.&nbsp; Earlier this year, Kick streamer N3on, a weasly",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261126/p25#a261126p25",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month (Rajveer Singh Pardesi/Reuters)",
           "url": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/",
@@ -1450,20 +1469,9 @@
           "sourceUrl": "https://www.techmeme.com/261126/p11#a261126p11",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Thariq Shihipar joins OpenAI after leaving Anthropic in October, saying he felt he could \"personally contribute the most\" to bringing AI to the world at OpenAI (@trq212)",
-          "url": "https://x.com/trq212/status/2125675533761671405",
-          "publishedAt": "2026-11-26T11:10:01.000Z",
-          "excerpt": "@trq212 : Thariq Shihipar joins OpenAI after leaving Anthropic in October, saying he felt he could &ldquo;personally contribute the most&rdquo; to bringing AI to the world at OpenAI &nbsp; &mdash;&nbsp; I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue to root for my form",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261126/p10#a261126p10",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Engadget",
@@ -1471,6 +1479,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Backloggd urges users to change their passwords after a breach",
+          "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+          "publishedAt": "2026-11-26T21:26:47.000Z",
+          "excerpt": "If you use Backloggd, you might need to log in again and reset your password.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "1Password says it was hacked but users' vaults are safe",
           "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
@@ -1641,18 +1658,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Five solar generators going for deep discounts on Black Friday",
-          "url": "https://www.engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday/",
-          "publishedAt": "2026-11-25T14:15:20.000Z",
-          "excerpt": "Save 20 to 40 percent on models from Anker, EcoFlow and more.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "TechRadar",
@@ -1660,6 +1668,51 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Ukraine is now using lasers to kill drones — 4Kw Blysk anti-UAV system can shoot flying adversaries up to one kilometer away",
+          "url": "https://www.techradar.com/pro/ukraine-is-now-using-lasers-to-kill-drones-4kw-blysk-anti-uav-system-can-shoot-flying-adversaries-up-to-one-kilometer-away",
+          "publishedAt": "2026-11-26T22:10:00.000Z",
+          "excerpt": "Ukraine has deployed Blysk, a four-kilowatt laser system designed to disable drones, although its battlefield effectiveness remains unconfirmed under battlefield conditions.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "How to watch The JLo Show: Live from Las Vegas online for FREE — stream from anywhere",
+          "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas",
+          "publishedAt": "2026-11-26T22:00:00.000Z",
+          "excerpt": "Catch JLo's latest live concert just in time for Thanksgiving. Here's how to watch The JLo Show online for free and from anywhere including UK, Canada, Australia, Europe and India.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Stop guessing which PS5 accessory to buy and take our Black Friday deal quiz",
+          "url": "https://www.techradar.com/gaming/ps5/which-ps5-accessories-are-actually-worth-buying-take-our-quick-quiz-so-you-know-where-to-look-this-black-friday",
+          "publishedAt": "2026-11-26T22:00:00.000Z",
+          "excerpt": "Stuck trying to find the bet PS5 accessory for Black Friday? Take our quiz to find some useful suggestions.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Google Pixel 10a vs Pixel 9a — here's why I'd choose the older model",
+          "url": "https://www.techradar.com/phones/google-pixel-phones/ive-used-both-the-google-pixel-10a-and-pixel-9a-if-the-price-is-right-id-choose-the-older-model-this-black-friday",
+          "publishedAt": "2026-11-26T21:45:48.000Z",
+          "excerpt": "The Google Pixel 10a and Pixel 9a are both great Android phones, but there's little to choose between them.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Japan is packing chipmaking labs into trucks — mobileFab set to travel the country, drumming up interest in hardware careers",
+          "url": "https://www.techradar.com/pro/japan-is-packing-chipmaking-labs-into-trucks-mobilefab-set-to-travel-the-country-drumming-up-interest-in-hardware-careers",
+          "publishedAt": "2026-11-26T21:20:00.000Z",
+          "excerpt": "Japan's answer to a 43,000-worker chip talent gap? Three fab tools in a shipping container, driven straight to the classroom.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Leopard-print Skullcandy buds with sound by Bose, heavily discounted now!",
           "url": "https://www.techradar.com/audio/earbuds-airpods/black-friday-earbuds-for-the-cougar-in-your-life-these-cut-price-skullcandy-buds-have-sound-tuned-by-bose-but-cost-a-lot-less-than-any-bose-buds",
@@ -1794,54 +1847,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Save $3,000 on an RTX 5090 gaming PC with a Core Ultra 7 270K Plus right now — liquid-cooled Maingear PC has 32GB DDR5, 2TB SSD, 1.2Kw PSU and gets free AAA games worth $190",
-          "url": "https://www.techradar.com/pro/save-usd3-000-on-an-rtx-5090-gaming-pc-with-a-core-ultra-7-270k-plus-right-now-liquid-cooled-maingear-pc-has-32gb-ddr5-2tb-ssd-1-2kw-psu-and-gets-free-aaa-games-worth-usd190",
-          "publishedAt": "2026-11-26T19:34:48.000Z",
-          "excerpt": "The Maingear MG-1 Amethyst has the Core Ultra 7, 32GB RAM, 2TB SSD and RTX 5090 card, and it costs barely more than the GPU by itself.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Save $100 on the iPhone 17 Pro with Best Buy's Black Friday iPhone 17 deals",
-          "url": "https://www.techradar.com/phones/iphone/best-buy-has-the-best-black-friday-iphone-17-deals-ive-spotted-so-far-save-usd100-on-the-iphone-17-pro-and-17-pro-max",
-          "publishedAt": "2026-11-26T19:33:35.000Z",
-          "excerpt": "Best Buy is currently offering the iPhone 17 Pro and iPhone 17 Pro Max for $100 less than full price.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Yeti's Black Friday sale knocks 25% off its iconic hard coolers — here's everything I'd buy",
-          "url": "https://www.techradar.com/seasonal-sales/yetis-black-friday-sale-is-unexpectedly-excellent-with-25-percent-off-hard-coolers-backpack-bargains-and-free-engraving-heres-everything-id-buy",
-          "publishedAt": "2026-11-26T19:11:09.000Z",
-          "excerpt": "As a former outdoor kit tester and big Yeti fan, here's my pick of the brand's Black Friday bargains.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "I'm still not over the Dreamcast's untimely death, so I love that Branch's Sonic, Genesis, and Dreamcast ergonomic office chairs — with 14 adjustments, 5D armrests, and 7-year warranty — are now 10% off in its first Black Friday sale",
-          "url": "https://www.techradar.com/pro/im-still-not-over-the-dreamcasts-untimely-death-so-i-love-that-branchs-sonic-genesis-and-dreamcast-ergonomic-office-chairs-with-14-adjustments-5d-armrests-and-7-year-warranty-are-now-10-percent-off-in-its-first-black-friday-sale",
-          "publishedAt": "2026-11-26T19:06:49.000Z",
-          "excerpt": "Branch's Sega Sonic, Genesis, and Dreamcast office chairs are on sale for the first time this Black Friday - and these aren't just for gamers.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Elegoo Centauri Carbon 2 3D Printer gets an $80 discount this Black Friday",
-          "url": "https://www.techradar.com/pro/the-elegoo-centauri-carbon-2-is-one-of-the-best-3d-printers-and-its-usd80-cheaper",
-          "publishedAt": "2026-11-26T19:00:00.000Z",
-          "excerpt": "The Elegoo Centauri Carbon 2 is one of the best 3D printers - and it’s $80 cheaper",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "9to5Mac",
@@ -2030,7 +2038,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Humanist Review",
@@ -2219,7 +2227,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "It’s Nice That",
@@ -2408,7 +2416,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Fast Company",
@@ -2552,7 +2560,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Creative Bloq",
@@ -2741,7 +2749,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Sidebar",
@@ -2950,7 +2958,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Creative Boom",
@@ -3119,7 +3127,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3288,7 +3296,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Creative Independent",
@@ -3377,7 +3385,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3546,7 +3554,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "A List Apart",
@@ -3715,7 +3723,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Them",
@@ -3904,7 +3912,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4093,7 +4101,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Atlantic",
@@ -4282,7 +4290,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The New Yorker",
@@ -4435,19 +4443,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Christoph Niemann’s “A Matter of Perspective”",
-          "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
           "publishedAt": "2026-11-23T11:00:00.000Z",
-          "excerpt": "In and out of the boardroom.",
+          "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Briefly Noted Book Reviews",
-          "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
+          "title": "Christoph Niemann’s “A Matter of Perspective”",
+          "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
           "publishedAt": "2026-11-23T11:00:00.000Z",
-          "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
+          "excerpt": "In and out of the boardroom.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4471,7 +4479,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Hyperallergic",
@@ -4706,7 +4714,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Vox",
@@ -4895,7 +4903,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5084,7 +5092,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Conversation",
@@ -5253,7 +5261,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Pew Research Center",
@@ -5422,7 +5430,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "404 Media",
@@ -5551,7 +5559,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Undark",
@@ -5650,7 +5658,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5839,7 +5847,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Noema",
@@ -6028,7 +6036,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "n+1",
@@ -6217,7 +6225,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Rest of World",
@@ -6322,7 +6330,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Quietus",
@@ -6491,7 +6499,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "BFI",
@@ -6660,7 +6668,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6829,7 +6837,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6998,7 +7006,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Colossal",
@@ -7187,7 +7195,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Pudding",
@@ -7356,7 +7364,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7525,7 +7533,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7654,6 +7662,7 @@
           "category": "Books"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
     },
     {
@@ -7823,7 +7832,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Book Marks",
@@ -7992,7 +8001,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "London Review of Books",
@@ -8181,7 +8190,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Millions",
@@ -8350,7 +8359,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Literary Hub",
@@ -8519,7 +8528,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Rumpus",
@@ -8708,7 +8717,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8877,7 +8886,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Electric Literature",
@@ -9046,7 +9055,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Paris Review",
@@ -9135,7 +9144,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Offing",
@@ -9324,7 +9333,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Words Without Borders",
@@ -9513,7 +9522,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Mekong Review",
@@ -9702,7 +9711,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "The Marginalian",
@@ -9871,7 +9880,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Daily Nous",
@@ -10040,7 +10049,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Aeon",
@@ -10209,7 +10218,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Psyche",
@@ -10218,19 +10227,19 @@
       "count": 20,
       "stories": [
         {
-          "title": "There and back",
-          "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
+          "title": "What exile was like for the first people called ‘refugees’",
+          "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
           "publishedAt": "2026-11-26T11:00:00.000Z",
-          "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
+          "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "What exile was like for the first people called ‘refugees’",
-          "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
+          "title": "There and back",
+          "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
           "publishedAt": "2026-11-26T11:00:00.000Z",
-          "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
+          "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10398,7 +10407,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Tricycle",
@@ -10567,7 +10576,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10736,7 +10745,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Kottke",
@@ -10945,7 +10954,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Longreads",
@@ -11154,7 +11163,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Waxy",
@@ -11383,7 +11392,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "MetaFilter",
@@ -11446,7 +11455,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11635,7 +11644,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Dense Discovery",
@@ -11844,6 +11853,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
     },
     {
@@ -11852,6 +11862,38 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "仲點論政｜世界灣區聯盟 香港獲益無窮",
+          "url": "https://hk01.com/sns/article/60415369",
+          "publishedAt": "2026-11-26T22:00:58.000Z",
+          "excerpt": "仲點論政｜劉仲恒 成立和加入經濟聯盟對經濟體是否有利，很大程度上取決於其經濟性質。對於主要依賴自身市場的「內向型」經濟體而言，加入聯盟未必有益，皆因聯盟要求開放市場，與保護本土產業的政策有所衝突。相反，對於以出口和貿易為主導的「外向型」經濟體，建立戰略經濟聯盟至關重要；這類經濟體高度依賴外部需求，經濟增長直接取決於海外市場關係。此外，聯盟既可為其爭取優惠的市場准入條件、降低貿易壁壘，亦能減輕自身產業受全球供應鏈衝擊的影響。 眾所周知，香港正是典型的外向型經濟體。亞太經合組織（APEC）工商領導人峰會開幕式於11月18日在深圳舉行。會上，國家主席習近平提出支持成立「世界灣區經濟合作聯盟」，旨在深",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "西沙SIERRA SEA驚現第一滴血！一房400萬沽 逆市倒蝕料實輸27萬",
+          "url": "https://hk01.com/sns/article/60415284",
+          "publishedAt": "2026-11-26T22:00:55.000Z",
+          "excerpt": "【西沙／SIERRA SEA／蝕讓／二手成交】二手市場交投暢旺，西沙SIERRA SEA更是短炒獲利不斷，不過該屋苑最近竟然出現一宗逆市蝕讓個案。由內地買家持有的一房單位在今年初以419.09萬元買入，呎價14,016元，持貨至今10個月以400萬元轉手，帳面輸19.09萬元。若扣減佣金、印花税等交易使費約7.8萬元後，料實蝕約26.9萬元，屬屋苑首宗蝕讓個案。 SIERRA SEA首宗蝕讓 一房400萬沽 據資料指，該單位為西沙SIERRA SEA 2A期1座11樓H室，實用面積299平方呎，屬一房間隔。單位在11月上旬以400萬元蝕讓沽出，呎價13,378元，料為屋苑首宗蝕讓成交。至於新買",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "何超儀憶拍《再戰明天》監獄取景 唔信邪拒做法事愛犬離奇死亡",
+          "url": "https://hk01.com/sns/article/60415415",
+          "publishedAt": "2026-11-26T22:00:18.000Z",
+          "excerpt": "近日一段何超儀早前出席電影《拾荒法師》謝票活動的片段在網上流傳，其中她講到之前去羅湖懲教所拍攝TVB劇《再戰明天》的怪事，她指當時有特約演員曾提醒「你入去全世界最唔好彩嘅人嘅地方拍戲，有冇諗住做返場法事呀？」但何超儀卻覺得只是拍戲，而且日日有裝香「唔信邪」，誰不知有日一收工就收到司機電話，指家中其中一隻愛犬出事送院，最終更返魂乏術。而何超儀透露，自己家中的狗狗全部本來都冇病冇痛，因此事出非常突然，亦不知道是何事：「好似邪教嗰啲Culture，要搵條友嚟犧牲，所以我好心痛。」 近日一段何超儀早前出席電影《拾荒法師》謝票活動的片段在網上流傳。（IG@ tommytcwtang） 何超儀講到之前去羅",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "天氣｜今日漸轉天晴 市區最低氣溫19度 下周早晚有一兩陣微雨",
+          "url": "https://hk01.com/sns/article/60415456",
+          "publishedAt": "2026-11-26T21:55:56.000Z",
+          "excerpt": "天文台表示，今日（27日）初時部份時間多雲，日間漸轉天晴，市區最高氣溫約25度，新界再高一兩度，最高紫外線指數大約是6，強度屬於高，吹輕微至和緩北至東北風。天文台展望，周末期間至下周初大致天晴，明日（周六/28日）非常乾燥，後日（周日/29日）風勢頗大。 圖為截至11月27日凌晨5時20分，天文台顯示各區氣溫。（天文台網頁圖片） 今日氣溫回升 周末期間日夜溫差頗大 天文台指出，隨着東北季候風緩和及覆蓋廣東沿岸的雲帶轉薄，預料今日（27日）該區漸轉天晴，氣溫回升。預料一股達強風程度的東北季候風會在周末期間為華南帶來晴朗及非常乾燥的天氣，內陸地區日夜溫差頗大，一股偏東氣流會在下周初至中期影響廣東沿",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "屯門帝灣居單位遭爆竊 賊人撬窗掠走$74萬財物 包括勞力士名錶",
           "url": "https://hk01.com/sns/article/60415471",
@@ -11901,42 +11943,10 @@
           "category": "Hong Kong"
         },
         {
-          "title": "反常？一家住公屋10年！港爸主動交還政府 原因曝光獲讚：好本事",
-          "url": "https://hk01.com/sns/article/60414373",
-          "publishedAt": "2026-11-26T17:02:50.000Z",
-          "excerpt": "【公屋／居屋】常說「得公屋得天下」，但能夠由公屋戶成功「畢業」買樓兼成家立室，更令人羨慕。有港爸近日在社交平台Threads發片發文，記錄自己交回居住近10年的元朗朗晴邨210呎公屋單位，準備一家三口連同愛貓搬到新買入的居屋。該港爸不但大方分享公屋還原實際開支，更透露棄公屋轉買居屋暖心原因，引來大批網民激讚，「好感動！加油順利」、「太本事！」、「勁啊，師兄祝福你」。 有港爸記錄自己交回居住近10年的元朗朗晴邨210呎公屋單位，準備一家搬到新買入的居屋。（資料圖片） 210呎朗晴邨蝸居見證拍拖結婚生子 港爸交吉買居屋告別：感恩一切安好 該港爸在 Threads 帖文中，感性地記錄了交吉舊屋一刻，",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "英格蘭一代翼鋒史達寧毒駕罪成 曾風光無限 離開曼城斷崖式滑落",
-          "url": "https://hk01.com/sns/article/60415426",
-          "publishedAt": "2026-11-26T17:01:36.000Z",
-          "excerpt": "不知何故，英格蘭10號球衣的主人，天才橫溢的背後，往往在球場以外總是麻煩份子。近日朗尼在真人騷節目《I'm a Celebrity... Get Me Out of Here!》中剖白球員年代酗酒問題極嚴重，最新輪到今年5月毒駕被捕的史達寧（Raheem Sterling），被判囚12個月，緩刑18個月。曾經在球會和國家隊均是必然正選、春風得意的天才翼鋒，這些年到底發生了什麼事？ 史達寧毒駕罪成，獲判緩刑離開法院。（路透社） 牙買加出生的問題兒童 小學老師預言奇準 史達寧跟不少足球員一樣有個艱苦童年，在牙買加出生，2歲的時候爸爸在當地被槍殺，媽媽Nadine在他5歲的時候帶着他移居英國。Nad",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "特朗普：冀普京停止所有歐洲軍事侵略行動 與烏克蘭盡快達成協議",
-          "url": "https://hk01.com/sns/article/60415457",
-          "publishedAt": "2026-11-26T16:56:04.000Z",
-          "excerpt": "美國總統特朗普（Donald Trump）11月26日（周四）在社交平台Truth Social表示，他上周曾向俄羅斯領導人普京（Vladimir Putin）表示，希望俄羅斯能收斂其在歐洲各地的軍事侵略行動，藉此促成烏克蘭戰爭的迅速解決。 特朗普發文稱，「在中國與俄羅斯總統普京交談時，我花了許多時間強調，希望普京總統能停止在歐洲各地的所有軍事侵略行動。我希望能促成俄羅斯與烏克蘭之間達成協議，而且要盡快達成。」 特朗普亦表示，「我真心認為這極有可能實現——現在每個月都有數千人喪生，這簡直是一場徹底的血腥浩劫。」 2026年11月19日，美國總統特朗普會晤俄羅斯總統普京（Reuters） 身為北",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "馬貫東被揭母親與李家鼎曾是情侶後首度同場 透露台下非零互動",
-          "url": "https://hk01.com/sns/article/60415442",
-          "publishedAt": "2026-11-26T16:30:36.000Z",
-          "excerpt": "馬貫東今日（26日）出席TVB《長期服務暨傑出員工榮譽大獎頒獎典禮2026》領取20年長期服務獎。他接受訪問時，直言獎項好有份量：「我用咗20年時間喺呢間公司學習、成長進步，係一個好有份量嘅紀念。」他又提到《鐵馬戰車》的「揚名」是首個令香港觀眾認識自己的重要角色，並強調從不覺得過去的演藝路難捱。他被問及與同場的李家鼎（鼎爺）及李泳豪（豪仔）的互動，隨即澄清與鼎爺並非「冇溝通」。 馬貫東領取20年長期服務獎。(盧振輝 攝) 關係曝光後首同場 被分隔坐兩邊零交流 今日亦是自爆出馬貫東母親是鼎爺前女友後，他與鼎爺及豪仔首次同場現身。就現場所見，豪仔與鼎爺同坐，而馬貫東則被安排坐另外一面，三人在頒獎典",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "非法改動護照｜情侶涉無合法授權改護照等3罪 最高罰$15萬囚14年",
           "url": "https://hk01.com/sns/article/60415454",
           "publishedAt": "2026-11-26T16:13:06.000Z",
-          "excerpt": "一名香港女子周二（24日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 根據《入境條例》，任何人無合法權限授權而改動旅行證件，即屬犯罪，一經定罪，最高可被判罰款15萬元及監禁14年，協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款1萬元及監禁6個月。 入境處經調查後展開執法行",
+          "excerpt": "一名香港女子周二（24日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 任何人沒有合法授權而改動特區護照，或管有或使用改動的特區護照可能觸犯《入境條例》（第115章）。違例者可被檢控，一經定罪，最高可被判罰款15萬及監禁14年。協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11953,14 +11963,6 @@
           "url": "https://hk01.com/sns/article/60415444",
           "publishedAt": "2026-11-26T14:46:23.000Z",
           "excerpt": "一名香港女子日前於社交平台Threads發文，報稱因特區護照缺頁，於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處經詳細檢視涉事護照及跟進調查後，據了解，今日（26日）於藍田平田邨平真樓，拘捕一男一女香港居民，涉嫌沒有合法授權而改動該特區護照。據了解，涉案護照已發出8年。兩被捕人為情侶關係，並曾使用過該護照前往台灣、韓國及泰國等地。 消息指，涉案兩人分別為一名27歲女子，報稱任職地產代理，以及一名34歲男子，報稱任職網絡維修工人，兩人早前一同出國並一同返港。昨日當事人親身前往將軍澳旅遊證件組別，申請補領護照並查詢證件缺頁原因。當局懷疑證件涉及人為改",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "宏福苑一周年・圖輯｜入夜後獻花人潮不絕 廣福公園成一片花海",
-          "url": "https://hk01.com/sns/article/60415434",
-          "publishedAt": "2026-11-26T14:36:32.000Z",
-          "excerpt": "大埔宏福苑火災一周年，大批市民及宏福苑街坊自發到廣福公園悼念逝去的遇難者。從今早開始，便有不少人帶同鮮花來悼念或放下心意卡致意，有人在紙張寫上「願168位逝者安息 願真相水落石出 公義得以彰顯」；亦有人掩面痛哭，與親友相擁。 至下午，前來獻花的人超過200人，包括前法團主席徐滿柑，有民安隊人員協助整理花束，放在樹下的膠箱。至晚上，前來悼念的人數不減，由日到夜，獻花人潮絡繹不絕，公園裏的花束已聚成一片花海。 廣福公園白天情況： 大埔宏福苑火災一周年，大批市民及宏福苑街坊自發到廣福公園悼念逝去的遇難者。（夏家朗攝） 宏福苑悼念（夏家朗攝） 宏福苑悼念（夏家朗攝） 宏福苑悼念（夏家朗攝） 宏福苑悼念",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12011,9 +12013,17 @@
           "excerpt": "14歲少女涉在交友程式認識數名男子後，在約1個月內，先後與多名成年男子性交，並作過不同形式的性行為，該些男性包括教師、消防員及大學生等，其中5男否認指控，5人經審訊後全被裁定與未滿16歲女童非法性交罪成，另有一人早前已承認控罪。案件(HCCC94, 95/2025），6名被告今(26日)在高等法院判刑， 法官郭啟安判刑時指，6名被告利用事主的無知和脆弱乘虛而入，並進行性剝削，事主亦受嚴重心理創傷，但她在網上毫無顧忌分享其性經驗，也需負一定責任，因這令被告們放下戒心，以為她事後不會投訴，最終判6名被告監禁20個月14天至54個月不等(詳看下圖及表)。 6被告涉在一個月內先後與事主X性交 6名被告",
           "source": "香港01",
           "category": "Hong Kong"
+        },
+        {
+          "title": "宏福苑大火一周年．01社論｜痛定思痛 刮骨療傷",
+          "url": "https://hk01.com/sns/article/60415049",
+          "publishedAt": "2026-11-26T06:33:59.000Z",
+          "excerpt": "一年前的今天（11月26日），大埔宏福苑那場火災吞噬了一百多個家庭的至親，摧毀了兩千戶居民的家園，更在七百萬香港市民的心頭留下一道深不見底的烙印。365個日夜過去，秋去冬來的寒風依舊，災後的瓦礫已被清理乾淨，燒焦的外牆已經冷卻沉寂，弔唁的花海也早就化作新泥，但在很多市民的內心深處，那股刺鼻的濃煙還未真正散去。 瓦礫雖清濃煙未散 允許脆弱才是慈悲 過去一年，雖然不少人提出「放下向前看」、「明天會更好」的鼓勵和勸慰，但創傷並不會自動結痂。痛，不是無病呻吟的矯情，而是融進骨血的沉重。是倖存居民在聞到一絲焦味時，心臟驟停般的驚悸；是逝者家屬在節慶擺放碗筷時，突然意識到人天永隔的恍惚；也是每一位香港市民",
+          "source": "香港01",
+          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "有線新聞",
@@ -12182,7 +12192,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Now 新聞",
@@ -12351,7 +12361,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12520,7 +12530,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12689,7 +12699,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "South China Morning Post",
@@ -12858,7 +12868,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13027,27 +13037,45 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T21:17:21.060Z"
+      "lastSuccessfulAt": "2026-11-26T22:17:21.169Z"
     }
   ],
   "stories": [
     {
-      "title": "Nvidia was right to bring back Jensen Huang, writes Sarah Guo",
-      "url": "https://www.economist.com/by-invitation/2026/11/25/nvidia-was-right-to-bring-back-jensen-huang-writes-sarah-guo",
-      "publishedAt": "2026-11-26T20:39:05.000Z",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "publishedAt": "2026-11-26T21:47:45.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50659532"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
     },
     {
-      "title": "The USA as a Civilizations-esque map",
-      "url": "https://karpathy.ai/usaciv/",
-      "publishedAt": "2026-11-26T19:53:58.000Z",
+      "title": "Denver man traps Waymo robotaxis with cones, eggs them at least 30 times",
+      "url": "https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/",
+      "publishedAt": "2026-11-26T21:16:41.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50659918"
+    },
+    {
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "publishedAt": "2026-11-26T21:08:05.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50659841"
+    },
+    {
+      "title": "Top-cited AI scientists at four US companies compared",
+      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
+      "publishedAt": "2026-11-26T19:44:31.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50658910"
     },
     {
       "title": "Rvoip 0.5 the complete VoIP stack in Rust",
@@ -13077,6 +13105,15 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50658191"
     },
     {
+      "title": "IBM gives H-1B, green card holders 3 weeks to relocate from US or leave company",
+      "url": "https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr",
+      "publishedAt": "2026-11-26T18:35:37.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50658170"
+    },
+    {
       "title": "George Whitesides, 1939-2026",
       "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
       "publishedAt": "2026-11-26T18:13:07.000Z",
@@ -13104,7 +13141,7 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50657530"
     },
     {
-      "title": "AMD Specific Patches for Llama.cpp",
+      "title": "AMD-specific fork of llama.cpp",
       "url": "https://devnull.land/amd-specific-llama-cpp",
       "publishedAt": "2026-11-26T17:11:29.000Z",
       "excerpt": "",
@@ -13120,15 +13157,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50657070"
-    },
-    {
-      "title": "NP_R ≠ PAR_R",
-      "url": "https://github.com/samueleverett01/bss-permanent-separations",
-      "publishedAt": "2026-11-26T16:50:55.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50657059"
     },
     {
       "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
@@ -13192,24 +13220,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
-    },
-    {
-      "title": "Moat: OpenRouter replacement",
-      "url": "https://commandcode.ai/moat",
-      "publishedAt": "2026-11-26T06:32:48.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50652184"
-    },
-    {
-      "title": "An algebraic quantization of gravity from the null cone",
-      "url": "https://arxiv.org/abs/2611.34924",
-      "publishedAt": "2026-11-26T05:37:51.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50651863"
     },
     {
       "title": "Netflix’s coziest show has made a very quiet return",
@@ -13524,10 +13534,10 @@
       "category": "Technology"
     },
     {
-      "title": "A Journey Through the Absurd Hell of Trump’s Third-Country Deportations",
-      "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/",
+      "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
+      "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
       "publishedAt": "2026-11-25T11:00:00.000Z",
-      "excerpt": "How a Thai-born, US-raised Cambodian refugee ended up a prisoner of Africa’s last absolute monarch.",
+      "excerpt": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -14012,6 +14022,24 @@
       "category": "Technology"
     },
     {
+      "title": "TDK will spend $635M to double sensor output for robots and AI data centres",
+      "url": "https://thenextweb.com/news/tdk-635m-tmr-sensors-humanoids-ai-data-centres",
+      "publishedAt": "2026-11-26T21:45:22.000Z",
+      "excerpt": "Japan’s TDK plans to invest $635M to double output of its tunnel magnetoresistance (TMR) sensors by 2031, Bloomberg reported. The sensors, used in iPhones, are now in demand for cars, humanoid robots and AI data centres, and TDK estimates it makes 80% of the world’s supply. Japan’s TDK plans to inve",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Google Play will show some app developers’ home addresses to the world",
+      "url": "https://thenextweb.com/news/google-play-developer-addresses-trader-dsa-worldwide",
+      "publishedAt": "2026-11-26T21:27:14.000Z",
+      "excerpt": "Play Store developers must tell Google by February 1, 2027, whether they are traders under the EU’s Digital Services Act. From March 1, Google will show traders’ contact details worldwide, which for personal accounts means a physical address and phone number. Apple shows them only in the EU. Google ",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "Canada adds C$700M to its AI compute fund, favouring home-grown clouds",
       "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
       "publishedAt": "2026-11-26T20:39:02.000Z",
@@ -14084,22 +14112,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Huawei teases an AI memory chip to take on Samsung and SK Hynix",
-      "url": "https://thenextweb.com/news/huawei-hbm-ai-memory-samsung-sk-hynix-isscc",
-      "publishedAt": "2026-11-26T18:28:54.000Z",
-      "excerpt": "Huawei is set to present a high-bandwidth memory design with double the data pin density of chips Samsung and SK Hynix mass-produce, Bloomberg reported. It is unclear how close Huawei is to making it, but home-grown HBM would ease a key gap as China’s foreign stockpiles run low. Huawei has developed",
-      "source": "The Next Web",
+      "title": "S&amp;P Warns Nvidia's Board May Be Compromised",
+      "url": "https://news.slashdot.org/story/26/11/25/2340213/sp-warns-nvidias-board-may-be-compromised?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-26T22:00:00.000Z",
+      "excerpt": "S&amp;P Global Ratings has placed Nvidia's AA credit rating on downgrade watch, warning that Jensen Huang's departure and subsequent reinstatement as CEO exposed weaknesses in the company's corporate governance and board oversight. \"We believe the long tenure of certain board members may have compro",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Volvo starts training humanoid robots for its Belgian car factory",
-      "url": "https://thenextweb.com/news/volvo-humanoid-robots-hexagon-aeon-ghent",
-      "publishedAt": "2026-11-26T18:01:10.000Z",
-      "excerpt": "Volvo Cars has begun training Hexagon Robotics’ AEON humanoid robots at its plant in Ghent, Belgium, the first Volvo factory to try humanoids. A larger pilot is due in the first half of 2027, with the robots joining production from mid-2027. Volvo Cars has started training humanoid robots at its fac",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "Australia Passes Tough Legislation Requiring Big Tech to Preempt Foreseeable Harms",
@@ -14228,13 +14247,15 @@
       "sourceRole": "community"
     },
     {
-      "title": "Google Wants To Make a 24/7 AI TV Channel. You'll Be the Main Character.",
-      "url": "https://yro.slashdot.org/story/26/11/25/0511227/google-wants-to-make-a-247-ai-tv-channel-youll-be-the-main-character?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-25T16:00:00.000Z",
-      "excerpt": "Longtime Slashdot reader schwit1 shares a report from 404 Media: Google has filed for a patent that would use the information it knows about you to create an AI-generated TV channel full of personalized \"shows\" starring you and featuring customized advertisements. The patent is the latest signal of ",
-      "source": "Slashdot",
+      "title": "A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K (Nathan Grayson/Aftermath)",
+      "url": "https://aftermath.site/n3on-impersonator-ai-prison-260000-dollars-kick-stream/",
+      "publishedAt": "2026-11-26T22:10:01.000Z",
+      "excerpt": "Nathan Grayson / Aftermath : A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K &nbsp; &mdash;&nbsp; What goes around comes around, I suppose.&nbsp; Earlier this year, Kick streamer N3on, a weasly",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261126/p25#a261126p25",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month (Rajveer Singh Pardesi/Reuters)",
@@ -14391,15 +14412,13 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Thariq Shihipar joins OpenAI after leaving Anthropic in October, saying he felt he could \"personally contribute the most\" to bringing AI to the world at OpenAI (@trq212)",
-      "url": "https://x.com/trq212/status/2125675533761671405",
-      "publishedAt": "2026-11-26T11:10:01.000Z",
-      "excerpt": "@trq212 : Thariq Shihipar joins OpenAI after leaving Anthropic in October, saying he felt he could &ldquo;personally contribute the most&rdquo; to bringing AI to the world at OpenAI &nbsp; &mdash;&nbsp; I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue to root for my form",
-      "source": "Techmeme",
+      "title": "Backloggd urges users to change their passwords after a breach",
+      "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+      "publishedAt": "2026-11-26T21:26:47.000Z",
+      "excerpt": "If you use Backloggd, you might need to log in again and reset your password.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261126/p10#a261126p10",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
       "title": "1Password says it was hacked but users' vaults are safe",
@@ -14573,11 +14592,47 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Five solar generators going for deep discounts on Black Friday",
-      "url": "https://www.engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday/",
-      "publishedAt": "2026-11-25T14:15:20.000Z",
-      "excerpt": "Save 20 to 40 percent on models from Anker, EcoFlow and more.",
-      "source": "Engadget",
+      "title": "Ukraine is now using lasers to kill drones — 4Kw Blysk anti-UAV system can shoot flying adversaries up to one kilometer away",
+      "url": "https://www.techradar.com/pro/ukraine-is-now-using-lasers-to-kill-drones-4kw-blysk-anti-uav-system-can-shoot-flying-adversaries-up-to-one-kilometer-away",
+      "publishedAt": "2026-11-26T22:10:00.000Z",
+      "excerpt": "Ukraine has deployed Blysk, a four-kilowatt laser system designed to disable drones, although its battlefield effectiveness remains unconfirmed under battlefield conditions.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "How to watch The JLo Show: Live from Las Vegas online for FREE — stream from anywhere",
+      "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas",
+      "publishedAt": "2026-11-26T22:00:00.000Z",
+      "excerpt": "Catch JLo's latest live concert just in time for Thanksgiving. Here's how to watch The JLo Show online for free and from anywhere including UK, Canada, Australia, Europe and India.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Stop guessing which PS5 accessory to buy and take our Black Friday deal quiz",
+      "url": "https://www.techradar.com/gaming/ps5/which-ps5-accessories-are-actually-worth-buying-take-our-quick-quiz-so-you-know-where-to-look-this-black-friday",
+      "publishedAt": "2026-11-26T22:00:00.000Z",
+      "excerpt": "Stuck trying to find the bet PS5 accessory for Black Friday? Take our quiz to find some useful suggestions.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Google Pixel 10a vs Pixel 9a — here's why I'd choose the older model",
+      "url": "https://www.techradar.com/phones/google-pixel-phones/ive-used-both-the-google-pixel-10a-and-pixel-9a-if-the-price-is-right-id-choose-the-older-model-this-black-friday",
+      "publishedAt": "2026-11-26T21:45:48.000Z",
+      "excerpt": "The Google Pixel 10a and Pixel 9a are both great Android phones, but there's little to choose between them.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Japan is packing chipmaking labs into trucks — mobileFab set to travel the country, drumming up interest in hardware careers",
+      "url": "https://www.techradar.com/pro/japan-is-packing-chipmaking-labs-into-trucks-mobilefab-set-to-travel-the-country-drumming-up-interest-in-hardware-careers",
+      "publishedAt": "2026-11-26T21:20:00.000Z",
+      "excerpt": "Japan's answer to a 43,000-worker chip talent gap? Three fab tools in a shipping container, driven straight to the classroom.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14712,51 +14767,6 @@
       "url": "https://www.techradar.com/vpn/vpn-services/is-proton-black-friday-deal-good",
       "publishedAt": "2026-11-26T20:06:09.000Z",
       "excerpt": "Proton has slashed the prices of both its VPN and full security suite, with the latter dropping as low as $1 a month. The question now is: are you ready to look past the CEO's aggressive AI push?",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Save $3,000 on an RTX 5090 gaming PC with a Core Ultra 7 270K Plus right now — liquid-cooled Maingear PC has 32GB DDR5, 2TB SSD, 1.2Kw PSU and gets free AAA games worth $190",
-      "url": "https://www.techradar.com/pro/save-usd3-000-on-an-rtx-5090-gaming-pc-with-a-core-ultra-7-270k-plus-right-now-liquid-cooled-maingear-pc-has-32gb-ddr5-2tb-ssd-1-2kw-psu-and-gets-free-aaa-games-worth-usd190",
-      "publishedAt": "2026-11-26T19:34:48.000Z",
-      "excerpt": "The Maingear MG-1 Amethyst has the Core Ultra 7, 32GB RAM, 2TB SSD and RTX 5090 card, and it costs barely more than the GPU by itself.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Save $100 on the iPhone 17 Pro with Best Buy's Black Friday iPhone 17 deals",
-      "url": "https://www.techradar.com/phones/iphone/best-buy-has-the-best-black-friday-iphone-17-deals-ive-spotted-so-far-save-usd100-on-the-iphone-17-pro-and-17-pro-max",
-      "publishedAt": "2026-11-26T19:33:35.000Z",
-      "excerpt": "Best Buy is currently offering the iPhone 17 Pro and iPhone 17 Pro Max for $100 less than full price.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Yeti's Black Friday sale knocks 25% off its iconic hard coolers — here's everything I'd buy",
-      "url": "https://www.techradar.com/seasonal-sales/yetis-black-friday-sale-is-unexpectedly-excellent-with-25-percent-off-hard-coolers-backpack-bargains-and-free-engraving-heres-everything-id-buy",
-      "publishedAt": "2026-11-26T19:11:09.000Z",
-      "excerpt": "As a former outdoor kit tester and big Yeti fan, here's my pick of the brand's Black Friday bargains.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "I'm still not over the Dreamcast's untimely death, so I love that Branch's Sonic, Genesis, and Dreamcast ergonomic office chairs — with 14 adjustments, 5D armrests, and 7-year warranty — are now 10% off in its first Black Friday sale",
-      "url": "https://www.techradar.com/pro/im-still-not-over-the-dreamcasts-untimely-death-so-i-love-that-branchs-sonic-genesis-and-dreamcast-ergonomic-office-chairs-with-14-adjustments-5d-armrests-and-7-year-warranty-are-now-10-percent-off-in-its-first-black-friday-sale",
-      "publishedAt": "2026-11-26T19:06:49.000Z",
-      "excerpt": "Branch's Sega Sonic, Genesis, and Dreamcast office chairs are on sale for the first time this Black Friday - and these aren't just for gamers.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Elegoo Centauri Carbon 2 3D Printer gets an $80 discount this Black Friday",
-      "url": "https://www.techradar.com/pro/the-elegoo-centauri-carbon-2-is-one-of-the-best-3d-printers-and-its-usd80-cheaper",
-      "publishedAt": "2026-11-26T19:00:00.000Z",
-      "excerpt": "The Elegoo Centauri Carbon 2 is one of the best 3D printers - and it’s $80 cheaper",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -17221,19 +17231,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Christoph Niemann’s “A Matter of Perspective”",
-      "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
       "publishedAt": "2026-11-23T11:00:00.000Z",
-      "excerpt": "In and out of the boardroom.",
+      "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Briefly Noted Book Reviews",
-      "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
+      "title": "Christoph Niemann’s “A Matter of Perspective”",
+      "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
       "publishedAt": "2026-11-23T11:00:00.000Z",
-      "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
+      "excerpt": "In and out of the boardroom.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22679,19 +22689,19 @@
       "category": "Philosophy"
     },
     {
-      "title": "There and back",
-      "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
+      "title": "What exile was like for the first people called ‘refugees’",
+      "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
       "publishedAt": "2026-11-26T11:00:00.000Z",
-      "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
+      "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "What exile was like for the first people called ‘refugees’",
-      "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
+      "title": "There and back",
+      "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
       "publishedAt": "2026-11-26T11:00:00.000Z",
-      "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
+      "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -24233,6 +24243,38 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "仲點論政｜世界灣區聯盟 香港獲益無窮",
+      "url": "https://hk01.com/sns/article/60415369",
+      "publishedAt": "2026-11-26T22:00:58.000Z",
+      "excerpt": "仲點論政｜劉仲恒 成立和加入經濟聯盟對經濟體是否有利，很大程度上取決於其經濟性質。對於主要依賴自身市場的「內向型」經濟體而言，加入聯盟未必有益，皆因聯盟要求開放市場，與保護本土產業的政策有所衝突。相反，對於以出口和貿易為主導的「外向型」經濟體，建立戰略經濟聯盟至關重要；這類經濟體高度依賴外部需求，經濟增長直接取決於海外市場關係。此外，聯盟既可為其爭取優惠的市場准入條件、降低貿易壁壘，亦能減輕自身產業受全球供應鏈衝擊的影響。 眾所周知，香港正是典型的外向型經濟體。亞太經合組織（APEC）工商領導人峰會開幕式於11月18日在深圳舉行。會上，國家主席習近平提出支持成立「世界灣區經濟合作聯盟」，旨在深",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "西沙SIERRA SEA驚現第一滴血！一房400萬沽 逆市倒蝕料實輸27萬",
+      "url": "https://hk01.com/sns/article/60415284",
+      "publishedAt": "2026-11-26T22:00:55.000Z",
+      "excerpt": "【西沙／SIERRA SEA／蝕讓／二手成交】二手市場交投暢旺，西沙SIERRA SEA更是短炒獲利不斷，不過該屋苑最近竟然出現一宗逆市蝕讓個案。由內地買家持有的一房單位在今年初以419.09萬元買入，呎價14,016元，持貨至今10個月以400萬元轉手，帳面輸19.09萬元。若扣減佣金、印花税等交易使費約7.8萬元後，料實蝕約26.9萬元，屬屋苑首宗蝕讓個案。 SIERRA SEA首宗蝕讓 一房400萬沽 據資料指，該單位為西沙SIERRA SEA 2A期1座11樓H室，實用面積299平方呎，屬一房間隔。單位在11月上旬以400萬元蝕讓沽出，呎價13,378元，料為屋苑首宗蝕讓成交。至於新買",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "何超儀憶拍《再戰明天》監獄取景 唔信邪拒做法事愛犬離奇死亡",
+      "url": "https://hk01.com/sns/article/60415415",
+      "publishedAt": "2026-11-26T22:00:18.000Z",
+      "excerpt": "近日一段何超儀早前出席電影《拾荒法師》謝票活動的片段在網上流傳，其中她講到之前去羅湖懲教所拍攝TVB劇《再戰明天》的怪事，她指當時有特約演員曾提醒「你入去全世界最唔好彩嘅人嘅地方拍戲，有冇諗住做返場法事呀？」但何超儀卻覺得只是拍戲，而且日日有裝香「唔信邪」，誰不知有日一收工就收到司機電話，指家中其中一隻愛犬出事送院，最終更返魂乏術。而何超儀透露，自己家中的狗狗全部本來都冇病冇痛，因此事出非常突然，亦不知道是何事：「好似邪教嗰啲Culture，要搵條友嚟犧牲，所以我好心痛。」 近日一段何超儀早前出席電影《拾荒法師》謝票活動的片段在網上流傳。（IG@ tommytcwtang） 何超儀講到之前去羅",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "天氣｜今日漸轉天晴 市區最低氣溫19度 下周早晚有一兩陣微雨",
+      "url": "https://hk01.com/sns/article/60415456",
+      "publishedAt": "2026-11-26T21:55:56.000Z",
+      "excerpt": "天文台表示，今日（27日）初時部份時間多雲，日間漸轉天晴，市區最高氣溫約25度，新界再高一兩度，最高紫外線指數大約是6，強度屬於高，吹輕微至和緩北至東北風。天文台展望，周末期間至下周初大致天晴，明日（周六/28日）非常乾燥，後日（周日/29日）風勢頗大。 圖為截至11月27日凌晨5時20分，天文台顯示各區氣溫。（天文台網頁圖片） 今日氣溫回升 周末期間日夜溫差頗大 天文台指出，隨着東北季候風緩和及覆蓋廣東沿岸的雲帶轉薄，預料今日（27日）該區漸轉天晴，氣溫回升。預料一股達強風程度的東北季候風會在周末期間為華南帶來晴朗及非常乾燥的天氣，內陸地區日夜溫差頗大，一股偏東氣流會在下周初至中期影響廣東沿",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "屯門帝灣居單位遭爆竊 賊人撬窗掠走$74萬財物 包括勞力士名錶",
       "url": "https://hk01.com/sns/article/60415471",
       "publishedAt": "2026-11-26T20:42:07.000Z",
@@ -24281,42 +24323,10 @@
       "category": "Hong Kong"
     },
     {
-      "title": "反常？一家住公屋10年！港爸主動交還政府 原因曝光獲讚：好本事",
-      "url": "https://hk01.com/sns/article/60414373",
-      "publishedAt": "2026-11-26T17:02:50.000Z",
-      "excerpt": "【公屋／居屋】常說「得公屋得天下」，但能夠由公屋戶成功「畢業」買樓兼成家立室，更令人羨慕。有港爸近日在社交平台Threads發片發文，記錄自己交回居住近10年的元朗朗晴邨210呎公屋單位，準備一家三口連同愛貓搬到新買入的居屋。該港爸不但大方分享公屋還原實際開支，更透露棄公屋轉買居屋暖心原因，引來大批網民激讚，「好感動！加油順利」、「太本事！」、「勁啊，師兄祝福你」。 有港爸記錄自己交回居住近10年的元朗朗晴邨210呎公屋單位，準備一家搬到新買入的居屋。（資料圖片） 210呎朗晴邨蝸居見證拍拖結婚生子 港爸交吉買居屋告別：感恩一切安好 該港爸在 Threads 帖文中，感性地記錄了交吉舊屋一刻，",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "英格蘭一代翼鋒史達寧毒駕罪成 曾風光無限 離開曼城斷崖式滑落",
-      "url": "https://hk01.com/sns/article/60415426",
-      "publishedAt": "2026-11-26T17:01:36.000Z",
-      "excerpt": "不知何故，英格蘭10號球衣的主人，天才橫溢的背後，往往在球場以外總是麻煩份子。近日朗尼在真人騷節目《I'm a Celebrity... Get Me Out of Here!》中剖白球員年代酗酒問題極嚴重，最新輪到今年5月毒駕被捕的史達寧（Raheem Sterling），被判囚12個月，緩刑18個月。曾經在球會和國家隊均是必然正選、春風得意的天才翼鋒，這些年到底發生了什麼事？ 史達寧毒駕罪成，獲判緩刑離開法院。（路透社） 牙買加出生的問題兒童 小學老師預言奇準 史達寧跟不少足球員一樣有個艱苦童年，在牙買加出生，2歲的時候爸爸在當地被槍殺，媽媽Nadine在他5歲的時候帶着他移居英國。Nad",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "特朗普：冀普京停止所有歐洲軍事侵略行動 與烏克蘭盡快達成協議",
-      "url": "https://hk01.com/sns/article/60415457",
-      "publishedAt": "2026-11-26T16:56:04.000Z",
-      "excerpt": "美國總統特朗普（Donald Trump）11月26日（周四）在社交平台Truth Social表示，他上周曾向俄羅斯領導人普京（Vladimir Putin）表示，希望俄羅斯能收斂其在歐洲各地的軍事侵略行動，藉此促成烏克蘭戰爭的迅速解決。 特朗普發文稱，「在中國與俄羅斯總統普京交談時，我花了許多時間強調，希望普京總統能停止在歐洲各地的所有軍事侵略行動。我希望能促成俄羅斯與烏克蘭之間達成協議，而且要盡快達成。」 特朗普亦表示，「我真心認為這極有可能實現——現在每個月都有數千人喪生，這簡直是一場徹底的血腥浩劫。」 2026年11月19日，美國總統特朗普會晤俄羅斯總統普京（Reuters） 身為北",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "馬貫東被揭母親與李家鼎曾是情侶後首度同場 透露台下非零互動",
-      "url": "https://hk01.com/sns/article/60415442",
-      "publishedAt": "2026-11-26T16:30:36.000Z",
-      "excerpt": "馬貫東今日（26日）出席TVB《長期服務暨傑出員工榮譽大獎頒獎典禮2026》領取20年長期服務獎。他接受訪問時，直言獎項好有份量：「我用咗20年時間喺呢間公司學習、成長進步，係一個好有份量嘅紀念。」他又提到《鐵馬戰車》的「揚名」是首個令香港觀眾認識自己的重要角色，並強調從不覺得過去的演藝路難捱。他被問及與同場的李家鼎（鼎爺）及李泳豪（豪仔）的互動，隨即澄清與鼎爺並非「冇溝通」。 馬貫東領取20年長期服務獎。(盧振輝 攝) 關係曝光後首同場 被分隔坐兩邊零交流 今日亦是自爆出馬貫東母親是鼎爺前女友後，他與鼎爺及豪仔首次同場現身。就現場所見，豪仔與鼎爺同坐，而馬貫東則被安排坐另外一面，三人在頒獎典",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "非法改動護照｜情侶涉無合法授權改護照等3罪 最高罰$15萬囚14年",
       "url": "https://hk01.com/sns/article/60415454",
       "publishedAt": "2026-11-26T16:13:06.000Z",
-      "excerpt": "一名香港女子周二（24日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 根據《入境條例》，任何人無合法權限授權而改動旅行證件，即屬犯罪，一經定罪，最高可被判罰款15萬元及監禁14年，協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款1萬元及監禁6個月。 入境處經調查後展開執法行",
+      "excerpt": "一名香港女子周二（24日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 任何人沒有合法授權而改動特區護照，或管有或使用改動的特區護照可能觸犯《入境條例》（第115章）。違例者可被檢控，一經定罪，最高可被判罰款15萬及監禁14年。協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24333,14 +24343,6 @@
       "url": "https://hk01.com/sns/article/60415444",
       "publishedAt": "2026-11-26T14:46:23.000Z",
       "excerpt": "一名香港女子日前於社交平台Threads發文，報稱因特區護照缺頁，於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處經詳細檢視涉事護照及跟進調查後，據了解，今日（26日）於藍田平田邨平真樓，拘捕一男一女香港居民，涉嫌沒有合法授權而改動該特區護照。據了解，涉案護照已發出8年。兩被捕人為情侶關係，並曾使用過該護照前往台灣、韓國及泰國等地。 消息指，涉案兩人分別為一名27歲女子，報稱任職地產代理，以及一名34歲男子，報稱任職網絡維修工人，兩人早前一同出國並一同返港。昨日當事人親身前往將軍澳旅遊證件組別，申請補領護照並查詢證件缺頁原因。當局懷疑證件涉及人為改",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "宏福苑一周年・圖輯｜入夜後獻花人潮不絕 廣福公園成一片花海",
-      "url": "https://hk01.com/sns/article/60415434",
-      "publishedAt": "2026-11-26T14:36:32.000Z",
-      "excerpt": "大埔宏福苑火災一周年，大批市民及宏福苑街坊自發到廣福公園悼念逝去的遇難者。從今早開始，便有不少人帶同鮮花來悼念或放下心意卡致意，有人在紙張寫上「願168位逝者安息 願真相水落石出 公義得以彰顯」；亦有人掩面痛哭，與親友相擁。 至下午，前來獻花的人超過200人，包括前法團主席徐滿柑，有民安隊人員協助整理花束，放在樹下的膠箱。至晚上，前來悼念的人數不減，由日到夜，獻花人潮絡繹不絕，公園裏的花束已聚成一片花海。 廣福公園白天情況： 大埔宏福苑火災一周年，大批市民及宏福苑街坊自發到廣福公園悼念逝去的遇難者。（夏家朗攝） 宏福苑悼念（夏家朗攝） 宏福苑悼念（夏家朗攝） 宏福苑悼念（夏家朗攝） 宏福苑悼念",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24389,6 +24391,14 @@
       "url": "https://hk01.com/sns/article/60404960",
       "publishedAt": "2026-11-26T08:04:29.000Z",
       "excerpt": "14歲少女涉在交友程式認識數名男子後，在約1個月內，先後與多名成年男子性交，並作過不同形式的性行為，該些男性包括教師、消防員及大學生等，其中5男否認指控，5人經審訊後全被裁定與未滿16歲女童非法性交罪成，另有一人早前已承認控罪。案件(HCCC94, 95/2025），6名被告今(26日)在高等法院判刑， 法官郭啟安判刑時指，6名被告利用事主的無知和脆弱乘虛而入，並進行性剝削，事主亦受嚴重心理創傷，但她在網上毫無顧忌分享其性經驗，也需負一定責任，因這令被告們放下戒心，以為她事後不會投訴，最終判6名被告監禁20個月14天至54個月不等(詳看下圖及表)。 6被告涉在一個月內先後與事主X性交 6名被告",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "宏福苑大火一周年．01社論｜痛定思痛 刮骨療傷",
+      "url": "https://hk01.com/sns/article/60415049",
+      "publishedAt": "2026-11-26T06:33:59.000Z",
+      "excerpt": "一年前的今天（11月26日），大埔宏福苑那場火災吞噬了一百多個家庭的至親，摧毀了兩千戶居民的家園，更在七百萬香港市民的心頭留下一道深不見底的烙印。365個日夜過去，秋去冬來的寒風依舊，災後的瓦礫已被清理乾淨，燒焦的外牆已經冷卻沉寂，弔唁的花海也早就化作新泥，但在很多市民的內心深處，那股刺鼻的濃煙還未真正散去。 瓦礫雖清濃煙未散 允許脆弱才是慈悲 過去一年，雖然不少人提出「放下向前看」、「明天會更好」的鼓勵和勸慰，但創傷並不會自動結痂。痛，不是無病呻吟的矯情，而是融進骨血的沉重。是倖存居民在聞到一絲焦味時，心臟驟停般的驚悸；是逝者家屬在節慶擺放碗筷時，突然意識到人天永隔的恍惚；也是每一位香港市民",
       "source": "香港01",
       "category": "Hong Kong"
     },

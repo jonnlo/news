@@ -2,19 +2,27 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-27",
-  "generatedAt": "2026-11-26T16:17:19.793Z",
-  "collectedAt": "2026-11-26T16:17:19.793Z",
+  "generatedAt": "2026-11-26T17:17:26.409Z",
+  "collectedAt": "2026-11-26T17:17:26.409Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 75,
+  "sourcesUpdated": 73,
   "sourceErrors": [
-    {
-      "source": "Hacker News",
-      "error": "HTTP 502"
-    },
     {
       "source": "Hyperallergic",
       "error": "HTTP 404"
+    },
+    {
+      "source": "n+1",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Asian Review of Books",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Dense Discovery",
+      "error": "Source returned no recognizable stories"
     }
   ],
   "sources": [
@@ -24,6 +32,33 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "Kagi Watch",
+          "url": "https://kagi.com/watch",
+          "publishedAt": "2026-11-26T16:28:54.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50656862"
+        },
+        {
+          "title": "Ask HN: Any courses/products by indie makers worth getting today?",
+          "url": "https://news.ycombinator.com/item?id=50656763",
+          "publishedAt": "2026-11-26T16:16:41.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50656763"
+        },
+        {
+          "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+          "url": "https://michidk.github.io/sidebyside/",
+          "publishedAt": "2026-11-26T15:00:06.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50656036"
+        },
         {
           "title": "Tell HN: Happy Thanksgiving",
           "url": "https://news.ycombinator.com/item?id=50655664",
@@ -106,15 +141,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50651627"
         },
         {
-          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-          "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-          "publishedAt": "2026-11-26T03:36:58.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50651117"
-        },
-        {
           "title": "Minipg: PostgreSQL as a Single Executable",
           "url": "https://progrium.github.io/minipg/",
           "publishedAt": "2026-11-26T03:00:48.000Z",
@@ -151,15 +177,6 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50648365"
         },
         {
-          "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
-          "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-          "publishedAt": "2026-11-25T22:12:25.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50648323"
-        },
-        {
           "title": "Much shorter version of GRH Lean verification from Anthropic",
           "url": "https://github.com/lsernau/grh-lean",
           "publishedAt": "2026-11-25T21:48:10.000Z",
@@ -194,19 +211,9 @@
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50647161"
-        },
-        {
-          "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-          "url": "https://scottaaronson.blog/?p=10379",
-          "publishedAt": "2026-11-25T19:11:27.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50646108"
         }
       ],
-      "retained": true,
-      "lastSuccessfulAt": "2026-11-26T15:17:20.161Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Verge",
@@ -214,6 +221,38 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
+          "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+          "publishedAt": "2026-11-26T17:07:00.000Z",
+          "excerpt": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Android app developers will soon have to share their address publicly",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+          "publishedAt": "2026-11-26T17:06:24.000Z",
+          "excerpt": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says c",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "The best Black Friday deals we’ve already found",
+          "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+          "publishedAt": "2026-11-26T16:55:00.000Z",
+          "excerpt": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t",
+          "source": "The Verge",
+          "category": "Technology"
+        },
+        {
+          "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+          "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+          "publishedAt": "2026-11-26T16:38:00.000Z",
+          "excerpt": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights an",
+          "source": "The Verge",
+          "category": "Technology"
+        },
         {
           "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
           "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
@@ -341,41 +380,9 @@
           "excerpt": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small lin",
           "source": "The Verge",
           "category": "Technology"
-        },
-        {
-          "title": "The Fairphone 6 Plus is modular, repairable, and $100 off right now",
-          "url": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
-          "publishedAt": "2026-11-25T18:00:00.000Z",
-          "excerpt": "Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-          "publishedAt": "2026-11-25T17:44:51.000Z",
-          "excerpt": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, t",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "The Verge’s guide to the best gifts under $100",
-          "url": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
-          "publishedAt": "2026-11-25T17:00:00.000Z",
-          "excerpt": "Even in an era of inflation like the one we're living through now, $100 can still buy a lot… if you know where to look. In fact, it's enough to get something useful and well-made, but not so pricey that it's likely to leave you with lingering guilt or lead to insurmountable debt. As reviewers, […]",
-          "source": "The Verge",
-          "category": "Technology"
-        },
-        {
-          "title": "Nothing offers a full look at its AI earbuds and charging case",
-          "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-          "publishedAt": "2026-11-25T16:00:59.000Z",
-          "excerpt": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes ",
-          "source": "The Verge",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "WIRED",
@@ -536,15 +543,15 @@
           "category": "Technology"
         },
         {
-          "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
-          "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
+          "title": "A Journey Through the Absurd Hell of Trump’s Third-Country Deportations",
+          "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/",
           "publishedAt": "2026-11-25T11:00:00.000Z",
-          "excerpt": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
+          "excerpt": "How a Thai-born, US-raised Cambodian refugee ended up a prisoner of Africa’s last absolute monarch.",
           "source": "WIRED",
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Ars Technica",
@@ -713,7 +720,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "MIT Technology Review",
@@ -882,7 +889,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "TechCrunch",
@@ -890,6 +897,14 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "A month with the iPhone Duo has changed how I use my phone",
+          "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+          "publishedAt": "2026-11-26T17:00:00.000Z",
+          "excerpt": "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
         {
           "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
           "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
@@ -1041,17 +1056,9 @@
           "excerpt": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
-          "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
-          "publishedAt": "2026-11-25T00:10:27.000Z",
-          "excerpt": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips to China.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Next Web",
@@ -1059,6 +1066,78 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "SAP weighs cutting at least 10,000 jobs in AI restructuring, Bloomberg says",
+          "url": "https://thenextweb.com/news/sap-job-cuts-10000-ai-restructuring-bloomberg",
+          "publishedAt": "2026-11-26T17:01:29.000Z",
+          "excerpt": "SAP is preparing to cut at least 10,000 jobs as it reshapes its software business around AI, Christina Kyriasoglou reported for Bloomberg on Thursday, citing people familiar with the matter. That would be at least 9% of the German company’s workforce. SAP employs more than 110,000 people worldwide. ",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Moonshot reportedly turns to Google and Meta models for distillation",
+          "url": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+          "publishedAt": "2026-11-26T16:55:44.000Z",
+          "excerpt": "Moonshot AI has begun distilling from Google and Meta models after OpenAI and Anthropic made theirs harder to copy, Reuters reported. Z.ai’s GLM-5.5 has missed its November target, and new US rules on overseas computing could push it and Moonshot’s Kimi K4 further back. Chinese AI lab Moonshot has b",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Nvidia agrees to pay $290M to settle 2018 crypto mining investor lawsuit",
+          "url": "https://thenextweb.com/news/nvidia-settlement-290m-crypto-mining-shareholder-lawsuit",
+          "publishedAt": "2026-11-26T16:50:37.000Z",
+          "excerpt": "Nvidia has agreed to pay $290 million to settle a 2018 shareholder lawsuit over how much of its gaming chip sales came from cryptocurrency miners. The investors leading the class action asked a federal judge in California to approve the deal in a filing on Tuesday, Mike Scarcella reported for Reuter",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Google patent describes an AI TV channel that casts you as the star",
+          "url": "https://thenextweb.com/news/google-my-channel-patent-ai-tv-shows-starring-you",
+          "publishedAt": "2026-11-26T16:43:23.000Z",
+          "excerpt": "Google has described a TV channel that would generate AI videos for each viewer and could cast the viewer as the lead. The idea is set out in a patent application that Google filed in May 2025. The US Patent and Trademark Office published it on 19 November. Its title is “Creating a Channel of [&hell",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Thousands of Nvidia B300s reportedly go up for sale after US chip rule",
+          "url": "https://thenextweb.com/news/nvidia-b300-resale-us-remote-access-rule-shenzhen",
+          "publishedAt": "2026-11-26T16:34:09.000Z",
+          "excerpt": "Sellers are offering an unusually large number of Nvidia graphics processors, including thousands of B300s, after the US curbed Chinese firms’ remote access to AI chips. Three people told Kai Nicol-Schwarz of CNBC on Wednesday. One of them, Jack Duhamel, is president of GPU Mart, a marketplace for A",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Anthropic’s Amodei hits back at Axios and rival CEOs over AI and free will",
+          "url": "https://thenextweb.com/news/amodei-free-will-ai-axios-vibes-rival-ceos-suleyman",
+          "publishedAt": "2026-11-26T16:25:25.000Z",
+          "excerpt": "Anthropic CEO Dario Amodei says he does not want humans to hand their free will to AI. In a long post on X on Wednesday, he called the suggestion “absurd.” No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do. Dario Amodei [&hellip;] Thi",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Poland’s defence ministry to sign AI software contract with Palantir",
+          "url": "https://thenextweb.com/news/poland-palantir-ai-software-contract",
+          "publishedAt": "2026-11-26T16:14:48.000Z",
+          "excerpt": "Poland’s defence ministry will sign a contract with Palantir Technologies on Friday, and it will buy software that uses AI to help the armed forces make decisions, Reuters reported, citing a ministry statement. Defence minister Władysław Kosiniak-Kamysz will attend the signing at noon at the Polish ",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "42 attorneys general fight Character.AI’s plan to auction users’ chats",
+          "url": "https://thenextweb.com/news/character-ai-chats-auction-attorneys-general-bankruptcy",
+          "publishedAt": "2026-11-26T16:12:38.000Z",
+          "excerpt": "A bipartisan coalition of 42 attorneys general wants a bankruptcy court to stop Character.AI from auctioning users’ private chats. The sale covers more than 21 million US accounts, California Attorney General Rob Bonta said on Tuesday. Of those, more than 2.1 million belong to minors. The chats woul",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Commerce told Intel its 10% stake deal was no negotiation, WIRED reports",
           "url": "https://thenextweb.com/news/intel-stake-commerce-pressure-court-documents-wired",
@@ -1076,81 +1155,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "ApexFlow launches Nuvvo to scale AI-powered, curated mobile supply",
-          "url": "https://thenextweb.com/news/apexflow-nuvvo-ai-powered-curated-mobile-supply",
-          "publishedAt": "2026-11-26T15:37:28.000Z",
-          "excerpt": "Tel Aviv, Israel, November 26th, 2026, TechnologyWire Unifying its O&O app portfolio, direct publisher supply and AI-driven intelligence to deliver smarter buying opportunities. ApexFlow, a mobile advertising technology company, today announced the launch of Nuvvo, a new supply intelligence and mone",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "WhatsApp starts rolling out scheduled messages to users worldwide",
-          "url": "https://thenextweb.com/news/whatsapp-scheduled-messages-rollout",
-          "publishedAt": "2026-11-26T15:10:30.000Z",
-          "excerpt": "WhatsApp has started rolling out scheduled messages, which let users write a message now and have it sent automatically at a later date and time. The Meta-owned app announced the feature on 25 November and calls it one of its most-requested features. To schedule a message, users press and hold the s",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Bank of England warns AI financing is a growing threat to stability",
-          "url": "https://thenextweb.com/news/ai-financing-bank-of-england-financial-stability-hyperscaler-bonds",
-          "publishedAt": "2026-11-26T15:08:58.000Z",
-          "excerpt": "The Bank of England says the way the AI boom is financed is making the global financial system more fragile. AI financing is taking a form that is “increasingly complex, circular and opaque”, the central bank warned. It set out the concern in its Financial Stability Report on Thursday. That makes it",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "S&P puts Nvidia’s AA credit rating on downgrade watch over governance",
-          "url": "https://thenextweb.com/news/nvidia-credit-rating-sp-creditwatch-governance",
-          "publishedAt": "2026-11-26T14:56:46.000Z",
-          "excerpt": "S&P Global Ratings has put Nvidia’s AA credit rating on watch for a possible downgrade. The Jensen Huang saga exposed weak spots in how the company is run and overseen, the agency said in a note on Wednesday. It could cut the rating within 90 days if those problems remain. Any cut would likely be [&",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
-          "url": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
-          "publishedAt": "2026-11-26T14:33:48.000Z",
-          "excerpt": "OpenAI says it made a billing mistake when it launched its new models, GPT-6.2 Astra and Sol. Its fix means paying ChatGPT users will hit their usage limits faster. Compared with last week, the same work will reach the limit 40% faster on Astra and 25% faster on Sol. OpenAI executive Thibault Sottia",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Neuralink gets FDA approval for a late-stage brain implant trial in ALS",
-          "url": "https://thenextweb.com/news/neuralink-fda-approval-link-pivotal-study-als",
-          "publishedAt": "2026-11-26T14:22:11.000Z",
-          "excerpt": "Neuralink has received approval from the US Food and Drug Administration to start a pivotal trial of its brain implant in people with ALS, the company said on Wednesday. Neuralink calls the LINK Pivotal Study the first pivotal trial for an implantable brain-computer interface in the US. A pivotal tr",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "X rolls out its first parental controls for teens aged 13 to 17",
-          "url": "https://thenextweb.com/news/x-parental-controls-teens-13-17",
-          "publishedAt": "2026-11-26T14:03:23.000Z",
-          "excerpt": "X is rolling out its first parental controls, for teens aged 13 to 17. A parent or guardian can see how much time a teen spends on X and set a daily limit. They can also approve new followers and limit the For You feed to accounts the teen already follows, according to X’s Help [&hellip;] This story",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Meta declined to let the FCA test its Muse agent, WIRED reports",
-          "url": "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
-          "publishedAt": "2026-11-26T13:56:46.000Z",
-          "excerpt": "Meta has turned down the UK’s Financial Conduct Authority over testing its Muse agent, WIRED reported on Thursday. The regulator had suggested testing Muse jointly in its sandbox. Colin Payne, the FCA’s head of innovation, said the offer came last week, Isabella Ward reported for WIRED. Meta only to",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Slashdot",
@@ -1294,7 +1301,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Techmeme",
@@ -1302,6 +1309,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era (Christina Kyriasoglou/Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+          "publishedAt": "2026-11-26T16:50:28.000Z",
+          "excerpt": "Christina Kyriasoglou / Bloomberg : Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era &nbsp; &mdash;&nbsp; SAP SE is preparing a plan to eliminate at least 10,000 positions to transform its software",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261126/p22#a261126p22",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "UK workers at Rockstar Games vote against a union recognition deal, with only 25% voting in favor; source: 1,544 employees, or 93.2% of eligible workers, voted (Chris Kerr/Vertical Slice)",
           "url": "https://www.verticalslice.news/rockstar-workers-vote-against-historic-union-recognition-deal/",
@@ -1455,20 +1473,9 @@
           "sourceUrl": "https://www.techmeme.com/261126/p8#a261126p8",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Dragos says unidentified parties accessed confidential data submitted to MiniMax, even after users requested that the company not store or retain their data (Reuters)",
-          "url": "https://www.reuters.com/world/data-chinese-ai-firm-minimax-accessed-by-unidentified-parties-researcher-says-2026-11-26/",
-          "publishedAt": "2026-11-26T09:15:02.000Z",
-          "excerpt": "Reuters : Dragos says unidentified parties accessed confidential data submitted to MiniMax, even after users requested that the company not store or retain their data &nbsp; &mdash;&nbsp; Confidential data submitted to Chinese AI startup MiniMax (0100.HK) was accessed by unidentified parties, a cybe",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261126/p7#a261126p7",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Engadget",
@@ -1476,6 +1483,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition",
+          "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
+          "publishedAt": "2026-11-26T16:53:58.000Z",
+          "excerpt": "The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Man sentenced to 47 months in prison after using AI to impersonate streamer N3on",
           "url": "https://www.engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer/",
@@ -1646,18 +1662,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Amazon Autos is coming to the UK in its first expansion outside the US",
-          "url": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
-          "publishedAt": "2026-11-25T09:15:37.000Z",
-          "excerpt": "Amazon Autos will start selling cars in the UK early next year, marking the first time it has expanded outside the US.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "TechRadar",
@@ -1665,6 +1672,96 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "This monster gaming laptop with an Nvidia GeForce RTX 5090, 24-core Intel Core Ultra 9 CPU, and 32GB of DDR5 RAM just got a $350 price cut",
+          "url": "https://www.techradar.com/seasonal-sales/this-monster-gaming-laptop-with-an-nvidia-geforce-rtx-5090-24-core-intel-core-ultra-9-cpu-and-32gb-of-ddr5-ram-has-just-had-a-usd350-price-cut",
+          "publishedAt": "2026-11-26T17:15:45.000Z",
+          "excerpt": "I've given up trying to find a gaming PC with an Nvidia RTX 5090 for a realistic price — but this gaming laptop could be a great compromise for Black Friday.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Black Friday 2026 Xbox Series X deals — big price cuts on controllers, headsets, and games, even in the face of console shortages",
+          "url": "https://www.techradar.com/gaming/black-friday-2026-xbox-series-x-deals-big-price-cuts-on-controllers-headsets-and-games-even-in-the-face-of-console-shortages",
+          "publishedAt": "2026-11-26T17:15:31.000Z",
+          "excerpt": "Our picks for the best Black Friday Xbox Series X deals right now, from headsets to controllers and games.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Turn your home office into a 1980s time capsule: I've picked out 12 retro-inspired gadgets for Black Friday that hide genuinely useful modern tech under the hood",
+          "url": "https://www.techradar.com/pro/turn-your-home-office-into-a-1980s-time-capsule-ive-picked-out-12-retro-inspired-gadgets-for-black-friday-that-hide-genuinely-useful-modern-tech-under-the-hood",
+          "publishedAt": "2026-11-26T17:06:35.000Z",
+          "excerpt": "These Black Friday retro desk gadgets are some of my favorites, from a Nintendo-style keyboard and mouse to the iconic Koss Porta Pro headphones.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "A fully 3D-printed quadcopter drone is bidding for a speed world record challenge — but does it have what it takes?",
+          "url": "https://www.techradar.com/pro/a-fully-3d-printed-quadcopter-drone-is-bidding-for-a-speed-world-record-challenge-but-does-it-have-what-it-takes",
+          "publishedAt": "2026-11-26T17:05:00.000Z",
+          "excerpt": "The drone speed record has already been beaten twice this year, just never in front of Guinness - could Bambu Lab's Cape Town challenge change that?",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "007 First Light composers recall learning that Lana Del Rey and Bond composer David Arnold would be the star artists — ‘To say we were delighted would be an understatement’",
+          "url": "https://www.techradar.com/gaming/007-first-light-composers-recall-learning-that-lana-del-rey-and-bond-composer-david-arnold-would-be-the-star-artists-to-say-we-were-delighted-would-be-an-understatement",
+          "publishedAt": "2026-11-26T16:47:34.000Z",
+          "excerpt": "007 First Light composers Joe Henson and Alexis Smith have shared their reaction to learning that Lana Del Rey was the star artist of IOI's Bond game.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "I wasn’t expecting Sonos to discount my favourite headphones of 2026, but the multi-room giant truly upped its game this year — here’s why the Ace Ultra are worth every penny right now",
+          "url": "https://www.techradar.com/audio/wireless-headphones/i-wasnt-expecting-sonos-to-discount-my-favourite-headphones-of-2026-but-the-multi-room-giant-truly-upped-its-game-this-year-heres-why-the-ace-ultra-are-worth-every-penny-right-now",
+          "publishedAt": "2026-11-26T16:46:18.000Z",
+          "excerpt": "I love the Sonos Ace Ultra for their detailed sound, beautiful design, and excellent ANC — and somehow, they're on sale already.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "ASRock's 850W 80 Plus Gold PRO-850G power supply drops to $55 at Newegg, with a native 12V-2x6 cable for new GPUs",
+          "url": "https://www.techradar.com/pro/asrocks-850w-80-plus-gold-pro-850g-power-supply-drops-to-usd55-at-newegg-with-a-native-12v-2x6-cable-for-new-gpus",
+          "publishedAt": "2026-11-26T16:43:21.000Z",
+          "excerpt": "Newegg has discounted the ASRock PRO Series PRO-850G 850W power supply with 80 PLUS Gold efficiency, ATX 3.1 and PCIe 5.1 compliance by 38% for Black Friday.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Still waiting for that Black Friday delivery? It may be a scam, warns NordVPN",
+          "url": "https://www.techradar.com/vpn/vpn-services/black-friday-delivery-scams-nordvpn",
+          "publishedAt": "2026-11-26T16:36:32.000Z",
+          "excerpt": "With the Black Friday shopping season now in full swing, NordVPN's Threat Intelligence research team has identified a network of 54 malicious courier firms backing up fake shops' orders. Here's how to stay safe.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Black Friday OLED TV deals: the very best offers on elite and budget models from LG, Samsung, Sony and more",
+          "url": "https://www.techradar.com/televisions/black-friday-oled-tv-deals-the-very-best-offers-on-elite-and-budget-models-from-lg-samsung-sony-and-more",
+          "publishedAt": "2026-11-26T16:34:57.000Z",
+          "excerpt": "There are tons of Black Friday OLED TV deals live now so we've picked some of our favorites.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Surfshark just dropped improved Black Friday prices - and it's finally better value than this year's fan-favorite Black Friday deal",
+          "url": "https://www.techradar.com/vpn/vpn-services/surfshark-just-dropped-improved-black-friday-prices-and-its-finally-better-value-than-this-years-fan-favorite-black-friday-deal",
+          "publishedAt": "2026-11-26T16:17:48.000Z",
+          "excerpt": "Both are under $2.50 per month, but which should you choose?",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "I pitted my three favorite Xbox controllers against each other to decide which was best for playing GTA 6 — with lightning fast performance and innovative features, this pad would be my recommended buy this Black Friday",
           "url": "https://www.techradar.com/gaming/gaming-accessories/i-pitted-my-three-favorite-xbox-controllers-against-each-other-to-decide-which-was-best-for-playing-gta-6-with-lightning-fast-performance-and-innovative-features-this-pad-would-be-my-recommended-buy-this-black-friday",
@@ -1754,99 +1851,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "I’ve tested dozens of Switch 2 controllers and Joy-Con 2 accessories — here are the ones I’d recommend for every kind of player this Black Friday",
-          "url": "https://www.techradar.com/gaming/gaming-accessories/ive-tested-dozens-of-switch-2-controllers-and-joy-con-2-accessories-here-are-the-ones-id-recommend-for-every-kind-of-player-this-black-friday",
-          "publishedAt": "2026-11-26T15:11:38.000Z",
-          "excerpt": "Whether you play your Switch 2 in handheld, tabletop, or docked mode, here are the controllers to get this Black Friday.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Get the last Paramount+ Black Friday deal before it's gone for good",
-          "url": "https://www.techradar.com/seasonal-sales/this-could-be-the-last-paramount-black-friday-deal-ever-lock-in-a-subscription-for-just-usd2-99-before-its-too-late",
-          "publishedAt": "2026-11-26T15:04:44.000Z",
-          "excerpt": "The best Paramount+ Black Friday deal is back and better than ever — get access to two months of streaming for just $2.99 per month.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How to watch NFL on Thanksgiving 2026: FREE streams, TV channels, schedule",
-          "url": "https://www.techradar.com/entertainment/american-football/nfl-thanksgiving-2026-free",
-          "publishedAt": "2026-11-26T15:00:00.000Z",
-          "excerpt": "All the ways to watch NFL on Thanksgiving 2026 live streams for free, with Detroit vs Chicago and Kansas City vs Buffalo headlining Thursday's three-game slate.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "VW wants to pay EV owners to plug in under new bi-directional charging push",
-          "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/volkswagen-will-pay-its-ev-owners-to-plug-in-overnight-vehicle-to-grid-push-could-mean-10-000-miles-of-free-motoring-for-vw-skoda-and-cupra-owners",
-          "publishedAt": "2026-11-26T14:57:57.000Z",
-          "excerpt": "VW owners could get paid to plug in — bi-directional charging push could make VW, Skoda and Cupra drivers money.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Why businesses must rethink graduate entry in the age of AI",
-          "url": "https://www.techradar.com/pro/why-businesses-must-rethink-graduate-entry-in-the-age-of-ai",
-          "publishedAt": "2026-11-26T14:53:28.000Z",
-          "excerpt": "How businesses can harness AI while developing the next generation of professionals.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Immerse yourself in the world of Vice City and GTA 6 with SCUF, Corsair and Elgato gear",
-          "url": "https://www.techradar.com/gaming/gaming-accessories/immerse-yourself-in-the-world-of-vice-city-and-gta-6-with-scuf-corsair-and-elgato-gear",
-          "publishedAt": "2026-11-26T14:40:28.000Z",
-          "excerpt": "The biggest game of the decade is finally here, so make sure you experience GTA 6 the best possible way with a premium setup that will bring Leonida to life and enable you to play at your best.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Black Friday MacBook Pro deals: the latest MacBook Pro M6 is already getting a huge discount, along with the PROLED M5 Max, PROLED M5 Pro, and more",
-          "url": "https://www.techradar.com/seasonal-sales/best-black-friday-macbook-pro-deals",
-          "publishedAt": "2026-11-26T14:36:05.000Z",
-          "excerpt": "If you're looking for the best Black Friday MacBook Pro deals, we have you covered, with the new M6 and PROLED M5 models getting sizable discounts.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Amazon Black Friday deals live — our 101 top picks",
-          "url": "https://www.techradar.com/live/news/amazon-uk-black-friday-deals-2026-november-26",
-          "publishedAt": "2026-11-26T14:34:30.000Z",
-          "excerpt": "The Amazon UK Black Friday sale is here, so we've picked out 101 of the best deals on TVs, appliances, laptops and more",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Black Friday coffee deals: big savings on Breville, Ninja, De'Longhi and Smeg, plus fresh beans",
-          "url": "https://www.techradar.com/seasonal-sales/black-friday-coffee-maker-deals-2026-nov-26",
-          "publishedAt": "2026-11-26T14:24:15.000Z",
-          "excerpt": "I'm TechRadar's resident coffee expert, and I've combed through all this year's Black Friday offers to bring you the biggest savings.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Thinking of switching from Proton VPN this Black Friday? I’d pick Surfshark, Windscribe, or NordVPN — deals start from $2.29 a month",
-          "url": "https://www.techradar.com/vpn/vpn-services/proton-vpn-black-friday-alternatives-2026",
-          "publishedAt": "2026-11-26T14:20:24.000Z",
-          "excerpt": "Proton's Black Friday deal is tough to beat, but here are the best alternatives",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "9to5Mac",
@@ -1854,6 +1861,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Thanksgiving deals: M5 MacBook Air $400 off, MacBook Neo $100 off, Apple Watch Ultra 4 $150 off, more",
+          "url": "https://9to5mac.com/2026/11/26/deals-macbook-air-neo-apple-watch-ultra-4/",
+          "publishedAt": "2026-11-26T16:29:40.000Z",
+          "excerpt": "Black Friday might have started last week, but the Amazon Thanksgiving sale is now live and it is not playing around. Alongside the banger $100 price drop on AirPods Pro 3 , the M ac deals are absolutely crazy today: $400 off M5 MacBook Air , all MacBook Neo models at $100 off starting at $599 , and",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "MacBook Neo vs MacBook Air: Which should you buy right now?",
           "url": "https://9to5mac.com/2026/11/26/macbook-air-vs-macbook-neo-buying-guide/",
@@ -2024,18 +2040,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Apple TV hit comedy from Ted Lasso, Shrinking creator returns next week",
-          "url": "https://9to5mac.com/2026/11/25/apple-tv-hit-comedy-from-ted-lasso-shrinking-creator-returns-next-week/",
-          "publishedAt": "2026-11-25T17:45:52.000Z",
-          "excerpt": "Apple TV ( now $6.99/month for Black Friday ) has a new season of hit comedy Bad Monkey coming next week from Bill Lawrence, co-creator of Ted Lasso and Shrinking. Here’s what Lawrence says to expect from Bad Monkey season 2. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Humanist Review",
@@ -2224,7 +2231,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "It’s Nice That",
@@ -2413,7 +2420,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Fast Company",
@@ -2557,7 +2564,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Creative Bloq",
@@ -2746,7 +2753,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Sidebar",
@@ -2955,7 +2962,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Creative Boom",
@@ -3124,7 +3131,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3293,7 +3300,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Creative Independent",
@@ -3382,7 +3389,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3551,7 +3558,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "A List Apart",
@@ -3720,7 +3727,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Them",
@@ -3728,6 +3735,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Best LGBTQ+ TV Shows of 2026 and Where to Stream Them",
+          "url": "https://www.them.us/entertainment/tv-and-movies/lgbt-tv-shows-2026",
+          "publishedAt": "2026-11-26T16:00:02.000Z",
+          "excerpt": "Queer television had some pretty big shoes to fill in 2026! After all, 2025 was a pretty incredible year for LGBTQ+ stories. From the lesbian-led sci-fi sensation Pluribus to the scandalously sapphic drama of The Hunting Wives , queer television was having a moment. And just when we thought the year",
+          "source": "Them",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "If You Think Club Kid Was “Conservative,” God Help You",
           "url": "https://www.them.us/entertainment/tv-and-movies/club-kid-conservative-jordan-firstman",
@@ -3898,18 +3914,9 @@
           "source": "Them",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Florida’s First Trans Elected Official Quinnie Pérez Says Her Win Is “Bigger Than Myself”",
-          "url": "https://www.them.us/politics/quinnie-perez-trans-win-florida",
-          "publishedAt": "2026-11-24T17:40:41.000Z",
-          "excerpt": "This story originally appeared on The Advocate . Quinnie Pérez quietly made history in Florida on November 3. In the midterm elections, as the Sunshine State remained red amid a “blue wave” of Democratic political wins, the transgender 32-year-old was elected to one of two open seats on the five-mem",
-          "source": "Them",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -3917,6 +3924,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "The Hunting Wives Recap: Thunder and Lightning",
+          "url": "http://www.vulture.com/article/the-hunting-wives-recap-season-2-episode-4-netflix.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+          "publishedAt": "2026-11-26T15:00:45.000Z",
+          "excerpt": "With her biggest secret revealed, Sophie had nothing to do but spiral into a panic.",
+          "source": "New York Magazine (Intelligencer)",
+          "category": "Culture",
+          "sourceRole": "publisher"
+        },
         {
           "title": "The Hunting Wives Recap: You Ever Been Dead?",
           "url": "http://www.vulture.com/article/the-hunting-wives-recap-season-2-episode-3-netflix.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -4087,18 +4103,9 @@
           "source": "New York Magazine (Intelligencer)",
           "category": "Culture",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Andy Taylor, Guitarist for Duran Duran, Dies at 65",
-          "url": "http://www.vulture.com/article/duran-duran-andy-taylor-death.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-          "publishedAt": "2026-11-25T23:20:07.000Z",
-          "excerpt": "Taylor missed the band’s induction into the Rock and Roll Hall of Fame in 2022 due to his prostate cancer diagnosis.",
-          "source": "New York Magazine (Intelligencer)",
-          "category": "Culture",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Atlantic",
@@ -4287,7 +4294,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The New Yorker",
@@ -4476,7 +4483,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Hyperallergic",
@@ -4615,6 +4622,14 @@
       "count": 12,
       "stories": [
         {
+          "title": "How Much of Quentin Tarantino’s Scrapped Film ‘The Movie Critic’ Made It Into ‘The Further Mis-Adventures of Cliff Booth’?",
+          "url": "https://www.indiewire.com/features/commentary/quentin-tarantino-the-movie-critic-cliff-booth-1235230943/",
+          "publishedAt": "2026-11-26T17:00:00.000Z",
+          "excerpt": "Parallels between the two projects are obvious, so allow us to speculate on where one script ended and another began.",
+          "source": "IndieWire",
+          "category": "Culture"
+        },
+        {
           "title": "Robert Aramayo’s Star-Making Turn in ‘I Swear’ Is Already Award-Winning, Now He Just Wants People to See It",
           "url": "https://www.indiewire.com/features/interviews/robert-aramayo-i-swear-baftas-john-davidson-tourettes-1235190387/",
           "publishedAt": "2026-11-26T16:00:00.000Z",
@@ -4701,17 +4716,9 @@
           "excerpt": "With the 1983 classic newly available from Criterion, the director of photography looks back on working with director Philip Kaufman to create a great American epic.",
           "source": "IndieWire",
           "category": "Culture"
-        },
-        {
-          "title": "Where Are Rick Dalton and Sharon Tate in ‘The Further Mis-Adventures of Cliff Booth’?",
-          "url": "https://www.indiewire.com/features/general/cliff-booth-where-are-rick-dalton-sharon-tate-sequel-1235230919/",
-          "publishedAt": "2026-11-25T18:30:00.000Z",
-          "excerpt": "Only one of the central stars of \"Once Upon a Time in Hollywood\" is back for the David Fincher-directed sequel, but that doesn't mean the other two don't pop up in their own ways.",
-          "source": "IndieWire",
-          "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Vox",
@@ -4900,7 +4907,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5089,7 +5096,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Conversation",
@@ -5258,7 +5265,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Pew Research Center",
@@ -5427,7 +5434,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "404 Media",
@@ -5556,7 +5563,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Undark",
@@ -5655,7 +5662,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5844,7 +5851,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Noema",
@@ -6033,7 +6040,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "n+1",
@@ -6222,6 +6229,7 @@
           "sourceRole": "publisher"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
     },
     {
@@ -6327,7 +6335,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Quietus",
@@ -6496,7 +6504,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "BFI",
@@ -6665,7 +6673,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6834,7 +6842,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -7003,7 +7011,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Colossal",
@@ -7192,7 +7200,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Pudding",
@@ -7361,7 +7369,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7530,7 +7538,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7659,6 +7667,7 @@
           "category": "Books"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
     },
     {
@@ -7828,7 +7837,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Book Marks",
@@ -7997,7 +8006,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "London Review of Books",
@@ -8186,7 +8195,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Millions",
@@ -8355,7 +8364,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Literary Hub",
@@ -8524,7 +8533,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Rumpus",
@@ -8713,7 +8722,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8882,7 +8891,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Electric Literature",
@@ -9051,7 +9060,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Paris Review",
@@ -9140,7 +9149,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Offing",
@@ -9329,7 +9338,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Words Without Borders",
@@ -9518,7 +9527,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Mekong Review",
@@ -9707,7 +9716,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "The Marginalian",
@@ -9876,7 +9885,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Daily Nous",
@@ -10045,7 +10054,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Aeon",
@@ -10214,7 +10223,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Psyche",
@@ -10403,7 +10412,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Tricycle",
@@ -10572,7 +10581,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10741,7 +10750,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Kottke",
@@ -10950,7 +10959,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Longreads",
@@ -11159,7 +11168,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Waxy",
@@ -11388,7 +11397,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "MetaFilter",
@@ -11396,6 +11405,15 @@
       "kind": "rss",
       "count": 8,
       "stories": [
+        {
+          "title": "\"You are never going to make it look exactly like the picture,\" he said.",
+          "url": "https://www.metafilter.com/215303/You-are-never-going-to-make-it-look-exactly-like-the-picture-he-said",
+          "publishedAt": "2026-11-26T16:34:41.000Z",
+          "excerpt": "It's that reliable time of the year again, when sparkling Winter and Christmas events are lavishly advertised but turn out to be ... less sparkling. The first entry for this year is the Kernow Christmas Market in Pool, Cornwall . More in the Metro : \"Another said that Santa didn't even turn up to th",
+          "source": "MetaFilter",
+          "category": "Discover",
+          "sourceRole": "community"
+        },
         {
           "title": "OK, so this right here is about food and economics",
           "url": "https://www.metafilter.com/215302/OK-so-this-right-here-is-about-food-and-economics",
@@ -11458,18 +11476,9 @@
           "source": "MetaFilter",
           "category": "Discover",
           "sourceRole": "community"
-        },
-        {
-          "title": "Cover up the blank spots, hit me on the head, I go Ooo-o-o-ooh!",
-          "url": "https://www.metafilter.com/215295/Cover-up-the-blank-spots-hit-me-on-the-head-I-go-Ooo-o-o-ooh",
-          "publishedAt": "2026-11-25T16:17:19.000Z",
-          "excerpt": "What's better than turkey dinner? What is compatible with everybody's dietary restrictions? What won't get into an uncomfortable argument about politics with your grandpa? Maybe I'm overpromising, but the answer has to be COVER SONGS. You won't believe how many people are coming to this Thanksgiving",
-          "source": "MetaFilter",
-          "category": "Discover",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11658,7 +11667,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Dense Discovery",
@@ -11867,6 +11876,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
     },
     {
@@ -11875,6 +11885,30 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "英格蘭一代翼鋒史達寧毒駕罪成 曾風光無限 離開曼城斷崖式滑落",
+          "url": "https://hk01.com/sns/article/60415426",
+          "publishedAt": "2026-11-26T17:01:36.000Z",
+          "excerpt": "不知何故，英格蘭10號球衣的主人，天才橫溢的背後，往往在球場以外總是麻煩份子。近日朗尼在真人騷節目《I'm a Celebrity... Get Me Out of Here!》中剖白球員年代酗酒問題極嚴重，最新輪到今年5月毒駕被捕的史達寧（Raheem Sterling），被判囚12個月，緩刑18個月。曾經在球會和國家隊均是必然正選、春風得意的天才翼鋒，這些年到底發生了什麼事？ 史達寧毒駕罪成，獲判緩刑離開法院。（路透社） 牙買加出生的問題兒童 小學老師預言奇準 史達寧跟不少足球員一樣有個艱苦童年，在牙買加出生，2歲的時候爸爸在當地被槍殺，媽媽Nadine在他5歲的時候帶着他移居英國。Nad",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "特朗普：冀普京停止所有歐洲軍事侵略行動 與烏克蘭盡快達成協議",
+          "url": "https://hk01.com/sns/article/60415457",
+          "publishedAt": "2026-11-26T16:56:04.000Z",
+          "excerpt": "美國總統特朗普（Donald Trump）11月26日（周四）在社交平台Truth Social表示，他上周曾向俄羅斯領導人普京（Vladimir Putin）表示，希望俄羅斯能收斂其在歐洲各地的軍事侵略行動，藉此促成烏克蘭戰爭的迅速解決。 特朗普發文稱，「在中國與俄羅斯總統普京交談時，我花了許多時間強調，希望普京總統能停止在歐洲各地的所有軍事侵略行動。我希望能促成俄羅斯與烏克蘭之間達成協議，而且要盡快達成。」 特朗普亦表示，「我真心認為這極有可能實現——現在每個月都有數千人喪生，這簡直是一場徹底的血腥浩劫。」 2026年11月19日，美國總統特朗普會晤俄羅斯總統普京（Reuters） 身為北",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "馬貫東被揭母親與李家鼎曾是情侶後首度同場 透露台下非零互動",
+          "url": "https://hk01.com/sns/article/60415442",
+          "publishedAt": "2026-11-26T16:30:36.000Z",
+          "excerpt": "馬貫東今日（26日）出席TVB《長期服務暨傑出員工榮譽大獎頒獎典禮2026》領取20年長期服務獎。他接受訪問時，直言獎項好有份量：「我用咗20年時間喺呢間公司學習、成長進步，係一個好有份量嘅紀念。」他又提到《鐵馬戰車》的「揚名」是首個令香港觀眾認識自己的重要角色，並強調從不覺得過去的演藝路難捱。他被問及與同場的李家鼎（鼎爺）及李泳豪（豪仔）的互動，隨即澄清與鼎爺並非「冇溝通」。 馬貫東領取20年長期服務獎。(盧振輝 攝) 關係曝光後首同場 被分隔坐兩邊零交流 今日亦是自爆出馬貫東母親是鼎爺前女友後，他與鼎爺及豪仔首次同場現身。就現場所見，豪仔與鼎爺同坐，而馬貫東則被安排坐另外一面，三人在頒獎典",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
         {
           "title": "GTA 6主線爆機流程攻略｜全5大章節故事大綱及108個任務列表一覽",
           "url": "https://hk01.com/sns/article/60414868",
@@ -11887,7 +11921,7 @@
           "title": "非法改動護照｜情侶涉無合法授權改護照等3罪 最高罰$15萬囚14年",
           "url": "https://hk01.com/sns/article/60415454",
           "publishedAt": "2026-11-26T16:13:06.000Z",
-          "excerpt": "一名香港女子周三（25日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 根據《入境條例》，任何人無合法權限授權而改動旅行證件，即屬犯罪，一經定罪，最高可被判罰款15萬元及監禁14年，協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款1萬元及監禁6個月。 入境處經調查後展開執法行",
+          "excerpt": "一名香港女子周二（24日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 根據《入境條例》，任何人無合法權限授權而改動旅行證件，即屬犯罪，一經定罪，最高可被判罰款15萬元及監禁14年，協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款1萬元及監禁6個月。 入境處經調查後展開執法行",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -11932,30 +11966,6 @@
           "category": "Hong Kong"
         },
         {
-          "title": "東張西望｜貓咪切錯膀胱慘死 金主變水魚收律師信：明顯想我收聲",
-          "url": "https://hk01.com/sns/article/60415430",
-          "publishedAt": "2026-11-26T15:45:50.000Z",
-          "excerpt": "TVB節目《東張西望》今日（26日）繼續追查貓咪「妮妮」進行絕育手術時，疑遭護士切錯膀胱慘死的事件。節目中，有獸醫挺身指證涉事的Polly早有前科，曾要求將絕育手術交由她操刀，更堅持親自為Chloe的愛貓動手術。 有獸醫挺身指證涉事的Polly早有前科，曾要求將絕育手術交由她操刀。(節目截圖) 夾錢120萬被當「水魚」 拍檔公開錄音即收律師信 另一邊廂，曾夾錢120萬元與Polly合資開診所的周生大爆診所帳目極度混亂，不但花費18萬多元聲稱經獵頭公司聘請醫生，惟該醫生根本未曾申請，更將10多萬元貓糧運往斜對面新診所。診所開業22個月，周生直言：「我哋連咩數都未睇過，當我水魚。」當他要求退出並拒",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "SmarTone數碼通死機｜官方指服務全面恢復正常 不涉網絡保安事故",
-          "url": "https://hk01.com/sns/article/60415449",
-          "publishedAt": "2026-11-26T15:33:44.000Z",
-          "excerpt": "手提電話流動網絡供應商「SmarTone 數碼通」，於今日（26日）下午2時左右，有用戶反映訊號突然中斷，數碼通於下午近3時確認部份地區的網絡服務不穩定。數碼通今晚（26日）表示，服務已全面恢復正常，並就事件向顧客致歉。經初步調查，已排除涉及網絡保安事故，工程團隊正全面檢視及跟進，確保網絡持續穩定運作。 手提電話流動網絡供應商「SmarTone 數碼通」，於今日（26日）下午2時左右，有用戶反映訊號突然中斷。（資料圖片/區慶威攝） 下午2時半，不少網民在社交平台Threads發文查詢網絡狀況，其中有網民發帖問道：「SmarTone 係咪死咗？」，不少受影響網民紛紛湧入留言討論斷線情況。從用戶提",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "新加坡實習醫生在墨爾本醫院偷拍同事 受害者法庭痛哭描繪創傷",
-          "url": "https://hk01.com/sns/article/60415438",
-          "publishedAt": "2026-11-26T15:30:34.000Z",
-          "excerpt": "一名新加坡實習醫生於澳洲墨爾本（Melbourne）的多間醫院，偷拍數百名醫院同事在工作期間使用廁所及淋浴間的片段。受害者於當地時間周一（23日）在墨爾本的法院內失聲痛哭，詳細描述這些侵犯行為對她們帶來創傷。 新加坡《海峽時報》報道 ，前外科實習醫生Ryan Cho在墨爾本郡法院（Melbourne County Court）面對面聽取部分受害者陳述，而該案確認受害者共達874人。 Ryan Cho出生於馬來西亞，是新加坡公民，2017年服完兵役後，於2018年移居澳洲，並在蒙納士大學（Monash University）學習醫學。 檢方描述Cho的作案手法，他將手機藏在網狀洗衣袋中，並掛在廁",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
           "title": "屯門快餐店現鼠蹤｜食環署發改善清潔通知 另檢控兩間食肆持牌人",
           "url": "https://hk01.com/sns/article/60415447",
           "publishedAt": "2026-11-26T15:15:09.000Z",
@@ -11967,7 +11977,7 @@
           "title": "入境處指有人網稱特區護照出廠缺頁 調查後拘情侶涉非法改動護照",
           "url": "https://hk01.com/sns/article/60415444",
           "publishedAt": "2026-11-26T14:46:23.000Z",
-          "excerpt": "一名香港女子日前於社交平台Threads發文，報稱因特區護照缺頁，於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處經詳細檢視涉事護照及跟進調查後，據了解，今日（26日）於藍田平田邨平真樓，拘捕一男一女香港居民，涉嫌沒有合法授權而改動該特區護照。據了解，涉案護照已發出8年。兩被捕人為情侶關係，並曾使用過該護照前往台灣、韓國及泰國等地。 入境事務處召開記者會交代案情指，入境處執法部展開調查，向當事人錄取口供及檢走護照調查。根據記錄，涉事護照簽發8年，曾出入多個地方均沒有問題。政府化驗所化驗後證實，護照上有人為造成的紙碎殘留物，認為有人為改動。入境處指，",
+          "excerpt": "一名香港女子日前於社交平台Threads發文，報稱因特區護照缺頁，於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處經詳細檢視涉事護照及跟進調查後，據了解，今日（26日）於藍田平田邨平真樓，拘捕一男一女香港居民，涉嫌沒有合法授權而改動該特區護照。據了解，涉案護照已發出8年。兩被捕人為情侶關係，並曾使用過該護照前往台灣、韓國及泰國等地。 消息指，涉案兩人分別為一名27歲女子，報稱任職地產代理，以及一名34歲男子，報稱任職網絡維修工人，兩人早前一同出國並一同返港。昨日當事人親身前往將軍澳旅遊證件組別，申請補領護照並查詢證件缺頁原因。當局懷疑證件涉及人為改",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12004,10 +12014,26 @@
           "category": "Hong Kong"
         },
         {
+          "title": "SmarTone數碼通死機｜網絡訊號中斷 手機現「沒有服務」無法上網",
+          "url": "https://hk01.com/sns/article/60415271",
+          "publishedAt": "2026-11-26T07:10:17.000Z",
+          "excerpt": "今日（26日）下午約2時半，本港有電訊商的流動網絡服務懷疑出現突發故障。SmarTone（數碼通）的手機訊號突然中斷，有用戶手機顯示「沒有服務」，無法使用流動數據上網及通話，事件隨即在社交平台引起網民熱議。 不少網民在Threads追問是否Smartone死機，並指有人到門市了解。 下午2時半，不少網民在社交平台Threads發文查詢網絡狀況，其中有網民發帖問道：「Smartone 係咪死咗？」，不少受影響網民紛紛湧入留言討論斷線情況。 亦有用戶提供的手機截圖可見，在今日下午3時02分，涉事手機右上角的流動網絡訊號欄出現感嘆號，並顯示「沒有服務」，用戶在流動網絡中斷期間需依賴連接Wi-Fi才能",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
           "title": "宏福苑大火一周年．01社論｜痛定思痛 刮骨療傷",
           "url": "https://hk01.com/sns/article/60415049",
           "publishedAt": "2026-11-26T06:33:59.000Z",
           "excerpt": "一年前的今天（11月26日），大埔宏福苑那場火災吞噬了一百多個家庭的至親，摧毀了兩千戶居民的家園，更在七百萬香港市民的心頭留下一道深不見底的烙印。365個日夜過去，秋去冬來的寒風依舊，災後的瓦礫已被清理乾淨，燒焦的外牆已經冷卻沉寂，弔唁的花海也早就化作新泥，但在很多市民的內心深處，那股刺鼻的濃煙還未真正散去。 瓦礫雖清濃煙未散 允許脆弱才是慈悲 過去一年，雖然不少人提出「放下向前看」、「明天會更好」的鼓勵和勸慰，但創傷並不會自動結痂。痛，不是無病呻吟的矯情，而是融進骨血的沉重。是倖存居民在聞到一絲焦味時，心臟驟停般的驚悸；是逝者家屬在節慶擺放碗筷時，突然意識到人天永隔的恍惚；也是每一位香港市民",
+          "source": "香港01",
+          "category": "Hong Kong"
+        },
+        {
+          "title": "人工中位數2026│月薪呢個數高過一半打工仔！各行業人工差距幾多",
+          "url": "https://hk01.com/sns/article/60415215",
+          "publishedAt": "2026-11-26T05:23:22.000Z",
+          "excerpt": "【港人月薪2026／薪酬待遇2026／統計處／最新數據／人工中位數2026 / 2026年11月最新公布】統計處公布最新2026年7至9月、令年第三季就業人士月入數據，你的薪金到底是否合乎行情呢？數據顯示，2026年7月至9月港人就業收入中位數為23,000元，按年上升700元，按月比較則不變。數據還顯示，男性和女性月入中位數相差4,900元，哪一個行業的薪金性別差距最大？至於不同行業、職級最新的工資中位數又是多少，即比較數據看看你人工有否「underpaid」！ 統計處2026年11月公布最新薪酬數據 ，2026年7月至9月（註：移動3個月期間），本港市民每月就業收入中位數（不包括外籍家庭傭",
           "source": "香港01",
           "category": "Hong Kong"
         },
@@ -12018,25 +12044,9 @@
           "excerpt": "荃灣鼎大開倉｜荃灣沙咀道工廈林立，其中大成大廈地舖外牆掛有「鼎大 Ting Tai」巨型復古招牌，平日大閘長年緊閉，令不少街坊誤以為舖位早已丟空。鼎大繼上周四（19日）「快閃開倉」2小時掀起討論後，今日（26日）再「1日限定」開倉，吸引不少人到場一睹其廬山真面目。今早10時半派籌前，鼎大門外排起人龍，現場已在派下午3時半的籌，到上午11時多更已派完全日的350張籌。有關方面早前已公布每人限取1張，派完即止，籲「冇籌請勿久等」。 2026年11月26日早上11時多，派籌未消一句鐘，荃灣鼎大已派完全日的籌。（洪戩昊攝） 根據鼎大旗下「三元牌（Rings Brand）」官方網站資料，鼎大金屬廠由潮州",
           "source": "香港01",
           "category": "Hong Kong"
-        },
-        {
-          "title": "普京被爆愛食粵菜 親點牛坑腩滷水豬腳膏蟹蒸肉餅 仲打包上飛機",
-          "url": "https://hk01.com/sns/article/60415130",
-          "publishedAt": "2026-11-26T04:15:20.000Z",
-          "excerpt": "亞太經合組織（APEC）會議周期間，俄羅斯總統普京（Vladimir Putin，又譯普丁或蒲亭）下榻深圳康萊德酒店（Conrad Shenzhen）。11月25日，內媒深視新聞記者來到康萊德酒店探訪。據酒店總經理卡特介紹，普京在離店前留下了親筆簽名，並說「謝謝」。 俄羅斯總統團隊離店時，還特意留下伏特加等俄羅斯特產作為回贈。酒店餐飲部主管告訴記者：「經過這兩天的相處，總統團隊的隨行人員對我們非常信任。」 點圖看普京愛吃哪些中國菜： APEC會議周期間，滷水豬腳、大黃魚被俄羅斯總統普京反覆欽點。（微博圖片） APEC會議周期間，俄羅斯總統普京（Vladimir Putin）下榻深圳康萊德酒店（",
-          "source": "香港01",
-          "category": "Hong Kong"
-        },
-        {
-          "title": "珍惜生命｜上水警署男警疑自轟 頭中槍當場身亡 重案組跟進調查",
-          "url": "https://hk01.com/sns/article/60415068",
-          "publishedAt": "2026-11-26T04:10:42.000Z",
-          "excerpt": "上水警署有警員疑自轟身亡。今日（26日）上午10時許，一名男警員在警署2樓更衣室位置以佩槍自轟自殺，當場死亡。現場可見，有救護車候命，亦有刑事調查隊人員在內了解。 死者為新界北總區交通部交通意外調查組警員。警方深表難過及惋惜，對其家屬致以慰問，亦會提供適切協助。案件由新界北總區重案組跟進調查。 救護車一度停在警署戒備。（翁鈺輝攝） 警方表示，上午約10時20分，發現一名隸屬新界北總區交通部交通意外調查組的39歲男警員，在上水警署一更衣室洗手間內受傷。他頭部有槍傷，現場被證實死亡；其身旁有一把佩槍。 經初步調查後，相信他用獲發的佩槍自殺。警方稍後將安排為死者驗屍，以確定其死因。案件由新界北總區重",
-          "source": "香港01",
-          "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "有線新聞",
@@ -12205,7 +12215,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Now 新聞",
@@ -12374,7 +12384,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12543,7 +12553,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12712,7 +12722,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "South China Morning Post",
@@ -12881,7 +12891,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13050,10 +13060,37 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T16:17:19.793Z"
+      "lastSuccessfulAt": "2026-11-26T17:17:26.409Z"
     }
   ],
   "stories": [
+    {
+      "title": "Kagi Watch",
+      "url": "https://kagi.com/watch",
+      "publishedAt": "2026-11-26T16:28:54.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50656862"
+    },
+    {
+      "title": "Ask HN: Any courses/products by indie makers worth getting today?",
+      "url": "https://news.ycombinator.com/item?id=50656763",
+      "publishedAt": "2026-11-26T16:16:41.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50656763"
+    },
+    {
+      "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "url": "https://michidk.github.io/sidebyside/",
+      "publishedAt": "2026-11-26T15:00:06.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50656036"
+    },
     {
       "title": "Tell HN: Happy Thanksgiving",
       "url": "https://news.ycombinator.com/item?id=50655664",
@@ -13136,15 +13173,6 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50651627"
     },
     {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "publishedAt": "2026-11-26T03:36:58.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50651117"
-    },
-    {
       "title": "Minipg: PostgreSQL as a Single Executable",
       "url": "https://progrium.github.io/minipg/",
       "publishedAt": "2026-11-26T03:00:48.000Z",
@@ -13179,15 +13207,6 @@
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50648365"
-    },
-    {
-      "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
-      "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-      "publishedAt": "2026-11-25T22:12:25.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50648323"
     },
     {
       "title": "Much shorter version of GRH Lean verification from Anthropic",
@@ -13226,13 +13245,36 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50647161"
     },
     {
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "publishedAt": "2026-11-25T19:11:27.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50646108"
+      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "publishedAt": "2026-11-26T17:07:00.000Z",
+      "excerpt": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Android app developers will soon have to share their address publicly",
+      "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "publishedAt": "2026-11-26T17:06:24.000Z",
+      "excerpt": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says c",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "The best Black Friday deals we’ve already found",
+      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "publishedAt": "2026-11-26T16:55:00.000Z",
+      "excerpt": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t",
+      "source": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+      "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+      "publishedAt": "2026-11-26T16:38:00.000Z",
+      "excerpt": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights an",
+      "source": "The Verge",
+      "category": "Technology"
     },
     {
       "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
@@ -13359,38 +13401,6 @@
       "url": "https://www.theverge.com/column/1041761/optimizer-peptide-parties-afterglow",
       "publishedAt": "2026-11-25T18:00:00.000Z",
       "excerpt": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small lin",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "The Fairphone 6 Plus is modular, repairable, and $100 off right now",
-      "url": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
-      "publishedAt": "2026-11-25T18:00:00.000Z",
-      "excerpt": "Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "publishedAt": "2026-11-25T17:44:51.000Z",
-      "excerpt": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, t",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "The Verge’s guide to the best gifts under $100",
-      "url": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
-      "publishedAt": "2026-11-25T17:00:00.000Z",
-      "excerpt": "Even in an era of inflation like the one we're living through now, $100 can still buy a lot… if you know where to look. In fact, it's enough to get something useful and well-made, but not so pricey that it's likely to leave you with lingering guilt or lead to insurmountable debt. As reviewers, […]",
-      "source": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "title": "Nothing offers a full look at its AI earbuds and charging case",
-      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-      "publishedAt": "2026-11-25T16:00:59.000Z",
-      "excerpt": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes ",
       "source": "The Verge",
       "category": "Technology"
     },
@@ -13547,10 +13557,10 @@
       "category": "Technology"
     },
     {
-      "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
-      "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
+      "title": "A Journey Through the Absurd Hell of Trump’s Third-Country Deportations",
+      "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/",
       "publishedAt": "2026-11-25T11:00:00.000Z",
-      "excerpt": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
+      "excerpt": "How a Thai-born, US-raised Cambodian refugee ended up a prisoner of Africa’s last absolute monarch.",
       "source": "WIRED",
       "category": "Technology"
     },
@@ -13875,6 +13885,14 @@
       "category": "Technology"
     },
     {
+      "title": "A month with the iPhone Duo has changed how I use my phone",
+      "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+      "publishedAt": "2026-11-26T17:00:00.000Z",
+      "excerpt": "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
       "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "publishedAt": "2026-11-26T16:00:00.000Z",
@@ -14027,12 +14045,76 @@
       "category": "Technology"
     },
     {
-      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
-      "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
-      "publishedAt": "2026-11-25T00:10:27.000Z",
-      "excerpt": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips to China.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "SAP weighs cutting at least 10,000 jobs in AI restructuring, Bloomberg says",
+      "url": "https://thenextweb.com/news/sap-job-cuts-10000-ai-restructuring-bloomberg",
+      "publishedAt": "2026-11-26T17:01:29.000Z",
+      "excerpt": "SAP is preparing to cut at least 10,000 jobs as it reshapes its software business around AI, Christina Kyriasoglou reported for Bloomberg on Thursday, citing people familiar with the matter. That would be at least 9% of the German company’s workforce. SAP employs more than 110,000 people worldwide. ",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Moonshot reportedly turns to Google and Meta models for distillation",
+      "url": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+      "publishedAt": "2026-11-26T16:55:44.000Z",
+      "excerpt": "Moonshot AI has begun distilling from Google and Meta models after OpenAI and Anthropic made theirs harder to copy, Reuters reported. Z.ai’s GLM-5.5 has missed its November target, and new US rules on overseas computing could push it and Moonshot’s Kimi K4 further back. Chinese AI lab Moonshot has b",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Nvidia agrees to pay $290M to settle 2018 crypto mining investor lawsuit",
+      "url": "https://thenextweb.com/news/nvidia-settlement-290m-crypto-mining-shareholder-lawsuit",
+      "publishedAt": "2026-11-26T16:50:37.000Z",
+      "excerpt": "Nvidia has agreed to pay $290 million to settle a 2018 shareholder lawsuit over how much of its gaming chip sales came from cryptocurrency miners. The investors leading the class action asked a federal judge in California to approve the deal in a filing on Tuesday, Mike Scarcella reported for Reuter",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Google patent describes an AI TV channel that casts you as the star",
+      "url": "https://thenextweb.com/news/google-my-channel-patent-ai-tv-shows-starring-you",
+      "publishedAt": "2026-11-26T16:43:23.000Z",
+      "excerpt": "Google has described a TV channel that would generate AI videos for each viewer and could cast the viewer as the lead. The idea is set out in a patent application that Google filed in May 2025. The US Patent and Trademark Office published it on 19 November. Its title is “Creating a Channel of [&hell",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Thousands of Nvidia B300s reportedly go up for sale after US chip rule",
+      "url": "https://thenextweb.com/news/nvidia-b300-resale-us-remote-access-rule-shenzhen",
+      "publishedAt": "2026-11-26T16:34:09.000Z",
+      "excerpt": "Sellers are offering an unusually large number of Nvidia graphics processors, including thousands of B300s, after the US curbed Chinese firms’ remote access to AI chips. Three people told Kai Nicol-Schwarz of CNBC on Wednesday. One of them, Jack Duhamel, is president of GPU Mart, a marketplace for A",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Anthropic’s Amodei hits back at Axios and rival CEOs over AI and free will",
+      "url": "https://thenextweb.com/news/amodei-free-will-ai-axios-vibes-rival-ceos-suleyman",
+      "publishedAt": "2026-11-26T16:25:25.000Z",
+      "excerpt": "Anthropic CEO Dario Amodei says he does not want humans to hand their free will to AI. In a long post on X on Wednesday, he called the suggestion “absurd.” No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do. Dario Amodei [&hellip;] Thi",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Poland’s defence ministry to sign AI software contract with Palantir",
+      "url": "https://thenextweb.com/news/poland-palantir-ai-software-contract",
+      "publishedAt": "2026-11-26T16:14:48.000Z",
+      "excerpt": "Poland’s defence ministry will sign a contract with Palantir Technologies on Friday, and it will buy software that uses AI to help the armed forces make decisions, Reuters reported, citing a ministry statement. Defence minister Władysław Kosiniak-Kamysz will attend the signing at noon at the Polish ",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "42 attorneys general fight Character.AI’s plan to auction users’ chats",
+      "url": "https://thenextweb.com/news/character-ai-chats-auction-attorneys-general-bankruptcy",
+      "publishedAt": "2026-11-26T16:12:38.000Z",
+      "excerpt": "A bipartisan coalition of 42 attorneys general wants a bankruptcy court to stop Character.AI from auctioning users’ private chats. The sale covers more than 21 million US accounts, California Attorney General Rob Bonta said on Tuesday. Of those, more than 2.1 million belong to minors. The chats woul",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Commerce told Intel its 10% stake deal was no negotiation, WIRED reports",
@@ -14048,78 +14130,6 @@
       "url": "https://thenextweb.com/news/fincen-hack-treasury-systems-offline-filing-deadlines",
       "publishedAt": "2026-11-26T15:49:52.000Z",
       "excerpt": "The US Treasury’s Financial Crimes Enforcement Network (FinCEN) is investigating a cybersecurity incident and has taken some systems offline. The bureau posted an alert on its filing website on Tuesday, which The Verge first reported. “FinCEN is investigating a cybersecurity incident that resulted i",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "ApexFlow launches Nuvvo to scale AI-powered, curated mobile supply",
-      "url": "https://thenextweb.com/news/apexflow-nuvvo-ai-powered-curated-mobile-supply",
-      "publishedAt": "2026-11-26T15:37:28.000Z",
-      "excerpt": "Tel Aviv, Israel, November 26th, 2026, TechnologyWire Unifying its O&O app portfolio, direct publisher supply and AI-driven intelligence to deliver smarter buying opportunities. ApexFlow, a mobile advertising technology company, today announced the launch of Nuvvo, a new supply intelligence and mone",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "WhatsApp starts rolling out scheduled messages to users worldwide",
-      "url": "https://thenextweb.com/news/whatsapp-scheduled-messages-rollout",
-      "publishedAt": "2026-11-26T15:10:30.000Z",
-      "excerpt": "WhatsApp has started rolling out scheduled messages, which let users write a message now and have it sent automatically at a later date and time. The Meta-owned app announced the feature on 25 November and calls it one of its most-requested features. To schedule a message, users press and hold the s",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Bank of England warns AI financing is a growing threat to stability",
-      "url": "https://thenextweb.com/news/ai-financing-bank-of-england-financial-stability-hyperscaler-bonds",
-      "publishedAt": "2026-11-26T15:08:58.000Z",
-      "excerpt": "The Bank of England says the way the AI boom is financed is making the global financial system more fragile. AI financing is taking a form that is “increasingly complex, circular and opaque”, the central bank warned. It set out the concern in its Financial Stability Report on Thursday. That makes it",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "S&P puts Nvidia’s AA credit rating on downgrade watch over governance",
-      "url": "https://thenextweb.com/news/nvidia-credit-rating-sp-creditwatch-governance",
-      "publishedAt": "2026-11-26T14:56:46.000Z",
-      "excerpt": "S&P Global Ratings has put Nvidia’s AA credit rating on watch for a possible downgrade. The Jensen Huang saga exposed weak spots in how the company is run and overseen, the agency said in a note on Wednesday. It could cut the rating within 90 days if those problems remain. Any cut would likely be [&",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
-      "url": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
-      "publishedAt": "2026-11-26T14:33:48.000Z",
-      "excerpt": "OpenAI says it made a billing mistake when it launched its new models, GPT-6.2 Astra and Sol. Its fix means paying ChatGPT users will hit their usage limits faster. Compared with last week, the same work will reach the limit 40% faster on Astra and 25% faster on Sol. OpenAI executive Thibault Sottia",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Neuralink gets FDA approval for a late-stage brain implant trial in ALS",
-      "url": "https://thenextweb.com/news/neuralink-fda-approval-link-pivotal-study-als",
-      "publishedAt": "2026-11-26T14:22:11.000Z",
-      "excerpt": "Neuralink has received approval from the US Food and Drug Administration to start a pivotal trial of its brain implant in people with ALS, the company said on Wednesday. Neuralink calls the LINK Pivotal Study the first pivotal trial for an implantable brain-computer interface in the US. A pivotal tr",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "X rolls out its first parental controls for teens aged 13 to 17",
-      "url": "https://thenextweb.com/news/x-parental-controls-teens-13-17",
-      "publishedAt": "2026-11-26T14:03:23.000Z",
-      "excerpt": "X is rolling out its first parental controls, for teens aged 13 to 17. A parent or guardian can see how much time a teen spends on X and set a daily limit. They can also approve new followers and limit the For You feed to accounts the teen already follows, according to X’s Help [&hellip;] This story",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Meta declined to let the FCA test its Muse agent, WIRED reports",
-      "url": "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
-      "publishedAt": "2026-11-26T13:56:46.000Z",
-      "excerpt": "Meta has turned down the UK’s Financial Conduct Authority over testing its Muse agent, WIRED reported on Thursday. The regulator had suggested testing Muse jointly in its sandbox. Colin Payne, the FCA’s head of innovation, said the offer came last week, Isabella Ward reported for WIRED. Meta only to",
       "source": "The Next Web",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14258,6 +14268,17 @@
       "source": "Slashdot",
       "category": "Technology",
       "sourceRole": "community"
+    },
+    {
+      "title": "Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era (Christina Kyriasoglou/Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+      "publishedAt": "2026-11-26T16:50:28.000Z",
+      "excerpt": "Christina Kyriasoglou / Bloomberg : Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era &nbsp; &mdash;&nbsp; SAP SE is preparing a plan to eliminate at least 10,000 positions to transform its software",
+      "source": "Techmeme",
+      "category": "Technology",
+      "sourceUrl": "https://www.techmeme.com/261126/p22#a261126p22",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "UK workers at Rockstar Games vote against a union recognition deal, with only 25% voting in favor; source: 1,544 employees, or 93.2% of eligible workers, voted (Chris Kerr/Vertical Slice)",
@@ -14414,15 +14435,13 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Dragos says unidentified parties accessed confidential data submitted to MiniMax, even after users requested that the company not store or retain their data (Reuters)",
-      "url": "https://www.reuters.com/world/data-chinese-ai-firm-minimax-accessed-by-unidentified-parties-researcher-says-2026-11-26/",
-      "publishedAt": "2026-11-26T09:15:02.000Z",
-      "excerpt": "Reuters : Dragos says unidentified parties accessed confidential data submitted to MiniMax, even after users requested that the company not store or retain their data &nbsp; &mdash;&nbsp; Confidential data submitted to Chinese AI startup MiniMax (0100.HK) was accessed by unidentified parties, a cybe",
-      "source": "Techmeme",
+      "title": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition",
+      "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
+      "publishedAt": "2026-11-26T16:53:58.000Z",
+      "excerpt": "The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261126/p7#a261126p7",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
     },
     {
       "title": "Man sentenced to 47 months in prison after using AI to impersonate streamer N3on",
@@ -14596,11 +14615,92 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Amazon Autos is coming to the UK in its first expansion outside the US",
-      "url": "https://www.engadget.com/2327693/amazon-autos-is-coming-to-the-uk-in-its-first-expansion-outside-the-us/",
-      "publishedAt": "2026-11-25T09:15:37.000Z",
-      "excerpt": "Amazon Autos will start selling cars in the UK early next year, marking the first time it has expanded outside the US.",
-      "source": "Engadget",
+      "title": "This monster gaming laptop with an Nvidia GeForce RTX 5090, 24-core Intel Core Ultra 9 CPU, and 32GB of DDR5 RAM just got a $350 price cut",
+      "url": "https://www.techradar.com/seasonal-sales/this-monster-gaming-laptop-with-an-nvidia-geforce-rtx-5090-24-core-intel-core-ultra-9-cpu-and-32gb-of-ddr5-ram-has-just-had-a-usd350-price-cut",
+      "publishedAt": "2026-11-26T17:15:45.000Z",
+      "excerpt": "I've given up trying to find a gaming PC with an Nvidia RTX 5090 for a realistic price — but this gaming laptop could be a great compromise for Black Friday.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Black Friday 2026 Xbox Series X deals — big price cuts on controllers, headsets, and games, even in the face of console shortages",
+      "url": "https://www.techradar.com/gaming/black-friday-2026-xbox-series-x-deals-big-price-cuts-on-controllers-headsets-and-games-even-in-the-face-of-console-shortages",
+      "publishedAt": "2026-11-26T17:15:31.000Z",
+      "excerpt": "Our picks for the best Black Friday Xbox Series X deals right now, from headsets to controllers and games.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Turn your home office into a 1980s time capsule: I've picked out 12 retro-inspired gadgets for Black Friday that hide genuinely useful modern tech under the hood",
+      "url": "https://www.techradar.com/pro/turn-your-home-office-into-a-1980s-time-capsule-ive-picked-out-12-retro-inspired-gadgets-for-black-friday-that-hide-genuinely-useful-modern-tech-under-the-hood",
+      "publishedAt": "2026-11-26T17:06:35.000Z",
+      "excerpt": "These Black Friday retro desk gadgets are some of my favorites, from a Nintendo-style keyboard and mouse to the iconic Koss Porta Pro headphones.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "A fully 3D-printed quadcopter drone is bidding for a speed world record challenge — but does it have what it takes?",
+      "url": "https://www.techradar.com/pro/a-fully-3d-printed-quadcopter-drone-is-bidding-for-a-speed-world-record-challenge-but-does-it-have-what-it-takes",
+      "publishedAt": "2026-11-26T17:05:00.000Z",
+      "excerpt": "The drone speed record has already been beaten twice this year, just never in front of Guinness - could Bambu Lab's Cape Town challenge change that?",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "007 First Light composers recall learning that Lana Del Rey and Bond composer David Arnold would be the star artists — ‘To say we were delighted would be an understatement’",
+      "url": "https://www.techradar.com/gaming/007-first-light-composers-recall-learning-that-lana-del-rey-and-bond-composer-david-arnold-would-be-the-star-artists-to-say-we-were-delighted-would-be-an-understatement",
+      "publishedAt": "2026-11-26T16:47:34.000Z",
+      "excerpt": "007 First Light composers Joe Henson and Alexis Smith have shared their reaction to learning that Lana Del Rey was the star artist of IOI's Bond game.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "I wasn’t expecting Sonos to discount my favourite headphones of 2026, but the multi-room giant truly upped its game this year — here’s why the Ace Ultra are worth every penny right now",
+      "url": "https://www.techradar.com/audio/wireless-headphones/i-wasnt-expecting-sonos-to-discount-my-favourite-headphones-of-2026-but-the-multi-room-giant-truly-upped-its-game-this-year-heres-why-the-ace-ultra-are-worth-every-penny-right-now",
+      "publishedAt": "2026-11-26T16:46:18.000Z",
+      "excerpt": "I love the Sonos Ace Ultra for their detailed sound, beautiful design, and excellent ANC — and somehow, they're on sale already.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "ASRock's 850W 80 Plus Gold PRO-850G power supply drops to $55 at Newegg, with a native 12V-2x6 cable for new GPUs",
+      "url": "https://www.techradar.com/pro/asrocks-850w-80-plus-gold-pro-850g-power-supply-drops-to-usd55-at-newegg-with-a-native-12v-2x6-cable-for-new-gpus",
+      "publishedAt": "2026-11-26T16:43:21.000Z",
+      "excerpt": "Newegg has discounted the ASRock PRO Series PRO-850G 850W power supply with 80 PLUS Gold efficiency, ATX 3.1 and PCIe 5.1 compliance by 38% for Black Friday.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Still waiting for that Black Friday delivery? It may be a scam, warns NordVPN",
+      "url": "https://www.techradar.com/vpn/vpn-services/black-friday-delivery-scams-nordvpn",
+      "publishedAt": "2026-11-26T16:36:32.000Z",
+      "excerpt": "With the Black Friday shopping season now in full swing, NordVPN's Threat Intelligence research team has identified a network of 54 malicious courier firms backing up fake shops' orders. Here's how to stay safe.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Black Friday OLED TV deals: the very best offers on elite and budget models from LG, Samsung, Sony and more",
+      "url": "https://www.techradar.com/televisions/black-friday-oled-tv-deals-the-very-best-offers-on-elite-and-budget-models-from-lg-samsung-sony-and-more",
+      "publishedAt": "2026-11-26T16:34:57.000Z",
+      "excerpt": "There are tons of Black Friday OLED TV deals live now so we've picked some of our favorites.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Surfshark just dropped improved Black Friday prices - and it's finally better value than this year's fan-favorite Black Friday deal",
+      "url": "https://www.techradar.com/vpn/vpn-services/surfshark-just-dropped-improved-black-friday-prices-and-its-finally-better-value-than-this-years-fan-favorite-black-friday-deal",
+      "publishedAt": "2026-11-26T16:17:48.000Z",
+      "excerpt": "Both are under $2.50 per month, but which should you choose?",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14695,92 +14795,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "I’ve tested dozens of Switch 2 controllers and Joy-Con 2 accessories — here are the ones I’d recommend for every kind of player this Black Friday",
-      "url": "https://www.techradar.com/gaming/gaming-accessories/ive-tested-dozens-of-switch-2-controllers-and-joy-con-2-accessories-here-are-the-ones-id-recommend-for-every-kind-of-player-this-black-friday",
-      "publishedAt": "2026-11-26T15:11:38.000Z",
-      "excerpt": "Whether you play your Switch 2 in handheld, tabletop, or docked mode, here are the controllers to get this Black Friday.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Get the last Paramount+ Black Friday deal before it's gone for good",
-      "url": "https://www.techradar.com/seasonal-sales/this-could-be-the-last-paramount-black-friday-deal-ever-lock-in-a-subscription-for-just-usd2-99-before-its-too-late",
-      "publishedAt": "2026-11-26T15:04:44.000Z",
-      "excerpt": "The best Paramount+ Black Friday deal is back and better than ever — get access to two months of streaming for just $2.99 per month.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How to watch NFL on Thanksgiving 2026: FREE streams, TV channels, schedule",
-      "url": "https://www.techradar.com/entertainment/american-football/nfl-thanksgiving-2026-free",
-      "publishedAt": "2026-11-26T15:00:00.000Z",
-      "excerpt": "All the ways to watch NFL on Thanksgiving 2026 live streams for free, with Detroit vs Chicago and Kansas City vs Buffalo headlining Thursday's three-game slate.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "VW wants to pay EV owners to plug in under new bi-directional charging push",
-      "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/volkswagen-will-pay-its-ev-owners-to-plug-in-overnight-vehicle-to-grid-push-could-mean-10-000-miles-of-free-motoring-for-vw-skoda-and-cupra-owners",
-      "publishedAt": "2026-11-26T14:57:57.000Z",
-      "excerpt": "VW owners could get paid to plug in — bi-directional charging push could make VW, Skoda and Cupra drivers money.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Why businesses must rethink graduate entry in the age of AI",
-      "url": "https://www.techradar.com/pro/why-businesses-must-rethink-graduate-entry-in-the-age-of-ai",
-      "publishedAt": "2026-11-26T14:53:28.000Z",
-      "excerpt": "How businesses can harness AI while developing the next generation of professionals.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Immerse yourself in the world of Vice City and GTA 6 with SCUF, Corsair and Elgato gear",
-      "url": "https://www.techradar.com/gaming/gaming-accessories/immerse-yourself-in-the-world-of-vice-city-and-gta-6-with-scuf-corsair-and-elgato-gear",
-      "publishedAt": "2026-11-26T14:40:28.000Z",
-      "excerpt": "The biggest game of the decade is finally here, so make sure you experience GTA 6 the best possible way with a premium setup that will bring Leonida to life and enable you to play at your best.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Black Friday MacBook Pro deals: the latest MacBook Pro M6 is already getting a huge discount, along with the PROLED M5 Max, PROLED M5 Pro, and more",
-      "url": "https://www.techradar.com/seasonal-sales/best-black-friday-macbook-pro-deals",
-      "publishedAt": "2026-11-26T14:36:05.000Z",
-      "excerpt": "If you're looking for the best Black Friday MacBook Pro deals, we have you covered, with the new M6 and PROLED M5 models getting sizable discounts.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Amazon Black Friday deals live — our 101 top picks",
-      "url": "https://www.techradar.com/live/news/amazon-uk-black-friday-deals-2026-november-26",
-      "publishedAt": "2026-11-26T14:34:30.000Z",
-      "excerpt": "The Amazon UK Black Friday sale is here, so we've picked out 101 of the best deals on TVs, appliances, laptops and more",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Black Friday coffee deals: big savings on Breville, Ninja, De'Longhi and Smeg, plus fresh beans",
-      "url": "https://www.techradar.com/seasonal-sales/black-friday-coffee-maker-deals-2026-nov-26",
-      "publishedAt": "2026-11-26T14:24:15.000Z",
-      "excerpt": "I'm TechRadar's resident coffee expert, and I've combed through all this year's Black Friday offers to bring you the biggest savings.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Thinking of switching from Proton VPN this Black Friday? I’d pick Surfshark, Windscribe, or NordVPN — deals start from $2.29 a month",
-      "url": "https://www.techradar.com/vpn/vpn-services/proton-vpn-black-friday-alternatives-2026",
-      "publishedAt": "2026-11-26T14:20:24.000Z",
-      "excerpt": "Proton's Black Friday deal is tough to beat, but here are the best alternatives",
-      "source": "TechRadar",
+      "title": "Thanksgiving deals: M5 MacBook Air $400 off, MacBook Neo $100 off, Apple Watch Ultra 4 $150 off, more",
+      "url": "https://9to5mac.com/2026/11/26/deals-macbook-air-neo-apple-watch-ultra-4/",
+      "publishedAt": "2026-11-26T16:29:40.000Z",
+      "excerpt": "Black Friday might have started last week, but the Amazon Thanksgiving sale is now live and it is not playing around. Alongside the banger $100 price drop on AirPods Pro 3 , the M ac deals are absolutely crazy today: $400 off M5 MacBook Air , all MacBook Neo models at $100 off starting at $599 , and",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14951,15 +14970,6 @@
       "url": "https://9to5mac.com/2026/11/25/apple-touts-longest-battery-life-ever-in-an-iphone-in-playful-new-18-pro-max-ad/",
       "publishedAt": "2026-11-25T18:11:34.000Z",
       "excerpt": "Apple just dropped a playful new iPhone 18 Pro Max ad that touts the model’s “longest battery life ever in an iPhone.” more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Apple TV hit comedy from Ted Lasso, Shrinking creator returns next week",
-      "url": "https://9to5mac.com/2026/11/25/apple-tv-hit-comedy-from-ted-lasso-shrinking-creator-returns-next-week/",
-      "publishedAt": "2026-11-25T17:45:52.000Z",
-      "excerpt": "Apple TV ( now $6.99/month for Black Friday ) has a new season of hit comedy Bad Monkey coming next week from Bill Lawrence, co-creator of Ted Lasso and Shrinking. Here’s what Lawrence says to expect from Bad Monkey season 2. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -16560,6 +16570,15 @@
       "category": "Design"
     },
     {
+      "title": "Best LGBTQ+ TV Shows of 2026 and Where to Stream Them",
+      "url": "https://www.them.us/entertainment/tv-and-movies/lgbt-tv-shows-2026",
+      "publishedAt": "2026-11-26T16:00:02.000Z",
+      "excerpt": "Queer television had some pretty big shoes to fill in 2026! After all, 2025 was a pretty incredible year for LGBTQ+ stories. From the lesbian-led sci-fi sensation Pluribus to the scandalously sapphic drama of The Hunting Wives , queer television was having a moment. And just when we thought the year",
+      "source": "Them",
+      "category": "Culture",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "If You Think Club Kid Was “Conservative,” God Help You",
       "url": "https://www.them.us/entertainment/tv-and-movies/club-kid-conservative-jordan-firstman",
       "publishedAt": "2026-11-25T22:23:39.000Z",
@@ -16731,11 +16750,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Florida’s First Trans Elected Official Quinnie Pérez Says Her Win Is “Bigger Than Myself”",
-      "url": "https://www.them.us/politics/quinnie-perez-trans-win-florida",
-      "publishedAt": "2026-11-24T17:40:41.000Z",
-      "excerpt": "This story originally appeared on The Advocate . Quinnie Pérez quietly made history in Florida on November 3. In the midterm elections, as the Sunshine State remained red amid a “blue wave” of Democratic political wins, the transgender 32-year-old was elected to one of two open seats on the five-mem",
-      "source": "Them",
+      "title": "The Hunting Wives Recap: Thunder and Lightning",
+      "url": "http://www.vulture.com/article/the-hunting-wives-recap-season-2-episode-4-netflix.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "publishedAt": "2026-11-26T15:00:45.000Z",
+      "excerpt": "With her biggest secret revealed, Sophie had nothing to do but spiral into a panic.",
+      "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
     },
@@ -16906,15 +16925,6 @@
       "url": "http://www.vulture.com/article/rhoslc-recap-episode-11-maui-mystery-solved.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
       "publishedAt": "2026-11-26T02:00:45.000Z",
       "excerpt": "There is nothing the SLC wives love more than getting to the bottom of a whodunnit while on a cast trip.",
-      "source": "New York Magazine (Intelligencer)",
-      "category": "Culture",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Andy Taylor, Guitarist for Duran Duran, Dies at 65",
-      "url": "http://www.vulture.com/article/duran-duran-andy-taylor-death.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-      "publishedAt": "2026-11-25T23:20:07.000Z",
-      "excerpt": "Taylor missed the band’s induction into the Rock and Roll Hall of Fame in 2022 due to his prostate cancer diagnosis.",
       "source": "New York Magazine (Intelligencer)",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17400,6 +17410,14 @@
       "category": "Culture"
     },
     {
+      "title": "How Much of Quentin Tarantino’s Scrapped Film ‘The Movie Critic’ Made It Into ‘The Further Mis-Adventures of Cliff Booth’?",
+      "url": "https://www.indiewire.com/features/commentary/quentin-tarantino-the-movie-critic-cliff-booth-1235230943/",
+      "publishedAt": "2026-11-26T17:00:00.000Z",
+      "excerpt": "Parallels between the two projects are obvious, so allow us to speculate on where one script ended and another began.",
+      "source": "IndieWire",
+      "category": "Culture"
+    },
+    {
       "title": "Robert Aramayo’s Star-Making Turn in ‘I Swear’ Is Already Award-Winning, Now He Just Wants People to See It",
       "url": "https://www.indiewire.com/features/interviews/robert-aramayo-i-swear-baftas-john-davidson-tourettes-1235190387/",
       "publishedAt": "2026-11-26T16:00:00.000Z",
@@ -17484,14 +17502,6 @@
       "url": "https://www.indiewire.com/features/craft/cinematographer-caleb-deschanel-on-the-right-stuff-1235230087/",
       "publishedAt": "2026-11-25T19:00:00.000Z",
       "excerpt": "With the 1983 classic newly available from Criterion, the director of photography looks back on working with director Philip Kaufman to create a great American epic.",
-      "source": "IndieWire",
-      "category": "Culture"
-    },
-    {
-      "title": "Where Are Rick Dalton and Sharon Tate in ‘The Further Mis-Adventures of Cliff Booth’?",
-      "url": "https://www.indiewire.com/features/general/cliff-booth-where-are-rick-dalton-sharon-tate-sequel-1235230919/",
-      "publishedAt": "2026-11-25T18:30:00.000Z",
-      "excerpt": "Only one of the central stars of \"Once Upon a Time in Hollywood\" is back for the David Fincher-directed sequel, but that doesn't mean the other two don't pop up in their own ways.",
       "source": "IndieWire",
       "category": "Culture"
     },
@@ -23822,6 +23832,15 @@
       "discoveryChannel": "curator:Waxy"
     },
     {
+      "title": "\"You are never going to make it look exactly like the picture,\" he said.",
+      "url": "https://www.metafilter.com/215303/You-are-never-going-to-make-it-look-exactly-like-the-picture-he-said",
+      "publishedAt": "2026-11-26T16:34:41.000Z",
+      "excerpt": "It's that reliable time of the year again, when sparkling Winter and Christmas events are lavishly advertised but turn out to be ... less sparkling. The first entry for this year is the Kernow Christmas Market in Pool, Cornwall . More in the Metro : \"Another said that Santa didn't even turn up to th",
+      "source": "MetaFilter",
+      "category": "Discover",
+      "sourceRole": "community"
+    },
+    {
       "title": "OK, so this right here is about food and economics",
       "url": "https://www.metafilter.com/215302/OK-so-this-right-here-is-about-food-and-economics",
       "publishedAt": "2026-11-26T15:27:12.000Z",
@@ -23880,15 +23899,6 @@
       "url": "https://www.metafilter.com/215296/Pillowfort-is-closing",
       "publishedAt": "2026-11-25T18:50:09.000Z",
       "excerpt": "The social media site Pillowfort announced in October that it is shutting down, and will close on December 4th, 2026 . Per the staff's subsequent posts , Pillowfort has made it possible for users to export and download their blogs, and plans to open its source code repository after the site shuts do",
-      "source": "MetaFilter",
-      "category": "Discover",
-      "sourceRole": "community"
-    },
-    {
-      "title": "Cover up the blank spots, hit me on the head, I go Ooo-o-o-ooh!",
-      "url": "https://www.metafilter.com/215295/Cover-up-the-blank-spots-hit-me-on-the-head-I-go-Ooo-o-o-ooh",
-      "publishedAt": "2026-11-25T16:17:19.000Z",
-      "excerpt": "What's better than turkey dinner? What is compatible with everybody's dietary restrictions? What won't get into an uncomfortable argument about politics with your grandpa? Maybe I'm overpromising, but the answer has to be COVER SONGS. You won't believe how many people are coming to this Thanksgiving",
       "source": "MetaFilter",
       "category": "Discover",
       "sourceRole": "community"
@@ -24274,6 +24284,30 @@
       "discoveryChannel": "curator:Dense Discovery"
     },
     {
+      "title": "英格蘭一代翼鋒史達寧毒駕罪成 曾風光無限 離開曼城斷崖式滑落",
+      "url": "https://hk01.com/sns/article/60415426",
+      "publishedAt": "2026-11-26T17:01:36.000Z",
+      "excerpt": "不知何故，英格蘭10號球衣的主人，天才橫溢的背後，往往在球場以外總是麻煩份子。近日朗尼在真人騷節目《I'm a Celebrity... Get Me Out of Here!》中剖白球員年代酗酒問題極嚴重，最新輪到今年5月毒駕被捕的史達寧（Raheem Sterling），被判囚12個月，緩刑18個月。曾經在球會和國家隊均是必然正選、春風得意的天才翼鋒，這些年到底發生了什麼事？ 史達寧毒駕罪成，獲判緩刑離開法院。（路透社） 牙買加出生的問題兒童 小學老師預言奇準 史達寧跟不少足球員一樣有個艱苦童年，在牙買加出生，2歲的時候爸爸在當地被槍殺，媽媽Nadine在他5歲的時候帶着他移居英國。Nad",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "特朗普：冀普京停止所有歐洲軍事侵略行動 與烏克蘭盡快達成協議",
+      "url": "https://hk01.com/sns/article/60415457",
+      "publishedAt": "2026-11-26T16:56:04.000Z",
+      "excerpt": "美國總統特朗普（Donald Trump）11月26日（周四）在社交平台Truth Social表示，他上周曾向俄羅斯領導人普京（Vladimir Putin）表示，希望俄羅斯能收斂其在歐洲各地的軍事侵略行動，藉此促成烏克蘭戰爭的迅速解決。 特朗普發文稱，「在中國與俄羅斯總統普京交談時，我花了許多時間強調，希望普京總統能停止在歐洲各地的所有軍事侵略行動。我希望能促成俄羅斯與烏克蘭之間達成協議，而且要盡快達成。」 特朗普亦表示，「我真心認為這極有可能實現——現在每個月都有數千人喪生，這簡直是一場徹底的血腥浩劫。」 2026年11月19日，美國總統特朗普會晤俄羅斯總統普京（Reuters） 身為北",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
+      "title": "馬貫東被揭母親與李家鼎曾是情侶後首度同場 透露台下非零互動",
+      "url": "https://hk01.com/sns/article/60415442",
+      "publishedAt": "2026-11-26T16:30:36.000Z",
+      "excerpt": "馬貫東今日（26日）出席TVB《長期服務暨傑出員工榮譽大獎頒獎典禮2026》領取20年長期服務獎。他接受訪問時，直言獎項好有份量：「我用咗20年時間喺呢間公司學習、成長進步，係一個好有份量嘅紀念。」他又提到《鐵馬戰車》的「揚名」是首個令香港觀眾認識自己的重要角色，並強調從不覺得過去的演藝路難捱。他被問及與同場的李家鼎（鼎爺）及李泳豪（豪仔）的互動，隨即澄清與鼎爺並非「冇溝通」。 馬貫東領取20年長期服務獎。(盧振輝 攝) 關係曝光後首同場 被分隔坐兩邊零交流 今日亦是自爆出馬貫東母親是鼎爺前女友後，他與鼎爺及豪仔首次同場現身。就現場所見，豪仔與鼎爺同坐，而馬貫東則被安排坐另外一面，三人在頒獎典",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "GTA 6主線爆機流程攻略｜全5大章節故事大綱及108個任務列表一覽",
       "url": "https://hk01.com/sns/article/60414868",
       "publishedAt": "2026-11-26T16:14:50.000Z",
@@ -24285,7 +24319,7 @@
       "title": "非法改動護照｜情侶涉無合法授權改護照等3罪 最高罰$15萬囚14年",
       "url": "https://hk01.com/sns/article/60415454",
       "publishedAt": "2026-11-26T16:13:06.000Z",
-      "excerpt": "一名香港女子周三（25日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 根據《入境條例》，任何人無合法權限授權而改動旅行證件，即屬犯罪，一經定罪，最高可被判罰款15萬元及監禁14年，協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款1萬元及監禁6個月。 入境處經調查後展開執法行",
+      "excerpt": "一名香港女子周二（24日）於社交平台Threads發文，報稱其特區護照缺頁，與男朋友於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處調查後，周四（26日）拘捕一對情侶，涉嫌沒有合法授權而改動該特區護照、管有及使用非法改動的旅行證件及誤導入境處事務隊人員。 根據《入境條例》，任何人無合法權限授權而改動旅行證件，即屬犯罪，一經定罪，最高可被判罰款15萬元及監禁14年，協助及教唆者同罪。此外，根據《入境事務隊條例》，任何人提供虛假資料、作出虛假陳述或指控以誤導入境事務隊人員，亦屬犯罪，一經定罪，最高可被判罰款1萬元及監禁6個月。 入境處經調查後展開執法行",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24330,30 +24364,6 @@
       "category": "Hong Kong"
     },
     {
-      "title": "東張西望｜貓咪切錯膀胱慘死 金主變水魚收律師信：明顯想我收聲",
-      "url": "https://hk01.com/sns/article/60415430",
-      "publishedAt": "2026-11-26T15:45:50.000Z",
-      "excerpt": "TVB節目《東張西望》今日（26日）繼續追查貓咪「妮妮」進行絕育手術時，疑遭護士切錯膀胱慘死的事件。節目中，有獸醫挺身指證涉事的Polly早有前科，曾要求將絕育手術交由她操刀，更堅持親自為Chloe的愛貓動手術。 有獸醫挺身指證涉事的Polly早有前科，曾要求將絕育手術交由她操刀。(節目截圖) 夾錢120萬被當「水魚」 拍檔公開錄音即收律師信 另一邊廂，曾夾錢120萬元與Polly合資開診所的周生大爆診所帳目極度混亂，不但花費18萬多元聲稱經獵頭公司聘請醫生，惟該醫生根本未曾申請，更將10多萬元貓糧運往斜對面新診所。診所開業22個月，周生直言：「我哋連咩數都未睇過，當我水魚。」當他要求退出並拒",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "SmarTone數碼通死機｜官方指服務全面恢復正常 不涉網絡保安事故",
-      "url": "https://hk01.com/sns/article/60415449",
-      "publishedAt": "2026-11-26T15:33:44.000Z",
-      "excerpt": "手提電話流動網絡供應商「SmarTone 數碼通」，於今日（26日）下午2時左右，有用戶反映訊號突然中斷，數碼通於下午近3時確認部份地區的網絡服務不穩定。數碼通今晚（26日）表示，服務已全面恢復正常，並就事件向顧客致歉。經初步調查，已排除涉及網絡保安事故，工程團隊正全面檢視及跟進，確保網絡持續穩定運作。 手提電話流動網絡供應商「SmarTone 數碼通」，於今日（26日）下午2時左右，有用戶反映訊號突然中斷。（資料圖片/區慶威攝） 下午2時半，不少網民在社交平台Threads發文查詢網絡狀況，其中有網民發帖問道：「SmarTone 係咪死咗？」，不少受影響網民紛紛湧入留言討論斷線情況。從用戶提",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "新加坡實習醫生在墨爾本醫院偷拍同事 受害者法庭痛哭描繪創傷",
-      "url": "https://hk01.com/sns/article/60415438",
-      "publishedAt": "2026-11-26T15:30:34.000Z",
-      "excerpt": "一名新加坡實習醫生於澳洲墨爾本（Melbourne）的多間醫院，偷拍數百名醫院同事在工作期間使用廁所及淋浴間的片段。受害者於當地時間周一（23日）在墨爾本的法院內失聲痛哭，詳細描述這些侵犯行為對她們帶來創傷。 新加坡《海峽時報》報道 ，前外科實習醫生Ryan Cho在墨爾本郡法院（Melbourne County Court）面對面聽取部分受害者陳述，而該案確認受害者共達874人。 Ryan Cho出生於馬來西亞，是新加坡公民，2017年服完兵役後，於2018年移居澳洲，並在蒙納士大學（Monash University）學習醫學。 檢方描述Cho的作案手法，他將手機藏在網狀洗衣袋中，並掛在廁",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
       "title": "屯門快餐店現鼠蹤｜食環署發改善清潔通知 另檢控兩間食肆持牌人",
       "url": "https://hk01.com/sns/article/60415447",
       "publishedAt": "2026-11-26T15:15:09.000Z",
@@ -24365,7 +24375,7 @@
       "title": "入境處指有人網稱特區護照出廠缺頁 調查後拘情侶涉非法改動護照",
       "url": "https://hk01.com/sns/article/60415444",
       "publishedAt": "2026-11-26T14:46:23.000Z",
-      "excerpt": "一名香港女子日前於社交平台Threads發文，報稱因特區護照缺頁，於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處經詳細檢視涉事護照及跟進調查後，據了解，今日（26日）於藍田平田邨平真樓，拘捕一男一女香港居民，涉嫌沒有合法授權而改動該特區護照。據了解，涉案護照已發出8年。兩被捕人為情侶關係，並曾使用過該護照前往台灣、韓國及泰國等地。 入境事務處召開記者會交代案情指，入境處執法部展開調查，向當事人錄取口供及檢走護照調查。根據記錄，涉事護照簽發8年，曾出入多個地方均沒有問題。政府化驗所化驗後證實，護照上有人為造成的紙碎殘留物，認為有人為改動。入境處指，",
+      "excerpt": "一名香港女子日前於社交平台Threads發文，報稱因特區護照缺頁，於日本入境時被拒並遭原機遣返，事主隨後親身到入境處協助調查及錄口供，並重申從未損毀護照。入境處經詳細檢視涉事護照及跟進調查後，據了解，今日（26日）於藍田平田邨平真樓，拘捕一男一女香港居民，涉嫌沒有合法授權而改動該特區護照。據了解，涉案護照已發出8年。兩被捕人為情侶關係，並曾使用過該護照前往台灣、韓國及泰國等地。 消息指，涉案兩人分別為一名27歲女子，報稱任職地產代理，以及一名34歲男子，報稱任職網絡維修工人，兩人早前一同出國並一同返港。昨日當事人親身前往將軍澳旅遊證件組別，申請補領護照並查詢證件缺頁原因。當局懷疑證件涉及人為改",
       "source": "香港01",
       "category": "Hong Kong"
     },
@@ -24402,6 +24412,14 @@
       "category": "Hong Kong"
     },
     {
+      "title": "SmarTone數碼通死機｜網絡訊號中斷 手機現「沒有服務」無法上網",
+      "url": "https://hk01.com/sns/article/60415271",
+      "publishedAt": "2026-11-26T07:10:17.000Z",
+      "excerpt": "今日（26日）下午約2時半，本港有電訊商的流動網絡服務懷疑出現突發故障。SmarTone（數碼通）的手機訊號突然中斷，有用戶手機顯示「沒有服務」，無法使用流動數據上網及通話，事件隨即在社交平台引起網民熱議。 不少網民在Threads追問是否Smartone死機，並指有人到門市了解。 下午2時半，不少網民在社交平台Threads發文查詢網絡狀況，其中有網民發帖問道：「Smartone 係咪死咗？」，不少受影響網民紛紛湧入留言討論斷線情況。 亦有用戶提供的手機截圖可見，在今日下午3時02分，涉事手機右上角的流動網絡訊號欄出現感嘆號，並顯示「沒有服務」，用戶在流動網絡中斷期間需依賴連接Wi-Fi才能",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "宏福苑大火一周年．01社論｜痛定思痛 刮骨療傷",
       "url": "https://hk01.com/sns/article/60415049",
       "publishedAt": "2026-11-26T06:33:59.000Z",
@@ -24410,26 +24428,18 @@
       "category": "Hong Kong"
     },
     {
+      "title": "人工中位數2026│月薪呢個數高過一半打工仔！各行業人工差距幾多",
+      "url": "https://hk01.com/sns/article/60415215",
+      "publishedAt": "2026-11-26T05:23:22.000Z",
+      "excerpt": "【港人月薪2026／薪酬待遇2026／統計處／最新數據／人工中位數2026 / 2026年11月最新公布】統計處公布最新2026年7至9月、令年第三季就業人士月入數據，你的薪金到底是否合乎行情呢？數據顯示，2026年7月至9月港人就業收入中位數為23,000元，按年上升700元，按月比較則不變。數據還顯示，男性和女性月入中位數相差4,900元，哪一個行業的薪金性別差距最大？至於不同行業、職級最新的工資中位數又是多少，即比較數據看看你人工有否「underpaid」！ 統計處2026年11月公布最新薪酬數據 ，2026年7月至9月（註：移動3個月期間），本港市民每月就業收入中位數（不包括外籍家庭傭",
+      "source": "香港01",
+      "category": "Hong Kong"
+    },
+    {
       "title": "荃灣鼎大開倉｜神秘老字號再1日限定開倉 全日350籌1小時內派完",
       "url": "https://hk01.com/sns/article/60415216",
       "publishedAt": "2026-11-26T05:18:45.000Z",
       "excerpt": "荃灣鼎大開倉｜荃灣沙咀道工廈林立，其中大成大廈地舖外牆掛有「鼎大 Ting Tai」巨型復古招牌，平日大閘長年緊閉，令不少街坊誤以為舖位早已丟空。鼎大繼上周四（19日）「快閃開倉」2小時掀起討論後，今日（26日）再「1日限定」開倉，吸引不少人到場一睹其廬山真面目。今早10時半派籌前，鼎大門外排起人龍，現場已在派下午3時半的籌，到上午11時多更已派完全日的350張籌。有關方面早前已公布每人限取1張，派完即止，籲「冇籌請勿久等」。 2026年11月26日早上11時多，派籌未消一句鐘，荃灣鼎大已派完全日的籌。（洪戩昊攝） 根據鼎大旗下「三元牌（Rings Brand）」官方網站資料，鼎大金屬廠由潮州",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "普京被爆愛食粵菜 親點牛坑腩滷水豬腳膏蟹蒸肉餅 仲打包上飛機",
-      "url": "https://hk01.com/sns/article/60415130",
-      "publishedAt": "2026-11-26T04:15:20.000Z",
-      "excerpt": "亞太經合組織（APEC）會議周期間，俄羅斯總統普京（Vladimir Putin，又譯普丁或蒲亭）下榻深圳康萊德酒店（Conrad Shenzhen）。11月25日，內媒深視新聞記者來到康萊德酒店探訪。據酒店總經理卡特介紹，普京在離店前留下了親筆簽名，並說「謝謝」。 俄羅斯總統團隊離店時，還特意留下伏特加等俄羅斯特產作為回贈。酒店餐飲部主管告訴記者：「經過這兩天的相處，總統團隊的隨行人員對我們非常信任。」 點圖看普京愛吃哪些中國菜： APEC會議周期間，滷水豬腳、大黃魚被俄羅斯總統普京反覆欽點。（微博圖片） APEC會議周期間，俄羅斯總統普京（Vladimir Putin）下榻深圳康萊德酒店（",
-      "source": "香港01",
-      "category": "Hong Kong"
-    },
-    {
-      "title": "珍惜生命｜上水警署男警疑自轟 頭中槍當場身亡 重案組跟進調查",
-      "url": "https://hk01.com/sns/article/60415068",
-      "publishedAt": "2026-11-26T04:10:42.000Z",
-      "excerpt": "上水警署有警員疑自轟身亡。今日（26日）上午10時許，一名男警員在警署2樓更衣室位置以佩槍自轟自殺，當場死亡。現場可見，有救護車候命，亦有刑事調查隊人員在內了解。 死者為新界北總區交通部交通意外調查組警員。警方深表難過及惋惜，對其家屬致以慰問，亦會提供適切協助。案件由新界北總區重案組跟進調查。 救護車一度停在警署戒備。（翁鈺輝攝） 警方表示，上午約10時20分，發現一名隸屬新界北總區交通部交通意外調查組的39歲男警員，在上水警署一更衣室洗手間內受傷。他頭部有槍傷，現場被證實死亡；其身旁有一把佩槍。 經初步調查後，相信他用獲發的佩槍自殺。警方稍後將安排為死者驗屍，以確定其死因。案件由新界北總區重",
       "source": "香港01",
       "category": "Hong Kong"
     },

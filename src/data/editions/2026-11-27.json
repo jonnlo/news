@@ -2,15 +2,23 @@
   "version": 2,
   "collectionMode": "source-led",
   "date": "2026-11-27",
-  "generatedAt": "2026-11-26T19:39:56.428Z",
-  "collectedAt": "2026-11-26T19:39:56.428Z",
+  "generatedAt": "2026-11-26T20:17:22.096Z",
+  "collectedAt": "2026-11-26T20:17:22.096Z",
   "timezone": "Asia/Hong_Kong",
   "sourcesChecked": 77,
-  "sourcesUpdated": 76,
+  "sourcesUpdated": 74,
   "sourceErrors": [
     {
       "source": "Hyperallergic",
       "error": "HTTP 404"
+    },
+    {
+      "source": "Asian Review of Books",
+      "error": "Source returned no recognizable stories"
+    },
+    {
+      "source": "Dense Discovery",
+      "error": "Source returned no recognizable stories"
     }
   ],
   "sources": [
@@ -20,6 +28,15 @@
       "kind": "hackernews",
       "count": 20,
       "stories": [
+        {
+          "title": "The USA as a Civilizations-esque map",
+          "url": "https://karpathy.ai/usaciv/",
+          "publishedAt": "2026-11-26T19:53:58.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+        },
         {
           "title": "George Whitesides, 1939-2026",
           "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
@@ -39,31 +56,13 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50657645"
         },
         {
-          "title": "YouTube Ad Punisher – Bypass anti-adblock",
+          "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
           "url": "https://github.com/antonpictures/youtube-punisher",
           "publishedAt": "2026-11-26T17:36:47.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50657530"
-        },
-        {
-          "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning",
-          "url": "https://github.com/deepseek-ai/deepseek-math",
-          "publishedAt": "2026-11-26T17:21:14.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50657355"
-        },
-        {
-          "title": "Tracking Diseases Cured by AI",
-          "url": "https://diseasescuredbyai.com/",
-          "publishedAt": "2026-11-26T17:16:41.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50657307"
         },
         {
           "title": "AMD Specific Patches for Llama.cpp",
@@ -93,13 +92,13 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50657059"
         },
         {
-          "title": "Ask HN: Any courses/products by indie makers worth getting today?",
-          "url": "https://news.ycombinator.com/item?id=50656763",
-          "publishedAt": "2026-11-26T16:16:41.000Z",
+          "title": "Kagi Watch",
+          "url": "https://kagi.com/watch",
+          "publishedAt": "2026-11-26T16:28:54.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50656763"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50656862"
         },
         {
           "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
@@ -165,13 +164,31 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
         },
         {
-          "title": "Moat: Your OpenRouter Replacement",
+          "title": "OpenAI may be in cost control mode",
+          "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+          "publishedAt": "2026-11-26T07:33:12.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
+        },
+        {
+          "title": "Moat: OpenRouter replacement",
           "url": "https://commandcode.ai/moat",
           "publishedAt": "2026-11-26T06:32:48.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
           "discussionUrl": "https://news.ycombinator.com/item?id=50652184"
+        },
+        {
+          "title": "An algebraic quantization of gravity from the null cone",
+          "url": "https://arxiv.org/abs/2611.34924",
+          "publishedAt": "2026-11-26T05:37:51.000Z",
+          "excerpt": "",
+          "source": "Hacker News",
+          "category": "Technology",
+          "discussionUrl": "https://news.ycombinator.com/item?id=50651863"
         },
         {
           "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
@@ -183,25 +200,16 @@
           "discussionUrl": "https://news.ycombinator.com/item?id=50651719"
         },
         {
-          "title": "Minipg: PostgreSQL as a Single Executable",
-          "url": "https://progrium.github.io/minipg/",
-          "publishedAt": "2026-11-26T03:00:48.000Z",
+          "title": "NormalScript: A perfectly normal scripting language",
+          "url": "https://psychoscript.com/",
+          "publishedAt": "2026-11-26T04:32:26.000Z",
           "excerpt": "",
           "source": "Hacker News",
           "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50650892"
-        },
-        {
-          "title": "Tell HN: Lots of Ask HNs again",
-          "url": "https://news.ycombinator.com/item?id=50649864",
-          "publishedAt": "2026-11-26T00:43:34.000Z",
-          "excerpt": "",
-          "source": "Hacker News",
-          "category": "Technology",
-          "discussionUrl": "https://news.ycombinator.com/item?id=50649864"
+          "discussionUrl": "https://news.ycombinator.com/item?id=50651430"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Verge",
@@ -370,7 +378,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "WIRED",
@@ -539,7 +547,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Ars Technica",
@@ -708,7 +716,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "MIT Technology Review",
@@ -877,7 +885,7 @@
           "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "TechCrunch",
@@ -885,6 +893,22 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "publishedAt": "2026-11-26T20:03:54.000Z",
+          "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
+        {
+          "title": "Is Alice Huang a spy or not?",
+          "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "excerpt": "The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.",
+          "source": "TechCrunch",
+          "category": "Technology"
+        },
         {
           "title": "X finally gets parental controls after 20 years",
           "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
@@ -1028,25 +1052,9 @@
           "excerpt": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
           "source": "TechCrunch",
           "category": "Technology"
-        },
-        {
-          "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
-          "url": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
-          "publishedAt": "2026-11-25T13:08:19.000Z",
-          "excerpt": "Flipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found.",
-          "source": "TechCrunch",
-          "category": "Technology"
-        },
-        {
-          "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-          "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-          "publishedAt": "2026-11-25T13:00:00.000Z",
-          "excerpt": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-          "source": "TechCrunch",
-          "category": "Technology"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Next Web",
@@ -1054,6 +1062,33 @@
       "kind": "rss",
       "count": 10,
       "stories": [
+        {
+          "title": "Binance fully reopens withdrawals nearly a month after its $6.3B hack",
+          "url": "https://thenextweb.com/news/binance-withdrawals-reopen-6-3bn-hack-recovery-complete",
+          "publishedAt": "2026-11-26T20:06:21.000Z",
+          "excerpt": "Binance has lifted the last of the withdrawal limits it put in place after its record $6.3 billion hack in October. The exchange said on Thursday that its withdrawal recovery work is complete. “Our withdrawal recovery work is completed and the withdrawal suspension from the October security incident",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Firms set up memory chip ‘war rooms’ as some prices jump 10x, WSJ reports",
+          "url": "https://thenextweb.com/news/memory-shortage-war-rooms-musk-samsung-wsj",
+          "publishedAt": "2026-11-26T19:51:41.000Z",
+          "excerpt": "Electronics makers have set up procurement “war rooms” to hunt for memory chips. Prices for some chips have risen tenfold in a year, Jiyoung Sohn and Sooyoung Rhee reported for The Wall Street Journal. Staff scour eBay, call hundreds of brokers and buy batches as small as five to 12 units, the newsp",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Signal’s Moxie Marlinspike says AI safety is building mass surveillance",
+          "url": "https://thenextweb.com/news/moxie-marlinspike-ai-surveillance-confer-encryption",
+          "publishedAt": "2026-11-26T19:42:36.000Z",
+          "excerpt": "Moxie Marlinspike, who built Signal, says the way AI companies police misuse is turning into the biggest mass surveillance system ever built. He wants the watching pointed at the AI models instead of the people using them, he told Tyler Cowen on Conversations with Tyler. The episode was recorded liv",
+          "source": "The Next Web",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Rockstar staff vote 75% against union recognition a week after GTA VI",
           "url": "https://thenextweb.com/news/rockstar-union-vote-iwgb-recognition-gta-vi-staff",
@@ -1116,36 +1151,9 @@
           "source": "The Next Web",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Moonshot reportedly turns to Google and Meta models for distillation",
-          "url": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
-          "publishedAt": "2026-11-26T16:55:44.000Z",
-          "excerpt": "Moonshot AI has begun distilling from Google and Meta models after OpenAI and Anthropic made theirs harder to copy, Reuters reported. Z.ai’s GLM-5.5 has missed its November target, and new US rules on overseas computing could push it and Moonshot’s Kimi K4 further back. Chinese AI lab Moonshot has b",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Nvidia agrees to pay $290M to settle 2018 crypto mining investor lawsuit",
-          "url": "https://thenextweb.com/news/nvidia-settlement-290m-crypto-mining-shareholder-lawsuit",
-          "publishedAt": "2026-11-26T16:50:37.000Z",
-          "excerpt": "Nvidia has agreed to pay $290 million to settle a 2018 shareholder lawsuit over how much of its gaming chip sales came from cryptocurrency miners. The investors leading the class action asked a federal judge in California to approve the deal in a filing on Tuesday, Mike Scarcella reported for Reuter",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Google patent describes an AI TV channel that casts you as the star",
-          "url": "https://thenextweb.com/news/google-my-channel-patent-ai-tv-shows-starring-you",
-          "publishedAt": "2026-11-26T16:43:23.000Z",
-          "excerpt": "Google has described a TV channel that would generate AI videos for each viewer and could cast the viewer as the lead. The idea is set out in a patent application that Google filed in May 2025. The US Patent and Trademark Office published it on 19 November. Its title is “Creating a Channel of [&hell",
-          "source": "The Next Web",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Slashdot",
@@ -1153,6 +1161,15 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Australia Passes Tough Legislation Requiring Big Tech to Preempt Foreseeable Harms",
+          "url": "https://yro.slashdot.org/story/26/11/25/2326240/australia-passes-tough-legislation-requiring-big-tech-to-preempt-foreseeable-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "excerpt": "Australia's Parliament has passed the Digital Duty of Care Act, requiring online platforms to proactively identify and mitigate foreseeable harms or face potentially billions of dollars in fines. The Record reports: Platforms are required to detect and decrease risks from harmful content and must bo",
+          "source": "Slashdot",
+          "category": "Technology",
+          "sourceRole": "community"
+        },
         {
           "title": "Anthropic Created a Honeypot To Lure AI Agents Into Misbehaving",
           "url": "https://slashdot.org/story/26/11/25/2251246/anthropic-created-a-honeypot-to-lure-ai-agents-into-misbehaving?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -1278,18 +1295,9 @@
           "source": "Slashdot",
           "category": "Technology",
           "sourceRole": "community"
-        },
-        {
-          "title": "Is Nvidia's Legal Trouble Over - Or Just Beginning?",
-          "url": "https://hardware.slashdot.org/story/26/11/25/0923237/is-nvidias-legal-trouble-over---or-just-beginning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedAt": "2026-11-25T11:00:00.000Z",
-          "excerpt": "America's Justice Department \"is still investigating Nvidia,\" reports the New York Post, adding that Monday President Trump posted on Truth Social that Nvidia should also \"continue its thorough internal investigation of the Company's compliance with U.S. export controls in order to ensure that it is",
-          "source": "Slashdot",
-          "category": "Technology",
-          "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Techmeme",
@@ -1297,6 +1305,17 @@
       "kind": "rss",
       "count": 15,
       "stories": [
+        {
+          "title": "Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month (Rajveer Singh Pardesi/Reuters)",
+          "url": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/",
+          "publishedAt": "2026-11-26T19:55:02.000Z",
+          "excerpt": "Rajveer Singh Pardesi / Reuters : Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month &nbsp; &mdash;&nbsp; Binance said on Thursday its withdrawal recovery work is complete and it has lifted its withdrawal su",
+          "source": "Techmeme",
+          "category": "Technology",
+          "sourceUrl": "https://www.techmeme.com/261126/p24#a261126p24",
+          "sourceRole": "curator",
+          "discoveryChannel": "curator:Techmeme"
+        },
         {
           "title": "Altair Semiconductor, an Israeli chipmaker spun off from Sony earlier in 2026, raised a $100M Series A, as it prepares to launch low-power cellular modems (CTech)",
           "url": "https://www.calcalistech.com/ctechnews/article/m3h4xzamw",
@@ -1450,20 +1469,9 @@
           "sourceUrl": "https://www.techmeme.com/261126/p10#a261126p10",
           "sourceRole": "curator",
           "discoveryChannel": "curator:Techmeme"
-        },
-        {
-          "title": "Elon Musk says he and SpaceX plan to give every child in the US two SpaceX shares via Trump Accounts, doubling his pledge; the donation is worth ~$18.4B (Peter Vercoe/Bloomberg)",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-26/musk-says-every-us-kid-to-get-two-spacex-shares-doubling-pledge",
-          "publishedAt": "2026-11-26T10:50:17.000Z",
-          "excerpt": "Peter Vercoe / Bloomberg : Elon Musk says he and SpaceX plan to give every child in the US two SpaceX shares via Trump Accounts, doubling his pledge; the donation is worth ~$18.4B &nbsp; &mdash;&nbsp; Elon Musk and SpaceX will give every child in the US two shares in the space exploration company, d",
-          "source": "Techmeme",
-          "category": "Technology",
-          "sourceUrl": "https://www.techmeme.com/261126/p9#a261126p9",
-          "sourceRole": "curator",
-          "discoveryChannel": "curator:Techmeme"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Engadget",
@@ -1471,6 +1479,24 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "1Password says it was hacked but users' vaults are safe",
+          "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "excerpt": "1Password assures customers that their logins and other sensitive information were not compromised in a recent data breach.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Amazon workers around the world plan strikes and protests on Black Friday and Cyber Monday",
+          "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
+          "publishedAt": "2026-11-26T19:44:49.000Z",
+          "excerpt": "A campaign demanding that Amazon recognize and bargain with unions will see workers in more than 20 countries mobilize.",
+          "source": "Engadget",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
           "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
@@ -1632,27 +1658,9 @@
           "source": "Engadget",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Acer Predator Atlas 8 review: Potent performance at a slightly better price",
-          "url": "https://www.engadget.com/2326961/acer-predator-atlas-8-review/",
-          "publishedAt": "2026-11-25T13:00:00.000Z",
-          "excerpt": "Thanks to its Intel Arc G3 Extreme chip, the Acer Predator Atlas 8 delivers 95 percent of the performance you get from MSI's Claw 8 EX AI+ for $350 less.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "WhatsApp is testing stickers with sound",
-          "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
-          "publishedAt": "2026-11-25T12:24:57.000Z",
-          "excerpt": "WhatsApp's newest public beta includes the ability to create stickers with sounds.",
-          "source": "Engadget",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "TechRadar",
@@ -1660,6 +1668,33 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "iPad mini 2026 gets shock Black Friday discount— save $100 on the OLED tablet",
+          "url": "https://www.techradar.com/seasonal-sales/ipad-mini-2026-gets-shock-black-friday-discount-save-usd100-on-the-oled-tablet-thats-barely-a-month-old",
+          "publishedAt": "2026-11-26T20:12:34.000Z",
+          "excerpt": "Apple's latest iPad mini 2026 was announced just weeks ago, but has already been given a hefty discount— this one could sell fast.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "The Black Friday sales are officially live in Australia — these are the 80+ best deals I've found so far on headphones, TVs, vacuum cleaners, coffee machines and more",
+          "url": "https://www.techradar.com/seasonal-sales/live/black-friday-sales-australia-live-3",
+          "publishedAt": "2026-11-26T20:07:00.000Z",
+          "excerpt": "Black Friday is finally here and I'm tracking all the latest savings and offers from the likes of Amazon, JB Hi-Fi, The Good Guys and more",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
+          "title": "Proton is making headlines everywhere — but is its Black Friday deal actually good?",
+          "url": "https://www.techradar.com/vpn/vpn-services/is-proton-black-friday-deal-good",
+          "publishedAt": "2026-11-26T20:06:09.000Z",
+          "excerpt": "Proton has slashed the prices of both its VPN and full security suite, with the latter dropping as low as $1 a month. The question now is: are you ready to look past the CEO's aggressive AI push?",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "Save $3,000 on an RTX 5090 gaming PC with a Core Ultra 7 270K Plus right now — liquid-cooled Maingear PC has 32GB DDR5, 2TB SSD, 1.2Kw PSU and gets free AAA games worth $190",
           "url": "https://www.techradar.com/pro/save-usd3-000-on-an-rtx-5090-gaming-pc-with-a-core-ultra-7-270k-plus-right-now-liquid-cooled-maingear-pc-has-32gb-ddr5-2tb-ssd-1-2kw-psu-and-gets-free-aaa-games-worth-usd190",
@@ -1751,6 +1786,15 @@
           "sourceRole": "publisher"
         },
         {
+          "title": "How to watch A Ghost Story for Christmas: The Bride’s Chamber for free — stream from anywhere",
+          "url": "https://www.techradar.com/entertainment/how-to-watch/tv-shows/-a-ghost-story-for-christmas-the-brides-chamber-free",
+          "publishedAt": "2026-11-26T18:00:00.000Z",
+          "excerpt": "Martin Freeman and Jim Broadbent join the cast for this year's special. Here's how to watch A Ghost Story for Christmas: The Bride's Chamber online from anywhere, and for free.",
+          "source": "TechRadar",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
+        {
           "title": "How to watch the Beyond Paradise 2026 Christmas special online for FREE — stream cosy crime holiday special from anywhere",
           "url": "https://www.techradar.com/entertainment/tv-shows/watch-the-beyond-paradise-2026-christmas-special-free",
           "publishedAt": "2026-11-26T18:00:00.000Z",
@@ -1764,15 +1808,6 @@
           "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-death-in-paradise-2026-christmas-special-free",
           "publishedAt": "2026-11-26T18:00:00.000Z",
           "excerpt": "A family feud turns deadly, threatening to derail the team's festive plans. Here's how to watch the Death in Paradise 2026 Christmas special online from anywhere.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "How to watch A Ghost Story for Christmas: The Bride’s Chamber for free — stream from anywhere",
-          "url": "https://www.techradar.com/entertainment/how-to-watch/tv-shows/-a-ghost-story-for-christmas-the-brides-chamber-free",
-          "publishedAt": "2026-11-26T18:00:00.000Z",
-          "excerpt": "Martin Freeman and Jim Broadbent join the cast for this year's special. Here's how to watch A Ghost Story for Christmas: The Bride's Chamber online from anywhere, and for free.",
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
@@ -1812,36 +1847,9 @@
           "source": "TechRadar",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "Phanteks' D30-120 reverse-airflow DRGB fan three-pack drops to $70 at Newegg",
-          "url": "https://www.techradar.com/pro/phanteks-d30-120-reverse-airflow-drgb-fan-three-pack-with-61-5-cubic-feet-per-minute-airflow-drops-to-usd70-at-newegg-thats-less-than-usd24-per-fan",
-          "publishedAt": "2026-11-26T17:25:00.000Z",
-          "excerpt": "Phanteks' D30-120 use reverse-airflow for side or bottom intakes to keep your computer cool and your build clean.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "This monster gaming laptop with an Nvidia GeForce RTX 5090, 24-core Intel Core Ultra 9 CPU, and 32GB of DDR5 RAM just got a $350 price cut",
-          "url": "https://www.techradar.com/seasonal-sales/this-monster-gaming-laptop-with-an-nvidia-geforce-rtx-5090-24-core-intel-core-ultra-9-cpu-and-32gb-of-ddr5-ram-has-just-had-a-usd350-price-cut",
-          "publishedAt": "2026-11-26T17:15:45.000Z",
-          "excerpt": "I've given up trying to find a gaming PC with an Nvidia RTX 5090 for a realistic price — but this gaming laptop could be a great compromise for Black Friday.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
-        },
-        {
-          "title": "Black Friday 2026 Xbox Series X deals — big price cuts on controllers, headsets, and games, even in the face of console shortages",
-          "url": "https://www.techradar.com/gaming/black-friday-2026-xbox-series-x-deals-big-price-cuts-on-controllers-headsets-and-games-even-in-the-face-of-console-shortages",
-          "publishedAt": "2026-11-26T17:15:31.000Z",
-          "excerpt": "Our picks for the best Black Friday Xbox Series X deals right now, from headsets to controllers and games.",
-          "source": "TechRadar",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "9to5Mac",
@@ -1849,6 +1857,15 @@
       "kind": "rss",
       "count": 20,
       "stories": [
+        {
+          "title": "Judge orders Apple to produce 3,200 documents in Epic Games dispute",
+          "url": "https://9to5mac.com/2026/11/26/judge-orders-apple-to-produce-3200-documents-in-epic-games-dispute/",
+          "publishedAt": "2026-11-26T19:52:24.000Z",
+          "excerpt": "A federal judge has ordered Apple to produce a random sample of 3,200 documents for Epic Games to review, following Epic’s allegations that Apple improperly withheld more than 122,000 documents related to its proposed App Store commissions. Here are the details. more…",
+          "source": "9to5Mac",
+          "category": "Technology",
+          "sourceRole": "publisher"
+        },
         {
           "title": "9to5Mac Daily: November 26, 2026 – Tech we’re thankful for",
           "url": "https://9to5mac.com/2026/11/26/daily-november-26-2026/",
@@ -2019,18 +2036,9 @@
           "source": "9to5Mac",
           "category": "Technology",
           "sourceRole": "publisher"
-        },
-        {
-          "title": "iOS 27.3 release date: Here’s when new iPhone features are coming",
-          "url": "https://9to5mac.com/2026/11/25/ios-27-3-release-date-heres-when-to-expect-new-iphone-features/",
-          "publishedAt": "2026-11-25T19:38:33.000Z",
-          "excerpt": "iOS 27.3 is coming soon, packed with new features for iPhone users. Here’s when to expect the next big iPhone software update. more…",
-          "source": "9to5Mac",
-          "category": "Technology",
-          "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Humanist Review",
@@ -2219,7 +2227,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "It’s Nice That",
@@ -2408,7 +2416,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Fast Company",
@@ -2552,7 +2560,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Creative Bloq",
@@ -2741,7 +2749,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Sidebar",
@@ -2950,7 +2958,7 @@
           "discoveryChannel": "curator:Sidebar"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Creative Boom",
@@ -3119,7 +3127,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Nielsen Norman Group",
@@ -3288,7 +3296,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Creative Independent",
@@ -3377,7 +3385,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Smashing Magazine",
@@ -3546,7 +3554,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "A List Apart",
@@ -3715,7 +3723,7 @@
           "category": "Design"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Them",
@@ -3904,7 +3912,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "New York Magazine (Intelligencer)",
@@ -4093,7 +4101,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Atlantic",
@@ -4282,7 +4290,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The New Yorker",
@@ -4327,19 +4335,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Are We Really Witnessing a Cyber Apocalypse?",
-          "url": "https://www.newyorker.com/culture/q-and-a/are-we-really-witnessing-a-cyber-apocalypse",
+          "title": "Do You Have to Be on Instagram to Be a Chef?",
+          "url": "https://www.newyorker.com/culture/the-lede/do-you-have-to-be-on-instagram-to-be-a-chef",
           "publishedAt": "2026-11-25T11:00:00.000Z",
-          "excerpt": "There are reasons to worry—and to keep that worry in proportion.",
+          "excerpt": "The path to a career writing recipes used to involve working one’s way up through a restaurant or a food publication, or landing a TV show. Now you post to the feed.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Do You Have to Be on Instagram to Be a Chef?",
-          "url": "https://www.newyorker.com/culture/the-lede/do-you-have-to-be-on-instagram-to-be-a-chef",
+          "title": "Are We Really Witnessing a Cyber Apocalypse?",
+          "url": "https://www.newyorker.com/culture/q-and-a/are-we-really-witnessing-a-cyber-apocalypse",
           "publishedAt": "2026-11-25T11:00:00.000Z",
-          "excerpt": "The path to a career writing recipes used to involve working one’s way up through a restaurant or a food publication, or landing a TV show. Now you post to the feed.",
+          "excerpt": "There are reasons to worry—and to keep that worry in proportion.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4435,19 +4443,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Christoph Niemann’s “A Matter of Perspective”",
-          "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
+          "title": "Briefly Noted Book Reviews",
+          "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
           "publishedAt": "2026-11-23T11:00:00.000Z",
-          "excerpt": "In and out of the boardroom.",
+          "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
         },
         {
-          "title": "Briefly Noted Book Reviews",
-          "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
+          "title": "Christoph Niemann’s “A Matter of Perspective”",
+          "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
           "publishedAt": "2026-11-23T11:00:00.000Z",
-          "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
+          "excerpt": "In and out of the boardroom.",
           "source": "The New Yorker",
           "category": "Culture",
           "sourceRole": "publisher"
@@ -4471,7 +4479,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Hyperallergic",
@@ -4706,7 +4714,7 @@
           "category": "Culture"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Vox",
@@ -4895,7 +4903,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Public Domain Review",
@@ -5084,7 +5092,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Conversation",
@@ -5253,7 +5261,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Pew Research Center",
@@ -5422,7 +5430,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "404 Media",
@@ -5551,7 +5559,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Undark",
@@ -5650,7 +5658,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "JSTOR Daily",
@@ -5839,7 +5847,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Noema",
@@ -6028,7 +6036,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "n+1",
@@ -6217,7 +6225,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Rest of World",
@@ -6322,7 +6330,7 @@
           "category": "Society"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Quietus",
@@ -6491,7 +6499,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "BFI",
@@ -6660,7 +6668,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "MUBI Notebook",
@@ -6829,7 +6837,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Bandcamp Daily",
@@ -6998,7 +7006,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Colossal",
@@ -7187,7 +7195,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Pudding",
@@ -7356,7 +7364,7 @@
           "category": "Arts"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Publishers Weekly",
@@ -7525,7 +7533,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Asian Review of Books",
@@ -7654,6 +7662,7 @@
           "category": "Books"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
     },
     {
@@ -7823,7 +7832,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Book Marks",
@@ -7992,7 +8001,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "London Review of Books",
@@ -8181,7 +8190,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Millions",
@@ -8350,7 +8359,7 @@
           "category": "Books"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Literary Hub",
@@ -8519,7 +8528,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Rumpus",
@@ -8708,7 +8717,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Poetry Foundation",
@@ -8877,7 +8886,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Electric Literature",
@@ -9046,7 +9055,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Paris Review",
@@ -9135,7 +9144,7 @@
           "category": "Literature"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Offing",
@@ -9324,7 +9333,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Words Without Borders",
@@ -9513,7 +9522,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Mekong Review",
@@ -9702,7 +9711,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "The Marginalian",
@@ -9871,7 +9880,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Daily Nous",
@@ -10040,7 +10049,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Aeon",
@@ -10209,7 +10218,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Psyche",
@@ -10218,19 +10227,19 @@
       "count": 20,
       "stories": [
         {
-          "title": "What exile was like for the first people called ‘refugees’",
-          "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
+          "title": "There and back",
+          "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
           "publishedAt": "2026-11-26T11:00:00.000Z",
-          "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
+          "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "There and back",
-          "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
+          "title": "What exile was like for the first people called ‘refugees’",
+          "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
           "publishedAt": "2026-11-26T11:00:00.000Z",
-          "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
+          "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10326,19 +10335,19 @@
           "sourceRole": "publisher"
         },
         {
-          "title": "Eye on the mark",
-          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
         },
         {
-          "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-          "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+          "title": "Eye on the mark",
+          "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
           "publishedAt": "2026-11-12T11:00:00.000Z",
-          "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+          "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
           "source": "Psyche",
           "category": "Philosophy",
           "sourceRole": "publisher"
@@ -10398,7 +10407,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Tricycle",
@@ -10567,7 +10576,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Lion’s Roar",
@@ -10736,7 +10745,7 @@
           "category": "Philosophy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Kottke",
@@ -10945,7 +10954,7 @@
           "discoveryChannel": "curator:Kottke"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Longreads",
@@ -11154,7 +11163,7 @@
           "discoveryChannel": "curator:Longreads"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Waxy",
@@ -11383,7 +11392,7 @@
           "discoveryChannel": "curator:Waxy"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "MetaFilter",
@@ -11455,7 +11464,7 @@
           "sourceRole": "community"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Quanta Magazine",
@@ -11644,7 +11653,7 @@
           "sourceRole": "publisher"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Dense Discovery",
@@ -11853,6 +11862,7 @@
           "discoveryChannel": "curator:Dense Discovery"
         }
       ],
+      "retained": true,
       "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
     },
     {
@@ -12022,7 +12032,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "有線新聞",
@@ -12191,7 +12201,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Now 新聞",
@@ -12360,7 +12370,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "Hong Kong Free Press",
@@ -12529,7 +12539,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "香港電台中文本地新聞",
@@ -12698,7 +12708,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "South China Morning Post",
@@ -12867,7 +12877,7 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     },
     {
       "name": "香港政府新聞公報",
@@ -13036,10 +13046,19 @@
           "category": "Hong Kong"
         }
       ],
-      "lastSuccessfulAt": "2026-11-26T19:39:56.428Z"
+      "lastSuccessfulAt": "2026-11-26T20:17:22.096Z"
     }
   ],
   "stories": [
+    {
+      "title": "The USA as a Civilizations-esque map",
+      "url": "https://karpathy.ai/usaciv/",
+      "publishedAt": "2026-11-26T19:53:58.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50658997"
+    },
     {
       "title": "George Whitesides, 1939-2026",
       "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
@@ -13059,31 +13078,13 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50657645"
     },
     {
-      "title": "YouTube Ad Punisher – Bypass anti-adblock",
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
       "url": "https://github.com/antonpictures/youtube-punisher",
       "publishedAt": "2026-11-26T17:36:47.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50657530"
-    },
-    {
-      "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning",
-      "url": "https://github.com/deepseek-ai/deepseek-math",
-      "publishedAt": "2026-11-26T17:21:14.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50657355"
-    },
-    {
-      "title": "Tracking Diseases Cured by AI",
-      "url": "https://diseasescuredbyai.com/",
-      "publishedAt": "2026-11-26T17:16:41.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50657307"
     },
     {
       "title": "AMD Specific Patches for Llama.cpp",
@@ -13113,13 +13114,13 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50657059"
     },
     {
-      "title": "Ask HN: Any courses/products by indie makers worth getting today?",
-      "url": "https://news.ycombinator.com/item?id=50656763",
-      "publishedAt": "2026-11-26T16:16:41.000Z",
+      "title": "Kagi Watch",
+      "url": "https://kagi.com/watch",
+      "publishedAt": "2026-11-26T16:28:54.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50656763"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50656862"
     },
     {
       "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
@@ -13185,13 +13186,31 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
     },
     {
-      "title": "Moat: Your OpenRouter Replacement",
+      "title": "OpenAI may be in cost control mode",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "publishedAt": "2026-11-26T07:33:12.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
+    },
+    {
+      "title": "Moat: OpenRouter replacement",
       "url": "https://commandcode.ai/moat",
       "publishedAt": "2026-11-26T06:32:48.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
       "discussionUrl": "https://news.ycombinator.com/item?id=50652184"
+    },
+    {
+      "title": "An algebraic quantization of gravity from the null cone",
+      "url": "https://arxiv.org/abs/2611.34924",
+      "publishedAt": "2026-11-26T05:37:51.000Z",
+      "excerpt": "",
+      "source": "Hacker News",
+      "category": "Technology",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50651863"
     },
     {
       "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
@@ -13203,22 +13222,13 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50651719"
     },
     {
-      "title": "Minipg: PostgreSQL as a Single Executable",
-      "url": "https://progrium.github.io/minipg/",
-      "publishedAt": "2026-11-26T03:00:48.000Z",
+      "title": "NormalScript: A perfectly normal scripting language",
+      "url": "https://psychoscript.com/",
+      "publishedAt": "2026-11-26T04:32:26.000Z",
       "excerpt": "",
       "source": "Hacker News",
       "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50650892"
-    },
-    {
-      "title": "Tell HN: Lots of Ask HNs again",
-      "url": "https://news.ycombinator.com/item?id=50649864",
-      "publishedAt": "2026-11-26T00:43:34.000Z",
-      "excerpt": "",
-      "source": "Hacker News",
-      "category": "Technology",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50649864"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50651430"
     },
     {
       "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
@@ -13861,6 +13871,22 @@
       "category": "Technology"
     },
     {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "title": "Is Alice Huang a spy or not?",
+      "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+      "publishedAt": "2026-11-26T20:00:00.000Z",
+      "excerpt": "The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.",
+      "source": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "title": "X finally gets parental controls after 20 years",
       "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
       "publishedAt": "2026-11-26T19:31:50.000Z",
@@ -14005,20 +14031,31 @@
       "category": "Technology"
     },
     {
-      "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
-      "url": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
-      "publishedAt": "2026-11-25T13:08:19.000Z",
-      "excerpt": "Flipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "Binance fully reopens withdrawals nearly a month after its $6.3B hack",
+      "url": "https://thenextweb.com/news/binance-withdrawals-reopen-6-3bn-hack-recovery-complete",
+      "publishedAt": "2026-11-26T20:06:21.000Z",
+      "excerpt": "Binance has lifted the last of the withdrawal limits it put in place after its record $6.3 billion hack in October. The exchange said on Thursday that its withdrawal recovery work is complete. “Our withdrawal recovery work is completed and the withdrawal suspension from the October security incident",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "publishedAt": "2026-11-25T13:00:00.000Z",
-      "excerpt": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-      "source": "TechCrunch",
-      "category": "Technology"
+      "title": "Firms set up memory chip ‘war rooms’ as some prices jump 10x, WSJ reports",
+      "url": "https://thenextweb.com/news/memory-shortage-war-rooms-musk-samsung-wsj",
+      "publishedAt": "2026-11-26T19:51:41.000Z",
+      "excerpt": "Electronics makers have set up procurement “war rooms” to hunt for memory chips. Prices for some chips have risen tenfold in a year, Jiyoung Sohn and Sooyoung Rhee reported for The Wall Street Journal. Staff scour eBay, call hundreds of brokers and buy batches as small as five to 12 units, the newsp",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Signal’s Moxie Marlinspike says AI safety is building mass surveillance",
+      "url": "https://thenextweb.com/news/moxie-marlinspike-ai-surveillance-confer-encryption",
+      "publishedAt": "2026-11-26T19:42:36.000Z",
+      "excerpt": "Moxie Marlinspike, who built Signal, says the way AI companies police misuse is turning into the biggest mass surveillance system ever built. He wants the watching pointed at the AI models instead of the people using them, he told Tyler Cowen on Conversations with Tyler. The episode was recorded liv",
+      "source": "The Next Web",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "Rockstar staff vote 75% against union recognition a week after GTA VI",
@@ -14084,31 +14121,13 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Moonshot reportedly turns to Google and Meta models for distillation",
-      "url": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
-      "publishedAt": "2026-11-26T16:55:44.000Z",
-      "excerpt": "Moonshot AI has begun distilling from Google and Meta models after OpenAI and Anthropic made theirs harder to copy, Reuters reported. Z.ai’s GLM-5.5 has missed its November target, and new US rules on overseas computing could push it and Moonshot’s Kimi K4 further back. Chinese AI lab Moonshot has b",
-      "source": "The Next Web",
+      "title": "Australia Passes Tough Legislation Requiring Big Tech to Preempt Foreseeable Harms",
+      "url": "https://yro.slashdot.org/story/26/11/25/2326240/australia-passes-tough-legislation-requiring-big-tech-to-preempt-foreseeable-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "publishedAt": "2026-11-26T20:00:00.000Z",
+      "excerpt": "Australia's Parliament has passed the Digital Duty of Care Act, requiring online platforms to proactively identify and mitigate foreseeable harms or face potentially billions of dollars in fines. The Record reports: Platforms are required to detect and decrease risks from harmful content and must bo",
+      "source": "Slashdot",
       "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Nvidia agrees to pay $290M to settle 2018 crypto mining investor lawsuit",
-      "url": "https://thenextweb.com/news/nvidia-settlement-290m-crypto-mining-shareholder-lawsuit",
-      "publishedAt": "2026-11-26T16:50:37.000Z",
-      "excerpt": "Nvidia has agreed to pay $290 million to settle a 2018 shareholder lawsuit over how much of its gaming chip sales came from cryptocurrency miners. The investors leading the class action asked a federal judge in California to approve the deal in a filing on Tuesday, Mike Scarcella reported for Reuter",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Google patent describes an AI TV channel that casts you as the star",
-      "url": "https://thenextweb.com/news/google-my-channel-patent-ai-tv-shows-starring-you",
-      "publishedAt": "2026-11-26T16:43:23.000Z",
-      "excerpt": "Google has described a TV channel that would generate AI videos for each viewer and could cast the viewer as the lead. The idea is set out in a patent application that Google filed in May 2025. The US Patent and Trademark Office published it on 19 November. Its title is “Creating a Channel of [&hell",
-      "source": "The Next Web",
-      "category": "Technology",
-      "sourceRole": "publisher"
+      "sourceRole": "community"
     },
     {
       "title": "Anthropic Created a Honeypot To Lure AI Agents Into Misbehaving",
@@ -14237,13 +14256,15 @@
       "sourceRole": "community"
     },
     {
-      "title": "Is Nvidia's Legal Trouble Over - Or Just Beginning?",
-      "url": "https://hardware.slashdot.org/story/26/11/25/0923237/is-nvidias-legal-trouble-over---or-just-beginning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "publishedAt": "2026-11-25T11:00:00.000Z",
-      "excerpt": "America's Justice Department \"is still investigating Nvidia,\" reports the New York Post, adding that Monday President Trump posted on Truth Social that Nvidia should also \"continue its thorough internal investigation of the Company's compliance with U.S. export controls in order to ensure that it is",
-      "source": "Slashdot",
+      "title": "Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month (Rajveer Singh Pardesi/Reuters)",
+      "url": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/",
+      "publishedAt": "2026-11-26T19:55:02.000Z",
+      "excerpt": "Rajveer Singh Pardesi / Reuters : Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month &nbsp; &mdash;&nbsp; Binance said on Thursday its withdrawal recovery work is complete and it has lifted its withdrawal su",
+      "source": "Techmeme",
       "category": "Technology",
-      "sourceRole": "community"
+      "sourceUrl": "https://www.techmeme.com/261126/p24#a261126p24",
+      "sourceRole": "curator",
+      "discoveryChannel": "curator:Techmeme"
     },
     {
       "title": "Altair Semiconductor, an Israeli chipmaker spun off from Sony earlier in 2026, raised a $100M Series A, as it prepares to launch low-power cellular modems (CTech)",
@@ -14400,15 +14421,22 @@
       "discoveryChannel": "curator:Techmeme"
     },
     {
-      "title": "Elon Musk says he and SpaceX plan to give every child in the US two SpaceX shares via Trump Accounts, doubling his pledge; the donation is worth ~$18.4B (Peter Vercoe/Bloomberg)",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/musk-says-every-us-kid-to-get-two-spacex-shares-doubling-pledge",
-      "publishedAt": "2026-11-26T10:50:17.000Z",
-      "excerpt": "Peter Vercoe / Bloomberg : Elon Musk says he and SpaceX plan to give every child in the US two SpaceX shares via Trump Accounts, doubling his pledge; the donation is worth ~$18.4B &nbsp; &mdash;&nbsp; Elon Musk and SpaceX will give every child in the US two shares in the space exploration company, d",
-      "source": "Techmeme",
+      "title": "1Password says it was hacked but users' vaults are safe",
+      "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
+      "publishedAt": "2026-11-26T20:00:00.000Z",
+      "excerpt": "1Password assures customers that their logins and other sensitive information were not compromised in a recent data breach.",
+      "source": "Engadget",
       "category": "Technology",
-      "sourceUrl": "https://www.techmeme.com/261126/p9#a261126p9",
-      "sourceRole": "curator",
-      "discoveryChannel": "curator:Techmeme"
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Amazon workers around the world plan strikes and protests on Black Friday and Cyber Monday",
+      "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
+      "publishedAt": "2026-11-26T19:44:49.000Z",
+      "excerpt": "A campaign demanding that Amazon recognize and bargain with unions will see workers in more than 20 countries mobilize.",
+      "source": "Engadget",
+      "category": "Technology",
+      "sourceRole": "publisher"
     },
     {
       "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
@@ -14573,20 +14601,29 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Acer Predator Atlas 8 review: Potent performance at a slightly better price",
-      "url": "https://www.engadget.com/2326961/acer-predator-atlas-8-review/",
-      "publishedAt": "2026-11-25T13:00:00.000Z",
-      "excerpt": "Thanks to its Intel Arc G3 Extreme chip, the Acer Predator Atlas 8 delivers 95 percent of the performance you get from MSI's Claw 8 EX AI+ for $350 less.",
-      "source": "Engadget",
+      "title": "iPad mini 2026 gets shock Black Friday discount— save $100 on the OLED tablet",
+      "url": "https://www.techradar.com/seasonal-sales/ipad-mini-2026-gets-shock-black-friday-discount-save-usd100-on-the-oled-tablet-thats-barely-a-month-old",
+      "publishedAt": "2026-11-26T20:12:34.000Z",
+      "excerpt": "Apple's latest iPad mini 2026 was announced just weeks ago, but has already been given a hefty discount— this one could sell fast.",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
     {
-      "title": "WhatsApp is testing stickers with sound",
-      "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
-      "publishedAt": "2026-11-25T12:24:57.000Z",
-      "excerpt": "WhatsApp's newest public beta includes the ability to create stickers with sounds.",
-      "source": "Engadget",
+      "title": "The Black Friday sales are officially live in Australia — these are the 80+ best deals I've found so far on headphones, TVs, vacuum cleaners, coffee machines and more",
+      "url": "https://www.techradar.com/seasonal-sales/live/black-friday-sales-australia-live-3",
+      "publishedAt": "2026-11-26T20:07:00.000Z",
+      "excerpt": "Black Friday is finally here and I'm tracking all the latest savings and offers from the likes of Amazon, JB Hi-Fi, The Good Guys and more",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
+      "title": "Proton is making headlines everywhere — but is its Black Friday deal actually good?",
+      "url": "https://www.techradar.com/vpn/vpn-services/is-proton-black-friday-deal-good",
+      "publishedAt": "2026-11-26T20:06:09.000Z",
+      "excerpt": "Proton has slashed the prices of both its VPN and full security suite, with the latter dropping as low as $1 a month. The question now is: are you ready to look past the CEO's aggressive AI push?",
+      "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14681,6 +14718,15 @@
       "sourceRole": "publisher"
     },
     {
+      "title": "How to watch A Ghost Story for Christmas: The Bride’s Chamber for free — stream from anywhere",
+      "url": "https://www.techradar.com/entertainment/how-to-watch/tv-shows/-a-ghost-story-for-christmas-the-brides-chamber-free",
+      "publishedAt": "2026-11-26T18:00:00.000Z",
+      "excerpt": "Martin Freeman and Jim Broadbent join the cast for this year's special. Here's how to watch A Ghost Story for Christmas: The Bride's Chamber online from anywhere, and for free.",
+      "source": "TechRadar",
+      "category": "Technology",
+      "sourceRole": "publisher"
+    },
+    {
       "title": "How to watch the Beyond Paradise 2026 Christmas special online for FREE — stream cosy crime holiday special from anywhere",
       "url": "https://www.techradar.com/entertainment/tv-shows/watch-the-beyond-paradise-2026-christmas-special-free",
       "publishedAt": "2026-11-26T18:00:00.000Z",
@@ -14694,15 +14740,6 @@
       "url": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-death-in-paradise-2026-christmas-special-free",
       "publishedAt": "2026-11-26T18:00:00.000Z",
       "excerpt": "A family feud turns deadly, threatening to derail the team's festive plans. Here's how to watch the Death in Paradise 2026 Christmas special online from anywhere.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "How to watch A Ghost Story for Christmas: The Bride’s Chamber for free — stream from anywhere",
-      "url": "https://www.techradar.com/entertainment/how-to-watch/tv-shows/-a-ghost-story-for-christmas-the-brides-chamber-free",
-      "publishedAt": "2026-11-26T18:00:00.000Z",
-      "excerpt": "Martin Freeman and Jim Broadbent join the cast for this year's special. Here's how to watch A Ghost Story for Christmas: The Bride's Chamber online from anywhere, and for free.",
       "source": "TechRadar",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -14744,29 +14781,11 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Phanteks' D30-120 reverse-airflow DRGB fan three-pack drops to $70 at Newegg",
-      "url": "https://www.techradar.com/pro/phanteks-d30-120-reverse-airflow-drgb-fan-three-pack-with-61-5-cubic-feet-per-minute-airflow-drops-to-usd70-at-newegg-thats-less-than-usd24-per-fan",
-      "publishedAt": "2026-11-26T17:25:00.000Z",
-      "excerpt": "Phanteks' D30-120 use reverse-airflow for side or bottom intakes to keep your computer cool and your build clean.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "This monster gaming laptop with an Nvidia GeForce RTX 5090, 24-core Intel Core Ultra 9 CPU, and 32GB of DDR5 RAM just got a $350 price cut",
-      "url": "https://www.techradar.com/seasonal-sales/this-monster-gaming-laptop-with-an-nvidia-geforce-rtx-5090-24-core-intel-core-ultra-9-cpu-and-32gb-of-ddr5-ram-has-just-had-a-usd350-price-cut",
-      "publishedAt": "2026-11-26T17:15:45.000Z",
-      "excerpt": "I've given up trying to find a gaming PC with an Nvidia RTX 5090 for a realistic price — but this gaming laptop could be a great compromise for Black Friday.",
-      "source": "TechRadar",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "Black Friday 2026 Xbox Series X deals — big price cuts on controllers, headsets, and games, even in the face of console shortages",
-      "url": "https://www.techradar.com/gaming/black-friday-2026-xbox-series-x-deals-big-price-cuts-on-controllers-headsets-and-games-even-in-the-face-of-console-shortages",
-      "publishedAt": "2026-11-26T17:15:31.000Z",
-      "excerpt": "Our picks for the best Black Friday Xbox Series X deals right now, from headsets to controllers and games.",
-      "source": "TechRadar",
+      "title": "Judge orders Apple to produce 3,200 documents in Epic Games dispute",
+      "url": "https://9to5mac.com/2026/11/26/judge-orders-apple-to-produce-3200-documents-in-epic-games-dispute/",
+      "publishedAt": "2026-11-26T19:52:24.000Z",
+      "excerpt": "A federal judge has ordered Apple to produce a random sample of 3,200 documents for Epic Games to review, following Epic’s allegations that Apple improperly withheld more than 122,000 documents related to its proposed App Store commissions. Here are the details. more…",
+      "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
     },
@@ -14937,15 +14956,6 @@
       "url": "https://9to5mac.com/2026/11/25/report-apple-gains-ground-as-latin-american-smartphone-shipments-plunge-24-in-q3/",
       "publishedAt": "2026-11-25T20:22:28.000Z",
       "excerpt": "According to a new Counterpoint Research report, Apple increased its share of Latin America’s smartphone shipments in Q3 2026, recording the smallest decline among the region’s top five brands. Here are the details. more…",
-      "source": "9to5Mac",
-      "category": "Technology",
-      "sourceRole": "publisher"
-    },
-    {
-      "title": "iOS 27.3 release date: Here’s when new iPhone features are coming",
-      "url": "https://9to5mac.com/2026/11/25/ios-27-3-release-date-heres-when-to-expect-new-iphone-features/",
-      "publishedAt": "2026-11-25T19:38:33.000Z",
-      "excerpt": "iOS 27.3 is coming soon, packed with new features for iPhone users. Here’s when to expect the next big iPhone software update. more…",
       "source": "9to5Mac",
       "category": "Technology",
       "sourceRole": "publisher"
@@ -17122,19 +17132,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Are We Really Witnessing a Cyber Apocalypse?",
-      "url": "https://www.newyorker.com/culture/q-and-a/are-we-really-witnessing-a-cyber-apocalypse",
+      "title": "Do You Have to Be on Instagram to Be a Chef?",
+      "url": "https://www.newyorker.com/culture/the-lede/do-you-have-to-be-on-instagram-to-be-a-chef",
       "publishedAt": "2026-11-25T11:00:00.000Z",
-      "excerpt": "There are reasons to worry—and to keep that worry in proportion.",
+      "excerpt": "The path to a career writing recipes used to involve working one’s way up through a restaurant or a food publication, or landing a TV show. Now you post to the feed.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Do You Have to Be on Instagram to Be a Chef?",
-      "url": "https://www.newyorker.com/culture/the-lede/do-you-have-to-be-on-instagram-to-be-a-chef",
+      "title": "Are We Really Witnessing a Cyber Apocalypse?",
+      "url": "https://www.newyorker.com/culture/q-and-a/are-we-really-witnessing-a-cyber-apocalypse",
       "publishedAt": "2026-11-25T11:00:00.000Z",
-      "excerpt": "The path to a career writing recipes used to involve working one’s way up through a restaurant or a food publication, or landing a TV show. Now you post to the feed.",
+      "excerpt": "There are reasons to worry—and to keep that worry in proportion.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -17230,19 +17240,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Christoph Niemann’s “A Matter of Perspective”",
-      "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
+      "title": "Briefly Noted Book Reviews",
+      "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
       "publishedAt": "2026-11-23T11:00:00.000Z",
-      "excerpt": "In and out of the boardroom.",
+      "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
     },
     {
-      "title": "Briefly Noted Book Reviews",
-      "url": "https://www.newyorker.com/magazine/2026/11/30/all-the-presidents-wars-the-revolutionary-origins-of-language-enough-about-love-winter-song",
+      "title": "Christoph Niemann’s “A Matter of Perspective”",
+      "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-11-30",
       "publishedAt": "2026-11-23T11:00:00.000Z",
-      "excerpt": "“All the Presidents’ Wars,” “The Revolutionary Origins of Language,” “Enough About Love,” and “Winter Song.”",
+      "excerpt": "In and out of the boardroom.",
       "source": "The New Yorker",
       "category": "Culture",
       "sourceRole": "publisher"
@@ -22688,19 +22698,19 @@
       "category": "Philosophy"
     },
     {
-      "title": "What exile was like for the first people called ‘refugees’",
-      "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
+      "title": "There and back",
+      "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
       "publishedAt": "2026-11-26T11:00:00.000Z",
-      "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
+      "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "There and back",
-      "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
+      "title": "What exile was like for the first people called ‘refugees’",
+      "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
       "publishedAt": "2026-11-26T11:00:00.000Z",
-      "excerpt": "A lost home lives on in spikes of joy and longing; it shifts in memory as life changes. But it’s never the same - by Pam Weintraub Read on Psyche",
+      "excerpt": "Persecuted in 17th-century France, the Huguenots fled their homeland. Their memoirs reveal how they suffered and survived - by Nora Baker Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
@@ -22796,19 +22806,19 @@
       "sourceRole": "publisher"
     },
     {
-      "title": "Eye on the mark",
-      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
+      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
+      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
     },
     {
-      "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
-      "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+      "title": "Eye on the mark",
+      "url": "https://psyche.co/portraits/the-ex-cop-on-a-mission-to-see-fortune-tellers-arrested",
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "excerpt": "Society owes unhoused people access to haircuts, showers and clean clothes, not as charity, but as a matter of justice - by Giacomo Floris Read on Psyche",
+      "excerpt": "Bob Nygaard, a retired New York policeman, exposes fortune-tellers who profit from turning ordinary human longing into vulnerability. What makes him so good at it? - by Shayla Love Read on Psyche",
       "source": "Psyche",
       "category": "Philosophy",
       "sourceRole": "publisher"
